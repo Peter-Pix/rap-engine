@@ -1,72 +1,81 @@
 # RapEngine
 
-> Knowledge graph české rapové scény. Propojená síť entit, automatické SEO, programmatic content.
+> Knowledge graph české rapové scény. Next.js App Router + Contentlayer + SSG.
 
 ## Architektura
 
-```
-src/
-├── app/                    # Next.js App Router
-│   ├── raperi/[slug]/      # Profily rapperů (SSG)
-│   ├── alba/[slug]/        # Detail alba (SSG)
-│   ├── labely/[slug]/      # Detail labelu (SSG)
-│   ├── zanry/[slug]/       # Detail žánru (SSG)
-│   ├── clanky/[slug]/      # Magazín (SSG)
-│   ├── api/og/             # Edge OG image generator
-│   ├── sitemap.ts          # Auto-sitemap
-│   └── robots.ts           # Auto-robots.txt
-├── lib/
-│   ├── types.ts            # Entity typy
-│   ├── schema.ts           # Schema.org generátor (MusicGroup, MusicAlbum, BreadcrumbList…)
-│   ├── metadata.ts         # Dynamic Next.js Metadata
-│   └── interlinking.ts     # Auto-interlinking engine
-├── components/
-│   ├── layout/             # Header, Footer
-│   ├── entity/             # EntityCard, Breadcrumb, MDXRenderer
-│   └── seo/                # JsonLd
-content/
-├── raperi/*.mdx            # Profily rapperů
-├── alba/*.mdx              # Recenze alb
-├── labely/*.mdx            # Labely
-├── zanry/*.mdx             # Žánry
-└── clanky/*.mdx            # Magazín
-```
+Striktně **entitní systém** — každá URL = jedna entita s vlastním Schema.org markup, dynamickou metadata a auto-interlinkováním.
 
-## Pravidla hry (Mantinely)
+### Entity types
 
-### MUSÍ
-- **App Router only** — Server Components, Metadata API.
-- **Contentlayer pro MDX** — oddělené `.mdx` a `.json` data.
-- **SSG/ISR** — vše prerendrováno, žádný CSR pro indexovaný obsah.
-- **Auto-metadata** — title, description, canonical, schema.org při buildu.
-- **LCP < 2.5s** — žádné těžké klientské animace.
+| Cesta | Entity | Schema.org type |
+|-------|--------|-----------------|
+| `/raperi/[slug]` | Rappeři | `MusicGroup` |
+| `/alba/[slug]` | Alba | `MusicAlbum` |
+| `/labely/[slug]` | Labely | `Organization` + `MusicRecordLabel` |
+| `/zanry/[slug]` | Žánry | `WebPage` |
+| `/clanky/[slug]` | Články | `Article` |
 
-### NESMÍ
-- Žádný CSR (Client-Side Rendering) pro content.
-- Žádný generický AI spam.
-- Žádné hardcoded odkazy mezi entitami.
-- Žádné main-thread blocking animace.
+### Tech stack
+
+- **Next.js 16** App Router (SSG/ISR)
+- **Contentlayer2** — type-safe MDX content
+- **Tailwind CSS** v4
+- **TypeScript** strict mode
+- **Edge runtime** OG images
+- **Auto-generated** sitemap.xml + robots.txt
+
+## Pravidla
+
+### Co MUSÍ
+- Vše indexovatelné je předgenerované (SSG)
+- Každá URL má unikátní `title`, `description`, `canonical`, schema markup
+- Odkazy mezi entitami jsou generované programaticky
+- LCP < 2.5s
+
+### Co NESMÍ
+- Client-Side Rendering pro obsah
+- Generický AI spam bez insights
+- Hardcoded odkazy
+- Těžké klientské animace
 
 ## Vývoj
 
 ```bash
-npm install --legacy-peer-deps
-npm run dev      # contentlayer dev + next dev
-npm run build    # contentlayer build + next build --webpack
-npm run start
+npm install
+npm run dev       # contentlayer dev + next dev
+npm run build     # contentlayer build + next build
+npm run start     # production server
 ```
 
-## Roadmap
+## Content struktura
 
-- ✅ **Fáze 1** — Architektura, typy, Contentlayer, sitemap/robots
-- ✅ **Fáze 2** — Entity systém (Rapper, Album, Label, Zanr, Clanek)
-- 🟡 **Fáze 3** — Auto-interlinking v MDX, OG image generation, ComfyUI pipeline
-- ⚪ **Fáze 4** — Programmatic SEO pages (`/zanry/uk-garage/raperi`), Supabase přechod
+```
+content/
+├── raperi/*.mdx       # MusicGroup entity
+├── alba/*.mdx         # MusicAlbum entity
+├── labely/*.mdx       # MusicRecordLabel entity
+├── zanry/*.mdx        # WebPage entity
+└── clanky/*.mdx       # Article entity
+```
+
+Každý MDX má strukturovaný frontmatter (validovaný Contentlayer) a tělo s automaticky linkovanými entity zmínkami.
+
+## Auto-interlinking
+
+`src/lib/interlinking.ts` obsahuje registry entit. Při buildu se každá zmínka entity (např. "Gleb") automaticky propíše jako `<a href="/raperi/gleb">Gleb</a>`.
+
+## SEO
+
+- ✅ Schema.org per entity
+- ✅ Dynamic OG images (`/api/og?title=...&type=rapper`)
+- ✅ Sitemap auto-generated
+- ✅ Robots.txt
+- ✅ Canonical URLs absolutní
 
 ## Deploy
 
-```bash
-vercel
-```
+Auto-deploy na Vercel z main branche.
 
-Doména: [4rap.cz](https://4rap.cz)
+---
+🎯 **Cíl:** Ultimátní propojená databáze české rapové scény.
