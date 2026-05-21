@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-zinc-400 mb-3">Databáze</h3>
             <ul className="space-y-2">
-              {[['Rappeři','/raperi'],['Alba','/alba'],['Labely','/labely'],['Žánry','/zanry']].map(([l,h]) => (
+              {[['Rappeři','/raperi'],['Alba','/alba'],['Skladby','/skladby'],['Labely','/labely'],['Žánry','/zanry']].map(([l,h]) => (
                 <li key={h}><Link href={h} className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors">{l}</Link></li>
               ))}
             </ul>

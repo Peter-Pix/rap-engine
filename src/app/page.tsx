@@ -1,4 +1,4 @@
-import { allRappers, allAlbums, allLabels } from 'contentlayer/generated'
+import { allRappers, allAlbums, allLabels, allSkladbas } from 'contentlayer/generated'
 import { EntityCard } from '@/components/entity/EntityCard'
 import Link from 'next/link'
 
@@ -16,6 +16,7 @@ export default function HomePage() {
     rappers: allRappers.length,
     albums: allAlbums.length,
     labels: allLabels.length,
+    skladby: allSkladbas.length,
   }
 
   return (
@@ -51,10 +52,11 @@ export default function HomePage() {
         </div>
 
         {/* Stats */}
-        <div className="mt-12 grid grid-cols-3 gap-4 max-w-lg">
+        <div className="mt-12 grid grid-cols-4 gap-3 max-w-2xl">
           {[
             { label: 'Rappeři', value: stats.rappers },
             { label: 'Alba', value: stats.albums },
+            { label: 'Skladby', value: stats.skladby },
             { label: 'Labely', value: stats.labels },
           ].map((stat) => (
             <div key={stat.label} className="glass rounded-xl p-4 text-center">
@@ -127,7 +129,7 @@ export default function HomePage() {
               Schema.org markup, canonical URL a OG tagy — vše automatizováno.
             </p>
             <div className="flex flex-wrap gap-3">
-              {['/raperi', '/alba', '/labely', '/zanry'].map((path) => (
+              {['/raperi', '/alba', '/skladby', '/labely', '/zanry'].map((path) => (
                 <span key={path} className="text-xs font-mono text-zinc-600 bg-zinc-900 border border-zinc-800 px-2.5 py-1 rounded">
                   {path}/[slug]
                 </span>

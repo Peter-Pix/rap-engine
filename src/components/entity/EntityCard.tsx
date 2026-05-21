@@ -4,7 +4,7 @@ interface EntityCardProps {
   title: string
   description: string
   href: string
-  type: 'rapper' | 'album' | 'label' | 'zanr' | 'clanek'
+  type: 'rapper' | 'album' | 'label' | 'zanr' | 'clanek' | 'skladba'
   meta?: string
   tags?: string[]
   featured?: boolean
@@ -16,6 +16,7 @@ const TYPE_COLORS = {
   label:   '#a78bfa',
   zanr:    '#34d399',
   clanek:  '#fb923c',
+  skladba: '#f472b6',
 }
 
 const TYPE_LABELS = {
@@ -24,6 +25,7 @@ const TYPE_LABELS = {
   label:   'LABEL',
   zanr:    'ŽÁNR',
   clanek:  'ČLÁNEK',
+  skladba: 'SKLADBA',
 }
 
 export function EntityCard({ title, description, href, type, meta, tags, featured }: EntityCardProps) {

@@ -170,3 +170,73 @@ export function getArticleSchema(article: {
     },
   }
 }
+
+// ─── SKLADBA SCHEMA (MusicRecording) ─────────────────────
+export function getSkladbaSchema(track: {
+  slug: string
+  title: string
+  rapper: string
+  rapperSlug: string
+  features?: string[]
+  featuresNames?: string[]
+  album?: string
+  albumSlug?: string
+  year?: number
+  genre?: string[]
+  duration?: string  // "3:42" formát
+  description: string
+  canonicalUrl: string
+  image?: string
+  producersNames?: string[]
+}) {
+  // Konverze "3:42" → "PT3M42S" (ISO 8601)
+  let durationISO: string | undefined
+  if (track.duration) {
+    const m = track.duration.match(/^(\d+):(\d+)$/)
+    if (m) durationISO = `PT${m[1]}M${m[2]}S`
+  }
+
+  // byArtist — vše dohromady (primary + features)
+  const artists: object[] = [
+    {
+      '@type': 'MusicGroup',
+      name: track.rapper,
+      url: `${BASE_URL}/raperi/${track.rapperSlug}`,
+    },
+  ]
+  if (track.features && track.featuresNames) {
+    track.features.forEach((slug, i) => {
+      artists.push({
+        '@type': 'MusicGroup',
+        name: track.featuresNames![i] || slug,
+        url: `${BASE_URL}/raperi/${slug}`,
+      })
+    })
+  }
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'MusicRecording',
+    name: track.title,
+    description: track.description,
+    url: track.canonicalUrl,
+    byArtist: artists.length === 1 ? artists[0] : artists,
+    ...(track.image && { image: track.image }),
+    ...(track.album && {
+      inAlbum: {
+        '@type': 'MusicAlbum',
+        name: track.album,
+        ...(track.albumSlug && { url: `${BASE_URL}/alba/${track.albumSlug}` }),
+      },
+    }),
+    ...(durationISO && { duration: durationISO }),
+    ...(track.genre && track.genre.length > 0 && { genre: track.genre }),
+    ...(track.year && { datePublished: String(track.year) }),
+    ...(track.producersNames && track.producersNames.length > 0 && {
+      producer: track.producersNames.map((name) => ({
+        '@type': 'Person',
+        name,
+      })),
+    }),
+  }
+}

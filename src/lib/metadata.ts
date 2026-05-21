@@ -90,3 +90,24 @@ export function buildZanrMetadata(zanr: {
     ogImage: zanr.image, type: 'website', publishedAt: zanr.publishedAt,
   })
 }
+export function buildSkladbaMetadata(track: {
+  title: string
+  rapper: string
+  album?: string
+  description: string
+  slug: string
+  year?: number
+  image?: string
+  publishedAt: string
+}): Metadata {
+  const yearStr = track.year ? ` (${track.year})` : ''
+  const albumStr = track.album ? ` z alba ${track.album}` : ''
+  return buildMetadata({
+    title: `${track.title} — ${track.rapper}${albumStr}${yearStr}`,
+    description: track.description.slice(0, 155),
+    canonicalUrl: `${BASE_URL}/skladby/${track.slug}`,
+    ogImage: track.image,
+    type: 'article',
+    publishedAt: track.publishedAt,
+  })
+}

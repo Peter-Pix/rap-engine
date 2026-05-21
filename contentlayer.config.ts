@@ -2,7 +2,10 @@ import { defineDocumentType, makeSource } from 'contentlayer2/source-files'
 import remarkGfm from 'remark-gfm'
 import rehypeHighlight from 'rehype-highlight'
 
-// ─── RAPPER DOKUMENTY ───────────────────────────────────────────────
+import { remarkInterlinking } from './src/lib/remark-interlinking'
+import { ENTITY_REGISTRY } from './src/lib/interlinking'
+
+// ─── RAPPER ────────────────────────────────────────────────
 export const Rapper = defineDocumentType(() => ({
   name: 'Rapper',
   filePathPattern: 'raperi/**/*.mdx',
@@ -24,15 +27,12 @@ export const Rapper = defineDocumentType(() => ({
     relatedAlbums:  { type: 'list', of: { type: 'string' }, required: false },
   },
   computedFields: {
-    url: { type: 'string', resolve: (doc) => `/raperi/${doc.slug}` },
-    canonicalUrl: { 
-      type: 'string', 
-      resolve: (doc) => `https://4rap.cz/raperi/${doc.slug}` 
-    },
+    url:          { type: 'string', resolve: (doc) => `/raperi/${doc.slug}` },
+    canonicalUrl: { type: 'string', resolve: (doc) => `https://4rap.cz/raperi/${doc.slug}` },
   },
 }))
 
-// ─── ALBUM DOKUMENTY ────────────────────────────────────────────────
+// ─── ALBUM ─────────────────────────────────────────────────
 export const Album = defineDocumentType(() => ({
   name: 'Album',
   filePathPattern: 'alba/**/*.mdx',
@@ -54,15 +54,12 @@ export const Album = defineDocumentType(() => ({
     updatedAt:   { type: 'date',     required: false },
   },
   computedFields: {
-    url: { type: 'string', resolve: (doc) => `/alba/${doc.slug}` },
-    canonicalUrl: { 
-      type: 'string', 
-      resolve: (doc) => `https://4rap.cz/alba/${doc.slug}` 
-    },
+    url:          { type: 'string', resolve: (doc) => `/alba/${doc.slug}` },
+    canonicalUrl: { type: 'string', resolve: (doc) => `https://4rap.cz/alba/${doc.slug}` },
   },
 }))
 
-// ─── LABEL DOKUMENTY ────────────────────────────────────────────────
+// ─── LABEL ─────────────────────────────────────────────────
 export const Label = defineDocumentType(() => ({
   name: 'Label',
   filePathPattern: 'labely/**/*.mdx',
@@ -78,15 +75,12 @@ export const Label = defineDocumentType(() => ({
     publishedAt: { type: 'date',     required: true },
   },
   computedFields: {
-    url: { type: 'string', resolve: (doc) => `/labely/${doc.slug}` },
-    canonicalUrl: { 
-      type: 'string', 
-      resolve: (doc) => `https://4rap.cz/labely/${doc.slug}` 
-    },
+    url:          { type: 'string', resolve: (doc) => `/labely/${doc.slug}` },
+    canonicalUrl: { type: 'string', resolve: (doc) => `https://4rap.cz/labely/${doc.slug}` },
   },
 }))
 
-// ─── ZANR DOKUMENTY ─────────────────────────────────────────────────
+// ─── ZANR ──────────────────────────────────────────────────
 export const Zanr = defineDocumentType(() => ({
   name: 'Zanr',
   filePathPattern: 'zanry/**/*.mdx',
@@ -100,15 +94,12 @@ export const Zanr = defineDocumentType(() => ({
     publishedAt: { type: 'date',     required: true },
   },
   computedFields: {
-    url: { type: 'string', resolve: (doc) => `/zanry/${doc.slug}` },
-    canonicalUrl: { 
-      type: 'string', 
-      resolve: (doc) => `https://4rap.cz/zanry/${doc.slug}` 
-    },
+    url:          { type: 'string', resolve: (doc) => `/zanry/${doc.slug}` },
+    canonicalUrl: { type: 'string', resolve: (doc) => `https://4rap.cz/zanry/${doc.slug}` },
   },
 }))
 
-// ─── CLANEK DOKUMENTY ───────────────────────────────────────────────
+// ─── CLANEK ────────────────────────────────────────────────
 export const Clanek = defineDocumentType(() => ({
   name: 'Clanek',
   filePathPattern: 'clanky/**/*.mdx',
@@ -126,26 +117,59 @@ export const Clanek = defineDocumentType(() => ({
     tags:        { type: 'list',     of: { type: 'string' }, required: false },
   },
   computedFields: {
-    url: { type: 'string', resolve: (doc) => `/clanky/${doc.slug}` },
-    canonicalUrl: { 
-      type: 'string', 
-      resolve: (doc) => `https://4rap.cz/clanky/${doc.slug}` 
-    },
+    url:          { type: 'string', resolve: (doc) => `/clanky/${doc.slug}` },
+    canonicalUrl: { type: 'string', resolve: (doc) => `https://4rap.cz/clanky/${doc.slug}` },
     readingTime: {
       type: 'number',
-      resolve: (doc) => {
-        const words = doc.body.raw.split(/\s+/).length
-        return Math.ceil(words / 200)
-      },
+      resolve: (doc) => Math.ceil(doc.body.raw.split(/\s+/).length / 200),
     },
   },
 }))
 
+
+// ─── SKLADBA ───────────────────────────────────────────────
+export const Skladba = defineDocumentType(() => ({
+  name: 'Skladba',
+  filePathPattern: 'skladby/**/*.mdx',
+  contentType: 'mdx',
+  fields: {
+    title:       { type: 'string',   required: true },
+    slug:        { type: 'string',   required: true },
+    rapper:      { type: 'string',   required: true },
+    rapperSlug:  { type: 'string',   required: true },
+    features:    { type: 'list',     of: { type: 'string' }, required: false },
+    featuresNames: { type: 'list',   of: { type: 'string' }, required: false },
+    album:       { type: 'string',   required: false },
+    albumSlug:   { type: 'string',   required: false },
+    year:        { type: 'number',   required: false },
+    genre:       { type: 'list',     of: { type: 'string' }, required: false },
+    duration:    { type: 'string',   required: false },
+    trackNumber: { type: 'number',   required: false },
+    producers:   { type: 'list',     of: { type: 'string' }, required: false },
+    producersNames: { type: 'list',  of: { type: 'string' }, required: false },
+    description: { type: 'string',   required: true },
+    image:       { type: 'string',   required: false },
+    publishedAt: { type: 'date',     required: true },
+    updatedAt:   { type: 'date',     required: false },
+  },
+  computedFields: {
+    url:          { type: 'string', resolve: (doc) => `/skladby/${doc.slug}` },
+    canonicalUrl: { type: 'string', resolve: (doc) => `https://4rap.cz/skladby/${doc.slug}` },
+  },
+}))
+
+// ═══════════════════════════════════════════════════════════
+// CONTENTLAYER SOURCE — auto-interlinking plugin v MDX pipeline
+// ═══════════════════════════════════════════════════════════
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Rapper, Album, Label, Zanr, Clanek],
+  documentTypes: [Rapper, Album, Label, Zanr, Clanek, Skladba],
   mdx: {
-    remarkPlugins: [remarkGfm],
+    remarkPlugins: [
+      remarkGfm,
+      // Auto-interlinking — každá zmínka entity se transformuje na <a>
+      [remarkInterlinking, { registry: ENTITY_REGISTRY }],
+    ],
     rehypePlugins: [rehypeHighlight],
   },
 })

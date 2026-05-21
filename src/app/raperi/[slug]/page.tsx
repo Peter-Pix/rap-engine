@@ -103,17 +103,29 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
               </dl>
             </div>
 
-            {albums.length > 0 && (
-              <div>
-                <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-3">Diskografie</h2>
+            <div>
+              <div className="flex items-center justify-between mb-3">
+                <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500">Diskografie</h2>
+                {albums.length > 1 && (
+                  <Link href={`/raperi/${rapper.slug}/alba`} className="text-[10px] font-mono text-[#60a5fa] hover:text-[#93c5fd] transition-colors">
+                    Všechna →
+                  </Link>
+                )}
+              </div>
+              {albums.length > 0 ? (
                 <div className="space-y-3">
-                  {albums.map((album) => (
+                  {albums.slice(0, 3).map((album) => (
                     <EntityCard key={album.slug} title={album.title} description={album.description}
                       href={album.url} type="album" meta={String(album.year)} tags={album.genre || []} />
                   ))}
                 </div>
-              </div>
-            )}
+              ) : (
+                <p className="text-xs text-zinc-600">Žádná alba zatím nejsou v databázi.</p>
+              )}
+              <Link href={`/raperi/${rapper.slug}/skladby`} className="block mt-4 text-xs font-mono text-[#f472b6] hover:text-white transition-colors">
+                Všechny skladby →
+              </Link>
+            </div>
           </aside>
         </div>
       </div>

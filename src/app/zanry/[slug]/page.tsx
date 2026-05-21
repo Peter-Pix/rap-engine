@@ -5,6 +5,7 @@ import { buildZanrMetadata } from '@/lib/metadata'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { Breadcrumb } from '@/components/entity/Breadcrumb'
 import { EntityCard } from '@/components/entity/EntityCard'
+import Link from 'next/link'
 import type { Metadata } from 'next'
 export async function generateStaticParams() { return allZanrs.map((z) => ({ slug: z.slug })) }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -29,12 +30,29 @@ export default async function ZanrPage({ params }: { params: Promise<{ slug: str
             </div>
             <div className="rap-prose"><MDXRenderer code={zanr.body.code} /></div>
           </div>
-          <aside>
+          <aside className="space-y-4">
+            <div className="glass rounded-xl p-5">
+              <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-4">Prozkoumat žánr</h2>
+              <div className="space-y-2">
+                <Link href={`/zanry/${zanr.slug}/raperi`} className="flex items-center justify-between text-sm text-[#e4ff1a] hover:text-white transition-colors py-1">
+                  <span>Všichni rappeři</span>
+                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+                </Link>
+                <Link href={`/zanry/${zanr.slug}/alba`} className="flex items-center justify-between text-sm text-[#60a5fa] hover:text-white transition-colors py-1">
+                  <span>Všechna alba</span>
+                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+                </Link>
+                <Link href={`/zanry/${zanr.slug}/skladby`} className="flex items-center justify-between text-sm text-[#f472b6] hover:text-white transition-colors py-1">
+                  <span>Všechny skladby</span>
+                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+                </Link>
+              </div>
+            </div>
             {rappers.length > 0 && (
               <div>
-                <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-3">Rappeři tohoto žánru</h2>
+                <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-3">Rappeři</h2>
                 <div className="space-y-3">
-                  {rappers.map((r) => <EntityCard key={r.slug} title={r.title} description={r.description} href={r.url} type="rapper" meta={r.label} />)}
+                  {rappers.slice(0, 4).map((r) => <EntityCard key={r.slug} title={r.title} description={r.description} href={r.url} type="rapper" meta={r.label} />)}
                 </div>
               </div>
             )}

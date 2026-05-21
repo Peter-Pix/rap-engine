@@ -6,6 +6,7 @@ import { getLabelSchema } from '@/lib/schema'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { Breadcrumb } from '@/components/entity/Breadcrumb'
 import { EntityCard } from '@/components/entity/EntityCard'
+import Link from 'next/link'
 import type { Metadata } from 'next'
 export async function generateStaticParams() { return allLabels.map((l) => ({ slug: l.slug })) }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -33,11 +34,24 @@ export default async function LabelPage({ params }: { params: Promise<{ slug: st
             <div className="rap-prose"><MDXRenderer code={label.body.code} /></div>
           </div>
           <aside className="space-y-4">
+            <div className="glass rounded-xl p-5">
+              <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-4">Prozkoumat label</h2>
+              <div className="space-y-2">
+                <Link href={`/labely/${label.slug}/raperi`} className="flex items-center justify-between text-sm text-[#e4ff1a] hover:text-white transition-colors py-1">
+                  <span>Všichni rappeři</span>
+                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+                </Link>
+                <Link href={`/labely/${label.slug}/alba`} className="flex items-center justify-between text-sm text-[#60a5fa] hover:text-white transition-colors py-1">
+                  <span>Katalog alb</span>
+                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+                </Link>
+              </div>
+            </div>
             {artists.length > 0 && (
               <div>
                 <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-3">Umělci</h2>
                 <div className="space-y-3">
-                  {artists.map((r) => <EntityCard key={r.slug} title={r.title} description={r.description} href={r.url} type="rapper" tags={r.genre} />)}
+                  {artists.slice(0, 4).map((r) => <EntityCard key={r.slug} title={r.title} description={r.description} href={r.url} type="rapper" tags={r.genre} />)}
                 </div>
               </div>
             )}
