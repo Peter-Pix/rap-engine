@@ -13,7 +13,7 @@ function buildMetadata(page: {
   updatedAt?: string
   type?: 'website' | 'article'
 }): Metadata {
-  const ogImage = page.ogImage || `${BASE_URL}/og-default.jpg`
+  const ogImage = page.ogImage || `${BASE_URL}/og-default.png`
   return {
     title: page.title,
     description: page.description,
