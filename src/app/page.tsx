@@ -42,8 +42,8 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tighter text-white leading-[0.95] mb-6">
-            Největší<br />
-            <span className="text-[#e4ff1a]">databáze</span><br />
+            Budujeme<br />
+            <span className="text-[#e4ff1a]">databázy</span><br />
             českého rapu
           </h1>
 
