@@ -22,8 +22,19 @@ export const metadata: Metadata = {
     locale: 'cs_CZ',
     url: 'https://4rap.cz',
     siteName: '4rap.cz',
+    images: [
+      {
+        url: '/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: '4rap.cz — Největší databáze českého rapu',
+      },
+    ],
   },
-  twitter: { card: 'summary_large_image' },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-default.png'],
+  },
   robots: { index: true, follow: true },
   // Google Search Console verification
   // Nastav ENV: NEXT_PUBLIC_GSC_VERIFICATION="abc123..." (z google-site-verification meta tagu)
