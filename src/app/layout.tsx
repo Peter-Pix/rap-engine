@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { getWebSiteSchema } from '@/lib/schema'
+
+const GA_ID = 'G-9SBN9C5869'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://4rap.cz'),
@@ -42,6 +45,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="bg-zinc-950 text-zinc-100 antialiased">
+        {/* Google Analytics 4 — afterInteractive = načte se po hydrataci, neblokuje LCP */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
