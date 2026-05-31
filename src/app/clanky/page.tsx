@@ -1,48 +1,56 @@
-import { Suspense } from 'react'
 import { allClaneks } from 'contentlayer/generated'
-import { FilterableListing } from '@/components/entity/FilterableListing'
+import { ListingHero, StatsBar, EmptyState } from '@/components/shared/ListingHero'
+import { ArticleCard } from '@/components/magazine/ArticleCard'
+import { toListItem } from '@/lib/magazine'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Články — Magazín české rapové scény',
-  description: 'Recenze, profily, rozhovory a analýzy z české a slovenské rapové scény.',
+  description:
+    'Recenze, profily, rozhovory a analýzy z české a slovenské rapové scény.',
   alternates: { canonical: 'https://4rap.cz/clanky' },
 }
 
 export default function ClankyPage() {
-  const items = allClaneks.map((c) => ({
-    slug: c.slug,
-    title: c.title,
-    description: c.description,
-    url: c.url,
-    meta: c.category,
-    tags: c.tags,
-    featured: c.featured,
-    category: c.category,
-    publishedAt: c.publishedAt,
-  }))
+  // Stejný styl jako homepage, ale BEZ featured hero — všechny články do gridu
+  const articles = allClaneks
+    .slice()
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .map(toListItem)
+
+  // Kategorie counts pro hero stats
+  const categoryCount = new Set(articles.map((a) => a.category)).size
+  const featuredCount = articles.filter((a) => a.featured).length
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
-      <div className="mb-8">
-        <p className="text-xs font-mono text-[#fb923c] uppercase tracking-widest mb-2">Magazín</p>
-        <h1 className="text-4xl font-black text-white tracking-tight mb-3">Články</h1>
-        <p className="text-zinc-400 text-sm">{items.length} článků</p>
-      </div>
-      {items.length > 0 ? (
-        <Suspense fallback={<div className="text-zinc-500 text-sm">Načítám…</div>}>
-          <FilterableListing
-            items={items}
-            itemType="clanek"
-            filters={[{ key: 'category', label: 'Kategorie', type: 'multi' }]}
-            availableSorts={['date', 'alpha', 'featured']}
-            defaultSort="date"
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
+      <ListingHero
+        kicker="Magazín"
+        kickerColor="#fb923c"
+        title="Články"
+        description="Editorials, recenze, profily a analýzy — pohled na českou a slovenskou rap scénu zevnitř."
+        meta={
+          <StatsBar
+            items={[
+              { label: 'článků', value: articles.length, color: '#fb923c' },
+              { label: 'kategorií', value: categoryCount, color: '#fb923c' },
+              { label: 'featured', value: featuredCount, color: '#fb923c' },
+            ]}
           />
-        </Suspense>
-      ) : (
-        <div className="glass rounded-xl p-12 text-center">
-          <p className="text-zinc-500 text-sm">Magazín se právě plní.</p>
+        }
+      />
+
+      {articles.length > 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {articles.map((a) => (
+            <ArticleCard key={a.slug} article={a} />
+          ))}
         </div>
+      ) : (
+        <EmptyState
+          title="Magazín se právě plní"
+          description="První články brzy dorazí."
+        />
       )}
     </div>
   )

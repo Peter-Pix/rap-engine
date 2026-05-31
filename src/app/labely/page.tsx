@@ -1,39 +1,57 @@
 import { Suspense } from 'react'
-import { allLabels } from 'contentlayer/generated'
+import { allLabels, allRappers, allAlbums } from 'contentlayer/generated'
 import { FilterableListing } from '@/components/entity/FilterableListing'
+import { ListingHero, StatsBar } from '@/components/shared/ListingHero'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Labely — Vydavatelství české rapové scény',
-  description: 'Databáze nezávislých i major labelů české a slovenské rap scény.',
+  title: 'Labely — Databáze české rapové scény',
+  description:
+    'Hudební vydavatelství české rapové scény. Roster, releases, zakladatelé a éry.',
   alternates: { canonical: 'https://4rap.cz/labely' },
 }
 
 export default function LabelyPage() {
-  const items = allLabels.map((l) => ({
-    slug: l.slug,
-    title: l.title,
-    description: l.description,
-    url: l.url,
-    meta: l.founded,
-    tags: l.artists?.slice(0, 3),
-    location: l.location,
-    publishedAt: l.publishedAt,
-  }))
+  const items = allLabels.map((l) => {
+    const rosterCount = allRappers.filter((r) => r.label === l.title).length
+    const releasesCount = allAlbums.filter((a) => a.labelSlug === l.slug).length
+    return {
+      slug: l.slug,
+      title: l.title,
+      description: l.description,
+      url: l.url,
+      meta: rosterCount > 0 ? `${rosterCount} rapperů · ${releasesCount} releases` : undefined,
+      tags: l.location ? [l.location] : [],
+      featured: l.featured,
+      location: l.location,
+      publishedAt: l.publishedAt,
+    }
+  })
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
-      <div className="mb-8">
-        <p className="text-xs font-mono text-[#a78bfa] uppercase tracking-widest mb-2">Databáze</p>
-        <h1 className="text-4xl font-black text-white tracking-tight mb-3">Labely</h1>
-        <p className="text-zinc-400 text-sm">{items.length} vydavatelství</p>
-      </div>
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
+      <ListingHero
+        kicker="Vydavatelství"
+        kickerColor="#a78bfa"
+        title="Labely"
+        description="Labelová architektura české rap scény — kdo vydává, kdo formuje zvuk, kdo definoval éry."
+        meta={
+          <StatsBar
+            items={[
+              { label: 'labelů', value: items.length, color: '#a78bfa' },
+              { label: 'rapperů celkem', value: allRappers.length, color: '#a78bfa' },
+              { label: 'releases', value: allAlbums.length, color: '#a78bfa' },
+            ]}
+          />
+        }
+      />
+
       <Suspense fallback={<div className="text-zinc-500 text-sm">Načítám…</div>}>
         <FilterableListing
           items={items}
           itemType="label"
           filters={[{ key: 'location', label: 'Lokalita', type: 'multi' }]}
-          availableSorts={['alpha', 'date']}
+          availableSorts={['alpha', 'featured']}
           defaultSort="alpha"
         />
       </Suspense>

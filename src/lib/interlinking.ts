@@ -4,8 +4,8 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-05-31T07:30:29.997Z
-// Celkem entit: 99 (36 album, 18 label, 17 rapper, 28 zanr)
+// Vygenerováno: 2026-05-31T08:21:06.692Z
+// Celkem entit: 252 (36 album, 18 label, 170 rapper, 28 zanr)
 // ═══════════════════════════════════════════════════════════════
 
 import type { InterlinkEntity } from './remark-interlinking'
@@ -282,12 +282,82 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "label"
   },
   {
+    "name": "58G",
+    "slug": "58g",
+    "type": "rapper"
+  },
+  {
+    "name": "Alla Xul Elu",
+    "slug": "alla-xul-elu",
+    "type": "rapper"
+  },
+  {
+    "name": "Ariez Baby",
+    "slug": "ariez-baby",
+    "type": "rapper"
+  },
+  {
+    "name": "Astral One",
+    "slug": "astral-one",
+    "type": "rapper"
+  },
+  {
+    "name": "AstralKid22",
+    "slug": "astralkid22",
+    "type": "rapper"
+  },
+  {
+    "name": "BADBOY BERLIN",
+    "slug": "badboy-berlin",
+    "type": "rapper"
+  },
+  {
+    "name": "Big Boy Kea",
+    "slug": "big-boy-kea",
+    "type": "rapper"
+  },
+  {
+    "name": "Big Narstie",
+    "slug": "big-narstie",
+    "type": "rapper"
+  },
+  {
+    "name": "Blako",
+    "slug": "blako",
+    "type": "rapper"
+  },
+  {
+    "name": "Bobby Blaze",
+    "slug": "bobby-blaze",
+    "type": "rapper"
+  },
+  {
+    "name": "Brandon Beal",
+    "slug": "brandon-beal",
+    "type": "rapper"
+  },
+  {
+    "name": "Bun B",
+    "slug": "bun-b",
+    "type": "rapper"
+  },
+  {
+    "name": "CA$HANOVA BULHAR",
+    "slug": "ca-hanova-bulhar",
+    "type": "rapper"
+  },
+  {
     "name": "Calin",
     "slug": "calin",
     "type": "rapper",
     "aliases": [
       "Călin Panfili"
     ]
+  },
+  {
+    "name": "Camille Jones",
+    "slug": "camille-jones",
+    "type": "rapper"
   },
   {
     "name": "Cashanova Bulhar",
@@ -298,12 +368,212 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Clemens",
+    "slug": "clemens",
+    "type": "rapper"
+  },
+  {
+    "name": "Clemens & Jon",
+    "slug": "clemens-jon",
+    "type": "rapper"
+  },
+  {
+    "name": "Crudd2Active",
+    "slug": "crudd2active",
+    "type": "rapper"
+  },
+  {
+    "name": "CRYSTAL KIDZ",
+    "slug": "crystal-kidz",
+    "type": "rapper"
+  },
+  {
+    "name": "D Ritch",
+    "slug": "d-ritch",
+    "type": "rapper"
+  },
+  {
+    "name": "D.Kop",
+    "slug": "d-kop",
+    "type": "rapper"
+  },
+  {
+    "name": "Dano Kapitán",
+    "slug": "dano-kapitan",
+    "type": "rapper"
+  },
+  {
+    "name": "David Beng Rostaš",
+    "slug": "david-beng-rostas",
+    "type": "rapper"
+  },
+  {
+    "name": "Decky",
+    "slug": "decky",
+    "type": "rapper"
+  },
+  {
+    "name": "DEJV",
+    "slug": "dejv",
+    "type": "rapper"
+  },
+  {
+    "name": "DJ AKA",
+    "slug": "dj-aka",
+    "type": "rapper"
+  },
+  {
+    "name": "DJ Fatte",
+    "slug": "dj-fatte",
+    "type": "rapper"
+  },
+  {
+    "name": "DJ Kadr",
+    "slug": "dj-kadr",
+    "type": "rapper"
+  },
+  {
+    "name": "Dj Opia",
+    "slug": "dj-opia",
+    "type": "rapper"
+  },
+  {
+    "name": "DJ Wich",
+    "slug": "dj-wich",
+    "type": "rapper"
+  },
+  {
+    "name": "DMS",
+    "slug": "dms",
+    "type": "rapper"
+  },
+  {
+    "name": "DPLMT",
+    "slug": "dplmt",
+    "type": "rapper"
+  },
+  {
+    "name": "DUPPY",
+    "slug": "duppy",
+    "type": "rapper"
+  },
+  {
+    "name": "Dusan Vlk",
+    "slug": "dusan-vlk",
+    "type": "rapper"
+  },
+  {
+    "name": "Eight O",
+    "slug": "eight-o",
+    "type": "rapper"
+  },
+  {
+    "name": "Elektrickmann",
+    "slug": "elektrickmann",
+    "type": "rapper"
+  },
+  {
+    "name": "Eliozie",
+    "slug": "eliozie",
+    "type": "rapper"
+  },
+  {
+    "name": "Fleixxer P",
+    "slug": "fleixxer-p",
+    "type": "rapper"
+  },
+  {
+    "name": "Flirta D",
+    "slug": "flirta-d",
+    "type": "rapper"
+  },
+  {
+    "name": "Forest Blunt",
+    "slug": "forest-blunt",
+    "type": "rapper"
+  },
+  {
+    "name": "Frank Flames",
+    "slug": "frank-flames",
+    "type": "rapper"
+  },
+  {
+    "name": "Fuckstroy",
+    "slug": "fuckstroy",
+    "type": "rapper"
+  },
+  {
+    "name": "Gizmo",
+    "slug": "gizmo",
+    "type": "rapper"
+  },
+  {
+    "name": "guapanova",
+    "slug": "guapanova",
+    "type": "rapper"
+  },
+  {
+    "name": "Haades",
+    "slug": "haades",
+    "type": "rapper"
+  },
+  {
+    "name": "Hattori",
+    "slug": "hattori",
+    "type": "rapper"
+  },
+  {
+    "name": "Hellwana",
+    "slug": "hellwana",
+    "type": "rapper"
+  },
+  {
+    "name": "Hex Rated",
+    "slug": "hex-rated",
+    "type": "rapper"
+  },
+  {
+    "name": "Hirmix",
+    "slug": "hirmix",
+    "type": "rapper"
+  },
+  {
+    "name": "Horror Avantgarda",
+    "slug": "horror-avantgarda",
+    "type": "rapper"
+  },
+  {
     "name": "Hugo Toxxx",
     "slug": "hugo-toxxx",
     "type": "rapper",
     "aliases": [
       "Jan Daněk"
     ]
+  },
+  {
+    "name": "Chachi",
+    "slug": "chachi",
+    "type": "rapper"
+  },
+  {
+    "name": "Chawo",
+    "slug": "chawo",
+    "type": "rapper"
+  },
+  {
+    "name": "Chetta",
+    "slug": "chetta",
+    "type": "rapper"
+  },
+  {
+    "name": "Chubeats",
+    "slug": "chubeats",
+    "type": "rapper"
+  },
+  {
+    "name": "Ida Corr",
+    "slug": "ida-corr",
+    "type": "rapper"
   },
   {
     "name": "Idea",
@@ -314,12 +584,27 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Igor",
+    "slug": "igor",
+    "type": "rapper"
+  },
+  {
+    "name": "Ill Bill",
+    "slug": "ill-bill",
+    "type": "rapper"
+  },
+  {
     "name": "Indy",
     "slug": "indy",
     "type": "rapper",
     "aliases": [
       "Andreas Christodoulou"
     ]
+  },
+  {
+    "name": "Infernal",
+    "slug": "infernal",
+    "type": "rapper"
   },
   {
     "name": "James Cole",
@@ -330,12 +615,117 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Jana Kirschner",
+    "slug": "jana-kirschner",
+    "type": "rapper"
+  },
+  {
+    "name": "Jay Amo",
+    "slug": "jay-amo",
+    "type": "rapper"
+  },
+  {
+    "name": "Jeezy",
+    "slug": "jeezy",
+    "type": "rapper"
+  },
+  {
+    "name": "Jeremy Carr",
+    "slug": "jeremy-carr",
+    "type": "rapper"
+  },
+  {
+    "name": "Jickson",
+    "slug": "jickson",
+    "type": "rapper"
+  },
+  {
+    "name": "JJ Lawhorn",
+    "slug": "jj-lawhorn",
+    "type": "rapper"
+  },
+  {
+    "name": "JME",
+    "slug": "jme",
+    "type": "rapper"
+  },
+  {
+    "name": "Johnson",
+    "slug": "johnson",
+    "type": "rapper"
+  },
+  {
+    "name": "Jon",
+    "slug": "jon",
+    "type": "rapper"
+  },
+  {
+    "name": "Jords",
+    "slug": "jords",
+    "type": "rapper"
+  },
+  {
+    "name": "Joshua",
+    "slug": "joshua",
+    "type": "rapper"
+  },
+  {
+    "name": "Kali",
+    "slug": "kali",
+    "type": "rapper"
+  },
+  {
+    "name": "Kamil Hoffmann",
+    "slug": "kamil-hoffmann",
+    "type": "rapper"
+  },
+  {
+    "name": "Karlo",
+    "slug": "karlo",
+    "type": "rapper"
+  },
+  {
     "name": "Kato",
     "slug": "kato",
     "type": "rapper",
     "aliases": [
       "Adam Svatoš"
     ]
+  },
+  {
+    "name": "Klára Jánská",
+    "slug": "klara-janska",
+    "type": "rapper"
+  },
+  {
+    "name": "Koky",
+    "slug": "koky",
+    "type": "rapper"
+  },
+  {
+    "name": "Kung Fu Vampire",
+    "slug": "kung-fu-vampire",
+    "type": "rapper"
+  },
+  {
+    "name": "Kvítek",
+    "slug": "kvitek",
+    "type": "rapper"
+  },
+  {
+    "name": "Labello",
+    "slug": "labello",
+    "type": "rapper"
+  },
+  {
+    "name": "Laris Diam",
+    "slug": "laris-diam",
+    "type": "rapper"
+  },
+  {
+    "name": "Lil Quill",
+    "slug": "lil-quill",
+    "type": "rapper"
   },
   {
     "name": "Lipo",
@@ -346,12 +736,57 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Loko Loko",
+    "slug": "loko-loko",
+    "type": "rapper"
+  },
+  {
+    "name": "Lord Goat",
+    "slug": "lord-goat",
+    "type": "rapper"
+  },
+  {
+    "name": "Loudz1",
+    "slug": "loudz1",
+    "type": "rapper"
+  },
+  {
+    "name": "LP",
+    "slug": "lp",
+    "type": "rapper"
+  },
+  {
+    "name": "LU2 Vinyl Flexer",
+    "slug": "lu2-vinyl-flexer",
+    "type": "rapper"
+  },
+  {
+    "name": "Luisa",
+    "slug": "luisa",
+    "type": "rapper"
+  },
+  {
+    "name": "Magenta",
+    "slug": "magenta",
+    "type": "rapper"
+  },
+  {
+    "name": "MAKIN HOLLOV",
+    "slug": "makin-hollov",
+    "type": "rapper"
+  },
+  {
     "name": "Maniak",
     "slug": "maniak",
     "type": "rapper",
     "aliases": [
       "Jiří Veselý"
     ]
+  },
+  {
+    "name": "Marger",
+    "slug": "marger",
+    "type": "rapper"
   },
   {
     "name": "Marpo",
@@ -362,12 +797,127 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Martina Pártlová",
+    "slug": "martina-partlova",
+    "type": "rapper"
+  },
+  {
+    "name": "Maxo",
+    "slug": "maxo",
+    "type": "rapper"
+  },
+  {
+    "name": "Mc Cumblood",
+    "slug": "mc-cumblood",
+    "type": "rapper"
+  },
+  {
+    "name": "MDMX",
+    "slug": "mdmx",
+    "type": "rapper"
+  },
+  {
+    "name": "Mega M",
+    "slug": "mega-m",
+    "type": "rapper"
+  },
+  {
+    "name": "Meiton",
+    "slug": "meiton",
+    "type": "rapper"
+  },
+  {
+    "name": "Mike Trafik",
+    "slug": "mike-trafik",
+    "type": "rapper"
+  },
+  {
+    "name": "Milion Plus",
+    "slug": "milion-plus",
+    "type": "rapper"
+  },
+  {
+    "name": "Milli Major",
+    "slug": "milli-major",
+    "type": "rapper"
+  },
+  {
+    "name": "Mr Be",
+    "slug": "mr-be",
+    "type": "rapper"
+  },
+  {
+    "name": "Negash Ali",
+    "slug": "negash-ali",
+    "type": "rapper"
+  },
+  {
+    "name": "Nia",
+    "slug": "nia",
+    "type": "rapper"
+  },
+  {
+    "name": "Nobodylisten",
+    "slug": "nobodylisten",
+    "type": "rapper"
+  },
+  {
+    "name": "nolackinswayy",
+    "slug": "nolackinswayy",
+    "type": "rapper"
+  },
+  {
+    "name": "Non Phixion",
+    "slug": "non-phixion",
+    "type": "rapper"
+  },
+  {
+    "name": "O.D.",
+    "slug": "o-d",
+    "type": "rapper"
+  },
+  {
+    "name": "OFF CULTURE",
+    "slug": "off-culture",
+    "type": "rapper"
+  },
+  {
+    "name": "OGmiaG",
+    "slug": "ogmiag",
+    "type": "rapper"
+  },
+  {
     "name": "Orion",
     "slug": "orion",
     "type": "rapper",
     "aliases": [
       "Michal Opletal"
     ]
+  },
+  {
+    "name": "Outlandish",
+    "slug": "outlandish",
+    "type": "rapper"
+  },
+  {
+    "name": "P Money",
+    "slug": "p-money",
+    "type": "rapper"
+  },
+  {
+    "name": "P.A.T.",
+    "slug": "p-a-t",
+    "type": "rapper"
+  },
+  {
+    "name": "Palermo",
+    "slug": "palermo",
+    "type": "rapper"
+  },
+  {
+    "name": "Patrik Love ICY L",
+    "slug": "patrik-love-icy-l",
+    "type": "rapper"
   },
   {
     "name": "Paulie Garand",
@@ -378,12 +928,92 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Pissed Chriss",
+    "slug": "pissed-chriss",
+    "type": "rapper"
+  },
+  {
+    "name": "Poyeeblo CG",
+    "slug": "poyeeblo-cg",
+    "type": "rapper"
+  },
+  {
+    "name": "Radek Škarohlíd",
+    "slug": "radek-skarohlid",
+    "type": "rapper"
+  },
+  {
+    "name": "Radimo",
+    "slug": "radimo",
+    "type": "rapper"
+  },
+  {
     "name": "Rest",
     "slug": "rest",
     "type": "rapper",
     "aliases": [
       "Adam Chlpík"
     ]
+  },
+  {
+    "name": "Ricky Sixx",
+    "slug": "ricky-sixx",
+    "type": "rapper"
+  },
+  {
+    "name": "Robin Zoot",
+    "slug": "robin-zoot",
+    "type": "rapper"
+  },
+  {
+    "name": "Rollsout",
+    "slug": "rollsout",
+    "type": "rapper"
+  },
+  {
+    "name": "Rudolphh",
+    "slug": "rudolphh",
+    "type": "rapper"
+  },
+  {
+    "name": "Safri Duo",
+    "slug": "safri-duo",
+    "type": "rapper"
+  },
+  {
+    "name": "Sakito",
+    "slug": "sakito",
+    "type": "rapper"
+  },
+  {
+    "name": "Samey",
+    "slug": "samey",
+    "type": "rapper"
+  },
+  {
+    "name": "Saul",
+    "slug": "saul",
+    "type": "rapper"
+  },
+  {
+    "name": "Scrufizzer",
+    "slug": "scrufizzer",
+    "type": "rapper"
+  },
+  {
+    "name": "Scum",
+    "slug": "scum",
+    "type": "rapper"
+  },
+  {
+    "name": "Sebastian",
+    "slug": "sebastian",
+    "type": "rapper"
+  },
+  {
+    "name": "Sensey",
+    "slug": "sensey",
+    "type": "rapper"
   },
   {
     "name": "Sergei Barracuda",
@@ -394,12 +1024,37 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Shaka CG",
+    "slug": "shaka-cg",
+    "type": "rapper"
+  },
+  {
     "name": "SharkaSs",
     "slug": "sharkass",
     "type": "rapper",
     "aliases": [
       "Shárka Geroldová"
     ]
+  },
+  {
+    "name": "SHIMMI",
+    "slug": "shimmi",
+    "type": "rapper"
+  },
+  {
+    "name": "SIMILIVINLIFE",
+    "slug": "similivinlife",
+    "type": "rapper"
+  },
+  {
+    "name": "Slimeshotz",
+    "slug": "slimeshotz",
+    "type": "rapper"
+  },
+  {
+    "name": "Sofian Medjmedj",
+    "slug": "sofian-medjmedj",
+    "type": "rapper"
   },
   {
     "name": "Stein27",
@@ -410,12 +1065,122 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Strapo",
+    "slug": "strapo",
+    "type": "rapper"
+  },
+  {
+    "name": "Struggle Jennings",
+    "slug": "struggle-jennings",
+    "type": "rapper"
+  },
+  {
+    "name": "Supa",
+    "slug": "supa",
+    "type": "rapper"
+  },
+  {
+    "name": "Sxmpra",
+    "slug": "sxmpra",
+    "type": "rapper"
+  },
+  {
+    "name": "Terri B!",
+    "slug": "terri-b",
+    "type": "rapper"
+  },
+  {
+    "name": "The Mag",
+    "slug": "the-mag",
+    "type": "rapper"
+  },
+  {
+    "name": "Tchagun",
+    "slug": "tchagun",
+    "type": "rapper"
+  },
+  {
+    "name": "Tom Necrocock",
+    "slug": "tom-necrocock",
+    "type": "rapper"
+  },
+  {
+    "name": "Tomás Hájícek",
+    "slug": "tomas-hajicek",
+    "type": "rapper"
+  },
+  {
+    "name": "Tomáš Botló",
+    "slug": "tomas-botlo",
+    "type": "rapper"
+  },
+  {
+    "name": "Totally Nothin",
+    "slug": "totally-nothin",
+    "type": "rapper"
+  },
+  {
+    "name": "U$O",
+    "slug": "u-o",
+    "type": "rapper"
+  },
+  {
+    "name": "Vaclav Noid Barta",
+    "slug": "vaclav-noid-barta",
+    "type": "rapper"
+  },
+  {
+    "name": "Vaclav Roucek",
+    "slug": "vaclav-roucek",
+    "type": "rapper"
+  },
+  {
+    "name": "Velile",
+    "slug": "velile",
+    "type": "rapper"
+  },
+  {
     "name": "Vladimír 518",
     "slug": "vladimir-518",
     "type": "rapper",
     "aliases": [
       "Vladimír Brož"
     ]
+  },
+  {
+    "name": "Vypsaná Fixa",
+    "slug": "vypsana-fixa",
+    "type": "rapper"
+  },
+  {
+    "name": "weeklyn",
+    "slug": "weeklyn",
+    "type": "rapper"
+  },
+  {
+    "name": "Young Jeezy",
+    "slug": "young-jeezy",
+    "type": "rapper"
+  },
+  {
+    "name": "Young Rip",
+    "slug": "young-rip",
+    "type": "rapper"
+  },
+  {
+    "name": "Zabson",
+    "slug": "zabson",
+    "type": "rapper"
+  },
+  {
+    "name": "Zef",
+    "slug": "zef",
+    "type": "rapper"
+  },
+  {
+    "name": "Zkrat Kratochvíl",
+    "slug": "zkrat-kratochvil",
+    "type": "rapper"
   },
   {
     "name": "Boom Bap",

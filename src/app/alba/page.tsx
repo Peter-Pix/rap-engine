@@ -1,49 +1,65 @@
 import { Suspense } from 'react'
-import { allAlbums } from 'contentlayer/generated'
+import { allAlbums, allRappers } from 'contentlayer/generated'
 import { FilterableListing } from '@/components/entity/FilterableListing'
+import { ListingHero, StatsBar } from '@/components/shared/ListingHero'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Alba — Diskografie české rapové scény',
-  description: 'Recenzovaná diskografie české a slovenské rap scény. Kompletní databáze alb s hodnoceními, tracklisty a kontextem.',
+  title: 'Alba — Databáze české rapové scény',
+  description:
+    'Diskografie české a slovenské rapové scény. Klíčové LP, EP a mixtapy, žánry a labely.',
   alternates: { canonical: 'https://4rap.cz/alba' },
 }
 
 export default function AlbaPage() {
-  const items = allAlbums.map((a) => ({
-    slug: a.slug,
-    title: a.title,
-    description: a.description,
-    url: a.url,
-    meta: `${a.rapper} · ${a.year}`,
-    tags: a.genre || [],
-    genres: a.genre || [],
-    label: a.label,
-    rapper: a.rapper,
-    rapperSlug: a.rapperSlug,
-    year: a.year,
-    publishedAt: a.publishedAt,
-  }))
+  const items = allAlbums.map((a) => {
+    const rapper = allRappers.find((r) => r.slug === a.rapperSlug)
+    return {
+      slug: a.slug,
+      title: a.title,
+      description: a.description,
+      url: a.url,
+      meta: rapper?.title ? `${rapper.title} · ${a.year}` : String(a.year),
+      tags: a.genre || [],
+      featured: a.featured,
+      genres: a.genre || [],
+      year: a.year,
+      rapperSlug: a.rapperSlug,
+      publishedAt: a.publishedAt,
+    }
+  })
+
+  const yearsCount = new Set(items.map((i) => i.year)).size
+  const artistsCount = new Set(items.map((i) => i.rapperSlug)).size
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
-      <div className="mb-8">
-        <p className="text-xs font-mono text-[#60a5fa] uppercase tracking-widest mb-2">Databáze</p>
-        <h1 className="text-4xl font-black text-white tracking-tight mb-3">Alba</h1>
-        <p className="text-zinc-400 text-sm">{items.length} alb v diskografii</p>
-      </div>
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
+      <ListingHero
+        kicker="Diskografie"
+        kickerColor="#60a5fa"
+        title="Alba"
+        description="Klíčové releases české a slovenské rap scény — recenze, kontext, žánrové zařazení a kreditní listy."
+        meta={
+          <StatsBar
+            items={[
+              { label: 'alb', value: items.length, color: '#60a5fa' },
+              { label: 'rapperů', value: artistsCount, color: '#60a5fa' },
+              { label: 'ročníků', value: yearsCount, color: '#60a5fa' },
+            ]}
+          />
+        }
+      />
+
       <Suspense fallback={<div className="text-zinc-500 text-sm">Načítám…</div>}>
         <FilterableListing
           items={items}
           itemType="album"
           filters={[
             { key: 'genres', label: 'Žánr', type: 'multi' },
-            { key: 'rapper', label: 'Rapper', type: 'multi' },
-            { key: 'label', label: 'Label', type: 'multi' },
-            { key: 'year', label: 'Rok', type: 'year' },
+            { key: 'year', label: 'Rok', type: 'multi' },
           ]}
-          availableSorts={['year', 'alpha', 'date']}
-          defaultSort="year"
+          availableSorts={['date', 'featured', 'alpha']}
+          defaultSort="date"
         />
       </Suspense>
     </div>

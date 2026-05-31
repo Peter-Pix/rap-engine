@@ -1,63 +1,150 @@
-import { allZanrs, allRappers } from 'contentlayer/generated'
+import { allZanrs, allRappers, allAlbums } from 'contentlayer/generated'
 import { notFound } from 'next/navigation'
-import { MDXRenderer } from '@/components/entity/MDXRenderer'
-import { buildZanrMetadata } from '@/lib/metadata'
-import { JsonLd } from '@/components/seo/JsonLd'
-import { Breadcrumb } from '@/components/entity/Breadcrumb'
-import { EntityCard } from '@/components/entity/EntityCard'
 import Link from 'next/link'
+import { MDXRenderer } from '@/components/entity/MDXRenderer'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { DetailHero, DetailLayout, SidebarCard, InfoDl } from '@/components/shared/DetailHero'
+import { EntityCard, EntityChip } from '@/components/shared/EntityCard'
 import type { Metadata } from 'next'
-export async function generateStaticParams() { return allZanrs.map((z) => ({ slug: z.slug })) }
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params; const zanr = allZanrs.find((z) => z.slug === slug)
-  if (!zanr) return {}; return buildZanrMetadata(zanr)
+
+export async function generateStaticParams() {
+  return allZanrs.map((z) => ({ slug: z.slug }))
 }
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const zanr = allZanrs.find((z) => z.slug === slug)
+  if (!zanr) return {}
+  return {
+    title: `${zanr.title} — žánr na 4rap.cz`,
+    description: zanr.description,
+    alternates: { canonical: zanr.canonicalUrl },
+  }
+}
+
 export default async function ZanrPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params; const zanr = allZanrs.find((z) => z.slug === slug)
+  const { slug } = await params
+  const zanr = allZanrs.find((z) => z.slug === slug)
   if (!zanr) notFound()
-  const rappers = allRappers.filter((r) => r.genre?.includes(slug))
-  
+
+  const rappers = allRappers.filter((r) => r.genre?.includes(zanr.slug))
+  const albums = allAlbums
+    .filter((a) => a.genre?.includes(zanr.slug))
+    .sort((a, b) => b.year - a.year)
+
   return (
     <>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
-        <Breadcrumb items={[{ label: '4rap.cz', href: '/' }, { label: 'Žánry', href: '/zanry' }, { label: zanr.title }]} currentUrl={zanr.canonicalUrl} />
-        <div className="mt-8 grid lg:grid-cols-[1fr_300px] gap-12">
-          <div>
-            <div className="mb-8">
-              <div className="inline-flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-widest px-2 py-1 rounded-sm bg-[#34d399]/10 text-[#34d399] border border-[#34d399]/20 mb-4">Žánr</div>
-              <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight mb-2">{zanr.title}</h1>
-              {zanr.origin && <p className="text-zinc-500 text-sm font-mono">Původ: {zanr.origin}</p>}
-            </div>
-            <div className="rap-prose"><MDXRenderer code={zanr.body.code} /></div>
-          </div>
-          <aside className="space-y-4">
-            <div className="glass rounded-xl p-5">
-              <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-4">Prozkoumat žánr</h2>
-              <div className="space-y-2">
-                <Link href={`/zanry/${zanr.slug}/raperi`} className="flex items-center justify-between text-sm text-[#e4ff1a] hover:text-white transition-colors py-1">
-                  <span>Všichni rappeři</span>
-                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
-                </Link>
-                <Link href={`/zanry/${zanr.slug}/alba`} className="flex items-center justify-between text-sm text-[#60a5fa] hover:text-white transition-colors py-1">
-                  <span>Všechna alba</span>
-                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
-                </Link>
-                <Link href={`/zanry/${zanr.slug}/skladby`} className="flex items-center justify-between text-sm text-[#f472b6] hover:text-white transition-colors py-1">
-                  <span>Všechny skladby</span>
-                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'MusicGenre',
+          name: zanr.title,
+          description: zanr.description,
+          url: zanr.canonicalUrl,
+        }}
+      />
+
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
+        <DetailHero
+          type="zanr"
+          breadcrumbs={[
+            { label: '4rap.cz', href: '/' },
+            { label: 'Žánry', href: '/zanry' },
+            { label: zanr.title },
+          ]}
+          title={zanr.title}
+          description={zanr.description}
+          chips={
+            <>
+              {zanr.origin && <EntityChip type="zanr" label={zanr.origin} />}
+            </>
+          }
+          meta={
+            <>
+              {rappers.length > 0 && <span>{rappers.length} rapperů</span>}
+              {rappers.length > 0 && albums.length > 0 && <span aria-hidden>·</span>}
+              {albums.length > 0 && <span>{albums.length} alb</span>}
+            </>
+          }
+        />
+
+        <DetailLayout
+          sidebar={
+            <>
+              <SidebarCard title="O žánru">
+                <InfoDl
+                  items={[
+                    { label: 'Původ', value: zanr.origin },
+                    { label: 'Rapperů na 4RAP', value: rappers.length > 0 ? rappers.length : undefined },
+                    { label: 'Alb', value: albums.length > 0 ? albums.length : undefined },
+                  ]}
+                />
+              </SidebarCard>
+            </>
+          }
+        >
+          <article className="rap-prose">
+            <MDXRenderer code={zanr.body.code} />
+          </article>
+
+          {rappers.length > 0 && (
+            <section className="mt-12 sm:mt-16">
+              <div className="flex items-baseline justify-between mb-6">
+                <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white uppercase">
+                  Rappeři v žánru
+                </h2>
+                <Link
+                  href={`/zanry/${zanr.slug}/raperi`}
+                  className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 hover:text-emerald-300 transition-colors"
+                >
+                  Všichni →
                 </Link>
               </div>
-            </div>
-            {rappers.length > 0 && (
-              <div>
-                <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-3">Rappeři</h2>
-                <div className="space-y-3">
-                  {rappers.slice(0, 4).map((r) => <EntityCard key={r.slug} title={r.title} description={r.description} href={r.url} type="rapper" meta={r.label} />)}
-                </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {rappers.slice(0, 6).map((r) => (
+                  <EntityCard
+                    key={r.slug}
+                    type="rapper"
+                    title={r.title}
+                    description={r.description}
+                    href={r.url}
+                    tags={r.genre || []}
+                    featured={r.featured}
+                  />
+                ))}
               </div>
-            )}
-          </aside>
-        </div>
+            </section>
+          )}
+
+          {albums.length > 0 && (
+            <section className="mt-12 sm:mt-16">
+              <div className="flex items-baseline justify-between mb-6">
+                <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white uppercase">
+                  Klíčová alba
+                </h2>
+                <Link
+                  href={`/zanry/${zanr.slug}/alba`}
+                  className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 hover:text-emerald-300 transition-colors"
+                >
+                  Všechna →
+                </Link>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {albums.slice(0, 4).map((a) => (
+                  <EntityCard
+                    key={a.slug}
+                    type="album"
+                    title={a.title}
+                    description={a.description}
+                    href={a.url}
+                    meta={String(a.year)}
+                    tags={a.genre || []}
+                  />
+                ))}
+              </div>
+            </section>
+          )}
+        </DetailLayout>
       </div>
     </>
   )

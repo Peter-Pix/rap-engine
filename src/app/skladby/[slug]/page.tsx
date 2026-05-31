@@ -1,12 +1,10 @@
 import { allSkladbas, allRappers, allAlbums } from 'contentlayer/generated'
 import { notFound } from 'next/navigation'
-import { MDXRenderer } from '@/components/entity/MDXRenderer'
-import { buildSkladbaMetadata } from '@/lib/metadata'
-import { getSkladbaSchema } from '@/lib/schema'
-import { JsonLd } from '@/components/seo/JsonLd'
-import { Breadcrumb } from '@/components/entity/Breadcrumb'
-import { EntityCard } from '@/components/entity/EntityCard'
 import Link from 'next/link'
+import { MDXRenderer } from '@/components/entity/MDXRenderer'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { DetailHero, DetailLayout, SidebarCard, InfoDl } from '@/components/shared/DetailHero'
+import { EntityCard, EntityChip } from '@/components/shared/EntityCard'
 import type { Metadata } from 'next'
 
 export async function generateStaticParams() {
@@ -15,228 +13,133 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
-  const track = allSkladbas.find((s) => s.slug === slug)
-  if (!track) return {}
-  return buildSkladbaMetadata(track)
+  const skladba = allSkladbas.find((s) => s.slug === slug)
+  if (!skladba) return {}
+  return {
+    title: `${skladba.title} — skladba na 4rap.cz`,
+    description: skladba.description,
+    alternates: { canonical: skladba.canonicalUrl },
+  }
 }
 
 export default async function SkladbaPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const track = allSkladbas.find((s) => s.slug === slug)
-  if (!track) notFound()
+  const skladba = allSkladbas.find((s) => s.slug === slug)
+  if (!skladba) notFound()
 
-  const rapper = allRappers.find((r) => r.slug === track.rapperSlug)
-  const album = track.albumSlug ? allAlbums.find((a) => a.slug === track.albumSlug) : null
-  const features = track.features
-    ? allRappers.filter((r) => track.features?.includes(r.slug))
-    : []
+  const rapper = allRappers.find((r) => r.slug === skladba.rapperSlug)
+  const album = skladba.albumSlug ? allAlbums.find((a) => a.slug === skladba.albumSlug) : null
+  const features = Array.isArray((skladba as any).features) ? (skladba as any).features : []
+  const featureRappers = features
+    .map((slug: string) => allRappers.find((r) => r.slug === slug))
+    .filter(Boolean)
+  const producers = Array.isArray((skladba as any).producers) ? (skladba as any).producers : []
 
-  const schema = getSkladbaSchema({
-    slug: track.slug,
-    title: track.title,
-    rapper: track.rapper,
-    rapperSlug: track.rapperSlug,
-    features: track.features,
-    featuresNames: track.featuresNames,
-    album: track.album,
-    albumSlug: track.albumSlug,
-    year: track.year,
-    genre: track.genre || [],
-    duration: track.duration,
-    description: track.description,
-    canonicalUrl: track.canonicalUrl,
-    image: track.image,
-    producersNames: track.producersNames,
-  })
+  // Více skladeb od stejného rappera
+  const moreFromArtist = allSkladbas
+    .filter((s) => s.rapperSlug === skladba.rapperSlug && s.slug !== skladba.slug)
+    .slice(0, 4)
 
   return (
     <>
-      <JsonLd data={schema} />
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
-        <Breadcrumb
-          items={[
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'MusicRecording',
+          name: skladba.title,
+          description: skladba.description,
+          url: skladba.canonicalUrl,
+          ...(rapper && { byArtist: { '@type': 'MusicGroup', name: rapper.title } }),
+          ...(album && { inAlbum: { '@type': 'MusicAlbum', name: album.title } }),
+          ...(skladba.year && { datePublished: String(skladba.year) }),
+        }}
+      />
+
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
+        <DetailHero
+          type="skladba"
+          breadcrumbs={[
             { label: '4rap.cz', href: '/' },
             { label: 'Skladby', href: '/skladby' },
-            { label: track.title },
+            { label: skladba.title },
           ]}
-          currentUrl={track.canonicalUrl}
+          title={skladba.title}
+          subtitle={rapper?.title}
+          description={skladba.description}
+          chips={
+            <>
+              {rapper && <EntityChip type="rapper" label={rapper.title} href={rapper.url} />}
+              {album && <EntityChip type="album" label={album.title} href={album.url} />}
+              {skladba.year && <EntityChip type="skladba" label={String(skladba.year)} />}
+              {(skladba.genre || []).map((g) => (
+                <EntityChip key={g} type="zanr" label={g} href={`/zanry/${g}`} />
+              ))}
+            </>
+          }
         />
 
-        <div className="mt-8 grid lg:grid-cols-[1fr_320px] gap-12">
-          <div>
-            <div className="mb-8">
-              <div className="flex flex-wrap items-center gap-2 mb-4">
-                {track.genre?.map((g) => (
-                  <Link
-                    key={g}
-                    href={`/zanry/${g}`}
-                    className="text-[10px] font-mono font-bold uppercase tracking-widest px-2 py-1 rounded-sm bg-[#f472b6]/10 text-[#f472b6] border border-[#f472b6]/20 hover:bg-[#f472b6]/20 transition-colors"
-                  >
-                    {g}
-                  </Link>
+        <DetailLayout
+          sidebar={
+            <>
+              <SidebarCard title="Kredity">
+                <InfoDl
+                  items={[
+                    { label: 'Rapper', value: rapper && (
+                      <Link href={rapper.url} className="text-[#e4ff1a] hover:brightness-125 transition-all">
+                        {rapper.title}
+                      </Link>
+                    )},
+                    { label: 'Album', value: album && (
+                      <Link href={album.url} className="text-sky-300 hover:text-sky-200 transition-colors">
+                        {album.title}
+                      </Link>
+                    )},
+                    { label: 'Rok', value: skladba.year },
+                    { label: 'Features', value: featureRappers.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5 mt-1">
+                        {featureRappers.map((r: any) => (
+                          <EntityChip key={r.slug} type="rapper" label={r.title} href={r.url} />
+                        ))}
+                      </div>
+                    )},
+                    { label: 'Producenti', value: producers.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5 mt-1">
+                        {producers.map((p: string) => (
+                          <span key={p} className="text-xs font-mono text-zinc-400">{p}</span>
+                        ))}
+                      </div>
+                    )},
+                  ]}
+                />
+              </SidebarCard>
+            </>
+          }
+        >
+          <article className="rap-prose">
+            <MDXRenderer code={skladba.body.code} />
+          </article>
+
+          {moreFromArtist.length > 0 && rapper && (
+            <section className="mt-12 sm:mt-16">
+              <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white uppercase mb-6">
+                Více od {rapper.title}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {moreFromArtist.map((s) => (
+                  <EntityCard
+                    key={s.slug}
+                    type="skladba"
+                    title={s.title}
+                    description={s.description}
+                    href={s.url}
+                    meta={s.year ? String(s.year) : undefined}
+                    tags={s.genre || []}
+                  />
                 ))}
               </div>
-              <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight leading-tight mb-3">
-                {track.title}
-              </h1>
-              <div className="flex flex-wrap items-center gap-2 text-zinc-400">
-                <Link
-                  href={`/raperi/${track.rapperSlug}`}
-                  className="hover:text-[#e4ff1a] transition-colors font-medium"
-                >
-                  {track.rapper}
-                </Link>
-                {features.length > 0 && (
-                  <>
-                    <span className="text-zinc-600">feat.</span>
-                    {features.map((f, i) => (
-                      <span key={f.slug}>
-                        <Link
-                          href={`/raperi/${f.slug}`}
-                          className="hover:text-[#e4ff1a] transition-colors font-medium"
-                        >
-                          {f.title}
-                        </Link>
-                        {i < features.length - 1 && <span className="text-zinc-600">, </span>}
-                      </span>
-                    ))}
-                  </>
-                )}
-                {track.album && track.albumSlug && (
-                  <>
-                    <span className="text-zinc-600 mx-1">·</span>
-                    <Link
-                      href={`/alba/${track.albumSlug}`}
-                      className="hover:text-[#60a5fa] transition-colors"
-                    >
-                      {track.album}
-                    </Link>
-                  </>
-                )}
-                {track.year && (
-                  <>
-                    <span className="text-zinc-600 mx-1">·</span>
-                    <span>{track.year}</span>
-                  </>
-                )}
-              </div>
-            </div>
-
-            <div className="rap-prose">
-              <MDXRenderer code={track.body.code} />
-            </div>
-          </div>
-
-          <aside className="space-y-4">
-            <div className="glass rounded-xl p-5">
-              <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-4">
-                Skladba
-              </h2>
-              <dl className="space-y-3">
-                <div>
-                  <dt className="text-xs text-zinc-600 mb-0.5">Rapper</dt>
-                  <dd>
-                    <Link
-                      href={`/raperi/${track.rapperSlug}`}
-                      className="text-sm text-[#e4ff1a] hover:text-white transition-colors"
-                    >
-                      {track.rapper}
-                    </Link>
-                  </dd>
-                </div>
-                {features.length > 0 && (
-                  <div>
-                    <dt className="text-xs text-zinc-600 mb-0.5">Feat.</dt>
-                    <dd className="text-sm space-x-2">
-                      {features.map((f) => (
-                        <Link
-                          key={f.slug}
-                          href={`/raperi/${f.slug}`}
-                          className="text-[#e4ff1a] hover:text-white transition-colors"
-                        >
-                          {f.title}
-                        </Link>
-                      ))}
-                    </dd>
-                  </div>
-                )}
-                {track.album && (
-                  <div>
-                    <dt className="text-xs text-zinc-600 mb-0.5">Album</dt>
-                    <dd className="text-sm">
-                      {track.albumSlug ? (
-                        <Link
-                          href={`/alba/${track.albumSlug}`}
-                          className="text-[#60a5fa] hover:text-[#93c5fd] transition-colors"
-                        >
-                          {track.album}
-                        </Link>
-                      ) : (
-                        <span className="text-zinc-200">{track.album}</span>
-                      )}
-                    </dd>
-                  </div>
-                )}
-                {track.year && (
-                  <div>
-                    <dt className="text-xs text-zinc-600 mb-0.5">Rok</dt>
-                    <dd className="text-sm text-zinc-200">{track.year}</dd>
-                  </div>
-                )}
-                {track.duration && (
-                  <div>
-                    <dt className="text-xs text-zinc-600 mb-0.5">Délka</dt>
-                    <dd className="text-sm text-zinc-200 font-mono">{track.duration}</dd>
-                  </div>
-                )}
-                {track.trackNumber && (
-                  <div>
-                    <dt className="text-xs text-zinc-600 mb-0.5">Pořadí</dt>
-                    <dd className="text-sm text-zinc-200 font-mono">#{track.trackNumber}</dd>
-                  </div>
-                )}
-                {track.producersNames && track.producersNames.length > 0 && (
-                  <div>
-                    <dt className="text-xs text-zinc-600 mb-0.5">Produkce</dt>
-                    <dd className="text-sm text-zinc-200">{track.producersNames.join(', ')}</dd>
-                  </div>
-                )}
-              </dl>
-            </div>
-
-            {album && (
-              <div>
-                <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-3">
-                  Album
-                </h2>
-                <EntityCard
-                  title={album.title}
-                  description={album.description}
-                  href={album.url}
-                  type="album"
-                  meta={`${album.rapper} · ${album.year}`}
-                  tags={album.genre || []}
-                />
-              </div>
-            )}
-
-            {rapper && (
-              <div>
-                <h2 className="text-xs font-mono font-bold uppercase tracking-widest text-zinc-500 mb-3">
-                  Rapper
-                </h2>
-                <EntityCard
-                  title={rapper.title}
-                  description={rapper.description}
-                  href={rapper.url}
-                  type="rapper"
-                  meta={rapper.label}
-                  tags={rapper.genre || []}
-                />
-              </div>
-            )}
-          </aside>
-        </div>
+            </section>
+          )}
+        </DetailLayout>
       </div>
     </>
   )

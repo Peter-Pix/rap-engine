@@ -1,11 +1,13 @@
 import { Suspense } from 'react'
 import { allRappers } from 'contentlayer/generated'
 import { FilterableListing } from '@/components/entity/FilterableListing'
+import { ListingHero, StatsBar } from '@/components/shared/ListingHero'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Rappeři — Databáze české rapové scény',
-  description: 'Kompletní databáze rapperů české a slovenské rap scény. Profily, diskografie, labely a žánrové zařazení.',
+  description:
+    'Kompletní databáze rapperů české a slovenské rap scény. Profily, diskografie, labely a žánrové zařazení.',
   alternates: { canonical: 'https://4rap.cz/raperi' },
 }
 
@@ -23,15 +25,26 @@ export default function RaperiPage() {
     publishedAt: r.publishedAt,
   }))
 
+  // Unique counts pro stats
+  const labelsCount = new Set(items.map((i) => i.label).filter(Boolean)).size
+  const genresCount = new Set(items.flatMap((i) => i.genres)).size
+
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
-      <div className="mb-8">
-        <p className="text-xs font-mono text-[#e4ff1a] uppercase tracking-widest mb-2">Databáze</p>
-        <h1 className="text-4xl font-black text-white tracking-tight mb-3">Rappeři</h1>
-        <p className="text-zinc-400 text-sm">
-          {items.length} profilů české a slovenské rapové scény
-        </p>
-      </div>
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
+      <ListingHero
+        kicker="Databáze"
+        title="Rappeři"
+        description="Profily české a slovenské rapové scény — od pionýrů PSH éry po současnou Milion+ generaci."
+        meta={
+          <StatsBar
+            items={[
+              { label: 'profilů', value: items.length },
+              { label: 'labelů', value: labelsCount },
+              { label: 'žánrů', value: genresCount },
+            ]}
+          />
+        }
+      />
 
       <Suspense fallback={<div className="text-zinc-500 text-sm">Načítám…</div>}>
         <FilterableListing
