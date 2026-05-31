@@ -1,0 +1,23 @@
+{
+  "title": "D.Kop",
+  "slug": "d-kop",
+  "genre": [],
+  "description": "D.Kop — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!_.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(c=u(n,r))||c.enumerable});return e};var g=(e,n,o)=>(o=e!=null?l(x(e)):{},i(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),D=e=>i(s({},\"__esModule\",{value:!0}),e);var m=f((v,p)=>{p.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>k});var t=g(m()),k={title:\"D.Kop\",slug:\"d-kop\",genre:[],description:\"D.Kop \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(a,{...e})}):a(e)}return D(M);})();\n;return Component;"
+  },
+  "_id": "raperi/d-kop.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/d-kop.mdx",
+    "sourceFileName": "d-kop.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/d-kop"
+  },
+  "type": "Rapper",
+  "url": "/raperi/d-kop",
+  "canonicalUrl": "https://4rap.cz/raperi/d-kop"
+}

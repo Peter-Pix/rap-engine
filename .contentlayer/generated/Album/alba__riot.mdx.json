@@ -1,0 +1,41 @@
+{
+  "title": "RIOT",
+  "slug": "riot",
+  "rapper": "Marpo",
+  "rapperSlug": "marpo",
+  "label": "TroubleGang",
+  "labelSlug": "troublegang",
+  "year": 2013,
+  "genre": [
+    "rock-rap",
+    "hardcore-rap"
+  ],
+  "description": "Agresivní rap-rockovej projekt plnej energie, tvrdosti a koncertních anthemů.",
+  "image": "/images/alba/riot.jpg",
+  "tracklist": [
+    "RIOT",
+    "Bang",
+    "Na Dno",
+    "Underground",
+    "TroubleGang",
+    "Vstávej"
+  ],
+  "rating": 8.8,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nRIOT je Marpo ve svojí nejvíc agresivní a stadionový poloze.\n\n## Zvuk\n\nŽivý nástroje, tvrdý rap delivery a rocková energie.\n\n## Dopad\n\nAlbum pomohlo propojit český rap s rockovým publikem. :contentReference[oaicite:6]{index=6}",
+    "code": "var Component=(()=>{var g=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},p=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!y.call(r,a)&&a!==t&&i(r,a,{get:()=>e[a],enumerable:!(o=h(e,a))||o.enumerable});return r};var v=(r,e,t)=>(t=r!=null?g(u(r)):{},p(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),x=r=>p(i({},\"__esModule\",{value:!0}),r);var s=k((_,l)=>{l.exports=_jsx_runtime});var f={};j(f,{default:()=>d,frontmatter:()=>b});var n=v(s()),b={title:\"RIOT\",slug:\"riot\",rapper:\"Marpo\",rapperSlug:\"marpo\",label:\"TroubleGang\",labelSlug:\"troublegang\",year:2013,genre:[\"rock-rap\",\"hardcore-rap\"],description:\"Agresivn\\xED rap-rockovej projekt plnej energie, tvrdosti a koncertn\\xEDch anthem\\u016F.\",image:\"/images/alba/riot.jpg\",tracklist:[\"RIOT\",\"Bang\",\"Na Dno\",\"Underground\",\"TroubleGang\",\"Vst\\xE1vej\"],rating:8.8,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function c(r){let e={a:\"a\",h2:\"h2\",p:\"p\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[\"RIOT je \",(0,n.jsx)(e.a,{href:\"/raperi/marpo\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"marpo\",children:\"Marpo\"}),\" ve svoj\\xED nejv\\xEDc agresivn\\xED a stadionov\\xFD poloze.\"]}),`\n`,(0,n.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"\\u017Div\\xFD n\\xE1stroje, tvrd\\xFD \",(0,n.jsx)(e.a,{href:\"/zanry/rap\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"rap\",children:\"rap\"}),\" delivery a rockov\\xE1 energie.\"]}),`\n`,(0,n.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Album pomohlo propojit \\u010Desk\\xFD \",(0,n.jsx)(e.a,{href:\"/zanry/rap\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"rap\",children:\"rap\"}),\" s rockov\\xFDm publikem. :contentReference[oaicite:6]\",index=6]})]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return x(f);})();\n;return Component;"
+  },
+  "_id": "alba/riot.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/riot.mdx",
+    "sourceFileName": "riot.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/riot"
+  },
+  "type": "Album",
+  "url": "/alba/riot",
+  "canonicalUrl": "https://4rap.cz/alba/riot"
+}

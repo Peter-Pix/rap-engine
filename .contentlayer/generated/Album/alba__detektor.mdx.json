@@ -1,0 +1,47 @@
+{
+  "title": "Detektor",
+  "slug": "detektor",
+  "rapper": "Ektor",
+  "rapperSlug": "ektor",
+  "label": "Detektor Records",
+  "labelSlug": "detektor-records",
+  "year": 2015,
+  "genre": [
+    "street rap",
+    "hardcore rap"
+  ],
+  "description": "Temnější a osobnější album, který definovalo Ektorovu dominantní éru poloviny dekády.",
+  "image": "/images/alba/detektor.jpg",
+  "tracklist": [
+    "Ve Dne V Noci",
+    "Nohy V Pěst",
+    "Batman",
+    "Všechno Sám",
+    "Generace X",
+    "Šikana",
+    "Exploze",
+    "Jak Jinak",
+    "Peníze",
+    "Proč",
+    "Krysy",
+    "Zen"
+  ],
+  "rating": 9.3,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nDetektor je album absolutní dominance a rapovýho sebevědomí.\n\n## Zvuk\n\nTemný synthy, tvrdý drums a tlak v každým tracku.\n\n## Dopad\n\nEktor tímhle releasem definitivně přešel do rapový extraligy.",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),v=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(d=k(e,o))||d.enumerable});return t};var y=(t,e,n)=>(n=t!=null?p(h(t)):{},i(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>i(a({},\"__esModule\",{value:!0}),t);var s=x((_,l)=>{l.exports=_jsx_runtime});var f={};v(f,{default:()=>m,frontmatter:()=>j});var r=y(s()),j={title:\"Detektor\",slug:\"detektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",label:\"Detektor Records\",labelSlug:\"detektor-records\",year:2015,genre:[\"street rap\",\"hardcore rap\"],description:\"Temn\\u011Bj\\u0161\\xED a osobn\\u011Bj\\u0161\\xED album, kter\\xFD definovalo Ektorovu dominantn\\xED \\xE9ru poloviny dek\\xE1dy.\",image:\"/images/alba/detektor.jpg\",tracklist:[\"Ve Dne V Noci\",\"Nohy V P\\u011Bst\",\"Batman\",\"V\\u0161echno S\\xE1m\",\"Generace X\",\"\\u0160ikana\",\"Exploze\",\"Jak Jinak\",\"Pen\\xEDze\",\"Pro\\u010D\",\"Krysy\",\"Zen\"],rating:9.3,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function c(t){let e={h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.p,{children:\"Detektor je album absolutn\\xED dominance a rapov\\xFDho sebev\\u011Bdom\\xED.\"}),`\n`,(0,r.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,r.jsx)(e.p,{children:\"Temn\\xFD synthy, tvrd\\xFD drums a tlak v ka\\u017Ed\\xFDm tracku.\"}),`\n`,(0,r.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,r.jsx)(e.p,{children:\"Ektor t\\xEDmhle releasem definitivn\\u011B p\\u0159e\\u0161el do rapov\\xFD extraligy.\"})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return b(f);})();\n;return Component;"
+  },
+  "_id": "alba/detektor.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/detektor.mdx",
+    "sourceFileName": "detektor.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/detektor"
+  },
+  "type": "Album",
+  "url": "/alba/detektor",
+  "canonicalUrl": "https://4rap.cz/alba/detektor"
+}

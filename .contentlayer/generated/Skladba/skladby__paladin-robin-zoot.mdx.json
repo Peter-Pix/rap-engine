@@ -1,0 +1,33 @@
+{
+  "title": "Paladin",
+  "slug": "paladin-robin-zoot",
+  "rapper": "Robin Zoot",
+  "rapperSlug": "robin-zoot",
+  "features": [],
+  "featuresNames": [],
+  "album": "Majitel",
+  "albumSlug": "majitel",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:11",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Skladba vyzařuje hrdinský a melancholický tón, evokující vnitřní boj a hledání identity.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!j.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(i=p(t,o))||i.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(b(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var u=x((S,l)=>{l.exports=_jsx_runtime});var y={};f(y,{default:()=>d,frontmatter:()=>k});var n=_(u()),k={title:\"Paladin\",slug:\"paladin-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[],featuresNames:[],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[],duration:\"3:11\",trackNumber:3,producers:[],producersNames:[],description:\"Skladba vyza\\u0159uje hrdinsk\\xFD a melancholick\\xFD t\\xF3n, evokuj\\xEDc\\xED vnit\\u0159n\\xED boj a hled\\xE1n\\xED identity.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/paladin-robin-zoot.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/paladin-robin-zoot.mdx",
+    "sourceFileName": "paladin-robin-zoot.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/paladin-robin-zoot"
+  },
+  "type": "Skladba",
+  "url": "/skladby/paladin-robin-zoot",
+  "canonicalUrl": "https://4rap.cz/skladby/paladin-robin-zoot"
+}

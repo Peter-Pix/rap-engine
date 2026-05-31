@@ -1,0 +1,23 @@
+{
+  "title": "Kvítek",
+  "slug": "kvitek",
+  "genre": [],
+  "description": "Kvítek — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(i=u(t,o))||i.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),v=e=>c(s({},\"__esModule\",{value:!0}),e);var a=k((y,m)=>{m.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>g});var n=j(a()),g={title:\"Kv\\xEDtek\",slug:\"kvitek\",genre:[],description:\"Kv\\xEDtek \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return v(M);})();\n;return Component;"
+  },
+  "_id": "raperi/kvitek.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/kvitek.mdx",
+    "sourceFileName": "kvitek.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/kvitek"
+  },
+  "type": "Rapper",
+  "url": "/raperi/kvitek",
+  "canonicalUrl": "https://4rap.cz/raperi/kvitek"
+}

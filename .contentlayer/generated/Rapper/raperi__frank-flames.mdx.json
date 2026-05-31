@@ -1,0 +1,23 @@
+{
+  "title": "Frank Flames",
+  "slug": "frank-flames",
+  "genre": [],
+  "description": "Frank Flames — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),F=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of h(n))!f.call(e,s)&&s!==r&&o(e,s,{get:()=>n[s],enumerable:!(a=u(n,s))||a.enumerable});return e};var j=(e,n,r)=>(r=e!=null?d(x(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>c(o({},\"__esModule\",{value:!0}),e);var m=_((v,i)=>{i.exports=_jsx_runtime});var M={};F(M,{default:()=>p,frontmatter:()=>g});var t=j(m()),g={title:\"Frank Flames\",slug:\"frank-flames\",genre:[],description:\"Frank Flames \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return k(M);})();\n;return Component;"
+  },
+  "_id": "raperi/frank-flames.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/frank-flames.mdx",
+    "sourceFileName": "frank-flames.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/frank-flames"
+  },
+  "type": "Rapper",
+  "url": "/raperi/frank-flames",
+  "canonicalUrl": "https://4rap.cz/raperi/frank-flames"
+}

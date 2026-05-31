@@ -1,0 +1,23 @@
+{
+  "title": "Non Phixion",
+  "slug": "non-phixion",
+  "genre": [],
+  "description": "Non Phixion — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var a=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var o in e)i(n,o,{get:e[o],enumerable:!0})},c=(n,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of d(e))!_.call(n,r)&&r!==o&&i(n,r,{get:()=>e[r],enumerable:!(s=l(e,r))||s.enumerable});return n};var g=(n,e,o)=>(o=n!=null?a(u(n)):{},c(e||!n||!n.__esModule?i(o,\"default\",{value:n,enumerable:!0}):o,n)),M=n=>c(i({},\"__esModule\",{value:!0}),n);var m=f((y,h)=>{h.exports=_jsx_runtime});var k={};j(k,{default:()=>x,frontmatter:()=>b});var t=g(m()),b={title:\"Non Phixion\",slug:\"non-phixion\",genre:[],description:\"Non Phixion \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function p(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function x(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(p,{...n})}):p(n)}return M(k);})();\n;return Component;"
+  },
+  "_id": "raperi/non-phixion.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/non-phixion.mdx",
+    "sourceFileName": "non-phixion.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/non-phixion"
+  },
+  "type": "Rapper",
+  "url": "/raperi/non-phixion",
+  "canonicalUrl": "https://4rap.cz/raperi/non-phixion"
+}

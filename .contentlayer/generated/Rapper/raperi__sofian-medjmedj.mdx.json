@@ -1,0 +1,23 @@
+{
+  "title": "Sofian Medjmedj",
+  "slug": "sofian-medjmedj",
+  "genre": [],
+  "description": "Sofian Medjmedj — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},c=(e,n,o,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of u(n))!x.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(i=p(n,r))||i.enumerable});return e};var M=(e,n,o)=>(o=e!=null?l(h(e)):{},c(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var m=f((v,d)=>{d.exports=_jsx_runtime});var b={};_(b,{default:()=>j,frontmatter:()=>S});var t=M(m()),S={title:\"Sofian Medjmedj\",slug:\"sofian-medjmedj\",genre:[],description:\"Sofian Medjmedj \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function j(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(a,{...e})}):a(e)}return g(b);})();\n;return Component;"
+  },
+  "_id": "raperi/sofian-medjmedj.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/sofian-medjmedj.mdx",
+    "sourceFileName": "sofian-medjmedj.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/sofian-medjmedj"
+  },
+  "type": "Rapper",
+  "url": "/raperi/sofian-medjmedj",
+  "canonicalUrl": "https://4rap.cz/raperi/sofian-medjmedj"
+}

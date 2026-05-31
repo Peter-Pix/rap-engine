@@ -1,0 +1,33 @@
+{
+  "title": "Povolanie Syn",
+  "slug": "povolanie-syn-rytmus",
+  "rapper": "Rytmus",
+  "rapperSlug": "rytmus",
+  "features": [],
+  "featuresNames": [],
+  "album": "Krstný Otec",
+  "albumSlug": "krstny-otec",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:14",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Povolanie Syn — skladba od Rytmus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(y(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var c=f((v,m)=>{m.exports=_jsx_runtime});var S={};_(S,{default:()=>l,frontmatter:()=>j});var n=b(c()),j={title:\"Povolanie Syn\",slug:\"povolanie-syn-rytmus\",rapper:\"Rytmus\",rapperSlug:\"rytmus\",features:[],featuresNames:[],album:\"Krstn\\xFD Otec\",albumSlug:\"krstny-otec\",year:2016,genre:[],duration:\"3:14\",trackNumber:3,producers:[],producersNames:[],description:\"Povolanie Syn \\u2014 skladba od Rytmus.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(S);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/povolanie-syn-rytmus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/povolanie-syn-rytmus.mdx",
+    "sourceFileName": "povolanie-syn-rytmus.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/povolanie-syn-rytmus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/povolanie-syn-rytmus",
+  "canonicalUrl": "https://4rap.cz/skladby/povolanie-syn-rytmus"
+}

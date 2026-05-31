@@ -1,0 +1,23 @@
+{
+  "title": "Sebastian",
+  "slug": "sebastian",
+  "genre": [],
+  "description": "Sebastian — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var s in n)o(e,s,{get:n[s],enumerable:!0})},a=(e,n,s,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!_.call(e,r)&&r!==s&&o(e,r,{get:()=>n[r],enumerable:!(i=u(n,r))||i.enumerable});return e};var j=(e,n,s)=>(s=e!=null?d(x(e)):{},a(n||!e||!e.__esModule?o(s,\"default\",{value:e,enumerable:!0}):s,e)),g=e=>a(o({},\"__esModule\",{value:!0}),e);var m=b((v,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>p,frontmatter:()=>M});var t=j(m()),M={title:\"Sebastian\",slug:\"sebastian\",genre:[],description:\"Sebastian \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(S);})();\n;return Component;"
+  },
+  "_id": "raperi/sebastian.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/sebastian.mdx",
+    "sourceFileName": "sebastian.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/sebastian"
+  },
+  "type": "Rapper",
+  "url": "/raperi/sebastian",
+  "canonicalUrl": "https://4rap.cz/raperi/sebastian"
+}

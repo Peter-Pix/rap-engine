@@ -1,0 +1,23 @@
+{
+  "title": "Ricky Sixx",
+  "slug": "ricky-sixx",
+  "genre": [],
+  "description": "Ricky Sixx — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of u(n))!_.call(e,i)&&i!==r&&o(e,i,{get:()=>n[i],enumerable:!(s=d(n,i))||s.enumerable});return e};var k=(e,n,r)=>(r=e!=null?p(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>c(o({},\"__esModule\",{value:!0}),e);var m=f((b,x)=>{x.exports=_jsx_runtime});var M={};j(M,{default:()=>l,frontmatter:()=>g});var t=k(m()),g={title:\"Ricky Sixx\",slug:\"ricky-sixx\",genre:[],description:\"Ricky Sixx \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(a,{...e})}):a(e)}return y(M);})();\n;return Component;"
+  },
+  "_id": "raperi/ricky-sixx.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/ricky-sixx.mdx",
+    "sourceFileName": "ricky-sixx.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/ricky-sixx"
+  },
+  "type": "Rapper",
+  "url": "/raperi/ricky-sixx",
+  "canonicalUrl": "https://4rap.cz/raperi/ricky-sixx"
+}

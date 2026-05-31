@@ -1,0 +1,33 @@
+{
+  "title": "Domov",
+  "slug": "domov-vladimir-518",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "features": [],
+  "featuresNames": [],
+  "album": "White Boy",
+  "albumSlug": "white-boy",
+  "year": 2025,
+  "genre": [],
+  "duration": "4:10",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Skladba evokuje zamyšlenou atmosféru nostalgie a hledání identity.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(i=p(t,o))||i.enumerable});return e};var _=(e,t,n)=>(n=e!=null?c(x(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var u=b((k,m)=>{m.exports=_jsx_runtime});var v={};g(v,{default:()=>d,frontmatter:()=>y});var r=_(u()),y={title:\"Domov\",slug:\"domov-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"White Boy\",albumSlug:\"white-boy\",year:2025,genre:[],duration:\"4:10\",trackNumber:3,producers:[],producersNames:[],description:\"Skladba evokuje zamy\\u0161lenou atmosf\\xE9ru nostalgie a hled\\xE1n\\xED identity.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/domov-vladimir-518.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/domov-vladimir-518.mdx",
+    "sourceFileName": "domov-vladimir-518.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/domov-vladimir-518"
+  },
+  "type": "Skladba",
+  "url": "/skladby/domov-vladimir-518",
+  "canonicalUrl": "https://4rap.cz/skladby/domov-vladimir-518"
+}

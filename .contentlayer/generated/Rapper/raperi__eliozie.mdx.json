@@ -1,0 +1,23 @@
+{
+  "title": "Eliozie",
+  "slug": "eliozie",
+  "genre": [],
+  "description": "Eliozie — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var o in n)i(e,o,{get:n[o],enumerable:!0})},c=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!_.call(e,r)&&r!==o&&i(e,r,{get:()=>n[r],enumerable:!(s=u(n,r))||s.enumerable});return e};var g=(e,n,o)=>(o=e!=null?d(x(e)):{},c(n||!e||!e.__esModule?i(o,\"default\",{value:e,enumerable:!0}):o,e)),z=e=>c(i({},\"__esModule\",{value:!0}),e);var m=f((v,l)=>{l.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>M});var t=g(m()),M={title:\"Eliozie\",slug:\"eliozie\",genre:[],description:\"Eliozie \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(a,{...e})}):a(e)}return z(b);})();\n;return Component;"
+  },
+  "_id": "raperi/eliozie.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/eliozie.mdx",
+    "sourceFileName": "eliozie.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/eliozie"
+  },
+  "type": "Rapper",
+  "url": "/raperi/eliozie",
+  "canonicalUrl": "https://4rap.cz/raperi/eliozie"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Cigán",
+  "slug": "cigan-rytmus",
+  "rapper": "Rytmus",
+  "rapperSlug": "rytmus",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bengoro II",
+  "albumSlug": "bengoro-ii",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:52",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Cigán — skladba od Rytmus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of g(t))!h.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>u(s({},\"__esModule\",{value:!0}),e);var i=b((N,m)=>{m.exports=_jsx_runtime});var C={};f(C,{default:()=>d,frontmatter:()=>j});var n=_(i()),j={title:\"Cig\\xE1n\",slug:\"cigan-rytmus\",rapper:\"Rytmus\",rapperSlug:\"rytmus\",features:[],featuresNames:[],album:\"Bengoro II\",albumSlug:\"bengoro-ii\",year:2024,genre:[],duration:\"2:52\",trackNumber:3,producers:[],producersNames:[],description:\"Cig\\xE1n \\u2014 skladba od Rytmus.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return y(C);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/cigan-rytmus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/cigan-rytmus.mdx",
+    "sourceFileName": "cigan-rytmus.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/cigan-rytmus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/cigan-rytmus",
+  "canonicalUrl": "https://4rap.cz/skladby/cigan-rytmus"
+}

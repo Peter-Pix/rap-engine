@@ -1,0 +1,33 @@
+{
+  "title": "DON SKIT",
+  "slug": "don-skit-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "DONE",
+  "albumSlug": "done",
+  "year": 2025,
+  "genre": [],
+  "duration": "1:00",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "DON SKIT — skladba od James Cole.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var b=(e,t,r)=>(r=e!=null?i(h(e)):{},m(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var u=j((C,c)=>{c.exports=_jsx_runtime});var D={};_(D,{default:()=>d,frontmatter:()=>N});var n=b(u()),N={title:\"DON SKIT\",slug:\"don-skit-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[],duration:\"1:00\",trackNumber:4,producers:[],producersNames:[],description:\"DON SKIT \\u2014 skladba od James Cole.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/don-skit-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/don-skit-james-cole.mdx",
+    "sourceFileName": "don-skit-james-cole.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/don-skit-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/don-skit-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/don-skit-james-cole"
+}

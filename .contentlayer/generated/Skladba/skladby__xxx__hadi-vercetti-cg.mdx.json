@@ -1,0 +1,39 @@
+{
+  "title": "HADI",
+  "slug": "hadi-vercetti-cg",
+  "rapper": "Vercetti CG",
+  "rapperSlug": "vercetti-cg",
+  "features": [
+    "resetedh",
+    "forest-blunt"
+  ],
+  "featuresNames": [
+    "ResetedH",
+    "Forest Blunt"
+  ],
+  "album": "SWITCHBLADES",
+  "albumSlug": "switchblades",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:15",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "HADI — skladba od Vercetti CG.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!b.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=p(t,s))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var i=f((A,u)=>{u.exports=_jsx_runtime});var D={};g(D,{default:()=>l,frontmatter:()=>C});var r=_(i()),C={title:\"HADI\",slug:\"hadi-vercetti-cg\",rapper:\"Vercetti CG\",rapperSlug:\"vercetti-cg\",features:[\"resetedh\",\"forest-blunt\"],featuresNames:[\"ResetedH\",\"Forest Blunt\"],album:\"SWITCHBLADES\",albumSlug:\"switchblades\",year:2021,genre:[],duration:\"3:15\",trackNumber:5,producers:[],producersNames:[],description:\"HADI \\u2014 skladba od Vercetti CG.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/hadi-vercetti-cg.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/hadi-vercetti-cg.mdx",
+    "sourceFileName": "hadi-vercetti-cg.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/hadi-vercetti-cg"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hadi-vercetti-cg",
+  "canonicalUrl": "https://4rap.cz/skladby/hadi-vercetti-cg"
+}

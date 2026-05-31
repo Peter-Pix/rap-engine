@@ -1,0 +1,33 @@
+{
+  "title": "Majitel města",
+  "slug": "majitel-mesta-robin-zoot",
+  "rapper": "Robin Zoot",
+  "rapperSlug": "robin-zoot",
+  "features": [],
+  "featuresNames": [],
+  "album": "Majitel",
+  "albumSlug": "majitel",
+  "year": 2026,
+  "genre": [],
+  "duration": "1:39",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Skladba evokuje pocit dominance a kontroly nad městským prostorem.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of j(t))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(x(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(a({},\"__esModule\",{value:!0}),e);var u=h((y,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>k});var n=_(u()),k={title:\"Majitel m\\u011Bsta\",slug:\"majitel-mesta-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[],featuresNames:[],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[],duration:\"1:39\",trackNumber:1,producers:[],producersNames:[],description:\"Skladba evokuje pocit dominance a kontroly nad m\\u011Bstsk\\xFDm prostorem.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/majitel-mesta-robin-zoot.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/majitel-mesta-robin-zoot.mdx",
+    "sourceFileName": "majitel-mesta-robin-zoot.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/majitel-mesta-robin-zoot"
+  },
+  "type": "Skladba",
+  "url": "/skladby/majitel-mesta-robin-zoot",
+  "canonicalUrl": "https://4rap.cz/skladby/majitel-mesta-robin-zoot"
+}

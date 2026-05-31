@@ -1,0 +1,41 @@
+{
+  "title": "Marko",
+  "slug": "marko",
+  "rapper": "Ektor",
+  "rapperSlug": "ektor",
+  "label": "Detektor Records",
+  "labelSlug": "detektor-records",
+  "year": 2019,
+  "genre": [
+    "trap",
+    "modern-rap"
+  ],
+  "description": "Osobnější album reflektující úspěch, tlak a životní změny. Ektor kombinuje tvrdost s introspektivnější atmosférou.",
+  "image": "/images/alba/marko.jpg",
+  "tracklist": [
+    "Laskavost",
+    "Máme Všechno",
+    "Dobrou Chuť",
+    "Marko",
+    "Money Talk",
+    "Denně"
+  ],
+  "rating": 8.9,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nMarko ukazuje civilnější stránku Ektora bez ztráty agresivity.\n\n## Zvuk\n\nModerní trap produkce, silný melodický refrény a čistší mix.\n\n## Dopad\n\nAlbum ukázalo, že Ektor zvládne fungovat i mimo čistě street rapovej rámec.",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of m(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(i=d(t,a))||i.enumerable});return e};var b=(e,t,n)=>(n=e!=null?u(h(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>s(o({},\"__esModule\",{value:!0}),e);var c=j((M,l)=>{l.exports=_jsx_runtime});var x={};y(x,{default:()=>p,frontmatter:()=>v});var r=b(c()),v={title:\"Marko\",slug:\"marko\",rapper:\"Ektor\",rapperSlug:\"ektor\",label:\"Detektor Records\",labelSlug:\"detektor-records\",year:2019,genre:[\"trap\",\"modern-rap\"],description:\"Osobn\\u011Bj\\u0161\\xED album reflektuj\\xEDc\\xED \\xFAsp\\u011Bch, tlak a \\u017Eivotn\\xED zm\\u011Bny. Ektor kombinuje tvrdost s introspektivn\\u011Bj\\u0161\\xED atmosf\\xE9rou.\",image:\"/images/alba/marko.jpg\",tracklist:[\"Laskavost\",\"M\\xE1me V\\u0161echno\",\"Dobrou Chu\\u0165\",\"Marko\",\"Money Talk\",\"Denn\\u011B\"],rating:8.9,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function k(e){let t={a:\"a\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.p,{children:\"Marko ukazuje civiln\\u011Bj\\u0161\\xED str\\xE1nku Ektora bez ztr\\xE1ty agresivity.\"}),`\n`,(0,r.jsx)(t.h2,{children:\"Zvuk\"}),`\n`,(0,r.jsxs)(t.p,{children:[\"Modern\\xED \",(0,r.jsx)(t.a,{href:\"/zanry/trap\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"trap\",children:\"trap\"}),\" produkce, siln\\xFD melodick\\xFD refr\\xE9ny a \\u010Dist\\u0161\\xED mix.\"]}),`\n`,(0,r.jsx)(t.h2,{children:\"Dopad\"}),`\n`,(0,r.jsx)(t.p,{children:\"Album uk\\xE1zalo, \\u017Ee Ektor zvl\\xE1dne fungovat i mimo \\u010Dist\\u011B street rapovej r\\xE1mec.\"})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(k,{...e})}):k(e)}return f(x);})();\n;return Component;"
+  },
+  "_id": "alba/marko.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/marko.mdx",
+    "sourceFileName": "marko.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/marko"
+  },
+  "type": "Album",
+  "url": "/alba/marko",
+  "canonicalUrl": "https://4rap.cz/alba/marko"
+}

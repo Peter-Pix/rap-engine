@@ -1,0 +1,23 @@
+{
+  "title": "CRYSTAL KIDZ",
+  "slug": "crystal-kidz",
+  "genre": [],
+  "description": "CRYSTAL KIDZ — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!_.call(t,o)&&o!==r&&s(t,o,{get:()=>e[o],enumerable:!(c=u(e,o))||c.enumerable});return t};var g=(t,e,r)=>(r=t!=null?p(x(t)):{},i(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),C=t=>i(s({},\"__esModule\",{value:!0}),t);var l=f((A,a)=>{a.exports=_jsx_runtime});var k={};j(k,{default:()=>d,frontmatter:()=>D});var n=g(l()),D={title:\"CRYSTAL KIDZ\",slug:\"crystal-kidz\",genre:[],description:\"CRYSTAL KIDZ \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return C(k);})();\n;return Component;"
+  },
+  "_id": "raperi/crystal-kidz.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/crystal-kidz.mdx",
+    "sourceFileName": "crystal-kidz.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/crystal-kidz"
+  },
+  "type": "Rapper",
+  "url": "/raperi/crystal-kidz",
+  "canonicalUrl": "https://4rap.cz/raperi/crystal-kidz"
+}

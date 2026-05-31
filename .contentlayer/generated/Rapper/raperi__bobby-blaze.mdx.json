@@ -1,0 +1,23 @@
+{
+  "title": "Bobby Blaze",
+  "slug": "bobby-blaze",
+  "genre": [],
+  "description": "Bobby Blaze — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var b=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of u(n))!x.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(c=d(n,r))||c.enumerable});return e};var j=(e,n,o)=>(o=e!=null?b(h(e)):{},i(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),y=e=>i(s({},\"__esModule\",{value:!0}),e);var l=_((M,a)=>{a.exports=_jsx_runtime});var g={};f(g,{default:()=>p,frontmatter:()=>B});var t=j(l()),B={title:\"Bobby Blaze\",slug:\"bobby-blaze\",genre:[],description:\"Bobby Blaze \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return y(g);})();\n;return Component;"
+  },
+  "_id": "raperi/bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/bobby-blaze.mdx",
+    "sourceFileName": "bobby-blaze.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/bobby-blaze"
+  },
+  "type": "Rapper",
+  "url": "/raperi/bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/raperi/bobby-blaze"
+}

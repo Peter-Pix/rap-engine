@@ -1,0 +1,23 @@
+{
+  "title": "Sakito",
+  "slug": "sakito",
+  "genre": [],
+  "description": "Sakito — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},c=(t,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!_.call(t,r)&&r!==o&&s(t,r,{get:()=>e[r],enumerable:!(i=u(e,r))||i.enumerable});return t};var k=(t,e,o)=>(o=t!=null?d(x(t)):{},c(e||!t||!t.__esModule?s(o,\"default\",{value:t,enumerable:!0}):o,t)),g=t=>c(s({},\"__esModule\",{value:!0}),t);var m=f((v,a)=>{a.exports=_jsx_runtime});var S={};j(S,{default:()=>p,frontmatter:()=>M});var n=k(m()),M={title:\"Sakito\",slug:\"sakito\",genre:[],description:\"Sakito \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return g(S);})();\n;return Component;"
+  },
+  "_id": "raperi/sakito.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/sakito.mdx",
+    "sourceFileName": "sakito.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/sakito"
+  },
+  "type": "Rapper",
+  "url": "/raperi/sakito",
+  "canonicalUrl": "https://4rap.cz/raperi/sakito"
+}

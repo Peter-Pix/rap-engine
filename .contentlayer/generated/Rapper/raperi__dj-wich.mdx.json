@@ -1,0 +1,23 @@
+{
+  "title": "DJ Wich",
+  "slug": "dj-wich",
+  "genre": [],
+  "description": "DJ Wich — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of u(n))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(c=p(n,o))||c.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(x(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),D=e=>i(s({},\"__esModule\",{value:!0}),e);var m=j((v,h)=>{h.exports=_jsx_runtime});var b={};f(b,{default:()=>d,frontmatter:()=>M});var t=g(m()),M={title:\"DJ Wich\",slug:\"dj-wich\",genre:[],description:\"DJ Wich \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(a,{...e})}):a(e)}return D(b);})();\n;return Component;"
+  },
+  "_id": "raperi/dj-wich.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/dj-wich.mdx",
+    "sourceFileName": "dj-wich.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/dj-wich"
+  },
+  "type": "Rapper",
+  "url": "/raperi/dj-wich",
+  "canonicalUrl": "https://4rap.cz/raperi/dj-wich"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Dano Kapitán",
+  "slug": "dano-kapitan",
+  "genre": [],
+  "description": "Dano Kapitán — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),j=(n,t)=>{for(var o in t)s(n,o,{get:t[o],enumerable:!0})},a=(n,t,o,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!_.call(n,r)&&r!==o&&s(n,r,{get:()=>t[r],enumerable:!(i=u(t,r))||i.enumerable});return n};var g=(n,t,o)=>(o=n!=null?l(x(n)):{},a(t||!n||!n.__esModule?s(o,\"default\",{value:n,enumerable:!0}):o,n)),D=n=>a(s({},\"__esModule\",{value:!0}),n);var p=f((v,c)=>{c.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>k});var e=g(p()),k={title:\"Dano Kapit\\xE1n\",slug:\"dano-kapitan\",genre:[],description:\"Dano Kapit\\xE1n \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(n){let t={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,e.jsx)(t.p,{children:(0,e.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return D(M);})();\n;return Component;"
+  },
+  "_id": "raperi/dano-kapitan.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/dano-kapitan.mdx",
+    "sourceFileName": "dano-kapitan.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/dano-kapitan"
+  },
+  "type": "Rapper",
+  "url": "/raperi/dano-kapitan",
+  "canonicalUrl": "https://4rap.cz/raperi/dano-kapitan"
+}

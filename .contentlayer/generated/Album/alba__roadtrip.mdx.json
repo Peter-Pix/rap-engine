@@ -1,0 +1,41 @@
+{
+  "title": "ROADTRIP",
+  "slug": "roadtrip",
+  "rapper": "Calin",
+  "rapperSlug": "calin",
+  "label": "MIKYMUSIC",
+  "labelSlug": "mikymusic",
+  "year": 2022,
+  "genre": [
+    "melodic-rap",
+    "r&b"
+  ],
+  "description": "Atmosférický album postavený na letní melancholii, vztazích a chill moodu.",
+  "image": "/images/alba/roadtrip.jpg",
+  "tracklist": [
+    "Roadtrip",
+    "Puerto Rico",
+    "Blízko",
+    "Kdyby",
+    "Offline",
+    "Replay"
+  ],
+  "rating": 8.6,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nROADTRIP funguje jako soundtrack k noční jízdě autem.\n\n## Zvuk\n\nLehkej autotune, ambientní beaty a silná emotivní atmosféra.\n\n## Dopad\n\nProjekt upevnil Calinovu pozici mezi nejstreamovanějšíma CZ/SK interpretama.",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var a in e)i(n,a,{get:e[a],enumerable:!0})},l=(n,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!g.call(n,r)&&r!==a&&i(n,r,{get:()=>e[r],enumerable:!(o=d(e,r))||o.enumerable});return n};var b=(n,e,a)=>(a=n!=null?u(j(n)):{},l(e||!n||!n.__esModule?i(a,\"default\",{value:n,enumerable:!0}):a,n)),x=n=>l(i({},\"__esModule\",{value:!0}),n);var m=f((_,c)=>{c.exports=_jsx_runtime});var y={};k(y,{default:()=>s,frontmatter:()=>v});var t=b(m()),v={title:\"ROADTRIP\",slug:\"roadtrip\",rapper:\"Calin\",rapperSlug:\"calin\",label:\"MIKYMUSIC\",labelSlug:\"mikymusic\",year:2022,genre:[\"melodic-rap\",\"r&b\"],description:\"Atmosf\\xE9rick\\xFD album postaven\\xFD na letn\\xED melancholii, vztaz\\xEDch a chill moodu.\",image:\"/images/alba/roadtrip.jpg\",tracklist:[\"Roadtrip\",\"Puerto Rico\",\"Bl\\xEDzko\",\"Kdyby\",\"Offline\",\"Replay\"],rating:8.6,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function p(n){let e={h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.p,{children:\"ROADTRIP funguje jako soundtrack k no\\u010Dn\\xED j\\xEDzd\\u011B autem.\"}),`\n`,(0,t.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,t.jsx)(e.p,{children:\"Lehkej autotune, ambientn\\xED beaty a siln\\xE1 emotivn\\xED atmosf\\xE9ra.\"}),`\n`,(0,t.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,t.jsx)(e.p,{children:\"Projekt upevnil Calinovu pozici mezi nejstreamovan\\u011Bj\\u0161\\xEDma CZ/SK interpretama.\"})]})}function s(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(p,{...n})}):p(n)}return x(y);})();\n;return Component;"
+  },
+  "_id": "alba/roadtrip.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/roadtrip.mdx",
+    "sourceFileName": "roadtrip.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/roadtrip"
+  },
+  "type": "Album",
+  "url": "/alba/roadtrip",
+  "canonicalUrl": "https://4rap.cz/alba/roadtrip"
+}

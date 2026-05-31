@@ -1,0 +1,23 @@
+{
+  "title": "Vaclav Noid Barta",
+  "slug": "vaclav-noid-barta",
+  "genre": [],
+  "description": "Vaclav Noid Barta — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var v=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),f=(t,n)=>{for(var r in n)a(t,r,{get:n[r],enumerable:!0})},c=(t,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!_.call(t,o)&&o!==r&&a(t,o,{get:()=>n[o],enumerable:!(s=u(n,o))||s.enumerable});return t};var j=(t,n,r)=>(r=t!=null?p(x(t)):{},c(n||!t||!t.__esModule?a(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>c(a({},\"__esModule\",{value:!0}),t);var l=v((k,i)=>{i.exports=_jsx_runtime});var B={};f(B,{default:()=>m,frontmatter:()=>b});var e=j(l()),b={title:\"Vaclav Noid Barta\",slug:\"vaclav-noid-barta\",genre:[],description:\"Vaclav Noid Barta \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function d(t){let n={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,e.jsx)(n.p,{children:(0,e.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(d,{...t})}):d(t)}return g(B);})();\n;return Component;"
+  },
+  "_id": "raperi/vaclav-noid-barta.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/vaclav-noid-barta.mdx",
+    "sourceFileName": "vaclav-noid-barta.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/vaclav-noid-barta"
+  },
+  "type": "Rapper",
+  "url": "/raperi/vaclav-noid-barta",
+  "canonicalUrl": "https://4rap.cz/raperi/vaclav-noid-barta"
+}

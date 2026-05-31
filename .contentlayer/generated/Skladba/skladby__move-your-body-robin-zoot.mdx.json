@@ -1,0 +1,37 @@
+{
+  "title": "Move your body",
+  "slug": "move-your-body-robin-zoot",
+  "rapper": "Robin Zoot",
+  "rapperSlug": "robin-zoot",
+  "features": [
+    "resetedh"
+  ],
+  "featuresNames": [
+    "ResetedH"
+  ],
+  "album": "Majitel",
+  "albumSlug": "majitel",
+  "year": 2026,
+  "genre": [],
+  "duration": "2:36",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Skladba evokuje pocit potřeby uvolnit se a tančit.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of b(t))!x.call(e,n)&&n!==r&&a(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var y=(e,t,r)=>(r=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var c=j((S,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>g});var o=y(c()),g={title:\"Move your body\",slug:\"move-your-body-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"resetedh\"],featuresNames:[\"ResetedH\"],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[],duration:\"2:36\",trackNumber:10,producers:[],producersNames:[],description:\"Skladba evokuje pocit pot\\u0159eby uvolnit se a tan\\u010Dit.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/move-your-body-robin-zoot.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/move-your-body-robin-zoot.mdx",
+    "sourceFileName": "move-your-body-robin-zoot.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/move-your-body-robin-zoot"
+  },
+  "type": "Skladba",
+  "url": "/skladby/move-your-body-robin-zoot",
+  "canonicalUrl": "https://4rap.cz/skladby/move-your-body-robin-zoot"
+}

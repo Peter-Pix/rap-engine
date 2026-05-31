@@ -1,0 +1,23 @@
+{
+  "title": "Martina Pártlová",
+  "slug": "martina-partlova",
+  "genre": [],
+  "description": "Martina Pártlová — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),j=(t,n)=>{for(var r in n)s(t,r,{get:n[r],enumerable:!0})},i=(t,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!_.call(t,o)&&o!==r&&s(t,o,{get:()=>n[o],enumerable:!(a=u(n,o))||a.enumerable});return t};var v=(t,n,r)=>(r=t!=null?d(x(t)):{},i(n||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>i(s({},\"__esModule\",{value:!0}),t);var l=f((y,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>g});var e=v(l()),g={title:\"Martina P\\xE1rtlov\\xE1\",slug:\"martina-partlova\",genre:[],description:\"Martina P\\xE1rtlov\\xE1 \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(t){let n={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,e.jsx)(n.p,{children:(0,e.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(m,{...t})}):m(t)}return M(b);})();\n;return Component;"
+  },
+  "_id": "raperi/martina-partlova.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/martina-partlova.mdx",
+    "sourceFileName": "martina-partlova.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/martina-partlova"
+  },
+  "type": "Rapper",
+  "url": "/raperi/martina-partlova",
+  "canonicalUrl": "https://4rap.cz/raperi/martina-partlova"
+}

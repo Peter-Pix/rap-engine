@@ -1,0 +1,37 @@
+{
+  "title": "Kód",
+  "slug": "kod-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [
+    "arleta"
+  ],
+  "featuresNames": [
+    "Arleta"
+  ],
+  "album": "Mumie (Deluxe)",
+  "albumSlug": "mumie",
+  "year": 2022,
+  "genre": [],
+  "duration": "2:34",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kód — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)u(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&u(e,o,{get:()=>t[o],enumerable:!(a=i(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},s(t||!e||!e.__esModule?u(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var m=f((K,x)=>{x.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>M});var r=b(m()),M={title:\"K\\xF3d\",slug:\"kod-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"arleta\"],featuresNames:[\"Arleta\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[],duration:\"2:34\",trackNumber:8,producers:[],producersNames:[],description:\"K\\xF3d \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/kod-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/kod-hugo-toxxx.mdx",
+    "sourceFileName": "kod-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/kod-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kod-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/kod-hugo-toxxx"
+}

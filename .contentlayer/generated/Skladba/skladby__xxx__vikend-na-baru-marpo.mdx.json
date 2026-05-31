@@ -1,0 +1,33 @@
+{
+  "title": "Víkend na baru",
+  "slug": "vikend-na-baru-marpo",
+  "rapper": "Marpo",
+  "rapperSlug": "marpo",
+  "features": [],
+  "featuresNames": [],
+  "album": "Making Country Music Cool Again",
+  "albumSlug": "making-country-music-cool-again",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:16",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Víkend na baru — skladba od Marpo.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!b.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=l(n,a))||u.enumerable});return e};var k=(e,n,t)=>(t=e!=null?d(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),M=e=>s(o({},\"__esModule\",{value:!0}),e);var i=h((C,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>p,frontmatter:()=>_});var r=k(i()),_={title:\"V\\xEDkend na baru\",slug:\"vikend-na-baru-marpo\",rapper:\"Marpo\",rapperSlug:\"marpo\",features:[],featuresNames:[],album:\"Making Country Music Cool Again\",albumSlug:\"making-country-music-cool-again\",year:2025,genre:[],duration:\"3:16\",trackNumber:13,producers:[],producersNames:[],description:\"V\\xEDkend na baru \\u2014 skladba od Marpo.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return M(j);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/vikend-na-baru-marpo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/vikend-na-baru-marpo.mdx",
+    "sourceFileName": "vikend-na-baru-marpo.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/vikend-na-baru-marpo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/vikend-na-baru-marpo",
+  "canonicalUrl": "https://4rap.cz/skladby/vikend-na-baru-marpo"
+}

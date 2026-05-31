@@ -1,0 +1,33 @@
+{
+  "title": "WASTELAND",
+  "slug": "wasteland-ben-cristovao",
+  "rapper": "Ben Cristovao",
+  "rapperSlug": "ben-cristovao",
+  "features": [],
+  "featuresNames": [],
+  "album": "Def Jam World Tour: WARSAW",
+  "albumSlug": "def-jam-world-tour-warsaw",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:31",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Skladba evokuje pustou atmosféru a melancholii cestování a ztráty.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var m=b((A,c)=>{c.exports=_jsx_runtime});var v={};j(v,{default:()=>l,frontmatter:()=>S});var r=_(m()),S={title:\"WASTELAND\",slug:\"wasteland-ben-cristovao\",rapper:\"Ben Cristovao\",rapperSlug:\"ben-cristovao\",features:[],featuresNames:[],album:\"Def Jam World Tour: WARSAW\",albumSlug:\"def-jam-world-tour-warsaw\",year:2025,genre:[],duration:\"3:31\",trackNumber:9,producers:[],producersNames:[],description:\"Skladba evokuje pustou atmosf\\xE9ru a melancholii cestov\\xE1n\\xED a ztr\\xE1ty.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(v);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/wasteland-ben-cristovao.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/wasteland-ben-cristovao.mdx",
+    "sourceFileName": "wasteland-ben-cristovao.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/wasteland-ben-cristovao"
+  },
+  "type": "Skladba",
+  "url": "/skladby/wasteland-ben-cristovao",
+  "canonicalUrl": "https://4rap.cz/skladby/wasteland-ben-cristovao"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "ULTIMATE GRAVE",
+  "slug": "ultimate-grave-redzed",
+  "rapper": "Redzed",
+  "rapperSlug": "redzed",
+  "features": [],
+  "featuresNames": [],
+  "album": "DARKSIDE FANATIC",
+  "albumSlug": "darkside-fanatic",
+  "year": 2026,
+  "genre": [],
+  "duration": "2:34",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "ULTIMATE GRAVE — skladba od Redzed.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)d(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&d(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(h(e)):{},o(t||!e||!e.__esModule?d(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>o(d({},\"__esModule\",{value:!0}),e);var c=A((R,u)=>{u.exports=_jsx_runtime});var E={};g(E,{default:()=>m,frontmatter:()=>j});var r=_(c()),j={title:\"ULTIMATE GRAVE\",slug:\"ultimate-grave-redzed\",rapper:\"Redzed\",rapperSlug:\"redzed\",features:[],featuresNames:[],album:\"DARKSIDE FANATIC\",albumSlug:\"darkside-fanatic\",year:2026,genre:[],duration:\"2:34\",trackNumber:1,producers:[],producersNames:[],description:\"ULTIMATE GRAVE \\u2014 skladba od Redzed.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(E);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/ultimate-grave-redzed.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/ultimate-grave-redzed.mdx",
+    "sourceFileName": "ultimate-grave-redzed.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/ultimate-grave-redzed"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ultimate-grave-redzed",
+  "canonicalUrl": "https://4rap.cz/skladby/ultimate-grave-redzed"
+}
