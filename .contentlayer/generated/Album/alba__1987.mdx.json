@@ -1,0 +1,30 @@
+{
+  "title": "1987",
+  "slug": "1987",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2017,
+  "genre": [],
+  "description": "1987 — singl od Paulie Garand (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/ff6fd0fe5632d57e48544492c201f281/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "1987"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!f.call(e,a)&&a!==r&&i(e,a,{get:()=>n[a],enumerable:!(c=m(n,a))||c.enumerable});return e};var j=(e,n,r)=>(r=e!=null?u(h(e)):{},s(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var l=x((z,o)=>{o.exports=_jsx_runtime});var C={};_(C,{default:()=>p,frontmatter:()=>M});var t=j(l()),M={title:\"1987\",slug:\"1987\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2017,genre:[],description:\"1987 \\u2014 singl od Paulie Garand (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/ff6fd0fe5632d57e48544492c201f281/1000x1000-000000-80-0-0.jpg\",tracklist:[\"1987\"],publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return b(C);})();\n;return Component;"
+  },
+  "_id": "alba/1987.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/1987.mdx",
+    "sourceFileName": "1987.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/1987"
+  },
+  "type": "Album",
+  "url": "/alba/1987",
+  "canonicalUrl": "https://4rap.cz/alba/1987"
+}

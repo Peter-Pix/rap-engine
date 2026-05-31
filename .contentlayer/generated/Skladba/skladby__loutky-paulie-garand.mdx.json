@@ -1,0 +1,37 @@
+{
+  "title": "Loutky",
+  "slug": "loutky-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "oliver-lowe"
+  ],
+  "featuresNames": [
+    "Oliver Lowe"
+  ],
+  "album": "Harant",
+  "albumSlug": "harant",
+  "year": 2010,
+  "genre": [],
+  "duration": "3:15",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Loutky — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(u=p(t,a))||u.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(x(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((w,l)=>{l.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>k});var r=b(i()),k={title:\"Loutky\",slug:\"loutky-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"oliver-lowe\"],featuresNames:[\"Oliver Lowe\"],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[],duration:\"3:15\",trackNumber:2,producers:[],producersNames:[],description:\"Loutky \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/loutky-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/loutky-paulie-garand.mdx",
+    "sourceFileName": "loutky-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/loutky-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/loutky-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/loutky-paulie-garand"
+}

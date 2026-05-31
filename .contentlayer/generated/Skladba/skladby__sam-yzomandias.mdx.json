@@ -1,0 +1,33 @@
+{
+  "title": "Sám",
+  "slug": "sam-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Yzomandias (Remaster)",
+  "albumSlug": "yzomandias",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:59",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sám — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},m=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var g=(e,n,a)=>(a=e!=null?l(h(e)):{},m(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),z=e=>m(s({},\"__esModule\",{value:!0}),e);var i=_((M,d)=>{d.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>j});var t=g(i()),j={title:\"S\\xE1m\",slug:\"sam-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Yzomandias (Remaster)\",albumSlug:\"yzomandias\",year:2023,genre:[],duration:\"2:59\",trackNumber:10,producers:[],producersNames:[],description:\"S\\xE1m \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return z(y);})();\n;return Component;"
+  },
+  "_id": "skladby/sam-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sam-yzomandias.mdx",
+    "sourceFileName": "sam-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sam-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sam-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/sam-yzomandias"
+}

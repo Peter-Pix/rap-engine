@@ -1,0 +1,30 @@
+{
+  "title": "Já & Moje",
+  "slug": "ja-moje",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44",
+  "year": 2020,
+  "genre": [],
+  "description": "Já & Moje — singl od Lvcas Dope (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/17036d3014ebaf9fa26929e57dfae30f/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Já & Moje"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},c=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of j(t))!h.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=u(t,r))||s.enumerable});return e};var _=(e,t,o)=>(o=e!=null?m(g(e)):{},c(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>c(a({},\"__esModule\",{value:!0}),e);var p=x((J,i)=>{i.exports=_jsx_runtime});var v={};f(v,{default:()=>l,frontmatter:()=>b});var n=_(p()),b={title:\"J\\xE1 & Moje\",slug:\"ja-moje\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44\",year:2020,genre:[],description:\"J\\xE1 & Moje \\u2014 singl od Lvcas Dope (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/17036d3014ebaf9fa26929e57dfae30f/1000x1000-000000-80-0-0.jpg\",tracklist:[\"J\\xE1 & Moje\"],publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return M(v);})();\n;return Component;"
+  },
+  "_id": "alba/ja-moje.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/ja-moje.mdx",
+    "sourceFileName": "ja-moje.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/ja-moje"
+  },
+  "type": "Album",
+  "url": "/alba/ja-moje",
+  "canonicalUrl": "https://4rap.cz/alba/ja-moje"
+}

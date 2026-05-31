@@ -1,0 +1,39 @@
+{
+  "title": "Odi et Amo",
+  "slug": "odi-et-amo-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "stepan-urban"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Stepan Urban"
+  ],
+  "album": "Molo II (Deluxe)",
+  "albumSlug": "molo-ii",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:18",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Odi et Amo — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(u=c(n,a))||u.enumerable});return e};var _=(e,n,r)=>(r=e!=null?p(x(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var d=b((k,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>y});var t=_(d()),y={title:\"Odi et Amo\",slug:\"odi-et-amo-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"stepan-urban\"],featuresNames:[\"Kenny Rough\",\"Stepan Urban\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"3:18\",trackNumber:17,producers:[],producersNames:[],description:\"Odi et Amo \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/odi-et-amo-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/odi-et-amo-paulie-garand.mdx",
+    "sourceFileName": "odi-et-amo-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/odi-et-amo-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/odi-et-amo-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/odi-et-amo-paulie-garand"
+}

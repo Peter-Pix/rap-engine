@@ -1,0 +1,30 @@
+{
+  "title": "Adios",
+  "slug": "adios",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44 Enterprise",
+  "year": 2019,
+  "genre": [],
+  "description": "Adios — singl od Lvcas Dope (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e61f4eec9ad2ae94b098639c4cff68d6/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Adios"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of g(t))!x.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(a=u(t,s))||a.enumerable});return e};var j=(e,t,r)=>(r=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var d=f((L,i)=>{i.exports=_jsx_runtime});var A={};_(A,{default:()=>l,frontmatter:()=>v});var n=j(d()),v={title:\"Adios\",slug:\"adios\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44 Enterprise\",year:2019,genre:[],description:\"Adios \\u2014 singl od Lvcas Dope (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/e61f4eec9ad2ae94b098639c4cff68d6/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Adios\"],publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return b(A);})();\n;return Component;"
+  },
+  "_id": "alba/adios.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/adios.mdx",
+    "sourceFileName": "adios.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/adios"
+  },
+  "type": "Album",
+  "url": "/alba/adios",
+  "canonicalUrl": "https://4rap.cz/alba/adios"
+}

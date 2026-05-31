@@ -1,0 +1,39 @@
+{
+  "title": "Placebo",
+  "slug": "placebo-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [
+    "samuraj-pitr",
+    "ledovy-don"
+  ],
+  "featuresNames": [
+    "Samuraj Pítr",
+    "Ledový Don"
+  ],
+  "album": "JUSTiCE44 (Ledová Cesta)",
+  "albumSlug": "justice44-ledova-cesta",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:14",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Placebo — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),v=(e,t)=>{for(var a in t)n(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==a&&n(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var f=(e,t,a)=>(a=e!=null?m(b(e)):{},c(t||!e||!e.__esModule?n(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>c(n({},\"__esModule\",{value:!0}),e);var d=j((S,u)=>{u.exports=_jsx_runtime});var D={};v(D,{default:()=>p,frontmatter:()=>g});var r=f(d()),g={title:\"Placebo\",slug:\"placebo-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"samuraj-pitr\",\"ledovy-don\"],featuresNames:[\"Samuraj P\\xEDtr\",\"Ledov\\xFD Don\"],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[],duration:\"3:14\",trackNumber:9,producers:[],producersNames:[],description:\"Placebo \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(D);})();\n;return Component;"
+  },
+  "_id": "skladby/placebo-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/placebo-lvcas-dope.mdx",
+    "sourceFileName": "placebo-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/placebo-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/placebo-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/placebo-lvcas-dope"
+}

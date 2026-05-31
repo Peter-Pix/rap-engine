@@ -1,0 +1,37 @@
+{
+  "title": "Vekslák",
+  "slug": "vekslak-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "Monology",
+  "albumSlug": "monology",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:57",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Vekslák — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(h(e)):{},u(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var d=k((N,l)=>{l.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>y});var r=_(d()),y={title:\"Veksl\\xE1k\",slug:\"vekslak-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Monology\",albumSlug:\"monology\",year:2020,genre:[],duration:\"2:57\",trackNumber:7,producers:[],producersNames:[],description:\"Veksl\\xE1k \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/vekslak-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/vekslak-paulie-garand.mdx",
+    "sourceFileName": "vekslak-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/vekslak-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/vekslak-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/vekslak-paulie-garand"
+}

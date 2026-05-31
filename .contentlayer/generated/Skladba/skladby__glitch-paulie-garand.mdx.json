@@ -1,0 +1,41 @@
+{
+  "title": "Glitch",
+  "slug": "glitch-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "dj-wich",
+    "dano-kapitan",
+    "majk-spirit"
+  ],
+  "featuresNames": [
+    "DJ Wich",
+    "Dano Kapitán",
+    "Majk Spirit"
+  ],
+  "album": "Mezi prsty",
+  "albumSlug": "mezi-prsty",
+  "year": 2020,
+  "genre": [],
+  "duration": "4:37",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Glitch — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!g.call(e,n)&&n!==a&&i(e,n,{get:()=>t[n],enumerable:!(s=m(t,n))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?d(x(e)):{},o(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>o(i({},\"__esModule\",{value:!0}),e);var c=j((D,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>k});var r=_(c()),k={title:\"Glitch\",slug:\"glitch-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"dano-kapitan\",\"majk-spirit\"],featuresNames:[\"DJ Wich\",\"Dano Kapit\\xE1n\",\"Majk Spirit\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"4:37\",trackNumber:7,producers:[],producersNames:[],description:\"Glitch \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "skladby/glitch-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/glitch-paulie-garand.mdx",
+    "sourceFileName": "glitch-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/glitch-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/glitch-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/glitch-paulie-garand"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "BIG MAC",
+  "slug": "big-mac-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Paranoia",
+  "albumSlug": "paranoia",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:59",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "BIG MAC — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!b.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((C,m)=>{m.exports=_jsx_runtime});var y={};g(y,{default:()=>d,frontmatter:()=>M});var t=_(u()),M={title:\"BIG MAC\",slug:\"big-mac-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Paranoia\",albumSlug:\"paranoia\",year:2024,genre:[],duration:\"3:59\",trackNumber:3,producers:[],producersNames:[],description:\"BIG MAC \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/big-mac-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/big-mac-yzomandias.mdx",
+    "sourceFileName": "big-mac-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/big-mac-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/big-mac-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/big-mac-yzomandias"
+}

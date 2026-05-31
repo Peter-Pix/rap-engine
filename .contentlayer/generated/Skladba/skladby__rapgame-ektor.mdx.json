@@ -1,0 +1,39 @@
+{
+  "title": "Rapgame",
+  "slug": "rapgame-ektor",
+  "rapper": "Ektor",
+  "rapperSlug": "ektor",
+  "features": [
+    "dj-wich",
+    "la4"
+  ],
+  "featuresNames": [
+    "DJ Wich",
+    "LA4"
+  ],
+  "album": "Tetris",
+  "albumSlug": "tetris",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:02",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rapgame — skladba od Ektor.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var u=f((N,m)=>{m.exports=_jsx_runtime});var D={};_(D,{default:()=>p,frontmatter:()=>k});var r=b(u()),k={title:\"Rapgame\",slug:\"rapgame-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\",\"la4\"],featuresNames:[\"DJ Wich\",\"LA4\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[],duration:\"3:02\",trackNumber:12,producers:[],producersNames:[],description:\"Rapgame \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/rapgame-ektor.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rapgame-ektor.mdx",
+    "sourceFileName": "rapgame-ektor.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rapgame-ektor"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rapgame-ektor",
+  "canonicalUrl": "https://4rap.cz/skladby/rapgame-ektor"
+}

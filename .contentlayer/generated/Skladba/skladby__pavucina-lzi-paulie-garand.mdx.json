@@ -1,0 +1,37 @@
+{
+  "title": "Pavučina lží",
+  "slug": "pavucina-lzi-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "jakub-dekan"
+  ],
+  "featuresNames": [
+    "Jakub Děkan"
+  ],
+  "album": "V hlavní roli",
+  "albumSlug": "v-hlavni-roli",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:23",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pavučina lží — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var u=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var r in a)u(e,r,{get:a[r],enumerable:!0})},l=(e,a,r,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!b.call(e,t)&&t!==r&&u(e,t,{get:()=>a[t],enumerable:!(i=m(a,t))||i.enumerable});return e};var _=(e,a,r)=>(r=e!=null?p(x(e)):{},l(a||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>l(u({},\"__esModule\",{value:!0}),e);var s=g((D,o)=>{o.exports=_jsx_runtime});var v={};f(v,{default:()=>c,frontmatter:()=>k});var n=_(s()),k={title:\"Pavu\\u010Dina l\\u017E\\xED\",slug:\"pavucina-lzi-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"jakub-dekan\"],featuresNames:[\"Jakub D\\u011Bkan\"],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:23\",trackNumber:9,producers:[],producersNames:[],description:\"Pavu\\u010Dina l\\u017E\\xED \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/pavucina-lzi-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pavucina-lzi-paulie-garand.mdx",
+    "sourceFileName": "pavucina-lzi-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pavucina-lzi-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pavucina-lzi-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/pavucina-lzi-paulie-garand"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Ze Dna",
+  "slug": "ze-dna-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ze Dna",
+  "albumSlug": "ze-dna",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:32",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ze Dna — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},d=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var g=(e,n,a)=>(a=e!=null?l(h(e)):{},d(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),z=e=>d(o({},\"__esModule\",{value:!0}),e);var u=_((M,m)=>{m.exports=_jsx_runtime});var D={};b(D,{default:()=>c,frontmatter:()=>j});var t=g(u()),j={title:\"Ze Dna\",slug:\"ze-dna-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[],duration:\"3:32\",trackNumber:12,producers:[],producersNames:[],description:\"Ze Dna \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return z(D);})();\n;return Component;"
+  },
+  "_id": "skladby/ze-dna-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ze-dna-yzomandias.mdx",
+    "sourceFileName": "ze-dna-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ze-dna-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ze-dna-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/ze-dna-yzomandias"
+}

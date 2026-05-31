@@ -1,0 +1,37 @@
+{
+  "title": "Maradona",
+  "slug": "maradona-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [
+    "laioung"
+  ],
+  "featuresNames": [
+    "Laïoung"
+  ],
+  "album": "F4R4on",
+  "albumSlug": "f4r4on",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:53",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Maradona — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=i(n,a))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?m(h(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var d=g((L,u)=>{u.exports=_jsx_runtime});var v={};_(v,{default:()=>l,frontmatter:()=>M});var r=b(d()),M={title:\"Maradona\",slug:\"maradona-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"laioung\"],featuresNames:[\"La\\xEFoung\"],album:\"F4R4on\",albumSlug:\"f4r4on\",year:2019,genre:[],duration:\"3:53\",trackNumber:5,producers:[],producersNames:[],description:\"Maradona \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/maradona-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/maradona-lvcas-dope.mdx",
+    "sourceFileName": "maradona-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/maradona-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/maradona-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/maradona-lvcas-dope"
+}

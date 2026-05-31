@@ -1,0 +1,39 @@
+{
+  "title": "Amonit II",
+  "slug": "amonit-ii-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "separ",
+    "koky"
+  ],
+  "featuresNames": [
+    "Separ",
+    "Koky"
+  ],
+  "album": "AMONIT RMX",
+  "albumSlug": "amonit",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:19",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Amonit II — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(i=c(t,a))||i.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var m=f((y,u)=>{u.exports=_jsx_runtime});var I={};_(I,{default:()=>l,frontmatter:()=>k});var n=b(m()),k={title:\"Amonit II\",slug:\"amonit-ii-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"separ\",\"koky\"],featuresNames:[\"Separ\",\"Koky\"],album:\"AMONIT RMX\",albumSlug:\"amonit\",year:2023,genre:[],duration:\"3:19\",trackNumber:2,producers:[],producersNames:[],description:\"Amonit II \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(I);})();\n;return Component;"
+  },
+  "_id": "skladby/amonit-ii-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/amonit-ii-paulie-garand.mdx",
+    "sourceFileName": "amonit-ii-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/amonit-ii-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/amonit-ii-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/amonit-ii-paulie-garand"
+}

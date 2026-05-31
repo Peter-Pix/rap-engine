@@ -1,0 +1,30 @@
+{
+  "title": "Designer Flow",
+  "slug": "designer-flow",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2020,
+  "genre": [],
+  "description": "Designer Flow — singl od Yzomandias (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/969b3d833c081bfcd9df4e5dc9705a04/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Designer Flow"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var g=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},o=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of u(n))!x.call(e,s)&&s!==r&&i(e,s,{get:()=>n[s],enumerable:!(a=p(n,s))||a.enumerable});return e};var _=(e,n,r)=>(r=e!=null?g(h(e)):{},o(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(i({},\"__esModule\",{value:!0}),e);var d=b((z,c)=>{c.exports=_jsx_runtime});var w={};f(w,{default:()=>m,frontmatter:()=>D});var t=_(d()),D={title:\"Designer Flow\",slug:\"designer-flow\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2020,genre:[],description:\"Designer Flow \\u2014 singl od Yzomandias (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/969b3d833c081bfcd9df4e5dc9705a04/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Designer Flow\"],publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(w);})();\n;return Component;"
+  },
+  "_id": "alba/designer-flow.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/designer-flow.mdx",
+    "sourceFileName": "designer-flow.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/designer-flow"
+  },
+  "type": "Album",
+  "url": "/alba/designer-flow",
+  "canonicalUrl": "https://4rap.cz/alba/designer-flow"
+}

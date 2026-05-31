@@ -1,0 +1,37 @@
+{
+  "title": "Postmoderní pláč",
+  "slug": "postmoderni-plac-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "lipo"
+  ],
+  "featuresNames": [
+    "Lipo"
+  ],
+  "album": "Mozoly",
+  "albumSlug": "mozoly",
+  "year": 2006,
+  "genre": [],
+  "duration": "4:00",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Postmoderní pláč — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=c(r,a))||s.enumerable});return e};var b=(e,r,n)=>(n=e!=null?m(h(e)):{},l(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var p=f((N,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>i,frontmatter:()=>y});var t=b(p()),y={title:\"Postmodern\\xED pl\\xE1\\u010D\",slug:\"postmoderni-plac-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"lipo\"],featuresNames:[\"Lipo\"],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[],duration:\"4:00\",trackNumber:4,producers:[],producersNames:[],description:\"Postmodern\\xED pl\\xE1\\u010D \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/postmoderni-plac-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/postmoderni-plac-paulie-garand.mdx",
+    "sourceFileName": "postmoderni-plac-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/postmoderni-plac-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/postmoderni-plac-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/postmoderni-plac-paulie-garand"
+}

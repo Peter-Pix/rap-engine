@@ -1,0 +1,33 @@
+{
+  "title": "Melanž",
+  "slug": "melanz-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Melanž",
+  "albumSlug": "melanz",
+  "year": 2020,
+  "genre": [],
+  "duration": "0:22",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Melanž — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},m=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var g=(e,n,a)=>(a=e!=null?c(h(e)):{},m(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),z=e=>m(o({},\"__esModule\",{value:!0}),e);var u=_((N,l)=>{l.exports=_jsx_runtime});var j={};b(j,{default:()=>i,frontmatter:()=>M});var t=g(u()),M={title:\"Melan\\u017E\",slug:\"melanz-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Melan\\u017E\",albumSlug:\"melanz\",year:2020,genre:[],duration:\"0:22\",trackNumber:1,producers:[],producersNames:[],description:\"Melan\\u017E \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return z(j);})();\n;return Component;"
+  },
+  "_id": "skladby/melanz-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/melanz-yzomandias.mdx",
+    "sourceFileName": "melanz-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/melanz-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/melanz-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/melanz-yzomandias"
+}

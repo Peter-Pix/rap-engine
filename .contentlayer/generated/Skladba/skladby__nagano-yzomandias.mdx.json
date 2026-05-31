@@ -1,0 +1,37 @@
+{
+  "title": "Nagano",
+  "slug": "nagano-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "robin-zoot"
+  ],
+  "featuresNames": [
+    "Robin Zoot"
+  ],
+  "album": "J. Eden",
+  "albumSlug": "j-eden",
+  "year": 2020,
+  "genre": [],
+  "duration": "1:51",
+  "trackNumber": 19,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nagano — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)r(e,a,{get:n[a],enumerable:!0})},d=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==a&&r(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var _=(e,n,a)=>(a=e!=null?l(g(e)):{},d(n||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>d(r({},\"__esModule\",{value:!0}),e);var m=b((M,i)=>{i.exports=_jsx_runtime});var N={};f(N,{default:()=>c,frontmatter:()=>z});var t=_(m()),z={title:\"Nagano\",slug:\"nagano-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"J. Eden\",albumSlug:\"j-eden\",year:2020,genre:[],duration:\"1:51\",trackNumber:19,producers:[],producersNames:[],description:\"Nagano \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/nagano-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nagano-yzomandias.mdx",
+    "sourceFileName": "nagano-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nagano-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nagano-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/nagano-yzomandias"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Kokalero",
+  "slug": "kokalero",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2020,
+  "genre": [],
+  "description": "Kokalero — singl od Yzomandias (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/13891bcc6406f6817708b843dbe740f2/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Kokalero"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of g(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=u(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(b(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(a({},\"__esModule\",{value:!0}),e);var l=x((y,c)=>{c.exports=_jsx_runtime});var z={};f(z,{default:()=>m,frontmatter:()=>k});var n=_(l()),k={title:\"Kokalero\",slug:\"kokalero\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2020,genre:[],description:\"Kokalero \\u2014 singl od Yzomandias (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/13891bcc6406f6817708b843dbe740f2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Kokalero\"],publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(z);})();\n;return Component;"
+  },
+  "_id": "alba/kokalero.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/kokalero.mdx",
+    "sourceFileName": "kokalero.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/kokalero"
+  },
+  "type": "Album",
+  "url": "/alba/kokalero",
+  "canonicalUrl": "https://4rap.cz/alba/kokalero"
+}

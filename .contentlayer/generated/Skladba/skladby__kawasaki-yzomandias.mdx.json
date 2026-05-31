@@ -1,0 +1,37 @@
+{
+  "title": "Kawasaki",
+  "slug": "kawasaki-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "nik-tendo"
+  ],
+  "featuresNames": [
+    "Nik Tendo"
+  ],
+  "album": "Zhora Vypadá Všechno Líp",
+  "albumSlug": "zhora-vypada-vsechno-lip",
+  "year": 2020,
+  "genre": [],
+  "duration": "4:30",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kawasaki — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},i=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!k.call(e,r)&&r!==t&&o(e,r,{get:()=>a[r],enumerable:!(s=l(a,r))||s.enumerable});return e};var b=(e,a,t)=>(t=e!=null?p(x(e)):{},i(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var m=f((w,d)=>{d.exports=_jsx_runtime});var j={};_(j,{default:()=>u,frontmatter:()=>y});var n=b(m()),y={title:\"Kawasaki\",slug:\"kawasaki-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"4:30\",trackNumber:5,producers:[],producersNames:[],description:\"Kawasaki \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/kawasaki-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kawasaki-yzomandias.mdx",
+    "sourceFileName": "kawasaki-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kawasaki-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kawasaki-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/kawasaki-yzomandias"
+}

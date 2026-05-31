@@ -1,0 +1,33 @@
+{
+  "title": "Pop",
+  "slug": "pop-smack",
+  "rapper": "Smack",
+  "rapperSlug": "smack",
+  "features": [],
+  "featuresNames": [],
+  "album": "2051",
+  "albumSlug": "2051",
+  "year": 2012,
+  "genre": [],
+  "duration": "4:34",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pop — skladba od Smack.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?i(h(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>c(o({},\"__esModule\",{value:!0}),e);var u=_((N,m)=>{m.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>j});var r=g(u()),j={title:\"Pop\",slug:\"pop-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[],duration:\"4:34\",trackNumber:11,producers:[],producersNames:[],description:\"Pop \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/pop-smack.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pop-smack.mdx",
+    "sourceFileName": "pop-smack.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pop-smack"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pop-smack",
+  "canonicalUrl": "https://4rap.cz/skladby/pop-smack"
+}

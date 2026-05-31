@@ -1,0 +1,33 @@
+{
+  "title": "Bumerang",
+  "slug": "bumerang-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [],
+  "featuresNames": [],
+  "album": "Showtime",
+  "albumSlug": "showtime",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:44",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bumerang — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var m=b((w,c)=>{c.exports=_jsx_runtime});var D={};f(D,{default:()=>d,frontmatter:()=>v});var r=_(m()),v={title:\"Bumerang\",slug:\"bumerang-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Showtime\",albumSlug:\"showtime\",year:2020,genre:[],duration:\"2:44\",trackNumber:13,producers:[],producersNames:[],description:\"Bumerang \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/bumerang-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bumerang-lvcas-dope.mdx",
+    "sourceFileName": "bumerang-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bumerang-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bumerang-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/bumerang-lvcas-dope"
+}

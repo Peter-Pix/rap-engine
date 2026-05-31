@@ -1,0 +1,37 @@
+{
+  "title": "Penicilin",
+  "slug": "penicilin-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "boy-wonder"
+  ],
+  "featuresNames": [
+    "Boy Wonder"
+  ],
+  "album": "Nirvana",
+  "albumSlug": "nirvana",
+  "year": 2017,
+  "genre": [],
+  "duration": "3:26",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Penicilin — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)i(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!g.call(e,t)&&t!==a&&i(e,t,{get:()=>n[t],enumerable:!(o=m(n,t))||o.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(h(e)):{},s(n||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var l=b((M,u)=>{u.exports=_jsx_runtime});var N={};f(N,{default:()=>d,frontmatter:()=>y});var r=_(l()),y={title:\"Penicilin\",slug:\"penicilin-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"boy-wonder\"],featuresNames:[\"Boy Wonder\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"3:26\",trackNumber:11,producers:[],producersNames:[],description:\"Penicilin \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/penicilin-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/penicilin-paulie-garand.mdx",
+    "sourceFileName": "penicilin-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/penicilin-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/penicilin-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/penicilin-paulie-garand"
+}

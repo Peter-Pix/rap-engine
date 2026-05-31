@@ -1,0 +1,37 @@
+{
+  "title": "Jay",
+  "slug": "jay-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "dj-wich"
+  ],
+  "featuresNames": [
+    "DJ Wich"
+  ],
+  "album": "Mezi prsty",
+  "albumSlug": "mezi-prsty",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:22",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Jay — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!g.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(o=m(r,n))||o.enumerable});return e};var y=(e,r,a)=>(a=e!=null?p(x(e)):{},u(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var c=f((J,i)=>{i.exports=_jsx_runtime});var M={};j(M,{default:()=>l,frontmatter:()=>b});var t=y(c()),b={title:\"Jay\",slug:\"jay-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"3:22\",trackNumber:8,producers:[],producersNames:[],description:\"Jay \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/jay-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jay-paulie-garand.mdx",
+    "sourceFileName": "jay-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jay-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jay-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/jay-paulie-garand"
+}

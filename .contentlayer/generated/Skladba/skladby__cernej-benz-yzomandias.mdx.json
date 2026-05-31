@@ -1,0 +1,33 @@
+{
+  "title": "Černej Benz",
+  "slug": "cernej-benz-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Dobrá Duše, Srdce ze Zlata",
+  "albumSlug": "dobra-duse-srdce-ze-zlata",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:13",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Černej Benz — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},d=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!b.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var f=(e,n,t)=>(t=e!=null?l(z(e)):{},d(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>d(o({},\"__esModule\",{value:!0}),e);var c=h((S,u)=>{u.exports=_jsx_runtime});var y={};j(y,{default:()=>i,frontmatter:()=>g});var r=f(c()),g={title:\"\\u010Cernej Benz\",slug:\"cernej-benz-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[],duration:\"3:13\",trackNumber:7,producers:[],producersNames:[],description:\"\\u010Cernej Benz \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "skladby/cernej-benz-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/cernej-benz-yzomandias.mdx",
+    "sourceFileName": "cernej-benz-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/cernej-benz-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/cernej-benz-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/cernej-benz-yzomandias"
+}

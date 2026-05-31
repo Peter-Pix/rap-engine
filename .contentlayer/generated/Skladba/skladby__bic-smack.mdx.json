@@ -1,0 +1,33 @@
+{
+  "title": "Bič",
+  "slug": "bic-smack",
+  "rapper": "Smack",
+  "rapperSlug": "smack",
+  "features": [],
+  "featuresNames": [],
+  "album": "2051",
+  "albumSlug": "2051",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:24",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bič — skladba od Smack.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(c=p(t,a))||c.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(h(e)):{},o(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>o(s({},\"__esModule\",{value:!0}),e);var u=f((N,m)=>{m.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>j});var r=g(u()),j={title:\"Bic\\u030C\",slug:\"bic-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[],duration:\"3:24\",trackNumber:6,producers:[],producersNames:[],description:\"Bic\\u030C \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/bic-smack.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bic-smack.mdx",
+    "sourceFileName": "bic-smack.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bic-smack"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bic-smack",
+  "canonicalUrl": "https://4rap.cz/skladby/bic-smack"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Každay",
+  "slug": "kazday-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [],
+  "featuresNames": [],
+  "album": "Každay",
+  "albumSlug": "kazday",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:30",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Každay — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!f.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(s=i(t,n))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var u=y((D,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>j});var a=b(u()),j={title:\"Ka\\u017Eday\",slug:\"kazday-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Ka\\u017Eday\",albumSlug:\"kazday\",year:2025,genre:[],duration:\"2:30\",trackNumber:1,producers:[],producersNames:[],description:\"Ka\\u017Eday \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(p,{...e})}):p(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/kazday-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kazday-lvcas-dope.mdx",
+    "sourceFileName": "kazday-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kazday-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kazday-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/kazday-lvcas-dope"
+}

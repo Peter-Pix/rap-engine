@@ -1,0 +1,33 @@
+{
+  "title": "David",
+  "slug": "david-bpm",
+  "rapper": "Bpm",
+  "rapperSlug": "bpm",
+  "features": [],
+  "featuresNames": [],
+  "album": "Slova",
+  "albumSlug": "slova",
+  "year": 2007,
+  "genre": [],
+  "duration": "3:37",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "David — skladba od Bpm.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?i(h(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(o({},\"__esModule\",{value:!0}),e);var d=f((M,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>c,frontmatter:()=>v});var r=g(d()),v={title:\"David\",slug:\"david-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[],duration:\"3:37\",trackNumber:10,producers:[],producersNames:[],description:\"David \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/david-bpm.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/david-bpm.mdx",
+    "sourceFileName": "david-bpm.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/david-bpm"
+  },
+  "type": "Skladba",
+  "url": "/skladby/david-bpm",
+  "canonicalUrl": "https://4rap.cz/skladby/david-bpm"
+}

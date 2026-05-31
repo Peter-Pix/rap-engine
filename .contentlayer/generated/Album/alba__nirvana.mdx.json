@@ -1,0 +1,42 @@
+{
+  "title": "Nirvana",
+  "slug": "nirvana",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2017,
+  "genre": [],
+  "description": "Nirvana — album od Paulie Garand (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/7df1e8ef5e60b1064e7f963d63e38153/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Nirvana",
+    "V zrcadle",
+    "Bali",
+    "Neony (feat. Miris)",
+    "Loyalty (feat. Supa, Idea)",
+    "Colosseum",
+    "Alcatraz (feat. Adiss)",
+    "Play",
+    "Vajgly (feat. Gumbgu)",
+    "Bar(Bar)",
+    "Penicilin (feat. Boy Wonder)",
+    "Se mnou",
+    "Re-Generace (feat. LENNY)"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var t in a)i(e,t,{get:a[t],enumerable:!0})},o=(e,a,t,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of f(a))!h.call(e,r)&&r!==t&&i(e,r,{get:()=>a[r],enumerable:!(l=p(a,r))||l.enumerable});return e};var y=(e,a,t)=>(t=e!=null?m(g(e)):{},o(a||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>o(i({},\"__esModule\",{value:!0}),e);var c=x((M,s)=>{s.exports=_jsx_runtime});var N={};b(N,{default:()=>u,frontmatter:()=>_});var n=y(c()),_={title:\"Nirvana\",slug:\"nirvana\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2017,genre:[],description:\"Nirvana \\u2014 album od Paulie Garand (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/7df1e8ef5e60b1064e7f963d63e38153/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Nirvana\",\"V zrcadle\",\"Bali\",\"Neony (feat. Miris)\",\"Loyalty (feat. Supa, Idea)\",\"Colosseum\",\"Alcatraz (feat. Adiss)\",\"Play\",\"Vajgly (feat. Gumbgu)\",\"Bar(Bar)\",\"Penicilin (feat. Boy Wonder)\",\"Se mnou\",\"Re-Generace (feat. LENNY)\"],publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "alba/nirvana.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/nirvana.mdx",
+    "sourceFileName": "nirvana.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/nirvana"
+  },
+  "type": "Album",
+  "url": "/alba/nirvana",
+  "canonicalUrl": "https://4rap.cz/alba/nirvana"
+}

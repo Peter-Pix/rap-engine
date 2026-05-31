@@ -1,0 +1,39 @@
+{
+  "title": "Nádech",
+  "slug": "nadech-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "rest"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Rest"
+  ],
+  "album": "Boomerang",
+  "albumSlug": "boomerang",
+  "year": 2015,
+  "genre": [],
+  "duration": "4:53",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nádech — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(g(e)):{},u(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var c=b((M,d)=>{d.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>N});var r=_(c()),N={title:\"N\\xE1dech\",slug:\"nadech-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"rest\"],featuresNames:[\"Kenny Rough\",\"Rest\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"4:53\",trackNumber:3,producers:[],producersNames:[],description:\"N\\xE1dech \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/nadech-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nadech-paulie-garand.mdx",
+    "sourceFileName": "nadech-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nadech-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nadech-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/nadech-paulie-garand"
+}

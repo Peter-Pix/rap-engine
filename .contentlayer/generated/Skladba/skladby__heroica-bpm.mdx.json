@@ -1,0 +1,37 @@
+{
+  "title": "Heroica",
+  "slug": "heroica-bpm",
+  "rapper": "Bpm",
+  "rapperSlug": "bpm",
+  "features": [
+    "dj-wich"
+  ],
+  "featuresNames": [
+    "DJ Wich"
+  ],
+  "album": "Horizonty",
+  "albumSlug": "horizonty",
+  "year": 2009,
+  "genre": [],
+  "duration": "3:21",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Heroica — skladba od Bpm.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var m=f((M,i)=>{i.exports=_jsx_runtime});var D={};_(D,{default:()=>p,frontmatter:()=>y});var r=g(m()),y={title:\"Heroica\",slug:\"heroica-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"Horizonty\",albumSlug:\"horizonty\",year:2009,genre:[],duration:\"3:21\",trackNumber:10,producers:[],producersNames:[],description:\"Heroica \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/heroica-bpm.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/heroica-bpm.mdx",
+    "sourceFileName": "heroica-bpm.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/heroica-bpm"
+  },
+  "type": "Skladba",
+  "url": "/skladby/heroica-bpm",
+  "canonicalUrl": "https://4rap.cz/skladby/heroica-bpm"
+}

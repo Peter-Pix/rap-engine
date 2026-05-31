@@ -1,0 +1,41 @@
+{
+  "title": "KIWI",
+  "slug": "kiwi-milion-plus",
+  "rapper": "Milion Plus",
+  "rapperSlug": "milion-plus",
+  "features": [
+    "karlo",
+    "yzomandias",
+    "fobia-kid"
+  ],
+  "featuresNames": [
+    "Karlo",
+    "Yzomandias",
+    "Fobia Kid"
+  ],
+  "album": "KRTEK MONEY LIFE",
+  "albumSlug": "krtek-money-life",
+  "year": 2018,
+  "genre": [],
+  "duration": "1:55",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "KIWI — skladba od Milion Plus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==r&&i(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var K=(e,n,r)=>(r=e!=null?c(f(e)):{},s(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var u=b((I,l)=>{l.exports=_jsx_runtime});var M={};k(M,{default:()=>d,frontmatter:()=>g});var t=K(u()),g={title:\"KIWI\",slug:\"kiwi-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"karlo\",\"yzomandias\",\"fobia-kid\"],featuresNames:[\"Karlo\",\"Yzomandias\",\"Fobia Kid\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"1:55\",trackNumber:6,producers:[],producersNames:[],description:\"KIWI \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/kiwi-milion-plus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kiwi-milion-plus.mdx",
+    "sourceFileName": "kiwi-milion-plus.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kiwi-milion-plus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kiwi-milion-plus",
+  "canonicalUrl": "https://4rap.cz/skladby/kiwi-milion-plus"
+}

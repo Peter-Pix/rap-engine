@@ -1,0 +1,33 @@
+{
+  "title": "Mawar",
+  "slug": "mawar-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Mawar",
+  "albumSlug": "mawar",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:31",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Mawar — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},m=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of x(a))!f.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=p(a,n))||s.enumerable});return e};var g=(e,a,t)=>(t=e!=null?l(h(e)):{},m(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),w=e=>m(o({},\"__esModule\",{value:!0}),e);var d=_((z,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>M});var r=g(d()),M={title:\"Mawar\",slug:\"mawar-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Mawar\",albumSlug:\"mawar\",year:2020,genre:[],duration:\"3:31\",trackNumber:1,producers:[],producersNames:[],description:\"Mawar \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return w(j);})();\n;return Component;"
+  },
+  "_id": "skladby/mawar-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/mawar-yzomandias.mdx",
+    "sourceFileName": "mawar-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/mawar-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/mawar-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/mawar-yzomandias"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Brazilie",
+  "slug": "brazilie",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44",
+  "year": 2020,
+  "genre": [],
+  "description": "Brazilie — singl od Lvcas Dope (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3f2a79ccab4cfc85f7224a763a8c0b13/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Brazilie"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&c(e,a,{get:()=>t[a],enumerable:!(i=u(t,a))||i.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(c({},\"__esModule\",{value:!0}),e);var l=f((B,o)=>{o.exports=_jsx_runtime});var v={};b(v,{default:()=>d,frontmatter:()=>z});var n=_(l()),z={title:\"Brazilie\",slug:\"brazilie\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44\",year:2020,genre:[],description:\"Brazilie \\u2014 singl od Lvcas Dope (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/3f2a79ccab4cfc85f7224a763a8c0b13/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Brazilie\"],publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "alba/brazilie.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/brazilie.mdx",
+    "sourceFileName": "brazilie.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/brazilie"
+  },
+  "type": "Album",
+  "url": "/alba/brazilie",
+  "canonicalUrl": "https://4rap.cz/alba/brazilie"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Chardonnay",
+  "slug": "chardonnay-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [
+    "dj-wich",
+    "cis-t"
+  ],
+  "featuresNames": [
+    "DJ Wich",
+    "Čis T"
+  ],
+  "album": "Diamant",
+  "albumSlug": "diamant",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:29",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Chardonnay — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?p(x(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var i=_((C,d)=>{d.exports=_jsx_runtime});var y={};b(y,{default:()=>m,frontmatter:()=>D});var t=g(i()),D={title:\"Chardonnay\",slug:\"chardonnay-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dj-wich\",\"cis-t\"],featuresNames:[\"DJ Wich\",\"\\u010Cis T\"],album:\"Diamant\",albumSlug:\"diamant\",year:2018,genre:[],duration:\"3:29\",trackNumber:6,producers:[],producersNames:[],description:\"Chardonnay \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/chardonnay-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/chardonnay-lvcas-dope.mdx",
+    "sourceFileName": "chardonnay-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/chardonnay-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/chardonnay-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/chardonnay-lvcas-dope"
+}

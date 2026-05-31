@@ -1,0 +1,37 @@
+{
+  "title": "Alenku",
+  "slug": "alenku-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "karlo"
+  ],
+  "featuresNames": [
+    "Karlo"
+  ],
+  "album": "[Gudlak]",
+  "albumSlug": "gudlak",
+  "year": 2020,
+  "genre": [],
+  "duration": "5:54",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Alenku — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!k.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?c(h(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((A,l)=>{l.exports=_jsx_runtime});var y={};g(y,{default:()=>i,frontmatter:()=>j});var t=_(d()),j={title:\"Alenku\",slug:\"alenku-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[],duration:\"5:54\",trackNumber:7,producers:[],producersNames:[],description:\"Alenku \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(y);})();\n;return Component;"
+  },
+  "_id": "skladby/alenku-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/alenku-yzomandias.mdx",
+    "sourceFileName": "alenku-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/alenku-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/alenku-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/alenku-yzomandias"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "S grácií",
+  "slug": "s-gracii-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Monology",
+  "albumSlug": "monology",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:33",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "S grácií — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of g(r))!h.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var b=(e,r,t)=>(t=e!=null?m(x(e)):{},u(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var c=f((N,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>S});var n=b(c()),S={title:\"S gr\\xE1ci\\xED\",slug:\"s-gracii-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Monology\",albumSlug:\"monology\",year:2020,genre:[],duration:\"3:33\",trackNumber:8,producers:[],producersNames:[],description:\"S gr\\xE1ci\\xED \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/s-gracii-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/s-gracii-paulie-garand.mdx",
+    "sourceFileName": "s-gracii-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/s-gracii-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/s-gracii-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/s-gracii-paulie-garand"
+}

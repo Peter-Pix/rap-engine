@@ -1,0 +1,30 @@
+{
+  "title": "Dinarah",
+  "slug": "dinarah",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44 Enterprise",
+  "year": 2021,
+  "genre": [],
+  "description": "Dinarah — singl od Lvcas Dope (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/4cee3dd4dd8f6751b59b8d686982d5bb/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Dinarah"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),D=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},o=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of u(n))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(i=h(n,a))||i.enumerable});return e};var _=(e,n,r)=>(r=e!=null?m(g(e)):{},o(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>o(s({},\"__esModule\",{value:!0}),e);var d=b((M,c)=>{c.exports=_jsx_runtime});var v={};D(v,{default:()=>l,frontmatter:()=>j});var t=_(d()),j={title:\"Dinarah\",slug:\"dinarah\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44 Enterprise\",year:2021,genre:[],description:\"Dinarah \\u2014 singl od Lvcas Dope (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/4cee3dd4dd8f6751b59b8d686982d5bb/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Dinarah\"],publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return f(v);})();\n;return Component;"
+  },
+  "_id": "alba/dinarah.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/dinarah.mdx",
+    "sourceFileName": "dinarah.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/dinarah"
+  },
+  "type": "Album",
+  "url": "/alba/dinarah",
+  "canonicalUrl": "https://4rap.cz/alba/dinarah"
+}

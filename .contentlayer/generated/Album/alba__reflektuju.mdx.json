@@ -1,0 +1,30 @@
+{
+  "title": "Reflektuju",
+  "slug": "reflektuju",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44 Enterprise",
+  "year": 2021,
+  "genre": [],
+  "description": "Reflektuju — singl od Lvcas Dope (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/972a358c36f902c5903c9144728c05b5/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Reflektuju"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let c of f(t))!h.call(e,c)&&c!==r&&s(e,c,{get:()=>t[c],enumerable:!(o=m(t,c))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(g(e)):{},a(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>a(s({},\"__esModule\",{value:!0}),e);var i=j((L,l)=>{l.exports=_jsx_runtime});var v={};x(v,{default:()=>p,frontmatter:()=>k});var n=_(i()),k={title:\"Reflektuju\",slug:\"reflektuju\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44 Enterprise\",year:2021,genre:[],description:\"Reflektuju \\u2014 singl od Lvcas Dope (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/972a358c36f902c5903c9144728c05b5/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Reflektuju\"],publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return b(v);})();\n;return Component;"
+  },
+  "_id": "alba/reflektuju.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/reflektuju.mdx",
+    "sourceFileName": "reflektuju.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/reflektuju"
+  },
+  "type": "Album",
+  "url": "/alba/reflektuju",
+  "canonicalUrl": "https://4rap.cz/alba/reflektuju"
+}

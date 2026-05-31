@@ -1,0 +1,30 @@
+{
+  "title": "Ty Víš",
+  "slug": "ty-vis",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44",
+  "year": 2020,
+  "genre": [],
+  "description": "Ty Víš — singl od Lvcas Dope (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/f3b607c47352fc7893995257823b4242/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Ty Víš"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of g(t))!x.call(e,s)&&s!==r&&c(e,s,{get:()=>t[s],enumerable:!(o=u(t,s))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(h(e)):{},a(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>a(c({},\"__esModule\",{value:!0}),e);var p=f((L,i)=>{i.exports=_jsx_runtime});var v={};_(v,{default:()=>d,frontmatter:()=>y});var n=b(p()),y={title:\"Ty V\\xED\\u0161\",slug:\"ty-vis\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44\",year:2020,genre:[],description:\"Ty V\\xED\\u0161 \\u2014 singl od Lvcas Dope (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/f3b607c47352fc7893995257823b4242/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Ty V\\xED\\u0161\"],publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "alba/ty-vis.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/ty-vis.mdx",
+    "sourceFileName": "ty-vis.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/ty-vis"
+  },
+  "type": "Album",
+  "url": "/alba/ty-vis",
+  "canonicalUrl": "https://4rap.cz/alba/ty-vis"
+}

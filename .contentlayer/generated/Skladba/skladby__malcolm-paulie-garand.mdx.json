@@ -1,0 +1,33 @@
+{
+  "title": "Malcolm",
+  "slug": "malcolm-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Monology",
+  "albumSlug": "monology",
+  "year": 2020,
+  "genre": [],
+  "duration": "4:30",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Malcolm — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!h.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(l=p(n,a))||l.enumerable});return e};var b=(e,n,t)=>(t=e!=null?i(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),M=e=>s(o({},\"__esModule\",{value:!0}),e);var m=f((S,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>j});var r=b(m()),j={title:\"Malcolm\",slug:\"malcolm-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Monology\",albumSlug:\"monology\",year:2020,genre:[],duration:\"4:30\",trackNumber:5,producers:[],producersNames:[],description:\"Malcolm \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return M(y);})();\n;return Component;"
+  },
+  "_id": "skladby/malcolm-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/malcolm-paulie-garand.mdx",
+    "sourceFileName": "malcolm-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/malcolm-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/malcolm-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/malcolm-paulie-garand"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Doma",
+  "slug": "doma-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "under-my-pillow"
+  ],
+  "featuresNames": [
+    "Under My Pillow"
+  ],
+  "album": "Amonit (Deluxe)",
+  "albumSlug": "amonit",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:12",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Doma — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var b=(e,n,t)=>(t=e!=null?c(h(e)):{},l(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var i=f((w,s)=>{s.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>D});var r=b(i()),D={title:\"Doma\",slug:\"doma-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"under-my-pillow\"],featuresNames:[\"Under My Pillow\"],album:\"Amonit (Deluxe)\",albumSlug:\"amonit\",year:2023,genre:[],duration:\"3:12\",trackNumber:4,producers:[],producersNames:[],description:\"Doma \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/doma-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/doma-paulie-garand.mdx",
+    "sourceFileName": "doma-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/doma-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/doma-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/doma-paulie-garand"
+}

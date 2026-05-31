@@ -1,0 +1,33 @@
+{
+  "title": "Brazilie",
+  "slug": "brazilie-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [],
+  "featuresNames": [],
+  "album": "Brazilie",
+  "albumSlug": "brazilie",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:14",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Brazilie — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=m(r,a))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(h(e)):{},i(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var l=f((B,c)=>{c.exports=_jsx_runtime});var v={};_(v,{default:()=>p,frontmatter:()=>z});var t=g(l()),z={title:\"Brazilie\",slug:\"brazilie-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Brazilie\",albumSlug:\"brazilie\",year:2020,genre:[],duration:\"2:14\",trackNumber:1,producers:[],producersNames:[],description:\"Brazilie \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/brazilie-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/brazilie-lvcas-dope.mdx",
+    "sourceFileName": "brazilie-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/brazilie-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/brazilie-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/brazilie-lvcas-dope"
+}

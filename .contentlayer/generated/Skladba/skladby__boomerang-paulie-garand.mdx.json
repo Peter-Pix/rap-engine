@@ -1,0 +1,39 @@
+{
+  "title": "Boomerang",
+  "slug": "boomerang-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "martin-svatek"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Martin Svatek"
+  ],
+  "album": "Boomerang",
+  "albumSlug": "boomerang",
+  "year": 2015,
+  "genre": [],
+  "duration": "4:13",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Boomerang — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of g(n))!x.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(u=p(n,t))||u.enumerable});return e};var _=(e,n,a)=>(a=e!=null?c(h(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var i=b((S,m)=>{m.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>k});var r=_(i()),k={title:\"Boomerang\",slug:\"boomerang-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"martin-svatek\"],featuresNames:[\"Kenny Rough\",\"Martin Svatek\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"4:13\",trackNumber:1,producers:[],producersNames:[],description:\"Boomerang \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/boomerang-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/boomerang-paulie-garand.mdx",
+    "sourceFileName": "boomerang-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/boomerang-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/boomerang-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/boomerang-paulie-garand"
+}

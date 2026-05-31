@@ -1,0 +1,30 @@
+{
+  "title": "Fight",
+  "slug": "fight",
+  "rapper": "Palermo",
+  "rapperSlug": "palermo",
+  "label": "Palermo",
+  "year": 2024,
+  "genre": [],
+  "description": "Fight — singl od Palermo (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/96c8cec03a68a5699019514fd261e140/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Fight"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(i=g(t,a))||i.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(u(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),F=e=>c(o({},\"__esModule\",{value:!0}),e);var l=f((y,s)=>{s.exports=_jsx_runtime});var M={};_(M,{default:()=>p,frontmatter:()=>b});var n=j(l()),b={title:\"Fight\",slug:\"fight\",rapper:\"Palermo\",rapperSlug:\"palermo\",label:\"Palermo\",year:2024,genre:[],description:\"Fight \\u2014 singl od Palermo (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/96c8cec03a68a5699019514fd261e140/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Fight\"],publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return F(M);})();\n;return Component;"
+  },
+  "_id": "alba/fight.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/fight.mdx",
+    "sourceFileName": "fight.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/fight"
+  },
+  "type": "Album",
+  "url": "/alba/fight",
+  "canonicalUrl": "https://4rap.cz/alba/fight"
+}

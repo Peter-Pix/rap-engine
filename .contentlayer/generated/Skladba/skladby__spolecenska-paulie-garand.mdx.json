@@ -1,0 +1,33 @@
+{
+  "title": "Společenská",
+  "slug": "spolecenska-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "V hlavní roli",
+  "albumSlug": "v-hlavni-roli",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:06",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Společenská — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=m(n,a))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?d(x(e)):{},l(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var i=f((M,u)=>{u.exports=_jsx_runtime});var S={};_(S,{default:()=>c,frontmatter:()=>k});var r=b(i()),k={title:\"Spole\\u010Densk\\xE1\",slug:\"spolecenska-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:06\",trackNumber:16,producers:[],producersNames:[],description:\"Spole\\u010Densk\\xE1 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/spolecenska-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/spolecenska-paulie-garand.mdx",
+    "sourceFileName": "spolecenska-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/spolecenska-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/spolecenska-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/spolecenska-paulie-garand"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Sorry Kotě",
+  "slug": "sorry-kote-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "J. Eden Dva",
+  "albumSlug": "j-eden-dva",
+  "year": 2019,
+  "genre": [],
+  "duration": "0:42",
+  "trackNumber": 19,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sorry Kotě — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},d(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>d(a({},\"__esModule\",{value:!0}),e);var u=y((k,m)=>{m.exports=_jsx_runtime});var S={};_(S,{default:()=>c,frontmatter:()=>j});var r=b(u()),j={title:\"Sorry Kot\\u011B\",slug:\"sorry-kote-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"0:42\",trackNumber:19,producers:[],producersNames:[],description:\"Sorry Kot\\u011B \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(S);})();\n;return Component;"
+  },
+  "_id": "skladby/sorry-kote-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sorry-kote-yzomandias.mdx",
+    "sourceFileName": "sorry-kote-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sorry-kote-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sorry-kote-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/sorry-kote-yzomandias"
+}

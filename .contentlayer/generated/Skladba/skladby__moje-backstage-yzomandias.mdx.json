@@ -1,0 +1,37 @@
+{
+  "title": "Moje Backstage",
+  "slug": "moje-backstage-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "viktor-sheen"
+  ],
+  "featuresNames": [
+    "Viktor Sheen"
+  ],
+  "album": "J. Eden Dva",
+  "albumSlug": "j-eden-dva",
+  "year": 2019,
+  "genre": [],
+  "duration": "1:54",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Moje Backstage — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},d=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!g.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var f=(e,t,a)=>(a=e!=null?l(x(e)):{},d(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>d(o({},\"__esModule\",{value:!0}),e);var c=j((z,m)=>{m.exports=_jsx_runtime});var M={};b(M,{default:()=>u,frontmatter:()=>_});var n=f(c()),_={title:\"Moje Backstage\",slug:\"moje-backstage-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"1:54\",trackNumber:16,producers:[],producersNames:[],description:\"Moje Backstage \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return k(M);})();\n;return Component;"
+  },
+  "_id": "skladby/moje-backstage-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/moje-backstage-yzomandias.mdx",
+    "sourceFileName": "moje-backstage-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/moje-backstage-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/moje-backstage-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/moje-backstage-yzomandias"
+}

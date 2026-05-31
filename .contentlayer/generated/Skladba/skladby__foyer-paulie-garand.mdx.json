@@ -1,0 +1,39 @@
+{
+  "title": "Foyer",
+  "slug": "foyer-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "vaclav-roucek"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Vaclav Roucek"
+  ],
+  "album": "DANK",
+  "albumSlug": "dank",
+  "year": 2018,
+  "genre": [],
+  "duration": "4:25",
+  "trackNumber": 15,
+  "producers": [],
+  "producersNames": [],
+  "description": "Foyer — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),y=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of h(r))!x.call(e,t)&&t!==a&&o(e,t,{get:()=>r[t],enumerable:!(u=p(r,t))||u.enumerable});return e};var _=(e,r,a)=>(a=e!=null?m(g(e)):{},s(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var l=f((N,c)=>{c.exports=_jsx_runtime});var j={};y(j,{default:()=>i,frontmatter:()=>k});var n=_(l()),k={title:\"Foyer\",slug:\"foyer-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"vaclav-roucek\"],featuresNames:[\"Kenny Rough\",\"Vaclav Roucek\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"4:25\",trackNumber:15,producers:[],producersNames:[],description:\"Foyer \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/foyer-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/foyer-paulie-garand.mdx",
+    "sourceFileName": "foyer-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/foyer-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/foyer-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/foyer-paulie-garand"
+}

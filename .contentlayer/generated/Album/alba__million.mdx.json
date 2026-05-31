@@ -1,0 +1,30 @@
+{
+  "title": "Million",
+  "slug": "million",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44 Enterprise",
+  "year": 2018,
+  "genre": [],
+  "description": "Million — singl od Lvcas Dope (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/f8086cb3ed7af0ce6c6ef94f716c97e2/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Million"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of g(n))!x.call(e,i)&&i!==r&&o(e,i,{get:()=>n[i],enumerable:!(c=u(n,i))||c.enumerable});return e};var j=(e,n,r)=>(r=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>s(o({},\"__esModule\",{value:!0}),e);var a=f((L,l)=>{l.exports=_jsx_runtime});var v={};_(v,{default:()=>d,frontmatter:()=>b});var t=j(a()),b={title:\"Million\",slug:\"million\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44 Enterprise\",year:2018,genre:[],description:\"Million \\u2014 singl od Lvcas Dope (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/f8086cb3ed7af0ce6c6ef94f716c97e2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Million\"],publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return M(v);})();\n;return Component;"
+  },
+  "_id": "alba/million.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/million.mdx",
+    "sourceFileName": "million.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/million"
+  },
+  "type": "Album",
+  "url": "/alba/million",
+  "canonicalUrl": "https://4rap.cz/alba/million"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Zbyl mi jen život",
+  "slug": "zbyl-mi-jen-zivot-bpm",
+  "rapper": "Bpm",
+  "rapperSlug": "bpm",
+  "features": [],
+  "featuresNames": [],
+  "album": "Slova",
+  "albumSlug": "slova",
+  "year": 2007,
+  "genre": [],
+  "duration": "3:30",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Zbyl mi jen život — skladba od Bpm.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?c(x(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(a({},\"__esModule\",{value:!0}),e);var l=j((M,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>p,frontmatter:()=>v});var n=_(l()),v={title:\"Zbyl mi jen \\u017Eivot\",slug:\"zbyl-mi-jen-zivot-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[],duration:\"3:30\",trackNumber:9,producers:[],producersNames:[],description:\"Zbyl mi jen \\u017Eivot \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/zbyl-mi-jen-zivot-bpm.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/zbyl-mi-jen-zivot-bpm.mdx",
+    "sourceFileName": "zbyl-mi-jen-zivot-bpm.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/zbyl-mi-jen-zivot-bpm"
+  },
+  "type": "Skladba",
+  "url": "/skladby/zbyl-mi-jen-zivot-bpm",
+  "canonicalUrl": "https://4rap.cz/skladby/zbyl-mi-jen-zivot-bpm"
+}

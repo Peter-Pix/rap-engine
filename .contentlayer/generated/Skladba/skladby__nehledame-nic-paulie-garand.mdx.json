@@ -1,0 +1,39 @@
+{
+  "title": "Nehledáme nic",
+  "slug": "nehledame-nic-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "ben-cristovao"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Ben Cristovao"
+  ],
+  "album": "Molo II (Deluxe)",
+  "albumSlug": "molo-ii",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:38",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nehledáme nic — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(x(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var l=b((k,s)=>{s.exports=_jsx_runtime});var y={};f(y,{default:()=>d,frontmatter:()=>N});var r=_(l()),N={title:\"Nehled\\xE1me nic\",slug:\"nehledame-nic-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ben-cristovao\"],featuresNames:[\"Kenny Rough\",\"Ben Cristovao\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"2:38\",trackNumber:13,producers:[],producersNames:[],description:\"Nehled\\xE1me nic \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/nehledame-nic-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nehledame-nic-paulie-garand.mdx",
+    "sourceFileName": "nehledame-nic-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nehledame-nic-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nehledame-nic-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/nehledame-nic-paulie-garand"
+}

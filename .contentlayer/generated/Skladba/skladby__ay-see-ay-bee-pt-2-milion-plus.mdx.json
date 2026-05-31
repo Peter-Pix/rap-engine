@@ -1,0 +1,39 @@
+{
+  "title": "AY SEE AY BEE pt. 2",
+  "slug": "ay-see-ay-bee-pt-2-milion-plus",
+  "rapper": "Milion Plus",
+  "rapperSlug": "milion-plus",
+  "features": [
+    "yzomandias",
+    "robin-zoot"
+  ],
+  "featuresNames": [
+    "Yzomandias",
+    "Robin Zoot"
+  ],
+  "album": "Krtek Forever",
+  "albumSlug": "krtek-forever",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:40",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "AY SEE AY BEE pt. 2 — skladba od Milion Plus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),E=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?c(b(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var l=f((A,u)=>{u.exports=_jsx_runtime});var k={};E(k,{default:()=>p,frontmatter:()=>j});var n=_(l()),j={title:\"AY SEE AY BEE pt. 2\",slug:\"ay-see-ay-bee-pt-2-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"robin-zoot\"],featuresNames:[\"Yzomandias\",\"Robin Zoot\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[],duration:\"3:40\",trackNumber:5,producers:[],producersNames:[],description:\"AY SEE AY BEE pt. 2 \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/ay-see-ay-bee-pt-2-milion-plus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ay-see-ay-bee-pt-2-milion-plus.mdx",
+    "sourceFileName": "ay-see-ay-bee-pt-2-milion-plus.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ay-see-ay-bee-pt-2-milion-plus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ay-see-ay-bee-pt-2-milion-plus",
+  "canonicalUrl": "https://4rap.cz/skladby/ay-see-ay-bee-pt-2-milion-plus"
+}

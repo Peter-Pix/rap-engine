@@ -1,0 +1,35 @@
+{
+  "title": "NAHORU NA DNO",
+  "slug": "nahoru-na-dno",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2024,
+  "genre": [],
+  "description": "NAHORU NA DNO — EP od Paulie Garand (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a055da0660e5970ca72b3ea90a07fcc0/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "NICK CAGE",
+    "VDĚČNEJ",
+    "TOULAVÍ PSI",
+    "POD MLHOU",
+    "SLUNCE JE TAK NÍZKO",
+    "MOJE HRA"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var c=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var N=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),O=(e,n)=>{for(var a in n)c(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==a&&c(e,r,{get:()=>n[r],enumerable:!(o=m(n,r))||o.enumerable});return e};var A=(e,n,a)=>(a=e!=null?u(g(e)):{},i(n||!e||!e.__esModule?c(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>i(c({},\"__esModule\",{value:!0}),e);var d=N((C,s)=>{s.exports=_jsx_runtime});var f={};O(f,{default:()=>p,frontmatter:()=>b});var t=A(d()),b={title:\"NAHORU NA DNO\",slug:\"nahoru-na-dno\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2024,genre:[],description:\"NAHORU NA DNO \\u2014 EP od Paulie Garand (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/a055da0660e5970ca72b3ea90a07fcc0/1000x1000-000000-80-0-0.jpg\",tracklist:[\"NICK CAGE\",\"VD\\u011A\\u010CNEJ\",\"TOULAV\\xCD PSI\",\"POD MLHOU\",\"SLUNCE JE TAK N\\xCDZKO\",\"MOJE HRA\"],publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(f);})();\n;return Component;"
+  },
+  "_id": "alba/nahoru-na-dno.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/nahoru-na-dno.mdx",
+    "sourceFileName": "nahoru-na-dno.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/nahoru-na-dno"
+  },
+  "type": "Album",
+  "url": "/alba/nahoru-na-dno",
+  "canonicalUrl": "https://4rap.cz/alba/nahoru-na-dno"
+}

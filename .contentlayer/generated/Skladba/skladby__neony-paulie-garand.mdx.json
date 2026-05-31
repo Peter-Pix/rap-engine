@@ -1,0 +1,37 @@
+{
+  "title": "Neony",
+  "slug": "neony-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "miris"
+  ],
+  "featuresNames": [
+    "Miriş"
+  ],
+  "album": "Nirvana",
+  "albumSlug": "nirvana",
+  "year": 2017,
+  "genre": [],
+  "duration": "4:04",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Neony — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!g.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(i=p(n,t))||i.enumerable});return e};var b=(e,n,a)=>(a=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),N=e=>s(o({},\"__esModule\",{value:!0}),e);var d=f((S,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>j});var r=b(d()),j={title:\"Neony\",slug:\"neony-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"miris\"],featuresNames:[\"Miri\\u015F\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"4:04\",trackNumber:4,producers:[],producersNames:[],description:\"Neony \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return N(y);})();\n;return Component;"
+  },
+  "_id": "skladby/neony-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/neony-paulie-garand.mdx",
+    "sourceFileName": "neony-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/neony-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/neony-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/neony-paulie-garand"
+}

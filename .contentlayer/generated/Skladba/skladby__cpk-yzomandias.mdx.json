@@ -1,0 +1,37 @@
+{
+  "title": "CPK",
+  "slug": "cpk-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "ego"
+  ],
+  "featuresNames": [
+    "Ego"
+  ],
+  "album": "Zhora Vypadá Všechno Líp",
+  "albumSlug": "zhora-vypada-vsechno-lip",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:32",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "CPK — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?u(x(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>c(o({},\"__esModule\",{value:!0}),e);var m=f((k,d)=>{d.exports=_jsx_runtime});var z={};_(z,{default:()=>p,frontmatter:()=>j});var t=b(m()),j={title:\"CPK\",slug:\"cpk-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"ego\"],featuresNames:[\"Ego\"],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"3:32\",trackNumber:2,producers:[],producersNames:[],description:\"CPK \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return y(z);})();\n;return Component;"
+  },
+  "_id": "skladby/cpk-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/cpk-yzomandias.mdx",
+    "sourceFileName": "cpk-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/cpk-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/cpk-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/cpk-yzomandias"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Sedim Vysoko",
+  "slug": "sedim-vysoko-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "jckpt"
+  ],
+  "featuresNames": [
+    "Jckpt"
+  ],
+  "album": "Pod Vlivem",
+  "albumSlug": "pod-vlivem",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:17",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sedim Vysoko — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var o in t)s(e,o,{get:t[o],enumerable:!0})},m=(e,t,o,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!f.call(e,r)&&r!==o&&s(e,r,{get:()=>t[r],enumerable:!(a=l(t,r))||a.enumerable});return e};var _=(e,t,o)=>(o=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>m(s({},\"__esModule\",{value:!0}),e);var i=k((v,d)=>{d.exports=_jsx_runtime});var j={};y(j,{default:()=>u,frontmatter:()=>g});var n=_(i()),g={title:\"Sedim Vysoko\",slug:\"sedim-vysoko-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\"],featuresNames:[\"Jckpt\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[],duration:\"3:17\",trackNumber:1,producers:[],producersNames:[],description:\"Sedim Vysoko \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/sedim-vysoko-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sedim-vysoko-yzomandias.mdx",
+    "sourceFileName": "sedim-vysoko-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sedim-vysoko-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sedim-vysoko-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/sedim-vysoko-yzomandias"
+}

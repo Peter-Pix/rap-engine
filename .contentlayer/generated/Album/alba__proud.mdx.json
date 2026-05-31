@@ -1,0 +1,30 @@
+{
+  "title": "Proud",
+  "slug": "proud",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2024,
+  "genre": [],
+  "description": "Proud — singl od Paulie Garand (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/5293648e6c0879cf0ced15f95d3f2d1b/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Proud"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(c=m(n,a))||c.enumerable});return e};var b=(e,n,r)=>(r=e!=null?p(h(e)):{},d(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var s=f((y,i)=>{i.exports=_jsx_runtime});var M={};_(M,{default:()=>u,frontmatter:()=>P});var t=b(s()),P={title:\"Proud\",slug:\"proud\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2024,genre:[],description:\"Proud \\u2014 singl od Paulie Garand (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/5293648e6c0879cf0ced15f95d3f2d1b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Proud\"],publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/proud.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/proud.mdx",
+    "sourceFileName": "proud.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/proud"
+  },
+  "type": "Album",
+  "url": "/alba/proud",
+  "canonicalUrl": "https://4rap.cz/alba/proud"
+}

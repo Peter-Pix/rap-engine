@@ -1,0 +1,37 @@
+{
+  "title": "Re-Generace",
+  "slug": "re-generace-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "lenny"
+  ],
+  "featuresNames": [
+    "Lenny"
+  ],
+  "album": "Nirvana",
+  "albumSlug": "nirvana",
+  "year": 2017,
+  "genre": [],
+  "duration": "3:24",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Re-Generace — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!h.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var b=(e,n,a)=>(a=e!=null?m(g(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((M,c)=>{c.exports=_jsx_runtime});var G={};_(G,{default:()=>d,frontmatter:()=>y});var r=b(i()),y={title:\"Re-Generace\",slug:\"re-generace-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"lenny\"],featuresNames:[\"Lenny\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"3:24\",trackNumber:13,producers:[],producersNames:[],description:\"Re-Generace \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(G);})();\n;return Component;"
+  },
+  "_id": "skladby/re-generace-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/re-generace-paulie-garand.mdx",
+    "sourceFileName": "re-generace-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/re-generace-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/re-generace-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/re-generace-paulie-garand"
+}

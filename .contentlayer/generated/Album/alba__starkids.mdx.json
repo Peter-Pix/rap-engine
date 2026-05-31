@@ -1,0 +1,30 @@
+{
+  "title": "Starkids",
+  "slug": "starkids",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "Starkids — singl od Paulie Garand (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/bf360d25860a92e496800eab20f4c377/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Starkids"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(s=m(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?u(h(e)):{},c(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(i({},\"__esModule\",{value:!0}),e);var o=b((C,d)=>{d.exports=_jsx_runtime});var S={};f(S,{default:()=>p,frontmatter:()=>k});var n=_(o()),k={title:\"Starkids\",slug:\"starkids\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Starkids \\u2014 singl od Paulie Garand (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/bf360d25860a92e496800eab20f4c377/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Starkids\"],publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "alba/starkids.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/starkids.mdx",
+    "sourceFileName": "starkids.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/starkids"
+  },
+  "type": "Album",
+  "url": "/alba/starkids",
+  "canonicalUrl": "https://4rap.cz/alba/starkids"
+}

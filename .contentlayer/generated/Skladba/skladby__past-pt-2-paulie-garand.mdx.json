@@ -1,0 +1,39 @@
+{
+  "title": "Past pt. 2",
+  "slug": "past-pt-2-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "kali"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Kali"
+  ],
+  "album": "DANK",
+  "albumSlug": "dank",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:54",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Past pt. 2 — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=m(t,r))||o.enumerable});return e};var b=(e,t,a)=>(a=e!=null?c(g(e)):{},u(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var l=f((N,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>k});var n=b(l()),k={title:\"Past pt. 2\",slug:\"past-pt-2-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"kali\"],featuresNames:[\"Kenny Rough\",\"Kali\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"3:54\",trackNumber:8,producers:[],producersNames:[],description:\"Past pt. 2 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/past-pt-2-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/past-pt-2-paulie-garand.mdx",
+    "sourceFileName": "past-pt-2-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/past-pt-2-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/past-pt-2-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/past-pt-2-paulie-garand"
+}

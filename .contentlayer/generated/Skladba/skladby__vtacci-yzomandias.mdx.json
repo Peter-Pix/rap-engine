@@ -1,0 +1,39 @@
+{
+  "title": "Vtačci",
+  "slug": "vtacci-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "jickson",
+    "zkrat-kratochvil"
+  ],
+  "featuresNames": [
+    "Jickson",
+    "Zkrat Kratochvíl"
+  ],
+  "album": "Yzotape",
+  "albumSlug": "yzotape",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:46",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Vtačci — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),z=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!f.call(t,r)&&r!==n&&o(t,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return t};var _=(t,e,n)=>(n=t!=null?l(x(t)):{},c(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>c(o({},\"__esModule\",{value:!0}),t);var m=k((v,i)=>{i.exports=_jsx_runtime});var j={};z(j,{default:()=>d,frontmatter:()=>g});var a=_(m()),g={title:\"Vta\\u010Dci\",slug:\"vtacci-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\",\"zkrat-kratochvil\"],featuresNames:[\"Jickson\",\"Zkrat Kratochv\\xEDl\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[],duration:\"3:46\",trackNumber:12,producers:[],producersNames:[],description:\"Vta\\u010Dci \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(u,{...t})}):u(t)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/vtacci-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/vtacci-yzomandias.mdx",
+    "sourceFileName": "vtacci-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/vtacci-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/vtacci-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/vtacci-yzomandias"
+}

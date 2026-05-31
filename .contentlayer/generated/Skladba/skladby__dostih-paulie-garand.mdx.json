@@ -1,0 +1,33 @@
+{
+  "title": "Dostih",
+  "slug": "dostih-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Mozoly",
+  "albumSlug": "mozoly",
+  "year": 2006,
+  "genre": [],
+  "duration": "4:23",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Dostih — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var l=f((N,i)=>{i.exports=_jsx_runtime});var D={};_(D,{default:()=>c,frontmatter:()=>y});var r=b(l()),y={title:\"Dostih\",slug:\"dostih-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[],duration:\"4:23\",trackNumber:1,producers:[],producersNames:[],description:\"Dostih \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/dostih-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dostih-paulie-garand.mdx",
+    "sourceFileName": "dostih-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dostih-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dostih-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/dostih-paulie-garand"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Kde si byl",
+  "slug": "kde-si-byl-ektor",
+  "rapper": "Ektor",
+  "rapperSlug": "ektor",
+  "features": [
+    "dj-wich",
+    "strapo"
+  ],
+  "featuresNames": [
+    "DJ Wich",
+    "Strapo"
+  ],
+  "album": "Tetris",
+  "albumSlug": "tetris",
+  "year": 2012,
+  "genre": [],
+  "duration": "4:12",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kde si byl — skladba od Ektor.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(x(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var u=f((D,c)=>{c.exports=_jsx_runtime});var y={};k(y,{default:()=>l,frontmatter:()=>j});var r=_(u()),j={title:\"Kde si byl\",slug:\"kde-si-byl-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\",\"strapo\"],featuresNames:[\"DJ Wich\",\"Strapo\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[],duration:\"4:12\",trackNumber:6,producers:[],producersNames:[],description:\"Kde si byl \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/kde-si-byl-ektor.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kde-si-byl-ektor.mdx",
+    "sourceFileName": "kde-si-byl-ektor.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kde-si-byl-ektor"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kde-si-byl-ektor",
+  "canonicalUrl": "https://4rap.cz/skladby/kde-si-byl-ektor"
+}

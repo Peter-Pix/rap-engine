@@ -1,0 +1,30 @@
+{
+  "title": "Eskort",
+  "slug": "eskort",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44 Enterprise",
+  "year": 2019,
+  "genre": [],
+  "description": "Eskort — singl od Lvcas Dope (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/147d53bc6ec47a340b665e99bc3a869c/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Eskort"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of g(t))!x.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(c=u(t,s))||c.enumerable});return e};var j=(e,t,r)=>(r=e!=null?m(h(e)):{},a(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>a(o({},\"__esModule\",{value:!0}),e);var p=b((E,i)=>{i.exports=_jsx_runtime});var v={};_(v,{default:()=>d,frontmatter:()=>k});var n=j(p()),k={title:\"Eskort\",slug:\"eskort\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44 Enterprise\",year:2019,genre:[],description:\"Eskort \\u2014 singl od Lvcas Dope (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/147d53bc6ec47a340b665e99bc3a869c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Eskort\"],publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return f(v);})();\n;return Component;"
+  },
+  "_id": "alba/eskort.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/eskort.mdx",
+    "sourceFileName": "eskort.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/eskort"
+  },
+  "type": "Album",
+  "url": "/alba/eskort",
+  "canonicalUrl": "https://4rap.cz/alba/eskort"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Klony",
+  "slug": "klony",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44 Enterprise",
+  "year": 2026,
+  "genre": [],
+  "description": "Klony — singl od Lvcas Dope (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/d4754ab28bceff137070e345c54cd868/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Klony"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},a=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of g(n))!x.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(c=u(n,o))||c.enumerable});return e};var b=(e,n,r)=>(r=e!=null?m(h(e)):{},a(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var i=f((K,l)=>{l.exports=_jsx_runtime});var v={};_(v,{default:()=>d,frontmatter:()=>y});var t=b(i()),y={title:\"Klony\",slug:\"klony\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44 Enterprise\",year:2026,genre:[],description:\"Klony \\u2014 singl od Lvcas Dope (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/d4754ab28bceff137070e345c54cd868/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Klony\"],publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "alba/klony.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/klony.mdx",
+    "sourceFileName": "klony.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/klony"
+  },
+  "type": "Album",
+  "url": "/alba/klony",
+  "canonicalUrl": "https://4rap.cz/alba/klony"
+}

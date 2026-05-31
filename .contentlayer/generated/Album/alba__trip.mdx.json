@@ -1,0 +1,30 @@
+{
+  "title": "Trip",
+  "slug": "trip",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2020,
+  "genre": [],
+  "description": "Trip — singl od Paulie Garand (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0b73ed0a34c0142d9f7a988b7f07e7a2/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Trip"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>n[a],enumerable:!(c=m(n,a))||c.enumerable});return e};var _=(e,n,r)=>(r=e!=null?u(h(e)):{},s(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var p=b((y,o)=>{o.exports=_jsx_runtime});var C={};f(C,{default:()=>d,frontmatter:()=>M});var t=_(p()),M={title:\"Trip\",slug:\"trip\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2020,genre:[],description:\"Trip \\u2014 singl od Paulie Garand (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/0b73ed0a34c0142d9f7a988b7f07e7a2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Trip\"],publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(C);})();\n;return Component;"
+  },
+  "_id": "alba/trip.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/trip.mdx",
+    "sourceFileName": "trip.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/trip"
+  },
+  "type": "Album",
+  "url": "/alba/trip",
+  "canonicalUrl": "https://4rap.cz/alba/trip"
+}

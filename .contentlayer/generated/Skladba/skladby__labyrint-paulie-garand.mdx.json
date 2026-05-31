@@ -1,0 +1,39 @@
+{
+  "title": "Labyrint",
+  "slug": "labyrint-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "pil-c"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Pil C"
+  ],
+  "album": "Boomerang",
+  "albumSlug": "boomerang",
+  "year": 2015,
+  "genre": [],
+  "duration": "3:08",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Labyrint — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!b.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var y=(e,n,t)=>(t=e!=null?m(h(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var l=x((L,s)=>{s.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>j});var r=y(l()),j={title:\"Labyrint\",slug:\"labyrint-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"pil-c\"],featuresNames:[\"Kenny Rough\",\"Pil C\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"3:08\",trackNumber:8,producers:[],producersNames:[],description:\"Labyrint \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "skladby/labyrint-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/labyrint-paulie-garand.mdx",
+    "sourceFileName": "labyrint-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/labyrint-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/labyrint-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/labyrint-paulie-garand"
+}

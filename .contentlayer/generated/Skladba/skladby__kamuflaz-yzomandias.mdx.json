@@ -1,0 +1,33 @@
+{
+  "title": "Kamufláž",
+  "slug": "kamuflaz-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "J. Eden Dva",
+  "albumSlug": "j-eden-dva",
+  "year": 2019,
+  "genre": [],
+  "duration": "1:50",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kamufláž — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},m=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of f(n))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var g=(e,n,a)=>(a=e!=null?l(x(e)):{},m(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>m(o({},\"__esModule\",{value:!0}),e);var d=_((D,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>z});var t=g(d()),z={title:\"Kamufl\\xE1\\u017E\",slug:\"kamuflaz-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"1:50\",trackNumber:11,producers:[],producersNames:[],description:\"Kamufl\\xE1\\u017E \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/kamuflaz-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kamuflaz-yzomandias.mdx",
+    "sourceFileName": "kamuflaz-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kamuflaz-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kamuflaz-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/kamuflaz-yzomandias"
+}

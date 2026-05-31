@@ -1,0 +1,39 @@
+{
+  "title": "Generace Y",
+  "slug": "generace-y-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "marat",
+    "jickson"
+  ],
+  "featuresNames": [
+    "Marat",
+    "Jickson"
+  ],
+  "album": "Hráč Roku Playlist",
+  "albumSlug": "hrac-roku-playlist",
+  "year": 2020,
+  "genre": [],
+  "duration": "4:22",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Generace Y — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!f.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?l(x(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var m=g((M,i)=>{i.exports=_jsx_runtime});var k={};y(k,{default:()=>d,frontmatter:()=>j});var r=_(m()),j={title:\"Generace Y\",slug:\"generace-y-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"marat\",\"jickson\"],featuresNames:[\"Marat\",\"Jickson\"],album:\"Hr\\xE1\\u010D Roku Playlist\",albumSlug:\"hrac-roku-playlist\",year:2020,genre:[],duration:\"4:22\",trackNumber:3,producers:[],producersNames:[],description:\"Generace Y \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "skladby/generace-y-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/generace-y-yzomandias.mdx",
+    "sourceFileName": "generace-y-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/generace-y-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/generace-y-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/generace-y-yzomandias"
+}

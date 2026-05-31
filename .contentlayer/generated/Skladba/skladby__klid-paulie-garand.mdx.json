@@ -1,0 +1,33 @@
+{
+  "title": "Klid",
+  "slug": "klid-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "V hlavní roli",
+  "albumSlug": "v-hlavni-roli",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:47",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Klid — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)l(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==t&&l(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var b=(e,r,t)=>(t=e!=null?m(x(e)):{},i(r||!e||!e.__esModule?l(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(l({},\"__esModule\",{value:!0}),e);var u=f((M,s)=>{s.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>k});var n=b(u()),k={title:\"Klid\",slug:\"klid-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:47\",trackNumber:3,producers:[],producersNames:[],description:\"Klid \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/klid-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/klid-paulie-garand.mdx",
+    "sourceFileName": "klid-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/klid-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/klid-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/klid-paulie-garand"
+}

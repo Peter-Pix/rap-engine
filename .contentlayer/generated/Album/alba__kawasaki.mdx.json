@@ -1,0 +1,30 @@
+{
+  "title": "Kawasaki",
+  "slug": "kawasaki",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2020,
+  "genre": [],
+  "description": "Kawasaki — singl od Yzomandias (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/212350917da900cee979dcfb51b8547b/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Kawasaki"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of g(t))!h.call(e,s)&&s!==a&&i(e,s,{get:()=>t[s],enumerable:!(r=u(t,s))||r.enumerable});return e};var f=(e,t,a)=>(a=e!=null?p(b(e)):{},o(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>o(i({},\"__esModule\",{value:!0}),e);var d=x((M,c)=>{c.exports=_jsx_runtime});var w={};_(w,{default:()=>m,frontmatter:()=>k});var n=f(d()),k={title:\"Kawasaki\",slug:\"kawasaki\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2020,genre:[],description:\"Kawasaki \\u2014 singl od Yzomandias (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/212350917da900cee979dcfb51b8547b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Kawasaki\"],publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(w);})();\n;return Component;"
+  },
+  "_id": "alba/kawasaki.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/kawasaki.mdx",
+    "sourceFileName": "kawasaki.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/kawasaki"
+  },
+  "type": "Album",
+  "url": "/alba/kawasaki",
+  "canonicalUrl": "https://4rap.cz/alba/kawasaki"
+}

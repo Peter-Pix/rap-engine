@@ -1,0 +1,30 @@
+{
+  "title": "Svět",
+  "slug": "svet",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "44 Enterprise",
+  "year": 2025,
+  "genre": [],
+  "description": "Svět — singl od Lvcas Dope (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/1cdbdf5cda7f3573c9bea2026c633c67/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Svět"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var v=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let c of g(t))!x.call(e,c)&&c!==r&&s(e,c,{get:()=>t[c],enumerable:!(a=u(t,c))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},o(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>o(s({},\"__esModule\",{value:!0}),e);var p=v((L,i)=>{i.exports=_jsx_runtime});var S={};f(S,{default:()=>l,frontmatter:()=>j});var n=_(p()),j={title:\"Sv\\u011Bt\",slug:\"svet\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"44 Enterprise\",year:2025,genre:[],description:\"Sv\\u011Bt \\u2014 singl od Lvcas Dope (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/1cdbdf5cda7f3573c9bea2026c633c67/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sv\\u011Bt\"],publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(S);})();\n;return Component;"
+  },
+  "_id": "alba/svet.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/svet.mdx",
+    "sourceFileName": "svet.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/svet"
+  },
+  "type": "Album",
+  "url": "/alba/svet",
+  "canonicalUrl": "https://4rap.cz/alba/svet"
+}

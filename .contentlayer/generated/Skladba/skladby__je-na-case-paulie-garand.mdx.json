@@ -1,0 +1,33 @@
+{
+  "title": "Je na čase",
+  "slug": "je-na-case-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Mozoly",
+  "albumSlug": "mozoly",
+  "year": 2006,
+  "genre": [],
+  "duration": "3:18",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Je na čase — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},u=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of x(a))!g.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var b=(e,a,r)=>(r=e!=null?m(h(e)):{},u(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var c=f((S,l)=>{l.exports=_jsx_runtime});var M={};_(M,{default:()=>i,frontmatter:()=>y});var n=b(c()),y={title:\"Je na \\u010Dase\",slug:\"je-na-case-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[],duration:\"3:18\",trackNumber:8,producers:[],producersNames:[],description:\"Je na \\u010Dase \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/je-na-case-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/je-na-case-paulie-garand.mdx",
+    "sourceFileName": "je-na-case-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/je-na-case-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/je-na-case-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/je-na-case-paulie-garand"
+}

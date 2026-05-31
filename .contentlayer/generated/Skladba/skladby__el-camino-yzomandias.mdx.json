@@ -1,0 +1,33 @@
+{
+  "title": "El Camino",
+  "slug": "el-camino-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Melanž",
+  "albumSlug": "melanz",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:36",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "El Camino — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},m=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var g=(e,n,a)=>(a=e!=null?d(h(e)):{},m(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>m(o({},\"__esModule\",{value:!0}),e);var l=_((M,i)=>{i.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>z});var t=g(l()),z={title:\"El Camino\",slug:\"el-camino-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Melan\\u017E\",albumSlug:\"melanz\",year:2020,genre:[],duration:\"2:36\",trackNumber:2,producers:[],producersNames:[],description:\"El Camino \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/el-camino-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/el-camino-yzomandias.mdx",
+    "sourceFileName": "el-camino-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/el-camino-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/el-camino-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/el-camino-yzomandias"
+}

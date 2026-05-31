@@ -1,0 +1,33 @@
+{
+  "title": "Nirvana",
+  "slug": "nirvana-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Nirvana",
+  "albumSlug": "nirvana",
+  "year": 2017,
+  "genre": [],
+  "duration": "3:40",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nirvana — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var r in a)i(e,r,{get:a[r],enumerable:!0})},s=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of x(a))!g.call(e,t)&&t!==r&&i(e,t,{get:()=>a[t],enumerable:!(o=p(a,t))||o.enumerable});return e};var b=(e,a,r)=>(r=e!=null?m(h(e)):{},s(a||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>s(i({},\"__esModule\",{value:!0}),e);var d=f((S,u)=>{u.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>j});var n=b(d()),j={title:\"Nirvana\",slug:\"nirvana-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"3:40\",trackNumber:1,producers:[],producersNames:[],description:\"Nirvana \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return N(v);})();\n;return Component;"
+  },
+  "_id": "skladby/nirvana-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nirvana-paulie-garand.mdx",
+    "sourceFileName": "nirvana-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nirvana-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nirvana-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/nirvana-paulie-garand"
+}

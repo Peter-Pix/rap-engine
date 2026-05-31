@@ -1,0 +1,37 @@
+{
+  "title": "Sushi Swag",
+  "slug": "sushi-swag-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "jickson"
+  ],
+  "featuresNames": [
+    "Jickson"
+  ],
+  "album": "Yzotape",
+  "albumSlug": "yzotape",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:07",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sushi Swag — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),S=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!g.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=l(t,r))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>i(s({},\"__esModule\",{value:!0}),e);var m=f((k,u)=>{u.exports=_jsx_runtime});var z={};S(z,{default:()=>d,frontmatter:()=>j});var n=_(m()),j={title:\"Sushi Swag\",slug:\"sushi-swag-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[],duration:\"3:07\",trackNumber:13,producers:[],producersNames:[],description:\"Sushi Swag \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(z);})();\n;return Component;"
+  },
+  "_id": "skladby/sushi-swag-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sushi-swag-yzomandias.mdx",
+    "sourceFileName": "sushi-swag-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sushi-swag-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sushi-swag-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/sushi-swag-yzomandias"
+}

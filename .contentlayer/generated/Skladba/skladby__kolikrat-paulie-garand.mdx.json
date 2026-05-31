@@ -1,0 +1,39 @@
+{
+  "title": "Kolikrát",
+  "slug": "kolikrat-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "under-my-pillow"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Under My Pillow"
+  ],
+  "album": "Molo II (Deluxe)",
+  "albumSlug": "molo-ii",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:12",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kolikrát — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(l=p(r,a))||l.enumerable});return e};var _=(e,r,t)=>(t=e!=null?c(x(e)):{},u(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var s=f((K,i)=>{i.exports=_jsx_runtime});var j={};k(j,{default:()=>m,frontmatter:()=>y});var n=_(s()),y={title:\"Kolikr\\xE1t\",slug:\"kolikrat-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"under-my-pillow\"],featuresNames:[\"Kenny Rough\",\"Under My Pillow\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"3:12\",trackNumber:7,producers:[],producersNames:[],description:\"Kolikr\\xE1t \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/kolikrat-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kolikrat-paulie-garand.mdx",
+    "sourceFileName": "kolikrat-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kolikrat-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kolikrat-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/kolikrat-paulie-garand"
+}

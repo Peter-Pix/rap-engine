@@ -1,0 +1,33 @@
+{
+  "title": "Melanž",
+  "slug": "melanz",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2020,
+  "genre": [],
+  "description": "Melanž — EP od Yzomandias (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/4a22d4c15cc19ac1a0cdab888ada85ab/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Melanž",
+    "El Camino",
+    "Hroby",
+    "Rolls"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!h.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(i=u(n,r))||i.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(g(e)):{},o(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var l=x((A,c)=>{c.exports=_jsx_runtime});var z={};M(z,{default:()=>m,frontmatter:()=>f});var t=_(l()),f={title:\"Melan\\u017E\",slug:\"melanz\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2020,genre:[],description:\"Melan\\u017E \\u2014 EP od Yzomandias (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/4a22d4c15cc19ac1a0cdab888ada85ab/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Melan\\u017E\",\"El Camino\",\"Hroby\",\"Rolls\"],publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(z);})();\n;return Component;"
+  },
+  "_id": "alba/melanz.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/melanz.mdx",
+    "sourceFileName": "melanz.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/melanz"
+  },
+  "type": "Album",
+  "url": "/alba/melanz",
+  "canonicalUrl": "https://4rap.cz/alba/melanz"
+}

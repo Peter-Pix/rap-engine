@@ -1,0 +1,41 @@
+{
+  "title": "Celebrity Rehab",
+  "slug": "celebrity-rehab-tkx",
+  "rapper": "TKX",
+  "rapperSlug": "tkx",
+  "features": [
+    "nik-tendo",
+    "yzomandias",
+    "karlo"
+  ],
+  "featuresNames": [
+    "Nik Tendo",
+    "Yzomandias",
+    "Karlo"
+  ],
+  "album": "Celebrity Rehab",
+  "albumSlug": "celebrity-rehab",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:33",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Celebrity Rehab — skladba od TKX.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=b(t,a))||s.enumerable});return e};var k=(e,t,n)=>(n=e!=null?m(h(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var c=y((K,l)=>{l.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>g});var r=k(c()),g={title:\"Celebrity Rehab\",slug:\"celebrity-rehab-tkx\",rapper:\"TKX\",rapperSlug:\"tkx\",features:[\"nik-tendo\",\"yzomandias\",\"karlo\"],featuresNames:[\"Nik Tendo\",\"Yzomandias\",\"Karlo\"],album:\"Celebrity Rehab\",albumSlug:\"celebrity-rehab\",year:2022,genre:[],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Celebrity Rehab \\u2014 skladba od TKX.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/celebrity-rehab-tkx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/celebrity-rehab-tkx.mdx",
+    "sourceFileName": "celebrity-rehab-tkx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/celebrity-rehab-tkx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/celebrity-rehab-tkx",
+  "canonicalUrl": "https://4rap.cz/skladby/celebrity-rehab-tkx"
+}

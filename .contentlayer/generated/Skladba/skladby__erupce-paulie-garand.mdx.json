@@ -1,0 +1,37 @@
+{
+  "title": "Erupce",
+  "slug": "erupce-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "Molo II (Deluxe)",
+  "albumSlug": "molo-ii",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:43",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Erupce — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(u=m(r,a))||u.enumerable});return e};var b=(e,r,t)=>(t=e!=null?d(x(e)):{},s(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var c=f((D,l)=>{l.exports=_jsx_runtime});var M={};_(M,{default:()=>p,frontmatter:()=>y});var n=b(c()),y={title:\"Erupce\",slug:\"erupce-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"3:43\",trackNumber:6,producers:[],producersNames:[],description:\"Erupce \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/erupce-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/erupce-paulie-garand.mdx",
+    "sourceFileName": "erupce-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/erupce-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/erupce-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/erupce-paulie-garand"
+}

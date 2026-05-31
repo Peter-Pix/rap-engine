@@ -1,0 +1,33 @@
+{
+  "title": "NICK CAGE",
+  "slug": "nick-cage-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "NAHORU NA DNO",
+  "albumSlug": "nahoru-na-dno",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:48",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "NICK CAGE — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var N=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var d=N((G,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>C});var r=_(d()),C={title:\"NICK CAGE\",slug:\"nick-cage-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"NAHORU NA DNO\",albumSlug:\"nahoru-na-dno\",year:2024,genre:[],duration:\"2:48\",trackNumber:1,producers:[],producersNames:[],description:\"NICK CAGE \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/nick-cage-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nick-cage-paulie-garand.mdx",
+    "sourceFileName": "nick-cage-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nick-cage-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nick-cage-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/nick-cage-paulie-garand"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Časovaná",
+  "slug": "casovana-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Harant",
+  "albumSlug": "harant",
+  "year": 2010,
+  "genre": [],
+  "duration": "3:14",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Časovaná — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},u=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!g.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var b=(e,a,r)=>(r=e!=null?m(x(e)):{},u(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((S,c)=>{c.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>v});var n=b(d()),v={title:\"\\u010Casovan\\xE1\",slug:\"casovana-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[],duration:\"3:14\",trackNumber:10,producers:[],producersNames:[],description:\"\\u010Casovan\\xE1 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/casovana-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/casovana-paulie-garand.mdx",
+    "sourceFileName": "casovana-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/casovana-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/casovana-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/casovana-paulie-garand"
+}

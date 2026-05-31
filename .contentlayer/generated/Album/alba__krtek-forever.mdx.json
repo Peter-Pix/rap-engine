@@ -1,0 +1,39 @@
+{
+  "title": "Krtek Forever",
+  "slug": "krtek-forever",
+  "rapper": "Milion Plus",
+  "rapperSlug": "milion-plus",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2023,
+  "genre": [],
+  "description": "Krtek Forever — album od Milion Plus (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Fuck Off",
+    "Bye Bye",
+    "Každej Něco Hledá",
+    "AY SEE AY BEE pt. 1",
+    "AY SEE AY BEE pt. 2",
+    "Life Of Diego",
+    "Nevyčíslitelný",
+    "How High 3",
+    "Loupež",
+    "Krtek Forever"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of g(t))!f.call(e,i)&&i!==n&&o(e,i,{get:()=>t[i],enumerable:!(s=m(t,i))||s.enumerable});return e};var E=(e,t,n)=>(n=e!=null?p(h(e)):{},l(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var c=x((_,a)=>{a.exports=_jsx_runtime});var v={};b(v,{default:()=>u,frontmatter:()=>k});var r=E(c()),k={title:\"Krtek Forever\",slug:\"krtek-forever\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2023,genre:[],description:\"Krtek Forever \\u2014 album od Milion Plus (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Fuck Off\",\"Bye Bye\",\"Ka\\u017Edej N\\u011Bco Hled\\xE1\",\"AY SEE AY BEE pt. 1\",\"AY SEE AY BEE pt. 2\",\"Life Of Diego\",\"Nevy\\u010D\\xEDsliteln\\xFD\",\"How High 3\",\"Loupe\\u017E\",\"Krtek Forever\"],publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "alba/krtek-forever.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/krtek-forever.mdx",
+    "sourceFileName": "krtek-forever.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/krtek-forever"
+  },
+  "type": "Album",
+  "url": "/alba/krtek-forever",
+  "canonicalUrl": "https://4rap.cz/alba/krtek-forever"
+}

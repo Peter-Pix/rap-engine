@@ -1,0 +1,37 @@
+{
+  "title": "Harantstrasse",
+  "slug": "harantstrasse-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "DANK",
+  "albumSlug": "dank",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:46",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Harantstrasse — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!x.call(e,t)&&t!==a&&s(e,t,{get:()=>n[t],enumerable:!(o=p(n,t))||o.enumerable});return e};var b=(e,n,a)=>(a=e!=null?m(g(e)):{},u(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var i=f((D,d)=>{d.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>k});var r=b(i()),k={title:\"Harantstrasse\",slug:\"harantstrasse-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"3:46\",trackNumber:5,producers:[],producersNames:[],description:\"Harantstrasse \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/harantstrasse-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/harantstrasse-paulie-garand.mdx",
+    "sourceFileName": "harantstrasse-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/harantstrasse-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/harantstrasse-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/harantstrasse-paulie-garand"
+}

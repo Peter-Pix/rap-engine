@@ -1,0 +1,30 @@
+{
+  "title": "Jedna Dva",
+  "slug": "jedna-dva",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2021,
+  "genre": [],
+  "description": "Jedna Dva — singl od Yzomandias (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/771e117447234af8b77e8359c1d71194/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Jedna Dva"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},d=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of g(n))!x.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(i=u(n,r))||i.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(h(e)):{},d(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>d(s({},\"__esModule\",{value:!0}),e);var c=b((M,o)=>{o.exports=_jsx_runtime});var D={};j(D,{default:()=>m,frontmatter:()=>v});var t=_(c()),v={title:\"Jedna Dva\",slug:\"jedna-dva\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2021,genre:[],description:\"Jedna Dva \\u2014 singl od Yzomandias (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/771e117447234af8b77e8359c1d71194/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Jedna Dva\"],publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return f(D);})();\n;return Component;"
+  },
+  "_id": "alba/jedna-dva.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/jedna-dva.mdx",
+    "sourceFileName": "jedna-dva.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/jedna-dva"
+  },
+  "type": "Album",
+  "url": "/alba/jedna-dva",
+  "canonicalUrl": "https://4rap.cz/alba/jedna-dva"
+}

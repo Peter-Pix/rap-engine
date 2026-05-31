@@ -1,0 +1,52 @@
+{
+  "title": "Amonit (Deluxe)",
+  "slug": "amonit",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2023,
+  "genre": [],
+  "description": "Amonit (Deluxe) — album od Paulie Garand (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/4a15600cf6a250b3f5c81afb5a0933a2/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Aperitiv",
+    "First",
+    "Starkids",
+    "Doma",
+    "All My Life",
+    "Mystery",
+    "Kusy šílenství",
+    "Una",
+    "Prestige",
+    "Odyssea",
+    "Nokturno pt.2",
+    "Colours",
+    "Masky",
+    "Roma",
+    "Billboard",
+    "Amonit",
+    "FLW",
+    "Jean-Michel",
+    "Nostalgia",
+    "Pompeje",
+    "Super 8",
+    "Andělská",
+    "Digestiv"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!x.call(e,r)&&r!==a&&i(e,r,{get:()=>t[r],enumerable:!(o=p(t,r))||o.enumerable});return e};var y=(e,t,a)=>(a=e!=null?d(h(e)):{},s(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),M=e=>s(i({},\"__esModule\",{value:!0}),e);var c=b((D,l)=>{l.exports=_jsx_runtime});var A={};f(A,{default:()=>u,frontmatter:()=>j});var n=y(c()),j={title:\"Amonit (Deluxe)\",slug:\"amonit\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2023,genre:[],description:\"Amonit (Deluxe) \\u2014 album od Paulie Garand (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/4a15600cf6a250b3f5c81afb5a0933a2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Aperitiv\",\"First\",\"Starkids\",\"Doma\",\"All My Life\",\"Mystery\",\"Kusy \\u0161\\xEDlenstv\\xED\",\"Una\",\"Prestige\",\"Odyssea\",\"Nokturno pt.2\",\"Colours\",\"Masky\",\"Roma\",\"Billboard\",\"Amonit\",\"FLW\",\"Jean-Michel\",\"Nostalgia\",\"Pompeje\",\"Super 8\",\"And\\u011Blsk\\xE1\",\"Digestiv\"],publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return M(A);})();\n;return Component;"
+  },
+  "_id": "alba/amonit.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/amonit.mdx",
+    "sourceFileName": "amonit.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/amonit"
+  },
+  "type": "Album",
+  "url": "/alba/amonit",
+  "canonicalUrl": "https://4rap.cz/alba/amonit"
+}

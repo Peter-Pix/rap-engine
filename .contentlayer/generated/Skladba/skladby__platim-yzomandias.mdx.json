@@ -1,0 +1,37 @@
+{
+  "title": "Platim",
+  "slug": "platim-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "viktor-sheen"
+  ],
+  "featuresNames": [
+    "Viktor Sheen"
+  ],
+  "album": "J. Eden Dva",
+  "albumSlug": "j-eden-dva",
+  "year": 2019,
+  "genre": [],
+  "duration": "1:49",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Platim — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var d=_((S,m)=>{m.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>k});var n=g(d()),k={title:\"Platim\",slug:\"platim-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"1:49\",trackNumber:10,producers:[],producersNames:[],description:\"Platim \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/platim-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/platim-yzomandias.mdx",
+    "sourceFileName": "platim-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/platim-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/platim-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/platim-yzomandias"
+}

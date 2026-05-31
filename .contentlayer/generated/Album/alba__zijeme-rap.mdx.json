@@ -1,0 +1,30 @@
+{
+  "title": "Žijeme Rap",
+  "slug": "zijeme-rap",
+  "rapper": "Dominik Rey",
+  "rapperSlug": "dominik-rey",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "Žijeme Rap — singl od Dominik Rey (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/4fed6863775042f5b614c16293c90e33/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Žijeme Rap"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var i in n)o(e,i,{get:n[i],enumerable:!0})},c=(e,n,i,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!j.call(e,r)&&r!==i&&o(e,r,{get:()=>n[r],enumerable:!(a=u(n,r))||a.enumerable});return e};var _=(e,n,i)=>(i=e!=null?d(g(e)):{},c(n||!e||!e.__esModule?o(i,\"default\",{value:e,enumerable:!0}):i,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var s=x((D,m)=>{m.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>R});var t=_(s()),R={title:\"\\u017Dijeme Rap\",slug:\"zijeme-rap\",rapper:\"Dominik Rey\",rapperSlug:\"dominik-rey\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"\\u017Dijeme Rap \\u2014 singl od Dominik Rey (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/4fed6863775042f5b614c16293c90e33/1000x1000-000000-80-0-0.jpg\",tracklist:[\"\\u017Dijeme Rap\"],publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return b(y);})();\n;return Component;"
+  },
+  "_id": "alba/zijeme-rap.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/zijeme-rap.mdx",
+    "sourceFileName": "zijeme-rap.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/zijeme-rap"
+  },
+  "type": "Album",
+  "url": "/alba/zijeme-rap",
+  "canonicalUrl": "https://4rap.cz/alba/zijeme-rap"
+}

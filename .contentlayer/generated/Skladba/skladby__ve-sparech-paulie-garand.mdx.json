@@ -1,0 +1,39 @@
+{
+  "title": "Ve spárech",
+  "slug": "ve-sparech-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "tante-elze"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Tante Elze"
+  ],
+  "album": "Boomerang",
+  "albumSlug": "boomerang",
+  "year": 2015,
+  "genre": [],
+  "duration": "3:52",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ve spárech — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=m(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?i(g(e)):{},u(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var l=b((N,c)=>{c.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>y});var r=_(l()),y={title:\"Ve sp\\xE1rech\",slug:\"ve-sparech-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"tante-elze\"],featuresNames:[\"Kenny Rough\",\"Tante Elze\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"3:52\",trackNumber:5,producers:[],producersNames:[],description:\"Ve sp\\xE1rech \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/ve-sparech-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ve-sparech-paulie-garand.mdx",
+    "sourceFileName": "ve-sparech-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ve-sparech-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ve-sparech-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/ve-sparech-paulie-garand"
+}

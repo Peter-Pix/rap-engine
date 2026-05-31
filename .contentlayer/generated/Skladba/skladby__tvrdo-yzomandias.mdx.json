@@ -1,0 +1,37 @@
+{
+  "title": "Tvrdo",
+  "slug": "tvrdo-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "karlo"
+  ],
+  "featuresNames": [
+    "Karlo"
+  ],
+  "album": "Dobrá Duše, Srdce ze Zlata",
+  "albumSlug": "dobra-duse-srdce-ze-zlata",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:16",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Tvrdo — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),z=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},d=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!b.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?l(h(e)):{},d(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var m=f((S,u)=>{u.exports=_jsx_runtime});var y={};z(y,{default:()=>i,frontmatter:()=>j});var t=_(m()),j={title:\"Tvrdo\",slug:\"tvrdo-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[],duration:\"3:16\",trackNumber:3,producers:[],producersNames:[],description:\"Tvrdo \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/tvrdo-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/tvrdo-yzomandias.mdx",
+    "sourceFileName": "tvrdo-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/tvrdo-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/tvrdo-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/tvrdo-yzomandias"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Molo",
+  "slug": "molo-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "ego"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Ego"
+  ],
+  "album": "Molo",
+  "albumSlug": "molo",
+  "year": 2014,
+  "genre": [],
+  "duration": "3:47",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Molo — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of g(n))!x.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(u=p(n,o))||u.enumerable});return e};var b=(e,n,t)=>(t=e!=null?c(h(e)):{},l(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),M=e=>l(a({},\"__esModule\",{value:!0}),e);var d=f((N,s)=>{s.exports=_jsx_runtime});var y={};_(y,{default:()=>m,frontmatter:()=>j});var r=b(d()),j={title:\"Molo\",slug:\"molo-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ego\"],featuresNames:[\"Kenny Rough\",\"Ego\"],album:\"Molo\",albumSlug:\"molo\",year:2014,genre:[],duration:\"3:47\",trackNumber:5,producers:[],producersNames:[],description:\"Molo \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return M(y);})();\n;return Component;"
+  },
+  "_id": "skladby/molo-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/molo-paulie-garand.mdx",
+    "sourceFileName": "molo-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/molo-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/molo-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/molo-paulie-garand"
+}

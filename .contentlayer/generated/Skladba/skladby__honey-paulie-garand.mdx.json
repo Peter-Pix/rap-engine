@@ -1,0 +1,39 @@
+{
+  "title": "Honey",
+  "slug": "honey-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "dj-wich",
+    "zea"
+  ],
+  "featuresNames": [
+    "DJ Wich",
+    "Zea"
+  ],
+  "album": "Mezi prsty",
+  "albumSlug": "mezi-prsty",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:08",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Honey — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=m(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?p(x(e)):{},u(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var c=f((D,i)=>{i.exports=_jsx_runtime});var M={};y(M,{default:()=>l,frontmatter:()=>j});var r=_(c()),j={title:\"Honey\",slug:\"honey-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"zea\"],featuresNames:[\"DJ Wich\",\"Zea\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"3:08\",trackNumber:5,producers:[],producersNames:[],description:\"Honey \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "skladby/honey-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/honey-paulie-garand.mdx",
+    "sourceFileName": "honey-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/honey-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/honey-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/honey-paulie-garand"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Hráč Roku Playlist",
+  "slug": "hrac-roku-playlist",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2017,
+  "genre": [],
+  "description": "Hráč Roku Playlist — album od Yzomandias (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/549fd5afb9bf1c781fd9dbb88b4da55e/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Sama",
+    "Rain Man",
+    "Generace Y",
+    "Vypečenej a Čerstvej",
+    "Slowmode",
+    "Prachy v Mojí Hlavě",
+    "Jezdec 2.0",
+    "Bad Byč",
+    "Alimenty",
+    "Cum Fondue",
+    "Pryč",
+    "Někde v Oblacích",
+    "Úsměv"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of b(t))!y.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(i=p(t,r))||i.enumerable});return e};var f=(e,t,a)=>(a=e!=null?u(h(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var d=g((k,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>v});var n=f(d()),v={title:\"Hr\\xE1\\u010D Roku Playlist\",slug:\"hrac-roku-playlist\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2017,genre:[],description:\"Hr\\xE1\\u010D Roku Playlist \\u2014 album od Yzomandias (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/549fd5afb9bf1c781fd9dbb88b4da55e/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sama\",\"Rain Man\",\"Generace Y\",\"Vype\\u010Denej a \\u010Cerstvej\",\"Slowmode\",\"Prachy v Moj\\xED Hlav\\u011B\",\"Jezdec 2.0\",\"Bad By\\u010D\",\"Alimenty\",\"Cum Fondue\",\"Pry\\u010D\",\"N\\u011Bkde v Oblac\\xEDch\",\"\\xDAsm\\u011Bv\"],publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(_);})();\n;return Component;"
+  },
+  "_id": "alba/hrac-roku-playlist.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/hrac-roku-playlist.mdx",
+    "sourceFileName": "hrac-roku-playlist.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/hrac-roku-playlist"
+  },
+  "type": "Album",
+  "url": "/alba/hrac-roku-playlist",
+  "canonicalUrl": "https://4rap.cz/alba/hrac-roku-playlist"
+}

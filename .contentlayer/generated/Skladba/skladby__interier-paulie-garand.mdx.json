@@ -1,0 +1,39 @@
+{
+  "title": "Interiér",
+  "slug": "interier-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "boyband"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Boyband"
+  ],
+  "album": "Molo",
+  "albumSlug": "molo",
+  "year": 2014,
+  "genre": [],
+  "duration": "4:26",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Interiér — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(g(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>s(o({},\"__esModule\",{value:!0}),e);var d=b((N,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>j});var r=_(d()),j={title:\"Interi\\xE9r\",slug:\"interier-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"boyband\"],featuresNames:[\"Kenny Rough\",\"Boyband\"],album:\"Molo\",albumSlug:\"molo\",year:2014,genre:[],duration:\"4:26\",trackNumber:12,producers:[],producersNames:[],description:\"Interi\\xE9r \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return y(M);})();\n;return Component;"
+  },
+  "_id": "skladby/interier-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/interier-paulie-garand.mdx",
+    "sourceFileName": "interier-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/interier-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/interier-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/interier-paulie-garand"
+}

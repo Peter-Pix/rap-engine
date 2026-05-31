@@ -1,0 +1,43 @@
+{
+  "title": "Fuck Off",
+  "slug": "fuck-off-milion-plus",
+  "rapper": "Milion Plus",
+  "rapperSlug": "milion-plus",
+  "features": [
+    "nik-tendo",
+    "koky",
+    "hasan",
+    "karlo"
+  ],
+  "featuresNames": [
+    "Nik Tendo",
+    "Koky",
+    "Hasan",
+    "Karlo"
+  ],
+  "album": "Krtek Forever",
+  "albumSlug": "krtek-forever",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:06",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Fuck Off — skladba od Milion Plus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of f(n))!h.call(e,o)&&o!==t&&s(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var b=(e,n,t)=>(t=e!=null?d(k(e)):{},u(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var l=x((y,i)=>{i.exports=_jsx_runtime});var F={};_(F,{default:()=>m,frontmatter:()=>j});var r=b(l()),j={title:\"Fuck Off\",slug:\"fuck-off-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"nik-tendo\",\"koky\",\"hasan\",\"karlo\"],featuresNames:[\"Nik Tendo\",\"Koky\",\"Hasan\",\"Karlo\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[],duration:\"3:06\",trackNumber:1,producers:[],producersNames:[],description:\"Fuck Off \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(F);})();\n;return Component;"
+  },
+  "_id": "skladby/fuck-off-milion-plus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/fuck-off-milion-plus.mdx",
+    "sourceFileName": "fuck-off-milion-plus.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/fuck-off-milion-plus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/fuck-off-milion-plus",
+  "canonicalUrl": "https://4rap.cz/skladby/fuck-off-milion-plus"
+}

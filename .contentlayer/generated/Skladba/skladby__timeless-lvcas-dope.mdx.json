@@ -1,0 +1,33 @@
+{
+  "title": "Timeless",
+  "slug": "timeless-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [],
+  "featuresNames": [],
+  "album": "Timeless Emotions",
+  "albumSlug": "timeless-emotions",
+  "year": 2023,
+  "genre": [],
+  "duration": "1:49",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Timeless — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!f.call(e,r)&&r!==n&&o(e,r,{get:()=>t[r],enumerable:!(a=d(t,r))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(o({},\"__esModule\",{value:!0}),e);var i=_((M,c)=>{c.exports=_jsx_runtime});var D={};b(D,{default:()=>u,frontmatter:()=>v});var s=g(i()),v={title:\"Timeless\",slug:\"timeless-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Timeless Emotions\",albumSlug:\"timeless-emotions\",year:2023,genre:[],duration:\"1:49\",trackNumber:1,producers:[],producersNames:[],description:\"Timeless \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,s.jsx)(t.p,{children:(0,s.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,s.jsx)(t,{...e,children:(0,s.jsx)(l,{...e})}):l(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/timeless-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/timeless-lvcas-dope.mdx",
+    "sourceFileName": "timeless-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/timeless-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/timeless-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/timeless-lvcas-dope"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "S Jinou",
+  "slug": "s-jinou-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [],
+  "featuresNames": [],
+  "album": "9EVET",
+  "albumSlug": "9evet",
+  "year": 2016,
+  "genre": [],
+  "duration": "2:45",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "S Jinou — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=m(t,o))||a.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var p=_((L,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>v});var n=g(p()),v={title:\"S Jinou\",slug:\"s-jinou-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"9EVET\",albumSlug:\"9evet\",year:2016,genre:[],duration:\"2:45\",trackNumber:7,producers:[],producersNames:[],description:\"S Jinou \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/s-jinou-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/s-jinou-lvcas-dope.mdx",
+    "sourceFileName": "s-jinou-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/s-jinou-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/s-jinou-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/s-jinou-lvcas-dope"
+}

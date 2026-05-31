@@ -1,0 +1,37 @@
+{
+  "title": "Odliv",
+  "slug": "odliv-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "Molo",
+  "albumSlug": "molo",
+  "year": 2014,
+  "genre": [],
+  "duration": "1:50",
+  "trackNumber": 15,
+  "producers": [],
+  "producersNames": [],
+  "description": "Odliv — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var b=(e,n,t)=>(t=e!=null?m(g(e)):{},l(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var d=f((v,s)=>{s.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>y});var r=b(d()),y={title:\"Odliv\",slug:\"odliv-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Molo\",albumSlug:\"molo\",year:2014,genre:[],duration:\"1:50\",trackNumber:15,producers:[],producersNames:[],description:\"Odliv \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/odliv-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/odliv-paulie-garand.mdx",
+    "sourceFileName": "odliv-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/odliv-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/odliv-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/odliv-paulie-garand"
+}

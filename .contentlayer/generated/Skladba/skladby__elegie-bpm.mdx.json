@@ -1,0 +1,33 @@
+{
+  "title": "Elegie",
+  "slug": "elegie-bpm",
+  "rapper": "Bpm",
+  "rapperSlug": "bpm",
+  "features": [],
+  "featuresNames": [],
+  "album": "Horizonty",
+  "albumSlug": "horizonty",
+  "year": 2009,
+  "genre": [],
+  "duration": "3:28",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Elegie — skladba od Bpm.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!g.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(x(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(s({},\"__esModule\",{value:!0}),e);var u=b((S,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>y});var r=_(u()),y={title:\"Elegie\",slug:\"elegie-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Horizonty\",albumSlug:\"horizonty\",year:2009,genre:[],duration:\"3:28\",trackNumber:11,producers:[],producersNames:[],description:\"Elegie \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/elegie-bpm.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/elegie-bpm.mdx",
+    "sourceFileName": "elegie-bpm.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/elegie-bpm"
+  },
+  "type": "Skladba",
+  "url": "/skladby/elegie-bpm",
+  "canonicalUrl": "https://4rap.cz/skladby/elegie-bpm"
+}

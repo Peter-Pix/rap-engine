@@ -1,0 +1,33 @@
+{
+  "title": "Opozice",
+  "slug": "opozice-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Sbohem Roxano",
+  "albumSlug": "sbohem-roxano",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:02",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Opozice — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),z=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},m=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!b.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var _=(e,n,o)=>(o=e!=null?p(h(e)):{},m(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>m(a({},\"__esModule\",{value:!0}),e);var c=f((M,i)=>{i.exports=_jsx_runtime});var y={};z(y,{default:()=>d,frontmatter:()=>j});var t=_(c()),j={title:\"Opozice\",slug:\"opozice-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Sbohem Roxano\",albumSlug:\"sbohem-roxano\",year:2020,genre:[],duration:\"3:02\",trackNumber:11,producers:[],producersNames:[],description:\"Opozice \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/opozice-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/opozice-yzomandias.mdx",
+    "sourceFileName": "opozice-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/opozice-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/opozice-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/opozice-yzomandias"
+}

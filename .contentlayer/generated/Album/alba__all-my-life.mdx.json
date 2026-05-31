@@ -1,0 +1,30 @@
+{
+  "title": "All My Life",
+  "slug": "all-my-life",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "All My Life — singl od Paulie Garand (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/363bdee5231ef75e1b17d38163011f91/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "All My Life"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)l(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of f(n))!h.call(e,a)&&a!==r&&l(e,a,{get:()=>n[a],enumerable:!(i=u(n,a))||i.enumerable});return e};var M=(e,n,r)=>(r=e!=null?m(g(e)):{},s(n||!e||!e.__esModule?l(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(l({},\"__esModule\",{value:!0}),e);var o=x((L,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>p,frontmatter:()=>j});var t=M(o()),j={title:\"All My Life\",slug:\"all-my-life\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"All My Life \\u2014 singl od Paulie Garand (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/363bdee5231ef75e1b17d38163011f91/1000x1000-000000-80-0-0.jpg\",tracklist:[\"All My Life\"],publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "alba/all-my-life.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/all-my-life.mdx",
+    "sourceFileName": "all-my-life.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/all-my-life"
+  },
+  "type": "Album",
+  "url": "/alba/all-my-life",
+  "canonicalUrl": "https://4rap.cz/alba/all-my-life"
+}

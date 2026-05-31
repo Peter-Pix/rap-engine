@@ -1,0 +1,33 @@
+{
+  "title": "BodyBag",
+  "slug": "bodybag-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Prozyum (Director’s Cut)",
+  "albumSlug": "prozyum",
+  "year": 2021,
+  "genre": [],
+  "duration": "2:55",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "BodyBag — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?p(g(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>m(o({},\"__esModule\",{value:!0}),e);var d=y((C,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>z});var r=f(d()),z={title:\"BodyBag\",slug:\"bodybag-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum\",year:2021,genre:[],duration:\"2:55\",trackNumber:3,producers:[],producersNames:[],description:\"BodyBag \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/bodybag-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bodybag-yzomandias.mdx",
+    "sourceFileName": "bodybag-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bodybag-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bodybag-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/bodybag-yzomandias"
+}

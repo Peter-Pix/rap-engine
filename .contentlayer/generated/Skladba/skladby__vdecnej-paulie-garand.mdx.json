@@ -1,0 +1,33 @@
+{
+  "title": "VDĚČNEJ",
+  "slug": "vdecnej-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "NAHORU NA DNO",
+  "albumSlug": "nahoru-na-dno",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:11",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "VDĚČNEJ — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var N=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var c=N((M,d)=>{d.exports=_jsx_runtime});var D={};f(D,{default:()=>l,frontmatter:()=>j});var r=_(c()),j={title:\"VD\\u011A\\u010CNEJ\",slug:\"vdecnej-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"NAHORU NA DNO\",albumSlug:\"nahoru-na-dno\",year:2024,genre:[],duration:\"3:11\",trackNumber:2,producers:[],producersNames:[],description:\"VD\\u011A\\u010CNEJ \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(D);})();\n;return Component;"
+  },
+  "_id": "skladby/vdecnej-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/vdecnej-paulie-garand.mdx",
+    "sourceFileName": "vdecnej-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/vdecnej-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/vdecnej-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/vdecnej-paulie-garand"
+}

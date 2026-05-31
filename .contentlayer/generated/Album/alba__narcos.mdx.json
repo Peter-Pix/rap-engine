@@ -1,0 +1,30 @@
+{
+  "title": "Narcos",
+  "slug": "narcos",
+  "rapper": "Hard Rico",
+  "rapperSlug": "hard-rico",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2024,
+  "genre": [],
+  "description": "Narcos — singl od Hard Rico (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/2f51d12fa2baa48bc77bed65403d057b/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Narcos"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of b(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(c=u(t,a))||c.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(g(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var d=x((L,o)=>{o.exports=_jsx_runtime});var A={};f(A,{default:()=>m,frontmatter:()=>M});var r=_(d()),M={title:\"Narcos\",slug:\"narcos\",rapper:\"Hard Rico\",rapperSlug:\"hard-rico\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2024,genre:[],description:\"Narcos \\u2014 singl od Hard Rico (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/2f51d12fa2baa48bc77bed65403d057b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Narcos\"],publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(A);})();\n;return Component;"
+  },
+  "_id": "alba/narcos.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/narcos.mdx",
+    "sourceFileName": "narcos.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/narcos"
+  },
+  "type": "Album",
+  "url": "/alba/narcos",
+  "canonicalUrl": "https://4rap.cz/alba/narcos"
+}

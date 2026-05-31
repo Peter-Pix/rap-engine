@@ -1,0 +1,33 @@
+{
+  "title": "Bomba",
+  "slug": "bomba-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bomba",
+  "albumSlug": "bomba",
+  "year": 2022,
+  "genre": [],
+  "duration": "2:34",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bomba — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(x(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var u=f((L,m)=>{m.exports=_jsx_runtime});var D={};_(D,{default:()=>d,frontmatter:()=>v});var r=g(u()),v={title:\"Bomba\",slug:\"bomba-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Bomba\",albumSlug:\"bomba\",year:2022,genre:[],duration:\"2:34\",trackNumber:1,producers:[],producersNames:[],description:\"Bomba \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/bomba-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bomba-lvcas-dope.mdx",
+    "sourceFileName": "bomba-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bomba-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bomba-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/bomba-lvcas-dope"
+}

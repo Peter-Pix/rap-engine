@@ -1,0 +1,39 @@
+{
+  "title": "BÍLEJ JAK STĚNA",
+  "slug": "bilej-jak-stena-cmd",
+  "rapper": "CMD",
+  "rapperSlug": "cmd",
+  "features": [
+    "joshua",
+    "smack"
+  ],
+  "featuresNames": [
+    "Joshua",
+    "Smack"
+  ],
+  "album": "BÍLEJ JAK STĚNA",
+  "albumSlug": "bilej-jak-stena",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:53",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "BÍLEJ JAK STĚNA — skladba od CMD.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var A=(e,t,r)=>(r=e!=null?l(j(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),J=e=>c(s({},\"__esModule\",{value:!0}),e);var m=b((k,u)=>{u.exports=_jsx_runtime});var _={};f(_,{default:()=>i,frontmatter:()=>S});var n=A(m()),S={title:\"B\\xCDLEJ JAK ST\\u011ANA\",slug:\"bilej-jak-stena-cmd\",rapper:\"CMD\",rapperSlug:\"cmd\",features:[\"joshua\",\"smack\"],featuresNames:[\"Joshua\",\"Smack\"],album:\"B\\xCDLEJ JAK ST\\u011ANA\",albumSlug:\"bilej-jak-stena\",year:2024,genre:[],duration:\"3:53\",trackNumber:1,producers:[],producersNames:[],description:\"B\\xCDLEJ JAK ST\\u011ANA \\u2014 skladba od CMD.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return J(_);})();\n;return Component;"
+  },
+  "_id": "skladby/bilej-jak-stena-cmd.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bilej-jak-stena-cmd.mdx",
+    "sourceFileName": "bilej-jak-stena-cmd.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bilej-jak-stena-cmd"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bilej-jak-stena-cmd",
+  "canonicalUrl": "https://4rap.cz/skladby/bilej-jak-stena-cmd"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Prdele v plamenech",
+  "slug": "prdele-v-plamenech-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "separ"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Separ"
+  ],
+  "album": "Boomerang",
+  "albumSlug": "boomerang",
+  "year": 2015,
+  "genre": [],
+  "duration": "4:00",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Prdele v plamenech — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},l=(e,n,a,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!x.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(u=i(n,t))||u.enumerable});return e};var _=(e,n,a)=>(a=e!=null?c(g(e)):{},l(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var p=b((k,s)=>{s.exports=_jsx_runtime});var P={};f(P,{default:()=>m,frontmatter:()=>y});var r=_(p()),y={title:\"Prdele v plamenech\",slug:\"prdele-v-plamenech-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"separ\"],featuresNames:[\"Kenny Rough\",\"Separ\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"4:00\",trackNumber:11,producers:[],producersNames:[],description:\"Prdele v plamenech \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(P);})();\n;return Component;"
+  },
+  "_id": "skladby/prdele-v-plamenech-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/prdele-v-plamenech-paulie-garand.mdx",
+    "sourceFileName": "prdele-v-plamenech-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/prdele-v-plamenech-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/prdele-v-plamenech-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/prdele-v-plamenech-paulie-garand"
+}

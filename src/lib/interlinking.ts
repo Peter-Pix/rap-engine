@@ -4,16 +4,41 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-05-31T10:48:01.787Z
-// Celkem entit: 252 (36 album, 18 label, 170 rapper, 28 zanr)
+// Vygenerováno: 2026-05-31T23:03:56.815Z
+// Celkem entit: 392 (175 album, 18 label, 171 rapper, 28 zanr)
 // ═══════════════════════════════════════════════════════════════
 
 import type { InterlinkEntity } from './remark-interlinking'
 
 export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
+    "name": "[Gudlak]",
+    "slug": "gudlak",
+    "type": "album"
+  },
+  {
+    "name": "1987",
+    "slug": "1987",
+    "type": "album"
+  },
+  {
+    "name": "2020",
+    "slug": "2020",
+    "type": "album"
+  },
+  {
     "name": "2051",
     "slug": "2051",
+    "type": "album"
+  },
+  {
+    "name": "217",
+    "slug": "217",
+    "type": "album"
+  },
+  {
+    "name": "666",
+    "slug": "666",
     "type": "album"
   },
   {
@@ -22,8 +47,43 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "9EVET",
+    "slug": "9evet",
+    "type": "album"
+  },
+  {
+    "name": "Acoustic Session",
+    "slug": "acoustic-session",
+    "type": "album"
+  },
+  {
+    "name": "Adié (feat. Grizzly)",
+    "slug": "adie-feat-grizzly",
+    "type": "album"
+  },
+  {
+    "name": "Adios",
+    "slug": "adios",
+    "type": "album"
+  },
+  {
+    "name": "Aether",
+    "slug": "aether",
+    "type": "album"
+  },
+  {
     "name": "Airon Meidan",
     "slug": "airon-meidan",
+    "type": "album"
+  },
+  {
+    "name": "All My Life",
+    "slug": "all-my-life",
+    "type": "album"
+  },
+  {
+    "name": "Amonit (Deluxe)",
+    "slug": "amonit",
     "type": "album"
   },
   {
@@ -32,8 +92,63 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "BENİM",
+    "slug": "benim",
+    "type": "album"
+  },
+  {
+    "name": "Bezo mňa",
+    "slug": "bezo-mna",
+    "type": "album"
+  },
+  {
+    "name": "BÍLEJ JAK STĚNA",
+    "slug": "bilej-jak-stena",
+    "type": "album"
+  },
+  {
+    "name": "Bomba",
+    "slug": "bomba",
+    "type": "album"
+  },
+  {
+    "name": "Boomerang",
+    "slug": "boomerang",
+    "type": "album"
+  },
+  {
+    "name": "Brazilie",
+    "slug": "brazilie",
+    "type": "album"
+  },
+  {
+    "name": "Celebrity Rehab",
+    "slug": "celebrity-rehab",
+    "type": "album"
+  },
+  {
+    "name": "Čísla",
+    "slug": "cisla",
+    "type": "album"
+  },
+  {
+    "name": "DANK",
+    "slug": "dank",
+    "type": "album"
+  },
+  {
     "name": "Dead Man Walking",
     "slug": "dead-man-walking",
+    "type": "album"
+  },
+  {
+    "name": "Definice Rapu",
+    "slug": "definice-rapu",
+    "type": "album"
+  },
+  {
+    "name": "Designer Flow",
+    "slug": "designer-flow",
     "type": "album"
   },
   {
@@ -47,8 +162,48 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Diamant",
+    "slug": "diamant",
+    "type": "album"
+  },
+  {
+    "name": "Dinarah",
+    "slug": "dinarah",
+    "type": "album"
+  },
+  {
     "name": "Dobrá Duše, Srdce ze Zlata",
     "slug": "dobra-duse-srdce-ze-zlata",
+    "type": "album"
+  },
+  {
+    "name": "Draci",
+    "slug": "draci",
+    "type": "album"
+  },
+  {
+    "name": "Erupce",
+    "slug": "erupce",
+    "type": "album"
+  },
+  {
+    "name": "Eskort",
+    "slug": "eskort",
+    "type": "album"
+  },
+  {
+    "name": "Evoluce haranta",
+    "slug": "evoluce-haranta",
+    "type": "album"
+  },
+  {
+    "name": "F4R4on",
+    "slug": "f4r4on",
+    "type": "album"
+  },
+  {
+    "name": "Fight",
+    "slug": "fight",
     "type": "album"
   },
   {
@@ -57,8 +212,43 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "FREE KARLO",
+    "slug": "free-karlo",
+    "type": "album"
+  },
+  {
+    "name": "Gesta",
+    "slug": "gesta",
+    "type": "album"
+  },
+  {
+    "name": "Habibi (Remix)",
+    "slug": "habibi-remix",
+    "type": "album"
+  },
+  {
     "name": "Harant",
     "slug": "harant",
+    "type": "album"
+  },
+  {
+    "name": "Hladina (feat. LENNY)",
+    "slug": "hladina-feat-lenny",
+    "type": "album"
+  },
+  {
+    "name": "Hood Vil",
+    "slug": "hood-vil",
+    "type": "album"
+  },
+  {
+    "name": "Horizonty",
+    "slug": "horizonty",
+    "type": "album"
+  },
+  {
+    "name": "Hráč Roku Playlist",
+    "slug": "hrac-roku-playlist",
     "type": "album"
   },
   {
@@ -77,6 +267,86 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "J. EDEN E-G3N (#freekarlo edition)",
+    "slug": "j-eden-e-g3n",
+    "type": "album"
+  },
+  {
+    "name": "J. EDEN E-GEN (mixed by NobodyListen)",
+    "slug": "j-eden-e-gen-mixed-by-nobodylisten",
+    "type": "album"
+  },
+  {
+    "name": "Já & Moje",
+    "slug": "ja-moje",
+    "type": "album"
+  },
+  {
+    "name": "Jeď Tvrdě Nebo Jeď Domu",
+    "slug": "jed-tvrde-nebo-jed-domu",
+    "type": "album"
+  },
+  {
+    "name": "Jedna Dva",
+    "slug": "jedna-dva",
+    "type": "album"
+  },
+  {
+    "name": "JUSTiCE44 (Ledová Cesta)",
+    "slug": "justice44-ledova-cesta",
+    "type": "album"
+  },
+  {
+    "name": "JUSTiCE44 (Mixtape1)",
+    "slug": "justice44-mixtape1",
+    "type": "album"
+  },
+  {
+    "name": "karanténa",
+    "slug": "karantena",
+    "type": "album"
+  },
+  {
+    "name": "Kawasaki",
+    "slug": "kawasaki",
+    "type": "album"
+  },
+  {
+    "name": "Každay",
+    "slug": "kazday",
+    "type": "album"
+  },
+  {
+    "name": "když jedeme v noci",
+    "slug": "kdyz-jedeme-v-noci",
+    "type": "album"
+  },
+  {
+    "name": "Klony",
+    "slug": "klony",
+    "type": "album"
+  },
+  {
+    "name": "Kokalero",
+    "slug": "kokalero",
+    "type": "album"
+  },
+  {
+    "name": "Kolem stolu (feat. Separ & Nerieš)",
+    "slug": "kolem-stolu-feat-separ-neries",
+    "type": "album"
+  },
+  {
+    "name": "Kotvim",
+    "slug": "kotvim",
+    "type": "album"
+  },
+  {
+    "name": "Krtek Forever",
+    "slug": "krtek-forever",
+    "type": "album"
+  },
+  {
     "name": "KRTEK MONEY LIFE",
     "slug": "krtek-money-life",
     "type": "album"
@@ -84,6 +354,26 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Kruhy & Vlny",
     "slug": "kruhy-a-vlny",
+    "type": "album"
+  },
+  {
+    "name": "Kruhy & Vlny (217 Twins Edition)",
+    "slug": "kruhy-vlny",
+    "type": "album"
+  },
+  {
+    "name": "Láska & Bolest",
+    "slug": "laska-bolest",
+    "type": "album"
+  },
+  {
+    "name": "Livin (feat. Rest) (UMP Beats Remix)",
+    "slug": "livin-feat-rest-ump-beats-remix",
+    "type": "album"
+  },
+  {
+    "name": "Loco (feat. Zea)",
+    "slug": "loco-feat-zea",
     "type": "album"
   },
   {
@@ -97,13 +387,153 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Manifest (feat. Jakub Děkan)",
+    "slug": "manifest-feat-jakub-dekan",
+    "type": "album"
+  },
+  {
     "name": "Marko",
     "slug": "marko",
     "type": "album"
   },
   {
+    "name": "Masky",
+    "slug": "masky",
+    "type": "album"
+  },
+  {
+    "name": "Mawar",
+    "slug": "mawar",
+    "type": "album"
+  },
+  {
     "name": "Medusa",
     "slug": "medusa",
+    "type": "album"
+  },
+  {
+    "name": "Melanž",
+    "slug": "melanz",
+    "type": "album"
+  },
+  {
+    "name": "Mezi prsty",
+    "slug": "mezi-prsty",
+    "type": "album"
+  },
+  {
+    "name": "Mikasa Sukasa",
+    "slug": "mikasa-sukasa",
+    "type": "album"
+  },
+  {
+    "name": "Million",
+    "slug": "million",
+    "type": "album"
+  },
+  {
+    "name": "Modrobílá krev",
+    "slug": "modrobila-krev",
+    "type": "album"
+  },
+  {
+    "name": "Moj Život",
+    "slug": "moj-zivot",
+    "type": "album"
+  },
+  {
+    "name": "Molo",
+    "slug": "molo",
+    "type": "album"
+  },
+  {
+    "name": "Molo II (Deluxe)",
+    "slug": "molo-ii",
+    "type": "album"
+  },
+  {
+    "name": "Monology",
+    "slug": "monology",
+    "type": "album"
+  },
+  {
+    "name": "Mozoly",
+    "slug": "mozoly",
+    "type": "album"
+  },
+  {
+    "name": "NA ROHU",
+    "slug": "na-rohu",
+    "type": "album"
+  },
+  {
+    "name": "NAHORU NA DNO",
+    "slug": "nahoru-na-dno",
+    "type": "album"
+  },
+  {
+    "name": "Narcos",
+    "slug": "narcos",
+    "type": "album"
+  },
+  {
+    "name": "Necejtim Nic",
+    "slug": "necejtim-nic",
+    "type": "album"
+  },
+  {
+    "name": "Nejsem Sám",
+    "slug": "nejsem-sam",
+    "type": "album"
+  },
+  {
+    "name": "Nemůžu Přestat",
+    "slug": "nemuzu-prestat",
+    "type": "album"
+  },
+  {
+    "name": "Není Pozdě",
+    "slug": "neni-pozde",
+    "type": "album"
+  },
+  {
+    "name": "Neony (feat. Miris)",
+    "slug": "neony-feat-miris",
+    "type": "album"
+  },
+  {
+    "name": "Nepýtam Sa",
+    "slug": "nepytam-sa",
+    "type": "album"
+  },
+  {
+    "name": "NEROZUMÍ NÁM (2soft)",
+    "slug": "nerozumi-nam-2soft",
+    "type": "album"
+  },
+  {
+    "name": "Nevzlátejte",
+    "slug": "nevzlatejte",
+    "type": "album"
+  },
+  {
+    "name": "Neznáme Stres",
+    "slug": "nezname-stres",
+    "type": "album"
+  },
+  {
+    "name": "Nic víc (feat. Martin Císar)",
+    "slug": "nic-vic-feat-martin-cisar",
+    "type": "album"
+  },
+  {
+    "name": "Nirvana",
+    "slug": "nirvana",
+    "type": "album"
+  },
+  {
+    "name": "Novej Svět",
+    "slug": "novej-svet",
     "type": "album"
   },
   {
@@ -117,8 +547,63 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Pablo",
+    "slug": "pablo",
+    "type": "album"
+  },
+  {
+    "name": "Pár listov z roku 2009",
+    "slug": "par-listov-z-roku-2009",
+    "type": "album"
+  },
+  {
+    "name": "Paranoia",
+    "slug": "paranoia",
+    "type": "album"
+  },
+  {
+    "name": "Pararampam",
+    "slug": "pararampam",
+    "type": "album"
+  },
+  {
+    "name": "Pay Out",
+    "slug": "pay-out",
+    "type": "album"
+  },
+  {
+    "name": "Play",
+    "slug": "play",
+    "type": "album"
+  },
+  {
+    "name": "POD MLHOU",
+    "slug": "pod-mlhou",
+    "type": "album"
+  },
+  {
+    "name": "Pod Vlivem",
+    "slug": "pod-vlivem",
+    "type": "album"
+  },
+  {
+    "name": "PODIVEJ MAMA",
+    "slug": "podivej-mama",
+    "type": "album"
+  },
+  {
     "name": "POPSTAR",
     "slug": "popstar",
+    "type": "album"
+  },
+  {
+    "name": "Pozdě",
+    "slug": "pozde",
+    "type": "album"
+  },
+  {
+    "name": "Prdele V Plamenech (feat. Separ)",
+    "slug": "prdele-v-plamenech-feat-separ",
     "type": "album"
   },
   {
@@ -132,8 +617,38 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Proud",
+    "slug": "proud",
+    "type": "album"
+  },
+  {
     "name": "Prozyum",
     "slug": "prozyum",
+    "type": "album"
+  },
+  {
+    "name": "Puff Puff Pass [???]",
+    "slug": "puff-puff-pass",
+    "type": "album"
+  },
+  {
+    "name": "Real Hustleři Nespí",
+    "slug": "real-hustleri-nespi",
+    "type": "album"
+  },
+  {
+    "name": "Reflektuju",
+    "slug": "reflektuju",
+    "type": "album"
+  },
+  {
+    "name": "Rick nebo Raf",
+    "slug": "rick-nebo-raf",
+    "type": "album"
+  },
+  {
+    "name": "Rick nebo Raf (Remix)",
+    "slug": "rick-nebo-raf-remix",
     "type": "album"
   },
   {
@@ -152,13 +667,103 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Royal II",
+    "slug": "royal-ii",
+    "type": "album"
+  },
+  {
+    "name": "Sbohem Roxano",
+    "slug": "sbohem-roxano",
+    "type": "album"
+  },
+  {
+    "name": "SELFMADE",
+    "slug": "selfmade",
+    "type": "album"
+  },
+  {
+    "name": "She!sh",
+    "slug": "she-sh",
+    "type": "album"
+  },
+  {
+    "name": "Showtime",
+    "slug": "showtime",
+    "type": "album"
+  },
+  {
+    "name": "skibidi alpha wolf type shi ep",
+    "slug": "skibidi-alpha-wolf-type-shi-ep",
+    "type": "album"
+  },
+  {
+    "name": "Slova",
+    "slug": "slova",
+    "type": "album"
+  },
+  {
+    "name": "Sny & Noční Můry",
+    "slug": "sny-nocni-mury",
+    "type": "album"
+  },
+  {
+    "name": "Spolu",
+    "slug": "spolu",
+    "type": "album"
+  },
+  {
+    "name": "Srdce z ledu (feat. Marcell) (Acoustic Session)",
+    "slug": "srdce-z-ledu-feat-marcell-acoustic-session",
+    "type": "album"
+  },
+  {
+    "name": "Stamina",
+    "slug": "stamina",
+    "type": "album"
+  },
+  {
+    "name": "Starkids",
+    "slug": "starkids",
+    "type": "album"
+  },
+  {
+    "name": "Starkids (Remix)",
+    "slug": "starkids-remix",
+    "type": "album"
+  },
+  {
+    "name": "Starship: Oblivion",
+    "slug": "starship-oblivion",
+    "type": "album"
+  },
+  {
+    "name": "Stormbreaker (feat. Martin Matys)",
+    "slug": "stormbreaker-feat-martin-matys",
+    "type": "album"
+  },
+  {
     "name": "Svědomí",
     "slug": "svedomi",
     "type": "album"
   },
   {
+    "name": "Svět",
+    "slug": "svet",
+    "type": "album"
+  },
+  {
     "name": "SWAG",
     "slug": "swag",
+    "type": "album"
+  },
+  {
+    "name": "Talk2me",
+    "slug": "talk2me",
+    "type": "album"
+  },
+  {
+    "name": "Talk2me (NobodyListen Remix)",
+    "slug": "talk2me-nobodylisten-remix",
     "type": "album"
   },
   {
@@ -172,13 +777,88 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Timeless Emotions",
+    "slug": "timeless-emotions",
+    "type": "album"
+  },
+  {
+    "name": "Tonout v tónech",
+    "slug": "tonout-v-tonech",
+    "type": "album"
+  },
+  {
     "name": "Topství",
     "slug": "topstvi",
     "type": "album"
   },
   {
+    "name": "Trip",
+    "slug": "trip",
+    "type": "album"
+  },
+  {
+    "name": "Ty Víš",
+    "slug": "ty-vis",
+    "type": "album"
+  },
+  {
+    "name": "TYPE BEAT / HIP THRUST",
+    "slug": "type-beat-hip-thrust",
+    "type": "album"
+  },
+  {
+    "name": "UPS",
+    "slug": "ups",
+    "type": "album"
+  },
+  {
+    "name": "V hlavní roli",
+    "slug": "v-hlavni-roli",
+    "type": "album"
+  },
+  {
+    "name": "Války",
+    "slug": "valky",
+    "type": "album"
+  },
+  {
+    "name": "VDĚČNEJ",
+    "slug": "vdecnej",
+    "type": "album"
+  },
+  {
+    "name": "Vrána k Vráně",
+    "slug": "vrana-k-vrane",
+    "type": "album"
+  },
+  {
     "name": "WAGWAN",
     "slug": "wagwan",
+    "type": "album"
+  },
+  {
+    "name": "WorldWide Way",
+    "slug": "worldwide-way",
+    "type": "album"
+  },
+  {
+    "name": "Yzomandias (Remaster)",
+    "slug": "yzomandias",
+    "type": "album"
+  },
+  {
+    "name": "Yzotape",
+    "slug": "yzotape",
+    "type": "album"
+  },
+  {
+    "name": "Za 2 Dny 20 G",
+    "slug": "za-2-dny-20-g",
+    "type": "album"
+  },
+  {
+    "name": "Za Nás",
+    "slug": "za-nas",
     "type": "album"
   },
   {
@@ -189,6 +869,21 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Zhora Vypadá Všechno Líp",
     "slug": "zhora-vypada-vsechno-lip",
+    "type": "album"
+  },
+  {
+    "name": "Zóna",
+    "slug": "zona",
+    "type": "album"
+  },
+  {
+    "name": "ZPÁTKY NA SVOJÍ PLANETU",
+    "slug": "zpatky-na-svoji-planetu",
+    "type": "album"
+  },
+  {
+    "name": "Žijeme Rap",
+    "slug": "zijeme-rap",
     "type": "album"
   },
   {
@@ -302,9 +997,12 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "rapper"
   },
   {
-    "name": "AstralKid22",
+    "name": "AstralKid22 – pražskej drill s duší",
     "slug": "astralkid22",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Neveřejné (údajně něco s ‚K‘)"
+    ]
   },
   {
     "name": "BADBOY BERLIN",
@@ -319,12 +1017,18 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Big Narstie",
     "slug": "big-narstie",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Tyrone Mark Lindo"
+    ]
   },
   {
     "name": "Blako",
     "slug": "blako",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Neznámý (údajně spojený s projektem *Rise of the Warrior Cop*)"
+    ]
   },
   {
     "name": "Bobby Blaze",
@@ -395,7 +1099,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "D.Kop",
     "slug": "d-kop",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Neznámý (údajně spojen s projektem JMPZ)"
+    ]
   },
   {
     "name": "Dano Kapitán",
@@ -637,7 +1344,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Jickson",
     "slug": "jickson",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Mathivendhan"
+    ]
   },
   {
     "name": "JJ Lawhorn",
@@ -963,7 +1673,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Robin Zoot",
     "slug": "robin-zoot",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Robert Pouzar"
+    ]
   },
   {
     "name": "Rollsout",
@@ -988,7 +1701,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Samey",
     "slug": "samey",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Samuel Chalupka"
+    ]
   },
   {
     "name": "Saul",
@@ -1097,6 +1813,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Tchagun",
     "slug": "tchagun",
+    "type": "rapper"
+  },
+  {
+    "name": "TK27",
+    "slug": "tk27",
     "type": "rapper"
   },
   {
