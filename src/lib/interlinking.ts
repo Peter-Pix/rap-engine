@@ -4,8 +4,8 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-05-24T02:24:59.777Z
-// Celkem entit: 99 (35 album, 18 label, 17 rapper, 29 zanr)
+// Vygenerováno: 2026-05-31T07:30:29.997Z
+// Celkem entit: 99 (36 album, 18 label, 17 rapper, 28 zanr)
 // ═══════════════════════════════════════════════════════════════
 
 import type { InterlinkEntity } from './remark-interlinking'
@@ -84,6 +84,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Kruhy & Vlny",
     "slug": "kruhy-a-vlny",
+    "type": "album"
+  },
+  {
+    "name": "Majitel",
+    "slug": "majitel",
     "type": "album"
   },
   {
@@ -571,12 +576,6 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "UK Garage",
     "slug": "uk-garage",
-    "type": "zanr",
-    "caseSensitive": false
-  },
-  {
-    "name": "UK Rap",
-    "slug": "uk-rap",
     "type": "zanr",
     "caseSensitive": false
   },
