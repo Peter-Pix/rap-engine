@@ -1,0 +1,37 @@
+{
+  "title": "24",
+  "slug": "24-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "4:01",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "24 — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?p(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var c=_((N,m)=>{m.exports=_jsx_runtime});var F={};b(F,{default:()=>d,frontmatter:()=>D});var r=g(c()),D={title:\"24\",slug:\"24-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"4:01\",trackNumber:12,producers:[],producersNames:[],description:\"24 \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(F);})();\n;return Component;"
+  },
+  "_id": "skladby/24-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/24-rest.mdx",
+    "sourceFileName": "24-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/24-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/24-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/24-rest"
+}

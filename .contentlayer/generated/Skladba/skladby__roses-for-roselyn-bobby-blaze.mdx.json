@@ -1,0 +1,33 @@
+{
+  "title": "Roses For Roselyn",
+  "slug": "roses-for-roselyn-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Roses For Roselyn",
+  "albumSlug": "roses-for-roselyn",
+  "year": 2022,
+  "genre": [],
+  "duration": "4:49",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Roses For Roselyn — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var n in r)t(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of p(r))!x.call(e,s)&&s!==n&&t(e,s,{get:()=>r[s],enumerable:!(a=i(r,s))||a.enumerable});return e};var _=(e,r,n)=>(n=e!=null?d(y(e)):{},l(r||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>l(t({},\"__esModule\",{value:!0}),e);var b=f((z,u)=>{u.exports=_jsx_runtime});var j={};h(j,{default:()=>m,frontmatter:()=>R});var o=_(b()),R={title:\"Roses For Roselyn\",slug:\"roses-for-roselyn-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Roses For Roselyn\",albumSlug:\"roses-for-roselyn\",year:2022,genre:[],duration:\"4:49\",trackNumber:1,producers:[],producersNames:[],description:\"Roses For Roselyn \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(r.p,{children:(0,o.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/roses-for-roselyn-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/roses-for-roselyn-bobby-blaze.mdx",
+    "sourceFileName": "roses-for-roselyn-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/roses-for-roselyn-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/roses-for-roselyn-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/roses-for-roselyn-bobby-blaze"
+}

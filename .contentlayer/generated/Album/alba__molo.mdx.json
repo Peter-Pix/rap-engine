@@ -1,0 +1,45 @@
+{
+  "title": "Molo",
+  "slug": "molo",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2014,
+  "genre": [],
+  "description": "Molo — album od Paulie Garand (2014).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/f3ca4d76737f45baa1729138bda2645c/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Příliv",
+    "Kotvim",
+    "Zázrak (feat. Supa)",
+    "Manifest (feat. Jakub Děkan)",
+    "Molo (feat. Ego)",
+    "Kvílení",
+    "La Familia",
+    "Závod (feat. Rest)",
+    "8",
+    "Blížíme se ohni",
+    "Buscemi (feat. Hank)",
+    "Interiér (feat. BoyBand)",
+    "Tuláci (feat. Chris)",
+    "Samotář",
+    "Odliv"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)r(e,n,{get:a[n],enumerable:!0})},l=(e,a,n,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of f(a))!g.call(e,o)&&o!==n&&r(e,o,{get:()=>a[o],enumerable:!(i=p(a,o))||i.enumerable});return e};var M=(e,a,n)=>(n=e!=null?u(h(e)):{},l(a||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(r({},\"__esModule\",{value:!0}),e);var c=x((B,s)=>{s.exports=_jsx_runtime});var v={};b(v,{default:()=>m,frontmatter:()=>j});var t=M(c()),j={title:\"Molo\",slug:\"molo\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2014,genre:[],description:\"Molo \\u2014 album od Paulie Garand (2014).\",image:\"https://cdn-images.dzcdn.net/images/cover/f3ca4d76737f45baa1729138bda2645c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"P\\u0159\\xEDliv\",\"Kotvim\",\"Z\\xE1zrak (feat. Supa)\",\"Manifest (feat. Jakub D\\u011Bkan)\",\"Molo (feat. Ego)\",\"Kv\\xEDlen\\xED\",\"La Familia\",\"Z\\xE1vod (feat. Rest)\",\"8\",\"Bl\\xED\\u017E\\xEDme se ohni\",\"Buscemi (feat. Hank)\",\"Interi\\xE9r (feat. BoyBand)\",\"Tul\\xE1ci (feat. Chris)\",\"Samot\\xE1\\u0159\",\"Odliv\"],publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(v);})();\n;return Component;"
+  },
+  "_id": "alba/molo.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/molo.mdx",
+    "sourceFileName": "molo.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/molo"
+  },
+  "type": "Album",
+  "url": "/alba/molo",
+  "canonicalUrl": "https://4rap.cz/alba/molo"
+}

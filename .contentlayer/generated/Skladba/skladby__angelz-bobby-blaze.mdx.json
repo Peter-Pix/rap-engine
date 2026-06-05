@@ -1,0 +1,33 @@
+{
+  "title": "Angelz",
+  "slug": "angelz-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "CityLights",
+  "albumSlug": "citylights",
+  "year": 2024,
+  "genre": [],
+  "duration": "4:09",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Angelz — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?m(g(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>l(o({},\"__esModule\",{value:!0}),e);var c=x((A,u)=>{u.exports=_jsx_runtime});var j={};y(j,{default:()=>b,frontmatter:()=>_});var n=f(c()),_={title:\"Angelz\",slug:\"angelz-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"CityLights\",albumSlug:\"citylights\",year:2024,genre:[],duration:\"4:09\",trackNumber:3,producers:[],producersNames:[],description:\"Angelz \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return z(j);})();\n;return Component;"
+  },
+  "_id": "skladby/angelz-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/angelz-bobby-blaze.mdx",
+    "sourceFileName": "angelz-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/angelz-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/angelz-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/angelz-bobby-blaze"
+}

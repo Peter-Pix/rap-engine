@@ -1,0 +1,33 @@
+{
+  "title": "Finding Tomorrow",
+  "slug": "finding-tomorrow-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Street Sermons, Vol. 1",
+  "albumSlug": "street-sermons-vol-1",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:52",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Finding Tomorrow — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},m=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of p(r))!g.call(e,o)&&o!==n&&s(e,o,{get:()=>r[o],enumerable:!(a=d(r,o))||a.enumerable});return e};var _=(e,r,n)=>(n=e!=null?c(x(e)):{},m(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>m(s({},\"__esModule\",{value:!0}),e);var l=h((z,i)=>{i.exports=_jsx_runtime});var S={};f(S,{default:()=>b,frontmatter:()=>j});var t=_(l()),j={title:\"Finding Tomorrow\",slug:\"finding-tomorrow-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Street Sermons, Vol. 1\",albumSlug:\"street-sermons-vol-1\",year:2022,genre:[],duration:\"3:52\",trackNumber:9,producers:[],producersNames:[],description:\"Finding Tomorrow \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return y(S);})();\n;return Component;"
+  },
+  "_id": "skladby/finding-tomorrow-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/finding-tomorrow-bobby-blaze.mdx",
+    "sourceFileName": "finding-tomorrow-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/finding-tomorrow-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/finding-tomorrow-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/finding-tomorrow-bobby-blaze"
+}

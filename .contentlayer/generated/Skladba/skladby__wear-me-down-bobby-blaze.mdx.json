@@ -1,0 +1,37 @@
+{
+  "title": "Wear Me Down",
+  "slug": "wear-me-down-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [
+    "the-jokerr"
+  ],
+  "featuresNames": [
+    "The Jokerr"
+  ],
+  "album": "The Prodigal Son",
+  "albumSlug": "the-prodigal-son",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:48",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Wear Me Down — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of p(r))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=i(r,o))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?m(h(e)):{},l(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>l(a({},\"__esModule\",{value:!0}),e);var b=g((k,u)=>{u.exports=_jsx_runtime});var w={};f(w,{default:()=>d,frontmatter:()=>y});var t=_(b()),y={title:\"Wear Me Down\",slug:\"wear-me-down-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"the-jokerr\"],featuresNames:[\"The Jokerr\"],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"3:48\",trackNumber:6,producers:[],producersNames:[],description:\"Wear Me Down \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(w);})();\n;return Component;"
+  },
+  "_id": "skladby/wear-me-down-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/wear-me-down-bobby-blaze.mdx",
+    "sourceFileName": "wear-me-down-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/wear-me-down-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/wear-me-down-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/wear-me-down-bobby-blaze"
+}

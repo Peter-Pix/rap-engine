@@ -1,0 +1,31 @@
+{
+  "title": "Nautshit",
+  "slug": "nautshit",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2020,
+  "genre": [],
+  "description": "Nautshit — singl od Hugo Toxxx (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/82d029454b8d73378a485878276c1b4c/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Nautshit"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var r in e)i(t,r,{get:e[r],enumerable:!0})},a=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of m(e))!g.call(t,s)&&s!==r&&i(t,s,{get:()=>e[s],enumerable:!(o=h(e,s))||o.enumerable});return t};var j=(t,e,r)=>(r=t!=null?l(p(t)):{},a(e||!t||!t.__esModule?i(r,\"default\",{value:t,enumerable:!0}):r,t)),f=t=>a(i({},\"__esModule\",{value:!0}),t);var u=b((D,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>M});var n=j(u()),M={title:\"Nautshit\",slug:\"nautshit\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2020,genre:[],description:\"Nautshit \\u2014 singl od Hugo Toxxx (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/82d029454b8d73378a485878276c1b4c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Nautshit\"],publishedAt:\"2026-06-04\"};function x(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(x,{...t})}):x(t)}return f(S);})();\n;return Component;"
+  },
+  "_id": "alba/nautshit.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/nautshit.mdx",
+    "sourceFileName": "nautshit.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/nautshit"
+  },
+  "type": "Album",
+  "url": "/alba/nautshit",
+  "canonicalUrl": "https://4rap.cz/alba/nautshit"
+}

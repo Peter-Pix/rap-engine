@@ -1,0 +1,39 @@
+{
+  "title": "James",
+  "slug": "james-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "dj-zerwox",
+    "jozef-reznik"
+  ],
+  "featuresNames": [
+    "DJ Zerwox",
+    "Jozef Reznik"
+  ],
+  "album": "O beatech a lidech",
+  "albumSlug": "o-beatech-a-lidech",
+  "year": 2021,
+  "genre": [],
+  "duration": "1:44",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "James — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var i=b((w,d)=>{d.exports=_jsx_runtime});var k={};j(k,{default:()=>u,frontmatter:()=>z});var r=_(i()),z={title:\"James\",slug:\"james-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"dj-zerwox\",\"jozef-reznik\"],featuresNames:[\"DJ Zerwox\",\"Jozef Reznik\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[],duration:\"1:44\",trackNumber:16,producers:[],producersNames:[],description:\"James \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/james-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/james-idea.mdx",
+    "sourceFileName": "james-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/james-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/james-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/james-idea"
+}

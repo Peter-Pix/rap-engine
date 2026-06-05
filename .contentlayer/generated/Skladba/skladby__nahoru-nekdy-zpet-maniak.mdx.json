@@ -1,0 +1,39 @@
+{
+  "title": "Nahoru někdy zpět",
+  "slug": "nahoru-nekdy-zpet-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "cheppy-beats",
+    "momo"
+  ],
+  "featuresNames": [
+    "Cheppy Beats",
+    "MOMO"
+  ],
+  "album": "To je vražda, napsal",
+  "albumSlug": "to-je-vrazda-napsal",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nahoru někdy zpět — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},p=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!k.call(e,r)&&r!==n&&o(e,r,{get:()=>t[r],enumerable:!(s=l(t,r))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?i(x(e)):{},p(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>p(o({},\"__esModule\",{value:!0}),e);var m=b((N,u)=>{u.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>M});var a=j(m()),M={title:\"Nahoru n\\u011Bkdy zp\\u011Bt\",slug:\"nahoru-nekdy-zpet-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"cheppy-beats\",\"momo\"],featuresNames:[\"Cheppy Beats\",\"MOMO\"],album:\"To je vra\\u017Eda, napsal\",albumSlug:\"to-je-vrazda-napsal\",year:2023,genre:[],duration:\"3:00\",trackNumber:4,producers:[],producersNames:[],description:\"Nahoru n\\u011Bkdy zp\\u011Bt \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return y(_);})();\n;return Component;"
+  },
+  "_id": "skladby/nahoru-nekdy-zpet-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nahoru-nekdy-zpet-maniak.mdx",
+    "sourceFileName": "nahoru-nekdy-zpet-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nahoru-nekdy-zpet-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nahoru-nekdy-zpet-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/nahoru-nekdy-zpet-maniak"
+}

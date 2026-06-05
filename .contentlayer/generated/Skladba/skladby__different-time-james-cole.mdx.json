@@ -1,0 +1,33 @@
+{
+  "title": "Different Time",
+  "slug": "different-time-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Different Time",
+  "albumSlug": "different-time",
+  "year": 2025,
+  "genre": [],
+  "duration": "6:22",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Different Time — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!h.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=f(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var c=j((N,i)=>{i.exports=_jsx_runtime});var C={};_(C,{default:()=>l,frontmatter:()=>D});var r=b(c()),D={title:\"Different Time\",slug:\"different-time-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Different Time\",albumSlug:\"different-time\",year:2025,genre:[],duration:\"6:22\",trackNumber:1,producers:[],producersNames:[],description:\"Different Time \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(C);})();\n;return Component;"
+  },
+  "_id": "skladby/different-time-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/different-time-james-cole.mdx",
+    "sourceFileName": "different-time-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/different-time-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/different-time-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/different-time-james-cole"
+}

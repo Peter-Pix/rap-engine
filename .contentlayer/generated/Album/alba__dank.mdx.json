@@ -1,0 +1,47 @@
+{
+  "title": "DANK",
+  "slug": "dank",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2018,
+  "genre": [],
+  "description": "DANK — album od Paulie Garand (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/1108bb488d1cba77a382cce763a0de5d/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Adié (feat. Grizzly)",
+    "Kolem stolu (feat. Separ & Nerieš)",
+    "DANK",
+    "Oddanost (feat. Ego)",
+    "Harantstrasse",
+    "Démoni (feat. Roseck & Maniak)",
+    "Návraty",
+    "Past pt. 2 (feat. Kali)",
+    "Sůl nad zlato (feat. Mons Berry)",
+    "Molotov (feat. Rest)",
+    "Past pt. 3 (feat. Ben Cristovao)",
+    "Nokturno (feat. Martin Matys)",
+    "Palác (feat. Jakub Děkan)",
+    "Periferie (feat. Marcell)",
+    "Foyer (feat. Václav Rouček)",
+    "Srdce z ledu (feat. Marcell)",
+    "Epitaf"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},i=(e,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of m(a))!h.call(e,r)&&r!==n&&o(e,r,{get:()=>a[r],enumerable:!(l=f(a,r))||l.enumerable});return e};var x=(e,a,n)=>(n=e!=null?p(g(e)):{},i(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>i(o({},\"__esModule\",{value:!0}),e);var c=M((j,s)=>{s.exports=_jsx_runtime});var D={};b(D,{default:()=>u,frontmatter:()=>y});var t=x(c()),y={title:\"DANK\",slug:\"dank\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2018,genre:[],description:\"DANK \\u2014 album od Paulie Garand (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/1108bb488d1cba77a382cce763a0de5d/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Adi\\xE9 (feat. Grizzly)\",\"Kolem stolu (feat. Separ & Nerie\\u0161)\",\"DANK\",\"Oddanost (feat. Ego)\",\"Harantstrasse\",\"D\\xE9moni (feat. Roseck & Maniak)\",\"N\\xE1vraty\",\"Past pt. 2 (feat. Kali)\",\"S\\u016Fl nad zlato (feat. Mons Berry)\",\"Molotov (feat. Rest)\",\"Past pt. 3 (feat. Ben Cristovao)\",\"Nokturno (feat. Martin Matys)\",\"Pal\\xE1c (feat. Jakub D\\u011Bkan)\",\"Periferie (feat. Marcell)\",\"Foyer (feat. V\\xE1clav Rou\\u010Dek)\",\"Srdce z ledu (feat. Marcell)\",\"Epitaf\"],publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return k(D);})();\n;return Component;"
+  },
+  "_id": "alba/dank.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/dank.mdx",
+    "sourceFileName": "dank.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/dank"
+  },
+  "type": "Album",
+  "url": "/alba/dank",
+  "canonicalUrl": "https://4rap.cz/alba/dank"
+}

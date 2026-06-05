@@ -1,0 +1,42 @@
+{
+  "title": "DRIPOLAR",
+  "slug": "dripolar",
+  "rapper": "CA$HANOVA BULHAR",
+  "rapperSlug": "ca-hanova-bulhar",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "DRIPOLAR — album od CA$HANOVA BULHAR (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c3f53092e4cc4897262b693c50b48865/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "LVCRIMOSA",
+    "HALLELUYAH",
+    "BLADE",
+    "ČISTÁ PRÁCE",
+    "MAGIC CITY",
+    "TOUCHDOWN",
+    "FULLY LOADED",
+    "BANDANA",
+    "LV BELT",
+    "JUICY",
+    "RICH",
+    "HOOD PARADISE 2 (2016)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var L=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var C=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),D=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},A=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let c of u(t))!h.call(e,c)&&c!==r&&a(e,c,{get:()=>t[c],enumerable:!(o=d(t,c))||o.enumerable});return e};var O=(e,t,r)=>(r=e!=null?m(L(e)):{},A(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),R=e=>A(a({},\"__esModule\",{value:!0}),e);var i=C((H,s)=>{s.exports=_jsx_runtime});var b={};D(b,{default:()=>p,frontmatter:()=>x});var n=O(i()),x={title:\"DRIPOLAR\",slug:\"dripolar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"DRIPOLAR \\u2014 album od CA$HANOVA BULHAR (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/c3f53092e4cc4897262b693c50b48865/1000x1000-000000-80-0-0.jpg\",tracklist:[\"LVCRIMOSA\",\"HALLELUYAH\",\"BLADE\",\"\\u010CIST\\xC1 PR\\xC1CE\",\"MAGIC CITY\",\"TOUCHDOWN\",\"FULLY LOADED\",\"BANDANA\",\"LV BELT\",\"JUICY\",\"RICH\",\"HOOD PARADISE 2 (2016)\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return R(b);})();\n;return Component;"
+  },
+  "_id": "alba/dripolar.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/dripolar.mdx",
+    "sourceFileName": "dripolar.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/dripolar"
+  },
+  "type": "Album",
+  "url": "/alba/dripolar",
+  "canonicalUrl": "https://4rap.cz/alba/dripolar"
+}

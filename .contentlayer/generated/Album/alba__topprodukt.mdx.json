@@ -1,0 +1,40 @@
+{
+  "title": "TopProdukt",
+  "slug": "topprodukt",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "Lavutaris Records",
+  "year": 2024,
+  "genre": [],
+  "description": "TopProdukt — album od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/07e8b34533ea31f8bd13302c1fd6dcf8/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Volej Benga",
+    "Nech Si To Na Potom",
+    "Slepá Strana",
+    "Zelenej Dým (feat. Flex Kid)",
+    "Moje Enemy",
+    "Moje Hudba",
+    "27 Minut (feat. Vladimir 518)",
+    "Uhni Mi z Cesty (feat. Mega M)",
+    "Mama Bere Piko",
+    "Zima Jak v Lednu"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},d=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!f.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(i=u(t,o))||i.enumerable});return e};var j=(e,t,a)=>(a=e!=null?p(h(e)):{},d(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),M=e=>d(r({},\"__esModule\",{value:!0}),e);var s=g((B,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>y});var n=j(s()),y={title:\"TopProdukt\",slug:\"topprodukt\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"Lavutaris Records\",year:2024,genre:[],description:\"TopProdukt \\u2014 album od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/07e8b34533ea31f8bd13302c1fd6dcf8/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Volej Benga\",\"Nech Si To Na Potom\",\"Slep\\xE1 Strana\",\"Zelenej D\\xFDm (feat. Flex Kid)\",\"Moje Enemy\",\"Moje Hudba\",\"27 Minut (feat. Vladimir 518)\",\"Uhni Mi z Cesty (feat. Mega M)\",\"Mama Bere Piko\",\"Zima Jak v Lednu\"],publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return M(_);})();\n;return Component;"
+  },
+  "_id": "alba/topprodukt.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/topprodukt.mdx",
+    "sourceFileName": "topprodukt.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/topprodukt"
+  },
+  "type": "Album",
+  "url": "/alba/topprodukt",
+  "canonicalUrl": "https://4rap.cz/alba/topprodukt"
+}

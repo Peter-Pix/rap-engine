@@ -1,0 +1,37 @@
+{
+  "title": "No hands",
+  "slug": "no-hands-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "jumpout"
+  ],
+  "featuresNames": [
+    "JuMpOuT"
+  ],
+  "album": "OneWay",
+  "albumSlug": "oneway",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:38",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "No hands — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var g=(e,n,a)=>(a=e!=null?p(x(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=_((y,m)=>{m.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>k});var t=g(i()),k={title:\"No hands\",slug:\"no-hands-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[],duration:\"2:38\",trackNumber:5,producers:[],producersNames:[],description:\"No hands \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/no-hands-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/no-hands-maniak.mdx",
+    "sourceFileName": "no-hands-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/no-hands-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/no-hands-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/no-hands-maniak"
+}

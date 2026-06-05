@@ -1,0 +1,33 @@
+{
+  "title": "It's The First Time",
+  "slug": "it-s-the-first-time-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Don't Tell The Truth",
+  "albumSlug": "don-t-tell-the-truth",
+  "year": 2021,
+  "genre": [],
+  "duration": "6:06",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "It's The First Time — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),T=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!f.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=h(t,s))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var i=j((D,l)=>{l.exports=_jsx_runtime});var C={};T(C,{default:()=>c,frontmatter:()=>g});var r=_(i()),g={title:\"It's The First Time\",slug:\"it-s-the-first-time-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Don't Tell The Truth\",albumSlug:\"don-t-tell-the-truth\",year:2021,genre:[],duration:\"6:06\",trackNumber:2,producers:[],producersNames:[],description:\"It's The First Time \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(C);})();\n;return Component;"
+  },
+  "_id": "skladby/it-s-the-first-time-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/it-s-the-first-time-james-cole.mdx",
+    "sourceFileName": "it-s-the-first-time-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/it-s-the-first-time-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/it-s-the-first-time-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/it-s-the-first-time-james-cole"
+}

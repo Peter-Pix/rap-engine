@@ -1,0 +1,37 @@
+{
+  "title": "Bond girl",
+  "slug": "bond-girl-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "cis-t"
+  ],
+  "featuresNames": [
+    "Čis T"
+  ],
+  "album": "Teritorium III.",
+  "albumSlug": "teritorium-iii",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:31",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bond girl — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},a=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?l(g(e)):{},a(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(i({},\"__esModule\",{value:!0}),e);var c=b((S,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>I});var t=_(c()),I={title:\"Bond girl\",slug:\"bond-girl-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\"],featuresNames:[\"\\u010Cis T\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[],duration:\"3:31\",trackNumber:5,producers:[],producersNames:[],description:\"Bond girl \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/bond-girl-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bond-girl-orion.mdx",
+    "sourceFileName": "bond-girl-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bond-girl-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bond-girl-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/bond-girl-orion"
+}

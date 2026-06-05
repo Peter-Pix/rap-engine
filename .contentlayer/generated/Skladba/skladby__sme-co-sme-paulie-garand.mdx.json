@@ -1,0 +1,37 @@
+{
+  "title": "Sme co sme",
+  "slug": "sme-co-sme-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "lyrik"
+  ],
+  "featuresNames": [
+    "Lyrik"
+  ],
+  "album": "V hlavní roli",
+  "albumSlug": "v-hlavni-roli",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:45",
+  "trackNumber": 14,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sme co sme — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var b=(e,r,t)=>(t=e!=null?d(x(e)):{},i(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((v,l)=>{l.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>S});var n=b(u()),S={title:\"Sme co sme\",slug:\"sme-co-sme-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"lyrik\"],featuresNames:[\"Lyrik\"],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:45\",trackNumber:14,producers:[],producersNames:[],description:\"Sme co sme \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/sme-co-sme-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sme-co-sme-paulie-garand.mdx",
+    "sourceFileName": "sme-co-sme-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sme-co-sme-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sme-co-sme-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/sme-co-sme-paulie-garand"
+}

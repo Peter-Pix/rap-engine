@@ -1,0 +1,39 @@
+{
+  "title": "Molotov",
+  "slug": "molotov-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "rest"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Rest"
+  ],
+  "album": "DANK",
+  "albumSlug": "dank",
+  "year": 2018,
+  "genre": [],
+  "duration": "4:30",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Molotov — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(g(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((N,l)=>{l.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>M});var n=b(d()),M={title:\"Molotov\",slug:\"molotov-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"rest\"],featuresNames:[\"Kenny Rough\",\"Rest\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"4:30\",trackNumber:10,producers:[],producersNames:[],description:\"Molotov \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/molotov-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/molotov-paulie-garand.mdx",
+    "sourceFileName": "molotov-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/molotov-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/molotov-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/molotov-paulie-garand"
+}

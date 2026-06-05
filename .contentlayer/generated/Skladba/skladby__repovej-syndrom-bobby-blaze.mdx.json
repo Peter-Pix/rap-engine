@@ -1,0 +1,33 @@
+{
+  "title": "Repovej Syndrom",
+  "slug": "repovej-syndrom-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Repovej Syndrom",
+  "albumSlug": "repovej-syndrom",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:46",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Repovej Syndrom — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var b=Object.create;var a=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},m=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of i(r))!j.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(s=c(r,o))||s.enumerable});return e};var f=(e,r,t)=>(t=e!=null?b(y(e)):{},m(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>m(a({},\"__esModule\",{value:!0}),e);var p=x((z,d)=>{d.exports=_jsx_runtime});var S={};h(S,{default:()=>l,frontmatter:()=>g});var n=f(p()),g={title:\"Repovej Syndrom\",slug:\"repovej-syndrom-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Repovej Syndrom\",albumSlug:\"repovej-syndrom\",year:2020,genre:[],duration:\"3:46\",trackNumber:1,producers:[],producersNames:[],description:\"Repovej Syndrom \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/repovej-syndrom-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/repovej-syndrom-bobby-blaze.mdx",
+    "sourceFileName": "repovej-syndrom-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/repovej-syndrom-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/repovej-syndrom-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/repovej-syndrom-bobby-blaze"
+}

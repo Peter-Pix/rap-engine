@@ -1,0 +1,37 @@
+{
+  "title": "Černej kůň",
+  "slug": "cernej-kun-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "dj-wich"
+  ],
+  "featuresNames": [
+    "DJ Wich"
+  ],
+  "album": "Černej kůň plus",
+  "albumSlug": "cernej-kun-plus",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:18",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Černej kůň — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!k.call(e,a)&&a!==t&&s(e,a,{get:()=>n[a],enumerable:!(o=d(n,a))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?p(j(e)):{},u(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var i=x((N,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>g});var r=_(i()),g={title:\"\\u010Cernej k\\u016F\\u0148\",slug:\"cernej-kun-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[],duration:\"3:18\",trackNumber:1,producers:[],producersNames:[],description:\"\\u010Cernej k\\u016F\\u0148 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "skladby/cernej-kun-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/cernej-kun-maniak.mdx",
+    "sourceFileName": "cernej-kun-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/cernej-kun-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/cernej-kun-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/cernej-kun-maniak"
+}

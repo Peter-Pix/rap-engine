@@ -1,0 +1,33 @@
+{
+  "title": "He Is Mine",
+  "slug": "he-is-mine",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "Whoyostro White",
+  "year": 2021,
+  "genre": [],
+  "description": "He Is Mine — singl od James Cole (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/f9a667da856cd75950a7d3de4410bb52/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Fighting For Me (Original Mix)",
+    "He Is Mine (Original Mix)",
+    "He Is Mine (Cormac US Remix)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var i in n)s(e,i,{get:n[i],enumerable:!0})},a=(e,n,i,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!u.call(e,r)&&r!==i&&s(e,r,{get:()=>n[r],enumerable:!(o=g(n,r))||o.enumerable});return e};var _=(e,n,i)=>(i=e!=null?p(x(e)):{},a(n||!e||!e.__esModule?s(i,\"default\",{value:e,enumerable:!0}):i,e)),b=e=>a(s({},\"__esModule\",{value:!0}),e);var l=M((H,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>d,frontmatter:()=>f});var t=_(l()),f={title:\"He Is Mine\",slug:\"he-is-mine\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Whoyostro White\",year:2021,genre:[],description:\"He Is Mine \\u2014 singl od James Cole (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/f9a667da856cd75950a7d3de4410bb52/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Fighting For Me (Original Mix)\",\"He Is Mine (Original Mix)\",\"He Is Mine (Cormac US Remix)\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(C);})();\n;return Component;"
+  },
+  "_id": "alba/he-is-mine.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/he-is-mine.mdx",
+    "sourceFileName": "he-is-mine.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/he-is-mine"
+  },
+  "type": "Album",
+  "url": "/alba/he-is-mine",
+  "canonicalUrl": "https://4rap.cz/alba/he-is-mine"
+}

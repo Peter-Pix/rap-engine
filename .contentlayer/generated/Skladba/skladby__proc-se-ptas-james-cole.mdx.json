@@ -1,0 +1,33 @@
+{
+  "title": "Proč se ptáš",
+  "slug": "proc-se-ptas-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Kapitán Láska (Deluxe Edition)",
+  "albumSlug": "kapitan-laska",
+  "year": 2009,
+  "genre": [],
+  "duration": "3:11",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Proč se ptáš — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(h(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var m=j((M,l)=>{l.exports=_jsx_runtime});var C={};_(C,{default:()=>u,frontmatter:()=>k});var r=b(m()),k={title:\"Pro\\u010D se pt\\xE1\\u0161\",slug:\"proc-se-ptas-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[],duration:\"3:11\",trackNumber:5,producers:[],producersNames:[],description:\"Pro\\u010D se pt\\xE1\\u0161 \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return g(C);})();\n;return Component;"
+  },
+  "_id": "skladby/proc-se-ptas-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/proc-se-ptas-james-cole.mdx",
+    "sourceFileName": "proc-se-ptas-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/proc-se-ptas-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/proc-se-ptas-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/proc-se-ptas-james-cole"
+}

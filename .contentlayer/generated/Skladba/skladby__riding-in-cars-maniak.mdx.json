@@ -1,0 +1,33 @@
+{
+  "title": "Riding In Cars",
+  "slug": "riding-in-cars-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Finding Myself",
+  "albumSlug": "finding-myself",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:19",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Riding In Cars — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var t in e)i(n,t,{get:e[t],enumerable:!0})},o=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of g(e))!x.call(n,a)&&a!==t&&i(n,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return n};var b=(n,e,t)=>(t=n!=null?l(f(n)):{},o(e||!n||!n.__esModule?i(t,\"default\",{value:n,enumerable:!0}):t,n)),k=n=>o(i({},\"__esModule\",{value:!0}),n);var m=h((C,d)=>{d.exports=_jsx_runtime});var j={};_(j,{default:()=>c,frontmatter:()=>M});var r=b(m()),M={title:\"Riding In Cars\",slug:\"riding-in-cars-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Finding Myself\",albumSlug:\"finding-myself\",year:2026,genre:[],duration:\"3:19\",trackNumber:1,producers:[],producersNames:[],description:\"Riding In Cars \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return k(j);})();\n;return Component;"
+  },
+  "_id": "skladby/riding-in-cars-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/riding-in-cars-maniak.mdx",
+    "sourceFileName": "riding-in-cars-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/riding-in-cars-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/riding-in-cars-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/riding-in-cars-maniak"
+}

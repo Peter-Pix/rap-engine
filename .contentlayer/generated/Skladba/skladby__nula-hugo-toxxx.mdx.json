@@ -1,0 +1,33 @@
+{
+  "title": "Nula",
+  "slug": "nula-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [],
+  "featuresNames": [],
+  "album": "1000",
+  "albumSlug": "1000",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:56",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nula — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var u=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==r&&u(e,o,{get:()=>t[o],enumerable:!(a=i(t,o))||a.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(h(e)):{},s(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var c=f((k,x)=>{x.exports=_jsx_runtime});var M={};_(M,{default:()=>m,frontmatter:()=>N});var n=b(c()),N={title:\"Nula\",slug:\"nula-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"3:56\",trackNumber:11,producers:[],producersNames:[],description:\"Nula \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/nula-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nula-hugo-toxxx.mdx",
+    "sourceFileName": "nula-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nula-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nula-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/nula-hugo-toxxx"
+}

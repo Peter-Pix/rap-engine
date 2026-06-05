@@ -1,0 +1,37 @@
+{
+  "title": "Blázen",
+  "slug": "blazen-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Střepy",
+  "albumSlug": "strepy",
+  "year": 2013,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Blázen — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=i(t,s))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var l=b((D,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>p,frontmatter:()=>y});var r=g(l()),y={title:\"Bl\\xE1zen\",slug:\"blazen-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[],duration:\"3:00\",trackNumber:2,producers:[],producersNames:[],description:\"Bl\\xE1zen \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/blazen-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/blazen-rest.mdx",
+    "sourceFileName": "blazen-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/blazen-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/blazen-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/blazen-rest"
+}

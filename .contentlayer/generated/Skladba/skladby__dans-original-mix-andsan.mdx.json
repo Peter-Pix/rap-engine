@@ -1,0 +1,33 @@
+{
+  "title": "Dans (Original Mix)",
+  "slug": "dans-original-mix-andsan",
+  "rapper": "Hansol",
+  "rapperSlug": "andsan",
+  "features": [],
+  "featuresNames": [],
+  "album": "Young Guns 01.",
+  "albumSlug": "young-guns-01",
+  "year": 2018,
+  "genre": [],
+  "duration": "6:34",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Dans (Original Mix) — skladba od Hansol.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(n,a)&&a!==r&&s(n,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return n};var b=(n,e,r)=>(r=n!=null?m(g(n)):{},i(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),j=n=>i(s({},\"__esModule\",{value:!0}),n);var l=f((N,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>d,frontmatter:()=>M});var t=b(l()),M={title:\"Dans (Original Mix)\",slug:\"dans-original-mix-andsan\",rapper:\"Hansol\",rapperSlug:\"andsan\",features:[],featuresNames:[],album:\"Young Guns 01.\",albumSlug:\"young-guns-01\",year:2018,genre:[],duration:\"6:34\",trackNumber:4,producers:[],producersNames:[],description:\"Dans (Original Mix) \\u2014 skladba od Hansol.\",publishedAt:\"2026-06-04\"};function c(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(c,{...n})}):c(n)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/dans-original-mix-andsan.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dans-original-mix-andsan.mdx",
+    "sourceFileName": "dans-original-mix-andsan.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dans-original-mix-andsan"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dans-original-mix-andsan",
+  "canonicalUrl": "https://4rap.cz/skladby/dans-original-mix-andsan"
+}

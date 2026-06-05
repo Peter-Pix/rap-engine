@@ -1,0 +1,37 @@
+{
+  "title": "Škola Žižkova",
+  "slug": "skola-zizkova-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "johnyboss"
+  ],
+  "featuresNames": [
+    "JOHNYBOSS"
+  ],
+  "album": "Reflex",
+  "albumSlug": "reflex",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:06",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Škola Žižkova — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(f(e)):{},l(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var c=j((F,u)=>{u.exports=_jsx_runtime});var S={};k(S,{default:()=>d,frontmatter:()=>g});var r=b(c()),g={title:\"\\u0160kola \\u017Di\\u017Ekova\",slug:\"skola-zizkova-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"johnyboss\"],featuresNames:[\"JOHNYBOSS\"],album:\"Reflex\",albumSlug:\"reflex\",year:2022,genre:[],duration:\"3:06\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160kola \\u017Di\\u017Ekova \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/skola-zizkova-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/skola-zizkova-dj-fatte.mdx",
+    "sourceFileName": "skola-zizkova-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/skola-zizkova-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/skola-zizkova-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/skola-zizkova-dj-fatte"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Priority",
+  "slug": "priority-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "3:44",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Priority — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(a({},\"__esModule\",{value:!0}),e);var m=_((M,u)=>{u.exports=_jsx_runtime});var D={};b(D,{default:()=>p,frontmatter:()=>y});var r=g(m()),y={title:\"Priority\",slug:\"priority-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"3:44\",trackNumber:4,producers:[],producersNames:[],description:\"Priority \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/priority-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/priority-rest.mdx",
+    "sourceFileName": "priority-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/priority-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/priority-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/priority-rest"
+}

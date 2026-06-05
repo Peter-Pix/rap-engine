@@ -1,0 +1,37 @@
+{
+  "title": "Holly Molly",
+  "slug": "holly-molly-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "lvcas-dope"
+  ],
+  "featuresNames": [
+    "Lvcas Dope"
+  ],
+  "album": "Zhora Vypadá Všechno Líp",
+  "albumSlug": "zhora-vypada-vsechno-lip",
+  "year": 2020,
+  "genre": [],
+  "duration": "4:48",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Holly Molly — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)r(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&r(e,a,{get:()=>n[a],enumerable:!(s=u(n,a))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?i(y(e)):{},l(n||!e||!e.__esModule?r(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>l(r({},\"__esModule\",{value:!0}),e);var d=f((v,c)=>{c.exports=_jsx_runtime});var z={};_(z,{default:()=>p,frontmatter:()=>j});var o=b(d()),j={title:\"Holly Molly\",slug:\"holly-molly-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"lvcas-dope\"],featuresNames:[\"Lvcas Dope\"],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"4:48\",trackNumber:13,producers:[],producersNames:[],description:\"Holly Molly \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return g(z);})();\n;return Component;"
+  },
+  "_id": "skladby/holly-molly-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/holly-molly-yzomandias.mdx",
+    "sourceFileName": "holly-molly-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/holly-molly-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/holly-molly-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/holly-molly-yzomandias"
+}

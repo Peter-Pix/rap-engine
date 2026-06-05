@@ -1,0 +1,37 @@
+{
+  "title": "Habibi (Remix)",
+  "slug": "habibi-remix-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "nik-tendo"
+  ],
+  "featuresNames": [
+    "Nik Tendo"
+  ],
+  "album": "Habibi (Remix)",
+  "albumSlug": "habibi-remix",
+  "year": 2019,
+  "genre": [],
+  "duration": "1:55",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Habibi (Remix) — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var b=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!h.call(e,a)&&a!==r&&i(e,a,{get:()=>n[a],enumerable:!(o=l(n,a))||o.enumerable});return e};var g=(e,n,r)=>(r=e!=null?b(x(e)):{},s(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var d=f((N,m)=>{m.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>k});var t=g(d()),k={title:\"Habibi (Remix)\",slug:\"habibi-remix-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Habibi (Remix)\",albumSlug:\"habibi-remix\",year:2019,genre:[],duration:\"1:55\",trackNumber:1,producers:[],producersNames:[],description:\"Habibi (Remix) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/habibi-remix-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/habibi-remix-yzomandias.mdx",
+    "sourceFileName": "habibi-remix-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/habibi-remix-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/habibi-remix-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/habibi-remix-yzomandias"
+}

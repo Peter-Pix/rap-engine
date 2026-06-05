@@ -1,0 +1,33 @@
+{
+  "title": "Through These Eyes",
+  "slug": "through-these-eyes-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Through These Eyes",
+  "albumSlug": "through-these-eyes",
+  "year": 2004,
+  "genre": [],
+  "duration": "4:18",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Through These Eyes — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of i(t))!g.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=d(t,s))||a.enumerable});return e};var f=(e,t,n)=>(n=e!=null?m(p(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var l=y((B,h)=>{h.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>T});var r=f(l()),T={title:\"Through These Eyes\",slug:\"through-these-eyes-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[],duration:\"4:18\",trackNumber:2,producers:[],producersNames:[],description:\"Through These Eyes \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/through-these-eyes-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/through-these-eyes-bobby-blaze.mdx",
+    "sourceFileName": "through-these-eyes-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/through-these-eyes-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/through-these-eyes-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/through-these-eyes-bobby-blaze"
+}

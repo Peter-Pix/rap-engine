@@ -1,0 +1,38 @@
+{
+  "title": "ALIEN: Expansion Pack",
+  "slug": "alien-expansion-pack",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "ALIEN: Expansion Pack — album od James Cole (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c712ed4c1e32bc9f2b1f185a0033e8d5/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "HIGHLANDER",
+    "EXPANSION PACK",
+    "SPITROAST (feat. Hellwana)",
+    "DIRTY",
+    "NO. 1 FAN",
+    "ČERNÁ OVCE",
+    "EULOGIE",
+    "FITYMI"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,E=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),I=(e,n)=>{for(var a in n)r(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of x(n))!E.call(e,c)&&c!==a&&r(e,c,{get:()=>n[c],enumerable:!(o=u(n,c))||o.enumerable});return e};var b=(e,n,a)=>(a=e!=null?d(h(e)):{},s(n||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>s(r({},\"__esModule\",{value:!0}),e);var l=g((C,i)=>{i.exports=_jsx_runtime});var N={};I(N,{default:()=>m,frontmatter:()=>A});var t=b(l()),A={title:\"ALIEN: Expansion Pack\",slug:\"alien-expansion-pack\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"ALIEN: Expansion Pack \\u2014 album od James Cole (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/c712ed4c1e32bc9f2b1f185a0033e8d5/1000x1000-000000-80-0-0.jpg\",tracklist:[\"HIGHLANDER\",\"EXPANSION PACK\",\"SPITROAST (feat. Hellwana)\",\"DIRTY\",\"NO. 1 FAN\",\"\\u010CERN\\xC1 OVCE\",\"EULOGIE\",\"FITYMI\"],publishedAt:\"2026-06-04\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return f(N);})();\n;return Component;"
+  },
+  "_id": "alba/alien-expansion-pack.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/alien-expansion-pack.mdx",
+    "sourceFileName": "alien-expansion-pack.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/alien-expansion-pack"
+  },
+  "type": "Album",
+  "url": "/alba/alien-expansion-pack",
+  "canonicalUrl": "https://4rap.cz/alba/alien-expansion-pack"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Zázrak",
+  "slug": "zazrak-vladimir-518",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "features": [
+    "mike-trafik"
+  ],
+  "featuresNames": [
+    "Mike Trafik"
+  ],
+  "album": "Ultra! Ultra!",
+  "albumSlug": "ultra-ultra",
+  "year": 2017,
+  "genre": [],
+  "duration": "1:20",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Zázrak — skladba od Vladimir 518.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),_=(r,e)=>{for(var a in e)i(r,a,{get:e[a],enumerable:!0})},s=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!h.call(r,n)&&n!==a&&i(r,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return r};var b=(r,e,a)=>(a=r!=null?c(f(r)):{},s(e||!r||!r.__esModule?i(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>s(i({},\"__esModule\",{value:!0}),r);var m=k((N,l)=>{l.exports=_jsx_runtime});var z={};_(z,{default:()=>d,frontmatter:()=>j});var t=b(m()),j={title:\"Za\\u0301zrak\",slug:\"zazrak-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"1:20\",trackNumber:16,producers:[],producersNames:[],description:\"Za\\u0301zrak \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(r){let e={em:\"em\",h2:\"h2\",p:\"p\",...r.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(u,{...r})}):u(r)}return g(z);})();\n;return Component;"
+  },
+  "_id": "skladby/zazrak-vladimir-518.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/zazrak-vladimir-518.mdx",
+    "sourceFileName": "zazrak-vladimir-518.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/zazrak-vladimir-518"
+  },
+  "type": "Skladba",
+  "url": "/skladby/zazrak-vladimir-518",
+  "canonicalUrl": "https://4rap.cz/skladby/zazrak-vladimir-518"
+}

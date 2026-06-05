@@ -1,0 +1,39 @@
+{
+  "title": "Flow",
+  "slug": "flow-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "matys",
+    "michajlov"
+  ],
+  "featuresNames": [
+    "Matys",
+    "Michajlov"
+  ],
+  "album": "Fade In",
+  "albumSlug": "fade-in",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:03",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Flow — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),F=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(h(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var u=j((y,l)=>{l.exports=_jsx_runtime});var M={};F(M,{default:()=>m,frontmatter:()=>g});var n=_(u()),g={title:\"Flow\",slug:\"flow-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"matys\",\"michajlov\"],featuresNames:[\"Matys\",\"Michajlov\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"Flow \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "skladby/flow-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/flow-dj-fatte.mdx",
+    "sourceFileName": "flow-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/flow-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/flow-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/flow-dj-fatte"
+}

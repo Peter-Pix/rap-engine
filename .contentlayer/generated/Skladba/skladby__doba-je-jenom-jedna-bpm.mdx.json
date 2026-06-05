@@ -1,0 +1,37 @@
+{
+  "title": "Doba je jenom jedna",
+  "slug": "doba-je-jenom-jedna-bpm",
+  "rapper": "Bpm",
+  "rapperSlug": "bpm",
+  "features": [
+    "kato"
+  ],
+  "featuresNames": [
+    "Kato"
+  ],
+  "album": "Horizonty",
+  "albumSlug": "horizonty",
+  "year": 2009,
+  "genre": [],
+  "duration": "4:16",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Doba je jenom jedna — skladba od Bpm.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of j(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(m=l(t,o))||m.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(b(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var d=x((M,u)=>{u.exports=_jsx_runtime});var D={};f(D,{default:()=>c,frontmatter:()=>y});var n=_(d()),y={title:\"Doba je jenom jedna\",slug:\"doba-je-jenom-jedna-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[\"kato\"],featuresNames:[\"Kato\"],album:\"Horizonty\",albumSlug:\"horizonty\",year:2009,genre:[],duration:\"4:16\",trackNumber:3,producers:[],producersNames:[],description:\"Doba je jenom jedna \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/doba-je-jenom-jedna-bpm.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/doba-je-jenom-jedna-bpm.mdx",
+    "sourceFileName": "doba-je-jenom-jedna-bpm.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/doba-je-jenom-jedna-bpm"
+  },
+  "type": "Skladba",
+  "url": "/skladby/doba-je-jenom-jedna-bpm",
+  "canonicalUrl": "https://4rap.cz/skladby/doba-je-jenom-jedna-bpm"
+}

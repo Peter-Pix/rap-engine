@@ -1,0 +1,33 @@
+{
+  "title": "UUU, WIII",
+  "slug": "uuu-wiii-ario",
+  "rapper": "Cosmin Horatiu",
+  "rapperSlug": "ario",
+  "features": [],
+  "featuresNames": [],
+  "album": "Young Guns 03.",
+  "albumSlug": "young-guns-03",
+  "year": 2019,
+  "genre": [],
+  "duration": "7:31",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "UUU, WIII — skladba od Cosmin Horatiu.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==r&&u(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(g(e)):{},a(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),I=e=>a(u({},\"__esModule\",{value:!0}),e);var m=f((y,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>U});var n=b(m()),U={title:\"UUU, WIII\",slug:\"uuu-wiii-ario\",rapper:\"Cosmin Horatiu\",rapperSlug:\"ario\",features:[],featuresNames:[],album:\"Young Guns 03.\",albumSlug:\"young-guns-03\",year:2019,genre:[],duration:\"7:31\",trackNumber:2,producers:[],producersNames:[],description:\"UUU, WIII \\u2014 skladba od Cosmin Horatiu.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return I(j);})();\n;return Component;"
+  },
+  "_id": "skladby/uuu-wiii-ario.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/uuu-wiii-ario.mdx",
+    "sourceFileName": "uuu-wiii-ario.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/uuu-wiii-ario"
+  },
+  "type": "Skladba",
+  "url": "/skladby/uuu-wiii-ario",
+  "canonicalUrl": "https://4rap.cz/skladby/uuu-wiii-ario"
+}

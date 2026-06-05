@@ -1,0 +1,38 @@
+{
+  "title": "O Rakvích A Lidech",
+  "slug": "o-rakvich-a-lidech",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "label": "WM Czech Republic",
+  "year": 2019,
+  "genre": [],
+  "description": "O Rakvích A Lidech — album od Idea (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/559e39124576faf70c846cf0a576c210/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Eva & Adam",
+    "Detektiv",
+    "Dveře",
+    "Pouť",
+    "Eva & Adam (Instrumental)",
+    "Detektiv (Instrumental)",
+    "Dveře (Instrumental)",
+    "Pouť (Instrumental)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var c=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)c(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!x.call(e,r)&&r!==a&&c(e,r,{get:()=>t[r],enumerable:!(i=h(t,r))||i.enumerable});return e};var _=(e,t,a)=>(a=e!=null?u(v(e)):{},s(t||!e||!e.__esModule?c(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>s(c({},\"__esModule\",{value:!0}),e);var d=g((I,o)=>{o.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>j});var n=_(d()),j={title:\"O Rakv\\xEDch A Lidech\",slug:\"o-rakvich-a-lidech\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2019,genre:[],description:\"O Rakv\\xEDch A Lidech \\u2014 album od Idea (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/559e39124576faf70c846cf0a576c210/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Eva & Adam\",\"Detektiv\",\"Dve\\u0159e\",\"Pou\\u0165\",\"Eva & Adam (Instrumental)\",\"Detektiv (Instrumental)\",\"Dve\\u0159e (Instrumental)\",\"Pou\\u0165 (Instrumental)\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "alba/o-rakvich-a-lidech.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/o-rakvich-a-lidech.mdx",
+    "sourceFileName": "o-rakvich-a-lidech.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/o-rakvich-a-lidech"
+  },
+  "type": "Album",
+  "url": "/alba/o-rakvich-a-lidech",
+  "canonicalUrl": "https://4rap.cz/alba/o-rakvich-a-lidech"
+}

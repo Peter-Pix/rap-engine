@@ -1,0 +1,39 @@
+{
+  "title": "Livin",
+  "slug": "livin-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "dj-wich",
+    "rest"
+  ],
+  "featuresNames": [
+    "DJ Wich",
+    "Rest"
+  ],
+  "album": "Mezi prsty",
+  "albumSlug": "mezi-prsty",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Livin — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(s=m(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(x(e)):{},o(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>o(i({},\"__esModule\",{value:!0}),e);var c=f((D,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>y});var r=b(c()),y={title:\"Livin\",slug:\"livin-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"rest\"],featuresNames:[\"DJ Wich\",\"Rest\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"3:20\",trackNumber:2,producers:[],producersNames:[],description:\"Livin \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/livin-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/livin-paulie-garand.mdx",
+    "sourceFileName": "livin-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/livin-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/livin-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/livin-paulie-garand"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Fuck You",
+  "slug": "fuck-you",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2021,
+  "genre": [],
+  "description": "Fuck You — singl od DJ Fatte (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/d2686b7a7c4a00fcb508181ce07e2b1d/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Fuck You"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var c in t)o(e,c,{get:t[c],enumerable:!0})},s=(e,t,c,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==c&&o(e,r,{get:()=>t[r],enumerable:!(a=m(t,r))||a.enumerable});return e};var j=(e,t,c)=>(c=e!=null?p(g(e)):{},s(t||!e||!e.__esModule?o(c,\"default\",{value:e,enumerable:!0}):c,e)),F=e=>s(o({},\"__esModule\",{value:!0}),e);var i=b((M,u)=>{u.exports=_jsx_runtime});var k={};f(k,{default:()=>l,frontmatter:()=>_});var n=j(i()),_={title:\"Fuck You\",slug:\"fuck-you\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2021,genre:[],description:\"Fuck You \\u2014 singl od DJ Fatte (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/d2686b7a7c4a00fcb508181ce07e2b1d/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Fuck You\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return F(k);})();\n;return Component;"
+  },
+  "_id": "alba/fuck-you.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/fuck-you.mdx",
+    "sourceFileName": "fuck-you.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/fuck-you"
+  },
+  "type": "Album",
+  "url": "/alba/fuck-you",
+  "canonicalUrl": "https://4rap.cz/alba/fuck-you"
+}

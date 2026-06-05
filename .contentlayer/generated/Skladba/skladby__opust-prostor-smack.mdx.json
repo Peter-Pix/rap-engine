@@ -1,0 +1,33 @@
+{
+  "title": "Opust Prostor",
+  "slug": "opust-prostor-smack",
+  "rapper": "Smack",
+  "rapperSlug": "smack",
+  "features": [],
+  "featuresNames": [],
+  "album": "2051",
+  "albumSlug": "2051",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:52",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Opust Prostor — skladba od Smack.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},u=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!f.call(t,s)&&s!==n&&o(t,s,{get:()=>e[s],enumerable:!(a=l(e,s))||a.enumerable});return t};var g=(t,e,n)=>(n=t!=null?i(h(t)):{},u(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),k=t=>u(o({},\"__esModule\",{value:!0}),t);var m=_((N,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>j});var r=g(m()),j={title:\"Opust Prostor\",slug:\"opust-prostor-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[],duration:\"3:52\",trackNumber:4,producers:[],producersNames:[],description:\"Opust Prostor \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function p(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/opust-prostor-smack.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/opust-prostor-smack.mdx",
+    "sourceFileName": "opust-prostor-smack.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/opust-prostor-smack"
+  },
+  "type": "Skladba",
+  "url": "/skladby/opust-prostor-smack",
+  "canonicalUrl": "https://4rap.cz/skladby/opust-prostor-smack"
+}

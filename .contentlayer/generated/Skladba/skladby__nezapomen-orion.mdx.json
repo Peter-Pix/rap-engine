@@ -1,0 +1,39 @@
+{
+  "title": "Nezapomeň",
+  "slug": "nezapomen-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "la4",
+    "wwo"
+  ],
+  "featuresNames": [
+    "LA4",
+    "WWO"
+  ],
+  "album": "Teritorium Remixy",
+  "albumSlug": "teritorium-remixy",
+  "year": 2007,
+  "genre": [],
+  "duration": "4:27",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nezapomeň — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},m=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(i=d(r,o))||i.enumerable});return e};var g=(e,r,n)=>(n=e!=null?l(h(e)):{},m(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(a({},\"__esModule\",{value:!0}),e);var u=_((z,s)=>{s.exports=_jsx_runtime});var y={};b(y,{default:()=>p,frontmatter:()=>N});var t=g(u()),N={title:\"Nezapome\\u0148\",slug:\"nezapomen-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"la4\",\"wwo\"],featuresNames:[\"LA4\",\"WWO\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"4:27\",trackNumber:13,producers:[],producersNames:[],description:\"Nezapome\\u0148 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/nezapomen-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nezapomen-orion.mdx",
+    "sourceFileName": "nezapomen-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nezapomen-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nezapomen-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/nezapomen-orion"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Kick Up The Beat",
+  "slug": "kick-up-the-beat",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "Kick Up The Beat — singl od DJ Fatte (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/bbf2c5e542c7d9de274aaf07373af423/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Kick Up The Beat"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var c=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)c(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!x.call(e,r)&&r!==a&&c(e,r,{get:()=>t[r],enumerable:!(i=m(t,r))||i.enumerable});return e};var j=(e,t,a)=>(a=e!=null?h(g(e)):{},s(t||!e||!e.__esModule?c(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(c({},\"__esModule\",{value:!0}),e);var p=f((M,o)=>{o.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>k});var n=j(p()),k={title:\"Kick Up The Beat\",slug:\"kick-up-the-beat\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Kick Up The Beat \\u2014 singl od DJ Fatte (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/bbf2c5e542c7d9de274aaf07373af423/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Kick Up The Beat\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(D);})();\n;return Component;"
+  },
+  "_id": "alba/kick-up-the-beat.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/kick-up-the-beat.mdx",
+    "sourceFileName": "kick-up-the-beat.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/kick-up-the-beat"
+  },
+  "type": "Album",
+  "url": "/alba/kick-up-the-beat",
+  "canonicalUrl": "https://4rap.cz/alba/kick-up-the-beat"
+}

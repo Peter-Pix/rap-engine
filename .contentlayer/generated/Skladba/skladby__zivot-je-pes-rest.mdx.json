@@ -1,0 +1,37 @@
+{
+  "title": "Život je pes",
+  "slug": "zivot-je-pes-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "3:51",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Život je pes — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!j.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(h(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var m=f((M,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>c,frontmatter:()=>v});var r=b(m()),v={title:\"\\u017Divot je pes\",slug:\"zivot-je-pes-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"3:51\",trackNumber:11,producers:[],producersNames:[],description:\"\\u017Divot je pes \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/zivot-je-pes-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/zivot-je-pes-rest.mdx",
+    "sourceFileName": "zivot-je-pes-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/zivot-je-pes-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/zivot-je-pes-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/zivot-je-pes-rest"
+}

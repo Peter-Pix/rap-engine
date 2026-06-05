@@ -1,0 +1,37 @@
+{
+  "title": "Halo?",
+  "slug": "halo-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "karlo"
+  ],
+  "featuresNames": [
+    "Karlo"
+  ],
+  "album": "Sbohem Roxano",
+  "albumSlug": "sbohem-roxano",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:30",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Halo? — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)r(e,t,{get:n[t],enumerable:!0})},m=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!b.call(e,a)&&a!==t&&r(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,t)=>(t=e!=null?c(x(e)):{},m(n||!e||!e.__esModule?r(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>m(r({},\"__esModule\",{value:!0}),e);var u=f((k,l)=>{l.exports=_jsx_runtime});var z={};_(z,{default:()=>i,frontmatter:()=>y});var o=g(u()),y={title:\"Halo?\",slug:\"halo-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"Sbohem Roxano\",albumSlug:\"sbohem-roxano\",year:2020,genre:[],duration:\"3:30\",trackNumber:13,producers:[],producersNames:[],description:\"Halo? \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(d,{...e})}):d(e)}return j(z);})();\n;return Component;"
+  },
+  "_id": "skladby/halo-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/halo-yzomandias.mdx",
+    "sourceFileName": "halo-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/halo-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/halo-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/halo-yzomandias"
+}

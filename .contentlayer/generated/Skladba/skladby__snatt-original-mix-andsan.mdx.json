@@ -1,0 +1,41 @@
+{
+  "title": "Snatt (Original Mix)",
+  "slug": "snatt-original-mix-andsan",
+  "rapper": "Andsan",
+  "rapperSlug": "andsan",
+  "features": [
+    "the-boombox",
+    "tolstoi",
+    "tolstoi-andsan-the-boombox"
+  ],
+  "featuresNames": [
+    "The Boombox",
+    "Tolstoi",
+    "Tolstoi, Andsan, The Boombox"
+  ],
+  "album": "Young Guns 01.",
+  "albumSlug": "young-guns-01",
+  "year": 2018,
+  "genre": [],
+  "duration": "7:05",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Snatt (Original Mix) — skladba od Andsan.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),f=(n,t)=>{for(var o in t)r(n,o,{get:t[o],enumerable:!0})},i=(n,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!b.call(n,a)&&a!==o&&r(n,a,{get:()=>t[a],enumerable:!(s=x(t,a))||s.enumerable});return n};var _=(n,t,o)=>(o=n!=null?c(h(n)):{},i(t||!n||!n.__esModule?r(o,\"default\",{value:n,enumerable:!0}):o,n)),j=n=>i(r({},\"__esModule\",{value:!0}),n);var l=g((T,u)=>{u.exports=_jsx_runtime});var S={};f(S,{default:()=>d,frontmatter:()=>M});var e=_(l()),M={title:\"Snatt (Original Mix)\",slug:\"snatt-original-mix-andsan\",rapper:\"Andsan\",rapperSlug:\"andsan\",features:[\"the-boombox\",\"tolstoi\",\"tolstoi-andsan-the-boombox\"],featuresNames:[\"The Boombox\",\"Tolstoi\",\"Tolstoi, Andsan, The Boombox\"],album:\"Young Guns 01.\",albumSlug:\"young-guns-01\",year:2018,genre:[],duration:\"7:05\",trackNumber:1,producers:[],producersNames:[],description:\"Snatt (Original Mix) \\u2014 skladba od Andsan.\",publishedAt:\"2026-06-04\"};function m(n){let t={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,e.jsx)(t.p,{children:(0,e.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/snatt-original-mix-andsan.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/snatt-original-mix-andsan.mdx",
+    "sourceFileName": "snatt-original-mix-andsan.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/snatt-original-mix-andsan"
+  },
+  "type": "Skladba",
+  "url": "/skladby/snatt-original-mix-andsan",
+  "canonicalUrl": "https://4rap.cz/skladby/snatt-original-mix-andsan"
+}

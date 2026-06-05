@@ -1,0 +1,23 @@
+{
+  "title": "The Mag",
+  "slug": "the-mag",
+  "genre": [],
+  "description": "The Mag — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of u(t))!g.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(c=d(t,o))||c.enumerable});return e};var j=(e,t,r)=>(r=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var m=_((y,a)=>{a.exports=_jsx_runtime});var k={};f(k,{default:()=>l,frontmatter:()=>b});var n=j(m()),b={title:\"The Mag\",slug:\"the-mag\",genre:[],description:\"The Mag \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function h(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(h,{...e})}):h(e)}return M(k);})();\n;return Component;"
+  },
+  "_id": "raperi/the-mag.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/the-mag.mdx",
+    "sourceFileName": "the-mag.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/the-mag"
+  },
+  "type": "Rapper",
+  "url": "/raperi/the-mag",
+  "canonicalUrl": "https://4rap.cz/raperi/the-mag"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Mindrák",
+  "slug": "mindrak-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "tlustej-karl"
+  ],
+  "featuresNames": [
+    "Tlustej Kárl"
+  ],
+  "album": "Mindrák (feat. Tlustej Kárl)",
+  "albumSlug": "mindrak-feat-tlustej-karl",
+  "year": 2013,
+  "genre": [],
+  "duration": "2:47",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Mindrák — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),k=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},u=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!x.call(t,a)&&a!==n&&s(t,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return t};var _=(t,e,n)=>(n=t!=null?c(j(t)):{},u(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>u(s({},\"__esModule\",{value:!0}),t);var d=h((F,l)=>{l.exports=_jsx_runtime});var M={};k(M,{default:()=>m,frontmatter:()=>g});var r=_(d()),g={title:\"Mindr\\xE1k\",slug:\"mindrak-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"tlustej-karl\"],featuresNames:[\"Tlustej K\\xE1rl\"],album:\"Mindr\\xE1k (feat. Tlustej K\\xE1rl)\",albumSlug:\"mindrak-feat-tlustej-karl\",year:2013,genre:[],duration:\"2:47\",trackNumber:1,producers:[],producersNames:[],description:\"Mindr\\xE1k \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return b(M);})();\n;return Component;"
+  },
+  "_id": "skladby/mindrak-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/mindrak-dj-fatte.mdx",
+    "sourceFileName": "mindrak-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/mindrak-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/mindrak-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/mindrak-dj-fatte"
+}

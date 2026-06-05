@@ -1,0 +1,23 @@
+{
+  "title": "Rollsout",
+  "slug": "rollsout",
+  "genre": [],
+  "description": "Rollsout — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},c=(t,e,o,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!_.call(t,r)&&r!==o&&s(t,r,{get:()=>e[r],enumerable:!(l=d(e,r))||l.enumerable});return t};var g=(t,e,o)=>(o=t!=null?p(x(t)):{},c(e||!t||!t.__esModule?s(o,\"default\",{value:t,enumerable:!0}):o,t)),M=t=>c(s({},\"__esModule\",{value:!0}),t);var u=f((y,i)=>{i.exports=_jsx_runtime});var k={};j(k,{default:()=>a,frontmatter:()=>b});var n=g(u()),b={title:\"Rollsout\",slug:\"rollsout\",genre:[],description:\"Rollsout \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function a(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return M(k);})();\n;return Component;"
+  },
+  "_id": "raperi/rollsout.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/rollsout.mdx",
+    "sourceFileName": "rollsout.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/rollsout"
+  },
+  "type": "Rapper",
+  "url": "/raperi/rollsout",
+  "canonicalUrl": "https://4rap.cz/raperi/rollsout"
+}

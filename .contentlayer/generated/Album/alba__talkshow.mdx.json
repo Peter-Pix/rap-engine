@@ -1,0 +1,32 @@
+{
+  "title": "Talkshow",
+  "slug": "talkshow",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "label": "WM Czech Republic",
+  "year": 2021,
+  "genre": [],
+  "description": "Talkshow — singl od Idea (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/19b736fb1be3fdb8e36984a6ba4672eb/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Talkshow (feat. TrashBoySony, Prezident Lourajder, Supa, Jozef Rezník)",
+    "Ha!"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!g.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=m(t,r))||s.enumerable});return e};var j=(e,t,a)=>(a=e!=null?h(b(e)):{},i(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var l=x((y,c)=>{c.exports=_jsx_runtime});var w={};f(w,{default:()=>p,frontmatter:()=>k});var n=j(l()),k={title:\"Talkshow\",slug:\"talkshow\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2021,genre:[],description:\"Talkshow \\u2014 singl od Idea (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/19b736fb1be3fdb8e36984a6ba4672eb/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Talkshow (feat. TrashBoySony, Prezident Lourajder, Supa, Jozef Rezn\\xEDk)\",\"Ha!\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(w);})();\n;return Component;"
+  },
+  "_id": "alba/talkshow.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/talkshow.mdx",
+    "sourceFileName": "talkshow.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/talkshow"
+  },
+  "type": "Album",
+  "url": "/alba/talkshow",
+  "canonicalUrl": "https://4rap.cz/alba/talkshow"
+}

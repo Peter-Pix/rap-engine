@@ -1,0 +1,37 @@
+{
+  "title": "BeastMode",
+  "slug": "beastmode-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "indigo-cloud"
+  ],
+  "featuresNames": [
+    "Indigo Cloud"
+  ],
+  "album": "BeastMode",
+  "albumSlug": "beastmode",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:37",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "BeastMode — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},d=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!b.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var f=(e,t,a)=>(a=e!=null?l(h(e)):{},d(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>d(o({},\"__esModule\",{value:!0}),e);var u=g((C,i)=>{i.exports=_jsx_runtime});var j={};M(j,{default:()=>c,frontmatter:()=>k});var n=f(u()),k={title:\"BeastMode\",slug:\"beastmode-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"indigo-cloud\"],featuresNames:[\"Indigo Cloud\"],album:\"BeastMode\",albumSlug:\"beastmode\",year:2026,genre:[],duration:\"3:37\",trackNumber:1,producers:[],producersNames:[],description:\"BeastMode \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/beastmode-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/beastmode-maniak.mdx",
+    "sourceFileName": "beastmode-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/beastmode-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/beastmode-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/beastmode-maniak"
+}

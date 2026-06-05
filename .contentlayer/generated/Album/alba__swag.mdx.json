@@ -1,0 +1,42 @@
+{
+  "title": "SWAG",
+  "slug": "swag",
+  "rapper": "Calin",
+  "rapperSlug": "calin",
+  "label": "MIKYMUSIC",
+  "labelSlug": "mikymusic",
+  "year": 2020,
+  "genre": [
+    "trap",
+    "melodic-trap"
+  ],
+  "description": "Ranější Calinův projekt kombinující flex culture, melodickej rap a internetovou estetiku.",
+  "image": "/images/alba/swag.jpg",
+  "featured": false,
+  "tracklist": [
+    "Swag",
+    "Flexin",
+    "Love Song",
+    "Mladý Rockstar",
+    "Drama",
+    "No Sleep"
+  ],
+  "rating": 8.1,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nSWAG zachycuje období, kdy Calin hledal vlastní styl mezi trapem a popem.\n\n## Zvuk\n\nJednoduchý melodie, autotune a moderní trapový drums.\n\n## Dopad\n\nProjekt pomohl vybudovat Calinovu mladou fanbase.",
+    "code": "var Component=(()=>{var u=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),y=(a,e)=>{for(var n in e)l(a,n,{get:e[n],enumerable:!0})},o=(a,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!j.call(a,r)&&r!==n&&l(a,r,{get:()=>e[r],enumerable:!(i=m(e,r))||i.enumerable});return a};var x=(a,e,n)=>(n=a!=null?u(g(a)):{},o(e||!a||!a.__esModule?l(n,\"default\",{value:a,enumerable:!0}):n,a)),b=a=>o(l({},\"__esModule\",{value:!0}),a);var c=k((C,p)=>{p.exports=_jsx_runtime});var f={};y(f,{default:()=>d,frontmatter:()=>v});var t=x(c()),v={title:\"SWAG\",slug:\"swag\",rapper:\"Calin\",rapperSlug:\"calin\",label:\"MIKYMUSIC\",labelSlug:\"mikymusic\",year:2020,genre:[\"trap\",\"melodic-trap\"],description:\"Ran\\u011Bj\\u0161\\xED Calin\\u016Fv projekt kombinuj\\xEDc\\xED flex culture, melodickej rap a internetovou estetiku.\",image:\"/images/alba/swag.jpg\",tracklist:[\"Swag\",\"Flexin\",\"Love Song\",\"Mlad\\xFD Rockstar\",\"Drama\",\"No Sleep\"],rating:8.1,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function s(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.p,{children:[\"SWAG zachycuje obdob\\xED, kdy \",(0,t.jsx)(e.a,{href:\"/raperi/calin\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"calin\",children:\"Calin\"}),\" hledal vlastn\\xED styl mezi trapem a popem.\"]}),`\n`,(0,t.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,t.jsx)(e.p,{children:\"Jednoduch\\xFD melodie, autotune a modern\\xED trapov\\xFD drums.\"}),`\n`,(0,t.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,t.jsx)(e.p,{children:\"Projekt pomohl vybudovat Calinovu mladou fanbase.\"})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(s,{...a})}):s(a)}return b(f);})();\n;return Component;"
+  },
+  "_id": "alba/swag.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/swag.mdx",
+    "sourceFileName": "swag.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/swag"
+  },
+  "type": "Album",
+  "url": "/alba/swag",
+  "canonicalUrl": "https://4rap.cz/alba/swag"
+}

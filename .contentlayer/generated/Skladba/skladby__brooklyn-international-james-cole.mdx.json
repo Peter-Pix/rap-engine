@@ -1,0 +1,33 @@
+{
+  "title": "Brooklyn International",
+  "slug": "brooklyn-international-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Brooklyn International",
+  "albumSlug": "brooklyn-international",
+  "year": 2018,
+  "genre": [],
+  "duration": "7:10",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Brooklyn International — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(l=p(n,o))||l.enumerable});return e};var k=(e,n,r)=>(r=e!=null?d(h(e)):{},s(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>s(a({},\"__esModule\",{value:!0}),e);var m=f((B,i)=>{i.exports=_jsx_runtime});var g={};j(g,{default:()=>u,frontmatter:()=>_});var t=k(m()),_={title:\"Brooklyn International\",slug:\"brooklyn-international-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Brooklyn International\",albumSlug:\"brooklyn-international\",year:2018,genre:[],duration:\"7:10\",trackNumber:1,producers:[],producersNames:[],description:\"Brooklyn International \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return y(g);})();\n;return Component;"
+  },
+  "_id": "skladby/brooklyn-international-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/brooklyn-international-james-cole.mdx",
+    "sourceFileName": "brooklyn-international-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/brooklyn-international-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/brooklyn-international-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/brooklyn-international-james-cole"
+}

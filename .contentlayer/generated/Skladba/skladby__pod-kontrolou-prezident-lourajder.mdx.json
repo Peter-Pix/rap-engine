@@ -1,0 +1,39 @@
+{
+  "title": "Pod Kontrolou",
+  "slug": "pod-kontrolou-prezident-lourajder",
+  "rapper": "Prezident Lourajder",
+  "rapperSlug": "prezident-lourajder",
+  "features": [
+    "idea",
+    "martin-matys"
+  ],
+  "featuresNames": [
+    "Idea",
+    "Martin Matys"
+  ],
+  "album": "Dropbox",
+  "albumSlug": "dropbox",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:40",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pod Kontrolou — skladba od Prezident Lourajder.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},u=(e,r,o,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!j.call(e,n)&&n!==o&&a(e,n,{get:()=>r[n],enumerable:!(d=c(r,n))||d.enumerable});return e};var _=(e,r,o)=>(o=e!=null?m(h(e)):{},u(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var i=b((P,s)=>{s.exports=_jsx_runtime});var y={};f(y,{default:()=>p,frontmatter:()=>M});var t=_(i()),M={title:\"Pod Kontrolou\",slug:\"pod-kontrolou-prezident-lourajder\",rapper:\"Prezident Lourajder\",rapperSlug:\"prezident-lourajder\",features:[\"idea\",\"martin-matys\"],featuresNames:[\"Idea\",\"Martin Matys\"],album:\"Dropbox\",albumSlug:\"dropbox\",year:2018,genre:[],duration:\"3:40\",trackNumber:4,producers:[],producersNames:[],description:\"Pod Kontrolou \\u2014 skladba od Prezident Lourajder.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/pod-kontrolou-prezident-lourajder.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pod-kontrolou-prezident-lourajder.mdx",
+    "sourceFileName": "pod-kontrolou-prezident-lourajder.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pod-kontrolou-prezident-lourajder"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pod-kontrolou-prezident-lourajder",
+  "canonicalUrl": "https://4rap.cz/skladby/pod-kontrolou-prezident-lourajder"
+}

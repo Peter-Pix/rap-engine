@@ -1,0 +1,41 @@
+{
+  "title": "To Nejsem Já",
+  "slug": "to-nejsem-ja-if",
+  "rapper": "IF",
+  "rapperSlug": "if",
+  "features": [
+    "idea",
+    "dj-fatte",
+    "dj-aka"
+  ],
+  "featuresNames": [
+    "Idea",
+    "DJ Fatte",
+    "DJ AKA"
+  ],
+  "album": "Rap",
+  "albumSlug": "rap",
+  "year": 2015,
+  "genre": [],
+  "duration": "3:23",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "To Nejsem Já — skladba od IF.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of j(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(f(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var d=h((J,u)=>{u.exports=_jsx_runtime});var N={};_(N,{default:()=>i,frontmatter:()=>F});var r=b(d()),F={title:\"To Nejsem J\\xE1\",slug:\"to-nejsem-ja-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"dj-aka\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"DJ AKA\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[],duration:\"3:23\",trackNumber:2,producers:[],producersNames:[],description:\"To Nejsem J\\xE1 \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/to-nejsem-ja-if.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/to-nejsem-ja-if.mdx",
+    "sourceFileName": "to-nejsem-ja-if.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/to-nejsem-ja-if"
+  },
+  "type": "Skladba",
+  "url": "/skladby/to-nejsem-ja-if",
+  "canonicalUrl": "https://4rap.cz/skladby/to-nejsem-ja-if"
+}

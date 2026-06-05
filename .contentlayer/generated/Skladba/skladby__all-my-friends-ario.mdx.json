@@ -1,0 +1,33 @@
+{
+  "title": "All My Friends",
+  "slug": "all-my-friends-ario",
+  "rapper": "EMABEAT",
+  "rapperSlug": "ario",
+  "features": [],
+  "featuresNames": [],
+  "album": "Young Guns 03.",
+  "albumSlug": "young-guns-03",
+  "year": 2019,
+  "genre": [],
+  "duration": "6:22",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "All My Friends — skladba od EMABEAT.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),A=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of x(n))!h.call(e,s)&&s!==t&&o(e,s,{get:()=>n[s],enumerable:!(a=p(n,s))||a.enumerable});return e};var M=(e,n,t)=>(t=e!=null?m(g(e)):{},u(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((E,l)=>{l.exports=_jsx_runtime});var y={};A(y,{default:()=>d,frontmatter:()=>b});var r=M(i()),b={title:\"All My Friends\",slug:\"all-my-friends-ario\",rapper:\"EMABEAT\",rapperSlug:\"ario\",features:[],featuresNames:[],album:\"Young Guns 03.\",albumSlug:\"young-guns-03\",year:2019,genre:[],duration:\"6:22\",trackNumber:4,producers:[],producersNames:[],description:\"All My Friends \\u2014 skladba od EMABEAT.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "skladby/all-my-friends-ario.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/all-my-friends-ario.mdx",
+    "sourceFileName": "all-my-friends-ario.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/all-my-friends-ario"
+  },
+  "type": "Skladba",
+  "url": "/skladby/all-my-friends-ario",
+  "canonicalUrl": "https://4rap.cz/skladby/all-my-friends-ario"
+}

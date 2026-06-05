@@ -1,0 +1,42 @@
+{
+  "title": "Original",
+  "slug": "original",
+  "rapper": "Ektor",
+  "rapperSlug": "ektor",
+  "label": "Detektor Records",
+  "labelSlug": "detektor-records",
+  "year": 2020,
+  "genre": [
+    "trap",
+    "mainstream rap"
+  ],
+  "description": "Sebevědomý mainstream rap album postavený na tématu autenticity, úspěchu a dominance.",
+  "image": "/images/alba/original.jpg",
+  "featured": false,
+  "tracklist": [
+    "Hranice",
+    "Do Pěti",
+    "Teď Tady",
+    "Original",
+    "Emoce Na Emoce",
+    "Další Kámen"
+  ],
+  "rating": 8.8,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nOriginal je Ektor ve fázi absolutního mainstream dominance.\n\n## Zvuk\n\nModerní trapový beaty, velkej důraz na energii a stadionový refrény.\n\n## Dopad\n\nAlbum se dostalo na vrchol českých albových žebříčků a upevnilo Ektorovu mainstream pozici.",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),v=(a,e)=>{for(var n in e)i(a,n,{get:e[n],enumerable:!0})},l=(a,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!k.call(a,r)&&r!==n&&i(a,r,{get:()=>e[r],enumerable:!(o=u(e,r))||o.enumerable});return a};var y=(a,e,n)=>(n=a!=null?d(g(a)):{},l(e||!a||!a.__esModule?i(n,\"default\",{value:a,enumerable:!0}):n,a)),x=a=>l(i({},\"__esModule\",{value:!0}),a);var c=b((D,s)=>{s.exports=_jsx_runtime});var j={};v(j,{default:()=>m,frontmatter:()=>f});var t=y(c()),f={title:\"Original\",slug:\"original\",rapper:\"Ektor\",rapperSlug:\"ektor\",label:\"Detektor Records\",labelSlug:\"detektor-records\",year:2020,genre:[\"trap\",\"mainstream rap\"],description:\"Sebev\\u011Bdom\\xFD mainstream rap album postaven\\xFD na t\\xE9matu autenticity, \\xFAsp\\u011Bchu a dominance.\",image:\"/images/alba/original.jpg\",tracklist:[\"Hranice\",\"Do P\\u011Bti\",\"Te\\u010F Tady\",\"Original\",\"Emoce Na Emoce\",\"Dal\\u0161\\xED K\\xE1men\"],rating:8.8,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function p(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.p,{children:[\"Original je \",(0,t.jsx)(e.a,{href:\"/raperi/ektor\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"ektor\",children:\"Ektor\"}),\" ve f\\xE1zi absolutn\\xEDho mainstream dominance.\"]}),`\n`,(0,t.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,t.jsx)(e.p,{children:\"Modern\\xED trapov\\xFD beaty, velkej d\\u016Fraz na energii a stadionov\\xFD refr\\xE9ny.\"}),`\n`,(0,t.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,t.jsx)(e.p,{children:\"Album se dostalo na vrchol \\u010Desk\\xFDch albov\\xFDch \\u017Eeb\\u0159\\xED\\u010Dk\\u016F a upevnilo Ektorovu mainstream pozici.\"})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(p,{...a})}):p(a)}return x(j);})();\n;return Component;"
+  },
+  "_id": "alba/original.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/original.mdx",
+    "sourceFileName": "original.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/original"
+  },
+  "type": "Album",
+  "url": "/alba/original",
+  "canonicalUrl": "https://4rap.cz/alba/original"
+}

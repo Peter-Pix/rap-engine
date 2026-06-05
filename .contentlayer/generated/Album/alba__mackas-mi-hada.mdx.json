@@ -1,0 +1,31 @@
+{
+  "title": "Mačkáš mi hada",
+  "slug": "mackas-mi-hada",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "WM Czech Republic",
+  "year": 2017,
+  "genre": [],
+  "description": "Mačkáš mi hada — singl od Maniak (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/324baa00944cd67b30300fd4c47e1124/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Mačkáš mi hada"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),k=(e,a)=>{for(var t in a)i(e,t,{get:a[t],enumerable:!0})},s=(e,a,t,c)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of u(a))!x.call(e,r)&&r!==t&&i(e,r,{get:()=>a[r],enumerable:!(c=h(a,r))||c.enumerable});return e};var b=(e,a,t)=>(t=e!=null?p(g(e)):{},s(a||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var o=M((y,m)=>{m.exports=_jsx_runtime});var j={};k(j,{default:()=>l,frontmatter:()=>f});var n=b(o()),f={title:\"Ma\\u010Dk\\xE1\\u0161 mi hada\",slug:\"mackas-mi-hada\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"WM Czech Republic\",year:2017,genre:[],description:\"Ma\\u010Dk\\xE1\\u0161 mi hada \\u2014 singl od Maniak (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/324baa00944cd67b30300fd4c47e1124/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Ma\\u010Dk\\xE1\\u0161 mi hada\"],publishedAt:\"2026-06-04\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "alba/mackas-mi-hada.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/mackas-mi-hada.mdx",
+    "sourceFileName": "mackas-mi-hada.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/mackas-mi-hada"
+  },
+  "type": "Album",
+  "url": "/alba/mackas-mi-hada",
+  "canonicalUrl": "https://4rap.cz/alba/mackas-mi-hada"
+}

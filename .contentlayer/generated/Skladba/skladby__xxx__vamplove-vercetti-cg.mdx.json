@@ -1,0 +1,37 @@
+{
+  "title": "vamplove",
+  "slug": "vamplove-vercetti-cg",
+  "rapper": "Vercetti CG",
+  "rapperSlug": "vercetti-cg",
+  "features": [
+    "bipolar-toler"
+  ],
+  "featuresNames": [
+    "Bipolar Toler"
+  ],
+  "album": "Vamp love story",
+  "albumSlug": "vamp-love-story",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:59",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "vamplove — skladba od Vercetti CG.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var v=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},c=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of v(t))!h.call(e,n)&&n!==o&&a(e,n,{get:()=>t[n],enumerable:!(s=d(t,n))||s.enumerable});return e};var f=(e,t,o)=>(o=e!=null?u(x(e)):{},c(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>c(a({},\"__esModule\",{value:!0}),e);var m=g((M,l)=>{l.exports=_jsx_runtime});var y={};b(y,{default:()=>i,frontmatter:()=>j});var r=f(m()),j={title:\"vamplove\",slug:\"vamplove-vercetti-cg\",rapper:\"Vercetti CG\",rapperSlug:\"vercetti-cg\",features:[\"bipolar-toler\"],featuresNames:[\"Bipolar Toler\"],album:\"Vamp love story\",albumSlug:\"vamp-love-story\",year:2025,genre:[],duration:\"2:59\",trackNumber:2,producers:[],producersNames:[],description:\"vamplove \\u2014 skladba od Vercetti CG.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/vamplove-vercetti-cg.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/vamplove-vercetti-cg.mdx",
+    "sourceFileName": "vamplove-vercetti-cg.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/vamplove-vercetti-cg"
+  },
+  "type": "Skladba",
+  "url": "/skladby/vamplove-vercetti-cg",
+  "canonicalUrl": "https://4rap.cz/skladby/vamplove-vercetti-cg"
+}

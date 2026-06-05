@@ -1,0 +1,33 @@
+{
+  "title": "Fast Car",
+  "slug": "fast-car-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Fast Car",
+  "albumSlug": "fast-car",
+  "year": 2026,
+  "genre": [],
+  "duration": "2:57",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Fast Car — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),C=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!h.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?i(f(e)):{},c(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>c(s({},\"__esModule\",{value:!0}),e);var u=j((N,m)=>{m.exports=_jsx_runtime});var F={};C(F,{default:()=>d,frontmatter:()=>g});var r=_(u()),g={title:\"Fast Car\",slug:\"fast-car-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Fast Car\",albumSlug:\"fast-car\",year:2026,genre:[],duration:\"2:57\",trackNumber:1,producers:[],producersNames:[],description:\"Fast Car \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(F);})();\n;return Component;"
+  },
+  "_id": "skladby/fast-car-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/fast-car-james-cole.mdx",
+    "sourceFileName": "fast-car-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/fast-car-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/fast-car-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/fast-car-james-cole"
+}

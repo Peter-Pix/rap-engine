@@ -1,0 +1,37 @@
+{
+  "title": "Ona",
+  "slug": "ona-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "karol"
+  ],
+  "featuresNames": [
+    "Karol"
+  ],
+  "album": "V hlavní roli",
+  "albumSlug": "v-hlavni-roli",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:27",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ona — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!g.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(l=p(n,t))||l.enumerable});return e};var b=(e,n,a)=>(a=e!=null?m(x(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((N,u)=>{u.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>k});var r=b(i()),k={title:\"Ona\",slug:\"ona-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"karol\"],featuresNames:[\"Karol\"],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:27\",trackNumber:13,producers:[],producersNames:[],description:\"Ona \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/ona-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ona-paulie-garand.mdx",
+    "sourceFileName": "ona-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ona-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ona-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/ona-paulie-garand"
+}

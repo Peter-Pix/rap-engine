@@ -1,0 +1,37 @@
+{
+  "title": "Kryl mi záda Karel",
+  "slug": "kryl-mi-zada-karel-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "regie-257"
+  ],
+  "featuresNames": [
+    "Regie 257"
+  ],
+  "album": "Aura",
+  "albumSlug": "aura",
+  "year": 2022,
+  "genre": [],
+  "duration": "5:07",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kryl mi záda Karel — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!h.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?c(f(e)):{},u(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var d=g((D,l)=>{l.exports=_jsx_runtime});var K={};j(K,{default:()=>m,frontmatter:()=>y});var r=_(d()),y={title:\"Kryl mi z\\xE1da Karel\",slug:\"kryl-mi-zada-karel-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"5:07\",trackNumber:17,producers:[],producersNames:[],description:\"Kryl mi z\\xE1da Karel \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(K);})();\n;return Component;"
+  },
+  "_id": "skladby/kryl-mi-zada-karel-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kryl-mi-zada-karel-dj-fatte.mdx",
+    "sourceFileName": "kryl-mi-zada-karel-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kryl-mi-zada-karel-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kryl-mi-zada-karel-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/kryl-mi-zada-karel-dj-fatte"
+}

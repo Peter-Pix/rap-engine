@@ -1,0 +1,41 @@
+{
+  "title": "Mozoly",
+  "slug": "mozoly",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2006,
+  "genre": [],
+  "description": "Mozoly — album od Paulie Garand (2006).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/b7ad53a27ddeef29f01df1824462dca2/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Dostih",
+    "Mozoly (feat. Roseck)",
+    "Obrazy skutečnosti č.1",
+    "Postmoderní pláč (feat. Lipo)",
+    "Loterie",
+    "Za naše hodnoty",
+    "Obchodní dům",
+    "Je na čase",
+    "Mozoly RMX (feat. Roseck)",
+    "A jsi to ty",
+    "Mezi rozpaky"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var o in t)r(e,o,{get:t[o],enumerable:!0})},i=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!y.call(e,a)&&a!==o&&r(e,a,{get:()=>t[a],enumerable:!(s=u(t,a))||s.enumerable});return e};var z=(e,t,o)=>(o=e!=null?m(f(e)):{},i(t||!e||!e.__esModule?r(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>i(r({},\"__esModule\",{value:!0}),e);var l=g((k,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>p,frontmatter:()=>b});var n=z(l()),b={title:\"Mozoly\",slug:\"mozoly\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2006,genre:[],description:\"Mozoly \\u2014 album od Paulie Garand (2006).\",image:\"https://cdn-images.dzcdn.net/images/cover/b7ad53a27ddeef29f01df1824462dca2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Dostih\",\"Mozoly (feat. Roseck)\",\"Obrazy skute\\u010Dnosti \\u010D.1\",\"Postmodern\\xED pl\\xE1\\u010D (feat. Lipo)\",\"Loterie\",\"Za na\\u0161e hodnoty\",\"Obchodn\\xED d\\u016Fm\",\"Je na \\u010Dase\",\"Mozoly RMX (feat. Roseck)\",\"A jsi to ty\",\"Mezi rozpaky\"],publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return M(j);})();\n;return Component;"
+  },
+  "_id": "alba/mozoly.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/mozoly.mdx",
+    "sourceFileName": "mozoly.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/mozoly"
+  },
+  "type": "Album",
+  "url": "/alba/mozoly",
+  "canonicalUrl": "https://4rap.cz/alba/mozoly"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Overdose",
+  "slug": "overdose-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [
+    "robis-hood",
+    "samuraj-pitr"
+  ],
+  "featuresNames": [
+    "Robis Hood",
+    "Samuraj Pítr"
+  ],
+  "album": "JUSTiCE44 (Ledová Cesta)",
+  "albumSlug": "justice44-ledova-cesta",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:44",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Overdose — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},c=(e,t,o,n)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!v.call(e,s)&&s!==o&&a(e,s,{get:()=>t[s],enumerable:!(n=l(t,s))||n.enumerable});return e};var f=(e,t,o)=>(o=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>c(a({},\"__esModule\",{value:!0}),e);var u=b((D,d)=>{d.exports=_jsx_runtime});var S={};j(S,{default:()=>p,frontmatter:()=>g});var r=f(u()),g={title:\"Overdose\",slug:\"overdose-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"robis-hood\",\"samuraj-pitr\"],featuresNames:[\"Robis Hood\",\"Samuraj P\\xEDtr\"],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[],duration:\"3:44\",trackNumber:12,producers:[],producersNames:[],description:\"Overdose \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/overdose-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/overdose-lvcas-dope.mdx",
+    "sourceFileName": "overdose-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/overdose-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/overdose-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/overdose-lvcas-dope"
+}

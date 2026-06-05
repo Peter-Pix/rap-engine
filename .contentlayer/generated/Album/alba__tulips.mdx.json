@@ -1,0 +1,31 @@
+{
+  "title": "Tulips",
+  "slug": "tulips",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "Calin",
+  "year": 2017,
+  "genre": [],
+  "description": "Tulips — singl od CÂLIN (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c908106dea844be6fa74ce9e4e765639/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Tulips"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of g(t))!x.call(e,s)&&s!==r&&i(e,s,{get:()=>t[s],enumerable:!(a=m(t,s))||a.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(h(e)):{},c(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(i({},\"__esModule\",{value:!0}),e);var o=_((T,l)=>{l.exports=_jsx_runtime});var L={};f(L,{default:()=>u,frontmatter:()=>C});var n=j(o()),C={title:\"Tulips\",slug:\"tulips\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"Calin\",year:2017,genre:[],description:\"Tulips \\u2014 singl od C\\xC2LIN (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/c908106dea844be6fa74ce9e4e765639/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Tulips\"],publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return b(L);})();\n;return Component;"
+  },
+  "_id": "alba/tulips.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/tulips.mdx",
+    "sourceFileName": "tulips.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/tulips"
+  },
+  "type": "Album",
+  "url": "/alba/tulips",
+  "canonicalUrl": "https://4rap.cz/alba/tulips"
+}

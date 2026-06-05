@@ -1,0 +1,48 @@
+{
+  "title": "Tetris",
+  "slug": "tetris",
+  "rapper": "Ektor",
+  "rapperSlug": "ektor",
+  "label": "Detektor Records",
+  "labelSlug": "detektor-records",
+  "year": 2012,
+  "genre": [
+    "hip hop",
+    "boom bap"
+  ],
+  "description": "Společný projekt Ektora a DJ Wiche. Technicky silná deska kombinující street rap a modernější produkci.",
+  "image": "/images/alba/tetris.jpg",
+  "featured": false,
+  "tracklist": [
+    "Regulérní Tetris",
+    "Je Mi To Fuk",
+    "Stop",
+    "Loket Z Vokna",
+    "Check In",
+    "Kde Si Byl",
+    "Na Nás",
+    "Number 1",
+    "Zmiz",
+    "Smůla",
+    "Loser",
+    "Rapgame"
+  ],
+  "rating": 9.1,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nTetris je jedno z nejdůležitějších rapových alb začátku 2010s v Česku.\n\n## Zvuk\n\nKombinace klasickýho DJ Wich soundu a Ektorovy agresivní energie.\n\n## Dopad\n\nLoket Z Vokna nebo Je Mi To Fuk se staly koncertní klasikou.",
+    "code": "var Component=(()=>{var k=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of u(e))!g.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(i=h(e,a))||i.enumerable});return t};var y=(t,e,n)=>(n=t!=null?k(m(t)):{},s(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),x=t=>s(o({},\"__esModule\",{value:!0}),t);var l=j((S,c)=>{c.exports=_jsx_runtime});var f={};b(f,{default:()=>d,frontmatter:()=>_});var r=y(l()),_={title:\"Tetris\",slug:\"tetris\",rapper:\"Ektor\",rapperSlug:\"ektor\",label:\"Detektor Records\",labelSlug:\"detektor-records\",year:2012,genre:[\"hip hop\",\"boom bap\"],description:\"Spole\\u010Dn\\xFD projekt Ektora a DJ Wiche. Technicky siln\\xE1 deska kombinuj\\xEDc\\xED street rap a modern\\u011Bj\\u0161\\xED produkci.\",image:\"/images/alba/tetris.jpg\",tracklist:[\"Regul\\xE9rn\\xED Tetris\",\"Je Mi To Fuk\",\"Stop\",\"Loket Z Vokna\",\"Check In\",\"Kde Si Byl\",\"Na N\\xE1s\",\"Number 1\",\"Zmiz\",\"Sm\\u016Fla\",\"Loser\",\"Rapgame\"],rating:9.1,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function p(t){let e={a:\"a\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.p,{children:\"Tetris je jedno z nejd\\u016Fle\\u017Eit\\u011Bj\\u0161\\xEDch rapov\\xFDch alb za\\u010D\\xE1tku 2010s v \\u010Cesku.\"}),`\n`,(0,r.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,r.jsxs)(e.p,{children:[\"Kombinace klasick\\xFDho \",(0,r.jsx)(e.a,{href:\"/raperi/dj-wich\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"dj-wich\",children:\"DJ Wich\"}),\" soundu a Ektorovy agresivn\\xED energie.\"]}),`\n`,(0,r.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,r.jsx)(e.p,{children:\"Loket Z Vokna nebo Je Mi To Fuk se staly koncertn\\xED klasikou.\"})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return x(f);})();\n;return Component;"
+  },
+  "_id": "alba/tetris.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/tetris.mdx",
+    "sourceFileName": "tetris.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/tetris"
+  },
+  "type": "Album",
+  "url": "/alba/tetris",
+  "canonicalUrl": "https://4rap.cz/alba/tetris"
+}

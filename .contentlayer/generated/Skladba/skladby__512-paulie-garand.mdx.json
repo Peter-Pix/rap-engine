@@ -1,0 +1,37 @@
+{
+  "title": "512",
+  "slug": "512-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "Molo II (Deluxe)",
+  "albumSlug": "molo-ii",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:49",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "512 — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var b=(e,n,t)=>(t=e!=null?m(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((D,l)=>{l.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>y});var r=b(i()),y={title:\"512\",slug:\"512-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"3:49\",trackNumber:11,producers:[],producersNames:[],description:\"512 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/512-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/512-paulie-garand.mdx",
+    "sourceFileName": "512-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/512-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/512-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/512-paulie-garand"
+}

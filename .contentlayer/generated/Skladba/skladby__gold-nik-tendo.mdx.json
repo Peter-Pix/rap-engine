@@ -1,0 +1,37 @@
+{
+  "title": "Gold",
+  "slug": "gold-nik-tendo",
+  "rapper": "Nik Tendo",
+  "rapperSlug": "nik-tendo",
+  "features": [
+    "decky"
+  ],
+  "featuresNames": [
+    "Decky"
+  ],
+  "album": "GoldKid",
+  "albumSlug": "goldkid",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:21",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Gold — skladba od Nik Tendo.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)d(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!k.call(e,o)&&o!==r&&d(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},a(t||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>a(d({},\"__esModule\",{value:!0}),e);var c=g((D,i)=>{i.exports=_jsx_runtime});var N={};f(N,{default:()=>u,frontmatter:()=>j});var n=_(c()),j={title:\"Gold\",slug:\"gold-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GoldKid\",albumSlug:\"goldkid\",year:2019,genre:[],duration:\"3:21\",trackNumber:3,producers:[],producersNames:[],description:\"Gold \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(N);})();\n;return Component;"
+  },
+  "_id": "skladby/gold-nik-tendo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/gold-nik-tendo.mdx",
+    "sourceFileName": "gold-nik-tendo.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/gold-nik-tendo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/gold-nik-tendo",
+  "canonicalUrl": "https://4rap.cz/skladby/gold-nik-tendo"
+}

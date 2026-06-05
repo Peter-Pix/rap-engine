@@ -1,0 +1,37 @@
+{
+  "title": "Prase kozu potrkalo",
+  "slug": "prase-kozu-potrkalo-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "pio-squad"
+  ],
+  "featuresNames": [
+    "Pio Squad"
+  ],
+  "album": "Soundtrack",
+  "albumSlug": "soundtrack",
+  "year": 2013,
+  "genre": [],
+  "duration": "3:16",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Prase kozu potrkalo — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)n(t,a,{get:e[a],enumerable:!0})},u=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of k(e))!f.call(t,o)&&o!==a&&n(t,o,{get:()=>e[o],enumerable:!(s=m(e,o))||s.enumerable});return t};var _=(t,e,a)=>(a=t!=null?i(x(t)):{},u(e||!t||!t.__esModule?n(a,\"default\",{value:t,enumerable:!0}):a,t)),b=t=>u(n({},\"__esModule\",{value:!0}),t);var c=h((F,d)=>{d.exports=_jsx_runtime});var S={};j(S,{default:()=>l,frontmatter:()=>g});var r=_(c()),g={title:\"Prase kozu potrkalo\",slug:\"prase-kozu-potrkalo-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"pio-squad\"],featuresNames:[\"Pio Squad\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"3:16\",trackNumber:3,producers:[],producersNames:[],description:\"Prase kozu potrkalo \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function p(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return b(S);})();\n;return Component;"
+  },
+  "_id": "skladby/prase-kozu-potrkalo-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/prase-kozu-potrkalo-dj-fatte.mdx",
+    "sourceFileName": "prase-kozu-potrkalo-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/prase-kozu-potrkalo-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/prase-kozu-potrkalo-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/prase-kozu-potrkalo-dj-fatte"
+}

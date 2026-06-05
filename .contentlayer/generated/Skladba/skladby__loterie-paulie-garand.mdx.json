@@ -1,0 +1,33 @@
+{
+  "title": "Loterie",
+  "slug": "loterie-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Mozoly",
+  "albumSlug": "mozoly",
+  "year": 2006,
+  "genre": [],
+  "duration": "3:54",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Loterie — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var b=(e,r,n)=>(n=e!=null?m(h(e)):{},u(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var l=f((N,i)=>{i.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>y});var t=b(l()),y={title:\"Loterie\",slug:\"loterie-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[],duration:\"3:54\",trackNumber:5,producers:[],producersNames:[],description:\"Loterie \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/loterie-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/loterie-paulie-garand.mdx",
+    "sourceFileName": "loterie-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/loterie-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/loterie-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/loterie-paulie-garand"
+}

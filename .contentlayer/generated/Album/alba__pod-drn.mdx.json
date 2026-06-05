@@ -1,0 +1,31 @@
+{
+  "title": "POD DRN",
+  "slug": "pod-drn",
+  "rapper": "Nik Tendo",
+  "rapperSlug": "nik-tendo",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2022,
+  "genre": [],
+  "description": "POD DRN — singl od Nik Tendo (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/41cb34843814270569434d86d8c9bd59/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "POD DRN"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),D=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of g(n))!x.call(e,i)&&i!==r&&s(e,i,{get:()=>n[i],enumerable:!(o=u(n,i))||o.enumerable});return e};var _=(e,n,r)=>(r=e!=null?m(h(e)):{},d(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(s({},\"__esModule\",{value:!0}),e);var a=b((M,c)=>{c.exports=_jsx_runtime});var N={};D(N,{default:()=>p,frontmatter:()=>f});var t=_(a()),f={title:\"POD DRN\",slug:\"pod-drn\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2022,genre:[],description:\"POD DRN \\u2014 singl od Nik Tendo (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/41cb34843814270569434d86d8c9bd59/1000x1000-000000-80-0-0.jpg\",tracklist:[\"POD DRN\"],publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "alba/pod-drn.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/pod-drn.mdx",
+    "sourceFileName": "pod-drn.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/pod-drn"
+  },
+  "type": "Album",
+  "url": "/alba/pod-drn",
+  "canonicalUrl": "https://4rap.cz/alba/pod-drn"
+}

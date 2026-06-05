@@ -1,0 +1,37 @@
+{
+  "title": "Monica",
+  "slug": "monica-acid-bass-club",
+  "rapper": "ACID BASS CLUB",
+  "rapperSlug": "acid-bass-club",
+  "features": [
+    "hugo-toxxx"
+  ],
+  "featuresNames": [
+    "Hugo Toxxx"
+  ],
+  "album": "Monica",
+  "albumSlug": "monica",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:01",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Monica — skladba od ACID BASS CLUB.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=x(t,o))||s.enumerable});return e};var S=(e,t,r)=>(r=e!=null?l(b(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>c(a({},\"__esModule\",{value:!0}),e);var i=g((A,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>C});var n=S(i()),C={title:\"Monica\",slug:\"monica-acid-bass-club\",rapper:\"ACID BASS CLUB\",rapperSlug:\"acid-bass-club\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"Monica\",albumSlug:\"monica\",year:2026,genre:[],duration:\"3:01\",trackNumber:1,producers:[],producersNames:[],description:\"Monica \\u2014 skladba od ACID BASS CLUB.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/monica-acid-bass-club.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/monica-acid-bass-club.mdx",
+    "sourceFileName": "monica-acid-bass-club.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/monica-acid-bass-club"
+  },
+  "type": "Skladba",
+  "url": "/skladby/monica-acid-bass-club",
+  "canonicalUrl": "https://4rap.cz/skladby/monica-acid-bass-club"
+}

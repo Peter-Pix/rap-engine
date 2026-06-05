@@ -1,0 +1,39 @@
+{
+  "title": "Imaginarium",
+  "slug": "imaginarium-mc-gey",
+  "rapper": "MC Gey",
+  "rapperSlug": "mc-gey",
+  "features": [
+    "dj-fatte",
+    "radimo"
+  ],
+  "featuresNames": [
+    "DJ Fatte",
+    "Radimo"
+  ],
+  "album": "Imaginarium naprosto běžných podivností",
+  "albumSlug": "imaginarium-naprosto-beznych-podivnosti",
+  "year": 2011,
+  "genre": [],
+  "duration": "4:14",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Imaginarium — skladba od MC Gey.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(i=l(t,a))||i.enumerable});return e};var y=(e,t,r)=>(r=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>m(o({},\"__esModule\",{value:!0}),e);var u=b((D,s)=>{s.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>j});var n=y(u()),j={title:\"Imaginarium\",slug:\"imaginarium-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\",\"radimo\"],featuresNames:[\"DJ Fatte\",\"Radimo\"],album:\"Imaginarium naprosto b\\u011B\\u017En\\xFDch podivnost\\xED\",albumSlug:\"imaginarium-naprosto-beznych-podivnosti\",year:2011,genre:[],duration:\"4:14\",trackNumber:16,producers:[],producersNames:[],description:\"Imaginarium \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/imaginarium-mc-gey.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/imaginarium-mc-gey.mdx",
+    "sourceFileName": "imaginarium-mc-gey.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/imaginarium-mc-gey"
+  },
+  "type": "Skladba",
+  "url": "/skladby/imaginarium-mc-gey",
+  "canonicalUrl": "https://4rap.cz/skladby/imaginarium-mc-gey"
+}

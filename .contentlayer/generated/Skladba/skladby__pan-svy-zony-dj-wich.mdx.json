@@ -1,0 +1,39 @@
+{
+  "title": "Pán svý zóny",
+  "slug": "pan-svy-zony-dj-wich",
+  "rapper": "DJ Wich",
+  "rapperSlug": "dj-wich",
+  "features": [
+    "bobby-blaze",
+    "refew"
+  ],
+  "featuresNames": [
+    "Bobby Blaze",
+    "Refew"
+  ],
+  "album": "Pán svý zóny",
+  "albumSlug": "pan-svy-zony",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:21",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pán svý zóny — skladba od DJ Wich.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of h(n))!y.call(e,s)&&s!==r&&o(e,s,{get:()=>n[s],enumerable:!(a=p(n,s))||a.enumerable});return e};var j=(e,n,r)=>(r=e!=null?m(b(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>c(o({},\"__esModule\",{value:!0}),e);var i=x((w,u)=>{u.exports=_jsx_runtime});var g={};f(g,{default:()=>l,frontmatter:()=>_});var t=j(i()),_={title:\"P\\xE1n sv\\xFD z\\xF3ny\",slug:\"pan-svy-zony-dj-wich\",rapper:\"DJ Wich\",rapperSlug:\"dj-wich\",features:[\"bobby-blaze\",\"refew\"],featuresNames:[\"Bobby Blaze\",\"Refew\"],album:\"P\\xE1n sv\\xFD z\\xF3ny\",albumSlug:\"pan-svy-zony\",year:2024,genre:[],duration:\"3:21\",trackNumber:1,producers:[],producersNames:[],description:\"P\\xE1n sv\\xFD z\\xF3ny \\u2014 skladba od DJ Wich.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return z(g);})();\n;return Component;"
+  },
+  "_id": "skladby/pan-svy-zony-dj-wich.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pan-svy-zony-dj-wich.mdx",
+    "sourceFileName": "pan-svy-zony-dj-wich.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pan-svy-zony-dj-wich"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pan-svy-zony-dj-wich",
+  "canonicalUrl": "https://4rap.cz/skladby/pan-svy-zony-dj-wich"
+}

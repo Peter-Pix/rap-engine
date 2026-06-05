@@ -1,0 +1,33 @@
+{
+  "title": "Fabie",
+  "slug": "fabie-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Zhora Vypadá Všechno Líp",
+  "albumSlug": "zhora-vypada-vsechno-lip",
+  "year": 2020,
+  "genre": [],
+  "duration": "1:51",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Fabie — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!b.call(e,r)&&r!==t&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var g=(e,n,t)=>(t=e!=null?p(x(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>i(o({},\"__esModule\",{value:!0}),e);var m=f((M,d)=>{d.exports=_jsx_runtime});var z={};_(z,{default:()=>u,frontmatter:()=>j});var a=g(m()),j={title:\"Fabie\",slug:\"fabie-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"1:51\",trackNumber:1,producers:[],producersNames:[],description:\"Fabie \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return y(z);})();\n;return Component;"
+  },
+  "_id": "skladby/fabie-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/fabie-yzomandias.mdx",
+    "sourceFileName": "fabie-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/fabie-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/fabie-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/fabie-yzomandias"
+}

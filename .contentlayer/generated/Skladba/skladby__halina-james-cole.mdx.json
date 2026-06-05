@@ -1,0 +1,37 @@
+{
+  "title": "Halina",
+  "slug": "halina-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [
+    "hugo-toxxx"
+  ],
+  "featuresNames": [
+    "Hugo Toxxx"
+  ],
+  "album": "G.O.A.T.",
+  "albumSlug": "g-o-a-t",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:47",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Halina — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var x=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?x(h(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>l(o({},\"__esModule\",{value:!0}),e);var m=f((N,u)=>{u.exports=_jsx_runtime});var H={};j(H,{default:()=>i,frontmatter:()=>C});var n=_(m()),C={title:\"Halina\",slug:\"halina-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"3:47\",trackNumber:3,producers:[],producersNames:[],description:\"Halina \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(H);})();\n;return Component;"
+  },
+  "_id": "skladby/halina-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/halina-james-cole.mdx",
+    "sourceFileName": "halina-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/halina-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/halina-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/halina-james-cole"
+}

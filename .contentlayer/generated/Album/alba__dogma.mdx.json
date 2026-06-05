@@ -1,0 +1,31 @@
+{
+  "title": "Dogma",
+  "slug": "dogma",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2023,
+  "genre": [],
+  "description": "Dogma — singl od DJ Fatte (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/482e35d8a65e46e169a44c06a2846509/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Dogma"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),D=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!x.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(c=g(t,r))||c.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>s(o({},\"__esModule\",{value:!0}),e);var m=j((C,i)=>{i.exports=_jsx_runtime});var F={};D(F,{default:()=>l,frontmatter:()=>b});var n=_(m()),b={title:\"Dogma\",slug:\"dogma\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2023,genre:[],description:\"Dogma \\u2014 singl od DJ Fatte (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/482e35d8a65e46e169a44c06a2846509/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Dogma\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return f(F);})();\n;return Component;"
+  },
+  "_id": "alba/dogma.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/dogma.mdx",
+    "sourceFileName": "dogma.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/dogma"
+  },
+  "type": "Album",
+  "url": "/alba/dogma",
+  "canonicalUrl": "https://4rap.cz/alba/dogma"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "MĚSTO NEUSÍNÁ",
+  "slug": "mesto-neusina-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "cis-t",
+    "eurodel"
+  ],
+  "featuresNames": [
+    "Čis T",
+    "Eurodel"
+  ],
+  "album": "MAMUTI L.P.",
+  "albumSlug": "mamuti-l-p",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:08",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "MĚSTO NEUSÍNÁ — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),N=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var S=(e,t,n)=>(n=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var m=M((O,i)=>{i.exports=_jsx_runtime});var g={};N(g,{default:()=>l,frontmatter:()=>b});var r=S(m()),b={title:\"M\\u011ASTO NEUS\\xCDN\\xC1\",slug:\"mesto-neusina-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"eurodel\"],featuresNames:[\"\\u010Cis T\",\"Eurodel\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[],duration:\"3:08\",trackNumber:9,producers:[],producersNames:[],description:\"M\\u011ASTO NEUS\\xCDN\\xC1 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(g);})();\n;return Component;"
+  },
+  "_id": "skladby/mesto-neusina-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/mesto-neusina-orion.mdx",
+    "sourceFileName": "mesto-neusina-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/mesto-neusina-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/mesto-neusina-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/mesto-neusina-orion"
+}

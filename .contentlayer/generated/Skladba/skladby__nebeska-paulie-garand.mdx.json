@@ -1,0 +1,37 @@
+{
+  "title": "Nebeská",
+  "slug": "nebeska-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "rest"
+  ],
+  "featuresNames": [
+    "Rest"
+  ],
+  "album": "V hlavní roli",
+  "albumSlug": "v-hlavni-roli",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:01",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nebeská — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!b.call(e,a)&&a!==t&&s(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var _=(e,r,t)=>(t=e!=null?m(x(e)):{},u(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var i=g((M,l)=>{l.exports=_jsx_runtime});var N={};f(N,{default:()=>c,frontmatter:()=>k});var n=_(i()),k={title:\"Nebesk\\xE1\",slug:\"nebeska-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"rest\"],featuresNames:[\"Rest\"],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:01\",trackNumber:12,producers:[],producersNames:[],description:\"Nebesk\\xE1 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/nebeska-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nebeska-paulie-garand.mdx",
+    "sourceFileName": "nebeska-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nebeska-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nebeska-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/nebeska-paulie-garand"
+}

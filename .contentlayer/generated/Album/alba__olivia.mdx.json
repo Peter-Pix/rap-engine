@@ -1,0 +1,31 @@
+{
+  "title": "Olivia",
+  "slug": "olivia",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2017,
+  "genre": [],
+  "description": "Olivia — singl od CÂLIN (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c13cae5e7023d4b863c987021bec70b0/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Olivia"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var i in t)c(e,i,{get:t[i],enumerable:!0})},l=(e,t,i,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==i&&c(e,r,{get:()=>t[r],enumerable:!(a=u(t,r))||a.enumerable});return e};var j=(e,t,i)=>(i=e!=null?m(g(e)):{},l(t||!e||!e.__esModule?c(i,\"default\",{value:e,enumerable:!0}):i,e)),f=e=>l(c({},\"__esModule\",{value:!0}),e);var s=b((O,o)=>{o.exports=_jsx_runtime});var C={};_(C,{default:()=>d,frontmatter:()=>v});var n=j(s()),v={title:\"Olivia\",slug:\"olivia\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2017,genre:[],description:\"Olivia \\u2014 singl od C\\xC2LIN (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/c13cae5e7023d4b863c987021bec70b0/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Olivia\"],publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return f(C);})();\n;return Component;"
+  },
+  "_id": "alba/olivia.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/olivia.mdx",
+    "sourceFileName": "olivia.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/olivia"
+  },
+  "type": "Album",
+  "url": "/alba/olivia",
+  "canonicalUrl": "https://4rap.cz/alba/olivia"
+}

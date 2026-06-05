@@ -1,0 +1,31 @@
+{
+  "title": "Prestige",
+  "slug": "prestige",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "label": "Decky",
+  "year": 2020,
+  "genre": [],
+  "description": "Prestige — singl od Decky (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/250d4269938f0659b7bd1bd7202a42b2/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Prestige"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var c=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of u(t))!x.call(e,s)&&s!==r&&c(e,s,{get:()=>t[s],enumerable:!(i=g(t,s))||i.enumerable});return e};var f=(e,t,r)=>(r=e!=null?m(h(e)):{},o(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(c({},\"__esModule\",{value:!0}),e);var d=b((M,a)=>{a.exports=_jsx_runtime});var k={};_(k,{default:()=>p,frontmatter:()=>y});var n=f(d()),y={title:\"Prestige\",slug:\"prestige\",rapper:\"Decky\",rapperSlug:\"decky\",label:\"Decky\",year:2020,genre:[],description:\"Prestige \\u2014 singl od Decky (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/250d4269938f0659b7bd1bd7202a42b2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Prestige\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/prestige.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/prestige.mdx",
+    "sourceFileName": "prestige.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/prestige"
+  },
+  "type": "Album",
+  "url": "/alba/prestige",
+  "canonicalUrl": "https://4rap.cz/alba/prestige"
+}

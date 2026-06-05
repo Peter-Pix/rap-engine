@@ -1,0 +1,33 @@
+{
+  "title": "Manželka",
+  "slug": "manzelka-rytmus",
+  "rapper": "Rytmus",
+  "rapperSlug": "rytmus",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bengoro II",
+  "albumSlug": "bengoro-ii",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:39",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Manželka — skladba od Rytmus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>u(o({},\"__esModule\",{value:!0}),e);var c=b((N,m)=>{m.exports=_jsx_runtime});var k={};f(k,{default:()=>i,frontmatter:()=>j});var n=_(c()),j={title:\"Man\\u017Eelka\",slug:\"manzelka-rytmus\",rapper:\"Rytmus\",rapperSlug:\"rytmus\",features:[],featuresNames:[],album:\"Bengoro II\",albumSlug:\"bengoro-ii\",year:2024,genre:[],duration:\"3:39\",trackNumber:9,producers:[],producersNames:[],description:\"Man\\u017Eelka \\u2014 skladba od Rytmus.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return y(k);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/manzelka-rytmus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/manzelka-rytmus.mdx",
+    "sourceFileName": "manzelka-rytmus.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/manzelka-rytmus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/manzelka-rytmus",
+  "canonicalUrl": "https://4rap.cz/skladby/manzelka-rytmus"
+}

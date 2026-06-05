@@ -1,0 +1,33 @@
+{
+  "title": "Darth Vader",
+  "slug": "darth-vader-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ach Ano III: Ballerbyn",
+  "albumSlug": "ach-ano-iii-ballerbyn",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:17",
+  "trackNumber": 15,
+  "producers": [],
+  "producersNames": [],
+  "description": "Darth Vader — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!b.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var g=(e,r,t)=>(t=e!=null?m(x(e)):{},i(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),k=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((D,c)=>{c.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>j});var n=g(u()),j={title:\"Darth Vader\",slug:\"darth-vader-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano III: Ballerbyn\",albumSlug:\"ach-ano-iii-ballerbyn\",year:2019,genre:[],duration:\"3:17\",trackNumber:15,producers:[],producersNames:[],description:\"Darth Vader \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return k(M);})();\n;return Component;"
+  },
+  "_id": "skladby/darth-vader-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/darth-vader-maniak.mdx",
+    "sourceFileName": "darth-vader-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/darth-vader-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/darth-vader-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/darth-vader-maniak"
+}

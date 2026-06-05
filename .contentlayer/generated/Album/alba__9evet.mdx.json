@@ -1,0 +1,39 @@
+{
+  "title": "9EVET",
+  "slug": "9evet",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "label": "Lvcas Dope",
+  "year": 2016,
+  "genre": [],
+  "description": "9EVET — album od Lvcas Dope (2016).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/9937bf63ea52f34aaa68581bf59b03b1/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Alpy",
+    "Milo Zema",
+    "Ambiente",
+    "Oram",
+    "Noblesse",
+    "Phone",
+    "S Jinou",
+    "Test",
+    "9evet"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!x.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(s=u(t,o))||s.enumerable});return e};var v=(e,t,a)=>(a=e!=null?d(h(e)):{},c(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>c(r({},\"__esModule\",{value:!0}),e);var l=g((L,i)=>{i.exports=_jsx_runtime});var D={};f(D,{default:()=>m,frontmatter:()=>j});var n=v(l()),j={title:\"9EVET\",slug:\"9evet\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",label:\"Lvcas Dope\",year:2016,genre:[],description:\"9EVET \\u2014 album od Lvcas Dope (2016).\",image:\"https://cdn-images.dzcdn.net/images/cover/9937bf63ea52f34aaa68581bf59b03b1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Alpy\",\"Milo Zema\",\"Ambiente\",\"Oram\",\"Noblesse\",\"Phone\",\"S Jinou\",\"Test\",\"9evet\"],publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return _(D);})();\n;return Component;"
+  },
+  "_id": "alba/9evet.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/9evet.mdx",
+    "sourceFileName": "9evet.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/9evet"
+  },
+  "type": "Album",
+  "url": "/alba/9evet",
+  "canonicalUrl": "https://4rap.cz/alba/9evet"
+}

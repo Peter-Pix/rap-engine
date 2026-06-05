@@ -1,0 +1,37 @@
+{
+  "title": "Super 8",
+  "slug": "super-8-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "opia"
+  ],
+  "featuresNames": [
+    "Opia"
+  ],
+  "album": "Amonit (Deluxe)",
+  "albumSlug": "amonit",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:22",
+  "trackNumber": 21,
+  "producers": [],
+  "producersNames": [],
+  "description": "Super 8 — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)u(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!g.call(e,a)&&a!==n&&u(e,a,{get:()=>r[a],enumerable:!(o=c(r,a))||o.enumerable});return e};var b=(e,r,n)=>(n=e!=null?m(h(e)):{},s(r||!e||!e.__esModule?u(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var p=f((N,i)=>{i.exports=_jsx_runtime});var D={};_(D,{default:()=>d,frontmatter:()=>S});var t=b(p()),S={title:\"Super 8\",slug:\"super-8-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"opia\"],featuresNames:[\"Opia\"],album:\"Amonit (Deluxe)\",albumSlug:\"amonit\",year:2023,genre:[],duration:\"3:22\",trackNumber:21,producers:[],producersNames:[],description:\"Super 8 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/super-8-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/super-8-paulie-garand.mdx",
+    "sourceFileName": "super-8-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/super-8-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/super-8-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/super-8-paulie-garand"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Stroj",
+  "slug": "stroj-vladimir-518",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "features": [],
+  "featuresNames": [],
+  "album": "Idiot",
+  "albumSlug": "idiot",
+  "year": 2013,
+  "genre": [],
+  "duration": "3:29",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Stroj — skladba od Vladimir 518.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!j.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(i=p(t,o))||i.enumerable});return e};var b=(e,t,n)=>(n=e!=null?c(h(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var m=f((k,d)=>{d.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>S});var r=b(m()),S={title:\"Stroj\",slug:\"stroj-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"3:29\",trackNumber:11,producers:[],producersNames:[],description:\"Stroj \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/stroj-vladimir-518.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/stroj-vladimir-518.mdx",
+    "sourceFileName": "stroj-vladimir-518.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/stroj-vladimir-518"
+  },
+  "type": "Skladba",
+  "url": "/skladby/stroj-vladimir-518",
+  "canonicalUrl": "https://4rap.cz/skladby/stroj-vladimir-518"
+}

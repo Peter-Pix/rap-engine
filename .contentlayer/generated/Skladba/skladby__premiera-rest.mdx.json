@@ -1,0 +1,37 @@
+{
+  "title": "Premiéra",
+  "slug": "premiera-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "4:01",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Premiéra — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},m=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>r[a],enumerable:!(o=l(r,a))||o.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(h(e)):{},m(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(s({},\"__esModule\",{value:!0}),e);var u=_((N,i)=>{i.exports=_jsx_runtime});var F={};b(F,{default:()=>p,frontmatter:()=>D});var t=g(u()),D={title:\"Premi\\xE9ra\",slug:\"premiera-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"4:01\",trackNumber:2,producers:[],producersNames:[],description:\"Premi\\xE9ra \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(F);})();\n;return Component;"
+  },
+  "_id": "skladby/premiera-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/premiera-rest.mdx",
+    "sourceFileName": "premiera-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/premiera-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/premiera-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/premiera-rest"
+}

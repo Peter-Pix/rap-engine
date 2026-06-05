@@ -1,0 +1,31 @@
+{
+  "title": "Směj se teď",
+  "slug": "smej-se-ted",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2024,
+  "genre": [],
+  "description": "Směj se teď — singl od Sergei Barracuda (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/d07073e7af14fbd2907b9bbab1c0c3a9/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Směj se teď"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(i=p(t,a))||i.enumerable});return e};var S=(e,t,n)=>(n=e!=null?u(b(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>c(s({},\"__esModule\",{value:!0}),e);var o=j((D,d)=>{d.exports=_jsx_runtime});var M={};x(M,{default:()=>l,frontmatter:()=>_});var r=S(o()),_={title:\"Sm\\u011Bj se te\\u010F\",slug:\"smej-se-ted\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2024,genre:[],description:\"Sm\\u011Bj se te\\u010F \\u2014 singl od Sergei Barracuda (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/d07073e7af14fbd2907b9bbab1c0c3a9/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sm\\u011Bj se te\\u010F\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return f(M);})();\n;return Component;"
+  },
+  "_id": "alba/smej-se-ted.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/smej-se-ted.mdx",
+    "sourceFileName": "smej-se-ted.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/smej-se-ted"
+  },
+  "type": "Album",
+  "url": "/alba/smej-se-ted",
+  "canonicalUrl": "https://4rap.cz/alba/smej-se-ted"
+}

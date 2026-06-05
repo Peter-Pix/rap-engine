@@ -1,0 +1,42 @@
+{
+  "title": "Medusa",
+  "slug": "medusa",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Skerocuda",
+  "labelSlug": "skerocuda",
+  "year": 2019,
+  "genre": [
+    "trap",
+    "street-rap"
+  ],
+  "description": "Temný a agresivní album postavený na pouliční autenticitě, paranoie a tvrdým lifestyle rapu.",
+  "image": "/images/alba/medusa.jpg",
+  "featured": false,
+  "tracklist": [
+    "Medusa",
+    "Had",
+    "Dealer",
+    "Noční Město",
+    "Gang",
+    "Loyalita"
+  ],
+  "rating": 8.9,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nMedusa je Sergei ve vrcholný formě.\n\n## Zvuk\n\nTemný beaty, agresivní flow a syrová ostravská energie.\n\n## Dopad\n\nAlbum upevnilo Sergeiho jako jednoho z nejtvrdších hlasů českýho trapu. :contentReference[oaicite:1]{index=1}",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var j=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!v.call(a,t)&&t!==r&&o(a,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return a};var f=(a,e,r)=>(r=a!=null?p(h(a)):{},i(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),b=a=>i(o({},\"__esModule\",{value:!0}),a);var u=j((y,l)=>{l.exports=_jsx_runtime});var M={};x(M,{default:()=>d,frontmatter:()=>k});var n=f(u()),k={title:\"Medusa\",slug:\"medusa\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Skerocuda\",labelSlug:\"skerocuda\",year:2019,genre:[\"trap\",\"street-rap\"],description:\"Temn\\xFD a agresivn\\xED album postaven\\xFD na pouli\\u010Dn\\xED autenticit\\u011B, paranoie a tvrd\\xFDm lifestyle rapu.\",image:\"/images/alba/medusa.jpg\",tracklist:[\"Medusa\",\"Had\",\"Dealer\",\"No\\u010Dn\\xED M\\u011Bsto\",\"Gang\",\"Loyalita\"],rating:8.9,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function c(a){let e={h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Medusa je Sergei ve vrcholn\\xFD form\\u011B.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,n.jsx)(e.p,{children:\"Temn\\xFD beaty, agresivn\\xED flow a syrov\\xE1 ostravsk\\xE1 energie.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Album upevnilo Sergeiho jako jednoho z nejtvrd\\u0161\\xEDch hlas\\u016F \\u010Desk\\xFDho trapu. :contentReference[oaicite:1]\",index=1]})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(c,{...a})}):c(a)}return b(M);})();\n;return Component;"
+  },
+  "_id": "alba/medusa.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/medusa.mdx",
+    "sourceFileName": "medusa.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/medusa"
+  },
+  "type": "Album",
+  "url": "/alba/medusa",
+  "canonicalUrl": "https://4rap.cz/alba/medusa"
+}

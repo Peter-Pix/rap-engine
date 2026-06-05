@@ -1,0 +1,33 @@
+{
+  "title": "Rebel (Short Edit)",
+  "slug": "rebel-short-edit-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "No Title",
+  "albumSlug": "no-title",
+  "year": 2014,
+  "genre": [],
+  "duration": "4:51",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rebel (Short Edit) — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(x(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),N=e=>i(a({},\"__esModule\",{value:!0}),e);var c=f((L,l)=>{l.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>j});var r=g(c()),j={title:\"Rebel (Short Edit)\",slug:\"rebel-short-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[],duration:\"4:51\",trackNumber:6,producers:[],producersNames:[],description:\"Rebel (Short Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return N(S);})();\n;return Component;"
+  },
+  "_id": "skladby/rebel-short-edit-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rebel-short-edit-calin.mdx",
+    "sourceFileName": "rebel-short-edit-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rebel-short-edit-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rebel-short-edit-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/rebel-short-edit-calin"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Puls",
+  "slug": "puls",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "label": "WM Czech Republic",
+  "year": 2023,
+  "genre": [],
+  "description": "Puls — album od Idea (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/bc20f66680189d4271e19b6e8d2f0d00/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Sprint",
+    "Planety",
+    "Swipe",
+    "Hood",
+    "Plavat",
+    "Aroma",
+    "Ksicht",
+    "Blizu",
+    "Mejdany",
+    "Thue",
+    "Světy",
+    "Jsme"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(i=m(t,a))||i.enumerable});return e};var j=(e,t,r)=>(r=e!=null?u(x(e)):{},o(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(s({},\"__esModule\",{value:!0}),e);var l=b((P,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>y});var n=j(l()),y={title:\"Puls\",slug:\"puls\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2023,genre:[],description:\"Puls \\u2014 album od Idea (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/bc20f66680189d4271e19b6e8d2f0d00/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sprint\",\"Planety\",\"Swipe\",\"Hood\",\"Plavat\",\"Aroma\",\"Ksicht\",\"Blizu\",\"Mejdany\",\"Thue\",\"Sv\\u011Bty\",\"Jsme\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "alba/puls.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/puls.mdx",
+    "sourceFileName": "puls.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/puls"
+  },
+  "type": "Album",
+  "url": "/alba/puls",
+  "canonicalUrl": "https://4rap.cz/alba/puls"
+}

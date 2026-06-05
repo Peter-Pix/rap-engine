@@ -1,0 +1,23 @@
+{
+  "title": "Chubeats",
+  "slug": "chubeats",
+  "genre": [],
+  "description": "Chubeats — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of d(t))!_.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(c=p(t,s))||c.enumerable});return e};var j=(e,t,r)=>(r=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var u=b((v,a)=>{a.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>C});var n=j(u()),C={title:\"Chubeats\",slug:\"chubeats\",genre:[],description:\"Chubeats \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function h(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(h,{...e})}):h(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "raperi/chubeats.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/chubeats.mdx",
+    "sourceFileName": "chubeats.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/chubeats"
+  },
+  "type": "Rapper",
+  "url": "/raperi/chubeats",
+  "canonicalUrl": "https://4rap.cz/raperi/chubeats"
+}

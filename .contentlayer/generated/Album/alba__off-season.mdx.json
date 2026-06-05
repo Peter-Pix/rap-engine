@@ -1,0 +1,36 @@
+{
+  "title": "Off Season",
+  "slug": "off-season",
+  "rapper": "CA$HANOVA BULHAR",
+  "rapperSlug": "ca-hanova-bulhar",
+  "label": "WM Czech Republic",
+  "year": 2018,
+  "genre": [],
+  "description": "Off Season — EP od CA$HANOVA BULHAR (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e5edf4b7e96e9290b4e9e2780438a283/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Off Season",
+    "MVP",
+    "Free Nikolai Ivanov",
+    "Šárka Peková",
+    "Swag Alex Kokorin",
+    "Nejkrásnější portrét"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),A=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of u(n))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=f(n,o))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?m(h(e)):{},c(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var l=g((S,i)=>{i.exports=_jsx_runtime});var k={};A(k,{default:()=>d,frontmatter:()=>_});var t=b(l()),_={title:\"Off Season\",slug:\"off-season\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",label:\"WM Czech Republic\",year:2018,genre:[],description:\"Off Season \\u2014 EP od CA$HANOVA BULHAR (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/e5edf4b7e96e9290b4e9e2780438a283/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Off Season\",\"MVP\",\"Free Nikolai Ivanov\",\"\\u0160\\xE1rka Pekov\\xE1\",\"Swag Alex Kokorin\",\"Nejkr\\xE1sn\\u011Bj\\u0161\\xED portr\\xE9t\"],publishedAt:\"2026-06-04\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/off-season.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/off-season.mdx",
+    "sourceFileName": "off-season.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/off-season"
+  },
+  "type": "Album",
+  "url": "/alba/off-season",
+  "canonicalUrl": "https://4rap.cz/alba/off-season"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Babovako",
+  "slug": "babovako-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "jickson"
+  ],
+  "featuresNames": [
+    "Jickson"
+  ],
+  "album": "Yzotape",
+  "albumSlug": "yzotape",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:24",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Babovako — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>i(r({},\"__esModule\",{value:!0}),e);var c=f((v,m)=>{m.exports=_jsx_runtime});var z={};k(z,{default:()=>d,frontmatter:()=>j});var n=_(c()),j={title:\"Babovako\",slug:\"babovako-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[],duration:\"3:24\",trackNumber:8,producers:[],producersNames:[],description:\"Babovako \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(z);})();\n;return Component;"
+  },
+  "_id": "skladby/babovako-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/babovako-yzomandias.mdx",
+    "sourceFileName": "babovako-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/babovako-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/babovako-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/babovako-yzomandias"
+}

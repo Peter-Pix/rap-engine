@@ -1,0 +1,37 @@
+{
+  "title": "ALIEN",
+  "slug": "alien-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [
+    "dokkeytino"
+  ],
+  "featuresNames": [
+    "Dokkeytino"
+  ],
+  "album": "ALIEN",
+  "albumSlug": "alien",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:19",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "ALIEN — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(h(e)):{},l(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>l(a({},\"__esModule\",{value:!0}),e);var c=j((A,m)=>{m.exports=_jsx_runtime});var N={};_(N,{default:()=>i,frontmatter:()=>k});var n=b(c()),k={title:\"ALIEN\",slug:\"alien-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[],duration:\"3:19\",trackNumber:1,producers:[],producersNames:[],description:\"ALIEN \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/alien-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/alien-james-cole.mdx",
+    "sourceFileName": "alien-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/alien-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/alien-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/alien-james-cole"
+}

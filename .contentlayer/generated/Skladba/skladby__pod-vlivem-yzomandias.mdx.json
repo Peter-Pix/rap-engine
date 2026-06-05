@@ -1,0 +1,37 @@
+{
+  "title": "Pod Vlivem",
+  "slug": "pod-vlivem-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "jckpt"
+  ],
+  "featuresNames": [
+    "Jckpt"
+  ],
+  "album": "Pod Vlivem",
+  "albumSlug": "pod-vlivem",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:23",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pod Vlivem — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var v=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?u(h(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(a({},\"__esModule\",{value:!0}),e);var i=v((z,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>j});var n=b(i()),j={title:\"Pod Vlivem\",slug:\"pod-vlivem-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\"],featuresNames:[\"Jckpt\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[],duration:\"3:23\",trackNumber:6,producers:[],producersNames:[],description:\"Pod Vlivem \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/pod-vlivem-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pod-vlivem-yzomandias.mdx",
+    "sourceFileName": "pod-vlivem-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pod-vlivem-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pod-vlivem-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/pod-vlivem-yzomandias"
+}

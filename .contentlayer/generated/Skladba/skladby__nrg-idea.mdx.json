@@ -1,0 +1,33 @@
+{
+  "title": "NRG",
+  "slug": "nrg-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [],
+  "featuresNames": [],
+  "album": "Tempo",
+  "albumSlug": "tempo",
+  "year": 2019,
+  "genre": [],
+  "duration": "2:39",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "NRG — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(h(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var m=g((k,d)=>{d.exports=_jsx_runtime});var M={};_(M,{default:()=>i,frontmatter:()=>N});var r=b(m()),N={title:\"NRG\",slug:\"nrg-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[],duration:\"2:39\",trackNumber:4,producers:[],producersNames:[],description:\"NRG \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/nrg-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nrg-idea.mdx",
+    "sourceFileName": "nrg-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nrg-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nrg-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/nrg-idea"
+}

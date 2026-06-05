@@ -1,0 +1,23 @@
+{
+  "title": "Mike Trafik",
+  "slug": "mike-trafik",
+  "genre": [],
+  "description": "Mike Trafik — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of h(t))!f.call(e,i)&&i!==r&&o(e,i,{get:()=>t[i],enumerable:!(s=u(t,i))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>c(o({},\"__esModule\",{value:!0}),e);var m=k((y,a)=>{a.exports=_jsx_runtime});var b={};_(b,{default:()=>p,frontmatter:()=>g});var n=j(m()),g={title:\"Mike Trafik\",slug:\"mike-trafik\",genre:[],description:\"Mike Trafik \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return M(b);})();\n;return Component;"
+  },
+  "_id": "raperi/mike-trafik.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/mike-trafik.mdx",
+    "sourceFileName": "mike-trafik.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/mike-trafik"
+  },
+  "type": "Rapper",
+  "url": "/raperi/mike-trafik",
+  "canonicalUrl": "https://4rap.cz/raperi/mike-trafik"
+}

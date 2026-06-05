@@ -1,0 +1,42 @@
+{
+  "title": "Dead Man Walking",
+  "slug": "dead-man-walking",
+  "rapper": "Marpo",
+  "rapperSlug": "marpo",
+  "label": "TroubleGang",
+  "labelSlug": "troublegang",
+  "year": 2018,
+  "genre": [
+    "rock-rap",
+    "rap"
+  ],
+  "description": "Temný a osobní album kombinující rap, rockovou energii a americkej southern vibe.",
+  "image": "/images/alba/dead-man-walking.jpg",
+  "featured": false,
+  "tracklist": [
+    "Dead Man Walking",
+    "Road",
+    "Bullets",
+    "Silnej Jak Vůle",
+    "Outlaw",
+    "Noc"
+  ],
+  "rating": 8.7,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nDead Man Walking působí jako soundtrack osamělýho antihrdiny.\n\n## Zvuk\n\nKombinace živých kytar, tvrdých drums a moderního rapu.\n\n## Dopad\n\nJedno z nejlépe producentsky zvládnutejch Marpových alb. :contentReference[oaicite:4]{index=4}",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},l=(n,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!k.call(n,t)&&t!==r&&o(n,t,{get:()=>e[t],enumerable:!(i=m(e,t))||i.enumerable});return n};var x=(n,e,r)=>(r=n!=null?u(g(n)):{},l(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),M=n=>l(o({},\"__esModule\",{value:!0}),n);var d=b((D,c)=>{c.exports=_jsx_runtime});var _={};j(_,{default:()=>s,frontmatter:()=>v});var a=x(d()),v={title:\"Dead Man Walking\",slug:\"dead-man-walking\",rapper:\"Marpo\",rapperSlug:\"marpo\",label:\"TroubleGang\",labelSlug:\"troublegang\",year:2018,genre:[\"rock-rap\",\"rap\"],description:\"Temn\\xFD a osobn\\xED album kombinuj\\xEDc\\xED rap, rockovou energii a americkej southern vibe.\",image:\"/images/alba/dead-man-walking.jpg\",tracklist:[\"Dead Man Walking\",\"Road\",\"Bullets\",\"Silnej Jak V\\u016Fle\",\"Outlaw\",\"Noc\"],rating:8.7,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function p(n){let e={h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.p,{children:\"Dead Man Walking p\\u016Fsob\\xED jako soundtrack osam\\u011Bl\\xFDho antihrdiny.\"}),`\n`,(0,a.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,a.jsx)(e.p,{children:\"Kombinace \\u017Eiv\\xFDch kytar, tvrd\\xFDch drums a modern\\xEDho rapu.\"}),`\n`,(0,a.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,a.jsxs)(e.p,{children:[\"Jedno z nejl\\xE9pe producentsky zvl\\xE1dnutejch Marpov\\xFDch alb. :contentReference[oaicite:4]\",index=4]})]})}function s(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(p,{...n})}):p(n)}return M(_);})();\n;return Component;"
+  },
+  "_id": "alba/dead-man-walking.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/dead-man-walking.mdx",
+    "sourceFileName": "dead-man-walking.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/dead-man-walking"
+  },
+  "type": "Album",
+  "url": "/alba/dead-man-walking",
+  "canonicalUrl": "https://4rap.cz/alba/dead-man-walking"
+}

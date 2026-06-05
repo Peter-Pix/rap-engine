@@ -1,0 +1,33 @@
+{
+  "title": "Končí léto",
+  "slug": "konci-leto-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "Končí léto",
+  "albumSlug": "konci-leto",
+  "year": 2021,
+  "genre": [],
+  "duration": "1:37",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Končí léto — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?d(h(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var u=_((K,l)=>{l.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>N});var n=g(u()),N={title:\"Kon\\u010D\\xED l\\xE9to\",slug:\"konci-leto-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Kon\\u010D\\xED l\\xE9to\",albumSlug:\"konci-leto\",year:2021,genre:[],duration:\"1:37\",trackNumber:1,producers:[],producersNames:[],description:\"Kon\\u010D\\xED l\\xE9to \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/konci-leto-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/konci-leto-calin.mdx",
+    "sourceFileName": "konci-leto-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/konci-leto-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/konci-leto-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/konci-leto-calin"
+}

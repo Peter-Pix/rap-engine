@@ -1,0 +1,37 @@
+{
+  "title": "Noční Jezdec",
+  "slug": "nocni-jezdec-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "vec"
+  ],
+  "featuresNames": [
+    "Vec"
+  ],
+  "album": "Teritorium Remixy",
+  "albumSlug": "teritorium-remixy",
+  "year": 2007,
+  "genre": [],
+  "duration": "3:22",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Noční Jezdec — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)i(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!f.call(e,o)&&o!==t&&i(e,o,{get:()=>r[o],enumerable:!(c=p(r,o))||c.enumerable});return e};var g=(e,r,t)=>(t=e!=null?l(h(e)):{},s(r||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var u=_((M,a)=>{a.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>N});var n=g(u()),N={title:\"No\\u010Dn\\xED Jezdec\",slug:\"nocni-jezdec-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"vec\"],featuresNames:[\"Vec\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"3:22\",trackNumber:7,producers:[],producersNames:[],description:\"No\\u010Dn\\xED Jezdec \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/nocni-jezdec-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nocni-jezdec-orion.mdx",
+    "sourceFileName": "nocni-jezdec-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nocni-jezdec-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nocni-jezdec-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/nocni-jezdec-orion"
+}

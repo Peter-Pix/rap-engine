@@ -1,0 +1,37 @@
+{
+  "title": "La Familia",
+  "slug": "la-familia-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "Molo",
+  "albumSlug": "molo",
+  "year": 2014,
+  "genre": [],
+  "duration": "4:30",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "La Familia — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},i=(e,a,r,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!x.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(u=p(a,t))||u.enumerable});return e};var b=(e,a,r)=>(r=e!=null?c(g(e)):{},i(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var s=f((k,l)=>{l.exports=_jsx_runtime});var F={};_(F,{default:()=>d,frontmatter:()=>y});var n=b(s()),y={title:\"La Familia\",slug:\"la-familia-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Molo\",albumSlug:\"molo\",year:2014,genre:[],duration:\"4:30\",trackNumber:7,producers:[],producersNames:[],description:\"La Familia \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(F);})();\n;return Component;"
+  },
+  "_id": "skladby/la-familia-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/la-familia-paulie-garand.mdx",
+    "sourceFileName": "la-familia-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/la-familia-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/la-familia-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/la-familia-paulie-garand"
+}

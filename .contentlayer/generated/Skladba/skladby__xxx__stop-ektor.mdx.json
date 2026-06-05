@@ -1,0 +1,37 @@
+{
+  "title": "Stop",
+  "slug": "stop-ektor",
+  "rapper": "Ektor",
+  "rapperSlug": "ektor",
+  "features": [
+    "vladimir-518"
+  ],
+  "featuresNames": [
+    "Vladimir 518"
+  ],
+  "album": "Tetris",
+  "albumSlug": "tetris",
+  "year": 2012,
+  "genre": [],
+  "duration": "4:31",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Stop — skladba od Ektor.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!f.call(t,o)&&o!==n&&s(t,o,{get:()=>e[o],enumerable:!(a=l(e,o))||a.enumerable});return t};var g=(t,e,n)=>(n=t!=null?d(h(t)):{},i(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),k=t=>i(s({},\"__esModule\",{value:!0}),t);var m=_((N,u)=>{u.exports=_jsx_runtime});var S={};b(S,{default:()=>p,frontmatter:()=>j});var r=g(m()),j={title:\"Stop\",slug:\"stop-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"vladimir-518\"],featuresNames:[\"Vladimir 518\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[],duration:\"4:31\",trackNumber:3,producers:[],producersNames:[],description:\"Stop \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function c(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/stop-ektor.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/stop-ektor.mdx",
+    "sourceFileName": "stop-ektor.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/stop-ektor"
+  },
+  "type": "Skladba",
+  "url": "/skladby/stop-ektor",
+  "canonicalUrl": "https://4rap.cz/skladby/stop-ektor"
+}

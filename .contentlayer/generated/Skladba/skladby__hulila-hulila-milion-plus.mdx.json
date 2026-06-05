@@ -1,0 +1,41 @@
+{
+  "title": "HULILA HULILA",
+  "slug": "hulila-hulila-milion-plus",
+  "rapper": "Milion Plus",
+  "rapperSlug": "milion-plus",
+  "features": [
+    "hasan",
+    "nik-tendo",
+    "karlo"
+  ],
+  "featuresNames": [
+    "Hasan",
+    "Nik Tendo",
+    "Karlo"
+  ],
+  "album": "KRTEK MONEY LIFE",
+  "albumSlug": "krtek-money-life",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:43",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "HULILA HULILA — skladba od Milion Plus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,L=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!L.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(l=p(n,o))||l.enumerable});return e};var _=(e,n,r)=>(r=e!=null?d(x(e)):{},s(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(a({},\"__esModule\",{value:!0}),e);var u=f((A,i)=>{i.exports=_jsx_runtime});var M={};k(M,{default:()=>c,frontmatter:()=>g});var t=_(u()),g={title:\"HULILA HULILA\",slug:\"hulila-hulila-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"hasan\",\"nik-tendo\",\"karlo\"],featuresNames:[\"Hasan\",\"Nik Tendo\",\"Karlo\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"3:43\",trackNumber:3,producers:[],producersNames:[],description:\"HULILA HULILA \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "skladby/hulila-hulila-milion-plus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hulila-hulila-milion-plus.mdx",
+    "sourceFileName": "hulila-hulila-milion-plus.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hulila-hulila-milion-plus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hulila-hulila-milion-plus",
+  "canonicalUrl": "https://4rap.cz/skladby/hulila-hulila-milion-plus"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Medusa II",
+  "slug": "medusa-ii",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2024,
+  "genre": [],
+  "description": "Medusa II — album od Sergei Barracuda (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e75d73106335f1355f1519c7781e61d8/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Mamba",
+    "Kouř",
+    "Démon",
+    "Jezebel",
+    "Jezdec",
+    "Déšť",
+    "Legendární",
+    "Hoe",
+    "Nashle"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of g(r))!x.call(e,a)&&a!==t&&s(e,a,{get:()=>r[a],enumerable:!(i=p(r,a))||i.enumerable});return e};var M=(e,r,t)=>(t=e!=null?m(h(e)):{},c(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>c(s({},\"__esModule\",{value:!0}),e);var o=b((I,d)=>{d.exports=_jsx_runtime});var S={};f(S,{default:()=>l,frontmatter:()=>j});var n=M(o()),j={title:\"Medusa II\",slug:\"medusa-ii\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2024,genre:[],description:\"Medusa II \\u2014 album od Sergei Barracuda (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/e75d73106335f1355f1519c7781e61d8/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Mamba\",\"Kou\\u0159\",\"D\\xE9mon\",\"Jezebel\",\"Jezdec\",\"D\\xE9\\u0161\\u0165\",\"Legend\\xE1rn\\xED\",\"Hoe\",\"Nashle\"],publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(S);})();\n;return Component;"
+  },
+  "_id": "alba/medusa-ii.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/medusa-ii.mdx",
+    "sourceFileName": "medusa-ii.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/medusa-ii"
+  },
+  "type": "Album",
+  "url": "/alba/medusa-ii",
+  "canonicalUrl": "https://4rap.cz/alba/medusa-ii"
+}

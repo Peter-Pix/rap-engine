@@ -1,0 +1,33 @@
+{
+  "title": "Ne Ser Mě",
+  "slug": "ne-ser-me-smack",
+  "rapper": "Smack",
+  "rapperSlug": "smack",
+  "features": [],
+  "featuresNames": [],
+  "album": "2051",
+  "albumSlug": "2051",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:24",
+  "trackNumber": 14,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ne Ser Mě — skladba od Smack.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var S=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var u=S((N,m)=>{m.exports=_jsx_runtime});var j={};_(j,{default:()=>i,frontmatter:()=>k});var r=b(u()),k={title:\"Ne Ser Me\\u030C\",slug:\"ne-ser-me-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[],duration:\"3:24\",trackNumber:14,producers:[],producersNames:[],description:\"Ne Ser Me\\u030C \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/ne-ser-me-smack.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ne-ser-me-smack.mdx",
+    "sourceFileName": "ne-ser-me-smack.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ne-ser-me-smack"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ne-ser-me-smack",
+  "canonicalUrl": "https://4rap.cz/skladby/ne-ser-me-smack"
+}

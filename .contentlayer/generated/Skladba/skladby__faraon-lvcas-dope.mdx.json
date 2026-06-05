@@ -1,0 +1,33 @@
+{
+  "title": "Faraon",
+  "slug": "faraon-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [],
+  "featuresNames": [],
+  "album": "F4R4on",
+  "albumSlug": "f4r4on",
+  "year": 2019,
+  "genre": [],
+  "duration": "4:02",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Faraon — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!h.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=i(n,a))||s.enumerable});return e};var g=(e,n,t)=>(t=e!=null?m(f(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var p=_((L,u)=>{u.exports=_jsx_runtime});var v={};b(v,{default:()=>l,frontmatter:()=>F});var r=g(p()),F={title:\"Faraon\",slug:\"faraon-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"F4R4on\",albumSlug:\"f4r4on\",year:2019,genre:[],duration:\"4:02\",trackNumber:1,producers:[],producersNames:[],description:\"Faraon \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/faraon-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/faraon-lvcas-dope.mdx",
+    "sourceFileName": "faraon-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/faraon-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/faraon-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/faraon-lvcas-dope"
+}

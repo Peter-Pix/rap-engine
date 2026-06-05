@@ -1,0 +1,34 @@
+{
+  "title": "Young Guns 01.",
+  "slug": "young-guns-01",
+  "rapper": "Andsan",
+  "rapperSlug": "andsan",
+  "label": "Alliwant Music",
+  "year": 2018,
+  "genre": [],
+  "description": "Young Guns 01. — EP od Andsan (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/9570895ab1f668a21e914397fb92a6a4/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Snatt (Original Mix)",
+    "Okay Party People (Original Mix)",
+    "Girl U Got Me Down (Original Mix)",
+    "Dans (Original Mix)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var g=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var a in e)i(n,a,{get:e[a],enumerable:!0})},o=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!h.call(n,r)&&r!==a&&i(n,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return n};var _=(n,e,a)=>(a=n!=null?g(x(n)):{},o(e||!n||!n.__esModule?i(a,\"default\",{value:n,enumerable:!0}):a,n)),b=n=>o(i({},\"__esModule\",{value:!0}),n);var c=M((A,l)=>{l.exports=_jsx_runtime});var O={};f(O,{default:()=>d,frontmatter:()=>j});var t=_(c()),j={title:\"Young Guns 01.\",slug:\"young-guns-01\",rapper:\"Andsan\",rapperSlug:\"andsan\",label:\"Alliwant Music\",year:2018,genre:[],description:\"Young Guns 01. \\u2014 EP od Andsan (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/9570895ab1f668a21e914397fb92a6a4/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Snatt (Original Mix)\",\"Okay Party People (Original Mix)\",\"Girl U Got Me Down (Original Mix)\",\"Dans (Original Mix)\"],publishedAt:\"2026-06-04\"};function u(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(u,{...n})}):u(n)}return b(O);})();\n;return Component;"
+  },
+  "_id": "alba/young-guns-01.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/young-guns-01.mdx",
+    "sourceFileName": "young-guns-01.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/young-guns-01"
+  },
+  "type": "Album",
+  "url": "/alba/young-guns-01",
+  "canonicalUrl": "https://4rap.cz/alba/young-guns-01"
+}

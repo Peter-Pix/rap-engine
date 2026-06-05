@@ -1,0 +1,23 @@
+{
+  "title": "Crudd2Active",
+  "slug": "crudd2active",
+  "genre": [],
+  "description": "Crudd2Active — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(c=p(t,o))||c.enumerable});return e};var v=(e,t,r)=>(r=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var u=f((b,d)=>{d.exports=_jsx_runtime});var A={};j(A,{default:()=>m,frontmatter:()=>C});var n=v(u()),C={title:\"Crudd2Active\",slug:\"crudd2active\",genre:[],description:\"Crudd2Active \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(a,{...e})}):a(e)}return g(A);})();\n;return Component;"
+  },
+  "_id": "raperi/crudd2active.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/crudd2active.mdx",
+    "sourceFileName": "crudd2active.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/crudd2active"
+  },
+  "type": "Rapper",
+  "url": "/raperi/crudd2active",
+  "canonicalUrl": "https://4rap.cz/raperi/crudd2active"
+}

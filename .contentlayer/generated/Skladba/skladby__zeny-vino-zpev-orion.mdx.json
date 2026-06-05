@@ -1,0 +1,39 @@
+{
+  "title": "Ženy, Víno, Zpěv",
+  "slug": "zeny-vino-zpev-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "kontrafakt",
+    "david-cokolada"
+  ],
+  "featuresNames": [
+    "Kontrafakt",
+    "Dávid Čokoláda"
+  ],
+  "album": "Teritorium Remixy",
+  "albumSlug": "teritorium-remixy",
+  "year": 2007,
+  "genre": [],
+  "duration": "5:11",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ženy, Víno, Zpěv — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(i=l(n,o))||i.enumerable});return e};var _=(e,n,t)=>(t=e!=null?p(f(e)):{},s(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(a({},\"__esModule\",{value:!0}),e);var m=k((D,u)=>{u.exports=_jsx_runtime});var v={};y(v,{default:()=>c,frontmatter:()=>g});var r=_(m()),g={title:\"\\u017Deny, V\\xEDno, Zp\\u011Bv\",slug:\"zeny-vino-zpev-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"kontrafakt\",\"david-cokolada\"],featuresNames:[\"Kontrafakt\",\"D\\xE1vid \\u010Cokol\\xE1da\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"5:11\",trackNumber:11,producers:[],producersNames:[],description:\"\\u017Deny, V\\xEDno, Zp\\u011Bv \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(v);})();\n;return Component;"
+  },
+  "_id": "skladby/zeny-vino-zpev-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/zeny-vino-zpev-orion.mdx",
+    "sourceFileName": "zeny-vino-zpev-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/zeny-vino-zpev-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/zeny-vino-zpev-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/zeny-vino-zpev-orion"
+}

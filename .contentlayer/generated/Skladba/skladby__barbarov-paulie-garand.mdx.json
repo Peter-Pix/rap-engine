@@ -1,0 +1,33 @@
+{
+  "title": "Barbarov",
+  "slug": "barbarov-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "V hlavní roli",
+  "albumSlug": "v-hlavni-roli",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:52",
+  "trackNumber": 15,
+  "producers": [],
+  "producersNames": [],
+  "description": "Barbarov — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of h(r))!x.call(e,t)&&t!==n&&o(e,t,{get:()=>r[t],enumerable:!(s=p(r,t))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?m(b(e)):{},u(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),v=e=>u(o({},\"__esModule\",{value:!0}),e);var i=g((S,l)=>{l.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>j});var a=_(i()),j={title:\"Barbarov\",slug:\"barbarov-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:52\",trackNumber:15,producers:[],producersNames:[],description:\"Barbarov \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return v(M);})();\n;return Component;"
+  },
+  "_id": "skladby/barbarov-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/barbarov-paulie-garand.mdx",
+    "sourceFileName": "barbarov-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/barbarov-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/barbarov-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/barbarov-paulie-garand"
+}

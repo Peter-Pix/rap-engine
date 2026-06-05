@@ -1,0 +1,39 @@
+{
+  "title": "Hra Je Moja",
+  "slug": "hra-je-moja-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "karlo",
+    "jickson"
+  ],
+  "featuresNames": [
+    "Karlo",
+    "Jickson"
+  ],
+  "album": "[Gudlak]",
+  "albumSlug": "gudlak",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:58",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Hra Je Moja — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),g=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},m=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!x.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var k=(e,a,r)=>(r=e!=null?l(j(e)):{},m(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>m(o({},\"__esModule\",{value:!0}),e);var d=f((z,u)=>{u.exports=_jsx_runtime});var M={};g(M,{default:()=>c,frontmatter:()=>b});var n=k(d()),b={title:\"Hra Je Moja\",slug:\"hra-je-moja-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\",\"jickson\"],featuresNames:[\"Karlo\",\"Jickson\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[],duration:\"3:58\",trackNumber:6,producers:[],producersNames:[],description:\"Hra Je Moja \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/hra-je-moja-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hra-je-moja-yzomandias.mdx",
+    "sourceFileName": "hra-je-moja-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hra-je-moja-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hra-je-moja-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/hra-je-moja-yzomandias"
+}

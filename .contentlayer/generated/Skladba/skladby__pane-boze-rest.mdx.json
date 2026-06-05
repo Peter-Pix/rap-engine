@@ -1,0 +1,37 @@
+{
+  "title": "Pane Bože",
+  "slug": "pane-boze-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Střepy",
+  "albumSlug": "strepy",
+  "year": 2013,
+  "genre": [],
+  "duration": "3:45",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pane Bože — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?i(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var p=b((F,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>y});var r=g(p()),y={title:\"Pane Bo\\u017Ee\",slug:\"pane-boze-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[],duration:\"3:45\",trackNumber:17,producers:[],producersNames:[],description:\"Pane Bo\\u017Ee \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/pane-boze-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pane-boze-rest.mdx",
+    "sourceFileName": "pane-boze-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pane-boze-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pane-boze-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/pane-boze-rest"
+}

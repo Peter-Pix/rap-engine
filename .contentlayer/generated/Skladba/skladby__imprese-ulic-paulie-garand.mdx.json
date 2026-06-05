@@ -1,0 +1,33 @@
+{
+  "title": "Imprese ulic",
+  "slug": "imprese-ulic-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Harant",
+  "albumSlug": "harant",
+  "year": 2010,
+  "genre": [],
+  "duration": "3:29",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Imprese ulic — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},o=(e,r,n,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==n&&s(e,a,{get:()=>r[a],enumerable:!(u=d(r,a))||u.enumerable});return e};var b=(e,r,n)=>(n=e!=null?p(x(e)):{},o(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var l=f((k,i)=>{i.exports=_jsx_runtime});var N={};_(N,{default:()=>m,frontmatter:()=>M});var t=b(l()),M={title:\"Imprese ulic\",slug:\"imprese-ulic-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[],duration:\"3:29\",trackNumber:13,producers:[],producersNames:[],description:\"Imprese ulic \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/imprese-ulic-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/imprese-ulic-paulie-garand.mdx",
+    "sourceFileName": "imprese-ulic-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/imprese-ulic-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/imprese-ulic-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/imprese-ulic-paulie-garand"
+}

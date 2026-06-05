@@ -1,0 +1,31 @@
+{
+  "title": "Bite Me",
+  "slug": "bite-me",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "K1-Recordz",
+  "year": 2026,
+  "genre": [],
+  "description": "Bite Me — singl od Maniak (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/39768d025afc5f8479aadc21bf4e681b/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Bite Me"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(c=u(t,a))||c.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(h(e)):{},o(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(i({},\"__esModule\",{value:!0}),e);var d=f((y,s)=>{s.exports=_jsx_runtime});var k={};M(k,{default:()=>l,frontmatter:()=>j});var n=b(d()),j={title:\"Bite Me\",slug:\"bite-me\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"K1-Recordz\",year:2026,genre:[],description:\"Bite Me \\u2014 singl od Maniak (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/39768d025afc5f8479aadc21bf4e681b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bite Me\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "alba/bite-me.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/bite-me.mdx",
+    "sourceFileName": "bite-me.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/bite-me"
+  },
+  "type": "Album",
+  "url": "/alba/bite-me",
+  "canonicalUrl": "https://4rap.cz/alba/bite-me"
+}

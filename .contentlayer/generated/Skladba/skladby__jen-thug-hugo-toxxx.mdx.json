@@ -1,0 +1,33 @@
+{
+  "title": "Jen Thug",
+  "slug": "jen-thug-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bauch Money II",
+  "albumSlug": "bauch-money-ii",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:25",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Jen Thug — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var u=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of l(t))!g.call(e,o)&&o!==r&&u(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?h(p(e)):{},s(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var c=b((N,x)=>{x.exports=_jsx_runtime});var M={};f(M,{default:()=>i,frontmatter:()=>y});var n=_(c()),y={title:\"Jen Thug\",slug:\"jen-thug-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"2:25\",trackNumber:12,producers:[],producersNames:[],description:\"Jen Thug \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/jen-thug-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jen-thug-hugo-toxxx.mdx",
+    "sourceFileName": "jen-thug-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jen-thug-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jen-thug-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/jen-thug-hugo-toxxx"
+}

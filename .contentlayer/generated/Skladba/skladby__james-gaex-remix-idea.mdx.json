@@ -1,0 +1,41 @@
+{
+  "title": "James (Gaex Remix)",
+  "slug": "james-gaex-remix-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "dj-zerwox",
+    "jozef-reznik",
+    "gaex"
+  ],
+  "featuresNames": [
+    "DJ Zerwox",
+    "Jozef Reznik",
+    "Gaex"
+  ],
+  "album": "O beatech a remixech",
+  "albumSlug": "o-beatech-a-remixech",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:10",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "James (Gaex Remix) — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},m=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of p(r))!f.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=l(r,n))||s.enumerable});return e};var j=(e,r,a)=>(a=e!=null?u(h(e)):{},m(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>m(o({},\"__esModule\",{value:!0}),e);var c=b((w,i)=>{i.exports=_jsx_runtime});var k={};g(k,{default:()=>d,frontmatter:()=>z});var t=j(c()),z={title:\"James (Gaex Remix)\",slug:\"james-gaex-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"dj-zerwox\",\"jozef-reznik\",\"gaex\"],featuresNames:[\"DJ Zerwox\",\"Jozef Reznik\",\"Gaex\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[],duration:\"3:10\",trackNumber:16,producers:[],producersNames:[],description:\"James (Gaex Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function x(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(x,{...e})}):x(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "skladby/james-gaex-remix-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/james-gaex-remix-idea.mdx",
+    "sourceFileName": "james-gaex-remix-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/james-gaex-remix-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/james-gaex-remix-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/james-gaex-remix-idea"
+}

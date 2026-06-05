@@ -1,0 +1,37 @@
+{
+  "title": "Kráter",
+  "slug": "krater-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "mvp"
+  ],
+  "featuresNames": [
+    "MVP"
+  ],
+  "album": "Soundtrack",
+  "albumSlug": "soundtrack",
+  "year": 2013,
+  "genre": [],
+  "duration": "3:54",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kráter — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},u=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(s=l(e,a))||s.enumerable});return t};var b=(t,e,n)=>(n=t!=null?i(f(t)):{},u(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),g=t=>u(o({},\"__esModule\",{value:!0}),t);var d=j((M,c)=>{c.exports=_jsx_runtime});var D={};_(D,{default:()=>p,frontmatter:()=>k});var r=b(d()),k={title:\"Kr\\xE1ter\",slug:\"krater-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"mvp\"],featuresNames:[\"MVP\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"3:54\",trackNumber:4,producers:[],producersNames:[],description:\"Kr\\xE1ter \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(m,{...t})}):m(t)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/krater-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/krater-dj-fatte.mdx",
+    "sourceFileName": "krater-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/krater-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/krater-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/krater-dj-fatte"
+}

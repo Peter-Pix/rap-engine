@@ -1,0 +1,45 @@
+{
+  "title": "Boomerang",
+  "slug": "boomerang",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "label": "WM Czech Republic",
+  "year": 2015,
+  "genre": [],
+  "description": "Boomerang — album od Paulie Garand (2015).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/96a89f41a438478b511d915e7fc2432e/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Boomerang (feat. Martin Svátek)",
+    "Hladina (feat. LENNY)",
+    "Nádech (feat. Rest)",
+    "Šípy",
+    "Ve spárech (feat. Tante Elze)",
+    "Gotham (feat. Roseck)",
+    "Kříž",
+    "Labyrint (feat. Pil C)",
+    "L.B.C. (feat. Jakub Děkan)",
+    "Clint Eastwood",
+    "Prdele v plamenech (feat. Separ)",
+    "Padělaný sny",
+    "Za horizont (feat. MC Gey)",
+    "Satori",
+    "Bez pout (feat. LENNY, Idea)"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},l=(e,a,n,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of f(a))!g.call(e,r)&&r!==n&&o(e,r,{get:()=>a[r],enumerable:!(i=u(a,r))||i.enumerable});return e};var C=(e,a,n)=>(n=e!=null?p(h(e)):{},l(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var s=b((k,c)=>{c.exports=_jsx_runtime});var y={};x(y,{default:()=>m,frontmatter:()=>j});var t=C(s()),j={title:\"Boomerang\",slug:\"boomerang\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",label:\"WM Czech Republic\",year:2015,genre:[],description:\"Boomerang \\u2014 album od Paulie Garand (2015).\",image:\"https://cdn-images.dzcdn.net/images/cover/96a89f41a438478b511d915e7fc2432e/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Boomerang (feat. Martin Sv\\xE1tek)\",\"Hladina (feat. LENNY)\",\"N\\xE1dech (feat. Rest)\",\"\\u0160\\xEDpy\",\"Ve sp\\xE1rech (feat. Tante Elze)\",\"Gotham (feat. Roseck)\",\"K\\u0159\\xED\\u017E\",\"Labyrint (feat. Pil C)\",\"L.B.C. (feat. Jakub D\\u011Bkan)\",\"Clint Eastwood\",\"Prdele v plamenech (feat. Separ)\",\"Pad\\u011Blan\\xFD sny\",\"Za horizont (feat. MC Gey)\",\"Satori\",\"Bez pout (feat. LENNY, Idea)\"],publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "alba/boomerang.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/boomerang.mdx",
+    "sourceFileName": "boomerang.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/boomerang"
+  },
+  "type": "Album",
+  "url": "/alba/boomerang",
+  "canonicalUrl": "https://4rap.cz/alba/boomerang"
+}

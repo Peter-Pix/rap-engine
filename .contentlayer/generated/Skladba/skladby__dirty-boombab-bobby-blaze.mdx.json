@@ -1,0 +1,39 @@
+{
+  "title": "Dirty BoomBab",
+  "slug": "dirty-boombab-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [
+    "nico-benz",
+    "g-melody"
+  ],
+  "featuresNames": [
+    "Nico Benz",
+    "G Melody"
+  ],
+  "album": "Dirty BoomBab (feat. Nico Benz & G Melody)",
+  "albumSlug": "dirty-boombab-feat-nico-benz-g-melody",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:51",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Dirty BoomBab — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,B=Object.prototype.hasOwnProperty;var x=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),f=(e,o)=>{for(var n in o)a(e,n,{get:o[n],enumerable:!0})},i=(e,o,n,b)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let r of p(o))!B.call(e,r)&&r!==n&&a(e,r,{get:()=>o[r],enumerable:!(b=u(o,r))||b.enumerable});return e};var h=(e,o,n)=>(n=e!=null?d(y(e)):{},i(o||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var s=x((D,m)=>{m.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>z});var t=h(s()),z={title:\"Dirty BoomBab\",slug:\"dirty-boombab-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"nico-benz\",\"g-melody\"],featuresNames:[\"Nico Benz\",\"G Melody\"],album:\"Dirty BoomBab (feat. Nico Benz & G Melody)\",albumSlug:\"dirty-boombab-feat-nico-benz-g-melody\",year:2024,genre:[],duration:\"3:51\",trackNumber:1,producers:[],producersNames:[],description:\"Dirty BoomBab \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function l(e){let o={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(o.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(o.p,{children:(0,t.jsx)(o.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(_);})();\n;return Component;"
+  },
+  "_id": "skladby/dirty-boombab-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dirty-boombab-bobby-blaze.mdx",
+    "sourceFileName": "dirty-boombab-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dirty-boombab-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dirty-boombab-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/dirty-boombab-bobby-blaze"
+}

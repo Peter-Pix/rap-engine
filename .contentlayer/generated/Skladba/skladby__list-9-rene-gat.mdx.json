@@ -1,0 +1,39 @@
+{
+  "title": "List #9",
+  "slug": "list-9-rene-gat",
+  "rapper": "René Gát",
+  "rapperSlug": "rene-gat",
+  "features": [
+    "bene",
+    "paulie-garand"
+  ],
+  "featuresNames": [
+    "Bené",
+    "Paulie Garand"
+  ],
+  "album": "Pár listov z roku 2009",
+  "albumSlug": "par-listov-z-roku-2009",
+  "year": 2021,
+  "genre": [],
+  "duration": "1:31",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "List #9 — skladba od René Gát.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(g(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var l=b((M,i)=>{i.exports=_jsx_runtime});var G={};f(G,{default:()=>d,frontmatter:()=>k});var r=_(l()),k={title:\"List #9\",slug:\"list-9-rene-gat\",rapper:\"Ren\\xE9 G\\xE1t\",rapperSlug:\"rene-gat\",features:[\"bene\",\"paulie-garand\"],featuresNames:[\"Ben\\xE9\",\"Paulie Garand\"],album:\"P\\xE1r listov z roku 2009\",albumSlug:\"par-listov-z-roku-2009\",year:2021,genre:[],duration:\"1:31\",trackNumber:5,producers:[],producersNames:[],description:\"List #9 \\u2014 skladba od Ren\\xE9 G\\xE1t.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(G);})();\n;return Component;"
+  },
+  "_id": "skladby/list-9-rene-gat.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/list-9-rene-gat.mdx",
+    "sourceFileName": "list-9-rene-gat.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/list-9-rene-gat"
+  },
+  "type": "Skladba",
+  "url": "/skladby/list-9-rene-gat",
+  "canonicalUrl": "https://4rap.cz/skladby/list-9-rene-gat"
+}

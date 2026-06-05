@@ -1,0 +1,33 @@
+{
+  "title": "HEALER",
+  "slug": "healer-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "DOWN4LIFE",
+  "albumSlug": "down4life",
+  "year": 2023,
+  "genre": [],
+  "duration": "1:07",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "HEALER — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(x(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>l(a({},\"__esModule\",{value:!0}),e);var c=j((N,m)=>{m.exports=_jsx_runtime});var C={};_(C,{default:()=>d,frontmatter:()=>E});var r=b(c()),E={title:\"HEALER\",slug:\"healer-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"DOWN4LIFE\",albumSlug:\"down4life\",year:2023,genre:[],duration:\"1:07\",trackNumber:7,producers:[],producersNames:[],description:\"HEALER \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(C);})();\n;return Component;"
+  },
+  "_id": "skladby/healer-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/healer-james-cole.mdx",
+    "sourceFileName": "healer-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/healer-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/healer-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/healer-james-cole"
+}

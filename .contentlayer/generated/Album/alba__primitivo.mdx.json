@@ -1,0 +1,31 @@
+{
+  "title": "Primitivo",
+  "slug": "primitivo",
+  "rapper": "CA$HANOVA BULHAR",
+  "rapperSlug": "ca-hanova-bulhar",
+  "label": "WM Czech Republic",
+  "year": 2019,
+  "genre": [],
+  "description": "Primitivo — singl od CA$HANOVA BULHAR (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/657eee689290ff70223b1cb3ce88c7f6/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Primitivo"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of h(t))!x.call(e,i)&&i!==r&&o(e,i,{get:()=>t[i],enumerable:!(c=u(t,i))||c.enumerable});return e};var f=(e,t,r)=>(r=e!=null?d(g(e)):{},a(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>a(o({},\"__esModule\",{value:!0}),e);var m=A((H,s)=>{s.exports=_jsx_runtime});var v={};b(v,{default:()=>p,frontmatter:()=>j});var n=f(m()),j={title:\"Primitivo\",slug:\"primitivo\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",label:\"WM Czech Republic\",year:2019,genre:[],description:\"Primitivo \\u2014 singl od CA$HANOVA BULHAR (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/657eee689290ff70223b1cb3ce88c7f6/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Primitivo\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(v);})();\n;return Component;"
+  },
+  "_id": "alba/primitivo.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/primitivo.mdx",
+    "sourceFileName": "primitivo.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/primitivo"
+  },
+  "type": "Album",
+  "url": "/alba/primitivo",
+  "canonicalUrl": "https://4rap.cz/alba/primitivo"
+}

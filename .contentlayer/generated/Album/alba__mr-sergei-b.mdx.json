@@ -1,0 +1,32 @@
+{
+  "title": "Mr. Sergei B",
+  "slug": "mr-sergei-b",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2024,
+  "genre": [],
+  "description": "Mr. Sergei B — singl od Sergei Barracuda (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0cc2669d81868e814d99362b8690ffc8/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Mr. Sergei B",
+    "Mr. Sergei B (Instrumental)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var S=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of p(r))!x.call(e,i)&&i!==n&&a(e,i,{get:()=>r[i],enumerable:!(s=u(r,i))||s.enumerable});return e};var M=(e,r,n)=>(n=e!=null?m(h(e)):{},c(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>c(a({},\"__esModule\",{value:!0}),e);var d=S((A,o)=>{o.exports=_jsx_runtime});var j={};b(j,{default:()=>l,frontmatter:()=>_});var t=M(d()),_={title:\"Mr. Sergei B\",slug:\"mr-sergei-b\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2024,genre:[],description:\"Mr. Sergei B \\u2014 singl od Sergei Barracuda (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/0cc2669d81868e814d99362b8690ffc8/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Mr. Sergei B\",\"Mr. Sergei B (Instrumental)\"],publishedAt:\"2026-06-04\"};function g(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(g,{...e})}):g(e)}return f(j);})();\n;return Component;"
+  },
+  "_id": "alba/mr-sergei-b.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/mr-sergei-b.mdx",
+    "sourceFileName": "mr-sergei-b.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/mr-sergei-b"
+  },
+  "type": "Album",
+  "url": "/alba/mr-sergei-b",
+  "canonicalUrl": "https://4rap.cz/alba/mr-sergei-b"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Serial",
+  "slug": "serial-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bauch Money II",
+  "albumSlug": "bauch-money-ii",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:57",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Serial — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(u=d(t,o))||u.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var c=b((N,x)=>{x.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>S});var r=_(c()),S={title:\"Serial\",slug:\"serial-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"3:57\",trackNumber:6,producers:[],producersNames:[],description:\"Serial \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/serial-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/serial-hugo-toxxx.mdx",
+    "sourceFileName": "serial-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/serial-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/serial-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/serial-hugo-toxxx"
+}

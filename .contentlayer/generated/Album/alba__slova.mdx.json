@@ -1,0 +1,44 @@
+{
+  "title": "Slova",
+  "slug": "slova",
+  "rapper": "Bpm",
+  "rapperSlug": "bpm",
+  "label": "WM Czech Republic",
+  "year": 2007,
+  "genre": [],
+  "description": "Slova — album od Bpm (2007).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0e9bdeef477874dc8f9e408bf9c20b4d/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Madam Poezie",
+    "Jarní květy",
+    "Za hranou stolu",
+    "Sonáta",
+    "Kdo nemá co by daroval",
+    "Ostrovy sutin",
+    "Jeden z mnoha",
+    "Nemilostná hrana",
+    "Zbyl mi jen život",
+    "David",
+    "Rozmluva",
+    "Plameňáci",
+    "Dvůr plnej listí",
+    "Černý perly snů"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var a in n)r(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!v.call(e,o)&&o!==a&&r(e,o,{get:()=>n[o],enumerable:!(l=u(n,o))||l.enumerable});return e};var f=(e,n,a)=>(a=e!=null?p(b(e)):{},s(n||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(r({},\"__esModule\",{value:!0}),e);var m=x((M,i)=>{i.exports=_jsx_runtime});var _={};g(_,{default:()=>d,frontmatter:()=>y});var t=f(m()),y={title:\"Slova\",slug:\"slova\",rapper:\"Bpm\",rapperSlug:\"bpm\",label:\"WM Czech Republic\",year:2007,genre:[],description:\"Slova \\u2014 album od Bpm (2007).\",image:\"https://cdn-images.dzcdn.net/images/cover/0e9bdeef477874dc8f9e408bf9c20b4d/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Madam Poezie\",\"Jarn\\xED kv\\u011Bty\",\"Za hranou stolu\",\"Son\\xE1ta\",\"Kdo nem\\xE1 co by daroval\",\"Ostrovy sutin\",\"Jeden z mnoha\",\"Nemilostn\\xE1 hrana\",\"Zbyl mi jen \\u017Eivot\",\"David\",\"Rozmluva\",\"Plame\\u0148\\xE1ci\",\"Dv\\u016Fr plnej list\\xED\",\"\\u010Cern\\xFD perly sn\\u016F\"],publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(_);})();\n;return Component;"
+  },
+  "_id": "alba/slova.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/slova.mdx",
+    "sourceFileName": "slova.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/slova"
+  },
+  "type": "Album",
+  "url": "/alba/slova",
+  "canonicalUrl": "https://4rap.cz/alba/slova"
+}

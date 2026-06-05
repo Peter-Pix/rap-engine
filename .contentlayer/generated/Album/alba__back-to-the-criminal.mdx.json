@@ -1,0 +1,31 @@
+{
+  "title": "Back to the Criminal",
+  "slug": "back-to-the-criminal",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2015,
+  "genre": [],
+  "description": "Back to the Criminal — singl od DJ Fatte (2015).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/9e895f273db83e0f709df38e7f2661c1/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Back to the Criminal"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of u(t))!g.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(c=h(t,a))||c.enumerable});return e};var j=(e,t,r)=>(r=e!=null?p(f(e)):{},o(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(i({},\"__esModule\",{value:!0}),e);var l=x((F,s)=>{s.exports=_jsx_runtime});var k={};b(k,{default:()=>d,frontmatter:()=>C});var n=j(l()),C={title:\"Back to the Criminal\",slug:\"back-to-the-criminal\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2015,genre:[],description:\"Back to the Criminal \\u2014 singl od DJ Fatte (2015).\",image:\"https://cdn-images.dzcdn.net/images/cover/9e895f273db83e0f709df38e7f2661c1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Back to the Criminal\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "alba/back-to-the-criminal.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/back-to-the-criminal.mdx",
+    "sourceFileName": "back-to-the-criminal.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/back-to-the-criminal"
+  },
+  "type": "Album",
+  "url": "/alba/back-to-the-criminal",
+  "canonicalUrl": "https://4rap.cz/alba/back-to-the-criminal"
+}

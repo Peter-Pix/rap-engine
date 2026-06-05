@@ -1,0 +1,37 @@
+{
+  "title": "Jednou bych chtěl mít",
+  "slug": "jednou-bych-chtel-mit-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "mike-trafik"
+  ],
+  "featuresNames": [
+    "Mike Trafik"
+  ],
+  "album": "Teritorium III.",
+  "albumSlug": "teritorium-iii",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:29",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Jednou bych chtěl mít — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!b.call(e,o)&&o!==n&&i(e,o,{get:()=>t[o],enumerable:!(a=h(t,o))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(i({},\"__esModule\",{value:!0}),e);var s=f((I,c)=>{c.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>k});var r=g(s()),k={title:\"Jednou bych cht\\u011Bl m\\xEDt\",slug:\"jednou-bych-chtel-mit-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[],duration:\"3:29\",trackNumber:7,producers:[],producersNames:[],description:\"Jednou bych cht\\u011Bl m\\xEDt \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/jednou-bych-chtel-mit-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jednou-bych-chtel-mit-orion.mdx",
+    "sourceFileName": "jednou-bych-chtel-mit-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jednou-bych-chtel-mit-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jednou-bych-chtel-mit-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/jednou-bych-chtel-mit-orion"
+}

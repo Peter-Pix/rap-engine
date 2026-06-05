@@ -1,0 +1,39 @@
+{
+  "title": "SFT",
+  "slug": "sft-mike-trafik",
+  "rapper": "Mike Trafik",
+  "rapperSlug": "mike-trafik",
+  "features": [
+    "la4",
+    "james-cole"
+  ],
+  "featuresNames": [
+    "LA4",
+    "James Cole"
+  ],
+  "album": "Nadzemí",
+  "albumSlug": "nadzemi",
+  "year": 2012,
+  "genre": [],
+  "duration": "4:02",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "SFT — skladba od Mike Trafik.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(k(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var u=h((F,m)=>{m.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>j});var r=b(u()),j={title:\"SFT\",slug:\"sft-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"la4\",\"james-cole\"],featuresNames:[\"LA4\",\"James Cole\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[],duration:\"4:02\",trackNumber:3,producers:[],producersNames:[],description:\"SFT \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/sft-mike-trafik.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sft-mike-trafik.mdx",
+    "sourceFileName": "sft-mike-trafik.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sft-mike-trafik"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sft-mike-trafik",
+  "canonicalUrl": "https://4rap.cz/skladby/sft-mike-trafik"
+}

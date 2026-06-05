@@ -1,0 +1,33 @@
+{
+  "title": "Asdic (Original Mix)",
+  "slug": "asdic-original-mix-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "No Title",
+  "albumSlug": "no-title",
+  "year": 2014,
+  "genre": [],
+  "duration": "6:00",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Asdic (Original Mix) — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of x(t))!h.call(e,i)&&i!==r&&a(e,i,{get:()=>t[i],enumerable:!(o=p(t,i))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(g(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>s(a({},\"__esModule\",{value:!0}),e);var l=f((A,c)=>{c.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>j});var n=b(l()),j={title:\"Asdic (Original Mix)\",slug:\"asdic-original-mix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[],duration:\"6:00\",trackNumber:3,producers:[],producersNames:[],description:\"Asdic (Original Mix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return N(M);})();\n;return Component;"
+  },
+  "_id": "skladby/asdic-original-mix-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/asdic-original-mix-calin.mdx",
+    "sourceFileName": "asdic-original-mix-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/asdic-original-mix-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/asdic-original-mix-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/asdic-original-mix-calin"
+}

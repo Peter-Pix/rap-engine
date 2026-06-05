@@ -1,0 +1,39 @@
+{
+  "title": "Michael Jackson",
+  "slug": "michael-jackson-if",
+  "rapper": "IF",
+  "rapperSlug": "if",
+  "features": [
+    "idea",
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "Idea",
+    "DJ Fatte"
+  ],
+  "album": "Rep",
+  "albumSlug": "rep",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:10",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Michael Jackson — skladba od IF.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(f(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var u=j((D,i)=>{i.exports=_jsx_runtime});var F={};_(F,{default:()=>l,frontmatter:()=>k});var n=b(u()),k={title:\"Michael Jackson\",slug:\"michael-jackson-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Rep\",albumSlug:\"rep\",year:2016,genre:[],duration:\"3:10\",trackNumber:4,producers:[],producersNames:[],description:\"Michael Jackson \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return g(F);})();\n;return Component;"
+  },
+  "_id": "skladby/michael-jackson-if.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/michael-jackson-if.mdx",
+    "sourceFileName": "michael-jackson-if.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/michael-jackson-if"
+  },
+  "type": "Skladba",
+  "url": "/skladby/michael-jackson-if",
+  "canonicalUrl": "https://4rap.cz/skladby/michael-jackson-if"
+}

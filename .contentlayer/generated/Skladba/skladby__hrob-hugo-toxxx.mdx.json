@@ -1,0 +1,37 @@
+{
+  "title": "Hrob",
+  "slug": "hrob-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [
+    "d-ritch"
+  ],
+  "featuresNames": [
+    "D Ritch"
+  ],
+  "album": "Hrob",
+  "albumSlug": "hrob",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:20",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Hrob — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)s(e,o,{get:t[o],enumerable:!0})},a=(e,t,o,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of l(t))!b.call(e,n)&&n!==o&&s(e,n,{get:()=>t[n],enumerable:!(u=h(t,n))||u.enumerable});return e};var _=(e,t,o)=>(o=e!=null?d(p(e)):{},a(t||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var c=g((N,x)=>{x.exports=_jsx_runtime});var D={};f(D,{default:()=>m,frontmatter:()=>H});var r=_(c()),H={title:\"Hrob\",slug:\"hrob-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"d-ritch\"],featuresNames:[\"D Ritch\"],album:\"Hrob\",albumSlug:\"hrob\",year:2024,genre:[],duration:\"2:20\",trackNumber:1,producers:[],producersNames:[],description:\"Hrob \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/hrob-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hrob-hugo-toxxx.mdx",
+    "sourceFileName": "hrob-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hrob-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hrob-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/hrob-hugo-toxxx"
+}

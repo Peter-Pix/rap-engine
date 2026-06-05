@@ -1,0 +1,39 @@
+{
+  "title": "TAK SA POZERÁM",
+  "slug": "tak-sa-pozeram-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "cis-t",
+    "dyzivv"
+  ],
+  "featuresNames": [
+    "Čis T",
+    "Dyzivv"
+  ],
+  "album": "MAMUTI L.P.",
+  "albumSlug": "mamuti-l-p",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "TAK SA POZERÁM — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(h(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var m=M((v,u)=>{u.exports=_jsx_runtime});var j={};_(j,{default:()=>p,frontmatter:()=>A});var r=b(m()),A={title:\"TAK SA POZER\\xC1M\",slug:\"tak-sa-pozeram-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"dyzivv\"],featuresNames:[\"\\u010Cis T\",\"Dyzivv\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[],duration:\"3:20\",trackNumber:3,producers:[],producersNames:[],description:\"TAK SA POZER\\xC1M \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/tak-sa-pozeram-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/tak-sa-pozeram-orion.mdx",
+    "sourceFileName": "tak-sa-pozeram-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/tak-sa-pozeram-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/tak-sa-pozeram-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/tak-sa-pozeram-orion"
+}

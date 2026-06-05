@@ -1,0 +1,37 @@
+{
+  "title": "Mystery",
+  "slug": "mystery-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "stepan-urban"
+  ],
+  "featuresNames": [
+    "Stepan Urban"
+  ],
+  "album": "Amonit (Deluxe)",
+  "albumSlug": "amonit",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:16",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Mystery — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=c(t,a))||o.enumerable});return e};var f=(e,t,r)=>(r=e!=null?p(h(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var l=g((D,i)=>{i.exports=_jsx_runtime});var M={};y(M,{default:()=>d,frontmatter:()=>j});var n=f(l()),j={title:\"Mystery\",slug:\"mystery-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"stepan-urban\"],featuresNames:[\"Stepan Urban\"],album:\"Amonit (Deluxe)\",albumSlug:\"amonit\",year:2023,genre:[],duration:\"3:16\",trackNumber:6,producers:[],producersNames:[],description:\"Mystery \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/mystery-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/mystery-paulie-garand.mdx",
+    "sourceFileName": "mystery-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/mystery-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/mystery-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/mystery-paulie-garand"
+}

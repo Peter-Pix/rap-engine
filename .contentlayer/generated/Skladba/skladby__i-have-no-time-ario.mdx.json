@@ -1,0 +1,33 @@
+{
+  "title": "I Have No Time",
+  "slug": "i-have-no-time-ario",
+  "rapper": "Ario",
+  "rapperSlug": "ario",
+  "features": [],
+  "featuresNames": [],
+  "album": "Young Guns 03.",
+  "albumSlug": "young-guns-03",
+  "year": 2019,
+  "genre": [],
+  "duration": "7:24",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "I Have No Time — skladba od Ario.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!g.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var m=f((A,i)=>{i.exports=_jsx_runtime});var v={};_(v,{default:()=>d,frontmatter:()=>N});var n=b(m()),N={title:\"I Have No Time\",slug:\"i-have-no-time-ario\",rapper:\"Ario\",rapperSlug:\"ario\",features:[],featuresNames:[],album:\"Young Guns 03.\",albumSlug:\"young-guns-03\",year:2019,genre:[],duration:\"7:24\",trackNumber:3,producers:[],producersNames:[],description:\"I Have No Time \\u2014 skladba od Ario.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/i-have-no-time-ario.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/i-have-no-time-ario.mdx",
+    "sourceFileName": "i-have-no-time-ario.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/i-have-no-time-ario"
+  },
+  "type": "Skladba",
+  "url": "/skladby/i-have-no-time-ario",
+  "canonicalUrl": "https://4rap.cz/skladby/i-have-no-time-ario"
+}

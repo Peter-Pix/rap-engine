@@ -1,0 +1,41 @@
+{
+  "title": "Automat",
+  "slug": "automat-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "batrs",
+    "dom",
+    "ridig"
+  ],
+  "featuresNames": [
+    "Batrs",
+    "Dom",
+    "Ridig"
+  ],
+  "album": "O beatech a lidech",
+  "albumSlug": "o-beatech-a-lidech",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:24",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Automat — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},d=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!b.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?l(x(e)):{},d(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var u=g((N,i)=>{i.exports=_jsx_runtime});var D={};f(D,{default:()=>m,frontmatter:()=>A});var r=_(u()),A={title:\"Automat\",slug:\"automat-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"batrs\",\"dom\",\"ridig\"],featuresNames:[\"Batrs\",\"Dom\",\"Ridig\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[],duration:\"3:24\",trackNumber:12,producers:[],producersNames:[],description:\"Automat \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/automat-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/automat-idea.mdx",
+    "sourceFileName": "automat-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/automat-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/automat-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/automat-idea"
+}

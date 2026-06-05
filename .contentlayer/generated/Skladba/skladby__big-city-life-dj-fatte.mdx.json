@@ -1,0 +1,39 @@
+{
+  "title": "Big City Life",
+  "slug": "big-city-life-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "daniel",
+    "yoga-spank"
+  ],
+  "featuresNames": [
+    "Daniel",
+    "Yoga Spank"
+  ],
+  "album": "Fade In",
+  "albumSlug": "fade-in",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:23",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Big City Life — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of f(t))!x.call(e,r)&&r!==a&&i(e,r,{get:()=>t[r],enumerable:!(o=p(t,r))||o.enumerable});return e};var j=(e,t,a)=>(a=e!=null?m(g(e)):{},s(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var u=h((k,d)=>{d.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>y});var n=j(u()),y={title:\"Big City Life\",slug:\"big-city-life-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"daniel\",\"yoga-spank\"],featuresNames:[\"Daniel\",\"Yoga Spank\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[],duration:\"3:23\",trackNumber:9,producers:[],producersNames:[],description:\"Big City Life \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(D);})();\n;return Component;"
+  },
+  "_id": "skladby/big-city-life-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/big-city-life-dj-fatte.mdx",
+    "sourceFileName": "big-city-life-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/big-city-life-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/big-city-life-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/big-city-life-dj-fatte"
+}

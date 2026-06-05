@@ -1,0 +1,33 @@
+{
+  "title": "Play",
+  "slug": "play-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [],
+  "featuresNames": [],
+  "album": "Nirvana",
+  "albumSlug": "nirvana",
+  "year": 2017,
+  "genre": [],
+  "duration": "3:04",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Play — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},u=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of x(a))!g.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=m(a,t))||s.enumerable});return e};var b=(e,a,r)=>(r=e!=null?p(h(e)):{},u(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((M,l)=>{l.exports=_jsx_runtime});var N={};_(N,{default:()=>c,frontmatter:()=>y});var n=b(i()),y={title:\"Play\",slug:\"play-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"3:04\",trackNumber:8,producers:[],producersNames:[],description:\"Play \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/play-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/play-paulie-garand.mdx",
+    "sourceFileName": "play-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/play-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/play-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/play-paulie-garand"
+}

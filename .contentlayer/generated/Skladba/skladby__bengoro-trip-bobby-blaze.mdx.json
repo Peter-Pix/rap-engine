@@ -1,0 +1,39 @@
+{
+  "title": "Bengoro Trip",
+  "slug": "bengoro-trip-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [
+    "feri",
+    "rytmus"
+  ],
+  "featuresNames": [
+    "Feri",
+    "Rytmus"
+  ],
+  "album": "Bengoro Trip",
+  "albumSlug": "bengoro-trip",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:03",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bengoro Trip — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of d(r))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=c(r,o))||s.enumerable});return e};var y=(e,r,n)=>(n=e!=null?m(g(e)):{},i(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),B=e=>i(a({},\"__esModule\",{value:!0}),e);var b=h((F,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>_});var t=y(b()),_={title:\"Bengoro Trip\",slug:\"bengoro-trip-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"feri\",\"rytmus\"],featuresNames:[\"Feri\",\"Rytmus\"],album:\"Bengoro Trip\",albumSlug:\"bengoro-trip\",year:2023,genre:[],duration:\"3:03\",trackNumber:1,producers:[],producersNames:[],description:\"Bengoro Trip \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function p(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return B(j);})();\n;return Component;"
+  },
+  "_id": "skladby/bengoro-trip-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bengoro-trip-bobby-blaze.mdx",
+    "sourceFileName": "bengoro-trip-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bengoro-trip-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bengoro-trip-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/bengoro-trip-bobby-blaze"
+}

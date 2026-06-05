@@ -1,0 +1,31 @@
+{
+  "title": "Headshot",
+  "slug": "headshot",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "JOG",
+  "year": 2023,
+  "genre": [],
+  "description": "Headshot — singl od Maniak (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/bb8869abadb503ea7acf27e2ecac4d35/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Headshot"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!x.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=p(t,r))||o.enumerable});return e};var f=(e,t,a)=>(a=e!=null?h(g(e)):{},c(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var d=b((y,i)=>{i.exports=_jsx_runtime});var k={};_(k,{default:()=>m,frontmatter:()=>M});var n=f(d()),M={title:\"Headshot\",slug:\"headshot\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"JOG\",year:2023,genre:[],description:\"Headshot \\u2014 singl od Maniak (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/bb8869abadb503ea7acf27e2ecac4d35/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Headshot\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/headshot.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/headshot.mdx",
+    "sourceFileName": "headshot.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/headshot"
+  },
+  "type": "Album",
+  "url": "/alba/headshot",
+  "canonicalUrl": "https://4rap.cz/alba/headshot"
+}

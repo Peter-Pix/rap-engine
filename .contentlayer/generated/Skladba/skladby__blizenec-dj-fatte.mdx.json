@@ -1,0 +1,37 @@
+{
+  "title": "Blíženec",
+  "slug": "blizenec-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "regie-257"
+  ],
+  "featuresNames": [
+    "Regie 257"
+  ],
+  "album": "Řev",
+  "albumSlug": "rev",
+  "year": 2024,
+  "genre": [],
+  "duration": "4:02",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Blíženec — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?m(f(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var i=g((N,u)=>{u.exports=_jsx_runtime});var F={};b(F,{default:()=>d,frontmatter:()=>D});var n=j(i()),D={title:\"Bl\\xED\\u017Eenec\",slug:\"blizenec-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"\\u0158ev\",albumSlug:\"rev\",year:2024,genre:[],duration:\"4:02\",trackNumber:11,producers:[],producersNames:[],description:\"Bl\\xED\\u017Eenec \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(F);})();\n;return Component;"
+  },
+  "_id": "skladby/blizenec-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/blizenec-dj-fatte.mdx",
+    "sourceFileName": "blizenec-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/blizenec-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/blizenec-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/blizenec-dj-fatte"
+}

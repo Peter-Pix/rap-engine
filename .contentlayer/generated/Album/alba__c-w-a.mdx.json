@@ -1,0 +1,42 @@
+{
+  "title": "C.W.A",
+  "slug": "c-w-a",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2025,
+  "genre": [],
+  "description": "C.W.A — album od Hugo Toxxx (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a2ffce1a7b4cfa01d9b649fd226b72cb/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "S&P500",
+    "Plague",
+    "Fax",
+    "C.W.A",
+    "Coochie Tahák",
+    "Scuba",
+    "Domotola",
+    "SRO",
+    "Ghostwriter",
+    "Joystick",
+    "OF",
+    "Duolingo"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},i=(e,t,o,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!h.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(c=m(t,r))||c.enumerable});return e};var S=(e,t,o)=>(o=e!=null?d(p(e)):{},i(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var l=b((D,s)=>{s.exports=_jsx_runtime});var A={};f(A,{default:()=>x,frontmatter:()=>j});var n=S(l()),j={title:\"C.W.A\",slug:\"c-w-a\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2025,genre:[],description:\"C.W.A \\u2014 album od Hugo Toxxx (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/a2ffce1a7b4cfa01d9b649fd226b72cb/1000x1000-000000-80-0-0.jpg\",tracklist:[\"S&P500\",\"Plague\",\"Fax\",\"C.W.A\",\"Coochie Tah\\xE1k\",\"Scuba\",\"Domotola\",\"SRO\",\"Ghostwriter\",\"Joystick\",\"OF\",\"Duolingo\"],publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function x(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(A);})();\n;return Component;"
+  },
+  "_id": "alba/c-w-a.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/c-w-a.mdx",
+    "sourceFileName": "c-w-a.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/c-w-a"
+  },
+  "type": "Album",
+  "url": "/alba/c-w-a",
+  "canonicalUrl": "https://4rap.cz/alba/c-w-a"
+}

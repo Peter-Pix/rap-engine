@@ -1,0 +1,37 @@
+{
+  "title": "Crash out Maniak",
+  "slug": "crash-out-maniak-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "syan"
+  ],
+  "featuresNames": [
+    "Syan"
+  ],
+  "album": "Crash out Maniak (feat. Syan)",
+  "albumSlug": "crash-out-maniak-feat-syan",
+  "year": 2025,
+  "genre": [],
+  "duration": "1:46",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Crash out Maniak — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),M=(a,n)=>{for(var t in n)s(a,t,{get:n[t],enumerable:!0})},u=(a,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(a,r)&&r!==t&&s(a,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return a};var _=(a,n,t)=>(t=a!=null?l(k(a)):{},u(n||!a||!a.__esModule?s(t,\"default\",{value:a,enumerable:!0}):t,a)),b=a=>u(s({},\"__esModule\",{value:!0}),a);var m=f((C,i)=>{i.exports=_jsx_runtime});var y={};M(y,{default:()=>d,frontmatter:()=>g});var e=_(m()),g={title:\"Crash out Maniak\",slug:\"crash-out-maniak-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"syan\"],featuresNames:[\"Syan\"],album:\"Crash out Maniak (feat. Syan)\",albumSlug:\"crash-out-maniak-feat-syan\",year:2025,genre:[],duration:\"1:46\",trackNumber:1,producers:[],producersNames:[],description:\"Crash out Maniak \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(a){let n={em:\"em\",h2:\"h2\",p:\"p\",...a.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,e.jsx)(n.p,{children:(0,e.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(a={}){let{wrapper:n}=a.components||{};return n?(0,e.jsx)(n,{...a,children:(0,e.jsx)(c,{...a})}):c(a)}return b(y);})();\n;return Component;"
+  },
+  "_id": "skladby/crash-out-maniak-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/crash-out-maniak-maniak.mdx",
+    "sourceFileName": "crash-out-maniak-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/crash-out-maniak-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/crash-out-maniak-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/crash-out-maniak-maniak"
+}

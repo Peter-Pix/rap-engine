@@ -1,0 +1,41 @@
+{
+  "title": "Asgard",
+  "slug": "asgard-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [
+    "ben-cristovao",
+    "kojo",
+    "stein27"
+  ],
+  "featuresNames": [
+    "Ben Cristovao",
+    "Kojo",
+    "Stein27"
+  ],
+  "album": "POPSTAR",
+  "albumSlug": "popstar",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:06",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Asgard — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?m(g(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(a({},\"__esModule\",{value:!0}),e);var u=b((A,i)=>{i.exports=_jsx_runtime});var N={};f(N,{default:()=>l,frontmatter:()=>C});var r=j(u()),C={title:\"Asgard\",slug:\"asgard-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"ben-cristovao\",\"kojo\",\"stein27\"],featuresNames:[\"Ben Cristovao\",\"Kojo\",\"Stein27\"],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"3:06\",trackNumber:10,producers:[],producersNames:[],description:\"Asgard \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(N);})();\n;return Component;"
+  },
+  "_id": "skladby/asgard-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/asgard-calin.mdx",
+    "sourceFileName": "asgard-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/asgard-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/asgard-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/asgard-calin"
+}

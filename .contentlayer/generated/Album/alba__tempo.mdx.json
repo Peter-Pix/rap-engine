@@ -1,0 +1,42 @@
+{
+  "title": "Tempo",
+  "slug": "tempo",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "label": "WM Czech Republic",
+  "year": 2019,
+  "genre": [],
+  "description": "Tempo — album od Idea (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3b9ef00dd304a3fdbbda4da6278e2c38/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Sme to my",
+    "Signal",
+    "Identita (feat. Boy Wonder)",
+    "NRG",
+    "Piko 1",
+    "Piko 2",
+    "Piko 3",
+    "Parket",
+    "Independent (feat. Pain)",
+    "Free Wifi",
+    "S tebou / vedle tebe (feat. Laura Weng)",
+    "Neboj se tmy"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},d=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!g.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(i=u(t,o))||i.enumerable});return e};var j=(e,t,a)=>(a=e!=null?l(f(e)):{},d(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>d(r({},\"__esModule\",{value:!0}),e);var m=h((S,c)=>{c.exports=_jsx_runtime});var y={};x(y,{default:()=>p,frontmatter:()=>k});var n=j(m()),k={title:\"Tempo\",slug:\"tempo\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2019,genre:[],description:\"Tempo \\u2014 album od Idea (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/3b9ef00dd304a3fdbbda4da6278e2c38/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sme to my\",\"Signal\",\"Identita (feat. Boy Wonder)\",\"NRG\",\"Piko 1\",\"Piko 2\",\"Piko 3\",\"Parket\",\"Independent (feat. Pain)\",\"Free Wifi\",\"S tebou / vedle tebe (feat. Laura Weng)\",\"Neboj se tmy\"],publishedAt:\"2026-06-04\"};function s(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(s,{...e})}):s(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "alba/tempo.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/tempo.mdx",
+    "sourceFileName": "tempo.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/tempo"
+  },
+  "type": "Album",
+  "url": "/alba/tempo",
+  "canonicalUrl": "https://4rap.cz/alba/tempo"
+}

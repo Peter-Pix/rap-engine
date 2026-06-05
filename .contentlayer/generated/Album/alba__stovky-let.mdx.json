@@ -1,0 +1,31 @@
+{
+  "title": "Stovky let",
+  "slug": "stovky-let",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2025,
+  "genre": [],
+  "description": "Stovky let — singl od CÂLIN (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/1ed5045510453c5e9748e0c77ea66565/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Stovky let"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==r&&c(e,o,{get:()=>t[o],enumerable:!(s=u(t,o))||s.enumerable});return e};var y=(e,t,r)=>(r=e!=null?m(g(e)):{},l(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>l(c({},\"__esModule\",{value:!0}),e);var i=_((C,a)=>{a.exports=_jsx_runtime});var k={};j(k,{default:()=>d,frontmatter:()=>f});var n=y(i()),f={title:\"Stovky let\",slug:\"stovky-let\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2025,genre:[],description:\"Stovky let \\u2014 singl od C\\xC2LIN (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/1ed5045510453c5e9748e0c77ea66565/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Stovky let\"],publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "alba/stovky-let.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/stovky-let.mdx",
+    "sourceFileName": "stovky-let.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/stovky-let"
+  },
+  "type": "Album",
+  "url": "/alba/stovky-let",
+  "canonicalUrl": "https://4rap.cz/alba/stovky-let"
+}

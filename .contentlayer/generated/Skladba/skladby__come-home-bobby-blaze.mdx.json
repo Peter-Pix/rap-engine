@@ -1,0 +1,33 @@
+{
+  "title": "Come Home",
+  "slug": "come-home-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "The Prodigal Son",
+  "albumSlug": "the-prodigal-son",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:56",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Come Home — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of p(t))!x.call(e,n)&&n!==r&&a(e,n,{get:()=>t[n],enumerable:!(s=i(t,n))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>m(a({},\"__esModule\",{value:!0}),e);var u=g((C,l)=>{l.exports=_jsx_runtime});var z={};f(z,{default:()=>b,frontmatter:()=>j});var o=_(u()),j={title:\"Come Home\",slug:\"come-home-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"3:56\",trackNumber:13,producers:[],producersNames:[],description:\"Come Home \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(c,{...e})}):c(e)}return y(z);})();\n;return Component;"
+  },
+  "_id": "skladby/come-home-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/come-home-bobby-blaze.mdx",
+    "sourceFileName": "come-home-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/come-home-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/come-home-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/come-home-bobby-blaze"
+}

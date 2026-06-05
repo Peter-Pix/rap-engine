@@ -1,0 +1,37 @@
+{
+  "title": "Procházka se psem",
+  "slug": "prochazka-se-psem-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "yoga-spank"
+  ],
+  "featuresNames": [
+    "Yoga Spank"
+  ],
+  "album": "Koupili jsme Boha, aby za nás makal",
+  "albumSlug": "koupili-jsme-boha-aby-za-nas-makal",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:09",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Procházka se psem — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(o=d(t,r))||o.enumerable});return e};var j=(e,t,n)=>(n=e!=null?l(k(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var u=b((D,p)=>{p.exports=_jsx_runtime});var y={};f(y,{default:()=>i,frontmatter:()=>_});var a=j(u()),_={title:\"Proch\\xE1zka se psem\",slug:\"prochazka-se-psem-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[],duration:\"3:09\",trackNumber:4,producers:[],producersNames:[],description:\"Proch\\xE1zka se psem \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/prochazka-se-psem-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/prochazka-se-psem-dj-fatte.mdx",
+    "sourceFileName": "prochazka-se-psem-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/prochazka-se-psem-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/prochazka-se-psem-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/prochazka-se-psem-dj-fatte"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "I'm Fine",
+  "slug": "i-m-fine",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "label": "Decky",
+  "year": 2022,
+  "genre": [],
+  "description": "I'm Fine — singl od Decky (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/01d5103e70986f1003684ad7ca92a1ca/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "I'm Fine"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of g(n))!x.call(e,c)&&c!==r&&i(e,c,{get:()=>n[c],enumerable:!(a=u(n,c))||a.enumerable});return e};var j=(e,n,r)=>(r=e!=null?p(h(e)):{},s(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>s(i({},\"__esModule\",{value:!0}),e);var m=f((b,o)=>{o.exports=_jsx_runtime});var D={};_(D,{default:()=>l,frontmatter:()=>k});var t=j(m()),k={title:\"I'm Fine\",slug:\"i-m-fine\",rapper:\"Decky\",rapperSlug:\"decky\",label:\"Decky\",year:2022,genre:[],description:\"I'm Fine \\u2014 singl od Decky (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/01d5103e70986f1003684ad7ca92a1ca/1000x1000-000000-80-0-0.jpg\",tracklist:[\"I'm Fine\"],publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return y(D);})();\n;return Component;"
+  },
+  "_id": "alba/i-m-fine.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/i-m-fine.mdx",
+    "sourceFileName": "i-m-fine.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/i-m-fine"
+  },
+  "type": "Album",
+  "url": "/alba/i-m-fine",
+  "canonicalUrl": "https://4rap.cz/alba/i-m-fine"
+}

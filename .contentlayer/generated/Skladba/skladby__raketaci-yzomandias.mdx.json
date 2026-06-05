@@ -1,0 +1,33 @@
+{
+  "title": "Rakeťáci",
+  "slug": "raketaci-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "J. Eden",
+  "albumSlug": "j-eden",
+  "year": 2020,
+  "genre": [],
+  "duration": "1:12",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rakeťáci — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(h(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var d=_((M,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>u,frontmatter:()=>k});var t=g(d()),k={title:\"Rake\\u0165\\xE1ci\",slug:\"raketaci-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden\",albumSlug:\"j-eden\",year:2020,genre:[],duration:\"1:12\",trackNumber:9,producers:[],producersNames:[],description:\"Rake\\u0165\\xE1ci \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/raketaci-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/raketaci-yzomandias.mdx",
+    "sourceFileName": "raketaci-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/raketaci-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/raketaci-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/raketaci-yzomandias"
+}

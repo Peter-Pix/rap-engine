@@ -1,0 +1,33 @@
+{
+  "title": "Nepochybuj",
+  "slug": "nepochybuj-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [],
+  "featuresNames": [],
+  "album": "F4R4on",
+  "albumSlug": "f4r4on",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:13",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nepochybuj — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=i(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var p=f((D,u)=>{u.exports=_jsx_runtime});var N={};j(N,{default:()=>l,frontmatter:()=>y});var n=_(p()),y={title:\"Nepochybuj\",slug:\"nepochybuj-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"F4R4on\",albumSlug:\"f4r4on\",year:2019,genre:[],duration:\"3:13\",trackNumber:4,producers:[],producersNames:[],description:\"Nepochybuj \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/nepochybuj-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nepochybuj-lvcas-dope.mdx",
+    "sourceFileName": "nepochybuj-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nepochybuj-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nepochybuj-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/nepochybuj-lvcas-dope"
+}

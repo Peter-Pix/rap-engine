@@ -1,0 +1,37 @@
+{
+  "title": "Déšť",
+  "slug": "dest-sergei-barracuda",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "features": [
+    "pil-c"
+  ],
+  "featuresNames": [
+    "Pil C"
+  ],
+  "album": "Medusa II",
+  "albumSlug": "medusa-ii",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:01",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Déšť — skladba od Sergei Barracuda.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},o=(e,r,a,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!h.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(u=p(r,n))||u.enumerable});return e};var _=(e,r,a)=>(a=e!=null?l(x(e)):{},o(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var i=b((C,c)=>{c.exports=_jsx_runtime});var D={};f(D,{default:()=>m,frontmatter:()=>S});var t=_(i()),S={title:\"D\\xE9\\u0161\\u0165\",slug:\"dest-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pil-c\"],featuresNames:[\"Pil C\"],album:\"Medusa II\",albumSlug:\"medusa-ii\",year:2024,genre:[],duration:\"3:01\",trackNumber:6,producers:[],producersNames:[],description:\"D\\xE9\\u0161\\u0165 \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/dest-sergei-barracuda.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dest-sergei-barracuda.mdx",
+    "sourceFileName": "dest-sergei-barracuda.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dest-sergei-barracuda"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dest-sergei-barracuda",
+  "canonicalUrl": "https://4rap.cz/skladby/dest-sergei-barracuda"
+}

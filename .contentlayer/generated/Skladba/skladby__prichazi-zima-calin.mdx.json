@@ -1,0 +1,33 @@
+{
+  "title": "Přichází zima",
+  "slug": "prichazi-zima-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "Přichází zima",
+  "albumSlug": "prichazi-zima",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:12",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Přichází zima — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!z.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(c=d(t,a))||c.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(x(e)):{},o(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>o(i({},\"__esModule\",{value:!0}),e);var m=f((L,s)=>{s.exports=_jsx_runtime});var N={};_(N,{default:()=>l,frontmatter:()=>j});var r=b(m()),j={title:\"P\\u0159ich\\xE1z\\xED zima\",slug:\"prichazi-zima-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"P\\u0159ich\\xE1z\\xED zima\",albumSlug:\"prichazi-zima\",year:2018,genre:[],duration:\"3:12\",trackNumber:1,producers:[],producersNames:[],description:\"P\\u0159ich\\xE1z\\xED zima \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/prichazi-zima-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/prichazi-zima-calin.mdx",
+    "sourceFileName": "prichazi-zima-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/prichazi-zima-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/prichazi-zima-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/prichazi-zima-calin"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Renegade",
+  "slug": "renegade-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [
+    "robis-hood",
+    "dokkeytino"
+  ],
+  "featuresNames": [
+    "Robis Hood",
+    "Dokkeytino"
+  ],
+  "album": "JUSTiCE44 (Mixtape1)",
+  "albumSlug": "justice44-mixtape1",
+  "year": 2017,
+  "genre": [],
+  "duration": "4:18",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Renegade — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},c=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!g.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=l(t,r))||s.enumerable});return e};var _=(e,t,o)=>(o=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var i=b((y,d)=>{d.exports=_jsx_runtime});var D={};f(D,{default:()=>u,frontmatter:()=>k});var n=_(i()),k={title:\"Renegade\",slug:\"renegade-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"robis-hood\",\"dokkeytino\"],featuresNames:[\"Robis Hood\",\"Dokkeytino\"],album:\"JUSTiCE44 (Mixtape1)\",albumSlug:\"justice44-mixtape1\",year:2017,genre:[],duration:\"4:18\",trackNumber:5,producers:[],producersNames:[],description:\"Renegade \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/renegade-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/renegade-lvcas-dope.mdx",
+    "sourceFileName": "renegade-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/renegade-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/renegade-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/renegade-lvcas-dope"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Scam",
+  "slug": "scam-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [
+    "huclberry"
+  ],
+  "featuresNames": [
+    "Huclberry"
+  ],
+  "album": "Scam",
+  "albumSlug": "scam",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:19",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Scam — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),S=e=>u(a({},\"__esModule\",{value:!0}),e);var m=b((M,c)=>{c.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>j});var r=_(m()),j={title:\"Scam\",slug:\"scam-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"huclberry\"],featuresNames:[\"Huclberry\"],album:\"Scam\",albumSlug:\"scam\",year:2023,genre:[],duration:\"2:19\",trackNumber:1,producers:[],producersNames:[],description:\"Scam \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function x(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(x,{...e})}):x(e)}return S(y);})();\n;return Component;"
+  },
+  "_id": "skladby/scam-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/scam-hugo-toxxx.mdx",
+    "sourceFileName": "scam-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/scam-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/scam-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/scam-hugo-toxxx"
+}

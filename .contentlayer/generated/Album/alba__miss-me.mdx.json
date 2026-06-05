@@ -1,0 +1,31 @@
+{
+  "title": "Miss Me",
+  "slug": "miss-me",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "Jayworks Entertainment",
+  "year": 2016,
+  "genre": [],
+  "description": "Miss Me — singl od Maniak (2016).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/bed03419065c8f28173d6d9726f34d9b/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Miss Me"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var M=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var s in n)a(e,s,{get:n[s],enumerable:!0})},o=(e,n,s,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of M(n))!h.call(e,r)&&r!==s&&a(e,r,{get:()=>n[r],enumerable:!(i=u(n,r))||i.enumerable});return e};var _=(e,n,s)=>(s=e!=null?p(g(e)):{},o(n||!e||!e.__esModule?a(s,\"default\",{value:e,enumerable:!0}):s,e)),b=e=>o(a({},\"__esModule\",{value:!0}),e);var m=x((w,c)=>{c.exports=_jsx_runtime});var k={};f(k,{default:()=>l,frontmatter:()=>j});var t=_(m()),j={title:\"Miss Me\",slug:\"miss-me\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"Jayworks Entertainment\",year:2016,genre:[],description:\"Miss Me \\u2014 singl od Maniak (2016).\",image:\"https://cdn-images.dzcdn.net/images/cover/bed03419065c8f28173d6d9726f34d9b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Miss Me\"],publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "alba/miss-me.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/miss-me.mdx",
+    "sourceFileName": "miss-me.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/miss-me"
+  },
+  "type": "Album",
+  "url": "/alba/miss-me",
+  "canonicalUrl": "https://4rap.cz/alba/miss-me"
+}

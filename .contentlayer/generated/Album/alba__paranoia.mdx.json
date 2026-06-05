@@ -1,0 +1,36 @@
+{
+  "title": "Paranoia",
+  "slug": "paranoia",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2024,
+  "genre": [],
+  "description": "Paranoia — EP od Yzomandias (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/41dcfa2ecf574edcc5001c978f9df559/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "PARANOIA",
+    "až bude hořet",
+    "BIG MAC",
+    "chceš to fakt nebo jen asi?",
+    "GANG GANG",
+    "lepšie ako heroooin"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)i(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!g.call(e,r)&&r!==a&&i(e,r,{get:()=>n[r],enumerable:!(o=u(n,r))||o.enumerable});return e};var A=(e,n,a)=>(a=e!=null?p(f(e)):{},s(n||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var d=x((z,c)=>{c.exports=_jsx_runtime});var G={};b(G,{default:()=>m,frontmatter:()=>_});var t=A(d()),_={title:\"Paranoia\",slug:\"paranoia\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2024,genre:[],description:\"Paranoia \\u2014 EP od Yzomandias (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/41dcfa2ecf574edcc5001c978f9df559/1000x1000-000000-80-0-0.jpg\",tracklist:[\"PARANOIA\",\"a\\u017E bude ho\\u0159et\",\"BIG MAC\",\"chce\\u0161 to fakt nebo jen asi?\",\"GANG GANG\",\"lep\\u0161ie ako heroooin\"],publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(G);})();\n;return Component;"
+  },
+  "_id": "alba/paranoia.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/paranoia.mdx",
+    "sourceFileName": "paranoia.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/paranoia"
+  },
+  "type": "Album",
+  "url": "/alba/paranoia",
+  "canonicalUrl": "https://4rap.cz/alba/paranoia"
+}

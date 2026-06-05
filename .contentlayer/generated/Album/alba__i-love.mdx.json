@@ -1,0 +1,34 @@
+{
+  "title": "I Love",
+  "slug": "i-love",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "Deeperfect Shift",
+  "year": 2021,
+  "genre": [],
+  "description": "I Love — EP od James Cole (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a65959e459978bcc3ad09f6ca0d097f3/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "I Love (Original Mix)",
+    "I Love (Supernova Remix)",
+    "I Love (Raumakustik Remix)",
+    "I Love (Alex M Italy Remix)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),v=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},s=(e,t,o,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!g.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(i=u(t,r))||i.enumerable});return e};var j=(e,t,o)=>(o=e!=null?d(h(e)):{},s(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),I=e=>s(a({},\"__esModule\",{value:!0}),e);var l=f((M,c)=>{c.exports=_jsx_runtime});var _={};v(_,{default:()=>p,frontmatter:()=>L});var n=j(l()),L={title:\"I Love\",slug:\"i-love\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Deeperfect Shift\",year:2021,genre:[],description:\"I Love \\u2014 EP od James Cole (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/a65959e459978bcc3ad09f6ca0d097f3/1000x1000-000000-80-0-0.jpg\",tracklist:[\"I Love (Original Mix)\",\"I Love (Supernova Remix)\",\"I Love (Raumakustik Remix)\",\"I Love (Alex M Italy Remix)\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return I(_);})();\n;return Component;"
+  },
+  "_id": "alba/i-love.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/i-love.mdx",
+    "sourceFileName": "i-love.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/i-love"
+  },
+  "type": "Album",
+  "url": "/alba/i-love",
+  "canonicalUrl": "https://4rap.cz/alba/i-love"
+}

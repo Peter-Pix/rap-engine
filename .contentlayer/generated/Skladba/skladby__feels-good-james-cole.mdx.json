@@ -1,0 +1,33 @@
+{
+  "title": "Feels Good",
+  "slug": "feels-good-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Feels Good",
+  "albumSlug": "feels-good",
+  "year": 2022,
+  "genre": [],
+  "duration": "7:47",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Feels Good — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!h.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(a=p(t,n))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(f(e)):{},l(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>l(s({},\"__esModule\",{value:!0}),e);var c=g((M,m)=>{m.exports=_jsx_runtime});var C={};j(C,{default:()=>u,frontmatter:()=>F});var o=_(c()),F={title:\"Feels Good\",slug:\"feels-good-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Feels Good\",albumSlug:\"feels-good\",year:2022,genre:[],duration:\"7:47\",trackNumber:1,producers:[],producersNames:[],description:\"Feels Good \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(d,{...e})}):d(e)}return b(C);})();\n;return Component;"
+  },
+  "_id": "skladby/feels-good-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/feels-good-james-cole.mdx",
+    "sourceFileName": "feels-good-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/feels-good-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/feels-good-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/feels-good-james-cole"
+}

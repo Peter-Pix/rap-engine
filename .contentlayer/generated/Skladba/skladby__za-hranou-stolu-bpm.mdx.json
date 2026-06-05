@@ -1,0 +1,33 @@
+{
+  "title": "Za hranou stolu",
+  "slug": "za-hranou-stolu-bpm",
+  "rapper": "Bpm",
+  "rapperSlug": "bpm",
+  "features": [],
+  "featuresNames": [],
+  "album": "Slova",
+  "albumSlug": "slova",
+  "year": 2007,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Za hranou stolu — skladba od Bpm.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(x(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var l=f((k,m)=>{m.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>S});var r=g(l()),S={title:\"Za hranou stolu\",slug:\"za-hranou-stolu-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[],duration:\"3:20\",trackNumber:3,producers:[],producersNames:[],description:\"Za hranou stolu \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/za-hranou-stolu-bpm.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/za-hranou-stolu-bpm.mdx",
+    "sourceFileName": "za-hranou-stolu-bpm.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/za-hranou-stolu-bpm"
+  },
+  "type": "Skladba",
+  "url": "/skladby/za-hranou-stolu-bpm",
+  "canonicalUrl": "https://4rap.cz/skladby/za-hranou-stolu-bpm"
+}

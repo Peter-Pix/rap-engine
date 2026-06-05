@@ -1,0 +1,37 @@
+{
+  "title": "Zlatej Déšť",
+  "slug": "zlatej-dest-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [
+    "viktor-sheen"
+  ],
+  "featuresNames": [
+    "Viktor Sheen"
+  ],
+  "album": "Mumie (Deluxe)",
+  "albumSlug": "mumie",
+  "year": 2022,
+  "genre": [],
+  "duration": "2:45",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Zlatej Déšť — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var u=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)u(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&u(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?c(h(e)):{},s(t||!e||!e.__esModule?u(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(u({},\"__esModule\",{value:!0}),e);var m=j((S,x)=>{x.exports=_jsx_runtime});var k={};f(k,{default:()=>l,frontmatter:()=>D});var r=_(m()),D={title:\"Zlatej D\\xE9\\u0161\\u0165\",slug:\"zlatej-dest-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[],duration:\"2:45\",trackNumber:12,producers:[],producersNames:[],description:\"Zlatej D\\xE9\\u0161\\u0165 \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "skladby/zlatej-dest-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/zlatej-dest-hugo-toxxx.mdx",
+    "sourceFileName": "zlatej-dest-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/zlatej-dest-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/zlatej-dest-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/zlatej-dest-hugo-toxxx"
+}

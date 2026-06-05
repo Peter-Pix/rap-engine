@@ -1,0 +1,31 @@
+{
+  "title": "Slick Talk",
+  "slug": "slick-talk",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "648268 Records DK2",
+  "year": 2024,
+  "genre": [],
+  "description": "Slick Talk — singl od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/db7a02fce3ee009c1d834df4908b4e02/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Slick Talk"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var r in t)l(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of u(t))!h.call(e,a)&&a!==r&&l(e,a,{get:()=>t[a],enumerable:!(c=b(t,a))||c.enumerable});return e};var f=(e,t,r)=>(r=e!=null?p(g(e)):{},o(t||!e||!e.__esModule?l(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(l({},\"__esModule\",{value:!0}),e);var i=x((z,s)=>{s.exports=_jsx_runtime});var y={};k(y,{default:()=>m,frontmatter:()=>j});var n=f(i()),j={title:\"Slick Talk\",slug:\"slick-talk\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"648268 Records DK2\",year:2024,genre:[],description:\"Slick Talk \\u2014 singl od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/db7a02fce3ee009c1d834df4908b4e02/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Slick Talk\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "alba/slick-talk.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/slick-talk.mdx",
+    "sourceFileName": "slick-talk.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/slick-talk"
+  },
+  "type": "Album",
+  "url": "/alba/slick-talk",
+  "canonicalUrl": "https://4rap.cz/alba/slick-talk"
+}

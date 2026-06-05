@@ -1,0 +1,39 @@
+{
+  "title": "POD DRN",
+  "slug": "pod-drn-nik-tendo",
+  "rapper": "Nik Tendo",
+  "rapperSlug": "nik-tendo",
+  "features": [
+    "hasan",
+    "calin"
+  ],
+  "featuresNames": [
+    "Hasan",
+    "CÂLIN"
+  ],
+  "album": "POD DRN",
+  "albumSlug": "pod-drn",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:30",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "POD DRN — skladba od Nik Tendo.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var D=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!N.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=l(n,o))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?p(x(e)):{},d(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>d(a({},\"__esModule\",{value:!0}),e);var u=D((C,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>g});var t=_(u()),g={title:\"POD DRN\",slug:\"pod-drn-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"hasan\",\"calin\"],featuresNames:[\"Hasan\",\"C\\xC2LIN\"],album:\"POD DRN\",albumSlug:\"pod-drn\",year:2022,genre:[],duration:\"3:30\",trackNumber:1,producers:[],producersNames:[],description:\"POD DRN \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "skladby/pod-drn-nik-tendo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pod-drn-nik-tendo.mdx",
+    "sourceFileName": "pod-drn-nik-tendo.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pod-drn-nik-tendo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pod-drn-nik-tendo",
+  "canonicalUrl": "https://4rap.cz/skladby/pod-drn-nik-tendo"
+}

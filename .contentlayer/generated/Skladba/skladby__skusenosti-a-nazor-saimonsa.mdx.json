@@ -1,0 +1,37 @@
+{
+  "title": "Skúsenosti a názor",
+  "slug": "skusenosti-a-nazor-saimonsa",
+  "rapper": "Saimonsa",
+  "rapperSlug": "saimonsa",
+  "features": [
+    "sergei-barracuda"
+  ],
+  "featuresNames": [
+    "Sergei Barracuda"
+  ],
+  "album": "Skúsenosti a názor",
+  "albumSlug": "skusenosti-a-nazor",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:28",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Skúsenosti a názor — skladba od Saimonsa.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,S=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!S.call(e,t)&&t!==a&&s(e,t,{get:()=>n[t],enumerable:!(o=p(n,t))||o.enumerable});return e};var f=(e,n,a)=>(a=e!=null?l(h(e)):{},i(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>i(s({},\"__esModule\",{value:!0}),e);var m=g((M,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>_});var r=f(m()),_={title:\"Sk\\xFAsenosti a n\\xE1zor\",slug:\"skusenosti-a-nazor-saimonsa\",rapper:\"Saimonsa\",rapperSlug:\"saimonsa\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"Sk\\xFAsenosti a n\\xE1zor\",albumSlug:\"skusenosti-a-nazor\",year:2022,genre:[],duration:\"3:28\",trackNumber:1,producers:[],producersNames:[],description:\"Sk\\xFAsenosti a n\\xE1zor \\u2014 skladba od Saimonsa.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return k(j);})();\n;return Component;"
+  },
+  "_id": "skladby/skusenosti-a-nazor-saimonsa.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/skusenosti-a-nazor-saimonsa.mdx",
+    "sourceFileName": "skusenosti-a-nazor-saimonsa.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/skusenosti-a-nazor-saimonsa"
+  },
+  "type": "Skladba",
+  "url": "/skladby/skusenosti-a-nazor-saimonsa",
+  "canonicalUrl": "https://4rap.cz/skladby/skusenosti-a-nazor-saimonsa"
+}

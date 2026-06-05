@@ -1,0 +1,37 @@
+{
+  "title": "Ninja",
+  "slug": "ninja-filip-konvalinka",
+  "rapper": "Filip Konvalinka",
+  "rapperSlug": "filip-konvalinka",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "2 MOUCHY 1 RANOU",
+  "albumSlug": "2-mouchy-1-ranou",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:37",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ninja — skladba od Filip Konvalinka.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var a in e)i(n,a,{get:e[a],enumerable:!0})},s=(n,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!x.call(n,r)&&r!==a&&i(n,r,{get:()=>e[r],enumerable:!(o=d(e,r))||o.enumerable});return n};var _=(n,e,a)=>(a=n!=null?m(h(n)):{},s(e||!n||!n.__esModule?i(a,\"default\",{value:n,enumerable:!0}):a,n)),b=n=>s(i({},\"__esModule\",{value:!0}),n);var u=j((v,l)=>{l.exports=_jsx_runtime});var N={};k(N,{default:()=>p,frontmatter:()=>g});var t=_(u()),g={title:\"Ninja\",slug:\"ninja-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[],duration:\"3:37\",trackNumber:11,producers:[],producersNames:[],description:\"Ninja \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function c(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(c,{...n})}):c(n)}return b(N);})();\n;return Component;"
+  },
+  "_id": "skladby/ninja-filip-konvalinka.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ninja-filip-konvalinka.mdx",
+    "sourceFileName": "ninja-filip-konvalinka.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ninja-filip-konvalinka"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ninja-filip-konvalinka",
+  "canonicalUrl": "https://4rap.cz/skladby/ninja-filip-konvalinka"
+}

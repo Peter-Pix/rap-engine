@@ -1,0 +1,33 @@
+{
+  "title": "spinna",
+  "slug": "spinna-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "skibidi alpha wolf type shi ep",
+  "albumSlug": "skibidi-alpha-wolf-type-shi-ep",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:32",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "spinna — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(i=c(n,r))||i.enumerable});return e};var g=(e,n,a)=>(a=e!=null?l(x(e)):{},o(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),y=e=>o(s({},\"__esModule\",{value:!0}),e);var d=b((w,p)=>{p.exports=_jsx_runtime});var k={};_(k,{default:()=>u,frontmatter:()=>j});var t=g(d()),j={title:\"spinna\",slug:\"spinna-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"skibidi alpha wolf type shi ep\",albumSlug:\"skibidi-alpha-wolf-type-shi-ep\",year:2024,genre:[],duration:\"3:32\",trackNumber:3,producers:[],producersNames:[],description:\"spinna \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return y(k);})();\n;return Component;"
+  },
+  "_id": "skladby/spinna-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/spinna-yzomandias.mdx",
+    "sourceFileName": "spinna-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/spinna-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/spinna-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/spinna-yzomandias"
+}

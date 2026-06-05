@@ -1,0 +1,39 @@
+{
+  "title": "Emma a Hanna",
+  "slug": "emma-a-hanna-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "nik-tendo",
+    "robin-zoot"
+  ],
+  "featuresNames": [
+    "Nik Tendo",
+    "Robin Zoot"
+  ],
+  "album": "J. Eden Dva",
+  "albumSlug": "j-eden-dva",
+  "year": 2019,
+  "genre": [],
+  "duration": "2:07",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Emma a Hanna — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var t in e)r(n,t,{get:e[t],enumerable:!0})},m=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!b.call(n,o)&&o!==t&&r(n,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return n};var g=(n,e,t)=>(t=n!=null?l(x(n)):{},m(e||!n||!n.__esModule?r(t,\"default\",{value:n,enumerable:!0}):t,n)),j=n=>m(r({},\"__esModule\",{value:!0}),n);var i=f((N,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>z});var a=g(i()),z={title:\"Emma a Hanna\",slug:\"emma-a-hanna-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"robin-zoot\"],featuresNames:[\"Nik Tendo\",\"Robin Zoot\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"2:07\",trackNumber:17,producers:[],producersNames:[],description:\"Emma a Hanna \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(u,{...n})}):u(n)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/emma-a-hanna-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/emma-a-hanna-yzomandias.mdx",
+    "sourceFileName": "emma-a-hanna-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/emma-a-hanna-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/emma-a-hanna-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/emma-a-hanna-yzomandias"
+}

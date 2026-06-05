@@ -1,0 +1,37 @@
+{
+  "title": "Rande",
+  "slug": "rande-mc-gey",
+  "rapper": "MC Gey",
+  "rapperSlug": "mc-gey",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Imaginarium naprosto běžných podivností",
+  "albumSlug": "imaginarium-naprosto-beznych-podivnosti",
+  "year": 2011,
+  "genre": [],
+  "duration": "3:36",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rande — skladba od MC Gey.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var y=(e,t,r)=>(r=e!=null?p(g(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var c=b((D,m)=>{m.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>j});var n=y(c()),j={title:\"Rande\",slug:\"rande-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Imaginarium naprosto b\\u011B\\u017En\\xFDch podivnost\\xED\",albumSlug:\"imaginarium-naprosto-beznych-podivnosti\",year:2011,genre:[],duration:\"3:36\",trackNumber:7,producers:[],producersNames:[],description:\"Rande \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/rande-mc-gey.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rande-mc-gey.mdx",
+    "sourceFileName": "rande-mc-gey.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rande-mc-gey"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rande-mc-gey",
+  "canonicalUrl": "https://4rap.cz/skladby/rande-mc-gey"
+}

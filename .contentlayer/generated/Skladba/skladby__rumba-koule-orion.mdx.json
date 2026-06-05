@@ -1,0 +1,41 @@
+{
+  "title": "Rumba Koule",
+  "slug": "rumba-koule-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "james-cole",
+    "mike-trafik",
+    "david-cokolada"
+  ],
+  "featuresNames": [
+    "James Cole",
+    "Mike Trafik",
+    "Dávid Čokoláda"
+  ],
+  "album": "Orikoule",
+  "albumSlug": "orikoule",
+  "year": 2008,
+  "genre": [],
+  "duration": "4:36",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rumba Koule — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of k(r))!b.call(e,n)&&n!==t&&a(e,n,{get:()=>r[n],enumerable:!(u=p(r,n))||u.enumerable});return e};var _=(e,r,t)=>(t=e!=null?d(x(e)):{},i(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var l=f((D,s)=>{s.exports=_jsx_runtime});var M={};h(M,{default:()=>c,frontmatter:()=>j});var o=_(l()),j={title:\"Rumba Koule\",slug:\"rumba-koule-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\",\"mike-trafik\",\"david-cokolada\"],featuresNames:[\"James Cole\",\"Mike Trafik\",\"D\\xE1vid \\u010Cokol\\xE1da\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"4:36\",trackNumber:12,producers:[],producersNames:[],description:\"Rumba Koule \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(r.p,{children:(0,o.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/rumba-koule-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rumba-koule-orion.mdx",
+    "sourceFileName": "rumba-koule-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rumba-koule-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rumba-koule-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/rumba-koule-orion"
+}

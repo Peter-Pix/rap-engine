@@ -1,0 +1,39 @@
+{
+  "title": "Puma",
+  "slug": "puma-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "stryc-nory",
+    "trashboysony"
+  ],
+  "featuresNames": [
+    "Strýc Nory",
+    "TrashBoySony"
+  ],
+  "album": "Utržený sluchátko / Puma",
+  "albumSlug": "utrzeny-sluchatko-puma",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Puma — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!y.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var m=b((N,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>i,frontmatter:()=>j});var r=_(m()),j={title:\"Puma\",slug:\"puma-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\",\"trashboysony\"],featuresNames:[\"Str\\xFDc Nory\",\"TrashBoySony\"],album:\"Utr\\u017Een\\xFD sluch\\xE1tko / Puma\",albumSlug:\"utrzeny-sluchatko-puma\",year:2026,genre:[],duration:\"3:00\",trackNumber:2,producers:[],producersNames:[],description:\"Puma \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(S);})();\n;return Component;"
+  },
+  "_id": "skladby/puma-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/puma-idea.mdx",
+    "sourceFileName": "puma-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/puma-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/puma-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/puma-idea"
+}

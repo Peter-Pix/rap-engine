@@ -1,0 +1,43 @@
+{
+  "type": "PRODUCED",
+  "symmetric": false,
+  "count": 3,
+  "edges": [
+    {
+      "from": {
+        "kind": "producer",
+        "slug": "kenny-rough"
+      },
+      "to": {
+        "kind": "track",
+        "slug": "adie-paulie-garand"
+      },
+      "type": "PRODUCED",
+      "weight": 0.9
+    },
+    {
+      "from": {
+        "kind": "producer",
+        "slug": "decky"
+      },
+      "to": {
+        "kind": "track",
+        "slug": "adikt-freestyle-remix-remixu-yzomandias"
+      },
+      "type": "PRODUCED",
+      "weight": 0.9
+    },
+    {
+      "from": {
+        "kind": "producer",
+        "slug": "nobodylisten"
+      },
+      "to": {
+        "kind": "track",
+        "slug": "adikt-freestyle-remix-remixu-yzomandias"
+      },
+      "type": "PRODUCED",
+      "weight": 0.9
+    }
+  ]
+}

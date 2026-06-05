@@ -1,0 +1,37 @@
+{
+  "title": "Mecca",
+  "slug": "mecca-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "regie-257"
+  ],
+  "featuresNames": [
+    "Regie 257"
+  ],
+  "album": "Aura",
+  "albumSlug": "aura",
+  "year": 2022,
+  "genre": [],
+  "duration": "5:00",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Mecca — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var c=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)c(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&c(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(f(e)):{},s(t||!e||!e.__esModule?c(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(c({},\"__esModule\",{value:!0}),e);var m=g((N,u)=>{u.exports=_jsx_runtime});var D={};j(D,{default:()=>i,frontmatter:()=>M});var r=_(m()),M={title:\"Mecca\",slug:\"mecca-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"5:00\",trackNumber:9,producers:[],producersNames:[],description:\"Mecca \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(D);})();\n;return Component;"
+  },
+  "_id": "skladby/mecca-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/mecca-dj-fatte.mdx",
+    "sourceFileName": "mecca-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/mecca-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/mecca-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/mecca-dj-fatte"
+}

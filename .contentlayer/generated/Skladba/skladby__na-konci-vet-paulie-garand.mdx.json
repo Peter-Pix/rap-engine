@@ -1,0 +1,39 @@
+{
+  "title": "Na konci vět",
+  "slug": "na-konci-vet-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "dj-wich",
+    "martin-matys"
+  ],
+  "featuresNames": [
+    "DJ Wich",
+    "Martin Matys"
+  ],
+  "album": "Mezi prsty",
+  "albumSlug": "mezi-prsty",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:35",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Na konci vět — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(x(e)):{},o(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(i({},\"__esModule\",{value:!0}),e);var c=f((N,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>m,frontmatter:()=>y});var n=b(c()),y={title:\"Na konci v\\u011Bt\",slug:\"na-konci-vet-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"martin-matys\"],featuresNames:[\"DJ Wich\",\"Martin Matys\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"3:35\",trackNumber:13,producers:[],producersNames:[],description:\"Na konci v\\u011Bt \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/na-konci-vet-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/na-konci-vet-paulie-garand.mdx",
+    "sourceFileName": "na-konci-vet-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/na-konci-vet-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/na-konci-vet-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/na-konci-vet-paulie-garand"
+}

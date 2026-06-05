@@ -1,0 +1,33 @@
+{
+  "title": "Parket",
+  "slug": "parket-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [],
+  "featuresNames": [],
+  "album": "Tempo",
+  "albumSlug": "tempo",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:43",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Parket — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?i(h(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var m=_((S,d)=>{d.exports=_jsx_runtime});var M={};b(M,{default:()=>p,frontmatter:()=>k});var r=g(m()),k={title:\"Parket\",slug:\"parket-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[],duration:\"3:43\",trackNumber:8,producers:[],producersNames:[],description:\"Parket \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/parket-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/parket-idea.mdx",
+    "sourceFileName": "parket-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/parket-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/parket-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/parket-idea"
+}

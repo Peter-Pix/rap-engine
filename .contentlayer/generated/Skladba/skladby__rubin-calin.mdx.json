@@ -1,0 +1,33 @@
+{
+  "title": "Rubín",
+  "slug": "rubin-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "Svědomí",
+  "albumSlug": "svedomi",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:05",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rubín — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(b(e)):{},u(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var i=f((L,c)=>{c.exports=_jsx_runtime});var C={};_(C,{default:()=>d,frontmatter:()=>N});var t=g(i()),N={title:\"Rub\\xEDn\",slug:\"rubin-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Sv\\u011Bdom\\xED\",albumSlug:\"svedomi\",year:2020,genre:[],duration:\"3:05\",trackNumber:2,producers:[],producersNames:[],description:\"Rub\\xEDn \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(C);})();\n;return Component;"
+  },
+  "_id": "skladby/rubin-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rubin-calin.mdx",
+    "sourceFileName": "rubin-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rubin-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rubin-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/rubin-calin"
+}

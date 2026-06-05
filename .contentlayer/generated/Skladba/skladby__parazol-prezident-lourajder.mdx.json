@@ -1,0 +1,39 @@
+{
+  "title": "Parazol",
+  "slug": "parazol-prezident-lourajder",
+  "rapper": "Prezident Lourajder",
+  "rapperSlug": "prezident-lourajder",
+  "features": [
+    "idea",
+    "martin-matys"
+  ],
+  "featuresNames": [
+    "Idea",
+    "Martin Matys"
+  ],
+  "album": "Dropbox",
+  "albumSlug": "dropbox",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:27",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Parazol — skladba od Prezident Lourajder.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!j.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(d=c(r,a))||d.enumerable});return e};var z=(e,r,n)=>(n=e!=null?m(h(e)):{},s(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var i=b((P,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>g});var t=z(i()),g={title:\"Parazol\",slug:\"parazol-prezident-lourajder\",rapper:\"Prezident Lourajder\",rapperSlug:\"prezident-lourajder\",features:[\"idea\",\"martin-matys\"],featuresNames:[\"Idea\",\"Martin Matys\"],album:\"Dropbox\",albumSlug:\"dropbox\",year:2018,genre:[],duration:\"3:27\",trackNumber:7,producers:[],producersNames:[],description:\"Parazol \\u2014 skladba od Prezident Lourajder.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/parazol-prezident-lourajder.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/parazol-prezident-lourajder.mdx",
+    "sourceFileName": "parazol-prezident-lourajder.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/parazol-prezident-lourajder"
+  },
+  "type": "Skladba",
+  "url": "/skladby/parazol-prezident-lourajder",
+  "canonicalUrl": "https://4rap.cz/skladby/parazol-prezident-lourajder"
+}

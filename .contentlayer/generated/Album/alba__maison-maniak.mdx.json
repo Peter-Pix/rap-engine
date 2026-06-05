@@ -1,0 +1,40 @@
+{
+  "title": "Maison Maniak",
+  "slug": "maison-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "704records",
+  "year": 2025,
+  "genre": [],
+  "description": "Maison Maniak — album od Maniak (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a4e5909c00ef021ef6b7a1d5e79f832e/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Japanse Tuin",
+    "Slangenkop",
+    "Maison Maniak",
+    "Verre Stemmen",
+    "S.E.H.D.",
+    "Nok Nok",
+    "WATT?!",
+    "Hoodie",
+    "Long Island",
+    "Michelinman"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var M=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},s=(n,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of M(e))!h.call(n,i)&&i!==t&&o(n,i,{get:()=>e[i],enumerable:!(r=u(e,i))||r.enumerable});return n};var f=(n,e,t)=>(t=n!=null?p(g(n)):{},s(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),_=n=>s(o({},\"__esModule\",{value:!0}),n);var m=k((D,c)=>{c.exports=_jsx_runtime});var j={};x(j,{default:()=>d,frontmatter:()=>b});var a=f(m()),b={title:\"Maison Maniak\",slug:\"maison-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"704records\",year:2025,genre:[],description:\"Maison Maniak \\u2014 album od Maniak (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/a4e5909c00ef021ef6b7a1d5e79f832e/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Japanse Tuin\",\"Slangenkop\",\"Maison Maniak\",\"Verre Stemmen\",\"S.E.H.D.\",\"Nok Nok\",\"WATT?!\",\"Hoodie\",\"Long Island\",\"Michelinman\"],publishedAt:\"2026-06-04\"};function l(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return _(j);})();\n;return Component;"
+  },
+  "_id": "alba/maison-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/maison-maniak.mdx",
+    "sourceFileName": "maison-maniak.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/maison-maniak"
+  },
+  "type": "Album",
+  "url": "/alba/maison-maniak",
+  "canonicalUrl": "https://4rap.cz/alba/maison-maniak"
+}

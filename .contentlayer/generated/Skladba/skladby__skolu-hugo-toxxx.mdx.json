@@ -1,0 +1,37 @@
+{
+  "title": "Školu",
+  "slug": "skolu-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [
+    "kriso"
+  ],
+  "featuresNames": [
+    "Kriso."
+  ],
+  "album": "Bauch Money II",
+  "albumSlug": "bauch-money-ii",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:26",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Školu — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of p(t))!g.call(e,n)&&n!==r&&u(e,n,{get:()=>t[n],enumerable:!(s=d(t,n))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},a(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>a(u({},\"__esModule\",{value:!0}),e);var c=b((N,x)=>{x.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>j});var o=_(c()),j={title:\"\\u0160kolu\",slug:\"skolu-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"kriso\"],featuresNames:[\"Kriso.\"],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"3:26\",trackNumber:1,producers:[],producersNames:[],description:\"\\u0160kolu \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(i,{...e})}):i(e)}return k(y);})();\n;return Component;"
+  },
+  "_id": "skladby/skolu-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/skolu-hugo-toxxx.mdx",
+    "sourceFileName": "skolu-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/skolu-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/skolu-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/skolu-hugo-toxxx"
+}

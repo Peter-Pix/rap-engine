@@ -1,0 +1,31 @@
+{
+  "title": "Ať je klid",
+  "slug": "at-je-klid",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2025,
+  "genre": [],
+  "description": "Ať je klid — singl od CÂLIN (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/500d7949284bafe21cfa3a82021f066b/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Ať je klid"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of h(t))!j.call(e,i)&&i!==r&&a(e,i,{get:()=>t[i],enumerable:!(c=u(t,i))||c.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(g(e)):{},l(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(a({},\"__esModule\",{value:!0}),e);var o=x((M,s)=>{s.exports=_jsx_runtime});var C={};f(C,{default:()=>p,frontmatter:()=>k});var n=b(o()),k={title:\"A\\u0165 je klid\",slug:\"at-je-klid\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2025,genre:[],description:\"A\\u0165 je klid \\u2014 singl od C\\xC2LIN (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/500d7949284bafe21cfa3a82021f066b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"A\\u0165 je klid\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(C);})();\n;return Component;"
+  },
+  "_id": "alba/at-je-klid.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/at-je-klid.mdx",
+    "sourceFileName": "at-je-klid.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/at-je-klid"
+  },
+  "type": "Album",
+  "url": "/alba/at-je-klid",
+  "canonicalUrl": "https://4rap.cz/alba/at-je-klid"
+}

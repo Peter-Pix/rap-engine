@@ -1,0 +1,37 @@
+{
+  "title": "Independent",
+  "slug": "independent-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "karlo"
+  ],
+  "featuresNames": [
+    "Karlo"
+  ],
+  "album": "[Gudlak]",
+  "albumSlug": "gudlak",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:42",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Independent — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?c(h(e)):{},d(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var m=g((M,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>l,frontmatter:()=>k});var t=b(m()),k={title:\"Independent\",slug:\"independent-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[],duration:\"3:42\",trackNumber:1,producers:[],producersNames:[],description:\"Independent \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/independent-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/independent-yzomandias.mdx",
+    "sourceFileName": "independent-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/independent-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/independent-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/independent-yzomandias"
+}

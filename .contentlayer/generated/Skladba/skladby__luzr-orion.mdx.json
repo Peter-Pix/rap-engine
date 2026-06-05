@@ -1,0 +1,39 @@
+{
+  "title": "Lůzr",
+  "slug": "luzr-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "james-cole",
+    "mike-trafik"
+  ],
+  "featuresNames": [
+    "James Cole",
+    "Mike Trafik"
+  ],
+  "album": "Orikoule",
+  "albumSlug": "orikoule",
+  "year": 2008,
+  "genre": [],
+  "duration": "4:59",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Lůzr — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var b=(e,r,n)=>(n=e!=null?d(f(e)):{},i(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var l=k((C,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>j});var t=b(l()),j={title:\"L\\u016Fzr\",slug:\"luzr-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\",\"mike-trafik\"],featuresNames:[\"James Cole\",\"Mike Trafik\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"4:59\",trackNumber:8,producers:[],producersNames:[],description:\"L\\u016Fzr \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/luzr-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/luzr-orion.mdx",
+    "sourceFileName": "luzr-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/luzr-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/luzr-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/luzr-orion"
+}

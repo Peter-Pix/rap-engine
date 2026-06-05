@@ -1,0 +1,33 @@
+{
+  "title": "Ján Jákoby",
+  "slug": "jan-jakoby-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Yzomandias (Remaster)",
+  "albumSlug": "yzomandias",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ján Jákoby — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},m=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var j=(e,n,a)=>(a=e!=null?l(b(e)):{},m(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>m(o({},\"__esModule\",{value:!0}),e);var i=y((J,d)=>{d.exports=_jsx_runtime});var z={};f(z,{default:()=>c,frontmatter:()=>g});var t=j(i()),g={title:\"J\\xE1n J\\xE1koby\",slug:\"jan-jakoby-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Yzomandias (Remaster)\",albumSlug:\"yzomandias\",year:2023,genre:[],duration:\"3:20\",trackNumber:2,producers:[],producersNames:[],description:\"J\\xE1n J\\xE1koby \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return _(z);})();\n;return Component;"
+  },
+  "_id": "skladby/jan-jakoby-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jan-jakoby-yzomandias.mdx",
+    "sourceFileName": "jan-jakoby-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jan-jakoby-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jan-jakoby-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/jan-jakoby-yzomandias"
+}

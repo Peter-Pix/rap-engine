@@ -1,0 +1,44 @@
+{
+  "title": "DOWN4LIFE",
+  "slug": "down4life",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "WM Czech Republic",
+  "year": 2023,
+  "genre": [],
+  "description": "DOWN4LIFE — album od James Cole (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/67181b5b9a22f0cb03e692e5977d034a/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "D4L",
+    "BANG BANG",
+    "BRODY",
+    "DON",
+    "INLAND EMPIRE",
+    "MONEY MAKE",
+    "HEALER",
+    "WW",
+    "BIG TIPPER",
+    "DARK SOULS",
+    "RAPGAME",
+    "HAPPY",
+    "REST IN PISS",
+    "FLOW"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var E=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=u(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(E(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),D=e=>c(o({},\"__esModule\",{value:!0}),e);var i=A((M,l)=>{l.exports=_jsx_runtime});var I={};b(I,{default:()=>d,frontmatter:()=>N});var n=g(i()),N={title:\"DOWN4LIFE\",slug:\"down4life\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"WM Czech Republic\",year:2023,genre:[],description:\"DOWN4LIFE \\u2014 album od James Cole (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/67181b5b9a22f0cb03e692e5977d034a/1000x1000-000000-80-0-0.jpg\",tracklist:[\"D4L\",\"BANG BANG\",\"BRODY\",\"DON\",\"INLAND EMPIRE\",\"MONEY MAKE\",\"HEALER\",\"WW\",\"BIG TIPPER\",\"DARK SOULS\",\"RAPGAME\",\"HAPPY\",\"REST IN PISS\",\"FLOW\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return D(I);})();\n;return Component;"
+  },
+  "_id": "alba/down4life.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/down4life.mdx",
+    "sourceFileName": "down4life.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/down4life"
+  },
+  "type": "Album",
+  "url": "/alba/down4life",
+  "canonicalUrl": "https://4rap.cz/alba/down4life"
+}

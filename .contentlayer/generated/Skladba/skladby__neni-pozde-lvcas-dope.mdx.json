@@ -1,0 +1,37 @@
+{
+  "title": "Není Pozdě",
+  "slug": "neni-pozde-lvcas-dope",
+  "rapper": "Lvcas Dope",
+  "rapperSlug": "lvcas-dope",
+  "features": [
+    "digit"
+  ],
+  "featuresNames": [
+    "Digit"
+  ],
+  "album": "Není Pozdě",
+  "albumSlug": "neni-pozde",
+  "year": 2019,
+  "genre": [],
+  "duration": "2:26",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Není Pozdě — skladba od Lvcas Dope.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!g.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(a=m(n,o))||a.enumerable});return e};var b=(e,n,r)=>(r=e!=null?l(h(e)):{},d(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>d(s({},\"__esModule\",{value:!0}),e);var i=f((v,c)=>{c.exports=_jsx_runtime});var z={};_(z,{default:()=>u,frontmatter:()=>j});var t=b(i()),j={title:\"Nen\\xED Pozd\\u011B\",slug:\"neni-pozde-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"digit\"],featuresNames:[\"Digit\"],album:\"Nen\\xED Pozd\\u011B\",albumSlug:\"neni-pozde\",year:2019,genre:[],duration:\"2:26\",trackNumber:1,producers:[],producersNames:[],description:\"Nen\\xED Pozd\\u011B \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return N(z);})();\n;return Component;"
+  },
+  "_id": "skladby/neni-pozde-lvcas-dope.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/neni-pozde-lvcas-dope.mdx",
+    "sourceFileName": "neni-pozde-lvcas-dope.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/neni-pozde-lvcas-dope"
+  },
+  "type": "Skladba",
+  "url": "/skladby/neni-pozde-lvcas-dope",
+  "canonicalUrl": "https://4rap.cz/skladby/neni-pozde-lvcas-dope"
+}

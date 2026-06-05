@@ -1,0 +1,33 @@
+{
+  "title": "Middle Man",
+  "slug": "middle-man-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Drag4Hard",
+  "albumSlug": "drag4hard",
+  "year": 2023,
+  "genre": [],
+  "duration": "1:43",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Middle Man — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)d(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!M.call(e,a)&&a!==t&&d(e,a,{get:()=>n[a],enumerable:!(o=p(n,a))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?l(x(e)):{},s(n||!e||!e.__esModule?d(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(d({},\"__esModule\",{value:!0}),e);var m=g((N,i)=>{i.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>k});var r=_(m()),k={title:\"Middle Man\",slug:\"middle-man-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Drag4Hard\",albumSlug:\"drag4hard\",year:2023,genre:[],duration:\"1:43\",trackNumber:3,producers:[],producersNames:[],description:\"Middle Man \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/middle-man-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/middle-man-maniak.mdx",
+    "sourceFileName": "middle-man-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/middle-man-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/middle-man-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/middle-man-maniak"
+}

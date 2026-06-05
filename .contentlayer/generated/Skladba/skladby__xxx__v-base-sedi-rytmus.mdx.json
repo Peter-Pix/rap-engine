@@ -1,0 +1,37 @@
+{
+  "title": "V base sedí",
+  "slug": "v-base-sedi-rytmus",
+  "rapper": "Rytmus",
+  "rapperSlug": "rytmus",
+  "features": [
+    "david-beng-rostas"
+  ],
+  "featuresNames": [
+    "David Beng Rostaš"
+  ],
+  "album": "Bengoro II",
+  "albumSlug": "bengoro-ii",
+  "year": 2024,
+  "genre": [],
+  "duration": "4:08",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "V base sedí — skladba od Rytmus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of b(t))!x.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=p(t,s))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(g(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>u(a({},\"__esModule\",{value:!0}),e);var m=h((M,d)=>{d.exports=_jsx_runtime});var v={};f(v,{default:()=>c,frontmatter:()=>j});var r=_(m()),j={title:\"V base sed\\xED\",slug:\"v-base-sedi-rytmus\",rapper:\"Rytmus\",rapperSlug:\"rytmus\",features:[\"david-beng-rostas\"],featuresNames:[\"David Beng Rosta\\u0161\"],album:\"Bengoro II\",albumSlug:\"bengoro-ii\",year:2024,genre:[],duration:\"4:08\",trackNumber:12,producers:[],producersNames:[],description:\"V base sed\\xED \\u2014 skladba od Rytmus.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return y(v);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/v-base-sedi-rytmus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/v-base-sedi-rytmus.mdx",
+    "sourceFileName": "v-base-sedi-rytmus.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/v-base-sedi-rytmus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/v-base-sedi-rytmus",
+  "canonicalUrl": "https://4rap.cz/skladby/v-base-sedi-rytmus"
+}

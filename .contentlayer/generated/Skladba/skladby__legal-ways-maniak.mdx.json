@@ -1,0 +1,33 @@
+{
+  "title": "Legal Ways",
+  "slug": "legal-ways-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Legal Ways",
+  "albumSlug": "legal-ways",
+  "year": 2026,
+  "genre": [],
+  "duration": "2:16",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Legal Ways — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),y=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},l=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of g(a))!h.call(e,r)&&r!==n&&s(e,r,{get:()=>a[r],enumerable:!(o=p(a,r))||o.enumerable});return e};var _=(e,a,n)=>(n=e!=null?d(x(e)):{},l(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>l(s({},\"__esModule\",{value:!0}),e);var i=f((L,u)=>{u.exports=_jsx_runtime});var j={};y(j,{default:()=>c,frontmatter:()=>k});var t=_(i()),k={title:\"Legal Ways\",slug:\"legal-ways-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Legal Ways\",albumSlug:\"legal-ways\",year:2026,genre:[],duration:\"2:16\",trackNumber:1,producers:[],producersNames:[],description:\"Legal Ways \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/legal-ways-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/legal-ways-maniak.mdx",
+    "sourceFileName": "legal-ways-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/legal-ways-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/legal-ways-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/legal-ways-maniak"
+}

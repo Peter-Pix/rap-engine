@@ -1,0 +1,33 @@
+{
+  "title": "OK BOOMER",
+  "slug": "ok-boomer-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "DONE",
+  "albumSlug": "done",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:34",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "OK BOOMER — skladba od James Cole.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!b.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var O=(e,t,n)=>(n=e!=null?i(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>m(s({},\"__esModule\",{value:!0}),e);var u=f((N,c)=>{c.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>g});var r=O(u()),g={title:\"OK BOOMER\",slug:\"ok-boomer-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[],duration:\"2:34\",trackNumber:8,producers:[],producersNames:[],description:\"OK BOOMER \\u2014 skladba od James Cole.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/ok-boomer-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/ok-boomer-james-cole.mdx",
+    "sourceFileName": "ok-boomer-james-cole.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/ok-boomer-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ok-boomer-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/ok-boomer-james-cole"
+}

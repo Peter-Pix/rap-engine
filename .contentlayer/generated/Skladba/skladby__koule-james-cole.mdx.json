@@ -1,0 +1,33 @@
+{
+  "title": "Koule",
+  "slug": "koule-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Kapitán Láska (Deluxe Edition)",
+  "albumSlug": "kapitan-laska",
+  "year": 2009,
+  "genre": [],
+  "duration": "2:58",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Koule — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(h(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>l(o({},\"__esModule\",{value:!0}),e);var m=j((D,u)=>{u.exports=_jsx_runtime});var C={};_(C,{default:()=>i,frontmatter:()=>k});var n=b(m()),k={title:\"Koule\",slug:\"koule-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[],duration:\"2:58\",trackNumber:16,producers:[],producersNames:[],description:\"Koule \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(C);})();\n;return Component;"
+  },
+  "_id": "skladby/koule-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/koule-james-cole.mdx",
+    "sourceFileName": "koule-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/koule-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/koule-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/koule-james-cole"
+}

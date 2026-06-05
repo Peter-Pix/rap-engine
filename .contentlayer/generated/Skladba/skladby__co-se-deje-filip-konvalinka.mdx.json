@@ -1,0 +1,37 @@
+{
+  "title": "Co se děje?!",
+  "slug": "co-se-deje-filip-konvalinka",
+  "rapper": "Filip Konvalinka",
+  "rapperSlug": "filip-konvalinka",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "2 MOUCHY 1 RANOU",
+  "albumSlug": "2-mouchy-1-ranou",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Co se děje?! — skladba od Filip Konvalinka.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of f(n))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(i=m(n,a))||i.enumerable});return e};var _=(e,n,r)=>(r=e!=null?p(h(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var u=j((v,l)=>{l.exports=_jsx_runtime});var C={};k(C,{default:()=>d,frontmatter:()=>g});var t=_(u()),g={title:\"Co se d\\u011Bje?!\",slug:\"co-se-deje-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[],duration:\"3:00\",trackNumber:1,producers:[],producersNames:[],description:\"Co se d\\u011Bje?! \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(C);})();\n;return Component;"
+  },
+  "_id": "skladby/co-se-deje-filip-konvalinka.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/co-se-deje-filip-konvalinka.mdx",
+    "sourceFileName": "co-se-deje-filip-konvalinka.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/co-se-deje-filip-konvalinka"
+  },
+  "type": "Skladba",
+  "url": "/skladby/co-se-deje-filip-konvalinka",
+  "canonicalUrl": "https://4rap.cz/skladby/co-se-deje-filip-konvalinka"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Bez pout",
+  "slug": "bez-pout-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "idea",
+    "lenny"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Idea",
+    "Lenny"
+  ],
+  "album": "Boomerang",
+  "albumSlug": "boomerang",
+  "year": 2015,
+  "genre": [],
+  "duration": "4:31",
+  "trackNumber": 15,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bez pout — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=c(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>s(o({},\"__esModule\",{value:!0}),e);var i=b((B,d)=>{d.exports=_jsx_runtime});var k={};f(k,{default:()=>p,frontmatter:()=>j});var r=_(i()),j={title:\"Bez pout\",slug:\"bez-pout-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"idea\",\"lenny\"],featuresNames:[\"Kenny Rough\",\"Idea\",\"Lenny\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"4:31\",trackNumber:15,producers:[],producersNames:[],description:\"Bez pout \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return y(k);})();\n;return Component;"
+  },
+  "_id": "skladby/bez-pout-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bez-pout-paulie-garand.mdx",
+    "sourceFileName": "bez-pout-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bez-pout-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bez-pout-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/bez-pout-paulie-garand"
+}

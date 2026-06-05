@@ -1,0 +1,33 @@
+{
+  "title": "Sum Different",
+  "slug": "sum-different-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "OneWay",
+  "albumSlug": "oneway",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:32",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sum Different — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of f(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(x(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>u(o({},\"__esModule\",{value:!0}),e);var m=_((y,i)=>{i.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>j});var t=g(m()),j={title:\"Sum Different\",slug:\"sum-different-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[],duration:\"2:32\",trackNumber:7,producers:[],producersNames:[],description:\"Sum Different \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return k(M);})();\n;return Component;"
+  },
+  "_id": "skladby/sum-different-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sum-different-maniak.mdx",
+    "sourceFileName": "sum-different-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sum-different-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sum-different-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/sum-different-maniak"
+}

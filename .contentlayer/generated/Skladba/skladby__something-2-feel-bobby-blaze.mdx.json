@@ -1,0 +1,33 @@
+{
+  "title": "Something 2 Feel",
+  "slug": "something-2-feel-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "The Text",
+  "albumSlug": "the-text",
+  "year": 2006,
+  "genre": [],
+  "duration": "4:24",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Something 2 Feel — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(h(e)):{},l(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>l(a({},\"__esModule\",{value:!0}),e);var u=g((B,m)=>{m.exports=_jsx_runtime});var S={};f(S,{default:()=>c,frontmatter:()=>j});var n=_(u()),j={title:\"Something 2 Feel\",slug:\"something-2-feel-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[],duration:\"4:24\",trackNumber:12,producers:[],producersNames:[],description:\"Something 2 Feel \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return y(S);})();\n;return Component;"
+  },
+  "_id": "skladby/something-2-feel-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/something-2-feel-bobby-blaze.mdx",
+    "sourceFileName": "something-2-feel-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/something-2-feel-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/something-2-feel-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/something-2-feel-bobby-blaze"
+}

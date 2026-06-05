@@ -1,0 +1,33 @@
+{
+  "title": "Endless",
+  "slug": "endless-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "No Album",
+  "albumSlug": "no-album",
+  "year": 2015,
+  "genre": [],
+  "duration": "3:42",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Endless — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of x(n))!b.call(e,s)&&s!==r&&a(e,s,{get:()=>n[s],enumerable:!(o=p(n,s))||o.enumerable});return e};var g=(e,n,r)=>(r=e!=null?i(h(e)):{},l(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>l(a({},\"__esModule\",{value:!0}),e);var c=f((M,u)=>{u.exports=_jsx_runtime});var C={};_(C,{default:()=>d,frontmatter:()=>j});var t=g(c()),j={title:\"Endless\",slug:\"endless-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Album\",albumSlug:\"no-album\",year:2015,genre:[],duration:\"3:42\",trackNumber:3,producers:[],producersNames:[],description:\"Endless \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return N(C);})();\n;return Component;"
+  },
+  "_id": "skladby/endless-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/endless-calin.mdx",
+    "sourceFileName": "endless-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/endless-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/endless-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/endless-calin"
+}

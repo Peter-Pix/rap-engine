@@ -1,0 +1,37 @@
+{
+  "title": "Balla Balla",
+  "slug": "balla-balla-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "dame"
+  ],
+  "featuresNames": [
+    "Dame"
+  ],
+  "album": "J. Eden Dva",
+  "albumSlug": "j-eden-dva",
+  "year": 2019,
+  "genre": [],
+  "duration": "1:28",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Balla Balla — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},l=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!b.call(e,r)&&r!==t&&o(e,r,{get:()=>a[r],enumerable:!(s=p(a,r))||s.enumerable});return e};var g=(e,a,t)=>(t=e!=null?c(h(e)):{},l(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var m=f((D,d)=>{d.exports=_jsx_runtime});var z={};_(z,{default:()=>i,frontmatter:()=>y});var n=g(m()),y={title:\"Balla Balla\",slug:\"balla-balla-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"dame\"],featuresNames:[\"Dame\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"1:28\",trackNumber:9,producers:[],producersNames:[],description:\"Balla Balla \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(z);})();\n;return Component;"
+  },
+  "_id": "skladby/balla-balla-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/balla-balla-yzomandias.mdx",
+    "sourceFileName": "balla-balla-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/balla-balla-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/balla-balla-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/balla-balla-yzomandias"
+}

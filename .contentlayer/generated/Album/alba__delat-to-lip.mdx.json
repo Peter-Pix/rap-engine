@@ -1,0 +1,31 @@
+{
+  "title": "Dělat to líp",
+  "slug": "delat-to-lip",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2023,
+  "genre": [],
+  "description": "Dělat to líp — singl od DJ Fatte (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/412524a0fa8684b8be3f0eb07b736d2a/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Dělat to líp"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var a in e)l(t,a,{get:e[a],enumerable:!0})},s=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!x.call(t,r)&&r!==a&&l(t,r,{get:()=>e[r],enumerable:!(o=u(e,r))||o.enumerable});return t};var j=(t,e,a)=>(a=t!=null?m(g(t)):{},s(e||!t||!t.__esModule?l(a,\"default\",{value:t,enumerable:!0}):a,t)),D=t=>s(l({},\"__esModule\",{value:!0}),t);var i=b((C,c)=>{c.exports=_jsx_runtime});var F={};f(F,{default:()=>d,frontmatter:()=>_});var n=j(i()),_={title:\"D\\u011Blat to l\\xEDp\",slug:\"delat-to-lip\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2023,genre:[],description:\"D\\u011Blat to l\\xEDp \\u2014 singl od DJ Fatte (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/412524a0fa8684b8be3f0eb07b736d2a/1000x1000-000000-80-0-0.jpg\",tracklist:[\"D\\u011Blat to l\\xEDp\"],publishedAt:\"2026-06-04\"};function p(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(p,{...t})}):p(t)}return D(F);})();\n;return Component;"
+  },
+  "_id": "alba/delat-to-lip.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/delat-to-lip.mdx",
+    "sourceFileName": "delat-to-lip.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/delat-to-lip"
+  },
+  "type": "Album",
+  "url": "/alba/delat-to-lip",
+  "canonicalUrl": "https://4rap.cz/alba/delat-to-lip"
+}

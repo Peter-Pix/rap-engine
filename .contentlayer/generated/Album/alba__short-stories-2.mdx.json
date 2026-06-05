@@ -1,0 +1,34 @@
+{
+  "title": "Short Stories 2",
+  "slug": "short-stories-2",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2017,
+  "genre": [],
+  "description": "Short Stories 2 — EP od DJ Fatte (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0ee3974611bd832c476d34d2cd5cdebf/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Paradise",
+    "Oschlemeen In Vegas",
+    "Hoe",
+    "She'S A Bitch"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var S=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of u(t))!x.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(c=p(t,s))||c.enumerable});return e};var f=(e,t,r)=>(r=e!=null?m(g(e)):{},a(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>a(o({},\"__esModule\",{value:!0}),e);var d=S((M,i)=>{i.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>_});var n=f(d()),_={title:\"Short Stories 2\",slug:\"short-stories-2\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2017,genre:[],description:\"Short Stories 2 \\u2014 EP od DJ Fatte (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/0ee3974611bd832c476d34d2cd5cdebf/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Paradise\",\"Oschlemeen In Vegas\",\"Hoe\",\"She'S A Bitch\"],publishedAt:\"2026-06-04\"};function h(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(h,{...e})}):h(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "alba/short-stories-2.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/short-stories-2.mdx",
+    "sourceFileName": "short-stories-2.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/short-stories-2"
+  },
+  "type": "Album",
+  "url": "/alba/short-stories-2",
+  "canonicalUrl": "https://4rap.cz/alba/short-stories-2"
+}

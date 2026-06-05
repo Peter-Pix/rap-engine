@@ -1,0 +1,39 @@
+{
+  "title": "Nadzemí",
+  "slug": "nadzemi-mike-trafik",
+  "rapper": "Mike Trafik",
+  "rapperSlug": "mike-trafik",
+  "features": [
+    "la4",
+    "james-cole"
+  ],
+  "featuresNames": [
+    "LA4",
+    "James Cole"
+  ],
+  "album": "Nadzemí",
+  "albumSlug": "nadzemi",
+  "year": 2012,
+  "genre": [],
+  "duration": "4:00",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nadzemí — skladba od Mike Trafik.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)m(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!x.call(e,a)&&a!==n&&m(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(k(e)):{},s(t||!e||!e.__esModule?m(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(m({},\"__esModule\",{value:!0}),e);var d=h((M,i)=>{i.exports=_jsx_runtime});var N={};_(N,{default:()=>c,frontmatter:()=>j});var r=b(d()),j={title:\"Nadzem\\xED\",slug:\"nadzemi-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"la4\",\"james-cole\"],featuresNames:[\"LA4\",\"James Cole\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[],duration:\"4:00\",trackNumber:1,producers:[],producersNames:[],description:\"Nadzem\\xED \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/nadzemi-mike-trafik.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nadzemi-mike-trafik.mdx",
+    "sourceFileName": "nadzemi-mike-trafik.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nadzemi-mike-trafik"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nadzemi-mike-trafik",
+  "canonicalUrl": "https://4rap.cz/skladby/nadzemi-mike-trafik"
+}

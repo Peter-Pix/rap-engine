@@ -1,0 +1,33 @@
+{
+  "title": "N My Prayers",
+  "slug": "n-my-prayers-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "The Prodigal Son",
+  "albumSlug": "the-prodigal-son",
+  "year": 2021,
+  "genre": [],
+  "duration": "4:46",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "N My Prayers — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=i(r,a))||s.enumerable});return e};var f=(e,r,n)=>(n=e!=null?d(y(e)):{},l(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var b=x((z,u)=>{u.exports=_jsx_runtime});var M={};g(M,{default:()=>m,frontmatter:()=>j});var t=f(b()),j={title:\"N My Prayers\",slug:\"n-my-prayers-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"4:46\",trackNumber:9,producers:[],producersNames:[],description:\"N My Prayers \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/n-my-prayers-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/n-my-prayers-bobby-blaze.mdx",
+    "sourceFileName": "n-my-prayers-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/n-my-prayers-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/n-my-prayers-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/n-my-prayers-bobby-blaze"
+}

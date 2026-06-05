@@ -1,0 +1,32 @@
+{
+  "title": "Antarktida",
+  "slug": "antarktida",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2025,
+  "genre": [],
+  "description": "Antarktida — singl od Sergei Barracuda (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/2b4a1d98f06249becae5a22f99c1f334/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Antarktida",
+    "Antarktida (Instrumental)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var A=(e,t,n)=>(n=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(i({},\"__esModule\",{value:!0}),e);var o=b((M,d)=>{d.exports=_jsx_runtime});var k={};f(k,{default:()=>u,frontmatter:()=>j});var r=A(o()),j={title:\"Antarktida\",slug:\"antarktida\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2025,genre:[],description:\"Antarktida \\u2014 singl od Sergei Barracuda (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/2b4a1d98f06249becae5a22f99c1f334/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Antarktida\",\"Antarktida (Instrumental)\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "alba/antarktida.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/antarktida.mdx",
+    "sourceFileName": "antarktida.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/antarktida"
+  },
+  "type": "Album",
+  "url": "/alba/antarktida",
+  "canonicalUrl": "https://4rap.cz/alba/antarktida"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Unseen",
+  "slug": "unseen-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "The Prodigal Son",
+  "albumSlug": "the-prodigal-son",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:41",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Unseen — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=m(n,o))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?i(h(e)):{},l(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>l(a({},\"__esModule\",{value:!0}),e);var b=g((S,u)=>{u.exports=_jsx_runtime});var z={};f(z,{default:()=>d,frontmatter:()=>j});var t=_(b()),j={title:\"Unseen\",slug:\"unseen-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"3:41\",trackNumber:3,producers:[],producersNames:[],description:\"Unseen \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return y(z);})();\n;return Component;"
+  },
+  "_id": "skladby/unseen-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/unseen-bobby-blaze.mdx",
+    "sourceFileName": "unseen-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/unseen-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/unseen-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/unseen-bobby-blaze"
+}

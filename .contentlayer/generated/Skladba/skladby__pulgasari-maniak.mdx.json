@@ -1,0 +1,33 @@
+{
+  "title": "Pulgasari",
+  "slug": "pulgasari-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ach Ano Mixtape",
+  "albumSlug": "ach-ano-mixtape",
+  "year": 2015,
+  "genre": [],
+  "duration": "3:28",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pulgasari — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},i=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!g.call(e,r)&&r!==n&&s(e,r,{get:()=>a[r],enumerable:!(o=d(a,r))||o.enumerable});return e};var b=(e,a,n)=>(n=e!=null?p(h(e)):{},i(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>i(s({},\"__esModule\",{value:!0}),e);var c=f((N,u)=>{u.exports=_jsx_runtime});var j={};_(j,{default:()=>l,frontmatter:()=>M});var t=b(c()),M={title:\"Pulgasari\",slug:\"pulgasari-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[],duration:\"3:28\",trackNumber:5,producers:[],producersNames:[],description:\"Pulgasari \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return k(j);})();\n;return Component;"
+  },
+  "_id": "skladby/pulgasari-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pulgasari-maniak.mdx",
+    "sourceFileName": "pulgasari-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pulgasari-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pulgasari-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/pulgasari-maniak"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Standart",
+  "slug": "standart-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "nik-tendo"
+  ],
+  "featuresNames": [
+    "Nik Tendo"
+  ],
+  "album": "Kruhy & Vlny (217 Twins Edition)",
+  "albumSlug": "kruhy-vlny",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:12",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Standart — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),_=(n,t)=>{for(var r in t)o(n,r,{get:t[r],enumerable:!0})},d=(n,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!y.call(n,a)&&a!==r&&o(n,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return n};var b=(n,t,r)=>(r=n!=null?l(x(n)):{},d(t||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>d(o({},\"__esModule\",{value:!0}),n);var u=f((z,i)=>{i.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>j});var e=b(u()),j={title:\"Standart\",slug:\"standart-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[],duration:\"2:12\",trackNumber:9,producers:[],producersNames:[],description:\"Standart \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(n){let t={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,e.jsx)(t.p,{children:(0,e.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/standart-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/standart-yzomandias.mdx",
+    "sourceFileName": "standart-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/standart-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/standart-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/standart-yzomandias"
+}

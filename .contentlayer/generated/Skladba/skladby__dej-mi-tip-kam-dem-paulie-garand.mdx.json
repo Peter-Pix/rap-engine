@@ -1,0 +1,37 @@
+{
+  "title": "Dej mi tip kam dem",
+  "slug": "dej-mi-tip-kam-dem-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "dj-wich"
+  ],
+  "featuresNames": [
+    "DJ Wich"
+  ],
+  "album": "Mezi prsty",
+  "albumSlug": "mezi-prsty",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:41",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Dej mi tip kam dem — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!j.call(e,n)&&n!==a&&i(e,n,{get:()=>t[n],enumerable:!(m=l(t,n))||m.enumerable});return e};var _=(e,t,a)=>(a=e!=null?c(x(e)):{},s(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var o=g((M,d)=>{d.exports=_jsx_runtime});var D={};f(D,{default:()=>p,frontmatter:()=>k});var r=_(o()),k={title:\"Dej mi tip kam dem\",slug:\"dej-mi-tip-kam-dem-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"2:41\",trackNumber:10,producers:[],producersNames:[],description:\"Dej mi tip kam dem \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(D);})();\n;return Component;"
+  },
+  "_id": "skladby/dej-mi-tip-kam-dem-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dej-mi-tip-kam-dem-paulie-garand.mdx",
+    "sourceFileName": "dej-mi-tip-kam-dem-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dej-mi-tip-kam-dem-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dej-mi-tip-kam-dem-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/dej-mi-tip-kam-dem-paulie-garand"
+}

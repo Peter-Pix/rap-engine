@@ -1,0 +1,39 @@
+{
+  "title": "Starý psi",
+  "slug": "stary-psi-filip-konvalinka",
+  "rapper": "Filip Konvalinka",
+  "rapperSlug": "filip-konvalinka",
+  "features": [
+    "dj-fatte",
+    "rest"
+  ],
+  "featuresNames": [
+    "DJ Fatte",
+    "Rest"
+  ],
+  "album": "2 MOUCHY 1 RANOU",
+  "albumSlug": "2-mouchy-1-ranou",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:04",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Starý psi — skladba od Filip Konvalinka.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var p=k((v,l)=>{l.exports=_jsx_runtime});var F={};_(F,{default:()=>c,frontmatter:()=>j});var n=b(p()),j={title:\"Star\\xFD psi\",slug:\"stary-psi-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\",\"rest\"],featuresNames:[\"DJ Fatte\",\"Rest\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[],duration:\"3:04\",trackNumber:7,producers:[],producersNames:[],description:\"Star\\xFD psi \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(F);})();\n;return Component;"
+  },
+  "_id": "skladby/stary-psi-filip-konvalinka.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/stary-psi-filip-konvalinka.mdx",
+    "sourceFileName": "stary-psi-filip-konvalinka.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/stary-psi-filip-konvalinka"
+  },
+  "type": "Skladba",
+  "url": "/skladby/stary-psi-filip-konvalinka",
+  "canonicalUrl": "https://4rap.cz/skladby/stary-psi-filip-konvalinka"
+}

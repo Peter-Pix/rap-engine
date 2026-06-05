@@ -1,0 +1,39 @@
+{
+  "title": "Starkids",
+  "slug": "starkids-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "ben-cristovao",
+    "majk-spirit"
+  ],
+  "featuresNames": [
+    "Ben Cristovao",
+    "Majk Spirit"
+  ],
+  "album": "Amonit (Deluxe)",
+  "albumSlug": "amonit",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:18",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Starkids — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!g.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(i=p(t,n))||i.enumerable});return e};var j=(e,t,a)=>(a=e!=null?c(h(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>o(s({},\"__esModule\",{value:!0}),e);var d=b((C,u)=>{u.exports=_jsx_runtime});var S={};f(S,{default:()=>m,frontmatter:()=>_});var r=j(d()),_={title:\"Starkids\",slug:\"starkids-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"ben-cristovao\",\"majk-spirit\"],featuresNames:[\"Ben Cristovao\",\"Majk Spirit\"],album:\"Amonit (Deluxe)\",albumSlug:\"amonit\",year:2023,genre:[],duration:\"3:18\",trackNumber:3,producers:[],producersNames:[],description:\"Starkids \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/starkids-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/starkids-paulie-garand.mdx",
+    "sourceFileName": "starkids-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/starkids-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/starkids-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/starkids-paulie-garand"
+}

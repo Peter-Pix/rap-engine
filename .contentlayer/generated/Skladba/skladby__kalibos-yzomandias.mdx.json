@@ -1,0 +1,33 @@
+{
+  "title": "Kalibos",
+  "slug": "kalibos-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ze Dna",
+  "albumSlug": "ze-dna",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:05",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kalibos — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var g=(e,n,a)=>(a=e!=null?l(b(e)):{},i(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var d=f((D,m)=>{m.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>z});var t=g(d()),z={title:\"Kalibos\",slug:\"kalibos-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[],duration:\"3:05\",trackNumber:8,producers:[],producersNames:[],description:\"Kalibos \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/kalibos-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kalibos-yzomandias.mdx",
+    "sourceFileName": "kalibos-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kalibos-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kalibos-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/kalibos-yzomandias"
+}

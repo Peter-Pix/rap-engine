@@ -1,0 +1,42 @@
+{
+  "title": "POPSTAR",
+  "slug": "popstar",
+  "rapper": "Calin",
+  "rapperSlug": "calin",
+  "label": "MIKYMUSIC",
+  "labelSlug": "mikymusic",
+  "year": 2023,
+  "genre": [
+    "melodic-rap",
+    "pop-rap"
+  ],
+  "description": "Průlomový mainstream projekt Calina kombinující moderní melodickej rap, popový refrény a intimní atmosféru.",
+  "image": "/images/alba/popstar.jpg",
+  "featured": false,
+  "tracklist": [
+    "POPSTAR",
+    "Hannah Montana",
+    "Safír",
+    "Růže",
+    "Pretty Boy",
+    "Nad Vodou"
+  ],
+  "rating": 8.9,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nPOPSTAR ukázal Calina jako jednoho z nejsilnějších hitmakerů nový generace.\n\n## Zvuk\n\nSilně melodickej rap s pop influence, jemný synthy a emotivní refrény.\n\n## Dopad\n\nAlbum dostalo Calina definitivně do mainstreamu český hudby.",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),f=(a,n)=>{for(var t in n)i(a,t,{get:n[t],enumerable:!0})},l=(a,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!j.call(a,r)&&r!==t&&i(a,r,{get:()=>n[r],enumerable:!(o=u(n,r))||o.enumerable});return a};var g=(a,n,t)=>(t=a!=null?m(y(a)):{},l(n||!a||!a.__esModule?i(t,\"default\",{value:a,enumerable:!0}):t,a)),x=a=>l(i({},\"__esModule\",{value:!0}),a);var s=k((b,p)=>{p.exports=_jsx_runtime});var P={};f(P,{default:()=>d,frontmatter:()=>z});var e=g(s()),z={title:\"POPSTAR\",slug:\"popstar\",rapper:\"Calin\",rapperSlug:\"calin\",label:\"MIKYMUSIC\",labelSlug:\"mikymusic\",year:2023,genre:[\"melodic-rap\",\"pop-rap\"],description:\"Pr\\u016Flomov\\xFD mainstream projekt Calina kombinuj\\xEDc\\xED modern\\xED melodickej rap, popov\\xFD refr\\xE9ny a intimn\\xED atmosf\\xE9ru.\",image:\"/images/alba/popstar.jpg\",tracklist:[\"POPSTAR\",\"Hannah Montana\",\"Saf\\xEDr\",\"R\\u016F\\u017Ee\",\"Pretty Boy\",\"Nad Vodou\"],rating:8.9,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function c(a){let n={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.p,{children:\"POPSTAR uk\\xE1zal Calina jako jednoho z nejsiln\\u011Bj\\u0161\\xEDch hitmaker\\u016F nov\\xFD generace.\"}),`\n`,(0,e.jsx)(n.h2,{children:\"Zvuk\"}),`\n`,(0,e.jsxs)(n.p,{children:[\"Siln\\u011B melodickej \",(0,e.jsx)(n.a,{href:\"/zanry/rap\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"rap\",children:\"rap\"}),\" s \",(0,e.jsx)(n.a,{href:\"/zanry/pop\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"pop\",children:\"pop\"}),\" influence, jemn\\xFD synthy a emotivn\\xED refr\\xE9ny.\"]}),`\n`,(0,e.jsx)(n.h2,{children:\"Dopad\"}),`\n`,(0,e.jsx)(n.p,{children:\"Album dostalo Calina definitivn\\u011B do mainstreamu \\u010Desk\\xFD hudby.\"})]})}function d(a={}){let{wrapper:n}=a.components||{};return n?(0,e.jsx)(n,{...a,children:(0,e.jsx)(c,{...a})}):c(a)}return x(P);})();\n;return Component;"
+  },
+  "_id": "alba/popstar.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/popstar.mdx",
+    "sourceFileName": "popstar.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/popstar"
+  },
+  "type": "Album",
+  "url": "/alba/popstar",
+  "canonicalUrl": "https://4rap.cz/alba/popstar"
+}

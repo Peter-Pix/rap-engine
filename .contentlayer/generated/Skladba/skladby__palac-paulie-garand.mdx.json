@@ -1,0 +1,39 @@
+{
+  "title": "Palác",
+  "slug": "palac-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough",
+    "jakub-dekan"
+  ],
+  "featuresNames": [
+    "Kenny Rough",
+    "Jakub Děkan"
+  ],
+  "album": "DANK",
+  "albumSlug": "dank",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:44",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Palác — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var u=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var r in n)u(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!x.call(e,t)&&t!==r&&u(e,t,{get:()=>n[t],enumerable:!(o=m(n,t))||o.enumerable});return e};var f=(e,n,r)=>(r=e!=null?p(g(e)):{},s(n||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(u({},\"__esModule\",{value:!0}),e);var c=b((N,l)=>{l.exports=_jsx_runtime});var y={};k(y,{default:()=>i,frontmatter:()=>j});var a=f(c()),j={title:\"Pal\\xE1c\",slug:\"palac-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"jakub-dekan\"],featuresNames:[\"Kenny Rough\",\"Jakub D\\u011Bkan\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"3:44\",trackNumber:13,producers:[],producersNames:[],description:\"Pal\\xE1c \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "skladby/palac-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/palac-paulie-garand.mdx",
+    "sourceFileName": "palac-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/palac-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/palac-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/palac-paulie-garand"
+}

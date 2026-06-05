@@ -1,0 +1,42 @@
+{
+  "title": "ROMEO",
+  "slug": "romeo",
+  "rapper": "CA$HANOVA BULHAR",
+  "rapperSlug": "ca-hanova-bulhar",
+  "label": "WM Czech Republic",
+  "year": 2021,
+  "genre": [],
+  "description": "ROMEO — album od CA$HANOVA BULHAR (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/46d27a4a4856088d5914fbb853e0c0a9/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Beckham",
+    "Mizim v davu",
+    "Bony a Drip",
+    "Praha 90210",
+    "High To Low",
+    "Celý ráno prší",
+    "Roteiro",
+    "Leon Goretzka",
+    "Všechno je fádní",
+    "Luna",
+    "On Air",
+    "U wish"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of u(n))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(i=p(n,a))||i.enumerable});return e};var O=(e,n,r)=>(r=e!=null?h(g(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>c(o({},\"__esModule\",{value:!0}),e);var l=A((C,s)=>{s.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>j});var t=O(l()),j={title:\"ROMEO\",slug:\"romeo\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",label:\"WM Czech Republic\",year:2021,genre:[],description:\"ROMEO \\u2014 album od CA$HANOVA BULHAR (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/46d27a4a4856088d5914fbb853e0c0a9/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Beckham\",\"Mizim v davu\",\"Bony a Drip\",\"Praha 90210\",\"High To Low\",\"Cel\\xFD r\\xE1no pr\\u0161\\xED\",\"Roteiro\",\"Leon Goretzka\",\"V\\u0161echno je f\\xE1dn\\xED\",\"Luna\",\"On Air\",\"U wish\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return f(M);})();\n;return Component;"
+  },
+  "_id": "alba/romeo.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/romeo.mdx",
+    "sourceFileName": "romeo.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/romeo"
+  },
+  "type": "Album",
+  "url": "/alba/romeo",
+  "canonicalUrl": "https://4rap.cz/alba/romeo"
+}

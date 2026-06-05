@@ -1,0 +1,31 @@
+{
+  "title": "Kdo je Nory",
+  "slug": "kdo-je-nory",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "label": "WM Czech Republic",
+  "year": 2023,
+  "genre": [],
+  "description": "Kdo je Nory — singl od Idea (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/84b104d66c8a27ebd9d0478718ae9bf2/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Kdo je Nory"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!j.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(d=u(t,o))||d.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(g(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>c(a({},\"__esModule\",{value:!0}),e);var i=x((K,s)=>{s.exports=_jsx_runtime});var M={};b(M,{default:()=>p,frontmatter:()=>y});var n=_(i()),y={title:\"Kdo je Nory\",slug:\"kdo-je-nory\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2023,genre:[],description:\"Kdo je Nory \\u2014 singl od Idea (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/84b104d66c8a27ebd9d0478718ae9bf2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Kdo je Nory\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return f(M);})();\n;return Component;"
+  },
+  "_id": "alba/kdo-je-nory.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/kdo-je-nory.mdx",
+    "sourceFileName": "kdo-je-nory.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/kdo-je-nory"
+  },
+  "type": "Album",
+  "url": "/alba/kdo-je-nory",
+  "canonicalUrl": "https://4rap.cz/alba/kdo-je-nory"
+}

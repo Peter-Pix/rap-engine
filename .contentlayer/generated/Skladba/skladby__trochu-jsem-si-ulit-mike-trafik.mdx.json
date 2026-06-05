@@ -1,0 +1,41 @@
+{
+  "title": "Trochu Jsem Si Ulít",
+  "slug": "trochu-jsem-si-ulit-mike-trafik",
+  "rapper": "Mike Trafik",
+  "rapperSlug": "mike-trafik",
+  "features": [
+    "la4",
+    "james-cole",
+    "vladimir-518"
+  ],
+  "featuresNames": [
+    "LA4",
+    "James Cole",
+    "Vladimir 518"
+  ],
+  "album": "Nadzemí",
+  "albumSlug": "nadzemi",
+  "year": 2012,
+  "genre": [],
+  "duration": "4:47",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Trochu Jsem Si Ulít — skladba od Mike Trafik.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!k.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(f(e)):{},o(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>o(i({},\"__esModule\",{value:!0}),e);var u=x((N,m)=>{m.exports=_jsx_runtime});var M={};j(M,{default:()=>c,frontmatter:()=>g});var r=_(u()),g={title:\"Trochu Jsem Si Ul\\xEDt\",slug:\"trochu-jsem-si-ulit-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"la4\",\"james-cole\",\"vladimir-518\"],featuresNames:[\"LA4\",\"James Cole\",\"Vladimir 518\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[],duration:\"4:47\",trackNumber:6,producers:[],producersNames:[],description:\"Trochu Jsem Si Ul\\xEDt \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "skladby/trochu-jsem-si-ulit-mike-trafik.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/trochu-jsem-si-ulit-mike-trafik.mdx",
+    "sourceFileName": "trochu-jsem-si-ulit-mike-trafik.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/trochu-jsem-si-ulit-mike-trafik"
+  },
+  "type": "Skladba",
+  "url": "/skladby/trochu-jsem-si-ulit-mike-trafik",
+  "canonicalUrl": "https://4rap.cz/skladby/trochu-jsem-si-ulit-mike-trafik"
+}

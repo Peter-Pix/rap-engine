@@ -1,0 +1,37 @@
+{
+  "title": "Desert Walk",
+  "slug": "desert-walk-kato",
+  "rapper": "Kato",
+  "rapperSlug": "kato",
+  "features": [
+    "outlandish"
+  ],
+  "featuresNames": [
+    "Outlandish"
+  ],
+  "album": "Discolized 2.0",
+  "albumSlug": "discolized-2-0",
+  "year": 2011,
+  "genre": [],
+  "duration": "3:32",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Desert Walk — skladba od Kato.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(x(e)):{},l(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>l(o({},\"__esModule\",{value:!0}),e);var d=k((M,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>c,frontmatter:()=>j});var r=b(d()),j={title:\"Desert Walk\",slug:\"desert-walk-kato\",rapper:\"Kato\",rapperSlug:\"kato\",features:[\"outlandish\"],featuresNames:[\"Outlandish\"],album:\"Discolized 2.0\",albumSlug:\"discolized-2-0\",year:2011,genre:[],duration:\"3:32\",trackNumber:7,producers:[],producersNames:[],description:\"Desert Walk \\u2014 skladba od Kato.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/desert-walk-kato.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/desert-walk-kato.mdx",
+    "sourceFileName": "desert-walk-kato.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/desert-walk-kato"
+  },
+  "type": "Skladba",
+  "url": "/skladby/desert-walk-kato",
+  "canonicalUrl": "https://4rap.cz/skladby/desert-walk-kato"
+}

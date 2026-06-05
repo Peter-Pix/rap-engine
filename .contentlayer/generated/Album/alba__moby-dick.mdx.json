@@ -1,0 +1,46 @@
+{
+  "title": "Moby Dick",
+  "slug": "moby-dick",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "WM Czech Republic",
+  "year": 2013,
+  "genre": [],
+  "description": "Moby Dick — album od James Cole (2013).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a393c61768ba4909187ecff77afa7592/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Moby Dick",
+    "Zatnuto",
+    "Peperí",
+    "Pod vodou",
+    "Mike Adriano",
+    "Baby",
+    "Monstrum",
+    "Kazatel skla",
+    "Černý slunce",
+    "Prázdniny v Kurvolandu",
+    "Lobotom Music",
+    "Demolice",
+    "Übercool",
+    "Love Vader",
+    "Sen neonové noci",
+    "Showtime"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!x.call(e,r)&&r!==t&&a(e,r,{get:()=>n[r],enumerable:!(c=p(n,r))||c.enumerable});return e};var f=(e,n,t)=>(t=e!=null?u(h(e)):{},i(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>i(a({},\"__esModule\",{value:!0}),e);var l=M((v,s)=>{s.exports=_jsx_runtime});var k={};g(k,{default:()=>d,frontmatter:()=>j});var o=f(l()),j={title:\"Moby Dick\",slug:\"moby-dick\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"WM Czech Republic\",year:2013,genre:[],description:\"Moby Dick \\u2014 album od James Cole (2013).\",image:\"https://cdn-images.dzcdn.net/images/cover/a393c61768ba4909187ecff77afa7592/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Moby Dick\",\"Zatnuto\",\"Peper\\xED\",\"Pod vodou\",\"Mike Adriano\",\"Baby\",\"Monstrum\",\"Kazatel skla\",\"\\u010Cern\\xFD slunce\",\"Pr\\xE1zdniny v Kurvolandu\",\"Lobotom Music\",\"Demolice\",\"\\xDCbercool\",\"Love Vader\",\"Sen neonov\\xE9 noci\",\"Showtime\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return y(k);})();\n;return Component;"
+  },
+  "_id": "alba/moby-dick.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/moby-dick.mdx",
+    "sourceFileName": "moby-dick.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/moby-dick"
+  },
+  "type": "Album",
+  "url": "/alba/moby-dick",
+  "canonicalUrl": "https://4rap.cz/alba/moby-dick"
+}

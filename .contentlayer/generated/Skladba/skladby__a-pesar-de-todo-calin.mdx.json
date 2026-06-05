@@ -1,0 +1,33 @@
+{
+  "title": "A Pesar de Todo",
+  "slug": "a-pesar-de-todo-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "A Pesar de Todo",
+  "albumSlug": "a-pesar-de-todo",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:37",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "A Pesar de Todo — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(h(e)):{},d(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>d(a({},\"__esModule\",{value:!0}),e);var u=_((L,c)=>{c.exports=_jsx_runtime});var A={};b(A,{default:()=>l,frontmatter:()=>N});var r=g(u()),N={title:\"A Pesar de Todo\",slug:\"a-pesar-de-todo-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"A Pesar de Todo\",albumSlug:\"a-pesar-de-todo\",year:2026,genre:[],duration:\"3:37\",trackNumber:1,producers:[],producersNames:[],description:\"A Pesar de Todo \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(A);})();\n;return Component;"
+  },
+  "_id": "skladby/a-pesar-de-todo-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/a-pesar-de-todo-calin.mdx",
+    "sourceFileName": "a-pesar-de-todo-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/a-pesar-de-todo-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/a-pesar-de-todo-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/a-pesar-de-todo-calin"
+}

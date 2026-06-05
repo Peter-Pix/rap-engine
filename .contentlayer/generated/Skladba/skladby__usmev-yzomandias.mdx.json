@@ -1,0 +1,37 @@
+{
+  "title": "Úsměv",
+  "slug": "usmev-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "tigp"
+  ],
+  "featuresNames": [
+    "TIGP"
+  ],
+  "album": "Hráč Roku Playlist",
+  "albumSlug": "hrac-roku-playlist",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:19",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Úsměv — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(x(e)):{},m(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>m(s({},\"__esModule\",{value:!0}),e);var i=g((v,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>j});var n=b(i()),j={title:\"\\xDAsm\\u011Bv\",slug:\"usmev-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"tigp\"],featuresNames:[\"TIGP\"],album:\"Hr\\xE1\\u010D Roku Playlist\",albumSlug:\"hrac-roku-playlist\",year:2020,genre:[],duration:\"3:19\",trackNumber:13,producers:[],producersNames:[],description:\"\\xDAsm\\u011Bv \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return y(k);})();\n;return Component;"
+  },
+  "_id": "skladby/usmev-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/usmev-yzomandias.mdx",
+    "sourceFileName": "usmev-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/usmev-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/usmev-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/usmev-yzomandias"
+}

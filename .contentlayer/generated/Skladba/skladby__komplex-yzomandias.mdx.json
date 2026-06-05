@@ -1,0 +1,33 @@
+{
+  "title": "Komplex",
+  "slug": "komplex-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ze Dna",
+  "albumSlug": "ze-dna",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:38",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Komplex — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},m=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(h(e)):{},m(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>m(o({},\"__esModule\",{value:!0}),e);var u=_((D,d)=>{d.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>z});var t=g(u()),z={title:\"Komplex\",slug:\"komplex-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[],duration:\"3:38\",trackNumber:3,producers:[],producersNames:[],description:\"Komplex \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/komplex-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/komplex-yzomandias.mdx",
+    "sourceFileName": "komplex-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/komplex-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/komplex-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/komplex-yzomandias"
+}

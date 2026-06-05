@@ -1,0 +1,37 @@
+{
+  "title": "JET SKI",
+  "slug": "jet-ski-radikal-chef",
+  "rapper": "Radikal Chef",
+  "rapperSlug": "radikal-chef",
+  "features": [
+    "ca-hanova-bulhar"
+  ],
+  "featuresNames": [
+    "CA$HANOVA BULHAR"
+  ],
+  "album": "JET SKI",
+  "albumSlug": "jet-ski",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:14",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "JET SKI — skladba od Radikal Chef.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of p(t))!x.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(o=h(t,n))||o.enumerable});return e};var j=(e,t,a)=>(a=e!=null?m(f(e)):{},c(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>c(s({},\"__esModule\",{value:!0}),e);var u=k((C,i)=>{i.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>g});var r=j(u()),g={title:\"JET SKI\",slug:\"jet-ski-radikal-chef\",rapper:\"Radikal Chef\",rapperSlug:\"radikal-chef\",features:[\"ca-hanova-bulhar\"],featuresNames:[\"CA$HANOVA BULHAR\"],album:\"JET SKI\",albumSlug:\"jet-ski\",year:2020,genre:[],duration:\"3:14\",trackNumber:1,producers:[],producersNames:[],description:\"JET SKI \\u2014 skladba od Radikal Chef.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/jet-ski-radikal-chef.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jet-ski-radikal-chef.mdx",
+    "sourceFileName": "jet-ski-radikal-chef.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jet-ski-radikal-chef"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jet-ski-radikal-chef",
+  "canonicalUrl": "https://4rap.cz/skladby/jet-ski-radikal-chef"
+}

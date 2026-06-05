@@ -1,0 +1,37 @@
+{
+  "title": "Free Love",
+  "slug": "free-love-raphael",
+  "rapper": "Raphael",
+  "rapperSlug": "raphael",
+  "features": [
+    "calin"
+  ],
+  "featuresNames": [
+    "CÂLIN"
+  ],
+  "album": "Free Love",
+  "albumSlug": "free-love",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:23",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Free Love — skladba od Raphael.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=d(r,a))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?i(x(e)):{},l(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var c=_((N,u)=>{u.exports=_jsx_runtime});var F={};b(F,{default:()=>m,frontmatter:()=>v});var t=g(c()),v={title:\"Free Love\",slug:\"free-love-raphael\",rapper:\"Raphael\",rapperSlug:\"raphael\",features:[\"calin\"],featuresNames:[\"C\\xC2LIN\"],album:\"Free Love\",albumSlug:\"free-love\",year:2024,genre:[],duration:\"2:23\",trackNumber:1,producers:[],producersNames:[],description:\"Free Love \\u2014 skladba od Raphael.\",publishedAt:\"2026-06-04\"};function p(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return j(F);})();\n;return Component;"
+  },
+  "_id": "skladby/free-love-raphael.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/free-love-raphael.mdx",
+    "sourceFileName": "free-love-raphael.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/free-love-raphael"
+  },
+  "type": "Skladba",
+  "url": "/skladby/free-love-raphael",
+  "canonicalUrl": "https://4rap.cz/skladby/free-love-raphael"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Starkids (Remix)",
+  "slug": "starkids-remix-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "ben-cristovao",
+    "majk-spirit",
+    "luecash"
+  ],
+  "featuresNames": [
+    "Ben Cristovao",
+    "Majk Spirit",
+    "LueCash"
+  ],
+  "album": "Starkids (Remix)",
+  "albumSlug": "starkids-remix",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:15",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Starkids (Remix) — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},o=(e,r,a,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!k.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(i=p(r,n))||i.enumerable});return e};var f=(e,r,a)=>(a=e!=null?l(h(e)):{},o(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var d=g((M,u)=>{u.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>S});var t=f(d()),S={title:\"Starkids (Remix)\",slug:\"starkids-remix-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"ben-cristovao\",\"majk-spirit\",\"luecash\"],featuresNames:[\"Ben Cristovao\",\"Majk Spirit\",\"LueCash\"],album:\"Starkids (Remix)\",albumSlug:\"starkids-remix\",year:2023,genre:[],duration:\"3:15\",trackNumber:1,producers:[],producersNames:[],description:\"Starkids (Remix) \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(_);})();\n;return Component;"
+  },
+  "_id": "skladby/starkids-remix-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/starkids-remix-paulie-garand.mdx",
+    "sourceFileName": "starkids-remix-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/starkids-remix-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/starkids-remix-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/starkids-remix-paulie-garand"
+}

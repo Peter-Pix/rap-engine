@@ -1,0 +1,33 @@
+{
+  "title": "Problems Freestyle",
+  "slug": "problems-freestyle-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Problems Freestyle",
+  "albumSlug": "problems-freestyle",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:12",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Problems Freestyle — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},a=(e,r,n,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of i(r))!x.call(e,s)&&s!==n&&o(e,s,{get:()=>r[s],enumerable:!(l=d(r,s))||l.enumerable});return e};var _=(e,r,n)=>(n=e!=null?p(y(e)):{},a(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>a(o({},\"__esModule\",{value:!0}),e);var m=f((B,b)=>{b.exports=_jsx_runtime});var F={};h(F,{default:()=>c,frontmatter:()=>j});var t=_(m()),j={title:\"Problems Freestyle\",slug:\"problems-freestyle-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Problems Freestyle\",albumSlug:\"problems-freestyle\",year:2024,genre:[],duration:\"2:12\",trackNumber:1,producers:[],producersNames:[],description:\"Problems Freestyle \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(F);})();\n;return Component;"
+  },
+  "_id": "skladby/problems-freestyle-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/problems-freestyle-bobby-blaze.mdx",
+    "sourceFileName": "problems-freestyle-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/problems-freestyle-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/problems-freestyle-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/problems-freestyle-bobby-blaze"
+}

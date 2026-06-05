@@ -1,0 +1,37 @@
+{
+  "title": "Satori",
+  "slug": "satori-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "Boomerang",
+  "albumSlug": "boomerang",
+  "year": 2015,
+  "genre": [],
+  "duration": "3:28",
+  "trackNumber": 14,
+  "producers": [],
+  "producersNames": [],
+  "description": "Satori — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of g(r))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(u=p(r,a))||u.enumerable});return e};var _=(e,r,t)=>(t=e!=null?c(h(e)):{},s(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var d=b((M,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>m,frontmatter:()=>S});var n=_(d()),S={title:\"Satori\",slug:\"satori-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"3:28\",trackNumber:14,producers:[],producersNames:[],description:\"Satori \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/satori-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/satori-paulie-garand.mdx",
+    "sourceFileName": "satori-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/satori-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/satori-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/satori-paulie-garand"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Tabu",
+  "slug": "tabu",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "WM Czech Republic",
+  "year": 2020,
+  "genre": [],
+  "description": "Tabu — singl od Maniak (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/37198780fccab5a10e54d8c257a111e3/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Tabu"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)c(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!g.call(e,r)&&r!==a&&c(e,r,{get:()=>n[r],enumerable:!(i=d(n,r))||i.enumerable});return e};var f=(e,n,a)=>(a=e!=null?p(b(e)):{},s(n||!e||!e.__esModule?c(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(c({},\"__esModule\",{value:!0}),e);var l=x((T,o)=>{o.exports=_jsx_runtime});var k={};_(k,{default:()=>m,frontmatter:()=>M});var t=f(l()),M={title:\"Tabu\",slug:\"tabu\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"WM Czech Republic\",year:2020,genre:[],description:\"Tabu \\u2014 singl od Maniak (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/37198780fccab5a10e54d8c257a111e3/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Tabu\"],publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/tabu.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/tabu.mdx",
+    "sourceFileName": "tabu.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/tabu"
+  },
+  "type": "Album",
+  "url": "/alba/tabu",
+  "canonicalUrl": "https://4rap.cz/alba/tabu"
+}

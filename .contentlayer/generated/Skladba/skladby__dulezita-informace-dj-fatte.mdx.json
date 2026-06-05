@@ -1,0 +1,37 @@
+{
+  "title": "Důležitá informace",
+  "slug": "dulezita-informace-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "jakub-dekan"
+  ],
+  "featuresNames": [
+    "Jakub Děkan"
+  ],
+  "album": "Soundtrack",
+  "albumSlug": "soundtrack",
+  "year": 2013,
+  "genre": [],
+  "duration": "1:39",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Důležitá informace — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var k=(e,t,r)=>(r=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),D=e=>u(o({},\"__esModule\",{value:!0}),e);var d=b((S,c)=>{c.exports=_jsx_runtime});var g={};j(g,{default:()=>m,frontmatter:()=>_});var n=k(d()),_={title:\"D\\u016Fle\\u017Eit\\xE1 informace\",slug:\"dulezita-informace-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"jakub-dekan\"],featuresNames:[\"Jakub D\\u011Bkan\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"1:39\",trackNumber:2,producers:[],producersNames:[],description:\"D\\u016Fle\\u017Eit\\xE1 informace \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return D(g);})();\n;return Component;"
+  },
+  "_id": "skladby/dulezita-informace-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dulezita-informace-dj-fatte.mdx",
+    "sourceFileName": "dulezita-informace-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dulezita-informace-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dulezita-informace-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/dulezita-informace-dj-fatte"
+}

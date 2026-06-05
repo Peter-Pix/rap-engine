@@ -1,0 +1,33 @@
+{
+  "title": "Asdic (Short Edit)",
+  "slug": "asdic-short-edit-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "No Title",
+  "albumSlug": "no-title",
+  "year": 2014,
+  "genre": [],
+  "duration": "4:10",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Asdic (Short Edit) — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!f.call(t,o)&&o!==n&&s(t,o,{get:()=>e[o],enumerable:!(a=p(e,o))||a.enumerable});return t};var g=(t,e,n)=>(n=t!=null?m(x(t)):{},i(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),N=t=>i(s({},\"__esModule\",{value:!0}),t);var d=_((A,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>l,frontmatter:()=>j});var r=g(d()),j={title:\"Asdic (Short Edit)\",slug:\"asdic-short-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[],duration:\"4:10\",trackNumber:4,producers:[],producersNames:[],description:\"Asdic (Short Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return N(S);})();\n;return Component;"
+  },
+  "_id": "skladby/asdic-short-edit-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/asdic-short-edit-calin.mdx",
+    "sourceFileName": "asdic-short-edit-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/asdic-short-edit-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/asdic-short-edit-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/asdic-short-edit-calin"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "MILLY",
+  "slug": "milly-milion-plus",
+  "rapper": "Milion Plus",
+  "rapperSlug": "milion-plus",
+  "features": [
+    "nik-tendo",
+    "jickson",
+    "karlo",
+    "konex"
+  ],
+  "featuresNames": [
+    "Nik Tendo",
+    "Jickson",
+    "Karlo",
+    "Konex"
+  ],
+  "album": "KRTEK MONEY LIFE",
+  "albumSlug": "krtek-money-life",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:02",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "MILLY — skladba od Milion Plus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(i=p(n,o))||i.enumerable});return e};var _=(e,n,r)=>(r=e!=null?d(k(e)):{},l(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>l(s({},\"__esModule\",{value:!0}),e);var u=f((K,a)=>{a.exports=_jsx_runtime});var j={};M(j,{default:()=>c,frontmatter:()=>g});var t=_(u()),g={title:\"MILLY\",slug:\"milly-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"nik-tendo\",\"jickson\",\"karlo\",\"konex\"],featuresNames:[\"Nik Tendo\",\"Jickson\",\"Karlo\",\"Konex\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"3:02\",trackNumber:11,producers:[],producersNames:[],description:\"MILLY \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/milly-milion-plus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/milly-milion-plus.mdx",
+    "sourceFileName": "milly-milion-plus.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/milly-milion-plus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/milly-milion-plus",
+  "canonicalUrl": "https://4rap.cz/skladby/milly-milion-plus"
+}

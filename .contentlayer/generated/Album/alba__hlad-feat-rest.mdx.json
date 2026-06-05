@@ -1,0 +1,31 @@
+{
+  "title": "Hlad (feat. Rest)",
+  "slug": "hlad-feat-rest",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "Hlad (feat. Rest) — singl od DJ Fatte (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/44519f9b44807ddd13ae6ffbb5f52a18/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Hlad (feat. Rest)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!g.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(d=f(t,r))||d.enumerable});return e};var j=(e,t,a)=>(a=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>c(s({},\"__esModule\",{value:!0}),e);var o=x((R,l)=>{l.exports=_jsx_runtime});var F={};b(F,{default:()=>p,frontmatter:()=>D});var n=j(o()),D={title:\"Hlad (feat. Rest)\",slug:\"hlad-feat-rest\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Hlad (feat. Rest) \\u2014 singl od DJ Fatte (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/44519f9b44807ddd13ae6ffbb5f52a18/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Hlad (feat. Rest)\"],publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return _(F);})();\n;return Component;"
+  },
+  "_id": "alba/hlad-feat-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/hlad-feat-rest.mdx",
+    "sourceFileName": "hlad-feat-rest.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/hlad-feat-rest"
+  },
+  "type": "Album",
+  "url": "/alba/hlad-feat-rest",
+  "canonicalUrl": "https://4rap.cz/alba/hlad-feat-rest"
+}

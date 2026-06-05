@@ -1,0 +1,37 @@
+{
+  "title": "S tebou / vedle tebe",
+  "slug": "s-tebou-vedle-tebe-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "laura-weng"
+  ],
+  "featuresNames": [
+    "Laura Weng"
+  ],
+  "album": "Tempo",
+  "albumSlug": "tempo",
+  "year": 2019,
+  "genre": [],
+  "duration": "5:34",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "S tebou / vedle tebe — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of b(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var l=g((N,d)=>{d.exports=_jsx_runtime});var v={};f(v,{default:()=>c,frontmatter:()=>S});var r=_(l()),S={title:\"S tebou / vedle tebe\",slug:\"s-tebou-vedle-tebe-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"laura-weng\"],featuresNames:[\"Laura Weng\"],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[],duration:\"5:34\",trackNumber:11,producers:[],producersNames:[],description:\"S tebou / vedle tebe \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/s-tebou-vedle-tebe-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/s-tebou-vedle-tebe-idea.mdx",
+    "sourceFileName": "s-tebou-vedle-tebe-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/s-tebou-vedle-tebe-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/s-tebou-vedle-tebe-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/s-tebou-vedle-tebe-idea"
+}

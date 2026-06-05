@@ -1,0 +1,42 @@
+{
+  "title": "Finesa",
+  "slug": "finesa",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Skerocuda",
+  "labelSlug": "skerocuda",
+  "year": 2022,
+  "genre": [
+    "trap",
+    "melodic-trap"
+  ],
+  "description": "Luxusnější a techničtější poloha Sergei Barracudy kombinující street rap s moderním trap soundem.",
+  "image": "/images/alba/finesa.jpg",
+  "featured": false,
+  "tracklist": [
+    "Finesa",
+    "Big Body",
+    "Ice",
+    "713",
+    "Money Rain",
+    "Black Card"
+  ],
+  "rating": 8.5,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nFinesa ukazuje Sergeiho v uhlazenější, ale pořád nebezpečný poloze.\n\n## Zvuk\n\nModerní trap drums, masivní basy a hitovější refrény.\n\n## Dopad\n\nProjekt pomohl Sergeimu dostat se ještě víc do mainstreamu. :contentReference[oaicite:2]{index=2}",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var t in e)i(a,t,{get:e[t],enumerable:!0})},s=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!j.call(a,r)&&r!==t&&i(a,r,{get:()=>e[r],enumerable:!(o=m(e,r))||o.enumerable});return a};var f=(a,e,t)=>(t=a!=null?u(g(a)):{},s(e||!a||!a.__esModule?i(t,\"default\",{value:a,enumerable:!0}):t,a)),k=a=>s(i({},\"__esModule\",{value:!0}),a);var d=y((_,c)=>{c.exports=_jsx_runtime});var z={};x(z,{default:()=>p,frontmatter:()=>b});var n=f(d()),b={title:\"Finesa\",slug:\"finesa\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Skerocuda\",labelSlug:\"skerocuda\",year:2022,genre:[\"trap\",\"melodic-trap\"],description:\"Luxusn\\u011Bj\\u0161\\xED a techni\\u010Dt\\u011Bj\\u0161\\xED poloha Sergei Barracudy kombinuj\\xEDc\\xED street rap s modern\\xEDm trap soundem.\",image:\"/images/alba/finesa.jpg\",tracklist:[\"Finesa\",\"Big Body\",\"Ice\",\"713\",\"Money Rain\",\"Black Card\"],rating:8.5,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function l(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Finesa ukazuje Sergeiho v uhlazen\\u011Bj\\u0161\\xED, ale po\\u0159\\xE1d nebezpe\\u010Dn\\xFD poloze.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Modern\\xED \",(0,n.jsx)(e.a,{href:\"/zanry/trap\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"trap\",children:\"trap\"}),\" drums, masivn\\xED basy a hitov\\u011Bj\\u0161\\xED refr\\xE9ny.\"]}),`\n`,(0,n.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Projekt pomohl Sergeimu dostat se je\\u0161t\\u011B v\\xEDc do mainstreamu. :contentReference[oaicite:2]\",index=2]})]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(l,{...a})}):l(a)}return k(z);})();\n;return Component;"
+  },
+  "_id": "alba/finesa.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/finesa.mdx",
+    "sourceFileName": "finesa.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/finesa"
+  },
+  "type": "Album",
+  "url": "/alba/finesa",
+  "canonicalUrl": "https://4rap.cz/alba/finesa"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Bless em",
+  "slug": "bless-em-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Doggin em",
+  "albumSlug": "doggin-em",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:34",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bless em — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},m=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(o=p(n,a))||o.enumerable});return e};var _=(e,n,r)=>(r=e!=null?d(x(e)):{},m(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>m(s({},\"__esModule\",{value:!0}),e);var u=b((N,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>j});var t=_(u()),j={title:\"Bless em\",slug:\"bless-em-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Doggin em\",albumSlug:\"doggin-em\",year:2024,genre:[],duration:\"2:34\",trackNumber:6,producers:[],producersNames:[],description:\"Bless em \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return k(M);})();\n;return Component;"
+  },
+  "_id": "skladby/bless-em-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bless-em-maniak.mdx",
+    "sourceFileName": "bless-em-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bless-em-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bless-em-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/bless-em-maniak"
+}

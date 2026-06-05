@@ -1,0 +1,33 @@
+{
+  "title": "Bol, som a budem",
+  "slug": "bol-som-a-budem-rytmus",
+  "rapper": "Rytmus",
+  "rapperSlug": "rytmus",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bengoro II",
+  "albumSlug": "bengoro-ii",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:13",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bol, som a budem — skladba od Rytmus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(m=p(t,o))||m.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>u(s({},\"__esModule\",{value:!0}),e);var c=g((N,a)=>{a.exports=_jsx_runtime});var B={};f(B,{default:()=>l,frontmatter:()=>j});var r=_(c()),j={title:\"Bol, som a budem\",slug:\"bol-som-a-budem-rytmus\",rapper:\"Rytmus\",rapperSlug:\"rytmus\",features:[],featuresNames:[],album:\"Bengoro II\",albumSlug:\"bengoro-ii\",year:2024,genre:[],duration:\"3:13\",trackNumber:5,producers:[],producersNames:[],description:\"Bol, som a budem \\u2014 skladba od Rytmus.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return y(B);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/bol-som-a-budem-rytmus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/bol-som-a-budem-rytmus.mdx",
+    "sourceFileName": "bol-som-a-budem-rytmus.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/bol-som-a-budem-rytmus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bol-som-a-budem-rytmus",
+  "canonicalUrl": "https://4rap.cz/skladby/bol-som-a-budem-rytmus"
+}

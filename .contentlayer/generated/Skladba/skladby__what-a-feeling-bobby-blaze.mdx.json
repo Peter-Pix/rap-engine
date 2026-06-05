@@ -1,0 +1,33 @@
+{
+  "title": "What A Feeling",
+  "slug": "what-a-feeling-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "What A Feeling",
+  "albumSlug": "what-a-feeling",
+  "year": 2024,
+  "genre": [],
+  "duration": "1:26",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "What A Feeling — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(l=d(t,a))||l.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>s(o({},\"__esModule\",{value:!0}),e);var u=x((A,i)=>{i.exports=_jsx_runtime});var F={};f(F,{default:()=>c,frontmatter:()=>j});var n=_(u()),j={title:\"What A Feeling\",slug:\"what-a-feeling-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"What A Feeling\",albumSlug:\"what-a-feeling\",year:2024,genre:[],duration:\"1:26\",trackNumber:1,producers:[],producersNames:[],description:\"What A Feeling \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return y(F);})();\n;return Component;"
+  },
+  "_id": "skladby/what-a-feeling-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/what-a-feeling-bobby-blaze.mdx",
+    "sourceFileName": "what-a-feeling-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/what-a-feeling-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/what-a-feeling-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/what-a-feeling-bobby-blaze"
+}

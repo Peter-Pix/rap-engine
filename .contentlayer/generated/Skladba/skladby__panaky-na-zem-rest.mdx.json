@@ -1,0 +1,37 @@
+{
+  "title": "Panáky na zem",
+  "slug": "panaky-na-zem-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "5:31",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Panáky na zem — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(s({},\"__esModule\",{value:!0}),e);var c=_((D,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>p,frontmatter:()=>k});var r=g(c()),k={title:\"Pan\\xE1ky na zem\",slug:\"panaky-na-zem-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"5:31\",trackNumber:8,producers:[],producersNames:[],description:\"Pan\\xE1ky na zem \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/panaky-na-zem-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/panaky-na-zem-rest.mdx",
+    "sourceFileName": "panaky-na-zem-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/panaky-na-zem-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/panaky-na-zem-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/panaky-na-zem-rest"
+}

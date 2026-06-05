@@ -1,0 +1,33 @@
+{
+  "title": "RAYMAN",
+  "slug": "rayman-ptk",
+  "rapper": "P T K",
+  "rapperSlug": "ptk",
+  "features": [],
+  "featuresNames": [],
+  "album": "KARAKORAM DLC",
+  "albumSlug": "karakoram-dlc",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:09",
+  "trackNumber": 20,
+  "producers": [],
+  "producersNames": [],
+  "description": "RAYMAN — skladba od P T K.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!A.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=i(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var m=f((K,c)=>{c.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>k});var r=b(m()),k={title:\"RAYMAN\",slug:\"rayman-ptk\",rapper:\"P T K\",rapperSlug:\"ptk\",features:[],featuresNames:[],album:\"KARAKORAM DLC\",albumSlug:\"karakoram-dlc\",year:2026,genre:[],duration:\"3:09\",trackNumber:20,producers:[],producersNames:[],description:\"RAYMAN \\u2014 skladba od P T K.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/rayman-ptk.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/rayman-ptk.mdx",
+    "sourceFileName": "rayman-ptk.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/rayman-ptk"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rayman-ptk",
+  "canonicalUrl": "https://4rap.cz/skladby/rayman-ptk"
+}

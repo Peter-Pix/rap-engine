@@ -1,0 +1,27 @@
+{
+  "title": "Everydays",
+  "slug": "everydays",
+  "founded": "2019",
+  "location": "Praha",
+  "description": "Everydays je label založený rapperem Ideou, zaměřený na alternativní rapové a instrumentální projekty.",
+  "image": "/images/labely/everydays.jpg",
+  "artists": [
+    "idea"
+  ],
+  "publishedAt": "2026-05-23T22:00:00.000Z",
+  "body": {
+    "raw": "\r\n**Everydays** je hudební label vytvořený rapperem **Ideou** jako prostor pro osobnější, alternativní a experimentální projekty.\r\n\r\n## Historie\r\n\r\nLabel vznikl jako doplněk k aktivitám Ty Nikdy Label a slouží hlavně pro sólové, instrumentální nebo méně žánrově vyhraněné projekty.\r\n\r\n## Umělci\r\n\r\n- Idea  \r\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var v=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var a in e)i(n,a,{get:e[a],enumerable:!0})},o=(n,e,a,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!k.call(n,r)&&r!==a&&i(n,r,{get:()=>e[r],enumerable:!(l=h(e,r))||l.enumerable});return n};var b=(n,e,a)=>(a=n!=null?c(u(n)):{},o(e||!n||!n.__esModule?i(a,\"default\",{value:n,enumerable:!0}):a,n)),g=n=>o(i({},\"__esModule\",{value:!0}),n);var d=v((z,s)=>{s.exports=_jsx_runtime});var f={};j(f,{default:()=>p,frontmatter:()=>x});var t=b(d()),x={title:\"Everydays\",slug:\"everydays\",founded:\"2019\",location:\"Praha\",description:\"Everydays je label zalo\\u017Een\\xFD rapperem Ideou, zam\\u011B\\u0159en\\xFD na alternativn\\xED rapov\\xE9 a instrument\\xE1ln\\xED projekty.\",image:\"/images/labely/everydays.jpg\",artists:[\"idea\"],publishedAt:\"2026-05-24\"};function y(n){let e={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:\"Everydays\"}),\" je hudebn\\xED label vytvo\\u0159en\\xFD rapperem \",(0,t.jsx)(e.strong,{children:\"Ideou\"}),\" jako prostor pro osobn\\u011Bj\\u0161\\xED, alternativn\\xED a experiment\\xE1ln\\xED projekty.\"]}),`\n`,(0,t.jsx)(e.h2,{children:\"Historie\"}),`\n`,(0,t.jsxs)(e.p,{children:[\"Label vznikl jako dopln\\u011Bk k aktivit\\xE1m \",(0,t.jsx)(e.a,{href:\"/labely/ty-nikdy\",className:\"entity-link entity-link--label\",\"data-entity-type\":\"label\",\"data-entity-slug\":\"ty-nikdy\",children:\"Ty Nikdy\"}),\" Label a slou\\u017E\\xED hlavn\\u011B pro s\\xF3lov\\xE9, instrument\\xE1ln\\xED nebo m\\xE9n\\u011B \\u017E\\xE1nrov\\u011B vyhran\\u011Bn\\xE9 projekty.\"]}),`\n`,(0,t.jsx)(e.h2,{children:\"Um\\u011Blci\"}),`\n`,(0,t.jsxs)(e.ul,{children:[`\n`,(0,t.jsx)(e.li,{children:(0,t.jsx)(e.a,{href:\"/raperi/idea\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"idea\",children:\"Idea\"})}),`\n`]})]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(y,{...n})}):y(n)}return g(f);})();\n;return Component;"
+  },
+  "_id": "labely/everydays.mdx",
+  "_raw": {
+    "sourceFilePath": "labely/everydays.mdx",
+    "sourceFileName": "everydays.mdx",
+    "sourceFileDir": "labely",
+    "contentType": "mdx",
+    "flattenedPath": "labely/everydays"
+  },
+  "type": "Label",
+  "url": "/labely/everydays",
+  "canonicalUrl": "https://4rap.cz/labely/everydays"
+}

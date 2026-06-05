@@ -1,0 +1,37 @@
+{
+  "title": "Autopilot",
+  "slug": "autopilot-nik-tendo",
+  "rapper": "Nik Tendo",
+  "rapperSlug": "nik-tendo",
+  "features": [
+    "decky"
+  ],
+  "featuresNames": [
+    "Decky"
+  ],
+  "album": "GoldKid",
+  "albumSlug": "goldkid",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:15",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Autopilot — skladba od Nik Tendo.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},i=(e,t,o,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!k.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(d=m(t,r))||d.enumerable});return e};var _=(e,t,o)=>(o=e!=null?p(h(e)):{},i(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>i(a({},\"__esModule\",{value:!0}),e);var u=f((A,s)=>{s.exports=_jsx_runtime});var N={};g(N,{default:()=>l,frontmatter:()=>j});var n=_(u()),j={title:\"Autopilot\",slug:\"autopilot-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GoldKid\",albumSlug:\"goldkid\",year:2019,genre:[],duration:\"3:15\",trackNumber:2,producers:[],producersNames:[],description:\"Autopilot \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(N);})();\n;return Component;"
+  },
+  "_id": "skladby/autopilot-nik-tendo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/autopilot-nik-tendo.mdx",
+    "sourceFileName": "autopilot-nik-tendo.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/autopilot-nik-tendo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/autopilot-nik-tendo",
+  "canonicalUrl": "https://4rap.cz/skladby/autopilot-nik-tendo"
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Hello Ibiza",
+  "slug": "hello-ibiza",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "Sugaspin",
+  "year": 2012,
+  "genre": [],
+  "description": "Hello Ibiza — EP od CÂLIN (2012).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/706e0a3c28a707be848894913cc12175/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Hello Ibiza (Original Edit)",
+    "Hello Ibiza (Die Hoerer Edit)",
+    "Hello Ibiza (Original Mix)",
+    "Hello Ibiza (Die Hoerer Remix)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),z=(e,t)=>{for(var i in t)a(e,i,{get:t[i],enumerable:!0})},o=(e,t,i,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of b(t))!x.call(e,r)&&r!==i&&a(e,r,{get:()=>t[r],enumerable:!(l=u(t,r))||l.enumerable});return e};var H=(e,t,i)=>(i=e!=null?p(g(e)):{},o(t||!e||!e.__esModule?a(i,\"default\",{value:e,enumerable:!0}):i,e)),I=e=>o(a({},\"__esModule\",{value:!0}),e);var s=h((C,c)=>{c.exports=_jsx_runtime});var j={};z(j,{default:()=>m,frontmatter:()=>_});var n=H(s()),_={title:\"Hello Ibiza\",slug:\"hello-ibiza\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"Sugaspin\",year:2012,genre:[],description:\"Hello Ibiza \\u2014 EP od C\\xC2LIN (2012).\",image:\"https://cdn-images.dzcdn.net/images/cover/706e0a3c28a707be848894913cc12175/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Hello Ibiza (Original Edit)\",\"Hello Ibiza (Die Hoerer Edit)\",\"Hello Ibiza (Original Mix)\",\"Hello Ibiza (Die Hoerer Remix)\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return I(j);})();\n;return Component;"
+  },
+  "_id": "alba/hello-ibiza.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/hello-ibiza.mdx",
+    "sourceFileName": "hello-ibiza.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/hello-ibiza"
+  },
+  "type": "Album",
+  "url": "/alba/hello-ibiza",
+  "canonicalUrl": "https://4rap.cz/alba/hello-ibiza"
+}

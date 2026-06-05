@@ -1,0 +1,37 @@
+{
+  "title": "Jako bratři",
+  "slug": "jako-bratri-filip-konvalinka",
+  "rapper": "Filip Konvalinka",
+  "rapperSlug": "filip-konvalinka",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "2 MOUCHY 1 RANOU",
+  "albumSlug": "2-mouchy-1-ranou",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:53",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Jako bratři — skladba od Filip Konvalinka.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of k(t))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(i=d(t,r))||i.enumerable});return e};var j=(e,t,a)=>(a=e!=null?m(f(e)):{},s(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var u=x((M,l)=>{l.exports=_jsx_runtime});var F={};b(F,{default:()=>p,frontmatter:()=>g});var n=j(u()),g={title:\"Jako brat\\u0159i\",slug:\"jako-bratri-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[],duration:\"3:53\",trackNumber:5,producers:[],producersNames:[],description:\"Jako brat\\u0159i \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(F);})();\n;return Component;"
+  },
+  "_id": "skladby/jako-bratri-filip-konvalinka.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jako-bratri-filip-konvalinka.mdx",
+    "sourceFileName": "jako-bratri-filip-konvalinka.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jako-bratri-filip-konvalinka"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jako-bratri-filip-konvalinka",
+  "canonicalUrl": "https://4rap.cz/skladby/jako-bratri-filip-konvalinka"
+}

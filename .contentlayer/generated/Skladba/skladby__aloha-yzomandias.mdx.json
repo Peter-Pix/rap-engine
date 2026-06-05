@@ -1,0 +1,33 @@
+{
+  "title": "Aloha",
+  "slug": "aloha-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Zhora Vypadá Všechno Líp",
+  "albumSlug": "zhora-vypada-vsechno-lip",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:04",
+  "trackNumber": 14,
+  "producers": [],
+  "producersNames": [],
+  "description": "Aloha — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},d=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!f.call(e,r)&&r!==t&&o(e,r,{get:()=>a[r],enumerable:!(s=p(a,r))||s.enumerable});return e};var g=(e,a,t)=>(t=e!=null?l(x(e)):{},d(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>d(o({},\"__esModule\",{value:!0}),e);var c=_((M,m)=>{m.exports=_jsx_runtime});var z={};b(z,{default:()=>u,frontmatter:()=>j});var n=g(c()),j={title:\"Aloha\",slug:\"aloha-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"3:04\",trackNumber:14,producers:[],producersNames:[],description:\"Aloha \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return y(z);})();\n;return Component;"
+  },
+  "_id": "skladby/aloha-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/aloha-yzomandias.mdx",
+    "sourceFileName": "aloha-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/aloha-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/aloha-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/aloha-yzomandias"
+}

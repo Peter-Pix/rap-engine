@@ -1,0 +1,33 @@
+{
+  "title": "Horizonty",
+  "slug": "horizonty-bpm",
+  "rapper": "Bpm",
+  "rapperSlug": "bpm",
+  "features": [],
+  "featuresNames": [],
+  "album": "Horizonty",
+  "albumSlug": "horizonty",
+  "year": 2009,
+  "genre": [],
+  "duration": "3:26",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Horizonty — skladba od Bpm.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var u=f((M,i)=>{i.exports=_jsx_runtime});var z={};y(z,{default:()=>c,frontmatter:()=>j});var r=_(u()),j={title:\"Horizonty\",slug:\"horizonty-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Horizonty\",albumSlug:\"horizonty\",year:2009,genre:[],duration:\"3:26\",trackNumber:2,producers:[],producersNames:[],description:\"Horizonty \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return g(z);})();\n;return Component;"
+  },
+  "_id": "skladby/horizonty-bpm.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/horizonty-bpm.mdx",
+    "sourceFileName": "horizonty-bpm.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/horizonty-bpm"
+  },
+  "type": "Skladba",
+  "url": "/skladby/horizonty-bpm",
+  "canonicalUrl": "https://4rap.cz/skladby/horizonty-bpm"
+}

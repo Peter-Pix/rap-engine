@@ -1,0 +1,37 @@
+{
+  "title": "Teen Love",
+  "slug": "teen-love-nik-tendo",
+  "rapper": "Nik Tendo",
+  "rapperSlug": "nik-tendo",
+  "features": [
+    "decky"
+  ],
+  "featuresNames": [
+    "Decky"
+  ],
+  "album": "GoldKid",
+  "albumSlug": "goldkid",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Teen Love — skladba od Nik Tendo.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var r in n)d(e,r,{get:n[r],enumerable:!0})},a=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!k.call(e,o)&&o!==r&&d(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?m(h(e)):{},a(n||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>a(d({},\"__esModule\",{value:!0}),e);var c=f((T,i)=>{i.exports=_jsx_runtime});var N={};g(N,{default:()=>l,frontmatter:()=>j});var t=_(c()),j={title:\"Teen Love\",slug:\"teen-love-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GoldKid\",albumSlug:\"goldkid\",year:2019,genre:[],duration:\"3:00\",trackNumber:10,producers:[],producersNames:[],description:\"Teen Love \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(N);})();\n;return Component;"
+  },
+  "_id": "skladby/teen-love-nik-tendo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/teen-love-nik-tendo.mdx",
+    "sourceFileName": "teen-love-nik-tendo.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/teen-love-nik-tendo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/teen-love-nik-tendo",
+  "canonicalUrl": "https://4rap.cz/skladby/teen-love-nik-tendo"
+}

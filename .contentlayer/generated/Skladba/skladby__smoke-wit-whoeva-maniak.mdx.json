@@ -1,0 +1,37 @@
+{
+  "title": "Smoke Wit Whoeva",
+  "slug": "smoke-wit-whoeva-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "jumpout"
+  ],
+  "featuresNames": [
+    "JuMpOuT"
+  ],
+  "album": "OneWay",
+  "albumSlug": "oneway",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:30",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Smoke Wit Whoeva — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!k.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=l(t,r))||s.enumerable});return e};var b=(e,t,a)=>(a=e!=null?d(x(e)):{},u(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((W,m)=>{m.exports=_jsx_runtime});var M={};_(M,{default:()=>p,frontmatter:()=>j});var n=b(i()),j={title:\"Smoke Wit Whoeva\",slug:\"smoke-wit-whoeva-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[],duration:\"2:30\",trackNumber:1,producers:[],producersNames:[],description:\"Smoke Wit Whoeva \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/smoke-wit-whoeva-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/smoke-wit-whoeva-maniak.mdx",
+    "sourceFileName": "smoke-wit-whoeva-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/smoke-wit-whoeva-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/smoke-wit-whoeva-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/smoke-wit-whoeva-maniak"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Alcatraz",
+  "slug": "alcatraz-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "adiss"
+  ],
+  "featuresNames": [
+    "Adiss"
+  ],
+  "album": "Nirvana",
+  "albumSlug": "nirvana",
+  "year": 2017,
+  "genre": [],
+  "duration": "3:51",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Alcatraz — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var t in a)s(e,t,{get:a[t],enumerable:!0})},u=(e,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of x(a))!g.call(e,n)&&n!==t&&s(e,n,{get:()=>a[n],enumerable:!(o=p(a,n))||o.enumerable});return e};var b=(e,a,t)=>(t=e!=null?m(h(e)):{},u(a||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var l=f((M,i)=>{i.exports=_jsx_runtime});var N={};_(N,{default:()=>d,frontmatter:()=>A});var r=b(l()),A={title:\"Alcatraz\",slug:\"alcatraz-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"adiss\"],featuresNames:[\"Adiss\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"3:51\",trackNumber:7,producers:[],producersNames:[],description:\"Alcatraz \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/alcatraz-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/alcatraz-paulie-garand.mdx",
+    "sourceFileName": "alcatraz-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/alcatraz-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/alcatraz-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/alcatraz-paulie-garand"
+}

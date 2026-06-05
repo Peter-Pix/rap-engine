@@ -1,0 +1,33 @@
+{
+  "title": "UPS",
+  "slug": "ups-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ze Dna",
+  "albumSlug": "ze-dna",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:45",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "UPS — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},m=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(o=l(n,a))||o.enumerable});return e};var g=(e,n,r)=>(r=e!=null?p(h(e)):{},m(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>m(s({},\"__esModule\",{value:!0}),e);var d=_((D,u)=>{u.exports=_jsx_runtime});var S={};b(S,{default:()=>c,frontmatter:()=>z});var t=g(d()),z={title:\"UPS\",slug:\"ups-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[],duration:\"3:45\",trackNumber:11,producers:[],producersNames:[],description:\"UPS \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/ups-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ups-yzomandias.mdx",
+    "sourceFileName": "ups-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ups-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ups-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/ups-yzomandias"
+}

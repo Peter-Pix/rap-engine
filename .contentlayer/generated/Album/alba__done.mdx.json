@@ -1,0 +1,45 @@
+{
+  "title": "DONE",
+  "slug": "done",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "WM Czech Republic",
+  "year": 2025,
+  "genre": [],
+  "description": "DONE — album od James Cole (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/dae2626a0b759ea852a7cf0d1058e7d2/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "ZLATÝ KLAS",
+    "DANIEL",
+    "HALLOWEEN",
+    "DON SKIT",
+    "ČERNÝ LÉTO",
+    "ZA OPONOU",
+    "PHAT SKIT",
+    "OK BOOMER",
+    "JAMES COLE SKIT",
+    "POMALU",
+    "SÁM",
+    "STANLEY KUFFENHEIM SKIT",
+    "RÁNY",
+    "KDYŽ JE NAD NÁMA MĚSÍC",
+    "SUNSHINE"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var E=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,O=Object.prototype.hasOwnProperty;var S=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),A=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of E(t))!O.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=u(t,a))||s.enumerable});return e};var h=(e,t,r)=>(r=e!=null?p(N(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>c(o({},\"__esModule\",{value:!0}),e);var i=S((D,l)=>{l.exports=_jsx_runtime});var L={};A(L,{default:()=>d,frontmatter:()=>x});var n=h(i()),x={title:\"DONE\",slug:\"done\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"WM Czech Republic\",year:2025,genre:[],description:\"DONE \\u2014 album od James Cole (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/dae2626a0b759ea852a7cf0d1058e7d2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"ZLAT\\xDD KLAS\",\"DANIEL\",\"HALLOWEEN\",\"DON SKIT\",\"\\u010CERN\\xDD L\\xC9TO\",\"ZA OPONOU\",\"PHAT SKIT\",\"OK BOOMER\",\"JAMES COLE SKIT\",\"POMALU\",\"S\\xC1M\",\"STANLEY KUFFENHEIM SKIT\",\"R\\xC1NY\",\"KDY\\u017D JE NAD N\\xC1MA M\\u011AS\\xCDC\",\"SUNSHINE\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return M(L);})();\n;return Component;"
+  },
+  "_id": "alba/done.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/done.mdx",
+    "sourceFileName": "done.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/done"
+  },
+  "type": "Album",
+  "url": "/alba/done",
+  "canonicalUrl": "https://4rap.cz/alba/done"
+}

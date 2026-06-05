@@ -1,0 +1,39 @@
+{
+  "title": "ON AIR",
+  "slug": "on-air-decky",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "features": [
+    "nik-tendo",
+    "koky"
+  ],
+  "featuresNames": [
+    "Nik Tendo",
+    "Koky"
+  ],
+  "album": "KINGPIN",
+  "albumSlug": "kingpin",
+  "year": 2019,
+  "genre": [],
+  "duration": "1:54",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "ON AIR — skladba od Decky.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),N=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of k(n))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=l(n,o))||s.enumerable});return e};var f=(e,n,r)=>(r=e!=null?p(x(e)):{},c(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(a({},\"__esModule\",{value:!0}),e);var u=y((D,i)=>{i.exports=_jsx_runtime});var b={};N(b,{default:()=>m,frontmatter:()=>_});var t=f(u()),_={title:\"ON AIR\",slug:\"on-air-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"nik-tendo\",\"koky\"],featuresNames:[\"Nik Tendo\",\"Koky\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[],duration:\"1:54\",trackNumber:4,producers:[],producersNames:[],description:\"ON AIR \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(b);})();\n;return Component;"
+  },
+  "_id": "skladby/on-air-decky.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/on-air-decky.mdx",
+    "sourceFileName": "on-air-decky.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/on-air-decky"
+  },
+  "type": "Skladba",
+  "url": "/skladby/on-air-decky",
+  "canonicalUrl": "https://4rap.cz/skladby/on-air-decky"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "V jednom kole",
+  "slug": "v-jednom-kole-palermo",
+  "rapper": "Palermo",
+  "rapperSlug": "palermo",
+  "features": [
+    "sergei-barracuda"
+  ],
+  "featuresNames": [
+    "Sergei Barracuda"
+  ],
+  "album": "V jednom kole",
+  "albumSlug": "v-jednom-kole",
+  "year": 2017,
+  "genre": [],
+  "duration": "3:34",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "V jednom kole — skladba od Palermo.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,m)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of j(r))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(m=p(r,o))||m.enumerable});return e};var f=(e,r,t)=>(t=e!=null?i(x(e)):{},s(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),k=e=>s(a({},\"__esModule\",{value:!0}),e);var d=g((N,l)=>{l.exports=_jsx_runtime});var S={};b(S,{default:()=>c,frontmatter:()=>_});var n=f(d()),_={title:\"V jednom kole\",slug:\"v-jednom-kole-palermo\",rapper:\"Palermo\",rapperSlug:\"palermo\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"V jednom kole\",albumSlug:\"v-jednom-kole\",year:2017,genre:[],duration:\"3:34\",trackNumber:1,producers:[],producersNames:[],description:\"V jednom kole \\u2014 skladba od Palermo.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/v-jednom-kole-palermo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/v-jednom-kole-palermo.mdx",
+    "sourceFileName": "v-jednom-kole-palermo.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/v-jednom-kole-palermo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/v-jednom-kole-palermo",
+  "canonicalUrl": "https://4rap.cz/skladby/v-jednom-kole-palermo"
+}

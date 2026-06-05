@@ -1,0 +1,39 @@
+{
+  "title": "Problems",
+  "slug": "problems-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "dj-wich",
+    "psh"
+  ],
+  "featuresNames": [
+    "DJ Wich",
+    "PSH"
+  ],
+  "album": "Černej kůň plus",
+  "albumSlug": "cernej-kun-plus",
+  "year": 2022,
+  "genre": [],
+  "duration": "5:20",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Problems — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!b.call(e,a)&&a!==t&&s(e,a,{get:()=>n[a],enumerable:!(o=d(n,a))||o.enumerable});return e};var f=(e,n,t)=>(t=e!=null?p(x(e)):{},u(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var c=j((D,m)=>{m.exports=_jsx_runtime});var M={};k(M,{default:()=>l,frontmatter:()=>g});var r=f(c()),g={title:\"Problems\",slug:\"problems-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"psh\"],featuresNames:[\"DJ Wich\",\"PSH\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[],duration:\"5:20\",trackNumber:7,producers:[],producersNames:[],description:\"Problems \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/problems-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/problems-maniak.mdx",
+    "sourceFileName": "problems-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/problems-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/problems-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/problems-maniak"
+}

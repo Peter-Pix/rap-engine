@@ -1,0 +1,33 @@
+{
+  "title": "Pen in my Hand",
+  "slug": "pen-in-my-hand-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Through These Eyes",
+  "albumSlug": "through-these-eyes",
+  "year": 2004,
+  "genre": [],
+  "duration": "3:39",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pen in my Hand — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!y.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=i(n,a))||s.enumerable});return e};var f=(e,n,r)=>(r=e!=null?d(p(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var l=x((M,m)=>{m.exports=_jsx_runtime});var z={};g(z,{default:()=>c,frontmatter:()=>j});var t=f(l()),j={title:\"Pen in my Hand\",slug:\"pen-in-my-hand-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[],duration:\"3:39\",trackNumber:11,producers:[],producersNames:[],description:\"Pen in my Hand \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(b,{...e})}):b(e)}return _(z);})();\n;return Component;"
+  },
+  "_id": "skladby/pen-in-my-hand-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pen-in-my-hand-bobby-blaze.mdx",
+    "sourceFileName": "pen-in-my-hand-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pen-in-my-hand-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pen-in-my-hand-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/pen-in-my-hand-bobby-blaze"
+}

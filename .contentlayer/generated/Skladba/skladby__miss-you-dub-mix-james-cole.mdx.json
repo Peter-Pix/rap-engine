@@ -1,0 +1,37 @@
+{
+  "title": "Miss You (Dub Mix)",
+  "slug": "miss-you-dub-mix-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [
+    "e-soreni"
+  ],
+  "featuresNames": [
+    "E-Soreni"
+  ],
+  "album": "Miss You",
+  "albumSlug": "miss-you",
+  "year": 2018,
+  "genre": [],
+  "duration": "8:36",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Miss You (Dub Mix) — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(e,s)=>()=>(s||e((s={exports:{}}).exports,s),s.exports),f=(e,s)=>{for(var r in s)o(e,r,{get:s[r],enumerable:!0})},a=(e,s,r,u)=>{if(s&&typeof s==\"object\"||typeof s==\"function\")for(let n of x(s))!h.call(e,n)&&n!==r&&o(e,n,{get:()=>s[n],enumerable:!(u=p(s,n))||u.enumerable});return e};var j=(e,s,r)=>(r=e!=null?d(b(e)):{},a(s||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>a(o({},\"__esModule\",{value:!0}),e);var m=M((D,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>g});var t=j(m()),g={title:\"Miss You (Dub Mix)\",slug:\"miss-you-dub-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"e-soreni\"],featuresNames:[\"E-Soreni\"],album:\"Miss You\",albumSlug:\"miss-you\",year:2018,genre:[],duration:\"8:36\",trackNumber:2,producers:[],producersNames:[],description:\"Miss You (Dub Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let s={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(s.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(s.p,{children:(0,t.jsx)(s.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:s}=e.components||{};return s?(0,t.jsx)(s,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "skladby/miss-you-dub-mix-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/miss-you-dub-mix-james-cole.mdx",
+    "sourceFileName": "miss-you-dub-mix-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/miss-you-dub-mix-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/miss-you-dub-mix-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/miss-you-dub-mix-james-cole"
+}

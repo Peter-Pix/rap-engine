@@ -1,0 +1,31 @@
+{
+  "title": "Redeemed",
+  "slug": "redeemed",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "1204588 Records DK",
+  "year": 2019,
+  "genre": [],
+  "description": "Redeemed — singl od Bobby Blaze (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/667568e41619d138141cc35bf84c5ebe/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Redeemed"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)d(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of u(t))!h.call(e,o)&&o!==r&&d(e,o,{get:()=>t[o],enumerable:!(c=b(t,o))||c.enumerable});return e};var f=(e,t,r)=>(r=e!=null?p(g(e)):{},s(t||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(d({},\"__esModule\",{value:!0}),e);var i=x((R,a)=>{a.exports=_jsx_runtime});var z={};_(z,{default:()=>m,frontmatter:()=>y});var n=f(i()),y={title:\"Redeemed\",slug:\"redeemed\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"1204588 Records DK\",year:2019,genre:[],description:\"Redeemed \\u2014 singl od Bobby Blaze (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/667568e41619d138141cc35bf84c5ebe/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Redeemed\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(z);})();\n;return Component;"
+  },
+  "_id": "alba/redeemed.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/redeemed.mdx",
+    "sourceFileName": "redeemed.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/redeemed"
+  },
+  "type": "Album",
+  "url": "/alba/redeemed",
+  "canonicalUrl": "https://4rap.cz/alba/redeemed"
+}

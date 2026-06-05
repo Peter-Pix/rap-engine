@@ -1,0 +1,39 @@
+{
+  "title": "Ctrl+alt+delete",
+  "slug": "ctrl-alt-delete-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "yoga-spank",
+    "tono-s"
+  ],
+  "featuresNames": [
+    "Yoga Spank",
+    "Tono S."
+  ],
+  "album": "Koupili jsme Boha, aby za nás makal",
+  "albumSlug": "koupili-jsme-boha-aby-za-nas-makal",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:19",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ctrl+alt+delete — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!b.call(e,r)&&r!==n&&o(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?i(x(e)):{},l(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>l(o({},\"__esModule\",{value:!0}),e);var m=f((C,u)=>{u.exports=_jsx_runtime});var y={};j(y,{default:()=>c,frontmatter:()=>_});var a=g(m()),_={title:\"Ctrl+alt+delete\",slug:\"ctrl-alt-delete-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\",\"tono-s\"],featuresNames:[\"Yoga Spank\",\"Tono S.\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[],duration:\"3:19\",trackNumber:8,producers:[],producersNames:[],description:\"Ctrl+alt+delete \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return k(y);})();\n;return Component;"
+  },
+  "_id": "skladby/ctrl-alt-delete-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ctrl-alt-delete-dj-fatte.mdx",
+    "sourceFileName": "ctrl-alt-delete-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ctrl-alt-delete-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ctrl-alt-delete-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/ctrl-alt-delete-dj-fatte"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Put It On (Remix)",
+  "slug": "put-it-on-remix",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2019,
+  "genre": [],
+  "description": "Put It On (Remix) — singl od DJ Fatte (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c9d824253a3af631aff8eea3212581c0/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Put It On (Remix)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)i(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!g.call(t,a)&&a!==r&&i(t,a,{get:()=>e[a],enumerable:!(c=d(e,a))||c.enumerable});return t};var _=(t,e,r)=>(r=t!=null?u(h(t)):{},o(e||!t||!t.__esModule?i(r,\"default\",{value:t,enumerable:!0}):r,t)),b=t=>o(i({},\"__esModule\",{value:!0}),t);var m=f((O,s)=>{s.exports=_jsx_runtime});var F={};j(F,{default:()=>p,frontmatter:()=>D});var n=_(m()),D={title:\"Put It On (Remix)\",slug:\"put-it-on-remix\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2019,genre:[],description:\"Put It On (Remix) \\u2014 singl od DJ Fatte (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/c9d824253a3af631aff8eea3212581c0/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Put It On (Remix)\"],publishedAt:\"2026-06-04\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return b(F);})();\n;return Component;"
+  },
+  "_id": "alba/put-it-on-remix.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/put-it-on-remix.mdx",
+    "sourceFileName": "put-it-on-remix.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/put-it-on-remix"
+  },
+  "type": "Album",
+  "url": "/alba/put-it-on-remix",
+  "canonicalUrl": "https://4rap.cz/alba/put-it-on-remix"
+}

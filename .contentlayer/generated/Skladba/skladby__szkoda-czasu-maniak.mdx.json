@@ -1,0 +1,37 @@
+{
+  "title": "Szkoda czasu",
+  "slug": "szkoda-czasu-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "zeus"
+  ],
+  "featuresNames": [
+    "Zeus"
+  ],
+  "album": "NIBIRU",
+  "albumSlug": "nibiru",
+  "year": 2025,
+  "genre": [],
+  "duration": "4:08",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Szkoda czasu — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!k.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var z=(e,n,a)=>(a=e!=null?l(h(e)):{},u(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var i=b((S,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>g});var t=z(i()),g={title:\"Szkoda czasu\",slug:\"szkoda-czasu-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\"],featuresNames:[\"Zeus\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[],duration:\"4:08\",trackNumber:2,producers:[],producersNames:[],description:\"Szkoda czasu \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/szkoda-czasu-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/szkoda-czasu-maniak.mdx",
+    "sourceFileName": "szkoda-czasu-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/szkoda-czasu-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/szkoda-czasu-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/szkoda-czasu-maniak"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Designer Flow",
+  "slug": "designer-flow-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Prozyum",
+  "albumSlug": "prozyum",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:37",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Designer Flow — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},m=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?l(g(e)):{},m(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>m(a({},\"__esModule\",{value:!0}),e);var u=f((D,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>c,frontmatter:()=>z});var r=b(u()),z={title:\"Designer Flow\",slug:\"designer-flow-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[],duration:\"3:37\",trackNumber:1,producers:[],producersNames:[],description:\"Designer Flow \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return y(j);})();\n;return Component;"
+  },
+  "_id": "skladby/designer-flow-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/designer-flow-yzomandias.mdx",
+    "sourceFileName": "designer-flow-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/designer-flow-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/designer-flow-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/designer-flow-yzomandias"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "CA$HANOVA BULHAR",
+  "slug": "ca-hanova-bulhar",
+  "description": "CA$HANOVA BULHAR — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var _=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),f=(n,t)=>{for(var r in t)s(n,r,{get:t[r],enumerable:!0})},i=(n,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!A.call(n,o)&&o!==r&&s(n,o,{get:()=>t[o],enumerable:!(c=u(t,o))||c.enumerable});return n};var j=(n,t,r)=>(r=n!=null?p(x(n)):{},i(t||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),C=n=>i(s({},\"__esModule\",{value:!0}),n);var l=_((v,a)=>{a.exports=_jsx_runtime});var b={};f(b,{default:()=>h,frontmatter:()=>H});var e=j(l()),H={title:\"CA$HANOVA BULHAR\",slug:\"ca-hanova-bulhar\",description:\"CA$HANOVA BULHAR \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-04\"};function m(n){let t={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,e.jsx)(t.p,{children:(0,e.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return C(b);})();\n;return Component;"
+  },
+  "_id": "raperi/ca-hanova-bulhar.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/ca-hanova-bulhar.mdx",
+    "sourceFileName": "ca-hanova-bulhar.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/ca-hanova-bulhar"
+  },
+  "type": "Rapper",
+  "url": "/raperi/ca-hanova-bulhar",
+  "canonicalUrl": "https://4rap.cz/raperi/ca-hanova-bulhar"
+}

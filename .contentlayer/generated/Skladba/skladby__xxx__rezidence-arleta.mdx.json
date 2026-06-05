@@ -1,0 +1,33 @@
+{
+  "title": "rezidence",
+  "slug": "rezidence-arleta",
+  "rapper": "Arleta",
+  "rapperSlug": "arleta",
+  "features": [],
+  "featuresNames": [],
+  "album": "TOXIC RODEO",
+  "albumSlug": "toxic-rodeo",
+  "year": 2025,
+  "genre": [],
+  "duration": "1:52",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "rezidence — skladba od Arleta.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var d=_((D,u)=>{u.exports=_jsx_runtime});var A={};b(A,{default:()=>l,frontmatter:()=>z});var r=g(d()),z={title:\"rezidence\",slug:\"rezidence-arleta\",rapper:\"Arleta\",rapperSlug:\"arleta\",features:[],featuresNames:[],album:\"TOXIC RODEO\",albumSlug:\"toxic-rodeo\",year:2025,genre:[],duration:\"1:52\",trackNumber:4,producers:[],producersNames:[],description:\"rezidence \\u2014 skladba od Arleta.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(A);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/rezidence-arleta.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/rezidence-arleta.mdx",
+    "sourceFileName": "rezidence-arleta.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/rezidence-arleta"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rezidence-arleta",
+  "canonicalUrl": "https://4rap.cz/skladby/rezidence-arleta"
+}

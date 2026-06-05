@@ -1,0 +1,33 @@
+{
+  "title": "Černý čaj",
+  "slug": "cerny-caj-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [],
+  "featuresNames": [],
+  "album": "Což takhle dát si Tesař",
+  "albumSlug": "coz-takhle-dat-si-tesar",
+  "year": 2011,
+  "genre": [],
+  "duration": "4:11",
+  "trackNumber": 18,
+  "producers": [],
+  "producersNames": [],
+  "description": "Černý čaj — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(j(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var d=f((y,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>l,frontmatter:()=>k});var r=b(d()),k={title:\"\\u010Cern\\xFD \\u010Daj\",slug:\"cerny-caj-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[],duration:\"4:11\",trackNumber:18,producers:[],producersNames:[],description:\"\\u010Cern\\xFD \\u010Daj \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/cerny-caj-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/cerny-caj-dj-fatte.mdx",
+    "sourceFileName": "cerny-caj-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/cerny-caj-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/cerny-caj-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/cerny-caj-dj-fatte"
+}

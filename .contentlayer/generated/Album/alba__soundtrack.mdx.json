@@ -1,0 +1,51 @@
+{
+  "title": "Soundtrack",
+  "slug": "soundtrack",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2013,
+  "genre": [],
+  "description": "Soundtrack — album od DJ Fatte (2013).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c87a79cd4dc5a7f7b468fb0c0666c16b/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Soundtrack (feat. BoyBand, Zdenka Predná)",
+    "Důležitá informace (feat. Jakub Děkan)",
+    "Prase kozu potrkalo (feat. Pio Squad)",
+    "Kráter (feat. MVP)",
+    "Mrdej ji dokud se hejbe (feat. Sodoma Gomora)",
+    "Nerozhodný (feat. Luzer)",
+    "Socky (feat. Strapo, Lyrik, Boy Wonder)",
+    "Nesedej ptáčku na rozjetou pilu (feat. Bonus)",
+    "Ztraceno v překladu (feat. Idea, Zdenka Predná)",
+    "Čistá pohoda (feat. Reset)",
+    "Milujem túto dobu (feat. Tono Suchota, Rest)",
+    "Príbehy slz (feat. Decko)",
+    "My Life, My Run (feat. Tah Phrum Duh Bush)",
+    "Pejzy pana Krejzy (feat. MC Gey)",
+    "Zmietam sa (feat. Pra3x, Radimo)",
+    "Vrána (feat. Paulie Garand)",
+    "Stratený (feat. Plexo, Majself)",
+    "Bez debat (feat. MC Adam Svatoš)",
+    "Vášeň (feat. AMO)",
+    "Pochop to (feat. Reef Tha Lost Cauze)",
+    "Iluzionisti (feat. Moja Reč, Idea)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var o in t)r(e,o,{get:t[o],enumerable:!0})},u=(e,t,o,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of p(t))!j.call(e,n)&&n!==o&&r(e,n,{get:()=>t[n],enumerable:!(d=m(t,n))||d.enumerable});return e};var M=(e,t,o)=>(o=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?r(o,\"default\",{value:e,enumerable:!0}):o,e)),x=e=>u(r({},\"__esModule\",{value:!0}),e);var s=k((S,c)=>{c.exports=_jsx_runtime});var z={};b(z,{default:()=>f,frontmatter:()=>y});var a=M(s()),y={title:\"Soundtrack\",slug:\"soundtrack\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2013,genre:[],description:\"Soundtrack \\u2014 album od DJ Fatte (2013).\",image:\"https://cdn-images.dzcdn.net/images/cover/c87a79cd4dc5a7f7b468fb0c0666c16b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Soundtrack (feat. BoyBand, Zdenka Predn\\xE1)\",\"D\\u016Fle\\u017Eit\\xE1 informace (feat. Jakub D\\u011Bkan)\",\"Prase kozu potrkalo (feat. Pio Squad)\",\"Kr\\xE1ter (feat. MVP)\",\"Mrdej ji dokud se hejbe (feat. Sodoma Gomora)\",\"Nerozhodn\\xFD (feat. Luzer)\",\"Socky (feat. Strapo, Lyrik, Boy Wonder)\",\"Nesedej pt\\xE1\\u010Dku na rozjetou pilu (feat. Bonus)\",\"Ztraceno v p\\u0159ekladu (feat. Idea, Zdenka Predn\\xE1)\",\"\\u010Cist\\xE1 pohoda (feat. Reset)\",\"Milujem t\\xFAto dobu (feat. Tono Suchota, Rest)\",\"Pr\\xEDbehy slz (feat. Decko)\",\"My Life, My Run (feat. Tah Phrum Duh Bush)\",\"Pejzy pana Krejzy (feat. MC Gey)\",\"Zmietam sa (feat. Pra3x, Radimo)\",\"Vr\\xE1na (feat. Paulie Garand)\",\"Straten\\xFD (feat. Plexo, Majself)\",\"Bez debat (feat. MC Adam Svato\\u0161)\",\"V\\xE1\\u0161e\\u0148 (feat. AMO)\",\"Pochop to (feat. Reef Tha Lost Cauze)\",\"Iluzionisti (feat. Moja Re\\u010D, Idea)\"],publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function f(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return x(z);})();\n;return Component;"
+  },
+  "_id": "alba/soundtrack.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/soundtrack.mdx",
+    "sourceFileName": "soundtrack.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/soundtrack"
+  },
+  "type": "Album",
+  "url": "/alba/soundtrack",
+  "canonicalUrl": "https://4rap.cz/alba/soundtrack"
+}

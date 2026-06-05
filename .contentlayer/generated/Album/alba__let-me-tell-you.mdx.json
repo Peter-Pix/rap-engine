@@ -1,0 +1,32 @@
+{
+  "title": "Let Me Tell You",
+  "slug": "let-me-tell-you",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "Alliwant Music",
+  "year": 2020,
+  "genre": [],
+  "description": "Let Me Tell You — singl od James Cole (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c5693185402b3df7e773b476e8f75fa1/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Let Me Tell You (Original Mix)",
+    "Let Me Tell You (The Mekanism remix)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var l in t)o(e,l,{get:t[l],enumerable:!0})},a=(e,t,l,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!h.call(e,r)&&r!==l&&o(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var j=(e,t,l)=>(l=e!=null?d(g(e)):{},a(t||!e||!e.__esModule?o(l,\"default\",{value:e,enumerable:!0}):l,e)),_=e=>a(o({},\"__esModule\",{value:!0}),e);var c=M((C,i)=>{i.exports=_jsx_runtime});var L={};f(L,{default:()=>u,frontmatter:()=>b});var n=j(c()),b={title:\"Let Me Tell You\",slug:\"let-me-tell-you\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Alliwant Music\",year:2020,genre:[],description:\"Let Me Tell You \\u2014 singl od James Cole (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/c5693185402b3df7e773b476e8f75fa1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Let Me Tell You (Original Mix)\",\"Let Me Tell You (The Mekanism remix)\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(L);})();\n;return Component;"
+  },
+  "_id": "alba/let-me-tell-you.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/let-me-tell-you.mdx",
+    "sourceFileName": "let-me-tell-you.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/let-me-tell-you"
+  },
+  "type": "Album",
+  "url": "/alba/let-me-tell-you",
+  "canonicalUrl": "https://4rap.cz/alba/let-me-tell-you"
+}

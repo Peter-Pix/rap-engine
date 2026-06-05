@@ -1,0 +1,31 @@
+{
+  "title": "Kruhy",
+  "slug": "kruhy",
+  "rapper": "August Ocean",
+  "rapperSlug": "august-ocean",
+  "label": "WM Czech Republic",
+  "year": 2026,
+  "genre": [],
+  "description": "Kruhy — singl od August Ocean (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a42234d1ef4017555ca569928a8847e8/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Kruhy"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var c=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of m(t))!x.call(e,a)&&a!==r&&c(e,a,{get:()=>t[a],enumerable:!(s=h(t,a))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(g(e)):{},u(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>u(c({},\"__esModule\",{value:!0}),e);var i=_((C,o)=>{o.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>b});var n=j(i()),b={title:\"Kruhy\",slug:\"kruhy\",rapper:\"August Ocean\",rapperSlug:\"august-ocean\",label:\"WM Czech Republic\",year:2026,genre:[],description:\"Kruhy \\u2014 singl od August Ocean (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/a42234d1ef4017555ca569928a8847e8/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Kruhy\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return y(M);})();\n;return Component;"
+  },
+  "_id": "alba/kruhy.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/kruhy.mdx",
+    "sourceFileName": "kruhy.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/kruhy"
+  },
+  "type": "Album",
+  "url": "/alba/kruhy",
+  "canonicalUrl": "https://4rap.cz/alba/kruhy"
+}

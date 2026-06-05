@@ -1,0 +1,37 @@
+{
+  "title": "Návraty",
+  "slug": "navraty-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "DANK",
+  "albumSlug": "dank",
+  "year": 2018,
+  "genre": [],
+  "duration": "4:32",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Návraty — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(g(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((v,d)=>{d.exports=_jsx_runtime});var j={};y(j,{default:()=>c,frontmatter:()=>N});var r=_(i()),N={title:\"N\\xE1vraty\",slug:\"navraty-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"4:32\",trackNumber:7,producers:[],producersNames:[],description:\"N\\xE1vraty \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/navraty-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/navraty-paulie-garand.mdx",
+    "sourceFileName": "navraty-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/navraty-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/navraty-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/navraty-paulie-garand"
+}

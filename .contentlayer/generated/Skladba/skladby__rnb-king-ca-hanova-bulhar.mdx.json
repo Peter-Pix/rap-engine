@@ -1,0 +1,33 @@
+{
+  "title": "RnB King",
+  "slug": "rnb-king-ca-hanova-bulhar",
+  "rapper": "CA$HANOVA BULHAR",
+  "rapperSlug": "ca-hanova-bulhar",
+  "features": [],
+  "featuresNames": [],
+  "album": "rap disco revoluce",
+  "albumSlug": "rap-disco-revoluce",
+  "year": 2020,
+  "genre": [],
+  "duration": "4:51",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "RnB King — skladba od CA$HANOVA BULHAR.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),A=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!b.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var f=(e,n,t)=>(t=e!=null?m(x(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var i=g((B,u)=>{u.exports=_jsx_runtime});var N={};A(N,{default:()=>d,frontmatter:()=>j});var r=f(i()),j={title:\"RnB King\",slug:\"rnb-king-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[],duration:\"4:51\",trackNumber:7,producers:[],producersNames:[],description:\"RnB King \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(N);})();\n;return Component;"
+  },
+  "_id": "skladby/rnb-king-ca-hanova-bulhar.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rnb-king-ca-hanova-bulhar.mdx",
+    "sourceFileName": "rnb-king-ca-hanova-bulhar.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rnb-king-ca-hanova-bulhar"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rnb-king-ca-hanova-bulhar",
+  "canonicalUrl": "https://4rap.cz/skladby/rnb-king-ca-hanova-bulhar"
+}

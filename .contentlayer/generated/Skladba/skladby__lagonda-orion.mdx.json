@@ -1,0 +1,37 @@
+{
+  "title": "Lagonda",
+  "slug": "lagonda-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "kony"
+  ],
+  "featuresNames": [
+    "KONY"
+  ],
+  "album": "Teritorium III.",
+  "albumSlug": "teritorium-iii",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:07",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Lagonda — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(i=p(r,o))||i.enumerable});return e};var b=(e,r,t)=>(t=e!=null?l(g(e)):{},s(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var m=f((I,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>N});var n=b(m()),N={title:\"Lagonda\",slug:\"lagonda-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"kony\"],featuresNames:[\"KONY\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[],duration:\"3:07\",trackNumber:11,producers:[],producersNames:[],description:\"Lagonda \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/lagonda-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/lagonda-orion.mdx",
+    "sourceFileName": "lagonda-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/lagonda-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/lagonda-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/lagonda-orion"
+}

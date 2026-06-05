@@ -1,0 +1,37 @@
+{
+  "title": "VHS",
+  "slug": "vhs-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "erika-fecova"
+  ],
+  "featuresNames": [
+    "Erika Fecova"
+  ],
+  "album": "V hlavní roli",
+  "albumSlug": "v-hlavni-roli",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:33",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "VHS — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of h(r))!f.call(e,t)&&t!==n&&o(e,t,{get:()=>r[t],enumerable:!(s=p(r,t))||s.enumerable});return e};var b=(e,r,n)=>(n=e!=null?m(x(e)):{},i(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),v=e=>i(o({},\"__esModule\",{value:!0}),e);var l=g((F,u)=>{u.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>j});var a=b(l()),j={title:\"VHS\",slug:\"vhs-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"erika-fecova\"],featuresNames:[\"Erika Fecova\"],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:33\",trackNumber:11,producers:[],producersNames:[],description:\"VHS \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return v(S);})();\n;return Component;"
+  },
+  "_id": "skladby/vhs-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/vhs-paulie-garand.mdx",
+    "sourceFileName": "vhs-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/vhs-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/vhs-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/vhs-paulie-garand"
+}

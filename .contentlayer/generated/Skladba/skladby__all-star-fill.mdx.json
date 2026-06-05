@@ -1,0 +1,43 @@
+{
+  "title": "ALL STAR",
+  "slug": "all-star-fill",
+  "rapper": "Fill",
+  "rapperSlug": "fill",
+  "features": [
+    "spack-ds",
+    "hugo-toxxx",
+    "forest-blunt",
+    "resetedh"
+  ],
+  "featuresNames": [
+    "Spack DS",
+    "Hugo Toxxx",
+    "Forest Blunt",
+    "ResetedH"
+  ],
+  "album": "ALL STAR",
+  "albumSlug": "all-star",
+  "year": 2026,
+  "genre": [],
+  "duration": "1:33",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "ALL STAR — skladba od Fill.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),S=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=p(t,s))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(h(e)):{},l(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),A=e=>l(o({},\"__esModule\",{value:!0}),e);var c=g((F,u)=>{u.exports=_jsx_runtime});var _={};S(_,{default:()=>d,frontmatter:()=>L});var r=b(c()),L={title:\"ALL STAR\",slug:\"all-star-fill\",rapper:\"Fill\",rapperSlug:\"fill\",features:[\"spack-ds\",\"hugo-toxxx\",\"forest-blunt\",\"resetedh\"],featuresNames:[\"Spack DS\",\"Hugo Toxxx\",\"Forest Blunt\",\"ResetedH\"],album:\"ALL STAR\",albumSlug:\"all-star\",year:2026,genre:[],duration:\"1:33\",trackNumber:1,producers:[],producersNames:[],description:\"ALL STAR \\u2014 skladba od Fill.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return A(_);})();\n;return Component;"
+  },
+  "_id": "skladby/all-star-fill.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/all-star-fill.mdx",
+    "sourceFileName": "all-star-fill.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/all-star-fill"
+  },
+  "type": "Skladba",
+  "url": "/skladby/all-star-fill",
+  "canonicalUrl": "https://4rap.cz/skladby/all-star-fill"
+}

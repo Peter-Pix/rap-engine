@@ -1,0 +1,33 @@
+{
+  "title": "Me & You",
+  "slug": "me-you-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "It's Ak!",
+  "albumSlug": "it-s-ak",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:35",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Me & You — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!k.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var m=f((N,i)=>{i.exports=_jsx_runtime});var j={};M(j,{default:()=>d,frontmatter:()=>g});var n=_(m()),g={title:\"Me & You\",slug:\"me-you-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"It's Ak!\",albumSlug:\"it-s-ak\",year:2024,genre:[],duration:\"3:35\",trackNumber:4,producers:[],producersNames:[],description:\"Me & You \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/me-you-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/me-you-maniak.mdx",
+    "sourceFileName": "me-you-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/me-you-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/me-you-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/me-you-maniak"
+}

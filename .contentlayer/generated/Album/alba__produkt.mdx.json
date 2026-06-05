@@ -1,0 +1,42 @@
+{
+  "title": "Produkt",
+  "slug": "produkt",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Skerocuda",
+  "labelSlug": "skerocuda",
+  "year": 2021,
+  "genre": [
+    "trap",
+    "street-rap"
+  ],
+  "description": "Syrový album reflektující tlak úspěchu, ulici a osobní démony.",
+  "image": "",
+  "featured": false,
+  "tracklist": [
+    "Produkt",
+    "Prachy",
+    "Stíny",
+    "No Sleep",
+    "Realita",
+    "Karma"
+  ],
+  "rating": 8.4,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nProdukt působí paranoidně a agresivně zároveň.\n\n## Zvuk\n\nTemný synthy, tvrdý 808s a neustálej tlak.\n\n## Dopad\n\nAlbum upevnilo Sergeiho signature styl.",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},l=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!k.call(r,a)&&a!==n&&o(r,a,{get:()=>e[a],enumerable:!(s=h(e,a))||s.enumerable});return r};var b=(r,e,n)=>(n=r!=null?p(g(r)):{},l(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),S=r=>l(o({},\"__esModule\",{value:!0}),r);var i=x((v,u)=>{u.exports=_jsx_runtime});var _={};y(_,{default:()=>d,frontmatter:()=>j});var t=b(i()),j={title:\"Produkt\",slug:\"produkt\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Skerocuda\",labelSlug:\"skerocuda\",year:2021,genre:[\"trap\",\"street-rap\"],description:\"Syrov\\xFD album reflektuj\\xEDc\\xED tlak \\xFAsp\\u011Bchu, ulici a osobn\\xED d\\xE9mony.\",image:\"\",tracklist:[\"Produkt\",\"Prachy\",\"St\\xEDny\",\"No Sleep\",\"Realita\",\"Karma\"],rating:8.4,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function c(r){let e={h2:\"h2\",p:\"p\",...r.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.p,{children:\"Produkt p\\u016Fsob\\xED paranoidn\\u011B a agresivn\\u011B z\\xE1rove\\u0148.\"}),`\n`,(0,t.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,t.jsx)(e.p,{children:\"Temn\\xFD synthy, tvrd\\xFD 808s a neust\\xE1lej tlak.\"}),`\n`,(0,t.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,t.jsx)(e.p,{children:\"Album upevnilo Sergeiho signature styl.\"})]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(c,{...r})}):c(r)}return S(_);})();\n;return Component;"
+  },
+  "_id": "alba/produkt.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/produkt.mdx",
+    "sourceFileName": "produkt.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/produkt"
+  },
+  "type": "Album",
+  "url": "/alba/produkt",
+  "canonicalUrl": "https://4rap.cz/alba/produkt"
+}

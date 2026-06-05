@@ -1,0 +1,23 @@
+{
+  "title": "Tomáš Botló",
+  "slug": "tomas-botlo",
+  "genre": [],
+  "description": "Tomáš Botló — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},i=(t,e,o,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!_.call(t,r)&&r!==o&&s(t,r,{get:()=>e[r],enumerable:!(c=u(e,r))||c.enumerable});return t};var g=(t,e,o)=>(o=t!=null?d(x(t)):{},i(e||!t||!t.__esModule?s(o,\"default\",{value:t,enumerable:!0}):o,t)),b=t=>i(s({},\"__esModule\",{value:!0}),t);var l=f((v,m)=>{m.exports=_jsx_runtime});var M={};j(M,{default:()=>p,frontmatter:()=>B});var n=g(l()),B={title:\"Tom\\xE1\\u0161 Botl\\xF3\",slug:\"tomas-botlo\",genre:[],description:\"Tom\\xE1\\u0161 Botl\\xF3 \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(a,{...t})}):a(t)}return b(M);})();\n;return Component;"
+  },
+  "_id": "raperi/tomas-botlo.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/tomas-botlo.mdx",
+    "sourceFileName": "tomas-botlo.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/tomas-botlo"
+  },
+  "type": "Rapper",
+  "url": "/raperi/tomas-botlo",
+  "canonicalUrl": "https://4rap.cz/raperi/tomas-botlo"
+}

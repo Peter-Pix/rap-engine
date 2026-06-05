@@ -1,0 +1,41 @@
+{
+  "title": "Dej Mi Pokoj / Leden",
+  "slug": "dej-mi-pokoj-leden-if",
+  "rapper": "IF",
+  "rapperSlug": "if",
+  "features": [
+    "idea",
+    "dj-fatte",
+    "vaclav-roucek"
+  ],
+  "featuresNames": [
+    "Idea",
+    "DJ Fatte",
+    "Vaclav Roucek"
+  ],
+  "album": "Stop Play",
+  "albumSlug": "stop-play",
+  "year": 2016,
+  "genre": [],
+  "duration": "4:11",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Dej Mi Pokoj / Leden — skladba od IF.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of j(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(f(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(a({},\"__esModule\",{value:!0}),e);var u=h((M,d)=>{d.exports=_jsx_runtime});var D={};k(D,{default:()=>l,frontmatter:()=>g});var n=_(u()),g={title:\"Dej Mi Pokoj / Leden\",slug:\"dej-mi-pokoj-leden-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"vaclav-roucek\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Vaclav Roucek\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[],duration:\"4:11\",trackNumber:8,producers:[],producersNames:[],description:\"Dej Mi Pokoj / Leden \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return b(D);})();\n;return Component;"
+  },
+  "_id": "skladby/dej-mi-pokoj-leden-if.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dej-mi-pokoj-leden-if.mdx",
+    "sourceFileName": "dej-mi-pokoj-leden-if.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dej-mi-pokoj-leden-if"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dej-mi-pokoj-leden-if",
+  "canonicalUrl": "https://4rap.cz/skladby/dej-mi-pokoj-leden-if"
+}

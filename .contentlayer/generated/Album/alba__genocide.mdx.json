@@ -1,0 +1,31 @@
+{
+  "title": "Genocide",
+  "slug": "genocide",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "label": "Decky",
+  "year": 2021,
+  "genre": [],
+  "description": "Genocide — singl od Decky (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a6e51dbeab4393bd84a464417d6d45d1/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Genocide"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,d)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of g(n))!x.call(e,c)&&c!==r&&o(e,c,{get:()=>n[c],enumerable:!(d=u(n,c))||d.enumerable});return e};var j=(e,n,r)=>(r=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>i(o({},\"__esModule\",{value:!0}),e);var s=b((G,a)=>{a.exports=_jsx_runtime});var k={};_(k,{default:()=>m,frontmatter:()=>f});var t=j(s()),f={title:\"Genocide\",slug:\"genocide\",rapper:\"Decky\",rapperSlug:\"decky\",label:\"Decky\",year:2021,genre:[],description:\"Genocide \\u2014 singl od Decky (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/a6e51dbeab4393bd84a464417d6d45d1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Genocide\"],publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return y(k);})();\n;return Component;"
+  },
+  "_id": "alba/genocide.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/genocide.mdx",
+    "sourceFileName": "genocide.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/genocide"
+  },
+  "type": "Album",
+  "url": "/alba/genocide",
+  "canonicalUrl": "https://4rap.cz/alba/genocide"
+}

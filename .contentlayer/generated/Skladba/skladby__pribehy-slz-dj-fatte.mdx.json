@@ -1,0 +1,37 @@
+{
+  "title": "Príbehy slz",
+  "slug": "pribehy-slz-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "decko"
+  ],
+  "featuresNames": [
+    "Decko"
+  ],
+  "album": "Soundtrack",
+  "albumSlug": "soundtrack",
+  "year": 2013,
+  "genre": [],
+  "duration": "2:59",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Príbehy slz — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var d=f((F,u)=>{u.exports=_jsx_runtime});var y={};j(y,{default:()=>m,frontmatter:()=>k});var r=_(d()),k={title:\"Pr\\xEDbehy slz\",slug:\"pribehy-slz-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"decko\"],featuresNames:[\"Decko\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"2:59\",trackNumber:12,producers:[],producersNames:[],description:\"Pr\\xEDbehy slz \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/pribehy-slz-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pribehy-slz-dj-fatte.mdx",
+    "sourceFileName": "pribehy-slz-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pribehy-slz-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pribehy-slz-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/pribehy-slz-dj-fatte"
+}

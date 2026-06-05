@@ -1,0 +1,31 @@
+{
+  "title": "Legends Never Die",
+  "slug": "legends-never-die",
+  "rapper": "Aaron S.",
+  "rapperSlug": "aaron-s",
+  "label": "Seraphim Soundz",
+  "year": 2022,
+  "genre": [],
+  "description": "Legends Never Die — singl od Aaron S. (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/21502661dc366fba65ad8d361e1ff62c/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Legends Never Die"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of u(n))!x.call(e,s)&&s!==r&&a(e,s,{get:()=>n[s],enumerable:!(o=g(n,s))||o.enumerable});return e};var j=(e,n,r)=>(r=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),S=e=>i(a({},\"__esModule\",{value:!0}),e);var c=f((L,d)=>{d.exports=_jsx_runtime});var v={};_(v,{default:()=>m,frontmatter:()=>b});var t=j(c()),b={title:\"Legends Never Die\",slug:\"legends-never-die\",rapper:\"Aaron S.\",rapperSlug:\"aaron-s\",label:\"Seraphim Soundz\",year:2022,genre:[],description:\"Legends Never Die \\u2014 singl od Aaron S. (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/21502661dc366fba65ad8d361e1ff62c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Legends Never Die\"],publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return S(v);})();\n;return Component;"
+  },
+  "_id": "alba/legends-never-die.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/legends-never-die.mdx",
+    "sourceFileName": "legends-never-die.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/legends-never-die"
+  },
+  "type": "Album",
+  "url": "/alba/legends-never-die",
+  "canonicalUrl": "https://4rap.cz/alba/legends-never-die"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Fakta A Fikce",
+  "slug": "fakta-a-fikce-vladimir-518",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "features": [
+    "mike-trafik"
+  ],
+  "featuresNames": [
+    "Mike Trafik"
+  ],
+  "album": "Ultra! Ultra!",
+  "albumSlug": "ultra-ultra",
+  "year": 2017,
+  "genre": [],
+  "duration": "4:02",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Fakta A Fikce — skladba od Vladimir 518.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of k(t))!x.call(e,n)&&n!==a&&i(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var b=(e,t,a)=>(a=e!=null?d(f(e)):{},s(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var m=h((A,l)=>{l.exports=_jsx_runtime});var j={};_(j,{default:()=>c,frontmatter:()=>F});var r=b(m()),F={title:\"Fakta A Fikce\",slug:\"fakta-a-fikce-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"4:02\",trackNumber:3,producers:[],producersNames:[],description:\"Fakta A Fikce \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/fakta-a-fikce-vladimir-518.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/fakta-a-fikce-vladimir-518.mdx",
+    "sourceFileName": "fakta-a-fikce-vladimir-518.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/fakta-a-fikce-vladimir-518"
+  },
+  "type": "Skladba",
+  "url": "/skladby/fakta-a-fikce-vladimir-518",
+  "canonicalUrl": "https://4rap.cz/skladby/fakta-a-fikce-vladimir-518"
+}

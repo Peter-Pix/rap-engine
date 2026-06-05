@@ -1,0 +1,39 @@
+{
+  "title": "V Kouři",
+  "slug": "v-kouri-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [
+    "hasan",
+    "karlo"
+  ],
+  "featuresNames": [
+    "Hasan",
+    "Karlo"
+  ],
+  "album": "Dobrá Duše, Srdce ze Zlata",
+  "albumSlug": "dobra-duse-srdce-ze-zlata",
+  "year": 2019,
+  "genre": [],
+  "duration": "4:08",
+  "trackNumber": 14,
+  "producers": [],
+  "producersNames": [],
+  "description": "V Kouři — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),z=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},u=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!b.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=p(a,n))||s.enumerable});return e};var _=(e,a,t)=>(t=e!=null?l(x(e)):{},u(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((D,d)=>{d.exports=_jsx_runtime});var k={};z(k,{default:()=>c,frontmatter:()=>j});var r=_(i()),j={title:\"V Kou\\u0159i\",slug:\"v-kouri-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"hasan\",\"karlo\"],featuresNames:[\"Hasan\",\"Karlo\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[],duration:\"4:08\",trackNumber:14,producers:[],producersNames:[],description:\"V Kou\\u0159i \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/v-kouri-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/v-kouri-yzomandias.mdx",
+    "sourceFileName": "v-kouri-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/v-kouri-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/v-kouri-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/v-kouri-yzomandias"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Ty jsi nula",
+  "slug": "ty-jsi-nula-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "p-a-t",
+    "dj-wich",
+    "pater-capo",
+    "prince-marock"
+  ],
+  "featuresNames": [
+    "P.A.T.",
+    "DJ Wich",
+    "Pater Capo",
+    "Prince Marock"
+  ],
+  "album": "Ty jsi nula",
+  "albumSlug": "ty-jsi-nula",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:33",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ty jsi nula — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=d(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(j(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((T,c)=>{c.exports=_jsx_runtime});var k={};y(k,{default:()=>p,frontmatter:()=>g});var r=_(u()),g={title:\"Ty jsi nula\",slug:\"ty-jsi-nula-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"p-a-t\",\"dj-wich\",\"pater-capo\",\"prince-marock\"],featuresNames:[\"P.A.T.\",\"DJ Wich\",\"Pater Capo\",\"Prince Marock\"],album:\"Ty jsi nula\",albumSlug:\"ty-jsi-nula\",year:2016,genre:[],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Ty jsi nula \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "skladby/ty-jsi-nula-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ty-jsi-nula-orion.mdx",
+    "sourceFileName": "ty-jsi-nula-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ty-jsi-nula-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ty-jsi-nula-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/ty-jsi-nula-orion"
+}

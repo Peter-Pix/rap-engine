@@ -1,0 +1,37 @@
+{
+  "title": "Jekyll & Hyde",
+  "slug": "jekyll-hyde-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "daniel-vardan"
+  ],
+  "featuresNames": [
+    "Daniel Vardan"
+  ],
+  "album": "EP01",
+  "albumSlug": "ep01",
+  "year": 2019,
+  "genre": [],
+  "duration": "2:40",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Jekyll & Hyde — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(x(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>d(o({},\"__esModule\",{value:!0}),e);var u=j((F,l)=>{l.exports=_jsx_runtime});var k={};y(k,{default:()=>i,frontmatter:()=>g});var n=_(u()),g={title:\"Jekyll & Hyde\",slug:\"jekyll-hyde-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"daniel-vardan\"],featuresNames:[\"Daniel Vardan\"],album:\"EP01\",albumSlug:\"ep01\",year:2019,genre:[],duration:\"2:40\",trackNumber:4,producers:[],producersNames:[],description:\"Jekyll & Hyde \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "skladby/jekyll-hyde-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jekyll-hyde-dj-fatte.mdx",
+    "sourceFileName": "jekyll-hyde-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jekyll-hyde-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jekyll-hyde-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/jekyll-hyde-dj-fatte"
+}

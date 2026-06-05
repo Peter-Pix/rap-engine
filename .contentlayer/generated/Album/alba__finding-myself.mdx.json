@@ -1,0 +1,34 @@
+{
+  "title": "Finding Myself",
+  "slug": "finding-myself",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "Maniak",
+  "year": 2026,
+  "genre": [],
+  "description": "Finding Myself — EP od Maniak (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/9160a32cc676cf6bc3f51b30c419ebc4/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Riding In Cars",
+    "See A Man",
+    "Too Young",
+    "Can’t Get Over It"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),M=(n,e)=>{for(var a in e)r(n,a,{get:e[a],enumerable:!0})},s=(n,e,a,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of u(e))!h.call(n,i)&&i!==a&&r(n,i,{get:()=>e[i],enumerable:!(c=g(e,i))||c.enumerable});return n};var b=(n,e,a)=>(a=n!=null?p(f(n)):{},s(e||!n||!n.__esModule?r(a,\"default\",{value:n,enumerable:!0}):a,n)),_=n=>s(r({},\"__esModule\",{value:!0}),n);var d=x((C,o)=>{o.exports=_jsx_runtime});var k={};M(k,{default:()=>m,frontmatter:()=>j});var t=b(d()),j={title:\"Finding Myself\",slug:\"finding-myself\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"Maniak\",year:2026,genre:[],description:\"Finding Myself \\u2014 EP od Maniak (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/9160a32cc676cf6bc3f51b30c419ebc4/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Riding In Cars\",\"See A Man\",\"Too Young\",\"Can\\u2019t Get Over It\"],publishedAt:\"2026-06-04\"};function l(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return _(k);})();\n;return Component;"
+  },
+  "_id": "alba/finding-myself.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/finding-myself.mdx",
+    "sourceFileName": "finding-myself.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/finding-myself"
+  },
+  "type": "Album",
+  "url": "/alba/finding-myself",
+  "canonicalUrl": "https://4rap.cz/alba/finding-myself"
+}

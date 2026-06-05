@@ -1,0 +1,37 @@
+{
+  "title": "Blood Sport",
+  "slug": "blood-sport-rytmus",
+  "rapper": "Rytmus",
+  "rapperSlug": "rytmus",
+  "features": [
+    "loko-loko"
+  ],
+  "featuresNames": [
+    "Loko Loko"
+  ],
+  "album": "Bengoro II",
+  "albumSlug": "bengoro-ii",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:45",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Blood Sport — skladba od Rytmus.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!b.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(u=i(t,n))||u.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(h(e)):{},a(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>a(s({},\"__esModule\",{value:!0}),e);var l=g((B,m)=>{m.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>y});var o=_(l()),y={title:\"Blood Sport\",slug:\"blood-sport-rytmus\",rapper:\"Rytmus\",rapperSlug:\"rytmus\",features:[\"loko-loko\"],featuresNames:[\"Loko Loko\"],album:\"Bengoro II\",albumSlug:\"bengoro-ii\",year:2024,genre:[],duration:\"2:45\",trackNumber:11,producers:[],producersNames:[],description:\"Blood Sport \\u2014 skladba od Rytmus.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(c,{...e})}):c(e)}return k(j);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/blood-sport-rytmus.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/blood-sport-rytmus.mdx",
+    "sourceFileName": "blood-sport-rytmus.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/blood-sport-rytmus"
+  },
+  "type": "Skladba",
+  "url": "/skladby/blood-sport-rytmus",
+  "canonicalUrl": "https://4rap.cz/skladby/blood-sport-rytmus"
+}

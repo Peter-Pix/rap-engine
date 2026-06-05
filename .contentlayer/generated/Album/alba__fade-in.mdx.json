@@ -1,0 +1,43 @@
+{
+  "title": "Fade In",
+  "slug": "fade-in",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2018,
+  "genre": [],
+  "description": "Fade In — album od DJ Fatte (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c4ebe4ca7b1febf382a5130f378d1251/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Baggy Jeans (feat. Idea, Dymer)",
+    "Flow (feat. Michajlov, Matys)",
+    "Djevko (feat. Maniak)",
+    "Mic Check (feat. Refew, Delik)",
+    "Gump (feat. Paulie Garand)",
+    "My Sme Rap (feat. Gumbgu, Pil C)",
+    "Vlajky (feat. Idea)",
+    "Po Nás (feat. GR Team)",
+    "Big City Life (feat. Daniel, Yoga Spank)",
+    "Rozostřené Chvíle (feat. Tomba, Roseck)",
+    "Renne, Já A Fosco (feat. Fosco Alma, MC Gey, Renne Dang)",
+    "Boys (feat. BoyBand)",
+    "Budoucnost (feat. Rest, Separ)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),y=(e,a)=>{for(var n in a)r(e,n,{get:a[n],enumerable:!0})},c=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of u(a))!h.call(e,o)&&o!==n&&r(e,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return e};var j=(e,a,n)=>(n=e!=null?m(g(e)):{},c(a||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),x=e=>c(r({},\"__esModule\",{value:!0}),e);var l=b((R,i)=>{i.exports=_jsx_runtime});var D={};y(D,{default:()=>d,frontmatter:()=>M});var t=j(l()),M={title:\"Fade In\",slug:\"fade-in\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2018,genre:[],description:\"Fade In \\u2014 album od DJ Fatte (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/c4ebe4ca7b1febf382a5130f378d1251/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Baggy Jeans (feat. Idea, Dymer)\",\"Flow (feat. Michajlov, Matys)\",\"Djevko (feat. Maniak)\",\"Mic Check (feat. Refew, Delik)\",\"Gump (feat. Paulie Garand)\",\"My Sme Rap (feat. Gumbgu, Pil C)\",\"Vlajky (feat. Idea)\",\"Po N\\xE1s (feat. GR Team)\",\"Big City Life (feat. Daniel, Yoga Spank)\",\"Rozost\\u0159en\\xE9 Chv\\xEDle (feat. Tomba, Roseck)\",\"Renne, J\\xE1 A Fosco (feat. Fosco Alma, MC Gey, Renne Dang)\",\"Boys (feat. BoyBand)\",\"Budoucnost (feat. Rest, Separ)\"],publishedAt:\"2026-06-04\"};function f(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(f,{...e})}):f(e)}return x(D);})();\n;return Component;"
+  },
+  "_id": "alba/fade-in.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/fade-in.mdx",
+    "sourceFileName": "fade-in.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/fade-in"
+  },
+  "type": "Album",
+  "url": "/alba/fade-in",
+  "canonicalUrl": "https://4rap.cz/alba/fade-in"
+}

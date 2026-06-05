@@ -1,0 +1,37 @@
+{
+  "title": "Run it back",
+  "slug": "run-it-back-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "jumpout"
+  ],
+  "featuresNames": [
+    "JuMpOuT"
+  ],
+  "album": "It's Ak!",
+  "albumSlug": "it-s-ak",
+  "year": 2024,
+  "genre": [],
+  "duration": "5:17",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Run it back — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var u=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var r in e)u(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of k(e))!b.call(t,a)&&a!==r&&u(t,a,{get:()=>e[a],enumerable:!(s=l(e,a))||s.enumerable});return t};var _=(t,e,r)=>(r=t!=null?d(x(t)):{},o(e||!t||!t.__esModule?u(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>o(u({},\"__esModule\",{value:!0}),t);var c=h((S,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>j});var n=_(c()),j={title:\"Run it back\",slug:\"run-it-back-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"It's Ak!\",albumSlug:\"it-s-ak\",year:2024,genre:[],duration:\"5:17\",trackNumber:2,producers:[],producersNames:[],description:\"Run it back \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/run-it-back-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/run-it-back-maniak.mdx",
+    "sourceFileName": "run-it-back-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/run-it-back-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/run-it-back-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/run-it-back-maniak"
+}

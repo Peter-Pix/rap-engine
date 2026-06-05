@@ -1,0 +1,31 @@
+{
+  "title": "Rossignol",
+  "slug": "rossignol",
+  "rapper": "Rohony",
+  "rapperSlug": "rohony",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "Rossignol — singl od Rohony (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/4ac9f3d99dc49d9222d1a0c78cb532e9/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Rossignol"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(c=g(n,r))||c.enumerable});return e};var f=(e,n,o)=>(o=e!=null?m(u(e)):{},i(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var l=_((C,a)=>{a.exports=_jsx_runtime});var y={};b(y,{default:()=>p,frontmatter:()=>R});var t=f(l()),R={title:\"Rossignol\",slug:\"rossignol\",rapper:\"Rohony\",rapperSlug:\"rohony\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Rossignol \\u2014 singl od Rohony (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/4ac9f3d99dc49d9222d1a0c78cb532e9/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Rossignol\"],publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "alba/rossignol.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/rossignol.mdx",
+    "sourceFileName": "rossignol.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/rossignol"
+  },
+  "type": "Album",
+  "url": "/alba/rossignol",
+  "canonicalUrl": "https://4rap.cz/alba/rossignol"
+}

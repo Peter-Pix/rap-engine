@@ -1,0 +1,37 @@
+{
+  "title": "Pod Vlivem",
+  "slug": "pod-vlivem",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2021,
+  "genre": [],
+  "description": "Pod Vlivem — album od Yzomandias (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/06375aa4658c76e108748fee400c71a9/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Sedim Vysoko",
+    "Co Uděláš Až Příjdou",
+    "Krystal",
+    "Hank Moody",
+    "Pod Vlivem Skit",
+    "Pod Vlivem",
+    "Kdo Se Směje Naposled"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},s=(e,t,o,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of g(t))!x.call(e,i)&&i!==o&&a(e,i,{get:()=>t[i],enumerable:!(r=u(t,i))||r.enumerable});return e};var v=(e,t,o)=>(o=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),S=e=>s(a({},\"__esModule\",{value:!0}),e);var l=b((V,d)=>{d.exports=_jsx_runtime});var f={};j(f,{default:()=>c,frontmatter:()=>_});var n=v(l()),_={title:\"Pod Vlivem\",slug:\"pod-vlivem\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2021,genre:[],description:\"Pod Vlivem \\u2014 album od Yzomandias (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/06375aa4658c76e108748fee400c71a9/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sedim Vysoko\",\"Co Ud\\u011Bl\\xE1\\u0161 A\\u017E P\\u0159\\xEDjdou\",\"Krystal\",\"Hank Moody\",\"Pod Vlivem Skit\",\"Pod Vlivem\",\"Kdo Se Sm\\u011Bje Naposled\"],publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return S(f);})();\n;return Component;"
+  },
+  "_id": "alba/pod-vlivem.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/pod-vlivem.mdx",
+    "sourceFileName": "pod-vlivem.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/pod-vlivem"
+  },
+  "type": "Album",
+  "url": "/alba/pod-vlivem",
+  "canonicalUrl": "https://4rap.cz/alba/pod-vlivem"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "MINIMAL",
+  "slug": "minimal-konex",
+  "rapper": "Konex",
+  "rapperSlug": "konex",
+  "features": [
+    "decky",
+    "nik-tendo"
+  ],
+  "featuresNames": [
+    "Decky",
+    "Nik Tendo"
+  ],
+  "album": "karanténa",
+  "albumSlug": "karantena",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:44",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "MINIMAL — skladba od Konex.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(k(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var i=f((y,u)=>{u.exports=_jsx_runtime});var N={};M(N,{default:()=>d,frontmatter:()=>g});var t=_(i()),g={title:\"MINIMAL\",slug:\"minimal-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"nik-tendo\"],featuresNames:[\"Decky\",\"Nik Tendo\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[],duration:\"3:44\",trackNumber:8,producers:[],producersNames:[],description:\"MINIMAL \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(N);})();\n;return Component;"
+  },
+  "_id": "skladby/minimal-konex.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/minimal-konex.mdx",
+    "sourceFileName": "minimal-konex.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/minimal-konex"
+  },
+  "type": "Skladba",
+  "url": "/skladby/minimal-konex",
+  "canonicalUrl": "https://4rap.cz/skladby/minimal-konex"
+}

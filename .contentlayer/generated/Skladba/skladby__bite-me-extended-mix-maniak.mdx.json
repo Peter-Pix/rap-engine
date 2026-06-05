@@ -1,0 +1,33 @@
+{
+  "title": "Bite Me (Extended Mix)",
+  "slug": "bite-me-extended-mix-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bite Me (Extended Mix)",
+  "albumSlug": "bite-me",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:06",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bite Me (Extended Mix) — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var x=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!h.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?x(M(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var m=b((E,d)=>{d.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>k});var n=_(m()),k={title:\"Bite Me (Extended Mix)\",slug:\"bite-me-extended-mix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Bite Me (Extended Mix)\",albumSlug:\"bite-me\",year:2026,genre:[],duration:\"3:06\",trackNumber:1,producers:[],producersNames:[],description:\"Bite Me (Extended Mix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/bite-me-extended-mix-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bite-me-extended-mix-maniak.mdx",
+    "sourceFileName": "bite-me-extended-mix-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bite-me-extended-mix-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bite-me-extended-mix-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/bite-me-extended-mix-maniak"
+}

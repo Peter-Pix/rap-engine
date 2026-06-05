@@ -1,0 +1,39 @@
+{
+  "title": "Stamina",
+  "slug": "stamina-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "rest",
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Rest",
+    "Kenny Rough"
+  ],
+  "album": "Stamina",
+  "albumSlug": "stamina",
+  "year": 2021,
+  "genre": [],
+  "duration": "4:14",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Stamina — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var b=(e,n,a)=>(a=e!=null?c(g(e)):{},u(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),S=e=>u(s({},\"__esModule\",{value:!0}),e);var m=f((M,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>l,frontmatter:()=>j});var t=b(m()),j={title:\"Stamina\",slug:\"stamina-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"rest\",\"kenny-rough\"],featuresNames:[\"Rest\",\"Kenny Rough\"],album:\"Stamina\",albumSlug:\"stamina\",year:2021,genre:[],duration:\"4:14\",trackNumber:1,producers:[],producersNames:[],description:\"Stamina \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return S(y);})();\n;return Component;"
+  },
+  "_id": "skladby/stamina-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/stamina-paulie-garand.mdx",
+    "sourceFileName": "stamina-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/stamina-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/stamina-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/stamina-paulie-garand"
+}

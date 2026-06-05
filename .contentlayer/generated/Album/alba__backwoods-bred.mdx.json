@@ -1,0 +1,42 @@
+{
+  "title": "Backwoods Bred",
+  "slug": "backwoods-bred",
+  "rapper": "Marpo",
+  "rapperSlug": "marpo",
+  "label": "TroubleGang",
+  "labelSlug": "troublegang",
+  "year": 2021,
+  "genre": [
+    "country-rap",
+    "southern-rap"
+  ],
+  "description": "Experimentální spojení country estetiky, southern rapu a moderní americký produkce.",
+  "image": "/images/alba/backwoods-bred.jpg",
+  "featured": false,
+  "tracklist": [
+    "Backwoods Bred",
+    "Cowboy",
+    "Whiskey",
+    "Ride Slow",
+    "Outlaw Shit",
+    "Freedom"
+  ],
+  "rating": 8.5,
+  "publishedAt": "2026-05-21T00:00:00.000Z",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "body": {
+    "raw": "\nBackwoods Bred je jeden z nejodvážnějších žánrovejch pivotů v českým rapu.\n\n## Zvuk\n\nCountry kytary, trap drums a americkej southern vibe.\n\n## Dopad\n\nAlbum rozdělilo scénu, ale ukázalo, že Marpo nechce stát na místě. :contentReference[oaicite:5]{index=5}",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!k.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(i=m(e,a))||i.enumerable});return t};var j=(t,e,n)=>(n=t!=null?u(y(t)):{},s(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),x=t=>s(o({},\"__esModule\",{value:!0}),t);var p=g((v,c)=>{c.exports=_jsx_runtime});var f={};b(f,{default:()=>l,frontmatter:()=>w});var r=j(p()),w={title:\"Backwoods Bred\",slug:\"backwoods-bred\",rapper:\"Marpo\",rapperSlug:\"marpo\",label:\"TroubleGang\",labelSlug:\"troublegang\",year:2021,genre:[\"country-rap\",\"southern-rap\"],description:\"Experiment\\xE1ln\\xED spojen\\xED country estetiky, southern rapu a modern\\xED americk\\xFD produkce.\",image:\"/images/alba/backwoods-bred.jpg\",tracklist:[\"Backwoods Bred\",\"Cowboy\",\"Whiskey\",\"Ride Slow\",\"Outlaw Shit\",\"Freedom\"],rating:8.5,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function d(t){let e={a:\"a\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.p,{children:\"Backwoods Bred je jeden z nejodv\\xE1\\u017En\\u011Bj\\u0161\\xEDch \\u017E\\xE1nrovejch pivot\\u016F v \\u010Desk\\xFDm rapu.\"}),`\n`,(0,r.jsx)(e.h2,{children:\"Zvuk\"}),`\n`,(0,r.jsxs)(e.p,{children:[\"Country kytary, \",(0,r.jsx)(e.a,{href:\"/zanry/trap\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"trap\",children:\"trap\"}),\" drums a americkej southern vibe.\"]}),`\n`,(0,r.jsx)(e.h2,{children:\"Dopad\"}),`\n`,(0,r.jsxs)(e.p,{children:[\"Album rozd\\u011Blilo sc\\xE9nu, ale uk\\xE1zalo, \\u017Ee \",(0,r.jsx)(e.a,{href:\"/raperi/marpo\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"marpo\",children:\"Marpo\"}),\" nechce st\\xE1t na m\\xEDst\\u011B. :contentReference[oaicite:5]\",index=5]})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return x(f);})();\n;return Component;"
+  },
+  "_id": "alba/backwoods-bred.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/backwoods-bred.mdx",
+    "sourceFileName": "backwoods-bred.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/backwoods-bred"
+  },
+  "type": "Album",
+  "url": "/alba/backwoods-bred",
+  "canonicalUrl": "https://4rap.cz/alba/backwoods-bred"
+}

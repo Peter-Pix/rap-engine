@@ -1,0 +1,33 @@
+{
+  "title": "Rick nebo Raf",
+  "slug": "rick-nebo-raf-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Rick nebo Raf",
+  "albumSlug": "rick-nebo-raf",
+  "year": 2019,
+  "genre": [],
+  "duration": "2:57",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rick nebo Raf — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of f(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?l(b(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var m=h((z,c)=>{c.exports=_jsx_runtime});var j={};k(j,{default:()=>d,frontmatter:()=>R});var r=_(m()),R={title:\"Rick nebo Raf\",slug:\"rick-nebo-raf-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Rick nebo Raf\",albumSlug:\"rick-nebo-raf\",year:2019,genre:[],duration:\"2:57\",trackNumber:1,producers:[],producersNames:[],description:\"Rick nebo Raf \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/rick-nebo-raf-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rick-nebo-raf-yzomandias.mdx",
+    "sourceFileName": "rick-nebo-raf-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rick-nebo-raf-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rick-nebo-raf-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/rick-nebo-raf-yzomandias"
+}

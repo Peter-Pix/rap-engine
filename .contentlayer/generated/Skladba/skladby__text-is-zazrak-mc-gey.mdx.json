@@ -1,0 +1,37 @@
+{
+  "title": "Text is zázrak",
+  "slug": "text-is-zazrak-mc-gey",
+  "rapper": "MC Gey",
+  "rapperSlug": "mc-gey",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Opičí král vrací úder",
+  "albumSlug": "opici-kral-vraci-uder",
+  "year": 2014,
+  "genre": [],
+  "duration": "4:09",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Text is zázrak — skladba od MC Gey.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>c(s({},\"__esModule\",{value:!0}),e);var u=g((M,i)=>{i.exports=_jsx_runtime});var y={};k(y,{default:()=>d,frontmatter:()=>j});var r=_(u()),j={title:\"Text is z\\xE1zrak\",slug:\"text-is-zazrak-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\",albumSlug:\"opici-kral-vraci-uder\",year:2014,genre:[],duration:\"4:09\",trackNumber:4,producers:[],producersNames:[],description:\"Text is z\\xE1zrak \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return b(y);})();\n;return Component;"
+  },
+  "_id": "skladby/text-is-zazrak-mc-gey.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/text-is-zazrak-mc-gey.mdx",
+    "sourceFileName": "text-is-zazrak-mc-gey.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/text-is-zazrak-mc-gey"
+  },
+  "type": "Skladba",
+  "url": "/skladby/text-is-zazrak-mc-gey",
+  "canonicalUrl": "https://4rap.cz/skladby/text-is-zazrak-mc-gey"
+}

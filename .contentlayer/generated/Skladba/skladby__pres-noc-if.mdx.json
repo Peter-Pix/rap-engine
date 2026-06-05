@@ -1,0 +1,39 @@
+{
+  "title": "Pres Noc",
+  "slug": "pres-noc-if",
+  "rapper": "IF",
+  "rapperSlug": "if",
+  "features": [
+    "idea",
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "Idea",
+    "DJ Fatte"
+  ],
+  "album": "Rep",
+  "albumSlug": "rep",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pres Noc — skladba od IF.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var d=_((I,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>p,frontmatter:()=>F});var r=g(d()),F={title:\"Pres Noc\",slug:\"pres-noc-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Rep\",albumSlug:\"rep\",year:2016,genre:[],duration:\"3:20\",trackNumber:1,producers:[],producersNames:[],description:\"Pres Noc \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/pres-noc-if.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pres-noc-if.mdx",
+    "sourceFileName": "pres-noc-if.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pres-noc-if"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pres-noc-if",
+  "canonicalUrl": "https://4rap.cz/skladby/pres-noc-if"
+}

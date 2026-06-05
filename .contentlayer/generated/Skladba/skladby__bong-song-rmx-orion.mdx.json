@@ -1,0 +1,39 @@
+{
+  "title": "Bong Song (RMX)",
+  "slug": "bong-song-rmx-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "mike-trafik",
+    "sona"
+  ],
+  "featuresNames": [
+    "Mike Trafik",
+    "Sona"
+  ],
+  "album": "Teritorium Remixy",
+  "albumSlug": "teritorium-remixy",
+  "year": 2007,
+  "genre": [],
+  "duration": "3:10",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bong Song (RMX) — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)i(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!f.call(e,o)&&o!==t&&i(e,o,{get:()=>r[o],enumerable:!(a=p(r,o))||a.enumerable});return e};var _=(e,r,t)=>(t=e!=null?l(g(e)):{},s(r||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),k=e=>s(i({},\"__esModule\",{value:!0}),e);var u=h((y,m)=>{m.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>M});var n=_(u()),M={title:\"Bong Song (RMX)\",slug:\"bong-song-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"mike-trafik\",\"sona\"],featuresNames:[\"Mike Trafik\",\"Sona\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"3:10\",trackNumber:9,producers:[],producersNames:[],description:\"Bong Song (RMX) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/bong-song-rmx-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bong-song-rmx-orion.mdx",
+    "sourceFileName": "bong-song-rmx-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bong-song-rmx-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bong-song-rmx-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/bong-song-rmx-orion"
+}

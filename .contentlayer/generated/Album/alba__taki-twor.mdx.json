@@ -1,0 +1,31 @@
+{
+  "title": "Taki twór",
+  "slug": "taki-twor",
+  "rapper": "Klaziu",
+  "rapperSlug": "klaziu",
+  "label": "Pierwszy Milion",
+  "year": 2020,
+  "genre": [],
+  "description": "Taki twór — singl od Klaziu (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/1cc10dc899a39df7ebb90f5c3ab0d4fe/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Taki twór"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of g(t))!x.call(e,i)&&i!==r&&a(e,i,{get:()=>t[i],enumerable:!(c=u(t,i))||c.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(h(e)):{},o(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(a({},\"__esModule\",{value:!0}),e);var l=f((M,s)=>{s.exports=_jsx_runtime});var w={};b(w,{default:()=>m,frontmatter:()=>k});var n=_(l()),k={title:\"Taki tw\\xF3r\",slug:\"taki-twor\",rapper:\"Klaziu\",rapperSlug:\"klaziu\",label:\"Pierwszy Milion\",year:2020,genre:[],description:\"Taki tw\\xF3r \\u2014 singl od Klaziu (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/1cc10dc899a39df7ebb90f5c3ab0d4fe/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Taki tw\\xF3r\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(w);})();\n;return Component;"
+  },
+  "_id": "alba/taki-twor.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/taki-twor.mdx",
+    "sourceFileName": "taki-twor.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/taki-twor"
+  },
+  "type": "Album",
+  "url": "/alba/taki-twor",
+  "canonicalUrl": "https://4rap.cz/alba/taki-twor"
+}

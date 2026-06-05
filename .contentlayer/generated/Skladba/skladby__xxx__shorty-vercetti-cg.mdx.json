@@ -1,0 +1,39 @@
+{
+  "title": "Shorty",
+  "slug": "shorty-vercetti-cg",
+  "rapper": "Vercetti CG",
+  "rapperSlug": "vercetti-cg",
+  "features": [
+    "totally-nothin",
+    "dj-kadr"
+  ],
+  "featuresNames": [
+    "Totally Nothin",
+    "DJ Kadr"
+  ],
+  "album": "Luvv me",
+  "albumSlug": "luvv-me",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:36",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Shorty — skladba od Vercetti CG.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return t};var _=(t,e,n)=>(n=t!=null?d(x(t)):{},c(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>c(a({},\"__esModule\",{value:!0}),t);var i=f((C,u)=>{u.exports=_jsx_runtime});var v={};y(v,{default:()=>m,frontmatter:()=>j});var r=_(i()),j={title:\"Shorty\",slug:\"shorty-vercetti-cg\",rapper:\"Vercetti CG\",rapperSlug:\"vercetti-cg\",features:[\"totally-nothin\",\"dj-kadr\"],featuresNames:[\"Totally Nothin\",\"DJ Kadr\"],album:\"Luvv me\",albumSlug:\"luvv-me\",year:2022,genre:[],duration:\"3:36\",trackNumber:3,producers:[],producersNames:[],description:\"Shorty \\u2014 skladba od Vercetti CG.\",publishedAt:\"2026-05-31\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(l,{...t})}):l(t)}return b(v);})();\n;return Component;"
+  },
+  "_id": "skladby/xxx/shorty-vercetti-cg.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/xxx/shorty-vercetti-cg.mdx",
+    "sourceFileName": "shorty-vercetti-cg.mdx",
+    "sourceFileDir": "skladby/xxx",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/xxx/shorty-vercetti-cg"
+  },
+  "type": "Skladba",
+  "url": "/skladby/shorty-vercetti-cg",
+  "canonicalUrl": "https://4rap.cz/skladby/shorty-vercetti-cg"
+}

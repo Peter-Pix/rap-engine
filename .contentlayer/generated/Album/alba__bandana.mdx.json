@@ -1,0 +1,33 @@
+{
+  "title": "Bandana",
+  "slug": "bandana",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "label": "WM Czech Republic",
+  "year": 2021,
+  "genre": [],
+  "description": "Bandana — singl od Idea (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/19b736fb1be3fdb8e36984a6ba4672eb/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Bandana (feat. Pain)",
+    "Talkshow (feat. TrashBoySony, Prezident Lourajder, Supa, Jozef Rezník)",
+    "Ha!"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),x=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,d)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==t&&o(e,r,{get:()=>n[r],enumerable:!(d=u(n,r))||d.enumerable});return e};var j=(e,n,t)=>(t=e!=null?m(b(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var c=g((M,i)=>{i.exports=_jsx_runtime});var y={};x(y,{default:()=>p,frontmatter:()=>z});var a=j(c()),z={title:\"Bandana\",slug:\"bandana\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2021,genre:[],description:\"Bandana \\u2014 singl od Idea (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/19b736fb1be3fdb8e36984a6ba4672eb/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bandana (feat. Pain)\",\"Talkshow (feat. TrashBoySony, Prezident Lourajder, Supa, Jozef Rezn\\xEDk)\",\"Ha!\"],publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "alba/bandana.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/bandana.mdx",
+    "sourceFileName": "bandana.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/bandana"
+  },
+  "type": "Album",
+  "url": "/alba/bandana",
+  "canonicalUrl": "https://4rap.cz/alba/bandana"
+}

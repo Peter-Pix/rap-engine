@@ -1,0 +1,37 @@
+{
+  "title": "Není koho dissit",
+  "slug": "neni-koho-dissit-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "refew"
+  ],
+  "featuresNames": [
+    "Refew"
+  ],
+  "album": "Noční vidění",
+  "albumSlug": "nocni-videni",
+  "year": 2014,
+  "genre": [],
+  "duration": "5:02",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Není koho dissit — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},a=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!f.call(e,o)&&o!==r&&i(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(x(e)):{},a(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>a(i({},\"__esModule\",{value:!0}),e);var u=_((M,d)=>{d.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>j});var t=g(u()),j={title:\"Nen\\xED koho dissit\",slug:\"neni-koho-dissit-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"refew\"],featuresNames:[\"Refew\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[],duration:\"5:02\",trackNumber:6,producers:[],producersNames:[],description:\"Nen\\xED koho dissit \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return N(k);})();\n;return Component;"
+  },
+  "_id": "skladby/neni-koho-dissit-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/neni-koho-dissit-orion.mdx",
+    "sourceFileName": "neni-koho-dissit-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/neni-koho-dissit-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/neni-koho-dissit-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/neni-koho-dissit-orion"
+}

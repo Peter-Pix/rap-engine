@@ -1,0 +1,31 @@
+{
+  "title": "Time",
+  "slug": "time",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "label": "Decky",
+  "year": 2022,
+  "genre": [],
+  "description": "Time — singl od Decky (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e5187116819e15d65b7f70a2901b982e/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Time"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let c of g(t))!x.call(e,c)&&c!==r&&i(e,c,{get:()=>t[c],enumerable:!(s=u(t,c))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?p(h(e)):{},o(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(i({},\"__esModule\",{value:!0}),e);var m=_((M,a)=>{a.exports=_jsx_runtime});var k={};b(k,{default:()=>l,frontmatter:()=>y});var n=f(m()),y={title:\"Time\",slug:\"time\",rapper:\"Decky\",rapperSlug:\"decky\",label:\"Decky\",year:2022,genre:[],description:\"Time \\u2014 singl od Decky (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/e5187116819e15d65b7f70a2901b982e/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Time\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/time.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/time.mdx",
+    "sourceFileName": "time.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/time"
+  },
+  "type": "Album",
+  "url": "/alba/time",
+  "canonicalUrl": "https://4rap.cz/alba/time"
+}

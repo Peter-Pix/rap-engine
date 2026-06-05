@@ -1,0 +1,37 @@
+{
+  "title": "Epitaf",
+  "slug": "epitaf-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "kenny-rough"
+  ],
+  "featuresNames": [
+    "Kenny Rough"
+  ],
+  "album": "DANK",
+  "albumSlug": "dank",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:37",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Epitaf — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(u=m(n,a))||u.enumerable});return e};var b=(e,n,r)=>(r=e!=null?c(f(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var d=x((D,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>l,frontmatter:()=>k});var t=b(d()),k={title:\"Epitaf\",slug:\"epitaf-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"3:37\",trackNumber:17,producers:[],producersNames:[],description:\"Epitaf \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/epitaf-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/epitaf-paulie-garand.mdx",
+    "sourceFileName": "epitaf-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/epitaf-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/epitaf-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/epitaf-paulie-garand"
+}

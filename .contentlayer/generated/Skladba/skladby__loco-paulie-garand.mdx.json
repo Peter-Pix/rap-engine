@@ -1,0 +1,41 @@
+{
+  "title": "Loco",
+  "slug": "loco-paulie-garand",
+  "rapper": "Paulie Garand",
+  "rapperSlug": "paulie-garand",
+  "features": [
+    "fiedlerski",
+    "marcell",
+    "zea"
+  ],
+  "featuresNames": [
+    "Fiedlerski",
+    "Marcell",
+    "Zea"
+  ],
+  "album": "Loco (feat. Zea)",
+  "albumSlug": "loco-feat-zea",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Loco — skladba od Paulie Garand.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},s=(e,a,t,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of f(a))!h.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(l=p(a,n))||l.enumerable});return e};var b=(e,a,t)=>(t=e!=null?m(x(e)):{},s(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var u=g((F,c)=>{c.exports=_jsx_runtime});var L={};_(L,{default:()=>d,frontmatter:()=>k});var r=b(u()),k={title:\"Loco\",slug:\"loco-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"fiedlerski\",\"marcell\",\"zea\"],featuresNames:[\"Fiedlerski\",\"Marcell\",\"Zea\"],album:\"Loco (feat. Zea)\",albumSlug:\"loco-feat-zea\",year:2019,genre:[],duration:\"3:20\",trackNumber:1,producers:[],producersNames:[],description:\"Loco \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(L);})();\n;return Component;"
+  },
+  "_id": "skladby/loco-paulie-garand.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/loco-paulie-garand.mdx",
+    "sourceFileName": "loco-paulie-garand.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/loco-paulie-garand"
+  },
+  "type": "Skladba",
+  "url": "/skladby/loco-paulie-garand",
+  "canonicalUrl": "https://4rap.cz/skladby/loco-paulie-garand"
+}

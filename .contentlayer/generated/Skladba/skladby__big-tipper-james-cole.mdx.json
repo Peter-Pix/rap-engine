@@ -1,0 +1,33 @@
+{
+  "title": "BIG TIPPER",
+  "slug": "big-tipper-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "DOWN4LIFE",
+  "albumSlug": "down4life",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:27",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "BIG TIPPER — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var j=(e,t,n)=>(n=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>m(s({},\"__esModule\",{value:!0}),e);var l=b((P,c)=>{c.exports=_jsx_runtime});var C={};g(C,{default:()=>i,frontmatter:()=>I});var r=j(l()),I={title:\"BIG TIPPER\",slug:\"big-tipper-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"DOWN4LIFE\",albumSlug:\"down4life\",year:2023,genre:[],duration:\"2:27\",trackNumber:9,producers:[],producersNames:[],description:\"BIG TIPPER \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return _(C);})();\n;return Component;"
+  },
+  "_id": "skladby/big-tipper-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/big-tipper-james-cole.mdx",
+    "sourceFileName": "big-tipper-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/big-tipper-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/big-tipper-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/big-tipper-james-cole"
+}

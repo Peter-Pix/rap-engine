@@ -1,0 +1,31 @@
+{
+  "title": "Tak a teď!",
+  "slug": "tak-a-ted",
+  "rapper": "Mike Trafik",
+  "rapperSlug": "mike-trafik",
+  "label": "Bigg Boss",
+  "year": 2016,
+  "genre": [],
+  "description": "Tak a teď! — singl od Mike Trafik (2016).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/8b50f70b2c2524d5b8f445c48fdf3166/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Tak a teď!"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!k.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(s=f(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(u(e)):{},o(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(i({},\"__esModule\",{value:!0}),e);var d=h((y,c)=>{c.exports=_jsx_runtime});var M={};x(M,{default:()=>m,frontmatter:()=>j});var n=b(d()),j={title:\"Tak a te\\u010F!\",slug:\"tak-a-ted\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",label:\"Bigg Boss\",year:2016,genre:[],description:\"Tak a te\\u010F! \\u2014 singl od Mike Trafik (2016).\",image:\"https://cdn-images.dzcdn.net/images/cover/8b50f70b2c2524d5b8f445c48fdf3166/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Tak a te\\u010F!\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "alba/tak-a-ted.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/tak-a-ted.mdx",
+    "sourceFileName": "tak-a-ted.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/tak-a-ted"
+  },
+  "type": "Album",
+  "url": "/alba/tak-a-ted",
+  "canonicalUrl": "https://4rap.cz/alba/tak-a-ted"
+}

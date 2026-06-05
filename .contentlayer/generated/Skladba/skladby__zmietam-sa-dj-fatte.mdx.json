@@ -1,0 +1,39 @@
+{
+  "title": "Zmietam sa",
+  "slug": "zmietam-sa-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "pra3x",
+    "radimo"
+  ],
+  "featuresNames": [
+    "Pra3x",
+    "Radimo"
+  ],
+  "album": "Soundtrack",
+  "albumSlug": "soundtrack",
+  "year": 2013,
+  "genre": [],
+  "duration": "2:50",
+  "trackNumber": 15,
+  "producers": [],
+  "producersNames": [],
+  "description": "Zmietam sa — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},m=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!h.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=l(e,n))||s.enumerable});return t};var b=(t,e,a)=>(a=t!=null?p(f(t)):{},m(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>m(o({},\"__esModule\",{value:!0}),t);var d=j((S,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>i,frontmatter:()=>k});var r=b(d()),k={title:\"Zmietam sa\",slug:\"zmietam-sa-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"pra3x\",\"radimo\"],featuresNames:[\"Pra3x\",\"Radimo\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"2:50\",trackNumber:15,producers:[],producersNames:[],description:\"Zmietam sa \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/zmietam-sa-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/zmietam-sa-dj-fatte.mdx",
+    "sourceFileName": "zmietam-sa-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/zmietam-sa-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/zmietam-sa-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/zmietam-sa-dj-fatte"
+}

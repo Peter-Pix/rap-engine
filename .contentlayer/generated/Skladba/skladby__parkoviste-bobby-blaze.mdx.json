@@ -1,0 +1,33 @@
+{
+  "title": "Parkoviště",
+  "slug": "parkoviste-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Parkoviště",
+  "albumSlug": "parkoviste",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Parkoviště — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(x(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var l=f((z,u)=>{u.exports=_jsx_runtime});var j={};k(j,{default:()=>c,frontmatter:()=>y});var r=_(l()),y={title:\"Parkovi\\u0161t\\u011B\",slug:\"parkoviste-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Parkovi\\u0161t\\u011B\",albumSlug:\"parkoviste\",year:2024,genre:[],duration:\"3:20\",trackNumber:1,producers:[],producersNames:[],description:\"Parkovi\\u0161t\\u011B \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/parkoviste-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/parkoviste-bobby-blaze.mdx",
+    "sourceFileName": "parkoviste-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/parkoviste-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/parkoviste-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/parkoviste-bobby-blaze"
+}

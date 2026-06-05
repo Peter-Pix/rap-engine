@@ -1,0 +1,31 @@
+{
+  "title": "Set do Trap",
+  "slug": "set-do-trap",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "Calin",
+  "year": 2023,
+  "genre": [],
+  "description": "Set do Trap — singl od CÂLIN (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0d8da3d503ad72f31147d56048ddb7e9/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Set do Trap"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)d(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&d(e,a,{get:()=>t[a],enumerable:!(o=u(t,a))||o.enumerable});return e};var j=(e,t,r)=>(r=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(d({},\"__esModule\",{value:!0}),e);var c=_((M,i)=>{i.exports=_jsx_runtime});var S={};f(S,{default:()=>l,frontmatter:()=>C});var n=j(c()),C={title:\"Set do Trap\",slug:\"set-do-trap\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"Calin\",year:2023,genre:[],description:\"Set do Trap \\u2014 singl od C\\xC2LIN (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/0d8da3d503ad72f31147d56048ddb7e9/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Set do Trap\"],publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return b(S);})();\n;return Component;"
+  },
+  "_id": "alba/set-do-trap.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/set-do-trap.mdx",
+    "sourceFileName": "set-do-trap.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/set-do-trap"
+  },
+  "type": "Album",
+  "url": "/alba/set-do-trap",
+  "canonicalUrl": "https://4rap.cz/alba/set-do-trap"
+}

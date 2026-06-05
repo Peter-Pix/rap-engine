@@ -1,0 +1,33 @@
+{
+  "title": "Jedna Dva",
+  "slug": "jedna-dva-yzomandias",
+  "rapper": "Yzomandias",
+  "rapperSlug": "yzomandias",
+  "features": [],
+  "featuresNames": [],
+  "album": "Jedna Dva",
+  "albumSlug": "jedna-dva",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:18",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Jedna Dva — skladba od Yzomandias.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},d=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==t&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?l(h(e)):{},d(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var u=j((z,m)=>{m.exports=_jsx_runtime});var D={};_(D,{default:()=>c,frontmatter:()=>v});var a=b(u()),v={title:\"Jedna Dva\",slug:\"jedna-dva-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Jedna Dva\",albumSlug:\"jedna-dva\",year:2021,genre:[],duration:\"3:18\",trackNumber:1,producers:[],producersNames:[],description:\"Jedna Dva \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/jedna-dva-yzomandias.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jedna-dva-yzomandias.mdx",
+    "sourceFileName": "jedna-dva-yzomandias.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jedna-dva-yzomandias"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jedna-dva-yzomandias",
+  "canonicalUrl": "https://4rap.cz/skladby/jedna-dva-yzomandias"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Tchagun",
+  "slug": "tchagun",
+  "genre": [],
+  "description": "Tchagun — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),f=(n,t)=>{for(var r in t)s(n,r,{get:t[r],enumerable:!0})},i=(n,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!g.call(n,o)&&o!==r&&s(n,o,{get:()=>t[o],enumerable:!(c=p(t,o))||c.enumerable});return n};var j=(n,t,r)=>(r=n!=null?l(x(n)):{},i(t||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),M=n=>i(s({},\"__esModule\",{value:!0}),n);var u=_((y,a)=>{a.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>b});var e=j(u()),b={title:\"Tchagun\",slug:\"tchagun\",genre:[],description:\"Tchagun \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function h(n){let t={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,e.jsx)(t.p,{children:(0,e.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(h,{...n})}):h(n)}return M(k);})();\n;return Component;"
+  },
+  "_id": "raperi/tchagun.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/tchagun.mdx",
+    "sourceFileName": "tchagun.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/tchagun"
+  },
+  "type": "Rapper",
+  "url": "/raperi/tchagun",
+  "canonicalUrl": "https://4rap.cz/raperi/tchagun"
+}

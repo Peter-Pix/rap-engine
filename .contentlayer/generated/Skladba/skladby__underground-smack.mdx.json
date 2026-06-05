@@ -1,0 +1,33 @@
+{
+  "title": "Underground",
+  "slug": "underground-smack",
+  "rapper": "Smack",
+  "rapperSlug": "smack",
+  "features": [],
+  "featuresNames": [],
+  "album": "2051",
+  "albumSlug": "2051",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:44",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Underground — skladba od Smack.",
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!h.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var b=(e,r,t)=>(t=e!=null?l(g(e)):{},u(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),k=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((N,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>i,frontmatter:()=>j});var n=b(d()),j={title:\"Underground\",slug:\"underground-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[],duration:\"3:44\",trackNumber:10,producers:[],producersNames:[],description:\"Underground \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/underground-smack.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/underground-smack.mdx",
+    "sourceFileName": "underground-smack.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/underground-smack"
+  },
+  "type": "Skladba",
+  "url": "/skladby/underground-smack",
+  "canonicalUrl": "https://4rap.cz/skladby/underground-smack"
+}

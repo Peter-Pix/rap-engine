@@ -1,0 +1,37 @@
+{
+  "title": "Pooldance",
+  "slug": "pooldance-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [
+    "patrik-love-icy-l"
+  ],
+  "featuresNames": [
+    "Patrik Love ICY L"
+  ],
+  "album": "1000",
+  "albumSlug": "1000",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:27",
+  "trackNumber": 15,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pooldance — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!g.call(e,r)&&r!==n&&a(e,r,{get:()=>t[r],enumerable:!(s=m(t,r))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var x=f((L,c)=>{c.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>k});var o=b(x()),k={title:\"Pooldance\",slug:\"pooldance-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"patrik-love-icy-l\"],featuresNames:[\"Patrik Love ICY L\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"3:27\",trackNumber:15,producers:[],producersNames:[],description:\"Pooldance \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/pooldance-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pooldance-hugo-toxxx.mdx",
+    "sourceFileName": "pooldance-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pooldance-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pooldance-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/pooldance-hugo-toxxx"
+}

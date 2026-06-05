@@ -1,0 +1,33 @@
+{
+  "title": "Henny",
+  "slug": "henny-ca-hanova-bulhar",
+  "rapper": "CA$HANOVA BULHAR",
+  "rapperSlug": "ca-hanova-bulhar",
+  "features": [],
+  "featuresNames": [],
+  "album": "rap disco revoluce",
+  "albumSlug": "rap-disco-revoluce",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:15",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Henny — skladba od CA$HANOVA BULHAR.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!A.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(x(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var l=b((N,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>i,frontmatter:()=>H});var r=_(l()),H={title:\"Henny\",slug:\"henny-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[],duration:\"3:15\",trackNumber:10,producers:[],producersNames:[],description:\"Henny \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/henny-ca-hanova-bulhar.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/henny-ca-hanova-bulhar.mdx",
+    "sourceFileName": "henny-ca-hanova-bulhar.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/henny-ca-hanova-bulhar"
+  },
+  "type": "Skladba",
+  "url": "/skladby/henny-ca-hanova-bulhar",
+  "canonicalUrl": "https://4rap.cz/skladby/henny-ca-hanova-bulhar"
+}
