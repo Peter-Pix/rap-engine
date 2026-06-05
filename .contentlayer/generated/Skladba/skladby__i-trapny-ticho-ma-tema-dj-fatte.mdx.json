@@ -1,0 +1,39 @@
+{
+  "title": "I trapný ticho má téma",
+  "slug": "i-trapny-ticho-ma-tema-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "regie-257",
+    "sax"
+  ],
+  "featuresNames": [
+    "Regie 257",
+    "Sax"
+  ],
+  "album": "Aura",
+  "albumSlug": "aura",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:50",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "I trapný ticho má téma — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},m=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!f.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=l(e,n))||s.enumerable});return t};var _=(t,e,a)=>(a=t!=null?d(x(t)):{},m(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),b=t=>m(o({},\"__esModule\",{value:!0}),t);var c=g((y,u)=>{u.exports=_jsx_runtime});var F={};j(F,{default:()=>p,frontmatter:()=>D});var r=_(c()),D={title:\"I trapn\\xFD ticho m\\xE1 t\\xE9ma\",slug:\"i-trapny-ticho-ma-tema-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"sax\"],featuresNames:[\"Regie 257\",\"Sax\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"3:50\",trackNumber:16,producers:[],producersNames:[],description:\"I trapn\\xFD ticho m\\xE1 t\\xE9ma \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return b(F);})();\n;return Component;"
+  },
+  "_id": "skladby/i-trapny-ticho-ma-tema-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/i-trapny-ticho-ma-tema-dj-fatte.mdx",
+    "sourceFileName": "i-trapny-ticho-ma-tema-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/i-trapny-ticho-ma-tema-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/i-trapny-ticho-ma-tema-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/i-trapny-ticho-ma-tema-dj-fatte"
+}

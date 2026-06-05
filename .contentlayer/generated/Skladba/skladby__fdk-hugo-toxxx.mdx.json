@@ -1,0 +1,33 @@
+{
+  "title": "FDK",
+  "slug": "fdk-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [],
+  "featuresNames": [],
+  "album": "1000",
+  "albumSlug": "1000",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:45",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "FDK — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(u=l(t,o))||u.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(h(e)):{},a(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var c=f((K,x)=>{x.exports=_jsx_runtime});var F={};_(F,{default:()=>d,frontmatter:()=>D});var r=b(c()),D={title:\"FDK\",slug:\"fdk-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"3:45\",trackNumber:12,producers:[],producersNames:[],description:\"FDK \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(F);})();\n;return Component;"
+  },
+  "_id": "skladby/fdk-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/fdk-hugo-toxxx.mdx",
+    "sourceFileName": "fdk-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/fdk-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/fdk-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/fdk-hugo-toxxx"
+}

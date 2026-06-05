@@ -11,23 +11,28 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://4rap.cz/alba' },
 }
 
+const isSingle = (a: { description?: string }) =>
+  a.description?.toLowerCase().includes('singl')
+
 export default function AlbaPage() {
-  const items = allAlbums.map((a) => {
-    const rapper = allRappers.find((r) => r.slug === a.rapperSlug)
-    return {
-      slug: a.slug,
-      title: a.title,
-      description: a.description,
-      url: a.url,
-      meta: rapper?.title ? `${rapper.title} · ${a.year}` : String(a.year),
-      tags: a.genre || [],
-      featured: a.featured,
-      genres: a.genre || [],
-      year: a.year,
-      rapperSlug: a.rapperSlug,
-      publishedAt: a.publishedAt,
-    }
-  })
+  const items = allAlbums
+    .filter((a) => !isSingle(a))
+    .map((a) => {
+      const rapper = allRappers.find((r) => r.slug === a.rapperSlug)
+      return {
+        slug: a.slug,
+        title: a.title,
+        description: a.description,
+        url: a.url,
+        meta: rapper?.title ? `${rapper.title} · ${a.year}` : String(a.year),
+        tags: a.genre || [],
+        featured: a.featured,
+        genres: a.genre || [],
+        year: a.year,
+        rapperSlug: a.rapperSlug,
+        publishedAt: a.publishedAt,
+      }
+    })
 
   const yearsCount = new Set(items.map((i) => i.year)).size
   const artistsCount = new Set(items.map((i) => i.rapperSlug)).size

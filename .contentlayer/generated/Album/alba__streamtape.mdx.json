@@ -1,0 +1,39 @@
+{
+  "title": "StreamTape",
+  "slug": "streamtape",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "WM Czech Republic",
+  "year": 2026,
+  "genre": [],
+  "description": "StreamTape — album od Maniak (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/03ab519e8e9fd98a8dca1d86ad57d4cd/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "White Walkers",
+    "To sem já",
+    "Kiwi",
+    "Offlife",
+    "Jarní vánek",
+    "Grillz",
+    "Čaj",
+    "47x600",
+    "Tanz Tanz",
+    "Street dance"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!f.call(e,r)&&r!==a&&i(e,r,{get:()=>t[r],enumerable:!(c=u(t,r))||c.enumerable});return e};var b=(e,t,a)=>(a=e!=null?p(x(e)):{},s(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var d=g((S,o)=>{o.exports=_jsx_runtime});var M={};j(M,{default:()=>m,frontmatter:()=>k});var n=b(d()),k={title:\"StreamTape\",slug:\"streamtape\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"WM Czech Republic\",year:2026,genre:[],description:\"StreamTape \\u2014 album od Maniak (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/03ab519e8e9fd98a8dca1d86ad57d4cd/1000x1000-000000-80-0-0.jpg\",tracklist:[\"White Walkers\",\"To sem j\\xE1\",\"Kiwi\",\"Offlife\",\"Jarn\\xED v\\xE1nek\",\"Grillz\",\"\\u010Caj\",\"47x600\",\"Tanz Tanz\",\"Street dance\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "alba/streamtape.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/streamtape.mdx",
+    "sourceFileName": "streamtape.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/streamtape"
+  },
+  "type": "Album",
+  "url": "/alba/streamtape",
+  "canonicalUrl": "https://4rap.cz/alba/streamtape"
+}

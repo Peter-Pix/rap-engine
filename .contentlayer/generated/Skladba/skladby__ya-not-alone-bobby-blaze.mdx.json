@@ -1,0 +1,37 @@
+{
+  "title": "Ya Not Alone",
+  "slug": "ya-not-alone-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [
+    "aaron-s"
+  ],
+  "featuresNames": [
+    "Aaron S."
+  ],
+  "album": "Road 2 Redemption",
+  "albumSlug": "road-2-redemption",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:08",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ya Not Alone — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},l=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!h.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=i(t,r))||s.enumerable});return e};var _=(e,t,o)=>(o=e!=null?c(x(e)):{},l(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>l(a({},\"__esModule\",{value:!0}),e);var d=f((A,u)=>{u.exports=_jsx_runtime});var N={};y(N,{default:()=>b,frontmatter:()=>j});var n=_(d()),j={title:\"Ya Not Alone\",slug:\"ya-not-alone-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"aaron-s\"],featuresNames:[\"Aaron S.\"],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[],duration:\"3:08\",trackNumber:12,producers:[],producersNames:[],description:\"Ya Not Alone \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/ya-not-alone-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ya-not-alone-bobby-blaze.mdx",
+    "sourceFileName": "ya-not-alone-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ya-not-alone-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ya-not-alone-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/ya-not-alone-bobby-blaze"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Gril Styl",
+  "slug": "gril-styl-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "tomba",
+    "johny-boss",
+    "yoga-spank"
+  ],
+  "featuresNames": [
+    "Tomba",
+    "Johny Boss",
+    "Yoga Spank"
+  ],
+  "album": "Gril Styl",
+  "albumSlug": "gril-styl",
+  "year": 2018,
+  "genre": [],
+  "duration": "4:00",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Gril Styl — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},l=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!x.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return t};var f=(t,e,n)=>(n=t!=null?d(g(t)):{},l(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>l(o({},\"__esModule\",{value:!0}),t);var u=y((D,i)=>{i.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>S});var r=f(u()),S={title:\"Gril Styl\",slug:\"gril-styl-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"tomba\",\"johny-boss\",\"yoga-spank\"],featuresNames:[\"Tomba\",\"Johny Boss\",\"Yoga Spank\"],album:\"Gril Styl\",albumSlug:\"gril-styl\",year:2018,genre:[],duration:\"4:00\",trackNumber:1,producers:[],producersNames:[],description:\"Gril Styl \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(m,{...t})}):m(t)}return j(_);})();\n;return Component;"
+  },
+  "_id": "skladby/gril-styl-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/gril-styl-dj-fatte.mdx",
+    "sourceFileName": "gril-styl-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/gril-styl-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/gril-styl-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/gril-styl-dj-fatte"
+}

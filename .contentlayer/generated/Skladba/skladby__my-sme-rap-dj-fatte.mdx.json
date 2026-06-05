@@ -1,0 +1,39 @@
+{
+  "title": "My Sme Rap",
+  "slug": "my-sme-rap-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "gumbgu",
+    "pil-c"
+  ],
+  "featuresNames": [
+    "Gumbgu",
+    "Pil C"
+  ],
+  "album": "Fade In",
+  "albumSlug": "fade-in",
+  "year": 2018,
+  "genre": [],
+  "duration": "2:38",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "My Sme Rap — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!g.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var j=(e,t,r)=>(r=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var c=h((S,m)=>{m.exports=_jsx_runtime});var F={};b(F,{default:()=>p,frontmatter:()=>y});var n=j(c()),y={title:\"My Sme Rap\",slug:\"my-sme-rap-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"gumbgu\",\"pil-c\"],featuresNames:[\"Gumbgu\",\"Pil C\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[],duration:\"2:38\",trackNumber:6,producers:[],producersNames:[],description:\"My Sme Rap \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(F);})();\n;return Component;"
+  },
+  "_id": "skladby/my-sme-rap-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/my-sme-rap-dj-fatte.mdx",
+    "sourceFileName": "my-sme-rap-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/my-sme-rap-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/my-sme-rap-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/my-sme-rap-dj-fatte"
+}

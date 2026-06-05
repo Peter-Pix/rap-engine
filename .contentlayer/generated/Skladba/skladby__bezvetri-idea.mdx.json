@@ -1,0 +1,37 @@
+{
+  "title": "Bezvetří",
+  "slug": "bezvetri-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "inphy"
+  ],
+  "featuresNames": [
+    "Inphy"
+  ],
+  "album": "Daleko blíž",
+  "albumSlug": "daleko-bliz",
+  "year": 2012,
+  "genre": [],
+  "duration": "1:55",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bezvetří — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(x(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var u=f((v,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>k});var n=g(u()),k={title:\"Bezvet\\u0159\\xED\",slug:\"bezvetri-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"inphy\"],featuresNames:[\"Inphy\"],album:\"Daleko bl\\xED\\u017E\",albumSlug:\"daleko-bliz\",year:2012,genre:[],duration:\"1:55\",trackNumber:1,producers:[],producersNames:[],description:\"Bezvet\\u0159\\xED \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/bezvetri-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bezvetri-idea.mdx",
+    "sourceFileName": "bezvetri-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bezvetri-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bezvetri-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/bezvetri-idea"
+}

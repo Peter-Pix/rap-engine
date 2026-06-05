@@ -1,0 +1,41 @@
+{
+  "title": "Černobílý světy",
+  "slug": "cernobily-svety-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "hellwana",
+    "jozef-reznik",
+    "magenta"
+  ],
+  "featuresNames": [
+    "Hellwana",
+    "Jozef Reznik",
+    "Magenta"
+  ],
+  "album": "O beatech a lidech",
+  "albumSlug": "o-beatech-a-lidech",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:25",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Černobílý světy — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},l=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?m(b(e)):{},l(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var i=f((M,c)=>{c.exports=_jsx_runtime});var k={};g(k,{default:()=>u,frontmatter:()=>y});var n=_(i()),y={title:\"\\u010Cernob\\xEDl\\xFD sv\\u011Bty\",slug:\"cernobily-svety-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"hellwana\",\"jozef-reznik\",\"magenta\"],featuresNames:[\"Hellwana\",\"Jozef Reznik\",\"Magenta\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[],duration:\"3:25\",trackNumber:8,producers:[],producersNames:[],description:\"\\u010Cernob\\xEDl\\xFD sv\\u011Bty \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/cernobily-svety-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/cernobily-svety-idea.mdx",
+    "sourceFileName": "cernobily-svety-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/cernobily-svety-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/cernobily-svety-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/cernobily-svety-idea"
+}

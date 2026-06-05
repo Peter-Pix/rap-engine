@@ -1,0 +1,39 @@
+{
+  "title": "Western",
+  "slug": "western-robin-zoot",
+  "rapper": "Robin Zoot",
+  "rapperSlug": "robin-zoot",
+  "features": [
+    "separ",
+    "nik-tendo"
+  ],
+  "featuresNames": [
+    "Separ",
+    "Nik Tendo"
+  ],
+  "album": "PONYA",
+  "albumSlug": "ponya",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Western — skladba od Robin Zoot.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(x(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var c=f((y,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>N});var n=g(c()),N={title:\"Western\",slug:\"western-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"separ\",\"nik-tendo\"],featuresNames:[\"Separ\",\"Nik Tendo\"],album:\"PONYA\",albumSlug:\"ponya\",year:2024,genre:[],duration:\"3:00\",trackNumber:3,producers:[],producersNames:[],description:\"Western \\u2014 skladba od Robin Zoot.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/western-robin-zoot.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/western-robin-zoot.mdx",
+    "sourceFileName": "western-robin-zoot.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/western-robin-zoot"
+  },
+  "type": "Skladba",
+  "url": "/skladby/western-robin-zoot",
+  "canonicalUrl": "https://4rap.cz/skladby/western-robin-zoot"
+}

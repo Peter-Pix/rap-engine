@@ -1,0 +1,37 @@
+{
+  "title": "Paradise",
+  "slug": "paradise-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [
+    "renne-dang"
+  ],
+  "featuresNames": [
+    "Renne Dang"
+  ],
+  "album": "Paradise (feat. Renne Dang)",
+  "albumSlug": "paradise-feat-renne-dang",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:40",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Paradise — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},d=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of g(n))!f.call(e,t)&&t!==a&&s(e,t,{get:()=>n[t],enumerable:!(o=p(n,t))||o.enumerable});return e};var b=(e,n,a)=>(a=e!=null?m(x(e)):{},d(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>d(s({},\"__esModule\",{value:!0}),e);var c=h((L,i)=>{i.exports=_jsx_runtime});var C={};_(C,{default:()=>l,frontmatter:()=>N});var r=b(c()),N={title:\"Paradise\",slug:\"paradise-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"renne-dang\"],featuresNames:[\"Renne Dang\"],album:\"Paradise (feat. Renne Dang)\",albumSlug:\"paradise-feat-renne-dang\",year:2016,genre:[],duration:\"3:40\",trackNumber:1,producers:[],producersNames:[],description:\"Paradise \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(C);})();\n;return Component;"
+  },
+  "_id": "skladby/paradise-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/paradise-calin.mdx",
+    "sourceFileName": "paradise-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/paradise-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/paradise-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/paradise-calin"
+}

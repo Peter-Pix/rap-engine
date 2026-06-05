@@ -1,0 +1,37 @@
+{
+  "title": "LETTERA D'ADDIO",
+  "slug": "lettera-d-addio-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "m-se"
+  ],
+  "featuresNames": [
+    "Møsé"
+  ],
+  "album": "LETTERA D'ADDIO (feat. Møse)",
+  "albumSlug": "lettera-d-addio-feat-m-se",
+  "year": 2025,
+  "genre": [],
+  "duration": "4:38",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "LETTERA D'ADDIO — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var D=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),A=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},d=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of D(t))!f.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=p(t,r))||o.enumerable});return e};var M=(e,t,a)=>(a=e!=null?l(x(e)):{},d(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>d(s({},\"__esModule\",{value:!0}),e);var m=h((E,i)=>{i.exports=_jsx_runtime});var g={};A(g,{default:()=>c,frontmatter:()=>b});var n=M(m()),b={title:\"LETTERA D'ADDIO\",slug:\"lettera-d-addio-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"m-se\"],featuresNames:[\"M\\xF8s\\xE9\"],album:\"LETTERA D'ADDIO (feat. M\\xF8se)\",albumSlug:\"lettera-d-addio-feat-m-se\",year:2025,genre:[],duration:\"4:38\",trackNumber:1,producers:[],producersNames:[],description:\"LETTERA D'ADDIO \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(g);})();\n;return Component;"
+  },
+  "_id": "skladby/lettera-d-addio-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/lettera-d-addio-maniak.mdx",
+    "sourceFileName": "lettera-d-addio-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/lettera-d-addio-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/lettera-d-addio-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/lettera-d-addio-maniak"
+}

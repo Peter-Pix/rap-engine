@@ -1,0 +1,30 @@
+{
+  "title": "Matroš",
+  "slug": "matros",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "WM Czech Republic",
+  "year": 2023,
+  "genre": [],
+  "description": "Matroš — singl od Maniak (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c240f83a94bd0519171f22e97e278b96/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Matroš"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(i=u(t,a))||i.enumerable});return e};var f=(e,t,r)=>(r=e!=null?d(g(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var l=M((y,c)=>{c.exports=_jsx_runtime});var k={};b(k,{default:()=>p,frontmatter:()=>j});var n=f(l()),j={title:\"Matro\\u0161\",slug:\"matros\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"WM Czech Republic\",year:2023,genre:[],description:\"Matro\\u0161 \\u2014 singl od Maniak (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/c240f83a94bd0519171f22e97e278b96/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Matro\\u0161\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "alba/matros.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/matros.mdx",
+    "sourceFileName": "matros.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/matros"
+  },
+  "type": "Album",
+  "url": "/alba/matros",
+  "canonicalUrl": "https://4rap.cz/alba/matros"
+}

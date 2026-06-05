@@ -1,0 +1,45 @@
+{
+  "title": "Bieber Fever",
+  "slug": "bieber-fever",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2024,
+  "genre": [],
+  "description": "Bieber Fever — album od CÂLIN (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a75015fe6d74e58cae7cb3bb5f4df2d6/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "FTU",
+    "Big Time",
+    "Window Shopper",
+    "Suave",
+    "Chitarele (feat. Satoshi)",
+    "Money On My Mind",
+    "Yalla",
+    "Happy B-day",
+    "Fresh Fade",
+    "Bohatý táta, chudý táta",
+    "5️⃣0️⃣0️⃣",
+    "Call",
+    "Outro (skit)",
+    "Perdoname",
+    "Šedá obloha",
+    "Chaser Bag"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!g.call(e,r)&&r!==a&&i(e,r,{get:()=>t[r],enumerable:!(o=m(t,r))||o.enumerable});return e};var C=(e,t,a)=>(a=e!=null?h(b(e)):{},c(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),F=e=>c(i({},\"__esModule\",{value:!0}),e);var d=f((y,s)=>{s.exports=_jsx_runtime});var _={};x(_,{default:()=>p,frontmatter:()=>M});var n=C(d()),M={title:\"Bieber Fever\",slug:\"bieber-fever\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2024,genre:[],description:\"Bieber Fever \\u2014 album od C\\xC2LIN (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/a75015fe6d74e58cae7cb3bb5f4df2d6/1000x1000-000000-80-0-0.jpg\",tracklist:[\"FTU\",\"Big Time\",\"Window Shopper\",\"Suave\",\"Chitarele (feat. Satoshi)\",\"Money On My Mind\",\"Yalla\",\"Happy B-day\",\"Fresh Fade\",\"Bohat\\xFD t\\xE1ta, chud\\xFD t\\xE1ta\",\"5\\uFE0F\\u20E30\\uFE0F\\u20E30\\uFE0F\\u20E3\",\"Call\",\"Outro (skit)\",\"Perdoname\",\"\\u0160ed\\xE1 obloha\",\"Chaser Bag\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return F(_);})();\n;return Component;"
+  },
+  "_id": "alba/bieber-fever.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/bieber-fever.mdx",
+    "sourceFileName": "bieber-fever.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/bieber-fever"
+  },
+  "type": "Album",
+  "url": "/alba/bieber-fever",
+  "canonicalUrl": "https://4rap.cz/alba/bieber-fever"
+}

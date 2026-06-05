@@ -1,0 +1,33 @@
+{
+  "title": "Khumba",
+  "slug": "khumba",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "Gruuv",
+  "year": 2018,
+  "genre": [],
+  "description": "Khumba — EP od James Cole (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/077573d0ba8b6048758e6913df590b2f/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Khumba",
+    "Khumba (Jay Shepheard Remix)",
+    "Go With Me",
+    "Got You"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!x.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(m=d(t,r))||m.enumerable});return e};var j=(e,t,a)=>(a=e!=null?l(b(e)):{},s(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var i=g((y,c)=>{c.exports=_jsx_runtime});var K={};f(K,{default:()=>h,frontmatter:()=>C});var n=j(i()),C={title:\"Khumba\",slug:\"khumba\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Gruuv\",year:2018,genre:[],description:\"Khumba \\u2014 EP od James Cole (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/077573d0ba8b6048758e6913df590b2f/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Khumba\",\"Khumba (Jay Shepheard Remix)\",\"Go With Me\",\"Got You\"],publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(K);})();\n;return Component;"
+  },
+  "_id": "alba/khumba.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/khumba.mdx",
+    "sourceFileName": "khumba.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/khumba"
+  },
+  "type": "Album",
+  "url": "/alba/khumba",
+  "canonicalUrl": "https://4rap.cz/alba/khumba"
+}

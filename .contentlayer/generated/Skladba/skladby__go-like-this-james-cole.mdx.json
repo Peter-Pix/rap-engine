@@ -1,0 +1,33 @@
+{
+  "title": "Go Like This",
+  "slug": "go-like-this-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Brooklyn International",
+  "albumSlug": "brooklyn-international",
+  "year": 2018,
+  "genre": [],
+  "duration": "7:19",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Go Like This — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(x(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>i(a({},\"__esModule\",{value:!0}),e);var m=f((L,l)=>{l.exports=_jsx_runtime});var y={};g(y,{default:()=>u,frontmatter:()=>_});var n=j(m()),_={title:\"Go Like This\",slug:\"go-like-this-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Brooklyn International\",albumSlug:\"brooklyn-international\",year:2018,genre:[],duration:\"7:19\",trackNumber:3,producers:[],producersNames:[],description:\"Go Like This \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return k(y);})();\n;return Component;"
+  },
+  "_id": "skladby/go-like-this-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/go-like-this-james-cole.mdx",
+    "sourceFileName": "go-like-this-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/go-like-this-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/go-like-this-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/go-like-this-james-cole"
+}

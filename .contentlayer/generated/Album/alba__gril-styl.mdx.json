@@ -1,0 +1,31 @@
+{
+  "title": "Gril Styl",
+  "slug": "gril-styl",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2018,
+  "genre": [],
+  "description": "Gril Styl — singl od DJ Fatte (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/37ff94a7453673f0c2066860e086c1ba/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Gril Styl (feat. Tomba, Yoga Spank, Johny Boss)",
+    "Gril Styl (Instrumental)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var r in e)l(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of g(e))!f.call(t,a)&&a!==r&&l(t,a,{get:()=>e[a],enumerable:!(s=u(e,a))||s.enumerable});return t};var b=(t,e,r)=>(r=t!=null?d(h(t)):{},i(e||!t||!t.__esModule?l(r,\"default\",{value:t,enumerable:!0}):r,t)),j=t=>i(l({},\"__esModule\",{value:!0}),t);var c=x((F,o)=>{o.exports=_jsx_runtime});var _={};y(_,{default:()=>p,frontmatter:()=>S});var n=b(c()),S={title:\"Gril Styl\",slug:\"gril-styl\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2018,genre:[],description:\"Gril Styl \\u2014 singl od DJ Fatte (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/37ff94a7453673f0c2066860e086c1ba/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Gril Styl (feat. Tomba, Yoga Spank, Johny Boss)\",\"Gril Styl (Instrumental)\"],publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return j(_);})();\n;return Component;"
+  },
+  "_id": "alba/gril-styl.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/gril-styl.mdx",
+    "sourceFileName": "gril-styl.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/gril-styl"
+  },
+  "type": "Album",
+  "url": "/alba/gril-styl",
+  "canonicalUrl": "https://4rap.cz/alba/gril-styl"
+}

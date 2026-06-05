@@ -1,0 +1,30 @@
+{
+  "title": "Legendární",
+  "slug": "legendarni",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2024,
+  "genre": [],
+  "description": "Legendární — singl od Sergei Barracuda (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a182c34f3d5229d14627726f9ce754b6/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Legendární"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!x.call(e,a)&&a!==t&&i(e,a,{get:()=>n[a],enumerable:!(c=m(n,a))||c.enumerable});return e};var _=(e,n,t)=>(t=e!=null?u(h(e)):{},s(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var o=b((A,d)=>{d.exports=_jsx_runtime});var L={};f(L,{default:()=>l,frontmatter:()=>S});var r=_(o()),S={title:\"Legend\\xE1rn\\xED\",slug:\"legendarni\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2024,genre:[],description:\"Legend\\xE1rn\\xED \\u2014 singl od Sergei Barracuda (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/a182c34f3d5229d14627726f9ce754b6/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Legend\\xE1rn\\xED\"],publishedAt:\"2026-06-04\"};function g(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(g,{...e})}):g(e)}return j(L);})();\n;return Component;"
+  },
+  "_id": "alba/legendarni.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/legendarni.mdx",
+    "sourceFileName": "legendarni.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/legendarni"
+  },
+  "type": "Album",
+  "url": "/alba/legendarni",
+  "canonicalUrl": "https://4rap.cz/alba/legendarni"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Roluju",
+  "slug": "roluju",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Azurit Kingdom",
+  "year": 2018,
+  "genre": [],
+  "description": "Roluju — singl od Sergei Barracuda (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6e650269814a0f2c89b20cd897d87aea/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Roluju"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of g(r))!j.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(c=p(r,a))||c.enumerable});return e};var b=(e,r,n)=>(n=e!=null?m(h(e)):{},i(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>i(o({},\"__esModule\",{value:!0}),e);var s=x((y,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>S});var t=b(s()),S={title:\"Roluju\",slug:\"roluju\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Azurit Kingdom\",year:2018,genre:[],description:\"Roluju \\u2014 singl od Sergei Barracuda (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/6e650269814a0f2c89b20cd897d87aea/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Roluju\"],publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return f(M);})();\n;return Component;"
+  },
+  "_id": "alba/roluju.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/roluju.mdx",
+    "sourceFileName": "roluju.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/roluju"
+  },
+  "type": "Album",
+  "url": "/alba/roluju",
+  "canonicalUrl": "https://4rap.cz/alba/roluju"
+}

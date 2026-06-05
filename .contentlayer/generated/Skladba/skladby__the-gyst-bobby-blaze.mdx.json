@@ -1,0 +1,33 @@
+{
+  "title": "The GYST",
+  "slug": "the-gyst-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Highs & Lows",
+  "albumSlug": "highs-lows",
+  "year": 2025,
+  "genre": [],
+  "duration": "1:51",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "The GYST — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var y=(e,t,n)=>(n=e!=null?m(p(e)):{},l(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var b=g((B,u)=>{u.exports=_jsx_runtime});var S={};f(S,{default:()=>i,frontmatter:()=>j});var r=y(b()),j={title:\"The GYST\",slug:\"the-gyst-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Highs & Lows\",albumSlug:\"highs-lows\",year:2025,genre:[],duration:\"1:51\",trackNumber:4,producers:[],producersNames:[],description:\"The GYST \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/the-gyst-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/the-gyst-bobby-blaze.mdx",
+    "sourceFileName": "the-gyst-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/the-gyst-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/the-gyst-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/the-gyst-bobby-blaze"
+}

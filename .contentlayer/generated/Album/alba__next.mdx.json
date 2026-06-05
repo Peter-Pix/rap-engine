@@ -1,0 +1,30 @@
+{
+  "title": "Next",
+  "slug": "next",
+  "rapper": "IKE",
+  "rapperSlug": "ike",
+  "label": "mmun",
+  "year": 2026,
+  "genre": [],
+  "description": "Next — singl od IKE (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6132072e5659375d6a4ee6d96c0e0f37/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Next"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of u(t))!h.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(a=x(t,s))||a.enumerable});return e};var j=(e,t,r)=>(r=e!=null?p(g(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var m=_((y,i)=>{i.exports=_jsx_runtime});var N={};f(N,{default:()=>l,frontmatter:()=>M});var n=j(m()),M={title:\"Next\",slug:\"next\",rapper:\"IKE\",rapperSlug:\"ike\",label:\"mmun\",year:2026,genre:[],description:\"Next \\u2014 singl od IKE (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/6132072e5659375d6a4ee6d96c0e0f37/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Next\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(N);})();\n;return Component;"
+  },
+  "_id": "alba/next.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/next.mdx",
+    "sourceFileName": "next.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/next"
+  },
+  "type": "Album",
+  "url": "/alba/next",
+  "canonicalUrl": "https://4rap.cz/alba/next"
+}

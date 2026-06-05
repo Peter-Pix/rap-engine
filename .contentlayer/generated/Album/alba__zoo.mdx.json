@@ -1,0 +1,30 @@
+{
+  "title": "ZOO",
+  "slug": "zoo",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2024,
+  "genre": [],
+  "description": "ZOO — singl od Hugo Toxxx (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6953663284fd12a6a3c240890fd580ae/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "ZOO"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),O=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!h.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(i=m(t,o))||i.enumerable});return e};var _=(e,t,r)=>(r=e!=null?u(g(e)):{},a(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var x=f((A,c)=>{c.exports=_jsx_runtime});var M={};O(M,{default:()=>l,frontmatter:()=>b});var n=_(x()),b={title:\"ZOO\",slug:\"zoo\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2024,genre:[],description:\"ZOO \\u2014 singl od Hugo Toxxx (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/6953663284fd12a6a3c240890fd580ae/1000x1000-000000-80-0-0.jpg\",tracklist:[\"ZOO\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/zoo.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/zoo.mdx",
+    "sourceFileName": "zoo.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/zoo"
+  },
+  "type": "Album",
+  "url": "/alba/zoo",
+  "canonicalUrl": "https://4rap.cz/alba/zoo"
+}

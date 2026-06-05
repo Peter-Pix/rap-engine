@@ -1,0 +1,33 @@
+{
+  "title": "Černý slunce",
+  "slug": "cerny-slunce-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Moby Dick",
+  "albumSlug": "moby-dick",
+  "year": 2013,
+  "genre": [],
+  "duration": "4:25",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Černý slunce — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of x(n))!b.call(e,s)&&s!==r&&o(e,s,{get:()=>n[s],enumerable:!(a=p(n,s))||a.enumerable});return e};var _=(e,n,r)=>(r=e!=null?d(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var l=f((M,u)=>{u.exports=_jsx_runtime});var k={};j(k,{default:()=>i,frontmatter:()=>y});var t=_(l()),y={title:\"\\u010Cern\\xFD slunce\",slug:\"cerny-slunce-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[],duration:\"4:25\",trackNumber:9,producers:[],producersNames:[],description:\"\\u010Cern\\xFD slunce \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/cerny-slunce-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/cerny-slunce-james-cole.mdx",
+    "sourceFileName": "cerny-slunce-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/cerny-slunce-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/cerny-slunce-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/cerny-slunce-james-cole"
+}

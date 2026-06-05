@@ -1,0 +1,37 @@
+{
+  "title": "Independent",
+  "slug": "independent-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "pain"
+  ],
+  "featuresNames": [
+    "Pain"
+  ],
+  "album": "Tempo",
+  "albumSlug": "tempo",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Independent — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,d)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(d=l(n,a))||d.enumerable});return e};var g=(e,n,r)=>(r=e!=null?c(h(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var i=_((S,p)=>{p.exports=_jsx_runtime});var M={};b(M,{default:()=>m,frontmatter:()=>I});var t=g(i()),I={title:\"Independent\",slug:\"independent-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"pain\"],featuresNames:[\"Pain\"],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[],duration:\"3:00\",trackNumber:9,producers:[],producersNames:[],description:\"Independent \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/independent-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/independent-idea.mdx",
+    "sourceFileName": "independent-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/independent-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/independent-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/independent-idea"
+}

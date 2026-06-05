@@ -1,0 +1,30 @@
+{
+  "title": "Tancuj sama",
+  "slug": "tancuj-sama",
+  "rapper": "Carter",
+  "rapperSlug": "carter",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "Tancuj sama — singl od Carter (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/9fc704b803861faf5c0f1ed0cf9f3201/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Tancuj sama"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var a in t)c(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of f(t))!g.call(e,r)&&r!==a&&c(e,r,{get:()=>t[r],enumerable:!(s=d(t,r))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(h(e)):{},o(t||!e||!e.__esModule?c(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>o(c({},\"__esModule\",{value:!0}),e);var m=j((y,i)=>{i.exports=_jsx_runtime});var M={};x(M,{default:()=>u,frontmatter:()=>C});var n=_(m()),C={title:\"Tancuj sama\",slug:\"tancuj-sama\",rapper:\"Carter\",rapperSlug:\"carter\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Tancuj sama \\u2014 singl od Carter (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/9fc704b803861faf5c0f1ed0cf9f3201/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Tancuj sama\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "alba/tancuj-sama.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/tancuj-sama.mdx",
+    "sourceFileName": "tancuj-sama.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/tancuj-sama"
+  },
+  "type": "Album",
+  "url": "/alba/tancuj-sama",
+  "canonicalUrl": "https://4rap.cz/alba/tancuj-sama"
+}

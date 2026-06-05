@@ -1,0 +1,37 @@
+{
+  "title": "Middle of the Night",
+  "slug": "middle-of-the-night-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "lil-maniak"
+  ],
+  "featuresNames": [
+    "Lil Maniak"
+  ],
+  "album": "Maniak Muzik",
+  "albumSlug": "maniak-muzik",
+  "year": 2016,
+  "genre": [],
+  "duration": "4:25",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Middle of the Night — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!f.call(e,r)&&r!==a&&i(e,r,{get:()=>t[r],enumerable:!(o=h(t,r))||o.enumerable});return e};var g=(e,t,a)=>(a=e!=null?c(k(e)):{},s(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var u=x((S,m)=>{m.exports=_jsx_runtime});var j={};M(j,{default:()=>l,frontmatter:()=>b});var n=g(u()),b={title:\"Middle of the Night\",slug:\"middle-of-the-night-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"4:25\",trackNumber:11,producers:[],producersNames:[],description:\"Middle of the Night \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/middle-of-the-night-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/middle-of-the-night-maniak.mdx",
+    "sourceFileName": "middle-of-the-night-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/middle-of-the-night-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/middle-of-the-night-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/middle-of-the-night-maniak"
+}

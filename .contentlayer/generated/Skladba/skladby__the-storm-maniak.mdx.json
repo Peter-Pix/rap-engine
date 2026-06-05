@@ -1,0 +1,37 @@
+{
+  "title": "The Storm",
+  "slug": "the-storm-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "lil-maniak"
+  ],
+  "featuresNames": [
+    "Lil Maniak"
+  ],
+  "album": "Maniak Muzik",
+  "albumSlug": "maniak-muzik",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:58",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "The Storm — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},m=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==a&&i(e,r,{get:()=>t[r],enumerable:!(o=p(t,r))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?d(k(e)):{},m(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>m(i({},\"__esModule\",{value:!0}),e);var u=M((N,s)=>{s.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>g});var n=_(u()),g={title:\"The Storm\",slug:\"the-storm-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"3:58\",trackNumber:16,producers:[],producersNames:[],description:\"The Storm \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/the-storm-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/the-storm-maniak.mdx",
+    "sourceFileName": "the-storm-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/the-storm-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/the-storm-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/the-storm-maniak"
+}

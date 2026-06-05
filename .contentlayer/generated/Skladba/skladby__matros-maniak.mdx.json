@@ -1,0 +1,37 @@
+{
+  "title": "Matroš",
+  "slug": "matros-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "vladimir-518"
+  ],
+  "featuresNames": [
+    "Vladimir 518"
+  ],
+  "album": "Matroš",
+  "albumSlug": "matros",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:38",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Matroš — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!M.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var b=(e,t,a)=>(a=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((S,m)=>{m.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>k});var r=b(u()),k={title:\"Matro\\u0161\",slug:\"matros-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"vladimir-518\"],featuresNames:[\"Vladimir 518\"],album:\"Matro\\u0161\",albumSlug:\"matros\",year:2023,genre:[],duration:\"3:38\",trackNumber:1,producers:[],producersNames:[],description:\"Matro\\u0161 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/matros-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/matros-maniak.mdx",
+    "sourceFileName": "matros-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/matros-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/matros-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/matros-maniak"
+}

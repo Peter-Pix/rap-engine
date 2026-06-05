@@ -1,0 +1,33 @@
+{
+  "title": "Pick 6",
+  "slug": "pick-6-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Pick 6",
+  "albumSlug": "pick-6",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:00",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pick 6 — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of k(t))!h.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(x(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var u=f((P,c)=>{c.exports=_jsx_runtime});var M={};_(M,{default:()=>p,frontmatter:()=>j});var n=b(u()),j={title:\"Pick 6\",slug:\"pick-6-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Pick 6\",albumSlug:\"pick-6\",year:2024,genre:[],duration:\"2:00\",trackNumber:1,producers:[],producersNames:[],description:\"Pick 6 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/pick-6-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pick-6-maniak.mdx",
+    "sourceFileName": "pick-6-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pick-6-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pick-6-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/pick-6-maniak"
+}

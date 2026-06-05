@@ -1,0 +1,33 @@
+{
+  "title": "Já tam byl",
+  "slug": "ja-tam-byl-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [],
+  "featuresNames": [],
+  "album": "Já tam byl",
+  "albumSlug": "ja-tam-byl",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Já tam byl — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},m=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of b(t))!h.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var y=(e,t,a)=>(a=e!=null?i(x(e)):{},m(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>m(o({},\"__esModule\",{value:!0}),e);var u=f((N,l)=>{l.exports=_jsx_runtime});var J={};j(J,{default:()=>c,frontmatter:()=>g});var r=y(u()),g={title:\"J\\xE1 tam byl\",slug:\"ja-tam-byl-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"J\\xE1 tam byl\",albumSlug:\"ja-tam-byl\",year:2020,genre:[],duration:\"3:00\",trackNumber:1,producers:[],producersNames:[],description:\"J\\xE1 tam byl \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(J);})();\n;return Component;"
+  },
+  "_id": "skladby/ja-tam-byl-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ja-tam-byl-idea.mdx",
+    "sourceFileName": "ja-tam-byl-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ja-tam-byl-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ja-tam-byl-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/ja-tam-byl-idea"
+}

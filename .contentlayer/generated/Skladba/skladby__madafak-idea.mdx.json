@@ -1,0 +1,41 @@
+{
+  "title": "Madafak",
+  "slug": "madafak-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "gury",
+    "magenta",
+    "martin-matys"
+  ],
+  "featuresNames": [
+    "Gury",
+    "Magenta",
+    "Martin Matys"
+  ],
+  "album": "O beatech a lidech",
+  "albumSlug": "o-beatech-a-lidech",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:13",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Madafak — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var r in a)s(e,r,{get:a[r],enumerable:!0})},d=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!x.call(e,n)&&n!==r&&s(e,n,{get:()=>a[n],enumerable:!(o=p(a,n))||o.enumerable});return e};var M=(e,a,r)=>(r=e!=null?l(f(e)):{},d(a||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>d(s({},\"__esModule\",{value:!0}),e);var u=g((N,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>y});var t=M(u()),y={title:\"Madafak\",slug:\"madafak-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"gury\",\"magenta\",\"martin-matys\"],featuresNames:[\"Gury\",\"Magenta\",\"Martin Matys\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[],duration:\"3:13\",trackNumber:3,producers:[],producersNames:[],description:\"Madafak \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/madafak-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/madafak-idea.mdx",
+    "sourceFileName": "madafak-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/madafak-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/madafak-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/madafak-idea"
+}

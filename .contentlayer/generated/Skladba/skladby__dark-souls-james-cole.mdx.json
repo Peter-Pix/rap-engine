@@ -1,0 +1,37 @@
+{
+  "title": "DARK SOULS",
+  "slug": "dark-souls-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [
+    "yzomandias"
+  ],
+  "featuresNames": [
+    "Yzomandias"
+  ],
+  "album": "DOWN4LIFE",
+  "albumSlug": "down4life",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:08",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "DARK SOULS — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),S=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var u=j((L,l)=>{l.exports=_jsx_runtime});var D={};S(D,{default:()=>d,frontmatter:()=>g});var n=_(u()),g={title:\"DARK SOULS\",slug:\"dark-souls-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"yzomandias\"],featuresNames:[\"Yzomandias\"],album:\"DOWN4LIFE\",albumSlug:\"down4life\",year:2023,genre:[],duration:\"3:08\",trackNumber:10,producers:[],producersNames:[],description:\"DARK SOULS \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(D);})();\n;return Component;"
+  },
+  "_id": "skladby/dark-souls-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dark-souls-james-cole.mdx",
+    "sourceFileName": "dark-souls-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dark-souls-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dark-souls-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/dark-souls-james-cole"
+}

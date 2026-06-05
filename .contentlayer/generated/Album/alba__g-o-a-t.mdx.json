@@ -1,0 +1,40 @@
+{
+  "title": "G.O.A.T.",
+  "slug": "g-o-a-t",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "WM Czech Republic",
+  "year": 2020,
+  "genre": [],
+  "description": "G.O.A.T. — album od James Cole (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/78dcccda1006649c1acdec9ff6357f4c/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Král flow",
+    "Bowie",
+    "Halina",
+    "Lalala",
+    "MVP",
+    "Marek Eben",
+    "Václav Havel",
+    "Nezachrání tě nic",
+    "Starej labilní fotr",
+    "Money Friendly",
+    "Miyazaki Flow"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)c(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!g.call(e,r)&&r!==a&&c(e,r,{get:()=>n[r],enumerable:!(l=u(n,r))||l.enumerable});return e};var j=(e,n,a)=>(a=e!=null?p(f(e)):{},o(n||!e||!e.__esModule?c(a,\"default\",{value:e,enumerable:!0}):a,e)),M=e=>o(c({},\"__esModule\",{value:!0}),e);var s=x((w,i)=>{i.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>_});var t=j(s()),_={title:\"G.O.A.T.\",slug:\"g-o-a-t\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"WM Czech Republic\",year:2020,genre:[],description:\"G.O.A.T. \\u2014 album od James Cole (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/78dcccda1006649c1acdec9ff6357f4c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Kr\\xE1l flow\",\"Bowie\",\"Halina\",\"Lalala\",\"MVP\",\"Marek Eben\",\"V\\xE1clav Havel\",\"Nezachr\\xE1n\\xED t\\u011B nic\",\"Starej labiln\\xED fotr\",\"Money Friendly\",\"Miyazaki Flow\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return M(y);})();\n;return Component;"
+  },
+  "_id": "alba/g-o-a-t.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/g-o-a-t.mdx",
+    "sourceFileName": "g-o-a-t.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/g-o-a-t"
+  },
+  "type": "Album",
+  "url": "/alba/g-o-a-t",
+  "canonicalUrl": "https://4rap.cz/alba/g-o-a-t"
+}

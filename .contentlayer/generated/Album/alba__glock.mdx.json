@@ -1,0 +1,30 @@
+{
+  "title": "Glock",
+  "slug": "glock",
+  "rapper": "Klaziu",
+  "rapperSlug": "klaziu",
+  "label": "Pierwszy Milion",
+  "year": 2021,
+  "genre": [],
+  "description": "Glock — singl od Klaziu (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e591689a9a9df3831e9b148a2425c7e0/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Glock"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of g(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(i=u(t,o))||i.enumerable});return e};var j=(e,t,r)=>(r=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>c(a({},\"__esModule\",{value:!0}),e);var s=_((y,l)=>{l.exports=_jsx_runtime});var z={};f(z,{default:()=>m,frontmatter:()=>b});var n=j(s()),b={title:\"Glock\",slug:\"glock\",rapper:\"Klaziu\",rapperSlug:\"klaziu\",label:\"Pierwszy Milion\",year:2021,genre:[],description:\"Glock \\u2014 singl od Klaziu (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/e591689a9a9df3831e9b148a2425c7e0/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Glock\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return k(z);})();\n;return Component;"
+  },
+  "_id": "alba/glock.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/glock.mdx",
+    "sourceFileName": "glock.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/glock"
+  },
+  "type": "Album",
+  "url": "/alba/glock",
+  "canonicalUrl": "https://4rap.cz/alba/glock"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Hej More",
+  "slug": "hej-more",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "Lavutaris Records",
+  "year": 2024,
+  "genre": [],
+  "description": "Hej More — singl od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e03647b7c025ea2a92535274f028547b/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Hej More"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of u(t))!g.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=b(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>c(a({},\"__esModule\",{value:!0}),e);var l=j((B,i)=>{i.exports=_jsx_runtime});var y={};x(y,{default:()=>d,frontmatter:()=>M});var n=_(l()),M={title:\"Hej More\",slug:\"hej-more\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"Lavutaris Records\",year:2024,genre:[],description:\"Hej More \\u2014 singl od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/e03647b7c025ea2a92535274f028547b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Hej More\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return f(y);})();\n;return Component;"
+  },
+  "_id": "alba/hej-more.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/hej-more.mdx",
+    "sourceFileName": "hej-more.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/hej-more"
+  },
+  "type": "Album",
+  "url": "/alba/hej-more",
+  "canonicalUrl": "https://4rap.cz/alba/hej-more"
+}

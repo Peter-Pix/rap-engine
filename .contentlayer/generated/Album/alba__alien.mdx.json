@@ -1,0 +1,41 @@
+{
+  "title": "ALIEN",
+  "slug": "alien",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "ALIEN — album od James Cole (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/135e20541b0a96d59bdc48c0b3dd1f47/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "ALIEN",
+    "ROYAL",
+    "FÍZL",
+    "BASS",
+    "KILA",
+    "B2DB",
+    "FAMILY",
+    "TY NEJSI (DOO RAG Z POLSKA 2022)",
+    "WILD",
+    "FINAL FANTASY",
+    "NG+",
+    "DIVER"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,L=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of A(t))!L.call(e,a)&&a!==r&&c(e,a,{get:()=>t[a],enumerable:!(o=u(t,a))||o.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),I=e=>s(c({},\"__esModule\",{value:!0}),e);var i=x((_,l)=>{l.exports=_jsx_runtime});var N={};b(N,{default:()=>d,frontmatter:()=>j});var n=g(i()),j={title:\"ALIEN\",slug:\"alien\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"ALIEN \\u2014 album od James Cole (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/135e20541b0a96d59bdc48c0b3dd1f47/1000x1000-000000-80-0-0.jpg\",tracklist:[\"ALIEN\",\"ROYAL\",\"F\\xCDZL\",\"BASS\",\"KILA\",\"B2DB\",\"FAMILY\",\"TY NEJSI (DOO RAG Z POLSKA 2022)\",\"WILD\",\"FINAL FANTASY\",\"NG+\",\"DIVER\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return I(N);})();\n;return Component;"
+  },
+  "_id": "alba/alien.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/alien.mdx",
+    "sourceFileName": "alien.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/alien"
+  },
+  "type": "Album",
+  "url": "/alba/alien",
+  "canonicalUrl": "https://4rap.cz/alba/alien"
+}

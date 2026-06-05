@@ -1,0 +1,30 @@
+{
+  "title": "Timeshift",
+  "slug": "timeshift",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2020,
+  "genre": [],
+  "description": "Timeshift — singl od Hugo Toxxx (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3f1883bebb2ee9ade17ad97b7f55d747/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Timeshift"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var i in t)s(e,i,{get:t[i],enumerable:!0})},a=(e,t,i,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!g.call(e,r)&&r!==i&&s(e,r,{get:()=>t[r],enumerable:!(o=u(t,r))||o.enumerable});return e};var _=(e,t,i)=>(i=e!=null?l(p(e)):{},a(t||!e||!e.__esModule?s(i,\"default\",{value:e,enumerable:!0}):i,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var m=f((A,c)=>{c.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>T});var n=_(m()),T={title:\"Timeshift\",slug:\"timeshift\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2020,genre:[],description:\"Timeshift \\u2014 singl od Hugo Toxxx (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/3f1883bebb2ee9ade17ad97b7f55d747/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Timeshift\"],publishedAt:\"2026-06-04\"};function x(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(x,{...e})}):x(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/timeshift.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/timeshift.mdx",
+    "sourceFileName": "timeshift.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/timeshift"
+  },
+  "type": "Album",
+  "url": "/alba/timeshift",
+  "canonicalUrl": "https://4rap.cz/alba/timeshift"
+}

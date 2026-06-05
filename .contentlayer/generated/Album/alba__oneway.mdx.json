@@ -1,0 +1,44 @@
+{
+  "title": "OneWay",
+  "slug": "oneway",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "JOG",
+  "year": 2023,
+  "genre": [],
+  "description": "OneWay — album od Maniak (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/8f5aadd02bdae7abfb28dfc6b5e9ef23/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Smoke Wit Whoeva (feat. Jumpout)",
+    "Neva Kared (feat. Jumpout)",
+    "Blind",
+    "Plays 2",
+    "No hands (feat. Jumpout)",
+    "Run My Mood",
+    "Sum Different",
+    "Lmk",
+    "Dat Kall (feat. Jumpout)",
+    "556 Love (feat. Jumpout)",
+    "Step (feat. Jumpout)",
+    "Street Talk",
+    "Whas Wrong (feat. Jumpout)",
+    "Fye",
+    "762"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var r=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)r(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!g.call(e,o)&&o!==n&&r(e,o,{get:()=>t[o],enumerable:!(u=c(t,o))||u.enumerable});return e};var y=(e,t,n)=>(n=e!=null?l(h(e)):{},m(t||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),J=e=>m(r({},\"__esModule\",{value:!0}),e);var s=x((j,i)=>{i.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>k});var a=y(s()),k={title:\"OneWay\",slug:\"oneway\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"JOG\",year:2023,genre:[],description:\"OneWay \\u2014 album od Maniak (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/8f5aadd02bdae7abfb28dfc6b5e9ef23/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Smoke Wit Whoeva (feat. Jumpout)\",\"Neva Kared (feat. Jumpout)\",\"Blind\",\"Plays 2\",\"No hands (feat. Jumpout)\",\"Run My Mood\",\"Sum Different\",\"Lmk\",\"Dat Kall (feat. Jumpout)\",\"556 Love (feat. Jumpout)\",\"Step (feat. Jumpout)\",\"Street Talk\",\"Whas Wrong (feat. Jumpout)\",\"Fye\",\"762\"],publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(p,{...e})}):p(e)}return J(M);})();\n;return Component;"
+  },
+  "_id": "alba/oneway.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/oneway.mdx",
+    "sourceFileName": "oneway.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/oneway"
+  },
+  "type": "Album",
+  "url": "/alba/oneway",
+  "canonicalUrl": "https://4rap.cz/alba/oneway"
+}

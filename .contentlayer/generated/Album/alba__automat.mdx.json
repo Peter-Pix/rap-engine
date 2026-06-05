@@ -1,0 +1,30 @@
+{
+  "title": "Automat",
+  "slug": "automat",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "WM Czech Republic",
+  "year": 2025,
+  "genre": [],
+  "description": "Automat — singl od Maniak (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/7411596c7709fb303b09e02261322ab6/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Automat"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},c=(t,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!x.call(t,r)&&r!==a&&o(t,r,{get:()=>e[r],enumerable:!(i=d(e,r))||i.enumerable});return t};var f=(t,e,a)=>(a=t!=null?p(g(t)):{},c(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),j=t=>c(o({},\"__esModule\",{value:!0}),t);var m=b((C,s)=>{s.exports=_jsx_runtime});var k={};_(k,{default:()=>u,frontmatter:()=>M});var n=f(m()),M={title:\"Automat\",slug:\"automat\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"WM Czech Republic\",year:2025,genre:[],description:\"Automat \\u2014 singl od Maniak (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/7411596c7709fb303b09e02261322ab6/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Automat\"],publishedAt:\"2026-06-04\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/automat.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/automat.mdx",
+    "sourceFileName": "automat.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/automat"
+  },
+  "type": "Album",
+  "url": "/alba/automat",
+  "canonicalUrl": "https://4rap.cz/alba/automat"
+}

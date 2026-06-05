@@ -1,0 +1,37 @@
+{
+  "title": "Dropbox",
+  "slug": "dropbox",
+  "rapper": "Prezident Lourajder",
+  "rapperSlug": "prezident-lourajder",
+  "label": "WM Czech Republic",
+  "year": 2018,
+  "genre": [],
+  "description": "Dropbox — album od Prezident Lourajder (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/4531b7ba637d4de08f02ce1d6c7e1136/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Easy",
+    "1991",
+    "Kým Dýcham",
+    "Pod Kontrolou",
+    "Pow Pow",
+    "Wannabe",
+    "Parazol",
+    "Havran"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(d=u(r,o))||d.enumerable});return e};var _=(e,r,t)=>(t=e!=null?m(b(e)):{},c(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),f=e=>c(a({},\"__esModule\",{value:!0}),e);var s=g((M,i)=>{i.exports=_jsx_runtime});var P={};j(P,{default:()=>p,frontmatter:()=>z});var n=_(s()),z={title:\"Dropbox\",slug:\"dropbox\",rapper:\"Prezident Lourajder\",rapperSlug:\"prezident-lourajder\",label:\"WM Czech Republic\",year:2018,genre:[],description:\"Dropbox \\u2014 album od Prezident Lourajder (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/4531b7ba637d4de08f02ce1d6c7e1136/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Easy\",\"1991\",\"K\\xFDm D\\xFDcham\",\"Pod Kontrolou\",\"Pow Pow\",\"Wannabe\",\"Parazol\",\"Havran\"],publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return f(P);})();\n;return Component;"
+  },
+  "_id": "alba/dropbox.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/dropbox.mdx",
+    "sourceFileName": "dropbox.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/dropbox"
+  },
+  "type": "Album",
+  "url": "/alba/dropbox",
+  "canonicalUrl": "https://4rap.cz/alba/dropbox"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Hypebeast",
+  "slug": "hypebeast",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "WM Czech Republic",
+  "year": 2019,
+  "genre": [],
+  "description": "Hypebeast — singl od Maniak (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/1d84f76c37083c1bbec20a5e05edc607/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Hypebeast"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!g.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(c=u(t,r))||c.enumerable});return e};var f=(e,t,a)=>(a=e!=null?m(b(e)):{},i(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var p=x((C,o)=>{o.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>y});var n=f(p()),y={title:\"Hypebeast\",slug:\"hypebeast\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"WM Czech Republic\",year:2019,genre:[],description:\"Hypebeast \\u2014 singl od Maniak (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/1d84f76c37083c1bbec20a5e05edc607/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Hypebeast\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/hypebeast.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/hypebeast.mdx",
+    "sourceFileName": "hypebeast.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/hypebeast"
+  },
+  "type": "Album",
+  "url": "/alba/hypebeast",
+  "canonicalUrl": "https://4rap.cz/alba/hypebeast"
+}

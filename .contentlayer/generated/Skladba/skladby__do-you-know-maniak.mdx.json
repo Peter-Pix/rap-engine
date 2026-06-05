@@ -1,0 +1,37 @@
+{
+  "title": "Do You Know",
+  "slug": "do-you-know-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "lil-maniak"
+  ],
+  "featuresNames": [
+    "Lil Maniak"
+  ],
+  "album": "Maniak Muzik",
+  "albumSlug": "maniak-muzik",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:05",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Do You Know — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},u=(n,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of k(e))!h.call(n,r)&&r!==t&&o(n,r,{get:()=>e[r],enumerable:!(i=p(e,r))||i.enumerable});return n};var _=(n,e,t)=>(t=n!=null?d(x(n)):{},u(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),b=n=>u(o({},\"__esModule\",{value:!0}),n);var m=M((D,s)=>{s.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>g});var a=_(m()),g={title:\"Do You Know\",slug:\"do-you-know-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"3:05\",trackNumber:5,producers:[],producersNames:[],description:\"Do You Know \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(c,{...n})}):c(n)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/do-you-know-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/do-you-know-maniak.mdx",
+    "sourceFileName": "do-you-know-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/do-you-know-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/do-you-know-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/do-you-know-maniak"
+}

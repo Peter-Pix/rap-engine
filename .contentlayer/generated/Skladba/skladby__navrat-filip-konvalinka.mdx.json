@@ -1,0 +1,37 @@
+{
+  "title": "Návrat",
+  "slug": "navrat-filip-konvalinka",
+  "rapper": "Filip Konvalinka",
+  "rapperSlug": "filip-konvalinka",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "2 MOUCHY 1 RANOU",
+  "albumSlug": "2-mouchy-1-ranou",
+  "year": 2026,
+  "genre": [],
+  "duration": "2:47",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Návrat — skladba od Filip Konvalinka.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),v=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(i=d(t,a))||i.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var u=k((F,l)=>{l.exports=_jsx_runtime});var j={};v(j,{default:()=>p,frontmatter:()=>g});var n=_(u()),g={title:\"N\\xE1vrat\",slug:\"navrat-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[],duration:\"2:47\",trackNumber:8,producers:[],producersNames:[],description:\"N\\xE1vrat \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/navrat-filip-konvalinka.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/navrat-filip-konvalinka.mdx",
+    "sourceFileName": "navrat-filip-konvalinka.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/navrat-filip-konvalinka"
+  },
+  "type": "Skladba",
+  "url": "/skladby/navrat-filip-konvalinka",
+  "canonicalUrl": "https://4rap.cz/skladby/navrat-filip-konvalinka"
+}

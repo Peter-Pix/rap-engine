@@ -1,0 +1,37 @@
+{
+  "title": "Gucci Watch",
+  "slug": "gucci-watch-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [
+    "king-coop"
+  ],
+  "featuresNames": [
+    "King Coop"
+  ],
+  "album": "Gucci Watch (feat. King Coop)",
+  "albumSlug": "gucci-watch-feat-king-coop",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:00",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Gucci Watch — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var b=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)r(e,o,{get:t[o],enumerable:!0})},u=(e,t,o,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let c of d(t))!g.call(e,c)&&c!==o&&r(e,c,{get:()=>t[c],enumerable:!(a=m(t,c))||a.enumerable});return e};var _=(e,t,o)=>(o=e!=null?b(h(e)):{},u(t||!e||!e.__esModule?r(o,\"default\",{value:e,enumerable:!0}):o,e)),y=e=>u(r({},\"__esModule\",{value:!0}),e);var s=x((B,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>p,frontmatter:()=>j});var n=_(s()),j={title:\"Gucci Watch\",slug:\"gucci-watch-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"king-coop\"],featuresNames:[\"King Coop\"],album:\"Gucci Watch (feat. King Coop)\",albumSlug:\"gucci-watch-feat-king-coop\",year:2019,genre:[],duration:\"3:00\",trackNumber:1,producers:[],producersNames:[],description:\"Gucci Watch \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return y(k);})();\n;return Component;"
+  },
+  "_id": "skladby/gucci-watch-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/gucci-watch-bobby-blaze.mdx",
+    "sourceFileName": "gucci-watch-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/gucci-watch-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/gucci-watch-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/gucci-watch-bobby-blaze"
+}

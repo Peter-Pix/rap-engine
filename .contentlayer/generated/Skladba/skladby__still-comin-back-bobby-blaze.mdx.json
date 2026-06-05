@@ -1,0 +1,33 @@
+{
+  "title": "Still Comin' Back",
+  "slug": "still-comin-back-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "The Prodigal Son",
+  "albumSlug": "the-prodigal-son",
+  "year": 2021,
+  "genre": [],
+  "duration": "4:25",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Still Comin' Back — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var b=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(l=d(t,o))||l.enumerable});return e};var _=(e,t,r)=>(r=e!=null?b(h(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>s(a({},\"__esModule\",{value:!0}),e);var c=g((k,i)=>{i.exports=_jsx_runtime});var S={};f(S,{default:()=>u,frontmatter:()=>B});var n=_(c()),B={title:\"Still Comin' Back\",slug:\"still-comin-back-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"4:25\",trackNumber:5,producers:[],producersNames:[],description:\"Still Comin' Back \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return y(S);})();\n;return Component;"
+  },
+  "_id": "skladby/still-comin-back-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/still-comin-back-bobby-blaze.mdx",
+    "sourceFileName": "still-comin-back-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/still-comin-back-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/still-comin-back-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/still-comin-back-bobby-blaze"
+}

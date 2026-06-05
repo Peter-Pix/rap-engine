@@ -1,0 +1,33 @@
+{
+  "title": "Big Time",
+  "slug": "big-time-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bieber Fever",
+  "albumSlug": "bieber-fever",
+  "year": 2024,
+  "genre": [],
+  "duration": "1:46",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Big Time — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of b(t))!g.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(x(e)):{},s(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var m=h((F,c)=>{c.exports=_jsx_runtime});var C={};f(C,{default:()=>l,frontmatter:()=>N});var r=_(m()),N={title:\"Big Time\",slug:\"big-time-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[],duration:\"1:46\",trackNumber:2,producers:[],producersNames:[],description:\"Big Time \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(C);})();\n;return Component;"
+  },
+  "_id": "skladby/big-time-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/big-time-calin.mdx",
+    "sourceFileName": "big-time-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/big-time-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/big-time-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/big-time-calin"
+}

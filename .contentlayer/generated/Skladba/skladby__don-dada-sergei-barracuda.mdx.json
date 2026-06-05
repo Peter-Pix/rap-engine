@@ -1,0 +1,33 @@
+{
+  "title": "Don Dada",
+  "slug": "don-dada-sergei-barracuda",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "features": [],
+  "featuresNames": [],
+  "album": "Pouliční Ekonomická 3: Láska & Loyalita",
+  "albumSlug": "poulicni-ekonomicka-3-laska-loyalita",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Don Dada — skladba od Sergei Barracuda.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),k=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},i=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of g(a))!h.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var f=(e,a,n)=>(n=e!=null?m(x(e)):{},i(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var c=b((y,u)=>{u.exports=_jsx_runtime});var j={};k(j,{default:()=>l,frontmatter:()=>D});var r=f(c()),D={title:\"Don Dada\",slug:\"don-dada-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[],duration:\"3:20\",trackNumber:10,producers:[],producersNames:[],description:\"Don Dada \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/don-dada-sergei-barracuda.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/don-dada-sergei-barracuda.mdx",
+    "sourceFileName": "don-dada-sergei-barracuda.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/don-dada-sergei-barracuda"
+  },
+  "type": "Skladba",
+  "url": "/skladby/don-dada-sergei-barracuda",
+  "canonicalUrl": "https://4rap.cz/skladby/don-dada-sergei-barracuda"
+}

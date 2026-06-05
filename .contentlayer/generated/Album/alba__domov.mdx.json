@@ -1,0 +1,30 @@
+{
+  "title": "Domov",
+  "slug": "domov",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "label": "Bigg Boss",
+  "year": 2025,
+  "genre": [],
+  "description": "Domov — singl od Vladimir 518 (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/90ed48d6dbbf6493d795485a1ab8e28f/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Domov"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of u(t))!x.call(e,o)&&o!==r&&i(e,o,{get:()=>t[o],enumerable:!(a=g(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var m=b((y,d)=>{d.exports=_jsx_runtime});var D={};f(D,{default:()=>l,frontmatter:()=>v});var n=_(m()),v={title:\"Domov\",slug:\"domov\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",label:\"Bigg Boss\",year:2025,genre:[],description:\"Domov \\u2014 singl od Vladimir 518 (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/90ed48d6dbbf6493d795485a1ab8e28f/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Domov\"],publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(D);})();\n;return Component;"
+  },
+  "_id": "alba/domov.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/domov.mdx",
+    "sourceFileName": "domov.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/domov"
+  },
+  "type": "Album",
+  "url": "/alba/domov",
+  "canonicalUrl": "https://4rap.cz/alba/domov"
+}

@@ -3,6 +3,7 @@
 import zanry__countryRapMdx from './zanry__country-rap.mdx.json' with { type: 'json' }
 import zanry__darkRapMdx from './zanry__dark-rap.mdx.json' with { type: 'json' }
 import zanry__electronicRapMdx from './zanry__electronic-rap.mdx.json' with { type: 'json' }
+import zanry__emoRapMdx from './zanry__emo-rap.mdx.json' with { type: 'json' }
 import zanry__experimentalTrapMdx from './zanry__experimental-trap.mdx.json' with { type: 'json' }
 import zanry__grimeMdx from './zanry__grime.mdx.json' with { type: 'json' }
 import zanry__hipHopMdx from './zanry__hip-hop.mdx.json' with { type: 'json' }
@@ -17,4 +18,4 @@ import zanry__rnbMdx from './zanry__rnb.mdx.json' with { type: 'json' }
 import zanry__rockRapMdx from './zanry__rock-rap.mdx.json' with { type: 'json' }
 import zanry__southernRapMdx from './zanry__southern-rap.mdx.json' with { type: 'json' }
 
-export const allZanrs = [zanry__countryRapMdx, zanry__darkRapMdx, zanry__electronicRapMdx, zanry__experimentalTrapMdx, zanry__grimeMdx, zanry__hipHopMdx, zanry__horrorcoreMdx, zanry__melodicTrapMdx, zanry__modernRapMdx, zanry__popRapMdx, zanry__popRockMdx, zanry__popMdx, zanry__rapMdx, zanry__rnbMdx, zanry__rockRapMdx, zanry__southernRapMdx]
+export const allZanrs = [zanry__countryRapMdx, zanry__darkRapMdx, zanry__electronicRapMdx, zanry__emoRapMdx, zanry__experimentalTrapMdx, zanry__grimeMdx, zanry__hipHopMdx, zanry__horrorcoreMdx, zanry__melodicTrapMdx, zanry__modernRapMdx, zanry__popRapMdx, zanry__popRockMdx, zanry__popMdx, zanry__rapMdx, zanry__rnbMdx, zanry__rockRapMdx, zanry__southernRapMdx]

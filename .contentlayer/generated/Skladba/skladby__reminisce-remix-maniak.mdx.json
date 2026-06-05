@@ -1,0 +1,43 @@
+{
+  "title": "Reminisce (Remix)",
+  "slug": "reminisce-remix-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "lil-maniak",
+    "philthy-rich",
+    "bonnie-blanco",
+    "bl-gum"
+  ],
+  "featuresNames": [
+    "Lil Maniak",
+    "Philthy Rich",
+    "Bonnie Blanco",
+    "Bl Gum"
+  ],
+  "album": "Maniak Muzik",
+  "albumSlug": "maniak-muzik",
+  "year": 2016,
+  "genre": [],
+  "duration": "4:08",
+  "trackNumber": 18,
+  "producers": [],
+  "producersNames": [],
+  "description": "Reminisce (Remix) — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var a in n)r(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!k.call(e,t)&&t!==a&&r(e,t,{get:()=>n[t],enumerable:!(m=d(n,t))||m.enumerable});return e};var f=(e,n,a)=>(a=e!=null?p(x(e)):{},o(n||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>o(r({},\"__esModule\",{value:!0}),e);var c=b((y,s)=>{s.exports=_jsx_runtime});var j={};M(j,{default:()=>u,frontmatter:()=>_});var i=f(c()),_={title:\"Reminisce (Remix)\",slug:\"reminisce-remix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\",\"philthy-rich\",\"bonnie-blanco\",\"bl-gum\"],featuresNames:[\"Lil Maniak\",\"Philthy Rich\",\"Bonnie Blanco\",\"Bl Gum\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"4:08\",trackNumber:18,producers:[],producersNames:[],description:\"Reminisce (Remix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,i.jsx)(n.p,{children:(0,i.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,i.jsx)(n,{...e,children:(0,i.jsx)(l,{...e})}):l(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/reminisce-remix-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/reminisce-remix-maniak.mdx",
+    "sourceFileName": "reminisce-remix-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/reminisce-remix-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/reminisce-remix-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/reminisce-remix-maniak"
+}

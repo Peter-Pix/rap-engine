@@ -1,0 +1,37 @@
+{
+  "title": "Through The Valley",
+  "slug": "through-the-valley-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [
+    "trust-in-god"
+  ],
+  "featuresNames": [
+    "Trust In God"
+  ],
+  "album": "Crimson Stain",
+  "albumSlug": "crimson-stain",
+  "year": 2025,
+  "genre": [],
+  "duration": "5:02",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Through The Valley — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var b=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=h(t,o))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?b(p(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(a({},\"__esModule\",{value:!0}),e);var i=x((B,u)=>{u.exports=_jsx_runtime});var T={};y(T,{default:()=>m,frontmatter:()=>j});var r=f(i()),j={title:\"Through The Valley\",slug:\"through-the-valley-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"trust-in-god\"],featuresNames:[\"Trust In God\"],album:\"Crimson Stain\",albumSlug:\"crimson-stain\",year:2025,genre:[],duration:\"5:02\",trackNumber:5,producers:[],producersNames:[],description:\"Through The Valley \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(T);})();\n;return Component;"
+  },
+  "_id": "skladby/through-the-valley-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/through-the-valley-bobby-blaze.mdx",
+    "sourceFileName": "through-the-valley-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/through-the-valley-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/through-the-valley-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/through-the-valley-bobby-blaze"
+}

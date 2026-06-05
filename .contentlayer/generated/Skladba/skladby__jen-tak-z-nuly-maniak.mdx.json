@@ -1,0 +1,39 @@
+{
+  "title": "Jen tak z nuly",
+  "slug": "jen-tak-z-nuly-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "cheppy-beats",
+    "sergei-barracuda"
+  ],
+  "featuresNames": [
+    "Cheppy Beats",
+    "Sergei Barracuda"
+  ],
+  "album": "To je vražda, napsal",
+  "albumSlug": "to-je-vrazda-napsal",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:18",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Jen tak z nuly — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),g=(e,a)=>{for(var t in a)s(e,t,{get:a[t],enumerable:!0})},u=(e,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!k.call(e,r)&&r!==t&&s(e,r,{get:()=>a[r],enumerable:!(o=m(a,r))||o.enumerable});return e};var j=(e,a,t)=>(t=e!=null?d(x(e)):{},u(a||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),f=e=>u(s({},\"__esModule\",{value:!0}),e);var i=b((z,c)=>{c.exports=_jsx_runtime});var _={};g(_,{default:()=>l,frontmatter:()=>y});var n=j(i()),y={title:\"Jen tak z nuly\",slug:\"jen-tak-z-nuly-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"cheppy-beats\",\"sergei-barracuda\"],featuresNames:[\"Cheppy Beats\",\"Sergei Barracuda\"],album:\"To je vra\\u017Eda, napsal\",albumSlug:\"to-je-vrazda-napsal\",year:2023,genre:[],duration:\"3:18\",trackNumber:8,producers:[],producersNames:[],description:\"Jen tak z nuly \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return f(_);})();\n;return Component;"
+  },
+  "_id": "skladby/jen-tak-z-nuly-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jen-tak-z-nuly-maniak.mdx",
+    "sourceFileName": "jen-tak-z-nuly-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jen-tak-z-nuly-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jen-tak-z-nuly-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/jen-tak-z-nuly-maniak"
+}

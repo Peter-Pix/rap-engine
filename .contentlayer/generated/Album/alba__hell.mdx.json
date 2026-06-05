@@ -1,0 +1,30 @@
+{
+  "title": "Hell",
+  "slug": "hell",
+  "rapper": "Yuuja",
+  "rapperSlug": "yuuja",
+  "label": "K1-Recordz",
+  "year": 2025,
+  "genre": [],
+  "description": "Hell — singl od Yuuja (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/f1c308b798b090b9473fe4ab578dfc98/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Hell"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let l of h(t))!x.call(e,l)&&l!==r&&a(e,l,{get:()=>t[l],enumerable:!(c=p(t,l))||c.enumerable});return e};var f=(e,t,r)=>(r=e!=null?m(g(e)):{},o(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(a({},\"__esModule\",{value:!0}),e);var i=j((z,s)=>{s.exports=_jsx_runtime});var H={};b(H,{default:()=>d,frontmatter:()=>y});var n=f(i()),y={title:\"Hell\",slug:\"hell\",rapper:\"Yuuja\",rapperSlug:\"yuuja\",label:\"K1-Recordz\",year:2025,genre:[],description:\"Hell \\u2014 singl od Yuuja (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/f1c308b798b090b9473fe4ab578dfc98/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Hell\"],publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(H);})();\n;return Component;"
+  },
+  "_id": "alba/hell.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/hell.mdx",
+    "sourceFileName": "hell.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/hell"
+  },
+  "type": "Album",
+  "url": "/alba/hell",
+  "canonicalUrl": "https://4rap.cz/alba/hell"
+}

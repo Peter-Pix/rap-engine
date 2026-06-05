@@ -1,0 +1,33 @@
+{
+  "title": "Simsala",
+  "slug": "simsala-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [],
+  "featuresNames": [],
+  "album": "Fatte No More",
+  "albumSlug": "fatte-no-more",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Simsala — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},m=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!h.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var b=(e,t,a)=>(a=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var c=j((M,u)=>{u.exports=_jsx_runtime});var S={};_(S,{default:()=>l,frontmatter:()=>F});var r=b(c()),F={title:\"Simsala\",slug:\"simsala-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[],duration:\"3:20\",trackNumber:4,producers:[],producersNames:[],description:\"Simsala \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(S);})();\n;return Component;"
+  },
+  "_id": "skladby/simsala-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/simsala-dj-fatte.mdx",
+    "sourceFileName": "simsala-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/simsala-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/simsala-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/simsala-dj-fatte"
+}

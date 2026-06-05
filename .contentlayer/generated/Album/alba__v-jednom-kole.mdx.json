@@ -1,0 +1,30 @@
+{
+  "title": "V jednom kole",
+  "slug": "v-jednom-kole",
+  "rapper": "Palermo",
+  "rapperSlug": "palermo",
+  "label": "Palermo",
+  "year": 2017,
+  "genre": [],
+  "description": "V jednom kole — singl od Palermo (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/7156d2a9a843c3ee1deb53612ba2c16e/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "V jednom kole"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},m=(e,n,o,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of g(n))!j.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(l=u(n,r))||l.enumerable});return e};var b=(e,n,o)=>(o=e!=null?p(h(e)):{},m(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),f=e=>m(a({},\"__esModule\",{value:!0}),e);var c=x((V,s)=>{s.exports=_jsx_runtime});var M={};_(M,{default:()=>i,frontmatter:()=>k});var t=b(c()),k={title:\"V jednom kole\",slug:\"v-jednom-kole\",rapper:\"Palermo\",rapperSlug:\"palermo\",label:\"Palermo\",year:2017,genre:[],description:\"V jednom kole \\u2014 singl od Palermo (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/7156d2a9a843c3ee1deb53612ba2c16e/1000x1000-000000-80-0-0.jpg\",tracklist:[\"V jednom kole\"],publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return f(M);})();\n;return Component;"
+  },
+  "_id": "alba/v-jednom-kole.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/v-jednom-kole.mdx",
+    "sourceFileName": "v-jednom-kole.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/v-jednom-kole"
+  },
+  "type": "Album",
+  "url": "/alba/v-jednom-kole",
+  "canonicalUrl": "https://4rap.cz/alba/v-jednom-kole"
+}

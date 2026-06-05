@@ -1,0 +1,30 @@
+{
+  "title": "Plague",
+  "slug": "plague",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2025,
+  "genre": [],
+  "description": "Plague — singl od Hugo Toxxx (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a2ffce1a7b4cfa01d9b649fd226b72cb/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Plague"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var g=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?g(m(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var l=b((D,i)=>{i.exports=_jsx_runtime});var S={};f(S,{default:()=>x,frontmatter:()=>M});var n=_(l()),M={title:\"Plague\",slug:\"plague\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2025,genre:[],description:\"Plague \\u2014 singl od Hugo Toxxx (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/a2ffce1a7b4cfa01d9b649fd226b72cb/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Plague\"],publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function x(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "alba/plague.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/plague.mdx",
+    "sourceFileName": "plague.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/plague"
+  },
+  "type": "Album",
+  "url": "/alba/plague",
+  "canonicalUrl": "https://4rap.cz/alba/plague"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Končí léto",
+  "slug": "konci-leto",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2021,
+  "genre": [],
+  "description": "Končí léto — singl od CÂLIN (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3a82a17ebc83db8b56786707240c636f/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Končí léto"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var o in t)c(e,o,{get:t[o],enumerable:!0})},i=(e,t,o,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==o&&c(e,r,{get:()=>t[r],enumerable:!(a=u(t,r))||a.enumerable});return e};var f=(e,t,o)=>(o=e!=null?m(g(e)):{},i(t||!e||!e.__esModule?c(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>i(c({},\"__esModule\",{value:!0}),e);var s=b((L,l)=>{l.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>C});var n=f(s()),C={title:\"Kon\\u010D\\xED l\\xE9to\",slug:\"konci-leto\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2021,genre:[],description:\"Kon\\u010D\\xED l\\xE9to \\u2014 singl od C\\xC2LIN (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/3a82a17ebc83db8b56786707240c636f/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Kon\\u010D\\xED l\\xE9to\"],publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/konci-leto.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/konci-leto.mdx",
+    "sourceFileName": "konci-leto.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/konci-leto"
+  },
+  "type": "Album",
+  "url": "/alba/konci-leto",
+  "canonicalUrl": "https://4rap.cz/alba/konci-leto"
+}

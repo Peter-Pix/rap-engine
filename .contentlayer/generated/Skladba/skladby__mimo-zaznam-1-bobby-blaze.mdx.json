@@ -1,0 +1,33 @@
+{
+  "title": "Mimo Záznam #1",
+  "slug": "mimo-zaznam-1-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Mimo Záznam #1",
+  "albumSlug": "mimo-zaznam-1",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:03",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Mimo Záznam #1 — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(m=d(n,a))||m.enumerable});return e};var _=(e,n,r)=>(r=e!=null?c(z(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var u=h((B,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>b,frontmatter:()=>y});var t=_(u()),y={title:\"Mimo Z\\xE1znam #1\",slug:\"mimo-zaznam-1-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Mimo Z\\xE1znam #1\",albumSlug:\"mimo-zaznam-1\",year:2025,genre:[],duration:\"2:03\",trackNumber:1,producers:[],producersNames:[],description:\"Mimo Z\\xE1znam #1 \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/mimo-zaznam-1-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/mimo-zaznam-1-bobby-blaze.mdx",
+    "sourceFileName": "mimo-zaznam-1-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/mimo-zaznam-1-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/mimo-zaznam-1-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/mimo-zaznam-1-bobby-blaze"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Honor",
+  "slug": "honor-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Different Time",
+  "albumSlug": "different-time",
+  "year": 2025,
+  "genre": [],
+  "duration": "6:42",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Honor — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var u=j((N,c)=>{c.exports=_jsx_runtime});var D={};_(D,{default:()=>l,frontmatter:()=>C});var r=b(u()),C={title:\"Honor\",slug:\"honor-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Different Time\",albumSlug:\"different-time\",year:2025,genre:[],duration:\"6:42\",trackNumber:2,producers:[],producersNames:[],description:\"Honor \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/honor-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/honor-james-cole.mdx",
+    "sourceFileName": "honor-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/honor-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/honor-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/honor-james-cole"
+}

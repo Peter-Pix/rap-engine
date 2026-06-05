@@ -1,0 +1,33 @@
+{
+  "title": "Vlna za vlnou",
+  "slug": "vlna-za-vlnou-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "Svědomí",
+  "albumSlug": "svedomi",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:54",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Vlna za vlnou — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?d(h(e)):{},l(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),v=e=>l(o({},\"__esModule\",{value:!0}),e);var c=_((S,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>i,frontmatter:()=>j});var t=g(c()),j={title:\"Vlna za vlnou\",slug:\"vlna-za-vlnou-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Sv\\u011Bdom\\xED\",albumSlug:\"svedomi\",year:2020,genre:[],duration:\"3:54\",trackNumber:13,producers:[],producersNames:[],description:\"Vlna za vlnou \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return v(N);})();\n;return Component;"
+  },
+  "_id": "skladby/vlna-za-vlnou-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/vlna-za-vlnou-calin.mdx",
+    "sourceFileName": "vlna-za-vlnou-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/vlna-za-vlnou-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/vlna-za-vlnou-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/vlna-za-vlnou-calin"
+}

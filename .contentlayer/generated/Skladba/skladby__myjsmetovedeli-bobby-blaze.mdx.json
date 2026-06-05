@@ -1,0 +1,33 @@
+{
+  "title": "MyJsmeToVěděli",
+  "slug": "myjsmetovedeli-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "MyJsmeToVěděli",
+  "albumSlug": "myjsmetovedeli",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "MyJsmeToVěděli — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var b=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=c(t,o))||a.enumerable});return e};var j=(e,t,n)=>(n=e!=null?b(y(e)):{},l(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var d=h((B,m)=>{m.exports=_jsx_runtime});var M={};f(M,{default:()=>u,frontmatter:()=>g});var r=j(d()),g={title:\"MyJsmeToV\\u011Bd\\u011Bli\",slug:\"myjsmetovedeli-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"MyJsmeToV\\u011Bd\\u011Bli\",albumSlug:\"myjsmetovedeli\",year:2024,genre:[],duration:\"3:20\",trackNumber:1,producers:[],producersNames:[],description:\"MyJsmeToV\\u011Bd\\u011Bli \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/myjsmetovedeli-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/myjsmetovedeli-bobby-blaze.mdx",
+    "sourceFileName": "myjsmetovedeli-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/myjsmetovedeli-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/myjsmetovedeli-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/myjsmetovedeli-bobby-blaze"
+}

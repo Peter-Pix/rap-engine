@@ -1,0 +1,37 @@
+{
+  "title": "Prestige",
+  "slug": "prestige-decky",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "features": [
+    "chelsi-lauren"
+  ],
+  "featuresNames": [
+    "Chelsi Lauren"
+  ],
+  "album": "Garn Again",
+  "albumSlug": "garn-again",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:40",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Prestige — skladba od Decky.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of g(r))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var b=(e,r,n)=>(n=e!=null?m(h(e)):{},c(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>c(s({},\"__esModule\",{value:!0}),e);var u=f((C,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>y});var t=b(u()),y={title:\"Prestige\",slug:\"prestige-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"chelsi-lauren\"],featuresNames:[\"Chelsi Lauren\"],album:\"Garn Again\",albumSlug:\"garn-again\",year:2023,genre:[],duration:\"2:40\",trackNumber:3,producers:[],producersNames:[],description:\"Prestige \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return k(j);})();\n;return Component;"
+  },
+  "_id": "skladby/prestige-decky.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/prestige-decky.mdx",
+    "sourceFileName": "prestige-decky.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/prestige-decky"
+  },
+  "type": "Skladba",
+  "url": "/skladby/prestige-decky",
+  "canonicalUrl": "https://4rap.cz/skladby/prestige-decky"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Idiot",
+  "slug": "idiot-vladimir-518",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "features": [
+    "martin-svatek"
+  ],
+  "featuresNames": [
+    "Martin Svatek"
+  ],
+  "album": "Idiot",
+  "albumSlug": "idiot",
+  "year": 2013,
+  "genre": [],
+  "duration": "4:35",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Idiot — skladba od Vladimir 518.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of x(e))!f.call(t,i)&&i!==n&&a(t,i,{get:()=>e[i],enumerable:!(o=p(e,i))||o.enumerable});return t};var g=(t,e,n)=>(n=t!=null?c(h(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>s(a({},\"__esModule\",{value:!0}),t);var m=_((S,d)=>{d.exports=_jsx_runtime});var v={};b(v,{default:()=>l,frontmatter:()=>k});var r=g(m()),k={title:\"Idiot\",slug:\"idiot-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"martin-svatek\"],featuresNames:[\"Martin Svatek\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"4:35\",trackNumber:7,producers:[],producersNames:[],description:\"Idiot \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/idiot-vladimir-518.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/idiot-vladimir-518.mdx",
+    "sourceFileName": "idiot-vladimir-518.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/idiot-vladimir-518"
+  },
+  "type": "Skladba",
+  "url": "/skladby/idiot-vladimir-518",
+  "canonicalUrl": "https://4rap.cz/skladby/idiot-vladimir-518"
+}

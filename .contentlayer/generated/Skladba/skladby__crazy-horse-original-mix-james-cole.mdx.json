@@ -1,0 +1,33 @@
+{
+  "title": "Crazy Horse (Original Mix)",
+  "slug": "crazy-horse-original-mix-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Crazy Horse",
+  "albumSlug": "crazy-horse",
+  "year": 2018,
+  "genre": [],
+  "duration": "6:24",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Crazy Horse (Original Mix) — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var y=(e,r,n)=>(n=e!=null?d(h(e)):{},i(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),C=e=>i(o({},\"__esModule\",{value:!0}),e);var l=f((M,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>u,frontmatter:()=>_});var t=y(l()),_={title:\"Crazy Horse (Original Mix)\",slug:\"crazy-horse-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Crazy Horse\",albumSlug:\"crazy-horse\",year:2018,genre:[],duration:\"6:24\",trackNumber:1,producers:[],producersNames:[],description:\"Crazy Horse (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return C(b);})();\n;return Component;"
+  },
+  "_id": "skladby/crazy-horse-original-mix-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/crazy-horse-original-mix-james-cole.mdx",
+    "sourceFileName": "crazy-horse-original-mix-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/crazy-horse-original-mix-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/crazy-horse-original-mix-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/crazy-horse-original-mix-james-cole"
+}

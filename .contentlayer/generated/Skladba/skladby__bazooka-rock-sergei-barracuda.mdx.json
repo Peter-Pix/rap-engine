@@ -1,0 +1,37 @@
+{
+  "title": "Bazooka Rock",
+  "slug": "bazooka-rock-sergei-barracuda",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "features": [
+    "moja-rec"
+  ],
+  "featuresNames": [
+    "Moja Rec"
+  ],
+  "album": "713",
+  "albumSlug": "713",
+  "year": 2017,
+  "genre": [],
+  "duration": "4:36",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bazooka Rock — skladba od Sergei Barracuda.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var t in r)n(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of g(r))!b.call(e,o)&&o!==t&&n(e,o,{get:()=>r[o],enumerable:!(c=p(r,o))||c.enumerable});return e};var f=(e,r,t)=>(t=e!=null?l(x(e)):{},s(r||!e||!e.__esModule?n(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(n({},\"__esModule\",{value:!0}),e);var d=h((M,u)=>{u.exports=_jsx_runtime});var S={};k(S,{default:()=>m,frontmatter:()=>_});var a=f(d()),_={title:\"Bazooka Rock\",slug:\"bazooka-rock-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"moja-rec\"],featuresNames:[\"Moja Rec\"],album:\"713\",albumSlug:\"713\",year:2017,genre:[],duration:\"4:36\",trackNumber:8,producers:[],producersNames:[],description:\"Bazooka Rock \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/bazooka-rock-sergei-barracuda.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bazooka-rock-sergei-barracuda.mdx",
+    "sourceFileName": "bazooka-rock-sergei-barracuda.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bazooka-rock-sergei-barracuda"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bazooka-rock-sergei-barracuda",
+  "canonicalUrl": "https://4rap.cz/skladby/bazooka-rock-sergei-barracuda"
+}

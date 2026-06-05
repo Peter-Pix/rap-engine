@@ -1,0 +1,30 @@
+{
+  "title": "Naveky s vami",
+  "slug": "naveky-s-vami",
+  "rapper": "Tomáš Botló",
+  "rapperSlug": "tomas-botlo",
+  "label": "Tomáš Botló",
+  "year": 2025,
+  "genre": [],
+  "description": "Naveky s vami — singl od Tomáš Botló (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0eaf2767cdbcd27cba19876f51832393/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Naveky s vami"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var v=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of g(t))!x.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(s=u(t,o))||s.enumerable});return e};var f=(e,t,a)=>(a=e!=null?p(h(e)):{},i(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>i(r({},\"__esModule\",{value:!0}),e);var c=v((B,m)=>{m.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>j});var n=f(c()),j={title:\"Naveky s vami\",slug:\"naveky-s-vami\",rapper:\"Tom\\xE1\\u0161 Botl\\xF3\",rapperSlug:\"tomas-botlo\",label:\"Tom\\xE1\\u0161 Botl\\xF3\",year:2025,genre:[],description:\"Naveky s vami \\u2014 singl od Tom\\xE1\\u0161 Botl\\xF3 (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/0eaf2767cdbcd27cba19876f51832393/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Naveky s vami\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "alba/naveky-s-vami.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/naveky-s-vami.mdx",
+    "sourceFileName": "naveky-s-vami.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/naveky-s-vami"
+  },
+  "type": "Album",
+  "url": "/alba/naveky-s-vami",
+  "canonicalUrl": "https://4rap.cz/alba/naveky-s-vami"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Potřebuješ",
+  "slug": "potrebujes-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte",
+    "idea",
+    "zverina"
+  ],
+  "featuresNames": [
+    "DJ Fatte",
+    "Idea",
+    "Zverina"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "3:02",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Potřebuješ — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(b(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var m=j((N,i)=>{i.exports=_jsx_runtime});var F={};f(F,{default:()=>d,frontmatter:()=>D});var r=_(m()),D={title:\"Pot\\u0159ebuje\\u0161\",slug:\"potrebujes-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\",\"idea\",\"zverina\"],featuresNames:[\"DJ Fatte\",\"Idea\",\"Zverina\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"3:02\",trackNumber:17,producers:[],producersNames:[],description:\"Pot\\u0159ebuje\\u0161 \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(F);})();\n;return Component;"
+  },
+  "_id": "skladby/potrebujes-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/potrebujes-rest.mdx",
+    "sourceFileName": "potrebujes-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/potrebujes-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/potrebujes-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/potrebujes-rest"
+}

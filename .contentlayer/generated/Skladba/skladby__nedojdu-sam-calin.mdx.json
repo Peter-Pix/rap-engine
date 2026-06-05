@@ -1,0 +1,33 @@
+{
+  "title": "Nedojdu sám",
+  "slug": "nedojdu-sam-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "POPSTAR",
+  "albumSlug": "popstar",
+  "year": 2022,
+  "genre": [],
+  "duration": "2:04",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nedojdu sám — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),N=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!j.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var c=f((L,d)=>{d.exports=_jsx_runtime});var C={};N(C,{default:()=>i,frontmatter:()=>g});var n=_(c()),g={title:\"Nedojdu s\\xE1m\",slug:\"nedojdu-sam-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"2:04\",trackNumber:12,producers:[],producersNames:[],description:\"Nedojdu s\\xE1m \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return b(C);})();\n;return Component;"
+  },
+  "_id": "skladby/nedojdu-sam-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nedojdu-sam-calin.mdx",
+    "sourceFileName": "nedojdu-sam-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nedojdu-sam-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nedojdu-sam-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/nedojdu-sam-calin"
+}

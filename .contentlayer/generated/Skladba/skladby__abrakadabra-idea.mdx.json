@@ -1,0 +1,37 @@
+{
+  "title": "Abrakadabra",
+  "slug": "abrakadabra-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "hellwana"
+  ],
+  "featuresNames": [
+    "Hellwana"
+  ],
+  "album": "Piedestal EP",
+  "albumSlug": "piedestal-ep",
+  "year": 2022,
+  "genre": [],
+  "duration": "5:08",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Abrakadabra — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var t in a)s(e,t,{get:a[t],enumerable:!0})},o=(e,a,t,d)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of b(a))!x.call(e,n)&&n!==t&&s(e,n,{get:()=>a[n],enumerable:!(d=p(a,n))||d.enumerable});return e};var g=(e,a,t)=>(t=e!=null?m(h(e)):{},o(a||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var u=f((M,l)=>{l.exports=_jsx_runtime});var w={};_(w,{default:()=>c,frontmatter:()=>k});var r=g(u()),k={title:\"Abrakadabra\",slug:\"abrakadabra-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"hellwana\"],featuresNames:[\"Hellwana\"],album:\"Piedestal EP\",albumSlug:\"piedestal-ep\",year:2022,genre:[],duration:\"5:08\",trackNumber:4,producers:[],producersNames:[],description:\"Abrakadabra \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(w);})();\n;return Component;"
+  },
+  "_id": "skladby/abrakadabra-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/abrakadabra-idea.mdx",
+    "sourceFileName": "abrakadabra-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/abrakadabra-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/abrakadabra-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/abrakadabra-idea"
+}

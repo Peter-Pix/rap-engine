@@ -1,0 +1,39 @@
+{
+  "title": "Teritorium I",
+  "slug": "teritorium-i",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "label": "Bigg Boss",
+  "year": 2003,
+  "genre": [],
+  "description": "Teritorium I — album od Orion (2003).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/473112743deb5db6fc6f7cf606047976/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Chcete Mě?",
+    "Další Novej Den",
+    "Teritorium",
+    "Chudáčci",
+    "Skit 1",
+    "Dokument Orionek (Remix)",
+    "Ženy, Víno, Zpěv",
+    "Stoupat Výš",
+    "Skit 2",
+    "Bys Chtěl Víc 3000"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of h(t))!x.call(e,i)&&i!==r&&o(e,i,{get:()=>t[i],enumerable:!(c=p(t,i))||c.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(g(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var m=f((S,a)=>{a.exports=_jsx_runtime});var C={};b(C,{default:()=>l,frontmatter:()=>k});var n=j(m()),k={title:\"Teritorium I\",slug:\"teritorium-i\",rapper:\"Orion\",rapperSlug:\"orion\",label:\"Bigg Boss\",year:2003,genre:[],description:\"Teritorium I \\u2014 album od Orion (2003).\",image:\"https://cdn-images.dzcdn.net/images/cover/473112743deb5db6fc6f7cf606047976/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Chcete M\\u011B?\",\"Dal\\u0161\\xED Novej Den\",\"Teritorium\",\"Chud\\xE1\\u010Dci\",\"Skit 1\",\"Dokument Orionek (Remix)\",\"\\u017Deny, V\\xEDno, Zp\\u011Bv\",\"Stoupat V\\xFD\\u0161\",\"Skit 2\",\"Bys Cht\\u011Bl V\\xEDc 3000\"],publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(C);})();\n;return Component;"
+  },
+  "_id": "alba/teritorium-i.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/teritorium-i.mdx",
+    "sourceFileName": "teritorium-i.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/teritorium-i"
+  },
+  "type": "Album",
+  "url": "/alba/teritorium-i",
+  "canonicalUrl": "https://4rap.cz/alba/teritorium-i"
+}

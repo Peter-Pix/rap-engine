@@ -1,0 +1,30 @@
+{
+  "title": "Škola Žižkova",
+  "slug": "skola-zizkova",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2021,
+  "genre": [],
+  "description": "Škola Žižkova — singl od DJ Fatte (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/da3dc655e2e8b27eb810f5c3d895a03b/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Škola Žižkova"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(i=u(t,o))||i.enumerable});return e};var f=(e,t,a)=>(a=e!=null?m(g(e)):{},c(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>c(r({},\"__esModule\",{value:!0}),e);var l=k((D,s)=>{s.exports=_jsx_runtime});var v={};b(v,{default:()=>p,frontmatter:()=>_});var n=f(l()),_={title:\"\\u0160kola \\u017Di\\u017Ekova\",slug:\"skola-zizkova\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2021,genre:[],description:\"\\u0160kola \\u017Di\\u017Ekova \\u2014 singl od DJ Fatte (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/da3dc655e2e8b27eb810f5c3d895a03b/1000x1000-000000-80-0-0.jpg\",tracklist:[\"\\u0160kola \\u017Di\\u017Ekova\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "alba/skola-zizkova.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/skola-zizkova.mdx",
+    "sourceFileName": "skola-zizkova.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/skola-zizkova"
+  },
+  "type": "Album",
+  "url": "/alba/skola-zizkova",
+  "canonicalUrl": "https://4rap.cz/alba/skola-zizkova"
+}

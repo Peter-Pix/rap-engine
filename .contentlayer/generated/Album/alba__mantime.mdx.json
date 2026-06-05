@@ -1,0 +1,38 @@
+{
+  "title": "ManTime",
+  "slug": "mantime",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "Maniak",
+  "year": 2025,
+  "genre": [],
+  "description": "ManTime — album od Maniak (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/fcd13beedb1874586c3457dd45cdfc74/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Sucka",
+    "Ion Believe That",
+    "Fanatic",
+    "Mop Em",
+    "On Me",
+    "Super Slime",
+    "Bangin Hard",
+    "Razor",
+    "Real Life Active"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)r(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of h(n))!x.call(e,i)&&i!==a&&r(e,i,{get:()=>n[i],enumerable:!(c=u(n,i))||c.enumerable});return e};var b=(e,n,a)=>(a=e!=null?p(g(e)):{},o(n||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>o(r({},\"__esModule\",{value:!0}),e);var s=M((v,m)=>{m.exports=_jsx_runtime});var k={};f(k,{default:()=>l,frontmatter:()=>j});var t=b(s()),j={title:\"ManTime\",slug:\"mantime\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"Maniak\",year:2025,genre:[],description:\"ManTime \\u2014 album od Maniak (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/fcd13beedb1874586c3457dd45cdfc74/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sucka\",\"Ion Believe That\",\"Fanatic\",\"Mop Em\",\"On Me\",\"Super Slime\",\"Bangin Hard\",\"Razor\",\"Real Life Active\"],publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "alba/mantime.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/mantime.mdx",
+    "sourceFileName": "mantime.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/mantime"
+  },
+  "type": "Album",
+  "url": "/alba/mantime",
+  "canonicalUrl": "https://4rap.cz/alba/mantime"
+}

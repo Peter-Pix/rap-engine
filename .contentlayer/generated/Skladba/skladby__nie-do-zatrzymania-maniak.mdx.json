@@ -1,0 +1,37 @@
+{
+  "title": "Nie do zatrzymania",
+  "slug": "nie-do-zatrzymania-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "zeus"
+  ],
+  "featuresNames": [
+    "Zeus"
+  ],
+  "album": "Wygrałem EP",
+  "albumSlug": "wygra-em-ep",
+  "year": 2019,
+  "genre": [],
+  "duration": "4:02",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nie do zatrzymania — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),y=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},i=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!g.call(e,r)&&r!==t&&o(e,r,{get:()=>a[r],enumerable:!(s=l(a,r))||s.enumerable});return e};var z=(e,a,t)=>(t=e!=null?p(h(e)):{},i(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((M,m)=>{m.exports=_jsx_runtime});var k={};y(k,{default:()=>d,frontmatter:()=>b});var n=z(u()),b={title:\"Nie do zatrzymania\",slug:\"nie-do-zatrzymania-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\"],featuresNames:[\"Zeus\"],album:\"Wygra\\u0142em EP\",albumSlug:\"wygra-em-ep\",year:2019,genre:[],duration:\"4:02\",trackNumber:1,producers:[],producersNames:[],description:\"Nie do zatrzymania \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "skladby/nie-do-zatrzymania-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nie-do-zatrzymania-maniak.mdx",
+    "sourceFileName": "nie-do-zatrzymania-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nie-do-zatrzymania-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nie-do-zatrzymania-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/nie-do-zatrzymania-maniak"
+}

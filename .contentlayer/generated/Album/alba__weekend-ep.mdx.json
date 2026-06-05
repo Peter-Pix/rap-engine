@@ -1,0 +1,37 @@
+{
+  "title": "Weekend EP",
+  "slug": "weekend-ep",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "Sugaspin",
+  "year": 2012,
+  "genre": [],
+  "description": "Weekend EP — album od CÂLIN (2012).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/5b75cff258b7d4514279941ff15006ba/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Weekend (Radio Edit)",
+    "So Free (Radio Edit)",
+    "No More Pain (Radio Edit)",
+    "Sioux (Radio Edit)",
+    "Weekend (Original Mix)",
+    "So Free (Original Mix)",
+    "No More Pain (Original Mix)",
+    "Sioux (Original Mix)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},d=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!h.call(e,r)&&r!==t&&a(e,r,{get:()=>n[r],enumerable:!(o=u(n,r))||o.enumerable});return e};var b=(e,n,t)=>(t=e!=null?m(g(e)):{},d(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),S=e=>d(a({},\"__esModule\",{value:!0}),e);var c=f((E,s)=>{s.exports=_jsx_runtime});var j={};M(j,{default:()=>p,frontmatter:()=>_});var i=b(c()),_={title:\"Weekend EP\",slug:\"weekend-ep\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"Sugaspin\",year:2012,genre:[],description:\"Weekend EP \\u2014 album od C\\xC2LIN (2012).\",image:\"https://cdn-images.dzcdn.net/images/cover/5b75cff258b7d4514279941ff15006ba/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Weekend (Radio Edit)\",\"So Free (Radio Edit)\",\"No More Pain (Radio Edit)\",\"Sioux (Radio Edit)\",\"Weekend (Original Mix)\",\"So Free (Original Mix)\",\"No More Pain (Original Mix)\",\"Sioux (Original Mix)\"],publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,i.jsx)(n.p,{children:(0,i.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,i.jsx)(n,{...e,children:(0,i.jsx)(l,{...e})}):l(e)}return S(j);})();\n;return Component;"
+  },
+  "_id": "alba/weekend-ep.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/weekend-ep.mdx",
+    "sourceFileName": "weekend-ep.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/weekend-ep"
+  },
+  "type": "Album",
+  "url": "/alba/weekend-ep",
+  "canonicalUrl": "https://4rap.cz/alba/weekend-ep"
+}

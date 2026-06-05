@@ -1,0 +1,37 @@
+{
+  "title": "Není to žádná věda",
+  "slug": "neni-to-zadna-veda-sergei-barracuda",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "features": [
+    "palermo"
+  ],
+  "featuresNames": [
+    "Palermo"
+  ],
+  "album": "Goodfellas",
+  "albumSlug": "goodfellas",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:18",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Není to žádná věda — skladba od Sergei Barracuda.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},d=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!f.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var _=(e,r,t)=>(t=e!=null?m(x(e)):{},d(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var c=h((M,u)=>{u.exports=_jsx_runtime});var S={};b(S,{default:()=>i,frontmatter:()=>N});var a=_(c()),N={title:\"Nen\\xED to \\u017E\\xE1dn\\xE1 v\\u011Bda\",slug:\"neni-to-zadna-veda-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"palermo\"],featuresNames:[\"Palermo\"],album:\"Goodfellas\",albumSlug:\"goodfellas\",year:2024,genre:[],duration:\"3:18\",trackNumber:5,producers:[],producersNames:[],description:\"Nen\\xED to \\u017E\\xE1dn\\xE1 v\\u011Bda \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/neni-to-zadna-veda-sergei-barracuda.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/neni-to-zadna-veda-sergei-barracuda.mdx",
+    "sourceFileName": "neni-to-zadna-veda-sergei-barracuda.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/neni-to-zadna-veda-sergei-barracuda"
+  },
+  "type": "Skladba",
+  "url": "/skladby/neni-to-zadna-veda-sergei-barracuda",
+  "canonicalUrl": "https://4rap.cz/skladby/neni-to-zadna-veda-sergei-barracuda"
+}

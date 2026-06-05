@@ -1,0 +1,39 @@
+{
+  "title": "Iluzionisti",
+  "slug": "iluzionisti-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "idea",
+    "moja-rec"
+  ],
+  "featuresNames": [
+    "Idea",
+    "Moja Rec"
+  ],
+  "album": "Soundtrack",
+  "albumSlug": "soundtrack",
+  "year": 2013,
+  "genre": [],
+  "duration": "3:21",
+  "trackNumber": 21,
+  "producers": [],
+  "producersNames": [],
+  "description": "Iluzionisti — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(f(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var c=j((M,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>l,frontmatter:()=>k});var n=b(c()),k={title:\"Iluzionisti\",slug:\"iluzionisti-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"idea\",\"moja-rec\"],featuresNames:[\"Idea\",\"Moja Rec\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"3:21\",trackNumber:21,producers:[],producersNames:[],description:\"Iluzionisti \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/iluzionisti-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/iluzionisti-dj-fatte.mdx",
+    "sourceFileName": "iluzionisti-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/iluzionisti-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/iluzionisti-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/iluzionisti-dj-fatte"
+}

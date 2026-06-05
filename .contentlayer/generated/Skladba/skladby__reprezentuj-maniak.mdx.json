@@ -1,0 +1,33 @@
+{
+  "title": "Reprezentuj",
+  "slug": "reprezentuj-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Babushka Traphouse afterparty",
+  "albumSlug": "babushka-traphouse-afterparty",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:17",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Reprezentuj — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!b.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(u=l(t,n))||u.enumerable});return e};var k=(e,t,a)=>(a=e!=null?d(x(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>o(s({},\"__esModule\",{value:!0}),e);var i=f((z,p)=>{p.exports=_jsx_runtime});var M={};j(M,{default:()=>c,frontmatter:()=>g});var r=k(i()),g={title:\"Reprezentuj\",slug:\"reprezentuj-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[],duration:\"3:17\",trackNumber:1,producers:[],producersNames:[],description:\"Reprezentuj \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/reprezentuj-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/reprezentuj-maniak.mdx",
+    "sourceFileName": "reprezentuj-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/reprezentuj-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/reprezentuj-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/reprezentuj-maniak"
+}

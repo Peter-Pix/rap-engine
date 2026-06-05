@@ -1,0 +1,37 @@
+{
+  "title": "Potřebuju tě",
+  "slug": "potrebuju-te-sergei-barracuda",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "features": [
+    "pil-c"
+  ],
+  "featuresNames": [
+    "Pil C"
+  ],
+  "album": "Finesa",
+  "albumSlug": "finesa",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:33",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Potřebuju tě — skladba od Sergei Barracuda.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)u(e,a,{get:r[a],enumerable:!0})},o=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!x.call(e,n)&&n!==a&&u(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var j=(e,r,a)=>(a=e!=null?m(g(e)):{},o(r||!e||!e.__esModule?u(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>o(u({},\"__esModule\",{value:!0}),e);var i=h((M,c)=>{c.exports=_jsx_runtime});var C={};f(C,{default:()=>l,frontmatter:()=>S});var t=j(i()),S={title:\"Pot\\u0159ebuju t\\u011B\",slug:\"potrebuju-te-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pil-c\"],featuresNames:[\"Pil C\"],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[],duration:\"3:33\",trackNumber:5,producers:[],producersNames:[],description:\"Pot\\u0159ebuju t\\u011B \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(C);})();\n;return Component;"
+  },
+  "_id": "skladby/potrebuju-te-sergei-barracuda.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/potrebuju-te-sergei-barracuda.mdx",
+    "sourceFileName": "potrebuju-te-sergei-barracuda.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/potrebuju-te-sergei-barracuda"
+  },
+  "type": "Skladba",
+  "url": "/skladby/potrebuju-te-sergei-barracuda",
+  "canonicalUrl": "https://4rap.cz/skladby/potrebuju-te-sergei-barracuda"
+}

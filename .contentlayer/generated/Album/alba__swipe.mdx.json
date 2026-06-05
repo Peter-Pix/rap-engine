@@ -1,0 +1,30 @@
+{
+  "title": "Swipe",
+  "slug": "swipe",
+  "rapper": "GALACTIC DONUTS",
+  "rapperSlug": "galactic-donuts",
+  "label": "GALACTIC DONUTS & James Cole",
+  "year": 2022,
+  "genre": [],
+  "description": "Swipe — singl od GALACTIC DONUTS (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3f9c807cef4db168e8e9083142e5bb5d/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Swipe"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var C=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),S=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of g(t))!x.call(e,s)&&s!==r&&i(e,s,{get:()=>t[s],enumerable:!(c=u(t,s))||c.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(h(e)):{},o(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>o(i({},\"__esModule\",{value:!0}),e);var p=C((T,a)=>{a.exports=_jsx_runtime});var _={};S(_,{default:()=>d,frontmatter:()=>A});var n=b(p()),A={title:\"Swipe\",slug:\"swipe\",rapper:\"GALACTIC DONUTS\",rapperSlug:\"galactic-donuts\",label:\"GALACTIC DONUTS & James Cole\",year:2022,genre:[],description:\"Swipe \\u2014 singl od GALACTIC DONUTS (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/3f9c807cef4db168e8e9083142e5bb5d/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Swipe\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return f(_);})();\n;return Component;"
+  },
+  "_id": "alba/swipe.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/swipe.mdx",
+    "sourceFileName": "swipe.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/swipe"
+  },
+  "type": "Album",
+  "url": "/alba/swipe",
+  "canonicalUrl": "https://4rap.cz/alba/swipe"
+}

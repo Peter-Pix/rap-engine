@@ -1,0 +1,37 @@
+{
+  "title": "Naveky s vami",
+  "slug": "naveky-s-vami-tomas-botlo",
+  "rapper": "Tomáš Botló",
+  "rapperSlug": "tomas-botlo",
+  "features": [
+    "bobby-blaze"
+  ],
+  "featuresNames": [
+    "Bobby Blaze"
+  ],
+  "album": "Naveky s vami",
+  "albumSlug": "naveky-s-vami",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:12",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Naveky s vami — skladba od Tomáš Botló.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)r(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!x.call(e,o)&&o!==n&&r(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?d(v(e)):{},m(t||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>m(r({},\"__esModule\",{value:!0}),e);var i=h((j,l)=>{l.exports=_jsx_runtime});var g={};y(g,{default:()=>c,frontmatter:()=>_});var a=f(i()),_={title:\"Naveky s vami\",slug:\"naveky-s-vami-tomas-botlo\",rapper:\"Tom\\xE1\\u0161 Botl\\xF3\",rapperSlug:\"tomas-botlo\",features:[\"bobby-blaze\"],featuresNames:[\"Bobby Blaze\"],album:\"Naveky s vami\",albumSlug:\"naveky-s-vami\",year:2025,genre:[],duration:\"3:12\",trackNumber:1,producers:[],producersNames:[],description:\"Naveky s vami \\u2014 skladba od Tom\\xE1\\u0161 Botl\\xF3.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return k(g);})();\n;return Component;"
+  },
+  "_id": "skladby/naveky-s-vami-tomas-botlo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/naveky-s-vami-tomas-botlo.mdx",
+    "sourceFileName": "naveky-s-vami-tomas-botlo.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/naveky-s-vami-tomas-botlo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/naveky-s-vami-tomas-botlo",
+  "canonicalUrl": "https://4rap.cz/skladby/naveky-s-vami-tomas-botlo"
+}

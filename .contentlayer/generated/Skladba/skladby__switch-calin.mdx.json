@@ -1,0 +1,33 @@
+{
+  "title": "Switch",
+  "slug": "switch-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "POPSTAR",
+  "albumSlug": "popstar",
+  "year": 2022,
+  "genre": [],
+  "duration": "1:24",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Switch — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(x(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),S=e=>c(s({},\"__esModule\",{value:!0}),e);var u=_((C,i)=>{i.exports=_jsx_runtime});var N={};b(N,{default:()=>m,frontmatter:()=>j});var n=g(u()),j={title:\"Switch\",slug:\"switch-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"1:24\",trackNumber:8,producers:[],producersNames:[],description:\"Switch \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return S(N);})();\n;return Component;"
+  },
+  "_id": "skladby/switch-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/switch-calin.mdx",
+    "sourceFileName": "switch-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/switch-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/switch-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/switch-calin"
+}

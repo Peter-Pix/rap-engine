@@ -1,0 +1,30 @@
+{
+  "title": "Neser mě",
+  "slug": "neser-me",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2022,
+  "genre": [],
+  "description": "Neser mě — singl od DJ Fatte (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/fb6e9462e34c20b890c08e1f6b0fedb2/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Neser mě"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!x.call(e,s)&&s!==r&&c(e,s,{get:()=>t[s],enumerable:!(a=u(t,s))||a.enumerable});return e};var j=(e,t,r)=>(r=e!=null?p(g(e)):{},o(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(c({},\"__esModule\",{value:!0}),e);var m=b((C,i)=>{i.exports=_jsx_runtime});var F={};f(F,{default:()=>d,frontmatter:()=>D});var n=j(m()),D={title:\"Neser m\\u011B\",slug:\"neser-me\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Neser m\\u011B \\u2014 singl od DJ Fatte (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/fb6e9462e34c20b890c08e1f6b0fedb2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Neser m\\u011B\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(F);})();\n;return Component;"
+  },
+  "_id": "alba/neser-me.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/neser-me.mdx",
+    "sourceFileName": "neser-me.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/neser-me"
+  },
+  "type": "Album",
+  "url": "/alba/neser-me",
+  "canonicalUrl": "https://4rap.cz/alba/neser-me"
+}

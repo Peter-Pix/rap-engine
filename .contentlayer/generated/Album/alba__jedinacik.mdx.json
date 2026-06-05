@@ -1,0 +1,30 @@
+{
+  "title": "Jedináčik",
+  "slug": "jedinacik",
+  "rapper": "Marko Damian",
+  "rapperSlug": "marko-damian",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2025,
+  "genre": [],
+  "description": "Jedináčik — singl od Marko Damian (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/fa46b8a554237ec243e2b7771b87a91f/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Jedináčik"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var i in n)a(e,i,{get:n[i],enumerable:!0})},o=(e,n,i,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of g(n))!x.call(e,r)&&r!==i&&a(e,r,{get:()=>n[r],enumerable:!(s=u(n,r))||s.enumerable});return e};var f=(e,n,i)=>(i=e!=null?p(h(e)):{},o(n||!e||!e.__esModule?a(i,\"default\",{value:e,enumerable:!0}):i,e)),j=e=>o(a({},\"__esModule\",{value:!0}),e);var d=b((S,c)=>{c.exports=_jsx_runtime});var M={};k(M,{default:()=>l,frontmatter:()=>_});var t=f(d()),_={title:\"Jedin\\xE1\\u010Dik\",slug:\"jedinacik\",rapper:\"Marko Damian\",rapperSlug:\"marko-damian\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2025,genre:[],description:\"Jedin\\xE1\\u010Dik \\u2014 singl od Marko Damian (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/fa46b8a554237ec243e2b7771b87a91f/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Jedin\\xE1\\u010Dik\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/jedinacik.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/jedinacik.mdx",
+    "sourceFileName": "jedinacik.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/jedinacik"
+  },
+  "type": "Album",
+  "url": "/alba/jedinacik",
+  "canonicalUrl": "https://4rap.cz/alba/jedinacik"
+}

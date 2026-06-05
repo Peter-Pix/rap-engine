@@ -1,0 +1,33 @@
+{
+  "title": "Pressure",
+  "slug": "pressure-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Pressure",
+  "albumSlug": "pressure",
+  "year": 2021,
+  "genre": [],
+  "duration": "5:33",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pressure — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},o=(e,r,n,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of x(r))!f.call(e,s)&&s!==n&&a(e,s,{get:()=>r[s],enumerable:!(u=l(r,s))||u.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(h(e)):{},o(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>o(a({},\"__esModule\",{value:!0}),e);var m=_((P,i)=>{i.exports=_jsx_runtime});var M={};b(M,{default:()=>p,frontmatter:()=>j});var t=g(m()),j={title:\"Pressure\",slug:\"pressure-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Pressure\",albumSlug:\"pressure\",year:2021,genre:[],duration:\"5:33\",trackNumber:1,producers:[],producersNames:[],description:\"Pressure \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return k(M);})();\n;return Component;"
+  },
+  "_id": "skladby/pressure-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pressure-maniak.mdx",
+    "sourceFileName": "pressure-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pressure-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pressure-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/pressure-maniak"
+}

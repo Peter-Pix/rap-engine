@@ -1,0 +1,37 @@
+{
+  "title": "ZA JEDNU NOC",
+  "slug": "za-jednu-noc-decky",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "features": [
+    "kamil-hoffmann"
+  ],
+  "featuresNames": [
+    "Kamil Hoffmann"
+  ],
+  "album": "KINGPIN",
+  "albumSlug": "kingpin",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:22",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "ZA JEDNU NOC — skladba od Decky.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var N=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of f(n))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var u=N((D,m)=>{m.exports=_jsx_runtime});var j={};k(j,{default:()=>d,frontmatter:()=>b});var t=g(u()),b={title:\"ZA JEDNU NOC\",slug:\"za-jednu-noc-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"kamil-hoffmann\"],featuresNames:[\"Kamil Hoffmann\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[],duration:\"3:22\",trackNumber:9,producers:[],producersNames:[],description:\"ZA JEDNU NOC \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/za-jednu-noc-decky.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/za-jednu-noc-decky.mdx",
+    "sourceFileName": "za-jednu-noc-decky.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/za-jednu-noc-decky"
+  },
+  "type": "Skladba",
+  "url": "/skladby/za-jednu-noc-decky",
+  "canonicalUrl": "https://4rap.cz/skladby/za-jednu-noc-decky"
+}

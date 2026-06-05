@@ -1,0 +1,37 @@
+{
+  "title": "Soft",
+  "slug": "soft-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [
+    "off"
+  ],
+  "featuresNames": [
+    "Off"
+  ],
+  "album": "Bauch Money II",
+  "albumSlug": "bauch-money-ii",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:53",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Soft — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var u=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)u(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!h.call(e,r)&&r!==n&&u(e,r,{get:()=>t[r],enumerable:!(a=l(t,r))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(f(e)):{},s(t||!e||!e.__esModule?u(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var c=g((N,x)=>{x.exports=_jsx_runtime});var y={};b(y,{default:()=>i,frontmatter:()=>S});var o=_(c()),S={title:\"Soft\",slug:\"soft-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"off\"],featuresNames:[\"Off\"],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"2:53\",trackNumber:8,producers:[],producersNames:[],description:\"Soft \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/soft-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/soft-hugo-toxxx.mdx",
+    "sourceFileName": "soft-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/soft-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/soft-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/soft-hugo-toxxx"
+}

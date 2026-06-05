@@ -1,0 +1,30 @@
+{
+  "title": "Momenty",
+  "slug": "momenty",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "Lavutaris Records",
+  "year": 2024,
+  "genre": [],
+  "description": "Momenty — singl od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3b9842e4bb1e935f6246f65836027a54/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Momenty"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of u(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?d(g(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>c(a({},\"__esModule\",{value:!0}),e);var m=x((B,i)=>{i.exports=_jsx_runtime});var M={};y(M,{default:()=>b,frontmatter:()=>j});var n=f(m()),j={title:\"Momenty\",slug:\"momenty\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"Lavutaris Records\",year:2024,genre:[],description:\"Momenty \\u2014 singl od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/3b9842e4bb1e935f6246f65836027a54/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Momenty\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "alba/momenty.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/momenty.mdx",
+    "sourceFileName": "momenty.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/momenty"
+  },
+  "type": "Album",
+  "url": "/alba/momenty",
+  "canonicalUrl": "https://4rap.cz/alba/momenty"
+}

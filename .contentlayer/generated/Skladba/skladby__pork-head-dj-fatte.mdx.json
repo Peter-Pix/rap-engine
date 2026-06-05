@@ -1,0 +1,37 @@
+{
+  "title": "Pork Head",
+  "slug": "pork-head-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "honza-peroutka"
+  ],
+  "featuresNames": [
+    "Honza Peroutka"
+  ],
+  "album": "No Words Needed",
+  "albumSlug": "no-words-needed",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:33",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pork Head — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(d=l(t,o))||d.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(x(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(a({},\"__esModule\",{value:!0}),e);var c=j((F,u)=>{u.exports=_jsx_runtime});var N={};k(N,{default:()=>p,frontmatter:()=>g});var r=_(c()),g={title:\"Pork Head\",slug:\"pork-head-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"honza-peroutka\"],featuresNames:[\"Honza Peroutka\"],album:\"No Words Needed\",albumSlug:\"no-words-needed\",year:2019,genre:[],duration:\"3:33\",trackNumber:17,producers:[],producersNames:[],description:\"Pork Head \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return b(N);})();\n;return Component;"
+  },
+  "_id": "skladby/pork-head-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pork-head-dj-fatte.mdx",
+    "sourceFileName": "pork-head-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pork-head-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pork-head-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/pork-head-dj-fatte"
+}

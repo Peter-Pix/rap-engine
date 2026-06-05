@@ -1,0 +1,31 @@
+{
+  "title": "Crazy Horse",
+  "slug": "crazy-horse",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "Paul's Boutique",
+  "year": 2018,
+  "genre": [],
+  "description": "Crazy Horse — singl od James Cole (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/67fefef0b13cdb358fbbfdf6c1587d61/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Crazy Horse (Original Mix)",
+    "Don't Give Up (Original Mix)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of g(t))!f.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=u(t,o))||a.enumerable});return e};var j=(e,t,r)=>(r=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),C=e=>i(s({},\"__esModule\",{value:!0}),e);var l=h((M,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>_});var n=j(l()),_={title:\"Crazy Horse\",slug:\"crazy-horse\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Paul's Boutique\",year:2018,genre:[],description:\"Crazy Horse \\u2014 singl od James Cole (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/67fefef0b13cdb358fbbfdf6c1587d61/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Crazy Horse (Original Mix)\",\"Don't Give Up (Original Mix)\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return C(y);})();\n;return Component;"
+  },
+  "_id": "alba/crazy-horse.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/crazy-horse.mdx",
+    "sourceFileName": "crazy-horse.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/crazy-horse"
+  },
+  "type": "Album",
+  "url": "/alba/crazy-horse",
+  "canonicalUrl": "https://4rap.cz/alba/crazy-horse"
+}

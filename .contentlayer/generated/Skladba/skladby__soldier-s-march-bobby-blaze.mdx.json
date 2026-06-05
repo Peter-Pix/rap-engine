@@ -1,0 +1,33 @@
+{
+  "title": "Soldier's March",
+  "slug": "soldier-s-march-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Through These Eyes",
+  "albumSlug": "through-these-eyes",
+  "year": 2004,
+  "genre": [],
+  "duration": "4:32",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Soldier's March — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),y=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of m(r))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>r[o],enumerable:!(a=i(r,o))||a.enumerable});return e};var f=(e,r,n)=>(n=e!=null?h(p(e)):{},l(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var c=g((z,u)=>{u.exports=_jsx_runtime});var M={};y(M,{default:()=>d,frontmatter:()=>j});var t=f(c()),j={title:\"Soldier's March\",slug:\"soldier-s-march-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[],duration:\"4:32\",trackNumber:8,producers:[],producersNames:[],description:\"Soldier's March \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(b,{...e})}):b(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/soldier-s-march-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/soldier-s-march-bobby-blaze.mdx",
+    "sourceFileName": "soldier-s-march-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/soldier-s-march-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/soldier-s-march-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/soldier-s-march-bobby-blaze"
+}

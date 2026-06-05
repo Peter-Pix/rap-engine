@@ -1,0 +1,37 @@
+{
+  "title": "H.C.H.B.",
+  "slug": "h-c-h-b-vladimir-518",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "features": [
+    "ivan-hoe"
+  ],
+  "featuresNames": [
+    "Ivan Hoe"
+  ],
+  "album": "Gorila vs. Architekt",
+  "albumSlug": "gorila-vs-architekt",
+  "year": 2008,
+  "genre": [],
+  "duration": "3:59",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "H.C.H.B. — skladba od Vladimir 518.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!b.call(e,a)&&a!==n&&i(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var _=(e,r,n)=>(n=e!=null?d(x(e)):{},s(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),v=e=>s(i({},\"__esModule\",{value:!0}),e);var l=f((C,c)=>{c.exports=_jsx_runtime});var H={};g(H,{default:()=>u,frontmatter:()=>j});var t=_(l()),j={title:\"H.C.H.B.\",slug:\"h-c-h-b-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"ivan-hoe\"],featuresNames:[\"Ivan Hoe\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[],duration:\"3:59\",trackNumber:5,producers:[],producersNames:[],description:\"H.C.H.B. \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return v(H);})();\n;return Component;"
+  },
+  "_id": "skladby/h-c-h-b-vladimir-518.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/h-c-h-b-vladimir-518.mdx",
+    "sourceFileName": "h-c-h-b-vladimir-518.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/h-c-h-b-vladimir-518"
+  },
+  "type": "Skladba",
+  "url": "/skladby/h-c-h-b-vladimir-518",
+  "canonicalUrl": "https://4rap.cz/skladby/h-c-h-b-vladimir-518"
+}

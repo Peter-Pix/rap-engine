@@ -1,0 +1,39 @@
+{
+  "title": "Back It Up",
+  "slug": "back-it-up-decky",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "features": [
+    "jamkvy",
+    "saskilla"
+  ],
+  "featuresNames": [
+    "Jamkvy",
+    "Saskilla"
+  ],
+  "album": "Garn Again",
+  "albumSlug": "garn-again",
+  "year": 2023,
+  "genre": [],
+  "duration": "4:14",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Back It Up — skladba od Decky.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of k(t))!g.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(c=d(t,r))||c.enumerable});return e};var b=(e,t,a)=>(a=e!=null?p(x(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>o(s({},\"__esModule\",{value:!0}),e);var i=h((S,u)=>{u.exports=_jsx_runtime});var j={};y(j,{default:()=>m,frontmatter:()=>_});var n=b(i()),_={title:\"Back It Up\",slug:\"back-it-up-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"jamkvy\",\"saskilla\"],featuresNames:[\"Jamkvy\",\"Saskilla\"],album:\"Garn Again\",albumSlug:\"garn-again\",year:2023,genre:[],duration:\"4:14\",trackNumber:5,producers:[],producersNames:[],description:\"Back It Up \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return f(j);})();\n;return Component;"
+  },
+  "_id": "skladby/back-it-up-decky.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/back-it-up-decky.mdx",
+    "sourceFileName": "back-it-up-decky.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/back-it-up-decky"
+  },
+  "type": "Skladba",
+  "url": "/skladby/back-it-up-decky",
+  "canonicalUrl": "https://4rap.cz/skladby/back-it-up-decky"
+}

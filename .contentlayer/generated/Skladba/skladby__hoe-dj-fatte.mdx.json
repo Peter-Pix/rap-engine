@@ -1,0 +1,33 @@
+{
+  "title": "Hoe",
+  "slug": "hoe-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [],
+  "featuresNames": [],
+  "album": "Short Stories 2",
+  "albumSlug": "short-stories-2",
+  "year": 2017,
+  "genre": [],
+  "duration": "3:01",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Hoe — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var d=j((M,c)=>{c.exports=_jsx_runtime});var D={};_(D,{default:()=>m,frontmatter:()=>S});var r=b(d()),S={title:\"Hoe\",slug:\"hoe-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Short Stories 2\",albumSlug:\"short-stories-2\",year:2017,genre:[],duration:\"3:01\",trackNumber:3,producers:[],producersNames:[],description:\"Hoe \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/hoe-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hoe-dj-fatte.mdx",
+    "sourceFileName": "hoe-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hoe-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hoe-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/hoe-dj-fatte"
+}

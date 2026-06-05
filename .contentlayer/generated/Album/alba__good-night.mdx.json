@@ -1,0 +1,33 @@
+{
+  "title": "Good Night",
+  "slug": "good-night",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "Bamboleo",
+  "year": 2024,
+  "genre": [],
+  "description": "Good Night — EP od James Cole (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/b3a000a72dbae876dcd97955d6a16e36/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Good Night",
+    "Good Night (BizZa Remix)",
+    "Honey Come Back",
+    "Shake Your Body"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)r(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!x.call(e,a)&&a!==n&&r(e,a,{get:()=>t[a],enumerable:!(i=g(t,a))||i.enumerable});return e};var _=(e,t,n)=>(n=e!=null?h(u(e)):{},d(t||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>d(r({},\"__esModule\",{value:!0}),e);var c=b((G,s)=>{s.exports=_jsx_runtime});var y={};j(y,{default:()=>l,frontmatter:()=>C});var o=_(c()),C={title:\"Good Night\",slug:\"good-night\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Bamboleo\",year:2024,genre:[],description:\"Good Night \\u2014 EP od James Cole (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/b3a000a72dbae876dcd97955d6a16e36/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Good Night\",\"Good Night (BizZa Remix)\",\"Honey Come Back\",\"Shake Your Body\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return f(y);})();\n;return Component;"
+  },
+  "_id": "alba/good-night.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/good-night.mdx",
+    "sourceFileName": "good-night.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/good-night"
+  },
+  "type": "Album",
+  "url": "/alba/good-night",
+  "canonicalUrl": "https://4rap.cz/alba/good-night"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Chcete Mě?",
+  "slug": "chcete-me-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [],
+  "featuresNames": [],
+  "album": "Teritorium I",
+  "albumSlug": "teritorium-i",
+  "year": 2003,
+  "genre": [],
+  "duration": "0:33",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Chcete Mě? — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==n&&i(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(x(e)):{},a(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(i({},\"__esModule\",{value:!0}),e);var u=_((S,c)=>{c.exports=_jsx_runtime});var C={};b(C,{default:()=>d,frontmatter:()=>M});var r=g(u()),M={title:\"Chcete M\\u011B?\",slug:\"chcete-me-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium I\",albumSlug:\"teritorium-i\",year:2003,genre:[],duration:\"0:33\",trackNumber:1,producers:[],producersNames:[],description:\"Chcete M\\u011B? \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(C);})();\n;return Component;"
+  },
+  "_id": "skladby/chcete-me-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/chcete-me-orion.mdx",
+    "sourceFileName": "chcete-me-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/chcete-me-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/chcete-me-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/chcete-me-orion"
+}

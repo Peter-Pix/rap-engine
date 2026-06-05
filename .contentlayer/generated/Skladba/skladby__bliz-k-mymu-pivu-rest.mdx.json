@@ -1,0 +1,39 @@
+{
+  "title": "Blíž k mýmu pivu",
+  "slug": "bliz-k-mymu-pivu-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte",
+    "idea"
+  ],
+  "featuresNames": [
+    "DJ Fatte",
+    "Idea"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "3:42",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Blíž k mýmu pivu — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(u=l(t,a))||u.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(s({},\"__esModule\",{value:!0}),e);var i=b((D,o)=>{o.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>k});var r=g(i()),k={title:\"Bl\\xED\\u017E k m\\xFDmu pivu\",slug:\"bliz-k-mymu-pivu-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\",\"idea\"],featuresNames:[\"DJ Fatte\",\"Idea\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"3:42\",trackNumber:3,producers:[],producersNames:[],description:\"Bl\\xED\\u017E k m\\xFDmu pivu \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(v);})();\n;return Component;"
+  },
+  "_id": "skladby/bliz-k-mymu-pivu-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bliz-k-mymu-pivu-rest.mdx",
+    "sourceFileName": "bliz-k-mymu-pivu-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bliz-k-mymu-pivu-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bliz-k-mymu-pivu-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/bliz-k-mymu-pivu-rest"
+}

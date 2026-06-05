@@ -1,0 +1,30 @@
+{
+  "title": "Sedm klíčů",
+  "slug": "sedm-klicu",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2023,
+  "genre": [],
+  "description": "Sedm klíčů — singl od DJ Fatte (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/faa843a85443afe6e31541faabc59f63/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Sedm klíčů"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)c(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!g.call(e,r)&&r!==a&&c(e,r,{get:()=>t[r],enumerable:!(s=u(t,r))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(f(e)):{},i(t||!e||!e.__esModule?c(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>i(c({},\"__esModule\",{value:!0}),e);var o=x((F,l)=>{l.exports=_jsx_runtime});var S={};j(S,{default:()=>m,frontmatter:()=>k});var n=_(o()),k={title:\"Sedm kl\\xED\\u010D\\u016F\",slug:\"sedm-klicu\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2023,genre:[],description:\"Sedm kl\\xED\\u010D\\u016F \\u2014 singl od DJ Fatte (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/faa843a85443afe6e31541faabc59f63/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sedm kl\\xED\\u010D\\u016F\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(S);})();\n;return Component;"
+  },
+  "_id": "alba/sedm-klicu.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/sedm-klicu.mdx",
+    "sourceFileName": "sedm-klicu.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/sedm-klicu"
+  },
+  "type": "Album",
+  "url": "/alba/sedm-klicu",
+  "canonicalUrl": "https://4rap.cz/alba/sedm-klicu"
+}

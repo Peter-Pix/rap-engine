@@ -1,0 +1,33 @@
+{
+  "title": "Timeshift",
+  "slug": "timeshift-hugo-toxxx",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bauch Money II",
+  "albumSlug": "bauch-money-ii",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:07",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Timeshift — skladba od Hugo Toxxx.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of l(t))!f.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(u=d(t,o))||u.enumerable});return e};var _=(e,t,r)=>(r=e!=null?h(p(e)):{},a(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var x=g((N,i)=>{i.exports=_jsx_runtime});var M={};b(M,{default:()=>c,frontmatter:()=>y});var n=_(x()),y={title:\"Timeshift\",slug:\"timeshift-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"3:07\",trackNumber:11,producers:[],producersNames:[],description:\"Timeshift \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/timeshift-hugo-toxxx.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/timeshift-hugo-toxxx.mdx",
+    "sourceFileName": "timeshift-hugo-toxxx.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/timeshift-hugo-toxxx"
+  },
+  "type": "Skladba",
+  "url": "/skladby/timeshift-hugo-toxxx",
+  "canonicalUrl": "https://4rap.cz/skladby/timeshift-hugo-toxxx"
+}

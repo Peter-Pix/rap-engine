@@ -1,0 +1,39 @@
+{
+  "title": "Artefakt",
+  "slug": "artefakt-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "regie-257",
+    "reks"
+  ],
+  "featuresNames": [
+    "Regie 257",
+    "REKS"
+  ],
+  "album": "Aura",
+  "albumSlug": "aura",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:56",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Artefakt — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!h.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var d=g((F,c)=>{c.exports=_jsx_runtime});var A={};j(A,{default:()=>m,frontmatter:()=>k});var r=_(d()),k={title:\"Artefakt\",slug:\"artefakt-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"reks\"],featuresNames:[\"Regie 257\",\"REKS\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"3:56\",trackNumber:3,producers:[],producersNames:[],description:\"Artefakt \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(A);})();\n;return Component;"
+  },
+  "_id": "skladby/artefakt-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/artefakt-dj-fatte.mdx",
+    "sourceFileName": "artefakt-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/artefakt-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/artefakt-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/artefakt-dj-fatte"
+}

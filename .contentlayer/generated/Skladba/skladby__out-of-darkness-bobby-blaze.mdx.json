@@ -1,0 +1,33 @@
+{
+  "title": "Out of Darkness",
+  "slug": "out-of-darkness-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Street Sermons, Vol. 1",
+  "albumSlug": "street-sermons-vol-1",
+  "year": 2022,
+  "genre": [],
+  "duration": "4:38",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Out of Darkness — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=i(t,o))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(f(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>u(s({},\"__esModule\",{value:!0}),e);var m=h((z,l)=>{l.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>j});var r=g(m()),j={title:\"Out of Darkness\",slug:\"out-of-darkness-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Street Sermons, Vol. 1\",albumSlug:\"street-sermons-vol-1\",year:2022,genre:[],duration:\"4:38\",trackNumber:4,producers:[],producersNames:[],description:\"Out of Darkness \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return y(k);})();\n;return Component;"
+  },
+  "_id": "skladby/out-of-darkness-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/out-of-darkness-bobby-blaze.mdx",
+    "sourceFileName": "out-of-darkness-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/out-of-darkness-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/out-of-darkness-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/out-of-darkness-bobby-blaze"
+}

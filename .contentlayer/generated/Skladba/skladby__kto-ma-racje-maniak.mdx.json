@@ -1,0 +1,33 @@
+{
+  "title": "Kto ma rację?",
+  "slug": "kto-ma-racje-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Wygrałem EP",
+  "albumSlug": "wygra-em-ep",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:04",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kto ma rację? — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!g.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(m=l(t,n))||m.enumerable});return e};var k=(e,t,a)=>(a=e!=null?d(h(e)):{},s(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var u=j((K,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>b});var r=k(u()),b={title:\"Kto ma racj\\u0119?\",slug:\"kto-ma-racje-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Wygra\\u0142em EP\",albumSlug:\"wygra-em-ep\",year:2019,genre:[],duration:\"3:04\",trackNumber:2,producers:[],producersNames:[],description:\"Kto ma racj\\u0119? \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/kto-ma-racje-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kto-ma-racje-maniak.mdx",
+    "sourceFileName": "kto-ma-racje-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kto-ma-racje-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kto-ma-racje-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/kto-ma-racje-maniak"
+}

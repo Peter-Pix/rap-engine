@@ -1,0 +1,30 @@
+{
+  "title": "Tarantino",
+  "slug": "tarantino",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "Golden Touch / Ach Ano",
+  "year": 2021,
+  "genre": [],
+  "description": "Tarantino — singl od Maniak (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a483ca0db02a346cbce81d8f2dc57a95/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Tarantino"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),b=(n,t)=>{for(var a in t)o(n,a,{get:t[a],enumerable:!0})},c=(n,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(n,r)&&r!==a&&o(n,r,{get:()=>t[r],enumerable:!(i=u(t,r))||i.enumerable});return n};var f=(n,t,a)=>(a=n!=null?p(g(n)):{},c(t||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),j=n=>c(o({},\"__esModule\",{value:!0}),n);var d=_((A,s)=>{s.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>M});var e=f(d()),M={title:\"Tarantino\",slug:\"tarantino\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"Golden Touch / Ach Ano\",year:2021,genre:[],description:\"Tarantino \\u2014 singl od Maniak (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/a483ca0db02a346cbce81d8f2dc57a95/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Tarantino\"],publishedAt:\"2026-06-04\"};function l(n){let t={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,e.jsx)(t.p,{children:(0,e.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(l,{...n})}):l(n)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/tarantino.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/tarantino.mdx",
+    "sourceFileName": "tarantino.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/tarantino"
+  },
+  "type": "Album",
+  "url": "/alba/tarantino",
+  "canonicalUrl": "https://4rap.cz/alba/tarantino"
+}

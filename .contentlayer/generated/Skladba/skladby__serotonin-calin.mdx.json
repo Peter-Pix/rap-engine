@@ -1,0 +1,37 @@
+{
+  "title": "Serotonin",
+  "slug": "serotonin-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [
+    "ego"
+  ],
+  "featuresNames": [
+    "Ego"
+  ],
+  "album": "Svědomí",
+  "albumSlug": "svedomi",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:37",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Serotonin — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!g.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var b=(e,n,r)=>(r=e!=null?l(h(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),S=e=>i(s({},\"__esModule\",{value:!0}),e);var u=f((L,c)=>{c.exports=_jsx_runtime});var N={};_(N,{default:()=>d,frontmatter:()=>j});var t=b(u()),j={title:\"Serotonin\",slug:\"serotonin-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"ego\"],featuresNames:[\"Ego\"],album:\"Sv\\u011Bdom\\xED\",albumSlug:\"svedomi\",year:2020,genre:[],duration:\"2:37\",trackNumber:5,producers:[],producersNames:[],description:\"Serotonin \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return S(N);})();\n;return Component;"
+  },
+  "_id": "skladby/serotonin-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/serotonin-calin.mdx",
+    "sourceFileName": "serotonin-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/serotonin-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/serotonin-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/serotonin-calin"
+}

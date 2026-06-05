@@ -1,0 +1,37 @@
+{
+  "title": "Kuřivoj Vysajbong",
+  "slug": "kurivoj-vysajbong-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "5:07",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kuřivoj Vysajbong — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of j(t))!b.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var f=(e,t,n)=>(n=e!=null?p(x(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var m=g((D,i)=>{i.exports=_jsx_runtime});var v={};h(v,{default:()=>d,frontmatter:()=>y});var r=f(m()),y={title:\"Ku\\u0159ivoj Vysajbong\",slug:\"kurivoj-vysajbong-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"5:07\",trackNumber:13,producers:[],producersNames:[],description:\"Ku\\u0159ivoj Vysajbong \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(v);})();\n;return Component;"
+  },
+  "_id": "skladby/kurivoj-vysajbong-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kurivoj-vysajbong-rest.mdx",
+    "sourceFileName": "kurivoj-vysajbong-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kurivoj-vysajbong-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kurivoj-vysajbong-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/kurivoj-vysajbong-rest"
+}

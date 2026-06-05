@@ -1,0 +1,37 @@
+{
+  "title": "Nightmare",
+  "slug": "nightmare-decky",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "features": [
+    "k-gnarly"
+  ],
+  "featuresNames": [
+    "K Gnarly"
+  ],
+  "album": "3017",
+  "albumSlug": "3017",
+  "year": 2024,
+  "genre": [],
+  "duration": "1:43",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nightmare — skladba od Decky.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var k=(e,t,n)=>(n=e!=null?l(g(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var u=y((D,m)=>{m.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>b});var r=k(u()),b={title:\"Nightmare\",slug:\"nightmare-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"k-gnarly\"],featuresNames:[\"K Gnarly\"],album:\"3017\",albumSlug:\"3017\",year:2024,genre:[],duration:\"1:43\",trackNumber:6,producers:[],producersNames:[],description:\"Nightmare \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/nightmare-decky.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nightmare-decky.mdx",
+    "sourceFileName": "nightmare-decky.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nightmare-decky"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nightmare-decky",
+  "canonicalUrl": "https://4rap.cz/skladby/nightmare-decky"
+}

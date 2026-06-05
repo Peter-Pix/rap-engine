@@ -1,0 +1,41 @@
+{
+  "title": "Pirátství",
+  "slug": "piratstvi-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "johnyboss",
+    "tomba",
+    "douny"
+  ],
+  "featuresNames": [
+    "JOHNYBOSS",
+    "Tomba",
+    "Douny"
+  ],
+  "album": "Reflex",
+  "albumSlug": "reflex",
+  "year": 2022,
+  "genre": [],
+  "duration": "3:06",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pirátství — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},u=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return t};var _=(t,e,n)=>(n=t!=null?l(f(t)):{},u(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),g=t=>u(o({},\"__esModule\",{value:!0}),t);var m=b((F,i)=>{i.exports=_jsx_runtime});var D={};j(D,{default:()=>d,frontmatter:()=>y});var r=_(m()),y={title:\"Pir\\xE1tstv\\xED\",slug:\"piratstvi-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"johnyboss\",\"tomba\",\"douny\"],featuresNames:[\"JOHNYBOSS\",\"Tomba\",\"Douny\"],album:\"Reflex\",albumSlug:\"reflex\",year:2022,genre:[],duration:\"3:06\",trackNumber:9,producers:[],producersNames:[],description:\"Pir\\xE1tstv\\xED \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return g(D);})();\n;return Component;"
+  },
+  "_id": "skladby/piratstvi-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/piratstvi-dj-fatte.mdx",
+    "sourceFileName": "piratstvi-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/piratstvi-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/piratstvi-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/piratstvi-dj-fatte"
+}

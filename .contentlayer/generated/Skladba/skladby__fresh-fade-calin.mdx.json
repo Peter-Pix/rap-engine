@@ -1,0 +1,33 @@
+{
+  "title": "Fresh Fade",
+  "slug": "fresh-fade-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "Bieber Fever",
+  "albumSlug": "bieber-fever",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:26",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Fresh Fade — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),F=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var _=(e,r,n)=>(n=e!=null?m(f(e)):{},c(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var i=b((L,u)=>{u.exports=_jsx_runtime});var N={};F(N,{default:()=>l,frontmatter:()=>j});var t=_(i()),j={title:\"Fresh Fade\",slug:\"fresh-fade-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[],duration:\"2:26\",trackNumber:9,producers:[],producersNames:[],description:\"Fresh Fade \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/fresh-fade-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/fresh-fade-calin.mdx",
+    "sourceFileName": "fresh-fade-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/fresh-fade-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/fresh-fade-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/fresh-fade-calin"
+}

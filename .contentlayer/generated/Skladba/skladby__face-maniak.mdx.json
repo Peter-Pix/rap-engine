@@ -1,0 +1,33 @@
+{
+  "title": "Face",
+  "slug": "face-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Top Threat",
+  "albumSlug": "top-threat",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:38",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Face — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>c(o({},\"__esModule\",{value:!0}),e);var i=_((N,u)=>{u.exports=_jsx_runtime});var M={};b(M,{default:()=>p,frontmatter:()=>j});var n=g(i()),j={title:\"Face\",slug:\"face-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Top Threat\",albumSlug:\"top-threat\",year:2024,genre:[],duration:\"2:38\",trackNumber:12,producers:[],producersNames:[],description:\"Face \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return k(M);})();\n;return Component;"
+  },
+  "_id": "skladby/face-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/face-maniak.mdx",
+    "sourceFileName": "face-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/face-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/face-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/face-maniak"
+}

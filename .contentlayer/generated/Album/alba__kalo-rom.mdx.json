@@ -1,0 +1,30 @@
+{
+  "title": "Kalo Rom",
+  "slug": "kalo-rom",
+  "rapper": "Denzzy",
+  "rapperSlug": "denzzy",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2025,
+  "genre": [],
+  "description": "Kalo Rom — singl od Denzzy (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6063ebc10fcaadae1cc558c967f6def8/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Kalo Rom"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),z=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of g(n))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(c=u(n,o))||c.enumerable});return e};var _=(e,n,r)=>(r=e!=null?p(h(e)):{},s(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(a({},\"__esModule\",{value:!0}),e);var l=f((M,i)=>{i.exports=_jsx_runtime});var y={};z(y,{default:()=>d,frontmatter:()=>j});var t=_(l()),j={title:\"Kalo Rom\",slug:\"kalo-rom\",rapper:\"Denzzy\",rapperSlug:\"denzzy\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2025,genre:[],description:\"Kalo Rom \\u2014 singl od Denzzy (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/6063ebc10fcaadae1cc558c967f6def8/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Kalo Rom\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(y);})();\n;return Component;"
+  },
+  "_id": "alba/kalo-rom.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/kalo-rom.mdx",
+    "sourceFileName": "kalo-rom.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/kalo-rom"
+  },
+  "type": "Album",
+  "url": "/alba/kalo-rom",
+  "canonicalUrl": "https://4rap.cz/alba/kalo-rom"
+}

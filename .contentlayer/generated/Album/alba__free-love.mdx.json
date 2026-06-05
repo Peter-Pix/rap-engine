@@ -1,0 +1,30 @@
+{
+  "title": "Free Love",
+  "slug": "free-love",
+  "rapper": "Raphael",
+  "rapperSlug": "raphael",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2024,
+  "genre": [],
+  "description": "Free Love — singl od Raphael (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/ca86d185b590d8f72fbc9c7308064ad4/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Free Love"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of u(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=h(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(g(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var l=f((M,i)=>{i.exports=_jsx_runtime});var F={};b(F,{default:()=>p,frontmatter:()=>v});var n=_(l()),v={title:\"Free Love\",slug:\"free-love\",rapper:\"Raphael\",rapperSlug:\"raphael\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2024,genre:[],description:\"Free Love \\u2014 singl od Raphael (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/ca86d185b590d8f72fbc9c7308064ad4/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Free Love\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(F);})();\n;return Component;"
+  },
+  "_id": "alba/free-love.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/free-love.mdx",
+    "sourceFileName": "free-love.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/free-love"
+  },
+  "type": "Album",
+  "url": "/alba/free-love",
+  "canonicalUrl": "https://4rap.cz/alba/free-love"
+}

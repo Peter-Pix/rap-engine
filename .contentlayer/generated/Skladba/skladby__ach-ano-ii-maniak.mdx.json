@@ -1,0 +1,33 @@
+{
+  "title": "Ach Ano II",
+  "slug": "ach-ano-ii-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ach Ano Mixtape",
+  "albumSlug": "ach-ano-mixtape",
+  "year": 2015,
+  "genre": [],
+  "duration": "2:54",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ach Ano II — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var A=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},c=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var b=(e,n,a)=>(a=e!=null?d(x(e)):{},c(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var m=A((I,i)=>{i.exports=_jsx_runtime});var M={};_(M,{default:()=>p,frontmatter:()=>k});var t=b(m()),k={title:\"Ach Ano II\",slug:\"ach-ano-ii-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[],duration:\"2:54\",trackNumber:1,producers:[],producersNames:[],description:\"Ach Ano II \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "skladby/ach-ano-ii-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ach-ano-ii-maniak.mdx",
+    "sourceFileName": "ach-ano-ii-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ach-ano-ii-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ach-ano-ii-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/ach-ano-ii-maniak"
+}

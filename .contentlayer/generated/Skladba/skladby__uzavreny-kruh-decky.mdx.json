@@ -1,0 +1,39 @@
+{
+  "title": "UZAVŘENÝ KRUH",
+  "slug": "uzavreny-kruh-decky",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "features": [
+    "karlo",
+    "hasan"
+  ],
+  "featuresNames": [
+    "Karlo",
+    "Hasan"
+  ],
+  "album": "KINGPIN",
+  "albumSlug": "kingpin",
+  "year": 2019,
+  "genre": [],
+  "duration": "4:12",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "UZAVŘENÝ KRUH — skladba od Decky.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!k.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var y=(e,n,t)=>(t=e!=null?m(x(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),N=e=>c(o({},\"__esModule\",{value:!0}),e);var d=f((K,u)=>{u.exports=_jsx_runtime});var b={};g(b,{default:()=>l,frontmatter:()=>_});var r=y(d()),_={title:\"UZAV\\u0158EN\\xDD KRUH\",slug:\"uzavreny-kruh-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"karlo\",\"hasan\"],featuresNames:[\"Karlo\",\"Hasan\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[],duration:\"4:12\",trackNumber:16,producers:[],producersNames:[],description:\"UZAV\\u0158EN\\xDD KRUH \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return N(b);})();\n;return Component;"
+  },
+  "_id": "skladby/uzavreny-kruh-decky.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/uzavreny-kruh-decky.mdx",
+    "sourceFileName": "uzavreny-kruh-decky.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/uzavreny-kruh-decky"
+  },
+  "type": "Skladba",
+  "url": "/skladby/uzavreny-kruh-decky",
+  "canonicalUrl": "https://4rap.cz/skladby/uzavreny-kruh-decky"
+}

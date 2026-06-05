@@ -1,0 +1,38 @@
+{
+  "title": "WELL DONE",
+  "slug": "well-done",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "WM Czech Republic",
+  "year": 2025,
+  "genre": [],
+  "description": "WELL DONE — album od James Cole (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e8ec1b7379f2eeddb5286b9c12a4c0be/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "DOBRÉ OLIVY",
+    "HOTOVO / FRESH",
+    "MALEJ DAN",
+    "DONE DEAL",
+    "BONDY / DOGG",
+    "HORE (feat. Jana Kirschner)",
+    "BROUK",
+    "JENOM",
+    "VLAK"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var O=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),D=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of O(t))!b.call(e,a)&&a!==r&&c(e,a,{get:()=>t[a],enumerable:!(o=u(t,a))||o.enumerable});return e};var E=(e,t,r)=>(r=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(c({},\"__esModule\",{value:!0}),e);var i=x((_,l)=>{l.exports=_jsx_runtime});var f={};D(f,{default:()=>d,frontmatter:()=>L});var n=E(i()),L={title:\"WELL DONE\",slug:\"well-done\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"WM Czech Republic\",year:2025,genre:[],description:\"WELL DONE \\u2014 album od James Cole (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/e8ec1b7379f2eeddb5286b9c12a4c0be/1000x1000-000000-80-0-0.jpg\",tracklist:[\"DOBR\\xC9 OLIVY\",\"HOTOVO / FRESH\",\"MALEJ DAN\",\"DONE DEAL\",\"BONDY / DOGG\",\"HORE (feat. Jana Kirschner)\",\"BROUK\",\"JENOM\",\"VLAK\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return g(f);})();\n;return Component;"
+  },
+  "_id": "alba/well-done.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/well-done.mdx",
+    "sourceFileName": "well-done.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/well-done"
+  },
+  "type": "Album",
+  "url": "/alba/well-done",
+  "canonicalUrl": "https://4rap.cz/alba/well-done"
+}

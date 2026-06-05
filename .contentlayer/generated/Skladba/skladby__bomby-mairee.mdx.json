@@ -1,0 +1,37 @@
+{
+  "title": "Bomby",
+  "slug": "bomby-mairee",
+  "rapper": "Mairee",
+  "rapperSlug": "mairee",
+  "features": [
+    "sergei-barracuda"
+  ],
+  "featuresNames": [
+    "Sergei Barracuda"
+  ],
+  "album": "Bomby",
+  "albumSlug": "bomby",
+  "year": 2022,
+  "genre": [],
+  "duration": "1:47",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bomby — skladba od Mairee.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},m=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of b(r))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var y=(e,r,n)=>(n=e!=null?l(x(e)):{},m(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>m(o({},\"__esModule\",{value:!0}),e);var i=g((S,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>j});var t=y(i()),j={title:\"Bomby\",slug:\"bomby-mairee\",rapper:\"Mairee\",rapperSlug:\"mairee\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"Bomby\",albumSlug:\"bomby\",year:2022,genre:[],duration:\"1:47\",trackNumber:1,producers:[],producersNames:[],description:\"Bomby \\u2014 skladba od Mairee.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/bomby-mairee.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bomby-mairee.mdx",
+    "sourceFileName": "bomby-mairee.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bomby-mairee"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bomby-mairee",
+  "canonicalUrl": "https://4rap.cz/skladby/bomby-mairee"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Úsměv",
+  "slug": "usmev-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Úsměv",
+  "albumSlug": "usmev",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:03",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Úsměv — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!h.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=i(t,s))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>m(o({},\"__esModule\",{value:!0}),e);var l=f((B,u)=>{u.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>j});var r=g(l()),j={title:\"\\xDAsm\\u011Bv\",slug:\"usmev-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"\\xDAsm\\u011Bv\",albumSlug:\"usmev\",year:2024,genre:[],duration:\"3:03\",trackNumber:1,producers:[],producersNames:[],description:\"\\xDAsm\\u011Bv \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return y(v);})();\n;return Component;"
+  },
+  "_id": "skladby/usmev-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/usmev-bobby-blaze.mdx",
+    "sourceFileName": "usmev-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/usmev-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/usmev-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/usmev-bobby-blaze"
+}

@@ -3,7 +3,7 @@
  *
  * Parsuje MDX frontmatter a generuje src/lib/interlinking.ts
  * Spouští se automaticky před každým buildem (prebuild hook).
- * 
+ *
  * Přidáš nový MDX soubor → registr se aktualizuje při příštím buildu.
  */
 
@@ -12,9 +12,22 @@ import path from 'path'
 
 const ROOT = path.resolve(process.cwd())
 
+/**
+ * Parse a frontmatter field value.
+ * Handles: field: "value", field: 'value', field: value
+ */
 function parseField(content, field) {
-  const m = content.match(new RegExp(`^${field}:\\s*"([^"]*)"`, 'm'))
-  return m?.[1] || null
+  const m = content.match(new RegExp(`^${field}:\\s*(.+)$`, 'm'))
+  if (!m) return null
+  let value = m[1].trim()
+  // Strip matching surrounding quotes (single or double)
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
+    value = value.slice(1, -1)
+  }
+  return value || null
 }
 
 function parseBool(content, field) {
@@ -31,6 +44,7 @@ const ENTITY_TYPES = [
 ]
 
 const entries = []
+const skipped = []
 
 for (const { dir, type, aliasField, caseSensitive } of ENTITY_TYPES) {
   const dirPath = path.join(ROOT, dir)
@@ -45,6 +59,7 @@ for (const { dir, type, aliasField, caseSensitive } of ENTITY_TYPES) {
     const title = parseField(content, 'title')
     if (!slug || !title) {
       console.warn(`  ⚠ Skipping ${file}: missing slug or title`)
+      skipped.push({ file, type, missingSlug: !slug, missingTitle: !title })
       continue
     }
 
@@ -100,3 +115,13 @@ writeFileSync(outPath, generated, 'utf8')
 
 console.log(`✓ Registry vygenerován: ${entries.length} entit`)
 Object.entries(byType).forEach(([k, v]) => console.log(`  ${k}: ${v}`))
+
+if (skipped.length > 0) {
+  console.log(`\n⚠ ${skipped.length} souborů přeskočeno:`)
+  for (const s of skipped) {
+    const missing = []
+    if (s.missingSlug) missing.push('slug')
+    if (s.missingTitle) missing.push('title')
+    console.log(`  ${s.file} (${s.type}) — chybí: ${missing.join(', ')}`)
+  }
+}

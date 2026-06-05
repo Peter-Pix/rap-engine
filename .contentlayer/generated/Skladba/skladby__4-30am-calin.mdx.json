@@ -1,0 +1,33 @@
+{
+  "title": "4.30am",
+  "slug": "4-30am-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "4.30am",
+  "albumSlug": "4-30am",
+  "year": 2016,
+  "genre": [],
+  "duration": "4:15",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "4.30am — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>m(o({},\"__esModule\",{value:!0}),e);var u=_((M,c)=>{c.exports=_jsx_runtime});var C={};b(C,{default:()=>l,frontmatter:()=>N});var n=g(u()),N={title:\"4.30am\",slug:\"4-30am-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"4.30am\",albumSlug:\"4-30am\",year:2016,genre:[],duration:\"4:15\",trackNumber:1,producers:[],producersNames:[],description:\"4.30am \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(C);})();\n;return Component;"
+  },
+  "_id": "skladby/4-30am-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/4-30am-calin.mdx",
+    "sourceFileName": "4-30am-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/4-30am-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/4-30am-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/4-30am-calin"
+}

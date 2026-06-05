@@ -1,0 +1,39 @@
+{
+  "title": "RAF NEBO RICK",
+  "slug": "raf-nebo-rick-konex",
+  "rapper": "Konex",
+  "rapperSlug": "konex",
+  "features": [
+    "decky",
+    "yzomandias"
+  ],
+  "featuresNames": [
+    "Decky",
+    "Yzomandias"
+  ],
+  "album": "karanténa",
+  "albumSlug": "karantena",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:15",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "RAF NEBO RICK — skladba od Konex.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!k.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var m=f((N,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>i,frontmatter:()=>j});var t=_(m()),j={title:\"RAF NEBO RICK\",slug:\"raf-nebo-rick-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"yzomandias\"],featuresNames:[\"Decky\",\"Yzomandias\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[],duration:\"3:15\",trackNumber:3,producers:[],producersNames:[],description:\"RAF NEBO RICK \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/raf-nebo-rick-konex.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/raf-nebo-rick-konex.mdx",
+    "sourceFileName": "raf-nebo-rick-konex.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/raf-nebo-rick-konex"
+  },
+  "type": "Skladba",
+  "url": "/skladby/raf-nebo-rick-konex",
+  "canonicalUrl": "https://4rap.cz/skladby/raf-nebo-rick-konex"
+}

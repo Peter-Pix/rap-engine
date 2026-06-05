@@ -1,0 +1,33 @@
+{
+  "title": "Forever",
+  "slug": "forever-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "No Album",
+  "albumSlug": "no-album",
+  "year": 2015,
+  "genre": [],
+  "duration": "4:23",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Forever — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(h(e)):{},u(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),N=e=>u(a({},\"__esModule\",{value:!0}),e);var l=f((v,c)=>{c.exports=_jsx_runtime});var C={};_(C,{default:()=>i,frontmatter:()=>j});var t=g(l()),j={title:\"Forever\",slug:\"forever-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Album\",albumSlug:\"no-album\",year:2015,genre:[],duration:\"4:23\",trackNumber:6,producers:[],producersNames:[],description:\"Forever \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return N(C);})();\n;return Component;"
+  },
+  "_id": "skladby/forever-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/forever-calin.mdx",
+    "sourceFileName": "forever-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/forever-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/forever-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/forever-calin"
+}

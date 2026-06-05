@@ -1,0 +1,33 @@
+{
+  "title": "Long Island",
+  "slug": "long-island-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Maison Maniak",
+  "albumSlug": "maison-maniak",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:51",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Long Island — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of x(e))!h.call(n,r)&&r!==t&&o(n,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return n};var M=(n,e,t)=>(t=n!=null?d(g(n)):{},i(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),_=n=>i(o({},\"__esModule\",{value:!0}),n);var u=k((N,m)=>{m.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>b});var a=M(u()),b={title:\"Long Island\",slug:\"long-island-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Maison Maniak\",albumSlug:\"maison-maniak\",year:2025,genre:[],duration:\"2:51\",trackNumber:9,producers:[],producersNames:[],description:\"Long Island \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/long-island-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/long-island-maniak.mdx",
+    "sourceFileName": "long-island-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/long-island-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/long-island-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/long-island-maniak"
+}

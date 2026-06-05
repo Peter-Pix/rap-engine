@@ -1,0 +1,33 @@
+{
+  "title": "Mačkáš mi hada",
+  "slug": "mackas-mi-hada-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Mačkáš mi hada",
+  "albumSlug": "mackas-mi-hada",
+  "year": 2017,
+  "genre": [],
+  "duration": "3:46",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Mačkáš mi hada — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var n in e)m(a,n,{get:e[n],enumerable:!0})},i=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!x.call(a,r)&&r!==n&&m(a,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return a};var _=(a,e,n)=>(n=a!=null?l(k(a)):{},i(e||!a||!a.__esModule?m(n,\"default\",{value:a,enumerable:!0}):n,a)),b=a=>i(m({},\"__esModule\",{value:!0}),a);var c=M((S,o)=>{o.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>g});var t=_(c()),g={title:\"Ma\\u010Dk\\xE1\\u0161 mi hada\",slug:\"mackas-mi-hada-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ma\\u010Dk\\xE1\\u0161 mi hada\",albumSlug:\"mackas-mi-hada\",year:2017,genre:[],duration:\"3:46\",trackNumber:1,producers:[],producersNames:[],description:\"Ma\\u010Dk\\xE1\\u0161 mi hada \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(a){let e={em:\"em\",h2:\"h2\",p:\"p\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(d,{...a})}):d(a)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/mackas-mi-hada-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/mackas-mi-hada-maniak.mdx",
+    "sourceFileName": "mackas-mi-hada-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/mackas-mi-hada-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/mackas-mi-hada-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/mackas-mi-hada-maniak"
+}

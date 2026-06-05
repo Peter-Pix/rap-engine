@@ -3,9 +3,9 @@
 import { useState } from 'react'
 
 // ═══════════════════════════════════════════════════════════════
-// FeedFilters — řádek nad grid: "FEED  N článků  ●NEPŘEČTENÉ  ≡FILTR"
+// FeedFilters — řádek nad grid: "FEED  N článků  ●NEPŘEČTENÉ  ↻NÁHODNÉ  ≡FILTR"
 //
-// MVP: unread toggle a filter dropdown jsou client-side přepínače.
+// MVP: unread toggle, random toggle a filter dropdown jsou client-side přepínače.
 // Reálnou logiku zapojíš až později (localStorage reading state,
 // URLSearchParams pro category/tag filter).
 // ═══════════════════════════════════════════════════════════════
@@ -18,20 +18,24 @@ interface FeedFiltersProps {
 
 export interface FilterState {
   unreadOnly: boolean
+  randomOrder: boolean
   category: string | null
 }
 
 export function FeedFilters({ totalCount, onChange }: FeedFiltersProps) {
   const [unreadOnly, setUnreadOnly] = useState(false)
+  const [randomOrder, setRandomOrder] = useState(false)
   const [category, setCategory] = useState<string | null>(null)
   const [filterOpen, setFilterOpen] = useState(false)
 
   const update = (next: Partial<FilterState>) => {
-    const nextState = {
-      unreadOnly: next.unreadOnly ?? unreadOnly,
+    const nextState: FilterState = {
+      unreadOnly: next.unreadOnly !== undefined ? next.unreadOnly : unreadOnly,
+      randomOrder: next.randomOrder !== undefined ? next.randomOrder : randomOrder,
       category: next.category !== undefined ? next.category : category,
     }
     if (next.unreadOnly !== undefined) setUnreadOnly(nextState.unreadOnly)
+    if (next.randomOrder !== undefined) setRandomOrder(nextState.randomOrder)
     if (next.category !== undefined) setCategory(nextState.category)
     onChange?.(nextState)
   }
@@ -50,6 +54,7 @@ export function FeedFilters({ totalCount, onChange }: FeedFiltersProps) {
 
       {/* Right: filters */}
       <div className="flex items-center gap-2">
+        {/* Unread toggle */}
         <button
           type="button"
           onClick={() => update({ unreadOnly: !unreadOnly })}
@@ -65,6 +70,25 @@ export function FeedFilters({ totalCount, onChange }: FeedFiltersProps) {
           Nepřečtené
         </button>
 
+        {/* Random toggle */}
+        <button
+          type="button"
+          onClick={() => update({ randomOrder: !randomOrder })}
+          aria-pressed={randomOrder}
+          className={[
+            'inline-flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-mono font-bold uppercase tracking-widest rounded-full ring-1 transition-colors',
+            randomOrder
+              ? 'bg-amber-500/20 text-amber-300 ring-amber-500/40'
+              : 'bg-white/[0.04] text-zinc-400 ring-white/10 hover:text-zinc-200 hover:ring-white/20',
+          ].join(' ')}
+        >
+          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
+          Náhodné
+        </button>
+
+        {/* Category filter dropdown */}
         <div className="relative">
           <button
             type="button"

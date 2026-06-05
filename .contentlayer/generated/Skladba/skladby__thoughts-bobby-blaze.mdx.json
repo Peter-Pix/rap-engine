@@ -1,0 +1,33 @@
+{
+  "title": "Thoughts",
+  "slug": "thoughts-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "The Prodigal Son",
+  "albumSlug": "the-prodigal-son",
+  "year": 2021,
+  "genre": [],
+  "duration": "7:00",
+  "trackNumber": 14,
+  "producers": [],
+  "producersNames": [],
+  "description": "Thoughts — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of m(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?h(p(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>u(a({},\"__esModule\",{value:!0}),e);var b=x((S,l)=>{l.exports=_jsx_runtime});var z={};f(z,{default:()=>d,frontmatter:()=>j});var r=_(b()),j={title:\"Thoughts\",slug:\"thoughts-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"7:00\",trackNumber:14,producers:[],producersNames:[],description:\"Thoughts \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return y(z);})();\n;return Component;"
+  },
+  "_id": "skladby/thoughts-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/thoughts-bobby-blaze.mdx",
+    "sourceFileName": "thoughts-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/thoughts-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/thoughts-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/thoughts-bobby-blaze"
+}

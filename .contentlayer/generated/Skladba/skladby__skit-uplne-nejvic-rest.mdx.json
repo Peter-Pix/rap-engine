@@ -1,0 +1,37 @@
+{
+  "title": "Skit úplně nejvíc",
+  "slug": "skit-uplne-nejvic-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Premiéra",
+  "albumSlug": "premiera",
+  "year": 2010,
+  "genre": [],
+  "duration": "2:08",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Skit úplně nejvíc — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!j.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=d(t,s))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(a({},\"__esModule\",{value:!0}),e);var u=f((D,i)=>{i.exports=_jsx_runtime});var S={};_(S,{default:()=>p,frontmatter:()=>k});var r=b(u()),k={title:\"Skit \\xFApln\\u011B nejv\\xEDc\",slug:\"skit-uplne-nejvic-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"2:08\",trackNumber:16,producers:[],producersNames:[],description:\"Skit \\xFApln\\u011B nejv\\xEDc \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(S);})();\n;return Component;"
+  },
+  "_id": "skladby/skit-uplne-nejvic-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/skit-uplne-nejvic-rest.mdx",
+    "sourceFileName": "skit-uplne-nejvic-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/skit-uplne-nejvic-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/skit-uplne-nejvic-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/skit-uplne-nejvic-rest"
+}

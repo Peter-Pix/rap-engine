@@ -1,0 +1,30 @@
+{
+  "title": "Bengoro Trip",
+  "slug": "bengoro-trip",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "Lavutaris Records",
+  "year": 2023,
+  "genre": [],
+  "description": "Bengoro Trip — singl od Bobby Blaze (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/9d6cf6c985d7d9fbb4705ec426c885f4/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Bengoro Trip"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var b=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of g(n))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(c=m(n,o))||c.enumerable});return e};var B=(e,n,r)=>(r=e!=null?b(u(e)):{},i(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var l=x((M,s)=>{s.exports=_jsx_runtime});var y={};f(y,{default:()=>d,frontmatter:()=>j});var t=B(l()),j={title:\"Bengoro Trip\",slug:\"bengoro-trip\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"Lavutaris Records\",year:2023,genre:[],description:\"Bengoro Trip \\u2014 singl od Bobby Blaze (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/9d6cf6c985d7d9fbb4705ec426c885f4/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bengoro Trip\"],publishedAt:\"2026-06-04\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "alba/bengoro-trip.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/bengoro-trip.mdx",
+    "sourceFileName": "bengoro-trip.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/bengoro-trip"
+  },
+  "type": "Album",
+  "url": "/alba/bengoro-trip",
+  "canonicalUrl": "https://4rap.cz/alba/bengoro-trip"
+}

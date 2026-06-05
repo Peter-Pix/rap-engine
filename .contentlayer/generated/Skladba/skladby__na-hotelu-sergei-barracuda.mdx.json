@@ -1,0 +1,37 @@
+{
+  "title": "Na Hotelu",
+  "slug": "na-hotelu-sergei-barracuda",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "features": [
+    "pastor"
+  ],
+  "featuresNames": [
+    "Pastor"
+  ],
+  "album": "713",
+  "albumSlug": "713",
+  "year": 2017,
+  "genre": [],
+  "duration": "4:01",
+  "trackNumber": 14,
+  "producers": [],
+  "producersNames": [],
+  "description": "Na Hotelu — skladba od Sergei Barracuda.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?m(h(e)):{},u(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var d=b((k,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>l,frontmatter:()=>N});var t=_(d()),N={title:\"Na Hotelu\",slug:\"na-hotelu-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pastor\"],featuresNames:[\"Pastor\"],album:\"713\",albumSlug:\"713\",year:2017,genre:[],duration:\"4:01\",trackNumber:14,producers:[],producersNames:[],description:\"Na Hotelu \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/na-hotelu-sergei-barracuda.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/na-hotelu-sergei-barracuda.mdx",
+    "sourceFileName": "na-hotelu-sergei-barracuda.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/na-hotelu-sergei-barracuda"
+  },
+  "type": "Skladba",
+  "url": "/skladby/na-hotelu-sergei-barracuda",
+  "canonicalUrl": "https://4rap.cz/skladby/na-hotelu-sergei-barracuda"
+}

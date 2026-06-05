@@ -1,0 +1,30 @@
+{
+  "title": "Jizvy",
+  "slug": "jizvy",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2019,
+  "genre": [],
+  "description": "Jizvy — singl od CÂLIN (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3c5fe60359bd14a5aafa04c39a6d92f0/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Jizvy"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(c=u(t,a))||c.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(g(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var l=f((C,o)=>{o.exports=_jsx_runtime});var z={};j(z,{default:()=>p,frontmatter:()=>y});var n=_(l()),y={title:\"Jizvy\",slug:\"jizvy\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2019,genre:[],description:\"Jizvy \\u2014 singl od C\\xC2LIN (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/3c5fe60359bd14a5aafa04c39a6d92f0/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Jizvy\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(z);})();\n;return Component;"
+  },
+  "_id": "alba/jizvy.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/jizvy.mdx",
+    "sourceFileName": "jizvy.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/jizvy"
+  },
+  "type": "Album",
+  "url": "/alba/jizvy",
+  "canonicalUrl": "https://4rap.cz/alba/jizvy"
+}

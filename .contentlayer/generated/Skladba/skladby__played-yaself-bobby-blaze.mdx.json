@@ -1,0 +1,33 @@
+{
+  "title": "Played Yaself",
+  "slug": "played-yaself-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Highs & Lows",
+  "albumSlug": "highs-lows",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:34",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Played Yaself — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=m(t,a))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?i(h(e)):{},l(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var b=x((w,u)=>{u.exports=_jsx_runtime});var z={};y(z,{default:()=>d,frontmatter:()=>j});var r=g(b()),j={title:\"Played Yaself\",slug:\"played-yaself-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Highs & Lows\",albumSlug:\"highs-lows\",year:2025,genre:[],duration:\"2:34\",trackNumber:3,producers:[],producersNames:[],description:\"Played Yaself \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(z);})();\n;return Component;"
+  },
+  "_id": "skladby/played-yaself-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/played-yaself-bobby-blaze.mdx",
+    "sourceFileName": "played-yaself-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/played-yaself-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/played-yaself-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/played-yaself-bobby-blaze"
+}

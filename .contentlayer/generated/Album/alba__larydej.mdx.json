@@ -1,0 +1,30 @@
+{
+  "title": "LaryDej",
+  "slug": "larydej",
+  "rapper": "Cinque Stelle",
+  "rapperSlug": "cinque-stelle",
+  "label": "Cinque Stelle & Bobby Blaze",
+  "year": 2024,
+  "genre": [],
+  "description": "LaryDej — singl od Cinque Stelle (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/822bd552f5be7f3afcb3c94b3450b773/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "LaryDej"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let l of b(t))!h.call(e,l)&&l!==r&&a(e,l,{get:()=>t[l],enumerable:!(i=p(t,l))||i.enumerable});return e};var f=(e,t,r)=>(r=e!=null?m(g(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>s(a({},\"__esModule\",{value:!0}),e);var o=j((S,c)=>{c.exports=_jsx_runtime});var C={};x(C,{default:()=>u,frontmatter:()=>_});var n=f(o()),_={title:\"LaryDej\",slug:\"larydej\",rapper:\"Cinque Stelle\",rapperSlug:\"cinque-stelle\",label:\"Cinque Stelle & Bobby Blaze\",year:2024,genre:[],description:\"LaryDej \\u2014 singl od Cinque Stelle (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/822bd552f5be7f3afcb3c94b3450b773/1000x1000-000000-80-0-0.jpg\",tracklist:[\"LaryDej\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return y(C);})();\n;return Component;"
+  },
+  "_id": "alba/larydej.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/larydej.mdx",
+    "sourceFileName": "larydej.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/larydej"
+  },
+  "type": "Album",
+  "url": "/alba/larydej",
+  "canonicalUrl": "https://4rap.cz/alba/larydej"
+}

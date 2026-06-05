@@ -1,0 +1,37 @@
+{
+  "title": "Co kdyby jo",
+  "slug": "co-kdyby-jo-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [
+    "slavena-tiger"
+  ],
+  "featuresNames": [
+    "Slavena Tiger"
+  ],
+  "album": "Tango & Kouř",
+  "albumSlug": "tango-kour",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:15",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Co kdyby jo — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},u=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!g.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=m(t,r))||s.enumerable});return e};var j=(e,t,o)=>(o=e!=null?i(y(e)):{},u(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),f=e=>u(a({},\"__esModule\",{value:!0}),e);var l=x((B,b)=>{b.exports=_jsx_runtime});var k={};h(k,{default:()=>d,frontmatter:()=>_});var n=j(l()),_={title:\"Co kdyby jo\",slug:\"co-kdyby-jo-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"slavena-tiger\"],featuresNames:[\"Slavena Tiger\"],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[],duration:\"3:15\",trackNumber:8,producers:[],producersNames:[],description:\"Co kdyby jo \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return f(k);})();\n;return Component;"
+  },
+  "_id": "skladby/co-kdyby-jo-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/co-kdyby-jo-bobby-blaze.mdx",
+    "sourceFileName": "co-kdyby-jo-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/co-kdyby-jo-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/co-kdyby-jo-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/co-kdyby-jo-bobby-blaze"
+}

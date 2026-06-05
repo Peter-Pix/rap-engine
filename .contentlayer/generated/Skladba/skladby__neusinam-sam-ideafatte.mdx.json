@@ -1,0 +1,37 @@
+{
+  "title": "Neusínám sám",
+  "slug": "neusinam-sam-ideafatte",
+  "rapper": "IdeaFatte",
+  "rapperSlug": "ideafatte",
+  "features": [
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "DJ Fatte"
+  ],
+  "album": "Mezitím",
+  "albumSlug": "mezitim",
+  "year": 2008,
+  "genre": [],
+  "duration": "4:26",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Neusínám sám — skladba od IdeaFatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of f(t))!h.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(m=p(t,r))||m.enumerable});return e};var g=(e,t,a)=>(a=e!=null?l(x(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var i=_((D,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>c,frontmatter:()=>F});var n=g(i()),F={title:\"Neus\\xEDn\\xE1m s\\xE1m\",slug:\"neusinam-sam-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[],duration:\"4:26\",trackNumber:8,producers:[],producersNames:[],description:\"Neus\\xEDn\\xE1m s\\xE1m \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/neusinam-sam-ideafatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/neusinam-sam-ideafatte.mdx",
+    "sourceFileName": "neusinam-sam-ideafatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/neusinam-sam-ideafatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/neusinam-sam-ideafatte",
+  "canonicalUrl": "https://4rap.cz/skladby/neusinam-sam-ideafatte"
+}

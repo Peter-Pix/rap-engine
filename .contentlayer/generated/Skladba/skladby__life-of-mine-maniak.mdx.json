@@ -1,0 +1,37 @@
+{
+  "title": "Life of Mine",
+  "slug": "life-of-mine-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "lil-maniak"
+  ],
+  "featuresNames": [
+    "Lil Maniak"
+  ],
+  "album": "Maniak Muzik",
+  "albumSlug": "maniak-muzik",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:38",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Life of Mine — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),h=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of f(n))!x.call(e,r)&&r!==t&&i(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?d(k(e)):{},s(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var u=M((N,m)=>{m.exports=_jsx_runtime});var j={};h(j,{default:()=>c,frontmatter:()=>g});var a=_(u()),g={title:\"Life of Mine\",slug:\"life-of-mine-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"3:38\",trackNumber:9,producers:[],producersNames:[],description:\"Life of Mine \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/life-of-mine-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/life-of-mine-maniak.mdx",
+    "sourceFileName": "life-of-mine-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/life-of-mine-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/life-of-mine-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/life-of-mine-maniak"
+}

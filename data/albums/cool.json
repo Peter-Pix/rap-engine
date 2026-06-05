@@ -1,0 +1,158 @@
+{
+  "id": "album_cool",
+  "kind": "album",
+  "slug": "cool",
+  "title": "Cool!",
+  "aliases": [],
+  "summary": "",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/1000x1000-000000-80-0-0.jpg",
+  "status": "stub",
+  "createdAt": "2026-06-04",
+  "updatedAt": "2026-06-04",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "james-cole"
+    },
+    "features": [],
+    "label": null,
+    "labelName": "Soundstripe Productions LLC",
+    "year": 2022,
+    "type": "single",
+    "genres": [],
+    "trackTitles": [
+      "Cool!"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 374463927,
+    "upc": "7316471534795",
+    "nbTracks": 1
+  },
+  "significance": {
+    "why": "",
+    "whatChanged": "",
+    "context": "",
+    "distinguishing": "",
+    "oneLiner": ""
+  },
+  "timeline": [],
+  "quotes": [],
+  "faq": [],
+  "hasLongform": false,
+  "seo": {
+    "noindex": true
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-04T21:46:41.807Z",
+    "source": "https://api.deezer.com/album/374463927",
+    "raw": {
+      "id": 374463927,
+      "title": "Cool!",
+      "upc": "7316471534795",
+      "link": "https://www.deezer.com/album/374463927",
+      "share": "https://www.deezer.com/album/374463927?utm_source=deezer&utm_content=album-374463927&utm_term=0_1780609601&utm_medium=web",
+      "cover": "https://api.deezer.com/album/374463927/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "6205731f03acc3d0421d7293b71f7830",
+      "genre_id": 132,
+      "genres": {
+        "data": [
+          {
+            "id": 132,
+            "name": "Pop",
+            "picture": "https://api.deezer.com/genre/132/image",
+            "type": "genre"
+          },
+          {
+            "id": 165,
+            "name": "R&B",
+            "picture": "https://api.deezer.com/genre/165/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Soundstripe Productions LLC",
+      "nb_tracks": 1,
+      "duration": 144,
+      "fans": 1,
+      "release_date": "2022-11-18",
+      "record_type": "single",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/374463927/tracks",
+      "explicit_lyrics": false,
+      "explicit_content_lyrics": 0,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 377020,
+          "name": "James Cole",
+          "link": "https://www.deezer.com/artist/377020",
+          "share": "https://www.deezer.com/artist/377020?utm_source=deezer&utm_content=artist-377020&utm_term=0_1780609601&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/377020/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/377020/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 377020,
+        "name": "James Cole",
+        "picture": "https://api.deezer.com/artist/377020/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/377020/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 2010431847,
+            "readable": true,
+            "title": "Cool!",
+            "title_short": "Cool!",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2010431847",
+            "duration": 144,
+            "rank": 25699,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/5/5/0/a5584c9448bc405504114f092c97c450.mp3?hdnea=exp=1780610501~acl=/api/1/1/a/5/5/0/a5584c9448bc405504114f092c97c450.mp3*~data=user_id=0,application_id=42~hmac=53204027bf36883eb6d0f820f0364fb526c88982fb534a79dfc94ff623c0a592",
+            "md5_image": "6205731f03acc3d0421d7293b71f7830",
+            "artist": {
+              "id": 377020,
+              "name": "James Cole",
+              "tracklist": "https://api.deezer.com/artist/377020/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 374463927,
+              "title": "Cool!",
+              "cover": "https://api.deezer.com/album/374463927/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "6205731f03acc3d0421d7293b71f7830",
+              "tracklist": "https://api.deezer.com/album/374463927/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

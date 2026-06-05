@@ -1,0 +1,30 @@
+{
+  "title": "Dres",
+  "slug": "dres",
+  "rapper": "Forest Blunt",
+  "rapperSlug": "forest-blunt",
+  "label": "Forest Blunt",
+  "year": 2025,
+  "genre": [],
+  "description": "Dres — singl od Forest Blunt (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6b602f0b44581151dbe810adee261285/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Dres"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of g(t))!x.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(a=p(t,s))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var i=b((M,c)=>{c.exports=_jsx_runtime});var F={};f(F,{default:()=>u,frontmatter:()=>D});var n=_(i()),D={title:\"Dres\",slug:\"dres\",rapper:\"Forest Blunt\",rapperSlug:\"forest-blunt\",label:\"Forest Blunt\",year:2025,genre:[],description:\"Dres \\u2014 singl od Forest Blunt (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/6b602f0b44581151dbe810adee261285/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Dres\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(F);})();\n;return Component;"
+  },
+  "_id": "alba/dres.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/dres.mdx",
+    "sourceFileName": "dres.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/dres"
+  },
+  "type": "Album",
+  "url": "/alba/dres",
+  "canonicalUrl": "https://4rap.cz/alba/dres"
+}

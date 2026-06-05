@@ -1,0 +1,30 @@
+{
+  "title": "Bugs Bunny",
+  "slug": "bugs-bunny",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "WM Czech Republic",
+  "year": 2024,
+  "genre": [],
+  "description": "Bugs Bunny — singl od Maniak (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/83b049c78a06c717491c64d63867efc1/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Bugs Bunny"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of g(e))!x.call(n,a)&&a!==r&&s(n,a,{get:()=>e[a],enumerable:!(c=d(e,a))||c.enumerable});return n};var f=(n,e,r)=>(r=n!=null?p(h(n)):{},i(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),j=n=>i(s({},\"__esModule\",{value:!0}),n);var u=b((k,o)=>{o.exports=_jsx_runtime});var B={};_(B,{default:()=>m,frontmatter:()=>y});var t=f(u()),y={title:\"Bugs Bunny\",slug:\"bugs-bunny\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"WM Czech Republic\",year:2024,genre:[],description:\"Bugs Bunny \\u2014 singl od Maniak (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/83b049c78a06c717491c64d63867efc1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bugs Bunny\"],publishedAt:\"2026-06-04\"};function l(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return j(B);})();\n;return Component;"
+  },
+  "_id": "alba/bugs-bunny.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/bugs-bunny.mdx",
+    "sourceFileName": "bugs-bunny.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/bugs-bunny"
+  },
+  "type": "Album",
+  "url": "/alba/bugs-bunny",
+  "canonicalUrl": "https://4rap.cz/alba/bugs-bunny"
+}

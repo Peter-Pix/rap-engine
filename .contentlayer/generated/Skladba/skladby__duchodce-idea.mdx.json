@@ -1,0 +1,33 @@
+{
+  "title": "Důchodce",
+  "slug": "duchodce-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [],
+  "featuresNames": [],
+  "album": "Daleko blíž",
+  "albumSlug": "daleko-bliz",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:07",
+  "trackNumber": 3,
+  "producers": [],
+  "producersNames": [],
+  "description": "Důchodce — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(c=p(t,a))||c.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(x(e)):{},d(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var u=f((N,s)=>{s.exports=_jsx_runtime});var k={};_(k,{default:()=>i,frontmatter:()=>D});var r=g(u()),D={title:\"D\\u016Fchodce\",slug:\"duchodce-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Daleko bl\\xED\\u017E\",albumSlug:\"daleko-bliz\",year:2012,genre:[],duration:\"3:07\",trackNumber:3,producers:[],producersNames:[],description:\"D\\u016Fchodce \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/duchodce-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/duchodce-idea.mdx",
+    "sourceFileName": "duchodce-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/duchodce-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/duchodce-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/duchodce-idea"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Sellaví",
+  "slug": "sellavi-robin-zoot",
+  "rapper": "Robin Zoot",
+  "rapperSlug": "robin-zoot",
+  "features": [
+    "hard-rico"
+  ],
+  "featuresNames": [
+    "Hard Rico"
+  ],
+  "album": "PONYA",
+  "albumSlug": "ponya",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:10",
+  "trackNumber": 11,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sellaví — skladba od Robin Zoot.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(h(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(a({},\"__esModule\",{value:!0}),e);var c=f((y,l)=>{l.exports=_jsx_runtime});var N={};_(N,{default:()=>d,frontmatter:()=>S});var r=g(c()),S={title:\"Sellav\\xED\",slug:\"sellavi-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"hard-rico\"],featuresNames:[\"Hard Rico\"],album:\"PONYA\",albumSlug:\"ponya\",year:2024,genre:[],duration:\"3:10\",trackNumber:11,producers:[],producersNames:[],description:\"Sellav\\xED \\u2014 skladba od Robin Zoot.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/sellavi-robin-zoot.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sellavi-robin-zoot.mdx",
+    "sourceFileName": "sellavi-robin-zoot.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sellavi-robin-zoot"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sellavi-robin-zoot",
+  "canonicalUrl": "https://4rap.cz/skladby/sellavi-robin-zoot"
+}

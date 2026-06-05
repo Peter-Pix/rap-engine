@@ -1,0 +1,33 @@
+{
+  "title": "My Mom Is Chillin'",
+  "slug": "my-mom-is-chillin-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [],
+  "featuresNames": [],
+  "album": "Fatte No More",
+  "albumSlug": "fatte-no-more",
+  "year": 2012,
+  "genre": [],
+  "duration": "2:48",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "My Mom Is Chillin' — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(f(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>m(a({},\"__esModule\",{value:!0}),e);var l=M((C,i)=>{i.exports=_jsx_runtime});var y={};j(y,{default:()=>c,frontmatter:()=>g});var n=_(l()),g={title:\"My Mom Is Chillin'\",slug:\"my-mom-is-chillin-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[],duration:\"2:48\",trackNumber:12,producers:[],producersNames:[],description:\"My Mom Is Chillin' \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return b(y);})();\n;return Component;"
+  },
+  "_id": "skladby/my-mom-is-chillin-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/my-mom-is-chillin-dj-fatte.mdx",
+    "sourceFileName": "my-mom-is-chillin-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/my-mom-is-chillin-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/my-mom-is-chillin-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/my-mom-is-chillin-dj-fatte"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Mezitím",
+  "slug": "mezitim",
+  "rapper": "IdeaFatte",
+  "rapperSlug": "ideafatte",
+  "label": "WM Czech Republic",
+  "year": 2008,
+  "genre": [],
+  "description": "Mezitím — album od IdeaFatte (2008).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a0d9f81a02eb3524978d94c0ab1daa4d/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Mezitím",
+    "Neminout cíl (feat. The Movement)",
+    "Stejný jako včera",
+    "Co nemáš, můžeš mít",
+    "Nepochopíš",
+    "Navždy stejný",
+    "Noční směna (feat. Supa)",
+    "Neusínám sám",
+    "Zion RMX",
+    "Začínáš, končíš",
+    "Nemusíš, když nechceš",
+    "Zranitelný",
+    "Kolik stojí?"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var m=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var a in t)m(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==a&&m(e,o,{get:()=>t[o],enumerable:!(r=u(t,o))||r.enumerable});return e};var M=(e,t,a)=>(a=e!=null?p(j(e)):{},i(t||!e||!e.__esModule?m(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>i(m({},\"__esModule\",{value:!0}),e);var c=f((k,s)=>{s.exports=_jsx_runtime});var z={};g(z,{default:()=>l,frontmatter:()=>_});var n=M(c()),_={title:\"Mezit\\xEDm\",slug:\"mezitim\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",label:\"WM Czech Republic\",year:2008,genre:[],description:\"Mezit\\xEDm \\u2014 album od IdeaFatte (2008).\",image:\"https://cdn-images.dzcdn.net/images/cover/a0d9f81a02eb3524978d94c0ab1daa4d/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Mezit\\xEDm\",\"Neminout c\\xEDl (feat. The Movement)\",\"Stejn\\xFD jako v\\u010Dera\",\"Co nem\\xE1\\u0161, m\\u016F\\u017Ee\\u0161 m\\xEDt\",\"Nepochop\\xED\\u0161\",\"Nav\\u017Edy stejn\\xFD\",\"No\\u010Dn\\xED sm\\u011Bna (feat. Supa)\",\"Neus\\xEDn\\xE1m s\\xE1m\",\"Zion RMX\",\"Za\\u010D\\xEDn\\xE1\\u0161, kon\\u010D\\xED\\u0161\",\"Nemus\\xED\\u0161, kdy\\u017E nechce\\u0161\",\"Zraniteln\\xFD\",\"Kolik stoj\\xED?\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(z);})();\n;return Component;"
+  },
+  "_id": "alba/mezitim.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/mezitim.mdx",
+    "sourceFileName": "mezitim.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/mezitim"
+  },
+  "type": "Album",
+  "url": "/alba/mezitim",
+  "canonicalUrl": "https://4rap.cz/alba/mezitim"
+}

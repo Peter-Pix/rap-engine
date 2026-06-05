@@ -1,0 +1,33 @@
+{
+  "title": "Sme to my",
+  "slug": "sme-to-my-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [],
+  "featuresNames": [],
+  "album": "Tempo",
+  "albumSlug": "tempo",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:02",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sme to my — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(m=l(t,o))||m.enumerable});return e};var g=(e,t,n)=>(n=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var d=_((N,u)=>{u.exports=_jsx_runtime});var S={};b(S,{default:()=>i,frontmatter:()=>y});var r=g(d()),y={title:\"Sme to my\",slug:\"sme-to-my-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[],duration:\"3:02\",trackNumber:1,producers:[],producersNames:[],description:\"Sme to my \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/sme-to-my-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sme-to-my-idea.mdx",
+    "sourceFileName": "sme-to-my-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sme-to-my-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sme-to-my-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/sme-to-my-idea"
+}

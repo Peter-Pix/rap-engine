@@ -1,0 +1,39 @@
+{
+  "title": "2C-B",
+  "slug": "2c-b-nik-tendo",
+  "rapper": "Nik Tendo",
+  "rapperSlug": "nik-tendo",
+  "features": [
+    "decky",
+    "loudz1"
+  ],
+  "featuresNames": [
+    "Decky",
+    "Loudz1"
+  ],
+  "album": "GoldKiid",
+  "albumSlug": "goldkiid",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:49",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "2C-B — skladba od Nik Tendo.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)d(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!k.call(e,o)&&o!==r&&d(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(h(e)):{},a(t||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>a(d({},\"__esModule\",{value:!0}),e);var u=b((C,i)=>{i.exports=_jsx_runtime});var N={};f(N,{default:()=>l,frontmatter:()=>j});var n=g(u()),j={title:\"2C-B\",slug:\"2c-b-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"loudz1\"],featuresNames:[\"Decky\",\"Loudz1\"],album:\"GoldKiid\",albumSlug:\"goldkiid\",year:2025,genre:[],duration:\"2:49\",trackNumber:12,producers:[],producersNames:[],description:\"2C-B \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(N);})();\n;return Component;"
+  },
+  "_id": "skladby/2c-b-nik-tendo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/2c-b-nik-tendo.mdx",
+    "sourceFileName": "2c-b-nik-tendo.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/2c-b-nik-tendo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/2c-b-nik-tendo",
+  "canonicalUrl": "https://4rap.cz/skladby/2c-b-nik-tendo"
+}

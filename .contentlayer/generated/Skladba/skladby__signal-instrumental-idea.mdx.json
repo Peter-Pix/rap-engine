@@ -1,0 +1,33 @@
+{
+  "title": "Signal (Instrumental)",
+  "slug": "signal-instrumental-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [],
+  "featuresNames": [],
+  "album": "Tempo (Instrumental)",
+  "albumSlug": "tempo-instrumental",
+  "year": 2020,
+  "genre": [],
+  "duration": "3:33",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Signal (Instrumental) — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?c(g(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var l=f((N,m)=>{m.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>I});var n=b(l()),I={title:\"Signal (Instrumental)\",slug:\"signal-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[],duration:\"3:33\",trackNumber:2,producers:[],producersNames:[],description:\"Signal (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/signal-instrumental-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/signal-instrumental-idea.mdx",
+    "sourceFileName": "signal-instrumental-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/signal-instrumental-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/signal-instrumental-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/signal-instrumental-idea"
+}

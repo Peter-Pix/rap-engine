@@ -1,0 +1,39 @@
+{
+  "title": "Ztraceno v překladu",
+  "slug": "ztraceno-v-prekladu-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "idea",
+    "zdenka-predna"
+  ],
+  "featuresNames": [
+    "Idea",
+    "Zdenka Predna"
+  ],
+  "album": "Soundtrack",
+  "albumSlug": "soundtrack",
+  "year": 2013,
+  "genre": [],
+  "duration": "3:20",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ztraceno v překladu — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(d=i(t,a))||d.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(f(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var c=k((S,u)=>{u.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>g});var n=_(c()),g={title:\"Ztraceno v p\\u0159ekladu\",slug:\"ztraceno-v-prekladu-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"idea\",\"zdenka-predna\"],featuresNames:[\"Idea\",\"Zdenka Predna\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"3:20\",trackNumber:9,producers:[],producersNames:[],description:\"Ztraceno v p\\u0159ekladu \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return b(D);})();\n;return Component;"
+  },
+  "_id": "skladby/ztraceno-v-prekladu-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ztraceno-v-prekladu-dj-fatte.mdx",
+    "sourceFileName": "ztraceno-v-prekladu-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ztraceno-v-prekladu-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ztraceno-v-prekladu-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/ztraceno-v-prekladu-dj-fatte"
+}

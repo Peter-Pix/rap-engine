@@ -1,0 +1,35 @@
+{
+  "title": "Highs & Lows",
+  "slug": "highs-lows",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "Bobby Blaze",
+  "year": 2025,
+  "genre": [],
+  "description": "Highs & Lows — album od Bobby Blaze (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/4040a02db6ca8421b8953a591e5bb188/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Breakdown",
+    "Zookies",
+    "Played Yaself",
+    "The GYST",
+    "The Champ",
+    "Toe Tag"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},l=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!u.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var B=(e,t,a)=>(a=e!=null?h(g(e)):{},l(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>l(r({},\"__esModule\",{value:!0}),e);var c=x((z,i)=>{i.exports=_jsx_runtime});var j={};y(j,{default:()=>d,frontmatter:()=>f});var n=B(c()),f={title:\"Highs & Lows\",slug:\"highs-lows\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"Bobby Blaze\",year:2025,genre:[],description:\"Highs & Lows \\u2014 album od Bobby Blaze (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/4040a02db6ca8421b8953a591e5bb188/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Breakdown\",\"Zookies\",\"Played Yaself\",\"The GYST\",\"The Champ\",\"Toe Tag\"],publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "alba/highs-lows.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/highs-lows.mdx",
+    "sourceFileName": "highs-lows.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/highs-lows"
+  },
+  "type": "Album",
+  "url": "/alba/highs-lows",
+  "canonicalUrl": "https://4rap.cz/alba/highs-lows"
+}

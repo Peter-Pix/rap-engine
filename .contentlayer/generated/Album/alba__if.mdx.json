@@ -1,0 +1,31 @@
+{
+  "title": "IF",
+  "slug": "if",
+  "rapper": "IF",
+  "rapperSlug": "if",
+  "label": "WM Czech Republic",
+  "year": 2017,
+  "genre": [],
+  "description": "IF — singl od IF (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/fa76bd39cc41de48fbdbc79ae345a1ad/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "IF",
+    "IF (Instrumental)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&c(e,a,{get:()=>t[a],enumerable:!(s=u(t,a))||s.enumerable});return e};var F=(e,t,r)=>(r=e!=null?p(g(e)):{},i(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),I=e=>i(c({},\"__esModule\",{value:!0}),e);var d=f((C,o)=>{o.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>_});var n=F(d()),_={title:\"IF\",slug:\"if\",rapper:\"IF\",rapperSlug:\"if\",label:\"WM Czech Republic\",year:2017,genre:[],description:\"IF \\u2014 singl od IF (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/fa76bd39cc41de48fbdbc79ae345a1ad/1000x1000-000000-80-0-0.jpg\",tracklist:[\"IF\",\"IF (Instrumental)\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return I(j);})();\n;return Component;"
+  },
+  "_id": "alba/if.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/if.mdx",
+    "sourceFileName": "if.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/if"
+  },
+  "type": "Album",
+  "url": "/alba/if",
+  "canonicalUrl": "https://4rap.cz/alba/if"
+}

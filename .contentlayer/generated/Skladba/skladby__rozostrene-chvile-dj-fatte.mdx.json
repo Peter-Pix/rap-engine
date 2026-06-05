@@ -1,0 +1,39 @@
+{
+  "title": "Rozostřené Chvíle",
+  "slug": "rozostrene-chvile-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "tomba",
+    "roseck"
+  ],
+  "featuresNames": [
+    "Tomba",
+    "Roseck"
+  ],
+  "album": "Fade In",
+  "albumSlug": "fade-in",
+  "year": 2018,
+  "genre": [],
+  "duration": "3:12",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rozostřené Chvíle — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(f(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(a({},\"__esModule\",{value:!0}),e);var d=b((D,u)=>{u.exports=_jsx_runtime});var k={};j(k,{default:()=>l,frontmatter:()=>F});var n=_(d()),F={title:\"Rozost\\u0159en\\xE9 Chv\\xEDle\",slug:\"rozostrene-chvile-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"tomba\",\"roseck\"],featuresNames:[\"Tomba\",\"Roseck\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[],duration:\"3:12\",trackNumber:10,producers:[],producersNames:[],description:\"Rozost\\u0159en\\xE9 Chv\\xEDle \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/rozostrene-chvile-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rozostrene-chvile-dj-fatte.mdx",
+    "sourceFileName": "rozostrene-chvile-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rozostrene-chvile-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rozostrene-chvile-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/rozostrene-chvile-dj-fatte"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Incia",
+  "slug": "incia-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [],
+  "featuresNames": [],
+  "album": "Piedestal EP",
+  "albumSlug": "piedestal-ep",
+  "year": 2022,
+  "genre": [],
+  "duration": "2:40",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Incia — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(h(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var d=_((S,c)=>{c.exports=_jsx_runtime});var M={};b(M,{default:()=>l,frontmatter:()=>I});var n=g(d()),I={title:\"Incia\",slug:\"incia-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Piedestal EP\",albumSlug:\"piedestal-ep\",year:2022,genre:[],duration:\"2:40\",trackNumber:6,producers:[],producersNames:[],description:\"Incia \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/incia-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/incia-idea.mdx",
+    "sourceFileName": "incia-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/incia-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/incia-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/incia-idea"
+}

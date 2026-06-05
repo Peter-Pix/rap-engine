@@ -1,0 +1,33 @@
+{
+  "title": "Monstrum",
+  "slug": "monstrum-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [],
+  "featuresNames": [],
+  "album": "Moby Dick",
+  "albumSlug": "moby-dick",
+  "year": 2013,
+  "genre": [],
+  "duration": "4:26",
+  "trackNumber": 7,
+  "producers": [],
+  "producersNames": [],
+  "description": "Monstrum — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!b.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var c=f((C,u)=>{u.exports=_jsx_runtime});var k={};j(k,{default:()=>i,frontmatter:()=>M});var r=_(c()),M={title:\"Monstrum\",slug:\"monstrum-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[],duration:\"4:26\",trackNumber:7,producers:[],producersNames:[],description:\"Monstrum \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/monstrum-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/monstrum-james-cole.mdx",
+    "sourceFileName": "monstrum-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/monstrum-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/monstrum-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/monstrum-james-cole"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "NADARAV",
+  "slug": "nadarav-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "NADARAV",
+  "albumSlug": "nadarav",
+  "year": 2024,
+  "genre": [],
+  "duration": "4:36",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "NADARAV — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!A.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=i(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var b=h((D,l)=>{l.exports=_jsx_runtime});var N={};f(N,{default:()=>d,frontmatter:()=>y});var r=_(b()),y={title:\"NADARAV\",slug:\"nadarav-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"NADARAV\",albumSlug:\"nadarav\",year:2024,genre:[],duration:\"4:36\",trackNumber:1,producers:[],producersNames:[],description:\"NADARAV \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/nadarav-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nadarav-bobby-blaze.mdx",
+    "sourceFileName": "nadarav-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nadarav-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nadarav-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/nadarav-bobby-blaze"
+}

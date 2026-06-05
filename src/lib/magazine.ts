@@ -82,6 +82,29 @@ export function getTrendingArticles(articles: Clanek[], excludeSlug?: string, li
   return scored.slice(0, limit).map((s) => toListItem(s.article))
 }
 
+/**
+ * Random = náhodný výběr článků (Fisher-Yates partial shuffle).
+ *   • Výběr je uniformní — každý článek má stejnou šanci.
+ *   • Partial shuffle = O(limit) místo O(n) pro velká pole.
+ */
+export function getRandomArticles(
+  articles: Clanek[],
+  options?: { excludeSlug?: string; limit?: number }
+): ArticleListItem[] {
+  if (!articles?.length) return []
+  const { excludeSlug, limit = 5 } = options ?? {}
+
+  const pool = excludeSlug ? articles.filter((a) => a.slug !== excludeSlug) : articles
+  const shuffled = pool.slice()
+
+  for (let i = 0; i < Math.min(limit, shuffled.length); i++) {
+    const j = i + Math.floor(Math.random() * (shuffled.length - i))
+    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+
+  return shuffled.slice(0, limit).map(toListItem)
+}
+
 /** Sekundární UI pomocníci */
 
 const byNewest = (a: Clanek, b: Clanek) =>

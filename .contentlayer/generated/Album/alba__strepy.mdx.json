@@ -1,0 +1,46 @@
+{
+  "title": "Střepy",
+  "slug": "strepy",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "label": "WM Czech Republic",
+  "year": 2013,
+  "genre": [],
+  "description": "Střepy — album od Rest (2013).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/129f9ddf951479df435c9d139e2a6438/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Nic novýho",
+    "Blázen",
+    "Noční směna (feat. Strapo)",
+    "Lóvesong",
+    "Střepy",
+    "Nepiš (feat. Idea, Martin Svátek)",
+    "Mám to jinak",
+    "Amok",
+    "Revizor (feat. Separ, Majself)",
+    "V moci démonů (feat. Boy Wonder)",
+    "Sklerotik",
+    "L.S.D. (feat. Paulie Garand, Martin Svátek)",
+    "Smířená",
+    "Smrtelník (feat. Majself)",
+    "Raz, dva",
+    "Správnej čas, správný místo (feat. MVP)",
+    "Pane Bože"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var S=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=f(t,r))||s.enumerable});return e};var x=(e,t,a)=>(a=e!=null?l(S(e)):{},i(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),M=e=>i(o({},\"__esModule\",{value:!0}),e);var c=g((_,p)=>{p.exports=_jsx_runtime});var k={};j(k,{default:()=>d,frontmatter:()=>v});var n=x(c()),v={title:\"St\\u0159epy\",slug:\"strepy\",rapper:\"Rest\",rapperSlug:\"rest\",label:\"WM Czech Republic\",year:2013,genre:[],description:\"St\\u0159epy \\u2014 album od Rest (2013).\",image:\"https://cdn-images.dzcdn.net/images/cover/129f9ddf951479df435c9d139e2a6438/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Nic nov\\xFDho\",\"Bl\\xE1zen\",\"No\\u010Dn\\xED sm\\u011Bna (feat. Strapo)\",\"L\\xF3vesong\",\"St\\u0159epy\",\"Nepi\\u0161 (feat. Idea, Martin Sv\\xE1tek)\",\"M\\xE1m to jinak\",\"Amok\",\"Revizor (feat. Separ, Majself)\",\"V moci d\\xE9mon\\u016F (feat. Boy Wonder)\",\"Sklerotik\",\"L.S.D. (feat. Paulie Garand, Martin Sv\\xE1tek)\",\"Sm\\xED\\u0159en\\xE1\",\"Smrteln\\xEDk (feat. Majself)\",\"Raz, dva\",\"Spr\\xE1vnej \\u010Das, spr\\xE1vn\\xFD m\\xEDsto (feat. MVP)\",\"Pane Bo\\u017Ee\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return M(k);})();\n;return Component;"
+  },
+  "_id": "alba/strepy.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/strepy.mdx",
+    "sourceFileName": "strepy.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/strepy"
+  },
+  "type": "Album",
+  "url": "/alba/strepy",
+  "canonicalUrl": "https://4rap.cz/alba/strepy"
+}

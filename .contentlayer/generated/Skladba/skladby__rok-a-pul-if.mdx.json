@@ -1,0 +1,41 @@
+{
+  "title": "Rok A Půl",
+  "slug": "rok-a-pul-if",
+  "rapper": "IF",
+  "rapperSlug": "if",
+  "features": [
+    "idea",
+    "dj-fatte",
+    "vaclav-roucek"
+  ],
+  "featuresNames": [
+    "Idea",
+    "DJ Fatte",
+    "Vaclav Roucek"
+  ],
+  "album": "Stop Play",
+  "albumSlug": "stop-play",
+  "year": 2016,
+  "genre": [],
+  "duration": "3:14",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Rok A Půl — skladba od IF.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!h.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=m(t,n))||s.enumerable});return e};var b=(e,t,a)=>(a=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var l=k((S,c)=>{c.exports=_jsx_runtime});var F={};_(F,{default:()=>d,frontmatter:()=>j});var r=b(l()),j={title:\"Rok A P\\u016Fl\",slug:\"rok-a-pul-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"vaclav-roucek\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Vaclav Roucek\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[],duration:\"3:14\",trackNumber:1,producers:[],producersNames:[],description:\"Rok A P\\u016Fl \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return g(F);})();\n;return Component;"
+  },
+  "_id": "skladby/rok-a-pul-if.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/rok-a-pul-if.mdx",
+    "sourceFileName": "rok-a-pul-if.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/rok-a-pul-if"
+  },
+  "type": "Skladba",
+  "url": "/skladby/rok-a-pul-if",
+  "canonicalUrl": "https://4rap.cz/skladby/rok-a-pul-if"
+}

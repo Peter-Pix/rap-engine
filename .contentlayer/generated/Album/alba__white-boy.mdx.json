@@ -1,0 +1,40 @@
+{
+  "title": "White Boy",
+  "slug": "white-boy",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "label": "Bigg Boss",
+  "year": 2025,
+  "genre": [],
+  "description": "White Boy — album od Vladimir 518 (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/1db334d384707e4b1605a2b0a111a441/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "White Boy",
+    "Bába nákup teriér",
+    "Domov",
+    "Quattro for Magic",
+    "Mutagen",
+    "Jsem měkkej",
+    "To.",
+    "Power sliz",
+    "Spadl jsem mezi ně",
+    "Kde jsme teď",
+    "Sprcha"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of h(t))!b.call(e,i)&&i!==r&&a(e,i,{get:()=>t[i],enumerable:!(o=u(t,i))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(g(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>s(a({},\"__esModule\",{value:!0}),e);var c=x((k,m)=>{m.exports=_jsx_runtime});var B={};j(B,{default:()=>l,frontmatter:()=>y});var n=_(c()),y={title:\"White Boy\",slug:\"white-boy\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",label:\"Bigg Boss\",year:2025,genre:[],description:\"White Boy \\u2014 album od Vladimir 518 (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/1db334d384707e4b1605a2b0a111a441/1000x1000-000000-80-0-0.jpg\",tracklist:[\"White Boy\",\"B\\xE1ba n\\xE1kup teri\\xE9r\",\"Domov\",\"Quattro for Magic\",\"Mutagen\",\"Jsem m\\u011Bkkej\",\"To.\",\"Power sliz\",\"Spadl jsem mezi n\\u011B\",\"Kde jsme te\\u010F\",\"Sprcha\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return f(B);})();\n;return Component;"
+  },
+  "_id": "alba/white-boy.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/white-boy.mdx",
+    "sourceFileName": "white-boy.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/white-boy"
+  },
+  "type": "Album",
+  "url": "/alba/white-boy",
+  "canonicalUrl": "https://4rap.cz/alba/white-boy"
+}

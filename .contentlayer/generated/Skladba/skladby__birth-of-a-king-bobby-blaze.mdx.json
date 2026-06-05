@@ -1,0 +1,33 @@
+{
+  "title": "Birth of a King",
+  "slug": "birth-of-a-king-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Crimson Stain",
+  "albumSlug": "crimson-stain",
+  "year": 2025,
+  "genre": [],
+  "duration": "5:02",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Birth of a King — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>i(a({},\"__esModule\",{value:!0}),e);var b=x((S,u)=>{u.exports=_jsx_runtime});var j={};g(j,{default:()=>l,frontmatter:()=>B});var n=_(b()),B={title:\"Birth of a King\",slug:\"birth-of-a-king-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Crimson Stain\",albumSlug:\"crimson-stain\",year:2025,genre:[],duration:\"5:02\",trackNumber:2,producers:[],producersNames:[],description:\"Birth of a King \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return y(j);})();\n;return Component;"
+  },
+  "_id": "skladby/birth-of-a-king-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/birth-of-a-king-bobby-blaze.mdx",
+    "sourceFileName": "birth-of-a-king-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/birth-of-a-king-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/birth-of-a-king-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/birth-of-a-king-bobby-blaze"
+}

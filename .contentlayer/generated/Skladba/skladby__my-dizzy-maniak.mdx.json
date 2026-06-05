@@ -1,0 +1,33 @@
+{
+  "title": "My dizzy",
+  "slug": "my-dizzy-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "It's Ak!",
+  "albumSlug": "it-s-ak",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:19",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "My dizzy — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!k.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var M=(e,t,r)=>(r=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var u=y((j,m)=>{m.exports=_jsx_runtime});var g={};f(g,{default:()=>d,frontmatter:()=>b});var n=M(u()),b={title:\"My dizzy\",slug:\"my-dizzy-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"It's Ak!\",albumSlug:\"it-s-ak\",year:2024,genre:[],duration:\"2:19\",trackNumber:1,producers:[],producersNames:[],description:\"My dizzy \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(g);})();\n;return Component;"
+  },
+  "_id": "skladby/my-dizzy-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/my-dizzy-maniak.mdx",
+    "sourceFileName": "my-dizzy-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/my-dizzy-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/my-dizzy-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/my-dizzy-maniak"
+}

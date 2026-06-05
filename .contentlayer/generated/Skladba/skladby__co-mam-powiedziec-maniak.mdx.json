@@ -1,0 +1,39 @@
+{
+  "title": "Co mam powiedzieć?",
+  "slug": "co-mam-powiedziec-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "zeus",
+    "klaziu"
+  ],
+  "featuresNames": [
+    "Zeus",
+    "Klaziu"
+  ],
+  "album": "NIBIRU",
+  "albumSlug": "nibiru",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:48",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Co mam powiedzieć? — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!b.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(i=l(n,r))||i.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(h(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var u=f((w,m)=>{m.exports=_jsx_runtime});var j={};k(j,{default:()=>d,frontmatter:()=>z});var t=_(u()),z={title:\"Co mam powiedzie\\u0107?\",slug:\"co-mam-powiedziec-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\",\"klaziu\"],featuresNames:[\"Zeus\",\"Klaziu\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[],duration:\"3:48\",trackNumber:9,producers:[],producersNames:[],description:\"Co mam powiedzie\\u0107? \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/co-mam-powiedziec-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/co-mam-powiedziec-maniak.mdx",
+    "sourceFileName": "co-mam-powiedziec-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/co-mam-powiedziec-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/co-mam-powiedziec-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/co-mam-powiedziec-maniak"
+}

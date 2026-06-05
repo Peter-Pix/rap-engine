@@ -1,0 +1,30 @@
+{
+  "title": "Praha/Vídeň",
+  "slug": "praha-viden",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2021,
+  "genre": [],
+  "description": "Praha/Vídeň — singl od CÂLIN (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/7181103f56b19d540ac8a23dcd540e62/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Praha/Vídeň"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var c=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)c(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of u(n))!x.call(e,a)&&a!==r&&c(e,a,{get:()=>n[a],enumerable:!(i=m(n,a))||i.enumerable});return e};var f=(e,n,r)=>(r=e!=null?h(g(e)):{},s(n||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(c({},\"__esModule\",{value:!0}),e);var o=_((P,d)=>{d.exports=_jsx_runtime});var M={};b(M,{default:()=>p,frontmatter:()=>C});var t=f(o()),C={title:\"Praha/V\\xEDde\\u0148\",slug:\"praha-viden\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2021,genre:[],description:\"Praha/V\\xEDde\\u0148 \\u2014 singl od C\\xC2LIN (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/7181103f56b19d540ac8a23dcd540e62/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Praha/V\\xEDde\\u0148\"],publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/praha-viden.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/praha-viden.mdx",
+    "sourceFileName": "praha-viden.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/praha-viden"
+  },
+  "type": "Album",
+  "url": "/alba/praha-viden",
+  "canonicalUrl": "https://4rap.cz/alba/praha-viden"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Nikdy víc",
+  "slug": "nikdy-vic-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "dj-fatte",
+    "zdenka-predna"
+  ],
+  "featuresNames": [
+    "DJ Fatte",
+    "Zdenka Predna"
+  ],
+  "album": "Daleko blíž",
+  "albumSlug": "daleko-bliz",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:23",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nikdy víc — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)d(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!k.call(e,a)&&a!==r&&d(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(d({},\"__esModule\",{value:!0}),e);var c=b((D,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>j});var n=_(c()),j={title:\"Nikdy v\\xEDc\",slug:\"nikdy-vic-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"dj-fatte\",\"zdenka-predna\"],featuresNames:[\"DJ Fatte\",\"Zdenka Predna\"],album:\"Daleko bl\\xED\\u017E\",albumSlug:\"daleko-bliz\",year:2012,genre:[],duration:\"3:23\",trackNumber:10,producers:[],producersNames:[],description:\"Nikdy v\\xEDc \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(y);})();\n;return Component;"
+  },
+  "_id": "skladby/nikdy-vic-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nikdy-vic-idea.mdx",
+    "sourceFileName": "nikdy-vic-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nikdy-vic-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nikdy-vic-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/nikdy-vic-idea"
+}

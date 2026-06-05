@@ -1,0 +1,39 @@
+{
+  "title": "TEAM CHARLIE",
+  "slug": "team-charlie-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "cis-t",
+    "maniak"
+  ],
+  "featuresNames": [
+    "Čis T",
+    "Maniak"
+  ],
+  "album": "MAMUTI L.P.",
+  "albumSlug": "mamuti-l-p",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:22",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "TEAM CHARLIE — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!M.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((C,m)=>{m.exports=_jsx_runtime});var j={};_(j,{default:()=>l,frontmatter:()=>A});var n=b(u()),A={title:\"TEAM CHARLIE\",slug:\"team-charlie-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"maniak\"],featuresNames:[\"\\u010Cis T\",\"Maniak\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[],duration:\"3:22\",trackNumber:5,producers:[],producersNames:[],description:\"TEAM CHARLIE \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/team-charlie-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/team-charlie-orion.mdx",
+    "sourceFileName": "team-charlie-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/team-charlie-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/team-charlie-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/team-charlie-orion"
+}

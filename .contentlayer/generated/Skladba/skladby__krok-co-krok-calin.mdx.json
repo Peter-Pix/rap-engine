@@ -1,0 +1,37 @@
+{
+  "title": "Krok co krok",
+  "slug": "krok-co-krok-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [
+    "kvitek"
+  ],
+  "featuresNames": [
+    "Kvítek"
+  ],
+  "album": "Krok co krok",
+  "albumSlug": "krok-co-krok",
+  "year": 2020,
+  "genre": [],
+  "duration": "2:47",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Krok co krok — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of p(r))!h.call(e,n)&&n!==o&&a(e,n,{get:()=>r[n],enumerable:!(c=d(r,n))||c.enumerable});return e};var b=(e,r,o)=>(o=e!=null?m(x(e)):{},s(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var u=f((C,k)=>{k.exports=_jsx_runtime});var K={};_(K,{default:()=>l,frontmatter:()=>j});var t=b(u()),j={title:\"Krok co krok\",slug:\"krok-co-krok-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"kvitek\"],featuresNames:[\"Kv\\xEDtek\"],album:\"Krok co krok\",albumSlug:\"krok-co-krok\",year:2020,genre:[],duration:\"2:47\",trackNumber:1,producers:[],producersNames:[],description:\"Krok co krok \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return g(K);})();\n;return Component;"
+  },
+  "_id": "skladby/krok-co-krok-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/krok-co-krok-calin.mdx",
+    "sourceFileName": "krok-co-krok-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/krok-co-krok-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/krok-co-krok-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/krok-co-krok-calin"
+}

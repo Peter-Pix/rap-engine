@@ -1,0 +1,39 @@
+{
+  "title": "S Respektem",
+  "slug": "s-respektem-sergei-barracuda",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "features": [
+    "hard-rico",
+    "palermo"
+  ],
+  "featuresNames": [
+    "Hard Rico",
+    "Palermo"
+  ],
+  "album": "Kila Zdarma (Mixtape)",
+  "albumSlug": "kila-zdarma-mixtape",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:10",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "S Respektem — skladba od Sergei Barracuda.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!h.call(e,n)&&n!==t&&s(e,n,{get:()=>r[n],enumerable:!(o=l(r,n))||o.enumerable});return e};var S=(e,r,t)=>(t=e!=null?p(g(e)):{},i(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var c=b((N,m)=>{m.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>k});var a=S(c()),k={title:\"S Respektem\",slug:\"s-respektem-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"hard-rico\",\"palermo\"],featuresNames:[\"Hard Rico\",\"Palermo\"],album:\"Kila Zdarma (Mixtape)\",albumSlug:\"kila-zdarma-mixtape\",year:2024,genre:[],duration:\"3:10\",trackNumber:9,producers:[],producersNames:[],description:\"S Respektem \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/s-respektem-sergei-barracuda.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/s-respektem-sergei-barracuda.mdx",
+    "sourceFileName": "s-respektem-sergei-barracuda.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/s-respektem-sergei-barracuda"
+  },
+  "type": "Skladba",
+  "url": "/skladby/s-respektem-sergei-barracuda",
+  "canonicalUrl": "https://4rap.cz/skladby/s-respektem-sergei-barracuda"
+}

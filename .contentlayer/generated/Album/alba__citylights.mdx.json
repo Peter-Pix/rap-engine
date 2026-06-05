@@ -1,0 +1,36 @@
+{
+  "title": "CityLights",
+  "slug": "citylights",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "Lavutaris Records",
+  "year": 2024,
+  "genre": [],
+  "description": "CityLights — album od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/db5354ce073456139853b67a3700a3bf/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "CityLights",
+    "Nestihneš",
+    "Angelz",
+    "Důvody",
+    "Do leva Do prava",
+    "Dokud nebudeme dýchat",
+    "Hvězdy"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!g.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(i=h(t,r))||i.enumerable});return e};var _=(e,t,a)=>(a=e!=null?m(u(e)):{},s(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>s(o({},\"__esModule\",{value:!0}),e);var l=y((D,c)=>{c.exports=_jsx_runtime});var v={};x(v,{default:()=>b,frontmatter:()=>j});var n=_(l()),j={title:\"CityLights\",slug:\"citylights\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"Lavutaris Records\",year:2024,genre:[],description:\"CityLights \\u2014 album od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/db5354ce073456139853b67a3700a3bf/1000x1000-000000-80-0-0.jpg\",tracklist:[\"CityLights\",\"Nestihne\\u0161\",\"Angelz\",\"D\\u016Fvody\",\"Do leva Do prava\",\"Dokud nebudeme d\\xFDchat\",\"Hv\\u011Bzdy\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return f(v);})();\n;return Component;"
+  },
+  "_id": "alba/citylights.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/citylights.mdx",
+    "sourceFileName": "citylights.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/citylights"
+  },
+  "type": "Album",
+  "url": "/alba/citylights",
+  "canonicalUrl": "https://4rap.cz/alba/citylights"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "To Much Pain",
+  "slug": "to-much-pain-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "nomad"
+  ],
+  "featuresNames": [
+    "Nomad"
+  ],
+  "album": "To Much Pain (feat. Nomad)",
+  "albumSlug": "to-much-pain-feat-nomad",
+  "year": 2023,
+  "genre": [],
+  "duration": "2:19",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "To Much Pain — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(m=l(n,r))||m.enumerable});return e};var b=(e,n,a)=>(a=e!=null?p(x(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var s=M((P,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>k});var t=b(s()),k={title:\"To Much Pain\",slug:\"to-much-pain-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"nomad\"],featuresNames:[\"Nomad\"],album:\"To Much Pain (feat. Nomad)\",albumSlug:\"to-much-pain-feat-nomad\",year:2023,genre:[],duration:\"2:19\",trackNumber:1,producers:[],producersNames:[],description:\"To Much Pain \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/to-much-pain-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/to-much-pain-maniak.mdx",
+    "sourceFileName": "to-much-pain-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/to-much-pain-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/to-much-pain-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/to-much-pain-maniak"
+}

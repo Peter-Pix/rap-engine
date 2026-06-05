@@ -1,0 +1,34 @@
+{
+  "title": "Wygrałem EP",
+  "slug": "wygra-em-ep",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "Pierwszy Milion",
+  "year": 2019,
+  "genre": [],
+  "description": "Wygrałem EP — EP od Maniak (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/27004f35abce47b32c22eecc50d7eb86/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Nie do zatrzymania (feat. Zeus)",
+    "Kto ma rację?",
+    "Przerwany lot (feat. Nestor)",
+    "Wygrałem",
+    "Daj żyć"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!x.call(e,r)&&r!==a&&i(e,r,{get:()=>t[r],enumerable:!(o=g(t,r))||o.enumerable});return e};var j=(e,t,a)=>(a=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>c(i({},\"__esModule\",{value:!0}),e);var m=y((P,s)=>{s.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>_});var n=j(m()),_={title:\"Wygra\\u0142em EP\",slug:\"wygra-em-ep\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"Pierwszy Milion\",year:2019,genre:[],description:\"Wygra\\u0142em EP \\u2014 EP od Maniak (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/27004f35abce47b32c22eecc50d7eb86/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Nie do zatrzymania (feat. Zeus)\",\"Kto ma racj\\u0119?\",\"Przerwany lot (feat. Nestor)\",\"Wygra\\u0142em\",\"Daj \\u017Cy\\u0107\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "alba/wygra-em-ep.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/wygra-em-ep.mdx",
+    "sourceFileName": "wygra-em-ep.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/wygra-em-ep"
+  },
+  "type": "Album",
+  "url": "/alba/wygra-em-ep",
+  "canonicalUrl": "https://4rap.cz/alba/wygra-em-ep"
+}

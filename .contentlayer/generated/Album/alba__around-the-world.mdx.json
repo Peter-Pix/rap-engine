@@ -1,0 +1,30 @@
+{
+  "title": "Around The World",
+  "slug": "around-the-world",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "648268 Records DK2",
+  "year": 2024,
+  "genre": [],
+  "description": "Around The World — singl od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/24da75023693c2b3ef60f73d63cfef52/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Around The World"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)d(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!g.call(e,o)&&o!==r&&d(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var _=(e,n,r)=>(r=e!=null?m(b(e)):{},l(n||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>l(d({},\"__esModule\",{value:!0}),e);var c=x((B,s)=>{s.exports=_jsx_runtime});var z={};f(z,{default:()=>u,frontmatter:()=>y});var t=_(c()),y={title:\"Around The World\",slug:\"around-the-world\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"648268 Records DK2\",year:2024,genre:[],description:\"Around The World \\u2014 singl od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/24da75023693c2b3ef60f73d63cfef52/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Around The World\"],publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(z);})();\n;return Component;"
+  },
+  "_id": "alba/around-the-world.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/around-the-world.mdx",
+    "sourceFileName": "around-the-world.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/around-the-world"
+  },
+  "type": "Album",
+  "url": "/alba/around-the-world",
+  "canonicalUrl": "https://4rap.cz/alba/around-the-world"
+}

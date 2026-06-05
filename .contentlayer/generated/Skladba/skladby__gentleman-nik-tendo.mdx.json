@@ -1,0 +1,39 @@
+{
+  "title": "GENTLEMAN",
+  "slug": "gentleman-nik-tendo",
+  "rapper": "Nik Tendo",
+  "rapperSlug": "nik-tendo",
+  "features": [
+    "decky",
+    "sara-rikas"
+  ],
+  "featuresNames": [
+    "Decky",
+    "Sara Rikas"
+  ],
+  "album": "GOLDKID: ULTIMATE SECTION",
+  "albumSlug": "goldkid-ultimate-section",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:50",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "GENTLEMAN — skladba od Nik Tendo.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of k(t))!N.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),T=e=>i(o({},\"__esModule\",{value:!0}),e);var c=h((M,d)=>{d.exports=_jsx_runtime});var b={};g(b,{default:()=>m,frontmatter:()=>_});var n=f(c()),_={title:\"GENTLEMAN\",slug:\"gentleman-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"sara-rikas\"],featuresNames:[\"Decky\",\"Sara Rikas\"],album:\"GOLDKID: ULTIMATE SECTION\",albumSlug:\"goldkid-ultimate-section\",year:2025,genre:[],duration:\"2:50\",trackNumber:4,producers:[],producersNames:[],description:\"GENTLEMAN \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return T(b);})();\n;return Component;"
+  },
+  "_id": "skladby/gentleman-nik-tendo.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/gentleman-nik-tendo.mdx",
+    "sourceFileName": "gentleman-nik-tendo.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/gentleman-nik-tendo"
+  },
+  "type": "Skladba",
+  "url": "/skladby/gentleman-nik-tendo",
+  "canonicalUrl": "https://4rap.cz/skladby/gentleman-nik-tendo"
+}

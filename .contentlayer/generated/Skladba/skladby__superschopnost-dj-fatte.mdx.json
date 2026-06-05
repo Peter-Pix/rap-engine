@@ -1,0 +1,39 @@
+{
+  "title": "Superschopnost",
+  "slug": "superschopnost-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "yoga-spank",
+    "professor-c"
+  ],
+  "featuresNames": [
+    "Yoga Spank",
+    "Professor C"
+  ],
+  "album": "Koupili jsme Boha, aby za nás makal",
+  "albumSlug": "koupili-jsme-boha-aby-za-nas-makal",
+  "year": 2026,
+  "genre": [],
+  "duration": "2:52",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Superschopnost — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},p=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!x.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(s=d(t,n))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(f(e)):{},p(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>p(o({},\"__esModule\",{value:!0}),e);var c=b((D,u)=>{u.exports=_jsx_runtime});var S={};j(S,{default:()=>i,frontmatter:()=>_});var a=g(c()),_={title:\"Superschopnost\",slug:\"superschopnost-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\",\"professor-c\"],featuresNames:[\"Yoga Spank\",\"Professor C\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[],duration:\"2:52\",trackNumber:5,producers:[],producersNames:[],description:\"Superschopnost \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(m,{...e})}):m(e)}return k(S);})();\n;return Component;"
+  },
+  "_id": "skladby/superschopnost-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/superschopnost-dj-fatte.mdx",
+    "sourceFileName": "superschopnost-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/superschopnost-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/superschopnost-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/superschopnost-dj-fatte"
+}

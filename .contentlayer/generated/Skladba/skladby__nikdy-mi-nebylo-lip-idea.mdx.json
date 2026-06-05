@@ -1,0 +1,39 @@
+{
+  "title": "Nikdy mi nebylo líp",
+  "slug": "nikdy-mi-nebylo-lip-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "boy-wonder",
+    "magenta"
+  ],
+  "featuresNames": [
+    "Boy Wonder",
+    "Magenta"
+  ],
+  "album": "O beatech a lidech",
+  "albumSlug": "o-beatech-a-lidech",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:01",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nikdy mi nebylo líp — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(d=p(t,a))||d.enumerable});return e};var f=(e,t,r)=>(r=e!=null?u(b(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var l=y((M,s)=>{s.exports=_jsx_runtime});var k={};g(k,{default:()=>m,frontmatter:()=>j});var n=f(l()),j={title:\"Nikdy mi nebylo l\\xEDp\",slug:\"nikdy-mi-nebylo-lip-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"boy-wonder\",\"magenta\"],featuresNames:[\"Boy Wonder\",\"Magenta\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[],duration:\"3:01\",trackNumber:6,producers:[],producersNames:[],description:\"Nikdy mi nebylo l\\xEDp \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+  },
+  "_id": "skladby/nikdy-mi-nebylo-lip-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nikdy-mi-nebylo-lip-idea.mdx",
+    "sourceFileName": "nikdy-mi-nebylo-lip-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nikdy-mi-nebylo-lip-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nikdy-mi-nebylo-lip-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/nikdy-mi-nebylo-lip-idea"
+}

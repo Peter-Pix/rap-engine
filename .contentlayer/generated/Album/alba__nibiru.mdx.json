@@ -1,0 +1,40 @@
+{
+  "title": "NIBIRU",
+  "slug": "nibiru",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "Pierwszy Milion",
+  "year": 2025,
+  "genre": [],
+  "description": "NIBIRU — album od Maniak (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/9ed14a283bcf6f879fe50ce8ddb38fde/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Od najmłodszych",
+    "Szkoda czasu",
+    "Prawdziwe",
+    "W kadrze",
+    "Drzwi",
+    "Znam to",
+    "Znienawidź mnie",
+    "Życie",
+    "Co mam powiedzieć?",
+    "Zamiana miejsc",
+    "Luz"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var a in n)r(e,a,{get:n[a],enumerable:!0})},c=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of h(n))!z.call(e,i)&&i!==a&&r(e,i,{get:()=>n[i],enumerable:!(o=u(n,i))||o.enumerable});return e};var b=(e,n,a)=>(a=e!=null?p(x(e)):{},c(n||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>c(r({},\"__esModule\",{value:!0}),e);var s=f((M,d)=>{d.exports=_jsx_runtime});var _={};g(_,{default:()=>l,frontmatter:()=>w});var t=b(s()),w={title:\"NIBIRU\",slug:\"nibiru\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"Pierwszy Milion\",year:2025,genre:[],description:\"NIBIRU \\u2014 album od Maniak (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/9ed14a283bcf6f879fe50ce8ddb38fde/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Od najm\\u0142odszych\",\"Szkoda czasu\",\"Prawdziwe\",\"W kadrze\",\"Drzwi\",\"Znam to\",\"Znienawid\\u017A mnie\",\"\\u017Bycie\",\"Co mam powiedzie\\u0107?\",\"Zamiana miejsc\",\"Luz\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(_);})();\n;return Component;"
+  },
+  "_id": "alba/nibiru.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/nibiru.mdx",
+    "sourceFileName": "nibiru.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/nibiru"
+  },
+  "type": "Album",
+  "url": "/alba/nibiru",
+  "canonicalUrl": "https://4rap.cz/alba/nibiru"
+}

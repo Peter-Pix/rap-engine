@@ -1,0 +1,33 @@
+{
+  "title": "Bong Song 2",
+  "slug": "bong-song-2-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [],
+  "featuresNames": [],
+  "album": "Teritorium II",
+  "albumSlug": "teritorium-ii",
+  "year": 2005,
+  "genre": [],
+  "duration": "4:00",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bong Song 2 — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},a=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of g(n))!h.call(e,o)&&o!==t&&i(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?l(x(e)):{},a(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>a(i({},\"__esModule\",{value:!0}),e);var m=b((k,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>S});var r=_(m()),S={title:\"Bong Song 2\",slug:\"bong-song-2-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium II\",albumSlug:\"teritorium-ii\",year:2005,genre:[],duration:\"4:00\",trackNumber:12,producers:[],producersNames:[],description:\"Bong Song 2 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/bong-song-2-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bong-song-2-orion.mdx",
+    "sourceFileName": "bong-song-2-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bong-song-2-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bong-song-2-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/bong-song-2-orion"
+}

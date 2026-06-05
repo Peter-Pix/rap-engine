@@ -1,0 +1,33 @@
+{
+  "title": "Ballerbyn",
+  "slug": "ballerbyn-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ach Ano III: Ballerbyn",
+  "albumSlug": "ach-ano-iii-ballerbyn",
+  "year": 2019,
+  "genre": [],
+  "duration": "3:21",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ballerbyn — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of b(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(l=p(n,a))||l.enumerable});return e};var _=(e,n,t)=>(t=e!=null?d(h(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var c=f((A,i)=>{i.exports=_jsx_runtime});var j={};y(j,{default:()=>m,frontmatter:()=>k});var r=_(c()),k={title:\"Ballerbyn\",slug:\"ballerbyn-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano III: Ballerbyn\",albumSlug:\"ach-ano-iii-ballerbyn\",year:2019,genre:[],duration:\"3:21\",trackNumber:2,producers:[],producersNames:[],description:\"Ballerbyn \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/ballerbyn-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ballerbyn-maniak.mdx",
+    "sourceFileName": "ballerbyn-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ballerbyn-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ballerbyn-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/ballerbyn-maniak"
+}

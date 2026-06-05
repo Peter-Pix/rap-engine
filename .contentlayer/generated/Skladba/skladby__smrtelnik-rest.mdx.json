@@ -1,0 +1,39 @@
+{
+  "title": "Smrtelník",
+  "slug": "smrtelnik-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte",
+    "majself"
+  ],
+  "featuresNames": [
+    "DJ Fatte",
+    "Majself"
+  ],
+  "album": "Střepy",
+  "albumSlug": "strepy",
+  "year": 2013,
+  "genre": [],
+  "duration": "3:24",
+  "trackNumber": 14,
+  "producers": [],
+  "producersNames": [],
+  "description": "Smrtelník — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of f(t))!h.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=i(t,s))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(a({},\"__esModule\",{value:!0}),e);var u=j((M,l)=>{l.exports=_jsx_runtime});var k={};_(k,{default:()=>p,frontmatter:()=>S});var r=b(u()),S={title:\"Smrteln\\xEDk\",slug:\"smrtelnik-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\",\"majself\"],featuresNames:[\"DJ Fatte\",\"Majself\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[],duration:\"3:24\",trackNumber:14,producers:[],producersNames:[],description:\"Smrteln\\xEDk \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/smrtelnik-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/smrtelnik-rest.mdx",
+    "sourceFileName": "smrtelnik-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/smrtelnik-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/smrtelnik-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/smrtelnik-rest"
+}

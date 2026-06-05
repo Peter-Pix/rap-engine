@@ -1,0 +1,37 @@
+{
+  "title": "Battle Cry",
+  "slug": "battle-cry-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [
+    "a-booth"
+  ],
+  "featuresNames": [
+    "A. Booth"
+  ],
+  "album": "Road 2 Redemption",
+  "albumSlug": "road-2-redemption",
+  "year": 2023,
+  "genre": [],
+  "duration": "4:09",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Battle Cry — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var B=(e,t,n)=>(n=e!=null?m(h(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(a({},\"__esModule\",{value:!0}),e);var u=y((C,b)=>{b.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>g});var r=B(u()),g={title:\"Battle Cry\",slug:\"battle-cry-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"a-booth\"],featuresNames:[\"A. Booth\"],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[],duration:\"4:09\",trackNumber:1,producers:[],producersNames:[],description:\"Battle Cry \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/battle-cry-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/battle-cry-bobby-blaze.mdx",
+    "sourceFileName": "battle-cry-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/battle-cry-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/battle-cry-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/battle-cry-bobby-blaze"
+}

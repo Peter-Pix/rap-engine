@@ -1,0 +1,43 @@
+{
+  "title": "Talkshow",
+  "slug": "talkshow-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "jozef-reznik",
+    "prezident-lourajder",
+    "supa",
+    "trashboysony"
+  ],
+  "featuresNames": [
+    "Jozef Reznik",
+    "Prezident Lourajder",
+    "Supa",
+    "TrashBoySony"
+  ],
+  "album": "Bandana",
+  "albumSlug": "bandana",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:36",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Talkshow — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},d=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!f.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=m(n,a))||s.enumerable});return e};var k=(e,n,t)=>(t=e!=null?p(x(e)):{},d(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>d(o({},\"__esModule\",{value:!0}),e);var i=b((S,u)=>{u.exports=_jsx_runtime});var y={};j(y,{default:()=>c,frontmatter:()=>g});var r=k(i()),g={title:\"Talkshow\",slug:\"talkshow-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"jozef-reznik\",\"prezident-lourajder\",\"supa\",\"trashboysony\"],featuresNames:[\"Jozef Reznik\",\"Prezident Lourajder\",\"Supa\",\"TrashBoySony\"],album:\"Bandana\",albumSlug:\"bandana\",year:2021,genre:[],duration:\"3:36\",trackNumber:2,producers:[],producersNames:[],description:\"Talkshow \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(y);})();\n;return Component;"
+  },
+  "_id": "skladby/talkshow-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/talkshow-idea.mdx",
+    "sourceFileName": "talkshow-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/talkshow-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/talkshow-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/talkshow-idea"
+}

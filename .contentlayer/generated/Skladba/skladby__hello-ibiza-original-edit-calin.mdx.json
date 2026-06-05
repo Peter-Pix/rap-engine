@@ -1,0 +1,33 @@
+{
+  "title": "Hello Ibiza (Original Edit)",
+  "slug": "hello-ibiza-original-edit-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "Hello Ibiza",
+  "albumSlug": "hello-ibiza",
+  "year": 2012,
+  "genre": [],
+  "duration": "3:11",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Hello Ibiza (Original Edit) — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of b(t))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(l=p(t,a))||l.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},o(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(i({},\"__esModule\",{value:!0}),e);var c=g((C,s)=>{s.exports=_jsx_runtime});var I={};f(I,{default:()=>d,frontmatter:()=>z});var n=_(c()),z={title:\"Hello Ibiza (Original Edit)\",slug:\"hello-ibiza-original-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Hello Ibiza\",albumSlug:\"hello-ibiza\",year:2012,genre:[],duration:\"3:11\",trackNumber:1,producers:[],producersNames:[],description:\"Hello Ibiza (Original Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(I);})();\n;return Component;"
+  },
+  "_id": "skladby/hello-ibiza-original-edit-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hello-ibiza-original-edit-calin.mdx",
+    "sourceFileName": "hello-ibiza-original-edit-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hello-ibiza-original-edit-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hello-ibiza-original-edit-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/hello-ibiza-original-edit-calin"
+}

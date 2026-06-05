@@ -1,0 +1,38 @@
+{
+  "title": "Goodfellas",
+  "slug": "goodfellas",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2024,
+  "genre": [],
+  "description": "Goodfellas — album od Sergei Barracuda (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/53884814e9bace78abb14c625ecc94f8/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Na jeden dech",
+    "Goodfellas",
+    "Gucci manžetové knoflíky",
+    "Hacienda",
+    "Není to žádná věda",
+    "Generál",
+    "Reprezentuju",
+    "Já sem on",
+    "Ze stoky"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),x=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(c=p(n,a))||c.enumerable});return e};var j=(e,n,r)=>(r=e!=null?m(f(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var d=b((v,i)=>{i.exports=_jsx_runtime});var G={};x(G,{default:()=>u,frontmatter:()=>S});var t=j(d()),S={title:\"Goodfellas\",slug:\"goodfellas\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2024,genre:[],description:\"Goodfellas \\u2014 album od Sergei Barracuda (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/53884814e9bace78abb14c625ecc94f8/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Na jeden dech\",\"Goodfellas\",\"Gucci man\\u017Eetov\\xE9 knofl\\xEDky\",\"Hacienda\",\"Nen\\xED to \\u017E\\xE1dn\\xE1 v\\u011Bda\",\"Gener\\xE1l\",\"Reprezentuju\",\"J\\xE1 sem on\",\"Ze stoky\"],publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(G);})();\n;return Component;"
+  },
+  "_id": "alba/goodfellas.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/goodfellas.mdx",
+    "sourceFileName": "goodfellas.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/goodfellas"
+  },
+  "type": "Album",
+  "url": "/alba/goodfellas",
+  "canonicalUrl": "https://4rap.cz/alba/goodfellas"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Zázrak",
+  "slug": "zazrak-sergei-barracuda",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "features": [
+    "hard-rico"
+  ],
+  "featuresNames": [
+    "Hard Rico"
+  ],
+  "album": "Kila Zdarma (Mixtape)",
+  "albumSlug": "kila-zdarma-mixtape",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:15",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Zázrak — skladba od Sergei Barracuda.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!h.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return r};var _=(r,e,t)=>(t=r!=null?l(g(r)):{},i(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),k=r=>i(o({},\"__esModule\",{value:!0}),r);var u=b((M,c)=>{c.exports=_jsx_runtime});var z={};f(z,{default:()=>m,frontmatter:()=>j});var a=_(u()),j={title:\"Z\\xE1zrak\",slug:\"zazrak-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"hard-rico\"],featuresNames:[\"Hard Rico\"],album:\"Kila Zdarma (Mixtape)\",albumSlug:\"kila-zdarma-mixtape\",year:2024,genre:[],duration:\"2:15\",trackNumber:16,producers:[],producersNames:[],description:\"Z\\xE1zrak \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(r){let e={em:\"em\",h2:\"h2\",p:\"p\",...r.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return k(z);})();\n;return Component;"
+  },
+  "_id": "skladby/zazrak-sergei-barracuda.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/zazrak-sergei-barracuda.mdx",
+    "sourceFileName": "zazrak-sergei-barracuda.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/zazrak-sergei-barracuda"
+  },
+  "type": "Skladba",
+  "url": "/skladby/zazrak-sergei-barracuda",
+  "canonicalUrl": "https://4rap.cz/skladby/zazrak-sergei-barracuda"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Temps Mort",
+  "slug": "temps-mort-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ach Ano Mixtape",
+  "albumSlug": "ach-ano-mixtape",
+  "year": 2015,
+  "genre": [],
+  "duration": "2:17",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Temps Mort — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!M.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var c=f((N,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>u,frontmatter:()=>k});var n=b(c()),k={title:\"Temps Mort\",slug:\"temps-mort-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[],duration:\"2:17\",trackNumber:13,producers:[],producersNames:[],description:\"Temps Mort \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return g(j);})();\n;return Component;"
+  },
+  "_id": "skladby/temps-mort-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/temps-mort-maniak.mdx",
+    "sourceFileName": "temps-mort-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/temps-mort-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/temps-mort-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/temps-mort-maniak"
+}

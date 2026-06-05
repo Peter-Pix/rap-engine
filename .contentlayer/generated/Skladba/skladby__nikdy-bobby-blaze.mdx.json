@@ -1,0 +1,33 @@
+{
+  "title": "Nikdy",
+  "slug": "nikdy-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Nikdy",
+  "albumSlug": "nikdy",
+  "year": 2024,
+  "genre": [],
+  "duration": "2:51",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nikdy — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var k=(e,t,r)=>(r=e!=null?c(y(e)):{},d(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>d(a({},\"__esModule\",{value:!0}),e);var u=h((z,i)=>{i.exports=_jsx_runtime});var N={};f(N,{default:()=>b,frontmatter:()=>g});var n=k(u()),g={title:\"Nikdy\",slug:\"nikdy-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Nikdy\",albumSlug:\"nikdy\",year:2024,genre:[],duration:\"2:51\",trackNumber:1,producers:[],producersNames:[],description:\"Nikdy \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(N);})();\n;return Component;"
+  },
+  "_id": "skladby/nikdy-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nikdy-bobby-blaze.mdx",
+    "sourceFileName": "nikdy-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nikdy-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nikdy-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/nikdy-bobby-blaze"
+}

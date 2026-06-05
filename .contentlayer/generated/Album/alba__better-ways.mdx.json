@@ -1,0 +1,33 @@
+{
+  "title": "Better Ways",
+  "slug": "better-ways",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "JOG",
+  "year": 2024,
+  "genre": [],
+  "description": "Better Ways — EP od Maniak (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/65c16d89a47114badab5bd917aa6f75f/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Right My Wrongs",
+    "Feeling 2",
+    "Toxic Heart",
+    "Loving On You"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of u(t))!x.call(e,r)&&r!==a&&i(e,r,{get:()=>t[r],enumerable:!(o=g(t,r))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var d=b((F,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>y});var n=_(d()),y={title:\"Better Ways\",slug:\"better-ways\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"JOG\",year:2024,genre:[],description:\"Better Ways \\u2014 EP od Maniak (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/65c16d89a47114badab5bd917aa6f75f/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Right My Wrongs\",\"Feeling 2\",\"Toxic Heart\",\"Loving On You\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/better-ways.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/better-ways.mdx",
+    "sourceFileName": "better-ways.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/better-ways"
+  },
+  "type": "Album",
+  "url": "/alba/better-ways",
+  "canonicalUrl": "https://4rap.cz/alba/better-ways"
+}

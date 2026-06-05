@@ -1,0 +1,32 @@
+{
+  "title": "Brooklyn International",
+  "slug": "brooklyn-international",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "label": "NOEXCUSE Limited",
+  "year": 2018,
+  "genre": [],
+  "description": "Brooklyn International — singl od James Cole (2018).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/d2e1bc5e970b6d862ea60325e98e2b44/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Brooklyn International",
+    "Brooklyn International (Francesco Dinoia Remix)",
+    "Go Like This"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},l=(e,n,o,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!g.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(i=u(n,r))||i.enumerable});return e};var k=(e,n,o)=>(o=e!=null?p(x(e)):{},l(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),y=e=>l(a({},\"__esModule\",{value:!0}),e);var c=b((B,s)=>{s.exports=_jsx_runtime});var f={};j(f,{default:()=>d,frontmatter:()=>_});var t=k(c()),_={title:\"Brooklyn International\",slug:\"brooklyn-international\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"NOEXCUSE Limited\",year:2018,genre:[],description:\"Brooklyn International \\u2014 singl od James Cole (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/d2e1bc5e970b6d862ea60325e98e2b44/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Brooklyn International\",\"Brooklyn International (Francesco Dinoia Remix)\",\"Go Like This\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return y(f);})();\n;return Component;"
+  },
+  "_id": "alba/brooklyn-international.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/brooklyn-international.mdx",
+    "sourceFileName": "brooklyn-international.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/brooklyn-international"
+  },
+  "type": "Album",
+  "url": "/alba/brooklyn-international",
+  "canonicalUrl": "https://4rap.cz/alba/brooklyn-international"
+}

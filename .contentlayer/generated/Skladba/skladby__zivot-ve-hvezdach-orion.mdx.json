@@ -1,0 +1,37 @@
+{
+  "title": "Život ve hvězdách",
+  "slug": "zivot-ve-hvezdach-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "maniak"
+  ],
+  "featuresNames": [
+    "Maniak"
+  ],
+  "album": "Teritorium III.",
+  "albumSlug": "teritorium-iii",
+  "year": 2021,
+  "genre": [],
+  "duration": "3:08",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Život ve hvězdách — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var h=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!v.call(e,o)&&o!==n&&i(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?h(x(e)):{},s(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var c=f((M,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>j});var r=b(c()),j={title:\"\\u017Divot ve hv\\u011Bzd\\xE1ch\",slug:\"zivot-ve-hvezdach-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"maniak\"],featuresNames:[\"Maniak\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[],duration:\"3:08\",trackNumber:8,producers:[],producersNames:[],description:\"\\u017Divot ve hv\\u011Bzd\\xE1ch \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(k);})();\n;return Component;"
+  },
+  "_id": "skladby/zivot-ve-hvezdach-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/zivot-ve-hvezdach-orion.mdx",
+    "sourceFileName": "zivot-ve-hvezdach-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/zivot-ve-hvezdach-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/zivot-ve-hvezdach-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/zivot-ve-hvezdach-orion"
+}

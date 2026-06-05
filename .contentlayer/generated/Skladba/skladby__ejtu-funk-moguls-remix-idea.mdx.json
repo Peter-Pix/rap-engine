@@ -1,0 +1,39 @@
+{
+  "title": "Ejtu (Funk Moguls Remix)",
+  "slug": "ejtu-funk-moguls-remix-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "dj-aka",
+    "funk-moguls"
+  ],
+  "featuresNames": [
+    "DJ AKA",
+    "Funk Moguls"
+  ],
+  "album": "O beatech a remixech",
+  "albumSlug": "o-beatech-a-remixech",
+  "year": 2021,
+  "genre": [],
+  "duration": "1:34",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "Ejtu (Funk Moguls Remix) — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!g.call(e,a)&&a!==r&&u(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(h(e)):{},s(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>s(u({},\"__esModule\",{value:!0}),e);var c=f((A,m)=>{m.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>_});var n=b(c()),_={title:\"Ejtu (Funk Moguls Remix)\",slug:\"ejtu-funk-moguls-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"dj-aka\",\"funk-moguls\"],featuresNames:[\"DJ AKA\",\"Funk Moguls\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[],duration:\"1:34\",trackNumber:5,producers:[],producersNames:[],description:\"Ejtu (Funk Moguls Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return k(M);})();\n;return Component;"
+  },
+  "_id": "skladby/ejtu-funk-moguls-remix-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ejtu-funk-moguls-remix-idea.mdx",
+    "sourceFileName": "ejtu-funk-moguls-remix-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ejtu-funk-moguls-remix-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ejtu-funk-moguls-remix-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/ejtu-funk-moguls-remix-idea"
+}

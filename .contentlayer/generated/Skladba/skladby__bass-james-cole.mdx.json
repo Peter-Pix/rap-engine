@@ -1,0 +1,37 @@
+{
+  "title": "BASS",
+  "slug": "bass-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [
+    "hugo-toxxx"
+  ],
+  "featuresNames": [
+    "Hugo Toxxx"
+  ],
+  "album": "ALIEN",
+  "albumSlug": "alien",
+  "year": 2022,
+  "genre": [],
+  "duration": "2:40",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "BASS — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var x=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var j=(e,t,r)=>(r=e!=null?x(h(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),S=e=>u(s({},\"__esModule\",{value:!0}),e);var c=b((N,m)=>{m.exports=_jsx_runtime});var A={};f(A,{default:()=>i,frontmatter:()=>_});var n=j(c()),_={title:\"BASS\",slug:\"bass-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[],duration:\"2:40\",trackNumber:4,producers:[],producersNames:[],description:\"BASS \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return S(A);})();\n;return Component;"
+  },
+  "_id": "skladby/bass-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bass-james-cole.mdx",
+    "sourceFileName": "bass-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bass-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bass-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/bass-james-cole"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Chrst",
+  "slug": "chrst",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2023,
+  "genre": [],
+  "description": "Chrst — singl od Hugo Toxxx (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0960d0c8d186fb5ac23defc5fdad7e38/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Chrst"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of m(t))!g.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(c=h(t,s))||c.enumerable});return e};var b=(e,t,r)=>(r=e!=null?u(p(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var d=f((A,a)=>{a.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>C});var n=b(d()),C={title:\"Chrst\",slug:\"chrst\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2023,genre:[],description:\"Chrst \\u2014 singl od Hugo Toxxx (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/0960d0c8d186fb5ac23defc5fdad7e38/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Chrst\"],publishedAt:\"2026-06-04\"};function x(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(x,{...e})}):x(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "alba/chrst.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/chrst.mdx",
+    "sourceFileName": "chrst.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/chrst"
+  },
+  "type": "Album",
+  "url": "/alba/chrst",
+  "canonicalUrl": "https://4rap.cz/alba/chrst"
+}

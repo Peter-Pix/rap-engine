@@ -1,0 +1,37 @@
+{
+  "title": "Lalala",
+  "slug": "lalala-james-cole",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "features": [
+    "ptk"
+  ],
+  "featuresNames": [
+    "P T K"
+  ],
+  "album": "G.O.A.T.",
+  "albumSlug": "g-o-a-t",
+  "year": 2020,
+  "genre": [],
+  "duration": "4:10",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Lalala — skladba od James Cole.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!f.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(s=i(t,n))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(h(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>l(o({},\"__esModule\",{value:!0}),e);var c=g((M,m)=>{m.exports=_jsx_runtime});var k={};j(k,{default:()=>p,frontmatter:()=>C});var a=_(c()),C={title:\"Lalala\",slug:\"lalala-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ptk\"],featuresNames:[\"P T K\"],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"4:10\",trackNumber:4,producers:[],producersNames:[],description:\"Lalala \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return b(k);})();\n;return Component;"
+  },
+  "_id": "skladby/lalala-james-cole.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/lalala-james-cole.mdx",
+    "sourceFileName": "lalala-james-cole.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/lalala-james-cole"
+  },
+  "type": "Skladba",
+  "url": "/skladby/lalala-james-cole",
+  "canonicalUrl": "https://4rap.cz/skladby/lalala-james-cole"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Play Time",
+  "slug": "play-time-calin",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "features": [],
+  "featuresNames": [],
+  "album": "Play",
+  "albumSlug": "play",
+  "year": 2017,
+  "genre": [],
+  "duration": "1:35",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Play Time — skladba od CÂLIN.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(h(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>l(o({},\"__esModule\",{value:!0}),e);var i=y((L,c)=>{c.exports=_jsx_runtime});var N={};_(N,{default:()=>u,frontmatter:()=>j});var n=b(i()),j={title:\"Play Time\",slug:\"play-time-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Play\",albumSlug:\"play\",year:2017,genre:[],duration:\"1:35\",trackNumber:1,producers:[],producersNames:[],description:\"Play Time \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return g(N);})();\n;return Component;"
+  },
+  "_id": "skladby/play-time-calin.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/play-time-calin.mdx",
+    "sourceFileName": "play-time-calin.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/play-time-calin"
+  },
+  "type": "Skladba",
+  "url": "/skladby/play-time-calin",
+  "canonicalUrl": "https://4rap.cz/skladby/play-time-calin"
+}

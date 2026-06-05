@@ -1,0 +1,30 @@
+{
+  "title": "Jen Thug",
+  "slug": "jen-thug",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2020,
+  "genre": [],
+  "description": "Jen Thug — singl od Hugo Toxxx (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/af657571afada99e542213a480adda18/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Jen thug"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var g=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!p.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?g(m(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((A,c)=>{c.exports=_jsx_runtime});var S={};j(S,{default:()=>d,frontmatter:()=>M});var n=_(u()),M={title:\"Jen Thug\",slug:\"jen-thug\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2020,genre:[],description:\"Jen Thug \\u2014 singl od Hugo Toxxx (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/af657571afada99e542213a480adda18/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Jen thug\"],publishedAt:\"2026-06-04\"};function x(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(x,{...e})}):x(e)}return b(S);})();\n;return Component;"
+  },
+  "_id": "alba/jen-thug.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/jen-thug.mdx",
+    "sourceFileName": "jen-thug.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/jen-thug"
+  },
+  "type": "Album",
+  "url": "/alba/jen-thug",
+  "canonicalUrl": "https://4rap.cz/alba/jen-thug"
+}

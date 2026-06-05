@@ -1,0 +1,33 @@
+{
+  "title": "Padawan",
+  "slug": "padawan-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Ach Ano Mixtape",
+  "albumSlug": "ach-ano-mixtape",
+  "year": 2015,
+  "genre": [],
+  "duration": "2:03",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Padawan — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},i=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!f.call(e,r)&&r!==t&&o(e,r,{get:()=>a[r],enumerable:!(s=l(a,r))||s.enumerable});return e};var g=(e,a,t)=>(t=e!=null?p(h(e)):{},i(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),k=e=>i(o({},\"__esModule\",{value:!0}),e);var m=_((A,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>M});var n=g(m()),M={title:\"Padawan\",slug:\"padawan-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[],duration:\"2:03\",trackNumber:9,producers:[],producersNames:[],description:\"Padawan \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return k(j);})();\n;return Component;"
+  },
+  "_id": "skladby/padawan-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/padawan-maniak.mdx",
+    "sourceFileName": "padawan-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/padawan-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/padawan-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/padawan-maniak"
+}

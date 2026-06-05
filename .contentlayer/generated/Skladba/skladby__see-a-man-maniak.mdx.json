@@ -1,0 +1,33 @@
+{
+  "title": "See A Man",
+  "slug": "see-a-man-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Finding Myself",
+  "albumSlug": "finding-myself",
+  "year": 2026,
+  "genre": [],
+  "duration": "3:03",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "See A Man — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of f(n))!h.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var _=(e,n,a)=>(a=e!=null?l(x(e)):{},i(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>i(s({},\"__esModule\",{value:!0}),e);var u=g((y,m)=>{m.exports=_jsx_runtime});var j={};M(j,{default:()=>d,frontmatter:()=>k});var t=_(u()),k={title:\"See A Man\",slug:\"see-a-man-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Finding Myself\",albumSlug:\"finding-myself\",year:2026,genre:[],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"See A Man \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+  },
+  "_id": "skladby/see-a-man-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/see-a-man-maniak.mdx",
+    "sourceFileName": "see-a-man-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/see-a-man-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/see-a-man-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/see-a-man-maniak"
+}

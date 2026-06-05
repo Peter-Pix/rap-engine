@@ -1,0 +1,39 @@
+{
+  "title": "V moci démonů",
+  "slug": "v-moci-demonu-rest",
+  "rapper": "Rest",
+  "rapperSlug": "rest",
+  "features": [
+    "dj-fatte",
+    "boy-wonder"
+  ],
+  "featuresNames": [
+    "DJ Fatte",
+    "Boy Wonder"
+  ],
+  "album": "Střepy",
+  "albumSlug": "strepy",
+  "year": 2013,
+  "genre": [],
+  "duration": "4:29",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "V moci démonů — skladba od Rest.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(s({},\"__esModule\",{value:!0}),e);var d=b((F,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>i,frontmatter:()=>y});var r=g(d()),y={title:\"V moci d\\xE9mon\\u016F\",slug:\"v-moci-demonu-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\",\"boy-wonder\"],featuresNames:[\"DJ Fatte\",\"Boy Wonder\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[],duration:\"4:29\",trackNumber:10,producers:[],producersNames:[],description:\"V moci d\\xE9mon\\u016F \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/v-moci-demonu-rest.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/v-moci-demonu-rest.mdx",
+    "sourceFileName": "v-moci-demonu-rest.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/v-moci-demonu-rest"
+  },
+  "type": "Skladba",
+  "url": "/skladby/v-moci-demonu-rest",
+  "canonicalUrl": "https://4rap.cz/skladby/v-moci-demonu-rest"
+}

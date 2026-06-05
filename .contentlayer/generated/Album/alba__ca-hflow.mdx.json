@@ -1,0 +1,41 @@
+{
+  "title": "CA$HFLOW",
+  "slug": "ca-hflow",
+  "rapper": "CA$HANOVA BULHAR",
+  "rapperSlug": "ca-hanova-bulhar",
+  "label": "WM Czech Republic",
+  "year": 2025,
+  "genre": [],
+  "description": "CA$HFLOW — album od CA$HANOVA BULHAR (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c742da8610bbea0b179570bad33d1e2c/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Bulgaria Air",
+    "Hoodtrap",
+    "Private Jet",
+    "Ja znaju ludej",
+    "Will Salas",
+    "Bundasliga",
+    "Kancléř",
+    "Nosferatu",
+    "Lily-Rose Depp",
+    "Propast",
+    "Catch Me If U Can",
+    "Swimming Pool Gallery"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)l(e,n,{get:a[n],enumerable:!0})},c=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!A.call(e,r)&&r!==n&&l(e,r,{get:()=>a[r],enumerable:!(o=m(a,r))||o.enumerable});return e};var C=(e,a,n)=>(n=e!=null?u(g(e)):{},c(a||!e||!e.__esModule?l(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>c(l({},\"__esModule\",{value:!0}),e);var s=b((L,i)=>{i.exports=_jsx_runtime});var H={};x(H,{default:()=>p,frontmatter:()=>j});var t=C(s()),j={title:\"CA$HFLOW\",slug:\"ca-hflow\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",label:\"WM Czech Republic\",year:2025,genre:[],description:\"CA$HFLOW \\u2014 album od CA$HANOVA BULHAR (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/c742da8610bbea0b179570bad33d1e2c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bulgaria Air\",\"Hoodtrap\",\"Private Jet\",\"Ja znaju ludej\",\"Will Salas\",\"Bundasliga\",\"Kancl\\xE9\\u0159\",\"Nosferatu\",\"Lily-Rose Depp\",\"Propast\",\"Catch Me If U Can\",\"Swimming Pool Gallery\"],publishedAt:\"2026-06-04\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return f(H);})();\n;return Component;"
+  },
+  "_id": "alba/ca-hflow.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/ca-hflow.mdx",
+    "sourceFileName": "ca-hflow.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/ca-hflow"
+  },
+  "type": "Album",
+  "url": "/alba/ca-hflow",
+  "canonicalUrl": "https://4rap.cz/alba/ca-hflow"
+}

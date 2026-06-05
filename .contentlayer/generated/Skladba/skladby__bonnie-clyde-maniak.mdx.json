@@ -1,0 +1,33 @@
+{
+  "title": "BONNIE & CLYDE",
+  "slug": "bonnie-clyde-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "BONNIE & CLYDE",
+  "albumSlug": "bonnie-clyde",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:01",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "BONNIE & CLYDE — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!N.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(h(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var u=b((C,c)=>{c.exports=_jsx_runtime});var E={};f(E,{default:()=>d,frontmatter:()=>k});var t=_(u()),k={title:\"BONNIE & CLYDE\",slug:\"bonnie-clyde-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"BONNIE & CLYDE\",albumSlug:\"bonnie-clyde\",year:2025,genre:[],duration:\"3:01\",trackNumber:1,producers:[],producersNames:[],description:\"BONNIE & CLYDE \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(E);})();\n;return Component;"
+  },
+  "_id": "skladby/bonnie-clyde-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bonnie-clyde-maniak.mdx",
+    "sourceFileName": "bonnie-clyde-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bonnie-clyde-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bonnie-clyde-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/bonnie-clyde-maniak"
+}

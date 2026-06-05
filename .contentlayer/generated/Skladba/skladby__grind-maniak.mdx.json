@@ -1,0 +1,37 @@
+{
+  "title": "Grind",
+  "slug": "grind-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "michajlov"
+  ],
+  "featuresNames": [
+    "Michajlov"
+  ],
+  "album": "Babushka Traphouse afterparty",
+  "albumSlug": "babushka-traphouse-afterparty",
+  "year": 2025,
+  "genre": [],
+  "duration": "3:09",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Grind — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},i=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!b.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=l(r,n))||s.enumerable});return e};var g=(e,r,a)=>(a=e!=null?d(x(e)):{},i(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var c=f((N,u)=>{u.exports=_jsx_runtime});var M={};k(M,{default:()=>p,frontmatter:()=>_});var t=g(c()),_={title:\"Grind\",slug:\"grind-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"michajlov\"],featuresNames:[\"Michajlov\"],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[],duration:\"3:09\",trackNumber:6,producers:[],producersNames:[],description:\"Grind \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/grind-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/grind-maniak.mdx",
+    "sourceFileName": "grind-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/grind-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/grind-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/grind-maniak"
+}

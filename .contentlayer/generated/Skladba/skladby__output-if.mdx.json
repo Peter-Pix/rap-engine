@@ -1,0 +1,39 @@
+{
+  "title": "Output",
+  "slug": "output-if",
+  "rapper": "IF",
+  "rapperSlug": "if",
+  "features": [
+    "idea",
+    "dj-fatte"
+  ],
+  "featuresNames": [
+    "Idea",
+    "DJ Fatte"
+  ],
+  "album": "Rap",
+  "albumSlug": "rap",
+  "year": 2015,
+  "genre": [],
+  "duration": "3:08",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Output — skladba od IF.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)u(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!h.call(t,a)&&a!==n&&u(t,a,{get:()=>e[a],enumerable:!(o=l(e,a))||o.enumerable});return t};var g=(t,e,n)=>(n=t!=null?m(x(t)):{},s(e||!t||!t.__esModule?u(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>s(u({},\"__esModule\",{value:!0}),t);var c=_((M,p)=>{p.exports=_jsx_runtime});var D={};b(D,{default:()=>i,frontmatter:()=>F});var r=g(c()),F={title:\"Output\",slug:\"output-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[],duration:\"3:08\",trackNumber:12,producers:[],producersNames:[],description:\"Output \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return j(D);})();\n;return Component;"
+  },
+  "_id": "skladby/output-if.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/output-if.mdx",
+    "sourceFileName": "output-if.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/output-if"
+  },
+  "type": "Skladba",
+  "url": "/skladby/output-if",
+  "canonicalUrl": "https://4rap.cz/skladby/output-if"
+}

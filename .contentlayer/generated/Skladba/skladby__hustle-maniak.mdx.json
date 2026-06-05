@@ -1,0 +1,39 @@
+{
+  "title": "Hustle",
+  "slug": "hustle-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [
+    "grimaso",
+    "big-boy-kea"
+  ],
+  "featuresNames": [
+    "Grimaso",
+    "Big Boy Kea"
+  ],
+  "album": "Babushka Traphouse afterparty",
+  "albumSlug": "babushka-traphouse-afterparty",
+  "year": 2025,
+  "genre": [],
+  "duration": "2:40",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Hustle — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!x.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(o=d(t,n))||o.enumerable});return e};var k=(e,t,r)=>(r=e!=null?l(b(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var m=f((B,i)=>{i.exports=_jsx_runtime});var j={};g(j,{default:()=>c,frontmatter:()=>y});var a=k(m()),y={title:\"Hustle\",slug:\"hustle-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"grimaso\",\"big-boy-kea\"],featuresNames:[\"Grimaso\",\"Big Boy Kea\"],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[],duration:\"2:40\",trackNumber:4,producers:[],producersNames:[],description:\"Hustle \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(p,{...e})}):p(e)}return _(j);})();\n;return Component;"
+  },
+  "_id": "skladby/hustle-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hustle-maniak.mdx",
+    "sourceFileName": "hustle-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hustle-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hustle-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/hustle-maniak"
+}

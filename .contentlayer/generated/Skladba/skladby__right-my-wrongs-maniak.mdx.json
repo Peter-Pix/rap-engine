@@ -1,0 +1,33 @@
+{
+  "title": "Right My Wrongs",
+  "slug": "right-my-wrongs-maniak",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "features": [],
+  "featuresNames": [],
+  "album": "Better Ways",
+  "albumSlug": "better-ways",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:19",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Right My Wrongs — skladba od Maniak.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var y=(e,t,r)=>(r=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var u=b((w,m)=>{m.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>_});var n=y(u()),_={title:\"Right My Wrongs\",slug:\"right-my-wrongs-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Better Ways\",albumSlug:\"better-ways\",year:2024,genre:[],duration:\"3:19\",trackNumber:1,producers:[],producersNames:[],description:\"Right My Wrongs \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return M(k);})();\n;return Component;"
+  },
+  "_id": "skladby/right-my-wrongs-maniak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/right-my-wrongs-maniak.mdx",
+    "sourceFileName": "right-my-wrongs-maniak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/right-my-wrongs-maniak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/right-my-wrongs-maniak",
+  "canonicalUrl": "https://4rap.cz/skladby/right-my-wrongs-maniak"
+}

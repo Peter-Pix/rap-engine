@@ -1,0 +1,46 @@
+{
+  "title": "KINGPIN",
+  "slug": "kingpin",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "label": "Virgin Music Label And Artist Services Distributed Labels",
+  "year": 2019,
+  "genre": [],
+  "description": "KINGPIN — album od Decky (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/7b8102679a3f7ae9b5abe6bb3cbdbd94/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "BOHEMIAN TRAPSODY",
+    "GOTHAM",
+    "RÁJ",
+    "ON AIR",
+    "C.D.H.D. [cesta do hloubi duše]",
+    "EL PASO SKIT",
+    "PERRICO",
+    "PANORAMA",
+    "ZA JEDNU NOC",
+    "FLEXIM JAKO LORD",
+    "NENÍ ČAS",
+    "KOUŘÍM JEN KDYŽ PIJU",
+    "PRÁVĚ TEĎ",
+    "HACHI ROKU",
+    "NAŠTVANÝ ŽE ZÁŘIM 2",
+    "UZAVŘENÝ KRUH",
+    "KINGPIN"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var N=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var I=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),O=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of b(t))!p.call(e,i)&&i!==r&&s(e,i,{get:()=>t[i],enumerable:!(a=N(t,i))||a.enumerable});return e};var g=(e,t,r)=>(r=e!=null?u(m(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),h=e=>c(s({},\"__esModule\",{value:!0}),e);var d=I((M,o)=>{o.exports=_jsx_runtime});var x={};O(x,{default:()=>A,frontmatter:()=>D});var n=g(d()),D={title:\"KINGPIN\",slug:\"kingpin\",rapper:\"Decky\",rapperSlug:\"decky\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2019,genre:[],description:\"KINGPIN \\u2014 album od Decky (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/7b8102679a3f7ae9b5abe6bb3cbdbd94/1000x1000-000000-80-0-0.jpg\",tracklist:[\"BOHEMIAN TRAPSODY\",\"GOTHAM\",\"R\\xC1J\",\"ON AIR\",\"C.D.H.D. [cesta do hloubi du\\u0161e]\",\"EL PASO SKIT\",\"PERRICO\",\"PANORAMA\",\"ZA JEDNU NOC\",\"FLEXIM JAKO LORD\",\"NEN\\xCD \\u010CAS\",\"KOU\\u0158\\xCDM JEN KDY\\u017D PIJU\",\"PR\\xC1V\\u011A TE\\u010E\",\"HACHI ROKU\",\"NA\\u0160TVAN\\xDD \\u017DE Z\\xC1\\u0158IM 2\",\"UZAV\\u0158EN\\xDD KRUH\",\"KINGPIN\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function A(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return h(x);})();\n;return Component;"
+  },
+  "_id": "alba/kingpin.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/kingpin.mdx",
+    "sourceFileName": "kingpin.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/kingpin"
+  },
+  "type": "Album",
+  "url": "/alba/kingpin",
+  "canonicalUrl": "https://4rap.cz/alba/kingpin"
+}

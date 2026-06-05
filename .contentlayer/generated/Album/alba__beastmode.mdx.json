@@ -1,0 +1,32 @@
+{
+  "title": "BeastMode",
+  "slug": "beastmode",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "JayWorks Entertainment",
+  "year": 2026,
+  "genre": [],
+  "description": "BeastMode — singl od Maniak (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/2ff4a7f972e684e5dfd50724d000635e/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "BeastMode",
+    "BeastMode",
+    "BeastMode (Instrumental)"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},d=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!x.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=u(t,r))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(h(e)):{},d(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>d(s({},\"__esModule\",{value:!0}),e);var c=M((y,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>l,frontmatter:()=>b});var n=_(c()),b={title:\"BeastMode\",slug:\"beastmode\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"JayWorks Entertainment\",year:2026,genre:[],description:\"BeastMode \\u2014 singl od Maniak (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/2ff4a7f972e684e5dfd50724d000635e/1000x1000-000000-80-0-0.jpg\",tracklist:[\"BeastMode\",\"BeastMode\",\"BeastMode (Instrumental)\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/beastmode.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/beastmode.mdx",
+    "sourceFileName": "beastmode.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/beastmode"
+  },
+  "type": "Album",
+  "url": "/alba/beastmode",
+  "canonicalUrl": "https://4rap.cz/alba/beastmode"
+}

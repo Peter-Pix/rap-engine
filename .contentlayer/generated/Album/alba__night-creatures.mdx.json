@@ -1,0 +1,30 @@
+{
+  "title": "Night Creatures",
+  "slug": "night-creatures",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "ManiakRecord",
+  "year": 2025,
+  "genre": [],
+  "description": "Night Creatures — singl od Maniak (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/d7bcd30df1b71ed2be86fb4a3a039120/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Night Creatures"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?u(h(e)):{},c(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(i({},\"__esModule\",{value:!0}),e);var d=b((N,o)=>{o.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>M});var n=_(d()),M={title:\"Night Creatures\",slug:\"night-creatures\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"ManiakRecord\",year:2025,genre:[],description:\"Night Creatures \\u2014 singl od Maniak (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/d7bcd30df1b71ed2be86fb4a3a039120/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Night Creatures\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "alba/night-creatures.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/night-creatures.mdx",
+    "sourceFileName": "night-creatures.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/night-creatures"
+  },
+  "type": "Album",
+  "url": "/alba/night-creatures",
+  "canonicalUrl": "https://4rap.cz/alba/night-creatures"
+}

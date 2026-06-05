@@ -1,0 +1,33 @@
+{
+  "title": "Hold on",
+  "slug": "hold-on-bobby-blaze",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "features": [],
+  "featuresNames": [],
+  "album": "Through These Eyes",
+  "albumSlug": "through-these-eyes",
+  "year": 2004,
+  "genre": [],
+  "duration": "4:30",
+  "trackNumber": 13,
+  "producers": [],
+  "producersNames": [],
+  "description": "Hold on — skladba od Bobby Blaze.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of i(t))!x.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=h(t,o))||a.enumerable});return e};var f=(e,t,r)=>(r=e!=null?m(p(e)):{},l(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var b=g((M,u)=>{u.exports=_jsx_runtime});var z={};y(z,{default:()=>d,frontmatter:()=>j});var n=f(b()),j={title:\"Hold on\",slug:\"hold-on-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[],duration:\"4:30\",trackNumber:13,producers:[],producersNames:[],description:\"Hold on \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(z);})();\n;return Component;"
+  },
+  "_id": "skladby/hold-on-bobby-blaze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hold-on-bobby-blaze.mdx",
+    "sourceFileName": "hold-on-bobby-blaze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hold-on-bobby-blaze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hold-on-bobby-blaze",
+  "canonicalUrl": "https://4rap.cz/skladby/hold-on-bobby-blaze"
+}

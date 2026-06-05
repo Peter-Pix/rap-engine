@@ -1,0 +1,39 @@
+{
+  "title": "Stoupat Výš",
+  "slug": "stoupat-vys-orion",
+  "rapper": "Orion",
+  "rapperSlug": "orion",
+  "features": [
+    "vladimir-518",
+    "p13"
+  ],
+  "featuresNames": [
+    "Vladimir 518",
+    "P13"
+  ],
+  "album": "Teritorium I",
+  "albumSlug": "teritorium-i",
+  "year": 2003,
+  "genre": [],
+  "duration": "4:08",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Stoupat Výš — skladba od Orion.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!f.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=l(e,o))||i.enumerable});return t};var g=(t,e,n)=>(n=t!=null?d(h(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>s(a({},\"__esModule\",{value:!0}),t);var m=_((N,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>S});var r=g(m()),S={title:\"Stoupat V\\xFD\\u0161\",slug:\"stoupat-vys-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"vladimir-518\",\"p13\"],featuresNames:[\"Vladimir 518\",\"P13\"],album:\"Teritorium I\",albumSlug:\"teritorium-i\",year:2003,genre:[],duration:\"4:08\",trackNumber:8,producers:[],producersNames:[],description:\"Stoupat V\\xFD\\u0161 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function p(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return j(y);})();\n;return Component;"
+  },
+  "_id": "skladby/stoupat-vys-orion.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/stoupat-vys-orion.mdx",
+    "sourceFileName": "stoupat-vys-orion.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/stoupat-vys-orion"
+  },
+  "type": "Skladba",
+  "url": "/skladby/stoupat-vys-orion",
+  "canonicalUrl": "https://4rap.cz/skladby/stoupat-vys-orion"
+}

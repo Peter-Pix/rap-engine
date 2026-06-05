@@ -1,14 +1,5 @@
 'use client'
 
-// ═══════════════════════════════════════════════════════════════
-// SearchBar — header search input s instant dropdown výsledky
-//
-// - Lazy načte search index při prvním focusu (cache)
-// - Fuzzy search přes minisearch — diacritika folding, prefix match
-// - Klávesy: ↑↓ pro navigaci, Enter pro otevření, Esc pro zavření
-// - Submit (Enter bez výběru) → /hledej?q=...
-// ═══════════════════════════════════════════════════════════════
-
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
@@ -17,6 +8,14 @@ import { ENTITY_TYPE_LABELS, ENTITY_TYPE_COLORS } from '@/lib/search'
 import type { SearchDocument } from '@/lib/search'
 
 const MAX_RESULTS = 8
+
+// Shared diacritics folding — must be identical for indexing AND
+// searching, otherwise query terms won't match indexed terms.
+const stripDiacritics = (term: string): string =>
+  term
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
 
 export function SearchBar() {
   const router = useRouter()
@@ -28,40 +27,51 @@ export function SearchBar() {
   const [loading, setLoading] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+  const loadedRef = useRef(false)
 
   // ─── LAZY LOAD INDEX ────────────────────────────────────
   const loadIndex = useCallback(async () => {
-    if (index) return
+    // Use a synchronous ref so rapid focus/blur can't start two loads
+    if (loadedRef.current) return
+    loadedRef.current = true
     setLoading(true)
     try {
       const res = await fetch('/api/search-index')
-      const data = (await res.json()) as { documents: SearchDocument[] }
+      if (!res.ok) throw new Error(`Search index fetch failed: ${res.status}`)
+      const data = await res.json()
+      const rawDocuments: SearchDocument[] = Array.isArray(data) ? data : data.documents
+      if (!Array.isArray(rawDocuments)) throw new Error('Search index: invalid data format')
+
+      // Deduplicate by id and skip entries without a valid id —
+      // MiniSearch.add() throws on duplicate ids, so we must ensure
+      // uniqueness before calling addAll().
       const docMap = new Map<string, SearchDocument>()
-      for (const d of data.documents) docMap.set(d.id, d)
+      for (const d of rawDocuments) {
+        if (d.id != null && !docMap.has(d.id)) docMap.set(d.id, d)
+      }
+      const documents = [...docMap.values()]
+
       const ms = new MiniSearch<SearchDocument>({
         fields: ['title', 'description', 'context'],
         storeFields: ['id'],
+        processTerm: stripDiacritics,
         searchOptions: {
           boost: { title: 4, context: 2 },
           fuzzy: 0.2,
           prefix: true,
+          processTerm: stripDiacritics, // ← was missing: query terms must be folded too
         },
-        // Diacritika folding pro českou diakritiku
-        processTerm: (term) =>
-          term
-            .toLowerCase()
-            .normalize('NFD')
-            .replace(/[\u0300-\u036f]/g, ''),
       })
-      ms.addAll(data.documents)
+      ms.addAll(documents)
       setIndex(ms)
       setDocs(docMap)
     } catch (err) {
       console.error('[search] failed to load index', err)
+      loadedRef.current = false // allow retry on failure
     } finally {
       setLoading(false)
     }
-  }, [index])
+  }, [])
 
   // ─── KLÁVESOVÝ SHORTCUT (⌘K / Ctrl+K) ───────────────────
   useEffect(() => {
@@ -121,7 +131,6 @@ export function SearchBar() {
         setIsOpen(false)
         setQuery('')
       } else if (query.trim()) {
-        // Submit to full search page
         router.push(`/hledej?q=${encodeURIComponent(query.trim())}`)
         setIsOpen(false)
       }

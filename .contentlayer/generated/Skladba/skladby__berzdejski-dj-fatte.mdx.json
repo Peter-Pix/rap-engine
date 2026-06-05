@@ -1,0 +1,33 @@
+{
+  "title": "Berzdejski",
+  "slug": "berzdejski-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [],
+  "featuresNames": [],
+  "album": "Což takhle dát si Tesař",
+  "albumSlug": "coz-takhle-dat-si-tesar",
+  "year": 2011,
+  "genre": [],
+  "duration": "3:24",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Berzdejski — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var k=(e,t,n)=>(n=e!=null?m(j(e)):{},d(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>d(s({},\"__esModule\",{value:!0}),e);var u=f((F,i)=>{i.exports=_jsx_runtime});var z={};b(z,{default:()=>l,frontmatter:()=>g});var r=k(u()),g={title:\"Berzdejski\",slug:\"berzdejski-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[],duration:\"3:24\",trackNumber:10,producers:[],producersNames:[],description:\"Berzdejski \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(z);})();\n;return Component;"
+  },
+  "_id": "skladby/berzdejski-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/berzdejski-dj-fatte.mdx",
+    "sourceFileName": "berzdejski-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/berzdejski-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/berzdejski-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/berzdejski-dj-fatte"
+}

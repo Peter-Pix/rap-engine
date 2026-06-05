@@ -1,0 +1,37 @@
+{
+  "title": "Kdo je Nory",
+  "slug": "kdo-je-nory-idea",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "features": [
+    "stryc-nory"
+  ],
+  "featuresNames": [
+    "Strýc Nory"
+  ],
+  "album": "Space Lopata",
+  "albumSlug": "space-lopata",
+  "year": 2023,
+  "genre": [],
+  "duration": "3:39",
+  "trackNumber": 2,
+  "producers": [],
+  "producersNames": [],
+  "description": "Kdo je Nory — skladba od Idea.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!j.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>c(a({},\"__esModule\",{value:!0}),e);var u=y((k,d)=>{d.exports=_jsx_runtime});var N={};f(N,{default:()=>i,frontmatter:()=>g});var r=_(u()),g={title:\"Kdo je Nory\",slug:\"kdo-je-nory-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[],duration:\"3:39\",trackNumber:2,producers:[],producersNames:[],description:\"Kdo je Nory \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return b(N);})();\n;return Component;"
+  },
+  "_id": "skladby/kdo-je-nory-idea.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/kdo-je-nory-idea.mdx",
+    "sourceFileName": "kdo-je-nory-idea.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/kdo-je-nory-idea"
+  },
+  "type": "Skladba",
+  "url": "/skladby/kdo-je-nory-idea",
+  "canonicalUrl": "https://4rap.cz/skladby/kdo-je-nory-idea"
+}

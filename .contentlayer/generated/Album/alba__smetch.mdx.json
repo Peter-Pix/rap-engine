@@ -1,0 +1,30 @@
+{
+  "title": "Smetch",
+  "slug": "smetch",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2021,
+  "genre": [],
+  "description": "Smetch — singl od Hugo Toxxx (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/843585053e7da8d1e27bf965c90b9446/1000x1000-000000-80-0-0.jpg",
+  "tracklist": [
+    "Smetch"
+  ],
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),S=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!g.call(e,o)&&o!==r&&c(e,o,{get:()=>t[o],enumerable:!(s=u(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(p(e)):{},i(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>i(c({},\"__esModule\",{value:!0}),e);var m=b((D,a)=>{a.exports=_jsx_runtime});var M={};S(M,{default:()=>d,frontmatter:()=>j});var n=_(m()),j={title:\"Smetch\",slug:\"smetch\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2021,genre:[],description:\"Smetch \\u2014 singl od Hugo Toxxx (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/843585053e7da8d1e27bf965c90b9446/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Smetch\"],publishedAt:\"2026-06-04\"};function x(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(x,{...e})}):x(e)}return f(M);})();\n;return Component;"
+  },
+  "_id": "alba/smetch.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/smetch.mdx",
+    "sourceFileName": "smetch.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/smetch"
+  },
+  "type": "Album",
+  "url": "/alba/smetch",
+  "canonicalUrl": "https://4rap.cz/alba/smetch"
+}

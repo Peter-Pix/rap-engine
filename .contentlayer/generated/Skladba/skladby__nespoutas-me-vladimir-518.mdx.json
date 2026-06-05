@@ -1,0 +1,39 @@
+{
+  "title": "Nespoutáš Mě",
+  "slug": "nespoutas-me-vladimir-518",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "features": [
+    "mike-trafik",
+    "ridina-ahmedov"
+  ],
+  "featuresNames": [
+    "Mike Trafik",
+    "Ridina Ahmedov"
+  ],
+  "album": "Gorila vs. Architekt",
+  "albumSlug": "gorila-vs-architekt",
+  "year": 2008,
+  "genre": [],
+  "duration": "3:45",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Nespoutáš Mě — skladba od Vladimir 518.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?c(x(e)):{},s(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var d=k((N,m)=>{m.exports=_jsx_runtime});var M={};g(M,{default:()=>l,frontmatter:()=>v});var r=_(d()),v={title:\"Nespout\\xE1\\u0161 M\\u011B\",slug:\"nespoutas-me-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"ridina-ahmedov\"],featuresNames:[\"Mike Trafik\",\"Ridina Ahmedov\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[],duration:\"3:45\",trackNumber:12,producers:[],producersNames:[],description:\"Nespout\\xE1\\u0161 M\\u011B \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(M);})();\n;return Component;"
+  },
+  "_id": "skladby/nespoutas-me-vladimir-518.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nespoutas-me-vladimir-518.mdx",
+    "sourceFileName": "nespoutas-me-vladimir-518.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nespoutas-me-vladimir-518"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nespoutas-me-vladimir-518",
+  "canonicalUrl": "https://4rap.cz/skladby/nespoutas-me-vladimir-518"
+}

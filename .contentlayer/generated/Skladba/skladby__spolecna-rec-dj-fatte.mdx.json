@@ -1,0 +1,39 @@
+{
+  "title": "Společná řeč",
+  "slug": "spolecna-rec-dj-fatte",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "features": [
+    "regie-257",
+    "fokis"
+  ],
+  "featuresNames": [
+    "Regie 257",
+    "Fokis"
+  ],
+  "album": "Řev",
+  "albumSlug": "rev",
+  "year": 2024,
+  "genre": [],
+  "duration": "3:42",
+  "trackNumber": 6,
+  "producers": [],
+  "producersNames": [],
+  "description": "Společná řeč — skladba od DJ Fatte.",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>c(a({},\"__esModule\",{value:!0}),e);var i=g((D,u)=>{u.exports=_jsx_runtime});var S={};j(S,{default:()=>p,frontmatter:()=>F});var r=_(i()),F={title:\"Spole\\u010Dn\\xE1 \\u0159e\\u010D\",slug:\"spolecna-rec-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"fokis\"],featuresNames:[\"Regie 257\",\"Fokis\"],album:\"\\u0158ev\",albumSlug:\"rev\",year:2024,genre:[],duration:\"3:42\",trackNumber:6,producers:[],producersNames:[],description:\"Spole\\u010Dn\\xE1 \\u0159e\\u010D \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(S);})();\n;return Component;"
+  },
+  "_id": "skladby/spolecna-rec-dj-fatte.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/spolecna-rec-dj-fatte.mdx",
+    "sourceFileName": "spolecna-rec-dj-fatte.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/spolecna-rec-dj-fatte"
+  },
+  "type": "Skladba",
+  "url": "/skladby/spolecna-rec-dj-fatte",
+  "canonicalUrl": "https://4rap.cz/skladby/spolecna-rec-dj-fatte"
+}
