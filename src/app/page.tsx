@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import { allClaneks } from 'contentlayer/generated'
 
 import { FeaturedHero } from '@/components/magazine/FeaturedHero'
-import { ArticleCard } from '@/components/magazine/ArticleCard'
 import { TrendingSidebar } from '@/components/magazine/TrendingSidebar'
-import { FeedFilters } from '@/components/magazine/FeedFilters'
+import { MagazineFeed } from '@/components/magazine/MagazineFeed'
 
 import {
   getFeaturedArticle,
@@ -53,19 +52,7 @@ export default function MagazineHomePage() {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-8">
         {/* FEED */}
         <main>
-          <FeedFilters totalCount={feed.length} />
-
-          {feed.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {feed.map((a) => (
-                <ArticleCard key={a.slug} article={a} />
-              ))}
-            </div>
-          ) : (
-            <div className="rounded-2xl bg-zinc-900/40 ring-1 ring-white/[0.06] p-12 text-center">
-              <p className="text-zinc-500 text-sm">Magazín se právě plní.</p>
-            </div>
-          )}
+          <MagazineFeed articles={feed} />
         </main>
 
         {/* TRENDING sidebar */}

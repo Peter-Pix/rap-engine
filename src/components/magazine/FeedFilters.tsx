@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { ALL_CATEGORIES } from './CategoryBadge'
 
 // ═══════════════════════════════════════════════════════════════
 // FeedFilters — řádek nad grid: "FEED  N článků  ●NEPŘEČTENÉ  ↻NÁHODNÉ  ≡FILTR"
@@ -117,7 +117,7 @@ export function FeedFilters({ totalCount, onChange }: FeedFiltersProps) {
               >
                 Všechny kategorie
               </button>
-              {(['raperi', 'alba', 'labely', 'zanry', 'clanky', 'navody', 'recenze', 'rozhovor', 'historie'] as const).map((c) => (
+              {ALL_CATEGORIES.map((c) => (
                 <button
                   key={c}
                   type="button"

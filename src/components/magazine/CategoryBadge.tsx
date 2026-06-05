@@ -18,20 +18,12 @@ import type { ReactNode } from 'react'
 //   historie  → amber   — historie scény
 // ═══════════════════════════════════════════════════════════════
 
-export type CategoryKey =
-  | 'featured'
-  | 'rapeřri'    // alias rapeři → category v listingu
-  | 'raperi'
-  | 'alba'
-  | 'labely'
-  | 'zanry'
-  | 'clanky'
-  | 'navody'
-  | 'rozhovor'
-  | 'recenze'
-  | 'historie'
-  | 'analyza'
-  | 'editorial'
+export const ALL_CATEGORIES = [
+  'raperi', 'alba', 'labely', 'zanry', 'clanky',
+  'navody', 'recenze', 'rozhovor', 'historie', 'analyza', 'editorial',
+] as const
+
+export type CategoryKey = typeof ALL_CATEGORIES[number] | 'featured'
 
 interface CategoryStyle {
   bg: string

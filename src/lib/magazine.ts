@@ -86,6 +86,8 @@ export function getTrendingArticles(articles: Clanek[], excludeSlug?: string, li
  * Random = náhodný výběr článků (Fisher-Yates partial shuffle).
  *   • Výběr je uniformní — každý článek má stejnou šanci.
  *   • Partial shuffle = O(limit) místo O(n) pro velká pole.
+ *   • ⚠️ Používej pouze v client komponentách, nebo předej `seed` pro SSR-safe shuffle.
+ *     Bez seedu Math.random() způsobí hydration mismatch.
  */
 export function getRandomArticles(
   articles: Clanek[],
