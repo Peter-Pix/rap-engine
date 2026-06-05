@@ -20,9 +20,7 @@ export function Footer() {
           <div>
             <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-zinc-400 mb-3">Magazín</h3>
             <ul className="space-y-2">
-              {[['Články','/clanky'],['Recenze','/clanky'],['Novinky','/clanky']].map(([l,h]) => (
-                <li key={l}><Link href={h} className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors">{l}</Link></li>
-              ))}
+              <li><Link href="/clanky" className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors">Články</Link></li>
             </ul>
           </div>
           <div>
