@@ -23,6 +23,7 @@ export type Album = {
   genre?: string[] | undefined
   description: string
   image?: string | undefined
+  featured: boolean
   tracklist?: string[] | undefined
   rating?: number | undefined
   publishedAt: IsoDateTimeString

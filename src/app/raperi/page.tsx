@@ -19,7 +19,7 @@ export default function RaperiPage() {
     url: r.url,
     meta: r.label,
     tags: r.genre || [],
-    featured: r.featured,
+    ffeatured: 'featured' in r ? (r as any).featured : undefined,
     genres: r.genre || [],
     label: r.label,
     publishedAt: r.publishedAt,

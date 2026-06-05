@@ -22,9 +22,8 @@ export default function ZanryPage() {
       url: z.url,
       meta: rappersCount > 0 ? `${rappersCount} rapperů · ${albumsCount} alb` : undefined,
       tags: z.origin ? [z.origin] : [],
-      featured: z.featured,
-      origin: z.origin,
-      publishedAt: z.publishedAt,
+      featured: 'featured' in z ? (z as any).featured : undefined,
+      publishedAt: z.publishedAt, 
     }
   })
 
@@ -49,7 +48,6 @@ export default function ZanryPage() {
         <FilterableListing
           items={items}
           itemType="zanr"
-          filters={[{ key: 'origin', label: 'Původ', type: 'multi' }]}
           availableSorts={['alpha', 'featured']}
           defaultSort="alpha"
         />

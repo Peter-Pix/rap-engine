@@ -22,7 +22,7 @@ export default function LabelyPage() {
       url: l.url,
       meta: rosterCount > 0 ? `${rosterCount} rapperů · ${releasesCount} releases` : undefined,
       tags: l.location ? [l.location] : [],
-      featured: l.featured,
+      featured: 'featured' in l ? (l as any).featured : undefined,
       location: l.location,
       publishedAt: l.publishedAt,
     }

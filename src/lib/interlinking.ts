@@ -4,7 +4,7 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-06-05T00:13:37.104Z
+// Vygenerováno: 2026-06-05T02:16:23.106Z
 // Celkem entit: 873 (589 album, 29 label, 227 rapper, 28 zanr)
 // ═══════════════════════════════════════════════════════════════
 

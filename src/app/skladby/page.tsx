@@ -21,7 +21,7 @@ export default function SkladbyPage() {
       url: s.url,
       meta: rapper?.title ? `${rapper.title}${s.year ? ` · ${s.year}` : ''}` : undefined,
       tags: s.genre || [],
-      featured: s.featured,
+      ffeatured: 'featured' in s ? (s as any).featured : undefined,
       genres: s.genre || [],
       year: s.year,
       rapperSlug: s.rapperSlug,
@@ -52,7 +52,7 @@ export default function SkladbyPage() {
           itemType="skladba"
           filters={[
             { key: 'genres', label: 'Žánr', type: 'multi' },
-            { key: 'year', label: 'Rok', type: 'multi' },
+            { key: 'year', label: 'Rok', type: 'year' },
           ]}
           availableSorts={['date', 'featured', 'alpha']}
           defaultSort="date"

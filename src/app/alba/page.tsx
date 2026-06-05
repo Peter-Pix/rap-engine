@@ -61,7 +61,7 @@ export default function AlbaPage() {
           itemType="album"
           filters={[
             { key: 'genres', label: 'Žánr', type: 'multi' },
-            { key: 'year', label: 'Rok', type: 'multi' },
+            { key: 'year', label: 'Rok', type: 'year' },
           ]}
           availableSorts={['date', 'featured', 'alpha']}
           defaultSort="date"

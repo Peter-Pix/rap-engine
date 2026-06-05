@@ -48,6 +48,7 @@ export const Album = defineDocumentType(() => ({
     genre:       { type: 'list',     of: { type: 'string' }, required: false },
     description: { type: 'string',   required: true },
     image:       { type: 'string',   required: false },
+    featured:    { type: 'boolean',  default: false },      // ← ADD THIS
     tracklist:   { type: 'list',     of: { type: 'string' }, required: false },
     rating:      { type: 'number',   required: false },
     publishedAt: { type: 'date',     required: true },
@@ -58,6 +59,7 @@ export const Album = defineDocumentType(() => ({
     canonicalUrl: { type: 'string', resolve: (doc) => `https://4rap.cz/alba/${doc.slug}` },
   },
 }))
+
 
 // ─── LABEL ─────────────────────────────────────────────────
 export const Label = defineDocumentType(() => ({
