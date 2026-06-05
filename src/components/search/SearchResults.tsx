@@ -31,22 +31,35 @@ export function SearchResults() {
     ;(async () => {
       try {
         const res = await fetch('/api/search-index')
-        const data = (await res.json()) as { documents: SearchDocument[] }
+        if (!res.ok) throw new Error(`Search index fetch failed: ${res.status}`)
+        const raw = await res.json()
         if (cancelled) return
+
+        // API vrací ploché pole, ne objekt s .documents (BUG-01 fix)
+        const rawDocuments: SearchDocument[] = Array.isArray(raw) ? raw : raw.documents ?? []
+
+        // Deduplikace podle id — MiniSearch.addAll() hází na duplicitách
         const docMap = new Map<string, SearchDocument>()
-        for (const d of data.documents) docMap.set(d.id, d)
+        for (const d of rawDocuments) {
+          if (d.id != null && !docMap.has(d.id)) docMap.set(d.id, d)
+        }
+        const documents = [...docMap.values()]
+
+        const stripDiacritics = (term: string): string =>
+          term.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+
         const ms = new MiniSearch<SearchDocument>({
           fields: ['title', 'description', 'context'],
           storeFields: ['id'],
+          processTerm: stripDiacritics,
           searchOptions: {
             boost: { title: 4, context: 2 },
             fuzzy: 0.2,
             prefix: true,
+            processTerm: stripDiacritics, // BUG-02 fix: query term diacritics folding
           },
-          processTerm: (term) =>
-            term.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''),
         })
-        ms.addAll(data.documents)
+        ms.addAll(documents)
         if (!cancelled) {
           setIndex(ms)
           setDocs(docMap)
