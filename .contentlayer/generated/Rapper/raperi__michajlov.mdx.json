@@ -1,37 +1,13 @@
 {
   "title": "Michajlov",
   "slug": "michajlov",
-  "realName": "Michal Michajlov",
-  "born": "1991",
-  "active": "2011–současnost",
-  "label": "1312 Records",
-  "genre": [
-    "boom-bap",
-    "hip-hop",
-    "hardcore-rap"
-  ],
-  "description": "Michajlov (Michal Michajlov) je brněnský rapper ukrajinského původu, spoluzakladatel labelu 1312 Records a jedna z nejvýraznějších tváří současného českého boombapu.",
-  "image": "/images/raperi/michajlov.jpg",
-  "featured": true,
-  "publishedAt": "2026-05-24T00:00:00.000Z",
-  "updatedAt": "2026-05-24T00:00:00.000Z",
-  "relatedRappers": [
-    "daniel-vardan",
-    "robin-tent",
-    "rest",
-    "separ",
-    "maniak"
-  ],
-  "relatedAlbums": [
-    "roots",
-    "fts",
-    "limit",
-    "1991",
-    "ronin"
-  ],
+  "genre": [],
+  "description": "Michajlov — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## O rapperovi\n\n**[Michajlov](/raperi/michajlov)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var n in e)t(a,n,{get:e[n],enumerable:!0})},i=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!v.call(a,o)&&o!==n&&t(a,o,{get:()=>e[o],enumerable:!(s=j(e,o))||s.enumerable});return a};var M=(a,e,n)=>(n=a!=null?d(u(a)):{},i(e||!a||!a.__esModule?t(n,\"default\",{value:a,enumerable:!0}):n,a)),x=a=>i(t({},\"__esModule\",{value:!0}),a);var l=b((z,c)=>{c.exports=_jsx_runtime});var k={};g(k,{default:()=>h,frontmatter:()=>f});var r=M(l()),f={title:\"Michajlov\",slug:\"michajlov\",realName:\"Michal Michajlov\",born:\"1991\",active:\"2011\\u2013sou\\u010Dasnost\",label:\"1312 Records\",genre:[\"boom-bap\",\"hip-hop\",\"hardcore-rap\"],description:\"Michajlov (Michal Michajlov) je brn\\u011Bnsk\\xFD rapper ukrajinsk\\xE9ho p\\u016Fvodu, spoluzakladatel labelu 1312 Records a jedna z nejv\\xFDrazn\\u011Bj\\u0161\\xEDch tv\\xE1\\u0159\\xED sou\\u010Dasn\\xE9ho \\u010Desk\\xE9ho boombapu.\",image:\"/images/raperi/michajlov.jpg\",featured:!0,publishedAt:\"2026-05-24\",updatedAt:\"2026-05-24\",relatedRappers:[\"daniel-vardan\",\"robin-tent\",\"rest\",\"separ\",\"maniak\"],relatedAlbums:[\"roots\",\"fts\",\"limit\",\"1991\",\"ronin\"]};function p(a){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/raperi/michajlov\",children:\"Michajlov\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function h(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(p,{...a})}):p(a)}return x(k);})();\n;return Component;"
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of u(n))!j.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(c=d(n,r))||c.enumerable});return e};var v=(e,n,o)=>(o=e!=null?p(x(e)):{},i(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var l=_((y,a)=>{a.exports=_jsx_runtime});var b={};f(b,{default:()=>h,frontmatter:()=>g});var t=v(l()),g={title:\"Michajlov\",slug:\"michajlov\",genre:[],description:\"Michajlov \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return M(b);})();\n;return Component;"
   },
   "_id": "raperi/michajlov.mdx",
   "_raw": {

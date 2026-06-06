@@ -9,22 +9,23 @@
   "featuresNames": [
     "7krát3"
   ],
-  "album": "White Boy",
-  "albumSlug": "white-boy",
+  "album": "Domov",
+  "albumSlug": "domov",
   "year": 2025,
   "genre": [
-    ""
+    "hip-hop",
+    "rnb"
   ],
   "duration": "4:10",
-  "trackNumber": 3,
+  "trackNumber": 1,
   "producers": [],
   "producersNames": [],
-  "description": "Domov — skladba od Vladimir 518.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "Domov — skladba od Vladimir 518 z alba Domov (2025).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Domov](/skladby/domov-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [White Boy](/alba/white-boy) (2025).\n",
-    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var v=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var o in r)i(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!f.call(e,a)&&a!==o&&i(e,a,{get:()=>r[a],enumerable:!(n=p(r,a))||n.enumerable});return e};var g=(e,r,o)=>(o=e!=null?u(b(e)):{},s(r||!e||!e.__esModule?i(o,\"default\",{value:e,enumerable:!0}):o,e)),y=e=>s(i({},\"__esModule\",{value:!0}),e);var l=v((D,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>_});var t=g(l()),_={title:\"Domov\",slug:\"domov-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"7krat3\"],featuresNames:[\"7kr\\xE1t3\"],album:\"White Boy\",albumSlug:\"white-boy\",year:2025,genre:[\"\"],duration:\"4:10\",trackNumber:3,producers:[],producersNames:[],description:\"Domov \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/domov-vladimir-518\",children:\"Domov\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/white-boy\",children:\"White Boy\"}),\" (2025).\"]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return y(j);})();\n;return Component;"
+    "raw": "\n**[Domov](/skladby/domov-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Domov](/alba/domov) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var v=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(o,r)=>()=>(r||o((r={exports:{}}).exports,r),r.exports),x=(o,r)=>{for(var a in r)n(o,a,{get:r[a],enumerable:!0})},m=(o,r,a,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of v(r))!b.call(o,t)&&t!==a&&n(o,t,{get:()=>r[t],enumerable:!(i=p(r,t))||i.enumerable});return o};var D=(o,r,a)=>(a=o!=null?u(h(o)):{},m(r||!o||!o.__esModule?n(a,\"default\",{value:o,enumerable:!0}):a,o)),g=o=>m(n({},\"__esModule\",{value:!0}),o);var s=f((y,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>_});var e=D(s()),_={title:\"Domov\",slug:\"domov-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"7krat3\"],featuresNames:[\"7kr\\xE1t3\"],album:\"Domov\",albumSlug:\"domov\",year:2025,genre:[\"hip-hop\",\"rnb\"],duration:\"4:10\",trackNumber:1,producers:[],producersNames:[],description:\"Domov \\u2014 skladba od Vladimir 518 z alba Domov (2025).\",publishedAt:\"2026-06-06\"};function l(o){let r={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/domov-vladimir-518\",children:\"Domov\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/domov\",children:\"Domov\"}),\" (2025).\"]})}function c(o={}){let{wrapper:r}=o.components||{};return r?(0,e.jsx)(r,{...o,children:(0,e.jsx)(l,{...o})}):l(o)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/domov-vladimir-518.mdx",
   "_raw": {

@@ -1,13 +1,14 @@
 {
-  "title": "Mumie (Deluxe)",
+  "title": "Mumie",
   "slug": "mumie",
   "rapper": "Hugo Toxxx",
   "rapperSlug": "hugo-toxxx",
-  "label": "Virgin Music Label And Artist Services (S&D)",
-  "year": 2022,
-  "genre": [],
-  "description": "Hugo Toxxx v roce 2022 vydal své třetí album. Obsahuje celkem 20 skladeb, což je o 3 skladby více, než je u Hugo Toxxx zvykem. Deska vyšla pod labelem Virgin Music Label And Artist Services (S&D).",
-  "image": "https://cdn-images.dzcdn.net/images/cover/4102438856ea8ab05918b82b7c849ecb/1000x1000-000000-80-0-0.jpg",
+  "year": 2021,
+  "genre": [
+    "hip-hop"
+  ],
+  "description": "Hugo Toxxx v roce 2021 vydal album Mumie. Obsahuje celkem 14 skladeb.",
+  "image": "https://cdn-images.dzcdn.net/images/cover/cf663d008bb653703dc30e6e88d2d256/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
     "Sky",
@@ -23,20 +24,14 @@
     "Big Bih",
     "Zlatej Déšť",
     "Amadeus",
-    "Smetch",
-    "RIP",
-    "Gassed",
-    "Faces",
-    "Future",
-    "808",
-    "Trap Life Baby"
+    "Smetch"
   ],
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "releaseType": "album",
   "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n[Hugo Toxxx](/raperi/hugo-toxxx) v roce 2022 vydal své třetí album.\n\nAlbum obsahuje celkem 20 skladeb, což je o 3 skladby více, než je u [Hugo Toxxx](/raperi/hugo-toxxx) zvykem.\n\nDeska vyšla pod labelem Virgin Music Label And Artist Services (S&D).\n\nV diskografii [Hugo Toxxx](/raperi/hugo-toxxx) jde o třetí album — po něm následovalo ještě 1 další album.\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),v=(a,e)=>{for(var t in e)o(a,t,{get:e[t],enumerable:!0})},l=(a,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!b.call(a,n)&&n!==t&&o(a,n,{get:()=>e[n],enumerable:!(i=m(e,n))||i.enumerable});return a};var j=(a,e,t)=>(t=a!=null?d(p(a)):{},l(e||!a||!a.__esModule?o(t,\"default\",{value:a,enumerable:!0}):t,a)),k=a=>l(o({},\"__esModule\",{value:!0}),a);var c=g((A,s)=>{s.exports=_jsx_runtime});var S={};v(S,{default:()=>x,frontmatter:()=>y});var r=j(c()),y={title:\"Mumie (Deluxe)\",slug:\"mumie\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2022,releaseType:\"album\",genre:[],description:\"Hugo Toxxx v roce 2022 vydal sv\\xE9 t\\u0159et\\xED album. Obsahuje celkem 20 skladeb, co\\u017E je o 3 skladby v\\xEDce, ne\\u017E je u Hugo Toxxx zvykem. Deska vy\\u0161la pod labelem Virgin Music Label And Artist Services (S&D).\",image:\"https://cdn-images.dzcdn.net/images/cover/4102438856ea8ab05918b82b7c849ecb/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sky\",\"Lane\",\"Strawpicanna Flow\",\"Flip\",\"Esc\",\"Skinny Bitch\",\"Juice\",\"K\\xF3d\",\"Z\\xE1\\u0159\",\"Rehab\",\"Big Bih\",\"Zlatej D\\xE9\\u0161\\u0165\",\"Amadeus\",\"Smetch\",\"RIP\",\"Gassed\",\"Faces\",\"Future\",\"808\",\"Trap Life Baby\"],publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" v roce 2022 vydal sv\\xE9 t\\u0159et\\xED album.\"]}),`\n`,(0,r.jsxs)(e.p,{children:[\"Album obsahuje celkem 20 skladeb, co\\u017E je o 3 skladby v\\xEDce, ne\\u017E je u \",(0,r.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" zvykem.\"]}),`\n`,(0,r.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Virgin Music Label And Artist Services (S&D).\"}),`\n`,(0,r.jsxs)(e.p,{children:[\"V diskografii \",(0,r.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" jde o t\\u0159et\\xED album \\u2014 po n\\u011Bm n\\xE1sledovalo je\\u0161t\\u011B 1 dal\\u0161\\xED album.\"]})]})}function x(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(u,{...a})}):u(a)}return k(S);})();\n;return Component;"
+    "raw": "\n[Hugo Toxxx](/raperi/hugo-toxxx) v roce 2021 vydal album **Mumie**.\n\n\nAlbum obsahuje celkem 14 skladeb.\n\n\nVíce od [Hugo Toxxxa](/raperi/hugo-toxxx).",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!g.call(n,o)&&o!==r&&a(n,o,{get:()=>e[o],enumerable:!(c=m(e,o))||c.enumerable});return n};var f=(n,e,r)=>(r=n!=null?d(p(n)):{},i(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),k=n=>i(a({},\"__esModule\",{value:!0}),n);var x=b((v,s)=>{s.exports=_jsx_runtime});var _={};j(_,{default:()=>l,frontmatter:()=>y});var t=f(x()),y={title:\"Mumie\",slug:\"mumie\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",year:2021,releaseType:\"album\",genre:[\"hip-hop\"],description:\"Hugo Toxxx v roce 2021 vydal album Mumie. Obsahuje celkem 14 skladeb.\",image:\"https://cdn-images.dzcdn.net/images/cover/cf663d008bb653703dc30e6e88d2d256/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Sky\",\"Lane\",\"Strawpicanna Flow\",\"Flip\",\"Esc\",\"Skinny Bitch\",\"Juice\",\"K\\xF3d\",\"Z\\xE1\\u0159\",\"Rehab\",\"Big Bih\",\"Zlatej D\\xE9\\u0161\\u0165\",\"Amadeus\",\"Smetch\"],publishedAt:\"2026-06-06\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" v roce 2021 vydal album \",(0,t.jsx)(e.strong,{children:\"Mumie\"}),\".\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Album obsahuje celkem 14 skladeb.\"}),`\n`,(0,t.jsxs)(e.p,{children:[\"V\\xEDce od \",(0,t.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxxa\"}),\".\"]})]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(u,{...n})}):u(n)}return k(_);})();\n;return Component;"
   },
   "_id": "alba/mumie.mdx",
   "_raw": {

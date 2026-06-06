@@ -1,35 +1,13 @@
 {
   "title": "Rytmus",
   "slug": "rytmus",
-  "realName": "Patrik Vrbovský",
-  "born": "1977",
-  "active": "1992–současnost",
-  "label": "Tvoj Tatko Records",
-  "genre": [
-    "hip-hop",
-    "rap",
-    "pop-rap"
-  ],
-  "description": "Patrik „Rytmus“ Vrbovský je slovenský rapper, spoluzakladatel legendární skupiny Kontrafakt a jedna z nejvýraznějších a nejvlivnějších osobností česko-slovenské hip-hopové scény.",
-  "image": "/images/raperi/rytmus.jpg",
-  "featured": true,
-  "publishedAt": "2026-05-24T00:00:00.000Z",
-  "updatedAt": "2026-05-24T00:00:00.000Z",
-  "relatedRappers": [
-    "ego",
-    "separ",
-    "ektor"
-  ],
-  "relatedAlbums": [
-    "bengoro",
-    "kral",
-    "fenomen",
-    "krstny-otec",
-    "bengoro-ii"
-  ],
+  "genre": [],
+  "description": "Rytmus — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## O rapperovi\n\n**[Rytmus](/raperi/rytmus)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},p=(r,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!g.call(r,o)&&o!==n&&s(r,o,{get:()=>e[o],enumerable:!(a=d(e,o))||a.enumerable});return r};var b=(r,e,n)=>(n=r!=null?m(k(r)):{},p(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),y=r=>p(s({},\"__esModule\",{value:!0}),r);var c=j((R,i)=>{i.exports=_jsx_runtime});var x={};v(x,{default:()=>u,frontmatter:()=>f});var t=b(c()),f={title:\"Rytmus\",slug:\"rytmus\",realName:\"Patrik Vrbovsk\\xFD\",born:\"1977\",active:\"1992\\u2013sou\\u010Dasnost\",label:\"Tvoj Tatko Records\",genre:[\"hip-hop\",\"rap\",\"pop-rap\"],description:\"Patrik \\u201ERytmus\\u201C Vrbovsk\\xFD je slovensk\\xFD rapper, spoluzakladatel legend\\xE1rn\\xED skupiny Kontrafakt a jedna z nejv\\xFDrazn\\u011Bj\\u0161\\xEDch a nejvlivn\\u011Bj\\u0161\\xEDch osobnost\\xED \\u010Desko-slovensk\\xE9 hip-hopov\\xE9 sc\\xE9ny.\",image:\"/images/raperi/rytmus.jpg\",featured:!0,publishedAt:\"2026-05-24\",updatedAt:\"2026-05-24\",relatedRappers:[\"ego\",\"separ\",\"ektor\"],relatedAlbums:[\"bengoro\",\"kral\",\"fenomen\",\"krstny-otec\",\"bengoro-ii\"]};function l(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/raperi/rytmus\",children:\"Rytmus\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return y(x);})();\n;return Component;"
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!_.call(t,s)&&s!==r&&o(t,s,{get:()=>e[s],enumerable:!(c=d(e,s))||c.enumerable});return t};var y=(t,e,r)=>(r=t!=null?p(x(t)):{},i(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>i(o({},\"__esModule\",{value:!0}),t);var u=f((v,m)=>{m.exports=_jsx_runtime});var b={};j(b,{default:()=>l,frontmatter:()=>M});var n=y(u()),M={title:\"Rytmus\",slug:\"rytmus\",genre:[],description:\"Rytmus \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function a(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(a,{...t})}):a(t)}return g(b);})();\n;return Component;"
   },
   "_id": "raperi/rytmus.mdx",
   "_raw": {

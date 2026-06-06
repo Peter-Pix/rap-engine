@@ -15,18 +15,19 @@
   "albumSlug": "z-fotky-my-mamy-kape-krev",
   "year": 2025,
   "genre": [
-    ""
+    "hip-hop",
+    "czech-pop"
   ],
   "duration": "3:55",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
-  "description": "Z fotky mý mámy kape krev — skladba od Mike Trafik.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "Z fotky mý mámy kape krev — skladba od Mike Trafik z alba Z fotky mý mámy kape krev (2025).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Z fotky mý mámy kape krev](/skladby/z-fotky-my-mamy-kape-krev-mike-trafik)** od [Mike Trafik](/raperi/mike-trafik) (2025).\n",
-    "code": "var Component=(()=>{var y=Object.create;var m=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var c=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var a in e)m(r,a,{get:e[a],enumerable:!0})},o=(r,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let k of c(e))!l.call(r,k)&&k!==a&&m(r,k,{get:()=>e[k],enumerable:!(i=u(e,k))||i.enumerable});return r};var v=(r,e,a)=>(a=r!=null?y(d(r)):{},o(e||!r||!r.__esModule?m(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>o(m({},\"__esModule\",{value:!0}),r);var s=x((j,n)=>{n.exports=_jsx_runtime});var M={};h(M,{default:()=>p,frontmatter:()=>b});var t=v(s()),b={title:\"Z fotky m\\xFD m\\xE1my kape krev\",slug:\"z-fotky-my-mamy-kape-krev-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"katarzia\",\"vladimir-518\"],featuresNames:[\"Katarzia\",\"Vladimir 518\"],album:\"Z fotky m\\xFD m\\xE1my kape krev\",albumSlug:\"z-fotky-my-mamy-kape-krev\",year:2025,genre:[\"\"],duration:\"3:55\",trackNumber:1,producers:[],producersNames:[],description:\"Z fotky m\\xFD m\\xE1my kape krev \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function f(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/z-fotky-my-mamy-kape-krev-mike-trafik\",children:\"Z fotky m\\xFD m\\xE1my kape krev\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/mike-trafik\",children:\"Mike Trafik\"}),\" (2025).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(f,{...r})}):f(r)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Z fotky mý mámy kape krev](/skladby/z-fotky-my-mamy-kape-krev-mike-trafik)** od [Mike Trafik](/raperi/mike-trafik) z alba [Z fotky mý mámy kape krev](/alba/z-fotky-my-mamy-kape-krev) (2025).\n",
+    "code": "var Component=(()=>{var y=Object.create;var m=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var t in e)m(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let k of l(e))!u.call(r,k)&&k!==t&&m(r,k,{get:()=>e[k],enumerable:!(o=c(e,k))||o.enumerable});return r};var b=(r,e,t)=>(t=r!=null?y(d(r)):{},i(e||!r||!r.__esModule?m(t,\"default\",{value:r,enumerable:!0}):t,r)),x=r=>i(m({},\"__esModule\",{value:!0}),r);var p=h((Z,n)=>{n.exports=_jsx_runtime});var g={};v(g,{default:()=>s,frontmatter:()=>z});var a=b(p()),z={title:\"Z fotky m\\xFD m\\xE1my kape krev\",slug:\"z-fotky-my-mamy-kape-krev-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"katarzia\",\"vladimir-518\"],featuresNames:[\"Katarzia\",\"Vladimir 518\"],album:\"Z fotky m\\xFD m\\xE1my kape krev\",albumSlug:\"z-fotky-my-mamy-kape-krev\",year:2025,genre:[\"hip-hop\",\"czech-pop\"],duration:\"3:55\",trackNumber:1,producers:[],producersNames:[],description:\"Z fotky m\\xFD m\\xE1my kape krev \\u2014 skladba od Mike Trafik z alba Z fotky m\\xFD m\\xE1my kape krev (2025).\",publishedAt:\"2026-06-06\"};function f(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/z-fotky-my-mamy-kape-krev-mike-trafik\",children:\"Z fotky m\\xFD m\\xE1my kape krev\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/mike-trafik\",children:\"Mike Trafik\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/z-fotky-my-mamy-kape-krev\",children:\"Z fotky m\\xFD m\\xE1my kape krev\"}),\" (2025).\"]})}function s(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(f,{...r})}):f(r)}return x(g);})();\n;return Component;"
   },
   "_id": "skladby/z-fotky-my-mamy-kape-krev-mike-trafik.mdx",
   "_raw": {

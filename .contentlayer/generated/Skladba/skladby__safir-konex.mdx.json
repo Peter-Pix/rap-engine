@@ -11,22 +11,22 @@
     "Decky",
     "Viktor Sheen"
   ],
-  "album": "karanténa",
-  "albumSlug": "karantena",
+  "album": "KARANTENA PARTY",
+  "albumSlug": "karantena-party",
   "year": 2020,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "3:54",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
-  "description": "SAFÍR — skladba od Konex.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "SAFÍR — skladba od Konex z alba KARANTENA PARTY (2020).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[SAFÍR](/skladby/safir-konex)** (2020).\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of k(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=x(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?p(m(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),S=e=>c(o({},\"__esModule\",{value:!0}),e);var i=h((A,u)=>{u.exports=_jsx_runtime});var j={};g(j,{default:()=>l,frontmatter:()=>_});var t=b(i()),_={title:\"SAF\\xCDR\",slug:\"safir-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"viktor-sheen\"],featuresNames:[\"Decky\",\"Viktor Sheen\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[\"\"],duration:\"3:54\",trackNumber:7,producers:[],producersNames:[],description:\"SAF\\xCDR \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function d(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/safir-konex\",children:\"SAF\\xCDR\"})}),\" (2020).\"]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return S(j);})();\n;return Component;"
+    "raw": "\n**[SAFÍR](/skladby/safir-konex)** od [Konex](/raperi/konex) z alba [KARANTENA PARTY](/alba/karantena-party) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),m=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},c=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of A(e))!k.call(r,t)&&t!==a&&o(r,t,{get:()=>e[t],enumerable:!(s=x(e,t))||s.enumerable});return r};var b=(r,e,a)=>(a=r!=null?d(h(r)):{},c(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),N=r=>c(o({},\"__esModule\",{value:!0}),r);var l=f((K,i)=>{i.exports=_jsx_runtime});var g={};m(g,{default:()=>u,frontmatter:()=>R});var n=b(l()),R={title:\"SAF\\xCDR\",slug:\"safir-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"viktor-sheen\"],featuresNames:[\"Decky\",\"Viktor Sheen\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"3:54\",trackNumber:7,producers:[],producersNames:[],description:\"SAF\\xCDR \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/safir-konex\",children:\"SAF\\xCDR\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(p,{...r})}):p(r)}return N(g);})();\n;return Component;"
   },
   "_id": "skladby/safir-konex.mdx",
   "_raw": {

@@ -13,18 +13,18 @@
   "albumSlug": "next",
   "year": 2026,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "2:47",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
-  "description": "Next — skladba od IKE.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "Next — skladba od IKE z alba Next (2026).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Next](/skladby/next-ike)** (2026).\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),N=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},x=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of m(t))!f.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(g(e)):{},x(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>x(s({},\"__esModule\",{value:!0}),e);var c=h((M,u)=>{u.exports=_jsx_runtime});var j={};N(j,{default:()=>d,frontmatter:()=>_});var n=b(c()),_={title:\"Next\",slug:\"next-ike\",rapper:\"IKE\",rapperSlug:\"ike\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"Next\",albumSlug:\"next\",year:2026,genre:[\"\"],duration:\"2:47\",trackNumber:1,producers:[],producersNames:[],description:\"Next \\u2014 skladba od IKE.\",publishedAt:\"2026-06-04\"};function i(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(t.p,{children:[(0,n.jsx)(t.strong,{children:(0,n.jsx)(t.a,{href:\"/skladby/next-ike\",children:\"Next\"})}),\" (2026).\"]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Next](/skladby/next-ike)** od [IKE](/raperi/ike) z alba [Next](/alba/next) (2026).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},x=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!f.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return t};var N=(t,e,n)=>(n=t!=null?d(m(t)):{},x(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),k=t=>x(o({},\"__esModule\",{value:!0}),t);var u=b((E,i)=>{i.exports=_jsx_runtime});var j={};g(j,{default:()=>l,frontmatter:()=>_});var r=N(u()),_={title:\"Next\",slug:\"next-ike\",rapper:\"IKE\",rapperSlug:\"ike\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"Next\",albumSlug:\"next\",year:2026,genre:[\"hip-hop\"],duration:\"2:47\",trackNumber:1,producers:[],producersNames:[],description:\"Next \\u2014 skladba od IKE z alba Next (2026).\",publishedAt:\"2026-06-06\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/next-ike\",children:\"Next\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/ike\",children:\"IKE\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/next\",children:\"Next\"}),\" (2026).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return k(j);})();\n;return Component;"
   },
   "_id": "skladby/next-ike.mdx",
   "_raw": {

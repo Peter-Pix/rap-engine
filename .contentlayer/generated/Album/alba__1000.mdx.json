@@ -3,10 +3,11 @@
   "slug": "1000",
   "rapper": "Hugo Toxxx",
   "rapperSlug": "hugo-toxxx",
-  "label": "Virgin Music Label And Artist Services (S&D)",
   "year": 2019,
-  "genre": [],
-  "description": "Hugo Toxxx v roce 2019 vydal své debutové album. Obsahuje celkem 20 skladeb, což je o 3 skladby více, než je u Hugo Toxxx zvykem. Deska vyšla pod labelem Virgin Music Label And Artist Services (S&D).",
+  "genre": [
+    "hip-hop"
+  ],
+  "description": "Hugo Toxxx v roce 2019 vydal album 1000. Obsahuje celkem 20 skladeb.",
   "image": "https://cdn-images.dzcdn.net/images/cover/fad7b5a7e18e514b4543c0349f6386b1/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -31,12 +32,12 @@
     "Kei",
     "FNG"
   ],
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "releaseType": "album",
   "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n[Hugo Toxxx](/raperi/hugo-toxxx) v roce 2019 vydal své debutové album.\n\nAlbum obsahuje celkem 20 skladeb, což je o 3 skladby více, než je u [Hugo Toxxx](/raperi/hugo-toxxx) zvykem.\n\nDeska vyšla pod labelem Virgin Music Label And Artist Services (S&D).\n\nV diskografii [Hugo Toxxx](/raperi/hugo-toxxx) jde o první album — po něm následovalo ještě 3 dalších alb.\n",
-    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),v=(a,e)=>{for(var r in e)i(a,r,{get:e[r],enumerable:!0})},t=(a,e,r,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!h.call(a,n)&&n!==r&&i(a,n,{get:()=>e[n],enumerable:!(l=m(e,n))||l.enumerable});return a};var j=(a,e,r)=>(r=a!=null?u(b(a)):{},t(e||!a||!a.__esModule?i(r,\"default\",{value:a,enumerable:!0}):r,a)),k=a=>t(i({},\"__esModule\",{value:!0}),a);var s=g((A,c)=>{c.exports=_jsx_runtime});var f={};v(f,{default:()=>d,frontmatter:()=>y});var o=j(s()),y={title:\"1000\",slug:\"1000\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2019,releaseType:\"album\",genre:[],description:\"Hugo Toxxx v roce 2019 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem 20 skladeb, co\\u017E je o 3 skladby v\\xEDce, ne\\u017E je u Hugo Toxxx zvykem. Deska vy\\u0161la pod labelem Virgin Music Label And Artist Services (S&D).\",image:\"https://cdn-images.dzcdn.net/images/cover/fad7b5a7e18e514b4543c0349f6386b1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Podzim bro\",\"Facelift\",\"Ferragamo\",\"H\\xE1zej prachy\",\"Na m\\u016Fj krk\",\"Moist\",\"Ice\",\"Nevolej\",\"Prince\",\"Krabice II\",\"Nula\",\"FDK\",\"Trap spot\",\"D\\xE1vno jsem vyhr\\xE1l\",\"Pooldance\",\"Minimal\",\"Cink\",\"Hypnoza\",\"Kei\",\"FNG\"],publishedAt:\"2026-06-04\"};function x(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" v roce 2019 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,o.jsxs)(e.p,{children:[\"Album obsahuje celkem 20 skladeb, co\\u017E je o 3 skladby v\\xEDce, ne\\u017E je u \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" zvykem.\"]}),`\n`,(0,o.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Virgin Music Label And Artist Services (S&D).\"}),`\n`,(0,o.jsxs)(e.p,{children:[\"V diskografii \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" jde o prvn\\xED album \\u2014 po n\\u011Bm n\\xE1sledovalo je\\u0161t\\u011B 3 dal\\u0161\\xEDch alb.\"]})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(x,{...a})}):x(a)}return k(f);})();\n;return Component;"
+    "raw": "\n[Hugo Toxxx](/raperi/hugo-toxxx) v roce 2019 vydal album **1000**.\n\n\nAlbum obsahuje celkem 20 skladeb.\n\n\nVíce od [Hugo Toxxxa](/raperi/hugo-toxxx).",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!g.call(r,n)&&n!==a&&t(r,n,{get:()=>e[n],enumerable:!(c=d(e,n))||c.enumerable});return r};var f=(r,e,a)=>(a=r!=null?u(h(r)):{},i(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),k=r=>i(t({},\"__esModule\",{value:!0}),r);var l=b((F,s)=>{s.exports=_jsx_runtime});var y={};j(y,{default:()=>p,frontmatter:()=>v});var o=f(l()),v={title:\"1000\",slug:\"1000\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",year:2019,releaseType:\"album\",genre:[\"hip-hop\"],description:\"Hugo Toxxx v roce 2019 vydal album 1000. Obsahuje celkem 20 skladeb.\",image:\"https://cdn-images.dzcdn.net/images/cover/fad7b5a7e18e514b4543c0349f6386b1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Podzim bro\",\"Facelift\",\"Ferragamo\",\"H\\xE1zej prachy\",\"Na m\\u016Fj krk\",\"Moist\",\"Ice\",\"Nevolej\",\"Prince\",\"Krabice II\",\"Nula\",\"FDK\",\"Trap spot\",\"D\\xE1vno jsem vyhr\\xE1l\",\"Pooldance\",\"Minimal\",\"Cink\",\"Hypnoza\",\"Kei\",\"FNG\"],publishedAt:\"2026-06-06\"};function x(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" v roce 2019 vydal album \",(0,o.jsx)(e.strong,{children:\"1000\"}),\".\"]}),`\n`,(0,o.jsx)(e.p,{children:\"Album obsahuje celkem 20 skladeb.\"}),`\n`,(0,o.jsxs)(e.p,{children:[\"V\\xEDce od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxxa\"}),\".\"]})]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(x,{...r})}):x(r)}return k(y);})();\n;return Component;"
   },
   "_id": "alba/1000.mdx",
   "_raw": {
