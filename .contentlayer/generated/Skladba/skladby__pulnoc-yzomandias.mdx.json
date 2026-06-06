@@ -15,18 +15,18 @@
   "albumSlug": "dobra-duse-srdce-ze-zlata",
   "year": 2019,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "4:43",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
-  "description": "Půlnoc — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Půlnoc — skladba od Yzomandias z alba Dobrá Duše, Srdce ze Zlata (2019).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
     "raw": "\n**[Půlnoc](/skladby/pulnoc-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Dobrá Duše, Srdce ze Zlata](/alba/dobra-duse-srdce-ze-zlata) (2019).\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of z(a))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>a[o],enumerable:!(t=p(a,o))||t.enumerable});return e};var g=(e,a,n)=>(n=e!=null?m(b(e)):{},d(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>d(s({},\"__esModule\",{value:!0}),e);var c=h((k,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>i,frontmatter:()=>D});var r=g(c()),D={title:\"P\\u016Flnoc\",slug:\"pulnoc-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"zabson\",\"karlo\"],featuresNames:[\"Zabson\",\"Karlo\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[\"\"],duration:\"4:43\",trackNumber:10,producers:[],producersNames:[],description:\"P\\u016Flnoc \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/pulnoc-yzomandias\",children:\"P\\u016Flnoc\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/dobra-duse-srdce-ze-zlata\",children:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\"}),\" (2019).\"]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return y(_);})();\n;return Component;"
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var o in a)t(e,o,{get:a[o],enumerable:!0})},d=(e,a,o,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of z(a))!h.call(e,n)&&n!==o&&t(e,n,{get:()=>a[n],enumerable:!(s=p(a,n))||s.enumerable});return e};var D=(e,a,o)=>(o=e!=null?m(b(e)):{},d(a||!e||!e.__esModule?t(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>d(t({},\"__esModule\",{value:!0}),e);var c=f((S,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>i,frontmatter:()=>y});var r=D(c()),y={title:\"P\\u016Flnoc\",slug:\"pulnoc-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"zabson\",\"karlo\"],featuresNames:[\"Zabson\",\"Karlo\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[\"hip-hop\"],duration:\"4:43\",trackNumber:10,producers:[],producersNames:[],description:\"P\\u016Flnoc \\u2014 skladba od Yzomandias z alba Dobr\\xE1 Du\\u0161e, Srdce ze Zlata (2019).\",publishedAt:\"2026-06-06\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/pulnoc-yzomandias\",children:\"P\\u016Flnoc\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/dobra-duse-srdce-ze-zlata\",children:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\"}),\" (2019).\"]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/pulnoc-yzomandias.mdx",
   "_raw": {

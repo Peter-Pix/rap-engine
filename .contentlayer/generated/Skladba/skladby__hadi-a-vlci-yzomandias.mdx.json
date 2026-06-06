@@ -13,18 +13,18 @@
   "albumSlug": "dobra-duse-srdce-ze-zlata",
   "year": 2019,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "3:04",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
-  "description": "Hadi a Vlci — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Hadi a Vlci — skladba od Yzomandias z alba Dobrá Duše, Srdce ze Zlata (2019).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
     "raw": "\n**[Hadi a Vlci](/skladby/hadi-a-vlci-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Dobrá Duše, Srdce ze Zlata](/alba/dobra-duse-srdce-ze-zlata) (2019).\n",
-    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var z=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)d(e,n,{get:a[n],enumerable:!0})},o=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!h.call(e,t)&&t!==n&&d(e,t,{get:()=>a[t],enumerable:!(s=z(a,t))||s.enumerable});return e};var y=(e,a,n)=>(n=e!=null?m(b(e)):{},o(a||!e||!e.__esModule?d(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>o(d({},\"__esModule\",{value:!0}),e);var c=f((S,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>u,frontmatter:()=>D});var r=y(c()),D={title:\"Hadi a Vlci\",slug:\"hadi-a-vlci-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"dimzy\"],featuresNames:[\"Dimzy\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[\"\"],duration:\"3:04\",trackNumber:4,producers:[],producersNames:[],description:\"Hadi a Vlci \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/hadi-a-vlci-yzomandias\",children:\"Hadi a Vlci\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/dobra-duse-srdce-ze-zlata\",children:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\"}),\" (2019).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(_);})();\n;return Component;"
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var z=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var t in a)d(e,t,{get:a[t],enumerable:!0})},s=(e,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of p(a))!h.call(e,n)&&n!==t&&d(e,n,{get:()=>a[n],enumerable:!(o=z(a,n))||o.enumerable});return e};var y=(e,a,t)=>(t=e!=null?m(b(e)):{},s(a||!e||!e.__esModule?d(t,\"default\",{value:e,enumerable:!0}):t,e)),D=e=>s(d({},\"__esModule\",{value:!0}),e);var c=f((S,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>u,frontmatter:()=>g});var r=y(c()),g={title:\"Hadi a Vlci\",slug:\"hadi-a-vlci-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"dimzy\"],featuresNames:[\"Dimzy\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[\"hip-hop\"],duration:\"3:04\",trackNumber:4,producers:[],producersNames:[],description:\"Hadi a Vlci \\u2014 skladba od Yzomandias z alba Dobr\\xE1 Du\\u0161e, Srdce ze Zlata (2019).\",publishedAt:\"2026-06-06\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/hadi-a-vlci-yzomandias\",children:\"Hadi a Vlci\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/dobra-duse-srdce-ze-zlata\",children:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\"}),\" (2019).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return D(_);})();\n;return Component;"
   },
   "_id": "skladby/hadi-a-vlci-yzomandias.mdx",
   "_raw": {

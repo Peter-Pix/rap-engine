@@ -9,22 +9,22 @@
   "featuresNames": [
     "Nik Tendo"
   ],
-  "album": "Kruhy & Vlny (217 Twins Edition)",
+  "album": "Kruhy & Vlny",
   "albumSlug": "kruhy-vlny",
-  "year": 2023,
+  "year": 2022,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "2:12",
-  "trackNumber": 9,
+  "trackNumber": 1,
   "producers": [],
   "producersNames": [],
-  "description": "Standart — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Standart — skladba od Yzomandias z alba Kruhy & Vlny (2022).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Standart](/skladby/standart-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),b=(a,n)=>{for(var t in n)s(a,t,{get:n[t],enumerable:!0})},d=(a,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let e of y(n))!f.call(a,e)&&e!==t&&s(a,e,{get:()=>n[e],enumerable:!(o=p(n,e))||o.enumerable});return a};var z=(a,n,t)=>(t=a!=null?m(h(a)):{},d(n||!a||!a.__esModule?s(t,\"default\",{value:a,enumerable:!0}):t,a)),g=a=>d(s({},\"__esModule\",{value:!0}),a);var u=x((S,i)=>{i.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>k});var r=z(u()),k={title:\"Standart\",slug:\"standart-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"2:12\",trackNumber:9,producers:[],producersNames:[],description:\"Standart \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(a){let n={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/skladby/standart-yzomandias\",children:\"Standart\"})}),\" od \",(0,r.jsx)(n.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(n.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(a={}){let{wrapper:n}=a.components||{};return n?(0,r.jsx)(n,{...a,children:(0,r.jsx)(l,{...a})}):l(a)}return g(_);})();\n;return Component;"
+    "raw": "\n**[Standart](/skladby/standart-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny](/alba/kruhy-vlny) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var t in a)o(n,t,{get:a[t],enumerable:!0})},d=(n,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let e of p(a))!f.call(n,e)&&e!==t&&o(n,e,{get:()=>a[e],enumerable:!(s=h(a,e))||s.enumerable});return n};var z=(n,a,t)=>(t=n!=null?m(y(n)):{},d(a||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),g=n=>d(o({},\"__esModule\",{value:!0}),n);var l=b((S,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>c,frontmatter:()=>k});var r=z(l()),k={title:\"Standart\",slug:\"standart-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny\",albumSlug:\"kruhy-vlny\",year:2022,genre:[\"hip-hop\"],duration:\"2:12\",trackNumber:1,producers:[],producersNames:[],description:\"Standart \\u2014 skladba od Yzomandias z alba Kruhy & Vlny (2022).\",publishedAt:\"2026-06-06\"};function u(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/standart-yzomandias\",children:\"Standart\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny\"}),\" (2022).\"]})}function c(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/standart-yzomandias.mdx",
   "_raw": {

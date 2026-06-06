@@ -1,0 +1,40 @@
+{
+  "title": "Vietor",
+  "slug": "vietor-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "neries"
+  ],
+  "featuresNames": [
+    "Nerieš"
+  ],
+  "album": "OG",
+  "albumSlug": "og",
+  "year": 2020,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "2:44",
+  "trackNumber": 12,
+  "producers": [],
+  "producersNames": [],
+  "description": "Vietor — skladba od Separ z alba OG (2020).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Vietor](/skladby/vietor-separ)** od [Separ](/raperi/separ) z alba [OG](/alba/og) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!b.call(r,n)&&n!==a&&o(r,n,{get:()=>e[n],enumerable:!(s=h(e,n))||s.enumerable});return r};var _=(r,e,a)=>(a=r!=null?d(f(r)):{},i(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),j=r=>i(o({},\"__esModule\",{value:!0}),r);var c=g((y,p)=>{p.exports=_jsx_runtime});var N={};x(N,{default:()=>u,frontmatter:()=>S});var t=_(c()),S={title:\"Vietor\",slug:\"vietor-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"neries\"],featuresNames:[\"Nerie\\u0161\"],album:\"OG\",albumSlug:\"og\",year:2020,genre:[\"hip-hop\"],duration:\"2:44\",trackNumber:12,producers:[],producersNames:[],description:\"Vietor \\u2014 skladba od Separ z alba OG (2020).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/vietor-separ\",children:\"Vietor\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/og\",children:\"OG\"}),\" (2020).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return j(N);})();\n;return Component;"
+  },
+  "_id": "skladby/vietor-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/vietor-separ.mdx",
+    "sourceFileName": "vietor-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/vietor-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/vietor-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/vietor-separ"
+}

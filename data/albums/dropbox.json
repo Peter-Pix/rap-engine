@@ -3,24 +3,22 @@
   "kind": "album",
   "slug": "dropbox",
   "title": "Dropbox",
-  "aliases": [],
-  "summary": "",
-  "image": "https://cdn-images.dzcdn.net/images/cover/4531b7ba637d4de08f02ce1d6c7e1136/1000x1000-000000-80-0-0.jpg",
   "status": "stub",
-  "createdAt": "2026-06-04",
-  "updatedAt": "2026-06-04",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "prezident-lourajder"
     },
-    "features": [],
     "label": null,
     "labelName": "WM Czech Republic",
     "year": 2018,
-    "type": "lp",
-    "genres": [],
-    "trackTitles": [
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
       "Easy",
       "1991",
       "Kým Dýcham",
@@ -33,32 +31,16 @@
     "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/4531b7ba637d4de08f02ce1d6c7e1136/1000x1000-000000-80-0-0.jpg",
     "deezerAlbumId": 210502882,
-    "upc": "190296752247",
     "nbTracks": 8
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
-  },
   "_deezer": {
-    "fetchedAt": "2026-06-04T21:47:55.183Z",
-    "source": "https://api.deezer.com/album/210502882",
+    "fetchedAt": "2026-06-06T11:50:31.717Z",
     "raw": {
       "id": 210502882,
       "title": "Dropbox",
       "upc": "190296752247",
       "link": "https://www.deezer.com/album/210502882",
-      "share": "https://www.deezer.com/album/210502882?utm_source=deezer&utm_content=album-210502882&utm_term=0_1780609675&utm_medium=web",
+      "share": "https://www.deezer.com/album/210502882?utm_source=deezer&utm_content=album-210502882&utm_term=0_1780746631&utm_medium=web",
       "cover": "https://api.deezer.com/album/210502882/image",
       "cover_small": "https://cdn-images.dzcdn.net/images/cover/4531b7ba637d4de08f02ce1d6c7e1136/56x56-000000-80-0-0.jpg",
       "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4531b7ba637d4de08f02ce1d6c7e1136/250x250-000000-80-0-0.jpg",
@@ -92,7 +74,7 @@
           "id": 7518264,
           "name": "Prezident Lourajder",
           "link": "https://www.deezer.com/artist/7518264",
-          "share": "https://www.deezer.com/artist/7518264?utm_source=deezer&utm_content=artist-7518264&utm_term=0_1780609675&utm_medium=web",
+          "share": "https://www.deezer.com/artist/7518264?utm_source=deezer&utm_content=artist-7518264&utm_term=0_1780746631&utm_medium=web",
           "picture": "https://api.deezer.com/artist/7518264/image",
           "picture_small": "https://cdn-images.dzcdn.net/images/artist/f5f959619028a6f82d4cf0ca45426e26/56x56-000000-80-0-0.jpg",
           "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f5f959619028a6f82d4cf0ca45426e26/250x250-000000-80-0-0.jpg",
@@ -107,7 +89,7 @@
           "id": 646296,
           "name": "Idea",
           "link": "https://www.deezer.com/artist/646296",
-          "share": "https://www.deezer.com/artist/646296?utm_source=deezer&utm_content=artist-646296&utm_term=0_1780609675&utm_medium=web",
+          "share": "https://www.deezer.com/artist/646296?utm_source=deezer&utm_content=artist-646296&utm_term=0_1780746631&utm_medium=web",
           "picture": "https://api.deezer.com/artist/646296/image",
           "picture_small": "https://cdn-images.dzcdn.net/images/artist/c7ff7bc8335d9c87b2f5eeafcaa3a862/56x56-000000-80-0-0.jpg",
           "picture_medium": "https://cdn-images.dzcdn.net/images/artist/c7ff7bc8335d9c87b2f5eeafcaa3a862/250x250-000000-80-0-0.jpg",
@@ -122,7 +104,7 @@
           "id": 57548932,
           "name": "Martin Matys",
           "link": "https://www.deezer.com/artist/57548932",
-          "share": "https://www.deezer.com/artist/57548932?utm_source=deezer&utm_content=artist-57548932&utm_term=0_1780609675&utm_medium=web",
+          "share": "https://www.deezer.com/artist/57548932?utm_source=deezer&utm_content=artist-57548932&utm_term=0_1780746631&utm_medium=web",
           "picture": "https://api.deezer.com/artist/57548932/image",
           "picture_small": "https://cdn-images.dzcdn.net/images/artist/24ea39632e7512ef99fa1d30ac21399d/56x56-000000-80-0-0.jpg",
           "picture_medium": "https://cdn-images.dzcdn.net/images/artist/24ea39632e7512ef99fa1d30ac21399d/250x250-000000-80-0-0.jpg",
@@ -160,7 +142,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/a/0/49aaf249a89f0af58f3e5f45f9aebb97.mp3?hdnea=exp=1780610575~acl=/api/1/1/4/9/a/0/49aaf249a89f0af58f3e5f45f9aebb97.mp3*~data=user_id=0,application_id=42~hmac=11f482d962c3be27f3c39bce31897bd50c925b43ceef89cae2425a11b6699c7b",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/a/0/49aaf249a89f0af58f3e5f45f9aebb97.mp3?hdnea=exp=1780747531~acl=/api/1/1/4/9/a/0/49aaf249a89f0af58f3e5f45f9aebb97.mp3*~data=user_id=0,application_id=42~hmac=75aed13d879009223d92f84952f88fa2a567b7fc9d4c4d8168cf68ede0f259d0",
             "md5_image": "4531b7ba637d4de08f02ce1d6c7e1136",
             "artist": {
               "id": 7518264,
@@ -194,7 +176,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/3/2/0/53286f30b902b0b51f53239f43136f70.mp3?hdnea=exp=1780610575~acl=/api/1/1/5/3/2/0/53286f30b902b0b51f53239f43136f70.mp3*~data=user_id=0,application_id=42~hmac=410aa5cfc45f451e122c9628c0eee0e10e674a0a2c09192ed61763587b41a1e2",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/3/2/0/53286f30b902b0b51f53239f43136f70.mp3?hdnea=exp=1780747531~acl=/api/1/1/5/3/2/0/53286f30b902b0b51f53239f43136f70.mp3*~data=user_id=0,application_id=42~hmac=686355ac2237bfdccf4971eeb3c8dc948a8162e52f713639a0fa7ed19ad331e6",
             "md5_image": "4531b7ba637d4de08f02ce1d6c7e1136",
             "artist": {
               "id": 7518264,
@@ -228,7 +210,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/8/0/2689bd6824d027a3c0057f780fef1c0a.mp3?hdnea=exp=1780610575~acl=/api/1/1/2/6/8/0/2689bd6824d027a3c0057f780fef1c0a.mp3*~data=user_id=0,application_id=42~hmac=3ab755802f301ec8c0245d86a710cfa6786586bcc475d0b7ad76426d062a5f8d",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/8/0/2689bd6824d027a3c0057f780fef1c0a.mp3?hdnea=exp=1780747531~acl=/api/1/1/2/6/8/0/2689bd6824d027a3c0057f780fef1c0a.mp3*~data=user_id=0,application_id=42~hmac=f084ff486444a6c8005b7da007b7df66f33d70469821eb8b2e2d428639403601",
             "md5_image": "4531b7ba637d4de08f02ce1d6c7e1136",
             "artist": {
               "id": 7518264,
@@ -262,7 +244,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/6/b/0/96bdf61d191f196d69cb97ae5f3ed745.mp3?hdnea=exp=1780610575~acl=/api/1/1/9/6/b/0/96bdf61d191f196d69cb97ae5f3ed745.mp3*~data=user_id=0,application_id=42~hmac=c9882f906d5c79baf45a669ffd8e41be572a5dffc76b8766be01d77919bc7100",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/6/b/0/96bdf61d191f196d69cb97ae5f3ed745.mp3?hdnea=exp=1780747531~acl=/api/1/1/9/6/b/0/96bdf61d191f196d69cb97ae5f3ed745.mp3*~data=user_id=0,application_id=42~hmac=23b602bcdc899471959201dd55bf298aeb4811e4e8234768dd2eeb871a9ca1b5",
             "md5_image": "4531b7ba637d4de08f02ce1d6c7e1136",
             "artist": {
               "id": 7518264,
@@ -296,7 +278,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/1/0/5a17fe3e5d9372e8537bdd5712ae0d0b.mp3?hdnea=exp=1780610575~acl=/api/1/1/5/a/1/0/5a17fe3e5d9372e8537bdd5712ae0d0b.mp3*~data=user_id=0,application_id=42~hmac=e778db1b10e738606680253c01e3248374c7a29895d641d8f93f6ceca9578aff",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/a/1/0/5a17fe3e5d9372e8537bdd5712ae0d0b.mp3?hdnea=exp=1780747531~acl=/api/1/1/5/a/1/0/5a17fe3e5d9372e8537bdd5712ae0d0b.mp3*~data=user_id=0,application_id=42~hmac=9c49be745c74d712055db34356f3a2dd3a31a44ee3c29999fdad228aea6ecbd9",
             "md5_image": "4531b7ba637d4de08f02ce1d6c7e1136",
             "artist": {
               "id": 7518264,
@@ -330,7 +312,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/5/0/eb5ed7862fd8b91c0ea2d81e3c50f9ad.mp3?hdnea=exp=1780610575~acl=/api/1/1/e/b/5/0/eb5ed7862fd8b91c0ea2d81e3c50f9ad.mp3*~data=user_id=0,application_id=42~hmac=d00130b957a8d37b4f1cfdd1766e2c6992fce7516c64abe451bc0612baded2ac",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/5/0/eb5ed7862fd8b91c0ea2d81e3c50f9ad.mp3?hdnea=exp=1780747531~acl=/api/1/1/e/b/5/0/eb5ed7862fd8b91c0ea2d81e3c50f9ad.mp3*~data=user_id=0,application_id=42~hmac=463a2af5ea19ab1c8beaaad21342db125da29e7620c97a6e52e529faf02a27d5",
             "md5_image": "4531b7ba637d4de08f02ce1d6c7e1136",
             "artist": {
               "id": 7518264,
@@ -364,7 +346,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/9/7/0/a974bd3d5901d51a2c5f240c3609deb3.mp3?hdnea=exp=1780610575~acl=/api/1/1/a/9/7/0/a974bd3d5901d51a2c5f240c3609deb3.mp3*~data=user_id=0,application_id=42~hmac=0aaa38a7570255db01919b53d85e49221e4869330a830fe2d042edaa730d76ea",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/9/7/0/a974bd3d5901d51a2c5f240c3609deb3.mp3?hdnea=exp=1780747531~acl=/api/1/1/a/9/7/0/a974bd3d5901d51a2c5f240c3609deb3.mp3*~data=user_id=0,application_id=42~hmac=1034cde0b7553a577a400636e02aa8572073fb97451e85cf8024a060a0ac9bf9",
             "md5_image": "4531b7ba637d4de08f02ce1d6c7e1136",
             "artist": {
               "id": 7518264,
@@ -398,7 +380,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/a/0/92aa31255601659fedf6337a4c075e55.mp3?hdnea=exp=1780610575~acl=/api/1/1/9/2/a/0/92aa31255601659fedf6337a4c075e55.mp3*~data=user_id=0,application_id=42~hmac=5796b01259c33c7eba35b41d89ddad5ef98f6920ca5a03c22053a5cf8c0dd44d",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/a/0/92aa31255601659fedf6337a4c075e55.mp3?hdnea=exp=1780747531~acl=/api/1/1/9/2/a/0/92aa31255601659fedf6337a4c075e55.mp3*~data=user_id=0,application_id=42~hmac=cb9b62e3f98e87619bd2cee88e313b31ad11f72a8066e6a036c0b50b50d19bc7",
             "md5_image": "4531b7ba637d4de08f02ce1d6c7e1136",
             "artist": {
               "id": 7518264,

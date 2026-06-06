@@ -1,0 +1,42 @@
+{
+  "title": "AENE",
+  "slug": "aene-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "dms",
+    "smart"
+  ],
+  "featuresNames": [
+    "DMS",
+    "SMART"
+  ],
+  "album": "NEVIEM",
+  "albumSlug": "neviem",
+  "year": 2025,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "4:56",
+  "trackNumber": 5,
+  "producers": [],
+  "producersNames": [],
+  "description": "AENE — skladba od Separ z alba NEVIEM (2025).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[AENE](/skladby/aene-separ)** od [Separ](/raperi/separ) z alba [NEVIEM](/alba/neviem) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var E=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},p=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(o=m(e,t))||o.enumerable});return r};var N=(r,e,n)=>(n=r!=null?d(E(r)):{},p(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),M=r=>p(s({},\"__esModule\",{value:!0}),r);var i=b((j,c)=>{c.exports=_jsx_runtime});var S={};x(S,{default:()=>u,frontmatter:()=>g});var a=N(i()),g={title:\"AENE\",slug:\"aene-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"dms\",\"smart\"],featuresNames:[\"DMS\",\"SMART\"],album:\"NEVIEM\",albumSlug:\"neviem\",year:2025,genre:[\"hip-hop\"],duration:\"4:56\",trackNumber:5,producers:[],producersNames:[],description:\"AENE \\u2014 skladba od Separ z alba NEVIEM (2025).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/aene-separ\",children:\"AENE\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/neviem\",children:\"NEVIEM\"}),\" (2025).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return M(S);})();\n;return Component;"
+  },
+  "_id": "skladby/aene-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/aene-separ.mdx",
+    "sourceFileName": "aene-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/aene-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/aene-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/aene-separ"
+}

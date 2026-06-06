@@ -1,0 +1,40 @@
+{
+  "title": "Bublina",
+  "slug": "bublina-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "tina"
+  ],
+  "featuresNames": [
+    "Tina"
+  ],
+  "album": "Pirát",
+  "albumSlug": "pirat",
+  "year": 2014,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "3:02",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Bublina — skladba od Separ z alba Pirát (2014).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Bublina](/skladby/bublina-separ)** od [Separ](/raperi/separ) z alba [Pirát](/alba/pirat) (2014).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},o=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!f.call(e,n)&&n!==t&&s(e,n,{get:()=>r[n],enumerable:!(i=b(r,n))||i.enumerable});return e};var _=(e,r,t)=>(t=e!=null?d(m(e)):{},o(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var l=x((B,p)=>{p.exports=_jsx_runtime});var k={};g(k,{default:()=>c,frontmatter:()=>S});var a=_(l()),S={title:\"Bublina\",slug:\"bublina-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"tina\"],featuresNames:[\"Tina\"],album:\"Pir\\xE1t\",albumSlug:\"pirat\",year:2014,genre:[\"hip-hop\"],duration:\"3:02\",trackNumber:16,producers:[],producersNames:[],description:\"Bublina \\u2014 skladba od Separ z alba Pir\\xE1t (2014).\",publishedAt:\"2026-06-06\"};function u(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/bublina-separ\",children:\"Bublina\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/pirat\",children:\"Pir\\xE1t\"}),\" (2014).\"]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/bublina-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bublina-separ.mdx",
+    "sourceFileName": "bublina-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bublina-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bublina-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/bublina-separ"
+}

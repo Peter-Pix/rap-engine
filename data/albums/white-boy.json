@@ -3,24 +3,26 @@
   "kind": "album",
   "slug": "white-boy",
   "title": "White Boy",
-  "aliases": [],
-  "summary": "",
-  "image": "https://cdn-images.dzcdn.net/images/cover/1db334d384707e4b1605a2b0a111a441/1000x1000-000000-80-0-0.jpg",
   "status": "stub",
-  "createdAt": "2026-06-04",
-  "updatedAt": "2026-06-04",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "vladimir-518"
     },
-    "features": [],
-    "label": null,
+    "label": {
+      "kind": "label",
+      "slug": "biggboss"
+    },
     "labelName": "Bigg Boss",
     "year": 2025,
-    "type": "lp",
-    "genres": [],
-    "trackTitles": [
+    "releaseType": "album",
+    "genres": [
+      "hip-hop",
+      "rnb"
+    ],
+    "tracklist": [
       "White Boy",
       "Bába nákup teriér",
       "Domov",
@@ -36,32 +38,16 @@
     "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/1db334d384707e4b1605a2b0a111a441/1000x1000-000000-80-0-0.jpg",
     "deezerAlbumId": 751679411,
-    "upc": "7316480592687",
     "nbTracks": 11
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
-  },
   "_deezer": {
-    "fetchedAt": "2026-06-04T21:57:42.599Z",
-    "source": "https://api.deezer.com/album/751679411",
+    "fetchedAt": "2026-06-06T11:35:37.917Z",
     "raw": {
       "id": 751679411,
       "title": "White Boy",
       "upc": "7316480592687",
       "link": "https://www.deezer.com/album/751679411",
-      "share": "https://www.deezer.com/album/751679411?utm_source=deezer&utm_content=album-751679411&utm_term=0_1780610262&utm_medium=web",
+      "share": "https://www.deezer.com/album/751679411?utm_source=deezer&utm_content=album-751679411&utm_term=0_1780745737&utm_medium=web",
       "cover": "https://api.deezer.com/album/751679411/image",
       "cover_small": "https://cdn-images.dzcdn.net/images/cover/1db334d384707e4b1605a2b0a111a441/56x56-000000-80-0-0.jpg",
       "cover_medium": "https://cdn-images.dzcdn.net/images/cover/1db334d384707e4b1605a2b0a111a441/250x250-000000-80-0-0.jpg",
@@ -101,7 +87,7 @@
           "id": 4779526,
           "name": "Vladimir 518",
           "link": "https://www.deezer.com/artist/4779526",
-          "share": "https://www.deezer.com/artist/4779526?utm_source=deezer&utm_content=artist-4779526&utm_term=0_1780610262&utm_medium=web",
+          "share": "https://www.deezer.com/artist/4779526?utm_source=deezer&utm_content=artist-4779526&utm_term=0_1780745737&utm_medium=web",
           "picture": "https://api.deezer.com/artist/4779526/image",
           "picture_small": "https://cdn-images.dzcdn.net/images/artist/351d8dd664bf85f097f67a47524ee240/56x56-000000-80-0-0.jpg",
           "picture_medium": "https://cdn-images.dzcdn.net/images/artist/351d8dd664bf85f097f67a47524ee240/250x250-000000-80-0-0.jpg",
@@ -116,7 +102,7 @@
           "id": 79888592,
           "name": "7krát3",
           "link": "https://www.deezer.com/artist/79888592",
-          "share": "https://www.deezer.com/artist/79888592?utm_source=deezer&utm_content=artist-79888592&utm_term=0_1780610262&utm_medium=web",
+          "share": "https://www.deezer.com/artist/79888592?utm_source=deezer&utm_content=artist-79888592&utm_term=0_1780745737&utm_medium=web",
           "picture": "https://api.deezer.com/artist/79888592/image",
           "picture_small": "https://cdn-images.dzcdn.net/images/artist/42ccc932acf221887b002f8570f2fe2f/56x56-000000-80-0-0.jpg",
           "picture_medium": "https://cdn-images.dzcdn.net/images/artist/42ccc932acf221887b002f8570f2fe2f/250x250-000000-80-0-0.jpg",
@@ -150,11 +136,11 @@
             "title_version": "",
             "link": "https://www.deezer.com/track/3351749001",
             "duration": 232,
-            "rank": 101812,
+            "rank": 68513,
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/c/0/61cc46246b4e6ced3e994baeb6b6626e.mp3?hdnea=exp=1780611162~acl=/api/1/1/6/1/c/0/61cc46246b4e6ced3e994baeb6b6626e.mp3*~data=user_id=0,application_id=42~hmac=dcc72627b922e7ab114f623c2aa8ea861ff5cc36ceb5854f655ec98e57a7c83d",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/1/c/0/61cc46246b4e6ced3e994baeb6b6626e.mp3?hdnea=exp=1780746637~acl=/api/1/1/6/1/c/0/61cc46246b4e6ced3e994baeb6b6626e.mp3*~data=user_id=0,application_id=42~hmac=99b0e20222ff8f56c879899765a5a62c125ba28d6090e240144e7a852799cae4",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -188,7 +174,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/d/0/d9d2e14d715dade71edfc3b862e17d89.mp3?hdnea=exp=1780611162~acl=/api/1/1/d/9/d/0/d9d2e14d715dade71edfc3b862e17d89.mp3*~data=user_id=0,application_id=42~hmac=2d82213bf5c055747b40461dbed6878e5f430236e4a369b5c15695bffb4d557c",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/d/0/d9d2e14d715dade71edfc3b862e17d89.mp3?hdnea=exp=1780746637~acl=/api/1/1/d/9/d/0/d9d2e14d715dade71edfc3b862e17d89.mp3*~data=user_id=0,application_id=42~hmac=b2def4411f31b2b462c3ffd6faec4e1489d5ea8665e28069db523af9ba702fb1",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -218,11 +204,11 @@
             "title_version": "",
             "link": "https://www.deezer.com/track/3351749021",
             "duration": 250,
-            "rank": 41581,
+            "rank": 119408,
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/d/0/efdf046737c8572fd115ad40a1c17e2c.mp3?hdnea=exp=1780611162~acl=/api/1/1/e/f/d/0/efdf046737c8572fd115ad40a1c17e2c.mp3*~data=user_id=0,application_id=42~hmac=2a7c5c4aa491f99045edc21ba015f0ae769e2ec450a942e9275d8cf81c7ce798",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/d/0/efdf046737c8572fd115ad40a1c17e2c.mp3?hdnea=exp=1780746637~acl=/api/1/1/e/f/d/0/efdf046737c8572fd115ad40a1c17e2c.mp3*~data=user_id=0,application_id=42~hmac=2b08dc213cb7259c3cf193640dc6540d2f84ebce2c7a116ce3ad4e89f3a9207c",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -256,7 +242,7 @@
             "explicit_lyrics": false,
             "explicit_content_lyrics": 0,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/f/0/00fadfcd146a1435e12b50b857e6441d.mp3?hdnea=exp=1780611162~acl=/api/1/1/0/0/f/0/00fadfcd146a1435e12b50b857e6441d.mp3*~data=user_id=0,application_id=42~hmac=06b5baadfe04c7686e97c77ef117310dfc324ebe214821cecc583555a95fc0be",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/f/0/00fadfcd146a1435e12b50b857e6441d.mp3?hdnea=exp=1780746637~acl=/api/1/1/0/0/f/0/00fadfcd146a1435e12b50b857e6441d.mp3*~data=user_id=0,application_id=42~hmac=307d5257ed52e215943f87b406b150147965f796f4e9f4cf75c65e32dd4e6a1e",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -290,7 +276,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/7/0/3d7316c764e3a28377ffaacb03aa3632.mp3?hdnea=exp=1780611162~acl=/api/1/1/3/d/7/0/3d7316c764e3a28377ffaacb03aa3632.mp3*~data=user_id=0,application_id=42~hmac=58217f67855e2f6e625c314a5d4d4195a72ea81e5e6e14ac65ecddb3c82ce639",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/7/0/3d7316c764e3a28377ffaacb03aa3632.mp3?hdnea=exp=1780746637~acl=/api/1/1/3/d/7/0/3d7316c764e3a28377ffaacb03aa3632.mp3*~data=user_id=0,application_id=42~hmac=c59fc9e8da46c0d2d19b57090654d6f12f65de0a6781df97f94415d8f4cce05b",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -324,7 +310,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/a/9/0/9a964be5f1f3e1dc569cdc80af9db31e.mp3?hdnea=exp=1780611162~acl=/api/1/1/9/a/9/0/9a964be5f1f3e1dc569cdc80af9db31e.mp3*~data=user_id=0,application_id=42~hmac=e0501d2ecbf12273991ad7baf45e8c84afc5d68117577f8c341cc03401d1f591",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/a/9/0/9a964be5f1f3e1dc569cdc80af9db31e.mp3?hdnea=exp=1780746637~acl=/api/1/1/9/a/9/0/9a964be5f1f3e1dc569cdc80af9db31e.mp3*~data=user_id=0,application_id=42~hmac=02082982669d7df070b98705b24b43ca99175f375f29643393018c1c2c710f43",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -354,11 +340,11 @@
             "title_version": "",
             "link": "https://www.deezer.com/track/3351749061",
             "duration": 199,
-            "rank": 60102,
+            "rank": 30049,
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/4/1/0/441dbd30aaffda093318815f19e113c6.mp3?hdnea=exp=1780611162~acl=/api/1/1/4/4/1/0/441dbd30aaffda093318815f19e113c6.mp3*~data=user_id=0,application_id=42~hmac=d21f40c152a66603683e218abeff6eec66e60baa54028bba65fe0dff08d0ac0d",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/4/1/0/441dbd30aaffda093318815f19e113c6.mp3?hdnea=exp=1780746637~acl=/api/1/1/4/4/1/0/441dbd30aaffda093318815f19e113c6.mp3*~data=user_id=0,application_id=42~hmac=8ace8312c62998662a3a1960e096974b40ff381fe96032fd521e3598c1f81533",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -392,7 +378,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/2/0/d72f25bcf8b46f0aa776a9d0ca6dbec3.mp3?hdnea=exp=1780611162~acl=/api/1/1/d/7/2/0/d72f25bcf8b46f0aa776a9d0ca6dbec3.mp3*~data=user_id=0,application_id=42~hmac=0f20eab14fb5127436dbf685328d92bac4e8c1f5a046454e9ba937a41bcff4e2",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/2/0/d72f25bcf8b46f0aa776a9d0ca6dbec3.mp3?hdnea=exp=1780746637~acl=/api/1/1/d/7/2/0/d72f25bcf8b46f0aa776a9d0ca6dbec3.mp3*~data=user_id=0,application_id=42~hmac=0c281ec6af03bcd9ccdf6ef6b5773bc368b97cde7d1ebf9c5f49f98889b3ed15",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -426,7 +412,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/6/0/276a0e418065c96c503b039db1985e1f.mp3?hdnea=exp=1780611162~acl=/api/1/1/2/7/6/0/276a0e418065c96c503b039db1985e1f.mp3*~data=user_id=0,application_id=42~hmac=d4b782da703d9b4a0c4baa99ef97bea30ad3e6992efd450a8315b28445223af8",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/6/0/276a0e418065c96c503b039db1985e1f.mp3?hdnea=exp=1780746637~acl=/api/1/1/2/7/6/0/276a0e418065c96c503b039db1985e1f.mp3*~data=user_id=0,application_id=42~hmac=535ffcd06b5c31ea397e5a9bfc2c5230a0fa3f5fe69a3cc80d7786b3a099924d",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -456,11 +442,11 @@
             "title_version": "",
             "link": "https://www.deezer.com/track/3351749091",
             "duration": 231,
-            "rank": 90742,
+            "rank": 55306,
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/0/9/0/e098bd40eb33d75976f5f9a061bfb598.mp3?hdnea=exp=1780611162~acl=/api/1/1/e/0/9/0/e098bd40eb33d75976f5f9a061bfb598.mp3*~data=user_id=0,application_id=42~hmac=3e0a113eba98bcc67556e30b2c5b7a09432b54d3e64a3a8bfec77ca563b3b797",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/0/9/0/e098bd40eb33d75976f5f9a061bfb598.mp3?hdnea=exp=1780746637~acl=/api/1/1/e/0/9/0/e098bd40eb33d75976f5f9a061bfb598.mp3*~data=user_id=0,application_id=42~hmac=5b74f37e7dd21cb565c85689657feff3ac6919a6e872153c1ca0dbb39d986183",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,
@@ -494,7 +480,7 @@
             "explicit_lyrics": false,
             "explicit_content_lyrics": 0,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/e/0/b8ea7df48e065bdc0bc21171ec0b4cda.mp3?hdnea=exp=1780611162~acl=/api/1/1/b/8/e/0/b8ea7df48e065bdc0bc21171ec0b4cda.mp3*~data=user_id=0,application_id=42~hmac=6f132f3304aaa865e15fc0b5e53f604b8948927dc399c24446b86b17f321250d",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/e/0/b8ea7df48e065bdc0bc21171ec0b4cda.mp3?hdnea=exp=1780746637~acl=/api/1/1/b/8/e/0/b8ea7df48e065bdc0bc21171ec0b4cda.mp3*~data=user_id=0,application_id=42~hmac=6b7f787e8216d94b722cf1a186629cf3f1a12ce23b4258cf6195d829b71f9bec",
             "md5_image": "1db334d384707e4b1605a2b0a111a441",
             "artist": {
               "id": 4779526,

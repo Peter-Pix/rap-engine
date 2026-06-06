@@ -1,0 +1,52 @@
+{
+  "title": "OG",
+  "slug": "og",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "year": 2020,
+  "genre": [
+    "hip-hop"
+  ],
+  "description": "Separ v roce 2020 vydal album OG. Obsahuje celkem 19 skladeb.",
+  "image": "https://cdn-images.dzcdn.net/images/cover/5790d2fafeedfd538c075ffc2d6ed1dd/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Prológ",
+    "OG",
+    "Origami",
+    "Čo Sa Dá",
+    "Strýko Separ",
+    "Čo Odo Mňa Chcete",
+    "Hood Hero",
+    "Ruky Preč",
+    "Hejtklub 9",
+    "Schíza",
+    "Všetci Za Jedného",
+    "Vietor",
+    "Snake Moves",
+    "Plyn",
+    "Pinokio",
+    "Ahoj Ahoj Čo Ty",
+    "Flow",
+    "So Mnou",
+    "Hood Hero (Remix)"
+  ],
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "releaseType": "album",
+  "explicit": false,
+  "body": {
+    "raw": "\n[Separ](/raperi/separ) v roce 2020 vydal album **OG**.\n\n\nAlbum obsahuje celkem 19 skladeb.\n\n\nVíce od [Separa](/raperi/separ).",
+    "code": "var Component=(()=>{var h=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},c=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of u(e))!f.call(r,n)&&n!==a&&t(r,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return r};var S=(r,e,a)=>(a=r!=null?h(g(r)):{},c(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),b=r=>c(t({},\"__esModule\",{value:!0}),r);var i=j((_,d)=>{d.exports=_jsx_runtime});var y={};x(y,{default:()=>p,frontmatter:()=>k});var o=S(i()),k={title:\"OG\",slug:\"og\",rapper:\"Separ\",rapperSlug:\"separ\",year:2020,releaseType:\"album\",genre:[\"hip-hop\"],description:\"Separ v roce 2020 vydal album OG. Obsahuje celkem 19 skladeb.\",image:\"https://cdn-images.dzcdn.net/images/cover/5790d2fafeedfd538c075ffc2d6ed1dd/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Prol\\xF3g\",\"OG\",\"Origami\",\"\\u010Co Sa D\\xE1\",\"Str\\xFDko Separ\",\"\\u010Co Odo M\\u0148a Chcete\",\"Hood Hero\",\"Ruky Pre\\u010D\",\"Hejtklub 9\",\"Sch\\xEDza\",\"V\\u0161etci Za Jedn\\xE9ho\",\"Vietor\",\"Snake Moves\",\"Plyn\",\"Pinokio\",\"Ahoj Ahoj \\u010Co Ty\",\"Flow\",\"So Mnou\",\"Hood Hero (Remix)\"],publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" v roce 2020 vydal album \",(0,o.jsx)(e.strong,{children:\"OG\"}),\".\"]}),`\n`,(0,o.jsx)(e.p,{children:\"Album obsahuje celkem 19 skladeb.\"}),`\n`,(0,o.jsxs)(e.p,{children:[\"V\\xEDce od \",(0,o.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separa\"}),\".\"]})]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(l,{...r})}):l(r)}return b(y);})();\n;return Component;"
+  },
+  "_id": "alba/og.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/og.mdx",
+    "sourceFileName": "og.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/og"
+  },
+  "type": "Album",
+  "url": "/alba/og",
+  "canonicalUrl": "https://4rap.cz/alba/og"
+}

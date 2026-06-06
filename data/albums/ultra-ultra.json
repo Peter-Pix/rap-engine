@@ -3,24 +3,25 @@
   "kind": "album",
   "slug": "ultra-ultra",
   "title": "Ultra! Ultra!",
-  "aliases": [],
-  "summary": "",
-  "image": "https://cdn-images.dzcdn.net/images/cover/bd3ab856354c14e1945980419cfd60df/1000x1000-000000-80-0-0.jpg",
   "status": "stub",
-  "createdAt": "2026-06-04",
-  "updatedAt": "2026-06-04",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "vladimir-518"
     },
-    "features": [],
-    "label": null,
+    "label": {
+      "kind": "label",
+      "slug": "biggboss"
+    },
     "labelName": "Bigg Boss",
     "year": 2017,
-    "type": "lp",
-    "genres": [],
-    "trackTitles": [
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
       "Heroin",
       "Krev Neni Voda",
       "Fakta A Fikce",
@@ -41,32 +42,16 @@
     "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/bd3ab856354c14e1945980419cfd60df/1000x1000-000000-80-0-0.jpg",
     "deezerAlbumId": 545425042,
-    "upc": "886296505074",
     "nbTracks": 16
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
-  },
   "_deezer": {
-    "fetchedAt": "2026-06-04T21:57:47.825Z",
-    "source": "https://api.deezer.com/album/545425042",
+    "fetchedAt": "2026-06-06T11:18:32.230Z",
     "raw": {
       "id": 545425042,
       "title": "Ultra! Ultra!",
       "upc": "886296505074",
       "link": "https://www.deezer.com/album/545425042",
-      "share": "https://www.deezer.com/album/545425042?utm_source=deezer&utm_content=album-545425042&utm_term=0_1780610267&utm_medium=web",
+      "share": "https://www.deezer.com/album/545425042?utm_source=deezer&utm_content=album-545425042&utm_term=0_1780744712&utm_medium=web",
       "cover": "https://api.deezer.com/album/545425042/image",
       "cover_small": "https://cdn-images.dzcdn.net/images/cover/bd3ab856354c14e1945980419cfd60df/56x56-000000-80-0-0.jpg",
       "cover_medium": "https://cdn-images.dzcdn.net/images/cover/bd3ab856354c14e1945980419cfd60df/250x250-000000-80-0-0.jpg",
@@ -100,7 +85,7 @@
           "id": 4779526,
           "name": "Vladimir 518",
           "link": "https://www.deezer.com/artist/4779526",
-          "share": "https://www.deezer.com/artist/4779526?utm_source=deezer&utm_content=artist-4779526&utm_term=0_1780610267&utm_medium=web",
+          "share": "https://www.deezer.com/artist/4779526?utm_source=deezer&utm_content=artist-4779526&utm_term=0_1780744712&utm_medium=web",
           "picture": "https://api.deezer.com/artist/4779526/image",
           "picture_small": "https://cdn-images.dzcdn.net/images/artist/351d8dd664bf85f097f67a47524ee240/56x56-000000-80-0-0.jpg",
           "picture_medium": "https://cdn-images.dzcdn.net/images/artist/351d8dd664bf85f097f67a47524ee240/250x250-000000-80-0-0.jpg",
@@ -138,7 +123,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/8/0/e38f82e5fac7de3cd08a710dc3d5cd04.mp3?hdnea=exp=1780611167~acl=/api/1/1/e/3/8/0/e38f82e5fac7de3cd08a710dc3d5cd04.mp3*~data=user_id=0,application_id=42~hmac=c9a3501dadbe3edb9979d70c3762a4d2f219c2d4ac52843a0a71bb1e707f6ec9",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/8/0/e38f82e5fac7de3cd08a710dc3d5cd04.mp3?hdnea=exp=1780745612~acl=/api/1/1/e/3/8/0/e38f82e5fac7de3cd08a710dc3d5cd04.mp3*~data=user_id=0,application_id=42~hmac=43809508a12fc759e84e33dbfd58513c04c3d935ad55fa2a8cc19822a9b57f1b",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -172,7 +157,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/a/0/caa6a88ab95bc14d20f60e28c6e66211.mp3?hdnea=exp=1780611167~acl=/api/1/1/c/a/a/0/caa6a88ab95bc14d20f60e28c6e66211.mp3*~data=user_id=0,application_id=42~hmac=3a992389b6df946929dd3f5f88b1709b67910c153f71e0371bc5fafff783f600",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/a/0/caa6a88ab95bc14d20f60e28c6e66211.mp3?hdnea=exp=1780745612~acl=/api/1/1/c/a/a/0/caa6a88ab95bc14d20f60e28c6e66211.mp3*~data=user_id=0,application_id=42~hmac=843bb83a0ecd23a6c621b118ef94d2ef1ffb37413acf7bae08f5a5834e4716ae",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -206,7 +191,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/7/9/0/579149e9491d4b496db976e1df2bfde4.mp3?hdnea=exp=1780611167~acl=/api/1/1/5/7/9/0/579149e9491d4b496db976e1df2bfde4.mp3*~data=user_id=0,application_id=42~hmac=2f3937804eed148f2abef25bad74d82c4b09fa5d6ac3c2e75799677b1b4b5a91",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/7/9/0/579149e9491d4b496db976e1df2bfde4.mp3?hdnea=exp=1780745612~acl=/api/1/1/5/7/9/0/579149e9491d4b496db976e1df2bfde4.mp3*~data=user_id=0,application_id=42~hmac=f0e1a34a331f80db0ae16cedc6fbe28349c76dd395991cf2841470abaf290518",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -240,7 +225,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/f/4/0/df4b598898fdf6921b97cf2284850c05.mp3?hdnea=exp=1780611167~acl=/api/1/1/d/f/4/0/df4b598898fdf6921b97cf2284850c05.mp3*~data=user_id=0,application_id=42~hmac=791b9c4ead07233a693517f1b1a35b41e3fb41ee9365c0af207f375243773853",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/f/4/0/df4b598898fdf6921b97cf2284850c05.mp3?hdnea=exp=1780745612~acl=/api/1/1/d/f/4/0/df4b598898fdf6921b97cf2284850c05.mp3*~data=user_id=0,application_id=42~hmac=8e4e21811dbcd89e0e2e8f7770ac9e702d2e15f787573b8a3dabf1b2e34a580a",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -274,7 +259,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/c/0/b2c63e1ddb92e82424e71dcebdb52ee2.mp3?hdnea=exp=1780611167~acl=/api/1/1/b/2/c/0/b2c63e1ddb92e82424e71dcebdb52ee2.mp3*~data=user_id=0,application_id=42~hmac=f84b0a76c639d91e982dbd1523e3e15959e9fe51c54a6badd9602d84301471a3",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/c/0/b2c63e1ddb92e82424e71dcebdb52ee2.mp3?hdnea=exp=1780745612~acl=/api/1/1/b/2/c/0/b2c63e1ddb92e82424e71dcebdb52ee2.mp3*~data=user_id=0,application_id=42~hmac=a1f23623b67a11e5977e18ac8bf22eeb7c096b4ffd8152bea2e65b6a18395b80",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -308,7 +293,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/c/9/0/6c99100c4242be16d6605496b30cfa5b.mp3?hdnea=exp=1780611167~acl=/api/1/1/6/c/9/0/6c99100c4242be16d6605496b30cfa5b.mp3*~data=user_id=0,application_id=42~hmac=708092c3b2605c40d84c04a187f7d6ab1ba3b8b13b6f33ad80a86d33509b928f",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/c/9/0/6c99100c4242be16d6605496b30cfa5b.mp3?hdnea=exp=1780745612~acl=/api/1/1/6/c/9/0/6c99100c4242be16d6605496b30cfa5b.mp3*~data=user_id=0,application_id=42~hmac=4a9d7edb0a97006227f68ac55d6232ba00510eca9836be64685c443b5d666c22",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -342,7 +327,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/2/0/5624859a7fee17060d3aca370e5bd146.mp3?hdnea=exp=1780611167~acl=/api/1/1/5/6/2/0/5624859a7fee17060d3aca370e5bd146.mp3*~data=user_id=0,application_id=42~hmac=ccb68a153ee1040d246aaab41830cd74b320c97c2b81418b0a5b30ac7caae4e7",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/2/0/5624859a7fee17060d3aca370e5bd146.mp3?hdnea=exp=1780745612~acl=/api/1/1/5/6/2/0/5624859a7fee17060d3aca370e5bd146.mp3*~data=user_id=0,application_id=42~hmac=d6b5c6bb0ecca9b05bd507735596685b8e032aab58334d3c009ce3b66819c4ab",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -376,7 +361,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/9/0/8f9e0c2bfe8cd0fec3066ce129ed20f4.mp3?hdnea=exp=1780611167~acl=/api/1/1/8/f/9/0/8f9e0c2bfe8cd0fec3066ce129ed20f4.mp3*~data=user_id=0,application_id=42~hmac=fd1174a8c5cfdc9379fce44791fc2e47d796785fd259eda3e411d449bb1b451f",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/9/0/8f9e0c2bfe8cd0fec3066ce129ed20f4.mp3?hdnea=exp=1780745612~acl=/api/1/1/8/f/9/0/8f9e0c2bfe8cd0fec3066ce129ed20f4.mp3*~data=user_id=0,application_id=42~hmac=447e0c8609ffefe35f654ee8d678d9f8caaaef1fdb60f8196f410e12ad335254",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -410,7 +395,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/5/0/795c833dc4cdf2f99ef6554bb326b28a.mp3?hdnea=exp=1780611167~acl=/api/1/1/7/9/5/0/795c833dc4cdf2f99ef6554bb326b28a.mp3*~data=user_id=0,application_id=42~hmac=0acd94796c5a0184c3d2a30268fd7ea678b910e738215a10ce6ca5e7ad5fa371",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/5/0/795c833dc4cdf2f99ef6554bb326b28a.mp3?hdnea=exp=1780745612~acl=/api/1/1/7/9/5/0/795c833dc4cdf2f99ef6554bb326b28a.mp3*~data=user_id=0,application_id=42~hmac=c6916b12a3fc1fd81f3958451ec2e9ba6133ac7e29d9d906323c471f47dc5f54",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -444,7 +429,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/7/d/0/97df95886858e305d29aa60125bb2499.mp3?hdnea=exp=1780611167~acl=/api/1/1/9/7/d/0/97df95886858e305d29aa60125bb2499.mp3*~data=user_id=0,application_id=42~hmac=54c29145e9d2343e25552c4814560dbbe55aa4251ca15bc46aee02d031e52395",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/7/d/0/97df95886858e305d29aa60125bb2499.mp3?hdnea=exp=1780745612~acl=/api/1/1/9/7/d/0/97df95886858e305d29aa60125bb2499.mp3*~data=user_id=0,application_id=42~hmac=d208ec9ab0a735ce9a4bd016fca8e75d2bb0e5ab5e57da66b709a5e3e352d869",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -478,7 +463,7 @@
             "explicit_lyrics": false,
             "explicit_content_lyrics": 0,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/4/c/0/14c468c7cf2881ab38564e9c9da24a47.mp3?hdnea=exp=1780611167~acl=/api/1/1/1/4/c/0/14c468c7cf2881ab38564e9c9da24a47.mp3*~data=user_id=0,application_id=42~hmac=bab3303249b1155eaf6d4205db3aaaf8c1dec2a74322fd89cdb0bc78e3bbf905",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/4/c/0/14c468c7cf2881ab38564e9c9da24a47.mp3?hdnea=exp=1780745612~acl=/api/1/1/1/4/c/0/14c468c7cf2881ab38564e9c9da24a47.mp3*~data=user_id=0,application_id=42~hmac=7971c7c93b558240ac5861ce99c3756a7f463f1f8af6badbdea3cfe5df4b26a6",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -512,7 +497,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/a/0/47abb93a8f7aec24ce930474fddd4359.mp3?hdnea=exp=1780611167~acl=/api/1/1/4/7/a/0/47abb93a8f7aec24ce930474fddd4359.mp3*~data=user_id=0,application_id=42~hmac=87e92b07eccfd638b924c7ab42da371cc22acfa50dcc3a1e24a5ad0187faed6d",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/a/0/47abb93a8f7aec24ce930474fddd4359.mp3?hdnea=exp=1780745612~acl=/api/1/1/4/7/a/0/47abb93a8f7aec24ce930474fddd4359.mp3*~data=user_id=0,application_id=42~hmac=751cb3d3e3bcf5b53cafa50f569ca940eb40cc79f3c16dc50475c52c93b1f94a",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -546,7 +531,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/4/0/494b71e43c654a85e7ceee4256534c4e.mp3?hdnea=exp=1780611167~acl=/api/1/1/4/9/4/0/494b71e43c654a85e7ceee4256534c4e.mp3*~data=user_id=0,application_id=42~hmac=9aef71b7248df72f42ce481356922a8fdd1146ff7b5ab8cffb8ec7c3290b9da6",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/4/0/494b71e43c654a85e7ceee4256534c4e.mp3?hdnea=exp=1780745612~acl=/api/1/1/4/9/4/0/494b71e43c654a85e7ceee4256534c4e.mp3*~data=user_id=0,application_id=42~hmac=063e3d35cfc3bb6217e1fd9fa0115638ad0169466bdd5da848a169bd78ba636a",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -580,7 +565,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/d/0/8dd936fc74cea925a0917a29d2c85977.mp3?hdnea=exp=1780611167~acl=/api/1/1/8/d/d/0/8dd936fc74cea925a0917a29d2c85977.mp3*~data=user_id=0,application_id=42~hmac=b4e8ab8165f120cc99d7e213a9cc1f0288df3ab2cad1ebd37fbcce15ce63739f",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/d/0/8dd936fc74cea925a0917a29d2c85977.mp3?hdnea=exp=1780745612~acl=/api/1/1/8/d/d/0/8dd936fc74cea925a0917a29d2c85977.mp3*~data=user_id=0,application_id=42~hmac=66ebe3d416f5587c98c4bab2fcdb223bbdecb70b1f73e96aa1d23e5e39d028b3",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -614,7 +599,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/f/0/f9f8b3e9a37fd182e3ec9af353b005e5.mp3?hdnea=exp=1780611167~acl=/api/1/1/f/9/f/0/f9f8b3e9a37fd182e3ec9af353b005e5.mp3*~data=user_id=0,application_id=42~hmac=673f7358623b5f2e7f42aa93221db13480b5def0f227cdd049a8c9ebf5dbd349",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/f/0/f9f8b3e9a37fd182e3ec9af353b005e5.mp3?hdnea=exp=1780745612~acl=/api/1/1/f/9/f/0/f9f8b3e9a37fd182e3ec9af353b005e5.mp3*~data=user_id=0,application_id=42~hmac=01b3387ecd1495f4e90c4c3450c3476daaf01f518e9851ca9d8ecf69047614b1",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,
@@ -648,7 +633,7 @@
             "explicit_lyrics": true,
             "explicit_content_lyrics": 1,
             "explicit_content_cover": 2,
-            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/c/0/93cf05b9dbe5d929153bfc0e8c3271a4.mp3?hdnea=exp=1780611167~acl=/api/1/1/9/3/c/0/93cf05b9dbe5d929153bfc0e8c3271a4.mp3*~data=user_id=0,application_id=42~hmac=b2f101addead0f832ac56fbccc5d969476fd450645de6522102f78bd5b184aba",
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/c/0/93cf05b9dbe5d929153bfc0e8c3271a4.mp3?hdnea=exp=1780745612~acl=/api/1/1/9/3/c/0/93cf05b9dbe5d929153bfc0e8c3271a4.mp3*~data=user_id=0,application_id=42~hmac=643b50254138d9757da152ba6460b693c846d669c49d16ad6e4451021a2fcd94",
             "md5_image": "bd3ab856354c14e1945980419cfd60df",
             "artist": {
               "id": 4779526,

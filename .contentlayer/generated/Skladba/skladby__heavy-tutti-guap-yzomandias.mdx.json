@@ -9,22 +9,22 @@
   "featuresNames": [
     "Luisa"
   ],
-  "album": "Prozyum",
-  "albumSlug": "prozyum",
-  "year": 2020,
+  "album": "Prozyum (Director’s Cut)",
+  "albumSlug": "prozyum-director-s-cut",
+  "year": 2021,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "2:48",
-  "trackNumber": 6,
+  "trackNumber": 13,
   "producers": [],
   "producersNames": [],
-  "description": "Heavy Tutti Guap — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Heavy Tutti Guap — skladba od Yzomandias z alba Prozyum (Director’s Cut) (2021).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Heavy Tutti Guap](/skladby/heavy-tutti-guap-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2020).\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),g=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},u=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of y(a))!z.call(e,n)&&n!==r&&o(e,n,{get:()=>a[n],enumerable:!(s=l(a,n))||s.enumerable});return e};var x=(e,a,r)=>(r=e!=null?c(h(e)):{},u(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((k,i)=>{i.exports=_jsx_runtime});var j={};g(j,{default:()=>p,frontmatter:()=>_});var t=x(d()),_={title:\"Heavy Tutti Guap\",slug:\"heavy-tutti-guap-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"luisa\"],featuresNames:[\"Luisa\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[\"\"],duration:\"2:48\",trackNumber:6,producers:[],producersNames:[],description:\"Heavy Tutti Guap \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/heavy-tutti-guap-yzomandias\",children:\"Heavy Tutti Guap\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,t.jsx)(a.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2020).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Heavy Tutti Guap](/skladby/heavy-tutti-guap-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum (Director’s Cut)](/alba/prozyum-director-s-cut) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var f=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),b=(t,a)=>{for(var e in a)s(t,e,{get:a[e],enumerable:!0})},n=(t,a,e,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of y(a))!z.call(t,o)&&o!==e&&s(t,o,{get:()=>a[o],enumerable:!(u=l(a,o))||u.enumerable});return t};var g=(t,a,e)=>(e=t!=null?p(h(t)):{},n(a||!t||!t.__esModule?s(e,\"default\",{value:t,enumerable:!0}):e,t)),x=t=>n(s({},\"__esModule\",{value:!0}),t);var c=f((C,i)=>{i.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>_});var r=g(c()),_={title:\"Heavy Tutti Guap\",slug:\"heavy-tutti-guap-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"luisa\"],featuresNames:[\"Luisa\"],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum-director-s-cut\",year:2021,genre:[\"hip-hop\"],duration:\"2:48\",trackNumber:13,producers:[],producersNames:[],description:\"Heavy Tutti Guap \\u2014 skladba od Yzomandias z alba Prozyum (Director\\u2019s Cut) (2021).\",publishedAt:\"2026-06-06\"};function d(t){let a={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/heavy-tutti-guap-yzomandias\",children:\"Heavy Tutti Guap\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/prozyum-director-s-cut\",children:\"Prozyum (Director\\u2019s Cut)\"}),\" (2021).\"]})}function m(t={}){let{wrapper:a}=t.components||{};return a?(0,r.jsx)(a,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return x(j);})();\n;return Component;"
   },
   "_id": "skladby/heavy-tutti-guap-yzomandias.mdx",
   "_raw": {

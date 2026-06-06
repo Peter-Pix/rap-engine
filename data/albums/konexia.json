@@ -1,0 +1,409 @@
+{
+  "id": "album_konexia",
+  "kind": "album",
+  "slug": "konexia",
+  "title": "KONEXIA",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "momo"
+    },
+    "label": null,
+    "labelName": "Nedám Sa Okoňovať",
+    "year": 2025,
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "KXA",
+      "YA NEPONIMAJU!",
+      "TY PROTI MNE",
+      "PREKÁŽKY",
+      "SÁM",
+      "BARAN",
+      "ZBRANE",
+      "SLOVO PLATÍ"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 718119531,
+    "nbTracks": 8
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:41:05.214Z",
+    "raw": {
+      "id": 718119531,
+      "title": "KONEXIA",
+      "upc": "7316479991569",
+      "link": "https://www.deezer.com/album/718119531",
+      "share": "https://www.deezer.com/album/718119531?utm_source=deezer&utm_content=album-718119531&utm_term=0_1780746065&utm_medium=web",
+      "cover": "https://api.deezer.com/album/718119531/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Nedám Sa Okoňovať",
+      "nb_tracks": 8,
+      "duration": 1327,
+      "fans": 27,
+      "release_date": "2025-03-28",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/718119531/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 241671,
+          "name": "MOMO",
+          "link": "https://www.deezer.com/artist/241671",
+          "share": "https://www.deezer.com/artist/241671?utm_source=deezer&utm_content=artist-241671&utm_term=0_1780746065&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/241671/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/cbdea805d5462930f6678a77f5646611/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/cbdea805d5462930f6678a77f5646611/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/cbdea805d5462930f6678a77f5646611/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/cbdea805d5462930f6678a77f5646611/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        },
+        {
+          "id": 72644652,
+          "name": "Erik Tresor",
+          "link": "https://www.deezer.com/artist/72644652",
+          "share": "https://www.deezer.com/artist/72644652?utm_source=deezer&utm_content=artist-72644652&utm_term=0_1780746065&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/72644652/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/72644652/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        },
+        {
+          "id": 6233794,
+          "name": "Kxa",
+          "link": "https://www.deezer.com/artist/6233794",
+          "share": "https://www.deezer.com/artist/6233794?utm_source=deezer&utm_content=artist-6233794&utm_term=0_1780746065&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/6233794/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/6233794/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 241671,
+        "name": "MOMO",
+        "picture": "https://api.deezer.com/artist/241671/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/cbdea805d5462930f6678a77f5646611/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/cbdea805d5462930f6678a77f5646611/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/cbdea805d5462930f6678a77f5646611/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/cbdea805d5462930f6678a77f5646611/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 3248932991,
+            "readable": true,
+            "title": "KXA",
+            "title_short": "KXA",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3248932991",
+            "duration": 133,
+            "rank": 89591,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/0/0/2a03d8de51f41b126d963a85ef6ef430.mp3?hdnea=exp=1780746965~acl=/api/1/1/2/a/0/0/2a03d8de51f41b126d963a85ef6ef430.mp3*~data=user_id=0,application_id=42~hmac=28f60a7612bbed8c1217894dc7366662e702739bf0d2976e98b81468c50c5a68",
+            "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+            "artist": {
+              "id": 241671,
+              "name": "MOMO",
+              "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 718119531,
+              "title": "KONEXIA",
+              "cover": "https://api.deezer.com/album/718119531/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+              "tracklist": "https://api.deezer.com/album/718119531/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3248933001,
+            "readable": true,
+            "title": "YA NEPONIMAJU!",
+            "title_short": "YA NEPONIMAJU!",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3248933001",
+            "duration": 163,
+            "rank": 77414,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/8/0/a888d480834c3980cebbae5570c01c42.mp3?hdnea=exp=1780746965~acl=/api/1/1/a/8/8/0/a888d480834c3980cebbae5570c01c42.mp3*~data=user_id=0,application_id=42~hmac=3dba3a825291093c28dbbf94a78578f3e13a84f4785ea869790d5b4476238be2",
+            "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+            "artist": {
+              "id": 241671,
+              "name": "MOMO",
+              "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 718119531,
+              "title": "KONEXIA",
+              "cover": "https://api.deezer.com/album/718119531/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+              "tracklist": "https://api.deezer.com/album/718119531/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3248933011,
+            "readable": true,
+            "title": "TY PROTI MNE",
+            "title_short": "TY PROTI MNE",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3248933011",
+            "duration": 194,
+            "rank": 70865,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/2/0/992792043ce4444f86b08c2adc9bb0e7.mp3?hdnea=exp=1780746965~acl=/api/1/1/9/9/2/0/992792043ce4444f86b08c2adc9bb0e7.mp3*~data=user_id=0,application_id=42~hmac=089e97b42680c43741590b9ee93989831409e00dc72072088528030acf1b810b",
+            "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+            "artist": {
+              "id": 241671,
+              "name": "MOMO",
+              "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 718119531,
+              "title": "KONEXIA",
+              "cover": "https://api.deezer.com/album/718119531/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+              "tracklist": "https://api.deezer.com/album/718119531/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3248933021,
+            "readable": true,
+            "title": "PREKÁŽKY",
+            "title_short": "PREKÁŽKY",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3248933021",
+            "duration": 220,
+            "rank": 61799,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/e/0/aaea9052ce87f9570840c9d9845daf07.mp3?hdnea=exp=1780746965~acl=/api/1/1/a/a/e/0/aaea9052ce87f9570840c9d9845daf07.mp3*~data=user_id=0,application_id=42~hmac=bd777765153cca7a60bdfac3ababe42ba84bdb88625073000b12c8806a6cea03",
+            "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+            "artist": {
+              "id": 241671,
+              "name": "MOMO",
+              "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 718119531,
+              "title": "KONEXIA",
+              "cover": "https://api.deezer.com/album/718119531/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+              "tracklist": "https://api.deezer.com/album/718119531/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3248933031,
+            "readable": true,
+            "title": "SÁM",
+            "title_short": "SÁM",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3248933031",
+            "duration": 171,
+            "rank": 40042,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/a/0/4ea3b85f03ea9474b72af3b2c6734305.mp3?hdnea=exp=1780746965~acl=/api/1/1/4/e/a/0/4ea3b85f03ea9474b72af3b2c6734305.mp3*~data=user_id=0,application_id=42~hmac=4099ba1a2be4fb2de25a9d4a9876c50d017c2c534122ee11e64ddd3d144b4e8e",
+            "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+            "artist": {
+              "id": 241671,
+              "name": "MOMO",
+              "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 718119531,
+              "title": "KONEXIA",
+              "cover": "https://api.deezer.com/album/718119531/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+              "tracklist": "https://api.deezer.com/album/718119531/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3248933041,
+            "readable": true,
+            "title": "BARAN",
+            "title_short": "BARAN",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3248933041",
+            "duration": 111,
+            "rank": 67389,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/4/9/0/449ed34776209309167843c72993fcad.mp3?hdnea=exp=1780746965~acl=/api/1/1/4/4/9/0/449ed34776209309167843c72993fcad.mp3*~data=user_id=0,application_id=42~hmac=fede29255c6ae65336f1852688880e092410f753f049b8b865d8a3d7cb6808ca",
+            "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+            "artist": {
+              "id": 241671,
+              "name": "MOMO",
+              "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 718119531,
+              "title": "KONEXIA",
+              "cover": "https://api.deezer.com/album/718119531/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+              "tracklist": "https://api.deezer.com/album/718119531/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3248933051,
+            "readable": true,
+            "title": "ZBRANE",
+            "title_short": "ZBRANE",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3248933051",
+            "duration": 168,
+            "rank": 88917,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/8/0/668c4052510420437c6c9d30695c25e3.mp3?hdnea=exp=1780746965~acl=/api/1/1/6/6/8/0/668c4052510420437c6c9d30695c25e3.mp3*~data=user_id=0,application_id=42~hmac=8aad1e93ac4af1bdce0de767d9340592970e17c020b734b28b80df9aebfcb0ad",
+            "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+            "artist": {
+              "id": 241671,
+              "name": "MOMO",
+              "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 718119531,
+              "title": "KONEXIA",
+              "cover": "https://api.deezer.com/album/718119531/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+              "tracklist": "https://api.deezer.com/album/718119531/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3248933061,
+            "readable": true,
+            "title": "SLOVO PLATÍ",
+            "title_short": "SLOVO PLATÍ",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3248933061",
+            "duration": 167,
+            "rank": 37331,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/6/0/796e93728a3e0fa25ce79eb985a0e156.mp3?hdnea=exp=1780746965~acl=/api/1/1/7/9/6/0/796e93728a3e0fa25ce79eb985a0e156.mp3*~data=user_id=0,application_id=42~hmac=50cad36ab9c94e8e203dc4c10c90f6540b08be9eb1b0402bef04154f1a2e3241",
+            "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+            "artist": {
+              "id": 241671,
+              "name": "MOMO",
+              "tracklist": "https://api.deezer.com/artist/241671/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 718119531,
+              "title": "KONEXIA",
+              "cover": "https://api.deezer.com/album/718119531/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/c596fdada27de8546dc3fe271f9254aa/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "c596fdada27de8546dc3fe271f9254aa",
+              "tracklist": "https://api.deezer.com/album/718119531/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

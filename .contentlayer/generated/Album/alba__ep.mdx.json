@@ -1,0 +1,36 @@
+{
+  "title": "EP",
+  "slug": "ep",
+  "rapper": "The Fat Animals",
+  "rapperSlug": "the-fat-animals",
+  "year": 2026,
+  "genre": [],
+  "description": "The Fat Animals v roce 2026 vydal EP EP. Obsahuje celkem 5 skladeb.",
+  "image": "https://cdn-images.dzcdn.net/images/cover/28f8d46ec3c03b14e032f179434a4d96/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "tracklist": [
+    "Long Time",
+    "Blue Man",
+    "Door #3",
+    "Looking for a Change",
+    "The Porch"
+  ],
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
+  "body": {
+    "raw": "\n[The Fat Animals](/raperi/the-fat-animals) v roce 2026 vydal EP **EP**.\n\n\nEP obsahuje celkem 5 skladeb.",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var a in e)s(n,a,{get:e[a],enumerable:!0})},c=(n,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!f.call(n,r)&&r!==a&&s(n,r,{get:()=>e[r],enumerable:!(o=p(e,r))||o.enumerable});return n};var P=(n,e,a)=>(a=n!=null?h(u(n)):{},c(e||!n||!n.__esModule?s(a,\"default\",{value:n,enumerable:!0}):a,n)),_=n=>c(s({},\"__esModule\",{value:!0}),n);var l=x((T,i)=>{i.exports=_jsx_runtime});var k={};j(k,{default:()=>d,frontmatter:()=>b});var t=P(l()),b={title:\"EP\",slug:\"ep\",rapper:\"The Fat Animals\",rapperSlug:\"the-fat-animals\",year:2026,releaseType:\"ep\",genre:[],description:\"The Fat Animals v roce 2026 vydal EP EP. Obsahuje celkem 5 skladeb.\",image:\"https://cdn-images.dzcdn.net/images/cover/28f8d46ec3c03b14e032f179434a4d96/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Long Time\",\"Blue Man\",\"Door #3\",\"Looking for a Change\",\"The Porch\"],publishedAt:\"2026-06-06\"};function m(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.a,{href:\"/raperi/the-fat-animals\",children:\"The Fat Animals\"}),\" v roce 2026 vydal EP \",(0,t.jsx)(e.strong,{children:\"EP\"}),\".\"]}),`\n`,(0,t.jsx)(e.p,{children:\"EP obsahuje celkem 5 skladeb.\"})]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(m,{...n})}):m(n)}return _(k);})();\n;return Component;"
+  },
+  "_id": "alba/ep.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/ep.mdx",
+    "sourceFileName": "ep.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/ep"
+  },
+  "type": "Album",
+  "url": "/alba/ep",
+  "canonicalUrl": "https://4rap.cz/alba/ep"
+}

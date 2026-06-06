@@ -1,0 +1,36 @@
+{
+  "title": "Tréning",
+  "slug": "trening-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [],
+  "featuresNames": [],
+  "album": "Pirát",
+  "albumSlug": "pirat",
+  "year": 2014,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "2:57",
+  "trackNumber": 15,
+  "producers": [],
+  "producersNames": [],
+  "description": "Tréning — skladba od Separ z alba Pirát (2014).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Tréning](/skladby/trening-separ)** od [Separ](/raperi/separ) z alba [Pirát](/alba/pirat) (2014).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},o=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!f.call(e,a)&&a!==t&&s(e,a,{get:()=>r[a],enumerable:!(i=g(r,a))||i.enumerable});return e};var _=(e,r,t)=>(t=e!=null?d(m(e)):{},o(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var c=b((M,p)=>{p.exports=_jsx_runtime});var k={};x(k,{default:()=>u,frontmatter:()=>S});var n=_(c()),S={title:\"Tr\\xE9ning\",slug:\"trening-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[],featuresNames:[],album:\"Pir\\xE1t\",albumSlug:\"pirat\",year:2014,genre:[\"hip-hop\"],duration:\"2:57\",trackNumber:15,producers:[],producersNames:[],description:\"Tr\\xE9ning \\u2014 skladba od Separ z alba Pir\\xE1t (2014).\",publishedAt:\"2026-06-06\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/trening-separ\",children:\"Tr\\xE9ning\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/pirat\",children:\"Pir\\xE1t\"}),\" (2014).\"]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/trening-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/trening-separ.mdx",
+    "sourceFileName": "trening-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/trening-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/trening-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/trening-separ"
+}

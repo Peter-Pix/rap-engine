@@ -1,0 +1,42 @@
+{
+  "title": "International",
+  "slug": "international-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "matej-straka",
+    "fleego"
+  ],
+  "featuresNames": [
+    "Matej Straka",
+    "Fleego"
+  ],
+  "album": "FLOWDEMORT",
+  "albumSlug": "flowdemort",
+  "year": 2023,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "2:29",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "International — skladba od Separ z alba FLOWDEMORT (2023).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[International](/skladby/international-separ)** od [Separ](/raperi/separ) z alba [FLOWDEMORT](/alba/flowdemort) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!b.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return r};var j=(r,e,t)=>(t=r!=null?u(h(r)):{},l(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),M=r=>l(o({},\"__esModule\",{value:!0}),r);var p=g((k,i)=>{i.exports=_jsx_runtime});var S={};x(S,{default:()=>d,frontmatter:()=>O});var a=j(p()),O={title:\"International\",slug:\"international-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"matej-straka\",\"fleego\"],featuresNames:[\"Matej Straka\",\"Fleego\"],album:\"FLOWDEMORT\",albumSlug:\"flowdemort\",year:2023,genre:[\"hip-hop\"],duration:\"2:29\",trackNumber:9,producers:[],producersNames:[],description:\"International \\u2014 skladba od Separ z alba FLOWDEMORT (2023).\",publishedAt:\"2026-06-06\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/international-separ\",children:\"International\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/flowdemort\",children:\"FLOWDEMORT\"}),\" (2023).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return M(S);})();\n;return Component;"
+  },
+  "_id": "skladby/international-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/international-separ.mdx",
+    "sourceFileName": "international-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/international-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/international-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/international-separ"
+}

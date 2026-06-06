@@ -9,22 +9,22 @@
   "featuresNames": [
     "Nik Tendo"
   ],
-  "album": "Kruhy & Vlny (217 Twins Edition)",
+  "album": "Kruhy & Vlny",
   "albumSlug": "kruhy-vlny",
-  "year": 2023,
+  "year": 2022,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "3:31",
-  "trackNumber": 14,
+  "trackNumber": 6,
   "producers": [],
   "producersNames": [],
-  "description": "Láska & Bolest — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Láska & Bolest — skladba od Yzomandias z alba Kruhy & Vlny (2022).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Láska & Bolest](/skladby/laska-bolest-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
-    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),f=(n,a)=>{for(var r in a)t(n,r,{get:a[r],enumerable:!0})},i=(n,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of y(a))!k.call(n,s)&&s!==r&&t(n,s,{get:()=>a[s],enumerable:!(o=p(a,s))||o.enumerable});return n};var x=(n,a,r)=>(r=n!=null?m(h(n)):{},i(a||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),z=n=>i(t({},\"__esModule\",{value:!0}),n);var d=b((L,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>g});var e=x(d()),g={title:\"L\\xE1ska & Bolest\",slug:\"laska-bolest-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"3:31\",trackNumber:14,producers:[],producersNames:[],description:\"L\\xE1ska & Bolest \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/laska-bolest-yzomandias\",children:\"L\\xE1ska & Bolest\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(u,{...n})}):u(n)}return z(_);})();\n;return Component;"
+    "raw": "\n**[Láska & Bolest](/skladby/laska-bolest-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny](/alba/kruhy-vlny) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var r in a)t(e,r,{get:a[r],enumerable:!0})},l=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of p(a))!k.call(e,s)&&s!==r&&t(e,s,{get:()=>a[s],enumerable:!(o=h(a,s))||o.enumerable});return e};var x=(e,a,r)=>(r=e!=null?m(y(e)):{},l(a||!e||!e.__esModule?t(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>l(t({},\"__esModule\",{value:!0}),e);var i=b((L,d)=>{d.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>g});var n=x(i()),g={title:\"L\\xE1ska & Bolest\",slug:\"laska-bolest-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny\",albumSlug:\"kruhy-vlny\",year:2022,genre:[\"hip-hop\"],duration:\"3:31\",trackNumber:6,producers:[],producersNames:[],description:\"L\\xE1ska & Bolest \\u2014 skladba od Yzomandias z alba Kruhy & Vlny (2022).\",publishedAt:\"2026-06-06\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/laska-bolest-yzomandias\",children:\"L\\xE1ska & Bolest\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny\"}),\" (2022).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/laska-bolest-yzomandias.mdx",
   "_raw": {

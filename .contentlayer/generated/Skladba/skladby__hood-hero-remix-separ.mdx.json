@@ -1,0 +1,40 @@
+{
+  "title": "Hood Hero (Remix)",
+  "slug": "hood-hero-remix-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "deryck"
+  ],
+  "featuresNames": [
+    "Deryck"
+  ],
+  "album": "OG",
+  "albumSlug": "og",
+  "year": 2020,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "2:33",
+  "trackNumber": 19,
+  "producers": [],
+  "producersNames": [],
+  "description": "Hood Hero (Remix) — skladba od Separ z alba OG (2020).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Hood Hero (Remix)](/skladby/hood-hero-remix-separ)** od [Separ](/raperi/separ) z alba [OG](/alba/og) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},p=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(r,t)&&t!==a&&n(r,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return r};var H=(r,e,a)=>(a=r!=null?u(x(r)):{},p(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),_=r=>p(n({},\"__esModule\",{value:!0}),r);var i=b((S,d)=>{d.exports=_jsx_runtime});var k={};g(k,{default:()=>l,frontmatter:()=>j});var o=H(i()),j={title:\"Hood Hero (Remix)\",slug:\"hood-hero-remix-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"deryck\"],featuresNames:[\"Deryck\"],album:\"OG\",albumSlug:\"og\",year:2020,genre:[\"hip-hop\"],duration:\"2:33\",trackNumber:19,producers:[],producersNames:[],description:\"Hood Hero (Remix) \\u2014 skladba od Separ z alba OG (2020).\",publishedAt:\"2026-06-06\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/hood-hero-remix-separ\",children:\"Hood Hero (Remix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/og\",children:\"OG\"}),\" (2020).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(c,{...r})}):c(r)}return _(k);})();\n;return Component;"
+  },
+  "_id": "skladby/hood-hero-remix-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hood-hero-remix-separ.mdx",
+    "sourceFileName": "hood-hero-remix-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hood-hero-remix-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hood-hero-remix-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/hood-hero-remix-separ"
+}

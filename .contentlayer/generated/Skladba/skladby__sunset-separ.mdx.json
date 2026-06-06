@@ -1,0 +1,42 @@
+{
+  "title": "Sunset",
+  "slug": "sunset-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "jerry-lee",
+    "ptk"
+  ],
+  "featuresNames": [
+    "Jerry Lee",
+    "P T K"
+  ],
+  "album": "FLOWDEMORT",
+  "albumSlug": "flowdemort",
+  "year": 2023,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "2:35",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Sunset — skladba od Separ z alba FLOWDEMORT (2023).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Sunset](/skladby/sunset-separ)** od [Separ](/raperi/separ) z alba [FLOWDEMORT](/alba/flowdemort) (2023).\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),S=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},p=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!b.call(r,n)&&n!==a&&s(r,n,{get:()=>e[n],enumerable:!(o=m(e,n))||o.enumerable});return r};var g=(r,e,a)=>(a=r!=null?i(h(r)):{},p(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),j=r=>p(s({},\"__esModule\",{value:!0}),r);var l=x((y,u)=>{u.exports=_jsx_runtime});var O={};S(O,{default:()=>d,frontmatter:()=>M});var t=g(l()),M={title:\"Sunset\",slug:\"sunset-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"jerry-lee\",\"ptk\"],featuresNames:[\"Jerry Lee\",\"P T K\"],album:\"FLOWDEMORT\",albumSlug:\"flowdemort\",year:2023,genre:[\"hip-hop\"],duration:\"2:35\",trackNumber:17,producers:[],producersNames:[],description:\"Sunset \\u2014 skladba od Separ z alba FLOWDEMORT (2023).\",publishedAt:\"2026-06-06\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/sunset-separ\",children:\"Sunset\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/flowdemort\",children:\"FLOWDEMORT\"}),\" (2023).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(c,{...r})}):c(r)}return j(O);})();\n;return Component;"
+  },
+  "_id": "skladby/sunset-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sunset-separ.mdx",
+    "sourceFileName": "sunset-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sunset-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sunset-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/sunset-separ"
+}

@@ -1,0 +1,484 @@
+{
+  "id": "album_minimal",
+  "kind": "album",
+  "slug": "minimal",
+  "title": "Minimal",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "neries"
+    },
+    "label": null,
+    "labelName": "Nerieš",
+    "year": 2015,
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Minimal",
+      "R.I.P. Rap",
+      "Hudba Nonstop",
+      "Míňame Lóve",
+      "Panická Porucha",
+      "Milujeme Túto Dobu",
+      "Odložený Prípad",
+      "Velké Skóre",
+      "Miesta",
+      "Fog Ma Dží",
+      "Všetky Hovná"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 235397382,
+    "nbTracks": 11
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:39:23.928Z",
+    "raw": {
+      "id": 235397382,
+      "title": "Minimal",
+      "upc": "859715455526",
+      "link": "https://www.deezer.com/album/235397382",
+      "share": "https://www.deezer.com/album/235397382?utm_source=deezer&utm_content=album-235397382&utm_term=0_1780745964&utm_medium=web",
+      "cover": "https://api.deezer.com/album/235397382/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Nerieš",
+      "nb_tracks": 11,
+      "duration": 2385,
+      "fans": 118,
+      "release_date": "2015-05-01",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/235397382/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 6984161,
+          "name": "Nerieš",
+          "link": "https://www.deezer.com/artist/6984161",
+          "share": "https://www.deezer.com/artist/6984161?utm_source=deezer&utm_content=artist-6984161&utm_term=0_1780745964&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/6984161/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 6984161,
+        "name": "Nerieš",
+        "picture": "https://api.deezer.com/artist/6984161/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 1395983212,
+            "readable": true,
+            "title": "Minimal",
+            "title_short": "Minimal",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983212",
+            "duration": 196,
+            "rank": 39013,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/4/8/0/648b6c6daa25996972b96fbc86bfce9e.mp3?hdnea=exp=1780746864~acl=/api/1/1/6/4/8/0/648b6c6daa25996972b96fbc86bfce9e.mp3*~data=user_id=0,application_id=42~hmac=8d0321a632d56a196c5c2500321609be0d766591cdd74799ae2afc2ba6920c3c",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983222,
+            "readable": true,
+            "title": "R.I.P. Rap",
+            "title_short": "R.I.P. Rap",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983222",
+            "duration": 173,
+            "rank": 31160,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/a/0/03a0e0c61f79f7d2fce4b8ca960346d0.mp3?hdnea=exp=1780746864~acl=/api/1/1/0/3/a/0/03a0e0c61f79f7d2fce4b8ca960346d0.mp3*~data=user_id=0,application_id=42~hmac=6fc96215c9afb86193dc38246168e4caa8cb0f7754d4be6356ad1d2b6eb9e04b",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983232,
+            "readable": true,
+            "title": "Hudba Nonstop",
+            "title_short": "Hudba Nonstop",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983232",
+            "duration": 186,
+            "rank": 41842,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/a/0/34a28813c863290dba30a6fd38ee0d21.mp3?hdnea=exp=1780746864~acl=/api/1/1/3/4/a/0/34a28813c863290dba30a6fd38ee0d21.mp3*~data=user_id=0,application_id=42~hmac=9cf4fc0fbb40144a35f6f464510cfc994a75c6f7a4f514b0dcce6b4fa868e31a",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983242,
+            "readable": true,
+            "title": "Míňame Lóve",
+            "title_short": "Míňame Lóve",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983242",
+            "duration": 193,
+            "rank": 3875,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/a/0/4fa5ca7dfce4928c866a5d84d14a8f83.mp3?hdnea=exp=1780746864~acl=/api/1/1/4/f/a/0/4fa5ca7dfce4928c866a5d84d14a8f83.mp3*~data=user_id=0,application_id=42~hmac=8fa85dac2b9dceb3486ce5cb8b3674f92cb769844b70f4bb954c9f04328d5448",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983252,
+            "readable": true,
+            "title": "Panická Porucha",
+            "title_short": "Panická Porucha",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983252",
+            "duration": 241,
+            "rank": 25269,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/d/0/fcdbdd98e6ad47fd426bca8ca95a24bd.mp3?hdnea=exp=1780746864~acl=/api/1/1/f/c/d/0/fcdbdd98e6ad47fd426bca8ca95a24bd.mp3*~data=user_id=0,application_id=42~hmac=cf317443db94c596cd6037dc8851a870e7e316a8a5c92b4f25a31ec59621a702",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983262,
+            "readable": true,
+            "title": "Milujeme Túto Dobu",
+            "title_short": "Milujeme Túto Dobu",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983262",
+            "duration": 274,
+            "rank": 13988,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/d/0/74da496deb02ea68e804d9544341376a.mp3?hdnea=exp=1780746864~acl=/api/1/1/7/4/d/0/74da496deb02ea68e804d9544341376a.mp3*~data=user_id=0,application_id=42~hmac=611f7461c4705d43802db34cc32c22e567372b6b61c353a0565f796370b8d918",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983272,
+            "readable": true,
+            "title": "Odložený Prípad",
+            "title_short": "Odložený Prípad",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983272",
+            "duration": 213,
+            "rank": 18411,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/d/0/b6d5a3eb81a2d793b2a895ab833b8b08.mp3?hdnea=exp=1780746864~acl=/api/1/1/b/6/d/0/b6d5a3eb81a2d793b2a895ab833b8b08.mp3*~data=user_id=0,application_id=42~hmac=7d1902133a405f565bc060d9a7366e1e4c3bf37d31194185f6e544e9e8f0cc47",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983282,
+            "readable": true,
+            "title": "Velké Skóre",
+            "title_short": "Velké Skóre",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983282",
+            "duration": 189,
+            "rank": 2488,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/8/0/2789e360f87e96791333b5f519a42f70.mp3?hdnea=exp=1780746864~acl=/api/1/1/2/7/8/0/2789e360f87e96791333b5f519a42f70.mp3*~data=user_id=0,application_id=42~hmac=af1eee3ee2a182d7f9c982062c9105513640fd71d5be5ed6cbacd49c8ca160e9",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983292,
+            "readable": true,
+            "title": "Miesta",
+            "title_short": "Miesta",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983292",
+            "duration": 224,
+            "rank": 26546,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/a/7/0/9a75f66b675be601c16bd716e24f5e4c.mp3?hdnea=exp=1780746864~acl=/api/1/1/9/a/7/0/9a75f66b675be601c16bd716e24f5e4c.mp3*~data=user_id=0,application_id=42~hmac=c862daaa33777034dbd053df6b5d67be980155115c091ef44db008d46ebdf216",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983302,
+            "readable": true,
+            "title": "Fog Ma Dží",
+            "title_short": "Fog Ma Dží",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983302",
+            "duration": 273,
+            "rank": 65551,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/7/6/0/9761e686f960faf0cfabec0d5c0d5030.mp3?hdnea=exp=1780746864~acl=/api/1/1/9/7/6/0/9761e686f960faf0cfabec0d5c0d5030.mp3*~data=user_id=0,application_id=42~hmac=356dbc201d75f2a1d8c1e7776e0f7b0754a5fd919d9de519757ddafbd9b4c64f",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395983312,
+            "readable": true,
+            "title": "Všetky Hovná",
+            "title_short": "Všetky Hovná",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395983312",
+            "duration": 223,
+            "rank": 21844,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/3/0/cb35161e8fdd53834382baa03f7a5328.mp3?hdnea=exp=1780746864~acl=/api/1/1/c/b/3/0/cb35161e8fdd53834382baa03f7a5328.mp3*~data=user_id=0,application_id=42~hmac=d8054f52c077daf91055824d3dc9dcdae7c8aa610bc1fe49feb81db2952ba538",
+            "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235397382,
+              "title": "Minimal",
+              "cover": "https://api.deezer.com/album/235397382/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ed82847f8477b7e34773e7a9cbc10992/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "ed82847f8477b7e34773e7a9cbc10992",
+              "tracklist": "https://api.deezer.com/album/235397382/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

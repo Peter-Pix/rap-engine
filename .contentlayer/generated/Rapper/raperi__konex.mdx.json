@@ -1,0 +1,23 @@
+{
+  "title": "Konex",
+  "slug": "konex",
+  "genre": [],
+  "description": "Konex — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of u(n))!_.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(c=d(n,r))||c.enumerable});return e};var g=(e,n,o)=>(o=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),k=e=>i(s({},\"__esModule\",{value:!0}),e);var x=f((y,m)=>{m.exports=_jsx_runtime});var b={};j(b,{default:()=>l,frontmatter:()=>M});var t=g(x()),M={title:\"Konex\",slug:\"konex\",genre:[],description:\"Konex \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function a(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(a,{...e})}):a(e)}return k(b);})();\n;return Component;"
+  },
+  "_id": "raperi/konex.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/konex.mdx",
+    "sourceFileName": "konex.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/konex"
+  },
+  "type": "Rapper",
+  "url": "/raperi/konex",
+  "canonicalUrl": "https://4rap.cz/raperi/konex"
+}

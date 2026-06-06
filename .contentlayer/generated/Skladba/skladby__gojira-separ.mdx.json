@@ -1,0 +1,42 @@
+{
+  "title": "Gojira",
+  "slug": "gojira-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "p-a-t",
+    "rytmus"
+  ],
+  "featuresNames": [
+    "P.A.T.",
+    "Rytmus"
+  ],
+  "album": "Pancier",
+  "albumSlug": "pancier",
+  "year": 2017,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "3:54",
+  "trackNumber": 16,
+  "producers": [],
+  "producersNames": [],
+  "description": "Gojira — skladba od Separ z alba Pancier (2017).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Gojira](/skladby/gojira-separ)** od [Separ](/raperi/separ) z alba [Pancier](/alba/pancier) (2017).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!j.call(e,n)&&n!==t&&s(e,n,{get:()=>r[n],enumerable:!(o=m(r,n))||o.enumerable});return e};var x=(e,r,t)=>(t=e!=null?d(f(e)):{},i(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var c=b((k,p)=>{p.exports=_jsx_runtime});var S={};g(S,{default:()=>l,frontmatter:()=>y});var a=x(c()),y={title:\"Gojira\",slug:\"gojira-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"p-a-t\",\"rytmus\"],featuresNames:[\"P.A.T.\",\"Rytmus\"],album:\"Pancier\",albumSlug:\"pancier\",year:2017,genre:[\"hip-hop\"],duration:\"3:54\",trackNumber:16,producers:[],producersNames:[],description:\"Gojira \\u2014 skladba od Separ z alba Pancier (2017).\",publishedAt:\"2026-06-06\"};function u(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/gojira-separ\",children:\"Gojira\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/pancier\",children:\"Pancier\"}),\" (2017).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/gojira-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/gojira-separ.mdx",
+    "sourceFileName": "gojira-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/gojira-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/gojira-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/gojira-separ"
+}
