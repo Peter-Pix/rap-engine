@@ -1,37 +1,13 @@
 {
   "title": "Separ",
   "slug": "separ",
-  "realName": "Michael Kmeť",
-  "born": "1986",
-  "active": "2001–současnost",
-  "label": "DMS Records",
-  "genre": [
-    "hip-hop",
-    "rap",
-    "trap"
-  ],
-  "description": "Separ (Michael Kmeť) je jeden z nejúspěšnějších a nejvlivnějších slovenských rapperů, člen legendární bratislavské skupiny DMS a zakladatel labelu DMS Records.",
-  "image": "/images/raperi/separ.jpg",
-  "featured": true,
-  "publishedAt": "2026-05-24T00:00:00.000Z",
-  "relatedRappers": [
-    "dame",
-    "smart",
-    "rytmus",
-    "ektor",
-    "ptk"
-  ],
-  "relatedAlbums": [
-    "buldozer",
-    "pirat",
-    "pancier",
-    "og",
-    "flowdemort",
-    "neviem"
-  ],
+  "genre": [],
+  "description": "Separ — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## O rapperovi\n\n**[Separ](/raperi/separ)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},p=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of u(e))!g.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(o=h(e,t))||o.enumerable});return r};var f=(r,e,n)=>(n=r!=null?m(j(r)):{},p(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>p(s({},\"__esModule\",{value:!0}),r);var l=x((S,i)=>{i.exports=_jsx_runtime});var k={};b(k,{default:()=>d,frontmatter:()=>M});var a=f(l()),M={title:\"Separ\",slug:\"separ\",realName:\"Michael Kme\\u0165\",born:\"1986\",active:\"2001\\u2013sou\\u010Dasnost\",label:\"DMS Records\",genre:[\"hip-hop\",\"rap\",\"trap\"],description:\"Separ (Michael Kme\\u0165) je jeden z nej\\xFAsp\\u011B\\u0161n\\u011Bj\\u0161\\xEDch a nejvlivn\\u011Bj\\u0161\\xEDch slovensk\\xFDch rapper\\u016F, \\u010Dlen legend\\xE1rn\\xED bratislavsk\\xE9 skupiny DMS a zakladatel labelu DMS Records.\",image:\"/images/raperi/separ.jpg\",featured:!0,publishedAt:\"2026-05-24\",relatedRappers:[\"dame\",\"smart\",\"rytmus\",\"ektor\",\"ptk\"],relatedAlbums:[\"buldozer\",\"pirat\",\"pancier\",\"og\",\"flowdemort\",\"neviem\"]};function c(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return v(k);})();\n;return Component;"
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(c=u(n,o))||c.enumerable});return e};var g=(e,n,r)=>(r=e!=null?d(x(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var p=f((v,a)=>{a.exports=_jsx_runtime});var b={};j(b,{default:()=>l,frontmatter:()=>S});var t=g(p()),S={title:\"Separ\",slug:\"separ\",genre:[],description:\"Separ \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return M(b);})();\n;return Component;"
   },
   "_id": "raperi/separ.mdx",
   "_raw": {

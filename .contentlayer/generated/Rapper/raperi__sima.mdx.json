@@ -1,34 +1,13 @@
 {
-  "title": "Sima",
+  "title": "SIMA",
   "slug": "sima",
-  "realName": "Simona Hégerová",
-  "born": "1996",
-  "active": "2015–současnost",
-  "label": "Gajlo Records",
-  "genre": [
-    "pop",
-    "hip-hop",
-    "trap",
-    "rnb"
-  ],
-  "description": "Slovenská zpěvačka a raperka, která se proslavila v projektu Podzemgang a stala se jednou z nejúspěšnějších ženských interpretek na česko-slovenské scéně.",
-  "image": "/images/raperi/sima.jpg",
-  "featured": true,
-  "publishedAt": "2026-05-24T00:00:00.000Z",
-  "updatedAt": "2026-05-24T00:00:00.000Z",
-  "relatedRappers": [
-    "ego",
-    "separ",
-    "kali"
-  ],
-  "relatedAlbums": [
-    "masterpiece",
-    "femina",
-    "podla-seba"
-  ],
+  "genre": [],
+  "description": "SIMA — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## O rapperovi\n\n**[Sima](/raperi/sima)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),v=(a,e)=>{for(var n in e)s(a,n,{get:e[n],enumerable:!0})},p=(a,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!j.call(a,t)&&t!==n&&s(a,t,{get:()=>e[t],enumerable:!(o=u(e,t))||o.enumerable});return a};var x=(a,e,n)=>(n=a!=null?d(g(a)):{},p(e||!a||!a.__esModule?s(n,\"default\",{value:a,enumerable:!0}):n,a)),f=a=>p(s({},\"__esModule\",{value:!0}),a);var c=k((z,i)=>{i.exports=_jsx_runtime});var _={};v(_,{default:()=>m,frontmatter:()=>b});var r=x(c()),b={title:\"Sima\",slug:\"sima\",realName:\"Simona H\\xE9gerov\\xE1\",born:\"1996\",active:\"2015\\u2013sou\\u010Dasnost\",label:\"Gajlo Records\",genre:[\"pop\",\"hip-hop\",\"trap\",\"rnb\"],description:\"Slovensk\\xE1 zp\\u011Bva\\u010Dka a raperka, kter\\xE1 se proslavila v projektu Podzemgang a stala se jednou z nej\\xFAsp\\u011B\\u0161n\\u011Bj\\u0161\\xEDch \\u017Eensk\\xFDch interpretek na \\u010Desko-slovensk\\xE9 sc\\xE9n\\u011B.\",image:\"/images/raperi/sima.jpg\",featured:!0,publishedAt:\"2026-05-24\",updatedAt:\"2026-05-24\",relatedRappers:[\"ego\",\"separ\",\"kali\"],relatedAlbums:[\"masterpiece\",\"femina\",\"podla-seba\"]};function l(a){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/raperi/sima\",children:\"Sima\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(l,{...a})}):l(a)}return f(_);})();\n;return Component;"
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(i=u(n,o))||i.enumerable});return e};var M=(e,n,r)=>(r=e!=null?d(x(e)):{},c(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var a=f((k,m)=>{m.exports=_jsx_runtime});var S={};j(S,{default:()=>p,frontmatter:()=>A});var t=M(a()),A={title:\"SIMA\",slug:\"sima\",genre:[],description:\"SIMA \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(S);})();\n;return Component;"
   },
   "_id": "raperi/sima.mdx",
   "_raw": {

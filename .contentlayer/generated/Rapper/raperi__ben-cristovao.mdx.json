@@ -1,35 +1,13 @@
 {
   "title": "Ben Cristovao",
   "slug": "ben-cristovao",
-  "realName": "Ben da Silva Cristóvão",
-  "born": "1987",
-  "active": "2009–současnost",
-  "label": "Championship Music",
-  "genre": [
-    "rap",
-    "rnb",
-    "trap",
-    "pop"
-  ],
-  "description": "Ben Cristovao je český zpěvák, rapper a textař česko-angolského původu, známý svými hity, fúzí popu, R&B a rapu a také reprezentací Česka na Eurovision Song Contest.",
-  "image": "/images/raperi/ben-cristovao.jpg",
-  "featured": true,
-  "publishedAt": "2026-05-24T00:00:00.000Z",
-  "updatedAt": "2026-05-24T00:00:00.000Z",
-  "relatedRappers": [
-    "calin",
-    "sofian-medjmedj",
-    "sergei-barracuda",
-    "sima",
-    "pil-c"
-  ],
-  "relatedAlbums": [
-    "protenkontrast",
-    "zvire"
-  ],
+  "genre": [],
+  "description": "Ben Cristovao — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## O rapperovi\n\n**[Ben Cristovao](/raperi/ben-cristovao)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var v=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of v(e))!g.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return r};var x=(r,e,t)=>(t=r!=null?u(h(r)):{},i(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),f=r=>i(o({},\"__esModule\",{value:!0}),r);var c=b((z,p)=>{p.exports=_jsx_runtime});var C={};j(C,{default:()=>l,frontmatter:()=>k});var a=x(c()),k={title:\"Ben Cristovao\",slug:\"ben-cristovao\",realName:\"Ben da Silva Crist\\xF3v\\xE3o\",born:\"1987\",active:\"2009\\u2013sou\\u010Dasnost\",label:\"Championship Music\",genre:[\"rap\",\"rnb\",\"trap\",\"pop\"],description:\"Ben Cristovao je \\u010Desk\\xFD zp\\u011Bv\\xE1k, rapper a texta\\u0159 \\u010Desko-angolsk\\xE9ho p\\u016Fvodu, zn\\xE1m\\xFD sv\\xFDmi hity, f\\xFAz\\xED popu, R&B a rapu a tak\\xE9 reprezentac\\xED \\u010Ceska na Eurovision Song Contest.\",image:\"/images/raperi/ben-cristovao.jpg\",featured:!0,publishedAt:\"2026-05-24\",updatedAt:\"2026-05-24\",relatedRappers:[\"calin\",\"sofian-medjmedj\",\"sergei-barracuda\",\"sima\",\"pil-c\"],relatedAlbums:[\"protenkontrast\",\"zvire\"]};function d(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/raperi/ben-cristovao\",children:\"Ben Cristovao\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return f(C);})();\n;return Component;"
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},c=(e,n,o,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!_.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(i=u(n,r))||i.enumerable});return e};var v=(e,n,o)=>(o=e!=null?d(x(e)):{},c(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var m=f((M,a)=>{a.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>C});var t=v(m()),C={title:\"Ben Cristovao\",slug:\"ben-cristovao\",genre:[],description:\"Ben Cristovao \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(b);})();\n;return Component;"
   },
   "_id": "raperi/ben-cristovao.mdx",
   "_raw": {

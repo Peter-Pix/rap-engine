@@ -15,18 +15,18 @@
   "albumSlug": "jeste-jednou",
   "year": 2019,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "2:30",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
-  "description": "Ještě jednou — skladba od Vladimir 518.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "Ještě jednou — skladba od Vladimir 518 z alba Ještě jednou (2019).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Ještě jednou](/skladby/jeste-jednou-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) (2019).\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},d=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!x.call(r,a)&&a!==t&&i(r,a,{get:()=>e[a],enumerable:!(o=j(e,a))||o.enumerable});return r};var k=(r,e,t)=>(t=r!=null?c(f(r)):{},d(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),b=r=>d(i({},\"__esModule\",{value:!0}),r);var u=h((M,s)=>{s.exports=_jsx_runtime});var _={};g(_,{default:()=>m,frontmatter:()=>v});var n=k(u()),v={title:\"Je\\u0161t\\u011B jednou\",slug:\"jeste-jednou-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"zverina\",\"mike-trafik\"],featuresNames:[\"Zverina\",\"Mike Trafik\"],album:\"Je\\u0161t\\u011B jednou\",albumSlug:\"jeste-jednou\",year:2019,genre:[\"\"],duration:\"2:30\",trackNumber:1,producers:[],producersNames:[],description:\"Je\\u0161t\\u011B jednou \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/jeste-jednou-vladimir-518\",children:\"Je\\u0161t\\u011B jednou\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" (2019).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(l,{...r})}):l(r)}return b(_);})();\n;return Component;"
+    "raw": "\n**[Ještě jednou](/skladby/jeste-jednou-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Ještě jednou](/alba/jeste-jednou) (2019).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},d=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!h.call(r,a)&&a!==n&&i(r,a,{get:()=>e[a],enumerable:!(o=j(e,a))||o.enumerable});return r};var g=(r,e,n)=>(n=r!=null?c(f(r)):{},d(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),k=r=>d(i({},\"__esModule\",{value:!0}),r);var u=b((M,s)=>{s.exports=_jsx_runtime});var J={};x(J,{default:()=>m,frontmatter:()=>v});var t=g(u()),v={title:\"Je\\u0161t\\u011B jednou\",slug:\"jeste-jednou-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"zverina\",\"mike-trafik\"],featuresNames:[\"Zverina\",\"Mike Trafik\"],album:\"Je\\u0161t\\u011B jednou\",albumSlug:\"jeste-jednou\",year:2019,genre:[\"hip-hop\"],duration:\"2:30\",trackNumber:1,producers:[],producersNames:[],description:\"Je\\u0161t\\u011B jednou \\u2014 skladba od Vladimir 518 z alba Je\\u0161t\\u011B jednou (2019).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/jeste-jednou-vladimir-518\",children:\"Je\\u0161t\\u011B jednou\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/jeste-jednou\",children:\"Je\\u0161t\\u011B jednou\"}),\" (2019).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return k(J);})();\n;return Component;"
   },
   "_id": "skladby/jeste-jednou-vladimir-518.mdx",
   "_raw": {

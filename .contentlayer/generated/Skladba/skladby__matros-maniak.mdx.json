@@ -13,18 +13,18 @@
   "albumSlug": "matros",
   "year": 2023,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "3:38",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
-  "description": "Matroš — skladba od Maniak.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "Matroš — skladba od Maniak z alba Matroš (2023).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Matroš](/skladby/matros-maniak)** od [Maniak](/raperi/maniak) (2023).\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),h=(r,a)=>{for(var t in a)o(r,t,{get:a[t],enumerable:!0})},i=(r,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of k(a))!f.call(r,n)&&n!==t&&o(r,n,{get:()=>a[n],enumerable:!(s=p(a,n))||s.enumerable});return r};var g=(r,a,t)=>(t=r!=null?l(M(r)):{},i(a||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),b=r=>i(o({},\"__esModule\",{value:!0}),r);var u=x((N,m)=>{m.exports=_jsx_runtime});var j={};h(j,{default:()=>d,frontmatter:()=>_});var e=g(u()),_={title:\"Matro\\u0161\",slug:\"matros-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"vladimir-518\"],featuresNames:[\"Vladimir 518\"],album:\"Matro\\u0161\",albumSlug:\"matros\",year:2023,genre:[\"\"],duration:\"3:38\",trackNumber:1,producers:[],producersNames:[],description:\"Matro\\u0161 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/matros-maniak\",children:\"Matro\\u0161\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2023).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Matroš](/skladby/matros-maniak)** od [Maniak](/raperi/maniak) z alba [Matroš](/alba/matros) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var e in a)o(r,e,{get:a[e],enumerable:!0})},i=(r,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!f.call(r,n)&&n!==e&&o(r,n,{get:()=>a[n],enumerable:!(s=p(a,n))||s.enumerable});return r};var x=(r,a,e)=>(e=r!=null?u(M(r)):{},i(a||!r||!r.__esModule?o(e,\"default\",{value:r,enumerable:!0}):e,r)),g=r=>i(o({},\"__esModule\",{value:!0}),r);var l=k((N,m)=>{m.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>_});var t=x(l()),_={title:\"Matro\\u0161\",slug:\"matros-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"vladimir-518\"],featuresNames:[\"Vladimir 518\"],album:\"Matro\\u0161\",albumSlug:\"matros\",year:2023,genre:[\"hip-hop\"],duration:\"3:38\",trackNumber:1,producers:[],producersNames:[],description:\"Matro\\u0161 \\u2014 skladba od Maniak z alba Matro\\u0161 (2023).\",publishedAt:\"2026-06-06\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/matros-maniak\",children:\"Matro\\u0161\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,t.jsx)(a.a,{href:\"/alba/matros\",children:\"Matro\\u0161\"}),\" (2023).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,t.jsx)(a,{...r,children:(0,t.jsx)(c,{...r})}):c(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/matros-maniak.mdx",
   "_raw": {

@@ -11,22 +11,23 @@
     "Čis T",
     "Fejbs"
   ],
-  "album": "MAMUTI L.P.",
-  "albumSlug": "mamuti-l-p",
+  "album": "2 CHUDÁČCI",
+  "albumSlug": "2-chudacci",
   "year": 2024,
   "genre": [
-    ""
+    "hip-hop",
+    "czech-pop"
   ],
   "duration": "3:16",
-  "trackNumber": 2,
+  "trackNumber": 1,
   "producers": [],
   "producersNames": [],
-  "description": "2 CHUDÁČCI — skladba od Orion.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "2 CHUDÁČCI — skladba od Orion z alba 2 CHUDÁČCI (2024).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[2 CHUDÁČCI](/skladby/2-chudacci-orion)** od [Orion](/raperi/orion) z alba [MAMUTI L.P.](/alba/mamuti-l-p) (2024).\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),C=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!b.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(s=m(r,o))||s.enumerable});return e};var g=(e,r,t)=>(t=e!=null?p(f(e)):{},i(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(a({},\"__esModule\",{value:!0}),e);var u=x((I,c)=>{c.exports=_jsx_runtime});var _={};C(_,{default:()=>d,frontmatter:()=>M});var n=g(u()),M={title:\"2 CHUD\\xC1\\u010CCI\",slug:\"2-chudacci-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"fejbs\"],featuresNames:[\"\\u010Cis T\",\"Fejbs\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[\"\"],duration:\"3:16\",trackNumber:2,producers:[],producersNames:[],description:\"2 CHUD\\xC1\\u010CCI \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/2-chudacci-orion\",children:\"2 CHUD\\xC1\\u010CCI\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/mamuti-l-p\",children:\"MAMUTI L.P.\"}),\" (2024).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(_);})();\n;return Component;"
+    "raw": "\n**[2 CHUDÁČCI](/skladby/2-chudacci-orion)** od [Orion](/raperi/orion) z alba [2 CHUDÁČCI](/alba/2-chudacci) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var C=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var o in r)t(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of C(r))!b.call(e,a)&&a!==o&&t(e,a,{get:()=>r[a],enumerable:!(c=h(r,a))||c.enumerable});return e};var D=(e,r,o)=>(o=e!=null?p(m(e)):{},s(r||!e||!e.__esModule?t(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>s(t({},\"__esModule\",{value:!0}),e);var u=f((U,i)=>{i.exports=_jsx_runtime});var H={};x(H,{default:()=>l,frontmatter:()=>j});var n=D(u()),j={title:\"2 CHUD\\xC1\\u010CCI\",slug:\"2-chudacci-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"fejbs\"],featuresNames:[\"\\u010Cis T\",\"Fejbs\"],album:\"2 CHUD\\xC1\\u010CCI\",albumSlug:\"2-chudacci\",year:2024,genre:[\"hip-hop\",\"czech-pop\"],duration:\"3:16\",trackNumber:1,producers:[],producersNames:[],description:\"2 CHUD\\xC1\\u010CCI \\u2014 skladba od Orion z alba 2 CHUD\\xC1\\u010CCI (2024).\",publishedAt:\"2026-06-06\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/2-chudacci-orion\",children:\"2 CHUD\\xC1\\u010CCI\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/2-chudacci\",children:\"2 CHUD\\xC1\\u010CCI\"}),\" (2024).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return g(H);})();\n;return Component;"
   },
   "_id": "skladby/2-chudacci-orion.mdx",
   "_raw": {

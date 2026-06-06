@@ -9,22 +9,22 @@
   "featuresNames": [
     "Decky"
   ],
-  "album": "karanténa",
-  "albumSlug": "karantena",
+  "album": "KARANTENA PARTY",
+  "albumSlug": "karantena-party",
   "year": 2020,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "27:54",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
-  "description": "KARANTENA PARTY (MIX) — skladba od Konex.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "KARANTENA PARTY (MIX) — skladba od Konex z alba KARANTENA PARTY (2020).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[KARANTENA PARTY (MIX)](/skladby/karantena-party-mix-konex)** (2020).\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var N=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of m(n))!k.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?i(A(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>c(o({},\"__esModule\",{value:!0}),e);var p=N((R,u)=>{u.exports=_jsx_runtime});var h={};f(h,{default:()=>d,frontmatter:()=>b});var t=g(p()),b={title:\"KARANTENA PARTY (MIX)\",slug:\"karantena-party-mix-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[\"\"],duration:\"27:54\",trackNumber:9,producers:[],producersNames:[],description:\"KARANTENA PARTY (MIX) \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function x(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/karantena-party-mix-konex\",children:\"KARANTENA PARTY (MIX)\"})}),\" (2020).\"]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(x,{...e})}):x(e)}return y(h);})();\n;return Component;"
+    "raw": "\n**[KARANTENA PARTY (MIX)](/skladby/karantena-party-mix-konex)** od [Konex](/raperi/konex) z alba [KARANTENA PARTY](/alba/karantena-party) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},A=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!m.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=d(e,t))||s.enumerable});return r};var R=(r,e,n)=>(n=r!=null?u(N(r)):{},A(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),T=r=>A(o({},\"__esModule\",{value:!0}),r);var p=k((K,c)=>{c.exports=_jsx_runtime});var b={};h(b,{default:()=>l,frontmatter:()=>f});var a=R(p()),f={title:\"KARANTENA PARTY (MIX)\",slug:\"karantena-party-mix-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"27:54\",trackNumber:9,producers:[],producersNames:[],description:\"KARANTENA PARTY (MIX) \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/karantena-party-mix-konex\",children:\"KARANTENA PARTY (MIX)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return T(b);})();\n;return Component;"
   },
   "_id": "skladby/karantena-party-mix-konex.mdx",
   "_raw": {

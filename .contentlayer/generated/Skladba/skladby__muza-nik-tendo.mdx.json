@@ -11,22 +11,22 @@
     "Decky",
     "Karlo"
   ],
-  "album": "GOLDKID: ULTIMATE SECTION",
-  "albumSlug": "goldkid-ultimate-section",
+  "album": "GoldKiid",
+  "albumSlug": "goldkiid",
   "year": 2025,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "3:28",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
-  "description": "MŮZA — skladba od Nik Tendo.",
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "description": "MŮZA — skladba od Nik Tendo z alba GoldKiid (2025).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[MŮZA](/skladby/muza-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GOLDKID: ULTIMATE SECTION](/alba/goldkid-ultimate-section) (2025).\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!h.call(n,o)&&o!==r&&a(n,o,{get:()=>e[o],enumerable:!(d=k(e,o))||d.enumerable});return n};var T=(n,e,r)=>(r=n!=null?m(f(n)):{},i(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),b=n=>i(a({},\"__esModule\",{value:!0}),n);var l=g((A,s)=>{s.exports=_jsx_runtime});var N={};x(N,{default:()=>u,frontmatter:()=>M});var t=T(l()),M={title:\"M\\u016EZA\",slug:\"muza-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"karlo\"],featuresNames:[\"Decky\",\"Karlo\"],album:\"GOLDKID: ULTIMATE SECTION\",albumSlug:\"goldkid-ultimate-section\",year:2025,genre:[\"\"],duration:\"3:28\",trackNumber:5,producers:[],producersNames:[],description:\"M\\u016EZA \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/muza-nik-tendo\",children:\"M\\u016EZA\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/goldkid-ultimate-section\",children:\"GOLDKID: ULTIMATE SECTION\"}),\" (2025).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(c,{...n})}):c(n)}return b(N);})();\n;return Component;"
+    "raw": "\n**[MŮZA](/skladby/muza-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GoldKiid](/alba/goldkiid) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),g=(n,e)=>{for(var o in e)a(n,o,{get:e[o],enumerable:!0})},i=(n,e,o,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!f.call(n,t)&&t!==o&&a(n,t,{get:()=>e[t],enumerable:!(d=k(e,t))||d.enumerable});return n};var x=(n,e,o)=>(o=n!=null?p(h(n)):{},i(e||!n||!n.__esModule?a(o,\"default\",{value:n,enumerable:!0}):o,n)),M=n=>i(a({},\"__esModule\",{value:!0}),n);var l=b((y,s)=>{s.exports=_jsx_runtime});var _={};g(_,{default:()=>u,frontmatter:()=>N});var r=x(l()),N={title:\"M\\u016EZA\",slug:\"muza-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"karlo\"],featuresNames:[\"Decky\",\"Karlo\"],album:\"GoldKiid\",albumSlug:\"goldkiid\",year:2025,genre:[\"hip-hop\"],duration:\"3:28\",trackNumber:5,producers:[],producersNames:[],description:\"M\\u016EZA \\u2014 skladba od Nik Tendo z alba GoldKiid (2025).\",publishedAt:\"2026-06-06\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/muza-nik-tendo\",children:\"M\\u016EZA\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/goldkiid\",children:\"GoldKiid\"}),\" (2025).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/muza-nik-tendo.mdx",
   "_raw": {

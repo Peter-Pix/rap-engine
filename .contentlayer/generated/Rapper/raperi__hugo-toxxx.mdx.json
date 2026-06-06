@@ -1,31 +1,13 @@
 {
   "title": "Hugo Toxxx",
   "slug": "hugo-toxxx",
-  "realName": "Jan Daněk",
-  "born": "1982",
-  "active": "1998–současnost",
-  "label": "Hypno 808",
-  "genre": [
-    "hip-hop",
-    "trap",
-    "horrorcore"
-  ],
-  "description": "Hugo Toxxx (Jan Daněk), rapper a producent, zakladatel labelu Hypno 808, působí na české undergroundové scéně od konce 90. let. Objev se na streamovacích platformách.",
+  "genre": [],
+  "description": "Hugo Toxxx — interpret české/slovenské rapové scény.",
   "featured": false,
-  "publishedAt": "2026-05-20T00:00:00.000Z",
-  "relatedRappers": [
-    "james-cole",
-    "vladimir-518",
-    "smack"
-  ],
-  "relatedAlbums": [
-    "toxic-funk",
-    "rok-psa",
-    "1000"
-  ],
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## O rapperovi\n\n**[Hugo Toxxx](/raperi/hugo-toxxx)** je rapper působící na české rapové scéně.\nNa kontě má 4 alba.\n",
-    "code": "var Component=(()=>{var i=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var r in e)t(n,r,{get:e[r],enumerable:!0})},c=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!g.call(n,a)&&a!==r&&t(n,a,{get:()=>e[a],enumerable:!(s=d(e,a))||s.enumerable});return n};var b=(n,e,r)=>(r=n!=null?i(m(n)):{},c(e||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),j=n=>c(t({},\"__esModule\",{value:!0}),n);var l=f((D,p)=>{p.exports=_jsx_runtime});var _={};k(_,{default:()=>u,frontmatter:()=>v});var o=b(l()),v={title:\"Hugo Toxxx\",slug:\"hugo-toxxx\",realName:\"Jan Dan\\u011Bk\",born:\"1982\",active:\"1998\\u2013sou\\u010Dasnost\",label:\"Hypno 808\",genre:[\"hip-hop\",\"trap\",\"horrorcore\"],description:\"Hugo Toxxx (Jan Dan\\u011Bk), rapper a producent, zakladatel labelu Hypno 808, p\\u016Fsob\\xED na \\u010Desk\\xE9 undergroundov\\xE9 sc\\xE9n\\u011B od konce 90. let. Objev se na streamovac\\xEDch platform\\xE1ch.\",featured:!1,publishedAt:\"2026-05-20\",relatedRappers:[\"james-cole\",\"vladimir-518\",\"smack\"],relatedAlbums:[\"toxic-funk\",\"rok-psa\",\"1000\"]};function x(n){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"})}),` je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\nNa kont\\u011B m\\xE1 4 alba.`]})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(x,{...n})}):x(n)}return j(_);})();\n;return Component;"
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},c=(t,e,o,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of d(e))!g.call(t,r)&&r!==o&&s(t,r,{get:()=>e[r],enumerable:!(x=p(e,r))||x.enumerable});return t};var j=(t,e,o)=>(o=t!=null?l(h(t)):{},c(e||!t||!t.__esModule?s(o,\"default\",{value:t,enumerable:!0}):o,t)),M=t=>c(s({},\"__esModule\",{value:!0}),t);var u=_((y,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>a,frontmatter:()=>b});var n=j(u()),b={title:\"Hugo Toxxx\",slug:\"hugo-toxxx\",genre:[],description:\"Hugo Toxxx \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function a(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return M(k);})();\n;return Component;"
   },
   "_id": "raperi/hugo-toxxx.mdx",
   "_raw": {
