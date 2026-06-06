@@ -3,11 +3,6 @@
   "slug": "grappabass-konex",
   "rapper": "Konex",
   "rapperSlug": "konex",
-  "features": [
-    "decky",
-    "karlo",
-    "nik-tendo"
-  ],
   "featuresNames": [
     "Decky",
     "Karlo",
@@ -28,7 +23,7 @@
   "explicit": false,
   "body": {
     "raw": "\n**[GRAPPABASS](/skladby/grappabass-konex)** od [Konex](/raperi/konex) z alba [KARANTENA PARTY](/alba/karantena-party) (2020).\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var m=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},p=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!h.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=u(e,t))||s.enumerable});return r};var f=(r,e,n)=>(n=r!=null?i(k(r)):{},p(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),N=r=>p(o({},\"__esModule\",{value:!0}),r);var c=m((S,A)=>{A.exports=_jsx_runtime});var P={};b(P,{default:()=>d,frontmatter:()=>g});var a=f(c()),g={title:\"GRAPPABASS\",slug:\"grappabass-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"karlo\",\"nik-tendo\"],featuresNames:[\"Decky\",\"Karlo\",\"Nik Tendo\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"3:32\",trackNumber:4,producers:[],producersNames:[],description:\"GRAPPABASS \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/grappabass-konex\",children:\"GRAPPABASS\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return N(P);})();\n;return Component;"
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},p=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!m.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=u(e,t))||s.enumerable});return r};var N=(r,e,n)=>(n=r!=null?i(h(r)):{},p(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),f=r=>p(o({},\"__esModule\",{value:!0}),r);var c=b((S,A)=>{A.exports=_jsx_runtime});var P={};k(P,{default:()=>d,frontmatter:()=>g});var a=N(c()),g={title:\"GRAPPABASS\",slug:\"grappabass-konex\",rapper:\"Konex\",rapperSlug:\"konex\",featuresNames:[\"Decky\",\"Karlo\",\"Nik Tendo\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"3:32\",trackNumber:4,producers:[],producersNames:[],description:\"GRAPPABASS \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/grappabass-konex\",children:\"GRAPPABASS\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return f(P);})();\n;return Component;"
   },
   "_id": "skladby/grappabass-konex.mdx",
   "_raw": {

@@ -3,9 +3,6 @@
   "slug": "a-c-a-b-konex",
   "rapper": "Konex",
   "rapperSlug": "konex",
-  "features": [
-    "decky"
-  ],
   "featuresNames": [
     "Decky"
   ],
@@ -24,7 +21,7 @@
   "explicit": false,
   "body": {
     "raw": "\n**[A.C.A.B.](/skladby/a-c-a-b-konex)** od [Konex](/raperi/konex) z alba [KARANTENA PARTY](/alba/karantena-party) (2020).\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!m.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=i(e,t))||s.enumerable});return r};var f=(r,e,n)=>(n=r!=null?d(h(r)):{},c(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),N=r=>c(o({},\"__esModule\",{value:!0}),r);var p=b((R,l)=>{l.exports=_jsx_runtime});var y={};k(y,{default:()=>A,frontmatter:()=>g});var a=f(p()),g={title:\"A.C.A.B.\",slug:\"a-c-a-b-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"4:22\",trackNumber:1,producers:[],producersNames:[],description:\"A.C.A.B. \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/a-c-a-b-konex\",children:\"A.C.A.B.\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function A(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return N(y);})();\n;return Component;"
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!m.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=i(e,t))||s.enumerable});return r};var f=(r,e,n)=>(n=r!=null?d(h(r)):{},c(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),N=r=>c(o({},\"__esModule\",{value:!0}),r);var p=b((R,l)=>{l.exports=_jsx_runtime});var y={};k(y,{default:()=>u,frontmatter:()=>g});var a=f(p()),g={title:\"A.C.A.B.\",slug:\"a-c-a-b-konex\",rapper:\"Konex\",rapperSlug:\"konex\",featuresNames:[\"Decky\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"4:22\",trackNumber:1,producers:[],producersNames:[],description:\"A.C.A.B. \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function A(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/a-c-a-b-konex\",children:\"A.C.A.B.\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(A,{...r})}):A(r)}return N(y);})();\n;return Component;"
   },
   "_id": "skladby/a-c-a-b-konex.mdx",
   "_raw": {

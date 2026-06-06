@@ -3,10 +3,6 @@
   "slug": "gentleman-nik-tendo",
   "rapper": "Nik Tendo",
   "rapperSlug": "nik-tendo",
-  "features": [
-    "decky",
-    "sara-rikas"
-  ],
   "featuresNames": [
     "Decky",
     "Sara Rikas"
@@ -26,7 +22,7 @@
   "explicit": false,
   "body": {
     "raw": "\n**[GENTLEMAN](/skladby/gentleman-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GoldKiid](/alba/goldkiid) (2025).\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},d=(n,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!N.call(n,a)&&a!==t&&o(n,a,{get:()=>e[a],enumerable:!(i=k(e,a))||i.enumerable});return n};var b=(n,e,t)=>(t=n!=null?p(h(n)):{},d(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),x=n=>d(o({},\"__esModule\",{value:!0}),n);var l=g((T,s)=>{s.exports=_jsx_runtime});var G={};f(G,{default:()=>u,frontmatter:()=>E});var r=b(l()),E={title:\"GENTLEMAN\",slug:\"gentleman-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"sara-rikas\"],featuresNames:[\"Decky\",\"Sara Rikas\"],album:\"GoldKiid\",albumSlug:\"goldkiid\",year:2025,genre:[\"hip-hop\"],duration:\"2:50\",trackNumber:4,producers:[],producersNames:[],description:\"GENTLEMAN \\u2014 skladba od Nik Tendo z alba GoldKiid (2025).\",publishedAt:\"2026-06-06\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/gentleman-nik-tendo\",children:\"GENTLEMAN\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/goldkiid\",children:\"GoldKiid\"}),\" (2025).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return x(G);})();\n;return Component;"
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var t in e)a(n,t,{get:e[t],enumerable:!0})},d=(n,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!N.call(n,o)&&o!==t&&a(n,o,{get:()=>e[o],enumerable:!(i=k(e,o))||i.enumerable});return n};var f=(n,e,t)=>(t=n!=null?p(h(n)):{},d(e||!n||!n.__esModule?a(t,\"default\",{value:n,enumerable:!0}):t,n)),x=n=>d(a({},\"__esModule\",{value:!0}),n);var l=g((T,s)=>{s.exports=_jsx_runtime});var G={};b(G,{default:()=>u,frontmatter:()=>E});var r=f(l()),E={title:\"GENTLEMAN\",slug:\"gentleman-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",featuresNames:[\"Decky\",\"Sara Rikas\"],album:\"GoldKiid\",albumSlug:\"goldkiid\",year:2025,genre:[\"hip-hop\"],duration:\"2:50\",trackNumber:4,producers:[],producersNames:[],description:\"GENTLEMAN \\u2014 skladba od Nik Tendo z alba GoldKiid (2025).\",publishedAt:\"2026-06-06\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/gentleman-nik-tendo\",children:\"GENTLEMAN\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/goldkiid\",children:\"GoldKiid\"}),\" (2025).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return x(G);})();\n;return Component;"
   },
   "_id": "skladby/gentleman-nik-tendo.mdx",
   "_raw": {

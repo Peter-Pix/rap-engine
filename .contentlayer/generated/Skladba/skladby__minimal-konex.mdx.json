@@ -3,10 +3,6 @@
   "slug": "minimal-konex",
   "rapper": "Konex",
   "rapperSlug": "konex",
-  "features": [
-    "decky",
-    "nik-tendo"
-  ],
   "featuresNames": [
     "Decky",
     "Nik Tendo"
@@ -26,7 +22,7 @@
   "explicit": false,
   "body": {
     "raw": "\n**[MINIMAL](/skladby/minimal-konex)** od [Konex](/raperi/konex) z alba [KARANTENA PARTY](/alba/karantena-party) (2020).\n",
-    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var N=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),h=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},i=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!k.call(n,t)&&t!==a&&o(n,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return n};var f=(n,e,a)=>(a=n!=null?u(A(n)):{},i(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),b=n=>i(o({},\"__esModule\",{value:!0}),n);var l=N((T,c)=>{c.exports=_jsx_runtime});var g={};h(g,{default:()=>p,frontmatter:()=>M});var r=f(l()),M={title:\"MINIMAL\",slug:\"minimal-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"nik-tendo\"],featuresNames:[\"Decky\",\"Nik Tendo\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"3:44\",trackNumber:8,producers:[],producersNames:[],description:\"MINIMAL \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/minimal-konex\",children:\"MINIMAL\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return b(g);})();\n;return Component;"
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},i=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!N.call(n,t)&&t!==a&&o(n,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return n};var b=(n,e,a)=>(a=n!=null?u(A(n)):{},i(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),f=n=>i(o({},\"__esModule\",{value:!0}),n);var c=h((y,l)=>{l.exports=_jsx_runtime});var g={};k(g,{default:()=>d,frontmatter:()=>M});var r=b(c()),M={title:\"MINIMAL\",slug:\"minimal-konex\",rapper:\"Konex\",rapperSlug:\"konex\",featuresNames:[\"Decky\",\"Nik Tendo\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"3:44\",trackNumber:8,producers:[],producersNames:[],description:\"MINIMAL \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function p(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/minimal-konex\",children:\"MINIMAL\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(p,{...n})}):p(n)}return f(g);})();\n;return Component;"
   },
   "_id": "skladby/minimal-konex.mdx",
   "_raw": {

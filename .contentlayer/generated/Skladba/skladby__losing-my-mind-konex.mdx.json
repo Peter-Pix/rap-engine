@@ -3,10 +3,6 @@
   "slug": "losing-my-mind-konex",
   "rapper": "Konex",
   "rapperSlug": "konex",
-  "features": [
-    "decky",
-    "hasan"
-  ],
   "featuresNames": [
     "Decky",
     "Hasan"
@@ -26,7 +22,7 @@
   "explicit": false,
   "body": {
     "raw": "\n**[LOSING MY MIND](/skladby/losing-my-mind-konex)** od [Konex](/raperi/konex) z alba [KARANTENA PARTY](/alba/karantena-party) (2020).\n",
-    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var A=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},c=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!h.call(n,t)&&t!==a&&o(n,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return n};var f=(n,e,a)=>(a=n!=null?u(N(n)):{},c(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),b=n=>c(o({},\"__esModule\",{value:!0}),n);var l=A((D,i)=>{i.exports=_jsx_runtime});var y={};k(y,{default:()=>p,frontmatter:()=>g});var r=f(l()),g={title:\"LOSING MY MIND\",slug:\"losing-my-mind-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"hasan\"],featuresNames:[\"Decky\",\"Hasan\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"3:26\",trackNumber:5,producers:[],producersNames:[],description:\"LOSING MY MIND \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/losing-my-mind-konex\",children:\"LOSING MY MIND\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return b(y);})();\n;return Component;"
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},i=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!A.call(n,t)&&t!==a&&o(n,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return n};var b=(n,e,a)=>(a=n!=null?u(N(n)):{},i(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),f=n=>i(o({},\"__esModule\",{value:!0}),n);var c=h((D,l)=>{l.exports=_jsx_runtime});var M={};k(M,{default:()=>p,frontmatter:()=>g});var r=b(c()),g={title:\"LOSING MY MIND\",slug:\"losing-my-mind-konex\",rapper:\"Konex\",rapperSlug:\"konex\",featuresNames:[\"Decky\",\"Hasan\"],album:\"KARANTENA PARTY\",albumSlug:\"karantena-party\",year:2020,genre:[\"hip-hop\"],duration:\"3:26\",trackNumber:5,producers:[],producersNames:[],description:\"LOSING MY MIND \\u2014 skladba od Konex z alba KARANTENA PARTY (2020).\",publishedAt:\"2026-06-06\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/losing-my-mind-konex\",children:\"LOSING MY MIND\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/konex\",children:\"Konex\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/karantena-party\",children:\"KARANTENA PARTY\"}),\" (2020).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return f(M);})();\n;return Component;"
   },
   "_id": "skladby/losing-my-mind-konex.mdx",
   "_raw": {
