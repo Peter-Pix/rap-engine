@@ -1,4 +1,5 @@
 import type { Clanek } from 'contentlayer/generated'
+import { pickDailyOne, pickDaily, todayStr } from './daily-pick'
 
 // ═══════════════════════════════════════════════════════════════
 // Magazine data helpers
@@ -37,22 +38,23 @@ export function toListItem(c: Clanek): ArticleListItem {
   }
 }
 
-/** Hlavní featured článek pro hero. Pokud žádný `featured: true`, vezme nejnovější. */
+/**
+ * Hlavní featured článek pro hero.
+ * 1x denně se mění – náhodný výběr ze všech článků.
+ */
 export function getFeaturedArticle(articles: Clanek[]): ArticleListItem | null {
   if (!articles?.length) return null
-  const featured = articles.filter((a) => a.featured)
-  const sorted = (featured.length ? featured : articles).slice().sort(byNewest)
-  return sorted[0] ? toListItem(sorted[0]) : null
+  return pickDailyOne(articles.map(toListItem), todayStr())
 }
 
-/** Feed = vše ostatní, řazené od nejnovějšího. Vynechává hero článek. */
+/**
+ * Feed = max 6 náhodných článků denně.
+ * Vynechává hero článek.
+ */
 export function getFeedArticles(articles: Clanek[], excludeSlug?: string): ArticleListItem[] {
   if (!articles?.length) return []
-  return articles
-    .filter((a) => a.slug !== excludeSlug)
-    .slice()
-    .sort(byNewest)
-    .map(toListItem)
+  const pool = excludeSlug ? articles.filter((a) => a.slug !== excludeSlug) : articles
+  return pickDaily(pool.map(toListItem), 6, todayStr())
 }
 
 /**

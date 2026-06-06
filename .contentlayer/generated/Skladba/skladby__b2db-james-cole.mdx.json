@@ -8,16 +8,19 @@
   "album": "ALIEN",
   "albumSlug": "alien",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:28",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "B2DB — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var l=f((N,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>d,frontmatter:()=>B});var n=_(l()),B={title:\"B2DB\",slug:\"b2db-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[],duration:\"3:28\",trackNumber:6,producers:[],producersNames:[],description:\"B2DB \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[B2DB](/skladby/b2db-james-cole)** od [James Cole](/raperi/james-cole) z alba [ALIEN](/alba/alien) (2022).\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!h.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return r};var g=(r,e,t)=>(t=r!=null?i(f(r)):{},l(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),B=r=>l(s({},\"__esModule\",{value:!0}),r);var d=j((N,c)=>{c.exports=_jsx_runtime});var C={};x(C,{default:()=>u,frontmatter:()=>_});var a=g(d()),_={title:\"B2DB\",slug:\"b2db-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[\"\"],duration:\"3:28\",trackNumber:6,producers:[],producersNames:[],description:\"B2DB \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/b2db-james-cole\",children:\"B2DB\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/alien\",children:\"ALIEN\"}),\" (2022).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return B(C);})();\n;return Component;"
   },
   "_id": "skladby/b2db-james-cole.mdx",
   "_raw": {

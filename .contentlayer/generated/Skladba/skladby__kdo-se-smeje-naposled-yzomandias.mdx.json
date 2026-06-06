@@ -14,16 +14,19 @@
   "album": "Pod Vlivem",
   "albumSlug": "pod-vlivem",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:35",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Kdo Se Směje Naposled — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},d=(e,n,o,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of j(n))!h.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(a=u(n,r))||a.enumerable});return e};var S=(e,n,o)=>(o=e!=null?l(x(e)):{},d(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>d(s({},\"__esModule\",{value:!0}),e);var i=f((y,m)=>{m.exports=_jsx_runtime});var g={};k(g,{default:()=>p,frontmatter:()=>b});var t=S(i()),b={title:\"Kdo Se Sm\\u011Bje Naposled\",slug:\"kdo-se-smeje-naposled-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\",\"jickson\"],featuresNames:[\"Jckpt\",\"Jickson\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[],duration:\"4:35\",trackNumber:7,producers:[],producersNames:[],description:\"Kdo Se Sm\\u011Bje Naposled \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(g);})();\n;return Component;"
+    "raw": "\n**[Kdo Se Směje Naposled](/skladby/kdo-se-smeje-naposled-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Pod Vlivem](/alba/pod-vlivem) (2021).\n",
+    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var s in e)r(a,s,{get:e[s],enumerable:!0})},t=(a,e,s,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of j(e))!h.call(a,n)&&n!==s&&r(a,n,{get:()=>e[n],enumerable:!(d=u(e,n))||d.enumerable});return a};var b=(a,e,s)=>(s=a!=null?c(f(a)):{},t(e||!a||!a.__esModule?r(s,\"default\",{value:a,enumerable:!0}):s,a)),z=a=>t(r({},\"__esModule\",{value:!0}),a);var m=k((v,i)=>{i.exports=_jsx_runtime});var g={};x(g,{default:()=>p,frontmatter:()=>S});var o=b(m()),S={title:\"Kdo Se Sm\\u011Bje Naposled\",slug:\"kdo-se-smeje-naposled-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\",\"jickson\"],featuresNames:[\"Jckpt\",\"Jickson\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[\"\"],duration:\"4:35\",trackNumber:7,producers:[],producersNames:[],description:\"Kdo Se Sm\\u011Bje Naposled \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/kdo-se-smeje-naposled-yzomandias\",children:\"Kdo Se Sm\\u011Bje Naposled\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/pod-vlivem\",children:\"Pod Vlivem\"}),\" (2021).\"]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(l,{...a})}):l(a)}return z(g);})();\n;return Component;"
   },
   "_id": "skladby/kdo-se-smeje-naposled-yzomandias.mdx",
   "_raw": {

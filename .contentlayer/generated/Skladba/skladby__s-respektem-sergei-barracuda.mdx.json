@@ -14,16 +14,19 @@
   "album": "Kila Zdarma (Mixtape)",
   "albumSlug": "kila-zdarma-mixtape",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:10",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "S Respektem — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!h.call(e,n)&&n!==t&&s(e,n,{get:()=>r[n],enumerable:!(o=l(r,n))||o.enumerable});return e};var S=(e,r,t)=>(t=e!=null?p(g(e)):{},i(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var c=b((N,m)=>{m.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>k});var a=S(c()),k={title:\"S Respektem\",slug:\"s-respektem-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"hard-rico\",\"palermo\"],featuresNames:[\"Hard Rico\",\"Palermo\"],album:\"Kila Zdarma (Mixtape)\",albumSlug:\"kila-zdarma-mixtape\",year:2024,genre:[],duration:\"3:10\",trackNumber:9,producers:[],producersNames:[],description:\"S Respektem \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[S Respektem](/skladby/s-respektem-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Kila Zdarma (Mixtape)](/alba/kila-zdarma-mixtape) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},d=(r,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of g(e))!b.call(r,s)&&s!==t&&i(r,s,{get:()=>e[s],enumerable:!(n=l(e,s))||n.enumerable});return r};var k=(r,e,t)=>(t=r!=null?p(x(r)):{},d(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),S=r=>d(i({},\"__esModule\",{value:!0}),r);var c=h((R,o)=>{o.exports=_jsx_runtime});var j={};f(j,{default:()=>m,frontmatter:()=>_});var a=k(c()),_={title:\"S Respektem\",slug:\"s-respektem-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"hard-rico\",\"palermo\"],featuresNames:[\"Hard Rico\",\"Palermo\"],album:\"Kila Zdarma (Mixtape)\",albumSlug:\"kila-zdarma-mixtape\",year:2024,genre:[\"\"],duration:\"3:10\",trackNumber:9,producers:[],producersNames:[],description:\"S Respektem \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/s-respektem-sergei-barracuda\",children:\"S Respektem\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/kila-zdarma-mixtape\",children:\"Kila Zdarma (Mixtape)\"}),\" (2024).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return S(j);})();\n;return Component;"
   },
   "_id": "skladby/s-respektem-sergei-barracuda.mdx",
   "_raw": {

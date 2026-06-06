@@ -8,16 +8,19 @@
   "album": "I Love",
   "albumSlug": "i-love",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:28",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "I Love (Alex M Italy Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var x=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?x(h(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>l(a({},\"__esModule\",{value:!0}),e);var i=j((M,m)=>{m.exports=_jsx_runtime});var y={};_(y,{default:()=>u,frontmatter:()=>v});var r=b(i()),v={title:\"I Love (Alex M Italy Remix)\",slug:\"i-love-alex-m-italy-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"I Love\",albumSlug:\"i-love\",year:2021,genre:[],duration:\"3:28\",trackNumber:4,producers:[],producersNames:[],description:\"I Love (Alex M Italy Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[I Love (Alex M Italy Remix)](/skladby/i-love-alex-m-italy-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [I Love](/alba/i-love) (2021).\n",
+    "code": "var Component=(()=>{var x=Object.create;var l=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),v=(a,e)=>{for(var o in e)l(a,o,{get:e[o],enumerable:!0})},n=(a,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!h.call(a,t)&&t!==o&&l(a,t,{get:()=>e[t],enumerable:!(s=d(e,t))||s.enumerable});return a};var b=(a,e,o)=>(o=a!=null?x(f(a)):{},n(e||!a||!a.__esModule?l(o,\"default\",{value:a,enumerable:!0}):o,a)),y=a=>n(l({},\"__esModule\",{value:!0}),a);var m=j((M,i)=>{i.exports=_jsx_runtime});var g={};v(g,{default:()=>u,frontmatter:()=>I});var r=b(m()),I={title:\"I Love (Alex M Italy Remix)\",slug:\"i-love-alex-m-italy-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"I Love\",albumSlug:\"i-love\",year:2021,genre:[\"\"],duration:\"3:28\",trackNumber:4,producers:[],producersNames:[],description:\"I Love (Alex M Italy Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/i-love-alex-m-italy-remix-james-cole\",children:\"I Love (Alex M Italy Remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/i-love\",children:\"I Love\"}),\" (2021).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(c,{...a})}):c(a)}return y(g);})();\n;return Component;"
   },
   "_id": "skladby/i-love-alex-m-italy-remix-james-cole.mdx",
   "_raw": {

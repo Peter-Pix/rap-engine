@@ -8,16 +8,19 @@
   "album": "713",
   "albumSlug": "713",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "James Brown — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!b.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return e};var _=(e,r,a)=>(a=e!=null?l(x(e)):{},u(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var m=h((M,c)=>{c.exports=_jsx_runtime});var w={};f(w,{default:()=>i,frontmatter:()=>S});var t=_(m()),S={title:\"James Brown\",slug:\"james-brown-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"713\",albumSlug:\"713\",year:2017,genre:[],duration:\"3:08\",trackNumber:10,producers:[],producersNames:[],description:\"James Brown \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(w);})();\n;return Component;"
+    "raw": "\n**[James Brown](/skladby/james-brown-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [713](/alba/713) (2017).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var n in r)t(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of b(r))!f.call(e,s)&&s!==n&&t(e,s,{get:()=>r[s],enumerable:!(o=p(r,s))||o.enumerable});return e};var j=(e,r,n)=>(n=e!=null?m(g(e)):{},c(r||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),w=e=>c(t({},\"__esModule\",{value:!0}),e);var d=h((k,u)=>{u.exports=_jsx_runtime});var _={};x(_,{default:()=>l,frontmatter:()=>B});var a=j(d()),B={title:\"James Brown\",slug:\"james-brown-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"713\",albumSlug:\"713\",year:2017,genre:[\"\"],duration:\"3:08\",trackNumber:10,producers:[],producersNames:[],description:\"James Brown \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/james-brown-sergei-barracuda\",children:\"James Brown\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/713\",children:\"713\"}),\" (2017).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return w(_);})();\n;return Component;"
   },
   "_id": "skladby/james-brown-sergei-barracuda.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Fight",
   "albumSlug": "fight",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:31",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Fight — skladba od Palermo.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(g(e)):{},m(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(a({},\"__esModule\",{value:!0}),e);var u=f((N,i)=>{i.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>F});var r=b(u()),F={title:\"Fight\",slug:\"fight-palermo\",rapper:\"Palermo\",rapperSlug:\"palermo\",features:[\"ektor\"],featuresNames:[\"Ektor\"],album:\"Fight\",albumSlug:\"fight\",year:2024,genre:[],duration:\"2:31\",trackNumber:1,producers:[],producersNames:[],description:\"Fight \\u2014 skladba od Palermo.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Fight](/skladby/fight-palermo)** od [Palermo](/raperi/palermo) z alba [Fight](/alba/fight) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!f.call(r,o)&&o!==a&&n(r,o,{get:()=>e[o],enumerable:!(s=u(e,o))||s.enumerable});return r};var _=(r,e,a)=>(a=r!=null?p(g(r)):{},i(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),j=r=>i(n({},\"__esModule\",{value:!0}),r);var c=x((M,l)=>{l.exports=_jsx_runtime});var F={};b(F,{default:()=>m,frontmatter:()=>k});var t=_(c()),k={title:\"Fight\",slug:\"fight-palermo\",rapper:\"Palermo\",rapperSlug:\"palermo\",features:[\"ektor\"],featuresNames:[\"Ektor\"],album:\"Fight\",albumSlug:\"fight\",year:2024,genre:[\"\"],duration:\"2:31\",trackNumber:1,producers:[],producersNames:[],description:\"Fight \\u2014 skladba od Palermo.\",publishedAt:\"2026-05-31\"};function h(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/fight-palermo\",children:\"Fight\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/palermo\",children:\"Palermo\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/fight\",children:\"Fight\"}),\" (2024).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(h,{...r})}):h(r)}return j(F);})();\n;return Component;"
   },
   "_id": "skladby/fight-palermo.mdx",
   "_raw": {

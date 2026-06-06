@@ -8,16 +8,19 @@
   "album": "Genocide",
   "albumSlug": "genocide",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:46",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Genocide — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var c=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)c(e,r,{get:n[r],enumerable:!0})},a=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!g.call(e,o)&&o!==r&&c(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?l(h(e)):{},a(n||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>a(c({},\"__esModule\",{value:!0}),e);var i=f((G,d)=>{d.exports=_jsx_runtime});var j={};_(j,{default:()=>m,frontmatter:()=>y});var t=b(i()),y={title:\"Genocide\",slug:\"genocide-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[],featuresNames:[],album:\"Genocide\",albumSlug:\"genocide\",year:2021,genre:[],duration:\"1:46\",trackNumber:1,producers:[],producersNames:[],description:\"Genocide \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Genocide](/skladby/genocide-decky)** od [Decky](/raperi/decky) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)c(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!y.call(r,o)&&o!==n&&c(r,o,{get:()=>e[o],enumerable:!(d=m(e,o))||d.enumerable});return r};var h=(r,e,n)=>(n=r!=null?p(k(r)):{},s(e||!r||!r.__esModule?c(n,\"default\",{value:r,enumerable:!0}):n,r)),b=r=>s(c({},\"__esModule\",{value:!0}),r);var i=f((G,a)=>{a.exports=_jsx_runtime});var j={};x(j,{default:()=>l,frontmatter:()=>_});var t=h(i()),_={title:\"Genocide\",slug:\"genocide-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[],featuresNames:[],album:\"Genocide\",albumSlug:\"genocide\",year:2021,genre:[\"\"],duration:\"1:46\",trackNumber:1,producers:[],producersNames:[],description:\"Genocide \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/genocide-decky\",children:\"Genocide\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" (2021).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(u,{...r})}):u(r)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/genocide-decky.mdx",
   "_raw": {

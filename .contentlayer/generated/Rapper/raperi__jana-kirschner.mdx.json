@@ -1,13 +1,15 @@
 {
   "title": "Jana Kirschner",
   "slug": "jana-kirschner",
-  "genre": [],
-  "description": "Jana Kirschner — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Jana Kirschner — nezávislý interpret rapové scény s ostrým flow a autentickým přístupem k textům. Objevuj jeho tvorbu na streamovacích platformách.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var j=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of u(e))!_.call(n,s)&&s!==r&&o(n,s,{get:()=>e[s],enumerable:!(c=d(e,s))||c.enumerable});return n};var g=(n,e,r)=>(r=n!=null?p(x(n)):{},i(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),k=n=>i(o({},\"__esModule\",{value:!0}),n);var h=j((y,a)=>{a.exports=_jsx_runtime});var b={};f(b,{default:()=>l,frontmatter:()=>M});var t=g(h()),M={title:\"Jana Kirschner\",slug:\"jana-kirschner\",genre:[],description:\"Jana Kirschner \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(m,{...n})}):m(n)}return k(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Jana Kirschner](/raperi/jana-kirschner)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(r,n)=>()=>(n||r((n={exports:{}}).exports,n),n.exports),g=(r,n)=>{for(var t in n)s(r,t,{get:n[t],enumerable:!0})},c=(r,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of j(n))!x.call(r,a)&&a!==t&&s(r,a,{get:()=>n[a],enumerable:!(o=u(n,a))||o.enumerable});return r};var v=(r,n,t)=>(t=r!=null?l(d(r)):{},c(n||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>c(s({},\"__esModule\",{value:!0}),r);var p=f((K,i)=>{i.exports=_jsx_runtime});var b={};g(b,{default:()=>m,frontmatter:()=>k});var e=v(p()),k={title:\"Jana Kirschner\",slug:\"jana-kirschner\",genre:[\"\"],description:\"Jana Kirschner \\u2014 nez\\xE1visl\\xFD interpret rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a autentick\\xFDm p\\u0159\\xEDstupem k text\\u016Fm. Objevuj jeho tvorbu na streamovac\\xEDch platform\\xE1ch.\",publishedAt:\"2026-05-31\"};function h(r){let n={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{children:\"O rapperovi\"}),`\n`,(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:(0,e.jsx)(n.a,{href:\"/raperi/jana-kirschner\",children:\"Jana Kirschner\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function m(r={}){let{wrapper:n}=r.components||{};return n?(0,e.jsx)(n,{...r,children:(0,e.jsx)(h,{...r})}):h(r)}return _(b);})();\n;return Component;"
   },
   "_id": "raperi/jana-kirschner.mdx",
   "_raw": {

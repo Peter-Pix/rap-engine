@@ -12,16 +12,19 @@
   "album": "J. EDEN E-GEN (mixed by NobodyListen)",
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:02",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "GOYARD BAG — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),h=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},d=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!y.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var f=(e,n,o)=>(o=e!=null?l(x(e)):{},d(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),N=e=>d(a({},\"__esModule\",{value:!0}),e);var m=g((D,i)=>{i.exports=_jsx_runtime});var j={};h(j,{default:()=>c,frontmatter:()=>_});var t=f(m()),_={title:\"GOYARD BAG\",slug:\"goyard-bag-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[],duration:\"2:02\",trackNumber:9,producers:[],producersNames:[],description:\"GOYARD BAG \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return N(j);})();\n;return Component;"
+    "raw": "\n**[GOYARD BAG](/skladby/goyard-bag-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var o in e)t(n,o,{get:e[o],enumerable:!0})},d=(n,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of y(e))!g.call(n,r)&&r!==o&&t(n,r,{get:()=>e[r],enumerable:!(s=u(e,r))||s.enumerable});return n};var h=(n,e,o)=>(o=n!=null?c(p(n)):{},d(e||!n||!n.__esModule?t(o,\"default\",{value:n,enumerable:!0}):o,n)),N=n=>d(t({},\"__esModule\",{value:!0}),n);var m=x((j,i)=>{i.exports=_jsx_runtime});var E={};f(E,{default:()=>b,frontmatter:()=>z});var a=h(m()),z={title:\"GOYARD BAG\",slug:\"goyard-bag-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"2:02\",trackNumber:9,producers:[],producersNames:[],description:\"GOYARD BAG \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/goyard-bag-yzomandias\",children:\"GOYARD BAG\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function b(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return N(E);})();\n;return Component;"
   },
   "_id": "skladby/goyard-bag-yzomandias.mdx",
   "_raw": {

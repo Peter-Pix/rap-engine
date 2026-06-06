@@ -8,16 +8,19 @@
   "album": "Ghost Noise",
   "albumSlug": "ghost-noise",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:02",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Ghost Noise — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var s in t)r(e,s,{get:t[s],enumerable:!0})},m=(e,t,s,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!g.call(e,n)&&n!==s&&r(e,n,{get:()=>t[n],enumerable:!(a=p(t,n))||a.enumerable});return e};var _=(e,t,s)=>(s=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?r(s,\"default\",{value:e,enumerable:!0}):s,e)),b=e=>m(r({},\"__esModule\",{value:!0}),e);var i=f((M,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>l,frontmatter:()=>N});var o=_(i()),N={title:\"Ghost Noise\",slug:\"ghost-noise-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Ghost Noise\",albumSlug:\"ghost-noise\",year:2026,genre:[],duration:\"3:02\",trackNumber:1,producers:[],producersNames:[],description:\"Ghost Noise \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return b(C);})();\n;return Component;"
+    "raw": "\n**[Ghost Noise](/skladby/ghost-noise-james-cole)** od [James Cole](/raperi/james-cole) (2026).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(s,e)=>()=>(e||s((e={exports:{}}).exports,e),e.exports),x=(s,e)=>{for(var o in e)n(s,o,{get:e[o],enumerable:!0})},c=(s,e,o,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!f.call(s,r)&&r!==o&&n(s,r,{get:()=>e[r],enumerable:!(a=h(e,r))||a.enumerable});return s};var N=(s,e,o)=>(o=s!=null?d(g(s)):{},c(e||!s||!s.__esModule?n(o,\"default\",{value:s,enumerable:!0}):o,s)),b=s=>c(n({},\"__esModule\",{value:!0}),s);var l=j((k,i)=>{i.exports=_jsx_runtime});var C={};x(C,{default:()=>u,frontmatter:()=>_});var t=N(l()),_={title:\"Ghost Noise\",slug:\"ghost-noise-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Ghost Noise\",albumSlug:\"ghost-noise\",year:2026,genre:[\"\"],duration:\"3:02\",trackNumber:1,producers:[],producersNames:[],description:\"Ghost Noise \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(s){let e={a:\"a\",p:\"p\",strong:\"strong\",...s.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/ghost-noise-james-cole\",children:\"Ghost Noise\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" (2026).\"]})}function u(s={}){let{wrapper:e}=s.components||{};return e?(0,t.jsx)(e,{...s,children:(0,t.jsx)(m,{...s})}):m(s)}return b(C);})();\n;return Component;"
   },
   "_id": "skladby/ghost-noise-james-cole.mdx",
   "_raw": {

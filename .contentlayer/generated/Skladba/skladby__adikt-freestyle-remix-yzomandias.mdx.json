@@ -12,16 +12,19 @@
   "album": "Prozyum",
   "albumSlug": "prozyum",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:19",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Adikt Freestyle Remix — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!y.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var u=f((F,m)=>{m.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>z});var r=_(u()),z={title:\"Adikt Freestyle Remix\",slug:\"adikt-freestyle-remix-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"luca-brassi10x\"],featuresNames:[\"Luca Brassi10x\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[],duration:\"3:19\",trackNumber:4,producers:[],producersNames:[],description:\"Adikt Freestyle Remix \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Adikt Freestyle Remix](/skladby/adikt-freestyle-remix-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var z=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!f.call(r,s)&&s!==t&&n(r,s,{get:()=>e[s],enumerable:!(o=p(e,s))||o.enumerable});return r};var b=(r,e,t)=>(t=r!=null?c(y(r)):{},i(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),k=r=>i(n({},\"__esModule\",{value:!0}),r);var m=z((A,d)=>{d.exports=_jsx_runtime});var _={};h(_,{default:()=>l,frontmatter:()=>g});var a=b(m()),g={title:\"Adikt Freestyle Remix\",slug:\"adikt-freestyle-remix-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"luca-brassi10x\"],featuresNames:[\"Luca Brassi10x\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[\"\"],duration:\"3:19\",trackNumber:4,producers:[],producersNames:[],description:\"Adikt Freestyle Remix \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/adikt-freestyle-remix-yzomandias\",children:\"Adikt Freestyle Remix\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2020).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/adikt-freestyle-remix-yzomandias.mdx",
   "_raw": {

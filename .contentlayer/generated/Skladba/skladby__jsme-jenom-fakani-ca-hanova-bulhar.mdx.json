@@ -8,16 +8,19 @@
   "album": "rap disco revoluce",
   "albumSlug": "rap-disco-revoluce",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:28",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Jsme jenom fakani — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),A=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},c=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!x.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var b=(e,n,a)=>(a=e!=null?d(f(e)):{},c(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var m=j((v,u)=>{u.exports=_jsx_runtime});var k={};A(k,{default:()=>l,frontmatter:()=>g});var r=b(m()),g={title:\"Jsme jenom fakani\",slug:\"jsme-jenom-fakani-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[],duration:\"4:28\",trackNumber:1,producers:[],producersNames:[],description:\"Jsme jenom fakani \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Jsme jenom fakani](/skladby/jsme-jenom-fakani-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [rap disco revoluce](/alba/rap-disco-revoluce) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),j=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},c=(e,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of h(a))!A.call(e,o)&&o!==n&&s(e,o,{get:()=>a[o],enumerable:!(t=p(a,o))||t.enumerable});return e};var x=(e,a,n)=>(n=e!=null?d(f(e)):{},c(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>c(s({},\"__esModule\",{value:!0}),e);var l=b((N,u)=>{u.exports=_jsx_runtime});var g={};j(g,{default:()=>m,frontmatter:()=>v});var r=x(l()),v={title:\"Jsme jenom fakani\",slug:\"jsme-jenom-fakani-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[\"\"],duration:\"4:28\",trackNumber:1,producers:[],producersNames:[],description:\"Jsme jenom fakani \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/jsme-jenom-fakani-ca-hanova-bulhar\",children:\"Jsme jenom fakani\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/rap-disco-revoluce\",children:\"rap disco revoluce\"}),\" (2020).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return k(g);})();\n;return Component;"
   },
   "_id": "skladby/jsme-jenom-fakani-ca-hanova-bulhar.mdx",
   "_raw": {

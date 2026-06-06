@@ -1,0 +1,28 @@
+{
+  "title": "Stress Free",
+  "slug": "stress-free",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "year": 2023,
+  "description": "Stress Free — singl od DJ Fatte (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/be3de32095ab0e665fb8af8849ba7a67/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Stress Free](/skladby/stress-free)** od [DJ Fatte](/raperi/dj-fatte) (2023).\n",
+    "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)a(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!u.call(t,n)&&n!==r&&a(t,n,{get:()=>e[n],enumerable:!(o=g(e,n))||o.enumerable});return t};var b=(t,e,r)=>(r=t!=null?f(m(t)):{},i(e||!t||!t.__esModule?a(r,\"default\",{value:t,enumerable:!0}):r,t)),D=t=>i(a({},\"__esModule\",{value:!0}),t);var d=h((S,c)=>{c.exports=_jsx_runtime});var _={};j(_,{default:()=>p,frontmatter:()=>F});var s=b(d()),F={title:\"Stress Free\",slug:\"stress-free\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",year:2023,description:\"Stress Free \\u2014 singl od DJ Fatte (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/be3de32095ab0e665fb8af8849ba7a67/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/stress-free\",children:\"Stress Free\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" (2023).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,s.jsx)(e,{...t,children:(0,s.jsx)(l,{...t})}):l(t)}return D(_);})();\n;return Component;"
+  },
+  "_id": "skladby/stress-free.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/stress-free.mdx",
+    "sourceFileName": "stress-free.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/stress-free"
+  },
+  "type": "Skladba",
+  "url": "/skladby/stress-free",
+  "canonicalUrl": "https://4rap.cz/skladby/stress-free"
+}

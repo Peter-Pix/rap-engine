@@ -56,13 +56,13 @@ export function DetailHero({
     <header className={['mb-8 sm:mb-12', className].join(' ')}>
       {/* Breadcrumbs */}
       {breadcrumbs && breadcrumbs.length > 0 && (
-        <nav aria-label="Drobečková navigace" className="mb-6">
-          <ol className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-zinc-500 overflow-x-auto scrollbar-none whitespace-nowrap">
+        <nav aria-label="Drobečková navigace" className="mb-4 sm:mb-6">
+          <ol className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-[11px] sm:text-xs font-mono uppercase tracking-widest text-zinc-500 leading-tight overflow-x-auto">
             {breadcrumbs.map((b, i) => {
               const isLast = i === breadcrumbs.length - 1
               return (
-                <li key={i} className="flex items-center gap-2 shrink-0">
-                  {i > 0 && <span aria-hidden className="text-zinc-700">/</span>}
+                <li key={i} className="flex items-center gap-1.5 shrink-0">
+                  {i > 0 && <span aria-hidden className="text-zinc-700 text-[10px]">/</span>}
                   {b.href && !isLast ? (
                     <Link href={b.href} className="hover:text-zinc-300 transition-colors">
                       {b.label}
@@ -78,9 +78,9 @@ export function DetailHero({
       )}
 
       {/* Header row: type pill + chips + meta */}
-      <div className="flex flex-wrap items-center gap-2.5 mb-6">
+      <div className="flex flex-wrap items-center gap-2 mb-4 sm:mb-6">
         <EntityChip type={type} label={typeLabel ?? type.toUpperCase()} />
-        {chips}
+        <div className="flex flex-wrap items-center gap-2">{chips}</div>
         {meta && (
           <div className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 ml-auto">
             {meta}
@@ -89,7 +89,7 @@ export function DetailHero({
       </div>
 
       {/* Title — massive uppercase */}
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-4">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-4 break-words hyphens-auto">
         {title}
       </h1>
 

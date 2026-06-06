@@ -12,16 +12,19 @@
   "album": "Zhora Vypadá Všechno Líp",
   "albumSlug": "zhora-vypada-vsechno-lip",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:10",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Vrána k Vráně — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},d=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(n,t)&&t!==r&&o(n,t,{get:()=>e[t],enumerable:!(s=l(e,t))||s.enumerable});return n};var g=(n,e,r)=>(r=n!=null?p(x(n)):{},d(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),y=n=>d(o({},\"__esModule\",{value:!0}),n);var c=_((z,m)=>{m.exports=_jsx_runtime});var j={};b(j,{default:()=>u,frontmatter:()=>V});var a=g(c()),V={title:\"Vr\\xE1na k Vr\\xE1n\\u011B\",slug:\"vrana-k-vrane-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"hasan\"],featuresNames:[\"Hasan\"],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"4:10\",trackNumber:11,producers:[],producersNames:[],description:\"Vr\\xE1na k Vr\\xE1n\\u011B \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(i,{...n})}):i(n)}return y(j);})();\n;return Component;"
+    "raw": "\n**[Vrána k Vráně](/skladby/vrana-k-vrane-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Zhora Vypadá Všechno Líp](/alba/zhora-vypada-vsechno-lip) (2020).\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var z=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),V=(n,a)=>{for(var e in a)s(n,e,{get:a[e],enumerable:!0})},d=(n,a,e,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of u(a))!f.call(n,o)&&o!==e&&s(n,o,{get:()=>a[o],enumerable:!(t=m(a,o))||t.enumerable});return n};var x=(n,a,e)=>(e=n!=null?h(y(n)):{},d(a||!n||!n.__esModule?s(e,\"default\",{value:n,enumerable:!0}):e,n)),b=n=>d(s({},\"__esModule\",{value:!0}),n);var c=z((_,i)=>{i.exports=_jsx_runtime});var v={};V(v,{default:()=>l,frontmatter:()=>k});var r=x(c()),k={title:\"Vr\\xE1na k Vr\\xE1n\\u011B\",slug:\"vrana-k-vrane-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"hasan\"],featuresNames:[\"Hasan\"],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[\"\"],duration:\"4:10\",trackNumber:11,producers:[],producersNames:[],description:\"Vr\\xE1na k Vr\\xE1n\\u011B \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function p(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/vrana-k-vrane-yzomandias\",children:\"Vr\\xE1na k Vr\\xE1n\\u011B\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/zhora-vypada-vsechno-lip\",children:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\"}),\" (2020).\"]})}function l(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(p,{...n})}):p(n)}return b(v);})();\n;return Component;"
   },
   "_id": "skladby/vrana-k-vrane-yzomandias.mdx",
   "_raw": {

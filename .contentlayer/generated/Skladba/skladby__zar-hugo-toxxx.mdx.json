@@ -12,16 +12,19 @@
   "album": "Mumie (Deluxe)",
   "albumSlug": "mumie",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:42",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Zář — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var u=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)u(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&u(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?c(h(e)):{},s(t||!e||!e.__esModule?u(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var x=f((S,l)=>{l.exports=_jsx_runtime});var D={};_(D,{default:()=>m,frontmatter:()=>M});var r=b(x()),M={title:\"Z\\xE1\\u0159\",slug:\"zar-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"lil-quill\"],featuresNames:[\"Lil Quill\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[],duration:\"3:42\",trackNumber:9,producers:[],producersNames:[],description:\"Z\\xE1\\u0159 \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Zář](/skladby/zar-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [Mumie (Deluxe)](/alba/mumie) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},x=(r,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let u of p(e))!h.call(r,u)&&u!==t&&a(r,u,{get:()=>e[u],enumerable:!(n=d(e,u))||n.enumerable});return r};var _=(r,e,t)=>(t=r!=null?m(g(r)):{},x(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>x(a({},\"__esModule\",{value:!0}),r);var s=f((y,l)=>{l.exports=_jsx_runtime});var D={};b(D,{default:()=>c,frontmatter:()=>M});var o=_(s()),M={title:\"Z\\xE1\\u0159\",slug:\"zar-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"lil-quill\"],featuresNames:[\"Lil Quill\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[\"\"],duration:\"3:42\",trackNumber:9,producers:[],producersNames:[],description:\"Z\\xE1\\u0159 \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/zar-hugo-toxxx\",children:\"Z\\xE1\\u0159\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/mumie\",children:\"Mumie (Deluxe)\"}),\" (2022).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(i,{...r})}):i(r)}return j(D);})();\n;return Component;"
   },
   "_id": "skladby/zar-hugo-toxxx.mdx",
   "_raw": {

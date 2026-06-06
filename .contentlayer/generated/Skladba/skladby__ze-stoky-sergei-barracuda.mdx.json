@@ -12,16 +12,19 @@
   "album": "Goodfellas",
   "albumSlug": "goodfellas",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:18",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Ze stoky — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!f.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?m(x(e)):{},u(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var d=h((M,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>i,frontmatter:()=>k});var t=_(d()),k={title:\"Ze stoky\",slug:\"ze-stoky-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"palermo\"],featuresNames:[\"Palermo\"],album:\"Goodfellas\",albumSlug:\"goodfellas\",year:2024,genre:[],duration:\"3:18\",trackNumber:9,producers:[],producersNames:[],description:\"Ze stoky \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Ze stoky](/skladby/ze-stoky-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Goodfellas](/alba/goodfellas) (2024).\n",
+    "code": "var Component=(()=>{var g=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)s(r,o,{get:e[o],enumerable:!0})},d=(r,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!b.call(r,t)&&t!==o&&s(r,t,{get:()=>e[t],enumerable:!(n=p(e,t))||n.enumerable});return r};var k=(r,e,o)=>(o=r!=null?g(m(r)):{},d(e||!r||!r.__esModule?s(o,\"default\",{value:r,enumerable:!0}):o,r)),y=r=>d(s({},\"__esModule\",{value:!0}),r);var c=h((z,l)=>{l.exports=_jsx_runtime});var j={};x(j,{default:()=>i,frontmatter:()=>_});var a=k(c()),_={title:\"Ze stoky\",slug:\"ze-stoky-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"palermo\"],featuresNames:[\"Palermo\"],album:\"Goodfellas\",albumSlug:\"goodfellas\",year:2024,genre:[\"\"],duration:\"3:18\",trackNumber:9,producers:[],producersNames:[],description:\"Ze stoky \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/ze-stoky-sergei-barracuda\",children:\"Ze stoky\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/goodfellas\",children:\"Goodfellas\"}),\" (2024).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/ze-stoky-sergei-barracuda.mdx",
   "_raw": {

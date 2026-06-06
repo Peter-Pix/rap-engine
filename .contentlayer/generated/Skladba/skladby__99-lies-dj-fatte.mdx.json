@@ -8,16 +8,19 @@
   "album": "99 Lies",
   "albumSlug": "99-lies",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "99 Lies — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!h.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=p(t,s))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(f(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var c=j((M,u)=>{u.exports=_jsx_runtime});var F={};_(F,{default:()=>l,frontmatter:()=>D});var r=b(c()),D={title:\"99 Lies\",slug:\"99-lies-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"99 Lies\",albumSlug:\"99-lies\",year:2016,genre:[],duration:\"3:24\",trackNumber:1,producers:[],producersNames:[],description:\"99 Lies \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[99 Lies](/skladby/99-lies-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) (2016).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var r in e)n(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!x.call(t,a)&&a!==r&&n(t,a,{get:()=>e[a],enumerable:!(o=f(e,a))||o.enumerable});return t};var b=(t,e,r)=>(r=t!=null?p(j(t)):{},i(e||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>i(n({},\"__esModule\",{value:!0}),t);var u=h((y,d)=>{d.exports=_jsx_runtime});var L={};g(L,{default:()=>l,frontmatter:()=>D});var s=b(u()),D={title:\"99 Lies\",slug:\"99-lies-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"99 Lies\",albumSlug:\"99-lies\",year:2016,genre:[\"\"],duration:\"3:24\",trackNumber:1,producers:[],producersNames:[],description:\"99 Lies \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/99-lies-dj-fatte\",children:\"99 Lies\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" (2016).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,s.jsx)(e,{...t,children:(0,s.jsx)(c,{...t})}):c(t)}return _(L);})();\n;return Component;"
   },
   "_id": "skladby/99-lies-dj-fatte.mdx",
   "_raw": {

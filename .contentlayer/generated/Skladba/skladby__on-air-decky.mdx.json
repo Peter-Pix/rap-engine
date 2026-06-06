@@ -14,16 +14,19 @@
   "album": "KINGPIN",
   "albumSlug": "kingpin",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:54",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "ON AIR — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),N=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of k(n))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=l(n,o))||s.enumerable});return e};var f=(e,n,r)=>(r=e!=null?p(x(e)):{},c(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(a({},\"__esModule\",{value:!0}),e);var u=y((D,i)=>{i.exports=_jsx_runtime});var b={};N(b,{default:()=>m,frontmatter:()=>_});var t=f(u()),_={title:\"ON AIR\",slug:\"on-air-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"nik-tendo\",\"koky\"],featuresNames:[\"Nik Tendo\",\"Koky\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[],duration:\"1:54\",trackNumber:4,producers:[],producersNames:[],description:\"ON AIR \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(b);})();\n;return Component;"
+    "raw": "\n**[ON AIR](/skladby/on-air-decky)** od [Decky](/raperi/decky) z alba [KINGPIN](/alba/kingpin) (2019).\n",
+    "code": "var Component=(()=>{var k=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!N.call(r,a)&&a!==t&&o(r,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return r};var g=(r,e,t)=>(t=r!=null?k(y(r)):{},c(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),x=r=>c(o({},\"__esModule\",{value:!0}),r);var d=f((j,i)=>{i.exports=_jsx_runtime});var I={};h(I,{default:()=>l,frontmatter:()=>b});var n=g(d()),b={title:\"ON AIR\",slug:\"on-air-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"nik-tendo\",\"koky\"],featuresNames:[\"Nik Tendo\",\"Koky\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[\"\"],duration:\"1:54\",trackNumber:4,producers:[],producersNames:[],description:\"ON AIR \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/on-air-decky\",children:\"ON AIR\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/kingpin\",children:\"KINGPIN\"}),\" (2019).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(u,{...r})}):u(r)}return x(I);})();\n;return Component;"
   },
   "_id": "skladby/on-air-decky.mdx",
   "_raw": {

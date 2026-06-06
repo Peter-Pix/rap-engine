@@ -8,16 +8,19 @@
   "album": "Hráč Roku Playlist",
   "albumSlug": "hrac-roku-playlist",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:46",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Slowmode — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?c(x(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>m(a({},\"__esModule\",{value:!0}),e);var l=_((w,d)=>{d.exports=_jsx_runtime});var S={};b(S,{default:()=>i,frontmatter:()=>j});var n=g(l()),j={title:\"Slowmode\",slug:\"slowmode-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Hr\\xE1\\u010D Roku Playlist\",albumSlug:\"hrac-roku-playlist\",year:2020,genre:[],duration:\"2:46\",trackNumber:5,producers:[],producersNames:[],description:\"Slowmode \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return y(S);})();\n;return Component;"
+    "raw": "\n**[Slowmode](/skladby/slowmode-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Hráč Roku Playlist](/alba/hrac-roku-playlist) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var o in a)s(e,o,{get:a[o],enumerable:!0})},l=(e,a,o,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!f.call(e,n)&&n!==o&&s(e,n,{get:()=>a[n],enumerable:!(t=p(a,n))||t.enumerable});return e};var z=(e,a,o)=>(o=e!=null?c(y(e)):{},l(a||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>l(s({},\"__esModule\",{value:!0}),e);var i=x((j,d)=>{d.exports=_jsx_runtime});var w={};b(w,{default:()=>u,frontmatter:()=>k});var r=z(i()),k={title:\"Slowmode\",slug:\"slowmode-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Hr\\xE1\\u010D Roku Playlist\",albumSlug:\"hrac-roku-playlist\",year:2020,genre:[\"\"],duration:\"2:46\",trackNumber:5,producers:[],producersNames:[],description:\"Slowmode \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/slowmode-yzomandias\",children:\"Slowmode\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/hrac-roku-playlist\",children:\"Hr\\xE1\\u010D Roku Playlist\"}),\" (2020).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(w);})();\n;return Component;"
   },
   "_id": "skladby/slowmode-yzomandias.mdx",
   "_raw": {

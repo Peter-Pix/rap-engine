@@ -8,16 +8,19 @@
   "album": "Highs & Lows",
   "albumSlug": "highs-lows",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:22",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Zookies — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of p(t))!x.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(a=d(t,n))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>i(s({},\"__esModule\",{value:!0}),e);var u=g((B,l)=>{l.exports=_jsx_runtime});var k={};f(k,{default:()=>c,frontmatter:()=>j});var o=_(u()),j={title:\"Zookies\",slug:\"zookies-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Highs & Lows\",albumSlug:\"highs-lows\",year:2025,genre:[],duration:\"3:22\",trackNumber:2,producers:[],producersNames:[],description:\"Zookies \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(b,{...e})}):b(e)}return y(k);})();\n;return Component;"
+    "raw": "\n**[Zookies](/skladby/zookies-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Highs & Lows](/alba/highs-lows) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),y=(o,e)=>{for(var s in e)t(o,s,{get:e[s],enumerable:!0})},b=(o,e,s,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!g.call(o,a)&&a!==s&&t(o,a,{get:()=>e[a],enumerable:!(n=h(e,a))||n.enumerable});return o};var z=(o,e,s)=>(s=o!=null?d(m(o)):{},b(e||!o||!o.__esModule?t(s,\"default\",{value:o,enumerable:!0}):s,o)),x=o=>b(t({},\"__esModule\",{value:!0}),o);var i=f((j,l)=>{l.exports=_jsx_runtime});var B={};y(B,{default:()=>u,frontmatter:()=>k});var r=z(i()),k={title:\"Zookies\",slug:\"zookies-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Highs & Lows\",albumSlug:\"highs-lows\",year:2025,genre:[\"\"],duration:\"3:22\",trackNumber:2,producers:[],producersNames:[],description:\"Zookies \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/zookies-bobby-blaze\",children:\"Zookies\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/highs-lows\",children:\"Highs & Lows\"}),\" (2025).\"]})}function u(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(c,{...o})}):c(o)}return x(B);})();\n;return Component;"
   },
   "_id": "skladby/zookies-bobby-blaze.mdx",
   "_raw": {

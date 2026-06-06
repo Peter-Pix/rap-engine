@@ -14,16 +14,19 @@
   "album": "Gorila vs. Architekt",
   "albumSlug": "gorila-vs-architekt",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Nespoutáš Mě — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?c(x(e)):{},s(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var d=k((N,m)=>{m.exports=_jsx_runtime});var M={};g(M,{default:()=>l,frontmatter:()=>v});var r=_(d()),v={title:\"Nespout\\xE1\\u0161 M\\u011B\",slug:\"nespoutas-me-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"ridina-ahmedov\"],featuresNames:[\"Mike Trafik\",\"Ridina Ahmedov\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[],duration:\"3:45\",trackNumber:12,producers:[],producersNames:[],description:\"Nespout\\xE1\\u0161 M\\u011B \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Nespoutáš Mě](/skladby/nespoutas-me-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Gorila vs. Architekt](/alba/gorila-vs-architekt) (2008).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var v=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},o=(e,r,t,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of h(r))!k.call(e,i)&&i!==t&&s(e,i,{get:()=>r[i],enumerable:!(n=p(r,i))||n.enumerable});return e};var x=(e,r,t)=>(t=e!=null?c(f(e)):{},o(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>o(s({},\"__esModule\",{value:!0}),e);var d=v((j,l)=>{l.exports=_jsx_runtime});var N={};g(N,{default:()=>u,frontmatter:()=>M});var a=x(d()),M={title:\"Nespout\\xE1\\u0161 M\\u011B\",slug:\"nespoutas-me-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"ridina-ahmedov\"],featuresNames:[\"Mike Trafik\",\"Ridina Ahmedov\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[\"\"],duration:\"3:45\",trackNumber:12,producers:[],producersNames:[],description:\"Nespout\\xE1\\u0161 M\\u011B \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/nespoutas-me-vladimir-518\",children:\"Nespout\\xE1\\u0161 M\\u011B\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/gorila-vs-architekt\",children:\"Gorila vs. Architekt\"}),\" (2008).\"]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(m,{...e})}):m(e)}return b(N);})();\n;return Component;"
   },
   "_id": "skladby/nespoutas-me-vladimir-518.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Keep on Lovin' Me",
   "albumSlug": "keep-on-lovin-me",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:33",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Keep on Lovin' Me (Unknown7 Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},m=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==t&&s(e,r,{get:()=>n[r],enumerable:!(a=d(n,r))||a.enumerable});return e};var _=(e,n,t)=>(t=e!=null?p(h(e)):{},m(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>m(s({},\"__esModule\",{value:!0}),e);var l=j((w,i)=>{i.exports=_jsx_runtime});var M={};k(M,{default:()=>c,frontmatter:()=>g});var o=_(l()),g={title:\"Keep on Lovin' Me (Unknown7 Remix)\",slug:\"keep-on-lovin-me-unknown7-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Keep on Lovin' Me\",albumSlug:\"keep-on-lovin-me\",year:2020,genre:[],duration:\"6:33\",trackNumber:2,producers:[],producersNames:[],description:\"Keep on Lovin' Me (Unknown7 Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Keep on Lovin' Me (Unknown7 Remix)](/skladby/keep-on-lovin-me-unknown7-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Keep on Lovin' Me](/alba/keep-on-lovin-me) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var r in e)t(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!f.call(n,a)&&a!==r&&t(n,a,{get:()=>e[a],enumerable:!(s=d(e,a))||s.enumerable});return n};var v=(n,e,r)=>(r=n!=null?u(k(n)):{},i(e||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),b=n=>i(t({},\"__esModule\",{value:!0}),n);var m=h((L,l)=>{l.exports=_jsx_runtime});var g={};j(g,{default:()=>c,frontmatter:()=>M});var o=v(m()),M={title:\"Keep on Lovin' Me (Unknown7 Remix)\",slug:\"keep-on-lovin-me-unknown7-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Keep on Lovin' Me\",albumSlug:\"keep-on-lovin-me\",year:2020,genre:[\"\"],duration:\"6:33\",trackNumber:2,producers:[],producersNames:[],description:\"Keep on Lovin' Me (Unknown7 Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function p(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/keep-on-lovin-me-unknown7-remix-james-cole\",children:\"Keep on Lovin' Me (Unknown7 Remix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/keep-on-lovin-me\",children:\"Keep on Lovin' Me\"}),\" (2020).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(p,{...n})}):p(n)}return b(g);})();\n;return Component;"
   },
   "_id": "skladby/keep-on-lovin-me-unknown7-remix-james-cole.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Slova",
   "albumSlug": "slova",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:37",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Ostrovy sutin — skladba od Bpm.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},u=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!b.call(t,s)&&s!==n&&o(t,s,{get:()=>e[s],enumerable:!(a=d(e,s))||a.enumerable});return t};var g=(t,e,n)=>(n=t!=null?l(h(t)):{},u(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>u(o({},\"__esModule\",{value:!0}),t);var p=f((M,m)=>{m.exports=_jsx_runtime});var y={};_(y,{default:()=>i,frontmatter:()=>v});var r=g(p()),v={title:\"Ostrovy sutin\",slug:\"ostrovy-sutin-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[],duration:\"3:37\",trackNumber:6,producers:[],producersNames:[],description:\"Ostrovy sutin \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function c(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Ostrovy sutin](/skladby/ostrovy-sutin-bpm)** z alba [Slova](/alba/slova) (2007).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(r,t)=>()=>(t||r((t={exports:{}}).exports,t),t.exports),h=(r,t)=>{for(var e in t)o(r,e,{get:t[e],enumerable:!0})},u=(r,t,e,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of b(t))!v.call(r,n)&&n!==e&&o(r,n,{get:()=>t[n],enumerable:!(a=d(t,n))||a.enumerable});return r};var y=(r,t,e)=>(e=r!=null?m(f(r)):{},u(t||!r||!r.__esModule?o(e,\"default\",{value:r,enumerable:!0}):e,r)),g=r=>u(o({},\"__esModule\",{value:!0}),r);var i=x((k,l)=>{l.exports=_jsx_runtime});var j={};h(j,{default:()=>c,frontmatter:()=>_});var s=y(i()),_={title:\"Ostrovy sutin\",slug:\"ostrovy-sutin-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[\"\"],duration:\"3:37\",trackNumber:6,producers:[],producersNames:[],description:\"Ostrovy sutin \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function p(r){let t={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(t.p,{children:[(0,s.jsx)(t.strong,{children:(0,s.jsx)(t.a,{href:\"/skladby/ostrovy-sutin-bpm\",children:\"Ostrovy sutin\"})}),\" z alba \",(0,s.jsx)(t.a,{href:\"/alba/slova\",children:\"Slova\"}),\" (2007).\"]})}function c(r={}){let{wrapper:t}=r.components||{};return t?(0,s.jsx)(t,{...r,children:(0,s.jsx)(p,{...r})}):p(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/ostrovy-sutin-bpm.mdx",
   "_raw": {

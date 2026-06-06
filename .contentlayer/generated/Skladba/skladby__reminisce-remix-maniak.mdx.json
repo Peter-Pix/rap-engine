@@ -18,16 +18,19 @@
   "album": "Maniak Muzik",
   "albumSlug": "maniak-muzik",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:08",
   "trackNumber": 18,
   "producers": [],
   "producersNames": [],
   "description": "Reminisce (Remix) — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var a in n)r(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!k.call(e,t)&&t!==a&&r(e,t,{get:()=>n[t],enumerable:!(m=d(n,t))||m.enumerable});return e};var f=(e,n,a)=>(a=e!=null?p(x(e)):{},o(n||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>o(r({},\"__esModule\",{value:!0}),e);var c=b((y,s)=>{s.exports=_jsx_runtime});var j={};M(j,{default:()=>u,frontmatter:()=>_});var i=f(c()),_={title:\"Reminisce (Remix)\",slug:\"reminisce-remix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\",\"philthy-rich\",\"bonnie-blanco\",\"bl-gum\"],featuresNames:[\"Lil Maniak\",\"Philthy Rich\",\"Bonnie Blanco\",\"Bl Gum\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"4:08\",trackNumber:18,producers:[],producersNames:[],description:\"Reminisce (Remix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,i.jsx)(n.p,{children:(0,i.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,i.jsx)(n,{...e,children:(0,i.jsx)(l,{...e})}):l(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Reminisce (Remix)](/skladby/reminisce-remix-maniak)** od [Maniak](/raperi/maniak) z alba [Maniak Muzik](/alba/maniak-muzik) (2016).\n",
+    "code": "var Component=(()=>{var k=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),M=(a,e)=>{for(var i in e)t(a,i,{get:e[i],enumerable:!0})},s=(a,e,i,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!x.call(a,r)&&r!==i&&t(a,r,{get:()=>e[r],enumerable:!(m=d(e,r))||m.enumerable});return a};var f=(a,e,i)=>(i=a!=null?k(p(a)):{},s(e||!a||!a.__esModule?t(i,\"default\",{value:a,enumerable:!0}):i,a)),g=a=>s(t({},\"__esModule\",{value:!0}),a);var c=b((y,o)=>{o.exports=_jsx_runtime});var _={};M(_,{default:()=>u,frontmatter:()=>R});var n=f(c()),R={title:\"Reminisce (Remix)\",slug:\"reminisce-remix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\",\"philthy-rich\",\"bonnie-blanco\",\"bl-gum\"],featuresNames:[\"Lil Maniak\",\"Philthy Rich\",\"Bonnie Blanco\",\"Bl Gum\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[\"\"],duration:\"4:08\",trackNumber:18,producers:[],producersNames:[],description:\"Reminisce (Remix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/reminisce-remix-maniak\",children:\"Reminisce (Remix)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/maniak-muzik\",children:\"Maniak Muzik\"}),\" (2016).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(l,{...a})}):l(a)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/reminisce-remix-maniak.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "OneWay",
   "albumSlug": "oneway",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:24",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Plays 2 — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=d(n,r))||o.enumerable});return e};var b=(e,n,a)=>(a=e!=null?p(h(e)):{},u(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var m=y((N,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>l,frontmatter:()=>k});var t=b(m()),k={title:\"Plays 2\",slug:\"plays-2-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[],duration:\"2:24\",trackNumber:4,producers:[],producersNames:[],description:\"Plays 2 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Plays 2](/skladby/plays-2-maniak)** od [Maniak](/raperi/maniak) z alba [OneWay](/alba/oneway) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)s(e,r,{get:a[r],enumerable:!0})},i=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of y(a))!h.call(e,t)&&t!==r&&s(e,t,{get:()=>a[t],enumerable:!(o=m(a,t))||o.enumerable});return e};var b=(e,a,r)=>(r=e!=null?p(f(e)):{},i(a||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var c=k((w,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>d,frontmatter:()=>M});var n=b(c()),M={title:\"Plays 2\",slug:\"plays-2-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[\"\"],duration:\"2:24\",trackNumber:4,producers:[],producersNames:[],description:\"Plays 2 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/plays-2-maniak\",children:\"Plays 2\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/oneway\",children:\"OneWay\"}),\" (2023).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/plays-2-maniak.mdx",
   "_raw": {

@@ -1,13 +1,15 @@
 {
   "title": "Dusan Vlk",
   "slug": "dusan-vlk",
-  "genre": [],
-  "description": "Dusan Vlk — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Dusan Vlk — nezávislý interpret rapové scény s ostrým flow a autentickým přístupem. Přináší syrový zvuk bez kompromisů. Sleduj jeho tvorbu.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!_.call(n,s)&&s!==r&&o(n,s,{get:()=>e[s],enumerable:!(c=p(e,s))||c.enumerable});return n};var k=(n,e,r)=>(r=n!=null?d(x(n)):{},i(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>i(o({},\"__esModule\",{value:!0}),n);var l=f((b,a)=>{a.exports=_jsx_runtime});var v={};j(v,{default:()=>m,frontmatter:()=>D});var t=k(l()),D={title:\"Dusan Vlk\",slug:\"dusan-vlk\",genre:[],description:\"Dusan Vlk \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function u(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(u,{...n})}):u(n)}return g(v);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Dusan Vlk](/raperi/dusan-vlk)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of h(n))!v.call(e,s)&&s!==r&&o(e,s,{get:()=>n[s],enumerable:!(a=d(n,s))||a.enumerable});return e};var f=(e,n,r)=>(r=e!=null?m(k(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var p=x((y,c)=>{c.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>_});var t=f(p()),_={title:\"Dusan Vlk\",slug:\"dusan-vlk\",genre:[\"\"],description:\"Dusan Vlk \\u2014 nez\\xE1visl\\xFD interpret rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a autentick\\xFDm p\\u0159\\xEDstupem. P\\u0159in\\xE1\\u0161\\xED syrov\\xFD zvuk bez kompromis\\u016F. Sleduj jeho tvorbu.\",publishedAt:\"2026-05-31\"};function u(e){let n={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O rapperovi\"}),`\n`,(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/raperi/dusan-vlk\",children:\"Dusan Vlk\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(D);})();\n;return Component;"
   },
   "_id": "raperi/dusan-vlk.mdx",
   "_raw": {

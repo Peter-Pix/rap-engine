@@ -8,16 +8,19 @@
   "album": "Kapitán Láska (Deluxe Edition)",
   "albumSlug": "kapitan-laska",
   "year": 2009,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:32",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Ty mě zabiješ — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},m=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!b.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=d(t,r))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(j(e)):{},m(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var l=h((z,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>c,frontmatter:()=>k});var n=_(l()),k={title:\"Ty m\\u011B zabije\\u0161\",slug:\"ty-me-zabijes-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[],duration:\"3:32\",trackNumber:15,producers:[],producersNames:[],description:\"Ty m\\u011B zabije\\u0161 \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Ty mě zabiješ](/skladby/ty-me-zabijes-james-cole)** od [James Cole](/raperi/james-cole) z alba [Kapitán Láska (Deluxe Edition)](/alba/kapitan-laska) (2009).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),h=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of j(e))!x.call(a,s)&&s!==r&&n(a,s,{get:()=>e[s],enumerable:!(o=p(e,s))||o.enumerable});return a};var k=(a,e,r)=>(r=a!=null?d(b(a)):{},i(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),y=a=>i(n({},\"__esModule\",{value:!0}),a);var m=f((C,l)=>{l.exports=_jsx_runtime});var z={};h(z,{default:()=>u,frontmatter:()=>g});var t=k(m()),g={title:\"Ty m\\u011B zabije\\u0161\",slug:\"ty-me-zabijes-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[\"\"],duration:\"3:32\",trackNumber:15,producers:[],producersNames:[],description:\"Ty m\\u011B zabije\\u0161 \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/ty-me-zabijes-james-cole\",children:\"Ty m\\u011B zabije\\u0161\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/kapitan-laska\",children:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\"}),\" (2009).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(c,{...a})}):c(a)}return y(z);})();\n;return Component;"
   },
   "_id": "skladby/ty-me-zabijes-james-cole.mdx",
   "_raw": {

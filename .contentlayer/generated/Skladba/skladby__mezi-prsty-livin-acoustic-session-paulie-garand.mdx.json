@@ -12,16 +12,19 @@
   "album": "Acoustic Session",
   "albumSlug": "acoustic-session",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:13",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Mezi prsty + Livin (Acoustic Session) — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var s in n)a(e,s,{get:n[s],enumerable:!0})},o=(e,n,s,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!b.call(e,r)&&r!==s&&a(e,r,{get:()=>n[r],enumerable:!(i=m(n,r))||i.enumerable});return e};var S=(e,n,s)=>(s=e!=null?d(h(e)):{},o(n||!e||!e.__esModule?a(s,\"default\",{value:e,enumerable:!0}):s,e)),_=e=>o(a({},\"__esModule\",{value:!0}),e);var c=g((A,u)=>{u.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>j});var t=S(c()),j={title:\"Mezi prsty + Livin (Acoustic Session)\",slug:\"mezi-prsty-livin-acoustic-session-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"stepan-urban\"],featuresNames:[\"Stepan Urban\"],album:\"Acoustic Session\",albumSlug:\"acoustic-session\",year:2023,genre:[],duration:\"3:13\",trackNumber:1,producers:[],producersNames:[],description:\"Mezi prsty + Livin (Acoustic Session) \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[Mezi prsty + Livin (Acoustic Session)](/skladby/mezi-prsty-livin-acoustic-session-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) (2023).\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(s,e)=>()=>(e||s((e={exports:{}}).exports,e),e.exports),h=(s,e)=>{for(var n in e)i(s,n,{get:e[n],enumerable:!0})},o=(s,e,n,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!x.call(s,r)&&r!==n&&i(s,r,{get:()=>e[r],enumerable:!(t=m(e,r))||t.enumerable});return s};var y=(s,e,n)=>(n=s!=null?d(f(s)):{},o(e||!s||!s.__esModule?i(n,\"default\",{value:s,enumerable:!0}):n,s)),S=s=>o(i({},\"__esModule\",{value:!0}),s);var c=b((v,u)=>{u.exports=_jsx_runtime});var _={};h(_,{default:()=>l,frontmatter:()=>M});var a=y(c()),M={title:\"Mezi prsty + Livin (Acoustic Session)\",slug:\"mezi-prsty-livin-acoustic-session-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"stepan-urban\"],featuresNames:[\"Stepan Urban\"],album:\"Acoustic Session\",albumSlug:\"acoustic-session\",year:2023,genre:[\"\"],duration:\"3:13\",trackNumber:1,producers:[],producersNames:[],description:\"Mezi prsty + Livin (Acoustic Session) \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(s){let e={a:\"a\",p:\"p\",strong:\"strong\",...s.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/mezi-prsty-livin-acoustic-session-paulie-garand\",children:\"Mezi prsty + Livin (Acoustic Session)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" (2023).\"]})}function l(s={}){let{wrapper:e}=s.components||{};return e?(0,a.jsx)(e,{...s,children:(0,a.jsx)(p,{...s})}):p(s)}return S(_);})();\n;return Component;"
   },
   "_id": "skladby/mezi-prsty-livin-acoustic-session-paulie-garand.mdx",
   "_raw": {

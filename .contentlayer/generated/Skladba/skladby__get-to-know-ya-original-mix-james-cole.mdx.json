@@ -8,16 +8,19 @@
   "album": "Close To Me EP",
   "albumSlug": "close-to-me-ep",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:22",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Get To Know Ya (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},i=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!h.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=d(t,r))||s.enumerable});return e};var _=(e,t,o)=>(o=e!=null?p(g(e)):{},i(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>i(a({},\"__esModule\",{value:!0}),e);var m=f((k,l)=>{l.exports=_jsx_runtime});var C={};j(C,{default:()=>u,frontmatter:()=>M});var n=_(m()),M={title:\"Get To Know Ya (Original Mix)\",slug:\"get-to-know-ya-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Close To Me EP\",albumSlug:\"close-to-me-ep\",year:2025,genre:[],duration:\"6:22\",trackNumber:2,producers:[],producersNames:[],description:\"Get To Know Ya (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(C);})();\n;return Component;"
+    "raw": "\n**[Get To Know Ya (Original Mix)](/skladby/get-to-know-ya-original-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Close To Me EP](/alba/close-to-me-ep) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),j=(o,e)=>{for(var r in e)n(o,r,{get:e[r],enumerable:!0})},l=(o,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!f.call(o,t)&&t!==r&&n(o,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return o};var b=(o,e,r)=>(r=o!=null?d(x(o)):{},l(e||!o||!o.__esModule?n(r,\"default\",{value:o,enumerable:!0}):r,o)),M=o=>l(n({},\"__esModule\",{value:!0}),o);var c=h((k,i)=>{i.exports=_jsx_runtime});var w={};j(w,{default:()=>u,frontmatter:()=>C});var a=b(c()),C={title:\"Get To Know Ya (Original Mix)\",slug:\"get-to-know-ya-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Close To Me EP\",albumSlug:\"close-to-me-ep\",year:2025,genre:[\"\"],duration:\"6:22\",trackNumber:2,producers:[],producersNames:[],description:\"Get To Know Ya (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/get-to-know-ya-original-mix-james-cole\",children:\"Get To Know Ya (Original Mix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/close-to-me-ep\",children:\"Close To Me EP\"}),\" (2025).\"]})}function u(o={}){let{wrapper:e}=o.components||{};return e?(0,a.jsx)(e,{...o,children:(0,a.jsx)(m,{...o})}):m(o)}return M(w);})();\n;return Component;"
   },
   "_id": "skladby/get-to-know-ya-original-mix-james-cole.mdx",
   "_raw": {

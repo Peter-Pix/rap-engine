@@ -14,16 +14,19 @@
   "album": "Teritorium III.",
   "albumSlug": "teritorium-iii",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:33",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Co se nelíbí — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},a=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(b(e)):{},a(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(i({},\"__esModule\",{value:!0}),e);var m=f((N,u)=>{u.exports=_jsx_runtime});var I={};_(I,{default:()=>l,frontmatter:()=>C});var t=g(m()),C={title:\"Co se nel\\xEDb\\xED\",slug:\"co-se-nelibi-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"vladimir-518\",\"zu-corp\"],featuresNames:[\"Vladimir 518\",\"Zu Corp\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[],duration:\"4:33\",trackNumber:9,producers:[],producersNames:[],description:\"Co se nel\\xEDb\\xED \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(I);})();\n;return Component;"
+    "raw": "\n**[Co se nelíbí](/skladby/co-se-nelibi-orion)** od [Orion](/raperi/orion) z alba [Teritorium III.](/alba/teritorium-iii) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var i in r)t(e,i,{get:r[i],enumerable:!0})},s=(e,r,i,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!h.call(e,n)&&n!==i&&t(e,n,{get:()=>r[n],enumerable:!(a=p(r,n))||a.enumerable});return e};var C=(e,r,i)=>(i=e!=null?m(f(e)):{},s(r||!e||!e.__esModule?t(i,\"default\",{value:e,enumerable:!0}):i,e)),I=e=>s(t({},\"__esModule\",{value:!0}),e);var u=x((y,l)=>{l.exports=_jsx_runtime});var j={};g(j,{default:()=>d,frontmatter:()=>_});var o=C(u()),_={title:\"Co se nel\\xEDb\\xED\",slug:\"co-se-nelibi-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"vladimir-518\",\"zu-corp\"],featuresNames:[\"Vladimir 518\",\"Zu Corp\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[\"\"],duration:\"4:33\",trackNumber:9,producers:[],producersNames:[],description:\"Co se nel\\xEDb\\xED \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/co-se-nelibi-orion\",children:\"Co se nel\\xEDb\\xED\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(r.a,{href:\"/alba/teritorium-iii\",children:\"Teritorium III.\"}),\" (2021).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(c,{...e})}):c(e)}return I(j);})();\n;return Component;"
   },
   "_id": "skladby/co-se-nelibi-orion.mdx",
   "_raw": {

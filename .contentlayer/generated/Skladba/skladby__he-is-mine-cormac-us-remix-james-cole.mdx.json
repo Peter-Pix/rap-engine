@@ -12,16 +12,19 @@
   "album": "He Is Mine",
   "albumSlug": "he-is-mine",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:03",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "He Is Mine (Cormac US Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),C=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},m=(e,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of x(r))!f.call(e,s)&&s!==t&&o(e,s,{get:()=>r[s],enumerable:!(a=p(r,s))||a.enumerable});return e};var _=(e,r,t)=>(t=e!=null?d(h(e)):{},m(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var i=j((H,c)=>{c.exports=_jsx_runtime});var M={};C(M,{default:()=>l,frontmatter:()=>g});var n=_(i()),g={title:\"He Is Mine (Cormac US Remix)\",slug:\"he-is-mine-cormac-us-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"cormac-us\"],featuresNames:[\"Cormac (US)\"],album:\"He Is Mine\",albumSlug:\"he-is-mine\",year:2021,genre:[],duration:\"6:03\",trackNumber:3,producers:[],producersNames:[],description:\"He Is Mine (Cormac US Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[He Is Mine (Cormac US Remix)](/skladby/he-is-mine-cormac-us-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [He Is Mine](/alba/he-is-mine) (2021).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),C=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},m=(r,e,a,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!f.call(r,n)&&n!==a&&o(r,n,{get:()=>e[n],enumerable:!(t=p(e,n))||t.enumerable});return r};var b=(r,e,a)=>(a=r!=null?d(x(r)):{},m(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),M=r=>m(o({},\"__esModule\",{value:!0}),r);var c=j((H,i)=>{i.exports=_jsx_runtime});var S={};C(S,{default:()=>u,frontmatter:()=>g});var s=b(c()),g={title:\"He Is Mine (Cormac US Remix)\",slug:\"he-is-mine-cormac-us-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"cormac-us\"],featuresNames:[\"Cormac (US)\"],album:\"He Is Mine\",albumSlug:\"he-is-mine\",year:2021,genre:[\"\"],duration:\"6:03\",trackNumber:3,producers:[],producersNames:[],description:\"He Is Mine (Cormac US Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/he-is-mine-cormac-us-remix-james-cole\",children:\"He Is Mine (Cormac US Remix)\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,s.jsx)(e.a,{href:\"/alba/he-is-mine\",children:\"He Is Mine\"}),\" (2021).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(l,{...r})}):l(r)}return M(S);})();\n;return Component;"
   },
   "_id": "skladby/he-is-mine-cormac-us-remix-james-cole.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Young Guns 01.",
   "albumSlug": "young-guns-01",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:34",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Dans (Original Mix) — skladba od Hansol.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(n,a)&&a!==r&&s(n,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return n};var b=(n,e,r)=>(r=n!=null?m(g(n)):{},i(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),j=n=>i(s({},\"__esModule\",{value:!0}),n);var l=f((N,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>d,frontmatter:()=>M});var t=b(l()),M={title:\"Dans (Original Mix)\",slug:\"dans-original-mix-andsan\",rapper:\"Hansol\",rapperSlug:\"andsan\",features:[],featuresNames:[],album:\"Young Guns 01.\",albumSlug:\"young-guns-01\",year:2018,genre:[],duration:\"6:34\",trackNumber:4,producers:[],producersNames:[],description:\"Dans (Original Mix) \\u2014 skladba od Hansol.\",publishedAt:\"2026-06-04\"};function c(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(c,{...n})}):c(n)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Dans (Original Mix)](/skladby/dans-original-mix-andsan)** z alba [Young Guns 01.](/alba/young-guns-01) (2018).\n",
+    "code": "var Component=(()=>{var g=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),h=(a,n)=>{for(var r in n)t(a,r,{get:n[r],enumerable:!0})},i=(a,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let e of p(n))!f.call(a,e)&&e!==r&&t(a,e,{get:()=>n[e],enumerable:!(o=m(n,e))||o.enumerable});return a};var M=(a,n,r)=>(r=a!=null?g(x(a)):{},i(n||!a||!a.__esModule?t(r,\"default\",{value:a,enumerable:!0}):r,a)),_=a=>i(t({},\"__esModule\",{value:!0}),a);var l=b((k,u)=>{u.exports=_jsx_runtime});var y={};h(y,{default:()=>c,frontmatter:()=>j});var s=M(l()),j={title:\"Dans (Original Mix)\",slug:\"dans-original-mix-andsan\",rapper:\"Hansol\",rapperSlug:\"andsan\",features:[],featuresNames:[],album:\"Young Guns 01.\",albumSlug:\"young-guns-01\",year:2018,genre:[\"\"],duration:\"6:34\",trackNumber:4,producers:[],producersNames:[],description:\"Dans (Original Mix) \\u2014 skladba od Hansol.\",publishedAt:\"2026-06-04\"};function d(a){let n={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,s.jsxs)(n.p,{children:[(0,s.jsx)(n.strong,{children:(0,s.jsx)(n.a,{href:\"/skladby/dans-original-mix-andsan\",children:\"Dans (Original Mix)\"})}),\" z alba \",(0,s.jsx)(n.a,{href:\"/alba/young-guns-01\",children:\"Young Guns 01.\"}),\" (2018).\"]})}function c(a={}){let{wrapper:n}=a.components||{};return n?(0,s.jsx)(n,{...a,children:(0,s.jsx)(d,{...a})}):d(a)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/dans-original-mix-andsan.mdx",
   "_raw": {

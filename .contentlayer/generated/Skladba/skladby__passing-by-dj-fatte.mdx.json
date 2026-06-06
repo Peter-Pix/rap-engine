@@ -8,16 +8,19 @@
   "album": "No Words Needed",
   "albumSlug": "no-words-needed",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:22",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Passing By — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!g.call(e,s)&&s!==r&&a(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var j=(e,t,r)=>(r=e!=null?p(f(e)):{},d(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>d(a({},\"__esModule\",{value:!0}),e);var c=h((F,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>m,frontmatter:()=>y});var n=j(c()),y={title:\"Passing By\",slug:\"passing-by-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"No Words Needed\",albumSlug:\"no-words-needed\",year:2019,genre:[],duration:\"1:22\",trackNumber:14,producers:[],producersNames:[],description:\"Passing By \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return _(N);})();\n;return Component;"
+    "raw": "\n**[Passing By](/skladby/passing-by-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [No Words Needed](/alba/no-words-needed) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},d=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!b.call(t,n)&&n!==a&&s(t,n,{get:()=>e[n],enumerable:!(o=f(e,n))||o.enumerable});return t};var x=(t,e,a)=>(a=t!=null?p(m(t)):{},d(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),y=t=>d(s({},\"__esModule\",{value:!0}),t);var c=h((k,i)=>{i.exports=_jsx_runtime});var _={};j(_,{default:()=>l,frontmatter:()=>N});var r=x(c()),N={title:\"Passing By\",slug:\"passing-by-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"No Words Needed\",albumSlug:\"no-words-needed\",year:2019,genre:[\"\"],duration:\"1:22\",trackNumber:14,producers:[],producersNames:[],description:\"Passing By \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/passing-by-dj-fatte\",children:\"Passing By\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/no-words-needed\",children:\"No Words Needed\"}),\" (2019).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/passing-by-dj-fatte.mdx",
   "_raw": {

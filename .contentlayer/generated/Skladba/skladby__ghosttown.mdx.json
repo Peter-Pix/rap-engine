@@ -1,0 +1,28 @@
+{
+  "title": "GhostTown",
+  "slug": "ghosttown",
+  "rapper": "Frayer Flexking",
+  "rapperSlug": "frayer-flexking",
+  "year": 2020,
+  "description": "GhostTown — singl od Frayer Flexking (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/391620d7d0bd82dc4d6d9e18eefeabc6/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[GhostTown](/skladby/ghosttown)** (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var u=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!m.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=x(t,o))||a.enumerable});return e};var j=(e,t,n)=>(n=e!=null?p(f(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),w=e=>i(s({},\"__esModule\",{value:!0}),e);var d=u((F,c)=>{c.exports=_jsx_runtime});var b={};y(b,{default:()=>g,frontmatter:()=>_});var r=j(d()),_={title:\"GhostTown\",slug:\"ghosttown\",rapper:\"Frayer Flexking\",rapperSlug:\"frayer-flexking\",year:2020,description:\"GhostTown \\u2014 singl od Frayer Flexking (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/391620d7d0bd82dc4d6d9e18eefeabc6/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/ghosttown\",children:\"GhostTown\"})}),\" (2020).\"]})}function g(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return w(b);})();\n;return Component;"
+  },
+  "_id": "skladby/ghosttown.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ghosttown.mdx",
+    "sourceFileName": "ghosttown.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ghosttown"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ghosttown",
+  "canonicalUrl": "https://4rap.cz/skladby/ghosttown"
+}

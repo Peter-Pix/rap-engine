@@ -8,16 +8,19 @@
   "album": "Good Night",
   "albumSlug": "good-night",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Shake Your Body — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!g.call(e,n)&&n!==r&&a(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var c=b((C,m)=>{m.exports=_jsx_runtime});var k={};f(k,{default:()=>l,frontmatter:()=>y});var o=j(c()),y={title:\"Shake Your Body\",slug:\"shake-your-body-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Good Night\",albumSlug:\"good-night\",year:2024,genre:[],duration:\"3:31\",trackNumber:4,producers:[],producersNames:[],description:\"Shake Your Body \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(d,{...e})}):d(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Shake Your Body](/skladby/shake-your-body-james-cole)** od [James Cole](/raperi/james-cole) z alba [Good Night](/alba/good-night) (2024).\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),y=(o,e)=>{for(var a in e)s(o,a,{get:e[a],enumerable:!0})},d=(o,e,a,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!b.call(o,t)&&t!==a&&s(o,t,{get:()=>e[t],enumerable:!(n=m(e,t))||n.enumerable});return o};var j=(o,e,a)=>(a=o!=null?h(g(o)):{},d(e||!o||!o.__esModule?s(a,\"default\",{value:o,enumerable:!0}):a,o)),x=o=>d(s({},\"__esModule\",{value:!0}),o);var u=f((N,l)=>{l.exports=_jsx_runtime});var _={};y(_,{default:()=>i,frontmatter:()=>k});var r=j(u()),k={title:\"Shake Your Body\",slug:\"shake-your-body-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Good Night\",albumSlug:\"good-night\",year:2024,genre:[\"\"],duration:\"3:31\",trackNumber:4,producers:[],producersNames:[],description:\"Shake Your Body \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/shake-your-body-james-cole\",children:\"Shake Your Body\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/good-night\",children:\"Good Night\"}),\" (2024).\"]})}function i(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(c,{...o})}):c(o)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/shake-your-body-james-cole.mdx",
   "_raw": {

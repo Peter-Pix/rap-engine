@@ -12,16 +12,19 @@
   "album": "Kariéra neni (feat. Pil C)",
   "albumSlug": "kariera-neni-feat-pil-c",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Kariéra neni — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var A=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)i(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of h(r))!f.call(e,t)&&t!==a&&i(e,t,{get:()=>r[t],enumerable:!(o=d(r,t))||o.enumerable});return e};var _=(e,r,a)=>(a=e!=null?p(x(e)):{},s(r||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var u=A((k,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>C});var n=_(u()),C={title:\"Kari\\xE9ra neni\",slug:\"kariera-neni-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"pil-c\"],featuresNames:[\"Pil C\"],album:\"Kari\\xE9ra neni (feat. Pil C)\",albumSlug:\"kariera-neni-feat-pil-c\",year:2019,genre:[],duration:\"3:31\",trackNumber:1,producers:[],producersNames:[],description:\"Kari\\xE9ra neni \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Kariéra neni](/skladby/kariera-neni-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var e in a)i(r,e,{get:a[e],enumerable:!0})},s=(r,a,e,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of A(a))!f.call(r,t)&&t!==e&&i(r,t,{get:()=>a[t],enumerable:!(o=h(a,t))||o.enumerable});return r};var g=(r,a,e)=>(e=r!=null?d(m(r)):{},s(a||!r||!r.__esModule?i(e,\"default\",{value:r,enumerable:!0}):e,r)),C=r=>s(i({},\"__esModule\",{value:!0}),r);var l=b((_,c)=>{c.exports=_jsx_runtime});var H={};x(H,{default:()=>p,frontmatter:()=>k});var n=g(l()),k={title:\"Kari\\xE9ra neni\",slug:\"kariera-neni-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"pil-c\"],featuresNames:[\"Pil C\"],album:\"Kari\\xE9ra neni (feat. Pil C)\",albumSlug:\"kariera-neni-feat-pil-c\",year:2019,genre:[\"\"],duration:\"3:31\",trackNumber:1,producers:[],producersNames:[],description:\"Kari\\xE9ra neni \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function u(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/kariera-neni-ca-hanova-bulhar\",children:\"Kari\\xE9ra neni\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" (2019).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,n.jsx)(a,{...r,children:(0,n.jsx)(u,{...r})}):u(r)}return C(H);})();\n;return Component;"
   },
   "_id": "skladby/kariera-neni-ca-hanova-bulhar.mdx",
   "_raw": {

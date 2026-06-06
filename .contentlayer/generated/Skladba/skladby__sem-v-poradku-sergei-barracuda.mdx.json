@@ -14,16 +14,19 @@
   "album": "Finesa",
   "albumSlug": "finesa",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:51",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Sem v pořádku — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!h.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(o=l(r,n))||o.enumerable});return e};var S=(e,r,a)=>(a=e!=null?p(x(e)):{},u(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var d=b((D,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>j});var t=S(d()),j={title:\"Sem v po\\u0159\\xE1dku\",slug:\"sem-v-poradku-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"stein27\",\"dorian\"],featuresNames:[\"Stein27\",\"Dorian\"],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[],duration:\"3:51\",trackNumber:6,producers:[],producersNames:[],description:\"Sem v po\\u0159\\xE1dku \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Sem v pořádku](/skladby/sem-v-poradku-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Finesa](/alba/finesa) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},i=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of g(e))!f.call(r,s)&&s!==n&&t(r,s,{get:()=>e[s],enumerable:!(o=m(e,s))||o.enumerable});return r};var S=(r,e,n)=>(n=r!=null?l(b(r)):{},i(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),k=r=>i(t({},\"__esModule\",{value:!0}),r);var d=h((y,u)=>{u.exports=_jsx_runtime});var j={};x(j,{default:()=>p,frontmatter:()=>_});var a=S(d()),_={title:\"Sem v po\\u0159\\xE1dku\",slug:\"sem-v-poradku-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"stein27\",\"dorian\"],featuresNames:[\"Stein27\",\"Dorian\"],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[\"\"],duration:\"3:51\",trackNumber:6,producers:[],producersNames:[],description:\"Sem v po\\u0159\\xE1dku \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/sem-v-poradku-sergei-barracuda\",children:\"Sem v po\\u0159\\xE1dku\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/finesa\",children:\"Finesa\"}),\" (2024).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return k(j);})();\n;return Component;"
   },
   "_id": "skladby/sem-v-poradku-sergei-barracuda.mdx",
   "_raw": {

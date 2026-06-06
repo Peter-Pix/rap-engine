@@ -14,16 +14,19 @@
   "album": "GoldKid",
   "albumSlug": "goldkid",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Most Wanted — skladba od Nik Tendo.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},s=(e,t,o,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!k.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(d=p(t,r))||d.enumerable});return e};var _=(e,t,o)=>(o=e!=null?l(h(e)):{},s(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>s(a({},\"__esModule\",{value:!0}),e);var c=f((N,i)=>{i.exports=_jsx_runtime});var y={};g(y,{default:()=>u,frontmatter:()=>j});var n=_(c()),j={title:\"Most Wanted\",slug:\"most-wanted-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"yzomandias\"],featuresNames:[\"Decky\",\"Yzomandias\"],album:\"GoldKid\",albumSlug:\"goldkid\",year:2019,genre:[],duration:\"3:07\",trackNumber:6,producers:[],producersNames:[],description:\"Most Wanted \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return b(y);})();\n;return Component;"
+    "raw": "\n**[Most Wanted](/skladby/most-wanted-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GoldKid](/alba/goldkid) (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var o in e)a(n,o,{get:e[o],enumerable:!0})},s=(n,e,o,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of k(e))!h.call(n,r)&&r!==o&&a(n,r,{get:()=>e[r],enumerable:!(d=p(e,r))||d.enumerable});return n};var b=(n,e,o)=>(o=n!=null?m(f(n)):{},s(e||!n||!n.__esModule?a(o,\"default\",{value:n,enumerable:!0}):o,n)),y=n=>s(a({},\"__esModule\",{value:!0}),n);var l=g((j,i)=>{i.exports=_jsx_runtime});var N={};x(N,{default:()=>u,frontmatter:()=>M});var t=b(l()),M={title:\"Most Wanted\",slug:\"most-wanted-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"yzomandias\"],featuresNames:[\"Decky\",\"Yzomandias\"],album:\"GoldKid\",albumSlug:\"goldkid\",year:2019,genre:[\"\"],duration:\"3:07\",trackNumber:6,producers:[],producersNames:[],description:\"Most Wanted \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/most-wanted-nik-tendo\",children:\"Most Wanted\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/goldkid\",children:\"GoldKid\"}),\" (2019).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(c,{...n})}):c(n)}return y(N);})();\n;return Component;"
   },
   "_id": "skladby/most-wanted-nik-tendo.mdx",
   "_raw": {

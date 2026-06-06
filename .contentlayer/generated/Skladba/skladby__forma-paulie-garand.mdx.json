@@ -16,16 +16,19 @@
   "album": "Mezi prsty",
   "albumSlug": "mezi-prsty",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:26",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Forma — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!f.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return e};var b=(e,r,a)=>(a=e!=null?d(x(e)):{},u(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var m=g((C,i)=>{i.exports=_jsx_runtime});var F={};_(F,{default:()=>l,frontmatter:()=>y});var t=b(m()),y={title:\"Forma\",slug:\"forma-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"pil-c\",\"rytmus\"],featuresNames:[\"DJ Wich\",\"Pil C\",\"Rytmus\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"3:26\",trackNumber:6,producers:[],producersNames:[],description:\"Forma \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(F);})();\n;return Component;"
+    "raw": "\n**[Forma](/skladby/forma-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Mezi prsty](/alba/mezi-prsty) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),y=(a,r)=>{for(var t in r)s(a,t,{get:r[t],enumerable:!0})},o=(a,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of f(r))!g.call(a,n)&&n!==t&&s(a,n,{get:()=>r[n],enumerable:!(i=m(r,n))||i.enumerable});return a};var b=(a,r,t)=>(t=a!=null?c(h(a)):{},o(r||!a||!a.__esModule?s(t,\"default\",{value:a,enumerable:!0}):t,a)),j=a=>o(s({},\"__esModule\",{value:!0}),a);var l=x((P,u)=>{u.exports=_jsx_runtime});var z={};y(z,{default:()=>p,frontmatter:()=>_});var e=b(l()),_={title:\"Forma\",slug:\"forma-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"pil-c\",\"rytmus\"],featuresNames:[\"DJ Wich\",\"Pil C\",\"Rytmus\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[\"\"],duration:\"3:26\",trackNumber:6,producers:[],producersNames:[],description:\"Forma \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/forma-paulie-garand\",children:\"Forma\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/mezi-prsty\",children:\"Mezi prsty\"}),\" (2020).\"]})}function p(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(d,{...a})}):d(a)}return j(z);})();\n;return Component;"
   },
   "_id": "skladby/forma-paulie-garand.mdx",
   "_raw": {

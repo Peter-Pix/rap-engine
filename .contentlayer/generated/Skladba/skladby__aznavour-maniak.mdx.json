@@ -8,16 +8,19 @@
   "album": "Babushka Traphouse afterparty",
   "albumSlug": "babushka-traphouse-afterparty",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:28",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Aznavour — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),k=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},u=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!b.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=l(a,n))||s.enumerable});return e};var _=(e,a,t)=>(t=e!=null?d(x(e)):{},u(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var m=f((v,i)=>{i.exports=_jsx_runtime});var M={};k(M,{default:()=>c,frontmatter:()=>j});var r=_(m()),j={title:\"Aznavour\",slug:\"aznavour-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[],duration:\"3:28\",trackNumber:7,producers:[],producersNames:[],description:\"Aznavour \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Aznavour](/skladby/aznavour-maniak)** od [Maniak](/raperi/maniak) z alba [Babushka Traphouse afterparty](/alba/babushka-traphouse-afterparty) (2025).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var t in a)o(r,t,{get:a[t],enumerable:!0})},u=(r,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of m(a))!f.call(r,n)&&n!==t&&o(r,n,{get:()=>a[n],enumerable:!(s=d(a,n))||s.enumerable});return r};var g=(r,a,t)=>(t=r!=null?l(b(r)):{},u(a||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),y=r=>u(o({},\"__esModule\",{value:!0}),r);var p=k((j,i)=>{i.exports=_jsx_runtime});var M={};x(M,{default:()=>h,frontmatter:()=>z});var e=g(p()),z={title:\"Aznavour\",slug:\"aznavour-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[\"\"],duration:\"3:28\",trackNumber:7,producers:[],producersNames:[],description:\"Aznavour \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/aznavour-maniak\",children:\"Aznavour\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/babushka-traphouse-afterparty\",children:\"Babushka Traphouse afterparty\"}),\" (2025).\"]})}function h(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return y(M);})();\n;return Component;"
   },
   "_id": "skladby/aznavour-maniak.mdx",
   "_raw": {

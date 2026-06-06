@@ -14,16 +14,19 @@
   "album": "Tetris",
   "albumSlug": "tetris",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:02",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Rapgame — skladba od Ektor.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var u=f((N,m)=>{m.exports=_jsx_runtime});var D={};_(D,{default:()=>p,frontmatter:()=>k});var r=b(u()),k={title:\"Rapgame\",slug:\"rapgame-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\",\"la4\"],featuresNames:[\"DJ Wich\",\"LA4\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[],duration:\"3:02\",trackNumber:12,producers:[],producersNames:[],description:\"Rapgame \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Rapgame](/skladby/rapgame-ektor)** od [Ektor](/raperi/ektor) z alba [Tetris](/alba/tetris) (2012).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!f.call(r,n)&&n!==a&&o(r,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return r};var b=(r,e,a)=>(a=r!=null?d(h(r)):{},i(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),j=r=>i(o({},\"__esModule\",{value:!0}),r);var p=k((E,c)=>{c.exports=_jsx_runtime});var y={};x(y,{default:()=>u,frontmatter:()=>_});var t=b(p()),_={title:\"Rapgame\",slug:\"rapgame-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\",\"la4\"],featuresNames:[\"DJ Wich\",\"LA4\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[\"\"],duration:\"3:02\",trackNumber:12,producers:[],producersNames:[],description:\"Rapgame \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/rapgame-ektor\",children:\"Rapgame\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/ektor\",children:\"Ektor\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/tetris\",children:\"Tetris\"}),\" (2012).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return j(y);})();\n;return Component;"
   },
   "_id": "skladby/rapgame-ektor.mdx",
   "_raw": {

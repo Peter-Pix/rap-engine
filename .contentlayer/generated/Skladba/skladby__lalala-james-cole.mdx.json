@@ -12,16 +12,19 @@
   "album": "G.O.A.T.",
   "albumSlug": "g-o-a-t",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:10",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Lalala — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!f.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(s=i(t,n))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(h(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>l(o({},\"__esModule\",{value:!0}),e);var c=g((M,m)=>{m.exports=_jsx_runtime});var k={};j(k,{default:()=>p,frontmatter:()=>C});var a=_(c()),C={title:\"Lalala\",slug:\"lalala-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ptk\"],featuresNames:[\"P T K\"],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"4:10\",trackNumber:4,producers:[],producersNames:[],description:\"Lalala \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return b(k);})();\n;return Component;"
+    "raw": "\n**[Lalala](/skladby/lalala-james-cole)** od [James Cole](/raperi/james-cole) z alba [G.O.A.T.](/alba/g-o-a-t) (2020).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var t in e)o(a,t,{get:e[t],enumerable:!0})},n=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of f(e))!g.call(a,l)&&l!==t&&o(a,l,{get:()=>e[l],enumerable:!(s=p(e,l))||s.enumerable});return a};var b=(a,e,t)=>(t=a!=null?i(h(a)):{},n(e||!a||!a.__esModule?o(t,\"default\",{value:a,enumerable:!0}):t,a)),_=a=>n(o({},\"__esModule\",{value:!0}),a);var m=j((y,c)=>{c.exports=_jsx_runtime});var k={};x(k,{default:()=>d,frontmatter:()=>C});var r=b(m()),C={title:\"Lalala\",slug:\"lalala-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ptk\"],featuresNames:[\"P T K\"],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[\"\"],duration:\"4:10\",trackNumber:4,producers:[],producersNames:[],description:\"Lalala \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/lalala-james-cole\",children:\"Lalala\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/g-o-a-t\",children:\"G.O.A.T.\"}),\" (2020).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(u,{...a})}):u(a)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/lalala-james-cole.mdx",
   "_raw": {

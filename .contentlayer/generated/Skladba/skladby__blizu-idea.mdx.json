@@ -12,16 +12,19 @@
   "album": "Puls",
   "albumSlug": "puls",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:45",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Blizu — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(f(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var l=b((N,i)=>{i.exports=_jsx_runtime});var z={};_(z,{default:()=>c,frontmatter:()=>S});var r=g(l()),S={title:\"Blizu\",slug:\"blizu-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"tea-sofia\"],featuresNames:[\"Tea Sofia\"],album:\"Puls\",albumSlug:\"puls\",year:2023,genre:[],duration:\"2:45\",trackNumber:8,producers:[],producersNames:[],description:\"Blizu \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(z);})();\n;return Component;"
+    "raw": "\n**[Blizu](/skladby/blizu-idea)** od [Idea](/raperi/idea) z alba [Puls](/alba/puls) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var t in e)s(a,t,{get:e[t],enumerable:!0})},u=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!h.call(a,n)&&n!==t&&s(a,n,{get:()=>e[n],enumerable:!(o=f(e,n))||o.enumerable});return a};var z=(a,e,t)=>(t=a!=null?p(b(a)):{},u(e||!a||!a.__esModule?s(t,\"default\",{value:a,enumerable:!0}):t,a)),_=a=>u(s({},\"__esModule\",{value:!0}),a);var l=x((B,i)=>{i.exports=_jsx_runtime});var k={};g(k,{default:()=>c,frontmatter:()=>j});var r=z(l()),j={title:\"Blizu\",slug:\"blizu-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"tea-sofia\"],featuresNames:[\"Tea Sofia\"],album:\"Puls\",albumSlug:\"puls\",year:2023,genre:[\"\"],duration:\"2:45\",trackNumber:8,producers:[],producersNames:[],description:\"Blizu \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/blizu-idea\",children:\"Blizu\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/puls\",children:\"Puls\"}),\" (2023).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(d,{...a})}):d(a)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/blizu-idea.mdx",
   "_raw": {

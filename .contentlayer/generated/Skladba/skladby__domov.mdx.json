@@ -1,0 +1,28 @@
+{
+  "title": "Domov",
+  "slug": "domov",
+  "rapper": "Vladimir 518",
+  "rapperSlug": "vladimir-518",
+  "year": 2025,
+  "description": "Domov — singl od Vladimir 518 (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/90ed48d6dbbf6493d795485a1ab8e28f/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Domov](/skladby/domov)** od [Vladimir 518](/raperi/vladimir-518) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!u.call(r,o)&&o!==t&&i(r,o,{get:()=>e[o],enumerable:!(a=g(e,o))||a.enumerable});return r};var j=(r,e,t)=>(t=r!=null?p(f(r)):{},s(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),D=r=>s(i({},\"__esModule\",{value:!0}),r);var l=h((M,d)=>{d.exports=_jsx_runtime});var b={};v(b,{default:()=>c,frontmatter:()=>_});var n=j(l()),_={title:\"Domov\",slug:\"domov\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",year:2025,description:\"Domov \\u2014 singl od Vladimir 518 (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/90ed48d6dbbf6493d795485a1ab8e28f/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/domov\",children:\"Domov\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" (2025).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(m,{...r})}):m(r)}return D(b);})();\n;return Component;"
+  },
+  "_id": "skladby/domov.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/domov.mdx",
+    "sourceFileName": "domov.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/domov"
+  },
+  "type": "Skladba",
+  "url": "/skladby/domov",
+  "canonicalUrl": "https://4rap.cz/skladby/domov"
+}

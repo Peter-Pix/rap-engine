@@ -8,16 +8,19 @@
   "album": "Problems Freestyle",
   "albumSlug": "problems-freestyle",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:12",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Problems Freestyle — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},a=(e,r,n,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of i(r))!x.call(e,s)&&s!==n&&o(e,s,{get:()=>r[s],enumerable:!(l=d(r,s))||l.enumerable});return e};var _=(e,r,n)=>(n=e!=null?p(y(e)):{},a(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>a(o({},\"__esModule\",{value:!0}),e);var m=f((B,b)=>{b.exports=_jsx_runtime});var F={};h(F,{default:()=>c,frontmatter:()=>j});var t=_(m()),j={title:\"Problems Freestyle\",slug:\"problems-freestyle-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Problems Freestyle\",albumSlug:\"problems-freestyle\",year:2024,genre:[],duration:\"2:12\",trackNumber:1,producers:[],producersNames:[],description:\"Problems Freestyle \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[Problems Freestyle](/skladby/problems-freestyle-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var i=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)l(r,t,{get:e[t],enumerable:!0})},a=(r,e,t,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!f.call(r,o)&&o!==t&&l(r,o,{get:()=>e[o],enumerable:!(b=y(e,o))||b.enumerable});return r};var g=(r,e,t)=>(t=r!=null?p(i(r)):{},a(e||!r||!r.__esModule?l(t,\"default\",{value:r,enumerable:!0}):t,r)),z=r=>a(l({},\"__esModule\",{value:!0}),r);var m=x((F,n)=>{n.exports=_jsx_runtime});var _={};h(_,{default:()=>c,frontmatter:()=>B});var s=g(m()),B={title:\"Problems Freestyle\",slug:\"problems-freestyle-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Problems Freestyle\",albumSlug:\"problems-freestyle\",year:2024,genre:[\"\"],duration:\"2:12\",trackNumber:1,producers:[],producersNames:[],description:\"Problems Freestyle \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/problems-freestyle-bobby-blaze\",children:\"Problems Freestyle\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(u,{...r})}):u(r)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/problems-freestyle-bobby-blaze.mdx",
   "_raw": {

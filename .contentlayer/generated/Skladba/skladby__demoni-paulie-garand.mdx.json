@@ -16,16 +16,19 @@
   "album": "DANK",
   "albumSlug": "dank",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:25",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Démoni — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!x.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var _=(e,n,a)=>(a=e!=null?l(g(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var d=k((M,i)=>{i.exports=_jsx_runtime});var D={};f(D,{default:()=>c,frontmatter:()=>j});var r=_(d()),j={title:\"D\\xE9moni\",slug:\"demoni-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"maniak\",\"roseck\"],featuresNames:[\"Kenny Rough\",\"Maniak\",\"Roseck\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"3:25\",trackNumber:6,producers:[],producersNames:[],description:\"D\\xE9moni \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Démoni](/skladby/demoni-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [DANK](/alba/dank) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},s=(e,a,r,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of g(a))!f.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(i=m(a,t))||i.enumerable});return e};var b=(e,a,r)=>(r=e!=null?p(h(e)):{},s(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),D=e=>s(o({},\"__esModule\",{value:!0}),e);var u=k((N,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>_});var n=b(u()),_={title:\"D\\xE9moni\",slug:\"demoni-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"maniak\",\"roseck\"],featuresNames:[\"Kenny Rough\",\"Maniak\",\"Roseck\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[\"\"],duration:\"3:25\",trackNumber:6,producers:[],producersNames:[],description:\"D\\xE9moni \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/demoni-paulie-garand\",children:\"D\\xE9moni\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/dank\",children:\"DANK\"}),\" (2018).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return D(j);})();\n;return Component;"
   },
   "_id": "skladby/demoni-paulie-garand.mdx",
   "_raw": {

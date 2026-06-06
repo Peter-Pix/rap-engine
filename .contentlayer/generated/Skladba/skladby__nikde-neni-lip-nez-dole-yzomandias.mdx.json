@@ -12,16 +12,19 @@
   "album": "J. EDEN E-GEN (mixed by NobodyListen)",
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:00",
   "trackNumber": 18,
   "producers": [],
   "producersNames": [],
   "description": "nikde neni líp než dole — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var o in n)d(e,o,{get:n[o],enumerable:!0})},s=(e,n,o,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!y.call(e,r)&&r!==o&&d(e,r,{get:()=>n[r],enumerable:!(i=p(n,r))||i.enumerable});return e};var g=(e,n,o)=>(o=e!=null?c(x(e)):{},s(n||!e||!e.__esModule?d(o,\"default\",{value:e,enumerable:!0}):o,e)),N=e=>s(d({},\"__esModule\",{value:!0}),e);var l=h((z,a)=>{a.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>_});var t=g(l()),_={title:\"nikde neni l\\xEDp ne\\u017E dole\",slug:\"nikde-neni-lip-nez-dole-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[],duration:\"1:00\",trackNumber:18,producers:[],producersNames:[],description:\"nikde neni l\\xEDp ne\\u017E dole \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return N(j);})();\n;return Component;"
+    "raw": "\n**[nikde neni líp než dole](/skladby/nikde-neni-lip-nez-dole-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),h=(n,e)=>{for(var d in e)i(n,d,{get:e[d],enumerable:!0})},t=(n,e,d,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of b(e))!x.call(n,a)&&a!==d&&i(n,a,{get:()=>e[a],enumerable:!(r=u(e,a))||r.enumerable});return n};var z=(n,e,d)=>(d=n!=null?c(y(n)):{},t(e||!n||!n.__esModule?i(d,\"default\",{value:n,enumerable:!0}):d,n)),N=n=>t(i({},\"__esModule\",{value:!0}),n);var l=f((j,s)=>{s.exports=_jsx_runtime});var k={};h(k,{default:()=>p,frontmatter:()=>g});var o=z(l()),g={title:\"nikde neni l\\xEDp ne\\u017E dole\",slug:\"nikde-neni-lip-nez-dole-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"1:00\",trackNumber:18,producers:[],producersNames:[],description:\"nikde neni l\\xEDp ne\\u017E dole \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/nikde-neni-lip-nez-dole-yzomandias\",children:\"nikde neni l\\xEDp ne\\u017E dole\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(m,{...n})}):m(n)}return N(k);})();\n;return Component;"
   },
   "_id": "skladby/nikde-neni-lip-nez-dole-yzomandias.mdx",
   "_raw": {

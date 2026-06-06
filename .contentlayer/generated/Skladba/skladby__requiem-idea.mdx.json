@@ -12,16 +12,19 @@
   "album": "Idea x TrashBoySony EP",
   "albumSlug": "idea-x-trashboysony-ep",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:17",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Requiem — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!y.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var i=b((I,d)=>{d.exports=_jsx_runtime});var S={};f(S,{default:()=>c,frontmatter:()=>j});var r=_(i()),j={title:\"Requiem\",slug:\"requiem-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"trashboysony\"],featuresNames:[\"TrashBoySony\"],album:\"Idea x TrashBoySony EP\",albumSlug:\"idea-x-trashboysony-ep\",year:2022,genre:[],duration:\"2:17\",trackNumber:3,producers:[],producersNames:[],description:\"Requiem \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Requiem](/skladby/requiem-idea)** od [Idea](/raperi/idea) z alba [Idea x TrashBoySony EP](/alba/idea-x-trashboysony-ep) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},d=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!x.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return r};var g=(r,e,n)=>(n=r!=null?m(y(r)):{},d(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),_=r=>d(o({},\"__esModule\",{value:!0}),r);var u=b((S,i)=>{i.exports=_jsx_runtime});var q={};f(q,{default:()=>l,frontmatter:()=>j});var a=g(u()),j={title:\"Requiem\",slug:\"requiem-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"trashboysony\"],featuresNames:[\"TrashBoySony\"],album:\"Idea x TrashBoySony EP\",albumSlug:\"idea-x-trashboysony-ep\",year:2022,genre:[\"\"],duration:\"2:17\",trackNumber:3,producers:[],producersNames:[],description:\"Requiem \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/requiem-idea\",children:\"Requiem\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/idea-x-trashboysony-ep\",children:\"Idea x TrashBoySony EP\"}),\" (2022).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return _(q);})();\n;return Component;"
   },
   "_id": "skladby/requiem-idea.mdx",
   "_raw": {

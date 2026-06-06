@@ -8,16 +8,19 @@
   "album": "No Title",
   "albumSlug": "no-title",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:33",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Rebel (Original Mix) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!g.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(b(e)):{},l(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>l(i({},\"__esModule\",{value:!0}),e);var c=h((L,s)=>{s.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>j});var n=_(c()),j={title:\"Rebel (Original Mix)\",slug:\"rebel-original-mix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[],duration:\"6:33\",trackNumber:5,producers:[],producersNames:[],description:\"Rebel (Original Mix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return N(M);})();\n;return Component;"
+    "raw": "\n**[Rebel (Original Mix)](/skladby/rebel-original-mix-calin)** od [Calin](/raperi/calin) z alba [No Title](/alba/no-title) (2014).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},o=(r,e,t,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!g.call(r,a)&&a!==t&&i(r,a,{get:()=>e[a],enumerable:!(l=m(e,a))||l.enumerable});return r};var N=(r,e,t)=>(t=r!=null?p(b(r)):{},o(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),M=r=>o(i({},\"__esModule\",{value:!0}),r);var c=f((k,s)=>{s.exports=_jsx_runtime});var j={};h(j,{default:()=>d,frontmatter:()=>_});var n=N(c()),_={title:\"Rebel (Original Mix)\",slug:\"rebel-original-mix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[\"\"],duration:\"6:33\",trackNumber:5,producers:[],producersNames:[],description:\"Rebel (Original Mix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/rebel-original-mix-calin\",children:\"Rebel (Original Mix)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/no-title\",children:\"No Title\"}),\" (2014).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(u,{...r})}):u(r)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/rebel-original-mix-calin.mdx",
   "_raw": {

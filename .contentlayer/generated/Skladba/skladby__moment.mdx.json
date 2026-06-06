@@ -1,0 +1,28 @@
+{
+  "title": "Moment",
+  "slug": "moment",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "year": 2023,
+  "description": "Moment — singl od Maniak (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/97b1c31a0617154cc3203fc6314f4cbe/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Moment](/skladby/moment)** od [Maniak](/raperi/maniak) (2023).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),M=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of x(e))!u.call(n,r)&&r!==t&&o(n,r,{get:()=>e[r],enumerable:!(s=g(e,r))||s.enumerable});return n};var j=(n,e,t)=>(t=n!=null?d(f(n)):{},i(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),k=n=>i(o({},\"__esModule\",{value:!0}),n);var m=h((D,c)=>{c.exports=_jsx_runtime});var b={};M(b,{default:()=>p,frontmatter:()=>_});var a=j(m()),_={title:\"Moment\",slug:\"moment\",rapper:\"Maniak\",rapperSlug:\"maniak\",year:2023,description:\"Moment \\u2014 singl od Maniak (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/97b1c31a0617154cc3203fc6314f4cbe/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/moment\",children:\"Moment\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2023).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return k(b);})();\n;return Component;"
+  },
+  "_id": "skladby/moment.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/moment.mdx",
+    "sourceFileName": "moment.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/moment"
+  },
+  "type": "Skladba",
+  "url": "/skladby/moment",
+  "canonicalUrl": "https://4rap.cz/skladby/moment"
+}

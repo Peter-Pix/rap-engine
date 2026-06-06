@@ -1,5 +1,9 @@
+'use client'
+
 import Link from 'next/link'
 import { CategoryBadge } from './CategoryBadge'
+import { useUnread } from '@/hooks/useUnread'
+import { useEffect } from 'react'
 import { TagList } from './TagPill'
 import { formatCzechDate } from '@/lib/magazine'
 
@@ -27,6 +31,12 @@ interface FeaturedHeroProps {
 }
 
 export function FeaturedHero({ article }: FeaturedHeroProps) {
+  const { isUnread, markRead } = useUnread()
+  const unread = article ? isUnread(article.slug) : false
+
+  useEffect(() => {
+    if (article) markRead(article.slug)
+  }, [article?.slug]) // eslint-disable-line react-hooks/exhaustive-deps
   if (!article) return null
 
   return (
@@ -50,6 +60,9 @@ export function FeaturedHero({ article }: FeaturedHeroProps) {
           <div className="flex flex-wrap items-center gap-3 mb-8">
             <CategoryBadge category="featured" />
             <CategoryBadge category={article.category} />
+            {unread && (
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-zinc-950 animate-pulse" aria-label="Nepřečteno" />
+            )}
             <time
               dateTime={article.publishedAt}
               className="text-xs font-mono uppercase tracking-widest text-zinc-500"
@@ -59,7 +72,7 @@ export function FeaturedHero({ article }: FeaturedHeroProps) {
           </div>
 
           {/* Title — masivní display */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-6 group-hover:text-zinc-50 transition-colors">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-6 group-hover:text-zinc-50 transition-colors cz-display">
             {article.title}
           </h1>
 

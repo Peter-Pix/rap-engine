@@ -8,16 +8,19 @@
   "album": "Ach Ano Mixtape",
   "albumSlug": "ach-ano-mixtape",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:13",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Nerdman (Remix) — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var m=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)m(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&m(e,a,{get:()=>n[a],enumerable:!(o=l(n,a))||o.enumerable});return e};var g=(e,n,r)=>(r=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?m(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>i(m({},\"__esModule\",{value:!0}),e);var c=_((A,s)=>{s.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>M});var t=g(c()),M={title:\"Nerdman (Remix)\",slug:\"nerdman-remix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[],duration:\"3:13\",trackNumber:12,producers:[],producersNames:[],description:\"Nerdman (Remix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Nerdman (Remix)](/skladby/nerdman-remix-maniak)** od [Maniak](/raperi/maniak) z alba [Ach Ano Mixtape](/alba/ach-ano-mixtape) (2015).\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var r in a)i(e,r,{get:a[r],enumerable:!0})},m=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of x(a))!f.call(e,t)&&t!==r&&i(e,t,{get:()=>a[t],enumerable:!(o=l(a,t))||o.enumerable});return e};var M=(e,a,r)=>(r=e!=null?u(h(e)):{},m(a||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(i({},\"__esModule\",{value:!0}),e);var c=k((A,s)=>{s.exports=_jsx_runtime});var _={};b(_,{default:()=>p,frontmatter:()=>N});var n=M(c()),N={title:\"Nerdman (Remix)\",slug:\"nerdman-remix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[\"\"],duration:\"3:13\",trackNumber:12,producers:[],producersNames:[],description:\"Nerdman (Remix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/nerdman-remix-maniak\",children:\"Nerdman (Remix)\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/ach-ano-mixtape\",children:\"Ach Ano Mixtape\"}),\" (2015).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/nerdman-remix-maniak.mdx",
   "_raw": {

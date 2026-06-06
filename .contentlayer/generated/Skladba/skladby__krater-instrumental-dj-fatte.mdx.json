@@ -8,16 +8,19 @@
   "album": "Soundtrack (Instrumentals)",
   "albumSlug": "soundtrack-instrumentals",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:54",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Kráter (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},o=(t,e,n,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(t,a)&&a!==n&&s(t,a,{get:()=>e[a],enumerable:!(u=p(e,a))||u.enumerable});return t};var b=(t,e,n)=>(n=t!=null?i(f(t)):{},o(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),g=t=>o(s({},\"__esModule\",{value:!0}),t);var c=j((S,m)=>{m.exports=_jsx_runtime});var D={};_(D,{default:()=>d,frontmatter:()=>k});var r=b(c()),k={title:\"Kr\\xE1ter (Instrumental)\",slug:\"krater-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[],duration:\"3:54\",trackNumber:4,producers:[],producersNames:[],description:\"Kr\\xE1ter (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(l,{...t})}):l(t)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Kráter (Instrumental)](/skladby/krater-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack (Instrumentals)](/alba/soundtrack-instrumentals) (2021).\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(r,t)=>()=>(t||r((t={exports:{}}).exports,t),t.exports),x=(r,t)=>{for(var n in t)s(r,n,{get:t[n],enumerable:!0})},o=(r,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!j.call(r,a)&&a!==n&&s(r,a,{get:()=>t[a],enumerable:!(u=p(t,a))||u.enumerable});return r};var b=(r,t,n)=>(n=r!=null?i(h(r)):{},o(t||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>o(s({},\"__esModule\",{value:!0}),r);var d=k((S,l)=>{l.exports=_jsx_runtime});var D={};x(D,{default:()=>m,frontmatter:()=>_});var e=b(d()),_={title:\"Kr\\xE1ter (Instrumental)\",slug:\"krater-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[\"\"],duration:\"3:54\",trackNumber:4,producers:[],producersNames:[],description:\"Kr\\xE1ter (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(r){let t={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(t.p,{children:[(0,e.jsx)(t.strong,{children:(0,e.jsx)(t.a,{href:\"/skladby/krater-instrumental-dj-fatte\",children:\"Kr\\xE1ter (Instrumental)\"})}),\" od \",(0,e.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,e.jsx)(t.a,{href:\"/alba/soundtrack-instrumentals\",children:\"Soundtrack (Instrumentals)\"}),\" (2021).\"]})}function m(r={}){let{wrapper:t}=r.components||{};return t?(0,e.jsx)(t,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return g(D);})();\n;return Component;"
   },
   "_id": "skladby/krater-instrumental-dj-fatte.mdx",
   "_raw": {

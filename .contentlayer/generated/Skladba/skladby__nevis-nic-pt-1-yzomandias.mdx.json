@@ -12,16 +12,19 @@
   "album": "ZPÁTKY NA SVOJÍ PLANETU",
   "albumSlug": "zpatky-na-svoji-planetu",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:17",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "NEVÍŠ NIC pt. 1 — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?c(N(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var m=f((z,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>p,frontmatter:()=>j});var t=b(m()),j={title:\"NEV\\xCD\\u0160 NIC pt. 1\",slug:\"nevis-nic-pt-1-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\",albumSlug:\"zpatky-na-svoji-planetu\",year:2023,genre:[],duration:\"2:17\",trackNumber:6,producers:[],producersNames:[],description:\"NEV\\xCD\\u0160 NIC pt. 1 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[NEVÍŠ NIC pt. 1](/skladby/nevis-nic-pt-1-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [ZPÁTKY NA SVOJÍ PLANETU](/alba/zpatky-na-svoji-planetu) (2023).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var N=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var z=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var t in a)s(n,t,{get:a[t],enumerable:!0})},i=(n,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of N(a))!h.call(n,r)&&r!==t&&s(n,r,{get:()=>a[r],enumerable:!(o=m(a,r))||o.enumerable});return n};var y=(n,a,t)=>(t=n!=null?l(f(n)):{},i(a||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),b=n=>i(s({},\"__esModule\",{value:!0}),n);var p=z((_,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>u,frontmatter:()=>g});var e=y(p()),g={title:\"NEV\\xCD\\u0160 NIC pt. 1\",slug:\"nevis-nic-pt-1-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\",albumSlug:\"zpatky-na-svoji-planetu\",year:2023,genre:[\"\"],duration:\"2:17\",trackNumber:6,producers:[],producersNames:[],description:\"NEV\\xCD\\u0160 NIC pt. 1 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/nevis-nic-pt-1-yzomandias\",children:\"NEV\\xCD\\u0160 NIC pt. 1\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/zpatky-na-svoji-planetu\",children:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\"}),\" (2023).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(c,{...n})}):c(n)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/nevis-nic-pt-1-yzomandias.mdx",
   "_raw": {

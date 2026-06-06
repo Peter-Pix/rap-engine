@@ -8,16 +8,19 @@
   "album": "Tempo",
   "albumSlug": "tempo",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:31",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Piko 1 — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?p(h(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(a({},\"__esModule\",{value:!0}),e);var d=_((S,u)=>{u.exports=_jsx_runtime});var M={};b(M,{default:()=>c,frontmatter:()=>k});var r=g(d()),k={title:\"Piko 1\",slug:\"piko-1-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[],duration:\"1:31\",trackNumber:5,producers:[],producersNames:[],description:\"Piko 1 \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Piko 1](/skladby/piko-1-idea)** od [Idea](/raperi/idea) z alba [Tempo](/alba/tempo) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!x.call(r,o)&&o!==t&&n(r,o,{get:()=>e[o],enumerable:!(s=m(e,o))||s.enumerable});return r};var g=(r,e,t)=>(t=r!=null?l(h(r)):{},i(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>i(n({},\"__esModule\",{value:!0}),r);var p=b((M,d)=>{d.exports=_jsx_runtime});var y={};k(y,{default:()=>u,frontmatter:()=>j});var a=g(p()),j={title:\"Piko 1\",slug:\"piko-1-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[\"\"],duration:\"1:31\",trackNumber:5,producers:[],producersNames:[],description:\"Piko 1 \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/piko-1-idea\",children:\"Piko 1\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/tempo\",children:\"Tempo\"}),\" (2019).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/piko-1-idea.mdx",
   "_raw": {

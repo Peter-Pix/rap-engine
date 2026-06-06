@@ -1,13 +1,15 @@
 {
   "title": "Martina Pártlová",
   "slug": "martina-partlova",
-  "genre": [],
-  "description": "Martina Pártlová — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Martina Pártlová — nezávislá autorka rapových textů a beatů na československé undergroundové scéně. Objevuj její tvorbu.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),j=(t,n)=>{for(var r in n)s(t,r,{get:n[r],enumerable:!0})},i=(t,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!_.call(t,o)&&o!==r&&s(t,o,{get:()=>n[o],enumerable:!(a=u(n,o))||a.enumerable});return t};var v=(t,n,r)=>(r=t!=null?d(x(t)):{},i(n||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>i(s({},\"__esModule\",{value:!0}),t);var l=f((y,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>g});var e=v(l()),g={title:\"Martina P\\xE1rtlov\\xE1\",slug:\"martina-partlova\",genre:[],description:\"Martina P\\xE1rtlov\\xE1 \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(t){let n={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,e.jsx)(n.p,{children:(0,e.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(m,{...t})}):m(t)}return M(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Martina Pártlová](/raperi/martina-partlova)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var v=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),g=(n,t)=>{for(var e in t)o(n,e,{get:t[e],enumerable:!0})},i=(n,t,e,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!j.call(n,a)&&a!==e&&o(n,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return n};var _=(n,t,e)=>(e=n!=null?v(m(n)):{},i(t||!n||!n.__esModule?o(e,\"default\",{value:n,enumerable:!0}):e,n)),f=n=>i(o({},\"__esModule\",{value:!0}),n);var p=x((P,c)=>{c.exports=_jsx_runtime});var b={};g(b,{default:()=>u,frontmatter:()=>M});var r=_(p()),M={title:\"Martina P\\xE1rtlov\\xE1\",slug:\"martina-partlova\",genre:[\"\"],description:\"Martina P\\xE1rtlov\\xE1 \\u2014 nez\\xE1visl\\xE1 autorka rapov\\xFDch text\\u016F a beat\\u016F na \\u010Deskoslovensk\\xE9 undergroundov\\xE9 sc\\xE9n\\u011B. Objevuj jej\\xED tvorbu.\",publishedAt:\"2026-05-31\"};function l(n){let t={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/raperi/martina-partlova\",children:\"Martina P\\xE1rtlov\\xE1\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function u(n={}){let{wrapper:t}=n.components||{};return t?(0,r.jsx)(t,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return f(b);})();\n;return Component;"
   },
   "_id": "raperi/martina-partlova.mdx",
   "_raw": {

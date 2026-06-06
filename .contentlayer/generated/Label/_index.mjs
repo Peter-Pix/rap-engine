@@ -18,6 +18,7 @@ import labely__dvojlitrboyzzMdx from './labely__dvojlitrboyzz.mdx.json' with { t
 import labely__everydaysMdx from './labely__everydays.mdx.json' with { type: 'json' }
 import labely__fuckThemMdx from './labely__fuck-them.mdx.json' with { type: 'json' }
 import labely__fuerzaArmaMdx from './labely__fuerza-arma.mdx.json' with { type: 'json' }
+import labely__goldenTouchMdx from './labely__golden-touch.mdx.json' with { type: 'json' }
 import labely__hypno_808Mdx from './labely__hypno-808.mdx.json' with { type: 'json' }
 import labely__mikeRoftMdx from './labely__mike-roft.mdx.json' with { type: 'json' }
 import labely__milionPlusMdx from './labely__milion-plus.mdx.json' with { type: 'json' }
@@ -29,4 +30,4 @@ import labely__troublegangMdx from './labely__troublegang.mdx.json' with { type:
 import labely__tyNikdyMdx from './labely__ty-nikdy.mdx.json' with { type: 'json' }
 import labely__znkMdx from './labely__znk.mdx.json' with { type: 'json' }
 
-export const allLabels = [labely__100kMdx, labely__1312RecordsMdx, labely__415_02RecordsMdx, labely__44EnterpriseMdx, labely__archetyp_51Mdx, labely__azuritKingdomMdx, labely__biggbossMdx, labely__bipolarsnowbloodMdx, labely__blackSheepCartelMdx, labely__blakkwoodRecordsMdx, labely__centralGangMdx, labely__churaqCliqueMdx, labely__comebackgangMdx, labely__detektorRecordsMdx, labely__dvojlitrboyzzMdx, labely__everydaysMdx, labely__fuckThemMdx, labely__fuerzaArmaMdx, labely__hypno_808Mdx, labely__mikeRoftMdx, labely__milionPlusMdx, labely__pozorRecordsMdx, labely__pvpLabelMdx, labely__rychliKluciMdx, labely__skerocudaMdx, labely__troublegangMdx, labely__tyNikdyMdx, labely__znkMdx]
+export const allLabels = [labely__100kMdx, labely__1312RecordsMdx, labely__415_02RecordsMdx, labely__44EnterpriseMdx, labely__archetyp_51Mdx, labely__azuritKingdomMdx, labely__biggbossMdx, labely__bipolarsnowbloodMdx, labely__blackSheepCartelMdx, labely__blakkwoodRecordsMdx, labely__centralGangMdx, labely__churaqCliqueMdx, labely__comebackgangMdx, labely__detektorRecordsMdx, labely__dvojlitrboyzzMdx, labely__everydaysMdx, labely__fuckThemMdx, labely__fuerzaArmaMdx, labely__goldenTouchMdx, labely__hypno_808Mdx, labely__mikeRoftMdx, labely__milionPlusMdx, labely__pozorRecordsMdx, labely__pvpLabelMdx, labely__rychliKluciMdx, labely__skerocudaMdx, labely__troublegangMdx, labely__tyNikdyMdx, labely__znkMdx]

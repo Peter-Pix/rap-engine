@@ -14,16 +14,19 @@
   "album": "J. EDEN E-GEN (mixed by NobodyListen)",
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:11",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "CHCEME TOHO MOC (chceme víc) — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),C=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},c=(e,n,o,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(a=p(n,r))||a.enumerable});return e};var E=(e,n,o)=>(o=e!=null?l(b(e)):{},c(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),N=e=>c(s({},\"__esModule\",{value:!0}),e);var i=y((_,d)=>{d.exports=_jsx_runtime});var g={};C(g,{default:()=>u,frontmatter:()=>f});var t=E(i()),f={title:\"CHCEME TOHO MOC (chceme v\\xEDc)\",slug:\"chceme-toho-moc-chceme-vic-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"nik-tendo\"],featuresNames:[\"Nobodylisten\",\"Nik Tendo\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[],duration:\"1:11\",trackNumber:13,producers:[],producersNames:[],description:\"CHCEME TOHO MOC (chceme v\\xEDc) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return N(g);})();\n;return Component;"
+    "raw": "\n**[CHCEME TOHO MOC (chceme víc)](/skladby/chceme-toho-moc-chceme-vic-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
+    "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var E=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var a in e)r(n,a,{get:e[a],enumerable:!0})},s=(n,e,a,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!p.call(n,t)&&t!==a&&r(n,t,{get:()=>e[t],enumerable:!(c=u(e,t))||c.enumerable});return n};var C=(n,e,a)=>(a=n!=null?h(y(n)):{},s(e||!n||!n.__esModule?r(a,\"default\",{value:n,enumerable:!0}):a,n)),N=n=>s(r({},\"__esModule\",{value:!0}),n);var i=E((O,d)=>{d.exports=_jsx_runtime});var g={};x(g,{default:()=>l,frontmatter:()=>f});var o=C(i()),f={title:\"CHCEME TOHO MOC (chceme v\\xEDc)\",slug:\"chceme-toho-moc-chceme-vic-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"nik-tendo\"],featuresNames:[\"Nobodylisten\",\"Nik Tendo\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"1:11\",trackNumber:13,producers:[],producersNames:[],description:\"CHCEME TOHO MOC (chceme v\\xEDc) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/chceme-toho-moc-chceme-vic-yzomandias\",children:\"CHCEME TOHO MOC (chceme v\\xEDc)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(m,{...n})}):m(n)}return N(g);})();\n;return Component;"
   },
   "_id": "skladby/chceme-toho-moc-chceme-vic-yzomandias.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Soundtrack",
   "albumSlug": "soundtrack",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Čistá pohoda — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},d=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!f.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(s=l(e,a))||s.enumerable});return t};var b=(t,e,n)=>(n=t!=null?m(x(t)):{},d(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),g=t=>d(o({},\"__esModule\",{value:!0}),t);var c=j((S,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>p,frontmatter:()=>k});var r=b(c()),k={title:\"\\u010Cist\\xE1 pohoda\",slug:\"cista-pohoda-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"reset\"],featuresNames:[\"Reset\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"3:52\",trackNumber:10,producers:[],producersNames:[],description:\"\\u010Cist\\xE1 pohoda \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Čistá pohoda](/skladby/cista-pohoda-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack](/alba/soundtrack) (2013).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)n(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!j.call(e,o)&&o!==r&&n(e,o,{get:()=>t[o],enumerable:!(s=h(t,o))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(m(e)):{},d(t||!e||!e.__esModule?n(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>d(n({},\"__esModule\",{value:!0}),e);var u=x((y,c)=>{c.exports=_jsx_runtime});var D={};b(D,{default:()=>p,frontmatter:()=>_});var a=g(u()),_={title:\"\\u010Cist\\xE1 pohoda\",slug:\"cista-pohoda-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"reset\"],featuresNames:[\"Reset\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[\"\"],duration:\"3:52\",trackNumber:10,producers:[],producersNames:[],description:\"\\u010Cist\\xE1 pohoda \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(t.p,{children:[(0,a.jsx)(t.strong,{children:(0,a.jsx)(t.a,{href:\"/skladby/cista-pohoda-dj-fatte\",children:\"\\u010Cist\\xE1 pohoda\"})}),\" od \",(0,a.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(t.a,{href:\"/alba/soundtrack\",children:\"Soundtrack\"}),\" (2013).\"]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return k(D);})();\n;return Component;"
   },
   "_id": "skladby/cista-pohoda-dj-fatte.mdx",
   "_raw": {

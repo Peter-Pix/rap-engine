@@ -14,16 +14,19 @@
   "album": "JUSTiCE44 (Ledová Cesta)",
   "albumSlug": "justice44-ledova-cesta",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "44GNG — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!b.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(a=m(t,r))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(x(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var i=g((N,d)=>{d.exports=_jsx_runtime});var v={};f(v,{default:()=>p,frontmatter:()=>k});var o=_(i()),k={title:\"44GNG\",slug:\"44gng-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"robis-hood\",\"dokkeytino\"],featuresNames:[\"Robis Hood\",\"Dokkeytino\"],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[],duration:\"3:24\",trackNumber:4,producers:[],producersNames:[],description:\"44GNG \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return j(v);})();\n;return Component;"
+    "raw": "\n**[44GNG](/skladby/44gng-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [JUSTiCE44 (Ledová Cesta)](/alba/justice44-ledova-cesta) (2018).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var b=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),f=(o,e)=>{for(var t in e)s(o,t,{get:e[t],enumerable:!0})},c=(o,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!v.call(o,r)&&r!==t&&s(o,r,{get:()=>e[r],enumerable:!(n=m(e,r))||n.enumerable});return o};var x=(o,e,t)=>(t=o!=null?u(h(o)):{},c(e||!o||!o.__esModule?s(t,\"default\",{value:o,enumerable:!0}):t,o)),j=o=>c(s({},\"__esModule\",{value:!0}),o);var i=b((G,d)=>{d.exports=_jsx_runtime});var C={};f(C,{default:()=>p,frontmatter:()=>k});var a=x(i()),k={title:\"44GNG\",slug:\"44gng-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"robis-hood\",\"dokkeytino\"],featuresNames:[\"Robis Hood\",\"Dokkeytino\"],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[\"\"],duration:\"3:24\",trackNumber:4,producers:[],producersNames:[],description:\"44GNG \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function l(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/44gng-lvcas-dope\",children:\"44GNG\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/justice44-ledova-cesta\",children:\"JUSTiCE44 (Ledov\\xE1 Cesta)\"}),\" (2018).\"]})}function p(o={}){let{wrapper:e}=o.components||{};return e?(0,a.jsx)(e,{...o,children:(0,a.jsx)(l,{...o})}):l(o)}return j(C);})();\n;return Component;"
   },
   "_id": "skladby/44gng-lvcas-dope.mdx",
   "_raw": {

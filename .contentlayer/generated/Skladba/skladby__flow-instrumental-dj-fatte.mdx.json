@@ -8,16 +8,19 @@
   "album": "Fade In (Instrumental)",
   "albumSlug": "fade-in-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Flow (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),F=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},u=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!h.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return t};var _=(t,e,r)=>(r=t!=null?i(x(t)):{},u(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),b=t=>u(s({},\"__esModule\",{value:!0}),t);var m=j((I,l)=>{l.exports=_jsx_runtime});var w={};F(w,{default:()=>c,frontmatter:()=>g});var n=_(m()),g={title:\"Flow (Instrumental)\",slug:\"flow-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fade In (Instrumental)\",albumSlug:\"fade-in-instrumental\",year:2020,genre:[],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"Flow (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return b(w);})();\n;return Component;"
+    "raw": "\n**[Flow (Instrumental)](/skladby/flow-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fade In (Instrumental)](/alba/fade-in-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!j.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(l=f(t,r))||l.enumerable});return e};var F=(e,t,a)=>(a=e!=null?c(h(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>o(s({},\"__esModule\",{value:!0}),e);var d=x((D,u)=>{u.exports=_jsx_runtime});var w={};b(w,{default:()=>m,frontmatter:()=>I});var n=F(d()),I={title:\"Flow (Instrumental)\",slug:\"flow-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fade In (Instrumental)\",albumSlug:\"fade-in-instrumental\",year:2020,genre:[\"\"],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"Flow (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(t.p,{children:[(0,n.jsx)(t.strong,{children:(0,n.jsx)(t.a,{href:\"/skladby/flow-instrumental-dj-fatte\",children:\"Flow (Instrumental)\"})}),\" od \",(0,n.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,n.jsx)(t.a,{href:\"/alba/fade-in-instrumental\",children:\"Fade In (Instrumental)\"}),\" (2020).\"]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(w);})();\n;return Component;"
   },
   "_id": "skladby/flow-instrumental-dj-fatte.mdx",
   "_raw": {

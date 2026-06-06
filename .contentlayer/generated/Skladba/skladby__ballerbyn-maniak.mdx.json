@@ -8,16 +8,19 @@
   "album": "Ach Ano III: Ballerbyn",
   "albumSlug": "ach-ano-iii-ballerbyn",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:21",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Ballerbyn — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of b(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(l=p(n,a))||l.enumerable});return e};var _=(e,n,t)=>(t=e!=null?d(h(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var c=f((A,i)=>{i.exports=_jsx_runtime});var j={};y(j,{default:()=>m,frontmatter:()=>k});var r=_(c()),k={title:\"Ballerbyn\",slug:\"ballerbyn-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano III: Ballerbyn\",albumSlug:\"ach-ano-iii-ballerbyn\",year:2019,genre:[],duration:\"3:21\",trackNumber:2,producers:[],producersNames:[],description:\"Ballerbyn \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Ballerbyn](/skladby/ballerbyn-maniak)** od [Maniak](/raperi/maniak) z alba [Ach Ano III: Ballerbyn](/alba/ach-ano-iii-ballerbyn) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),k=(n,a)=>{for(var r in a)t(n,r,{get:a[r],enumerable:!0})},i=(n,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let l of p(a))!y.call(n,l)&&l!==r&&t(n,l,{get:()=>a[l],enumerable:!(o=m(a,l))||o.enumerable});return n};var x=(n,a,r)=>(r=n!=null?d(h(n)):{},i(a||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>i(t({},\"__esModule\",{value:!0}),n);var c=f((j,s)=>{s.exports=_jsx_runtime});var M={};k(M,{default:()=>u,frontmatter:()=>I});var e=x(c()),I={title:\"Ballerbyn\",slug:\"ballerbyn-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano III: Ballerbyn\",albumSlug:\"ach-ano-iii-ballerbyn\",year:2019,genre:[\"\"],duration:\"3:21\",trackNumber:2,producers:[],producersNames:[],description:\"Ballerbyn \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function b(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/ballerbyn-maniak\",children:\"Ballerbyn\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/ach-ano-iii-ballerbyn\",children:\"Ach Ano III: Ballerbyn\"}),\" (2019).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(b,{...n})}):b(n)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/ballerbyn-maniak.mdx",
   "_raw": {

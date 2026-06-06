@@ -12,16 +12,19 @@
   "album": "No Words Needed",
   "albumSlug": "no-words-needed",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:49",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Bring It Back — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?p(x(e)):{},d(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>d(o({},\"__esModule\",{value:!0}),e);var c=g((D,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>m,frontmatter:()=>_});var r=j(c()),_={title:\"Bring It Back\",slug:\"bring-it-back-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"honza-peroutka\"],featuresNames:[\"Honza Peroutka\"],album:\"No Words Needed\",albumSlug:\"no-words-needed\",year:2019,genre:[],duration:\"3:49\",trackNumber:13,producers:[],producersNames:[],description:\"Bring It Back \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return k(N);})();\n;return Component;"
+    "raw": "\n**[Bring It Back](/skladby/bring-it-back-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [No Words Needed](/alba/no-words-needed) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),k=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},s=(t,e,a,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!m.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(d=f(e,n))||d.enumerable});return t};var j=(t,e,a)=>(a=t!=null?p(g(t)):{},s(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),x=t=>s(o({},\"__esModule\",{value:!0}),t);var i=h((D,c)=>{c.exports=_jsx_runtime});var B={};k(B,{default:()=>l,frontmatter:()=>N});var r=j(i()),N={title:\"Bring It Back\",slug:\"bring-it-back-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"honza-peroutka\"],featuresNames:[\"Honza Peroutka\"],album:\"No Words Needed\",albumSlug:\"no-words-needed\",year:2019,genre:[\"\"],duration:\"3:49\",trackNumber:13,producers:[],producersNames:[],description:\"Bring It Back \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/bring-it-back-dj-fatte\",children:\"Bring It Back\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/no-words-needed\",children:\"No Words Needed\"}),\" (2019).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return x(B);})();\n;return Component;"
   },
   "_id": "skladby/bring-it-back-dj-fatte.mdx",
   "_raw": {

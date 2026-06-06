@@ -8,16 +8,19 @@
   "album": "9EVET",
   "albumSlug": "9evet",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:45",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "S Jinou — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=m(t,o))||a.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var p=_((L,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>v});var n=g(p()),v={title:\"S Jinou\",slug:\"s-jinou-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"9EVET\",albumSlug:\"9evet\",year:2016,genre:[],duration:\"2:45\",trackNumber:7,producers:[],producersNames:[],description:\"S Jinou \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[S Jinou](/skladby/s-jinou-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [9EVET](/alba/9evet) (2016).\n",
+    "code": "var Component=(()=>{var i=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!v.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(s=m(e,o))||s.enumerable});return r};var g=(r,e,n)=>(n=r!=null?i(h(r)):{},c(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),j=r=>c(t({},\"__esModule\",{value:!0}),r);var l=x((E,u)=>{u.exports=_jsx_runtime});var D={};b(D,{default:()=>d,frontmatter:()=>_});var a=g(l()),_={title:\"S Jinou\",slug:\"s-jinou-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"9EVET\",albumSlug:\"9evet\",year:2016,genre:[\"\"],duration:\"2:45\",trackNumber:7,producers:[],producersNames:[],description:\"S Jinou \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/s-jinou-lvcas-dope\",children:\"S Jinou\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/9evet\",children:\"9EVET\"}),\" (2016).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return j(D);})();\n;return Component;"
   },
   "_id": "skladby/s-jinou-lvcas-dope.mdx",
   "_raw": {

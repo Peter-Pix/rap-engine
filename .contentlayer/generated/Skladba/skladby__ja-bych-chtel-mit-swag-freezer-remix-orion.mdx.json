@@ -12,16 +12,19 @@
   "album": "Noční vidění V 2.0",
   "albumSlug": "nocni-videni",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:40",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Ja bych chtěl mít swag (Freezer Remix) — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(i=d(r,o))||i.enumerable});return e};var _=(e,r,n)=>(n=e!=null?l(p(e)):{},s(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var m=b((N,c)=>{c.exports=_jsx_runtime});var w={};f(w,{default:()=>x,frontmatter:()=>y});var t=_(m()),y={title:\"Ja bych cht\\u011Bl m\\xEDt swag (Freezer Remix)\",slug:\"ja-bych-chtel-mit-swag-freezer-remix-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED V 2.0\",albumSlug:\"nocni-videni\",year:2015,genre:[],duration:\"3:40\",trackNumber:12,producers:[],producersNames:[],description:\"Ja bych cht\\u011Bl m\\xEDt swag (Freezer Remix) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function x(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(w);})();\n;return Component;"
+    "raw": "\n**[Ja bych chtěl mít swag (Freezer Remix)](/skladby/ja-bych-chtel-mit-swag-freezer-remix-orion)** od [Orion](/raperi/orion) z alba [Noční vidění](/alba/nocni-videni) (2015).\n",
+    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!g.call(r,o)&&o!==t&&a(r,o,{get:()=>e[o],enumerable:!(i=u(e,o))||i.enumerable});return r};var y=(r,e,t)=>(t=r!=null?h(p(r)):{},s(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>s(a({},\"__esModule\",{value:!0}),r);var l=b((N,c)=>{c.exports=_jsx_runtime});var z={};f(z,{default:()=>d,frontmatter:()=>w});var n=y(l()),w={title:\"Ja bych cht\\u011Bl m\\xEDt swag (Freezer Remix)\",slug:\"ja-bych-chtel-mit-swag-freezer-remix-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED V 2.0\",albumSlug:\"nocni-videni\",year:2015,genre:[\"\"],duration:\"3:40\",trackNumber:12,producers:[],producersNames:[],description:\"Ja bych cht\\u011Bl m\\xEDt swag (Freezer Remix) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/ja-bych-chtel-mit-swag-freezer-remix-orion\",children:\"Ja bych cht\\u011Bl m\\xEDt swag (Freezer Remix)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/nocni-videni\",children:\"No\\u010Dn\\xED vid\\u011Bn\\xED\"}),\" (2015).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(m,{...r})}):m(r)}return j(z);})();\n;return Component;"
   },
   "_id": "skladby/ja-bych-chtel-mit-swag-freezer-remix-orion.mdx",
   "_raw": {

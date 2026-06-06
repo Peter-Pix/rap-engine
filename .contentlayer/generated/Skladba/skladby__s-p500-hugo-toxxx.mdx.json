@@ -12,16 +12,19 @@
   "album": "C.W.A",
   "albumSlug": "c-w-a",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:11",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "S&P500 — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of l(t))!g.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var c=f((M,x)=>{x.exports=_jsx_runtime});var C={};_(C,{default:()=>m,frontmatter:()=>S});var r=b(c()),S={title:\"S&P500\",slug:\"s-p500-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"d-ritch\"],featuresNames:[\"D Ritch\"],album:\"C.W.A\",albumSlug:\"c-w-a\",year:2025,genre:[],duration:\"4:11\",trackNumber:1,producers:[],producersNames:[],description:\"S&P500 \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[S&P500](/skladby/s-p500-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [C.W.A](/alba/c-w-a) (2025).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var o in e)n(r,o,{get:e[o],enumerable:!0})},s=(r,e,o,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!m.call(r,a)&&a!==o&&n(r,a,{get:()=>e[a],enumerable:!(x=p(e,a))||x.enumerable});return r};var _=(r,e,o)=>(o=r!=null?l(g(r)):{},s(e||!r||!r.__esModule?n(o,\"default\",{value:r,enumerable:!0}):o,r)),j=r=>s(n({},\"__esModule\",{value:!0}),r);var c=f((w,u)=>{u.exports=_jsx_runtime});var C={};b(C,{default:()=>i,frontmatter:()=>S});var t=_(c()),S={title:\"S&P500\",slug:\"s-p500-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"d-ritch\"],featuresNames:[\"D Ritch\"],album:\"C.W.A\",albumSlug:\"c-w-a\",year:2025,genre:[\"\"],duration:\"4:11\",trackNumber:1,producers:[],producersNames:[],description:\"S&P500 \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/s-p500-hugo-toxxx\",children:\"S&P500\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/c-w-a\",children:\"C.W.A\"}),\" (2025).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return j(C);})();\n;return Component;"
   },
   "_id": "skladby/s-p500-hugo-toxxx.mdx",
   "_raw": {

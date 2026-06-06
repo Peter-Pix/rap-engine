@@ -8,16 +8,19 @@
   "album": "Pouliční Ekonomická 3: Láska & Loyalita (Deluxe Version)",
   "albumSlug": "poulicni-ekonomicka-3-laska-loyalita",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 16,
   "producers": [],
   "producersNames": [],
   "description": "Furt Bokem — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of k(r))!g.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(u=p(r,n))||u.enumerable});return e};var f=(e,r,a)=>(a=e!=null?d(x(e)):{},s(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var c=b((B,i)=>{i.exports=_jsx_runtime});var S={};h(S,{default:()=>m,frontmatter:()=>j});var t=f(c()),j={title:\"Furt Bokem\",slug:\"furt-bokem-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita (Deluxe Version)\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[],duration:\"3:03\",trackNumber:16,producers:[],producersNames:[],description:\"Furt Bokem \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Furt Bokem](/skladby/furt-bokem-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Pouliční Ekonomická 3: Láska & Loyalita](/alba/poulicni-ekonomicka-3-laska-loyalita) (2018).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),h=(a,r)=>{for(var o in r)n(a,o,{get:r[o],enumerable:!0})},s=(a,r,o,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of p(r))!g.call(a,t)&&t!==o&&n(a,t,{get:()=>r[t],enumerable:!(i=k(r,t))||i.enumerable});return a};var x=(a,r,o)=>(o=a!=null?m(b(a)):{},s(r||!a||!a.__esModule?n(o,\"default\",{value:a,enumerable:!0}):o,a)),y=a=>s(n({},\"__esModule\",{value:!0}),a);var c=f((L,u)=>{u.exports=_jsx_runtime});var _={};h(_,{default:()=>d,frontmatter:()=>B});var e=x(c()),B={title:\"Furt Bokem\",slug:\"furt-bokem-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita (Deluxe Version)\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[\"\"],duration:\"3:03\",trackNumber:16,producers:[],producersNames:[],description:\"Furt Bokem \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/furt-bokem-sergei-barracuda\",children:\"Furt Bokem\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/poulicni-ekonomicka-3-laska-loyalita\",children:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\"}),\" (2018).\"]})}function d(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(l,{...a})}):l(a)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/furt-bokem-sergei-barracuda.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Live @ O2 arena Praha",
   "albumSlug": "live-o2-arena-praha",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:31",
   "trackNumber": 22,
   "producers": [],
   "producersNames": [],
   "description": "Ibalgin (Live 2023) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!b.call(e,a)&&a!==t&&i(e,a,{get:()=>n[a],enumerable:!(o=d(n,a))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?p(x(e)):{},s(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),L=e=>s(i({},\"__esModule\",{value:!0}),e);var c=g((C,l)=>{l.exports=_jsx_runtime});var v={};f(v,{default:()=>m,frontmatter:()=>j});var r=_(c()),j={title:\"Ibalgin (Live 2023)\",slug:\"ibalgin-live-2023-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Live @ O2 arena Praha\",albumSlug:\"live-o2-arena-praha\",year:2024,genre:[],duration:\"1:31\",trackNumber:22,producers:[],producersNames:[],description:\"Ibalgin (Live 2023) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return L(v);})();\n;return Component;"
+    "raw": "\n**[Ibalgin (Live 2023)](/skladby/ibalgin-live-2023-calin)** od [Calin](/raperi/calin) z alba [Live @ O2 arena Praha](/alba/live-o2-arena-praha) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),v=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},o=(e,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let i of b(a))!m.call(e,i)&&i!==n&&t(e,i,{get:()=>a[i],enumerable:!(l=h(a,i))||l.enumerable});return e};var x=(e,a,n)=>(n=e!=null?p(g(e)):{},o(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),L=e=>o(t({},\"__esModule\",{value:!0}),e);var c=f((I,s)=>{s.exports=_jsx_runtime});var j={};v(j,{default:()=>d,frontmatter:()=>_});var r=x(c()),_={title:\"Ibalgin (Live 2023)\",slug:\"ibalgin-live-2023-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Live @ O2 arena Praha\",albumSlug:\"live-o2-arena-praha\",year:2024,genre:[\"\"],duration:\"1:31\",trackNumber:22,producers:[],producersNames:[],description:\"Ibalgin (Live 2023) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/ibalgin-live-2023-calin\",children:\"Ibalgin (Live 2023)\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/live-o2-arena-praha\",children:\"Live @ O2 arena Praha\"}),\" (2024).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return L(j);})();\n;return Component;"
   },
   "_id": "skladby/ibalgin-live-2023-calin.mdx",
   "_raw": {

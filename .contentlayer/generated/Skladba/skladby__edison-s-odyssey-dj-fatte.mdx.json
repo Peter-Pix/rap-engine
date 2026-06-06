@@ -8,16 +8,19 @@
   "album": "Fatte No More",
   "albumSlug": "fatte-no-more",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:27",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Edison's Odyssey — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of f(t))!h.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(a=p(t,s))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(x(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>d(o({},\"__esModule\",{value:!0}),e);var c=y((M,u)=>{u.exports=_jsx_runtime});var F={};j(F,{default:()=>m,frontmatter:()=>g});var n=_(c()),g={title:\"Edison's Odyssey\",slug:\"edison-s-odyssey-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[],duration:\"3:27\",trackNumber:6,producers:[],producersNames:[],description:\"Edison's Odyssey \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return b(F);})();\n;return Component;"
+    "raw": "\n**[Edison's Odyssey](/skladby/edison-s-odyssey-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fatte No More](/alba/fatte-no-more) (2012).\n",
+    "code": "var Component=(()=>{var f=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},d=(t,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!h.call(t,a)&&a!==r&&o(t,a,{get:()=>e[a],enumerable:!(n=p(e,a))||n.enumerable});return t};var b=(t,e,r)=>(r=t!=null?f(y(t)):{},d(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>d(o({},\"__esModule\",{value:!0}),t);var c=j((M,i)=>{i.exports=_jsx_runtime});var D={};x(D,{default:()=>l,frontmatter:()=>_});var s=b(c()),_={title:\"Edison's Odyssey\",slug:\"edison-s-odyssey-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[\"\"],duration:\"3:27\",trackNumber:6,producers:[],producersNames:[],description:\"Edison's Odyssey \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/edison-s-odyssey-dj-fatte\",children:\"Edison's Odyssey\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,s.jsx)(e.a,{href:\"/alba/fatte-no-more\",children:\"Fatte No More\"}),\" (2012).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,s.jsx)(e,{...t,children:(0,s.jsx)(u,{...t})}):u(t)}return g(D);})();\n;return Component;"
   },
   "_id": "skladby/edison-s-odyssey-dj-fatte.mdx",
   "_raw": {

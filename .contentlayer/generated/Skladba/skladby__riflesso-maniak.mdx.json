@@ -8,16 +8,19 @@
   "album": "RIFLESSO",
   "albumSlug": "riflesso",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:36",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "RIFLESSO — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var S=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(f(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var m=S((M,u)=>{u.exports=_jsx_runtime});var j={};_(j,{default:()=>l,frontmatter:()=>k});var n=b(m()),k={title:\"RIFLESSO\",slug:\"riflesso-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"RIFLESSO\",albumSlug:\"riflesso\",year:2025,genre:[],duration:\"2:36\",trackNumber:1,producers:[],producersNames:[],description:\"RIFLESSO \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[RIFLESSO](/skladby/riflesso-maniak)** od [Maniak](/raperi/maniak) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,S=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!S.call(r,t)&&t!==a&&s(r,t,{get:()=>e[t],enumerable:!(o=p(e,t))||o.enumerable});return r};var g=(r,e,a)=>(a=r!=null?m(k(r)):{},i(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),b=r=>i(s({},\"__esModule\",{value:!0}),r);var c=x((L,u)=>{u.exports=_jsx_runtime});var _={};h(_,{default:()=>d,frontmatter:()=>M});var n=g(c()),M={title:\"RIFLESSO\",slug:\"riflesso-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"RIFLESSO\",albumSlug:\"riflesso\",year:2025,genre:[\"\"],duration:\"2:36\",trackNumber:1,producers:[],producersNames:[],description:\"RIFLESSO \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/riflesso-maniak\",children:\"RIFLESSO\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2025).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(l,{...r})}):l(r)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/riflesso-maniak.mdx",
   "_raw": {

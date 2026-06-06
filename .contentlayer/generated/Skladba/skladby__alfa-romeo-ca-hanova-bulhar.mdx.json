@@ -8,16 +8,19 @@
   "album": "rap disco revoluce",
   "albumSlug": "rap-disco-revoluce",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Alfa Romeo — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},c=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!f.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?i(A(e)):{},c(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var l=x((C,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>d,frontmatter:()=>j});var t=_(l()),j={title:\"Alfa Romeo\",slug:\"alfa-romeo-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[],duration:\"3:16\",trackNumber:6,producers:[],producersNames:[],description:\"Alfa Romeo \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[Alfa Romeo](/skladby/alfa-romeo-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [rap disco revoluce](/alba/rap-disco-revoluce) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var o in a)t(e,o,{get:a[o],enumerable:!0})},l=(e,a,o,c)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of m(a))!f.call(e,n)&&n!==o&&t(e,n,{get:()=>a[n],enumerable:!(c=h(a,n))||c.enumerable});return e};var v=(e,a,o)=>(o=e!=null?p(A(e)):{},l(a||!e||!e.__esModule?t(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>l(t({},\"__esModule\",{value:!0}),e);var u=b((_,s)=>{s.exports=_jsx_runtime});var N={};x(N,{default:()=>i,frontmatter:()=>H});var r=v(u()),H={title:\"Alfa Romeo\",slug:\"alfa-romeo-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[\"\"],duration:\"3:16\",trackNumber:6,producers:[],producersNames:[],description:\"Alfa Romeo \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/alfa-romeo-ca-hanova-bulhar\",children:\"Alfa Romeo\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/rap-disco-revoluce\",children:\"rap disco revoluce\"}),\" (2020).\"]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(N);})();\n;return Component;"
   },
   "_id": "skladby/alfa-romeo-ca-hanova-bulhar.mdx",
   "_raw": {

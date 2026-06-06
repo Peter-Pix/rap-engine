@@ -8,16 +8,19 @@
   "album": "Sbohem Roxano",
   "albumSlug": "sbohem-roxano",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:53",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Kokalero — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},m=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!b.call(e,t)&&t!==r&&a(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(h(e)):{},m(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>m(a({},\"__esModule\",{value:!0}),e);var d=f((S,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>j});var o=g(d()),j={title:\"Kokalero\",slug:\"kokalero-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Sbohem Roxano\",albumSlug:\"sbohem-roxano\",year:2020,genre:[],duration:\"2:53\",trackNumber:3,producers:[],producersNames:[],description:\"Kokalero \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(i,{...e})}):i(e)}return k(y);})();\n;return Component;"
+    "raw": "\n**[Kokalero](/skladby/kokalero-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Sbohem Roxano](/alba/sbohem-roxano) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(a,o)=>()=>(o||a((o={exports:{}}).exports,o),o.exports),k=(a,o)=>{for(var r in o)s(a,r,{get:o[r],enumerable:!0})},d=(a,o,r,t)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of h(o))!b.call(a,n)&&n!==r&&s(a,n,{get:()=>o[n],enumerable:!(t=p(o,n))||t.enumerable});return a};var z=(a,o,r)=>(r=a!=null?u(x(a)):{},d(o||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>d(s({},\"__esModule\",{value:!0}),a);var l=f((S,i)=>{i.exports=_jsx_runtime});var _={};k(_,{default:()=>c,frontmatter:()=>y});var e=z(l()),y={title:\"Kokalero\",slug:\"kokalero-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Sbohem Roxano\",albumSlug:\"sbohem-roxano\",year:2020,genre:[\"\"],duration:\"2:53\",trackNumber:3,producers:[],producersNames:[],description:\"Kokalero \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(a){let o={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(o.p,{children:[(0,e.jsx)(o.strong,{children:(0,e.jsx)(o.a,{href:\"/skladby/kokalero-yzomandias\",children:\"Kokalero\"})}),\" od \",(0,e.jsx)(o.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(o.a,{href:\"/alba/sbohem-roxano\",children:\"Sbohem Roxano\"}),\" (2020).\"]})}function c(a={}){let{wrapper:o}=a.components||{};return o?(0,e.jsx)(o,{...a,children:(0,e.jsx)(m,{...a})}):m(a)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/kokalero-yzomandias.mdx",
   "_raw": {

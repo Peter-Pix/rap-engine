@@ -12,16 +12,19 @@
   "album": "1000",
   "albumSlug": "1000",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:03",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Facelift — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},u=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!h.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=d(t,r))||s.enumerable});return e};var b=(e,t,o)=>(o=e!=null?m(f(e)):{},u(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),k=e=>u(a({},\"__esModule\",{value:!0}),e);var c=g((D,x)=>{x.exports=_jsx_runtime});var y={};_(y,{default:()=>l,frontmatter:()=>j});var n=b(c()),j={title:\"Facelift\",slug:\"facelift-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"4:03\",trackNumber:2,producers:[],producersNames:[],description:\"Facelift \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return k(y);})();\n;return Component;"
+    "raw": "\n**[Facelift](/skladby/facelift-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [1000](/alba/1000) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var m=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var r in e)n(t,r,{get:e[r],enumerable:!0})},s=(t,e,r,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!h.call(t,a)&&a!==r&&n(t,a,{get:()=>e[a],enumerable:!(x=f(e,a))||x.enumerable});return t};var k=(t,e,r)=>(r=t!=null?d(g(t)):{},s(e||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>s(n({},\"__esModule\",{value:!0}),t);var c=m((F,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>l,frontmatter:()=>j});var o=k(c()),j={title:\"Facelift\",slug:\"facelift-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[\"\"],duration:\"4:03\",trackNumber:2,producers:[],producersNames:[],description:\"Facelift \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/facelift-hugo-toxxx\",children:\"Facelift\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/1000\",children:\"1000\"}),\" (2019).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(i,{...t})}):i(t)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/facelift-hugo-toxxx.mdx",
   "_raw": {

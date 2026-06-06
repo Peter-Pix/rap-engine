@@ -8,16 +8,19 @@
   "album": "POPSTAR",
   "albumSlug": "popstar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:17",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Fast Life — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(x(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var u=_((F,i)=>{i.exports=_jsx_runtime});var N={};b(N,{default:()=>m,frontmatter:()=>L});var n=g(u()),L={title:\"Fast Life\",slug:\"fast-life-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"2:17\",trackNumber:7,producers:[],producersNames:[],description:\"Fast Life \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Fast Life](/skladby/fast-life-calin)** od [Calin](/raperi/calin) z alba [POPSTAR](/alba/popstar) (2022).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!x.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(o=f(e,n))||o.enumerable});return r};var L=(r,e,t)=>(t=r!=null?d(h(r)):{},i(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>i(s({},\"__esModule\",{value:!0}),r);var c=b((P,l)=>{l.exports=_jsx_runtime});var C={};g(C,{default:()=>u,frontmatter:()=>j});var a=L(c()),j={title:\"Fast Life\",slug:\"fast-life-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[\"\"],duration:\"2:17\",trackNumber:7,producers:[],producersNames:[],description:\"Fast Life \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/fast-life-calin\",children:\"Fast Life\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/popstar\",children:\"POPSTAR\"}),\" (2022).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/fast-life-calin.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Premiéra",
   "albumSlug": "premiera",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:03",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Balkónovka — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var c=k((F,m)=>{m.exports=_jsx_runtime});var v={};b(v,{default:()=>i,frontmatter:()=>j});var r=_(c()),j={title:\"Balk\\xF3novka\",slug:\"balkonovka-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"4:03\",trackNumber:9,producers:[],producersNames:[],description:\"Balk\\xF3novka \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(v);})();\n;return Component;"
+    "raw": "\n**[Balkónovka](/skladby/balkonovka-rest)** od [Rest](/raperi/rest) z alba [Premiéra](/alba/premiera) (2010).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of k(e))!b.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(o=m(e,n))||o.enumerable});return r};var g=(r,e,t)=>(t=r!=null?p(f(r)):{},l(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>l(s({},\"__esModule\",{value:!0}),r);var c=h((B,i)=>{i.exports=_jsx_runtime});var v={};x(v,{default:()=>d,frontmatter:()=>_});var a=g(c()),_={title:\"Balk\\xF3novka\",slug:\"balkonovka-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[\"\"],duration:\"4:03\",trackNumber:9,producers:[],producersNames:[],description:\"Balk\\xF3novka \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/balkonovka-rest\",children:\"Balk\\xF3novka\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/premiera\",children:\"Premi\\xE9ra\"}),\" (2010).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return j(v);})();\n;return Component;"
   },
   "_id": "skladby/balkonovka-rest.mdx",
   "_raw": {

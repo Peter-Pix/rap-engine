@@ -8,16 +8,19 @@
   "album": "Teritorium III. (Deluxe Version)",
   "albumSlug": "teritorium-iii",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:39",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Rockstar — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},a=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>r[o],enumerable:!(i=p(r,o))||i.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(h(e)):{},a(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var c=_((M,u)=>{u.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>k});var t=g(c()),k={title:\"Rockstar\",slug:\"rockstar-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium III. (Deluxe Version)\",albumSlug:\"teritorium-iii\",year:2022,genre:[],duration:\"3:39\",trackNumber:15,producers:[],producersNames:[],description:\"Rockstar \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Rockstar](/skladby/rockstar-orion)** od [Orion](/raperi/orion) z alba [Teritorium III.](/alba/teritorium-iii) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var t in r)i(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of f(r))!x.call(e,n)&&n!==t&&i(e,n,{get:()=>r[n],enumerable:!(a=p(r,n))||a.enumerable});return e};var g=(e,r,t)=>(t=e!=null?m(h(e)):{},s(r||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),I=e=>s(i({},\"__esModule\",{value:!0}),e);var u=b((D,c)=>{c.exports=_jsx_runtime});var j={};k(j,{default:()=>d,frontmatter:()=>_});var o=g(u()),_={title:\"Rockstar\",slug:\"rockstar-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium III. (Deluxe Version)\",albumSlug:\"teritorium-iii\",year:2022,genre:[\"\"],duration:\"3:39\",trackNumber:15,producers:[],producersNames:[],description:\"Rockstar \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/rockstar-orion\",children:\"Rockstar\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(r.a,{href:\"/alba/teritorium-iii\",children:\"Teritorium III.\"}),\" (2022).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(l,{...e})}):l(e)}return I(j);})();\n;return Component;"
   },
   "_id": "skladby/rockstar-orion.mdx",
   "_raw": {

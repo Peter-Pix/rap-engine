@@ -8,16 +8,19 @@
   "album": "Showtime",
   "albumSlug": "showtime",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:44",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Bumerang — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var m=b((w,c)=>{c.exports=_jsx_runtime});var D={};f(D,{default:()=>d,frontmatter:()=>v});var r=_(m()),v={title:\"Bumerang\",slug:\"bumerang-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Showtime\",albumSlug:\"showtime\",year:2020,genre:[],duration:\"2:44\",trackNumber:13,producers:[],producersNames:[],description:\"Bumerang \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Bumerang](/skladby/bumerang-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [Showtime](/alba/showtime) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!b.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=i(e,n))||s.enumerable});return r};var v=(r,e,t)=>(t=r!=null?m(g(r)):{},c(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>c(o({},\"__esModule\",{value:!0}),r);var l=f((L,u)=>{u.exports=_jsx_runtime});var w={};x(w,{default:()=>d,frontmatter:()=>j});var a=v(l()),j={title:\"Bumerang\",slug:\"bumerang-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Showtime\",albumSlug:\"showtime\",year:2020,genre:[\"\"],duration:\"2:44\",trackNumber:13,producers:[],producersNames:[],description:\"Bumerang \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/bumerang-lvcas-dope\",children:\"Bumerang\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/showtime\",children:\"Showtime\"}),\" (2020).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return _(w);})();\n;return Component;"
   },
   "_id": "skladby/bumerang-lvcas-dope.mdx",
   "_raw": {

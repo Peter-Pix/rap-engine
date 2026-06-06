@@ -8,16 +8,19 @@
   "album": "Bieber Fever",
   "albumSlug": "bieber-fever",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:44",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Šedá obloha — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of b(r))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?m(h(e)):{},c(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var u=f((L,l)=>{l.exports=_jsx_runtime});var C={};_(C,{default:()=>d,frontmatter:()=>N});var t=g(u()),N={title:\"\\u0160ed\\xE1 obloha\",slug:\"seda-obloha-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[],duration:\"1:44\",trackNumber:2,producers:[],producersNames:[],description:\"\\u0160ed\\xE1 obloha \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Šedá obloha](/skladby/seda-obloha-calin)** od [Calin](/raperi/calin) z alba [Bieber Fever](/alba/bieber-fever) (2024).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},l=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!m.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(s=h(e,o))||s.enumerable});return r};var _=(r,e,n)=>(n=r!=null?u(f(r)):{},l(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),j=r=>l(t({},\"__esModule\",{value:!0}),r);var c=x((k,i)=>{i.exports=_jsx_runtime});var N={};g(N,{default:()=>b,frontmatter:()=>C});var a=_(c()),C={title:\"\\u0160ed\\xE1 obloha\",slug:\"seda-obloha-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[\"\"],duration:\"1:44\",trackNumber:2,producers:[],producersNames:[],description:\"\\u0160ed\\xE1 obloha \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/seda-obloha-calin\",children:\"\\u0160ed\\xE1 obloha\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/bieber-fever\",children:\"Bieber Fever\"}),\" (2024).\"]})}function b(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return j(N);})();\n;return Component;"
   },
   "_id": "skladby/seda-obloha-calin.mdx",
   "_raw": {

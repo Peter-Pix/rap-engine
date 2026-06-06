@@ -1,13 +1,15 @@
 {
   "title": "Fuckstroy",
   "slug": "fuckstroy",
-  "genre": [],
-  "description": "Fuckstroy — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Fuckstroy — nezávislý interpret české a slovenské rapové scény s ostrým flow a syrovými texty. Objev jeho tvorbu na streamovacích platformách.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!_.call(t,o)&&o!==r&&s(t,o,{get:()=>e[o],enumerable:!(c=d(e,o))||c.enumerable});return t};var k=(t,e,r)=>(r=t!=null?p(x(t)):{},i(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),y=t=>i(s({},\"__esModule\",{value:!0}),t);var m=f((b,u)=>{u.exports=_jsx_runtime});var F={};j(F,{default:()=>l,frontmatter:()=>g});var n=k(m()),g={title:\"Fuckstroy\",slug:\"fuckstroy\",genre:[],description:\"Fuckstroy \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(a,{...t})}):a(t)}return y(F);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Fuckstroy](/raperi/fuckstroy)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var v=(r,t)=>()=>(t||r((t={exports:{}}).exports,t),t.exports),y=(r,t)=>{for(var n in t)s(r,n,{get:t[n],enumerable:!0})},a=(r,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!x.call(r,o)&&o!==n&&s(r,o,{get:()=>t[o],enumerable:!(c=m(t,o))||c.enumerable});return r};var j=(r,t,n)=>(n=r!=null?l(f(r)):{},a(t||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),k=r=>a(s({},\"__esModule\",{value:!0}),r);var p=v((b,i)=>{i.exports=_jsx_runtime});var _={};y(_,{default:()=>h,frontmatter:()=>g});var e=j(p()),g={title:\"Fuckstroy\",slug:\"fuckstroy\",genre:[\"\"],description:\"Fuckstroy \\u2014 nez\\xE1visl\\xFD interpret \\u010Desk\\xE9 a slovensk\\xE9 rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a syrov\\xFDmi texty. Objev jeho tvorbu na streamovac\\xEDch platform\\xE1ch.\",publishedAt:\"2026-05-31\"};function u(r){let t={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"O rapperovi\"}),`\n`,(0,e.jsxs)(t.p,{children:[(0,e.jsx)(t.strong,{children:(0,e.jsx)(t.a,{href:\"/raperi/fuckstroy\",children:\"Fuckstroy\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function h(r={}){let{wrapper:t}=r.components||{};return t?(0,e.jsx)(t,{...r,children:(0,e.jsx)(u,{...r})}):u(r)}return k(_);})();\n;return Component;"
   },
   "_id": "raperi/fuckstroy.mdx",
   "_raw": {

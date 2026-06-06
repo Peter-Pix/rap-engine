@@ -8,16 +8,19 @@
   "album": "ROMEO",
   "albumSlug": "romeo",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:52",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Praha 90210 — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of i(r))!A.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=d(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?p(x(e)):{},u(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var m=b((H,c)=>{c.exports=_jsx_runtime});var N={};f(N,{default:()=>h,frontmatter:()=>j});var t=_(m()),j={title:\"Praha 90210\",slug:\"praha-90210-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"ROMEO\",albumSlug:\"romeo\",year:2021,genre:[],duration:\"1:52\",trackNumber:4,producers:[],producersNames:[],description:\"Praha 90210 \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[Praha 90210](/skladby/praha-90210-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [ROMEO](/alba/romeo) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var n in a)o(r,n,{get:a[n],enumerable:!0})},c=(r,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!b.call(r,t)&&t!==n&&o(r,t,{get:()=>a[t],enumerable:!(s=i(a,t))||s.enumerable});return r};var g=(r,a,n)=>(n=r!=null?p(A(r)):{},c(a||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),O=r=>c(o({},\"__esModule\",{value:!0}),r);var u=f((j,h)=>{h.exports=_jsx_runtime});var N={};x(N,{default:()=>d,frontmatter:()=>H});var e=g(u()),H={title:\"Praha 90210\",slug:\"praha-90210-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"ROMEO\",albumSlug:\"romeo\",year:2021,genre:[\"\"],duration:\"1:52\",trackNumber:4,producers:[],producersNames:[],description:\"Praha 90210 \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/praha-90210-ca-hanova-bulhar\",children:\"Praha 90210\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/romeo\",children:\"ROMEO\"}),\" (2021).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(l,{...r})}):l(r)}return O(N);})();\n;return Component;"
   },
   "_id": "skladby/praha-90210-ca-hanova-bulhar.mdx",
   "_raw": {

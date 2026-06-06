@@ -8,16 +8,19 @@
   "album": "Noční vidění V 2.0",
   "albumSlug": "nocni-videni",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:58",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Nuly (Peacock Remix) — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!f.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(i=p(n,o))||i.enumerable});return e};var g=(e,n,t)=>(t=e!=null?d(h(e)):{},c(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),N=e=>c(a({},\"__esModule\",{value:!0}),e);var u=_((M,s)=>{s.exports=_jsx_runtime});var k={};b(k,{default:()=>l,frontmatter:()=>j});var r=g(u()),j={title:\"Nuly (Peacock Remix)\",slug:\"nuly-peacock-remix-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED V 2.0\",albumSlug:\"nocni-videni\",year:2015,genre:[],duration:\"2:58\",trackNumber:14,producers:[],producersNames:[],description:\"Nuly (Peacock Remix) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return N(k);})();\n;return Component;"
+    "raw": "\n**[Nuly (Peacock Remix)](/skladby/nuly-peacock-remix-orion)** od [Orion](/raperi/orion) z alba [Noční vidění](/alba/nocni-videni) (2015).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var o in e)i(n,o,{get:e[o],enumerable:!0})},c=(n,e,o,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(n,a)&&a!==o&&i(n,a,{get:()=>e[a],enumerable:!(t=p(e,a))||t.enumerable});return n};var y=(n,e,o)=>(o=n!=null?m(f(n)):{},c(e||!n||!n.__esModule?i(o,\"default\",{value:n,enumerable:!0}):o,n)),N=n=>c(i({},\"__esModule\",{value:!0}),n);var u=b((v,s)=>{s.exports=_jsx_runtime});var _={};k(_,{default:()=>d,frontmatter:()=>g});var r=y(u()),g={title:\"Nuly (Peacock Remix)\",slug:\"nuly-peacock-remix-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED V 2.0\",albumSlug:\"nocni-videni\",year:2015,genre:[\"\"],duration:\"2:58\",trackNumber:14,producers:[],producersNames:[],description:\"Nuly (Peacock Remix) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nuly-peacock-remix-orion\",children:\"Nuly (Peacock Remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/nocni-videni\",children:\"No\\u010Dn\\xED vid\\u011Bn\\xED\"}),\" (2015).\"]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return N(_);})();\n;return Component;"
   },
   "_id": "skladby/nuly-peacock-remix-orion.mdx",
   "_raw": {

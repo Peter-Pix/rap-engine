@@ -8,16 +8,19 @@
   "album": "Slova",
   "albumSlug": "slova",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:11",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Sonáta — skladba od Bpm.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=i(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),S=e=>m(o({},\"__esModule\",{value:!0}),e);var p=f((k,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>j});var n=g(p()),j={title:\"Son\\xE1ta\",slug:\"sonata-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[],duration:\"3:11\",trackNumber:4,producers:[],producersNames:[],description:\"Son\\xE1ta \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return S(M);})();\n;return Component;"
+    "raw": "\n**[Sonáta](/skladby/sonata-bpm)** z alba [Slova](/alba/slova) (2007).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),g=(a,t)=>{for(var e in t)o(a,e,{get:t[e],enumerable:!0})},l=(a,t,e,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of b(t))!x.call(a,n)&&n!==e&&o(a,n,{get:()=>t[n],enumerable:!(s=i(t,n))||s.enumerable});return a};var S=(a,t,e)=>(e=a!=null?d(f(a)):{},l(t||!a||!a.__esModule?o(e,\"default\",{value:a,enumerable:!0}):e,a)),_=a=>l(o({},\"__esModule\",{value:!0}),a);var u=h((y,p)=>{p.exports=_jsx_runtime});var v={};g(v,{default:()=>m,frontmatter:()=>j});var r=S(u()),j={title:\"Son\\xE1ta\",slug:\"sonata-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[\"\"],duration:\"3:11\",trackNumber:4,producers:[],producersNames:[],description:\"Son\\xE1ta \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function c(a){let t={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/sonata-bpm\",children:\"Son\\xE1ta\"})}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/slova\",children:\"Slova\"}),\" (2007).\"]})}function m(a={}){let{wrapper:t}=a.components||{};return t?(0,r.jsx)(t,{...a,children:(0,r.jsx)(c,{...a})}):c(a)}return _(v);})();\n;return Component;"
   },
   "_id": "skladby/sonata-bpm.mdx",
   "_raw": {

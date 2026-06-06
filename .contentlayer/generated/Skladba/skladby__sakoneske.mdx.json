@@ -1,0 +1,28 @@
+{
+  "title": "SAKONESKE",
+  "slug": "sakoneske",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "year": 2025,
+  "description": "SAKONESKE — singl od Bobby Blaze (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/8a02afe7dc7c1b3a38fe728370d8d438/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[SAKONESKE](/skladby/sakoneske)** od [Bobby Blaze](/raperi/bobby-blaze) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var u=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),h=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},l=(n,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of x(e))!m.call(n,r)&&r!==t&&s(n,r,{get:()=>e[r],enumerable:!(o=g(e,r))||o.enumerable});return n};var y=(n,e,t)=>(t=n!=null?p(f(n)):{},l(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),S=n=>l(s({},\"__esModule\",{value:!0}),n);var i=u((E,c)=>{c.exports=_jsx_runtime});var z={};h(z,{default:()=>b,frontmatter:()=>j});var a=y(i()),j={title:\"SAKONESKE\",slug:\"sakoneske\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",year:2025,description:\"SAKONESKE \\u2014 singl od Bobby Blaze (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/8a02afe7dc7c1b3a38fe728370d8d438/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/sakoneske\",children:\"SAKONESKE\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2025).\"]})}function b(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(d,{...n})}):d(n)}return S(z);})();\n;return Component;"
+  },
+  "_id": "skladby/sakoneske.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sakoneske.mdx",
+    "sourceFileName": "sakoneske.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sakoneske"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sakoneske",
+  "canonicalUrl": "https://4rap.cz/skladby/sakoneske"
+}

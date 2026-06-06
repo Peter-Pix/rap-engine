@@ -8,16 +8,19 @@
   "album": "G.O.A.T.",
   "albumSlug": "g-o-a-t",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:09",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Bowie — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>m(a({},\"__esModule\",{value:!0}),e);var u=f((N,c)=>{c.exports=_jsx_runtime});var C={};g(C,{default:()=>i,frontmatter:()=>w});var r=j(u()),w={title:\"Bowie\",slug:\"bowie-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"3:09\",trackNumber:2,producers:[],producersNames:[],description:\"Bowie \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[Bowie](/skladby/bowie-james-cole)** od [James Cole](/raperi/james-cole) z alba [G.O.A.T.](/alba/g-o-a-t) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var o in e)s(r,o,{get:e[o],enumerable:!0})},l=(r,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!h.call(r,t)&&t!==o&&s(r,t,{get:()=>e[t],enumerable:!(n=p(e,t))||n.enumerable});return r};var x=(r,e,o)=>(o=r!=null?d(f(r)):{},l(e||!r||!r.__esModule?s(o,\"default\",{value:r,enumerable:!0}):o,r)),w=r=>l(s({},\"__esModule\",{value:!0}),r);var i=g((y,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>u,frontmatter:()=>_});var a=x(i()),_={title:\"Bowie\",slug:\"bowie-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[\"\"],duration:\"3:09\",trackNumber:2,producers:[],producersNames:[],description:\"Bowie \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/bowie-james-cole\",children:\"Bowie\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/g-o-a-t\",children:\"G.O.A.T.\"}),\" (2020).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return w(C);})();\n;return Component;"
   },
   "_id": "skladby/bowie-james-cole.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Automat",
   "albumSlug": "automat",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:06",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Automat — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of x(e))!f.call(t,r)&&r!==n&&o(t,r,{get:()=>e[r],enumerable:!(u=p(e,r))||u.enumerable});return t};var g=(t,e,n)=>(n=t!=null?l(h(t)):{},m(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),k=t=>m(o({},\"__esModule\",{value:!0}),t);var i=_((N,s)=>{s.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>j});var a=g(i()),j={title:\"Automat\",slug:\"automat-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Automat\",albumSlug:\"automat\",year:2025,genre:[],duration:\"2:06\",trackNumber:1,producers:[],producersNames:[],description:\"Automat \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(c,{...t})}):c(t)}return k(M);})();\n;return Component;"
+    "raw": "\n**[Automat](/skladby/automat-maniak)** od [Maniak](/raperi/maniak) (2025).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),g=(t,a)=>{for(var e in a)o(t,e,{get:a[e],enumerable:!0})},u=(t,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of k(a))!x.call(t,n)&&n!==e&&o(t,n,{get:()=>a[n],enumerable:!(s=p(a,n))||s.enumerable});return t};var b=(t,a,e)=>(e=t!=null?l(f(t)):{},u(a||!t||!t.__esModule?o(e,\"default\",{value:t,enumerable:!0}):e,t)),M=t=>u(o({},\"__esModule\",{value:!0}),t);var i=h((y,m)=>{m.exports=_jsx_runtime});var j={};g(j,{default:()=>d,frontmatter:()=>_});var r=b(i()),_={title:\"Automat\",slug:\"automat-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Automat\",albumSlug:\"automat\",year:2025,genre:[\"\"],duration:\"2:06\",trackNumber:1,producers:[],producersNames:[],description:\"Automat \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(t){let a={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/automat-maniak\",children:\"Automat\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2025).\"]})}function d(t={}){let{wrapper:a}=t.components||{};return a?(0,r.jsx)(a,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/automat-maniak.mdx",
   "_raw": {

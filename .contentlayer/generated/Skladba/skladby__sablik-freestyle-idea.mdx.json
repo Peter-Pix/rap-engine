@@ -12,16 +12,19 @@
   "album": "Space Lopata",
   "albumSlug": "space-lopata",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:20",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Sáblík freestyle — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!b.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=m(t,a))||o.enumerable});return e};var S=(e,t,n)=>(n=e!=null?i(x(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(s({},\"__esModule\",{value:!0}),e);var u=h((N,l)=>{l.exports=_jsx_runtime});var j={};y(j,{default:()=>p,frontmatter:()=>g});var r=S(u()),g={title:\"S\\xE1bl\\xEDk freestyle\",slug:\"sablik-freestyle-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[],duration:\"1:20\",trackNumber:8,producers:[],producersNames:[],description:\"S\\xE1bl\\xEDk freestyle \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Sáblík freestyle](/skladby/sablik-freestyle-idea)** od [Idea](/raperi/idea) z alba [Space Lopata](/alba/space-lopata) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},l=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of b(e))!y.call(a,s)&&s!==t&&n(a,s,{get:()=>e[s],enumerable:!(o=f(e,s))||o.enumerable});return a};var k=(a,e,t)=>(t=a!=null?u(m(a)):{},l(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),S=a=>l(n({},\"__esModule\",{value:!0}),a);var d=h((N,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>i,frontmatter:()=>g});var r=k(d()),g={title:\"S\\xE1bl\\xEDk freestyle\",slug:\"sablik-freestyle-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[\"\"],duration:\"1:20\",trackNumber:8,producers:[],producersNames:[],description:\"S\\xE1bl\\xEDk freestyle \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/sablik-freestyle-idea\",children:\"S\\xE1bl\\xEDk freestyle\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/space-lopata\",children:\"Space Lopata\"}),\" (2023).\"]})}function i(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(p,{...a})}):p(a)}return S(_);})();\n;return Component;"
   },
   "_id": "skladby/sablik-freestyle-idea.mdx",
   "_raw": {

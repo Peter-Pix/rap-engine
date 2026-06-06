@@ -6,16 +6,17 @@
   "label": "K1-Recordz",
   "year": 2025,
   "genre": [],
-  "description": "Hell — singl od Yuuja (2025).",
+  "description": "Yuuja v roce 2025 vydal své debutové album. Obsahuje celkem jednu skladbu. Deska vyšla pod labelem K1-Recordz.",
   "image": "https://cdn-images.dzcdn.net/images/cover/f1c308b798b090b9473fe4ab578dfc98/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
     "Hell"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let l of h(t))!x.call(e,l)&&l!==r&&a(e,l,{get:()=>t[l],enumerable:!(c=p(t,l))||c.enumerable});return e};var f=(e,t,r)=>(r=e!=null?m(g(e)):{},o(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(a({},\"__esModule\",{value:!0}),e);var i=j((z,s)=>{s.exports=_jsx_runtime});var H={};b(H,{default:()=>d,frontmatter:()=>y});var n=f(i()),y={title:\"Hell\",slug:\"hell\",rapper:\"Yuuja\",rapperSlug:\"yuuja\",label:\"K1-Recordz\",year:2025,genre:[],description:\"Hell \\u2014 singl od Yuuja (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/f1c308b798b090b9473fe4ab578dfc98/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Hell\"],publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(H);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Yuuja](/raperi/yuuja) v roce 2025 vydal své debutové album.\n\nAlbum obsahuje celkem jednu skladbu.\n\nDeska vyšla pod labelem K1-Recordz.\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var v=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)l(a,r,{get:e[r],enumerable:!0})},c=(a,e,r,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!j.call(a,t)&&t!==r&&l(a,t,{get:()=>e[t],enumerable:!(u=p(e,t))||u.enumerable});return a};var f=(a,e,r)=>(r=a!=null?m(h(a)):{},c(e||!a||!a.__esModule?l(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>c(l({},\"__esModule\",{value:!0}),a);var s=v((z,o)=>{o.exports=_jsx_runtime});var k={};x(k,{default:()=>i,frontmatter:()=>y});var n=f(s()),y={title:\"Hell\",slug:\"hell\",rapper:\"Yuuja\",rapperSlug:\"yuuja\",label:\"K1-Recordz\",year:2025,genre:[],description:\"Yuuja v roce 2025 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem jednu skladbu. Deska vy\\u0161la pod labelem K1-Recordz.\",image:\"https://cdn-images.dzcdn.net/images/cover/f1c308b798b090b9473fe4ab578dfc98/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Hell\"],publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/yuuja\",children:\"Yuuja\"}),\" v roce 2025 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem jednu skladbu.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem K1-Recordz.\"})]})}function i(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return g(k);})();\n;return Component;"
   },
   "_id": "alba/hell.mdx",
   "_raw": {

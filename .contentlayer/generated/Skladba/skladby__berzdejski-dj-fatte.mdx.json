@@ -8,16 +8,19 @@
   "album": "Což takhle dát si Tesař",
   "albumSlug": "coz-takhle-dat-si-tesar",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Berzdejski — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var k=(e,t,n)=>(n=e!=null?m(j(e)):{},d(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>d(s({},\"__esModule\",{value:!0}),e);var u=f((F,i)=>{i.exports=_jsx_runtime});var z={};b(z,{default:()=>l,frontmatter:()=>g});var r=k(u()),g={title:\"Berzdejski\",slug:\"berzdejski-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[],duration:\"3:24\",trackNumber:10,producers:[],producersNames:[],description:\"Berzdejski \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(z);})();\n;return Component;"
+    "raw": "\n**[Berzdejski](/skladby/berzdejski-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Což takhle dát si Tesař](/alba/coz-takhle-dat-si-tesar) (2011).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var m=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var a in e)n(t,a,{get:e[a],enumerable:!0})},o=(t,e,a,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!k.call(t,s)&&s!==a&&n(t,s,{get:()=>e[s],enumerable:!(d=f(e,s))||d.enumerable});return t};var x=(t,e,a)=>(a=t!=null?p(j(t)):{},o(e||!t||!t.__esModule?n(a,\"default\",{value:t,enumerable:!0}):a,t)),z=t=>o(n({},\"__esModule\",{value:!0}),t);var l=m((C,i)=>{i.exports=_jsx_runtime});var _={};b(_,{default:()=>u,frontmatter:()=>g});var r=x(l()),g={title:\"Berzdejski\",slug:\"berzdejski-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[\"\"],duration:\"3:24\",trackNumber:10,producers:[],producersNames:[],description:\"Berzdejski \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/berzdejski-dj-fatte\",children:\"Berzdejski\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/coz-takhle-dat-si-tesar\",children:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\"}),\" (2011).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/berzdejski-dj-fatte.mdx",
   "_raw": {

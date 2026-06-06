@@ -1,13 +1,15 @@
 {
   "title": "Crudd2Active",
   "slug": "crudd2active",
-  "genre": [],
-  "description": "Crudd2Active — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Crudd2Active — nezávislý interpret rapové scény s ostrým flow a autentickým přístupem. Vydává hudbu na vlastní pěst a buduje si jméno na undergroundové scéně. Poslouchej na streamovacích platformách.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(c=p(t,o))||c.enumerable});return e};var v=(e,t,r)=>(r=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var u=f((b,d)=>{d.exports=_jsx_runtime});var A={};j(A,{default:()=>m,frontmatter:()=>C});var n=v(u()),C={title:\"Crudd2Active\",slug:\"crudd2active\",genre:[],description:\"Crudd2Active \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function a(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(a,{...e})}):a(e)}return g(A);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Crudd2Active](/raperi/crudd2active)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},a=(n,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!j.call(n,o)&&o!==r&&s(n,o,{get:()=>e[o],enumerable:!(c=l(e,o))||c.enumerable});return n};var g=(n,e,r)=>(r=n!=null?h(v(n)):{},a(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),_=n=>a(s({},\"__esModule\",{value:!0}),n);var i=x((y,d)=>{d.exports=_jsx_runtime});var b={};f(b,{default:()=>p,frontmatter:()=>C});var t=g(i()),C={title:\"Crudd2Active\",slug:\"crudd2active\",genre:[\"\"],description:\"Crudd2Active \\u2014 nez\\xE1visl\\xFD interpret rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a autentick\\xFDm p\\u0159\\xEDstupem. Vyd\\xE1v\\xE1 hudbu na vlastn\\xED p\\u011Bst a buduje si jm\\xE9no na undergroundov\\xE9 sc\\xE9n\\u011B. Poslouchej na streamovac\\xEDch platform\\xE1ch.\",publishedAt:\"2026-05-31\"};function u(n){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/raperi/crudd2active\",children:\"Crudd2Active\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(u,{...n})}):u(n)}return _(b);})();\n;return Component;"
   },
   "_id": "raperi/crudd2active.mdx",
   "_raw": {

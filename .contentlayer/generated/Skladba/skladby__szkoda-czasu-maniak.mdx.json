@@ -12,16 +12,19 @@
   "album": "NIBIRU",
   "albumSlug": "nibiru",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:08",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Szkoda czasu — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!k.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var z=(e,n,a)=>(a=e!=null?l(h(e)):{},u(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var i=b((S,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>g});var t=z(i()),g={title:\"Szkoda czasu\",slug:\"szkoda-czasu-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\"],featuresNames:[\"Zeus\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[],duration:\"4:08\",trackNumber:2,producers:[],producersNames:[],description:\"Szkoda czasu \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Szkoda czasu](/skladby/szkoda-czasu-maniak)** od [Maniak](/raperi/maniak) z alba [NIBIRU](/alba/nibiru) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},u=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of p(a))!b.call(e,s)&&s!==n&&t(e,s,{get:()=>a[s],enumerable:!(o=k(a,s))||o.enumerable});return e};var x=(e,a,n)=>(n=e!=null?m(z(e)):{},u(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(t({},\"__esModule\",{value:!0}),e);var c=f((N,i)=>{i.exports=_jsx_runtime});var _={};h(_,{default:()=>l,frontmatter:()=>M});var r=x(c()),M={title:\"Szkoda czasu\",slug:\"szkoda-czasu-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\"],featuresNames:[\"Zeus\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[\"\"],duration:\"4:08\",trackNumber:2,producers:[],producersNames:[],description:\"Szkoda czasu \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/szkoda-czasu-maniak\",children:\"Szkoda czasu\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/nibiru\",children:\"NIBIRU\"}),\" (2025).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/szkoda-czasu-maniak.mdx",
   "_raw": {

@@ -1,4 +1,4 @@
-import { allRappers, allAlbums } from 'contentlayer/generated'
+import { allRappers, allAlbums, allSkladbas } from 'contentlayer/generated'
 import { notFound } from 'next/navigation'
 import { MDXRenderer } from '@/components/entity/MDXRenderer'
 import { buildRapperMetadata } from '@/lib/metadata'
@@ -25,6 +25,19 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
 
   const albums = allAlbums.filter((a) => a.rapperSlug === rapper.slug)
   const genres = rapper.genre || []
+
+  // Spolupráce: skladby kde je rapper uveden jako feature (features obsahuje jméno rappera)
+  const collabs = allSkladbas
+    .filter((s) => {
+      if (!Array.isArray(s.features) || s.features.length === 0) return false
+      // Check if this rapper's name appears in features
+      const titleLower = rapper.title.toLowerCase()
+      return s.features.some((f: string) =>
+        f.toLowerCase().includes(titleLower) ||
+        titleLower.includes(f.toLowerCase())
+      )
+    })
+    .slice(0, 12)
 
   const rapperSchema = {
     '@context': 'https://schema.org',
@@ -155,6 +168,36 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                     meta={String(a.year)}
                     tags={a.genre || []}
                     featured={a.featured}
+                  />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Spolupráce */}
+          {collabs.length > 0 && (
+            <section className="mt-12 sm:mt-16">
+              <div className="flex items-baseline justify-between mb-6">
+                <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white uppercase">
+                  Spolupráce
+                </h2>
+                <a
+                  href={`/raperi/${rapper.slug}/skladby`}
+                  className="text-[10px] font-mono uppercase tracking-widest text-sky-400 hover:text-sky-300 transition-colors"
+                >
+                  Všechny spolupráce →
+                </a>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {collabs.map((s) => (
+                  <EntityCard
+                    key={s.slug}
+                    type="skladba"
+                    title={s.title}
+                    description={s.description || ''}
+                    href={s.url}
+                    meta={s.year ? String(s.year) : undefined}
+                    tags={s.genre || []}
                   />
                 ))}
               </div>

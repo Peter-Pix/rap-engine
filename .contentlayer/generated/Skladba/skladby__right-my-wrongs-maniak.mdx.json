@@ -8,16 +8,19 @@
   "album": "Better Ways",
   "albumSlug": "better-ways",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:19",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Right My Wrongs — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var y=(e,t,r)=>(r=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var u=b((w,m)=>{m.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>_});var n=y(u()),_={title:\"Right My Wrongs\",slug:\"right-my-wrongs-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Better Ways\",albumSlug:\"better-ways\",year:2024,genre:[],duration:\"3:19\",trackNumber:1,producers:[],producersNames:[],description:\"Right My Wrongs \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return M(k);})();\n;return Component;"
+    "raw": "\n**[Right My Wrongs](/skladby/right-my-wrongs-maniak)** od [Maniak](/raperi/maniak) z alba [Better Ways](/alba/better-ways) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!y.call(e,n)&&n!==t&&s(e,n,{get:()=>r[n],enumerable:!(o=g(r,n))||o.enumerable});return e};var k=(e,r,t)=>(t=e!=null?d(p(e)):{},i(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),x=e=>i(s({},\"__esModule\",{value:!0}),e);var u=b((w,c)=>{c.exports=_jsx_runtime});var _={};f(_,{default:()=>m,frontmatter:()=>M});var a=k(u()),M={title:\"Right My Wrongs\",slug:\"right-my-wrongs-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Better Ways\",albumSlug:\"better-ways\",year:2024,genre:[\"\"],duration:\"3:19\",trackNumber:1,producers:[],producersNames:[],description:\"Right My Wrongs \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/right-my-wrongs-maniak\",children:\"Right My Wrongs\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/better-ways\",children:\"Better Ways\"}),\" (2024).\"]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/right-my-wrongs-maniak.mdx",
   "_raw": {

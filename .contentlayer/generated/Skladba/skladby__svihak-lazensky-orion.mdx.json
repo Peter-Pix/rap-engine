@@ -14,16 +14,19 @@
   "album": "Orikoule",
   "albumSlug": "orikoule",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:07",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Švihák Lázeňský — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>r[o],enumerable:!(a=d(r,o))||a.enumerable});return e};var b=(e,r,n)=>(n=e!=null?p(k(e)):{},i(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var u=f((y,l)=>{l.exports=_jsx_runtime});var O={};_(O,{default:()=>c,frontmatter:()=>j});var t=b(u()),j={title:\"\\u0160vih\\xE1k L\\xE1ze\\u0148sk\\xFD\",slug:\"svihak-lazensky-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\",\"oto-klempir\"],featuresNames:[\"James Cole\",\"Oto Klempir\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"4:07\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160vih\\xE1k L\\xE1ze\\u0148sk\\xFD \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(O);})();\n;return Component;"
+    "raw": "\n**[Švihák Lázeňský](/skladby/svihak-lazensky-orion)** od [Orion](/raperi/orion) z alba [Orikoule](/alba/orikoule) (2008).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)a(r,n,{get:e[n],enumerable:!0})},i=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!f.call(r,t)&&t!==n&&a(r,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return r};var g=(r,e,n)=>(n=r!=null?d(h(r)):{},i(e||!r||!r.__esModule?a(n,\"default\",{value:r,enumerable:!0}):n,r)),j=r=>i(a({},\"__esModule\",{value:!0}),r);var u=x((v,l)=>{l.exports=_jsx_runtime});var O={};b(O,{default:()=>k,frontmatter:()=>z});var o=g(u()),z={title:\"\\u0160vih\\xE1k L\\xE1ze\\u0148sk\\xFD\",slug:\"svihak-lazensky-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\",\"oto-klempir\"],featuresNames:[\"James Cole\",\"Oto Klempir\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[\"\"],duration:\"4:07\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160vih\\xE1k L\\xE1ze\\u0148sk\\xFD \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/svihak-lazensky-orion\",children:\"\\u0160vih\\xE1k L\\xE1ze\\u0148sk\\xFD\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/orikoule\",children:\"Orikoule\"}),\" (2008).\"]})}function k(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(c,{...r})}):c(r)}return j(O);})();\n;return Component;"
   },
   "_id": "skladby/svihak-lazensky-orion.mdx",
   "_raw": {

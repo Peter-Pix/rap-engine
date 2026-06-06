@@ -1,0 +1,28 @@
+{
+  "title": "New York Metropolis",
+  "slug": "new-york-metropolis",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "year": 2025,
+  "description": "New York Metropolis — singl od DJ Fatte (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e7a9304ae00a16856accbf6d20ec8692/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[New York Metropolis](/skladby/new-york-metropolis)** od [DJ Fatte](/raperi/dj-fatte) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!u.call(t,n)&&n!==r&&s(t,n,{get:()=>e[n],enumerable:!(a=f(e,n))||a.enumerable});return t};var k=(t,e,r)=>(r=t!=null?m(x(t)):{},i(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),w=t=>i(s({},\"__esModule\",{value:!0}),t);var l=h((_,c)=>{c.exports=_jsx_runtime});var D={};j(D,{default:()=>d,frontmatter:()=>y});var o=k(l()),y={title:\"New York Metropolis\",slug:\"new-york-metropolis\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",year:2025,description:\"New York Metropolis \\u2014 singl od DJ Fatte (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/e7a9304ae00a16856accbf6d20ec8692/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/new-york-metropolis\",children:\"New York Metropolis\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" (2025).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(p,{...t})}):p(t)}return w(D);})();\n;return Component;"
+  },
+  "_id": "skladby/new-york-metropolis.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/new-york-metropolis.mdx",
+    "sourceFileName": "new-york-metropolis.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/new-york-metropolis"
+  },
+  "type": "Skladba",
+  "url": "/skladby/new-york-metropolis",
+  "canonicalUrl": "https://4rap.cz/skladby/new-york-metropolis"
+}

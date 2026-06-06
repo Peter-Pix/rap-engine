@@ -1,13 +1,15 @@
 {
   "title": "Jay Amo",
   "slug": "jay-amo",
-  "genre": [],
-  "description": "Jay Amo — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Jay Amo — nezávislý interpret rapové scény s ostrým flow a autentickým přístupem. Přináší syrový zvuk bez kompromisů. Poslouchej na streamovacích platformách.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!_.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(c=u(n,r))||c.enumerable});return e};var y=(e,n,o)=>(o=e!=null?d(x(e)):{},i(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var m=j((k,a)=>{a.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>A});var t=y(m()),A={title:\"Jay Amo\",slug:\"jay-amo\",genre:[],description:\"Jay Amo \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(M);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Jay Amo](/raperi/jay-amo)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),y=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},c=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!x.call(n,o)&&o!==r&&a(n,o,{get:()=>e[o],enumerable:!(s=u(e,o))||s.enumerable});return n};var g=(n,e,r)=>(r=n!=null?l(j(n)):{},c(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),v=n=>c(a({},\"__esModule\",{value:!0}),n);var m=f((b,i)=>{i.exports=_jsx_runtime});var k={};y(k,{default:()=>h,frontmatter:()=>_});var t=g(m()),_={title:\"Jay Amo\",slug:\"jay-amo\",genre:[\"\"],description:\"Jay Amo \\u2014 nez\\xE1visl\\xFD interpret rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a autentick\\xFDm p\\u0159\\xEDstupem. P\\u0159in\\xE1\\u0161\\xED syrov\\xFD zvuk bez kompromis\\u016F. Poslouchej na streamovac\\xEDch platform\\xE1ch.\",publishedAt:\"2026-05-31\"};function p(n){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/raperi/jay-amo\",children:\"Jay Amo\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function h(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(p,{...n})}):p(n)}return v(k);})();\n;return Component;"
   },
   "_id": "raperi/jay-amo.mdx",
   "_raw": {

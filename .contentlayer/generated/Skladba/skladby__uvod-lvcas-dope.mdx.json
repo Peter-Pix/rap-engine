@@ -8,16 +8,19 @@
   "album": "Showtime",
   "albumSlug": "showtime",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:07",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Úvod — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var v=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(x(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var d=v((w,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>p,frontmatter:()=>j});var r=b(d()),j={title:\"\\xDAvod\",slug:\"uvod-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Showtime\",albumSlug:\"showtime\",year:2020,genre:[],duration:\"2:07\",trackNumber:1,producers:[],producersNames:[],description:\"\\xDAvod \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Úvod](/skladby/uvod-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [Showtime](/alba/showtime) (2020).\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),b=(o,e)=>{for(var t in e)s(o,t,{get:e[t],enumerable:!0})},c=(o,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!f.call(o,a)&&a!==t&&s(o,a,{get:()=>e[a],enumerable:!(n=m(e,a))||n.enumerable});return o};var g=(o,e,t)=>(t=o!=null?i(v(o)):{},c(e||!o||!o.__esModule?s(t,\"default\",{value:o,enumerable:!0}):t,o)),_=o=>c(s({},\"__esModule\",{value:!0}),o);var l=x((L,d)=>{d.exports=_jsx_runtime});var w={};b(w,{default:()=>u,frontmatter:()=>j});var r=g(l()),j={title:\"\\xDAvod\",slug:\"uvod-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Showtime\",albumSlug:\"showtime\",year:2020,genre:[\"\"],duration:\"2:07\",trackNumber:1,producers:[],producersNames:[],description:\"\\xDAvod \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/uvod-lvcas-dope\",children:\"\\xDAvod\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/showtime\",children:\"Showtime\"}),\" (2020).\"]})}function u(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(p,{...o})}):p(o)}return _(w);})();\n;return Component;"
   },
   "_id": "skladby/uvod-lvcas-dope.mdx",
   "_raw": {

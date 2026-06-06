@@ -14,16 +14,19 @@
   "album": "Orikoule",
   "albumSlug": "orikoule",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:37",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Země Vzdálená — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var b=(e,r,t)=>(t=e!=null?d(f(e)):{},i(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var l=k((C,m)=>{m.exports=_jsx_runtime});var z={};_(z,{default:()=>c,frontmatter:()=>j});var n=b(l()),j={title:\"Zem\\u011B Vzd\\xE1len\\xE1\",slug:\"zeme-vzdalena-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\",\"mike-trafik\"],featuresNames:[\"James Cole\",\"Mike Trafik\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"4:37\",trackNumber:10,producers:[],producersNames:[],description:\"Zem\\u011B Vzd\\xE1len\\xE1 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Země Vzdálená](/skladby/zeme-vzdalena-orion)** od [Orion](/raperi/orion) z alba [Orikoule](/alba/orikoule) (2008).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},l=(r,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!h.call(r,a)&&a!==o&&t(r,a,{get:()=>e[a],enumerable:!(i=p(e,a))||i.enumerable});return r};var z=(r,e,o)=>(o=r!=null?m(k(r)):{},l(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),g=r=>l(t({},\"__esModule\",{value:!0}),r);var u=x((M,s)=>{s.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>j});var n=z(u()),j={title:\"Zem\\u011B Vzd\\xE1len\\xE1\",slug:\"zeme-vzdalena-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\",\"mike-trafik\"],featuresNames:[\"James Cole\",\"Mike Trafik\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[\"\"],duration:\"4:37\",trackNumber:10,producers:[],producersNames:[],description:\"Zem\\u011B Vzd\\xE1len\\xE1 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/zeme-vzdalena-orion\",children:\"Zem\\u011B Vzd\\xE1len\\xE1\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/orikoule\",children:\"Orikoule\"}),\" (2008).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/zeme-vzdalena-orion.mdx",
   "_raw": {

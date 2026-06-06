@@ -12,16 +12,19 @@
   "album": "DOWN4LIFE",
   "albumSlug": "down4life",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:56",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "REST IN PISS — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,S=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!S.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(a=d(t,s))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var l=f((C,c)=>{c.exports=_jsx_runtime});var N={};j(N,{default:()=>i,frontmatter:()=>g});var n=_(l()),g={title:\"REST IN PISS\",slug:\"rest-in-piss-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ptk\"],featuresNames:[\"P T K\"],album:\"DOWN4LIFE\",albumSlug:\"down4life\",year:2023,genre:[],duration:\"3:56\",trackNumber:13,producers:[],producersNames:[],description:\"REST IN PISS \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[REST IN PISS](/skladby/rest-in-piss-james-cole)** od [James Cole](/raperi/james-cole) z alba [DOWN4LIFE](/alba/down4life) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var S=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!h.call(r,a)&&a!==t&&n(r,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return r};var b=(r,e,t)=>(t=r!=null?u(S(r)):{},l(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),I=r=>l(n({},\"__esModule\",{value:!0}),r);var i=j((C,c)=>{c.exports=_jsx_runtime});var g={};x(g,{default:()=>m,frontmatter:()=>N});var s=b(i()),N={title:\"REST IN PISS\",slug:\"rest-in-piss-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ptk\"],featuresNames:[\"P T K\"],album:\"DOWN4LIFE\",albumSlug:\"down4life\",year:2023,genre:[\"\"],duration:\"3:56\",trackNumber:13,producers:[],producersNames:[],description:\"REST IN PISS \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/rest-in-piss-james-cole\",children:\"REST IN PISS\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,s.jsx)(e.a,{href:\"/alba/down4life\",children:\"DOWN4LIFE\"}),\" (2023).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(d,{...r})}):d(r)}return I(g);})();\n;return Component;"
   },
   "_id": "skladby/rest-in-piss-james-cole.mdx",
   "_raw": {

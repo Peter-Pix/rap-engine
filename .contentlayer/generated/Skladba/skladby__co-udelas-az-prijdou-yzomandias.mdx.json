@@ -12,16 +12,19 @@
   "album": "Pod Vlivem",
   "albumSlug": "pod-vlivem",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:37",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Co Uděláš Až Příjdou — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},d=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!j.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var b=(e,t,o)=>(o=e!=null?l(h(e)):{},d(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>d(a({},\"__esModule\",{value:!0}),e);var m=f((C,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>z});var n=b(m()),z={title:\"Co Ud\\u011Bl\\xE1\\u0161 A\\u017E P\\u0159\\xEDjdou\",slug:\"co-udelas-az-prijdou-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\"],featuresNames:[\"Jckpt\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[],duration:\"3:37\",trackNumber:2,producers:[],producersNames:[],description:\"Co Ud\\u011Bl\\xE1\\u0161 A\\u017E P\\u0159\\xEDjdou \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Co Uděláš Až Příjdou](/skladby/co-udelas-az-prijdou-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Pod Vlivem](/alba/pod-vlivem) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var z=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)d(e,r,{get:a[r],enumerable:!0})},s=(e,a,r,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of j(a))!h.call(e,n)&&n!==r&&d(e,n,{get:()=>a[n],enumerable:!(t=p(a,n))||t.enumerable});return e};var b=(e,a,r)=>(r=e!=null?m(f(e)):{},s(a||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(d({},\"__esModule\",{value:!0}),e);var l=z((k,i)=>{i.exports=_jsx_runtime});var v={};x(v,{default:()=>c,frontmatter:()=>y});var o=b(l()),y={title:\"Co Ud\\u011Bl\\xE1\\u0161 A\\u017E P\\u0159\\xEDjdou\",slug:\"co-udelas-az-prijdou-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\"],featuresNames:[\"Jckpt\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[\"\"],duration:\"3:37\",trackNumber:2,producers:[],producersNames:[],description:\"Co Ud\\u011Bl\\xE1\\u0161 A\\u017E P\\u0159\\xEDjdou \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(a.p,{children:[(0,o.jsx)(a.strong,{children:(0,o.jsx)(a.a,{href:\"/skladby/co-udelas-az-prijdou-yzomandias\",children:\"Co Ud\\u011Bl\\xE1\\u0161 A\\u017E P\\u0159\\xEDjdou\"})}),\" od \",(0,o.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(a.a,{href:\"/alba/pod-vlivem\",children:\"Pod Vlivem\"}),\" (2021).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,o.jsx)(a,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return g(v);})();\n;return Component;"
   },
   "_id": "skladby/co-udelas-az-prijdou-yzomandias.mdx",
   "_raw": {

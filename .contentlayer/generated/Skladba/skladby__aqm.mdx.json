@@ -1,0 +1,28 @@
+{
+  "title": "AQM",
+  "slug": "aqm",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "year": 2021,
+  "description": "AQM — singl od Hugo Toxxx (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/4284e3f476f3a95f088092ea82d342a9/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[AQM](/skladby/aqm)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2021).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},x=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of u(e))!f.call(t,r)&&r!==n&&a(t,r,{get:()=>e[r],enumerable:!(s=g(e,r))||s.enumerable});return t};var M=(t,e,n)=>(n=t!=null?d(m(t)):{},x(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>x(a({},\"__esModule\",{value:!0}),t);var c=h((D,i)=>{i.exports=_jsx_runtime});var A={};j(A,{default:()=>p,frontmatter:()=>y});var o=M(c()),y={title:\"AQM\",slug:\"aqm\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",year:2021,description:\"AQM \\u2014 singl od Hugo Toxxx (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/4284e3f476f3a95f088092ea82d342a9/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/aqm\",children:\"AQM\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2021).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(l,{...t})}):l(t)}return _(A);})();\n;return Component;"
+  },
+  "_id": "skladby/aqm.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/aqm.mdx",
+    "sourceFileName": "aqm.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/aqm"
+  },
+  "type": "Skladba",
+  "url": "/skladby/aqm",
+  "canonicalUrl": "https://4rap.cz/skladby/aqm"
+}

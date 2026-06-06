@@ -14,16 +14,19 @@
   "album": "Nejsem Sám",
   "albumSlug": "nejsem-sam",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:36",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Nejsem Sám — skladba od Saul.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var S=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)r(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of h(n))!x.call(e,s)&&s!==a&&r(e,s,{get:()=>n[s],enumerable:!(m=p(n,s))||m.enumerable});return e};var _=(e,n,a)=>(a=e!=null?i(j(e)):{},o(n||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>o(r({},\"__esModule\",{value:!0}),e);var l=S((M,u)=>{u.exports=_jsx_runtime});var N={};f(N,{default:()=>d,frontmatter:()=>g});var t=_(l()),g={title:\"Nejsem S\\xE1m\",slug:\"nejsem-sam-saul\",rapper:\"Saul\",rapperSlug:\"saul\",features:[\"hasan\",\"yzomandias\"],featuresNames:[\"Hasan\",\"Yzomandias\"],album:\"Nejsem S\\xE1m\",albumSlug:\"nejsem-sam\",year:2026,genre:[],duration:\"3:36\",trackNumber:1,producers:[],producersNames:[],description:\"Nejsem S\\xE1m \\u2014 skladba od Saul.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Nejsem Sám](/skladby/nejsem-sam-saul)** od [Saul](/raperi/saul) (2026).\n",
+    "code": "var Component=(()=>{var i=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(s,e)=>()=>(e||s((e={exports:{}}).exports,e),e.exports),S=(s,e)=>{for(var a in e)t(s,a,{get:e[a],enumerable:!0})},o=(s,e,a,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of j(e))!h.call(s,n)&&n!==a&&t(s,n,{get:()=>e[n],enumerable:!(m=p(e,n))||m.enumerable});return s};var g=(s,e,a)=>(a=s!=null?i(f(s)):{},o(e||!s||!s.__esModule?t(a,\"default\",{value:s,enumerable:!0}):a,s)),N=s=>o(t({},\"__esModule\",{value:!0}),s);var l=x((k,u)=>{u.exports=_jsx_runtime});var _={};S(_,{default:()=>d,frontmatter:()=>b});var r=g(l()),b={title:\"Nejsem S\\xE1m\",slug:\"nejsem-sam-saul\",rapper:\"Saul\",rapperSlug:\"saul\",features:[\"hasan\",\"yzomandias\"],featuresNames:[\"Hasan\",\"Yzomandias\"],album:\"Nejsem S\\xE1m\",albumSlug:\"nejsem-sam\",year:2026,genre:[\"\"],duration:\"3:36\",trackNumber:1,producers:[],producersNames:[],description:\"Nejsem S\\xE1m \\u2014 skladba od Saul.\",publishedAt:\"2026-05-31\"};function c(s){let e={a:\"a\",p:\"p\",strong:\"strong\",...s.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nejsem-sam-saul\",children:\"Nejsem S\\xE1m\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/saul\",children:\"Saul\"}),\" (2026).\"]})}function d(s={}){let{wrapper:e}=s.components||{};return e?(0,r.jsx)(e,{...s,children:(0,r.jsx)(c,{...s})}):c(s)}return N(_);})();\n;return Component;"
   },
   "_id": "skladby/nejsem-sam-saul.mdx",
   "_raw": {

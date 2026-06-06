@@ -8,16 +8,19 @@
   "album": "The Text",
   "albumSlug": "the-text",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:57",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Still Livin — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(l=d(t,o))||l.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(x(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>s(a({},\"__esModule\",{value:!0}),e);var u=f((B,i)=>{i.exports=_jsx_runtime});var S={};_(S,{default:()=>c,frontmatter:()=>j});var n=g(u()),j={title:\"Still Livin\",slug:\"still-livin-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[],duration:\"3:57\",trackNumber:6,producers:[],producersNames:[],description:\"Still Livin \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return y(S);})();\n;return Component;"
+    "raw": "\n**[Still Livin](/skladby/still-livin-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Text](/alba/the-text) (2006).\n",
+    "code": "var Component=(()=>{var d=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var a in e)l(t,a,{get:e[a],enumerable:!0})},i=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!m.call(t,n)&&n!==a&&l(t,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return t};var z=(t,e,a)=>(a=t!=null?d(x(t)):{},i(e||!t||!t.__esModule?l(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>i(l({},\"__esModule\",{value:!0}),t);var s=f((v,b)=>{b.exports=_jsx_runtime});var _={};y(_,{default:()=>u,frontmatter:()=>B});var r=z(s()),B={title:\"Still Livin\",slug:\"still-livin-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[\"\"],duration:\"3:57\",trackNumber:6,producers:[],producersNames:[],description:\"Still Livin \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/still-livin-bobby-blaze\",children:\"Still Livin\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/the-text\",children:\"The Text\"}),\" (2006).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/still-livin-bobby-blaze.mdx",
   "_raw": {

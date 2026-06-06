@@ -14,16 +14,19 @@
   "album": "DANK",
   "albumSlug": "dank",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:49",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Periferie — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(u=p(r,a))||u.enumerable});return e};var b=(e,r,t)=>(t=e!=null?m(f(e)):{},i(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var l=x((N,s)=>{s.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>k});var n=b(l()),k={title:\"Periferie\",slug:\"periferie-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"marcell\"],featuresNames:[\"Kenny Rough\",\"Marcell\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"3:49\",trackNumber:14,producers:[],producersNames:[],description:\"Periferie \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Periferie](/skladby/periferie-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [DANK](/alba/dank) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!h.call(r,t)&&t!==n&&i(r,t,{get:()=>e[t],enumerable:!(l=f(e,t))||l.enumerable});return r};var k=(r,e,n)=>(n=r!=null?p(m(r)):{},o(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),P=r=>o(i({},\"__esModule\",{value:!0}),r);var s=x((N,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>_});var a=k(s()),_={title:\"Periferie\",slug:\"periferie-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"marcell\"],featuresNames:[\"Kenny Rough\",\"Marcell\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[\"\"],duration:\"3:49\",trackNumber:14,producers:[],producersNames:[],description:\"Periferie \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/periferie-paulie-garand\",children:\"Periferie\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/dank\",children:\"DANK\"}),\" (2018).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return P(j);})();\n;return Component;"
   },
   "_id": "skladby/periferie-paulie-garand.mdx",
   "_raw": {

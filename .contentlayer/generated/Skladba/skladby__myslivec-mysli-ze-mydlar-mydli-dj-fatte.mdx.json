@@ -12,16 +12,19 @@
   "album": "Myslivec myslí, že Mydlář mydlí (feat. Fosco Alma)",
   "albumSlug": "myslivec-mysli-ze-mydlar-mydli-feat-fosco-alma",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Myslivec myslí, že Mydlář mydlí — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var y=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var s in t)r(e,s,{get:t[s],enumerable:!0})},n=(e,t,s,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!x.call(e,a)&&a!==s&&r(e,a,{get:()=>t[a],enumerable:!(m=u(t,a))||m.enumerable});return e};var j=(e,t,s)=>(s=e!=null?y(f(e)):{},n(t||!e||!e.__esModule?r(s,\"default\",{value:e,enumerable:!0}):s,e)),_=e=>n(r({},\"__esModule\",{value:!0}),e);var c=h((v,o)=>{o.exports=_jsx_runtime});var g={};M(g,{default:()=>i,frontmatter:()=>b});var l=j(c()),b={title:\"Myslivec mysl\\xED, \\u017Ee Mydl\\xE1\\u0159 mydl\\xED\",slug:\"myslivec-mysli-ze-mydlar-mydli-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"fosco-alma\"],featuresNames:[\"Fosco Alma\"],album:\"Myslivec mysl\\xED, \\u017Ee Mydl\\xE1\\u0159 mydl\\xED (feat. Fosco Alma)\",albumSlug:\"myslivec-mysli-ze-mydlar-mydli-feat-fosco-alma\",year:2024,genre:[],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Myslivec mysl\\xED, \\u017Ee Mydl\\xE1\\u0159 mydl\\xED \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,l.jsxs)(l.Fragment,{children:[(0,l.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,l.jsx)(t.p,{children:(0,l.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,l.jsx)(t,{...e,children:(0,l.jsx)(d,{...e})}):d(e)}return _(g);})();\n;return Component;"
+    "raw": "\n**[Myslivec myslí, že Mydlář mydlí](/skladby/myslivec-mysli-ze-mydlar-mydli-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) (2024).\n",
+    "code": "var Component=(()=>{var i=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var l in e)r(t,l,{get:e[l],enumerable:!0})},d=(t,e,l,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!M.call(t,a)&&a!==l&&r(t,a,{get:()=>e[a],enumerable:!(m=u(e,a))||m.enumerable});return t};var h=(t,e,l)=>(l=t!=null?i(p(t)):{},d(e||!t||!t.__esModule?r(l,\"default\",{value:t,enumerable:!0}):l,t)),g=t=>d(r({},\"__esModule\",{value:!0}),t);var n=j((D,o)=>{o.exports=_jsx_runtime});var b={};x(b,{default:()=>c,frontmatter:()=>v});var s=h(n()),v={title:\"Myslivec mysl\\xED, \\u017Ee Mydl\\xE1\\u0159 mydl\\xED\",slug:\"myslivec-mysli-ze-mydlar-mydli-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"fosco-alma\"],featuresNames:[\"Fosco Alma\"],album:\"Myslivec mysl\\xED, \\u017Ee Mydl\\xE1\\u0159 mydl\\xED (feat. Fosco Alma)\",albumSlug:\"myslivec-mysli-ze-mydlar-mydli-feat-fosco-alma\",year:2024,genre:[\"\"],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Myslivec mysl\\xED, \\u017Ee Mydl\\xE1\\u0159 mydl\\xED \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function y(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/myslivec-mysli-ze-mydlar-mydli-dj-fatte\",children:\"Myslivec mysl\\xED, \\u017Ee Mydl\\xE1\\u0159 mydl\\xED\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" (2024).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,s.jsx)(e,{...t,children:(0,s.jsx)(y,{...t})}):y(t)}return g(b);})();\n;return Component;"
   },
   "_id": "skladby/myslivec-mysli-ze-mydlar-mydli-dj-fatte.mdx",
   "_raw": {

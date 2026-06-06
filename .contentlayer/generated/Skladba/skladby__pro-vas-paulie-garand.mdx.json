@@ -14,16 +14,19 @@
   "album": "Molo II (Deluxe)",
   "albumSlug": "molo-ii",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:30",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Pro vás — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var b=(e,r,t)=>(t=e!=null?m(x(e)):{},u(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((k,l)=>{l.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>M});var n=b(i()),M={title:\"Pro v\\xE1s\",slug:\"pro-vas-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"marcell\"],featuresNames:[\"Kenny Rough\",\"Marcell\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"3:30\",trackNumber:15,producers:[],producersNames:[],description:\"Pro v\\xE1s \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Pro vás](/skladby/pro-vas-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Molo II (Deluxe)](/alba/molo-ii) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!x.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(l=m(e,o))||l.enumerable});return r};var M=(r,e,n)=>(n=r!=null?p(h(r)):{},s(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),P=r=>s(t({},\"__esModule\",{value:!0}),r);var i=f((y,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>_});var a=M(i()),_={title:\"Pro v\\xE1s\",slug:\"pro-vas-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"marcell\"],featuresNames:[\"Kenny Rough\",\"Marcell\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[\"\"],duration:\"3:30\",trackNumber:15,producers:[],producersNames:[],description:\"Pro v\\xE1s \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/pro-vas-paulie-garand\",children:\"Pro v\\xE1s\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/molo-ii\",children:\"Molo II (Deluxe)\"}),\" (2025).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return P(j);})();\n;return Component;"
   },
   "_id": "skladby/pro-vas-paulie-garand.mdx",
   "_raw": {

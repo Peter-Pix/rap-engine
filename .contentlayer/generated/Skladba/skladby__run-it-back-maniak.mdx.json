@@ -12,16 +12,19 @@
   "album": "It's Ak!",
   "albumSlug": "it-s-ak",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:17",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Run it back — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var u=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var r in e)u(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of k(e))!b.call(t,a)&&a!==r&&u(t,a,{get:()=>e[a],enumerable:!(s=l(e,a))||s.enumerable});return t};var _=(t,e,r)=>(r=t!=null?d(x(t)):{},o(e||!t||!t.__esModule?u(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>o(u({},\"__esModule\",{value:!0}),t);var c=h((S,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>j});var n=_(c()),j={title:\"Run it back\",slug:\"run-it-back-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"It's Ak!\",albumSlug:\"it-s-ak\",year:2024,genre:[],duration:\"5:17\",trackNumber:2,producers:[],producersNames:[],description:\"Run it back \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Run it back](/skladby/run-it-back-maniak)** od [Maniak](/raperi/maniak) z alba [It's Ak!](/alba/it-s-ak) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),x=(t,a)=>{for(var r in a)s(t,r,{get:a[r],enumerable:!0})},u=(t,a,r,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let e of p(a))!f.call(t,e)&&e!==r&&s(t,e,{get:()=>a[e],enumerable:!(i=m(a,e))||i.enumerable});return t};var g=(t,a,r)=>(r=t!=null?d(b(t)):{},u(a||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>u(s({},\"__esModule\",{value:!0}),t);var c=h((A,o)=>{o.exports=_jsx_runtime});var _={};x(_,{default:()=>l,frontmatter:()=>j});var n=g(c()),j={title:\"Run it back\",slug:\"run-it-back-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"It's Ak!\",albumSlug:\"it-s-ak\",year:2024,genre:[\"\"],duration:\"5:17\",trackNumber:2,producers:[],producersNames:[],description:\"Run it back \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function k(t){let a={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/run-it-back-maniak\",children:\"Run it back\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/it-s-ak\",children:\"It's Ak!\"}),\" (2024).\"]})}function l(t={}){let{wrapper:a}=t.components||{};return a?(0,n.jsx)(a,{...t,children:(0,n.jsx)(k,{...t})}):k(t)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/run-it-back-maniak.mdx",
   "_raw": {

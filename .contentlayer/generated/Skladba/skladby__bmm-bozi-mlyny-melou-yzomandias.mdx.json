@@ -12,16 +12,19 @@
   "album": "Kruhy & Vlny (217 Twins Edition)",
   "albumSlug": "kruhy-vlny",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:17",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "BMM (Boží Mlýny Melou) — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of y(n))!M.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var f=(e,n,o)=>(o=e!=null?c(h(e)):{},i(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var u=x((z,m)=>{m.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>g});var t=f(u()),g={title:\"BMM (Bo\\u017E\\xED Ml\\xFDny Melou)\",slug:\"bmm-bozi-mlyny-melou-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[],duration:\"3:17\",trackNumber:12,producers:[],producersNames:[],description:\"BMM (Bo\\u017E\\xED Ml\\xFDny Melou) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[BMM (Boží Mlýny Melou)](/skladby/bmm-bozi-mlyny-melou-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
+    "code": "var Component=(()=>{var y=Object.create;var t=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)t(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!h.call(e,a)&&a!==r&&t(e,a,{get:()=>n[a],enumerable:!(s=c(n,a))||s.enumerable});return e};var z=(e,n,r)=>(r=e!=null?y(M(e)):{},i(n||!e||!e.__esModule?t(r,\"default\",{value:e,enumerable:!0}):r,e)),x=e=>i(t({},\"__esModule\",{value:!0}),e);var d=b((_,l)=>{l.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>g});var o=z(d()),g={title:\"BMM (Bo\\u017E\\xED Ml\\xFDny Melou)\",slug:\"bmm-bozi-mlyny-melou-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"3:17\",trackNumber:12,producers:[],producersNames:[],description:\"BMM (Bo\\u017E\\xED Ml\\xFDny Melou) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(n.p,{children:[(0,o.jsx)(n.strong,{children:(0,o.jsx)(n.a,{href:\"/skladby/bmm-bozi-mlyny-melou-yzomandias\",children:\"BMM (Bo\\u017E\\xED Ml\\xFDny Melou)\"})}),\" od \",(0,o.jsx)(n.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(n.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return x(k);})();\n;return Component;"
   },
   "_id": "skladby/bmm-bozi-mlyny-melou-yzomandias.mdx",
   "_raw": {

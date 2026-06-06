@@ -8,16 +8,19 @@
   "album": "Bouře",
   "albumSlug": "boure",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Bouře — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(u=p(r,n))||u.enumerable});return e};var _=(e,r,a)=>(a=e!=null?l(g(e)):{},s(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var d=h((N,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>m,frontmatter:()=>B});var t=_(d()),B={title:\"Bou\\u0159e\",slug:\"boure-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Bou\\u0159e\",albumSlug:\"boure\",year:2024,genre:[],duration:\"3:16\",trackNumber:1,producers:[],producersNames:[],description:\"Bou\\u0159e \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Bouře](/skladby/boure-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var u=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var a in r)u(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of b(r))!f.call(e,o)&&o!==a&&u(e,o,{get:()=>r[o],enumerable:!(n=g(r,o))||n.enumerable});return e};var B=(e,r,a)=>(a=e!=null?p(m(e)):{},s(r||!e||!e.__esModule?u(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(u({},\"__esModule\",{value:!0}),e);var d=x((y,c)=>{c.exports=_jsx_runtime});var S={};h(S,{default:()=>l,frontmatter:()=>j});var t=B(d()),j={title:\"Bou\\u0159e\",slug:\"boure-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Bou\\u0159e\",albumSlug:\"boure\",year:2024,genre:[\"\"],duration:\"3:16\",trackNumber:1,producers:[],producersNames:[],description:\"Bou\\u0159e \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/boure-sergei-barracuda\",children:\"Bou\\u0159e\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" (2024).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return _(S);})();\n;return Component;"
   },
   "_id": "skladby/boure-sergei-barracuda.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "713",
   "albumSlug": "713",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:42",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Ilegálny Flow — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of g(r))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(l=p(r,a))||l.enumerable});return e};var _=(e,r,n)=>(n=e!=null?m(x(e)):{},s(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var c=b((F,u)=>{u.exports=_jsx_runtime});var S={};f(S,{default:()=>d,frontmatter:()=>y});var t=_(c()),y={title:\"Ileg\\xE1lny Flow\",slug:\"ilegalny-flow-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"delik\"],featuresNames:[\"DeliK\"],album:\"713\",albumSlug:\"713\",year:2017,genre:[],duration:\"3:42\",trackNumber:5,producers:[],producersNames:[],description:\"Ileg\\xE1lny Flow \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Ilegálny Flow](/skladby/ilegalny-flow-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [713](/alba/713) (2017).\n",
+    "code": "var Component=(()=>{var g=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)l(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!m.call(r,t)&&t!==n&&l(r,t,{get:()=>e[t],enumerable:!(o=p(e,t))||o.enumerable});return r};var y=(r,e,n)=>(n=r!=null?g(f(r)):{},s(e||!r||!r.__esModule?l(n,\"default\",{value:r,enumerable:!0}):n,r)),w=r=>s(l({},\"__esModule\",{value:!0}),r);var c=h((k,i)=>{i.exports=_jsx_runtime});var j={};x(j,{default:()=>d,frontmatter:()=>_});var a=y(c()),_={title:\"Ileg\\xE1lny Flow\",slug:\"ilegalny-flow-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"delik\"],featuresNames:[\"DeliK\"],album:\"713\",albumSlug:\"713\",year:2017,genre:[\"\"],duration:\"3:42\",trackNumber:5,producers:[],producersNames:[],description:\"Ileg\\xE1lny Flow \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/ilegalny-flow-sergei-barracuda\",children:\"Ileg\\xE1lny Flow\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/713\",children:\"713\"}),\" (2017).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return w(j);})();\n;return Component;"
   },
   "_id": "skladby/ilegalny-flow-sergei-barracuda.mdx",
   "_raw": {

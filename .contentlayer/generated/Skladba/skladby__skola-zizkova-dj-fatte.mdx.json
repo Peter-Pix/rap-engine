@@ -12,16 +12,19 @@
   "album": "Reflex",
   "albumSlug": "reflex",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:06",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Škola Žižkova — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(f(e)):{},l(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var c=j((F,u)=>{u.exports=_jsx_runtime});var S={};k(S,{default:()=>d,frontmatter:()=>g});var r=b(c()),g={title:\"\\u0160kola \\u017Di\\u017Ekova\",slug:\"skola-zizkova-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"johnyboss\"],featuresNames:[\"JOHNYBOSS\"],album:\"Reflex\",albumSlug:\"reflex\",year:2022,genre:[],duration:\"3:06\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160kola \\u017Di\\u017Ekova \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Škola Žižkova](/skladby/skola-zizkova-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Reflex](/alba/reflex) (2022).\n",
+    "code": "var Component=(()=>{var f=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)n(t,r,{get:e[r],enumerable:!0})},l=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of k(e))!m.call(t,o)&&o!==r&&n(t,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return t};var b=(t,e,r)=>(r=t!=null?f(x(t)):{},l(e||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>l(n({},\"__esModule\",{value:!0}),t);var i=h((D,d)=>{d.exports=_jsx_runtime});var v={};j(v,{default:()=>u,frontmatter:()=>_});var a=b(i()),_={title:\"\\u0160kola \\u017Di\\u017Ekova\",slug:\"skola-zizkova-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"johnyboss\"],featuresNames:[\"JOHNYBOSS\"],album:\"Reflex\",albumSlug:\"reflex\",year:2022,genre:[\"\"],duration:\"3:06\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160kola \\u017Di\\u017Ekova \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/skola-zizkova-dj-fatte\",children:\"\\u0160kola \\u017Di\\u017Ekova\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/reflex\",children:\"Reflex\"}),\" (2022).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(c,{...t})}):c(t)}return g(v);})();\n;return Component;"
   },
   "_id": "skladby/skola-zizkova-dj-fatte.mdx",
   "_raw": {

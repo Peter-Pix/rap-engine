@@ -12,16 +12,19 @@
   "album": "Kruhy & Vlny (217 Twins Edition)",
   "albumSlug": "kruhy-vlny",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Láska & Bolest — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!k.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(o=p(n,a))||o.enumerable});return e};var f=(e,n,r)=>(r=e!=null?c(x(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var u=y((N,d)=>{d.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>g});var t=f(u()),g={title:\"L\\xE1ska & Bolest\",slug:\"laska-bolest-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[],duration:\"3:31\",trackNumber:14,producers:[],producersNames:[],description:\"L\\xE1ska & Bolest \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Láska & Bolest](/skladby/laska-bolest-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),f=(n,a)=>{for(var r in a)t(n,r,{get:a[r],enumerable:!0})},i=(n,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of y(a))!k.call(n,s)&&s!==r&&t(n,s,{get:()=>a[s],enumerable:!(o=p(a,s))||o.enumerable});return n};var x=(n,a,r)=>(r=n!=null?m(h(n)):{},i(a||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),z=n=>i(t({},\"__esModule\",{value:!0}),n);var d=b((L,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>g});var e=x(d()),g={title:\"L\\xE1ska & Bolest\",slug:\"laska-bolest-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"3:31\",trackNumber:14,producers:[],producersNames:[],description:\"L\\xE1ska & Bolest \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/laska-bolest-yzomandias\",children:\"L\\xE1ska & Bolest\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(u,{...n})}):u(n)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/laska-bolest-yzomandias.mdx",
   "_raw": {

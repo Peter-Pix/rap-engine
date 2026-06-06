@@ -12,16 +12,19 @@
   "album": "Ultra! Ultra!",
   "albumSlug": "ultra-ultra",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:31",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Jak Řekl M — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var k=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)l(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!b.call(e,a)&&a!==n&&l(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var _=(e,r,n)=>(n=e!=null?d(h(e)):{},s(r||!e||!e.__esModule?l(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(l({},\"__esModule\",{value:!0}),e);var m=k((C,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>j});var t=_(m()),j={title:\"Jak R\\u030Cekl M\",slug:\"jak-rekl-m-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"albert-cerny\"],featuresNames:[\"Albert Cerny\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"4:31\",trackNumber:6,producers:[],producersNames:[],description:\"Jak R\\u030Cekl M \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Jak Řekl M](/skladby/jak-rekl-m-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Ultra! Ultra!](/alba/ultra-ultra) (2017).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),x=(a,r)=>{for(var t in r)n(a,t,{get:r[t],enumerable:!0})},s=(a,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let l of k(r))!f.call(a,l)&&l!==t&&n(a,l,{get:()=>r[l],enumerable:!(i=p(r,l))||i.enumerable});return a};var g=(a,r,t)=>(t=a!=null?c(b(a)):{},s(r||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),j=a=>s(n({},\"__esModule\",{value:!0}),a);var d=h((v,o)=>{o.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>M});var e=g(d()),M={title:\"Jak R\\u030Cekl M\",slug:\"jak-rekl-m-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"albert-cerny\"],featuresNames:[\"Albert Cerny\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[\"\"],duration:\"4:31\",trackNumber:6,producers:[],producersNames:[],description:\"Jak R\\u030Cekl M \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/jak-rekl-m-vladimir-518\",children:\"Jak R\\u030Cekl M\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/ultra-ultra\",children:\"Ultra! Ultra!\"}),\" (2017).\"]})}function m(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(u,{...a})}):u(a)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/jak-rekl-m-vladimir-518.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Top Threat",
   "albumSlug": "top-threat",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:12",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Stinch — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?d(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>i(o({},\"__esModule\",{value:!0}),e);var u=_((N,c)=>{c.exports=_jsx_runtime});var M={};b(M,{default:()=>p,frontmatter:()=>j});var n=g(u()),j={title:\"Stinch\",slug:\"stinch-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Top Threat\",albumSlug:\"top-threat\",year:2024,genre:[],duration:\"1:12\",trackNumber:3,producers:[],producersNames:[],description:\"Stinch \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return k(M);})();\n;return Component;"
+    "raw": "\n**[Stinch](/skladby/stinch-maniak)** od [Maniak](/raperi/maniak) z alba [Top Threat](/alba/top-threat) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),b=(t,a)=>{for(var r in a)o(t,r,{get:a[r],enumerable:!0})},i=(t,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of m(a))!k.call(t,n)&&n!==r&&o(t,n,{get:()=>a[n],enumerable:!(s=d(a,n))||s.enumerable});return t};var g=(t,a,r)=>(r=t!=null?l(f(t)):{},i(a||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>i(o({},\"__esModule\",{value:!0}),t);var h=x((T,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>u,frontmatter:()=>_});var e=g(h()),_={title:\"Stinch\",slug:\"stinch-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Top Threat\",albumSlug:\"top-threat\",year:2024,genre:[\"\"],duration:\"1:12\",trackNumber:3,producers:[],producersNames:[],description:\"Stinch \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(t){let a={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/stinch-maniak\",children:\"Stinch\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/top-threat\",children:\"Top Threat\"}),\" (2024).\"]})}function u(t={}){let{wrapper:a}=t.components||{};return a?(0,e.jsx)(a,{...t,children:(0,e.jsx)(p,{...t})}):p(t)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/stinch-maniak.mdx",
   "_raw": {

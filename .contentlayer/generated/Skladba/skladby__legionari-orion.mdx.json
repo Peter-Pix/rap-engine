@@ -12,16 +12,19 @@
   "album": "MAMUTI L.P.",
   "albumSlug": "mamuti-l-p",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:01",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "LEGIONÁRI — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(h(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var c=g((L,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>I});var r=b(c()),I={title:\"LEGION\\xC1RI\",slug:\"legionari-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\"],featuresNames:[\"\\u010Cis T\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[],duration:\"4:01\",trackNumber:6,producers:[],producersNames:[],description:\"LEGION\\xC1RI \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[LEGIONÁRI](/skladby/legionari-orion)** od [Orion](/raperi/orion) z alba [MAMUTI L.P.](/alba/mamuti-l-p) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of f(r))!g.call(e,t)&&t!==o&&a(e,t,{get:()=>r[t],enumerable:!(i=m(r,t))||i.enumerable});return e};var I=(e,r,o)=>(o=e!=null?p(h(e)):{},s(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>s(a({},\"__esModule\",{value:!0}),e);var u=x((_,l)=>{l.exports=_jsx_runtime});var N={};b(N,{default:()=>d,frontmatter:()=>L});var n=I(u()),L={title:\"LEGION\\xC1RI\",slug:\"legionari-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\"],featuresNames:[\"\\u010Cis T\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[\"\"],duration:\"4:01\",trackNumber:6,producers:[],producersNames:[],description:\"LEGION\\xC1RI \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/legionari-orion\",children:\"LEGION\\xC1RI\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/mamuti-l-p\",children:\"MAMUTI L.P.\"}),\" (2024).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return M(N);})();\n;return Component;"
   },
   "_id": "skladby/legionari-orion.mdx",
   "_raw": {

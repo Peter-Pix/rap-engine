@@ -12,16 +12,19 @@
   "album": "BÍLEJ JAK STĚNA",
   "albumSlug": "bilej-jak-stena",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:53",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "BÍLEJ JAK STĚNA — skladba od Joshua.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),J=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var f=(e,t,r)=>(r=e!=null?d(j(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),A=e=>u(s({},\"__esModule\",{value:!0}),e);var m=b((k,c)=>{c.exports=_jsx_runtime});var _={};J(_,{default:()=>l,frontmatter:()=>S});var n=f(m()),S={title:\"B\\xCDLEJ JAK ST\\u011ANA\",slug:\"bilej-jak-stena-joshua\",rapper:\"Joshua\",rapperSlug:\"joshua\",features:[\"smack\"],featuresNames:[\"Smack\"],album:\"B\\xCDLEJ JAK ST\\u011ANA\",albumSlug:\"bilej-jak-stena\",year:2025,genre:[],duration:\"3:53\",trackNumber:2,producers:[],producersNames:[],description:\"B\\xCDLEJ JAK ST\\u011ANA \\u2014 skladba od Joshua.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return A(_);})();\n;return Component;"
+    "raw": "\n**[BÍLEJ JAK STĚNA](/skladby/bilej-jak-stena-joshua)** od [Joshua](/raperi/joshua) (2025).\n",
+    "code": "var Component=(()=>{var h=Object.create;var n=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,J=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},u=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of p(e))!J.call(a,s)&&s!==r&&n(a,s,{get:()=>e[s],enumerable:!(o=j(e,s))||o.enumerable});return a};var x=(a,e,r)=>(r=a!=null?h(m(a)):{},u(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),A=a=>u(n({},\"__esModule\",{value:!0}),a);var i=b((S,c)=>{c.exports=_jsx_runtime});var g={};f(g,{default:()=>d,frontmatter:()=>k});var t=x(i()),k={title:\"B\\xCDLEJ JAK ST\\u011ANA\",slug:\"bilej-jak-stena-joshua\",rapper:\"Joshua\",rapperSlug:\"joshua\",features:[\"smack\"],featuresNames:[\"Smack\"],album:\"B\\xCDLEJ JAK ST\\u011ANA\",albumSlug:\"bilej-jak-stena\",year:2025,genre:[\"\"],duration:\"3:53\",trackNumber:2,producers:[],producersNames:[],description:\"B\\xCDLEJ JAK ST\\u011ANA \\u2014 skladba od Joshua.\",publishedAt:\"2026-05-31\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/bilej-jak-stena-joshua\",children:\"B\\xCDLEJ JAK ST\\u011ANA\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/joshua\",children:\"Joshua\"}),\" (2025).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(l,{...a})}):l(a)}return A(g);})();\n;return Component;"
   },
   "_id": "skladby/bilej-jak-stena-joshua.mdx",
   "_raw": {

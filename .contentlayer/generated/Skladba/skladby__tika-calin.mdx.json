@@ -12,16 +12,19 @@
   "album": "Tiká",
   "albumSlug": "tika",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Tiká — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of k(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((L,c)=>{c.exports=_jsx_runtime});var N={};_(N,{default:()=>m,frontmatter:()=>j});var n=b(u()),j={title:\"Tik\\xE1\",slug:\"tika-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"kvitek\"],featuresNames:[\"Kv\\xEDtek\"],album:\"Tik\\xE1\",albumSlug:\"tika\",year:2021,genre:[],duration:\"3:24\",trackNumber:1,producers:[],producersNames:[],description:\"Tik\\xE1 \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[Tiká](/skladby/tika-calin)** od [Calin](/raperi/calin) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var r in e)i(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!x.call(t,a)&&a!==r&&i(t,a,{get:()=>e[a],enumerable:!(s=k(e,a))||s.enumerable});return t};var b=(t,e,r)=>(r=t!=null?p(f(t)):{},o(e||!t||!t.__esModule?i(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>o(i({},\"__esModule\",{value:!0}),t);var l=h((T,c)=>{c.exports=_jsx_runtime});var C={};g(C,{default:()=>d,frontmatter:()=>j});var n=b(l()),j={title:\"Tik\\xE1\",slug:\"tika-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"kvitek\"],featuresNames:[\"Kv\\xEDtek\"],album:\"Tik\\xE1\",albumSlug:\"tika\",year:2021,genre:[\"\"],duration:\"3:24\",trackNumber:1,producers:[],producersNames:[],description:\"Tik\\xE1 \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/tika-calin\",children:\"Tik\\xE1\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2021).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(u,{...t})}):u(t)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/tika-calin.mdx",
   "_raw": {

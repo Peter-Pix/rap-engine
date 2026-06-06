@@ -1,6 +1,5 @@
 // ═══════════════════════════════════════════════════════════
 // RAPENGINE — Centrální typový systém
-// Každá entita je izolovaná, ale propojená přes slug reference
 // ═══════════════════════════════════════════════════════════
 
 export interface RapperEntity {
@@ -8,6 +7,7 @@ export interface RapperEntity {
   title: string
   realName?: string
   born?: string
+  birthPlace?: string
   active?: string
   label?: string
   labelSlug?: string
@@ -21,6 +21,18 @@ export interface RapperEntity {
   canonicalUrl: string
   relatedRappers: string[]
   relatedAlbums: string[]
+  // Deezer + socials
+  deezerId?: number
+  socials?: string
+  aliases?: string[]
+  origin?: string
+  hometown?: string
+  labels?: string[]
+  subgenres?: string[]
+  status?: string
+  associatedActs?: string[]
+  createdAt?: string
+  seo?: string
 }
 
 export interface AlbumEntity {
@@ -40,6 +52,20 @@ export interface AlbumEntity {
   updatedAt?: string
   url: string
   canonicalUrl: string
+  // Deezer + metadata
+  deezerAlbumId?: number
+  upc?: string
+  origin?: string
+  releaseType?: string
+  features?: string[]
+  featuresNames?: string[]
+  producers?: string[]
+  producersNames?: string[]
+  duration?: string
+  explicit?: boolean
+  releaseDate?: string
+  nbTracks?: number
+  subgenres?: string[]
 }
 
 export interface LabelEntity {
@@ -53,6 +79,12 @@ export interface LabelEntity {
   publishedAt: string
   url: string
   canonicalUrl: string
+  // Extra metadata
+  website?: string
+  city?: string
+  country?: string
+  founder?: string
+  genre?: string[]
 }
 
 export interface ZanrEntity {
@@ -64,6 +96,11 @@ export interface ZanrEntity {
   publishedAt: string
   url: string
   canonicalUrl: string
+  // Extra metadata
+  aliases?: string[]
+  relatedGenres?: string[]
+  caseSensitive?: boolean
+  color?: string
 }
 
 export interface ClanekEntity {
@@ -80,6 +117,34 @@ export interface ClanekEntity {
   readingTime: number
   url: string
   canonicalUrl: string
+}
+
+export interface SkladbaEntity {
+  slug: string
+  title: string
+  rapper: string
+  rapperSlug: string
+  features?: string[]
+  featuresNames?: string[]
+  album?: string
+  albumSlug?: string
+  year?: number
+  genre?: string[]
+  duration?: string
+  trackNumber?: number
+  producers?: string[]
+  producersNames?: string[]
+  description: string
+  image?: string
+  publishedAt: string
+  updatedAt?: string
+  url: string
+  canonicalUrl: string
+  // Deezer + metadata
+  deezerTrackId?: number
+  releaseType?: string
+  explicit?: boolean
+  releaseDate?: string
 }
 
 // ─── SCHEMA.ORG TYPY ─────────────────────────────────────

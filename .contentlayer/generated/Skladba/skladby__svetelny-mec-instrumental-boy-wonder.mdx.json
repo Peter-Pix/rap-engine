@@ -12,16 +12,19 @@
   "album": "Svetelný meč",
   "albumSlug": "svetelny-mec",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:36",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Svetelný meč (Instrumental) — skladba od Boy Wonder.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!b.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(h(e)):{},m(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var u=f((w,l)=>{l.exports=_jsx_runtime});var S={};y(S,{default:()=>d,frontmatter:()=>j});var n=_(u()),j={title:\"Sveteln\\xFD me\\u010D (Instrumental)\",slug:\"svetelny-mec-instrumental-boy-wonder\",rapper:\"Boy Wonder\",rapperSlug:\"boy-wonder\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Sveteln\\xFD me\\u010D\",albumSlug:\"svetelny-mec\",year:2013,genre:[],duration:\"3:36\",trackNumber:2,producers:[],producersNames:[],description:\"Sveteln\\xFD me\\u010D (Instrumental) \\u2014 skladba od Boy Wonder.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Svetelný meč (Instrumental)](/skladby/svetelny-mec-instrumental-boy-wonder)** od [Boy Wonder](/raperi/boy-wonder) z alba [Svetelný meč](/alba/svetelny-mec) (2013).\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),v=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},l=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of y(e))!f.call(n,o)&&o!==r&&a(n,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return n};var x=(n,e,r)=>(r=n!=null?i(b(n)):{},l(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>l(a({},\"__esModule\",{value:!0}),n);var d=h((w,m)=>{m.exports=_jsx_runtime});var j={};v(j,{default:()=>c,frontmatter:()=>S});var t=x(d()),S={title:\"Sveteln\\xFD me\\u010D (Instrumental)\",slug:\"svetelny-mec-instrumental-boy-wonder\",rapper:\"Boy Wonder\",rapperSlug:\"boy-wonder\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Sveteln\\xFD me\\u010D\",albumSlug:\"svetelny-mec\",year:2013,genre:[\"\"],duration:\"3:36\",trackNumber:2,producers:[],producersNames:[],description:\"Sveteln\\xFD me\\u010D (Instrumental) \\u2014 skladba od Boy Wonder.\",publishedAt:\"2026-06-04\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/svetelny-mec-instrumental-boy-wonder\",children:\"Sveteln\\xFD me\\u010D (Instrumental)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/boy-wonder\",children:\"Boy Wonder\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/svetelny-mec\",children:\"Sveteln\\xFD me\\u010D\"}),\" (2013).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(u,{...n})}):u(n)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/svetelny-mec-instrumental-boy-wonder.mdx",
   "_raw": {

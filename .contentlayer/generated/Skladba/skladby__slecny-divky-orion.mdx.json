@@ -16,16 +16,19 @@
   "album": "Orikoule",
   "albumSlug": "orikoule",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:03",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Slečny, Dívky — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},a=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>r[o],enumerable:!(i=p(r,o))||i.enumerable});return e};var _=(e,r,n)=>(n=e!=null?d(k(e)):{},a(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>a(s({},\"__esModule\",{value:!0}),e);var l=y((S,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>m,frontmatter:()=>g});var t=_(l()),g={title:\"Sle\\u010Dny, D\\xEDvky\",slug:\"slecny-divky-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"mike-trafik\",\"james-cole\",\"cistychov\"],featuresNames:[\"Mike Trafik\",\"James Cole\",\"Cistychov\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"4:03\",trackNumber:11,producers:[],producersNames:[],description:\"Sle\\u010Dny, D\\xEDvky \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Slečny, Dívky](/skladby/slecny-divky-orion)** od [Orion](/raperi/orion) z alba [Orikoule](/alba/orikoule) (2008).\n",
+    "code": "var Component=(()=>{var k=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)a(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(r,t)&&t!==n&&a(r,t,{get:()=>e[t],enumerable:!(i=m(e,t))||i.enumerable});return r};var b=(r,e,n)=>(n=r!=null?k(y(r)):{},s(e||!r||!r.__esModule?a(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>s(a({},\"__esModule\",{value:!0}),r);var c=h((D,l)=>{l.exports=_jsx_runtime});var j={};x(j,{default:()=>d,frontmatter:()=>v});var o=b(c()),v={title:\"Sle\\u010Dny, D\\xEDvky\",slug:\"slecny-divky-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"mike-trafik\",\"james-cole\",\"cistychov\"],featuresNames:[\"Mike Trafik\",\"James Cole\",\"Cistychov\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[\"\"],duration:\"4:03\",trackNumber:11,producers:[],producersNames:[],description:\"Sle\\u010Dny, D\\xEDvky \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/slecny-divky-orion\",children:\"Sle\\u010Dny, D\\xEDvky\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/orikoule\",children:\"Orikoule\"}),\" (2008).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(u,{...r})}):u(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/slecny-divky-orion.mdx",
   "_raw": {

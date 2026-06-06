@@ -1,0 +1,28 @@
+{
+  "title": "Swipe",
+  "slug": "swipe",
+  "rapper": "GALACTIC DONUTS",
+  "rapperSlug": "galactic-donuts",
+  "year": 2022,
+  "description": "Swipe — singl od GALACTIC DONUTS (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3f9c807cef4db168e8e9083142e5bb5d/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Swipe](/skladby/swipe)** (2022).\n",
+    "code": "var Component=(()=>{var g=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!f.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(o=u(t,r))||o.enumerable});return e};var w=(e,t,n)=>(n=e!=null?g(m(e)):{},a(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),C=e=>a(i({},\"__esModule\",{value:!0}),e);var p=h((A,c)=>{c.exports=_jsx_runtime});var _={};j(_,{default:()=>d,frontmatter:()=>S});var s=w(p()),S={title:\"Swipe\",slug:\"swipe\",rapper:\"GALACTIC DONUTS\",rapperSlug:\"galactic-donuts\",year:2022,description:\"Swipe \\u2014 singl od GALACTIC DONUTS (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/3f9c807cef4db168e8e9083142e5bb5d/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,s.jsxs)(t.p,{children:[(0,s.jsx)(t.strong,{children:(0,s.jsx)(t.a,{href:\"/skladby/swipe\",children:\"Swipe\"})}),\" (2022).\"]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,s.jsx)(t,{...e,children:(0,s.jsx)(l,{...e})}):l(e)}return C(_);})();\n;return Component;"
+  },
+  "_id": "skladby/swipe.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/swipe.mdx",
+    "sourceFileName": "swipe.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/swipe"
+  },
+  "type": "Skladba",
+  "url": "/skladby/swipe",
+  "canonicalUrl": "https://4rap.cz/skladby/swipe"
+}

@@ -6,16 +6,17 @@
   "label": "La Manufracture",
   "year": 2021,
   "genre": [],
-  "description": "Pauvre Clown — singl od Satchok (2021).",
+  "description": "Satchok v roce 2021 vydal své debutové album. Obsahuje celkem jednu skladbu. Deska vyšla pod labelem La Manufracture.",
   "image": "https://cdn-images.dzcdn.net/images/cover/984d05570762573c4b231a72a47e7ff6/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
     "Pauvre Clown"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(c=m(t,a))||c.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(g(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((k,l)=>{l.exports=_jsx_runtime});var w={};_(w,{default:()=>p,frontmatter:()=>v});var n=j(i()),v={title:\"Pauvre Clown\",slug:\"pauvre-clown\",rapper:\"Satchok\",rapperSlug:\"satchok\",label:\"La Manufracture\",year:2021,genre:[],description:\"Pauvre Clown \\u2014 singl od Satchok (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/984d05570762573c4b231a72a47e7ff6/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Pauvre Clown\"],publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return b(w);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Satchok](/raperi/satchok) v roce 2021 vydal své debutové album.\n\nAlbum obsahuje celkem jednu skladbu.\n\nDeska vyšla pod labelem La Manufracture.\n",
+    "code": "var Component=(()=>{var i=Object.create;var c=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var k=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var t in e)c(a,t,{get:e[t],enumerable:!0})},o=(a,e,t,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!v.call(a,r)&&r!==t&&c(a,r,{get:()=>e[r],enumerable:!(l=p(e,r))||l.enumerable});return a};var j=(a,e,t)=>(t=a!=null?i(b(a)):{},o(e||!a||!a.__esModule?c(t,\"default\",{value:a,enumerable:!0}):t,a)),x=a=>o(c({},\"__esModule\",{value:!0}),a);var u=k((M,s)=>{s.exports=_jsx_runtime});var _={};f(_,{default:()=>h,frontmatter:()=>g});var n=j(u()),g={title:\"Pauvre Clown\",slug:\"pauvre-clown\",rapper:\"Satchok\",rapperSlug:\"satchok\",label:\"La Manufracture\",year:2021,genre:[],description:\"Satchok v roce 2021 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem jednu skladbu. Deska vy\\u0161la pod labelem La Manufracture.\",image:\"https://cdn-images.dzcdn.net/images/cover/984d05570762573c4b231a72a47e7ff6/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Pauvre Clown\"],publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/satchok\",children:\"Satchok\"}),\" v roce 2021 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem jednu skladbu.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem La Manufracture.\"})]})}function h(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return x(_);})();\n;return Component;"
   },
   "_id": "alba/pauvre-clown.mdx",
   "_raw": {

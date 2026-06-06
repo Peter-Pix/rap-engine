@@ -8,16 +8,19 @@
   "album": "Kapitán Láska (Deluxe Edition)",
   "albumSlug": "kapitan-laska",
   "year": 2009,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Co tak najednou? — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?i(j(e)):{},u(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>u(r({},\"__esModule\",{value:!0}),e);var l=k((M,c)=>{c.exports=_jsx_runtime});var C={};f(C,{default:()=>d,frontmatter:()=>g});var n=_(l()),g={title:\"Co tak najednou?\",slug:\"co-tak-najednou-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[],duration:\"3:52\",trackNumber:6,producers:[],producersNames:[],description:\"Co tak najednou? \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return b(C);})();\n;return Component;"
+    "raw": "\n**[Co tak najednou?](/skladby/co-tak-najednou-james-cole)** od [James Cole](/raperi/james-cole) z alba [Kapitán Láska (Deluxe Edition)](/alba/kapitan-laska) (2009).\n",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),h=(a,e)=>{for(var t in e)r(a,t,{get:e[t],enumerable:!0})},l=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of j(e))!x.call(a,o)&&o!==t&&r(a,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return a};var b=(a,e,t)=>(t=a!=null?m(k(a)):{},l(e||!a||!a.__esModule?r(t,\"default\",{value:a,enumerable:!0}):t,a)),C=a=>l(r({},\"__esModule\",{value:!0}),a);var c=f((y,u)=>{u.exports=_jsx_runtime});var _={};h(_,{default:()=>i,frontmatter:()=>g});var n=b(c()),g={title:\"Co tak najednou?\",slug:\"co-tak-najednou-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[\"\"],duration:\"3:52\",trackNumber:6,producers:[],producersNames:[],description:\"Co tak najednou? \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/co-tak-najednou-james-cole\",children:\"Co tak najednou?\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/kapitan-laska\",children:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\"}),\" (2009).\"]})}function i(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return C(_);})();\n;return Component;"
   },
   "_id": "skladby/co-tak-najednou-james-cole.mdx",
   "_raw": {

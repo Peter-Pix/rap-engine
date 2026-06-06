@@ -1,0 +1,28 @@
+{
+  "title": "Tarantino",
+  "slug": "tarantino",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "year": 2021,
+  "description": "Tarantino — singl od Maniak (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a483ca0db02a346cbce81d8f2dc57a95/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Tarantino](/skladby/tarantino)** od [Maniak](/raperi/maniak) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),j=(a,n)=>{for(var e in n)i(a,e,{get:n[e],enumerable:!0})},s=(a,n,e,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(a,r)&&r!==e&&i(a,r,{get:()=>n[r],enumerable:!(o=g(n,r))||o.enumerable});return a};var k=(a,n,e)=>(e=a!=null?m(u(a)):{},s(n||!a||!a.__esModule?i(e,\"default\",{value:a,enumerable:!0}):e,a)),M=a=>s(i({},\"__esModule\",{value:!0}),a);var d=h((T,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>_});var t=k(d()),_={title:\"Tarantino\",slug:\"tarantino\",rapper:\"Maniak\",rapperSlug:\"maniak\",year:2021,description:\"Tarantino \\u2014 singl od Maniak (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/a483ca0db02a346cbce81d8f2dc57a95/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(a){let n={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/tarantino\",children:\"Tarantino\"})}),\" od \",(0,t.jsx)(n.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2021).\"]})}function p(a={}){let{wrapper:n}=a.components||{};return n?(0,t.jsx)(n,{...a,children:(0,t.jsx)(l,{...a})}):l(a)}return M(b);})();\n;return Component;"
+  },
+  "_id": "skladby/tarantino.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/tarantino.mdx",
+    "sourceFileName": "tarantino.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/tarantino"
+  },
+  "type": "Skladba",
+  "url": "/skladby/tarantino",
+  "canonicalUrl": "https://4rap.cz/skladby/tarantino"
+}

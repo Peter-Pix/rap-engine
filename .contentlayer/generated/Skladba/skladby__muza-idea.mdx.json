@@ -14,16 +14,19 @@
   "album": "Múza",
   "albumSlug": "muza",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:28",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Múza — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!M.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(o=l(t,n))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(h(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var m=f((N,u)=>{u.exports=_jsx_runtime});var z={};_(z,{default:()=>c,frontmatter:()=>j});var a=b(m()),j={title:\"M\\xFAza\",slug:\"muza-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"issa-me-mario\",\"pain\"],featuresNames:[\"Issa Me Mario\",\"Pain\"],album:\"M\\xFAza\",albumSlug:\"muza\",year:2026,genre:[],duration:\"3:28\",trackNumber:1,producers:[],producersNames:[],description:\"M\\xFAza \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Múza](/skladby/muza-idea)** od [Idea](/raperi/idea) (2026).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!M.call(a,n)&&n!==r&&s(a,n,{get:()=>e[n],enumerable:!(o=l(e,n))||o.enumerable});return a};var z=(a,e,r)=>(r=a!=null?p(x(a)):{},i(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),b=a=>i(s({},\"__esModule\",{value:!0}),a);var u=h((k,d)=>{d.exports=_jsx_runtime});var j={};g(j,{default:()=>m,frontmatter:()=>_});var t=z(u()),_={title:\"M\\xFAza\",slug:\"muza-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"issa-me-mario\",\"pain\"],featuresNames:[\"Issa Me Mario\",\"Pain\"],album:\"M\\xFAza\",albumSlug:\"muza\",year:2026,genre:[\"\"],duration:\"3:28\",trackNumber:1,producers:[],producersNames:[],description:\"M\\xFAza \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/muza-idea\",children:\"M\\xFAza\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" (2026).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(c,{...a})}):c(a)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/muza-idea.mdx",
   "_raw": {

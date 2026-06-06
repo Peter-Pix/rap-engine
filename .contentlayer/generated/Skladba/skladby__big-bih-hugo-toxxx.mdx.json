@@ -12,16 +12,19 @@
   "album": "Mumie (Deluxe)",
   "albumSlug": "mumie",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:57",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Big Bih — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var u=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)u(e,o,{get:t[o],enumerable:!0})},s=(e,t,o,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!g.call(e,r)&&r!==o&&u(e,r,{get:()=>t[r],enumerable:!(i=l(t,r))||i.enumerable});return e};var _=(e,t,o)=>(o=e!=null?d(h(e)):{},s(t||!e||!e.__esModule?u(o,\"default\",{value:e,enumerable:!0}):o,e)),k=e=>s(u({},\"__esModule\",{value:!0}),e);var x=b((D,a)=>{a.exports=_jsx_runtime});var y={};f(y,{default:()=>c,frontmatter:()=>j});var n=_(x()),j={title:\"Big Bih\",slug:\"big-bih-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[],duration:\"2:57\",trackNumber:11,producers:[],producersNames:[],description:\"Big Bih \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return k(y);})();\n;return Component;"
+    "raw": "\n**[Big Bih](/skladby/big-bih-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [Mumie (Deluxe)](/alba/mumie) (2022).\n",
+    "code": "var Component=(()=>{var g=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var b=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),f=(o,e)=>{for(var t in e)i(o,t,{get:e[t],enumerable:!0})},x=(o,e,t,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of d(e))!p.call(o,n)&&n!==t&&i(o,n,{get:()=>e[n],enumerable:!(u=h(e,n))||u.enumerable});return o};var k=(o,e,t)=>(t=o!=null?g(m(o)):{},x(e||!o||!o.__esModule?i(t,\"default\",{value:o,enumerable:!0}):t,o)),B=o=>x(i({},\"__esModule\",{value:!0}),o);var s=b((D,a)=>{a.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>_});var r=k(s()),_={title:\"Big Bih\",slug:\"big-bih-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[\"\"],duration:\"2:57\",trackNumber:11,producers:[],producersNames:[],description:\"Big Bih \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/big-bih-hugo-toxxx\",children:\"Big Bih\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/mumie\",children:\"Mumie (Deluxe)\"}),\" (2022).\"]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(l,{...o})}):l(o)}return B(j);})();\n;return Component;"
   },
   "_id": "skladby/big-bih-hugo-toxxx.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "DONE",
   "albumSlug": "done",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:10",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "SUNSHINE — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!N.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var S=(e,t,r)=>(r=e!=null?l(x(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>m(o({},\"__esModule\",{value:!0}),e);var c=f((D,u)=>{u.exports=_jsx_runtime});var g={};j(g,{default:()=>i,frontmatter:()=>b});var n=S(c()),b={title:\"SUNSHINE\",slug:\"sunshine-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"radimo\"],featuresNames:[\"Idea\",\"Radimo\"],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[],duration:\"4:10\",trackNumber:15,producers:[],producersNames:[],description:\"SUNSHINE \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(g);})();\n;return Component;"
+    "raw": "\n**[SUNSHINE](/skladby/sunshine-james-cole)** od [James Cole](/raperi/james-cole) z alba [DONE](/alba/done) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},l=(r,e,n,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!f.call(r,s)&&s!==n&&o(r,s,{get:()=>e[s],enumerable:!(t=p(e,s))||t.enumerable});return r};var b=(r,e,n)=>(n=r!=null?u(N(r)):{},l(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),S=r=>l(o({},\"__esModule\",{value:!0}),r);var d=j((E,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>g});var a=b(d()),g={title:\"SUNSHINE\",slug:\"sunshine-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"radimo\"],featuresNames:[\"Idea\",\"Radimo\"],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[\"\"],duration:\"4:10\",trackNumber:15,producers:[],producersNames:[],description:\"SUNSHINE \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/sunshine-james-cole\",children:\"SUNSHINE\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/done\",children:\"DONE\"}),\" (2025).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return S(_);})();\n;return Component;"
   },
   "_id": "skladby/sunshine-james-cole.mdx",
   "_raw": {

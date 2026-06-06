@@ -8,16 +8,19 @@
   "album": "SAVE IT",
   "albumSlug": "save-it",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:23",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "SAVE IT — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>i(s({},\"__esModule\",{value:!0}),e);var m=_((A,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>S});var n=g(m()),S={title:\"SAVE IT\",slug:\"save-it-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"SAVE IT\",albumSlug:\"save-it\",year:2025,genre:[],duration:\"2:23\",trackNumber:1,producers:[],producersNames:[],description:\"SAVE IT \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[SAVE IT](/skladby/save-it-maniak)** od [Maniak](/raperi/maniak) (2025).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of k(e))!x.call(a,t)&&t!==r&&s(a,t,{get:()=>e[t],enumerable:!(o=p(e,t))||o.enumerable});return a};var b=(a,e,r)=>(r=a!=null?l(f(a)):{},i(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),M=a=>i(s({},\"__esModule\",{value:!0}),a);var c=h((A,u)=>{u.exports=_jsx_runtime});var _={};g(_,{default:()=>m,frontmatter:()=>S});var n=b(c()),S={title:\"SAVE IT\",slug:\"save-it-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"SAVE IT\",albumSlug:\"save-it\",year:2025,genre:[\"\"],duration:\"2:23\",trackNumber:1,producers:[],producersNames:[],description:\"SAVE IT \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/save-it-maniak\",children:\"SAVE IT\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2025).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/save-it-maniak.mdx",
   "_raw": {

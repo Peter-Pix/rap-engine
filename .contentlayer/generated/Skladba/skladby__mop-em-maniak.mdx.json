@@ -8,16 +8,19 @@
   "album": "ManTime",
   "albumSlug": "mantime",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:49",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Mop Em — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!M.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(m=l(n,a))||m.enumerable});return e};var b=(e,n,r)=>(r=e!=null?d(h(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var u=f((S,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>p,frontmatter:()=>k});var t=b(u()),k={title:\"Mop Em\",slug:\"mop-em-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"ManTime\",albumSlug:\"mantime\",year:2025,genre:[],duration:\"1:49\",trackNumber:4,producers:[],producersNames:[],description:\"Mop Em \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Mop Em](/skladby/mop-em-maniak)** od [Maniak](/raperi/maniak) z alba [ManTime](/alba/mantime) (2025).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var M=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},i=(e,a,r,m)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of M(a))!h.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(m=d(a,t))||m.enumerable});return e};var b=(e,a,r)=>(r=e!=null?l(f(e)):{},i(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var p=k((E,s)=>{s.exports=_jsx_runtime});var j={};x(j,{default:()=>u,frontmatter:()=>_});var n=b(p()),_={title:\"Mop Em\",slug:\"mop-em-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"ManTime\",albumSlug:\"mantime\",year:2025,genre:[\"\"],duration:\"1:49\",trackNumber:4,producers:[],producersNames:[],description:\"Mop Em \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/mop-em-maniak\",children:\"Mop Em\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/mantime\",children:\"ManTime\"}),\" (2025).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/mop-em-maniak.mdx",
   "_raw": {

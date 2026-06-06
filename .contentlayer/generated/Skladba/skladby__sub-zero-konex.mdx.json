@@ -14,16 +14,19 @@
   "album": "karanténa",
   "albumSlug": "karantena",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:32",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "SUB ZERO — skladba od Konex.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(k(e)):{},u(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var d=b((N,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>m,frontmatter:()=>j});var t=_(d()),j={title:\"SUB ZERO\",slug:\"sub-zero-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"nik-tendo\"],featuresNames:[\"Decky\",\"Nik Tendo\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[],duration:\"2:32\",trackNumber:2,producers:[],producersNames:[],description:\"SUB ZERO \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[SUB ZERO](/skladby/sub-zero-konex)** (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of k(n))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=x(n,o))||s.enumerable});return e};var h=(e,n,r)=>(r=e!=null?p(m(e)):{},u(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var d=f((N,c)=>{c.exports=_jsx_runtime});var y={};g(y,{default:()=>l,frontmatter:()=>j});var t=h(d()),j={title:\"SUB ZERO\",slug:\"sub-zero-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"nik-tendo\"],featuresNames:[\"Decky\",\"Nik Tendo\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[\"\"],duration:\"2:32\",trackNumber:2,producers:[],producersNames:[],description:\"SUB ZERO \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function i(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/sub-zero-konex\",children:\"SUB ZERO\"})}),\" (2020).\"]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/sub-zero-konex.mdx",
   "_raw": {

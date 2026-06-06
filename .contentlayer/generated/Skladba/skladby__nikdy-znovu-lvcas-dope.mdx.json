@@ -14,16 +14,19 @@
   "album": "Diamant",
   "albumSlug": "diamant",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Nikdy Znovu — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),v=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=m(n,r))||s.enumerable});return e};var _=(e,n,a)=>(a=e!=null?l(x(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var d=g((y,c)=>{c.exports=_jsx_runtime});var D={};v(D,{default:()=>p,frontmatter:()=>j});var t=_(d()),j={title:\"Nikdy Znovu\",slug:\"nikdy-znovu-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dj-wich\",\"paulie-garand\"],featuresNames:[\"DJ Wich\",\"Paulie Garand\"],album:\"Diamant\",albumSlug:\"diamant\",year:2018,genre:[],duration:\"3:03\",trackNumber:3,producers:[],producersNames:[],description:\"Nikdy Znovu \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Nikdy Znovu](/skladby/nikdy-znovu-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [Diamant](/alba/diamant) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},d=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=m(a,t))||s.enumerable});return e};var g=(e,a,r)=>(r=e!=null?p(v(e)):{},d(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>d(o({},\"__esModule\",{value:!0}),e);var c=x((N,i)=>{i.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>y});var n=g(c()),y={title:\"Nikdy Znovu\",slug:\"nikdy-znovu-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dj-wich\",\"paulie-garand\"],featuresNames:[\"DJ Wich\",\"Paulie Garand\"],album:\"Diamant\",albumSlug:\"diamant\",year:2018,genre:[\"\"],duration:\"3:03\",trackNumber:3,producers:[],producersNames:[],description:\"Nikdy Znovu \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/nikdy-znovu-lvcas-dope\",children:\"Nikdy Znovu\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/diamant\",children:\"Diamant\"}),\" (2018).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return k(D);})();\n;return Component;"
   },
   "_id": "skladby/nikdy-znovu-lvcas-dope.mdx",
   "_raw": {

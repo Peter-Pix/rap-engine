@@ -8,16 +8,19 @@
   "album": "Wygrałem EP",
   "albumSlug": "wygra-em-ep",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:04",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Kto ma rację? — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!g.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(m=l(t,n))||m.enumerable});return e};var k=(e,t,a)=>(a=e!=null?d(h(e)):{},s(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var u=j((K,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>b});var r=k(u()),b={title:\"Kto ma racj\\u0119?\",slug:\"kto-ma-racje-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Wygra\\u0142em EP\",albumSlug:\"wygra-em-ep\",year:2019,genre:[],duration:\"3:04\",trackNumber:2,producers:[],producersNames:[],description:\"Kto ma racj\\u0119? \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Kto ma rację?](/skladby/kto-ma-racje-maniak)** od [Maniak](/raperi/maniak) z alba [Wygrałem EP](/alba/wygra-em-ep) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),j=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},m=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of k(a))!f.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=p(a,n))||s.enumerable});return e};var x=(e,a,t)=>(t=e!=null?d(g(e)):{},m(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var i=h((w,c)=>{c.exports=_jsx_runtime});var M={};j(M,{default:()=>l,frontmatter:()=>y});var r=x(i()),y={title:\"Kto ma racj\\u0119?\",slug:\"kto-ma-racje-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Wygra\\u0142em EP\",albumSlug:\"wygra-em-ep\",year:2019,genre:[\"\"],duration:\"3:04\",trackNumber:2,producers:[],producersNames:[],description:\"Kto ma racj\\u0119? \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/kto-ma-racje-maniak\",children:\"Kto ma racj\\u0119?\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/wygra-em-ep\",children:\"Wygra\\u0142em EP\"}),\" (2019).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(M);})();\n;return Component;"
   },
   "_id": "skladby/kto-ma-racje-maniak.mdx",
   "_raw": {

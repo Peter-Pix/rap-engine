@@ -6,16 +6,17 @@
   "label": "Crow Records",
   "year": 2022,
   "genre": [],
-  "description": "Realshit — singl od ANDANTE CROW (2022).",
+  "description": "ANDANTE CROW v roce 2022 vydal své debutové album. Obsahuje celkem jednu skladbu. Deska vyšla pod labelem Crow Records.",
   "image": "https://cdn-images.dzcdn.net/images/cover/5773e40fea3e88ab87b34d7a4f966635/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
     "Realshit"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of u(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=h(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(g(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var l=f((D,c)=>{c.exports=_jsx_runtime});var A={};_(A,{default:()=>m,frontmatter:()=>R});var n=b(l()),R={title:\"Realshit\",slug:\"realshit\",rapper:\"ANDANTE CROW\",rapperSlug:\"andante-crow\",label:\"Crow Records\",year:2022,genre:[],description:\"Realshit \\u2014 singl od ANDANTE CROW (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/5773e40fea3e88ab87b34d7a4f966635/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Realshit\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(A);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[ANDANTE CROW](/raperi/andante-crow) v roce 2022 vydal své debutové album.\n\nAlbum obsahuje celkem jednu skladbu.\n\nDeska vyšla pod labelem Crow Records.\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var j=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},o=(a,e,r,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!v.call(a,t)&&t!==r&&s(a,t,{get:()=>e[t],enumerable:!(l=p(e,t))||l.enumerable});return a};var g=(a,e,r)=>(r=a!=null?m(b(a)):{},o(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),f=a=>o(s({},\"__esModule\",{value:!0}),a);var d=j((k,c)=>{c.exports=_jsx_runtime});var C={};x(C,{default:()=>u,frontmatter:()=>A});var n=g(d()),A={title:\"Realshit\",slug:\"realshit\",rapper:\"ANDANTE CROW\",rapperSlug:\"andante-crow\",label:\"Crow Records\",year:2022,genre:[],description:\"ANDANTE CROW v roce 2022 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem jednu skladbu. Deska vy\\u0161la pod labelem Crow Records.\",image:\"https://cdn-images.dzcdn.net/images/cover/5773e40fea3e88ab87b34d7a4f966635/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Realshit\"],publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/andante-crow\",children:\"ANDANTE CROW\"}),\" v roce 2022 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem jednu skladbu.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Crow Records.\"})]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(i,{...a})}):i(a)}return f(C);})();\n;return Component;"
   },
   "_id": "alba/realshit.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Feel The Groove EP",
   "albumSlug": "feel-the-groove-ep",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:04",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Feel The Groove — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var o in t)s(e,o,{get:t[o],enumerable:!0})},l=(e,t,o,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!f.call(e,n)&&n!==o&&s(e,n,{get:()=>t[n],enumerable:!(a=i(t,n))||a.enumerable});return e};var _=(e,t,o)=>(o=e!=null?d(x(e)):{},l(t||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>l(s({},\"__esModule\",{value:!0}),e);var c=g((G,m)=>{m.exports=_jsx_runtime});var F={};j(F,{default:()=>p,frontmatter:()=>v});var r=_(c()),v={title:\"Feel The Groove\",slug:\"feel-the-groove-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Feel The Groove EP\",albumSlug:\"feel-the-groove-ep\",year:2019,genre:[],duration:\"7:04\",trackNumber:1,producers:[],producersNames:[],description:\"Feel The Groove \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(F);})();\n;return Component;"
+    "raw": "\n**[Feel The Groove](/skladby/feel-the-groove-james-cole)** od [James Cole](/raperi/james-cole) z alba [Feel The Groove EP](/alba/feel-the-groove-ep) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),v=(o,e)=>{for(var t in e)l(o,t,{get:e[t],enumerable:!0})},n=(o,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of i(e))!g.call(o,a)&&a!==t&&l(o,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return o};var x=(o,e,t)=>(t=o!=null?d(f(o)):{},n(e||!o||!o.__esModule?l(t,\"default\",{value:o,enumerable:!0}):t,o)),b=o=>n(l({},\"__esModule\",{value:!0}),o);var h=j((G,c)=>{c.exports=_jsx_runtime});var C={};v(C,{default:()=>u,frontmatter:()=>_});var r=x(h()),_={title:\"Feel The Groove\",slug:\"feel-the-groove-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Feel The Groove EP\",albumSlug:\"feel-the-groove-ep\",year:2019,genre:[\"\"],duration:\"7:04\",trackNumber:1,producers:[],producersNames:[],description:\"Feel The Groove \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/feel-the-groove-james-cole\",children:\"Feel The Groove\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/feel-the-groove-ep\",children:\"Feel The Groove EP\"}),\" (2019).\"]})}function u(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(m,{...o})}):m(o)}return b(C);})();\n;return Component;"
   },
   "_id": "skladby/feel-the-groove-james-cole.mdx",
   "_raw": {

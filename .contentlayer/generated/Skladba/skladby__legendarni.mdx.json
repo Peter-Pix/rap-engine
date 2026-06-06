@@ -1,0 +1,28 @@
+{
+  "title": "Legendární",
+  "slug": "legendarni",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "year": 2024,
+  "description": "Legendární — singl od Sergei Barracuda (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a182c34f3d5229d14627726f9ce754b6/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Legendární](/skladby/legendarni)** od [Sergei Barracuda](/raperi/sergei-barracuda) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},d=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!m.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(i=u(e,t))||i.enumerable});return r};var _=(r,e,n)=>(n=r!=null?p(f(r)):{},d(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),b=r=>d(s({},\"__esModule\",{value:!0}),r);var o=h((B,c)=>{c.exports=_jsx_runtime});var L={};j(L,{default:()=>l,frontmatter:()=>y});var a=_(o()),y={title:\"Legend\\xE1rn\\xED\",slug:\"legendarni\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",year:2024,description:\"Legend\\xE1rn\\xED \\u2014 singl od Sergei Barracuda (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/a182c34f3d5229d14627726f9ce754b6/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function g(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/legendarni\",children:\"Legend\\xE1rn\\xED\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" (2024).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(g,{...r})}):g(r)}return b(L);})();\n;return Component;"
+  },
+  "_id": "skladby/legendarni.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/legendarni.mdx",
+    "sourceFileName": "legendarni.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/legendarni"
+  },
+  "type": "Skladba",
+  "url": "/skladby/legendarni",
+  "canonicalUrl": "https://4rap.cz/skladby/legendarni"
+}

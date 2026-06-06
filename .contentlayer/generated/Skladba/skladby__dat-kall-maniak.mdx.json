@@ -12,16 +12,19 @@
   "album": "OneWay",
   "albumSlug": "oneway",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:17",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Dat Kall — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=d(t,r))||s.enumerable});return e};var b=(e,t,a)=>(a=e!=null?p(h(e)):{},u(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var m=k((D,l)=>{l.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>j});var n=b(m()),j={title:\"Dat Kall\",slug:\"dat-kall-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[],duration:\"3:17\",trackNumber:9,producers:[],producersNames:[],description:\"Dat Kall \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Dat Kall](/skladby/dat-kall-maniak)** od [Maniak](/raperi/maniak) z alba [OneWay](/alba/oneway) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},s=(e,a,r,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of k(a))!h.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(l=p(a,t))||l.enumerable});return e};var g=(e,a,r)=>(r=e!=null?m(f(e)):{},s(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>s(o({},\"__esModule\",{value:!0}),e);var u=x((D,i)=>{i.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>M});var n=g(u()),M={title:\"Dat Kall\",slug:\"dat-kall-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[\"\"],duration:\"3:17\",trackNumber:9,producers:[],producersNames:[],description:\"Dat Kall \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/dat-kall-maniak\",children:\"Dat Kall\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/oneway\",children:\"OneWay\"}),\" (2023).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/dat-kall-maniak.mdx",
   "_raw": {

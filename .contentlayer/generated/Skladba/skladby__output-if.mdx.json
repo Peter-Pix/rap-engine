@@ -14,16 +14,19 @@
   "album": "Rap",
   "albumSlug": "rap",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Output — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)u(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!h.call(t,a)&&a!==n&&u(t,a,{get:()=>e[a],enumerable:!(o=l(e,a))||o.enumerable});return t};var g=(t,e,n)=>(n=t!=null?m(x(t)):{},s(e||!t||!t.__esModule?u(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>s(u({},\"__esModule\",{value:!0}),t);var c=_((M,p)=>{p.exports=_jsx_runtime});var D={};b(D,{default:()=>i,frontmatter:()=>F});var r=g(c()),F={title:\"Output\",slug:\"output-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[],duration:\"3:08\",trackNumber:12,producers:[],producersNames:[],description:\"Output \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Output](/skladby/output-if)** z alba [Rap](/alba/rap) (2015).\n",
+    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of m(t))!b.call(e,n)&&n!==r&&u(e,n,{get:()=>t[n],enumerable:!(o=f(t,n))||o.enumerable});return e};var j=(e,t,r)=>(r=e!=null?l(x(e)):{},s(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(u({},\"__esModule\",{value:!0}),e);var c=h((F,p)=>{p.exports=_jsx_runtime});var y={};g(y,{default:()=>i,frontmatter:()=>k});var a=j(c()),k={title:\"Output\",slug:\"output-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[\"\"],duration:\"3:08\",trackNumber:12,producers:[],producersNames:[],description:\"Output \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function d(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(t.p,{children:[(0,a.jsx)(t.strong,{children:(0,a.jsx)(t.a,{href:\"/skladby/output-if\",children:\"Output\"})}),\" z alba \",(0,a.jsx)(t.a,{href:\"/alba/rap\",children:\"Rap\"}),\" (2015).\"]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/output-if.mdx",
   "_raw": {

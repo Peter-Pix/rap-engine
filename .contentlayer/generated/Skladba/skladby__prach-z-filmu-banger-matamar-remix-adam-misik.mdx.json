@@ -14,16 +14,19 @@
   "album": "Prach (z filmu BANGER. – MATAMAR Remix)",
   "albumSlug": "prach-z-filmu-banger-matamar-remix",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:51",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Prach (z filmu BANGER. – MATAMAR Remix) — skladba od Adam Mišík.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),M=(e,a)=>{for(var t in a)n(e,t,{get:a[t],enumerable:!0})},s=(e,a,t,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let m of x(a))!h.call(e,m)&&m!==t&&n(e,m,{get:()=>a[m],enumerable:!(i=p(a,m))||i.enumerable});return e};var g=(e,a,t)=>(t=e!=null?l(A(e)):{},s(a||!e||!e.__esModule?n(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(n({},\"__esModule\",{value:!0}),e);var c=f((N,u)=>{u.exports=_jsx_runtime});var _={};M(_,{default:()=>d,frontmatter:()=>R});var r=g(c()),R={title:\"Prach (z filmu BANGER. \\u2013 MATAMAR Remix)\",slug:\"prach-z-filmu-banger-matamar-remix-adam-misik\",rapper:\"Adam Mi\\u0161\\xEDk\",rapperSlug:\"adam-misik\",features:[\"sergei-barracuda\",\"matamar\"],featuresNames:[\"Sergei Barracuda\",\"Matamar\"],album:\"Prach (z filmu BANGER. \\u2013 MATAMAR Remix)\",albumSlug:\"prach-z-filmu-banger-matamar-remix\",year:2023,genre:[],duration:\"2:51\",trackNumber:1,producers:[],producersNames:[],description:\"Prach (z filmu BANGER. \\u2013 MATAMAR Remix) \\u2014 skladba od Adam Mi\\u0161\\xEDk.\",publishedAt:\"2026-06-04\"};function o(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(o,{...e})}):o(e)}return b(_);})();\n;return Component;"
+    "raw": "\n**[Prach (z filmu BANGER. – MATAMAR Remix)](/skladby/prach-z-filmu-banger-matamar-remix-adam-misik)** (2023).\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var A=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var M=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),h=(a,r)=>{for(var e in r)i(a,e,{get:r[e],enumerable:!0})},s=(a,r,e,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of p(r))!f.call(a,t)&&t!==e&&i(a,t,{get:()=>r[t],enumerable:!(n=A(r,t))||n.enumerable});return a};var g=(a,r,e)=>(e=a!=null?l(x(a)):{},s(r||!a||!a.__esModule?i(e,\"default\",{value:a,enumerable:!0}):e,a)),R=a=>s(i({},\"__esModule\",{value:!0}),a);var c=M((N,u)=>{u.exports=_jsx_runtime});var k={};h(k,{default:()=>d,frontmatter:()=>b});var m=g(c()),b={title:\"Prach (z filmu BANGER. \\u2013 MATAMAR Remix)\",slug:\"prach-z-filmu-banger-matamar-remix-adam-misik\",rapper:\"Adam Mi\\u0161\\xEDk\",rapperSlug:\"adam-misik\",features:[\"sergei-barracuda\",\"matamar\"],featuresNames:[\"Sergei Barracuda\",\"Matamar\"],album:\"Prach (z filmu BANGER. \\u2013 MATAMAR Remix)\",albumSlug:\"prach-z-filmu-banger-matamar-remix\",year:2023,genre:[\"\"],duration:\"2:51\",trackNumber:1,producers:[],producersNames:[],description:\"Prach (z filmu BANGER. \\u2013 MATAMAR Remix) \\u2014 skladba od Adam Mi\\u0161\\xEDk.\",publishedAt:\"2026-06-04\"};function o(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,m.jsxs)(r.p,{children:[(0,m.jsx)(r.strong,{children:(0,m.jsx)(r.a,{href:\"/skladby/prach-z-filmu-banger-matamar-remix-adam-misik\",children:\"Prach (z filmu BANGER. \\u2013 MATAMAR Remix)\"})}),\" (2023).\"]})}function d(a={}){let{wrapper:r}=a.components||{};return r?(0,m.jsx)(r,{...a,children:(0,m.jsx)(o,{...a})}):o(a)}return R(k);})();\n;return Component;"
   },
   "_id": "skladby/prach-z-filmu-banger-matamar-remix-adam-misik.mdx",
   "_raw": {

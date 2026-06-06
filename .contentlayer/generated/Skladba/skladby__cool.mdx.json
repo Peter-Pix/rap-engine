@@ -1,0 +1,28 @@
+{
+  "title": "Cool!",
+  "slug": "cool",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "year": 2022,
+  "description": "Cool! — singl od James Cole (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Cool!](/skladby/cool)** od [James Cole](/raperi/james-cole) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),j=(o,e)=>{for(var t in e)s(o,t,{get:e[t],enumerable:!0})},l=(o,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of x(e))!u.call(o,r)&&r!==t&&s(o,r,{get:()=>e[r],enumerable:!(a=g(e,r))||a.enumerable});return o};var C=(o,e,t)=>(t=o!=null?m(f(o)):{},l(e||!o||!o.__esModule?s(t,\"default\",{value:o,enumerable:!0}):t,o)),_=o=>l(s({},\"__esModule\",{value:!0}),o);var i=h((J,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>y});var n=C(i()),y={title:\"Cool!\",slug:\"cool\",rapper:\"James Cole\",rapperSlug:\"james-cole\",year:2022,description:\"Cool! \\u2014 singl od James Cole (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/6205731f03acc3d0421d7293b71f7830/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/cool\",children:\"Cool!\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" (2022).\"]})}function p(o={}){let{wrapper:e}=o.components||{};return e?(0,n.jsx)(e,{...o,children:(0,n.jsx)(d,{...o})}):d(o)}return _(b);})();\n;return Component;"
+  },
+  "_id": "skladby/cool.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/cool.mdx",
+    "sourceFileName": "cool.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/cool"
+  },
+  "type": "Skladba",
+  "url": "/skladby/cool",
+  "canonicalUrl": "https://4rap.cz/skladby/cool"
+}

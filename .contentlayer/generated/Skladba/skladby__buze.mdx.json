@@ -1,0 +1,28 @@
+{
+  "title": "Buze",
+  "slug": "buze",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "year": 2020,
+  "description": "Buze — singl od Hugo Toxxx (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/8a77a47b974c622fe80bdbd6d11d02e0/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Buze](/skladby/buze)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2020).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},a=(t,e,n,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!m.call(t,r)&&r!==n&&s(t,r,{get:()=>e[r],enumerable:!(x=p(e,r))||x.enumerable});return t};var j=(t,e,n)=>(n=t!=null?l(h(t)):{},a(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),z=t=>a(s({},\"__esModule\",{value:!0}),t);var c=f((B,i)=>{i.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>_});var o=j(c()),_={title:\"Buze\",slug:\"buze\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",year:2020,description:\"Buze \\u2014 singl od Hugo Toxxx (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/8a77a47b974c622fe80bdbd6d11d02e0/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/buze\",children:\"Buze\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2020).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(u,{...t})}):u(t)}return z(y);})();\n;return Component;"
+  },
+  "_id": "skladby/buze.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/buze.mdx",
+    "sourceFileName": "buze.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/buze"
+  },
+  "type": "Skladba",
+  "url": "/skladby/buze",
+  "canonicalUrl": "https://4rap.cz/skladby/buze"
+}

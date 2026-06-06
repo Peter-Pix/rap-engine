@@ -12,16 +12,19 @@
   "album": "Gorila vs. Architekt",
   "albumSlug": "gorila-vs-architekt",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "11:45",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Pražský Producenti Jsou Top — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(i=p(r,a))||i.enumerable});return e};var _=(e,r,n)=>(n=e!=null?l(k(e)):{},s(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var c=f((P,u)=>{u.exports=_jsx_runtime});var v={};g(v,{default:()=>m,frontmatter:()=>j});var t=_(c()),j={title:\"Pra\\u017Esk\\xFD Producenti Jsou Top\",slug:\"prazsky-producenti-jsou-top-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[],duration:\"11:45\",trackNumber:4,producers:[],producersNames:[],description:\"Pra\\u017Esk\\xFD Producenti Jsou Top \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return b(v);})();\n;return Component;"
+    "raw": "\n**[Pražský Producenti Jsou Top](/skladby/prazsky-producenti-jsou-top-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Gorila vs. Architekt](/alba/gorila-vs-architekt) (2008).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},n=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of k(r))!f.call(e,i)&&i!==a&&o(e,i,{get:()=>r[i],enumerable:!(s=m(r,i))||s.enumerable});return e};var b=(e,r,a)=>(a=e!=null?p(h(e)):{},n(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),v=e=>n(o({},\"__esModule\",{value:!0}),e);var l=g((y,d)=>{d.exports=_jsx_runtime});var P={};x(P,{default:()=>c,frontmatter:()=>j});var t=b(l()),j={title:\"Pra\\u017Esk\\xFD Producenti Jsou Top\",slug:\"prazsky-producenti-jsou-top-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[\"\"],duration:\"11:45\",trackNumber:4,producers:[],producersNames:[],description:\"Pra\\u017Esk\\xFD Producenti Jsou Top \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/prazsky-producenti-jsou-top-vladimir-518\",children:\"Pra\\u017Esk\\xFD Producenti Jsou Top\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/gorila-vs-architekt\",children:\"Gorila vs. Architekt\"}),\" (2008).\"]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return v(P);})();\n;return Component;"
   },
   "_id": "skladby/prazsky-producenti-jsou-top-vladimir-518.mdx",
   "_raw": {

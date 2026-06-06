@@ -8,16 +8,19 @@
   "album": "Dance for You",
   "albumSlug": "dance-for-you",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:39",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Dance for You (The Willers Brothers Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var o in r)s(e,o,{get:r[o],enumerable:!0})},c=(e,r,o,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of p(r))!f.call(e,n)&&n!==o&&s(e,n,{get:()=>r[n],enumerable:!(a=h(r,n))||a.enumerable});return e};var _=(e,r,o)=>(o=e!=null?d(x(e)):{},c(r||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var u=b((M,l)=>{l.exports=_jsx_runtime});var y={};j(y,{default:()=>i,frontmatter:()=>D});var t=_(u()),D={title:\"Dance for You (The Willers Brothers Remix)\",slug:\"dance-for-you-the-willers-brothers-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Dance for You\",albumSlug:\"dance-for-you\",year:2019,genre:[],duration:\"6:39\",trackNumber:2,producers:[],producersNames:[],description:\"Dance for You (The Willers Brothers Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Dance for You (The Willers Brothers Remix)](/skladby/dance-for-you-the-willers-brothers-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Dance for You](/alba/dance-for-you) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},l=(r,e,a,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!x.call(r,s)&&s!==a&&t(r,s,{get:()=>e[s],enumerable:!(n=h(e,s))||n.enumerable});return r};var g=(r,e,a)=>(a=r!=null?d(p(r)):{},l(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),y=r=>l(t({},\"__esModule\",{value:!0}),r);var u=b((Y,c)=>{c.exports=_jsx_runtime});var _={};j(_,{default:()=>m,frontmatter:()=>D});var o=g(u()),D={title:\"Dance for You (The Willers Brothers Remix)\",slug:\"dance-for-you-the-willers-brothers-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Dance for You\",albumSlug:\"dance-for-you\",year:2019,genre:[\"\"],duration:\"6:39\",trackNumber:2,producers:[],producersNames:[],description:\"Dance for You (The Willers Brothers Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/dance-for-you-the-willers-brothers-remix-james-cole\",children:\"Dance for You (The Willers Brothers Remix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/dance-for-you\",children:\"Dance for You\"}),\" (2019).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(i,{...r})}):i(r)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/dance-for-you-the-willers-brothers-remix-james-cole.mdx",
   "_raw": {

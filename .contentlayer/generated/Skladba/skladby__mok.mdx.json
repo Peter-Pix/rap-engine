@@ -1,0 +1,28 @@
+{
+  "title": "Mok",
+  "slug": "mok",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "year": 2026,
+  "description": "Mok — singl od Hugo Toxxx (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/558bbfbf983995f4183497134adb9c71/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Mok](/skladby/mok)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2026).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),b=(o,e)=>{for(var t in e)s(o,t,{get:e[t],enumerable:!0})},a=(o,e,t,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of u(e))!f.call(o,r)&&r!==t&&s(o,r,{get:()=>e[r],enumerable:!(x=g(e,r))||x.enumerable});return o};var j=(o,e,t)=>(t=o!=null?d(m(o)):{},a(e||!o||!o.__esModule?s(t,\"default\",{value:o,enumerable:!0}):t,o)),k=o=>a(s({},\"__esModule\",{value:!0}),o);var c=h((T,i)=>{i.exports=_jsx_runtime});var _={};b(_,{default:()=>p,frontmatter:()=>M});var n=j(c()),M={title:\"Mok\",slug:\"mok\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",year:2026,description:\"Mok \\u2014 singl od Hugo Toxxx (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/558bbfbf983995f4183497134adb9c71/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/mok\",children:\"Mok\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2026).\"]})}function p(o={}){let{wrapper:e}=o.components||{};return e?(0,n.jsx)(e,{...o,children:(0,n.jsx)(l,{...o})}):l(o)}return k(_);})();\n;return Component;"
+  },
+  "_id": "skladby/mok.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/mok.mdx",
+    "sourceFileName": "mok.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/mok"
+  },
+  "type": "Skladba",
+  "url": "/skladby/mok",
+  "canonicalUrl": "https://4rap.cz/skladby/mok"
+}

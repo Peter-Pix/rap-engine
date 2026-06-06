@@ -1,0 +1,28 @@
+{
+  "title": "I'm Fine",
+  "slug": "i-m-fine",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "year": 2022,
+  "description": "I'm Fine — singl od Decky (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/01d5103e70986f1003684ad7ca92a1ca/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[I'm Fine](/skladby/i-m-fine)** od [Decky](/raperi/decky) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),y=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},c=(n,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of g(e))!u.call(n,i)&&i!==t&&s(n,i,{get:()=>e[i],enumerable:!(a=f(e,i))||a.enumerable});return n};var j=(n,e,t)=>(t=n!=null?m(x(n)):{},c(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),k=n=>c(s({},\"__esModule\",{value:!0}),n);var d=h((I,o)=>{o.exports=_jsx_runtime});var _={};y(_,{default:()=>p,frontmatter:()=>D});var r=j(d()),D={title:\"I'm Fine\",slug:\"i-m-fine\",rapper:\"Decky\",rapperSlug:\"decky\",year:2022,description:\"I'm Fine \\u2014 singl od Decky (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/01d5103e70986f1003684ad7ca92a1ca/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/i-m-fine\",children:\"I'm Fine\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" (2022).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return k(_);})();\n;return Component;"
+  },
+  "_id": "skladby/i-m-fine.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/i-m-fine.mdx",
+    "sourceFileName": "i-m-fine.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/i-m-fine"
+  },
+  "type": "Skladba",
+  "url": "/skladby/i-m-fine",
+  "canonicalUrl": "https://4rap.cz/skladby/i-m-fine"
+}

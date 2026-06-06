@@ -1,0 +1,28 @@
+{
+  "title": "Miss Me",
+  "slug": "miss-me",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "year": 2016,
+  "description": "Miss Me — singl od Maniak (2016).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/bed03419065c8f28173d6d9726f34d9b/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Miss Me](/skladby/miss-me)** od [Maniak](/raperi/maniak) (2016).\n",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var M=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var u=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),h=(n,e)=>{for(var s in e)r(n,s,{get:e[s],enumerable:!0})},o=(n,e,s,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of g(e))!f.call(n,a)&&a!==s&&r(n,a,{get:()=>e[a],enumerable:!(i=M(e,a))||i.enumerable});return n};var j=(n,e,s)=>(s=n!=null?m(x(n)):{},o(e||!n||!n.__esModule?r(s,\"default\",{value:n,enumerable:!0}):s,n)),k=n=>o(r({},\"__esModule\",{value:!0}),n);var d=u((D,c)=>{c.exports=_jsx_runtime});var b={};h(b,{default:()=>p,frontmatter:()=>_});var t=j(d()),_={title:\"Miss Me\",slug:\"miss-me\",rapper:\"Maniak\",rapperSlug:\"maniak\",year:2016,description:\"Miss Me \\u2014 singl od Maniak (2016).\",image:\"https://cdn-images.dzcdn.net/images/cover/bed03419065c8f28173d6d9726f34d9b/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/miss-me\",children:\"Miss Me\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2016).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return k(b);})();\n;return Component;"
+  },
+  "_id": "skladby/miss-me.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/miss-me.mdx",
+    "sourceFileName": "miss-me.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/miss-me"
+  },
+  "type": "Skladba",
+  "url": "/skladby/miss-me",
+  "canonicalUrl": "https://4rap.cz/skladby/miss-me"
+}

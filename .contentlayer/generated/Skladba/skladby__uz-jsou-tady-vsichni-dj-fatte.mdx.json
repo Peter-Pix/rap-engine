@@ -8,16 +8,19 @@
   "album": "Což takhle dát si Tesař",
   "albumSlug": "coz-takhle-dat-si-tesar",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:29",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Už jsou tady všichni? — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},u=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!x.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return t};var b=(t,e,r)=>(r=t!=null?m(j(t)):{},u(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>u(s({},\"__esModule\",{value:!0}),t);var c=f((F,i)=>{i.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>y});var n=b(c()),y={title:\"U\\u017E jsou tady v\\u0161ichni?\",slug:\"uz-jsou-tady-vsichni-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[],duration:\"3:29\",trackNumber:1,producers:[],producersNames:[],description:\"U\\u017E jsou tady v\\u0161ichni? \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Už jsou tady všichni?](/skladby/uz-jsou-tady-vsichni-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Což takhle dát si Tesař](/alba/coz-takhle-dat-si-tesar) (2011).\n",
+    "code": "var Component=(()=>{var h=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)n(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of f(t))!m.call(e,s)&&s!==r&&n(e,s,{get:()=>t[s],enumerable:!(o=p(t,s))||o.enumerable});return e};var y=(e,t,r)=>(r=e!=null?h(j(e)):{},d(t||!e||!e.__esModule?n(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(n({},\"__esModule\",{value:!0}),e);var c=x((z,i)=>{i.exports=_jsx_runtime});var _={};b(_,{default:()=>l,frontmatter:()=>k});var a=y(c()),k={title:\"U\\u017E jsou tady v\\u0161ichni?\",slug:\"uz-jsou-tady-vsichni-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[\"\"],duration:\"3:29\",trackNumber:1,producers:[],producersNames:[],description:\"U\\u017E jsou tady v\\u0161ichni? \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(t.p,{children:[(0,a.jsx)(t.strong,{children:(0,a.jsx)(t.a,{href:\"/skladby/uz-jsou-tady-vsichni-dj-fatte\",children:\"U\\u017E jsou tady v\\u0161ichni?\"})}),\" od \",(0,a.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(t.a,{href:\"/alba/coz-takhle-dat-si-tesar\",children:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\"}),\" (2011).\"]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/uz-jsou-tady-vsichni-dj-fatte.mdx",
   "_raw": {

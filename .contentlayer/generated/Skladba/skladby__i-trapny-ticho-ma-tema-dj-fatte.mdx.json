@@ -14,16 +14,19 @@
   "album": "Aura",
   "albumSlug": "aura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:50",
   "trackNumber": 16,
   "producers": [],
   "producersNames": [],
   "description": "I trapný ticho má téma — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},m=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!f.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=l(e,n))||s.enumerable});return t};var _=(t,e,a)=>(a=t!=null?d(x(t)):{},m(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),b=t=>m(o({},\"__esModule\",{value:!0}),t);var c=g((y,u)=>{u.exports=_jsx_runtime});var F={};j(F,{default:()=>p,frontmatter:()=>D});var r=_(c()),D={title:\"I trapn\\xFD ticho m\\xE1 t\\xE9ma\",slug:\"i-trapny-ticho-ma-tema-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"sax\"],featuresNames:[\"Regie 257\",\"Sax\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"3:50\",trackNumber:16,producers:[],producersNames:[],description:\"I trapn\\xFD ticho m\\xE1 t\\xE9ma \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return b(F);})();\n;return Component;"
+    "raw": "\n**[I trapný ticho má téma](/skladby/i-trapny-ticho-ma-tema-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Aura](/alba/aura) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),j=(a,t)=>{for(var r in t)o(a,r,{get:t[r],enumerable:!0})},i=(a,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!x.call(a,n)&&n!==r&&o(a,n,{get:()=>t[n],enumerable:!(s=l(t,n))||s.enumerable});return a};var b=(a,t,r)=>(r=a!=null?p(f(a)):{},i(t||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),_=a=>i(o({},\"__esModule\",{value:!0}),a);var u=g((A,c)=>{c.exports=_jsx_runtime});var D={};j(D,{default:()=>d,frontmatter:()=>y});var e=b(u()),y={title:\"I trapn\\xFD ticho m\\xE1 t\\xE9ma\",slug:\"i-trapny-ticho-ma-tema-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"sax\"],featuresNames:[\"Regie 257\",\"Sax\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[\"\"],duration:\"3:50\",trackNumber:16,producers:[],producersNames:[],description:\"I trapn\\xFD ticho m\\xE1 t\\xE9ma \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(a){let t={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(t.p,{children:[(0,e.jsx)(t.strong,{children:(0,e.jsx)(t.a,{href:\"/skladby/i-trapny-ticho-ma-tema-dj-fatte\",children:\"I trapn\\xFD ticho m\\xE1 t\\xE9ma\"})}),\" od \",(0,e.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,e.jsx)(t.a,{href:\"/alba/aura\",children:\"Aura\"}),\" (2022).\"]})}function d(a={}){let{wrapper:t}=a.components||{};return t?(0,e.jsx)(t,{...a,children:(0,e.jsx)(m,{...a})}):m(a)}return _(D);})();\n;return Component;"
   },
   "_id": "skladby/i-trapny-ticho-ma-tema-dj-fatte.mdx",
   "_raw": {

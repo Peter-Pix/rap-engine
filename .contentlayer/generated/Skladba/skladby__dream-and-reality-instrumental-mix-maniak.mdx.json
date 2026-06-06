@@ -8,16 +8,19 @@
   "album": "dream",
   "albumSlug": "dream",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:19",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Dream and Reality (Instrumental Mix) — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)m(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!f.call(e,r)&&r!==a&&m(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var b=(e,t,a)=>(a=e!=null?c(h(e)):{},i(t||!e||!e.__esModule?m(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>i(m({},\"__esModule\",{value:!0}),e);var u=M((D,o)=>{o.exports=_jsx_runtime});var j={};_(j,{default:()=>l,frontmatter:()=>k});var n=b(u()),k={title:\"Dream and Reality (Instrumental Mix)\",slug:\"dream-and-reality-instrumental-mix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"dream\",albumSlug:\"dream\",year:2022,genre:[],duration:\"6:19\",trackNumber:2,producers:[],producersNames:[],description:\"Dream and Reality (Instrumental Mix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Dream and Reality (Instrumental Mix)](/skladby/dream-and-reality-instrumental-mix-maniak)** od [Maniak](/raperi/maniak) (2022).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var M=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var n in a)i(e,n,{get:a[n],enumerable:!0})},m=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of x(a))!f.call(e,t)&&t!==n&&i(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var y=(e,a,n)=>(n=e!=null?c(k(e)):{},m(a||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(i({},\"__esModule\",{value:!0}),e);var d=M((D,o)=>{o.exports=_jsx_runtime});var _={};h(_,{default:()=>u,frontmatter:()=>b});var r=y(d()),b={title:\"Dream and Reality (Instrumental Mix)\",slug:\"dream-and-reality-instrumental-mix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"dream\",albumSlug:\"dream\",year:2022,genre:[\"\"],duration:\"6:19\",trackNumber:2,producers:[],producersNames:[],description:\"Dream and Reality (Instrumental Mix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/dream-and-reality-instrumental-mix-maniak\",children:\"Dream and Reality (Instrumental Mix)\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2022).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/dream-and-reality-instrumental-mix-maniak.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Starship: Oblivion",
   "albumSlug": "starship-oblivion",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:28",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Intergalaktický Pasák — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!x.call(t,r)&&r!==n&&s(t,r,{get:()=>e[r],enumerable:!(o=p(e,r))||o.enumerable});return t};var b=(t,e,n)=>(n=t!=null?d(k(t)):{},i(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),y=t=>i(s({},\"__esModule\",{value:!0}),t);var l=f((S,c)=>{c.exports=_jsx_runtime});var j={};g(j,{default:()=>u,frontmatter:()=>_});var a=b(l()),_={title:\"Intergalaktick\\xFD Pas\\xE1k\",slug:\"intergalakticky-pasak-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"lofty305\"],featuresNames:[\"Lofty305\"],album:\"Starship: Oblivion\",albumSlug:\"starship-oblivion\",year:2020,genre:[],duration:\"2:28\",trackNumber:3,producers:[],producersNames:[],description:\"Intergalaktick\\xFD Pas\\xE1k \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(m,{...t})}):m(t)}return y(j);})();\n;return Component;"
+    "raw": "\n**[Intergalaktický Pasák](/skladby/intergalakticky-pasak-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Starship: Oblivion](/alba/starship-oblivion) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),g=(t,a)=>{for(var n in a)s(t,n,{get:a[n],enumerable:!0})},o=(t,a,n,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let e of k(a))!b.call(t,e)&&e!==n&&s(t,e,{get:()=>a[e],enumerable:!(i=u(a,e))||i.enumerable});return t};var y=(t,a,n)=>(n=t!=null?m(h(t)):{},o(a||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),x=t=>o(s({},\"__esModule\",{value:!0}),t);var c=f((v,l)=>{l.exports=_jsx_runtime});var _={};g(_,{default:()=>p,frontmatter:()=>z});var r=y(c()),z={title:\"Intergalaktick\\xFD Pas\\xE1k\",slug:\"intergalakticky-pasak-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"lofty305\"],featuresNames:[\"Lofty305\"],album:\"Starship: Oblivion\",albumSlug:\"starship-oblivion\",year:2020,genre:[\"\"],duration:\"2:28\",trackNumber:3,producers:[],producersNames:[],description:\"Intergalaktick\\xFD Pas\\xE1k \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(t){let a={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/intergalakticky-pasak-yzomandias\",children:\"Intergalaktick\\xFD Pas\\xE1k\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/starship-oblivion\",children:\"Starship: Oblivion\"}),\" (2020).\"]})}function p(t={}){let{wrapper:a}=t.components||{};return a?(0,r.jsx)(a,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/intergalakticky-pasak-yzomandias.mdx",
   "_raw": {

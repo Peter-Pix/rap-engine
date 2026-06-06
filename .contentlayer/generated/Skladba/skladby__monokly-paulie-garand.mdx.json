@@ -8,16 +8,19 @@
   "album": "V hlavní roli",
   "albumSlug": "v-hlavni-roli",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:51",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Monokly — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(l=p(n,a))||l.enumerable});return e};var b=(e,n,t)=>(t=e!=null?m(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((v,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>k});var r=b(i()),k={title:\"Monokly\",slug:\"monokly-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"2:51\",trackNumber:6,producers:[],producersNames:[],description:\"Monokly \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Monokly](/skladby/monokly-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [V\\_hlavní roli](/alba/v-hlavni-roli) (2012).\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var n in a)l(r,n,{get:a[n],enumerable:!0})},i=(r,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of m(a))!f.call(r,o)&&o!==n&&l(r,o,{get:()=>a[o],enumerable:!(t=h(a,o))||t.enumerable});return r};var k=(r,a,n)=>(n=r!=null?p(g(r)):{},i(a||!r||!r.__esModule?l(n,\"default\",{value:r,enumerable:!0}):n,r)),y=r=>i(l({},\"__esModule\",{value:!0}),r);var u=x((j,s)=>{s.exports=_jsx_runtime});var v={};b(v,{default:()=>c,frontmatter:()=>_});var e=k(u()),_={title:\"Monokly\",slug:\"monokly-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[\"\"],duration:\"2:51\",trackNumber:6,producers:[],producersNames:[],description:\"Monokly \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/monokly-paulie-garand\",children:\"Monokly\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/v-hlavni-roli\",children:\"V_hlavn\\xED roli\"}),\" (2012).\"]})}function c(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(d,{...r})}):d(r)}return y(v);})();\n;return Component;"
   },
   "_id": "skladby/monokly-paulie-garand.mdx",
   "_raw": {

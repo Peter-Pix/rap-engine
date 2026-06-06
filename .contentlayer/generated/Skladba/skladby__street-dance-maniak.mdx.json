@@ -8,16 +8,19 @@
   "album": "StreamTape: Vítěznej oblouk",
   "albumSlug": "streamtape-viteznej-oblouk",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:31",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Street dance — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var m=k((N,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>d,frontmatter:()=>g});var n=j(m()),g={title:\"Street dance\",slug:\"street-dance-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"StreamTape: V\\xEDt\\u011Bznej oblouk\",albumSlug:\"streamtape-viteznej-oblouk\",year:2026,genre:[],duration:\"2:31\",trackNumber:10,producers:[],producersNames:[],description:\"Street dance \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Street dance](/skladby/street-dance-maniak)** od [Maniak](/raperi/maniak) z alba [StreamTape: Vítěznej oblouk](/alba/streamtape-viteznej-oblouk) (2026).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of k(e))!f.call(a,n)&&n!==r&&o(a,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return a};var x=(a,e,r)=>(r=a!=null?m(b(a)):{},i(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>i(o({},\"__esModule\",{value:!0}),a);var u=h((z,c)=>{c.exports=_jsx_runtime});var M={};j(M,{default:()=>l,frontmatter:()=>S});var t=x(u()),S={title:\"Street dance\",slug:\"street-dance-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"StreamTape: V\\xEDt\\u011Bznej oblouk\",albumSlug:\"streamtape-viteznej-oblouk\",year:2026,genre:[\"\"],duration:\"2:31\",trackNumber:10,producers:[],producersNames:[],description:\"Street dance \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/street-dance-maniak\",children:\"Street dance\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/streamtape-viteznej-oblouk\",children:\"StreamTape: V\\xEDt\\u011Bznej oblouk\"}),\" (2026).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(d,{...a})}):d(a)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/street-dance-maniak.mdx",
   "_raw": {

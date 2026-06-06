@@ -8,16 +8,19 @@
   "album": "Slick Talk",
   "albumSlug": "slick-talk",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:44",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Slick Talk — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)l(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!x.call(e,a)&&a!==n&&l(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(k(e)):{},s(t||!e||!e.__esModule?l(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(l({},\"__esModule\",{value:!0}),e);var i=h((z,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>b,frontmatter:()=>y});var r=_(i()),y={title:\"Slick Talk\",slug:\"slick-talk-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Slick Talk\",albumSlug:\"slick-talk\",year:2024,genre:[],duration:\"1:44\",trackNumber:1,producers:[],producersNames:[],description:\"Slick Talk \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Slick Talk](/skladby/slick-talk-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var k=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},s=(a,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of p(e))!y.call(a,l)&&l!==r&&o(a,l,{get:()=>e[l],enumerable:!(n=d(e,l))||n.enumerable});return a};var h=(a,e,r)=>(r=a!=null?k(m(a)):{},s(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>s(o({},\"__esModule\",{value:!0}),a);var c=f((_,b)=>{b.exports=_jsx_runtime});var B={};x(B,{default:()=>u,frontmatter:()=>z});var t=h(c()),z={title:\"Slick Talk\",slug:\"slick-talk-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Slick Talk\",albumSlug:\"slick-talk\",year:2024,genre:[\"\"],duration:\"1:44\",trackNumber:1,producers:[],producersNames:[],description:\"Slick Talk \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/slick-talk-bobby-blaze\",children:\"Slick Talk\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(i,{...a})}):i(a)}return g(B);})();\n;return Component;"
   },
   "_id": "skladby/slick-talk-bobby-blaze.mdx",
   "_raw": {

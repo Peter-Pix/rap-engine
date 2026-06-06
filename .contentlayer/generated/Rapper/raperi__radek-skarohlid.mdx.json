@@ -1,13 +1,15 @@
 {
   "title": "Radek Škarohlíd",
   "slug": "radek-skarohlid",
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "description": "Radek Škarohlíd — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of u(n))!k.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var j=(e,n,r)=>(r=e!=null?m(x(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var d=_((y,c)=>{c.exports=_jsx_runtime});var b={};f(b,{default:()=>h,frontmatter:()=>M});var t=j(d()),M={title:\"Radek \\u0160karohl\\xEDd\",slug:\"radek-skarohlid\",genre:[],description:\"Radek \\u0160karohl\\xEDd \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Radek Škarohlíd](/raperi/radek-skarohlid)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),_=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},d=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!x.call(r,o)&&o!==t&&a(r,o,{get:()=>e[o],enumerable:!(s=k(e,o))||s.enumerable});return r};var f=(r,e,t)=>(t=r!=null?l(u(r)):{},d(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>d(a({},\"__esModule\",{value:!0}),r);var i=g((b,c)=>{c.exports=_jsx_runtime});var M={};_(M,{default:()=>h,frontmatter:()=>v});var n=f(i()),v={title:\"Radek \\u0160karohl\\xEDd\",slug:\"radek-skarohlid\",genre:[\"\"],description:\"Radek \\u0160karohl\\xEDd \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function p(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/raperi/radek-skarohlid\",children:\"Radek \\u0160karohl\\xEDd\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function h(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(p,{...r})}):p(r)}return j(M);})();\n;return Component;"
   },
   "_id": "raperi/radek-skarohlid.mdx",
   "_raw": {

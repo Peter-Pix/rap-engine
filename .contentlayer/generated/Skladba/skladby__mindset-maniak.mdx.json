@@ -14,16 +14,19 @@
   "album": "Černej kůň plus",
   "albumSlug": "cernej-kun-plus",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:09",
   "trackNumber": 17,
   "producers": [],
   "producersNames": [],
   "description": "Mindset — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!j.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(o=p(n,a))||o.enumerable});return e};var f=(e,n,r)=>(r=e!=null?l(x(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var c=k((D,u)=>{u.exports=_jsx_runtime});var g={};b(g,{default:()=>d,frontmatter:()=>_});var t=f(c()),_={title:\"Mindset\",slug:\"mindset-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"ben-cristovao\"],featuresNames:[\"DJ Wich\",\"Ben Cristovao\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[],duration:\"3:09\",trackNumber:17,producers:[],producersNames:[],description:\"Mindset \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return M(g);})();\n;return Component;"
+    "raw": "\n**[Mindset](/skladby/mindset-maniak)** od [Maniak](/raperi/maniak) z alba [Černej kůň plus](/alba/cernej-kun-plus) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var a in e)s(n,a,{get:e[a],enumerable:!0})},o=(n,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of k(e))!f.call(n,t)&&t!==a&&s(n,t,{get:()=>e[t],enumerable:!(i=m(e,t))||i.enumerable});return n};var x=(n,e,a)=>(a=n!=null?p(h(n)):{},o(e||!n||!n.__esModule?s(a,\"default\",{value:n,enumerable:!0}):a,n)),M=n=>o(s({},\"__esModule\",{value:!0}),n);var c=j((C,u)=>{u.exports=_jsx_runtime});var _={};b(_,{default:()=>l,frontmatter:()=>g});var r=x(c()),g={title:\"Mindset\",slug:\"mindset-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"ben-cristovao\"],featuresNames:[\"DJ Wich\",\"Ben Cristovao\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[\"\"],duration:\"3:09\",trackNumber:17,producers:[],producersNames:[],description:\"Mindset \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/mindset-maniak\",children:\"Mindset\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/cernej-kun-plus\",children:\"\\u010Cernej k\\u016F\\u0148 plus\"}),\" (2022).\"]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/mindset-maniak.mdx",
   "_raw": {

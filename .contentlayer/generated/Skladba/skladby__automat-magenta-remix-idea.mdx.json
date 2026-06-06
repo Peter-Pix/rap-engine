@@ -18,16 +18,19 @@
   "album": "O beatech a remixech",
   "albumSlug": "o-beatech-a-remixech",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:18",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Automat (Magenta Remix) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!h.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(m=p(t,n))||m.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(g(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(o({},\"__esModule\",{value:!0}),e);var u=b((N,s)=>{s.exports=_jsx_runtime});var A={};f(A,{default:()=>d,frontmatter:()=>j});var a=_(u()),j={title:\"Automat (Magenta Remix)\",slug:\"automat-magenta-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"batrs\",\"dom\",\"ridig\",\"magenta\"],featuresNames:[\"Batrs\",\"Dom\",\"Ridig\",\"Magenta\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[],duration:\"2:18\",trackNumber:12,producers:[],producersNames:[],description:\"Automat (Magenta Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return M(A);})();\n;return Component;"
+    "raw": "\n**[Automat (Magenta Remix)](/skladby/automat-magenta-remix-idea)** od [Idea](/raperi/idea) (2021).\n",
+    "code": "var Component=(()=>{var g=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var t in e)o(a,t,{get:e[t],enumerable:!0})},m=(a,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of l(e))!h.call(a,n)&&n!==t&&o(a,n,{get:()=>e[n],enumerable:!(i=x(e,n))||i.enumerable});return a};var M=(a,e,t)=>(t=a!=null?g(p(a)):{},m(e||!a||!a.__esModule?o(t,\"default\",{value:a,enumerable:!0}):t,a)),_=a=>m(o({},\"__esModule\",{value:!0}),a);var d=b((k,s)=>{s.exports=_jsx_runtime});var A={};f(A,{default:()=>c,frontmatter:()=>j});var r=M(d()),j={title:\"Automat (Magenta Remix)\",slug:\"automat-magenta-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"batrs\",\"dom\",\"ridig\",\"magenta\"],featuresNames:[\"Batrs\",\"Dom\",\"Ridig\",\"Magenta\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[\"\"],duration:\"2:18\",trackNumber:12,producers:[],producersNames:[],description:\"Automat (Magenta Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/automat-magenta-remix-idea\",children:\"Automat (Magenta Remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" (2021).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(u,{...a})}):u(a)}return _(A);})();\n;return Component;"
   },
   "_id": "skladby/automat-magenta-remix-idea.mdx",
   "_raw": {

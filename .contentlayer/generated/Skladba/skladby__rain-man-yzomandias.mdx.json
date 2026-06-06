@@ -14,16 +14,19 @@
   "album": "Hráč Roku Playlist",
   "albumSlug": "hrac-roku-playlist",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Rain Man — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),b=(n,a)=>{for(var t in a)o(n,t,{get:a[t],enumerable:!0})},i=(n,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!f.call(n,r)&&r!==t&&o(n,r,{get:()=>a[r],enumerable:!(s=p(a,r))||s.enumerable});return n};var g=(n,a,t)=>(t=n!=null?l(x(n)):{},i(a||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),j=n=>i(o({},\"__esModule\",{value:!0}),n);var u=_((z,m)=>{m.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>k});var e=g(u()),k={title:\"Rain Man\",slug:\"rain-man-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\",\"marat\"],featuresNames:[\"Jickson\",\"Marat\"],album:\"Hr\\xE1\\u010D Roku Playlist\",albumSlug:\"hrac-roku-playlist\",year:2020,genre:[],duration:\"3:45\",trackNumber:2,producers:[],producersNames:[],description:\"Rain Man \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(n){let a={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,e.jsx)(a.p,{children:(0,e.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(c,{...n})}):c(n)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Rain Man](/skladby/rain-man-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Hráč Roku Playlist](/alba/hrac-roku-playlist) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var e in a)s(n,e,{get:a[e],enumerable:!0})},i=(n,a,e,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(n,t)&&t!==e&&s(n,t,{get:()=>a[t],enumerable:!(o=p(a,t))||o.enumerable});return n};var b=(n,a,e)=>(e=n!=null?m(y(n)):{},i(a||!n||!n.__esModule?s(e,\"default\",{value:n,enumerable:!0}):e,n)),z=n=>i(s({},\"__esModule\",{value:!0}),n);var d=k((_,l)=>{l.exports=_jsx_runtime});var M={};x(M,{default:()=>u,frontmatter:()=>g});var r=b(d()),g={title:\"Rain Man\",slug:\"rain-man-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\",\"marat\"],featuresNames:[\"Jickson\",\"Marat\"],album:\"Hr\\xE1\\u010D Roku Playlist\",albumSlug:\"hrac-roku-playlist\",year:2020,genre:[\"\"],duration:\"3:45\",trackNumber:2,producers:[],producersNames:[],description:\"Rain Man \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/rain-man-yzomandias\",children:\"Rain Man\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/hrac-roku-playlist\",children:\"Hr\\xE1\\u010D Roku Playlist\"}),\" (2020).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return z(M);})();\n;return Component;"
   },
   "_id": "skladby/rain-man-yzomandias.mdx",
   "_raw": {

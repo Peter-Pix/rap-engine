@@ -14,16 +14,19 @@
   "album": "Teritorium I",
   "albumSlug": "teritorium-i",
   "year": 2003,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:08",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Stoupat Výš — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!f.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=l(e,o))||i.enumerable});return t};var g=(t,e,n)=>(n=t!=null?d(h(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>s(a({},\"__esModule\",{value:!0}),t);var m=_((N,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>S});var r=g(m()),S={title:\"Stoupat V\\xFD\\u0161\",slug:\"stoupat-vys-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"vladimir-518\",\"p13\"],featuresNames:[\"Vladimir 518\",\"P13\"],album:\"Teritorium I\",albumSlug:\"teritorium-i\",year:2003,genre:[],duration:\"4:08\",trackNumber:8,producers:[],producersNames:[],description:\"Stoupat V\\xFD\\u0161 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function p(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Stoupat Výš](/skladby/stoupat-vys-orion)** od [Orion](/raperi/orion) z alba [Teritorium I](/alba/teritorium-i) (2003).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),g=(t,r)=>{for(var o in r)a(t,o,{get:r[o],enumerable:!0})},s=(t,r,o,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of f(r))!x.call(t,n)&&n!==o&&a(t,n,{get:()=>r[n],enumerable:!(i=m(r,n))||i.enumerable});return t};var _=(t,r,o)=>(o=t!=null?d(h(t)):{},s(r||!t||!t.__esModule?a(o,\"default\",{value:t,enumerable:!0}):o,t)),j=t=>s(a({},\"__esModule\",{value:!0}),t);var p=b((k,u)=>{u.exports=_jsx_runtime});var S={};g(S,{default:()=>c,frontmatter:()=>y});var e=_(p()),y={title:\"Stoupat V\\xFD\\u0161\",slug:\"stoupat-vys-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"vladimir-518\",\"p13\"],featuresNames:[\"Vladimir 518\",\"P13\"],album:\"Teritorium I\",albumSlug:\"teritorium-i\",year:2003,genre:[\"\"],duration:\"4:08\",trackNumber:8,producers:[],producersNames:[],description:\"Stoupat V\\xFD\\u0161 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(t){let r={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/stoupat-vys-orion\",children:\"Stoupat V\\xFD\\u0161\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/teritorium-i\",children:\"Teritorium I\"}),\" (2003).\"]})}function c(t={}){let{wrapper:r}=t.components||{};return r?(0,e.jsx)(r,{...t,children:(0,e.jsx)(l,{...t})}):l(t)}return j(S);})();\n;return Component;"
   },
   "_id": "skladby/stoupat-vys-orion.mdx",
   "_raw": {

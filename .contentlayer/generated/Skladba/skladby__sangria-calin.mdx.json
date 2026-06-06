@@ -12,16 +12,19 @@
   "album": "POPSTAR",
   "albumSlug": "popstar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:10",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Sangria — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),S=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((C,c)=>{c.exports=_jsx_runtime});var N={};S(N,{default:()=>m,frontmatter:()=>j});var n=_(u()),j={title:\"Sangria\",slug:\"sangria-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"3:10\",trackNumber:4,producers:[],producersNames:[],description:\"Sangria \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Sangria](/skladby/sangria-calin)** od [Calin](/raperi/calin) z alba [POPSTAR](/alba/popstar) (2022).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),b=(a,r)=>{for(var n in r)s(a,n,{get:r[n],enumerable:!0})},i=(a,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of h(r))!f.call(a,t)&&t!==n&&s(a,t,{get:()=>r[t],enumerable:!(o=g(r,t))||o.enumerable});return a};var S=(a,r,n)=>(n=a!=null?d(m(a)):{},i(r||!a||!a.__esModule?s(n,\"default\",{value:a,enumerable:!0}):n,a)),_=a=>i(s({},\"__esModule\",{value:!0}),a);var l=x((N,c)=>{c.exports=_jsx_runtime});var k={};b(k,{default:()=>u,frontmatter:()=>j});var e=S(l()),j={title:\"Sangria\",slug:\"sangria-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[\"\"],duration:\"3:10\",trackNumber:4,producers:[],producersNames:[],description:\"Sangria \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function p(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/sangria-calin\",children:\"Sangria\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/popstar\",children:\"POPSTAR\"}),\" (2022).\"]})}function u(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(p,{...a})}):p(a)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/sangria-calin.mdx",
   "_raw": {

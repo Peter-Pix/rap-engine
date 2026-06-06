@@ -12,16 +12,19 @@
   "album": "Tango & Kouř",
   "albumSlug": "tango-kour",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:00",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Láva tu — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(u=d(t,o))||u.enumerable});return e};var f=(e,t,r)=>(r=e!=null?c(x(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(a({},\"__esModule\",{value:!0}),e);var i=g((B,l)=>{l.exports=_jsx_runtime});var k={};y(k,{default:()=>b,frontmatter:()=>j});var n=f(i()),j={title:\"L\\xE1va tu\",slug:\"lava-tu-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"dominik-rey\"],featuresNames:[\"Dominik Rey\"],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[],duration:\"3:00\",trackNumber:10,producers:[],producersNames:[],description:\"L\\xE1va tu \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Láva tu](/skladby/lava-tu-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Tango & Kouř](/alba/tango-kour) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),h=(a,e)=>{for(var o in e)n(a,o,{get:e[o],enumerable:!0})},u=(a,e,o,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!g.call(a,t)&&t!==o&&n(a,t,{get:()=>e[t],enumerable:!(b=p(e,t))||b.enumerable});return a};var x=(a,e,o)=>(o=a!=null?d(y(a)):{},u(e||!a||!a.__esModule?n(o,\"default\",{value:a,enumerable:!0}):o,a)),z=a=>u(n({},\"__esModule\",{value:!0}),a);var s=f((j,l)=>{l.exports=_jsx_runtime});var B={};h(B,{default:()=>c,frontmatter:()=>k});var r=x(s()),k={title:\"L\\xE1va tu\",slug:\"lava-tu-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"dominik-rey\"],featuresNames:[\"Dominik Rey\"],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[\"\"],duration:\"3:00\",trackNumber:10,producers:[],producersNames:[],description:\"L\\xE1va tu \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/lava-tu-bobby-blaze\",children:\"L\\xE1va tu\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/tango-kour\",children:\"Tango & Kou\\u0159\"}),\" (2024).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(i,{...a})}):i(a)}return z(B);})();\n;return Component;"
   },
   "_id": "skladby/lava-tu-bobby-blaze.mdx",
   "_raw": {

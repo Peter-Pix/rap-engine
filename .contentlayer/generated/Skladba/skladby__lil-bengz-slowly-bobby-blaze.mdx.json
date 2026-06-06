@@ -8,16 +8,19 @@
   "album": "LiL Bengz Slowly",
   "albumSlug": "lil-bengz-slowly",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "LiL Bengz Slowly — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),h=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let l of p(n))!y.call(e,l)&&l!==r&&o(e,l,{get:()=>n[l],enumerable:!(a=d(n,l))||a.enumerable});return e};var z=(e,n,r)=>(r=e!=null?m(g(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>s(o({},\"__esModule\",{value:!0}),e);var i=x((w,b)=>{b.exports=_jsx_runtime});var L={};h(L,{default:()=>c,frontmatter:()=>B});var t=z(i()),B={title:\"LiL Bengz Slowly\",slug:\"lil-bengz-slowly-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"LiL Bengz Slowly\",albumSlug:\"lil-bengz-slowly\",year:2024,genre:[],duration:\"3:07\",trackNumber:1,producers:[],producersNames:[],description:\"LiL Bengz Slowly \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return f(L);})();\n;return Component;"
+    "raw": "\n**[LiL Bengz Slowly](/skladby/lil-bengz-slowly-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var y=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var m=(l,e)=>()=>(e||l((e={exports:{}}).exports,e),e.exports),B=(l,e)=>{for(var o in e)t(l,o,{get:e[o],enumerable:!0})},b=(l,e,o,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!z.call(l,n)&&n!==o&&t(l,n,{get:()=>e[n],enumerable:!(a=d(e,n))||a.enumerable});return l};var f=(l,e,o)=>(o=l!=null?y(g(l)):{},b(e||!l||!l.__esModule?t(o,\"default\",{value:l,enumerable:!0}):o,l)),x=l=>b(t({},\"__esModule\",{value:!0}),l);var i=m((S,s)=>{s.exports=_jsx_runtime});var h={};B(h,{default:()=>c,frontmatter:()=>L});var r=f(i()),L={title:\"LiL Bengz Slowly\",slug:\"lil-bengz-slowly-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"LiL Bengz Slowly\",albumSlug:\"lil-bengz-slowly\",year:2024,genre:[\"\"],duration:\"3:07\",trackNumber:1,producers:[],producersNames:[],description:\"LiL Bengz Slowly \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(l){let e={a:\"a\",p:\"p\",strong:\"strong\",...l.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/lil-bengz-slowly-bobby-blaze\",children:\"LiL Bengz Slowly\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function c(l={}){let{wrapper:e}=l.components||{};return e?(0,r.jsx)(e,{...l,children:(0,r.jsx)(u,{...l})}):u(l)}return x(h);})();\n;return Component;"
   },
   "_id": "skladby/lil-bengz-slowly-bobby-blaze.mdx",
   "_raw": {

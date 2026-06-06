@@ -14,16 +14,19 @@
   "album": "Mezi prsty",
   "albumSlug": "mezi-prsty",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:15",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Moneypulace — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=m(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?d(g(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((N,c)=>{c.exports=_jsx_runtime});var M={};y(M,{default:()=>p,frontmatter:()=>j});var r=_(i()),j={title:\"Moneypulace\",slug:\"moneypulace-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"ego\"],featuresNames:[\"DJ Wich\",\"Ego\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"3:15\",trackNumber:11,producers:[],producersNames:[],description:\"Moneypulace \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Moneypulace](/skladby/moneypulace-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Mezi prsty](/alba/mezi-prsty) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},u=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!y.call(a,t)&&t!==n&&o(a,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return a};var b=(a,e,n)=>(n=a!=null?d(h(a)):{},u(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),M=a=>u(o({},\"__esModule\",{value:!0}),a);var i=f((k,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>c,frontmatter:()=>j});var r=b(i()),j={title:\"Moneypulace\",slug:\"moneypulace-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"ego\"],featuresNames:[\"DJ Wich\",\"Ego\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[\"\"],duration:\"3:15\",trackNumber:11,producers:[],producersNames:[],description:\"Moneypulace \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/moneypulace-paulie-garand\",children:\"Moneypulace\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/mezi-prsty\",children:\"Mezi prsty\"}),\" (2020).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(p,{...a})}):p(a)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/moneypulace-paulie-garand.mdx",
   "_raw": {

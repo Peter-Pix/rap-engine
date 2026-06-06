@@ -12,16 +12,19 @@
   "album": "Střepy",
   "albumSlug": "strepy",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Střepy — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},p=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(h(e)):{},p(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>p(a({},\"__esModule\",{value:!0}),e);var c=y((F,u)=>{u.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>j});var r=b(c()),j={title:\"St\\u0159epy\",slug:\"strepy-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[],duration:\"3:52\",trackNumber:5,producers:[],producersNames:[],description:\"St\\u0159epy \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Střepy](/skladby/strepy-rest)** od [Rest](/raperi/rest) z alba [Střepy](/alba/strepy) (2013).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var s in e)n(t,s,{get:e[s],enumerable:!0})},p=(t,e,s,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of y(e))!h.call(t,a)&&a!==s&&n(t,a,{get:()=>e[a],enumerable:!(o=m(e,a))||o.enumerable});return t};var g=(t,e,s)=>(s=t!=null?i(f(t)):{},p(e||!t||!t.__esModule?n(s,\"default\",{value:t,enumerable:!0}):s,t)),S=t=>p(n({},\"__esModule\",{value:!0}),t);var u=x((D,c)=>{c.exports=_jsx_runtime});var _={};b(_,{default:()=>l,frontmatter:()=>j});var r=g(u()),j={title:\"St\\u0159epy\",slug:\"strepy-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[\"\"],duration:\"3:52\",trackNumber:5,producers:[],producersNames:[],description:\"St\\u0159epy \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/strepy-rest\",children:\"St\\u0159epy\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/strepy\",children:\"St\\u0159epy\"}),\" (2013).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return S(_);})();\n;return Component;"
   },
   "_id": "skladby/strepy-rest.mdx",
   "_raw": {

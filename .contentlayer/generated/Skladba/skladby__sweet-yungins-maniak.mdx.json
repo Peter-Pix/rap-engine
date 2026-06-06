@@ -16,16 +16,19 @@
   "album": "Sweet Yungins (feat. 1littdrag, Jumpout & 1luhs0saa)",
   "albumSlug": "sweet-yungins-feat-1littdrag-jumpout-1luhs0saa",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:27",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Sweet Yungins — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},i=(t,e,a,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!x.call(t,r)&&r!==a&&s(t,r,{get:()=>e[r],enumerable:!(u=c(e,r))||u.enumerable});return t};var _=(t,e,a)=>(a=t!=null?p(h(t)):{},i(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),b=t=>i(s({},\"__esModule\",{value:!0}),t);var l=f((S,o)=>{o.exports=_jsx_runtime});var w={};j(w,{default:()=>d,frontmatter:()=>k});var n=_(l()),k={title:\"Sweet Yungins\",slug:\"sweet-yungins-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"1littdrag\",\"jumpout\",\"1luhs0saa\"],featuresNames:[\"1littdrag\",\"JuMpOuT\",\"1luhs0saa\"],album:\"Sweet Yungins (feat. 1littdrag, Jumpout & 1luhs0saa)\",albumSlug:\"sweet-yungins-feat-1littdrag-jumpout-1luhs0saa\",year:2023,genre:[],duration:\"4:27\",trackNumber:1,producers:[],producersNames:[],description:\"Sweet Yungins \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return b(w);})();\n;return Component;"
+    "raw": "\n**[Sweet Yungins](/skladby/sweet-yungins-maniak)** od [Maniak](/raperi/maniak) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)r(t,a,{get:e[a],enumerable:!0})},i=(t,e,a,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of g(e))!f.call(t,s)&&s!==a&&r(t,s,{get:()=>e[s],enumerable:!(u=c(e,s))||u.enumerable});return t};var w=(t,e,a)=>(a=t!=null?p(h(t)):{},i(e||!t||!t.__esModule?r(a,\"default\",{value:t,enumerable:!0}):a,t)),j=t=>i(r({},\"__esModule\",{value:!0}),t);var l=k((S,o)=>{o.exports=_jsx_runtime});var b={};x(b,{default:()=>m,frontmatter:()=>M});var n=w(l()),M={title:\"Sweet Yungins\",slug:\"sweet-yungins-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"1littdrag\",\"jumpout\",\"1luhs0saa\"],featuresNames:[\"1littdrag\",\"JuMpOuT\",\"1luhs0saa\"],album:\"Sweet Yungins (feat. 1littdrag, Jumpout & 1luhs0saa)\",albumSlug:\"sweet-yungins-feat-1littdrag-jumpout-1luhs0saa\",year:2023,genre:[\"\"],duration:\"4:27\",trackNumber:1,producers:[],producersNames:[],description:\"Sweet Yungins \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/sweet-yungins-maniak\",children:\"Sweet Yungins\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2023).\"]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return j(b);})();\n;return Component;"
   },
   "_id": "skladby/sweet-yungins-maniak.mdx",
   "_raw": {

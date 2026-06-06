@@ -1,13 +1,15 @@
 {
   "title": "Zkrat Kratochvíl",
   "slug": "zkrat-kratochvil",
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "description": "Zkrat Kratochvíl — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},a=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!_.call(t,o)&&o!==r&&s(t,o,{get:()=>e[o],enumerable:!(c=d(e,o))||c.enumerable});return t};var j=(t,e,r)=>(r=t!=null?p(x(t)):{},a(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),v=t=>a(s({},\"__esModule\",{value:!0}),t);var l=k((y,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>g});var n=j(l()),g={title:\"Zkrat Kratochv\\xEDl\",slug:\"zkrat-kratochvil\",genre:[],description:\"Zkrat Kratochv\\xEDl \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function h(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(h,{...t})}):h(t)}return v(M);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Zkrat Kratochvíl](/raperi/zkrat-kratochvil)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),g=(t,r)=>{for(var e in r)a(t,e,{get:r[e],enumerable:!0})},c=(t,r,e,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of m(r))!v.call(t,o)&&o!==e&&a(t,o,{get:()=>r[o],enumerable:!(s=k(r,o))||s.enumerable});return t};var _=(t,r,e)=>(e=t!=null?d(u(t)):{},c(r||!t||!t.__esModule?a(e,\"default\",{value:t,enumerable:!0}):e,t)),f=t=>c(a({},\"__esModule\",{value:!0}),t);var p=x((Z,i)=>{i.exports=_jsx_runtime});var K={};g(K,{default:()=>l,frontmatter:()=>j});var n=_(p()),j={title:\"Zkrat Kratochv\\xEDl\",slug:\"zkrat-kratochvil\",genre:[\"\"],description:\"Zkrat Kratochv\\xEDl \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function h(t){let r={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/raperi/zkrat-kratochvil\",children:\"Zkrat Kratochv\\xEDl\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(t={}){let{wrapper:r}=t.components||{};return r?(0,n.jsx)(r,{...t,children:(0,n.jsx)(h,{...t})}):h(t)}return f(K);})();\n;return Component;"
   },
   "_id": "raperi/zkrat-kratochvil.mdx",
   "_raw": {

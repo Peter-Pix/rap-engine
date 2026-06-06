@@ -8,16 +8,19 @@
   "album": "Babushka Traphouse afterparty",
   "albumSlug": "babushka-traphouse-afterparty",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:11",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Šlapka bez noh — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},u=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of d(a))!k.call(e,r)&&r!==n&&o(e,r,{get:()=>a[r],enumerable:!(s=h(a,r))||s.enumerable});return e};var _=(e,a,n)=>(n=e!=null?l(b(e)):{},u(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var i=x((z,p)=>{p.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>j});var t=_(i()),j={title:\"\\u0160lapka bez noh\",slug:\"slapka-bez-noh-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[],duration:\"2:11\",trackNumber:8,producers:[],producersNames:[],description:\"\\u0160lapka bez noh \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Šlapka bez noh](/skladby/slapka-bez-noh-maniak)** od [Maniak](/raperi/maniak) z alba [Babushka Traphouse afterparty](/alba/babushka-traphouse-afterparty) (2025).\n",
+    "code": "var Component=(()=>{var b=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var t in a)s(e,t,{get:a[t],enumerable:!0})},p=(e,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of k(a))!m.call(e,n)&&n!==t&&s(e,n,{get:()=>a[n],enumerable:!(o=c(a,n))||o.enumerable});return e};var g=(e,a,t)=>(t=e!=null?b(d(e)):{},p(a||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>p(s({},\"__esModule\",{value:!0}),e);var h=f((j,u)=>{u.exports=_jsx_runtime});var M={};x(M,{default:()=>l,frontmatter:()=>z});var r=g(h()),z={title:\"\\u0160lapka bez noh\",slug:\"slapka-bez-noh-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[\"\"],duration:\"2:11\",trackNumber:8,producers:[],producersNames:[],description:\"\\u0160lapka bez noh \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/slapka-bez-noh-maniak\",children:\"\\u0160lapka bez noh\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/babushka-traphouse-afterparty\",children:\"Babushka Traphouse afterparty\"}),\" (2025).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return y(M);})();\n;return Component;"
   },
   "_id": "skladby/slapka-bez-noh-maniak.mdx",
   "_raw": {

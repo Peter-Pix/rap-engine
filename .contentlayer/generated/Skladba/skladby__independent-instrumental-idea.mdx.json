@@ -8,16 +8,19 @@
   "album": "Tempo (Instrumental)",
   "albumSlug": "tempo-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:00",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Independent (Instrumental) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var I=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(o=c(n,a))||o.enumerable});return e};var b=(e,n,r)=>(r=e!=null?p(h(e)):{},d(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(s({},\"__esModule\",{value:!0}),e);var m=I((S,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>j});var t=b(m()),j={title:\"Independent (Instrumental)\",slug:\"independent-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[],duration:\"3:00\",trackNumber:9,producers:[],producersNames:[],description:\"Independent (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Independent (Instrumental)](/skladby/independent-instrumental-idea)** od [Idea](/raperi/idea) z alba [Tempo (Instrumental)](/alba/tempo-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var I=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},o=(n,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of I(e))!h.call(n,a)&&a!==r&&s(n,a,{get:()=>e[a],enumerable:!(d=c(e,a))||d.enumerable});return n};var g=(n,e,r)=>(r=n!=null?p(f(n)):{},o(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),_=n=>o(s({},\"__esModule\",{value:!0}),n);var l=x((M,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>j});var t=g(l()),j={title:\"Independent (Instrumental)\",slug:\"independent-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[\"\"],duration:\"3:00\",trackNumber:9,producers:[],producersNames:[],description:\"Independent (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/independent-instrumental-idea\",children:\"Independent (Instrumental)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/tempo-instrumental\",children:\"Tempo (Instrumental)\"}),\" (2020).\"]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(i,{...n})}):i(n)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/independent-instrumental-idea.mdx",
   "_raw": {

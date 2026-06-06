@@ -8,16 +8,19 @@
   "album": "Road 2 Redemption",
   "albumSlug": "road-2-redemption",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:54",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Last Night — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var b=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=c(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?b(h(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>i(o({},\"__esModule\",{value:!0}),e);var u=g((B,l)=>{l.exports=_jsx_runtime});var N={};f(N,{default:()=>m,frontmatter:()=>j});var n=_(u()),j={title:\"Last Night\",slug:\"last-night-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[],duration:\"3:54\",trackNumber:8,producers:[],producersNames:[],description:\"Last Night \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return y(N);})();\n;return Component;"
+    "raw": "\n**[Last Night](/skladby/last-night-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Road 2 Redemption](/alba/road-2-redemption) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var r in e)n(t,r,{get:e[r],enumerable:!0})},b=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!g.call(t,o)&&o!==r&&n(t,o,{get:()=>e[o],enumerable:!(s=u(e,o))||s.enumerable});return t};var x=(t,e,r)=>(r=t!=null?p(h(t)):{},b(e||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),z=t=>b(n({},\"__esModule\",{value:!0}),t);var d=f((j,l)=>{l.exports=_jsx_runtime});var N={};y(N,{default:()=>c,frontmatter:()=>B});var a=x(d()),B={title:\"Last Night\",slug:\"last-night-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[\"\"],duration:\"3:54\",trackNumber:8,producers:[],producersNames:[],description:\"Last Night \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/last-night-bobby-blaze\",children:\"Last Night\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/road-2-redemption\",children:\"Road 2 Redemption\"}),\" (2023).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(i,{...t})}):i(t)}return z(N);})();\n;return Component;"
   },
   "_id": "skladby/last-night-bobby-blaze.mdx",
   "_raw": {

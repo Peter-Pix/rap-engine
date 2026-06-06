@@ -20,16 +20,19 @@
   "album": "KRTEK MONEY LIFE",
   "albumSlug": "krtek-money-life",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:56",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "CHTĚLY BY TO MÍT — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var k=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),M=(n,e)=>{for(var o in e)a(n,o,{get:e[o],enumerable:!0})},i=(n,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!x.call(n,r)&&r!==o&&a(n,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return n};var T=(n,e,o)=>(o=n!=null?d(h(n)):{},i(e||!n||!n.__esModule?a(o,\"default\",{value:n,enumerable:!0}):o,n)),b=n=>i(a({},\"__esModule\",{value:!0}),n);var m=k((y,l)=>{l.exports=_jsx_runtime});var g={};M(g,{default:()=>c,frontmatter:()=>_});var t=T(m()),_={title:\"CHT\\u011ALY BY TO M\\xCDT\",slug:\"chtely-by-to-mit-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"nik-tendo\",\"kamil-hoffmann\",\"jickson\",\"hasan\",\"yzomandias\"],featuresNames:[\"Nik Tendo\",\"Kamil Hoffmann\",\"Jickson\",\"Hasan\",\"Yzomandias\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"3:56\",trackNumber:14,producers:[],producersNames:[],description:\"CHT\\u011ALY BY TO M\\xCDT \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function u(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(u,{...n})}):u(n)}return b(g);})();\n;return Component;"
+    "raw": "\n**[CHTĚLY BY TO MÍT](/skladby/chtely-by-to-mit-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [KRTEK MONEY LIFE](/alba/krtek-money-life) (2018).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var T=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of f(n))!k.call(e,r)&&r!==t&&a(e,r,{get:()=>n[r],enumerable:!(i=p(n,r))||i.enumerable});return e};var b=(e,n,t)=>(t=e!=null?d(h(e)):{},s(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>s(a({},\"__esModule\",{value:!0}),e);var m=T((j,l)=>{l.exports=_jsx_runtime});var Y={};M(Y,{default:()=>c,frontmatter:()=>x});var o=b(m()),x={title:\"CHT\\u011ALY BY TO M\\xCDT\",slug:\"chtely-by-to-mit-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"nik-tendo\",\"kamil-hoffmann\",\"jickson\",\"hasan\",\"yzomandias\"],featuresNames:[\"Nik Tendo\",\"Kamil Hoffmann\",\"Jickson\",\"Hasan\",\"Yzomandias\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[\"\"],duration:\"3:56\",trackNumber:14,producers:[],producersNames:[],description:\"CHT\\u011ALY BY TO M\\xCDT \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function u(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(n.p,{children:[(0,o.jsx)(n.strong,{children:(0,o.jsx)(n.a,{href:\"/skladby/chtely-by-to-mit-milion-plus\",children:\"CHT\\u011ALY BY TO M\\xCDT\"})}),\" od \",(0,o.jsx)(n.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,o.jsx)(n.a,{href:\"/alba/krtek-money-life\",children:\"KRTEK MONEY LIFE\"}),\" (2018).\"]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return y(Y);})();\n;return Component;"
   },
   "_id": "skladby/chtely-by-to-mit-milion-plus.mdx",
   "_raw": {

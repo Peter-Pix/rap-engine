@@ -14,16 +14,19 @@
   "album": "Ultra! Ultra!",
   "albumSlug": "ultra-ultra",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:29",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Někdo Ti Něco Asi Vzal — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),N=(e,r)=>{for(var a in r)i(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!h.call(e,n)&&n!==a&&i(e,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return e};var _=(e,r,a)=>(a=e!=null?c(f(e)):{},s(r||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var d=k((M,l)=>{l.exports=_jsx_runtime});var j={};N(j,{default:()=>u,frontmatter:()=>g});var t=_(d()),g={title:\"Ne\\u030Ckdo Ti Ne\\u030Cco Asi Vzal\",slug:\"nekdo-ti-neco-asi-vzal-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"yzomandias\"],featuresNames:[\"Mike Trafik\",\"Yzomandias\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"3:29\",trackNumber:9,producers:[],producersNames:[],description:\"Ne\\u030Ckdo Ti Ne\\u030Cco Asi Vzal \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Někdo Ti Něco Asi Vzal](/skladby/nekdo-ti-neco-asi-vzal-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Ultra! Ultra!](/alba/ultra-ultra) (2017).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),N=(r,a)=>{for(var t in a)n(r,t,{get:a[t],enumerable:!0})},o=(r,a,t,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let i of f(a))!h.call(r,i)&&i!==t&&n(r,i,{get:()=>a[i],enumerable:!(l=p(a,i))||l.enumerable});return r};var b=(r,a,t)=>(t=r!=null?m(k(r)):{},o(a||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),z=r=>o(n({},\"__esModule\",{value:!0}),r);var d=x((_,s)=>{s.exports=_jsx_runtime});var v={};N(v,{default:()=>u,frontmatter:()=>g});var e=b(d()),g={title:\"Ne\\u030Ckdo Ti Ne\\u030Cco Asi Vzal\",slug:\"nekdo-ti-neco-asi-vzal-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"yzomandias\"],featuresNames:[\"Mike Trafik\",\"Yzomandias\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[\"\"],duration:\"3:29\",trackNumber:9,producers:[],producersNames:[],description:\"Ne\\u030Ckdo Ti Ne\\u030Cco Asi Vzal \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/nekdo-ti-neco-asi-vzal-vladimir-518\",children:\"Ne\\u030Ckdo Ti Ne\\u030Cco Asi Vzal\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/ultra-ultra\",children:\"Ultra! Ultra!\"}),\" (2017).\"]})}function u(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return z(v);})();\n;return Component;"
   },
   "_id": "skladby/nekdo-ti-neco-asi-vzal-vladimir-518.mdx",
   "_raw": {

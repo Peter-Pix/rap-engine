@@ -12,16 +12,19 @@
   "album": "[Gudlak]",
   "albumSlug": "gudlak",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:01",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Babylon — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},l=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var y=(e,n,a)=>(a=e!=null?c(x(e)):{},l(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var d=f((M,u)=>{u.exports=_jsx_runtime});var k={};g(k,{default:()=>i,frontmatter:()=>j});var t=y(d()),j={title:\"Babylon\",slug:\"babylon-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[],duration:\"3:01\",trackNumber:2,producers:[],producersNames:[],description:\"Babylon \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Babylon](/skladby/babylon-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [[Gudlak]](/alba/gudlak) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),g=(n,a)=>{for(var e in a)t(n,e,{get:a[e],enumerable:!0})},l=(n,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!f.call(n,o)&&o!==e&&t(n,o,{get:()=>a[o],enumerable:!(s=b(a,o))||s.enumerable});return n};var x=(n,a,e)=>(e=n!=null?m(y(n)):{},l(a||!n||!n.__esModule?t(e,\"default\",{value:n,enumerable:!0}):e,n)),k=n=>l(t({},\"__esModule\",{value:!0}),n);var i=h((B,d)=>{d.exports=_jsx_runtime});var _={};g(_,{default:()=>c,frontmatter:()=>z});var r=x(i()),z={title:\"Babylon\",slug:\"babylon-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[\"\"],duration:\"3:01\",trackNumber:2,producers:[],producersNames:[],description:\"Babylon \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/babylon-yzomandias\",children:\"Babylon\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/gudlak\",children:\"[Gudlak]\"}),\" (2020).\"]})}function c(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/babylon-yzomandias.mdx",
   "_raw": {

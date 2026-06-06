@@ -12,16 +12,19 @@
   "album": "Questions (feat. TM Slime)",
   "albumSlug": "questions-feat-tm-slime",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Questions — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var s in t)o(e,s,{get:t[s],enumerable:!0})},u=(e,t,s,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!h.call(e,r)&&r!==s&&o(e,r,{get:()=>t[r],enumerable:!(a=p(t,r))||a.enumerable});return e};var g=(e,t,s)=>(s=e!=null?d(f(e)):{},u(t||!e||!e.__esModule?o(s,\"default\",{value:e,enumerable:!0}):s,e)),k=e=>u(o({},\"__esModule\",{value:!0}),e);var m=_((S,i)=>{i.exports=_jsx_runtime});var j={};b(j,{default:()=>l,frontmatter:()=>y});var n=g(m()),y={title:\"Questions\",slug:\"questions-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"tm-slime\"],featuresNames:[\"TM Slime\"],album:\"Questions (feat. TM Slime)\",albumSlug:\"questions-feat-tm-slime\",year:2024,genre:[],duration:\"3:45\",trackNumber:1,producers:[],producersNames:[],description:\"Questions \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Questions](/skladby/questions-decky)** od [Decky](/raperi/decky) (2024).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var s in e)o(t,s,{get:e[s],enumerable:!0})},i=(t,e,s,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!y.call(t,n)&&n!==s&&o(t,n,{get:()=>e[n],enumerable:!(a=p(e,n))||a.enumerable});return t};var g=(t,e,s)=>(s=t!=null?m(k(t)):{},i(e||!t||!t.__esModule?o(s,\"default\",{value:t,enumerable:!0}):s,t)),b=t=>i(o({},\"__esModule\",{value:!0}),t);var c=x((M,u)=>{u.exports=_jsx_runtime});var j={};h(j,{default:()=>l,frontmatter:()=>_});var r=g(c()),_={title:\"Questions\",slug:\"questions-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"tm-slime\"],featuresNames:[\"TM Slime\"],album:\"Questions (feat. TM Slime)\",albumSlug:\"questions-feat-tm-slime\",year:2024,genre:[\"\"],duration:\"3:45\",trackNumber:1,producers:[],producersNames:[],description:\"Questions \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/questions-decky\",children:\"Questions\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" (2024).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/questions-decky.mdx",
   "_raw": {

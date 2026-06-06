@@ -12,16 +12,19 @@
   "album": "Aura",
   "albumSlug": "aura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:28",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Aura — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)u(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!h.call(e,n)&&n!==a&&u(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?l(f(e)):{},s(t||!e||!e.__esModule?u(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>s(u({},\"__esModule\",{value:!0}),e);var d=g((M,c)=>{c.exports=_jsx_runtime});var D={};j(D,{default:()=>m,frontmatter:()=>A});var r=_(d()),A={title:\"Aura\",slug:\"aura-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"4:28\",trackNumber:7,producers:[],producersNames:[],description:\"Aura \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Aura](/skladby/aura-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Aura](/alba/aura) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var u=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)u(r,t,{get:e[t],enumerable:!0})},o=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!g.call(r,n)&&n!==t&&u(r,n,{get:()=>e[n],enumerable:!(s=f(e,n))||s.enumerable});return r};var b=(r,e,t)=>(t=r!=null?p(h(r)):{},o(e||!r||!r.__esModule?u(t,\"default\",{value:r,enumerable:!0}):t,r)),A=r=>o(u({},\"__esModule\",{value:!0}),r);var c=j((y,d)=>{d.exports=_jsx_runtime});var D={};x(D,{default:()=>l,frontmatter:()=>_});var a=b(c()),_={title:\"Aura\",slug:\"aura-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[\"\"],duration:\"4:28\",trackNumber:7,producers:[],producersNames:[],description:\"Aura \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/aura-dj-fatte\",children:\"Aura\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/aura\",children:\"Aura\"}),\" (2022).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return A(D);})();\n;return Component;"
   },
   "_id": "skladby/aura-dj-fatte.mdx",
   "_raw": {

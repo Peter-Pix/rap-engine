@@ -14,16 +14,19 @@
   "album": "J. Eden Dva",
   "albumSlug": "j-eden-dva",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:07",
   "trackNumber": 17,
   "producers": [],
   "producersNames": [],
   "description": "Emma a Hanna — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var t in e)r(n,t,{get:e[t],enumerable:!0})},m=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!b.call(n,o)&&o!==t&&r(n,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return n};var g=(n,e,t)=>(t=n!=null?l(x(n)):{},m(e||!n||!n.__esModule?r(t,\"default\",{value:n,enumerable:!0}):t,n)),j=n=>m(r({},\"__esModule\",{value:!0}),n);var i=f((N,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>z});var a=g(i()),z={title:\"Emma a Hanna\",slug:\"emma-a-hanna-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"robin-zoot\"],featuresNames:[\"Nik Tendo\",\"Robin Zoot\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"2:07\",trackNumber:17,producers:[],producersNames:[],description:\"Emma a Hanna \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(u,{...n})}):u(n)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Emma a Hanna](/skladby/emma-a-hanna-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN DVA](/alba/j-eden-dva) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),z=(n,a)=>{for(var r in a)t(n,r,{get:a[r],enumerable:!0})},d=(n,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of h(a))!f.call(n,o)&&o!==r&&t(n,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return n};var g=(n,a,r)=>(r=n!=null?l(b(n)):{},d(a||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),j=n=>d(t({},\"__esModule\",{value:!0}),n);var i=x((k,m)=>{m.exports=_jsx_runtime});var E={};z(E,{default:()=>u,frontmatter:()=>y});var e=g(i()),y={title:\"Emma a Hanna\",slug:\"emma-a-hanna-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"robin-zoot\"],featuresNames:[\"Nik Tendo\",\"Robin Zoot\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[\"\"],duration:\"2:07\",trackNumber:17,producers:[],producersNames:[],description:\"Emma a Hanna \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/emma-a-hanna-yzomandias\",children:\"Emma a Hanna\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/j-eden-dva\",children:\"J. EDEN DVA\"}),\" (2019).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(c,{...n})}):c(n)}return j(E);})();\n;return Component;"
   },
   "_id": "skladby/emma-a-hanna-yzomandias.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Nirvana",
   "albumSlug": "nirvana",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:04",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Loyalty — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!g.call(e,r)&&r!==n&&o(e,r,{get:()=>a[r],enumerable:!(u=m(a,r))||u.enumerable});return e};var _=(e,a,n)=>(n=e!=null?c(h(e)):{},s(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var i=y((L,l)=>{l.exports=_jsx_runtime});var N={};f(N,{default:()=>p,frontmatter:()=>j});var t=_(i()),j={title:\"Loyalty\",slug:\"loyalty-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"idea\",\"supa\"],featuresNames:[\"Idea\",\"Supa\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"4:04\",trackNumber:5,producers:[],producersNames:[],description:\"Loyalty \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Loyalty](/skladby/loyalty-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Nirvana](/alba/nirvana) (2017).\n",
+    "code": "var Component=(()=>{var c=Object.create;var l=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var n in a)l(r,n,{get:a[n],enumerable:!0})},i=(r,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!f.call(r,t)&&t!==n&&l(r,t,{get:()=>a[t],enumerable:!(o=y(a,t))||o.enumerable});return r};var b=(r,a,n)=>(n=r!=null?c(g(r)):{},i(a||!r||!r.__esModule?l(n,\"default\",{value:r,enumerable:!0}):n,r)),_=r=>i(l({},\"__esModule\",{value:!0}),r);var u=h((L,s)=>{s.exports=_jsx_runtime});var N={};x(N,{default:()=>p,frontmatter:()=>j});var e=b(u()),j={title:\"Loyalty\",slug:\"loyalty-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"idea\",\"supa\"],featuresNames:[\"Idea\",\"Supa\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[\"\"],duration:\"4:04\",trackNumber:5,producers:[],producersNames:[],description:\"Loyalty \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/loyalty-paulie-garand\",children:\"Loyalty\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/nirvana\",children:\"Nirvana\"}),\" (2017).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(d,{...r})}):d(r)}return _(N);})();\n;return Component;"
   },
   "_id": "skladby/loyalty-paulie-garand.mdx",
   "_raw": {

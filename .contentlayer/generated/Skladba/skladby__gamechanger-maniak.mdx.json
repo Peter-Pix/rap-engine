@@ -12,16 +12,19 @@
   "album": "Ach Ano III: Ballerbyn",
   "albumSlug": "ach-ano-iii-ballerbyn",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:57",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Gamechanger — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},i=(e,a,r,c)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!x.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(c=h(a,t))||c.enumerable});return e};var k=(e,a,r)=>(r=e!=null?d(g(e)):{},i(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var m=b((A,s)=>{s.exports=_jsx_runtime});var M={};f(M,{default:()=>u,frontmatter:()=>j});var n=k(m()),j={title:\"Gamechanger\",slug:\"gamechanger-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"radikal-chef\"],featuresNames:[\"Radikal Chef\"],album:\"Ach Ano III: Ballerbyn\",albumSlug:\"ach-ano-iii-ballerbyn\",year:2019,genre:[],duration:\"2:57\",trackNumber:13,producers:[],producersNames:[],description:\"Gamechanger \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Gamechanger](/skladby/gamechanger-maniak)** od [Maniak](/raperi/maniak) z alba [Ach Ano III: Ballerbyn](/alba/ach-ano-iii-ballerbyn) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),k=(e,a)=>{for(var r in a)i(e,r,{get:a[r],enumerable:!0})},c=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!g.call(e,t)&&t!==r&&i(e,t,{get:()=>a[t],enumerable:!(o=u(a,t))||o.enumerable});return e};var x=(e,a,r)=>(r=e!=null?d(b(e)):{},c(a||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>c(i({},\"__esModule\",{value:!0}),e);var s=f((j,l)=>{l.exports=_jsx_runtime});var M={};k(M,{default:()=>m,frontmatter:()=>I});var n=x(s()),I={title:\"Gamechanger\",slug:\"gamechanger-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"radikal-chef\"],featuresNames:[\"Radikal Chef\"],album:\"Ach Ano III: Ballerbyn\",albumSlug:\"ach-ano-iii-ballerbyn\",year:2019,genre:[\"\"],duration:\"2:57\",trackNumber:13,producers:[],producersNames:[],description:\"Gamechanger \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function h(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/gamechanger-maniak\",children:\"Gamechanger\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/ach-ano-iii-ballerbyn\",children:\"Ach Ano III: Ballerbyn\"}),\" (2019).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(h,{...e})}):h(e)}return y(M);})();\n;return Component;"
   },
   "_id": "skladby/gamechanger-maniak.mdx",
   "_raw": {

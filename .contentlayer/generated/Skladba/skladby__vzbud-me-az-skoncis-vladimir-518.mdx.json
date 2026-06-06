@@ -12,16 +12,19 @@
   "album": "Ultra! Ultra!",
   "albumSlug": "ultra-ultra",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:02",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Vzbuď Mě Až Skončíš — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=x(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?c(h(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),z=e=>u(o({},\"__esModule\",{value:!0}),e);var l=g((S,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>j});var r=_(l()),j={title:\"Vzbud\\u030C Me\\u030C Az\\u030C Skonc\\u030Ci\\u0301s\\u030C\",slug:\"vzbud-me-az-skoncis-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"4:02\",trackNumber:15,producers:[],producersNames:[],description:\"Vzbud\\u030C Me\\u030C Az\\u030C Skonc\\u030Ci\\u0301s\\u030C \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return z(k);})();\n;return Component;"
+    "raw": "\n**[Vzbuď Mě Až Skončíš](/skladby/vzbud-me-az-skoncis-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Ultra! Ultra!](/alba/ultra-ultra) (2017).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var z=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),f=(a,r)=>{for(var t in r)i(a,t,{get:r[t],enumerable:!0})},s=(a,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!h.call(a,n)&&n!==t&&i(a,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return a};var g=(a,r,t)=>(t=a!=null?m(b(a)):{},s(r||!a||!a.__esModule?i(t,\"default\",{value:a,enumerable:!0}):t,a)),k=a=>s(i({},\"__esModule\",{value:!0}),a);var u=z((_,l)=>{l.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>v});var e=g(u()),v={title:\"Vzbud\\u030C Me\\u030C Az\\u030C Skonc\\u030Ci\\u0301s\\u030C\",slug:\"vzbud-me-az-skoncis-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[\"\"],duration:\"4:02\",trackNumber:15,producers:[],producersNames:[],description:\"Vzbud\\u030C Me\\u030C Az\\u030C Skonc\\u030Ci\\u0301s\\u030C \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/vzbud-me-az-skoncis-vladimir-518\",children:\"Vzbud\\u030C Me\\u030C Az\\u030C Skonc\\u030Ci\\u0301s\\u030C\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/ultra-ultra\",children:\"Ultra! Ultra!\"}),\" (2017).\"]})}function c(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(d,{...a})}):d(a)}return k(M);})();\n;return Component;"
   },
   "_id": "skladby/vzbud-me-az-skoncis-vladimir-518.mdx",
   "_raw": {

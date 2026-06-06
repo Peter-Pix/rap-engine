@@ -8,16 +8,19 @@
   "album": "Street Sermons, Vol. 1",
   "albumSlug": "street-sermons-vol-1",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:53",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Runnin 4 My Life — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!x.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(a=d(n,o))||a.enumerable});return e};var _=(e,n,r)=>(r=e!=null?c(f(e)):{},u(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var i=h((z,l)=>{l.exports=_jsx_runtime});var M={};y(M,{default:()=>b,frontmatter:()=>j});var t=_(i()),j={title:\"Runnin 4 My Life\",slug:\"runnin-4-my-life-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Street Sermons, Vol. 1\",albumSlug:\"street-sermons-vol-1\",year:2022,genre:[],duration:\"3:53\",trackNumber:5,producers:[],producersNames:[],description:\"Runnin 4 My Life \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Runnin 4 My Life](/skladby/runnin-4-my-life-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Street Sermons, Vol. 1](/alba/street-sermons-vol-1) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var t in e)a(n,t,{get:e[t],enumerable:!0})},l=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!y.call(n,o)&&o!==t&&a(n,o,{get:()=>e[o],enumerable:!(s=d(e,o))||s.enumerable});return n};var z=(n,e,t)=>(t=n!=null?m(p(n)):{},l(e||!n||!n.__esModule?a(t,\"default\",{value:n,enumerable:!0}):t,n)),g=n=>l(a({},\"__esModule\",{value:!0}),n);var i=h((_,b)=>{b.exports=_jsx_runtime});var M={};x(M,{default:()=>c,frontmatter:()=>B});var r=z(i()),B={title:\"Runnin 4 My Life\",slug:\"runnin-4-my-life-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Street Sermons, Vol. 1\",albumSlug:\"street-sermons-vol-1\",year:2022,genre:[\"\"],duration:\"3:53\",trackNumber:5,producers:[],producersNames:[],description:\"Runnin 4 My Life \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/runnin-4-my-life-bobby-blaze\",children:\"Runnin 4 My Life\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/street-sermons-vol-1\",children:\"Street Sermons, Vol. 1\"}),\" (2022).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/runnin-4-my-life-bobby-blaze.mdx",
   "_raw": {

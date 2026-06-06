@@ -8,16 +8,19 @@
   "album": "Weekend EP",
   "albumSlug": "weekend-ep",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Weekend (Radio Edit) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(d=p(t,a))||d.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var c=k((w,i)=>{i.exports=_jsx_runtime});var N={};_(N,{default:()=>l,frontmatter:()=>j});var n=b(c()),j={title:\"Weekend (Radio Edit)\",slug:\"weekend-radio-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Weekend EP\",albumSlug:\"weekend-ep\",year:2012,genre:[],duration:\"3:31\",trackNumber:1,producers:[],producersNames:[],description:\"Weekend (Radio Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[Weekend (Radio Edit)](/skladby/weekend-radio-edit-calin)** od [Calin](/raperi/calin) z alba [Weekend EP](/alba/weekend-ep) (2012).\n",
+    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var a in e)d(n,a,{get:e[a],enumerable:!0})},o=(n,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!h.call(n,t)&&t!==a&&d(n,t,{get:()=>e[t],enumerable:!(i=k(e,t))||i.enumerable});return n};var g=(n,e,a)=>(a=n!=null?p(f(n)):{},o(e||!n||!n.__esModule?d(a,\"default\",{value:n,enumerable:!0}):a,n)),_=n=>o(d({},\"__esModule\",{value:!0}),n);var c=x((E,s)=>{s.exports=_jsx_runtime});var w={};b(w,{default:()=>u,frontmatter:()=>j});var r=g(c()),j={title:\"Weekend (Radio Edit)\",slug:\"weekend-radio-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Weekend EP\",albumSlug:\"weekend-ep\",year:2012,genre:[\"\"],duration:\"3:31\",trackNumber:1,producers:[],producersNames:[],description:\"Weekend (Radio Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/weekend-radio-edit-calin\",children:\"Weekend (Radio Edit)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/weekend-ep\",children:\"Weekend EP\"}),\" (2012).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return _(w);})();\n;return Component;"
   },
   "_id": "skladby/weekend-radio-edit-calin.mdx",
   "_raw": {

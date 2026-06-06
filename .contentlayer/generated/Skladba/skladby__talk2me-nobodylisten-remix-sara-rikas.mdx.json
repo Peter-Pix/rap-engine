@@ -14,16 +14,19 @@
   "album": "Talk2me (NobodyListen Remix)",
   "albumSlug": "talk2me-nobodylisten-remix",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:26",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Talk2me (NobodyListen Remix) — skladba od Sara Rikas.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!k.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var f=(e,t,a)=>(a=e!=null?c(b(e)):{},i(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),N=e=>i(o({},\"__esModule\",{value:!0}),e);var d=y((R,m)=>{m.exports=_jsx_runtime});var g={};h(g,{default:()=>u,frontmatter:()=>_});var n=f(d()),_={title:\"Talk2me (NobodyListen Remix)\",slug:\"talk2me-nobodylisten-remix-sara-rikas\",rapper:\"Sara Rikas\",rapperSlug:\"sara-rikas\",features:[\"yzomandias\",\"nobodylisten\"],featuresNames:[\"Yzomandias\",\"Nobodylisten\"],album:\"Talk2me (NobodyListen Remix)\",albumSlug:\"talk2me-nobodylisten-remix\",year:2026,genre:[],duration:\"2:26\",trackNumber:1,producers:[],producersNames:[],description:\"Talk2me (NobodyListen Remix) \\u2014 skladba od Sara Rikas.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return N(g);})();\n;return Component;"
+    "raw": "\n**[Talk2me (NobodyListen Remix)](/skladby/talk2me-nobodylisten-remix-sara-rikas)** od [Sara Rikas](/raperi/sara-rikas) (2026).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!p.call(a,t)&&t!==r&&n(a,t,{get:()=>e[t],enumerable:!(o=k(e,t))||o.enumerable});return a};var h=(a,e,r)=>(r=a!=null?c(b(a)):{},i(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),N=a=>i(n({},\"__esModule\",{value:!0}),a);var d=y((j,m)=>{m.exports=_jsx_runtime});var R={};f(R,{default:()=>u,frontmatter:()=>g});var s=h(d()),g={title:\"Talk2me (NobodyListen Remix)\",slug:\"talk2me-nobodylisten-remix-sara-rikas\",rapper:\"Sara Rikas\",rapperSlug:\"sara-rikas\",features:[\"yzomandias\",\"nobodylisten\"],featuresNames:[\"Yzomandias\",\"Nobodylisten\"],album:\"Talk2me (NobodyListen Remix)\",albumSlug:\"talk2me-nobodylisten-remix\",year:2026,genre:[\"\"],duration:\"2:26\",trackNumber:1,producers:[],producersNames:[],description:\"Talk2me (NobodyListen Remix) \\u2014 skladba od Sara Rikas.\",publishedAt:\"2026-05-31\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/talk2me-nobodylisten-remix-sara-rikas\",children:\"Talk2me (NobodyListen Remix)\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/sara-rikas\",children:\"Sara Rikas\"}),\" (2026).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,s.jsx)(e,{...a,children:(0,s.jsx)(l,{...a})}):l(a)}return N(R);})();\n;return Component;"
   },
   "_id": "skladby/talk2me-nobodylisten-remix-sara-rikas.mdx",
   "_raw": {

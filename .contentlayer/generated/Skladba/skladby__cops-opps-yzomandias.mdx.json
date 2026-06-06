@@ -14,16 +14,19 @@
   "album": "Prozyum",
   "albumSlug": "prozyum",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Cops & Opps — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),z=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},p=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!b.call(e,r)&&r!==t&&s(e,r,{get:()=>n[r],enumerable:!(a=l(n,r))||a.enumerable});return e};var _=(e,n,t)=>(t=e!=null?c(h(e)):{},p(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>p(s({},\"__esModule\",{value:!0}),e);var m=f((C,i)=>{i.exports=_jsx_runtime});var j={};z(j,{default:()=>d,frontmatter:()=>y});var o=_(m()),y={title:\"Cops & Opps\",slug:\"cops-opps-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"robin-zoot\"],featuresNames:[\"Nik Tendo\",\"Robin Zoot\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[],duration:\"3:31\",trackNumber:9,producers:[],producersNames:[],description:\"Cops & Opps \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Cops & Opps](/skladby/cops-opps-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(r,o)=>()=>(o||r((o={exports:{}}).exports,o),o.exports),h=(r,o)=>{for(var e in o)s(r,e,{get:o[e],enumerable:!0})},p=(r,o,e,t)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of z(o))!b.call(r,n)&&n!==e&&s(r,n,{get:()=>o[n],enumerable:!(t=l(o,n))||t.enumerable});return r};var x=(r,o,e)=>(e=r!=null?c(y(r)):{},p(o||!r||!r.__esModule?s(e,\"default\",{value:r,enumerable:!0}):e,r)),g=r=>p(s({},\"__esModule\",{value:!0}),r);var d=f((C,i)=>{i.exports=_jsx_runtime});var j={};h(j,{default:()=>u,frontmatter:()=>_});var a=x(d()),_={title:\"Cops & Opps\",slug:\"cops-opps-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"robin-zoot\"],featuresNames:[\"Nik Tendo\",\"Robin Zoot\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[\"\"],duration:\"3:31\",trackNumber:9,producers:[],producersNames:[],description:\"Cops & Opps \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(r){let o={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(o.p,{children:[(0,a.jsx)(o.strong,{children:(0,a.jsx)(o.a,{href:\"/skladby/cops-opps-yzomandias\",children:\"Cops & Opps\"})}),\" od \",(0,a.jsx)(o.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(o.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2020).\"]})}function u(r={}){let{wrapper:o}=r.components||{};return o?(0,a.jsx)(o,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/cops-opps-yzomandias.mdx",
   "_raw": {

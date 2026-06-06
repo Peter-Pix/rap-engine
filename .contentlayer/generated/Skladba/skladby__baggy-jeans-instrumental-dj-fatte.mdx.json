@@ -8,16 +8,19 @@
   "album": "Fade In (Instrumental)",
   "albumSlug": "fade-in-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:57",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Baggy Jeans (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!x.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(u=p(t,r))||u.enumerable});return e};var b=(e,t,a)=>(a=e!=null?i(f(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>o(s({},\"__esModule\",{value:!0}),e);var l=h((I,m)=>{m.exports=_jsx_runtime});var F={};j(F,{default:()=>c,frontmatter:()=>y});var n=b(l()),y={title:\"Baggy Jeans (Instrumental)\",slug:\"baggy-jeans-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fade In (Instrumental)\",albumSlug:\"fade-in-instrumental\",year:2020,genre:[],duration:\"2:57\",trackNumber:1,producers:[],producersNames:[],description:\"Baggy Jeans (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(F);})();\n;return Component;"
+    "raw": "\n**[Baggy Jeans (Instrumental)](/skladby/baggy-jeans-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fade In (Instrumental)](/alba/fade-in-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},l=(t,e,n,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!j.call(t,r)&&r!==n&&s(t,r,{get:()=>e[r],enumerable:!(u=g(e,r))||u.enumerable});return t};var x=(t,e,n)=>(n=t!=null?c(p(t)):{},l(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),y=t=>l(s({},\"__esModule\",{value:!0}),t);var d=b((D,o)=>{o.exports=_jsx_runtime});var J={};h(J,{default:()=>m,frontmatter:()=>I});var a=x(d()),I={title:\"Baggy Jeans (Instrumental)\",slug:\"baggy-jeans-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fade In (Instrumental)\",albumSlug:\"fade-in-instrumental\",year:2020,genre:[\"\"],duration:\"2:57\",trackNumber:1,producers:[],producersNames:[],description:\"Baggy Jeans (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/baggy-jeans-instrumental-dj-fatte\",children:\"Baggy Jeans (Instrumental)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/fade-in-instrumental\",children:\"Fade In (Instrumental)\"}),\" (2020).\"]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(i,{...t})}):i(t)}return y(J);})();\n;return Component;"
   },
   "_id": "skladby/baggy-jeans-instrumental-dj-fatte.mdx",
   "_raw": {

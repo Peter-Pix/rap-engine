@@ -12,16 +12,19 @@
   "album": "Aura",
   "albumSlug": "aura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:15",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Klenot — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(f(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var l=g((K,c)=>{c.exports=_jsx_runtime});var F={};j(F,{default:()=>i,frontmatter:()=>D});var r=_(l()),D={title:\"Klenot\",slug:\"klenot-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"4:15\",trackNumber:8,producers:[],producersNames:[],description:\"Klenot \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(F);})();\n;return Component;"
+    "raw": "\n**[Klenot](/skladby/klenot-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Aura](/alba/aura) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},l=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!g.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=f(e,n))||s.enumerable});return t};var b=(t,e,a)=>(a=t!=null?p(h(t)):{},l(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),_=t=>l(o({},\"__esModule\",{value:!0}),t);var d=j((A,u)=>{u.exports=_jsx_runtime});var D={};x(D,{default:()=>i,frontmatter:()=>k});var r=b(d()),k={title:\"Klenot\",slug:\"klenot-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[\"\"],duration:\"4:15\",trackNumber:8,producers:[],producersNames:[],description:\"Klenot \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/klenot-dj-fatte\",children:\"Klenot\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/aura\",children:\"Aura\"}),\" (2022).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return _(D);})();\n;return Component;"
   },
   "_id": "skladby/klenot-dj-fatte.mdx",
   "_raw": {

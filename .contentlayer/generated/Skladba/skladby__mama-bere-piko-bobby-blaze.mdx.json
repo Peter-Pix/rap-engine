@@ -8,16 +8,19 @@
   "album": "TopProdukt",
   "albumSlug": "topprodukt",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:00",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Mama Bere Piko — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},u=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of d(t))!h.call(e,n)&&n!==o&&a(e,n,{get:()=>t[n],enumerable:!(s=i(t,n))||s.enumerable});return e};var _=(e,t,o)=>(o=e!=null?c(x(e)):{},u(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var b=f((M,m)=>{m.exports=_jsx_runtime});var B={};k(B,{default:()=>p,frontmatter:()=>y});var r=_(b()),y={title:\"Mama Bere Piko\",slug:\"mama-bere-piko-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"TopProdukt\",albumSlug:\"topprodukt\",year:2024,genre:[],duration:\"3:00\",trackNumber:9,producers:[],producersNames:[],description:\"Mama Bere Piko \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(B);})();\n;return Component;"
+    "raw": "\n**[Mama Bere Piko](/skladby/mama-bere-piko-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [TopProdukt](/alba/topprodukt) (2024).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var o in e)n(r,o,{get:e[o],enumerable:!0})},s=(r,e,o,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!f.call(r,t)&&t!==o&&n(r,t,{get:()=>e[t],enumerable:!(b=c(e,t))||b.enumerable});return r};var x=(r,e,o)=>(o=r!=null?i(k(r)):{},s(e||!r||!r.__esModule?n(o,\"default\",{value:r,enumerable:!0}):o,r)),B=r=>s(n({},\"__esModule\",{value:!0}),r);var p=h((_,l)=>{l.exports=_jsx_runtime});var g={};y(g,{default:()=>d,frontmatter:()=>z});var a=x(p()),z={title:\"Mama Bere Piko\",slug:\"mama-bere-piko-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"TopProdukt\",albumSlug:\"topprodukt\",year:2024,genre:[\"\"],duration:\"3:00\",trackNumber:9,producers:[],producersNames:[],description:\"Mama Bere Piko \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/mama-bere-piko-bobby-blaze\",children:\"Mama Bere Piko\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/topprodukt\",children:\"TopProdukt\"}),\" (2024).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return B(g);})();\n;return Component;"
   },
   "_id": "skladby/mama-bere-piko-bobby-blaze.mdx",
   "_raw": {

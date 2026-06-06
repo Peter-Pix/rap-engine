@@ -24,16 +24,19 @@
   "album": "Kruhy & Vlny (217 Twins Edition)",
   "albumSlug": "kruhy-vlny",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:48",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Boží Mlýny Melou Furt — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!k.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?c(y(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(o({},\"__esModule\",{value:!0}),e);var l=x((z,u)=>{u.exports=_jsx_runtime});var g={};b(g,{default:()=>d,frontmatter:()=>_});var n=f(l()),_={title:\"Bo\\u017E\\xED Ml\\xFDny Melou Furt\",slug:\"bozi-mlyny-melou-furt-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"saul\",\"zkrat-kratochvil\",\"fobia-kid\",\"luisa\",\"james-cole\",\"ptk\"],featuresNames:[\"Nik Tendo\",\"Saul\",\"Zkrat Kratochv\\xEDl\",\"Fobia Kid\",\"Luisa\",\"James Cole\",\"Ptk\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[],duration:\"6:48\",trackNumber:8,producers:[],producersNames:[],description:\"Bo\\u017E\\xED Ml\\xFDny Melou Furt \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return M(g);})();\n;return Component;"
+    "raw": "\n**[Boží Mlýny Melou Furt](/skladby/bozi-mlyny-melou-furt-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),b=(n,a)=>{for(var e in a)t(n,e,{get:a[e],enumerable:!0})},i=(n,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of h(a))!f.call(n,o)&&o!==e&&t(n,o,{get:()=>a[o],enumerable:!(s=y(a,o))||s.enumerable});return n};var z=(n,a,e)=>(e=n!=null?c(p(n)):{},i(a||!n||!n.__esModule?t(e,\"default\",{value:n,enumerable:!0}):e,n)),x=n=>i(t({},\"__esModule\",{value:!0}),n);var u=k((_,l)=>{l.exports=_jsx_runtime});var g={};b(g,{default:()=>m,frontmatter:()=>M});var r=z(u()),M={title:\"Bo\\u017E\\xED Ml\\xFDny Melou Furt\",slug:\"bozi-mlyny-melou-furt-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"saul\",\"zkrat-kratochvil\",\"fobia-kid\",\"luisa\",\"james-cole\",\"ptk\"],featuresNames:[\"Nik Tendo\",\"Saul\",\"Zkrat Kratochv\\xEDl\",\"Fobia Kid\",\"Luisa\",\"James Cole\",\"Ptk\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"6:48\",trackNumber:8,producers:[],producersNames:[],description:\"Bo\\u017E\\xED Ml\\xFDny Melou Furt \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/bozi-mlyny-melou-furt-yzomandias\",children:\"Bo\\u017E\\xED Ml\\xFDny Melou Furt\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function m(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return x(g);})();\n;return Component;"
   },
   "_id": "skladby/bozi-mlyny-melou-furt-yzomandias.mdx",
   "_raw": {

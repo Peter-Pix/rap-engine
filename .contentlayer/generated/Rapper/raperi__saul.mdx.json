@@ -1,13 +1,15 @@
 {
   "title": "Saul",
   "slug": "saul",
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "description": "Saul — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(c=d(n,o))||c.enumerable});return e};var g=(e,n,r)=>(r=e!=null?p(x(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var l=f((v,a)=>{a.exports=_jsx_runtime});var b={};j(b,{default:()=>m,frontmatter:()=>S});var t=g(l()),S={title:\"Saul\",slug:\"saul\",genre:[],description:\"Saul \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return M(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Saul](/raperi/saul)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of m(n))!g.call(e,s)&&s!==t&&o(e,s,{get:()=>n[s],enumerable:!(a=d(n,s))||a.enumerable});return e};var j=(e,n,t)=>(t=e!=null?h(x(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),v=e=>c(o({},\"__esModule\",{value:!0}),e);var p=_((b,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>u,frontmatter:()=>k});var r=j(p()),k={title:\"Saul\",slug:\"saul\",genre:[\"\"],description:\"Saul \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(e){let n={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/raperi/saul\",children:\"Saul\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return v(M);})();\n;return Component;"
   },
   "_id": "raperi/saul.mdx",
   "_raw": {

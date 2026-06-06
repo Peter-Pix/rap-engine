@@ -16,16 +16,19 @@
   "album": "Černej kůň plus",
   "albumSlug": "cernej-kun-plus",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:52",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Panelákový Malibu — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(i=p(n,a))||i.enumerable});return e};var f=(e,n,t)=>(t=e!=null?d(k(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),M=e=>s(o({},\"__esModule\",{value:!0}),e);var l=b((v,u)=>{u.exports=_jsx_runtime});var g={};j(g,{default:()=>m,frontmatter:()=>_});var r=f(l()),_={title:\"Panel\\xE1kov\\xFD Malibu\",slug:\"panelakovy-malibu-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"indy\",\"orion\"],featuresNames:[\"DJ Wich\",\"Indy\",\"Orion\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[],duration:\"2:52\",trackNumber:12,producers:[],producersNames:[],description:\"Panel\\xE1kov\\xFD Malibu \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return M(g);})();\n;return Component;"
+    "raw": "\n**[Panelákový Malibu](/skladby/panelakovy-malibu-maniak)** od [Maniak](/raperi/maniak) z alba [Černej kůň plus](/alba/cernej-kun-plus) (2022).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),j=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},l=(e,a,r,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!h.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(i=k(a,t))||i.enumerable});return e};var x=(e,a,r)=>(r=e!=null?d(b(e)):{},l(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>l(o({},\"__esModule\",{value:!0}),e);var u=f((v,s)=>{s.exports=_jsx_runtime});var y={};j(y,{default:()=>p,frontmatter:()=>g});var n=x(u()),g={title:\"Panel\\xE1kov\\xFD Malibu\",slug:\"panelakovy-malibu-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"indy\",\"orion\"],featuresNames:[\"DJ Wich\",\"Indy\",\"Orion\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[\"\"],duration:\"2:52\",trackNumber:12,producers:[],producersNames:[],description:\"Panel\\xE1kov\\xFD Malibu \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/panelakovy-malibu-maniak\",children:\"Panel\\xE1kov\\xFD Malibu\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/cernej-kun-plus\",children:\"\\u010Cernej k\\u016F\\u0148 plus\"}),\" (2022).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return M(y);})();\n;return Component;"
   },
   "_id": "skladby/panelakovy-malibu-maniak.mdx",
   "_raw": {

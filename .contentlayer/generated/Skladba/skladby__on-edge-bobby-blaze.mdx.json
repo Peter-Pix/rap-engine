@@ -12,16 +12,19 @@
   "album": "Street Sermons, Vol. 1",
   "albumSlug": "street-sermons-vol-1",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:08",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "On Edge — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(x(e)):{},l(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>l(a({},\"__esModule\",{value:!0}),e);var m=h((B,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>S});var n=_(m()),S={title:\"On Edge\",slug:\"on-edge-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"aaron-s\"],featuresNames:[\"Aaron S.\"],album:\"Street Sermons, Vol. 1\",albumSlug:\"street-sermons-vol-1\",year:2022,genre:[],duration:\"4:08\",trackNumber:1,producers:[],producersNames:[],description:\"On Edge \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return y(j);})();\n;return Component;"
+    "raw": "\n**[On Edge](/skladby/on-edge-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Street Sermons, Vol. 1](/alba/street-sermons-vol-1) (2022).\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var n in e)a(r,n,{get:e[n],enumerable:!0})},b=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(r,t)&&t!==n&&a(r,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return r};var x=(r,e,n)=>(n=r!=null?i(g(r)):{},b(e||!r||!r.__esModule?a(n,\"default\",{value:r,enumerable:!0}):n,r)),z=r=>b(a({},\"__esModule\",{value:!0}),r);var d=h((j,l)=>{l.exports=_jsx_runtime});var B={};y(B,{default:()=>u,frontmatter:()=>S});var o=x(d()),S={title:\"On Edge\",slug:\"on-edge-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"aaron-s\"],featuresNames:[\"Aaron S.\"],album:\"Street Sermons, Vol. 1\",albumSlug:\"street-sermons-vol-1\",year:2022,genre:[\"\"],duration:\"4:08\",trackNumber:1,producers:[],producersNames:[],description:\"On Edge \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/on-edge-bobby-blaze\",children:\"On Edge\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/street-sermons-vol-1\",children:\"Street Sermons, Vol. 1\"}),\" (2022).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(c,{...r})}):c(r)}return z(B);})();\n;return Component;"
   },
   "_id": "skladby/on-edge-bobby-blaze.mdx",
   "_raw": {

@@ -16,16 +16,19 @@
   "album": "Rep",
   "albumSlug": "rep",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:06",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "BMPM — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(x(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var c=b((I,m)=>{m.exports=_jsx_runtime});var F={};M(F,{default:()=>i,frontmatter:()=>j});var r=_(c()),j={title:\"BMPM\",slug:\"bmpm-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"rest\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Rest\"],album:\"Rep\",albumSlug:\"rep\",year:2016,genre:[],duration:\"3:06\",trackNumber:3,producers:[],producersNames:[],description:\"BMPM \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[BMPM](/skladby/bmpm-if)** z alba [Rep](/alba/rep) (2016).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},p=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!x.call(t,n)&&n!==r&&s(t,n,{get:()=>e[n],enumerable:!(o=m(e,n))||o.enumerable});return t};var g=(t,e,r)=>(r=t!=null?l(b(t)):{},p(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),j=t=>p(s({},\"__esModule\",{value:!0}),t);var c=M((B,u)=>{u.exports=_jsx_runtime});var k={};h(k,{default:()=>i,frontmatter:()=>_});var a=g(c()),_={title:\"BMPM\",slug:\"bmpm-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"rest\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Rest\"],album:\"Rep\",albumSlug:\"rep\",year:2016,genre:[\"\"],duration:\"3:06\",trackNumber:3,producers:[],producersNames:[],description:\"BMPM \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/bmpm-if\",children:\"BMPM\"})}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/rep\",children:\"Rep\"}),\" (2016).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(d,{...t})}):d(t)}return j(k);})();\n;return Component;"
   },
   "_id": "skladby/bmpm-if.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Zhora Vypadá Všechno Líp",
   "albumSlug": "zhora-vypada-vsechno-lip",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:51",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Kriste Ježiš Bože — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),z=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var m=f((K,d)=>{d.exports=_jsx_runtime});var y={};z(y,{default:()=>u,frontmatter:()=>j});var n=_(m()),j={title:\"Kriste Je\\u017Ei\\u0161 Bo\\u017Ee\",slug:\"kriste-jezis-boze-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"3:51\",trackNumber:10,producers:[],producersNames:[],description:\"Kriste Je\\u017Ei\\u0161 Bo\\u017Ee \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Kriste Ježiš Bože](/skladby/kriste-jezis-boze-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Zhora Vypadá Všechno Líp](/alba/zhora-vypada-vsechno-lip) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var o in e)s(a,o,{get:e[o],enumerable:!0})},i=(a,e,o,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!y.call(a,n)&&n!==o&&s(a,n,{get:()=>e[n],enumerable:!(t=u(e,n))||t.enumerable});return a};var x=(a,e,o)=>(o=a!=null?m(z(a)):{},i(e||!a||!a.__esModule?s(o,\"default\",{value:a,enumerable:!0}):o,a)),g=a=>i(s({},\"__esModule\",{value:!0}),a);var c=b((v,d)=>{d.exports=_jsx_runtime});var _={};f(_,{default:()=>l,frontmatter:()=>j});var r=x(c()),j={title:\"Kriste Je\\u017Ei\\u0161 Bo\\u017Ee\",slug:\"kriste-jezis-boze-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[\"\"],duration:\"3:51\",trackNumber:10,producers:[],producersNames:[],description:\"Kriste Je\\u017Ei\\u0161 Bo\\u017Ee \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/kriste-jezis-boze-yzomandias\",children:\"Kriste Je\\u017Ei\\u0161 Bo\\u017Ee\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/zhora-vypada-vsechno-lip\",children:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\"}),\" (2020).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(p,{...a})}):p(a)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/kriste-jezis-boze-yzomandias.mdx",
   "_raw": {

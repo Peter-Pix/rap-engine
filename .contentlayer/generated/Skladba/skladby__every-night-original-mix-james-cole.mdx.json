@@ -8,16 +8,19 @@
   "album": "Every Night EP",
   "albumSlug": "every-night-ep",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:44",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Every Night (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var y=(e,t,n)=>(n=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var m=f((M,l)=>{l.exports=_jsx_runtime});var N={};j(N,{default:()=>u,frontmatter:()=>b});var r=y(m()),b={title:\"Every Night (Original Mix)\",slug:\"every-night-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Every Night EP\",albumSlug:\"every-night-ep\",year:2024,genre:[],duration:\"6:44\",trackNumber:1,producers:[],producersNames:[],description:\"Every Night (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(N);})();\n;return Component;"
+    "raw": "\n**[Every Night (Original Mix)](/skladby/every-night-original-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Every Night EP](/alba/every-night-ep) (2024).\n",
+    "code": "var Component=(()=>{var h=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var a in e)i(r,a,{get:e[a],enumerable:!0})},s=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of d(e))!x.call(r,n)&&n!==a&&i(r,n,{get:()=>e[n],enumerable:!(o=u(e,n))||o.enumerable});return r};var j=(r,e,a)=>(a=r!=null?h(p(r)):{},s(e||!r||!r.__esModule?i(a,\"default\",{value:r,enumerable:!0}):a,r)),v=r=>s(i({},\"__esModule\",{value:!0}),r);var c=y((M,l)=>{l.exports=_jsx_runtime});var N={};f(N,{default:()=>m,frontmatter:()=>b});var t=j(c()),b={title:\"Every Night (Original Mix)\",slug:\"every-night-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Every Night EP\",albumSlug:\"every-night-ep\",year:2024,genre:[\"\"],duration:\"6:44\",trackNumber:1,producers:[],producersNames:[],description:\"Every Night (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function g(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/every-night-original-mix-james-cole\",children:\"Every Night (Original Mix)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/every-night-ep\",children:\"Every Night EP\"}),\" (2024).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(g,{...r})}):g(r)}return v(N);})();\n;return Component;"
   },
   "_id": "skladby/every-night-original-mix-james-cole.mdx",
   "_raw": {

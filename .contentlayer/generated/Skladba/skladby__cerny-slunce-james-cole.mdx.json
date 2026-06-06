@@ -8,16 +8,19 @@
   "album": "Moby Dick",
   "albumSlug": "moby-dick",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:25",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Černý slunce — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of x(n))!b.call(e,s)&&s!==r&&o(e,s,{get:()=>n[s],enumerable:!(a=p(n,s))||a.enumerable});return e};var _=(e,n,r)=>(r=e!=null?d(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var l=f((M,u)=>{u.exports=_jsx_runtime});var k={};j(k,{default:()=>i,frontmatter:()=>y});var t=_(l()),y={title:\"\\u010Cern\\xFD slunce\",slug:\"cerny-slunce-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[],duration:\"4:25\",trackNumber:9,producers:[],producersNames:[],description:\"\\u010Cern\\xFD slunce \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Černý slunce](/skladby/cerny-slunce-james-cole)** od [James Cole](/raperi/james-cole) z alba [Moby Dick](/alba/moby-dick) (2013).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var s in e)o(r,s,{get:e[s],enumerable:!0})},c=(r,e,s,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of b(e))!h.call(r,a)&&a!==s&&o(r,a,{get:()=>e[a],enumerable:!(t=p(e,a))||t.enumerable});return r};var y=(r,e,s)=>(s=r!=null?d(f(r)):{},c(e||!r||!r.__esModule?o(s,\"default\",{value:r,enumerable:!0}):s,r)),g=r=>c(o({},\"__esModule\",{value:!0}),r);var u=j((M,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>i,frontmatter:()=>k});var n=y(u()),k={title:\"\\u010Cern\\xFD slunce\",slug:\"cerny-slunce-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[\"\"],duration:\"4:25\",trackNumber:9,producers:[],producersNames:[],description:\"\\u010Cern\\xFD slunce \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/cerny-slunce-james-cole\",children:\"\\u010Cern\\xFD slunce\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/moby-dick\",children:\"Moby Dick\"}),\" (2013).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(m,{...r})}):m(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/cerny-slunce-james-cole.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Maniak Muzik",
   "albumSlug": "maniak-muzik",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Seperate Real from Fake — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),M=(e,a)=>{for(var r in a)i(e,r,{get:a[r],enumerable:!0})},m=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of k(a))!x.call(e,t)&&t!==r&&i(e,t,{get:()=>a[t],enumerable:!(o=d(a,t))||o.enumerable});return e};var _=(e,a,r)=>(r=e!=null?p(f(e)):{},m(a||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>m(i({},\"__esModule\",{value:!0}),e);var u=h((F,s)=>{s.exports=_jsx_runtime});var j={};M(j,{default:()=>c,frontmatter:()=>g});var n=_(u()),g={title:\"Seperate Real from Fake\",slug:\"seperate-real-from-fake-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"3:45\",trackNumber:13,producers:[],producersNames:[],description:\"Seperate Real from Fake \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Seperate Real from Fake](/skladby/seperate-real-from-fake-maniak)** od [Maniak](/raperi/maniak) z alba [Maniak Muzik](/alba/maniak-muzik) (2016).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)i(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of d(a))!M.call(e,t)&&t!==n&&i(e,t,{get:()=>a[t],enumerable:!(o=c(a,t))||o.enumerable});return e};var b=(e,a,n)=>(n=e!=null?p(f(e)):{},s(a||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var m=h((S,l)=>{l.exports=_jsx_runtime});var j={};x(j,{default:()=>u,frontmatter:()=>_});var r=b(m()),_={title:\"Seperate Real from Fake\",slug:\"seperate-real-from-fake-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[\"\"],duration:\"3:45\",trackNumber:13,producers:[],producersNames:[],description:\"Seperate Real from Fake \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function k(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/seperate-real-from-fake-maniak\",children:\"Seperate Real from Fake\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/maniak-muzik\",children:\"Maniak Muzik\"}),\" (2016).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(k,{...e})}):k(e)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/seperate-real-from-fake-maniak.mdx",
   "_raw": {

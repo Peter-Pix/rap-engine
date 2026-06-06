@@ -12,16 +12,19 @@
   "album": "Produkt",
   "albumSlug": "produkt",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:13",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Na Rohu — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(u=l(r,n))||u.enumerable});return e};var _=(e,r,a)=>(a=e!=null?p(g(e)):{},s(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>s(o({},\"__esModule\",{value:!0}),e);var d=b((D,c)=>{c.exports=_jsx_runtime});var N={};f(N,{default:()=>m,frontmatter:()=>j});var t=_(d()),j={title:\"Na Rohu\",slug:\"na-rohu-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"vi-deck\"],featuresNames:[\"VI Deck\"],album:\"Produkt\",albumSlug:\"produkt\",year:2024,genre:[],duration:\"4:13\",trackNumber:2,producers:[],producersNames:[],description:\"Na Rohu \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return k(N);})();\n;return Component;"
+    "raw": "\n**[Na Rohu](/skladby/na-rohu-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Produkt](/alba/produkt) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!m.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(u=h(r,n))||u.enumerable});return e};var x=(e,r,t)=>(t=e!=null?p(b(e)):{},s(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),N=e=>s(o({},\"__esModule\",{value:!0}),e);var c=f((y,d)=>{d.exports=_jsx_runtime});var j={};k(j,{default:()=>l,frontmatter:()=>_});var a=x(c()),_={title:\"Na Rohu\",slug:\"na-rohu-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"vi-deck\"],featuresNames:[\"VI Deck\"],album:\"Produkt\",albumSlug:\"produkt\",year:2024,genre:[\"\"],duration:\"4:13\",trackNumber:2,producers:[],producersNames:[],description:\"Na Rohu \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/na-rohu-sergei-barracuda\",children:\"Na Rohu\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/produkt\",children:\"Produkt\"}),\" (2024).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return N(j);})();\n;return Component;"
   },
   "_id": "skladby/na-rohu-sergei-barracuda.mdx",
   "_raw": {

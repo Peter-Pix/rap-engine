@@ -12,16 +12,19 @@
   "album": "Maniak Muzik",
   "albumSlug": "maniak-muzik",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:09",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "It's a Hobby — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),M=(e,a)=>{for(var t in a)i(e,t,{get:a[t],enumerable:!0})},s=(e,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of b(a))!h.call(e,r)&&r!==t&&i(e,r,{get:()=>a[r],enumerable:!(o=p(a,r))||o.enumerable});return e};var f=(e,a,t)=>(t=e!=null?d(k(e)):{},s(a||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var u=x((N,m)=>{m.exports=_jsx_runtime});var j={};M(j,{default:()=>l,frontmatter:()=>g});var n=f(u()),g={title:\"It's a Hobby\",slug:\"it-s-a-hobby-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"3:09\",trackNumber:7,producers:[],producersNames:[],description:\"It's a Hobby \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[It's a Hobby](/skladby/it-s-a-hobby-maniak)** od [Maniak](/raperi/maniak) z alba [Maniak Muzik](/alba/maniak-muzik) (2016).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),f=(n,a)=>{for(var r in a)i(n,r,{get:a[r],enumerable:!0})},o=(n,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of d(a))!h.call(n,t)&&t!==r&&i(n,t,{get:()=>a[t],enumerable:!(s=b(a,t))||s.enumerable});return n};var x=(n,a,r)=>(r=n!=null?c(p(n)):{},o(a||!n||!n.__esModule?i(r,\"default\",{value:n,enumerable:!0}):r,n)),y=n=>o(i({},\"__esModule\",{value:!0}),n);var l=M((z,u)=>{u.exports=_jsx_runtime});var _={};f(_,{default:()=>k,frontmatter:()=>g});var e=x(l()),g={title:\"It's a Hobby\",slug:\"it-s-a-hobby-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[\"\"],duration:\"3:09\",trackNumber:7,producers:[],producersNames:[],description:\"It's a Hobby \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/it-s-a-hobby-maniak\",children:\"It's a Hobby\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/maniak-muzik\",children:\"Maniak Muzik\"}),\" (2016).\"]})}function k(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/it-s-a-hobby-maniak.mdx",
   "_raw": {

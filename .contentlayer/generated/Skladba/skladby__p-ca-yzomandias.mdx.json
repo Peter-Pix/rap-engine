@@ -12,16 +12,19 @@
   "album": "Starship: Oblivion",
   "albumSlug": "starship-oblivion",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:37",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "P*ča — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>i(o({},\"__esModule\",{value:!0}),e);var u=b((M,m)=>{m.exports=_jsx_runtime});var z={};_(z,{default:()=>d,frontmatter:()=>j});var n=g(u()),j={title:\"P*\\u010Da\",slug:\"p-ca-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"lofty305\"],featuresNames:[\"Lofty305\"],album:\"Starship: Oblivion\",albumSlug:\"starship-oblivion\",year:2020,genre:[],duration:\"2:37\",trackNumber:2,producers:[],producersNames:[],description:\"P*\\u010Da \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return y(z);})();\n;return Component;"
+    "raw": "\n**[P*ča](/skladby/p-ca-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Starship: Oblivion](/alba/starship-oblivion) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),y=(r,a)=>{for(var e in a)o(r,e,{get:a[e],enumerable:!0})},i=(r,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(r,t)&&t!==e&&o(r,t,{get:()=>a[t],enumerable:!(s=u(a,t))||s.enumerable});return r};var z=(r,a,e)=>(e=r!=null?m(b(r)):{},i(a||!r||!r.__esModule?o(e,\"default\",{value:r,enumerable:!0}):e,r)),g=r=>i(o({},\"__esModule\",{value:!0}),r);var l=x((S,d)=>{d.exports=_jsx_runtime});var j={};y(j,{default:()=>p,frontmatter:()=>_});var n=z(l()),_={title:\"P*\\u010Da\",slug:\"p-ca-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"lofty305\"],featuresNames:[\"Lofty305\"],album:\"Starship: Oblivion\",albumSlug:\"starship-oblivion\",year:2020,genre:[\"\"],duration:\"2:37\",trackNumber:2,producers:[],producersNames:[],description:\"P*\\u010Da \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/p-ca-yzomandias\",children:\"P*\\u010Da\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/starship-oblivion\",children:\"Starship: Oblivion\"}),\" (2020).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,n.jsx)(a,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/p-ca-yzomandias.mdx",
   "_raw": {

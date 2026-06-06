@@ -12,16 +12,19 @@
   "album": "SAKONESKE",
   "albumSlug": "sakoneske",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:25",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "SAKONESKE — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var S=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),K=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},l=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of i(t))!x.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=d(t,r))||s.enumerable});return e};var f=(e,t,a)=>(a=e!=null?p(h(e)):{},l(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>l(o({},\"__esModule\",{value:!0}),e);var u=S((E,c)=>{c.exports=_jsx_runtime});var g={};K(g,{default:()=>m,frontmatter:()=>_});var n=f(u()),_={title:\"SAKONESKE\",slug:\"sakoneske-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"pavel-kalo-olach\"],featuresNames:['Pavel \"Kalo\" Olach'],album:\"SAKONESKE\",albumSlug:\"sakoneske\",year:2025,genre:[],duration:\"3:25\",trackNumber:1,producers:[],producersNames:[],description:\"SAKONESKE \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return k(g);})();\n;return Component;"
+    "raw": "\n**[SAKONESKE](/skladby/sakoneske-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),S=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},b=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!k.call(a,t)&&t!==r&&n(a,t,{get:()=>e[t],enumerable:!(s=i(e,t))||s.enumerable});return a};var f=(a,e,r)=>(r=a!=null?p(h(a)):{},b(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),x=a=>b(n({},\"__esModule\",{value:!0}),a);var c=y((z,l)=>{l.exports=_jsx_runtime});var E={};S(E,{default:()=>d,frontmatter:()=>K});var o=f(c()),K={title:\"SAKONESKE\",slug:\"sakoneske-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"pavel-kalo-olach\"],featuresNames:['Pavel \"Kalo\" Olach'],album:\"SAKONESKE\",albumSlug:\"sakoneske\",year:2025,genre:[\"\"],duration:\"3:25\",trackNumber:1,producers:[],producersNames:[],description:\"SAKONESKE \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/sakoneske-bobby-blaze\",children:\"SAKONESKE\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2025).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(u,{...a})}):u(a)}return x(E);})();\n;return Component;"
   },
   "_id": "skladby/sakoneske-bobby-blaze.mdx",
   "_raw": {

@@ -1,0 +1,28 @@
+{
+  "title": "dream",
+  "slug": "dream",
+  "rapper": "Phila",
+  "rapperSlug": "phila",
+  "year": 2025,
+  "description": "dream — singl od Phila (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/b7cbabff58a397e824f958b989ea1d1e/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[dream](/skladby/dream)** (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var u=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=g(t,a))||o.enumerable});return e};var j=(e,t,n)=>(n=e!=null?m(f(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var d=u((C,c)=>{c.exports=_jsx_runtime});var D={};b(D,{default:()=>p,frontmatter:()=>y});var r=j(d()),y={title:\"dream\",slug:\"dream\",rapper:\"Phila\",rapperSlug:\"phila\",year:2025,description:\"dream \\u2014 singl od Phila (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/b7cbabff58a397e824f958b989ea1d1e/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/dream\",children:\"dream\"})}),\" (2025).\"]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(D);})();\n;return Component;"
+  },
+  "_id": "skladby/dream.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dream.mdx",
+    "sourceFileName": "dream.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dream"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dream",
+  "canonicalUrl": "https://4rap.cz/skladby/dream"
+}

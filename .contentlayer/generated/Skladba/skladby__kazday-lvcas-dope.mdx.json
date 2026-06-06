@@ -8,16 +8,19 @@
   "album": "Každay",
   "albumSlug": "kazday",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:30",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Každay — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!f.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(s=i(t,n))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var u=y((D,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>j});var a=b(u()),j={title:\"Ka\\u017Eday\",slug:\"kazday-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Ka\\u017Eday\",albumSlug:\"kazday\",year:2025,genre:[],duration:\"2:30\",trackNumber:1,producers:[],producersNames:[],description:\"Ka\\u017Eday \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(p,{...e})}):p(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Každay](/skladby/kazday-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) (2025).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},d=(a,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of y(e))!x.call(a,s)&&s!==r&&o(a,s,{get:()=>e[s],enumerable:!(n=m(e,s))||n.enumerable});return a};var v=(a,e,r)=>(r=a!=null?i(f(a)):{},d(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),b=a=>d(o({},\"__esModule\",{value:!0}),a);var p=h((D,c)=>{c.exports=_jsx_runtime});var _={};g(_,{default:()=>u,frontmatter:()=>k});var t=v(p()),k={title:\"Ka\\u017Eday\",slug:\"kazday-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Ka\\u017Eday\",albumSlug:\"kazday\",year:2025,genre:[\"\"],duration:\"2:30\",trackNumber:1,producers:[],producersNames:[],description:\"Ka\\u017Eday \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/kazday-lvcas-dope\",children:\"Ka\\u017Eday\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" (2025).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(l,{...a})}):l(a)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/kazday-lvcas-dope.mdx",
   "_raw": {

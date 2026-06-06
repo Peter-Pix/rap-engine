@@ -8,16 +8,19 @@
   "album": "Prozyum",
   "albumSlug": "prozyum",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:37",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Designer Flow — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},m=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?l(g(e)):{},m(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>m(a({},\"__esModule\",{value:!0}),e);var u=f((D,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>c,frontmatter:()=>z});var r=b(u()),z={title:\"Designer Flow\",slug:\"designer-flow-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[],duration:\"3:37\",trackNumber:1,producers:[],producersNames:[],description:\"Designer Flow \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return y(j);})();\n;return Component;"
+    "raw": "\n**[Designer Flow](/skladby/designer-flow-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},i=(r,e,n,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!z.call(r,o)&&o!==n&&s(r,o,{get:()=>e[o],enumerable:!(t=p(e,o))||t.enumerable});return r};var x=(r,e,n)=>(n=r!=null?c(g(r)):{},i(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),b=r=>i(s({},\"__esModule\",{value:!0}),r);var l=y((D,d)=>{d.exports=_jsx_runtime});var _={};h(_,{default:()=>u,frontmatter:()=>w});var a=x(l()),w={title:\"Designer Flow\",slug:\"designer-flow-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[\"\"],duration:\"3:37\",trackNumber:1,producers:[],producersNames:[],description:\"Designer Flow \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/designer-flow-yzomandias\",children:\"Designer Flow\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2020).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/designer-flow-yzomandias.mdx",
   "_raw": {

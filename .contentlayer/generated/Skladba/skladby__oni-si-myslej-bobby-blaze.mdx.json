@@ -8,16 +8,19 @@
   "album": "Oni Si Myslej",
   "albumSlug": "oni-si-myslej",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:04",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Oni Si Myslej — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),h=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of p(n))!j.call(e,s)&&s!==r&&o(e,s,{get:()=>n[s],enumerable:!(a=d(n,s))||a.enumerable});return e};var f=(e,n,r)=>(r=e!=null?c(y(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var u=x((z,l)=>{l.exports=_jsx_runtime});var M={};h(M,{default:()=>b,frontmatter:()=>g});var t=f(u()),g={title:\"Oni Si Myslej\",slug:\"oni-si-myslej-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Oni Si Myslej\",albumSlug:\"oni-si-myslej\",year:2024,genre:[],duration:\"3:04\",trackNumber:1,producers:[],producersNames:[],description:\"Oni Si Myslej \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Oni Si Myslej](/skladby/oni-si-myslej-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var y=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},i=(r,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!j.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(a=d(e,o))||a.enumerable});return r};var h=(r,e,n)=>(n=r!=null?y(p(r)):{},i(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>i(t({},\"__esModule\",{value:!0}),r);var b=f((S,l)=>{l.exports=_jsx_runtime});var M={};x(M,{default:()=>c,frontmatter:()=>z});var s=h(b()),z={title:\"Oni Si Myslej\",slug:\"oni-si-myslej-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Oni Si Myslej\",albumSlug:\"oni-si-myslej\",year:2024,genre:[\"\"],duration:\"3:04\",trackNumber:1,producers:[],producersNames:[],description:\"Oni Si Myslej \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/oni-si-myslej-bobby-blaze\",children:\"Oni Si Myslej\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(u,{...r})}):u(r)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/oni-si-myslej-bobby-blaze.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "DANK",
   "albumSlug": "dank",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:29",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Oddanost — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?m(h(e)):{},d(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var i=f((D,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>k});var t=b(i()),k={title:\"Oddanost\",slug:\"oddanost-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ego\"],featuresNames:[\"Kenny Rough\",\"Ego\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"4:29\",trackNumber:4,producers:[],producersNames:[],description:\"Oddanost \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Oddanost](/skladby/oddanost-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [DANK](/alba/dank) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},s=(e,a,r,d)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(d=g(a,t))||d.enumerable});return e};var k=(e,a,r)=>(r=e!=null?p(m(e)):{},s(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var l=x((D,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>j});var n=k(l()),j={title:\"Oddanost\",slug:\"oddanost-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ego\"],featuresNames:[\"Kenny Rough\",\"Ego\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[\"\"],duration:\"4:29\",trackNumber:4,producers:[],producersNames:[],description:\"Oddanost \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/oddanost-paulie-garand\",children:\"Oddanost\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/dank\",children:\"DANK\"}),\" (2018).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/oddanost-paulie-garand.mdx",
   "_raw": {

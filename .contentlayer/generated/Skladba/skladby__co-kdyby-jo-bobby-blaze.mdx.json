@@ -12,16 +12,19 @@
   "album": "Tango & Kouř",
   "albumSlug": "tango-kour",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:15",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Co kdyby jo — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},u=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!g.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=m(t,r))||s.enumerable});return e};var j=(e,t,o)=>(o=e!=null?i(y(e)):{},u(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),f=e=>u(a({},\"__esModule\",{value:!0}),e);var l=x((B,b)=>{b.exports=_jsx_runtime});var k={};h(k,{default:()=>d,frontmatter:()=>_});var n=j(l()),_={title:\"Co kdyby jo\",slug:\"co-kdyby-jo-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"slavena-tiger\"],featuresNames:[\"Slavena Tiger\"],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[],duration:\"3:15\",trackNumber:8,producers:[],producersNames:[],description:\"Co kdyby jo \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return f(k);})();\n;return Component;"
+    "raw": "\n**[Co kdyby jo](/skladby/co-kdyby-jo-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Tango & Kouř](/alba/tango-kour) (2024).\n",
+    "code": "var Component=(()=>{var y=Object.create;var t=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),h=(o,e)=>{for(var r in e)t(o,r,{get:e[r],enumerable:!0})},s=(o,e,r,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!m.call(o,n)&&n!==r&&t(o,n,{get:()=>e[n],enumerable:!(b=i(e,n))||b.enumerable});return o};var j=(o,e,r)=>(r=o!=null?y(g(o)):{},s(e||!o||!o.__esModule?t(r,\"default\",{value:o,enumerable:!0}):r,o)),k=o=>s(t({},\"__esModule\",{value:!0}),o);var u=f((_,l)=>{l.exports=_jsx_runtime});var z={};h(z,{default:()=>c,frontmatter:()=>x});var a=j(u()),x={title:\"Co kdyby jo\",slug:\"co-kdyby-jo-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"slavena-tiger\"],featuresNames:[\"Slavena Tiger\"],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[\"\"],duration:\"3:15\",trackNumber:8,producers:[],producersNames:[],description:\"Co kdyby jo \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/co-kdyby-jo-bobby-blaze\",children:\"Co kdyby jo\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/tango-kour\",children:\"Tango & Kou\\u0159\"}),\" (2024).\"]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,a.jsx)(e,{...o,children:(0,a.jsx)(d,{...o})}):d(o)}return k(z);})();\n;return Component;"
   },
   "_id": "skladby/co-kdyby-jo-bobby-blaze.mdx",
   "_raw": {

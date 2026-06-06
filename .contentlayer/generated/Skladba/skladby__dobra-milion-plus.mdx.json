@@ -18,16 +18,19 @@
   "album": "KRTEK MONEY LIFE",
   "albumSlug": "krtek-money-life",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:58",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "DOBRÁ — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!x.call(n,a)&&a!==r&&o(n,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return n};var _=(n,e,r)=>(r=n!=null?c(h(n)):{},i(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>i(o({},\"__esModule\",{value:!0}),n);var m=b((y,l)=>{l.exports=_jsx_runtime});var j={};k(j,{default:()=>d,frontmatter:()=>M});var t=_(m()),M={title:\"DOBR\\xC1\",slug:\"dobra-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"nik-tendo\",\"kamil-hoffmann\",\"yzomandias\",\"hasan\"],featuresNames:[\"Nik Tendo\",\"Kamil Hoffmann\",\"Yzomandias\",\"Hasan\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"2:58\",trackNumber:15,producers:[],producersNames:[],description:\"DOBR\\xC1 \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function u(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(u,{...n})}):u(n)}return g(j);})();\n;return Component;"
+    "raw": "\n**[DOBRÁ](/skladby/dobra-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [KRTEK MONEY LIFE](/alba/krtek-money-life) (2018).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),x=(e,n)=>{for(var a in n)t(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of f(n))!b.call(e,o)&&o!==a&&t(e,o,{get:()=>n[o],enumerable:!(i=p(n,o))||i.enumerable});return e};var M=(e,n,a)=>(a=e!=null?c(h(e)):{},s(n||!e||!e.__esModule?t(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>s(t({},\"__esModule\",{value:!0}),e);var u=k((_,l)=>{l.exports=_jsx_runtime});var E={};x(E,{default:()=>d,frontmatter:()=>y});var r=M(u()),y={title:\"DOBR\\xC1\",slug:\"dobra-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"nik-tendo\",\"kamil-hoffmann\",\"yzomandias\",\"hasan\"],featuresNames:[\"Nik Tendo\",\"Kamil Hoffmann\",\"Yzomandias\",\"Hasan\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[\"\"],duration:\"2:58\",trackNumber:15,producers:[],producersNames:[],description:\"DOBR\\xC1 \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/skladby/dobra-milion-plus\",children:\"DOBR\\xC1\"})}),\" od \",(0,r.jsx)(n.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,r.jsx)(n.a,{href:\"/alba/krtek-money-life\",children:\"KRTEK MONEY LIFE\"}),\" (2018).\"]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(E);})();\n;return Component;"
   },
   "_id": "skladby/dobra-milion-plus.mdx",
   "_raw": {

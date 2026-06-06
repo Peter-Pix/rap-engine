@@ -8,16 +8,19 @@
   "album": "Menaces & Opportunités",
   "albumSlug": "menaces-opportunites",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "8:54",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "My New Car — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var N=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var i=N((y,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>p,frontmatter:()=>C});var n=b(i()),C={title:\"My New Car\",slug:\"my-new-car-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Menaces & Opportunit\\xE9s\",albumSlug:\"menaces-opportunites\",year:2013,genre:[],duration:\"8:54\",trackNumber:1,producers:[],producersNames:[],description:\"My New Car \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[My New Car](/skladby/my-new-car-calin)** od [Calin](/raperi/calin) z alba [Menaces & Opportunités](/alba/menaces-opportunites) (2013).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},c=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!x.call(r,t)&&t!==a&&s(r,t,{get:()=>e[t],enumerable:!(o=m(e,t))||o.enumerable});return r};var C=(r,e,a)=>(a=r!=null?d(h(r)):{},c(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),M=r=>c(s({},\"__esModule\",{value:!0}),r);var l=b((_,i)=>{i.exports=_jsx_runtime});var g={};y(g,{default:()=>u,frontmatter:()=>N});var n=C(l()),N={title:\"My New Car\",slug:\"my-new-car-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Menaces & Opportunit\\xE9s\",albumSlug:\"menaces-opportunites\",year:2013,genre:[\"\"],duration:\"8:54\",trackNumber:1,producers:[],producersNames:[],description:\"My New Car \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/my-new-car-calin\",children:\"My New Car\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/menaces-opportunites\",children:\"Menaces & Opportunit\\xE9s\"}),\" (2013).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(p,{...r})}):p(r)}return M(g);})();\n;return Component;"
   },
   "_id": "skladby/my-new-car-calin.mdx",
   "_raw": {

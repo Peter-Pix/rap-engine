@@ -14,16 +14,19 @@
   "album": "Aura",
   "albumSlug": "aura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:56",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Artefakt — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!h.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var d=g((F,c)=>{c.exports=_jsx_runtime});var A={};j(A,{default:()=>m,frontmatter:()=>k});var r=_(d()),k={title:\"Artefakt\",slug:\"artefakt-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"reks\"],featuresNames:[\"Regie 257\",\"REKS\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"3:56\",trackNumber:3,producers:[],producersNames:[],description:\"Artefakt \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(A);})();\n;return Component;"
+    "raw": "\n**[Artefakt](/skladby/artefakt-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Aura](/alba/aura) (2022).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),k=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},u=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!g.call(t,n)&&n!==a&&s(t,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return t};var x=(t,e,a)=>(a=t!=null?l(h(t)):{},u(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),b=t=>u(s({},\"__esModule\",{value:!0}),t);var c=j((y,d)=>{d.exports=_jsx_runtime});var _={};k(_,{default:()=>i,frontmatter:()=>A});var r=x(c()),A={title:\"Artefakt\",slug:\"artefakt-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"reks\"],featuresNames:[\"Regie 257\",\"REKS\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[\"\"],duration:\"3:56\",trackNumber:3,producers:[],producersNames:[],description:\"Artefakt \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function f(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/artefakt-dj-fatte\",children:\"Artefakt\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/aura\",children:\"Aura\"}),\" (2022).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(f,{...t})}):f(t)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/artefakt-dj-fatte.mdx",
   "_raw": {

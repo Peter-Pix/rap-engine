@@ -14,16 +14,19 @@
   "album": "Aura",
   "albumSlug": "aura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:44",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Hlad — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(x(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var c=g((N,d)=>{d.exports=_jsx_runtime});var F={};j(F,{default:()=>i,frontmatter:()=>D});var r=_(c()),D={title:\"Hlad\",slug:\"hlad-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"rest\"],featuresNames:[\"Regie 257\",\"Rest\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"3:44\",trackNumber:5,producers:[],producersNames:[],description:\"Hlad \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(F);})();\n;return Component;"
+    "raw": "\n**[Hlad](/skladby/hlad-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Aura](/alba/aura) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!g.call(t,n)&&n!==r&&s(t,n,{get:()=>e[n],enumerable:!(d=f(e,n))||d.enumerable});return t};var b=(t,e,r)=>(r=t!=null?p(m(t)):{},o(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>o(s({},\"__esModule\",{value:!0}),t);var u=j((A,l)=>{l.exports=_jsx_runtime});var k={};x(k,{default:()=>i,frontmatter:()=>D});var a=b(u()),D={title:\"Hlad\",slug:\"hlad-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"rest\"],featuresNames:[\"Regie 257\",\"Rest\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[\"\"],duration:\"3:44\",trackNumber:5,producers:[],producersNames:[],description:\"Hlad \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/hlad-dj-fatte\",children:\"Hlad\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/aura\",children:\"Aura\"}),\" (2022).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(c,{...t})}):c(t)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/hlad-dj-fatte.mdx",
   "_raw": {

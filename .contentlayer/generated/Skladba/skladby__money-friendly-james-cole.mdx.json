@@ -12,16 +12,19 @@
   "album": "G.O.A.T.",
   "albumSlug": "g-o-a-t",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:07",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Money Friendly — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!y.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(h(e)):{},l(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(a({},\"__esModule\",{value:!0}),e);var c=f((k,m)=>{m.exports=_jsx_runtime});var C={};g(C,{default:()=>u,frontmatter:()=>b});var n=j(c()),b={title:\"Money Friendly\",slug:\"money-friendly-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"patrik-love-icy-l\"],featuresNames:[\"Patrik Love ICY L\"],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"4:07\",trackNumber:10,producers:[],producersNames:[],description:\"Money Friendly \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[Money Friendly](/skladby/money-friendly-james-cole)** od [James Cole](/raperi/james-cole) z alba [G.O.A.T.](/alba/g-o-a-t) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},l=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of y(e))!h.call(r,o)&&o!==a&&t(r,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return r};var x=(r,e,a)=>(a=r!=null?u(f(r)):{},l(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),b=r=>l(t({},\"__esModule\",{value:!0}),r);var i=g((k,c)=>{c.exports=_jsx_runtime});var M={};j(M,{default:()=>m,frontmatter:()=>C});var n=x(i()),C={title:\"Money Friendly\",slug:\"money-friendly-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"patrik-love-icy-l\"],featuresNames:[\"Patrik Love ICY L\"],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[\"\"],duration:\"4:07\",trackNumber:10,producers:[],producersNames:[],description:\"Money Friendly \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/money-friendly-james-cole\",children:\"Money Friendly\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/g-o-a-t\",children:\"G.O.A.T.\"}),\" (2020).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return b(M);})();\n;return Component;"
   },
   "_id": "skladby/money-friendly-james-cole.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "rap disco revoluce",
   "albumSlug": "rap-disco-revoluce",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:37",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "De to i bez lajn — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?m(b(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var l=A((C,u)=>{u.exports=_jsx_runtime});var N={};j(N,{default:()=>d,frontmatter:()=>g});var r=f(l()),g={title:\"De to i bez lajn\",slug:\"de-to-i-bez-lajn-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[],duration:\"3:37\",trackNumber:9,producers:[],producersNames:[],description:\"De to i bez lajn \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(N);})();\n;return Component;"
+    "raw": "\n**[De to i bez lajn](/skladby/de-to-i-bez-lajn-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [rap disco revoluce](/alba/rap-disco-revoluce) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var o in e)t(a,o,{get:e[o],enumerable:!0})},l=(a,e,o,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!m.call(a,n)&&n!==o&&t(a,n,{get:()=>e[n],enumerable:!(c=h(e,n))||c.enumerable});return a};var x=(a,e,o)=>(o=a!=null?p(A(a)):{},l(e||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),v=a=>l(t({},\"__esModule\",{value:!0}),a);var u=f((N,s)=>{s.exports=_jsx_runtime});var z={};j(z,{default:()=>d,frontmatter:()=>g});var r=x(u()),g={title:\"De to i bez lajn\",slug:\"de-to-i-bez-lajn-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[\"\"],duration:\"3:37\",trackNumber:9,producers:[],producersNames:[],description:\"De to i bez lajn \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/de-to-i-bez-lajn-ca-hanova-bulhar\",children:\"De to i bez lajn\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/rap-disco-revoluce\",children:\"rap disco revoluce\"}),\" (2020).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(i,{...a})}):i(a)}return v(z);})();\n;return Component;"
   },
   "_id": "skladby/de-to-i-bez-lajn-ca-hanova-bulhar.mdx",
   "_raw": {

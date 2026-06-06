@@ -1,13 +1,15 @@
 {
   "title": "DPLMT",
   "slug": "dplmt",
-  "genre": [],
-  "description": "DPLMT — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "DPLMT — nezávislý interpret rapové scény s ostrým flow a autentickým přístupem. Přináší syrový zvuk bez kompromisů. Poslouchej na streamovacích platformách.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!_.call(t,o)&&o!==r&&s(t,o,{get:()=>e[o],enumerable:!(c=u(e,o))||c.enumerable});return t};var M=(t,e,r)=>(r=t!=null?d(x(t)):{},i(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>i(s({},\"__esModule\",{value:!0}),t);var l=f((k,m)=>{m.exports=_jsx_runtime});var L={};j(L,{default:()=>a,frontmatter:()=>D});var n=M(l()),D={title:\"DPLMT\",slug:\"dplmt\",genre:[],description:\"DPLMT \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function p(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function a(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(p,{...t})}):p(t)}return g(L);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[DPLMT](/raperi/dplmt)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!f.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=u(t,o))||a.enumerable});return e};var v=(e,t,r)=>(r=e!=null?h(x(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>c(s({},\"__esModule\",{value:!0}),e);var i=g((k,p)=>{p.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>M});var n=v(i()),M={title:\"DPLMT\",slug:\"dplmt\",genre:[\"\"],description:\"DPLMT \\u2014 nez\\xE1visl\\xFD interpret rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a autentick\\xFDm p\\u0159\\xEDstupem. P\\u0159in\\xE1\\u0161\\xED syrov\\xFD zvuk bez kompromis\\u016F. Poslouchej na streamovac\\xEDch platform\\xE1ch.\",publishedAt:\"2026-05-31\"};function m(e){let t={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(t.p,{children:[(0,n.jsx)(t.strong,{children:(0,n.jsx)(t.a,{href:\"/raperi/dplmt\",children:\"DPLMT\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(D);})();\n;return Component;"
   },
   "_id": "raperi/dplmt.mdx",
   "_raw": {

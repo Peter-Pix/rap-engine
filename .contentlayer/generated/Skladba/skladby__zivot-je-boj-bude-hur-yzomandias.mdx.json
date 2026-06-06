@@ -12,16 +12,19 @@
   "album": "J. Eden Dva",
   "albumSlug": "j-eden-dva",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:38",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Život Je Boj (Bude Hůř) — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},d=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of b(t))!j.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var _=(e,t,o)=>(o=e!=null?l(h(e)):{},d(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>d(a({},\"__esModule\",{value:!0}),e);var u=x((B,i)=>{i.exports=_jsx_runtime});var v={};f(v,{default:()=>c,frontmatter:()=>z});var n=_(u()),z={title:\"\\u017Divot Je Boj (Bude H\\u016F\\u0159)\",slug:\"zivot-je-boj-bude-hur-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"2:38\",trackNumber:15,producers:[],producersNames:[],description:\"\\u017Divot Je Boj (Bude H\\u016F\\u0159) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return g(v);})();\n;return Component;"
+    "raw": "\n**[Život Je Boj (Bude Hůř)](/skladby/zivot-je-boj-bude-hur-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN DVA](/alba/j-eden-dva) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var z=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),f=(o,e)=>{for(var n in e)t(o,n,{get:e[n],enumerable:!0})},s=(o,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of b(e))!h.call(o,r)&&r!==n&&t(o,r,{get:()=>e[r],enumerable:!(d=p(e,r))||d.enumerable});return o};var x=(o,e,n)=>(n=o!=null?l(j(o)):{},s(e||!o||!o.__esModule?t(n,\"default\",{value:o,enumerable:!0}):n,o)),v=o=>s(t({},\"__esModule\",{value:!0}),o);var u=z((_,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>m,frontmatter:()=>g});var a=x(u()),g={title:\"\\u017Divot Je Boj (Bude H\\u016F\\u0159)\",slug:\"zivot-je-boj-bude-hur-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[\"\"],duration:\"2:38\",trackNumber:15,producers:[],producersNames:[],description:\"\\u017Divot Je Boj (Bude H\\u016F\\u0159) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/zivot-je-boj-bude-hur-yzomandias\",children:\"\\u017Divot Je Boj (Bude H\\u016F\\u0159)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/j-eden-dva\",children:\"J. EDEN DVA\"}),\" (2019).\"]})}function m(o={}){let{wrapper:e}=o.components||{};return e?(0,a.jsx)(e,{...o,children:(0,a.jsx)(c,{...o})}):c(o)}return v(y);})();\n;return Component;"
   },
   "_id": "skladby/zivot-je-boj-bude-hur-yzomandias.mdx",
   "_raw": {

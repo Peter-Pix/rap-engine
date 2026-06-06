@@ -14,16 +14,19 @@
   "album": "Chrst",
   "albumSlug": "chrst",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:13",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Chrst — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of l(t))!g.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(u=i(t,o))||u.enumerable});return e};var b=(e,t,n)=>(n=e!=null?h(p(e)):{},a(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var c=f((y,x)=>{x.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>C});var r=b(c()),C={title:\"Chrst\",slug:\"chrst-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"yeezuz2020\",\"mdmx\"],featuresNames:[\"Yeezuz2020\",\"MDMX\"],album:\"Chrst\",albumSlug:\"chrst\",year:2023,genre:[],duration:\"2:13\",trackNumber:1,producers:[],producersNames:[],description:\"Chrst \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Chrst](/skladby/chrst-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2023).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),b=(t,r)=>{for(var e in r)n(t,e,{get:r[e],enumerable:!0})},u=(t,r,e,x)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of p(r))!m.call(t,s)&&s!==e&&n(t,s,{get:()=>r[s],enumerable:!(x=l(r,s))||x.enumerable});return t};var C=(t,r,e)=>(e=t!=null?i(g(t)):{},u(r||!t||!t.__esModule?n(e,\"default\",{value:t,enumerable:!0}):e,t)),_=t=>u(n({},\"__esModule\",{value:!0}),t);var c=f((z,a)=>{a.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>j});var o=C(c()),j={title:\"Chrst\",slug:\"chrst-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"yeezuz2020\",\"mdmx\"],featuresNames:[\"Yeezuz2020\",\"MDMX\"],album:\"Chrst\",albumSlug:\"chrst\",year:2023,genre:[\"\"],duration:\"2:13\",trackNumber:1,producers:[],producersNames:[],description:\"Chrst \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function h(t){let r={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/chrst-hugo-toxxx\",children:\"Chrst\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2023).\"]})}function d(t={}){let{wrapper:r}=t.components||{};return r?(0,o.jsx)(r,{...t,children:(0,o.jsx)(h,{...t})}):h(t)}return _(M);})();\n;return Component;"
   },
   "_id": "skladby/chrst-hugo-toxxx.mdx",
   "_raw": {

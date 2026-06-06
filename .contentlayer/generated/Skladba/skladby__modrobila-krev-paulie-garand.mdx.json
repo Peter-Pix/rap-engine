@@ -14,16 +14,19 @@
   "album": "Modrobílá krev",
   "albumSlug": "modrobila-krev",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:47",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Modrobílá krev — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},d=(e,r,a,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of b(r))!h.call(e,t)&&t!==a&&o(e,t,{get:()=>r[t],enumerable:!(u=p(r,t))||u.enumerable});return e};var f=(e,r,a)=>(a=e!=null?c(k(e)):{},d(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>d(o({},\"__esModule\",{value:!0}),e);var s=g((y,l)=>{l.exports=_jsx_runtime});var M={};x(M,{default:()=>m,frontmatter:()=>j});var n=f(s()),j={title:\"Modrob\\xEDl\\xE1 krev\",slug:\"modrobila-krev-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"jakub-dekan\"],featuresNames:[\"Kenny Rough\",\"Jakub D\\u011Bkan\"],album:\"Modrob\\xEDl\\xE1 krev\",albumSlug:\"modrobila-krev\",year:2025,genre:[],duration:\"2:47\",trackNumber:1,producers:[],producersNames:[],description:\"Modrob\\xEDl\\xE1 krev \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Modrobílá krev](/skladby/modrobila-krev-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) (2025).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)t(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of k(r))!g.call(e,o)&&o!==a&&t(e,o,{get:()=>r[o],enumerable:!(d=b(r,o))||d.enumerable});return e};var x=(e,r,a)=>(a=e!=null?c(m(e)):{},u(r||!e||!e.__esModule?t(a,\"default\",{value:e,enumerable:!0}):a,e)),v=e=>u(t({},\"__esModule\",{value:!0}),e);var s=h((y,l)=>{l.exports=_jsx_runtime});var j={};f(j,{default:()=>p,frontmatter:()=>M});var n=x(s()),M={title:\"Modrob\\xEDl\\xE1 krev\",slug:\"modrobila-krev-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"jakub-dekan\"],featuresNames:[\"Kenny Rough\",\"Jakub D\\u011Bkan\"],album:\"Modrob\\xEDl\\xE1 krev\",albumSlug:\"modrobila-krev\",year:2025,genre:[\"\"],duration:\"2:47\",trackNumber:1,producers:[],producersNames:[],description:\"Modrob\\xEDl\\xE1 krev \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/modrobila-krev-paulie-garand\",children:\"Modrob\\xEDl\\xE1 krev\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" (2025).\"]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return v(j);})();\n;return Component;"
   },
   "_id": "skladby/modrobila-krev-paulie-garand.mdx",
   "_raw": {

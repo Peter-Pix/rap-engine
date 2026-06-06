@@ -12,16 +12,19 @@
   "album": "Yzomandias (Remaster)",
   "albumSlug": "yzomandias",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:54",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Start — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},m=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!f.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=p(t,r))||o.enumerable});return e};var g=(e,t,a)=>(a=e!=null?l(h(e)):{},m(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>m(s({},\"__esModule\",{value:!0}),e);var d=_((k,i)=>{i.exports=_jsx_runtime});var y={};b(y,{default:()=>u,frontmatter:()=>z});var n=g(d()),z={title:\"Start\",slug:\"start-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzomandias (Remaster)\",albumSlug:\"yzomandias\",year:2023,genre:[],duration:\"3:54\",trackNumber:13,producers:[],producersNames:[],description:\"Start \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Start](/skladby/start-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Yzomandias (Remaster)](/alba/yzomandias) (2023).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),y=(r,a)=>{for(var e in a)s(r,e,{get:a[e],enumerable:!0})},i=(r,a,e,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of z(a))!h.call(r,n)&&n!==e&&s(r,n,{get:()=>a[n],enumerable:!(o=p(a,n))||o.enumerable});return r};var b=(r,a,e)=>(e=r!=null?l(f(r)):{},i(a||!r||!r.__esModule?s(e,\"default\",{value:r,enumerable:!0}):e,r)),g=r=>i(s({},\"__esModule\",{value:!0}),r);var m=x((S,d)=>{d.exports=_jsx_runtime});var _={};y(_,{default:()=>u,frontmatter:()=>j});var t=b(m()),j={title:\"Start\",slug:\"start-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzomandias (Remaster)\",albumSlug:\"yzomandias\",year:2023,genre:[\"\"],duration:\"3:54\",trackNumber:13,producers:[],producersNames:[],description:\"Start \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/start-yzomandias\",children:\"Start\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,t.jsx)(a.a,{href:\"/alba/yzomandias\",children:\"Yzomandias (Remaster)\"}),\" (2023).\"]})}function u(r={}){let{wrapper:a}=r.components||{};return a?(0,t.jsx)(a,{...r,children:(0,t.jsx)(c,{...r})}):c(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/start-yzomandias.mdx",
   "_raw": {

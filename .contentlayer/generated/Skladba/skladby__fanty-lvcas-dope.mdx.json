@@ -12,16 +12,19 @@
   "album": "JUSTiCE44 (Ledová Cesta)",
   "albumSlug": "justice44-ledova-cesta",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:40",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Fanty — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(a({},\"__esModule\",{value:!0}),e);var d=y((D,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>p,frontmatter:()=>j});var n=b(d()),j={title:\"Fanty\",slug:\"fanty-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[],duration:\"2:40\",trackNumber:7,producers:[],producersNames:[],description:\"Fanty \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Fanty](/skladby/fanty-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [JUSTiCE44 (Ledová Cesta)](/alba/justice44-ledova-cesta) (2018).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},c=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!h.call(a,o)&&o!==r&&n(a,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return a};var b=(a,e,r)=>(r=a!=null?u(v(a)):{},c(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>c(n({},\"__esModule\",{value:!0}),a);var l=y((D,d)=>{d.exports=_jsx_runtime});var k={};x(k,{default:()=>p,frontmatter:()=>j});var t=b(l()),j={title:\"Fanty\",slug:\"fanty-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[\"\"],duration:\"2:40\",trackNumber:7,producers:[],producersNames:[],description:\"Fanty \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/fanty-lvcas-dope\",children:\"Fanty\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/justice44-ledova-cesta\",children:\"JUSTiCE44 (Ledov\\xE1 Cesta)\"}),\" (2018).\"]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(i,{...a})}):i(a)}return g(k);})();\n;return Component;"
   },
   "_id": "skladby/fanty-lvcas-dope.mdx",
   "_raw": {

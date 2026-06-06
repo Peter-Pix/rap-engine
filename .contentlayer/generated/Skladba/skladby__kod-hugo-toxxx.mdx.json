@@ -12,16 +12,19 @@
   "album": "Mumie (Deluxe)",
   "albumSlug": "mumie",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:34",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Kód — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)u(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&u(e,o,{get:()=>t[o],enumerable:!(a=i(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},s(t||!e||!e.__esModule?u(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var m=f((K,x)=>{x.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>M});var r=b(m()),M={title:\"K\\xF3d\",slug:\"kod-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"arleta\"],featuresNames:[\"Arleta\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[],duration:\"2:34\",trackNumber:8,producers:[],producersNames:[],description:\"K\\xF3d \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Kód](/skladby/kod-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [Mumie (Deluxe)](/alba/mumie) (2022).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},x=(r,e,t,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!h.call(r,a)&&a!==t&&n(r,a,{get:()=>e[a],enumerable:!(u=m(e,a))||u.enumerable});return r};var _=(r,e,t)=>(t=r!=null?c(g(r)):{},x(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>x(n({},\"__esModule\",{value:!0}),r);var d=f((y,s)=>{s.exports=_jsx_runtime});var M={};b(M,{default:()=>i,frontmatter:()=>k});var o=_(d()),k={title:\"K\\xF3d\",slug:\"kod-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"arleta\"],featuresNames:[\"Arleta\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[\"\"],duration:\"2:34\",trackNumber:8,producers:[],producersNames:[],description:\"K\\xF3d \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/kod-hugo-toxxx\",children:\"K\\xF3d\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/mumie\",children:\"Mumie (Deluxe)\"}),\" (2022).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(l,{...r})}):l(r)}return j(M);})();\n;return Component;"
   },
   "_id": "skladby/kod-hugo-toxxx.mdx",
   "_raw": {

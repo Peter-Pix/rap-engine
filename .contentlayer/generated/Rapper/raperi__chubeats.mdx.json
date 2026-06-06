@@ -1,13 +1,15 @@
 {
   "title": "Chubeats",
   "slug": "chubeats",
-  "genre": [],
-  "description": "Chubeats — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Chubeats — nezávislý interpret rapové scény s ostrým flow a autentickým zvukem. Přináší syrový rap bez kompromisů. Poslouchej na streamovacích platformách.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of d(t))!_.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(c=p(t,s))||c.enumerable});return e};var j=(e,t,r)=>(r=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var u=b((v,a)=>{a.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>C});var n=j(u()),C={title:\"Chubeats\",slug:\"chubeats\",genre:[],description:\"Chubeats \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function h(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(h,{...e})}):h(e)}return g(M);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Chubeats](/raperi/chubeats)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},c=(t,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of d(e))!b.call(t,s)&&s!==r&&o(t,s,{get:()=>e[s],enumerable:!(a=l(e,s))||a.enumerable});return t};var j=(t,e,r)=>(r=t!=null?m(x(t)):{},c(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),v=t=>c(o({},\"__esModule\",{value:!0}),t);var p=f((y,i)=>{i.exports=_jsx_runtime});var C={};g(C,{default:()=>u,frontmatter:()=>_});var n=j(p()),_={title:\"Chubeats\",slug:\"chubeats\",genre:[\"\"],description:\"Chubeats \\u2014 nez\\xE1visl\\xFD interpret rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a autentick\\xFDm zvukem. P\\u0159in\\xE1\\u0161\\xED syrov\\xFD rap bez kompromis\\u016F. Poslouchej na streamovac\\xEDch platform\\xE1ch.\",publishedAt:\"2026-05-31\"};function h(t){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/raperi/chubeats\",children:\"Chubeats\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(h,{...t})}):h(t)}return v(C);})();\n;return Component;"
   },
   "_id": "raperi/chubeats.mdx",
   "_raw": {

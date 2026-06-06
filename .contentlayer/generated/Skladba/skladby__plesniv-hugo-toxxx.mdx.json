@@ -8,16 +8,19 @@
   "album": "Plesniv",
   "albumSlug": "plesniv",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:04",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Plesniv — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!g.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(u=p(t,o))||u.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(h(e)):{},a(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var i=f((P,x)=>{x.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>v});var n=b(i()),v={title:\"Plesniv\",slug:\"plesniv-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Plesniv\",albumSlug:\"plesniv\",year:2026,genre:[],duration:\"3:04\",trackNumber:1,producers:[],producersNames:[],description:\"Plesniv \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Plesniv](/skladby/plesniv-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2026).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),v=(o,e)=>{for(var r in e)s(o,r,{get:e[r],enumerable:!0})},a=(o,e,r,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!m.call(o,n)&&n!==r&&s(o,n,{get:()=>e[n],enumerable:!(x=d(e,n))||x.enumerable});return o};var b=(o,e,r)=>(r=o!=null?p(h(o)):{},a(e||!o||!o.__esModule?s(r,\"default\",{value:o,enumerable:!0}):r,o)),_=o=>a(s({},\"__esModule\",{value:!0}),o);var i=f((y,u)=>{u.exports=_jsx_runtime});var P={};v(P,{default:()=>c,frontmatter:()=>j});var t=b(i()),j={title:\"Plesniv\",slug:\"plesniv-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Plesniv\",albumSlug:\"plesniv\",year:2026,genre:[\"\"],duration:\"3:04\",trackNumber:1,producers:[],producersNames:[],description:\"Plesniv \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/plesniv-hugo-toxxx\",children:\"Plesniv\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2026).\"]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,t.jsx)(e,{...o,children:(0,t.jsx)(l,{...o})}):l(o)}return _(P);})();\n;return Component;"
   },
   "_id": "skladby/plesniv-hugo-toxxx.mdx",
   "_raw": {

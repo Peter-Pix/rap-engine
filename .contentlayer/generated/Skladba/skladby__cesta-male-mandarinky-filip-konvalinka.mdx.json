@@ -14,16 +14,19 @@
   "album": "2 MOUCHY 1 RANOU",
   "albumSlug": "2-mouchy-1-ranou",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Cesta malé mandarinky — skladba od Filip Konvalinka.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),y=(a,e)=>{for(var t in e)i(a,t,{get:e[t],enumerable:!0})},l=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of k(e))!h.call(a,r)&&r!==t&&i(a,r,{get:()=>e[r],enumerable:!(o=p(e,r))||o.enumerable});return a};var _=(a,e,t)=>(t=a!=null?c(f(a)):{},l(e||!a||!a.__esModule?i(t,\"default\",{value:a,enumerable:!0}):t,a)),b=a=>l(i({},\"__esModule\",{value:!0}),a);var m=x((F,s)=>{s.exports=_jsx_runtime});var j={};y(j,{default:()=>d,frontmatter:()=>g});var n=_(m()),g={title:\"Cesta mal\\xE9 mandarinky\",slug:\"cesta-male-mandarinky-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\",\"matylda\"],featuresNames:[\"DJ Fatte\",\"Matylda\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[],duration:\"3:52\",trackNumber:12,producers:[],producersNames:[],description:\"Cesta mal\\xE9 mandarinky \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function u(a){let e={em:\"em\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(u,{...a})}):u(a)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Cesta malé mandarinky](/skladby/cesta-male-mandarinky-filip-konvalinka)** z alba [2 MOUCHY 1 RANOU](/alba/2-mouchy-1-ranou) (2026).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var h=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var e in a)i(n,e,{get:a[e],enumerable:!0})},o=(n,a,e,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of k(a))!y.call(n,r)&&r!==e&&i(n,r,{get:()=>a[r],enumerable:!(l=p(a,r))||l.enumerable});return n};var b=(n,a,e)=>(e=n!=null?c(f(n)):{},o(a||!n||!n.__esModule?i(e,\"default\",{value:n,enumerable:!0}):e,n)),g=n=>o(i({},\"__esModule\",{value:!0}),n);var m=h((_,s)=>{s.exports=_jsx_runtime});var j={};x(j,{default:()=>u,frontmatter:()=>C});var t=b(m()),C={title:\"Cesta mal\\xE9 mandarinky\",slug:\"cesta-male-mandarinky-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\",\"matylda\"],featuresNames:[\"DJ Fatte\",\"Matylda\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[\"\"],duration:\"3:52\",trackNumber:12,producers:[],producersNames:[],description:\"Cesta mal\\xE9 mandarinky \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function d(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/cesta-male-mandarinky-filip-konvalinka\",children:\"Cesta mal\\xE9 mandarinky\"})}),\" z alba \",(0,t.jsx)(a.a,{href:\"/alba/2-mouchy-1-ranou\",children:\"2 MOUCHY 1 RANOU\"}),\" (2026).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,t.jsx)(a,{...n,children:(0,t.jsx)(d,{...n})}):d(n)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/cesta-male-mandarinky-filip-konvalinka.mdx",
   "_raw": {

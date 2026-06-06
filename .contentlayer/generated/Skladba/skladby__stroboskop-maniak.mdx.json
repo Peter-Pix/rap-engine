@@ -8,16 +8,19 @@
   "album": "Ach Ano Mixtape",
   "albumSlug": "ach-ano-mixtape",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:14",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Stroboskop — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(h(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var m=k((A,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>M});var n=_(m()),M={title:\"Stroboskop\",slug:\"stroboskop-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[],duration:\"3:14\",trackNumber:3,producers:[],producersNames:[],description:\"Stroboskop \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Stroboskop](/skladby/stroboskop-maniak)** od [Maniak](/raperi/maniak) z alba [Ach Ano Mixtape](/alba/ach-ano-mixtape) (2015).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var o in a)n(e,o,{get:a[o],enumerable:!0})},i=(e,a,o,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of k(a))!b.call(e,t)&&t!==o&&n(e,t,{get:()=>a[t],enumerable:!(s=d(a,t))||s.enumerable});return e};var M=(e,a,o)=>(o=e!=null?m(h(e)):{},i(a||!e||!e.__esModule?n(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>i(n({},\"__esModule\",{value:!0}),e);var c=x((S,p)=>{p.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>_});var r=M(c()),_={title:\"Stroboskop\",slug:\"stroboskop-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[\"\"],duration:\"3:14\",trackNumber:3,producers:[],producersNames:[],description:\"Stroboskop \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/stroboskop-maniak\",children:\"Stroboskop\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/ach-ano-mixtape\",children:\"Ach Ano Mixtape\"}),\" (2015).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/stroboskop-maniak.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Podvod (Píseň k filmu Shoky & Morthy: Poslední velká akce)",
   "albumSlug": "podvod-pisen-k-filmu-shoky-morthy-posledni-velka-akce",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:51",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Podvod (Píseň k filmu Shoky & Morthy: Poslední velká akce) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),v=(e,o)=>{for(var n in o)s(e,n,{get:o[n],enumerable:!0})},l=(e,o,n,a)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let r of p(o))!f.call(e,r)&&r!==n&&s(e,r,{get:()=>o[r],enumerable:!(a=k(o,r))||a.enumerable});return e};var x=(e,o,n)=>(n=e!=null?m(h(e)):{},l(o||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),P=e=>l(s({},\"__esModule\",{value:!0}),e);var i=y((M,d)=>{d.exports=_jsx_runtime});var b={};v(b,{default:()=>u,frontmatter:()=>_});var t=x(i()),_={title:\"Podvod (P\\xEDse\\u0148 k filmu Shoky & Morthy: Posledn\\xED velk\\xE1 akce)\",slug:\"podvod-pisen-k-filmu-shoky-morthy-posledni-velka-akce-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Podvod (P\\xEDse\\u0148 k filmu Shoky & Morthy: Posledn\\xED velk\\xE1 akce)\",albumSlug:\"podvod-pisen-k-filmu-shoky-morthy-posledni-velka-akce\",year:2021,genre:[],duration:\"3:51\",trackNumber:1,producers:[],producersNames:[],description:\"Podvod (P\\xEDse\\u0148 k filmu Shoky & Morthy: Posledn\\xED velk\\xE1 akce) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function c(e){let o={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(o.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(o.p,{children:(0,t.jsx)(o.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return P(b);})();\n;return Component;"
+    "raw": "\n**[Podvod (Píseň k filmu Shoky & Morthy: Poslední velká akce)](/skladby/podvod-pisen-k-filmu-shoky-morthy-posledni-velka-akce-calin)** od [Calin](/raperi/calin) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),v=(o,e)=>{for(var n in e)t(o,n,{get:e[n],enumerable:!0})},l=(o,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!y.call(o,s)&&s!==n&&t(o,s,{get:()=>e[s],enumerable:!(a=p(e,s))||a.enumerable});return o};var P=(o,e,n)=>(n=o!=null?u(m(o)):{},l(e||!o||!o.__esModule?t(n,\"default\",{value:o,enumerable:!0}):n,o)),x=o=>l(t({},\"__esModule\",{value:!0}),o);var i=f((S,d)=>{d.exports=_jsx_runtime});var M={};v(M,{default:()=>c,frontmatter:()=>g});var r=P(i()),g={title:\"Podvod (P\\xEDse\\u0148 k filmu Shoky & Morthy: Posledn\\xED velk\\xE1 akce)\",slug:\"podvod-pisen-k-filmu-shoky-morthy-posledni-velka-akce-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Podvod (P\\xEDse\\u0148 k filmu Shoky & Morthy: Posledn\\xED velk\\xE1 akce)\",albumSlug:\"podvod-pisen-k-filmu-shoky-morthy-posledni-velka-akce\",year:2021,genre:[\"\"],duration:\"3:51\",trackNumber:1,producers:[],producersNames:[],description:\"Podvod (P\\xEDse\\u0148 k filmu Shoky & Morthy: Posledn\\xED velk\\xE1 akce) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function k(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/podvod-pisen-k-filmu-shoky-morthy-posledni-velka-akce-calin\",children:\"Podvod (P\\xEDse\\u0148 k filmu Shoky & Morthy: Posledn\\xED velk\\xE1 akce)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2021).\"]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(k,{...o})}):k(o)}return x(M);})();\n;return Component;"
   },
   "_id": "skladby/podvod-pisen-k-filmu-shoky-morthy-posledni-velka-akce-calin.mdx",
   "_raw": {

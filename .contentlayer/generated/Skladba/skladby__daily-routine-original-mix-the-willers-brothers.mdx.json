@@ -8,16 +8,19 @@
   "album": "9 Years of Moan Part 2",
   "albumSlug": "9-years-of-moan-part-2",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:04",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Daily Routine (Original Mix) — skladba od Zaccaria Malak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)i(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!f.call(e,n)&&n!==a&&i(e,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return e};var M=(e,r,a)=>(a=e!=null?d(x(e)):{},s(r||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var u=g((D,l)=>{l.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>y});var t=M(u()),y={title:\"Daily Routine (Original Mix)\",slug:\"daily-routine-original-mix-the-willers-brothers\",rapper:\"Zaccaria Malak\",rapperSlug:\"the-willers-brothers\",features:[],featuresNames:[],album:\"9 Years of Moan Part 2\",albumSlug:\"9-years-of-moan-part-2\",year:2021,genre:[],duration:\"7:04\",trackNumber:7,producers:[],producersNames:[],description:\"Daily Routine (Original Mix) \\u2014 skladba od Zaccaria Malak.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Daily Routine (Original Mix)](/skladby/daily-routine-original-mix-the-willers-brothers)** z alba [9 Years of Moan Part 2](/alba/9-years-of-moan-part-2) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),b=(a,r)=>{for(var e in r)i(a,e,{get:r[e],enumerable:!0})},s=(a,r,e,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!f.call(a,n)&&n!==e&&i(a,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return a};var y=(a,r,e)=>(e=a!=null?m(x(a)):{},s(r||!a||!a.__esModule?i(e,\"default\",{value:a,enumerable:!0}):e,a)),M=a=>s(i({},\"__esModule\",{value:!0}),a);var u=g((D,l)=>{l.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>_});var t=y(u()),_={title:\"Daily Routine (Original Mix)\",slug:\"daily-routine-original-mix-the-willers-brothers\",rapper:\"Zaccaria Malak\",rapperSlug:\"the-willers-brothers\",features:[],featuresNames:[],album:\"9 Years of Moan Part 2\",albumSlug:\"9-years-of-moan-part-2\",year:2021,genre:[\"\"],duration:\"7:04\",trackNumber:7,producers:[],producersNames:[],description:\"Daily Routine (Original Mix) \\u2014 skladba od Zaccaria Malak.\",publishedAt:\"2026-06-04\"};function c(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/daily-routine-original-mix-the-willers-brothers\",children:\"Daily Routine (Original Mix)\"})}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/9-years-of-moan-part-2\",children:\"9 Years of Moan Part 2\"}),\" (2021).\"]})}function d(a={}){let{wrapper:r}=a.components||{};return r?(0,t.jsx)(r,{...a,children:(0,t.jsx)(c,{...a})}):c(a)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/daily-routine-original-mix-the-willers-brothers.mdx",
   "_raw": {

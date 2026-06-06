@@ -16,16 +16,19 @@
   "album": "karanténa",
   "albumSlug": "karantena",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:32",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "GRAPPABASS — skladba od Konex.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?m(k(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),A=e=>c(o({},\"__esModule\",{value:!0}),e);var d=b((y,u)=>{u.exports=_jsx_runtime});var _={};f(_,{default:()=>l,frontmatter:()=>S});var t=g(d()),S={title:\"GRAPPABASS\",slug:\"grappabass-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"karlo\",\"nik-tendo\"],featuresNames:[\"Decky\",\"Karlo\",\"Nik Tendo\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[],duration:\"3:32\",trackNumber:4,producers:[],producersNames:[],description:\"GRAPPABASS \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return A(_);})();\n;return Component;"
+    "raw": "\n**[GRAPPABASS](/skladby/grappabass-konex)** (2020).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of k(n))!A.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=x(n,a))||s.enumerable});return e};var f=(e,n,r)=>(r=e!=null?i(m(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),S=e=>c(o({},\"__esModule\",{value:!0}),e);var p=g((j,u)=>{u.exports=_jsx_runtime});var P={};b(P,{default:()=>l,frontmatter:()=>h});var t=f(p()),h={title:\"GRAPPABASS\",slug:\"grappabass-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"karlo\",\"nik-tendo\"],featuresNames:[\"Decky\",\"Karlo\",\"Nik Tendo\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[\"\"],duration:\"3:32\",trackNumber:4,producers:[],producersNames:[],description:\"GRAPPABASS \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function d(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/grappabass-konex\",children:\"GRAPPABASS\"})}),\" (2020).\"]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return S(P);})();\n;return Component;"
   },
   "_id": "skladby/grappabass-konex.mdx",
   "_raw": {

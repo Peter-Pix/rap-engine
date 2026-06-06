@@ -8,16 +8,19 @@
   "album": "9 Years of Moan Part 2",
   "albumSlug": "9-years-of-moan-part-2",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:16",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Come With Me (Original Mix) — skladba od The Willers Brothers.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of d(r))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>r[o],enumerable:!(a=p(r,o))||a.enumerable});return e};var M=(e,r,n)=>(n=e!=null?c(x(e)):{},i(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var m=g((W,l)=>{l.exports=_jsx_runtime});var w={};b(w,{default:()=>u,frontmatter:()=>j});var t=M(m()),j={title:\"Come With Me (Original Mix)\",slug:\"come-with-me-original-mix-the-willers-brothers\",rapper:\"The Willers Brothers\",rapperSlug:\"the-willers-brothers\",features:[],featuresNames:[],album:\"9 Years of Moan Part 2\",albumSlug:\"9-years-of-moan-part-2\",year:2021,genre:[],duration:\"6:16\",trackNumber:1,producers:[],producersNames:[],description:\"Come With Me (Original Mix) \\u2014 skladba od The Willers Brothers.\",publishedAt:\"2026-06-04\"};function h(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(h,{...e})}):h(e)}return _(w);})();\n;return Component;"
+    "raw": "\n**[Come With Me (Original Mix)](/skladby/come-with-me-original-mix-the-willers-brothers)** z alba [9 Years of Moan Part 2](/alba/9-years-of-moan-part-2) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!f.call(r,o)&&o!==t&&n(r,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return r};var M=(r,e,t)=>(t=r!=null?u(x(r)):{},i(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),w=r=>i(n({},\"__esModule\",{value:!0}),r);var h=g((C,l)=>{l.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>_});var a=M(h()),_={title:\"Come With Me (Original Mix)\",slug:\"come-with-me-original-mix-the-willers-brothers\",rapper:\"The Willers Brothers\",rapperSlug:\"the-willers-brothers\",features:[],featuresNames:[],album:\"9 Years of Moan Part 2\",albumSlug:\"9-years-of-moan-part-2\",year:2021,genre:[\"\"],duration:\"6:16\",trackNumber:1,producers:[],producersNames:[],description:\"Come With Me (Original Mix) \\u2014 skladba od The Willers Brothers.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/come-with-me-original-mix-the-willers-brothers\",children:\"Come With Me (Original Mix)\"})}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/9-years-of-moan-part-2\",children:\"9 Years of Moan Part 2\"}),\" (2021).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return w(j);})();\n;return Component;"
   },
   "_id": "skladby/come-with-me-original-mix-the-willers-brothers.mdx",
   "_raw": {

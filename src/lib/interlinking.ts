@@ -4,8 +4,8 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-06-05T02:16:23.106Z
-// Celkem entit: 873 (589 album, 29 label, 227 rapper, 28 zanr)
+// Vygenerováno: 2026-06-06T03:29:40.234Z
+// Celkem entit: 936 (589 album, 29 label, 226 rapper, 92 zanr)
 // ═══════════════════════════════════════════════════════════════
 
 import type { InterlinkEntity } from './remark-interlinking'
@@ -999,7 +999,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Habibi (Remix)",
     "slug": "habibi-remix",
-    "type": "album"
+    "type": "album",
+    "aliases": [
+      "Habibi (Yzomandias & Nik Tendo Remix)"
+    ]
   },
   {
     "name": "Had",
@@ -3106,7 +3109,8 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "58g",
     "type": "rapper",
     "aliases": [
-      "Karel Kučera"
+      "Karel Kučera",
+      "TK27"
     ]
   },
   {
@@ -3120,7 +3124,12 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Alla Xul Elu",
     "slug": "alla-xul-elu",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Vampire",
+      "Mr. Hyde",
+      "Geno Cultshit"
+    ]
   },
   {
     "name": "Annet X",
@@ -3135,7 +3144,8 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "ariez-baby",
     "type": "rapper",
     "aliases": [
-      "Tengku Ariez Hazaril"
+      "Tengku Ariez Hazaril",
+      "Baby Goth"
     ]
   },
   {
@@ -3149,20 +3159,31 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Astral One",
     "slug": "astral-one",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "A1",
+      "Astral"
+    ]
   },
   {
-    "name": "AstralKid22 – pražskej drill s duší",
+    "name": "AstralKid22",
     "slug": "astralkid22",
     "type": "rapper",
     "aliases": [
-      "Neveřejné (údajně něco s ‚K‘)"
+      "Neveřejné (údajně něco s ‚K‘)",
+      "AK22",
+      "Kid"
     ]
   },
   {
     "name": "BADBOY BERLIN",
     "slug": "badboy-berlin",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Neznámý (údajně německo-český původ)",
+      "BBB",
+      "BadBoy"
+    ]
   },
   {
     "name": "Ben Cristovao",
@@ -3177,7 +3198,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "big-boy-kea",
     "type": "rapper",
     "aliases": [
-      "Neznámý (údajně Keanu Johnson)"
+      "Neznámý (údajně Keanu Johnson)",
+      "Kea",
+      "Big Kea"
     ]
   },
   {
@@ -3185,7 +3208,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "big-narstie",
     "type": "rapper",
     "aliases": [
-      "Tyrone Mark Lindo"
+      "Tyrone Mark Lindo",
+      "Narstie",
+      "Tyrone"
     ]
   },
   {
@@ -3193,13 +3218,18 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "blako",
     "type": "rapper",
     "aliases": [
-      "Neznámý (údajně spojený s projektem *Rise of the Warrior Cop*)"
+      "Neznámý (údajně spojený s projektem *Rise of the Warrior Cop*)",
+      "Blak-O",
+      "B-Lako"
     ]
   },
   {
     "name": "Bobby Blaze",
     "slug": "bobby-blaze",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Blaze"
+    ]
   },
   {
     "name": "Boy Wonder",
@@ -3217,7 +3247,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "CA$HANOVA BULHAR",
     "slug": "ca-hanova-bulhar",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Matěj Kratejl",
+      "Cashanova Bulhar"
+    ]
   },
   {
     "name": "Calin",
@@ -3225,14 +3259,6 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "rapper",
     "aliases": [
       "Călin Panfili"
-    ]
-  },
-  {
-    "name": "Cashanova Bulhar",
-    "slug": "cashanova-bulhar",
-    "type": "rapper",
-    "aliases": [
-      "Matěj Kratejl"
     ]
   },
   {
@@ -3289,7 +3315,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "d-kop",
     "type": "rapper",
     "aliases": [
-      "Neznámý (údajně spojen s projektem JMPZ)"
+      "Neznámý (údajně spojen s projektem JMPZ)",
+      "D.K.P.",
+      "Dívčí Kop"
     ]
   },
   {
@@ -3313,7 +3341,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "dano-kapitan",
     "type": "rapper",
     "aliases": [
-      "Daniel Kapitán"
+      "Daniel Kapitán",
+      "Kapitán Korkorán",
+      "Dano K.",
+      "Korky"
     ]
   },
   {
@@ -3321,7 +3352,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "david-beng-rostas",
     "type": "rapper",
     "aliases": [
-      "David Rostaš"
+      "David Rostaš",
+      "Beng",
+      "Bengoro"
     ]
   },
   {
@@ -3329,7 +3362,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "decky",
     "type": "rapper",
     "aliases": [
-      "Neznámé (možná Děcký, Decky Ortega)"
+      "Neznámé (možná Děcký, Decky Ortega)",
+      "Děcký",
+      "Decky Ortega"
     ]
   },
   {
@@ -3337,7 +3372,8 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "dejv",
     "type": "rapper",
     "aliases": [
-      "David Smetana"
+      "David Smetana",
+      "Dejv Smetana"
     ]
   },
   {
@@ -3353,7 +3389,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "dj-aka",
     "type": "rapper",
     "aliases": [
-      "David Jekyll"
+      "David Jekyll",
+      "Aka Manah",
+      "DAvID"
     ]
   },
   {
@@ -3361,7 +3399,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "dj-fatte",
     "type": "rapper",
     "aliases": [
-      "Martin Fatka"
+      "Martin Fatka",
+      "Fatte",
+      "DJ Fatty"
     ]
   },
   {
@@ -3369,20 +3409,28 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "dj-kadr",
     "type": "rapper",
     "aliases": [
-      "Neznámé (neveřejné)"
+      "Neznámé (neveřejné)",
+      "Kadr",
+      "DJ Kadr x Totally Nothin"
     ]
   },
   {
     "name": "Dj Opia",
     "slug": "dj-opia",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Roman Ševčík",
+      "Opia",
+      "DJ Opia"
+    ]
   },
   {
     "name": "DJ Wich",
     "slug": "dj-wich",
     "type": "rapper",
     "aliases": [
-      "Tomáš Pechlák"
+      "Tomáš Pechlák",
+      "Wich"
     ]
   },
   {
@@ -3692,7 +3740,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "jickson",
     "type": "rapper",
     "aliases": [
-      "Mathivendhan"
+      "Mathivendhan",
+      "JCK",
+      "Jackson"
     ]
   },
   {
@@ -3721,12 +3771,21 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Kamil Hoffmann",
     "slug": "kamil-hoffmann",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Kamil",
+      "KH",
+      "Hoffmann"
+    ]
   },
   {
     "name": "Karlo",
     "slug": "karlo",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Karlo Island",
+      "Karlo-Ferdinand"
+    ]
   },
   {
     "name": "Katannah",
@@ -3780,7 +3839,8 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "kvitek",
     "type": "rapper",
     "aliases": [
-      "Libor Kvítek"
+      "Libor Kvítek",
+      "Kvítek z horroru"
     ]
   },
   {
@@ -3796,7 +3856,8 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "labello",
     "type": "rapper",
     "aliases": [
-      "Lukáš Labík"
+      "Lukáš Labík",
+      "Laba"
     ]
   },
   {
@@ -3832,7 +3893,9 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "loudz1",
     "type": "rapper",
     "aliases": [
-      "Lukáš Loudil"
+      "Lukáš Loudil",
+      "Loud",
+      "Loud One"
     ]
   },
   {
@@ -4252,7 +4315,8 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "samey",
     "type": "rapper",
     "aliases": [
-      "Samuel Chalupka"
+      "Samuel Chalupka",
+      "Sameyko"
     ]
   },
   {
@@ -4370,7 +4434,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Sofian Medjmedj",
     "slug": "sofian-medjmedj",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Sofian"
+    ]
   },
   {
     "name": "Stein27",
@@ -4429,7 +4496,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "TK27",
     "slug": "tk27",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Kučera (křestní jméno nezveřejněno)"
+    ]
   },
   {
     "name": "Tom Necrocock",
@@ -4558,6 +4628,60 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "rapper"
   },
   {
+    "name": "Abstract Hip Hop",
+    "slug": "abstract-hip-hop",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Academic Rap",
+    "slug": "academic-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Afro Rap",
+    "slug": "afro-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Afrobeats",
+    "slug": "afrobeats",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Alternative Hip Hop",
+    "slug": "alternative-hip-hop",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Alternative Rap",
+    "slug": "alternative-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Ambient Rap",
+    "slug": "ambient-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Art Rap",
+    "slug": "art-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Bassline",
+    "slug": "bassline",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Boom Bap",
     "slug": "boom-bap",
     "type": "zanr",
@@ -4576,8 +4700,56 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "Comedy Rap",
+    "slug": "comedy-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Comic Book Rap",
+    "slug": "comic-book-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Conceptual Rap",
+    "slug": "conceptual-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Conscious Rap",
+    "slug": "conscious-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Country Rap",
     "slug": "country-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Czech Pop",
+    "slug": "czech-pop",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Czech Rap",
+    "slug": "czech-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Dance Rap",
+    "slug": "dance-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Dancehall",
+    "slug": "dancehall",
     "type": "zanr",
     "caseSensitive": false
   },
@@ -4588,14 +4760,32 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "Dark Trap",
+    "slug": "dark-trap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Drill",
     "slug": "drill",
     "type": "zanr",
     "caseSensitive": false
   },
   {
+    "name": "Drum and Bass",
+    "slug": "drum-and-bass",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Drum and Bass (MC kultura)",
     "slug": "drum-and-bass-mc",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "East Coast Rap",
+    "slug": "east-coast-rap",
     "type": "zanr",
     "caseSensitive": false
   },
@@ -4612,8 +4802,26 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "Experimental Hip Hop",
+    "slug": "experimental-hip-hop",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Experimental Rap",
+    "slug": "experimental-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Experimental Trap",
     "slug": "experimental-trap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Freestyle Rap",
+    "slug": "freestyle-rap",
     "type": "zanr",
     "caseSensitive": false
   },
@@ -4624,8 +4832,38 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "Garage Punk",
+    "slug": "garage-punk",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Glitch Hop",
+    "slug": "glitch-hop",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Gothic Rap",
+    "slug": "gothic-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Grime",
     "slug": "grime",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Hardcore Punk",
+    "slug": "hardcore-punk",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Hardcore Rap",
+    "slug": "hardcore-rap",
     "type": "zanr",
     "caseSensitive": false
   },
@@ -4642,8 +4880,50 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "House Rap",
+    "slug": "house-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Jazz Rap",
+    "slug": "jazz-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Jungle (MC kultura)",
     "slug": "jungle-mc",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Lo-Fi Rap",
+    "slug": "lo-fi-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Lyrical Rap",
+    "slug": "lyrical-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Mafioso Rap",
+    "slug": "mafioso-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Mainstream Rap",
+    "slug": "mainstream-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Melodic Rap",
+    "slug": "melodic-rap",
     "type": "zanr",
     "caseSensitive": false
   },
@@ -4666,6 +4946,48 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "Mystical Rap",
+    "slug": "mystical-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Mythological Rap",
+    "slug": "mythological-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Nu Metal",
+    "slug": "nu-metal",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Oriental Rap",
+    "slug": "oriental-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Party Rap",
+    "slug": "party-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Political Punk",
+    "slug": "political-punk",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Political Rap",
+    "slug": "political-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Pop",
     "slug": "pop",
     "type": "zanr",
@@ -4684,8 +5006,44 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "Pornorap",
+    "slug": "pornorap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Power Metal",
+    "slug": "power-metal",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Psychedelic Rap",
+    "slug": "psychedelic-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Punk",
+    "slug": "punk",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Punk Rap",
+    "slug": "punk-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "R&B (Contemporary R&B)",
     "slug": "rnb",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Rage",
+    "slug": "rage",
     "type": "zanr",
     "caseSensitive": false
   },
@@ -4696,8 +5054,50 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "Rap Metal",
+    "slug": "rap-metal",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Reggaeton",
+    "slug": "reggaeton",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Road Rap",
+    "slug": "road-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Rock-Rap",
     "slug": "rock-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Sad Rap",
+    "slug": "sad-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Shock Rap",
+    "slug": "shock-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Slovak Rap",
+    "slug": "slovak-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Soul",
+    "slug": "soul",
     "type": "zanr",
     "caseSensitive": false
   },
@@ -4708,8 +5108,44 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "caseSensitive": false
   },
   {
+    "name": "Spoken Word",
+    "slug": "spoken-word",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Street Rap",
+    "slug": "street-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Theater Rap",
+    "slug": "theater-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Traditional Metal",
+    "slug": "traditional-metal",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
     "name": "Trap",
     "slug": "trap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Trap Metal",
+    "slug": "trap-metal",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Turntablism",
+    "slug": "turntablism",
     "type": "zanr",
     "caseSensitive": false
   },
@@ -4722,6 +5158,24 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "UK Rap",
     "slug": "uk-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Underground Hip Hop",
+    "slug": "underground-hip-hop",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Underground Rap",
+    "slug": "underground-rap",
+    "type": "zanr",
+    "caseSensitive": false
+  },
+  {
+    "name": "Underground Rock",
+    "slug": "underground-rock",
     "type": "zanr",
     "caseSensitive": false
   }

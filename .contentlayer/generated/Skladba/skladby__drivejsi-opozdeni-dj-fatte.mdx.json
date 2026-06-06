@@ -8,16 +8,19 @@
   "album": "Což takhle dát si Tesař",
   "albumSlug": "coz-takhle-dat-si-tesar",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:09",
   "trackNumber": 25,
   "producers": [],
   "producersNames": [],
   "description": "Dřívejší opoždění — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=m(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(j(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var u=f((v,i)=>{i.exports=_jsx_runtime});var k={};_(k,{default:()=>p,frontmatter:()=>D});var n=b(u()),D={title:\"D\\u0159\\xEDvej\\u0161\\xED opo\\u017Ed\\u011Bn\\xED\",slug:\"drivejsi-opozdeni-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[],duration:\"3:09\",trackNumber:25,producers:[],producersNames:[],description:\"D\\u0159\\xEDvej\\u0161\\xED opo\\u017Ed\\u011Bn\\xED \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Dřívejší opoždění](/skladby/drivejsi-opozdeni-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Což takhle dát si Tesař](/alba/coz-takhle-dat-si-tesar) (2011).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var r in e)n(t,r,{get:e[r],enumerable:!0})},d=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!m.call(t,o)&&o!==r&&n(t,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return t};var D=(t,e,r)=>(r=t!=null?u(j(t)):{},d(e||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>d(n({},\"__esModule\",{value:!0}),t);var l=x((z,i)=>{i.exports=_jsx_runtime});var _={};b(_,{default:()=>p,frontmatter:()=>k});var a=D(l()),k={title:\"D\\u0159\\xEDvej\\u0161\\xED opo\\u017Ed\\u011Bn\\xED\",slug:\"drivejsi-opozdeni-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[\"\"],duration:\"3:09\",trackNumber:25,producers:[],producersNames:[],description:\"D\\u0159\\xEDvej\\u0161\\xED opo\\u017Ed\\u011Bn\\xED \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/drivejsi-opozdeni-dj-fatte\",children:\"D\\u0159\\xEDvej\\u0161\\xED opo\\u017Ed\\u011Bn\\xED\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/coz-takhle-dat-si-tesar\",children:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\"}),\" (2011).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(c,{...t})}):c(t)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/drivejsi-opozdeni-dj-fatte.mdx",
   "_raw": {

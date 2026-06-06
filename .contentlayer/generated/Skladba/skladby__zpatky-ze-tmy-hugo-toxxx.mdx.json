@@ -8,16 +8,19 @@
   "album": "Zpátky Ze Tmy",
   "albumSlug": "zpatky-ze-tmy",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:39",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Zpátky Ze Tmy — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of l(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var k=(e,t,n)=>(n=e!=null?d(y(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var x=g((T,m)=>{m.exports=_jsx_runtime});var Z={};f(Z,{default:()=>c,frontmatter:()=>b});var r=k(x()),b={title:\"Zp\\xE1tky Ze Tmy\",slug:\"zpatky-ze-tmy-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Zp\\xE1tky Ze Tmy\",albumSlug:\"zpatky-ze-tmy\",year:2021,genre:[],duration:\"2:39\",trackNumber:1,producers:[],producersNames:[],description:\"Zp\\xE1tky Ze Tmy \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return _(Z);})();\n;return Component;"
+    "raw": "\n**[Zpátky Ze Tmy](/skladby/zpatky-ze-tmy-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2021).\n",
+    "code": "var Component=(()=>{var y=Object.create;var x=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var o in t)x(e,o,{get:t[o],enumerable:!0})},s=(e,t,o,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of i(t))!g.call(e,n)&&n!==o&&x(e,n,{get:()=>t[n],enumerable:!(a=d(t,n))||a.enumerable});return e};var f=(e,t,o)=>(o=e!=null?y(l(e)):{},s(t||!e||!e.__esModule?x(o,\"default\",{value:e,enumerable:!0}):o,e)),Z=e=>s(x({},\"__esModule\",{value:!0}),e);var p=h((_,u)=>{u.exports=_jsx_runtime});var b={};k(b,{default:()=>c,frontmatter:()=>T});var r=f(p()),T={title:\"Zp\\xE1tky Ze Tmy\",slug:\"zpatky-ze-tmy-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Zp\\xE1tky Ze Tmy\",albumSlug:\"zpatky-ze-tmy\",year:2021,genre:[\"\"],duration:\"2:39\",trackNumber:1,producers:[],producersNames:[],description:\"Zp\\xE1tky Ze Tmy \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/zpatky-ze-tmy-hugo-toxxx\",children:\"Zp\\xE1tky Ze Tmy\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2021).\"]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return Z(b);})();\n;return Component;"
   },
   "_id": "skladby/zpatky-ze-tmy-hugo-toxxx.mdx",
   "_raw": {

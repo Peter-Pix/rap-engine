@@ -12,16 +12,19 @@
   "album": "Yzotape",
   "albumSlug": "yzotape",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Babovako — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==a&&r(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>i(r({},\"__esModule\",{value:!0}),e);var c=f((v,m)=>{m.exports=_jsx_runtime});var z={};k(z,{default:()=>d,frontmatter:()=>j});var n=_(c()),j={title:\"Babovako\",slug:\"babovako-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[],duration:\"3:24\",trackNumber:8,producers:[],producersNames:[],description:\"Babovako \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Babovako](/skladby/babovako-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Yzotape](/alba/yzotape) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(o,a)=>()=>(a||o((a={exports:{}}).exports,a),a.exports),k=(o,a)=>{for(var n in a)t(o,n,{get:a[n],enumerable:!0})},i=(o,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of b(a))!f.call(o,r)&&r!==n&&t(o,r,{get:()=>a[r],enumerable:!(s=l(a,r))||s.enumerable});return o};var x=(o,a,n)=>(n=o!=null?u(z(o)):{},i(a||!o||!o.__esModule?t(n,\"default\",{value:o,enumerable:!0}):n,o)),y=o=>i(t({},\"__esModule\",{value:!0}),o);var c=h((v,d)=>{d.exports=_jsx_runtime});var j={};k(j,{default:()=>p,frontmatter:()=>g});var e=x(c()),g={title:\"Babovako\",slug:\"babovako-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[\"\"],duration:\"3:24\",trackNumber:8,producers:[],producersNames:[],description:\"Babovako \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(o){let a={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/babovako-yzomandias\",children:\"Babovako\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/yzotape\",children:\"Yzotape\"}),\" (2021).\"]})}function p(o={}){let{wrapper:a}=o.components||{};return a?(0,e.jsx)(a,{...o,children:(0,e.jsx)(m,{...o})}):m(o)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/babovako-yzomandias.mdx",
   "_raw": {

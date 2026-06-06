@@ -8,16 +8,19 @@
   "album": "Polo da Lala",
   "albumSlug": "polo-da-lala",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:04",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Polo da Lala — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!f.call(e,r)&&r!==n&&o(e,r,{get:()=>a[r],enumerable:!(l=p(a,r))||l.enumerable});return e};var g=(e,a,n)=>(n=e!=null?m(h(e)):{},s(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),L=e=>s(o({},\"__esModule\",{value:!0}),e);var d=_((M,c)=>{c.exports=_jsx_runtime});var N={};b(N,{default:()=>i,frontmatter:()=>j});var t=g(d()),j={title:\"Polo da Lala\",slug:\"polo-da-lala-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Polo da Lala\",albumSlug:\"polo-da-lala\",year:2022,genre:[],duration:\"3:04\",trackNumber:1,producers:[],producersNames:[],description:\"Polo da Lala \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return L(N);})();\n;return Component;"
+    "raw": "\n**[Polo da Lala](/skladby/polo-da-lala-calin)** od [Calin](/raperi/calin) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),L=(e,a)=>{for(var o in a)n(e,o,{get:a[o],enumerable:!0})},s=(e,a,o,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let l of f(a))!h.call(e,l)&&l!==o&&n(e,l,{get:()=>a[l],enumerable:!(t=m(a,l))||t.enumerable});return e};var b=(e,a,o)=>(o=e!=null?p(x(e)):{},s(a||!e||!e.__esModule?n(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>s(n({},\"__esModule\",{value:!0}),e);var c=g((P,d)=>{d.exports=_jsx_runtime});var C={};L(C,{default:()=>u,frontmatter:()=>j});var r=b(c()),j={title:\"Polo da Lala\",slug:\"polo-da-lala-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Polo da Lala\",albumSlug:\"polo-da-lala\",year:2022,genre:[\"\"],duration:\"3:04\",trackNumber:1,producers:[],producersNames:[],description:\"Polo da Lala \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/polo-da-lala-calin\",children:\"Polo da Lala\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2022).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/polo-da-lala-calin.mdx",
   "_raw": {

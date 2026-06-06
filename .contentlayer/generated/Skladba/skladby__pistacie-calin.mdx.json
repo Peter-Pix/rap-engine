@@ -12,16 +12,19 @@
   "album": "Bieber Fever Tour Life",
   "albumSlug": "bieber-fever-tour-life",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:54",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Pistácie — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of f(t))!b.call(e,i)&&i!==n&&a(e,i,{get:()=>t[i],enumerable:!(o=p(t,i))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(x(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var u=h((M,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>d,frontmatter:()=>N});var r=_(u()),N={title:\"Pist\\xE1cie\",slug:\"pistacie-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"sofian-medjmedj\"],featuresNames:[\"Sofian Medjmedj\"],album:\"Bieber Fever Tour Life\",albumSlug:\"bieber-fever-tour-life\",year:2024,genre:[],duration:\"2:54\",trackNumber:7,producers:[],producersNames:[],description:\"Pist\\xE1cie \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[Pistácie](/skladby/pistacie-calin)** od [Calin](/raperi/calin) z alba [Bieber Fever Tour Life](/alba/bieber-fever-tour-life) (2024).\n",
+    "code": "var Component=(()=>{var f=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var i in e)n(r,i,{get:e[i],enumerable:!0})},o=(r,e,i,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!h.call(r,a)&&a!==i&&n(r,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return r};var g=(r,e,i)=>(i=r!=null?f(b(r)):{},o(e||!r||!r.__esModule?n(i,\"default\",{value:r,enumerable:!0}):i,r)),_=r=>o(n({},\"__esModule\",{value:!0}),r);var l=j((v,c)=>{c.exports=_jsx_runtime});var L={};x(L,{default:()=>d,frontmatter:()=>C});var t=g(l()),C={title:\"Pist\\xE1cie\",slug:\"pistacie-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"sofian-medjmedj\"],featuresNames:[\"Sofian Medjmedj\"],album:\"Bieber Fever Tour Life\",albumSlug:\"bieber-fever-tour-life\",year:2024,genre:[\"\"],duration:\"2:54\",trackNumber:7,producers:[],producersNames:[],description:\"Pist\\xE1cie \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/pistacie-calin\",children:\"Pist\\xE1cie\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/bieber-fever-tour-life\",children:\"Bieber Fever Tour Life\"}),\" (2024).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(u,{...r})}):u(r)}return _(L);})();\n;return Component;"
   },
   "_id": "skladby/pistacie-calin.mdx",
   "_raw": {

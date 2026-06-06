@@ -1,0 +1,28 @@
+{
+  "title": "Propadák",
+  "slug": "propadak",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "year": 2020,
+  "description": "Propadák — singl od DJ Fatte (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/531420800da65118be9141f48cf085cf/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Propadák](/skladby/propadak)** od [DJ Fatte](/raperi/dj-fatte) (2020).\n",
+    "code": "var Component=(()=>{var f=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},p=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!u.call(t,n)&&n!==r&&o(t,n,{get:()=>e[n],enumerable:!(s=g(e,n))||s.enumerable});return t};var k=(t,e,r)=>(r=t!=null?f(m(t)):{},p(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),D=t=>p(o({},\"__esModule\",{value:!0}),t);var c=h((F,d)=>{d.exports=_jsx_runtime});var y={};j(y,{default:()=>l,frontmatter:()=>_});var a=k(c()),_={title:\"Propad\\xE1k\",slug:\"propadak\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",year:2020,description:\"Propad\\xE1k \\u2014 singl od DJ Fatte (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/531420800da65118be9141f48cf085cf/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/propadak\",children:\"Propad\\xE1k\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" (2020).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(i,{...t})}):i(t)}return D(y);})();\n;return Component;"
+  },
+  "_id": "skladby/propadak.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/propadak.mdx",
+    "sourceFileName": "propadak.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/propadak"
+  },
+  "type": "Skladba",
+  "url": "/skladby/propadak",
+  "canonicalUrl": "https://4rap.cz/skladby/propadak"
+}

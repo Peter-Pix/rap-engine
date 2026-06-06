@@ -14,16 +14,19 @@
   "album": "Nadzemí",
   "albumSlug": "nadzemi",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Proč Je To Kak — skladba od Mike Trafik.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},i=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of k(r))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?d(f(e)):{},i(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var c=h((T,m)=>{m.exports=_jsx_runtime});var M={};j(M,{default:()=>l,frontmatter:()=>g});var t=_(c()),g={title:\"Pro\\u010D Je To Kak\",slug:\"proc-je-to-kak-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"james-cole\",\"la4\"],featuresNames:[\"James Cole\",\"LA4\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[],duration:\"3:24\",trackNumber:7,producers:[],producersNames:[],description:\"Pro\\u010D Je To Kak \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Proč Je To Kak](/skladby/proc-je-to-kak-mike-trafik)** od [Mike Trafik](/raperi/mike-trafik) z alba [Nadzemí](/alba/nadzemi) (2012).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!h.call(r,o)&&o!==t&&n(r,o,{get:()=>e[o],enumerable:!(i=u(e,o))||i.enumerable});return r};var j=(r,e,t)=>(t=r!=null?l(p(r)):{},s(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),g=r=>s(n({},\"__esModule\",{value:!0}),r);var c=x((z,k)=>{k.exports=_jsx_runtime});var T={};b(T,{default:()=>d,frontmatter:()=>M});var a=j(c()),M={title:\"Pro\\u010D Je To Kak\",slug:\"proc-je-to-kak-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"james-cole\",\"la4\"],featuresNames:[\"James Cole\",\"LA4\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[\"\"],duration:\"3:24\",trackNumber:7,producers:[],producersNames:[],description:\"Pro\\u010D Je To Kak \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/proc-je-to-kak-mike-trafik\",children:\"Pro\\u010D Je To Kak\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/mike-trafik\",children:\"Mike Trafik\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/nadzemi\",children:\"Nadzem\\xED\"}),\" (2012).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return g(T);})();\n;return Component;"
   },
   "_id": "skladby/proc-je-to-kak-mike-trafik.mdx",
   "_raw": {

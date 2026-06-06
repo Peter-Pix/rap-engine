@@ -8,16 +8,19 @@
   "album": "Around The World",
   "albumSlug": "around-the-world",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:08",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Around The World — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of p(r))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(d=i(r,o))||d.enumerable});return e};var g=(e,r,n)=>(n=e!=null?m(h(e)):{},u(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>u(a({},\"__esModule\",{value:!0}),e);var s=f((B,l)=>{l.exports=_jsx_runtime});var z={};_(z,{default:()=>c,frontmatter:()=>j});var t=g(s()),j={title:\"Around The World\",slug:\"around-the-world-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Around The World\",albumSlug:\"around-the-world\",year:2024,genre:[],duration:\"2:08\",trackNumber:1,producers:[],producersNames:[],description:\"Around The World \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(b,{...e})}):b(e)}return y(z);})();\n;return Component;"
+    "raw": "\n**[Around The World](/skladby/around-the-world-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)a(r,o,{get:e[o],enumerable:!0})},l=(r,e,o,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!y.call(r,t)&&t!==o&&a(r,t,{get:()=>e[t],enumerable:!(d=i(e,t))||d.enumerable});return r};var g=(r,e,o)=>(o=r!=null?h(m(r)):{},l(e||!r||!r.__esModule?a(o,\"default\",{value:r,enumerable:!0}):o,r)),z=r=>l(a({},\"__esModule\",{value:!0}),r);var s=f((A,b)=>{b.exports=_jsx_runtime});var _={};x(_,{default:()=>c,frontmatter:()=>B});var n=g(s()),B={title:\"Around The World\",slug:\"around-the-world-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Around The World\",albumSlug:\"around-the-world\",year:2024,genre:[\"\"],duration:\"2:08\",trackNumber:1,producers:[],producersNames:[],description:\"Around The World \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/around-the-world-bobby-blaze\",children:\"Around The World\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(u,{...r})}):u(r)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/around-the-world-bobby-blaze.mdx",
   "_raw": {

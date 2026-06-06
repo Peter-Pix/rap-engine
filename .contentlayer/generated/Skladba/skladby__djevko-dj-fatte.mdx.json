@@ -12,16 +12,19 @@
   "album": "Fade In",
   "albumSlug": "fade-in",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:45",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Djevko — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(j(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>d(o({},\"__esModule\",{value:!0}),e);var c=h((M,u)=>{u.exports=_jsx_runtime});var D={};k(D,{default:()=>m,frontmatter:()=>g});var n=_(c()),g={title:\"Djevko\",slug:\"djevko-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"maniak\"],featuresNames:[\"Maniak\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[],duration:\"1:45\",trackNumber:3,producers:[],producersNames:[],description:\"Djevko \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Djevko](/skladby/djevko-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fade In](/alba/fade-in) (2018).\n",
+    "code": "var Component=(()=>{var f=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},s=(t,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of j(e))!h.call(t,n)&&n!==r&&o(t,n,{get:()=>e[n],enumerable:!(d=p(e,n))||d.enumerable});return t};var b=(t,e,r)=>(r=t!=null?f(m(t)):{},s(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),D=t=>s(o({},\"__esModule\",{value:!0}),t);var c=k((F,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>l,frontmatter:()=>g});var a=b(c()),g={title:\"Djevko\",slug:\"djevko-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"maniak\"],featuresNames:[\"Maniak\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[\"\"],duration:\"1:45\",trackNumber:3,producers:[],producersNames:[],description:\"Djevko \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/djevko-dj-fatte\",children:\"Djevko\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/fade-in\",children:\"Fade In\"}),\" (2018).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(u,{...t})}):u(t)}return D(_);})();\n;return Component;"
   },
   "_id": "skladby/djevko-dj-fatte.mdx",
   "_raw": {

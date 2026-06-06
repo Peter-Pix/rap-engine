@@ -8,16 +8,19 @@
   "album": "JUSTiCE44 (Ledová Cesta)",
   "albumSlug": "justice44-ledova-cesta",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:22",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Tuvokoli — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!v.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(a=m(t,n))||a.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var l=f((D,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>j});var o=b(l()),j={title:\"Tuvokoli\",slug:\"tuvokoli-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[],duration:\"2:22\",trackNumber:10,producers:[],producersNames:[],description:\"Tuvokoli \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(i,{...e})}):i(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Tuvokoli](/skladby/tuvokoli-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [JUSTiCE44 (Ledová Cesta)](/alba/justice44-ledova-cesta) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var v=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),b=(o,e)=>{for(var t in e)s(o,t,{get:e[t],enumerable:!0})},c=(o,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!h.call(o,r)&&r!==t&&s(o,r,{get:()=>e[r],enumerable:!(n=v(e,r))||n.enumerable});return o};var k=(o,e,t)=>(t=o!=null?p(f(o)):{},c(e||!o||!o.__esModule?s(t,\"default\",{value:o,enumerable:!0}):t,o)),g=o=>c(s({},\"__esModule\",{value:!0}),o);var u=x((_,l)=>{l.exports=_jsx_runtime});var C={};b(C,{default:()=>i,frontmatter:()=>j});var a=k(u()),j={title:\"Tuvokoli\",slug:\"tuvokoli-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[\"\"],duration:\"2:22\",trackNumber:10,producers:[],producersNames:[],description:\"Tuvokoli \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/tuvokoli-lvcas-dope\",children:\"Tuvokoli\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/justice44-ledova-cesta\",children:\"JUSTiCE44 (Ledov\\xE1 Cesta)\"}),\" (2018).\"]})}function i(o={}){let{wrapper:e}=o.components||{};return e?(0,a.jsx)(e,{...o,children:(0,a.jsx)(d,{...o})}):d(o)}return g(C);})();\n;return Component;"
   },
   "_id": "skladby/tuvokoli-lvcas-dope.mdx",
   "_raw": {

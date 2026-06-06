@@ -14,16 +14,19 @@
   "album": "Pod Vlivem",
   "albumSlug": "pod-vlivem",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:35",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Krystal — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=u(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var d=y((z,c)=>{c.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>j});var n=b(d()),j={title:\"Krystal\",slug:\"krystal-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\",\"lvcas-dope\"],featuresNames:[\"Jckpt\",\"Lvcas Dope\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[],duration:\"4:35\",trackNumber:3,producers:[],producersNames:[],description:\"Krystal \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Krystal](/skladby/krystal-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Pod Vlivem](/alba/pod-vlivem) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var t in a)n(e,t,{get:a[t],enumerable:!0})},d=(e,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of y(a))!h.call(e,s)&&s!==t&&n(e,s,{get:()=>a[s],enumerable:!(o=u(a,s))||o.enumerable});return e};var v=(e,a,t)=>(t=e!=null?p(f(e)):{},d(a||!e||!e.__esModule?n(t,\"default\",{value:e,enumerable:!0}):t,e)),z=e=>d(n({},\"__esModule\",{value:!0}),e);var i=x((_,l)=>{l.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>g});var r=v(i()),g={title:\"Krystal\",slug:\"krystal-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\",\"lvcas-dope\"],featuresNames:[\"Jckpt\",\"Lvcas Dope\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[\"\"],duration:\"4:35\",trackNumber:3,producers:[],producersNames:[],description:\"Krystal \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/krystal-yzomandias\",children:\"Krystal\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/pod-vlivem\",children:\"Pod Vlivem\"}),\" (2021).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return z(k);})();\n;return Component;"
   },
   "_id": "skladby/krystal-yzomandias.mdx",
   "_raw": {

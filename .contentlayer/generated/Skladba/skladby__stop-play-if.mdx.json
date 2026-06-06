@@ -14,16 +14,19 @@
   "album": "Stop Play",
   "albumSlug": "stop-play",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Stop Play — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},p=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=m(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(x(e)):{},p(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>p(o({},\"__esModule\",{value:!0}),e);var u=y((D,l)=>{l.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>j});var r=b(u()),j={title:\"Stop Play\",slug:\"stop-play-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[],duration:\"3:08\",trackNumber:9,producers:[],producersNames:[],description:\"Stop Play \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Stop Play](/skladby/stop-play-if)** z alba [Stop Play](/alba/stop-play) (2016).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var a in t)n(e,a,{get:t[a],enumerable:!0})},p=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of m(t))!x.call(e,o)&&o!==a&&n(e,o,{get:()=>t[o],enumerable:!(s=f(t,o))||s.enumerable});return e};var g=(e,t,a)=>(a=e!=null?i(y(e)):{},p(t||!e||!e.__esModule?n(a,\"default\",{value:e,enumerable:!0}):a,e)),S=e=>p(n({},\"__esModule\",{value:!0}),e);var u=b((k,l)=>{l.exports=_jsx_runtime});var _={};h(_,{default:()=>d,frontmatter:()=>j});var r=g(u()),j={title:\"Stop Play\",slug:\"stop-play-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[\"\"],duration:\"3:08\",trackNumber:9,producers:[],producersNames:[],description:\"Stop Play \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function c(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/stop-play-if\",children:\"Stop Play\"})}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/stop-play\",children:\"Stop Play\"}),\" (2016).\"]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return S(_);})();\n;return Component;"
   },
   "_id": "skladby/stop-play-if.mdx",
   "_raw": {

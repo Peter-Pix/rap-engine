@@ -12,16 +12,19 @@
   "album": "Pod Vlivem",
   "albumSlug": "pod-vlivem",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:34",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Hank Moody — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},d=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var _=(e,n,o)=>(o=e!=null?p(x(e)):{},d(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>d(a({},\"__esModule\",{value:!0}),e);var i=k((z,m)=>{m.exports=_jsx_runtime});var j={};y(j,{default:()=>u,frontmatter:()=>g});var t=_(i()),g={title:\"Hank Moody\",slug:\"hank-moody-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\"],featuresNames:[\"Jckpt\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[],duration:\"3:34\",trackNumber:4,producers:[],producersNames:[],description:\"Hank Moody \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Hank Moody](/skladby/hank-moody-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Pod Vlivem](/alba/pod-vlivem) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!f.call(e,r)&&r!==n&&t(e,r,{get:()=>a[r],enumerable:!(s=u(a,r))||s.enumerable});return e};var b=(e,a,n)=>(n=e!=null?p(y(e)):{},d(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),z=e=>d(t({},\"__esModule\",{value:!0}),e);var m=k((M,i)=>{i.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>g});var o=b(m()),g={title:\"Hank Moody\",slug:\"hank-moody-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jckpt\"],featuresNames:[\"Jckpt\"],album:\"Pod Vlivem\",albumSlug:\"pod-vlivem\",year:2021,genre:[\"\"],duration:\"3:34\",trackNumber:4,producers:[],producersNames:[],description:\"Hank Moody \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(a.p,{children:[(0,o.jsx)(a.strong,{children:(0,o.jsx)(a.a,{href:\"/skladby/hank-moody-yzomandias\",children:\"Hank Moody\"})}),\" od \",(0,o.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(a.a,{href:\"/alba/pod-vlivem\",children:\"Pod Vlivem\"}),\" (2021).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,o.jsx)(a,{...e,children:(0,o.jsx)(l,{...e})}):l(e)}return z(j);})();\n;return Component;"
   },
   "_id": "skladby/hank-moody-yzomandias.mdx",
   "_raw": {

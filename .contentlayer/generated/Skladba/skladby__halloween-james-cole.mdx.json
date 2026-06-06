@@ -14,16 +14,19 @@
   "album": "DONE",
   "albumSlug": "done",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "HALLOWEEN — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?i(x(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>l(o({},\"__esModule\",{value:!0}),e);var c=j((C,m)=>{m.exports=_jsx_runtime});var E={};_(E,{default:()=>d,frontmatter:()=>N});var n=b(c()),N={title:\"HALLOWEEN\",slug:\"halloween-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"zef\"],featuresNames:[\"Idea\",\"Zef\"],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[],duration:\"3:16\",trackNumber:3,producers:[],producersNames:[],description:\"HALLOWEEN \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(E);})();\n;return Component;"
+    "raw": "\n**[HALLOWEEN](/skladby/halloween-james-cole)** od [James Cole](/raperi/james-cole) z alba [DONE](/alba/done) (2025).\n",
+    "code": "var Component=(()=>{var i=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var n in e)t(a,n,{get:e[n],enumerable:!0})},l=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!j.call(a,o)&&o!==n&&t(a,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return a};var E=(a,e,n)=>(n=a!=null?i(h(a)):{},l(e||!a||!a.__esModule?t(n,\"default\",{value:a,enumerable:!0}):n,a)),N=a=>l(t({},\"__esModule\",{value:!0}),a);var d=x((C,c)=>{c.exports=_jsx_runtime});var L={};b(L,{default:()=>u,frontmatter:()=>g});var r=E(d()),g={title:\"HALLOWEEN\",slug:\"halloween-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"zef\"],featuresNames:[\"Idea\",\"Zef\"],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[\"\"],duration:\"3:16\",trackNumber:3,producers:[],producersNames:[],description:\"HALLOWEEN \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/halloween-james-cole\",children:\"HALLOWEEN\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/done\",children:\"DONE\"}),\" (2025).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(m,{...a})}):m(a)}return N(L);})();\n;return Component;"
   },
   "_id": "skladby/halloween-james-cole.mdx",
   "_raw": {

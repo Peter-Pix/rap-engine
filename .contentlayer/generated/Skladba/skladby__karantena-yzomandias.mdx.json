@@ -24,16 +24,19 @@
   "album": "J. EDEN E-GEN (mixed by NobodyListen)",
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:49",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "karanténa — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var t in e)r(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of k(e))!x.call(n,o)&&o!==t&&r(n,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return n};var h=(n,e,t)=>(t=n!=null?u(b(n)):{},i(e||!n||!n.__esModule?r(t,\"default\",{value:n,enumerable:!0}):t,n)),N=n=>i(r({},\"__esModule\",{value:!0}),n);var m=y((z,d)=>{d.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>g});var a=h(m()),g={title:\"karant\\xE9na\",slug:\"karantena-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"karlo\",\"nik-tendo\",\"koky\",\"jickson\",\"kamil-hoffmann\",\"hasan\"],featuresNames:[\"Nobodylisten\",\"Karlo\",\"Nik Tendo\",\"Koky\",\"Jickson\",\"Kamil Hoffmann\",\"Hasan\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[],duration:\"2:49\",trackNumber:4,producers:[],producersNames:[],description:\"karant\\xE9na \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return N(j);})();\n;return Component;"
+    "raw": "\n**[karanténa](/skladby/karantena-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),x=(a,n)=>{for(var o in n)t(a,o,{get:n[o],enumerable:!0})},i=(a,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!p.call(a,r)&&r!==o&&t(a,r,{get:()=>n[r],enumerable:!(s=y(n,r))||s.enumerable});return a};var h=(a,n,o)=>(o=a!=null?u(k(a)):{},i(n||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),N=a=>i(t({},\"__esModule\",{value:!0}),a);var m=f((E,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>g});var e=h(m()),g={title:\"karant\\xE9na\",slug:\"karantena-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"karlo\",\"nik-tendo\",\"koky\",\"jickson\",\"kamil-hoffmann\",\"hasan\"],featuresNames:[\"Nobodylisten\",\"Karlo\",\"Nik Tendo\",\"Koky\",\"Jickson\",\"Kamil Hoffmann\",\"Hasan\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"2:49\",trackNumber:4,producers:[],producersNames:[],description:\"karant\\xE9na \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(a){let n={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:(0,e.jsx)(n.a,{href:\"/skladby/karantena-yzomandias\",children:\"karant\\xE9na\"})}),\" od \",(0,e.jsx)(n.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(n.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function c(a={}){let{wrapper:n}=a.components||{};return n?(0,e.jsx)(n,{...a,children:(0,e.jsx)(l,{...a})}):l(a)}return N(j);})();\n;return Component;"
   },
   "_id": "skladby/karantena-yzomandias.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Gorila vs. Architekt",
   "albumSlug": "gorila-vs-architekt",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:34",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Vítěz Sebere Všechno — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?d(x(e)):{},i(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var l=f((k,c)=>{c.exports=_jsx_runtime});var V={};g(V,{default:()=>u,frontmatter:()=>v});var t=_(l()),v={title:\"V\\xEDt\\u011Bz Sebere V\\u0161echno\",slug:\"vitez-sebere-vsechno-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"la4\",\"james-cole\"],featuresNames:[\"LA4\",\"James Cole\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[],duration:\"3:34\",trackNumber:14,producers:[],producersNames:[],description:\"V\\xEDt\\u011Bz Sebere V\\u0161echno \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(V);})();\n;return Component;"
+    "raw": "\n**[Vítěz Sebere Všechno](/skladby/vitez-sebere-vsechno-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Gorila vs. Architekt](/alba/gorila-vs-architekt) (2008).\n",
+    "code": "var Component=(()=>{var h=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},s=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of p(e))!v.call(r,i)&&i!==a&&n(r,i,{get:()=>e[i],enumerable:!(o=u(e,i))||o.enumerable});return r};var x=(r,e,a)=>(a=r!=null?h(b(r)):{},s(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),V=r=>s(n({},\"__esModule\",{value:!0}),r);var c=f((_,l)=>{l.exports=_jsx_runtime});var j={};g(j,{default:()=>m,frontmatter:()=>k});var t=x(c()),k={title:\"V\\xEDt\\u011Bz Sebere V\\u0161echno\",slug:\"vitez-sebere-vsechno-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"la4\",\"james-cole\"],featuresNames:[\"LA4\",\"James Cole\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[\"\"],duration:\"3:34\",trackNumber:14,producers:[],producersNames:[],description:\"V\\xEDt\\u011Bz Sebere V\\u0161echno \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/vitez-sebere-vsechno-vladimir-518\",children:\"V\\xEDt\\u011Bz Sebere V\\u0161echno\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/gorila-vs-architekt\",children:\"Gorila vs. Architekt\"}),\" (2008).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return V(j);})();\n;return Component;"
   },
   "_id": "skladby/vitez-sebere-vsechno-vladimir-518.mdx",
   "_raw": {

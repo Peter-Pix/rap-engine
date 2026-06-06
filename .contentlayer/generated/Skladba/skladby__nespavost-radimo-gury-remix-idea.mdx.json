@@ -18,16 +18,19 @@
   "album": "O beatech a remixech",
   "albumSlug": "o-beatech-a-remixech",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:29",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Nespavost (Radimo & Gury Remix) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},i=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!b.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=l(r,n))||s.enumerable});return e};var y=(e,r,a)=>(a=e!=null?p(h(e)):{},i(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var d=g((v,m)=>{m.exports=_jsx_runtime});var N={};f(N,{default:()=>c,frontmatter:()=>j});var t=y(d()),j={title:\"Nespavost (Radimo & Gury Remix)\",slug:\"nespavost-radimo-gury-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"6polnic\",\"dj-zerwox\",\"radimo\",\"gury\"],featuresNames:[\"6Polnic\",\"DJ Zerwox\",\"Radimo\",\"Gury\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[],duration:\"4:29\",trackNumber:10,producers:[],producersNames:[],description:\"Nespavost (Radimo & Gury Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return _(N);})();\n;return Component;"
+    "raw": "\n**[Nespavost (Radimo & Gury Remix)](/skladby/nespavost-radimo-gury-remix-idea)** od [Idea](/raperi/idea) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of l(e))!g.call(r,t)&&t!==a&&s(r,t,{get:()=>e[t],enumerable:!(n=x(e,t))||n.enumerable});return r};var b=(r,e,a)=>(a=r!=null?p(h(r)):{},i(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),R=r=>i(s({},\"__esModule\",{value:!0}),r);var m=y((v,d)=>{d.exports=_jsx_runtime});var N={};f(N,{default:()=>c,frontmatter:()=>j});var o=b(m()),j={title:\"Nespavost (Radimo & Gury Remix)\",slug:\"nespavost-radimo-gury-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"6polnic\",\"dj-zerwox\",\"radimo\",\"gury\"],featuresNames:[\"6Polnic\",\"DJ Zerwox\",\"Radimo\",\"Gury\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[\"\"],duration:\"4:29\",trackNumber:10,producers:[],producersNames:[],description:\"Nespavost (Radimo & Gury Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/nespavost-radimo-gury-remix-idea\",children:\"Nespavost (Radimo & Gury Remix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" (2021).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(u,{...r})}):u(r)}return R(N);})();\n;return Component;"
   },
   "_id": "skladby/nespavost-radimo-gury-remix-idea.mdx",
   "_raw": {

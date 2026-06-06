@@ -14,16 +14,19 @@
   "album": "Molo",
   "albumSlug": "molo",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:53",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Tuláci — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var b=(e,n,t)=>(t=e!=null?m(g(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var l=f((C,i)=>{i.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>y});var r=b(l()),y={title:\"Tul\\xE1ci\",slug:\"tulaci-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"chris\"],featuresNames:[\"Kenny Rough\",\"Chris\"],album:\"Molo\",albumSlug:\"molo\",year:2014,genre:[],duration:\"3:53\",trackNumber:13,producers:[],producersNames:[],description:\"Tul\\xE1ci \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Tuláci](/skladby/tulaci-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Molo](/alba/molo) (2014).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},u=(e,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!f.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(l=h(a,t))||l.enumerable});return e};var _=(e,a,n)=>(n=e!=null?p(g(e)):{},u(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var s=x((C,i)=>{i.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>y});var r=_(s()),y={title:\"Tul\\xE1ci\",slug:\"tulaci-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"chris\"],featuresNames:[\"Kenny Rough\",\"Chris\"],album:\"Molo\",albumSlug:\"molo\",year:2014,genre:[\"\"],duration:\"3:53\",trackNumber:13,producers:[],producersNames:[],description:\"Tul\\xE1ci \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/tulaci-paulie-garand\",children:\"Tul\\xE1ci\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/molo\",children:\"Molo\"}),\" (2014).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
   },
   "_id": "skladby/tulaci-paulie-garand.mdx",
   "_raw": {

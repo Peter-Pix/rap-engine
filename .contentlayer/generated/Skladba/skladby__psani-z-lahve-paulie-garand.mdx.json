@@ -8,16 +8,19 @@
   "album": "V hlavní roli",
   "albumSlug": "v-hlavni-roli",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:27",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Psaní z lahve — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var r in a)s(e,r,{get:a[r],enumerable:!0})},o=(e,a,r,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!g.call(e,t)&&t!==r&&s(e,t,{get:()=>a[t],enumerable:!(l=m(a,t))||l.enumerable});return e};var b=(e,a,r)=>(r=e!=null?p(x(e)):{},o(a||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),v=e=>o(s({},\"__esModule\",{value:!0}),e);var i=f((M,u)=>{u.exports=_jsx_runtime});var P={};_(P,{default:()=>c,frontmatter:()=>j});var n=b(i()),j={title:\"Psan\\xED z lahve\",slug:\"psani-z-lahve-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:27\",trackNumber:7,producers:[],producersNames:[],description:\"Psan\\xED z lahve \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return v(P);})();\n;return Component;"
+    "raw": "\n**[Psaní z lahve](/skladby/psani-z-lahve-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [V\\_hlavní roli](/alba/v-hlavni-roli) (2012).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},i=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let l of m(a))!v.call(e,l)&&l!==n&&t(e,l,{get:()=>a[l],enumerable:!(s=h(a,l))||s.enumerable});return e};var b=(e,a,n)=>(n=e!=null?c(g(e)):{},i(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>i(t({},\"__esModule\",{value:!0}),e);var u=f((k,o)=>{o.exports=_jsx_runtime});var P={};x(P,{default:()=>p,frontmatter:()=>z});var r=b(u()),z={title:\"Psan\\xED z lahve\",slug:\"psani-z-lahve-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[\"\"],duration:\"3:27\",trackNumber:7,producers:[],producersNames:[],description:\"Psan\\xED z lahve \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/psani-z-lahve-paulie-garand\",children:\"Psan\\xED z lahve\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/v-hlavni-roli\",children:\"V_hlavn\\xED roli\"}),\" (2012).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(P);})();\n;return Component;"
   },
   "_id": "skladby/psani-z-lahve-paulie-garand.mdx",
   "_raw": {

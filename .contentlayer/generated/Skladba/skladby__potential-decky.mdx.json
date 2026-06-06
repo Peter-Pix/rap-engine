@@ -8,16 +8,19 @@
   "album": "3017",
   "albumSlug": "3017",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Potential — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>c(a({},\"__esModule\",{value:!0}),e);var i=_((M,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>y});var n=g(i()),y={title:\"Potential\",slug:\"potential-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[],featuresNames:[],album:\"3017\",albumSlug:\"3017\",year:2024,genre:[],duration:\"3:08\",trackNumber:7,producers:[],producersNames:[],description:\"Potential \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Potential](/skladby/potential-decky)** od [Decky](/raperi/decky) z alba [3017](/alba/3017) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!k.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(s=m(e,a))||s.enumerable});return t};var b=(t,e,n)=>(n=t!=null?p(h(t)):{},c(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),g=t=>c(o({},\"__esModule\",{value:!0}),t);var d=y((M,l)=>{l.exports=_jsx_runtime});var j={};x(j,{default:()=>u,frontmatter:()=>_});var r=b(d()),_={title:\"Potential\",slug:\"potential-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[],featuresNames:[],album:\"3017\",albumSlug:\"3017\",year:2024,genre:[\"\"],duration:\"3:08\",trackNumber:7,producers:[],producersNames:[],description:\"Potential \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/potential-decky\",children:\"Potential\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/3017\",children:\"3017\"}),\" (2024).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/potential-decky.mdx",
   "_raw": {

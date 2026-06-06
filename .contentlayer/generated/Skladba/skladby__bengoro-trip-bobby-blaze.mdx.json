@@ -14,16 +14,19 @@
   "album": "Bengoro Trip",
   "albumSlug": "bengoro-trip",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Bengoro Trip — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of d(r))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=c(r,o))||s.enumerable});return e};var y=(e,r,n)=>(n=e!=null?m(g(e)):{},i(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),B=e=>i(a({},\"__esModule\",{value:!0}),e);var b=h((F,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>_});var t=y(b()),_={title:\"Bengoro Trip\",slug:\"bengoro-trip-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"feri\",\"rytmus\"],featuresNames:[\"Feri\",\"Rytmus\"],album:\"Bengoro Trip\",albumSlug:\"bengoro-trip\",year:2023,genre:[],duration:\"3:03\",trackNumber:1,producers:[],producersNames:[],description:\"Bengoro Trip \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function p(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return B(j);})();\n;return Component;"
+    "raw": "\n**[Bengoro Trip](/skladby/bengoro-trip-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2023).\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),B=(r,e)=>{for(var o in e)a(r,o,{get:e[o],enumerable:!0})},s=(r,e,o,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!y.call(r,n)&&n!==o&&a(r,n,{get:()=>e[n],enumerable:!(b=d(e,n))||b.enumerable});return r};var x=(r,e,o)=>(o=r!=null?c(m(r)):{},s(e||!r||!r.__esModule?a(o,\"default\",{value:r,enumerable:!0}):o,r)),h=r=>s(a({},\"__esModule\",{value:!0}),r);var l=f((T,i)=>{i.exports=_jsx_runtime});var _={};B(_,{default:()=>u,frontmatter:()=>z});var t=x(l()),z={title:\"Bengoro Trip\",slug:\"bengoro-trip-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"feri\",\"rytmus\"],featuresNames:[\"Feri\",\"Rytmus\"],album:\"Bengoro Trip\",albumSlug:\"bengoro-trip\",year:2023,genre:[\"\"],duration:\"3:03\",trackNumber:1,producers:[],producersNames:[],description:\"Bengoro Trip \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/bengoro-trip-bobby-blaze\",children:\"Bengoro Trip\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2023).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(p,{...r})}):p(r)}return h(_);})();\n;return Component;"
   },
   "_id": "skladby/bengoro-trip-bobby-blaze.mdx",
   "_raw": {

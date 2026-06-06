@@ -14,16 +14,19 @@
   "album": "Teritorium Remixy",
   "albumSlug": "teritorium-remixy",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:42",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Chudáčci — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==n&&i(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(x(e)):{},c(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>c(i({},\"__esModule\",{value:!0}),e);var u=_((N,s)=>{s.exports=_jsx_runtime});var C={};b(C,{default:()=>d,frontmatter:()=>j});var r=g(u()),j={title:\"Chud\\xE1\\u010Dci\",slug:\"chudacci-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cistychov\",\"tina\"],featuresNames:[\"Cistychov\",\"Tina\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"5:42\",trackNumber:6,producers:[],producersNames:[],description:\"Chud\\xE1\\u010Dci \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return y(C);})();\n;return Component;"
+    "raw": "\n**[Chudáčci](/skladby/chudacci-orion)** od [Orion](/raperi/orion) (2007).\n",
+    "code": "var Component=(()=>{var h=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),y=(e,r)=>{for(var t in r)i(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of p(r))!f.call(e,o)&&o!==t&&i(e,o,{get:()=>r[o],enumerable:!(a=l(r,o))||a.enumerable});return e};var b=(e,r,t)=>(t=e!=null?h(x(e)):{},c(r||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),C=e=>c(i({},\"__esModule\",{value:!0}),e);var u=g((M,s)=>{s.exports=_jsx_runtime});var j={};y(j,{default:()=>m,frontmatter:()=>_});var n=b(u()),_={title:\"Chud\\xE1\\u010Dci\",slug:\"chudacci-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cistychov\",\"tina\"],featuresNames:[\"Cistychov\",\"Tina\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[\"\"],duration:\"5:42\",trackNumber:6,producers:[],producersNames:[],description:\"Chud\\xE1\\u010Dci \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/chudacci-orion\",children:\"Chud\\xE1\\u010Dci\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" (2007).\"]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return C(j);})();\n;return Component;"
   },
   "_id": "skladby/chudacci-orion.mdx",
   "_raw": {

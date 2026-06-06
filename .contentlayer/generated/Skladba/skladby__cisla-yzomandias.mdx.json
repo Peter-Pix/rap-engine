@@ -12,16 +12,19 @@
   "album": "[Gudlak]",
   "albumSlug": "gudlak",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:50",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Čísla — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!f.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(o=p(t,r))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?c(h(e)):{},l(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>l(s({},\"__esModule\",{value:!0}),e);var d=g((M,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>i,frontmatter:()=>k});var a=b(d()),k={title:\"\\u010C\\xEDsla\",slug:\"cisla-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[],duration:\"3:50\",trackNumber:9,producers:[],producersNames:[],description:\"\\u010C\\xEDsla \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(m,{...e})}):m(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Čísla](/skladby/cisla-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [[Gudlak]](/alba/gudlak) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var n in a)t(r,n,{get:a[n],enumerable:!0})},l=(r,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of f(a))!g.call(r,s)&&s!==n&&t(r,s,{get:()=>a[s],enumerable:!(o=p(a,s))||o.enumerable});return r};var k=(r,a,n)=>(n=r!=null?m(h(r)):{},l(a||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),z=r=>l(t({},\"__esModule\",{value:!0}),r);var i=x((M,d)=>{d.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>y});var e=k(i()),y={title:\"\\u010C\\xEDsla\",slug:\"cisla-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[\"\"],duration:\"3:50\",trackNumber:9,producers:[],producersNames:[],description:\"\\u010C\\xEDsla \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/cisla-yzomandias\",children:\"\\u010C\\xEDsla\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/gudlak\",children:\"[Gudlak]\"}),\" (2020).\"]})}function c(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(u,{...r})}):u(r)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/cisla-yzomandias.mdx",
   "_raw": {

@@ -1,0 +1,28 @@
+{
+  "title": "Fast Car",
+  "slug": "fast-car",
+  "rapper": "James Cole",
+  "rapperSlug": "james-cole",
+  "year": 2026,
+  "description": "Fast Car — singl od James Cole (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/ca002948d61edf1e045225192ce008b2/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Fast Car](/skladby/fast-car)** od [James Cole](/raperi/james-cole) (2026).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)n(t,a,{get:e[a],enumerable:!0})},c=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of g(e))!u.call(t,s)&&s!==a&&n(t,s,{get:()=>e[s],enumerable:!(o=f(e,s))||o.enumerable});return t};var C=(t,e,a)=>(a=t!=null?m(x(t)):{},c(e||!t||!t.__esModule?n(a,\"default\",{value:t,enumerable:!0}):a,t)),_=t=>c(n({},\"__esModule\",{value:!0}),t);var i=h((F,l)=>{l.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>y});var r=C(i()),y={title:\"Fast Car\",slug:\"fast-car\",rapper:\"James Cole\",rapperSlug:\"james-cole\",year:2026,description:\"Fast Car \\u2014 singl od James Cole (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/ca002948d61edf1e045225192ce008b2/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/fast-car\",children:\"Fast Car\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" (2026).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return _(b);})();\n;return Component;"
+  },
+  "_id": "skladby/fast-car.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/fast-car.mdx",
+    "sourceFileName": "fast-car.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/fast-car"
+  },
+  "type": "Skladba",
+  "url": "/skladby/fast-car",
+  "canonicalUrl": "https://4rap.cz/skladby/fast-car"
+}

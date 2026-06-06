@@ -8,16 +8,19 @@
   "album": "2051",
   "albumSlug": "2051",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:14",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Koberec feat. (Micky Gee & Fuckstroy) — skladba od Smack.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let c of k(t))!x.call(e,c)&&c!==n&&a(e,c,{get:()=>t[c],enumerable:!(o=p(t,c))||o.enumerable});return e};var y=(e,t,n)=>(n=e!=null?l(f(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var m=b((S,u)=>{u.exports=_jsx_runtime});var j={};h(j,{default:()=>d,frontmatter:()=>_});var r=y(m()),_={title:\"Koberec feat. (Micky Gee & Fuckstroy)\",slug:\"koberec-feat-micky-gee-fuckstroy-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[],duration:\"3:14\",trackNumber:5,producers:[],producersNames:[],description:\"Koberec feat. (Micky Gee & Fuckstroy) \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Koberec feat. (Micky Gee & Fuckstroy)](/skladby/koberec-feat-micky-gee-fuckstroy-smack)** od [Smack One](/raperi/smack) z alba [2051](/alba/2051) (2012).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},n=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let c of f(e))!b.call(r,c)&&c!==a&&o(r,c,{get:()=>e[c],enumerable:!(s=d(e,c))||s.enumerable});return r};var g=(r,e,a)=>(a=r!=null?l(p(r)):{},n(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),x=r=>n(o({},\"__esModule\",{value:!0}),r);var k=y((S,u)=>{u.exports=_jsx_runtime});var _={};h(_,{default:()=>m,frontmatter:()=>M});var t=g(k()),M={title:\"Koberec feat. (Micky Gee & Fuckstroy)\",slug:\"koberec-feat-micky-gee-fuckstroy-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[\"\"],duration:\"3:14\",trackNumber:5,producers:[],producersNames:[],description:\"Koberec feat. (Micky Gee & Fuckstroy) \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/koberec-feat-micky-gee-fuckstroy-smack\",children:\"Koberec feat. (Micky Gee & Fuckstroy)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/smack\",children:\"Smack One\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/2051\",children:\"2051\"}),\" (2012).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(i,{...r})}):i(r)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/koberec-feat-micky-gee-fuckstroy-smack.mdx",
   "_raw": {

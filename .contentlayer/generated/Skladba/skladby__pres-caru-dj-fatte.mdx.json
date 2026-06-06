@@ -14,16 +14,19 @@
   "album": "Reflex",
   "albumSlug": "reflex",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:08",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Přes čáru — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!f.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=i(t,s))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(x(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var d=j((N,c)=>{c.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>S});var r=_(d()),S={title:\"P\\u0159es \\u010D\\xE1ru\",slug:\"pres-caru-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"johnyboss\",\"zemevzduch\"],featuresNames:[\"JOHNYBOSS\",\"Zem\\u011BVzduch\"],album:\"Reflex\",albumSlug:\"reflex\",year:2022,genre:[],duration:\"4:08\",trackNumber:5,producers:[],producersNames:[],description:\"P\\u0159es \\u010D\\xE1ru \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Přes čáru](/skladby/pres-caru-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Reflex](/alba/reflex) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},u=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!x.call(r,n)&&n!==a&&s(r,n,{get:()=>e[n],enumerable:!(o=i(e,n))||o.enumerable});return r};var g=(r,e,a)=>(a=r!=null?p(h(r)):{},u(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),_=r=>u(s({},\"__esModule\",{value:!0}),r);var d=j((J,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>f,frontmatter:()=>D});var t=g(d()),D={title:\"P\\u0159es \\u010D\\xE1ru\",slug:\"pres-caru-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"johnyboss\",\"zemevzduch\"],featuresNames:[\"JOHNYBOSS\",\"Zem\\u011BVzduch\"],album:\"Reflex\",albumSlug:\"reflex\",year:2022,genre:[\"\"],duration:\"4:08\",trackNumber:5,producers:[],producersNames:[],description:\"P\\u0159es \\u010D\\xE1ru \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/pres-caru-dj-fatte\",children:\"P\\u0159es \\u010D\\xE1ru\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/reflex\",children:\"Reflex\"}),\" (2022).\"]})}function f(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/pres-caru-dj-fatte.mdx",
   "_raw": {

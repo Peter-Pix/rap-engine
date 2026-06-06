@@ -1,0 +1,28 @@
+{
+  "title": "Next",
+  "slug": "next",
+  "rapper": "IKE",
+  "rapperSlug": "ike",
+  "year": 2026,
+  "description": "Next — singl od IKE (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6132072e5659375d6a4ee6d96c0e0f37/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Next](/skladby/next)** (2026).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of m(t))!f.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=g(t,s))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(u(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>i(o({},\"__esModule\",{value:!0}),e);var l=h((b,c)=>{c.exports=_jsx_runtime});var M={};j(M,{default:()=>x,frontmatter:()=>D});var r=_(l()),D={title:\"Next\",slug:\"next\",rapper:\"IKE\",rapperSlug:\"ike\",year:2026,description:\"Next \\u2014 singl od IKE (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/6132072e5659375d6a4ee6d96c0e0f37/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/next\",children:\"Next\"})}),\" (2026).\"]})}function x(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return y(M);})();\n;return Component;"
+  },
+  "_id": "skladby/next.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/next.mdx",
+    "sourceFileName": "next.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/next"
+  },
+  "type": "Skladba",
+  "url": "/skladby/next",
+  "canonicalUrl": "https://4rap.cz/skladby/next"
+}

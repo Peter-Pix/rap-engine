@@ -8,16 +8,19 @@
   "album": "Hood Celebrity 3",
   "albumSlug": "hood-celebrity-3",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:12",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Kellner — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(l=p(r,a))||l.enumerable});return e};var _=(e,r,n)=>(n=e!=null?m(b(e)):{},s(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var c=A((N,u)=>{u.exports=_jsx_runtime});var C={};f(C,{default:()=>i,frontmatter:()=>j});var t=_(c()),j={title:\"Kellner\",slug:\"kellner-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 3\",albumSlug:\"hood-celebrity-3\",year:2019,genre:[],duration:\"3:12\",trackNumber:5,producers:[],producersNames:[],description:\"Kellner \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[Kellner](/skladby/kellner-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Hood Celebrity 3](/alba/hood-celebrity-3) (2019).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!m.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(l=b(e,t))||l.enumerable});return r};var H=(r,e,n)=>(n=r!=null?i(A(r)):{},s(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>s(o({},\"__esModule\",{value:!0}),r);var u=f((_,c)=>{c.exports=_jsx_runtime});var C={};x(C,{default:()=>h,frontmatter:()=>y});var a=H(u()),y={title:\"Kellner\",slug:\"kellner-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 3\",albumSlug:\"hood-celebrity-3\",year:2019,genre:[\"\"],duration:\"3:12\",trackNumber:5,producers:[],producersNames:[],description:\"Kellner \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/kellner-ca-hanova-bulhar\",children:\"Kellner\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/hood-celebrity-3\",children:\"Hood Celebrity 3\"}),\" (2019).\"]})}function h(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return g(C);})();\n;return Component;"
   },
   "_id": "skladby/kellner-ca-hanova-bulhar.mdx",
   "_raw": {

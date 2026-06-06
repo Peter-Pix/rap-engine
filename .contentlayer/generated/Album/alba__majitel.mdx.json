@@ -1,0 +1,28 @@
+{
+  "title": "Majitel",
+  "slug": "majitel",
+  "rapper": "Robin Zoot",
+  "rapperSlug": "robin-zoot",
+  "year": 2026,
+  "genre": [],
+  "description": "Majitel — album od Robin Zoot (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/2b42da1709c6b6ec5f17ba95d8de6cca/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},c=(e,t,o,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of b(t))!x.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(i=u(t,r))||i.enumerable});return e};var _=(e,t,o)=>(o=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),f=e=>c(a({},\"__esModule\",{value:!0}),e);var d=g((C,s)=>{s.exports=_jsx_runtime});var y={};j(y,{default:()=>l,frontmatter:()=>M});var n=_(d()),M={title:\"Majitel\",slug:\"majitel\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",year:2026,genre:[],description:\"Majitel \\u2014 album od Robin Zoot (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/2b42da1709c6b6ec5f17ba95d8de6cca/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return f(y);})();\n;return Component;"
+  },
+  "_id": "alba/majitel.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/majitel.mdx",
+    "sourceFileName": "majitel.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/majitel"
+  },
+  "type": "Album",
+  "url": "/alba/majitel",
+  "canonicalUrl": "https://4rap.cz/alba/majitel"
+}

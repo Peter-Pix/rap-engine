@@ -16,16 +16,19 @@
   "album": "BÍLEJ JAK STĚNA",
   "albumSlug": "bilej-jak-stena",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:12",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "BÍLEJ JAK STĚNA (BASSLINE REMIX) — skladba od Joshua.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var S=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var A=(e,t,n)=>(n=e!=null?d(j(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),J=e=>u(s({},\"__esModule\",{value:!0}),e);var c=S((M,m)=>{m.exports=_jsx_runtime});var f={};b(f,{default:()=>l,frontmatter:()=>N});var r=A(c()),N={title:\"B\\xCDLEJ JAK ST\\u011ANA (BASSLINE REMIX)\",slug:\"bilej-jak-stena-bassline-remix-joshua\",rapper:\"Joshua\",rapperSlug:\"joshua\",features:[\"smack\",\"mr-be\",\"cmd\"],featuresNames:[\"Smack\",\"Mr Be\",\"CMD\"],album:\"B\\xCDLEJ JAK ST\\u011ANA\",albumSlug:\"bilej-jak-stena\",year:2025,genre:[],duration:\"4:12\",trackNumber:1,producers:[],producersNames:[],description:\"B\\xCDLEJ JAK ST\\u011ANA (BASSLINE REMIX) \\u2014 skladba od Joshua.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return J(f);})();\n;return Component;"
+    "raw": "\n**[BÍLEJ JAK STĚNA (BASSLINE REMIX)](/skladby/bilej-jak-stena-bassline-remix-joshua)** od [Joshua](/raperi/joshua) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,S=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),A=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},u=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of j(e))!S.call(r,t)&&t!==a&&n(r,t,{get:()=>e[t],enumerable:!(o=h(e,t))||o.enumerable});return r};var x=(r,e,a)=>(a=r!=null?d(p(r)):{},u(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),J=r=>u(n({},\"__esModule\",{value:!0}),r);var c=b((k,i)=>{i.exports=_jsx_runtime});var N={};A(N,{default:()=>m,frontmatter:()=>E});var s=x(c()),E={title:\"B\\xCDLEJ JAK ST\\u011ANA (BASSLINE REMIX)\",slug:\"bilej-jak-stena-bassline-remix-joshua\",rapper:\"Joshua\",rapperSlug:\"joshua\",features:[\"smack\",\"mr-be\",\"cmd\"],featuresNames:[\"Smack\",\"Mr Be\",\"CMD\"],album:\"B\\xCDLEJ JAK ST\\u011ANA\",albumSlug:\"bilej-jak-stena\",year:2025,genre:[\"\"],duration:\"4:12\",trackNumber:1,producers:[],producersNames:[],description:\"B\\xCDLEJ JAK ST\\u011ANA (BASSLINE REMIX) \\u2014 skladba od Joshua.\",publishedAt:\"2026-05-31\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/bilej-jak-stena-bassline-remix-joshua\",children:\"B\\xCDLEJ JAK ST\\u011ANA (BASSLINE REMIX)\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/joshua\",children:\"Joshua\"}),\" (2025).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(l,{...r})}):l(r)}return J(N);})();\n;return Component;"
   },
   "_id": "skladby/bilej-jak-stena-bassline-remix-joshua.mdx",
   "_raw": {

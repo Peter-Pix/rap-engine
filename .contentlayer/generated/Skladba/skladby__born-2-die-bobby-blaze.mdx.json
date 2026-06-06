@@ -8,16 +8,19 @@
   "album": "Through These Eyes",
   "albumSlug": "through-these-eyes",
   "year": 2004,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:20",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Born 2 Die — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var f=(e,t,n)=>(n=e!=null?m(p(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var l=g((D,b)=>{b.exports=_jsx_runtime});var j={};y(j,{default:()=>i,frontmatter:()=>B});var r=f(l()),B={title:\"Born 2 Die\",slug:\"born-2-die-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[],duration:\"5:20\",trackNumber:6,producers:[],producersNames:[],description:\"Born 2 Die \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Born 2 Die](/skladby/born-2-die-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Through These Eyes](/alba/through-these-eyes) (2004).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},b=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!m.call(r,a)&&a!==t&&n(r,a,{get:()=>e[a],enumerable:!(s=d(e,a))||s.enumerable});return r};var x=(r,e,t)=>(t=r!=null?c(y(r)):{},b(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),B=r=>b(n({},\"__esModule\",{value:!0}),r);var u=g((D,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>i,frontmatter:()=>z});var o=x(u()),z={title:\"Born 2 Die\",slug:\"born-2-die-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[\"\"],duration:\"5:20\",trackNumber:6,producers:[],producersNames:[],description:\"Born 2 Die \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function h(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/born-2-die-bobby-blaze\",children:\"Born 2 Die\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/through-these-eyes\",children:\"Through These Eyes\"}),\" (2004).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(h,{...r})}):h(r)}return B(_);})();\n;return Component;"
   },
   "_id": "skladby/born-2-die-bobby-blaze.mdx",
   "_raw": {

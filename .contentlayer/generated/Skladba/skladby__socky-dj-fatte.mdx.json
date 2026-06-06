@@ -16,16 +16,19 @@
   "album": "Soundtrack",
   "albumSlug": "soundtrack",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:53",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Socky — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!h.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=l(e,o))||s.enumerable});return t};var b=(t,e,n)=>(n=t!=null?p(f(t)):{},c(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>c(a({},\"__esModule\",{value:!0}),t);var d=k((D,u)=>{u.exports=_jsx_runtime});var _={};y(_,{default:()=>m,frontmatter:()=>S});var r=b(d()),S={title:\"Socky\",slug:\"socky-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"boy-wonder\",\"lyrik\",\"strapo\"],featuresNames:[\"Boy Wonder\",\"Lyrik\",\"Strapo\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"3:53\",trackNumber:7,producers:[],producersNames:[],description:\"Socky \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return j(_);})();\n;return Component;"
+    "raw": "\n**[Socky](/skladby/socky-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack](/alba/soundtrack) (2013).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)n(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of k(t))!y.call(e,o)&&o!==a&&n(e,o,{get:()=>t[o],enumerable:!(s=f(t,o))||s.enumerable});return e};var j=(e,t,a)=>(a=e!=null?p(m(e)):{},c(t||!e||!e.__esModule?n(a,\"default\",{value:e,enumerable:!0}):a,e)),x=e=>c(n({},\"__esModule\",{value:!0}),e);var u=h((D,d)=>{d.exports=_jsx_runtime});var g={};b(g,{default:()=>i,frontmatter:()=>S});var r=j(u()),S={title:\"Socky\",slug:\"socky-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"boy-wonder\",\"lyrik\",\"strapo\"],featuresNames:[\"Boy Wonder\",\"Lyrik\",\"Strapo\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[\"\"],duration:\"3:53\",trackNumber:7,producers:[],producersNames:[],description:\"Socky \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/socky-dj-fatte\",children:\"Socky\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/soundtrack\",children:\"Soundtrack\"}),\" (2013).\"]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return x(g);})();\n;return Component;"
   },
   "_id": "skladby/socky-dj-fatte.mdx",
   "_raw": {

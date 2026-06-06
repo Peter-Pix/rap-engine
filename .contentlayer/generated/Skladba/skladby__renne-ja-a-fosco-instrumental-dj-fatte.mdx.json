@@ -8,16 +8,19 @@
   "album": "Fade In (Instrumental)",
   "albumSlug": "fade-in-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:30",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Renne, Já a Fosco (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),F=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var c=j((J,m)=>{m.exports=_jsx_runtime});var D={};F(D,{default:()=>d,frontmatter:()=>g});var n=_(c()),g={title:\"Renne, J\\xE1 a Fosco (Instrumental)\",slug:\"renne-ja-a-fosco-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fade In (Instrumental)\",albumSlug:\"fade-in-instrumental\",year:2020,genre:[],duration:\"3:30\",trackNumber:11,producers:[],producersNames:[],description:\"Renne, J\\xE1 a Fosco (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Renne, Já a Fosco (Instrumental)](/skladby/renne-ja-a-fosco-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fade In (Instrumental)](/alba/fade-in-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},u=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!h.call(t,r)&&r!==a&&s(t,r,{get:()=>e[r],enumerable:!(o=f(e,r))||o.enumerable});return t};var F=(t,e,a)=>(a=t!=null?m(j(t)):{},u(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>u(s({},\"__esModule\",{value:!0}),t);var d=x((D,l)=>{l.exports=_jsx_runtime});var J={};b(J,{default:()=>i,frontmatter:()=>I});var n=F(d()),I={title:\"Renne, J\\xE1 a Fosco (Instrumental)\",slug:\"renne-ja-a-fosco-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fade In (Instrumental)\",albumSlug:\"fade-in-instrumental\",year:2020,genre:[\"\"],duration:\"3:30\",trackNumber:11,producers:[],producersNames:[],description:\"Renne, J\\xE1 a Fosco (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/renne-ja-a-fosco-instrumental-dj-fatte\",children:\"Renne, J\\xE1 a Fosco (Instrumental)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/fade-in-instrumental\",children:\"Fade In (Instrumental)\"}),\" (2020).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(c,{...t})}):c(t)}return g(J);})();\n;return Component;"
   },
   "_id": "skladby/renne-ja-a-fosco-instrumental-dj-fatte.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "rap disco revoluce",
   "albumSlug": "rap-disco-revoluce",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:18",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Chtěla bys mě mít — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?d(b(e)):{},c(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var m=A((N,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>i,frontmatter:()=>C});var r=_(m()),C={title:\"Cht\\u011Bla bys m\\u011B m\\xEDt\",slug:\"chtela-bys-me-mit-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[],duration:\"3:18\",trackNumber:11,producers:[],producersNames:[],description:\"Cht\\u011Bla bys m\\u011B m\\xEDt \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Chtěla bys mě mít](/skladby/chtela-bys-me-mit-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [rap disco revoluce](/alba/rap-disco-revoluce) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var t in a)n(e,t,{get:a[t],enumerable:!0})},c=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!A.call(e,o)&&o!==t&&n(e,o,{get:()=>a[o],enumerable:!(s=d(a,o))||s.enumerable});return e};var v=(e,a,t)=>(t=e!=null?m(b(e)):{},c(a||!e||!e.__esModule?n(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>c(n({},\"__esModule\",{value:!0}),e);var u=f((N,l)=>{l.exports=_jsx_runtime});var g={};x(g,{default:()=>i,frontmatter:()=>C});var r=v(u()),C={title:\"Cht\\u011Bla bys m\\u011B m\\xEDt\",slug:\"chtela-bys-me-mit-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[\"\"],duration:\"3:18\",trackNumber:11,producers:[],producersNames:[],description:\"Cht\\u011Bla bys m\\u011B m\\xEDt \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function h(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/chtela-bys-me-mit-ca-hanova-bulhar\",children:\"Cht\\u011Bla bys m\\u011B m\\xEDt\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/rap-disco-revoluce\",children:\"rap disco revoluce\"}),\" (2020).\"]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(h,{...e})}):h(e)}return y(g);})();\n;return Component;"
   },
   "_id": "skladby/chtela-bys-me-mit-ca-hanova-bulhar.mdx",
   "_raw": {

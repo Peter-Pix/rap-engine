@@ -8,16 +8,19 @@
   "album": "Night Creatures",
   "albumSlug": "night-creatures",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:23",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Night Creatures — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(u=p(t,a))||u.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(g(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>i(s({},\"__esModule\",{value:!0}),e);var c=f((M,o)=>{o.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>N});var r=b(c()),N={title:\"Night Creatures\",slug:\"night-creatures-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Night Creatures\",albumSlug:\"night-creatures\",year:2025,genre:[],duration:\"3:23\",trackNumber:1,producers:[],producersNames:[],description:\"Night Creatures \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Night Creatures](/skladby/night-creatures-maniak)** od [Maniak](/raperi/maniak) (2025).\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},o=(r,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!k.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(i=l(e,n))||i.enumerable});return r};var N=(r,e,t)=>(t=r!=null?h(g(r)):{},o(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),b=r=>o(s({},\"__esModule\",{value:!0}),r);var c=f((j,u)=>{u.exports=_jsx_runtime});var M={};x(M,{default:()=>m,frontmatter:()=>C});var a=N(c()),C={title:\"Night Creatures\",slug:\"night-creatures-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Night Creatures\",albumSlug:\"night-creatures\",year:2025,genre:[\"\"],duration:\"3:23\",trackNumber:1,producers:[],producersNames:[],description:\"Night Creatures \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/night-creatures-maniak\",children:\"Night Creatures\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2025).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return b(M);})();\n;return Component;"
   },
   "_id": "skladby/night-creatures-maniak.mdx",
   "_raw": {

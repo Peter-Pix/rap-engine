@@ -12,16 +12,19 @@
   "album": "Nautshit",
   "albumSlug": "nautshit",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:29",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Nautshit — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},u=(t,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!g.call(t,o)&&o!==r&&s(t,o,{get:()=>e[o],enumerable:!(a=h(e,o))||a.enumerable});return t};var b=(t,e,r)=>(r=t!=null?l(p(t)):{},u(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),j=t=>u(s({},\"__esModule\",{value:!0}),t);var i=f((S,x)=>{x.exports=_jsx_runtime});var C={};_(C,{default:()=>m,frontmatter:()=>N});var n=b(i()),N={title:\"Nautshit\",slug:\"nautshit-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Nautshit\",albumSlug:\"nautshit\",year:2020,genre:[],duration:\"2:29\",trackNumber:1,producers:[],producersNames:[],description:\"Nautshit \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(c,{...t})}):c(t)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Nautshit](/skladby/nautshit-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2020).\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),N=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},u=(e,t,o,n)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!m.call(e,s)&&s!==o&&a(e,s,{get:()=>t[s],enumerable:!(n=d(t,s))||n.enumerable});return e};var b=(e,t,o)=>(o=e!=null?l(g(e)):{},u(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var i=f((C,x)=>{x.exports=_jsx_runtime});var k={};N(k,{default:()=>h,frontmatter:()=>_});var r=b(i()),_={title:\"Nautshit\",slug:\"nautshit-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Nautshit\",albumSlug:\"nautshit\",year:2020,genre:[\"\"],duration:\"2:29\",trackNumber:1,producers:[],producersNames:[],description:\"Nautshit \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/nautshit-hugo-toxxx\",children:\"Nautshit\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2020).\"]})}function h(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(k);})();\n;return Component;"
   },
   "_id": "skladby/nautshit-hugo-toxxx.mdx",
   "_raw": {

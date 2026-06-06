@@ -8,16 +8,19 @@
   "album": "The Text",
   "albumSlug": "the-text",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Hands In the Sky — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=i(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(p(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var b=y((z,l)=>{l.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>j});var n=_(b()),j={title:\"Hands In the Sky\",slug:\"hands-in-the-sky-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[],duration:\"3:07\",trackNumber:9,producers:[],producersNames:[],description:\"Hands In the Sky \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Hands In the Sky](/skladby/hands-in-the-sky-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Text](/alba/the-text) (2006).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var m=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},b=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!x.call(t,r)&&r!==n&&s(t,r,{get:()=>e[r],enumerable:!(o=i(e,r))||o.enumerable});return t};var k=(t,e,n)=>(n=t!=null?u(y(t)):{},b(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),z=t=>b(s({},\"__esModule\",{value:!0}),t);var d=m((j,l)=>{l.exports=_jsx_runtime});var B={};f(B,{default:()=>c,frontmatter:()=>g});var a=k(d()),g={title:\"Hands In the Sky\",slug:\"hands-in-the-sky-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[\"\"],duration:\"3:07\",trackNumber:9,producers:[],producersNames:[],description:\"Hands In the Sky \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function h(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/hands-in-the-sky-bobby-blaze\",children:\"Hands In the Sky\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/the-text\",children:\"The Text\"}),\" (2006).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(h,{...t})}):h(t)}return z(B);})();\n;return Component;"
   },
   "_id": "skladby/hands-in-the-sky-bobby-blaze.mdx",
   "_raw": {

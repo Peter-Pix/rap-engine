@@ -8,16 +8,19 @@
   "album": "Nirvana",
   "albumSlug": "nirvana",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:32",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Se mnou — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!g.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(u=p(n,t))||u.enumerable});return e};var b=(e,n,a)=>(a=e!=null?c(h(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var m=f((k,i)=>{i.exports=_jsx_runtime});var N={};_(N,{default:()=>l,frontmatter:()=>S});var r=b(m()),S={title:\"Se mnou\",slug:\"se-mnou-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"3:32\",trackNumber:12,producers:[],producersNames:[],description:\"Se mnou \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Se mnou](/skladby/se-mnou-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Nirvana](/alba/nirvana) (2017).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of g(a))!h.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(u=m(a,t))||u.enumerable});return e};var _=(e,a,n)=>(n=e!=null?p(f(e)):{},s(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var l=x((k,i)=>{i.exports=_jsx_runtime});var S={};b(S,{default:()=>c,frontmatter:()=>N});var r=_(l()),N={title:\"Se mnou\",slug:\"se-mnou-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[\"\"],duration:\"3:32\",trackNumber:12,producers:[],producersNames:[],description:\"Se mnou \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/se-mnou-paulie-garand\",children:\"Se mnou\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/nirvana\",children:\"Nirvana\"}),\" (2017).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(S);})();\n;return Component;"
   },
   "_id": "skladby/se-mnou-paulie-garand.mdx",
   "_raw": {

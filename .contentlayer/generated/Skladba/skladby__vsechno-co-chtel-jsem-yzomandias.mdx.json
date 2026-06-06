@@ -12,16 +12,19 @@
   "album": "[Gudlak]",
   "albumSlug": "gudlak",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:40",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Všechno Co Chtěl Jsem — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=h(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?i(x(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>m(a({},\"__esModule\",{value:!0}),e);var l=g((z,c)=>{c.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>C});var n=b(l()),C={title:\"V\\u0161echno Co Cht\\u011Bl Jsem\",slug:\"vsechno-co-chtel-jsem-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[],duration:\"3:40\",trackNumber:8,producers:[],producersNames:[],description:\"V\\u0161echno Co Cht\\u011Bl Jsem \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Všechno Co Chtěl Jsem](/skladby/vsechno-co-chtel-jsem-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [[Gudlak]](/alba/gudlak) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var o in e)s(a,o,{get:e[o],enumerable:!0})},l=(a,e,o,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!g.call(a,r)&&r!==o&&s(a,r,{get:()=>e[r],enumerable:!(t=h(e,r))||t.enumerable});return a};var k=(a,e,o)=>(o=a!=null?u(f(a)):{},l(e||!a||!a.__esModule?s(o,\"default\",{value:a,enumerable:!0}):o,a)),z=a=>l(s({},\"__esModule\",{value:!0}),a);var d=x((_,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>i,frontmatter:()=>C});var n=k(d()),C={title:\"V\\u0161echno Co Cht\\u011Bl Jsem\",slug:\"vsechno-co-chtel-jsem-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[\"\"],duration:\"3:40\",trackNumber:8,producers:[],producersNames:[],description:\"V\\u0161echno Co Cht\\u011Bl Jsem \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/vsechno-co-chtel-jsem-yzomandias\",children:\"V\\u0161echno Co Cht\\u011Bl Jsem\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/gudlak\",children:\"[Gudlak]\"}),\" (2020).\"]})}function i(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(m,{...a})}):m(a)}return z(j);})();\n;return Component;"
   },
   "_id": "skladby/vsechno-co-chtel-jsem-yzomandias.mdx",
   "_raw": {

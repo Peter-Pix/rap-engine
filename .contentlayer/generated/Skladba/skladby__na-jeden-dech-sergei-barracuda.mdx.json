@@ -12,16 +12,19 @@
   "album": "Goodfellas",
   "albumSlug": "goodfellas",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:16",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Na jeden dech — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},d=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!x.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var j=(e,r,t)=>(t=e!=null?m(g(e)):{},d(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>d(o({},\"__esModule\",{value:!0}),e);var u=f((k,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>i,frontmatter:()=>N});var a=j(u()),N={title:\"Na jeden dech\",slug:\"na-jeden-dech-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"palermo\"],featuresNames:[\"Palermo\"],album:\"Goodfellas\",albumSlug:\"goodfellas\",year:2024,genre:[],duration:\"4:16\",trackNumber:1,producers:[],producersNames:[],description:\"Na jeden dech \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Na jeden dech](/skladby/na-jeden-dech-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Goodfellas](/alba/goodfellas) (2024).\n",
+    "code": "var Component=(()=>{var g=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let d of h(e))!m.call(r,d)&&d!==n&&o(r,d,{get:()=>e[d],enumerable:!(t=p(e,d))||t.enumerable});return r};var x=(r,e,n)=>(n=r!=null?g(f(r)):{},s(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),N=r=>s(o({},\"__esModule\",{value:!0}),r);var l=b((y,c)=>{c.exports=_jsx_runtime});var S={};j(S,{default:()=>i,frontmatter:()=>_});var a=x(l()),_={title:\"Na jeden dech\",slug:\"na-jeden-dech-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"palermo\"],featuresNames:[\"Palermo\"],album:\"Goodfellas\",albumSlug:\"goodfellas\",year:2024,genre:[\"\"],duration:\"4:16\",trackNumber:1,producers:[],producersNames:[],description:\"Na jeden dech \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/na-jeden-dech-sergei-barracuda\",children:\"Na jeden dech\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/goodfellas\",children:\"Goodfellas\"}),\" (2024).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return N(S);})();\n;return Component;"
   },
   "_id": "skladby/na-jeden-dech-sergei-barracuda.mdx",
   "_raw": {

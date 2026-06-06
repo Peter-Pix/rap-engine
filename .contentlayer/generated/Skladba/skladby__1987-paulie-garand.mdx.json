@@ -8,16 +8,19 @@
   "album": "1987",
   "albumSlug": "1987",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:14",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "1987 — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var b=(e,r,n)=>(n=e!=null?m(h(e)):{},u(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((k,d)=>{d.exports=_jsx_runtime});var N={};_(N,{default:()=>c,frontmatter:()=>M});var t=b(i()),M={title:\"1987\",slug:\"1987-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"1987\",albumSlug:\"1987\",year:2017,genre:[],duration:\"4:14\",trackNumber:1,producers:[],producersNames:[],description:\"1987 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[1987](/skladby/1987-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) (2017).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},u=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!x.call(a,t)&&t!==r&&s(a,t,{get:()=>e[t],enumerable:!(o=m(e,t))||o.enumerable});return a};var _=(a,e,r)=>(r=a!=null?c(f(a)):{},u(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),j=a=>u(s({},\"__esModule\",{value:!0}),a);var i=h((M,d)=>{d.exports=_jsx_runtime});var y={};b(y,{default:()=>p,frontmatter:()=>k});var n=_(i()),k={title:\"1987\",slug:\"1987-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"1987\",albumSlug:\"1987\",year:2017,genre:[\"\"],duration:\"4:14\",trackNumber:1,producers:[],producersNames:[],description:\"1987 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/1987-paulie-garand\",children:\"1987\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" (2017).\"]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(l,{...a})}):l(a)}return j(y);})();\n;return Component;"
   },
   "_id": "skladby/1987-paulie-garand.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Don't Stop This Feeling",
   "albumSlug": "don-t-stop-this-feeling",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:35",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Don't Stop This Feeling (Tolstoi Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var o in t)r(e,o,{get:t[o],enumerable:!0})},a=(e,t,o,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!g.call(e,s)&&s!==o&&r(e,s,{get:()=>t[s],enumerable:!(i=d(t,s))||i.enumerable});return e};var _=(e,t,o)=>(o=e!=null?u(x(e)):{},a(t||!e||!e.__esModule?r(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>a(r({},\"__esModule\",{value:!0}),e);var m=f((T,l)=>{l.exports=_jsx_runtime});var D={};j(D,{default:()=>p,frontmatter:()=>S});var n=_(m()),S={title:\"Don't Stop This Feeling (Tolstoi Remix)\",slug:\"don-t-stop-this-feeling-tolstoi-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Don't Stop This Feeling\",albumSlug:\"don-t-stop-this-feeling\",year:2020,genre:[],duration:\"7:35\",trackNumber:3,producers:[],producersNames:[],description:\"Don't Stop This Feeling (Tolstoi Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Don't Stop This Feeling (Tolstoi Remix)](/skladby/don-t-stop-this-feeling-tolstoi-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Don't Stop This Feeling](/alba/don-t-stop-this-feeling) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var s in e)i(t,s,{get:e[s],enumerable:!0})},l=(t,e,s,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of u(e))!f.call(t,n)&&n!==s&&i(t,n,{get:()=>e[n],enumerable:!(r=h(e,n))||r.enumerable});return t};var b=(t,e,s)=>(s=t!=null?d(g(t)):{},l(e||!t||!t.__esModule?i(s,\"default\",{value:t,enumerable:!0}):s,t)),T=t=>l(i({},\"__esModule\",{value:!0}),t);var m=x((C,a)=>{a.exports=_jsx_runtime});var S={};j(S,{default:()=>c,frontmatter:()=>D});var o=b(m()),D={title:\"Don't Stop This Feeling (Tolstoi Remix)\",slug:\"don-t-stop-this-feeling-tolstoi-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Don't Stop This Feeling\",albumSlug:\"don-t-stop-this-feeling\",year:2020,genre:[\"\"],duration:\"7:35\",trackNumber:3,producers:[],producersNames:[],description:\"Don't Stop This Feeling (Tolstoi Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function p(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/don-t-stop-this-feeling-tolstoi-remix-james-cole\",children:\"Don't Stop This Feeling (Tolstoi Remix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/don-t-stop-this-feeling\",children:\"Don't Stop This Feeling\"}),\" (2020).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(p,{...t})}):p(t)}return T(S);})();\n;return Component;"
   },
   "_id": "skladby/don-t-stop-this-feeling-tolstoi-remix-james-cole.mdx",
   "_raw": {

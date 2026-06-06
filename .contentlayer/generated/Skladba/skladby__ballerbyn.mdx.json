@@ -1,0 +1,28 @@
+{
+  "title": "Ballerbyn",
+  "slug": "ballerbyn",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "year": 2019,
+  "description": "Ballerbyn — singl od Maniak (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/6aa67d2fc37c878d512c98aceedf300c/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Ballerbyn](/skladby/ballerbyn)** od [Maniak](/raperi/maniak) (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),h=(n,e)=>{for(var a in e)s(n,a,{get:e[a],enumerable:!0})},i=(n,e,a,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!u.call(n,t)&&t!==a&&s(n,t,{get:()=>e[t],enumerable:!(l=g(e,t))||l.enumerable});return n};var y=(n,e,a)=>(a=n!=null?m(f(n)):{},i(e||!n||!n.__esModule?s(a,\"default\",{value:n,enumerable:!0}):a,n)),j=n=>i(s({},\"__esModule\",{value:!0}),n);var o=b((B,c)=>{c.exports=_jsx_runtime});var M={};h(M,{default:()=>p,frontmatter:()=>k});var r=y(o()),k={title:\"Ballerbyn\",slug:\"ballerbyn\",rapper:\"Maniak\",rapperSlug:\"maniak\",year:2019,description:\"Ballerbyn \\u2014 singl od Maniak (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/6aa67d2fc37c878d512c98aceedf300c/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/ballerbyn\",children:\"Ballerbyn\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2019).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/ballerbyn.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ballerbyn.mdx",
+    "sourceFileName": "ballerbyn.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ballerbyn"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ballerbyn",
+  "canonicalUrl": "https://4rap.cz/skladby/ballerbyn"
+}

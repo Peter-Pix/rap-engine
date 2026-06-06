@@ -8,16 +8,19 @@
   "album": "Ach Ano Mixtape",
   "albumSlug": "ach-ano-mixtape",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Čistá láska — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!k.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(o=d(t,r))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(h(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var m=f((N,c)=>{c.exports=_jsx_runtime});var j={};_(j,{default:()=>l,frontmatter:()=>M});var a=b(m()),M={title:\"\\u010Cist\\xE1 l\\xE1ska\",slug:\"cista-laska-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"\\u010Cist\\xE1 l\\xE1ska \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Čistá láska](/skladby/cista-laska-maniak)** od [Maniak](/raperi/maniak) z alba [Ach Ano Mixtape](/alba/ach-ano-mixtape) (2015).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},o=(e,a,n,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of k(a))!x.call(e,r)&&r!==n&&s(e,r,{get:()=>a[r],enumerable:!(i=d(a,r))||i.enumerable});return e};var M=(e,a,n)=>(n=e!=null?m(h(e)):{},o(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>o(s({},\"__esModule\",{value:!0}),e);var l=f((y,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>u,frontmatter:()=>_});var t=M(l()),_={title:\"\\u010Cist\\xE1 l\\xE1ska\",slug:\"cista-laska-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Mixtape\",albumSlug:\"ach-ano-mixtape\",year:2015,genre:[\"\"],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"\\u010Cist\\xE1 l\\xE1ska \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/cista-laska-maniak\",children:\"\\u010Cist\\xE1 l\\xE1ska\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,t.jsx)(a.a,{href:\"/alba/ach-ano-mixtape\",children:\"Ach Ano Mixtape\"}),\" (2015).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/cista-laska-maniak.mdx",
   "_raw": {

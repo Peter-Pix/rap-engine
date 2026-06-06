@@ -8,16 +8,19 @@
   "album": "Medusa",
   "albumSlug": "medusa",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Vyplatil Sem Zdroj — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!h.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return e};var f=(e,r,a)=>(a=e!=null?m(x(e)):{},u(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),S=e=>u(s({},\"__esModule\",{value:!0}),e);var c=b((N,d)=>{d.exports=_jsx_runtime});var y={};j(y,{default:()=>l,frontmatter:()=>_});var t=f(c()),_={title:\"Vyplatil Sem Zdroj\",slug:\"vyplatil-sem-zdroj-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Medusa\",albumSlug:\"medusa\",year:2019,genre:[],duration:\"3:07\",trackNumber:5,producers:[],producersNames:[],description:\"Vyplatil Sem Zdroj \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return S(y);})();\n;return Component;"
+    "raw": "\n**[Vyplatil Sem Zdroj](/skladby/vyplatil-sem-zdroj-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Medusa](/alba/medusa) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var t in r)d(e,t,{get:r[t],enumerable:!0})},o=(e,r,t,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of g(r))!f.call(e,s)&&s!==t&&d(e,s,{get:()=>r[s],enumerable:!(n=m(r,s))||n.enumerable});return e};var x=(e,r,t)=>(t=e!=null?p(b(e)):{},o(r||!e||!e.__esModule?d(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>o(d({},\"__esModule\",{value:!0}),e);var i=h((k,u)=>{u.exports=_jsx_runtime});var _={};j(_,{default:()=>c,frontmatter:()=>S});var a=x(i()),S={title:\"Vyplatil Sem Zdroj\",slug:\"vyplatil-sem-zdroj-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Medusa\",albumSlug:\"medusa\",year:2019,genre:[\"\"],duration:\"3:07\",trackNumber:5,producers:[],producersNames:[],description:\"Vyplatil Sem Zdroj \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/vyplatil-sem-zdroj-sergei-barracuda\",children:\"Vyplatil Sem Zdroj\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/medusa\",children:\"Medusa\"}),\" (2019).\"]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/vyplatil-sem-zdroj-sergei-barracuda.mdx",
   "_raw": {

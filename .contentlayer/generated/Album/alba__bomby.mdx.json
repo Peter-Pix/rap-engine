@@ -6,16 +6,17 @@
   "label": "Polnoc Records",
   "year": 2022,
   "genre": [],
-  "description": "Bomby — singl od Mairee (2022).",
+  "description": "Mairee v roce 2022 vydal své debutové album. Obsahuje celkem jednu skladbu. Deska vyšla pod labelem Polnoc Records.",
   "image": "https://cdn-images.dzcdn.net/images/cover/a8adf7ef368ecdb5e0befd1917a55f3d/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
     "Bomby"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=u(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(g(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var m=x((C,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>y});var n=_(m()),y={title:\"Bomby\",slug:\"bomby\",rapper:\"Mairee\",rapperSlug:\"mairee\",label:\"Polnoc Records\",year:2022,genre:[],description:\"Bomby \\u2014 singl od Mairee (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/a8adf7ef368ecdb5e0befd1917a55f3d/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bomby\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Mairee](/raperi/mairee) v roce 2022 vydal své debutové album.\n\nAlbum obsahuje celkem jednu skladbu.\n\nDeska vyšla pod labelem Polnoc Records.\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)t(a,r,{get:e[r],enumerable:!0})},c=(a,e,r,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!v.call(a,o)&&o!==r&&t(a,o,{get:()=>e[o],enumerable:!(l=b(e,o))||l.enumerable});return a};var x=(a,e,r)=>(r=a!=null?u(h(a)):{},c(e||!a||!a.__esModule?t(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>c(t({},\"__esModule\",{value:!0}),a);var d=f((M,s)=>{s.exports=_jsx_runtime});var k={};j(k,{default:()=>m,frontmatter:()=>y});var n=x(d()),y={title:\"Bomby\",slug:\"bomby\",rapper:\"Mairee\",rapperSlug:\"mairee\",label:\"Polnoc Records\",year:2022,genre:[],description:\"Mairee v roce 2022 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem jednu skladbu. Deska vy\\u0161la pod labelem Polnoc Records.\",image:\"https://cdn-images.dzcdn.net/images/cover/a8adf7ef368ecdb5e0befd1917a55f3d/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bomby\"],publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/mairee\",children:\"Mairee\"}),\" v roce 2022 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem jednu skladbu.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Polnoc Records.\"})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(i,{...a})}):i(a)}return g(k);})();\n;return Component;"
   },
   "_id": "alba/bomby.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Tetris",
   "albumSlug": "tetris",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:31",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Stop — skladba od Ektor.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!f.call(t,o)&&o!==n&&s(t,o,{get:()=>e[o],enumerable:!(a=l(e,o))||a.enumerable});return t};var g=(t,e,n)=>(n=t!=null?p(x(t)):{},i(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>i(s({},\"__esModule\",{value:!0}),t);var u=_((M,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>k});var r=g(u()),k={title:\"Stop\",slug:\"stop-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\",\"vladimir-518\"],featuresNames:[\"DJ Wich\",\"Vladimir 518\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[],duration:\"4:31\",trackNumber:3,producers:[],producersNames:[],description:\"Stop \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(m,{...t})}):m(t)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Stop](/skladby/stop-ektor)** od [Ektor](/raperi/ektor) z alba [Tetris](/alba/tetris) (2012).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),b=(t,r)=>{for(var o in r)n(t,o,{get:r[o],enumerable:!0})},i=(t,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!k.call(t,a)&&a!==o&&n(t,a,{get:()=>r[a],enumerable:!(s=m(r,a))||s.enumerable});return t};var g=(t,r,o)=>(o=t!=null?u(f(t)):{},i(r||!t||!t.__esModule?n(o,\"default\",{value:t,enumerable:!0}):o,t)),j=t=>i(n({},\"__esModule\",{value:!0}),t);var d=x((D,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>p,frontmatter:()=>_});var e=g(d()),_={title:\"Stop\",slug:\"stop-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\",\"vladimir-518\"],featuresNames:[\"DJ Wich\",\"Vladimir 518\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[\"\"],duration:\"4:31\",trackNumber:3,producers:[],producersNames:[],description:\"Stop \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function l(t){let r={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/stop-ektor\",children:\"Stop\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/ektor\",children:\"Ektor\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/tetris\",children:\"Tetris\"}),\" (2012).\"]})}function p(t={}){let{wrapper:r}=t.components||{};return r?(0,e.jsx)(r,{...t,children:(0,e.jsx)(l,{...t})}):l(t)}return j(S);})();\n;return Component;"
   },
   "_id": "skladby/stop-ektor.mdx",
   "_raw": {

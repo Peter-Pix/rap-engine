@@ -8,16 +8,19 @@
   "album": "The Game",
   "albumSlug": "the-game",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:17",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "The Game — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=i(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>m(o({},\"__esModule\",{value:!0}),e);var l=g((G,u)=>{u.exports=_jsx_runtime});var z={};f(z,{default:()=>c,frontmatter:()=>j});var r=_(l()),j={title:\"The Game\",slug:\"the-game-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Game\",albumSlug:\"the-game\",year:2024,genre:[],duration:\"2:17\",trackNumber:1,producers:[],producersNames:[],description:\"The Game \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return y(z);})();\n;return Component;"
+    "raw": "\n**[The Game](/skladby/the-game-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},s=(a,e,r,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of i(e))!g.call(a,o)&&o!==r&&n(a,o,{get:()=>e[o],enumerable:!(b=h(e,o))||b.enumerable});return a};var x=(a,e,r)=>(r=a!=null?d(p(a)):{},s(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),z=a=>s(n({},\"__esModule\",{value:!0}),a);var m=y((G,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>B});var t=x(m()),B={title:\"The Game\",slug:\"the-game-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Game\",albumSlug:\"the-game\",year:2024,genre:[\"\"],duration:\"2:17\",trackNumber:1,producers:[],producersNames:[],description:\"The Game \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/the-game-bobby-blaze\",children:\"The Game\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(u,{...a})}):u(a)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/the-game-bobby-blaze.mdx",
   "_raw": {

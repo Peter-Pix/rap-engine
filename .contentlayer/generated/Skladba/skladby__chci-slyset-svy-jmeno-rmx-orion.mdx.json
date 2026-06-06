@@ -8,16 +8,19 @@
   "album": "Teritorium Remixy",
   "albumSlug": "teritorium-remixy",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:40",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Chci Slyšet Svý Jméno (RMX) — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),S=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},m=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!y.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?d(h(e)):{},m(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>m(i({},\"__esModule\",{value:!0}),e);var c=f((C,a)=>{a.exports=_jsx_runtime});var j={};S(j,{default:()=>l,frontmatter:()=>g});var t=_(c()),g={title:\"Chci Sly\\u0161et Sv\\xFD Jm\\xE9no (RMX)\",slug:\"chci-slyset-svy-jmeno-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"3:40\",trackNumber:5,producers:[],producersNames:[],description:\"Chci Sly\\u0161et Sv\\xFD Jm\\xE9no (RMX) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Chci Slyšet Svý Jméno (RMX)](/skladby/chci-slyset-svy-jmeno-rmx-orion)** od [Orion](/raperi/orion) (2007).\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),S=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},a=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of h(r))!y.call(e,t)&&t!==n&&i(e,t,{get:()=>r[t],enumerable:!(s=p(r,t))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(x(e)):{},a(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(i({},\"__esModule\",{value:!0}),e);var m=f((v,c)=>{c.exports=_jsx_runtime});var M={};S(M,{default:()=>l,frontmatter:()=>b});var o=g(m()),b={title:\"Chci Sly\\u0161et Sv\\xFD Jm\\xE9no (RMX)\",slug:\"chci-slyset-svy-jmeno-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[\"\"],duration:\"3:40\",trackNumber:5,producers:[],producersNames:[],description:\"Chci Sly\\u0161et Sv\\xFD Jm\\xE9no (RMX) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/chci-slyset-svy-jmeno-rmx-orion\",children:\"Chci Sly\\u0161et Sv\\xFD Jm\\xE9no (RMX)\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" (2007).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return j(M);})();\n;return Component;"
   },
   "_id": "skladby/chci-slyset-svy-jmeno-rmx-orion.mdx",
   "_raw": {

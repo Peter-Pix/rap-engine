@@ -16,16 +16,19 @@
   "album": "Stop Play",
   "albumSlug": "stop-play",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:11",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Dej Mi Pokoj / Leden — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of j(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(f(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(a({},\"__esModule\",{value:!0}),e);var u=h((M,d)=>{d.exports=_jsx_runtime});var D={};k(D,{default:()=>l,frontmatter:()=>g});var n=_(u()),g={title:\"Dej Mi Pokoj / Leden\",slug:\"dej-mi-pokoj-leden-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"vaclav-roucek\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Vaclav Roucek\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[],duration:\"4:11\",trackNumber:8,producers:[],producersNames:[],description:\"Dej Mi Pokoj / Leden \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Dej Mi Pokoj / Leden](/skladby/dej-mi-pokoj-leden-if)** z alba [Stop Play](/alba/stop-play) (2016).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var a in e)n(t,a,{get:e[a],enumerable:!0})},d=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!k.call(t,r)&&r!==a&&n(t,r,{get:()=>e[r],enumerable:!(s=j(e,r))||s.enumerable});return t};var h=(t,e,a)=>(a=t!=null?u(f(t)):{},d(e||!t||!t.__esModule?n(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>d(n({},\"__esModule\",{value:!0}),t);var i=x((_,l)=>{l.exports=_jsx_runtime});var D={};b(D,{default:()=>p,frontmatter:()=>y});var o=h(i()),y={title:\"Dej Mi Pokoj / Leden\",slug:\"dej-mi-pokoj-leden-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"vaclav-roucek\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Vaclav Roucek\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[\"\"],duration:\"4:11\",trackNumber:8,producers:[],producersNames:[],description:\"Dej Mi Pokoj / Leden \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/dej-mi-pokoj-leden-if\",children:\"Dej Mi Pokoj / Leden\"})}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/stop-play\",children:\"Stop Play\"}),\" (2016).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(c,{...t})}):c(t)}return g(D);})();\n;return Component;"
   },
   "_id": "skladby/dej-mi-pokoj-leden-if.mdx",
   "_raw": {

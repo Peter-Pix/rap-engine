@@ -8,16 +8,19 @@
   "album": "BENİM",
   "albumSlug": "benim",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:58",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Proč (R.H.Tribute) — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var p=f((N,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>m,frontmatter:()=>v});var r=g(p()),v={title:\"Pro\\u010D (R.H.Tribute)\",slug:\"proc-r-h-tribute-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"BEN\\u0130M\",albumSlug:\"benim\",year:2021,genre:[],duration:\"2:58\",trackNumber:7,producers:[],producersNames:[],description:\"Pro\\u010D (R.H.Tribute) \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Proč (R.H.Tribute)](/skladby/proc-r-h-tribute-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [BENİM](/alba/benim) (2021).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},c=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!f.call(r,o)&&o!==a&&n(r,o,{get:()=>e[o],enumerable:!(s=b(e,o))||s.enumerable});return r};var v=(r,e,a)=>(a=r!=null?d(h(r)):{},c(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),_=r=>c(n({},\"__esModule\",{value:!0}),r);var u=x((N,p)=>{p.exports=_jsx_runtime});var D={};g(D,{default:()=>l,frontmatter:()=>j});var t=v(u()),j={title:\"Pro\\u010D (R.H.Tribute)\",slug:\"proc-r-h-tribute-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"BEN\\u0130M\",albumSlug:\"benim\",year:2021,genre:[\"\"],duration:\"2:58\",trackNumber:7,producers:[],producersNames:[],description:\"Pro\\u010D (R.H.Tribute) \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/proc-r-h-tribute-lvcas-dope\",children:\"Pro\\u010D (R.H.Tribute)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/benim\",children:\"BEN\\u0130M\"}),\" (2021).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(i,{...r})}):i(r)}return _(D);})();\n;return Component;"
   },
   "_id": "skladby/proc-r-h-tribute-lvcas-dope.mdx",
   "_raw": {

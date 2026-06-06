@@ -8,16 +8,19 @@
   "album": "Mr. Sergei B",
   "albumSlug": "mr-sergei-b",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Mr. Sergei B (Instrumental) — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),S=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>r[a],enumerable:!(u=g(r,a))||u.enumerable});return e};var f=(e,r,n)=>(n=e!=null?l(b(e)):{},i(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var c=h((N,o)=>{o.exports=_jsx_runtime});var j={};S(j,{default:()=>d,frontmatter:()=>M});var t=f(c()),M={title:\"Mr. Sergei B (Instrumental)\",slug:\"mr-sergei-b-instrumental-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Mr. Sergei B\",albumSlug:\"mr-sergei-b\",year:2024,genre:[],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"Mr. Sergei B (Instrumental) \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Mr. Sergei B (Instrumental)](/skladby/mr-sergei-b-instrumental-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Mr. Sergei B](/alba/mr-sergei-b) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),S=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!f.call(e,n)&&n!==t&&s(e,n,{get:()=>r[n],enumerable:!(i=m(r,n))||i.enumerable});return e};var x=(e,r,t)=>(t=e!=null?l(p(e)):{},u(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),B=e=>u(s({},\"__esModule\",{value:!0}),e);var o=h((k,c)=>{c.exports=_jsx_runtime});var _={};S(_,{default:()=>g,frontmatter:()=>M});var a=x(o()),M={title:\"Mr. Sergei B (Instrumental)\",slug:\"mr-sergei-b-instrumental-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Mr. Sergei B\",albumSlug:\"mr-sergei-b\",year:2024,genre:[\"\"],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"Mr. Sergei B (Instrumental) \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/mr-sergei-b-instrumental-sergei-barracuda\",children:\"Mr. Sergei B (Instrumental)\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/mr-sergei-b\",children:\"Mr. Sergei B\"}),\" (2024).\"]})}function g(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return B(_);})();\n;return Component;"
   },
   "_id": "skladby/mr-sergei-b-instrumental-sergei-barracuda.mdx",
   "_raw": {

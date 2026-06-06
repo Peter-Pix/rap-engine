@@ -8,16 +8,19 @@
   "album": "Live @ O2 arena Praha",
   "albumSlug": "live-o2-arena-praha",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:19",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Perfect Week (Live 2023) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=d(r,a))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?p(f(e)):{},c(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),L=e=>c(o({},\"__esModule\",{value:!0}),e);var u=_((N,i)=>{i.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>j});var t=g(u()),j={title:\"Perfect Week (Live 2023)\",slug:\"perfect-week-live-2023-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Live @ O2 arena Praha\",albumSlug:\"live-o2-arena-praha\",year:2024,genre:[],duration:\"3:19\",trackNumber:10,producers:[],producersNames:[],description:\"Perfect Week (Live 2023) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return L(k);})();\n;return Component;"
+    "raw": "\n**[Perfect Week (Live 2023)](/skladby/perfect-week-live-2023-calin)** od [Calin](/raperi/calin) z alba [Live @ O2 arena Praha](/alba/live-o2-arena-praha) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!v.call(r,t)&&t!==n&&i(r,t,{get:()=>e[t],enumerable:!(c=f(e,t))||c.enumerable});return r};var k=(r,e,n)=>(n=r!=null?d(m(r)):{},o(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),L=r=>o(i({},\"__esModule\",{value:!0}),r);var s=x((C,l)=>{l.exports=_jsx_runtime});var _={};b(_,{default:()=>u,frontmatter:()=>g});var a=k(s()),g={title:\"Perfect Week (Live 2023)\",slug:\"perfect-week-live-2023-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Live @ O2 arena Praha\",albumSlug:\"live-o2-arena-praha\",year:2024,genre:[\"\"],duration:\"3:19\",trackNumber:10,producers:[],producersNames:[],description:\"Perfect Week (Live 2023) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/perfect-week-live-2023-calin\",children:\"Perfect Week (Live 2023)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/live-o2-arena-praha\",children:\"Live @ O2 arena Praha\"}),\" (2024).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return L(_);})();\n;return Component;"
   },
   "_id": "skladby/perfect-week-live-2023-calin.mdx",
   "_raw": {

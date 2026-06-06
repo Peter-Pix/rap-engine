@@ -12,16 +12,19 @@
   "album": "DONE",
   "albumSlug": "done",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "0:50",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "PHAT SKIT — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?i(x(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var u=j((T,c)=>{c.exports=_jsx_runtime});var C={};_(C,{default:()=>d,frontmatter:()=>S});var n=b(u()),S={title:\"PHAT SKIT\",slug:\"phat-skit-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\"],featuresNames:[\"Idea\"],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[],duration:\"0:50\",trackNumber:7,producers:[],producersNames:[],description:\"PHAT SKIT \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[PHAT SKIT](/skladby/phat-skit-james-cole)** od [James Cole](/raperi/james-cole) z alba [DONE](/alba/done) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},l=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!j.call(a,s)&&s!==t&&n(a,s,{get:()=>e[s],enumerable:!(o=p(e,s))||o.enumerable});return a};var g=(a,e,t)=>(t=a!=null?u(f(a)):{},l(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),T=a=>l(n({},\"__esModule\",{value:!0}),a);var d=x((N,c)=>{c.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>_});var r=g(d()),_={title:\"PHAT SKIT\",slug:\"phat-skit-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\"],featuresNames:[\"Idea\"],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[\"\"],duration:\"0:50\",trackNumber:7,producers:[],producersNames:[],description:\"PHAT SKIT \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/phat-skit-james-cole\",children:\"PHAT SKIT\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/done\",children:\"DONE\"}),\" (2025).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(i,{...a})}):i(a)}return T(k);})();\n;return Component;"
   },
   "_id": "skladby/phat-skit-james-cole.mdx",
   "_raw": {

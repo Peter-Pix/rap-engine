@@ -8,16 +8,19 @@
   "album": "ALIEN",
   "albumSlug": "alien",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:01",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "DIVER — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var l=j((E,c)=>{c.exports=_jsx_runtime});var D={};_(D,{default:()=>i,frontmatter:()=>C});var r=b(l()),C={title:\"DIVER\",slug:\"diver-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[],duration:\"4:01\",trackNumber:12,producers:[],producersNames:[],description:\"DIVER \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(D);})();\n;return Component;"
+    "raw": "\n**[DIVER](/skladby/diver-james-cole)** od [James Cole](/raperi/james-cole) z alba [ALIEN](/alba/alien) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!j.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return r};var g=(r,e,t)=>(t=r!=null?u(h(r)):{},l(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>l(s({},\"__esModule\",{value:!0}),r);var i=x((I,c)=>{c.exports=_jsx_runtime});var D={};b(D,{default:()=>m,frontmatter:()=>C});var a=g(i()),C={title:\"DIVER\",slug:\"diver-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[\"\"],duration:\"4:01\",trackNumber:12,producers:[],producersNames:[],description:\"DIVER \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/diver-james-cole\",children:\"DIVER\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/alien\",children:\"ALIEN\"}),\" (2022).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return _(D);})();\n;return Component;"
   },
   "_id": "skladby/diver-james-cole.mdx",
   "_raw": {

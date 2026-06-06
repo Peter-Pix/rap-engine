@@ -1,0 +1,28 @@
+{
+  "title": "Lettuce",
+  "slug": "lettuce",
+  "rapper": "SGT.Styxz",
+  "rapperSlug": "sgt-styxz",
+  "year": 2020,
+  "description": "Lettuce — singl od SGT.Styxz (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/fee88bbd608ea3b62c6e45b6550f5af0/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Lettuce](/skladby/lettuce)** (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var c=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)c(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!m.call(e,r)&&r!==n&&c(e,r,{get:()=>t[r],enumerable:!(a=x(t,r))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(f(e)):{},o(t||!e||!e.__esModule?c(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>o(c({},\"__esModule\",{value:!0}),e);var l=h((L,i)=>{i.exports=_jsx_runtime});var S={};y(S,{default:()=>u,frontmatter:()=>_});var s=b(l()),_={title:\"Lettuce\",slug:\"lettuce\",rapper:\"SGT.Styxz\",rapperSlug:\"sgt-styxz\",year:2020,description:\"Lettuce \\u2014 singl od SGT.Styxz (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/fee88bbd608ea3b62c6e45b6550f5af0/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,s.jsxs)(t.p,{children:[(0,s.jsx)(t.strong,{children:(0,s.jsx)(t.a,{href:\"/skladby/lettuce\",children:\"Lettuce\"})}),\" (2020).\"]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,s.jsx)(t,{...e,children:(0,s.jsx)(p,{...e})}):p(e)}return j(S);})();\n;return Component;"
+  },
+  "_id": "skladby/lettuce.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/lettuce.mdx",
+    "sourceFileName": "lettuce.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/lettuce"
+  },
+  "type": "Skladba",
+  "url": "/skladby/lettuce",
+  "canonicalUrl": "https://4rap.cz/skladby/lettuce"
+}

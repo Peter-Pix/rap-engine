@@ -12,16 +12,19 @@
   "album": "PONYA",
   "albumSlug": "ponya",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:32",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Tady tak — skladba od Robin Zoot.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var o in e)a(t,o,{get:e[o],enumerable:!0})},u=(t,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of b(e))!h.call(t,r)&&r!==o&&a(t,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return t};var g=(t,e,o)=>(o=t!=null?m(x(t)):{},u(e||!t||!t.__esModule?a(o,\"default\",{value:t,enumerable:!0}):o,t)),y=t=>u(a({},\"__esModule\",{value:!0}),t);var c=f((F,i)=>{i.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>j});var n=g(c()),j={title:\"Tady tak\",slug:\"tady-tak-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"forest-blunt\"],featuresNames:[\"Forest Blunt\"],album:\"PONYA\",albumSlug:\"ponya\",year:2024,genre:[],duration:\"3:32\",trackNumber:7,producers:[],producersNames:[],description:\"Tady tak \\u2014 skladba od Robin Zoot.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return y(k);})();\n;return Component;"
+    "raw": "\n**[Tady tak](/skladby/tady-tak-robin-zoot)** od [Robin Zoot](/raperi/robin-zoot) z alba [PONYA](/alba/ponya) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(o,t)=>()=>(t||o((t={exports:{}}).exports,t),t.exports),x=(o,t)=>{for(var e in t)a(o,e,{get:t[e],enumerable:!0})},i=(o,t,e,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of m(t))!h.call(o,n)&&n!==e&&a(o,n,{get:()=>t[n],enumerable:!(s=b(t,n))||s.enumerable});return o};var k=(o,t,e)=>(e=o!=null?p(f(o)):{},i(t||!o||!o.__esModule?a(e,\"default\",{value:o,enumerable:!0}):e,o)),g=o=>i(a({},\"__esModule\",{value:!0}),o);var u=y((N,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>_});var r=k(u()),_={title:\"Tady tak\",slug:\"tady-tak-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"forest-blunt\"],featuresNames:[\"Forest Blunt\"],album:\"PONYA\",albumSlug:\"ponya\",year:2024,genre:[\"\"],duration:\"3:32\",trackNumber:7,producers:[],producersNames:[],description:\"Tady tak \\u2014 skladba od Robin Zoot.\",publishedAt:\"2026-06-04\"};function l(o){let t={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/tady-tak-robin-zoot\",children:\"Tady tak\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/robin-zoot\",children:\"Robin Zoot\"}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/ponya\",children:\"PONYA\"}),\" (2024).\"]})}function c(o={}){let{wrapper:t}=o.components||{};return t?(0,r.jsx)(t,{...o,children:(0,r.jsx)(l,{...o})}):l(o)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/tady-tak-robin-zoot.mdx",
   "_raw": {

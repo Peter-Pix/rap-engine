@@ -12,16 +12,19 @@
   "album": "Molo II (Deluxe)",
   "albumSlug": "molo-ii",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:13",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "No Limit — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(i=p(n,a))||i.enumerable});return e};var b=(e,n,r)=>(r=e!=null?c(x(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var l=f((k,s)=>{s.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>N});var t=b(l()),N={title:\"No Limit\",slug:\"no-limit-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"3:13\",trackNumber:9,producers:[],producersNames:[],description:\"No Limit \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[No Limit](/skladby/no-limit-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Molo II (Deluxe)](/alba/molo-ii) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var n in e)t(a,n,{get:e[n],enumerable:!0})},l=(a,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!x.call(a,o)&&o!==n&&t(a,o,{get:()=>e[o],enumerable:!(i=p(e,o))||i.enumerable});return a};var N=(a,e,n)=>(n=a!=null?m(h(a)):{},l(e||!a||!a.__esModule?t(n,\"default\",{value:a,enumerable:!0}):n,a)),_=a=>l(t({},\"__esModule\",{value:!0}),a);var s=f((k,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>j});var r=N(s()),j={title:\"No Limit\",slug:\"no-limit-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[\"\"],duration:\"3:13\",trackNumber:9,producers:[],producersNames:[],description:\"No Limit \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/no-limit-paulie-garand\",children:\"No Limit\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/molo-ii\",children:\"Molo II (Deluxe)\"}),\" (2025).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(d,{...a})}):d(a)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/no-limit-paulie-garand.mdx",
   "_raw": {

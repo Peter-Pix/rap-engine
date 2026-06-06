@@ -1,13 +1,15 @@
 {
   "title": "Jon",
   "slug": "jon",
-  "genre": [],
-  "description": "Jon — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Jon — nezávislý interpret rapové scény s ostrým flow a autentickým přístupem. Vydává hudbu na vlastní pěst a staví na syrovém zvuku. Poslouchej na streamovacích platformách.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var j=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var o in e)s(n,o,{get:e[o],enumerable:!0})},i=(n,e,o,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!_.call(n,r)&&r!==o&&s(n,r,{get:()=>e[r],enumerable:!(c=u(e,r))||c.enumerable});return n};var g=(n,e,o)=>(o=n!=null?d(x(n)):{},i(e||!n||!n.__esModule?s(o,\"default\",{value:n,enumerable:!0}):o,n)),M=n=>i(s({},\"__esModule\",{value:!0}),n);var a=j((y,m)=>{m.exports=_jsx_runtime});var k={};f(k,{default:()=>p,frontmatter:()=>b});var t=g(a()),b={title:\"Jon\",slug:\"jon\",genre:[],description:\"Jon \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return M(k);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Jon](/raperi/jon)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),f=(t,n)=>{for(var r in n)s(t,r,{get:n[r],enumerable:!0})},c=(t,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of d(n))!j.call(t,o)&&o!==r&&s(t,o,{get:()=>n[o],enumerable:!(a=m(n,o))||a.enumerable});return t};var g=(t,n,r)=>(r=t!=null?l(v(t)):{},c(n||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>c(s({},\"__esModule\",{value:!0}),t);var i=x((J,p)=>{p.exports=_jsx_runtime});var b={};f(b,{default:()=>h,frontmatter:()=>y});var e=g(i()),y={title:\"Jon\",slug:\"jon\",genre:[\"\"],description:\"Jon \\u2014 nez\\xE1visl\\xFD interpret rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a autentick\\xFDm p\\u0159\\xEDstupem. Vyd\\xE1v\\xE1 hudbu na vlastn\\xED p\\u011Bst a stav\\xED na syrov\\xE9m zvuku. Poslouchej na streamovac\\xEDch platform\\xE1ch.\",publishedAt:\"2026-05-31\"};function u(t){let n={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{children:\"O rapperovi\"}),`\n`,(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:(0,e.jsx)(n.a,{href:\"/raperi/jon\",children:\"Jon\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function h(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(u,{...t})}):u(t)}return _(b);})();\n;return Component;"
   },
   "_id": "raperi/jon.mdx",
   "_raw": {

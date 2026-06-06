@@ -12,16 +12,19 @@
   "album": "Never Ever Ep",
   "albumSlug": "never-ever-ep",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:59",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Never Ever (Azteca Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=d(r,a))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?p(v(e)):{},c(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var u=f((A,m)=>{m.exports=_jsx_runtime});var N={};j(N,{default:()=>i,frontmatter:()=>g});var t=_(u()),g={title:\"Never Ever (Azteca Remix)\",slug:\"never-ever-azteca-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"azteca\"],featuresNames:[\"Azteca\"],album:\"Never Ever Ep\",albumSlug:\"never-ever-ep\",year:2018,genre:[],duration:\"6:59\",trackNumber:3,producers:[],producersNames:[],description:\"Never Ever (Azteca Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Never Ever (Azteca Remix)](/skladby/never-ever-azteca-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Never Ever Ep](/alba/never-ever-ep) (2018).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var v=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of d(e))!f.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(o=v(e,n))||o.enumerable});return r};var b=(r,e,t)=>(t=r!=null?u(x(r)):{},c(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),z=r=>c(s({},\"__esModule\",{value:!0}),r);var m=h((_,l)=>{l.exports=_jsx_runtime});var g={};j(g,{default:()=>p,frontmatter:()=>N});var a=b(m()),N={title:\"Never Ever (Azteca Remix)\",slug:\"never-ever-azteca-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"azteca\"],featuresNames:[\"Azteca\"],album:\"Never Ever Ep\",albumSlug:\"never-ever-ep\",year:2018,genre:[\"\"],duration:\"6:59\",trackNumber:3,producers:[],producersNames:[],description:\"Never Ever (Azteca Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/never-ever-azteca-remix-james-cole\",children:\"Never Ever (Azteca Remix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/never-ever-ep\",children:\"Never Ever Ep\"}),\" (2018).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return z(g);})();\n;return Component;"
   },
   "_id": "skladby/never-ever-azteca-remix-james-cole.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Dobrá Duše, Srdce ze Zlata",
   "albumSlug": "dobra-duse-srdce-ze-zlata",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:03",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Nejvyšší Patro v Hotelu — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?l(x(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>d(o({},\"__esModule\",{value:!0}),e);var i=g((N,u)=>{u.exports=_jsx_runtime});var _={};j(_,{default:()=>c,frontmatter:()=>z});var n=f(i()),z={title:\"Nejvy\\u0161\\u0161\\xED Patro v Hotelu\",slug:\"nejvyssi-patro-v-hotelu-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"eight-o\"],featuresNames:[\"Nik Tendo\",\"Eight O\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[],duration:\"4:03\",trackNumber:6,producers:[],producersNames:[],description:\"Nejvy\\u0161\\u0161\\xED Patro v Hotelu \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return y(_);})();\n;return Component;"
+    "raw": "\n**[Nejvyšší Patro v Hotelu](/skladby/nejvyssi-patro-v-hotelu-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Dobrá Duše, Srdce ze Zlata](/alba/dobra-duse-srdce-ze-zlata) (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},d=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!b.call(a,o)&&o!==t&&n(a,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return a};var j=(a,e,t)=>(t=a!=null?m(z(a)):{},d(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),v=a=>d(n({},\"__esModule\",{value:!0}),a);var u=y((D,i)=>{i.exports=_jsx_runtime});var x={};f(x,{default:()=>c,frontmatter:()=>g});var r=j(u()),g={title:\"Nejvy\\u0161\\u0161\\xED Patro v Hotelu\",slug:\"nejvyssi-patro-v-hotelu-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"eight-o\"],featuresNames:[\"Nik Tendo\",\"Eight O\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[\"\"],duration:\"4:03\",trackNumber:6,producers:[],producersNames:[],description:\"Nejvy\\u0161\\u0161\\xED Patro v Hotelu \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nejvyssi-patro-v-hotelu-yzomandias\",children:\"Nejvy\\u0161\\u0161\\xED Patro v Hotelu\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/dobra-duse-srdce-ze-zlata\",children:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\"}),\" (2019).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(l,{...a})}):l(a)}return v(x);})();\n;return Component;"
   },
   "_id": "skladby/nejvyssi-patro-v-hotelu-yzomandias.mdx",
   "_raw": {

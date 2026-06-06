@@ -12,16 +12,19 @@
   "album": "Maniak Muzik",
   "albumSlug": "maniak-muzik",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:05",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Do You Know — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},u=(n,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of k(e))!h.call(n,r)&&r!==t&&o(n,r,{get:()=>e[r],enumerable:!(i=p(e,r))||i.enumerable});return n};var _=(n,e,t)=>(t=n!=null?d(x(n)):{},u(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),b=n=>u(o({},\"__esModule\",{value:!0}),n);var m=M((D,s)=>{s.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>g});var a=_(m()),g={title:\"Do You Know\",slug:\"do-you-know-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"3:05\",trackNumber:5,producers:[],producersNames:[],description:\"Do You Know \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(c,{...n})}):c(n)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Do You Know](/skladby/do-you-know-maniak)** od [Maniak](/raperi/maniak) z alba [Maniak Muzik](/alba/maniak-muzik) (2016).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var r in a)t(n,r,{get:a[r],enumerable:!0})},u=(n,a,r,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!f.call(n,o)&&o!==r&&t(n,o,{get:()=>a[o],enumerable:!(i=d(a,o))||i.enumerable});return n};var b=(n,a,r)=>(r=n!=null?c(M(n)):{},u(a||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>u(t({},\"__esModule\",{value:!0}),n);var k=h((y,s)=>{s.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>w});var e=b(k()),w={title:\"Do You Know\",slug:\"do-you-know-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[\"\"],duration:\"3:05\",trackNumber:5,producers:[],producersNames:[],description:\"Do You Know \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/do-you-know-maniak\",children:\"Do You Know\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/maniak-muzik\",children:\"Maniak Muzik\"}),\" (2016).\"]})}function m(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(l,{...n})}):l(n)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/do-you-know-maniak.mdx",
   "_raw": {

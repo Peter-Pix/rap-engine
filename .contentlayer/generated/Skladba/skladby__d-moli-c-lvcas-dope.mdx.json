@@ -12,16 +12,19 @@
   "album": "Definice Rapu",
   "albumSlug": "definice-rapu",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:57",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "D MOLI C — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var D=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(f(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(a({},\"__esModule\",{value:!0}),e);var u=D((k,i)=>{i.exports=_jsx_runtime});var L={};_(L,{default:()=>d,frontmatter:()=>j});var n=b(u()),j={title:\"D MOLI C\",slug:\"d-moli-c-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dominik-rey\"],featuresNames:[\"Dominik Rey\"],album:\"Definice Rapu\",albumSlug:\"definice-rapu\",year:2024,genre:[],duration:\"2:57\",trackNumber:1,producers:[],producersNames:[],description:\"D MOLI C \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return g(L);})();\n;return Component;"
+    "raw": "\n**[D MOLI C](/skladby/d-moli-c-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [Definice Rapu](/alba/definice-rapu) (2024).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var D=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!h.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(s=m(e,o))||s.enumerable});return r};var g=(r,e,n)=>(n=r!=null?u(D(r)):{},c(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>c(t({},\"__esModule\",{value:!0}),r);var d=x((j,i)=>{i.exports=_jsx_runtime});var M={};b(M,{default:()=>l,frontmatter:()=>L});var a=g(d()),L={title:\"D MOLI C\",slug:\"d-moli-c-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dominik-rey\"],featuresNames:[\"Dominik Rey\"],album:\"Definice Rapu\",albumSlug:\"definice-rapu\",year:2024,genre:[\"\"],duration:\"2:57\",trackNumber:1,producers:[],producersNames:[],description:\"D MOLI C \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/d-moli-c-lvcas-dope\",children:\"D MOLI C\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/definice-rapu\",children:\"Definice Rapu\"}),\" (2024).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return v(M);})();\n;return Component;"
   },
   "_id": "skladby/d-moli-c-lvcas-dope.mdx",
   "_raw": {

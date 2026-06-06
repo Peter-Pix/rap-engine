@@ -8,16 +8,19 @@
   "album": "Teritorium I",
   "albumSlug": "teritorium-i",
   "year": 2003,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "0:41",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Skit 1 — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&i(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(h(e)):{},a(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(i({},\"__esModule\",{value:!0}),e);var m=_((N,u)=>{u.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>k});var r=g(m()),k={title:\"Skit 1\",slug:\"skit-1-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium I\",albumSlug:\"teritorium-i\",year:2003,genre:[],duration:\"0:41\",trackNumber:5,producers:[],producersNames:[],description:\"Skit 1 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Skit 1](/skladby/skit-1-orion)** od [Orion](/raperi/orion) z alba [Teritorium I](/alba/teritorium-i) (2003).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var o in r)i(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of f(r))!x.call(e,n)&&n!==o&&i(e,n,{get:()=>r[n],enumerable:!(a=p(r,n))||a.enumerable});return e};var g=(e,r,o)=>(o=e!=null?m(h(e)):{},s(r||!e||!e.__esModule?i(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var c=b((M,u)=>{u.exports=_jsx_runtime});var S={};k(S,{default:()=>d,frontmatter:()=>j});var t=g(c()),j={title:\"Skit 1\",slug:\"skit-1-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium I\",albumSlug:\"teritorium-i\",year:2003,genre:[\"\"],duration:\"0:41\",trackNumber:5,producers:[],producersNames:[],description:\"Skit 1 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/skit-1-orion\",children:\"Skit 1\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/teritorium-i\",children:\"Teritorium I\"}),\" (2003).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(S);})();\n;return Component;"
   },
   "_id": "skladby/skit-1-orion.mdx",
   "_raw": {

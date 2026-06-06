@@ -8,16 +8,19 @@
   "album": "Weekend EP",
   "albumSlug": "weekend-ep",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:47",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "No More Pain (Original Mix) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!h.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(i=p(n,a))||i.enumerable});return e};var N=(e,n,t)=>(t=e!=null?d(g(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var l=f((C,c)=>{c.exports=_jsx_runtime});var j={};M(j,{default:()=>m,frontmatter:()=>b});var r=N(l()),b={title:\"No More Pain (Original Mix)\",slug:\"no-more-pain-original-mix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Weekend EP\",albumSlug:\"weekend-ep\",year:2012,genre:[],duration:\"6:47\",trackNumber:7,producers:[],producersNames:[],description:\"No More Pain (Original Mix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[No More Pain (Original Mix)](/skladby/no-more-pain-original-mix-calin)** od [Calin](/raperi/calin) z alba [Weekend EP](/alba/weekend-ep) (2012).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),M=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},l=(n,e,a,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of x(e))!f.call(n,i)&&i!==a&&o(n,i,{get:()=>e[i],enumerable:!(t=m(e,i))||t.enumerable});return n};var b=(n,e,a)=>(a=n!=null?u(g(n)):{},l(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),N=n=>l(o({},\"__esModule\",{value:!0}),n);var c=h((C,s)=>{s.exports=_jsx_runtime});var _={};M(_,{default:()=>p,frontmatter:()=>k});var r=b(c()),k={title:\"No More Pain (Original Mix)\",slug:\"no-more-pain-original-mix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Weekend EP\",albumSlug:\"weekend-ep\",year:2012,genre:[\"\"],duration:\"6:47\",trackNumber:7,producers:[],producersNames:[],description:\"No More Pain (Original Mix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/no-more-pain-original-mix-calin\",children:\"No More Pain (Original Mix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/weekend-ep\",children:\"Weekend EP\"}),\" (2012).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return N(_);})();\n;return Component;"
   },
   "_id": "skladby/no-more-pain-original-mix-calin.mdx",
   "_raw": {

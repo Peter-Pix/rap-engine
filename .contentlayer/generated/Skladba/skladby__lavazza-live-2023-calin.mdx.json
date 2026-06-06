@@ -8,16 +8,19 @@
   "album": "Live @ O2 arena Praha",
   "albumSlug": "live-o2-arena-praha",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:22",
   "trackNumber": 21,
   "producers": [],
   "producersNames": [],
   "description": "Lavazza (Live 2023) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var L=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},i=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!v.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=d(a,n))||s.enumerable});return e};var _=(e,a,t)=>(t=e!=null?p(x(e)):{},i(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var l=L((N,c)=>{c.exports=_jsx_runtime});var z={};f(z,{default:()=>m,frontmatter:()=>g});var r=_(l()),g={title:\"Lavazza (Live 2023)\",slug:\"lavazza-live-2023-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Live @ O2 arena Praha\",albumSlug:\"live-o2-arena-praha\",year:2024,genre:[],duration:\"4:22\",trackNumber:21,producers:[],producersNames:[],description:\"Lavazza (Live 2023) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(z);})();\n;return Component;"
+    "raw": "\n**[Lavazza (Live 2023)](/skladby/lavazza-live-2023-calin)** od [Calin](/raperi/calin) z alba [Live @ O2 arena Praha](/alba/live-o2-arena-praha) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var v=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var L=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var n in a)i(e,n,{get:a[n],enumerable:!0})},o=(e,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of v(a))!z.call(e,t)&&t!==n&&i(e,t,{get:()=>a[t],enumerable:!(l=h(a,t))||l.enumerable});return e};var x=(e,a,n)=>(n=e!=null?p(m(e)):{},o(a||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>o(i({},\"__esModule\",{value:!0}),e);var c=L((C,s)=>{s.exports=_jsx_runtime});var _={};f(_,{default:()=>d,frontmatter:()=>g});var r=x(c()),g={title:\"Lavazza (Live 2023)\",slug:\"lavazza-live-2023-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Live @ O2 arena Praha\",albumSlug:\"live-o2-arena-praha\",year:2024,genre:[\"\"],duration:\"4:22\",trackNumber:21,producers:[],producersNames:[],description:\"Lavazza (Live 2023) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/lavazza-live-2023-calin\",children:\"Lavazza (Live 2023)\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/live-o2-arena-praha\",children:\"Live @ O2 arena Praha\"}),\" (2024).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/lavazza-live-2023-calin.mdx",
   "_raw": {

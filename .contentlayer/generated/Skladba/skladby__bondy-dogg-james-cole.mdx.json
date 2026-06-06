@@ -14,16 +14,19 @@
   "album": "WELL DONE",
   "albumSlug": "well-done",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "BONDY / DOGG — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!g.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?i(h(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),D=e=>m(a({},\"__esModule\",{value:!0}),e);var l=b((C,d)=>{d.exports=_jsx_runtime});var N={};f(N,{default:()=>u,frontmatter:()=>_});var n=j(l()),_={title:\"BONDY / DOGG\",slug:\"bondy-dogg-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"radimo\"],featuresNames:[\"Idea\",\"Radimo\"],album:\"WELL DONE\",albumSlug:\"well-done\",year:2025,genre:[],duration:\"3:45\",trackNumber:5,producers:[],producersNames:[],description:\"BONDY / DOGG \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return D(N);})();\n;return Component;"
+    "raw": "\n**[BONDY / DOGG](/skladby/bondy-dogg-james-cole)** od [James Cole](/raperi/james-cole) z alba [WELL DONE](/alba/well-done) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),D=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},l=(r,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!f.call(r,n)&&n!==o&&t(r,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return r};var j=(r,e,o)=>(o=r!=null?u(b(r)):{},l(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),x=r=>l(t({},\"__esModule\",{value:!0}),r);var c=h((_,d)=>{d.exports=_jsx_runtime});var O={};D(O,{default:()=>i,frontmatter:()=>N});var a=j(c()),N={title:\"BONDY / DOGG\",slug:\"bondy-dogg-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"radimo\"],featuresNames:[\"Idea\",\"Radimo\"],album:\"WELL DONE\",albumSlug:\"well-done\",year:2025,genre:[\"\"],duration:\"3:45\",trackNumber:5,producers:[],producersNames:[],description:\"BONDY / DOGG \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/bondy-dogg-james-cole\",children:\"BONDY / DOGG\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/well-done\",children:\"WELL DONE\"}),\" (2025).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return x(O);})();\n;return Component;"
   },
   "_id": "skladby/bondy-dogg-james-cole.mdx",
   "_raw": {

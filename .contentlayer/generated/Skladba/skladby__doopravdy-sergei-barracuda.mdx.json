@@ -8,16 +8,19 @@
   "album": "Produkt",
   "albumSlug": "produkt",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:14",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Doopravdy — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!h.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=l(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?m(x(e)):{},u(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var c=b((D,d)=>{d.exports=_jsx_runtime});var S={};f(S,{default:()=>p,frontmatter:()=>y});var t=_(c()),y={title:\"Doopravdy\",slug:\"doopravdy-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Produkt\",albumSlug:\"produkt\",year:2024,genre:[],duration:\"3:14\",trackNumber:1,producers:[],producersNames:[],description:\"Doopravdy \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Doopravdy](/skladby/doopravdy-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Produkt](/alba/produkt) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var d=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),x=(a,r)=>{for(var o in r)d(a,o,{get:r[o],enumerable:!0})},s=(a,r,o,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of b(r))!f.call(a,t)&&t!==o&&d(a,t,{get:()=>r[t],enumerable:!(n=g(r,t))||n.enumerable});return a};var y=(a,r,o)=>(o=a!=null?l(m(a)):{},s(r||!a||!a.__esModule?d(o,\"default\",{value:a,enumerable:!0}):o,a)),k=a=>s(d({},\"__esModule\",{value:!0}),a);var c=h((D,u)=>{u.exports=_jsx_runtime});var j={};x(j,{default:()=>p,frontmatter:()=>_});var e=y(c()),_={title:\"Doopravdy\",slug:\"doopravdy-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Produkt\",albumSlug:\"produkt\",year:2024,genre:[\"\"],duration:\"3:14\",trackNumber:1,producers:[],producersNames:[],description:\"Doopravdy \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/doopravdy-sergei-barracuda\",children:\"Doopravdy\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/produkt\",children:\"Produkt\"}),\" (2024).\"]})}function p(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(i,{...a})}):i(a)}return k(j);})();\n;return Component;"
   },
   "_id": "skladby/doopravdy-sergei-barracuda.mdx",
   "_raw": {

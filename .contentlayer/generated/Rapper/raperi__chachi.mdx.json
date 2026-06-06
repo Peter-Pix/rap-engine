@@ -1,13 +1,15 @@
 {
   "title": "Chachi",
   "slug": "chachi",
-  "genre": [],
-  "description": "Chachi — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Chachi — nezávislý rapper z české a slovenské rapové scény, který si buduje jméno autentickým stylem a ostrými texty. Sleduj jeho tvorbu.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of u(n))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(c=d(n,o))||c.enumerable});return e};var g=(e,n,r)=>(r=e!=null?p(x(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),C=e=>i(s({},\"__esModule\",{value:!0}),e);var a=f((v,h)=>{h.exports=_jsx_runtime});var b={};j(b,{default:()=>l,frontmatter:()=>M});var t=g(a()),M={title:\"Chachi\",slug:\"chachi\",genre:[],description:\"Chachi \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return C(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Chachi](/raperi/chachi)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},c=(n,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of d(e))!x.call(n,s)&&s!==r&&o(n,s,{get:()=>e[s],enumerable:!(a=m(e,s))||a.enumerable});return n};var f=(n,e,r)=>(r=n!=null?u(j(n)):{},c(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),v=n=>c(o({},\"__esModule\",{value:!0}),n);var h=g((y,i)=>{i.exports=_jsx_runtime});var C={};_(C,{default:()=>l,frontmatter:()=>k});var t=f(h()),k={title:\"Chachi\",slug:\"chachi\",genre:[\"\"],description:\"Chachi \\u2014 nez\\xE1visl\\xFD rapper z \\u010Desk\\xE9 a slovensk\\xE9 rapov\\xE9 sc\\xE9ny, kter\\xFD si buduje jm\\xE9no autentick\\xFDm stylem a ostr\\xFDmi texty. Sleduj jeho tvorbu.\",publishedAt:\"2026-05-31\"};function p(n){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/raperi/chachi\",children:\"Chachi\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(p,{...n})}):p(n)}return v(C);})();\n;return Component;"
   },
   "_id": "raperi/chachi.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Produkt",
   "albumSlug": "produkt",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:29",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Ze Čtvrti — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=l(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?p(h(e)):{},u(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=b((M,c)=>{c.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>S});var t=_(i()),S={title:\"Ze \\u010Ctvrti\",slug:\"ze-ctvrti-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"hard-rico\"],featuresNames:[\"Hard Rico\"],album:\"Produkt\",albumSlug:\"produkt\",year:2024,genre:[],duration:\"3:29\",trackNumber:9,producers:[],producersNames:[],description:\"Ze \\u010Ctvrti \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Ze Čtvrti](/skladby/ze-ctvrti-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Produkt](/alba/produkt) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!h.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(s=g(r,n))||s.enumerable});return e};var k=(e,r,t)=>(t=e!=null?p(m(e)):{},c(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var i=f((y,d)=>{d.exports=_jsx_runtime});var v={};x(v,{default:()=>l,frontmatter:()=>j});var a=k(i()),j={title:\"Ze \\u010Ctvrti\",slug:\"ze-ctvrti-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"hard-rico\"],featuresNames:[\"Hard Rico\"],album:\"Produkt\",albumSlug:\"produkt\",year:2024,genre:[\"\"],duration:\"3:29\",trackNumber:9,producers:[],producersNames:[],description:\"Ze \\u010Ctvrti \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/ze-ctvrti-sergei-barracuda\",children:\"Ze \\u010Ctvrti\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/produkt\",children:\"Produkt\"}),\" (2024).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return _(v);})();\n;return Component;"
   },
   "_id": "skladby/ze-ctvrti-sergei-barracuda.mdx",
   "_raw": {

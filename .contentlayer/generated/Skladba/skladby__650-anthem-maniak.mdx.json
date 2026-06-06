@@ -12,16 +12,19 @@
   "album": "Maniak Muzik",
   "albumSlug": "maniak-muzik",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:17",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "650 Anthem — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)i(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==a&&i(e,r,{get:()=>n[r],enumerable:!(m=p(n,r))||m.enumerable});return e};var _=(e,n,a)=>(a=e!=null?d(k(e)):{},o(n||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>o(i({},\"__esModule\",{value:!0}),e);var u=M((N,s)=>{s.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>g});var t=_(u()),g={title:\"650 Anthem\",slug:\"650-anthem-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"4:17\",trackNumber:1,producers:[],producersNames:[],description:\"650 Anthem \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[650 Anthem](/skladby/650-anthem-maniak)** od [Maniak](/raperi/maniak) z alba [Maniak Muzik](/alba/maniak-muzik) (2016).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var r in a)i(n,r,{get:a[r],enumerable:!0})},m=(n,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!M.call(n,t)&&t!==r&&i(n,t,{get:()=>a[t],enumerable:!(s=d(a,t))||s.enumerable});return n};var b=(n,a,r)=>(r=n!=null?c(p(n)):{},m(a||!n||!n.__esModule?i(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>m(i({},\"__esModule\",{value:!0}),n);var u=f((A,o)=>{o.exports=_jsx_runtime});var j={};x(j,{default:()=>k,frontmatter:()=>_});var e=b(u()),_={title:\"650 Anthem\",slug:\"650-anthem-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[\"\"],duration:\"4:17\",trackNumber:1,producers:[],producersNames:[],description:\"650 Anthem \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/650-anthem-maniak\",children:\"650 Anthem\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/maniak-muzik\",children:\"Maniak Muzik\"}),\" (2016).\"]})}function k(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(l,{...n})}):l(n)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/650-anthem-maniak.mdx",
   "_raw": {

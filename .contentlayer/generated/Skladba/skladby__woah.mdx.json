@@ -1,0 +1,28 @@
+{
+  "title": "Woah",
+  "slug": "woah",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "year": 2025,
+  "description": "Woah — singl od CÂLIN (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/2c2c4479f0d1a8774a28d135ce9e29f5/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Woah](/skladby/woah)** od [Calin](/raperi/calin) (2025).\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var u=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},c=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of x(e))!m.call(n,r)&&r!==t&&o(n,r,{get:()=>e[r],enumerable:!(s=g(e,r))||s.enumerable});return n};var _=(n,e,t)=>(t=n!=null?h(f(n)):{},c(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),C=n=>c(o({},\"__esModule\",{value:!0}),n);var l=u((L,i)=>{i.exports=_jsx_runtime});var w={};j(w,{default:()=>p,frontmatter:()=>y});var a=_(l()),y={title:\"Woah\",slug:\"woah\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",year:2025,description:\"Woah \\u2014 singl od C\\xC2LIN (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/2c2c4479f0d1a8774a28d135ce9e29f5/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/woah\",children:\"Woah\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2025).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(d,{...n})}):d(n)}return C(w);})();\n;return Component;"
+  },
+  "_id": "skladby/woah.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/woah.mdx",
+    "sourceFileName": "woah.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/woah"
+  },
+  "type": "Skladba",
+  "url": "/skladby/woah",
+  "canonicalUrl": "https://4rap.cz/skladby/woah"
+}

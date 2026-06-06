@@ -8,16 +8,19 @@
   "album": "Tango & Kouř",
   "albumSlug": "tango-kour",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:58",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Jazz Talk — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!z.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=i(t,a))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?d(x(e)):{},l(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var b=h((B,u)=>{u.exports=_jsx_runtime});var k={};g(k,{default:()=>m,frontmatter:()=>j});var n=f(b()),j={title:\"Jazz Talk\",slug:\"jazz-talk-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[],duration:\"1:58\",trackNumber:9,producers:[],producersNames:[],description:\"Jazz Talk \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Jazz Talk](/skladby/jazz-talk-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Tango & Kouř](/alba/tango-kour) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var o in a)n(e,o,{get:a[o],enumerable:!0})},l=(e,a,o,b)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!g.call(e,t)&&t!==o&&n(e,t,{get:()=>a[t],enumerable:!(b=i(a,t))||b.enumerable});return e};var k=(e,a,o)=>(o=e!=null?d(m(e)):{},l(a||!e||!e.__esModule?n(o,\"default\",{value:e,enumerable:!0}):o,e)),y=e=>l(n({},\"__esModule\",{value:!0}),e);var u=f((_,s)=>{s.exports=_jsx_runtime});var j={};h(j,{default:()=>z,frontmatter:()=>x});var r=k(u()),x={title:\"Jazz Talk\",slug:\"jazz-talk-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[\"\"],duration:\"1:58\",trackNumber:9,producers:[],producersNames:[],description:\"Jazz Talk \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/jazz-talk-bobby-blaze\",children:\"Jazz Talk\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/tango-kour\",children:\"Tango & Kou\\u0159\"}),\" (2024).\"]})}function z(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/jazz-talk-bobby-blaze.mdx",
   "_raw": {

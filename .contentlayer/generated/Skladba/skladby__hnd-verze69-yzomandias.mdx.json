@@ -16,16 +16,19 @@
   "album": "J. EDEN E-GEN (mixed by NobodyListen)",
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:35",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "HND (verze69) — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),N=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},d=(e,n,o,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!h.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(a=p(n,r))||a.enumerable});return e};var f=(e,n,o)=>(o=e!=null?l(x(e)):{},d(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>d(s({},\"__esModule\",{value:!0}),e);var m=y((k,i)=>{i.exports=_jsx_runtime});var z={};N(z,{default:()=>u,frontmatter:()=>j});var t=f(m()),j={title:\"HND (verze69)\",slug:\"hnd-verze69-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"nik-tendo\",\"jickson\"],featuresNames:[\"Nobodylisten\",\"Nik Tendo\",\"Jickson\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[],duration:\"4:35\",trackNumber:14,producers:[],producersNames:[],description:\"HND (verze69) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[HND (verze69)](/skladby/hnd-verze69-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),z=(n,e)=>{for(var r in e)t(n,r,{get:e[r],enumerable:!0})},d=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of y(e))!N.call(n,a)&&a!==r&&t(n,a,{get:()=>e[a],enumerable:!(s=b(e,a))||s.enumerable});return n};var h=(n,e,r)=>(r=n!=null?u(p(n)):{},d(e||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),f=n=>d(t({},\"__esModule\",{value:!0}),n);var m=x((k,i)=>{i.exports=_jsx_runtime});var j={};z(j,{default:()=>c,frontmatter:()=>g});var o=h(m()),g={title:\"HND (verze69)\",slug:\"hnd-verze69-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"nik-tendo\",\"jickson\"],featuresNames:[\"Nobodylisten\",\"Nik Tendo\",\"Jickson\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"4:35\",trackNumber:14,producers:[],producersNames:[],description:\"HND (verze69) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/hnd-verze69-yzomandias\",children:\"HND (verze69)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(l,{...n})}):l(n)}return f(j);})();\n;return Component;"
   },
   "_id": "skladby/hnd-verze69-yzomandias.mdx",
   "_raw": {

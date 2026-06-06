@@ -12,16 +12,19 @@
   "album": "Ultra! Ultra!",
   "albumSlug": "ultra-ultra",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:59",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Můj Nepřítel — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)l(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!j.call(e,a)&&a!==n&&l(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var b=(e,r,n)=>(n=e!=null?c(x(e)):{},i(r||!e||!e.__esModule?l(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(l({},\"__esModule\",{value:!0}),e);var m=f((S,u)=>{u.exports=_jsx_runtime});var N={};_(N,{default:()=>d,frontmatter:()=>M});var t=b(m()),M={title:\"Mu\\u030Aj Nepr\\u030Ci\\u0301tel\",slug:\"muj-nepritel-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"roman-holy\"],featuresNames:[\"Roman Holy\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"3:59\",trackNumber:8,producers:[],producersNames:[],description:\"Mu\\u030Aj Nepr\\u030Ci\\u0301tel \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function s(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(s,{...e})}):s(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[Můj Nepřítel](/skladby/muj-nepritel-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Ultra! Ultra!](/alba/ultra-ultra) (2017).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)n(e,a,{get:r[a],enumerable:!0})},o=(e,r,a,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let l of h(r))!j.call(e,l)&&l!==a&&n(e,l,{get:()=>r[l],enumerable:!(i=c(r,l))||i.enumerable});return e};var g=(e,r,a)=>(a=e!=null?p(f(e)):{},o(r||!e||!e.__esModule?n(a,\"default\",{value:e,enumerable:!0}):a,e)),M=e=>o(n({},\"__esModule\",{value:!0}),e);var s=x((v,u)=>{u.exports=_jsx_runtime});var _={};b(_,{default:()=>m,frontmatter:()=>N});var t=g(s()),N={title:\"Mu\\u030Aj Nepr\\u030Ci\\u0301tel\",slug:\"muj-nepritel-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"roman-holy\"],featuresNames:[\"Roman Holy\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[\"\"],duration:\"3:59\",trackNumber:8,producers:[],producersNames:[],description:\"Mu\\u030Aj Nepr\\u030Ci\\u0301tel \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/muj-nepritel-vladimir-518\",children:\"Mu\\u030Aj Nepr\\u030Ci\\u0301tel\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/ultra-ultra\",children:\"Ultra! Ultra!\"}),\" (2017).\"]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/muj-nepritel-vladimir-518.mdx",
   "_raw": {

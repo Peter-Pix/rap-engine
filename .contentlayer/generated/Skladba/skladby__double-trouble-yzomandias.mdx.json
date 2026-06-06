@@ -12,16 +12,19 @@
   "album": "Kruhy & Vlny (217 Twins Edition)",
   "albumSlug": "kruhy-vlny",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:43",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Double Trouble — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of b(n))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?c(h(e)):{},u(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var d=y((D,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>j});var t=_(d()),j={title:\"Double Trouble\",slug:\"double-trouble-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[],duration:\"3:43\",trackNumber:15,producers:[],producersNames:[],description:\"Double Trouble \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Double Trouble](/skladby/double-trouble-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var o in e)t(n,o,{get:e[o],enumerable:!0})},u=(n,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!h.call(n,a)&&a!==o&&t(n,a,{get:()=>e[a],enumerable:!(s=b(e,a))||s.enumerable});return n};var z=(n,e,o)=>(o=n!=null?m(y(n)):{},u(e||!n||!n.__esModule?t(o,\"default\",{value:n,enumerable:!0}):o,n)),g=n=>u(t({},\"__esModule\",{value:!0}),n);var i=f((j,l)=>{l.exports=_jsx_runtime});var T={};x(T,{default:()=>c,frontmatter:()=>k});var r=z(i()),k={title:\"Double Trouble\",slug:\"double-trouble-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"3:43\",trackNumber:15,producers:[],producersNames:[],description:\"Double Trouble \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/double-trouble-yzomandias\",children:\"Double Trouble\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return g(T);})();\n;return Component;"
   },
   "_id": "skladby/double-trouble-yzomandias.mdx",
   "_raw": {

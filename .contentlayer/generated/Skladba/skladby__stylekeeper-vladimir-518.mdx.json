@@ -12,16 +12,19 @@
   "album": "Ultra! Ultra!",
   "albumSlug": "ultra-ultra",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "StyleKeeper — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!h.call(e,a)&&a!==n&&i(e,a,{get:()=>r[a],enumerable:!(l=p(r,a))||l.enumerable});return e};var b=(e,r,n)=>(n=e!=null?c(f(e)):{},s(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var m=k((M,o)=>{o.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>j});var t=b(m()),j={title:\"StyleKeeper\",slug:\"stylekeeper-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"3:08\",trackNumber:10,producers:[],producersNames:[],description:\"StyleKeeper \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[StyleKeeper](/skladby/stylekeeper-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Ultra! Ultra!](/alba/ultra-ultra) (2017).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var a in e)i(r,a,{get:e[a],enumerable:!0})},s=(r,e,a,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of f(e))!k.call(r,l)&&l!==a&&i(r,l,{get:()=>e[l],enumerable:!(n=c(e,l))||n.enumerable});return r};var y=(r,e,a)=>(a=r!=null?p(h(r)):{},s(e||!r||!r.__esModule?i(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>s(i({},\"__esModule\",{value:!0}),r);var d=x((v,o)=>{o.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>_});var t=y(d()),_={title:\"StyleKeeper\",slug:\"stylekeeper-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[\"\"],duration:\"3:08\",trackNumber:10,producers:[],producersNames:[],description:\"StyleKeeper \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/stylekeeper-vladimir-518\",children:\"StyleKeeper\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/ultra-ultra\",children:\"Ultra! Ultra!\"}),\" (2017).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(u,{...r})}):u(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/stylekeeper-vladimir-518.mdx",
   "_raw": {

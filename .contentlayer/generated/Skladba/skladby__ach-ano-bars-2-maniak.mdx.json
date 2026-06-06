@@ -8,16 +8,19 @@
   "album": "Ach Ano Bars #2",
   "albumSlug": "ach-ano-bars-2",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:55",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Ach Ano Bars #2 — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),A=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!b.call(e,t)&&t!==r&&o(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(x(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var i=f((B,u)=>{u.exports=_jsx_runtime});var j={};A(j,{default:()=>d,frontmatter:()=>k});var a=_(i()),k={title:\"Ach Ano Bars #2\",slug:\"ach-ano-bars-2-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Bars #2\",albumSlug:\"ach-ano-bars-2\",year:2021,genre:[],duration:\"1:55\",trackNumber:1,producers:[],producersNames:[],description:\"Ach Ano Bars #2 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(m,{...e})}):m(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Ach Ano Bars #2](/skladby/ach-ano-bars-2-maniak)** od [Maniak](/raperi/maniak) (2021).\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var n in a)s(r,n,{get:a[n],enumerable:!0})},c=(r,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!b.call(r,t)&&t!==n&&s(r,t,{get:()=>a[t],enumerable:!(o=l(a,t))||o.enumerable});return r};var A=(r,a,n)=>(n=r!=null?h(k(r)):{},c(a||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>c(s({},\"__esModule\",{value:!0}),r);var u=f((B,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>M});var e=A(u()),M={title:\"Ach Ano Bars #2\",slug:\"ach-ano-bars-2-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ach Ano Bars #2\",albumSlug:\"ach-ano-bars-2\",year:2021,genre:[\"\"],duration:\"1:55\",trackNumber:1,producers:[],producersNames:[],description:\"Ach Ano Bars #2 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/ach-ano-bars-2-maniak\",children:\"Ach Ano Bars #2\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2021).\"]})}function m(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(d,{...r})}):d(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/ach-ano-bars-2-maniak.mdx",
   "_raw": {

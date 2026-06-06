@@ -12,16 +12,19 @@
   "album": "Premiéra",
   "albumSlug": "premiera",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:08",
   "trackNumber": 16,
   "producers": [],
   "producersNames": [],
   "description": "Skit úplně nejvíc — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!j.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=d(t,s))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(a({},\"__esModule\",{value:!0}),e);var u=f((D,i)=>{i.exports=_jsx_runtime});var S={};_(S,{default:()=>p,frontmatter:()=>k});var r=b(u()),k={title:\"Skit \\xFApln\\u011B nejv\\xEDc\",slug:\"skit-uplne-nejvic-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"2:08\",trackNumber:16,producers:[],producersNames:[],description:\"Skit \\xFApln\\u011B nejv\\xEDc \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Skit úplně nejvíc](/skladby/skit-uplne-nejvic-rest)** od [Rest](/raperi/rest) z alba [Premiéra](/alba/premiera) (2010).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!h.call(r,a)&&a!==n&&s(r,a,{get:()=>e[a],enumerable:!(i=m(e,a))||i.enumerable});return r};var k=(r,e,n)=>(n=r!=null?d(j(r)):{},o(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>o(s({},\"__esModule\",{value:!0}),r);var l=x((y,c)=>{c.exports=_jsx_runtime});var v={};b(v,{default:()=>u,frontmatter:()=>_});var t=k(l()),_={title:\"Skit \\xFApln\\u011B nejv\\xEDc\",slug:\"skit-uplne-nejvic-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[\"\"],duration:\"2:08\",trackNumber:16,producers:[],producersNames:[],description:\"Skit \\xFApln\\u011B nejv\\xEDc \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/skit-uplne-nejvic-rest\",children:\"Skit \\xFApln\\u011B nejv\\xEDc\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/premiera\",children:\"Premi\\xE9ra\"}),\" (2010).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(p,{...r})}):p(r)}return g(v);})();\n;return Component;"
   },
   "_id": "skladby/skit-uplne-nejvic-rest.mdx",
   "_raw": {

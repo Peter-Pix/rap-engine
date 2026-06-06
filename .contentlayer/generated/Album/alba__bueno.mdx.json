@@ -6,16 +6,17 @@
   "label": "Crux Label",
   "year": 2023,
   "genre": [],
-  "description": "Bueno — singl od Dre Skuffs (2023).",
+  "description": "Dre Skuffs v roce 2023 vydal své debutové album. Obsahuje celkem jednu skladbu. Deska vyšla pod labelem Crux Label.",
   "image": "https://cdn-images.dzcdn.net/images/cover/22adbfc374544a0d32ee81765b1610a3/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
     "Bueno"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of f(n))!g.call(e,s)&&s!==r&&o(e,s,{get:()=>n[s],enumerable:!(a=p(n,s))||a.enumerable});return e};var _=(e,n,r)=>(r=e!=null?m(x(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var i=h((B,u)=>{u.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>k});var t=_(i()),k={title:\"Bueno\",slug:\"bueno\",rapper:\"Dre Skuffs\",rapperSlug:\"dre-skuffs\",label:\"Crux Label\",year:2023,genre:[],description:\"Bueno \\u2014 singl od Dre Skuffs (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/22adbfc374544a0d32ee81765b1610a3/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bueno\"],publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(D);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Dre Skuffs](/raperi/dre-skuffs) v roce 2023 vydal své debutové album.\n\nAlbum obsahuje celkem jednu skladbu.\n\nDeska vyšla pod labelem Crux Label.\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),k=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},u=(a,e,r,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!h.call(a,t)&&t!==r&&s(a,t,{get:()=>e[t],enumerable:!(l=m(e,t))||l.enumerable});return a};var v=(a,e,r)=>(r=a!=null?i(f(a)):{},u(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),j=a=>u(s({},\"__esModule\",{value:!0}),a);var d=x((y,o)=>{o.exports=_jsx_runtime});var D={};k(D,{default:()=>b,frontmatter:()=>g});var n=v(d()),g={title:\"Bueno\",slug:\"bueno\",rapper:\"Dre Skuffs\",rapperSlug:\"dre-skuffs\",label:\"Crux Label\",year:2023,genre:[],description:\"Dre Skuffs v roce 2023 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem jednu skladbu. Deska vy\\u0161la pod labelem Crux Label.\",image:\"https://cdn-images.dzcdn.net/images/cover/22adbfc374544a0d32ee81765b1610a3/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Bueno\"],publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/dre-skuffs\",children:\"Dre Skuffs\"}),\" v roce 2023 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem jednu skladbu.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Crux Label.\"})]})}function b(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(c,{...a})}):c(a)}return j(D);})();\n;return Component;"
   },
   "_id": "alba/bueno.mdx",
   "_raw": {

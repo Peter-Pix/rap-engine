@@ -12,16 +12,19 @@
   "album": "Harant",
   "albumSlug": "harant",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:20",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Kotě — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((N,i)=>{i.exports=_jsx_runtime});var K={};_(K,{default:()=>c,frontmatter:()=>k});var r=b(d()),k={title:\"Kot\\u011B\",slug:\"kote-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"eki\"],featuresNames:[\"Eki\"],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[],duration:\"5:20\",trackNumber:14,producers:[],producersNames:[],description:\"Kot\\u011B \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(K);})();\n;return Component;"
+    "raw": "\n**[Kotě](/skladby/kote-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Harant](/alba/harant) (2010).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},u=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of m(a))!f.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=h(a,n))||s.enumerable});return e};var k=(e,a,t)=>(t=e!=null?p(g(e)):{},u(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var l=x((K,i)=>{i.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>j});var r=k(l()),j={title:\"Kot\\u011B\",slug:\"kote-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"eki\"],featuresNames:[\"Eki\"],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[\"\"],duration:\"5:20\",trackNumber:14,producers:[],producersNames:[],description:\"Kot\\u011B \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/kote-paulie-garand\",children:\"Kot\\u011B\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/harant\",children:\"Harant\"}),\" (2010).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/kote-paulie-garand.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Pouliční Ekonomická 3: Láska & Loyalita",
   "albumSlug": "poulicni-ekonomicka-3-laska-loyalita",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:08",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Láska & Loyalita — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var t in e)o(a,t,{get:e[t],enumerable:!0})},i=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of k(e))!x.call(a,n)&&n!==t&&o(a,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return a};var f=(a,e,t)=>(t=a!=null?m(g(a)):{},i(e||!a||!a.__esModule?o(t,\"default\",{value:a,enumerable:!0}):t,a)),y=a=>i(o({},\"__esModule\",{value:!0}),a);var u=h((S,l)=>{l.exports=_jsx_runtime});var _={};b(_,{default:()=>d,frontmatter:()=>L});var r=f(u()),L={title:\"L\\xE1ska & Loyalita\",slug:\"laska-loyalita-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pastor\"],featuresNames:[\"Pastor\"],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[],duration:\"5:08\",trackNumber:3,producers:[],producersNames:[],description:\"L\\xE1ska & Loyalita \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function c(a){let e={em:\"em\",h2:\"h2\",p:\"p\",...a.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(c,{...a})}):c(a)}return y(_);})();\n;return Component;"
+    "raw": "\n**[Láska & Loyalita](/skladby/laska-loyalita-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Pouliční Ekonomická 3: Láska & Loyalita](/alba/poulicni-ekonomicka-3-laska-loyalita) (2018).\n",
+    "code": "var Component=(()=>{var k=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var y=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),L=(r,a)=>{for(var o in a)i(r,o,{get:a[o],enumerable:!0})},n=(r,a,o,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!b.call(r,t)&&t!==o&&i(r,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return r};var f=(r,a,o)=>(o=r!=null?k(g(r)):{},n(a||!r||!r.__esModule?i(o,\"default\",{value:r,enumerable:!0}):o,r)),h=r=>n(i({},\"__esModule\",{value:!0}),r);var c=y((S,l)=>{l.exports=_jsx_runtime});var _={};L(_,{default:()=>d,frontmatter:()=>x});var e=f(c()),x={title:\"L\\xE1ska & Loyalita\",slug:\"laska-loyalita-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pastor\"],featuresNames:[\"Pastor\"],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[\"\"],duration:\"5:08\",trackNumber:3,producers:[],producersNames:[],description:\"L\\xE1ska & Loyalita \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/laska-loyalita-sergei-barracuda\",children:\"L\\xE1ska & Loyalita\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/poulicni-ekonomicka-3-laska-loyalita\",children:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\"}),\" (2018).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(u,{...r})}):u(r)}return h(_);})();\n;return Component;"
   },
   "_id": "skladby/laska-loyalita-sergei-barracuda.mdx",
   "_raw": {

@@ -1,0 +1,28 @@
+{
+  "title": "Herma",
+  "slug": "herma",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "year": 2023,
+  "description": "Herma — singl od Hugo Toxxx (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/74482efc3257c4a604bd1330242a531c/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Herma](/skladby/herma)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2023).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)a(t,r,{get:e[r],enumerable:!0})},x=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!h.call(t,o)&&o!==r&&a(t,o,{get:()=>e[o],enumerable:!(s=g(e,o))||s.enumerable});return t};var H=(t,e,r)=>(r=t!=null?d(u(t)):{},x(e||!t||!t.__esModule?a(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>x(a({},\"__esModule\",{value:!0}),t);var i=f((D,c)=>{c.exports=_jsx_runtime});var T={};j(T,{default:()=>p,frontmatter:()=>y});var n=H(i()),y={title:\"Herma\",slug:\"herma\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",year:2023,description:\"Herma \\u2014 singl od Hugo Toxxx (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/74482efc3257c4a604bd1330242a531c/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/herma\",children:\"Herma\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2023).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return _(T);})();\n;return Component;"
+  },
+  "_id": "skladby/herma.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/herma.mdx",
+    "sourceFileName": "herma.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/herma"
+  },
+  "type": "Skladba",
+  "url": "/skladby/herma",
+  "canonicalUrl": "https://4rap.cz/skladby/herma"
+}

@@ -16,16 +16,19 @@
   "album": "WELL DONE",
   "albumSlug": "well-done",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "HORE — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!f.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var b=(e,r,t)=>(t=e!=null?i(x(e)):{},c(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var m=j((k,l)=>{l.exports=_jsx_runtime});var E={};_(E,{default:()=>d,frontmatter:()=>C});var n=b(m()),C={title:\"HORE\",slug:\"hore-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"jana-kirschner\",\"zef\"],featuresNames:[\"Idea\",\"Jana Kirschner\",\"Zef\"],album:\"WELL DONE\",albumSlug:\"well-done\",year:2025,genre:[],duration:\"3:24\",trackNumber:6,producers:[],producersNames:[],description:\"HORE \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(E);})();\n;return Component;"
+    "raw": "\n**[HORE](/skladby/hore-james-cole)** od [James Cole](/raperi/james-cole) z alba [WELL DONE](/alba/well-done) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},l=(r,e,n,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!j.call(r,o)&&o!==n&&s(r,o,{get:()=>e[o],enumerable:!(t=p(e,o))||t.enumerable});return r};var g=(r,e,n)=>(n=r!=null?u(f(r)):{},l(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),E=r=>l(s({},\"__esModule\",{value:!0}),r);var d=x((N,c)=>{c.exports=_jsx_runtime});var C={};b(C,{default:()=>m,frontmatter:()=>_});var a=g(d()),_={title:\"HORE\",slug:\"hore-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"jana-kirschner\",\"zef\"],featuresNames:[\"Idea\",\"Jana Kirschner\",\"Zef\"],album:\"WELL DONE\",albumSlug:\"well-done\",year:2025,genre:[\"\"],duration:\"3:24\",trackNumber:6,producers:[],producersNames:[],description:\"HORE \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/hore-james-cole\",children:\"HORE\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/well-done\",children:\"WELL DONE\"}),\" (2025).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return E(C);})();\n;return Component;"
   },
   "_id": "skladby/hore-james-cole.mdx",
   "_raw": {

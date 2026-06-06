@@ -12,16 +12,19 @@
   "album": "Nirvana",
   "albumSlug": "nirvana",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:26",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Penicilin — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)i(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!g.call(e,t)&&t!==a&&i(e,t,{get:()=>n[t],enumerable:!(o=m(n,t))||o.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(h(e)):{},s(n||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var l=b((M,u)=>{u.exports=_jsx_runtime});var N={};f(N,{default:()=>d,frontmatter:()=>y});var r=_(l()),y={title:\"Penicilin\",slug:\"penicilin-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"boy-wonder\"],featuresNames:[\"Boy Wonder\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"3:26\",trackNumber:11,producers:[],producersNames:[],description:\"Penicilin \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Penicilin](/skladby/penicilin-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Nirvana](/alba/nirvana) (2017).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var r in a)t(n,r,{get:a[r],enumerable:!0})},o=(n,a,r,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let i of g(a))!h.call(n,i)&&i!==r&&t(n,i,{get:()=>a[i],enumerable:!(l=m(a,i))||l.enumerable});return n};var P=(n,a,r)=>(r=n!=null?p(f(n)):{},o(a||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),_=n=>o(t({},\"__esModule\",{value:!0}),n);var d=b((v,s)=>{s.exports=_jsx_runtime});var y={};x(y,{default:()=>c,frontmatter:()=>j});var e=P(d()),j={title:\"Penicilin\",slug:\"penicilin-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"boy-wonder\"],featuresNames:[\"Boy Wonder\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[\"\"],duration:\"3:26\",trackNumber:11,producers:[],producersNames:[],description:\"Penicilin \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function u(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/penicilin-paulie-garand\",children:\"Penicilin\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/nirvana\",children:\"Nirvana\"}),\" (2017).\"]})}function c(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(u,{...n})}):u(n)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/penicilin-paulie-garand.mdx",
   "_raw": {

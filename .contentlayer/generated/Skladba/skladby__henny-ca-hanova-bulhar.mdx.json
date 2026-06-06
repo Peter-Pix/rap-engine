@@ -8,16 +8,19 @@
   "album": "rap disco revoluce",
   "albumSlug": "rap-disco-revoluce",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:15",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Henny — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!A.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(x(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var l=b((N,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>i,frontmatter:()=>H});var r=_(l()),H={title:\"Henny\",slug:\"henny-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[],duration:\"3:15\",trackNumber:10,producers:[],producersNames:[],description:\"Henny \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Henny](/skladby/henny-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [rap disco revoluce](/alba/rap-disco-revoluce) (2020).\n",
+    "code": "var Component=(()=>{var i=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of A(e))!m.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(c=p(e,o))||c.enumerable});return r};var H=(r,e,n)=>(n=r!=null?i(b(r)):{},s(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>s(t({},\"__esModule\",{value:!0}),r);var l=f((_,u)=>{u.exports=_jsx_runtime});var g={};x(g,{default:()=>h,frontmatter:()=>y});var a=H(l()),y={title:\"Henny\",slug:\"henny-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[\"\"],duration:\"3:15\",trackNumber:10,producers:[],producersNames:[],description:\"Henny \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/henny-ca-hanova-bulhar\",children:\"Henny\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/rap-disco-revoluce\",children:\"rap disco revoluce\"}),\" (2020).\"]})}function h(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return v(g);})();\n;return Component;"
   },
   "_id": "skladby/henny-ca-hanova-bulhar.mdx",
   "_raw": {

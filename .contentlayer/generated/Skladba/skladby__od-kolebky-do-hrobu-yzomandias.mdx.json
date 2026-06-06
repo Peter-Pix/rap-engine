@@ -8,16 +8,19 @@
   "album": "Ze Dna",
   "albumSlug": "ze-dna",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Od Kolébky Do Hrobu — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},d=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!x.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var _=(e,n,o)=>(o=e!=null?l(h(e)):{},d(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>d(a({},\"__esModule\",{value:!0}),e);var m=f((D,u)=>{u.exports=_jsx_runtime});var j={};y(j,{default:()=>c,frontmatter:()=>k});var t=_(m()),k={title:\"Od Kol\\xE9bky Do Hrobu\",slug:\"od-kolebky-do-hrobu-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[],duration:\"3:07\",trackNumber:5,producers:[],producersNames:[],description:\"Od Kol\\xE9bky Do Hrobu \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Od Kolébky Do Hrobu](/skladby/od-kolebky-do-hrobu-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Ze Dna](/alba/ze-dna) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(a,o)=>()=>(o||a((o={exports:{}}).exports,o),o.exports),k=(a,o)=>{for(var r in o)t(a,r,{get:o[r],enumerable:!0})},d=(a,o,r,s)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of p(o))!y.call(a,n)&&n!==r&&t(a,n,{get:()=>o[n],enumerable:!(s=b(o,n))||s.enumerable});return a};var z=(a,o,r)=>(r=a!=null?m(h(a)):{},d(o||!a||!a.__esModule?t(r,\"default\",{value:a,enumerable:!0}):r,a)),x=a=>d(t({},\"__esModule\",{value:!0}),a);var i=f((j,u)=>{u.exports=_jsx_runtime});var D={};k(D,{default:()=>c,frontmatter:()=>g});var e=z(i()),g={title:\"Od Kol\\xE9bky Do Hrobu\",slug:\"od-kolebky-do-hrobu-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[\"\"],duration:\"3:07\",trackNumber:5,producers:[],producersNames:[],description:\"Od Kol\\xE9bky Do Hrobu \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(a){let o={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(o.p,{children:[(0,e.jsx)(o.strong,{children:(0,e.jsx)(o.a,{href:\"/skladby/od-kolebky-do-hrobu-yzomandias\",children:\"Od Kol\\xE9bky Do Hrobu\"})}),\" od \",(0,e.jsx)(o.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(o.a,{href:\"/alba/ze-dna\",children:\"Ze Dna\"}),\" (2020).\"]})}function c(a={}){let{wrapper:o}=a.components||{};return o?(0,e.jsx)(o,{...a,children:(0,e.jsx)(l,{...a})}):l(a)}return x(D);})();\n;return Component;"
   },
   "_id": "skladby/od-kolebky-do-hrobu-yzomandias.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "GoldKiid",
   "albumSlug": "goldkiid",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:48",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "SYMBOL — skladba od Nik Tendo.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!k.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(d=p(t,o))||d.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(h(e)):{},a(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>a(s({},\"__esModule\",{value:!0}),e);var c=b((N,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>j});var n=g(c()),j={title:\"SYMBOL\",slug:\"symbol-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GoldKiid\",albumSlug:\"goldkiid\",year:2025,genre:[],duration:\"2:48\",trackNumber:13,producers:[],producersNames:[],description:\"SYMBOL \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[SYMBOL](/skladby/symbol-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GoldKiid](/alba/goldkiid) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),g=(n,e)=>{for(var t in e)d(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!f.call(n,o)&&o!==t&&d(n,o,{get:()=>e[o],enumerable:!(a=k(e,o))||a.enumerable});return n};var x=(n,e,t)=>(t=n!=null?p(b(n)):{},i(e||!n||!n.__esModule?d(t,\"default\",{value:n,enumerable:!0}):t,n)),y=n=>i(d({},\"__esModule\",{value:!0}),n);var l=h((j,s)=>{s.exports=_jsx_runtime});var N={};g(N,{default:()=>u,frontmatter:()=>M});var r=x(l()),M={title:\"SYMBOL\",slug:\"symbol-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GoldKiid\",albumSlug:\"goldkiid\",year:2025,genre:[\"\"],duration:\"2:48\",trackNumber:13,producers:[],producersNames:[],description:\"SYMBOL \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/symbol-nik-tendo\",children:\"SYMBOL\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/goldkiid\",children:\"GoldKiid\"}),\" (2025).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return y(N);})();\n;return Component;"
   },
   "_id": "skladby/symbol-nik-tendo.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Prach (z filmu BANGER.)",
   "albumSlug": "prach-z-filmu-banger",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:41",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Prach (z filmu BANGER.) — skladba od Adam Mišík.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)i(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,m)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!g.call(e,n)&&n!==t&&i(e,n,{get:()=>r[n],enumerable:!(m=p(r,n))||m.enumerable});return e};var _=(e,r,t)=>(t=e!=null?l(f(e)):{},s(r||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),k=e=>s(i({},\"__esModule\",{value:!0}),e);var c=x((z,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>d,frontmatter:()=>A});var a=_(c()),A={title:\"Prach (z filmu BANGER.)\",slug:\"prach-z-filmu-banger-adam-misik\",rapper:\"Adam Mi\\u0161\\xEDk\",rapperSlug:\"adam-misik\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"Prach (z filmu BANGER.)\",albumSlug:\"prach-z-filmu-banger\",year:2022,genre:[],duration:\"2:41\",trackNumber:1,producers:[],producersNames:[],description:\"Prach (z filmu BANGER.) \\u2014 skladba od Adam Mi\\u0161\\xEDk.\",publishedAt:\"2026-06-04\"};function o(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(o,{...e})}):o(e)}return k(N);})();\n;return Component;"
+    "raw": "\n**[Prach (z filmu BANGER.)](/skladby/prach-z-filmu-banger-adam-misik)** (2022).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var e in a)s(r,e,{get:a[e],enumerable:!0})},u=(r,a,e,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of f(a))!g.call(r,n)&&n!==e&&s(r,n,{get:()=>a[n],enumerable:!(i=p(a,n))||i.enumerable});return r};var k=(r,a,e)=>(e=r!=null?l(h(r)):{},u(a||!r||!r.__esModule?s(e,\"default\",{value:r,enumerable:!0}):e,r)),z=r=>u(s({},\"__esModule\",{value:!0}),r);var c=b((j,m)=>{m.exports=_jsx_runtime});var N={};x(N,{default:()=>d,frontmatter:()=>A});var t=k(c()),A={title:\"Prach (z filmu BANGER.)\",slug:\"prach-z-filmu-banger-adam-misik\",rapper:\"Adam Mi\\u0161\\xEDk\",rapperSlug:\"adam-misik\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"Prach (z filmu BANGER.)\",albumSlug:\"prach-z-filmu-banger\",year:2022,genre:[\"\"],duration:\"2:41\",trackNumber:1,producers:[],producersNames:[],description:\"Prach (z filmu BANGER.) \\u2014 skladba od Adam Mi\\u0161\\xEDk.\",publishedAt:\"2026-06-04\"};function o(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/prach-z-filmu-banger-adam-misik\",children:\"Prach (z filmu BANGER.)\"})}),\" (2022).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,t.jsx)(a,{...r,children:(0,t.jsx)(o,{...r})}):o(r)}return z(N);})();\n;return Component;"
   },
   "_id": "skladby/prach-z-filmu-banger-adam-misik.mdx",
   "_raw": {

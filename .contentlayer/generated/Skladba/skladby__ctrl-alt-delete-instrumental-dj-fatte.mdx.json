@@ -12,16 +12,19 @@
   "album": "Koupili jsme Boha, aby za nás makal (Instrumentals)",
   "albumSlug": "koupili-jsme-boha-aby-za-nas-makal",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:19",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Ctrl+alt+delete (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},o=(t,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!b.call(t,r)&&r!==n&&s(t,r,{get:()=>e[r],enumerable:!(l=p(e,r))||l.enumerable});return t};var g=(t,e,n)=>(n=t!=null?c(x(t)):{},o(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),k=t=>o(s({},\"__esModule\",{value:!0}),t);var m=f((D,u)=>{u.exports=_jsx_runtime});var y={};j(y,{default:()=>i,frontmatter:()=>_});var a=g(m()),_={title:\"Ctrl+alt+delete (Instrumental)\",slug:\"ctrl-alt-delete-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal (Instrumentals)\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[],duration:\"3:19\",trackNumber:8,producers:[],producersNames:[],description:\"Ctrl+alt+delete (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(d,{...t})}):d(t)}return k(y);})();\n;return Component;"
+    "raw": "\n**[Ctrl+alt+delete (Instrumental)](/skladby/ctrl-alt-delete-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Koupili jsme Boha, aby za nás makal](/alba/koupili-jsme-boha-aby-za-nas-makal) (2026).\n",
+    "code": "var Component=(()=>{var c=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),k=(a,t)=>{for(var r in t)l(a,r,{get:t[r],enumerable:!0})},o=(a,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of b(t))!h.call(a,n)&&n!==r&&l(a,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return a};var g=(a,t,r)=>(r=a!=null?c(f(a)):{},o(t||!a||!a.__esModule?l(r,\"default\",{value:a,enumerable:!0}):r,a)),x=a=>o(l({},\"__esModule\",{value:!0}),a);var d=j((C,u)=>{u.exports=_jsx_runtime});var _={};k(_,{default:()=>m,frontmatter:()=>y});var e=g(d()),y={title:\"Ctrl+alt+delete (Instrumental)\",slug:\"ctrl-alt-delete-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal (Instrumentals)\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[\"\"],duration:\"3:19\",trackNumber:8,producers:[],producersNames:[],description:\"Ctrl+alt+delete (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(a){let t={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(t.p,{children:[(0,e.jsx)(t.strong,{children:(0,e.jsx)(t.a,{href:\"/skladby/ctrl-alt-delete-instrumental-dj-fatte\",children:\"Ctrl+alt+delete (Instrumental)\"})}),\" od \",(0,e.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,e.jsx)(t.a,{href:\"/alba/koupili-jsme-boha-aby-za-nas-makal\",children:\"Koupili jsme Boha, aby za n\\xE1s makal\"}),\" (2026).\"]})}function m(a={}){let{wrapper:t}=a.components||{};return t?(0,e.jsx)(t,{...a,children:(0,e.jsx)(i,{...a})}):i(a)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/ctrl-alt-delete-instrumental-dj-fatte.mdx",
   "_raw": {

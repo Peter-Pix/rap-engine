@@ -12,16 +12,19 @@
   "album": "Noční vidění",
   "albumSlug": "nocni-videni",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:21",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Neuč Vorla lítat — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(i=p(t,o))||i.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(f(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>s(a({},\"__esModule\",{value:!0}),e);var l=_((M,u)=>{u.exports=_jsx_runtime});var v={};b(v,{default:()=>d,frontmatter:()=>j});var n=g(l()),j={title:\"Neu\\u010D Vorla l\\xEDtat\",slug:\"neuc-vorla-litat-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"refew\"],featuresNames:[\"Refew\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[],duration:\"5:21\",trackNumber:13,producers:[],producersNames:[],description:\"Neu\\u010D Vorla l\\xEDtat \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return N(v);})();\n;return Component;"
+    "raw": "\n**[Neuč Vorla lítat](/skladby/neuc-vorla-litat-orion)** od [Orion](/raperi/orion) z alba [Noční vidění](/alba/nocni-videni) (2014).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),N=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},l=(e,r,o,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of m(r))!x.call(e,t)&&t!==o&&a(e,t,{get:()=>r[t],enumerable:!(i=f(r,t))||i.enumerable});return e};var g=(e,r,o)=>(o=e!=null?p(h(e)):{},l(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),v=e=>l(a({},\"__esModule\",{value:!0}),e);var u=b((w,s)=>{s.exports=_jsx_runtime});var j={};N(j,{default:()=>d,frontmatter:()=>_});var n=g(u()),_={title:\"Neu\\u010D Vorla l\\xEDtat\",slug:\"neuc-vorla-litat-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"refew\"],featuresNames:[\"Refew\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[\"\"],duration:\"5:21\",trackNumber:13,producers:[],producersNames:[],description:\"Neu\\u010D Vorla l\\xEDtat \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/neuc-vorla-litat-orion\",children:\"Neu\\u010D Vorla l\\xEDtat\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/nocni-videni\",children:\"No\\u010Dn\\xED vid\\u011Bn\\xED\"}),\" (2014).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return v(j);})();\n;return Component;"
   },
   "_id": "skladby/neuc-vorla-litat-orion.mdx",
   "_raw": {

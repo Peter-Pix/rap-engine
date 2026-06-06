@@ -12,16 +12,19 @@
   "album": "J. EDEN E-G3N (#freekarlo edition)",
   "albumSlug": "j-eden-e-g3n",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:34",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "still trill (rip pimp c) — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let i of x(t))!b.call(e,i)&&i!==r&&o(e,i,{get:()=>t[i],enumerable:!(s=u(t,i))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?c(h(e)):{},a(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>a(o({},\"__esModule\",{value:!0}),e);var m=f((k,l)=>{l.exports=_jsx_runtime});var N={};g(N,{default:()=>d,frontmatter:()=>y});var n=_(m()),y={title:\"still trill (rip pimp c)\",slug:\"still-trill-rip-pimp-c-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[],duration:\"1:34\",trackNumber:15,producers:[],producersNames:[],description:\"still trill (rip pimp c) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[still trill (rip pimp c)](/skladby/still-trill-rip-pimp-c-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-G3N (#freekarlo edition)](/alba/j-eden-e-g3n) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var i in e)a(r,i,{get:e[i],enumerable:!0})},o=(r,e,i,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!h.call(r,n)&&n!==i&&a(r,n,{get:()=>e[n],enumerable:!(l=u(e,n))||l.enumerable});return r};var y=(r,e,i)=>(i=r!=null?m(b(r)):{},o(e||!r||!r.__esModule?a(i,\"default\",{value:r,enumerable:!0}):i,r)),z=r=>o(a({},\"__esModule\",{value:!0}),r);var d=g((_,s)=>{s.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>N});var t=y(d()),N={title:\"still trill (rip pimp c)\",slug:\"still-trill-rip-pimp-c-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[\"\"],duration:\"1:34\",trackNumber:15,producers:[],producersNames:[],description:\"still trill (rip pimp c) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/still-trill-rip-pimp-c-yzomandias\",children:\"still trill (rip pimp c)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/j-eden-e-g3n\",children:\"J. EDEN E-G3N (#freekarlo edition)\"}),\" (2022).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(p,{...r})}):p(r)}return z(j);})();\n;return Component;"
   },
   "_id": "skladby/still-trill-rip-pimp-c-yzomandias.mdx",
   "_raw": {

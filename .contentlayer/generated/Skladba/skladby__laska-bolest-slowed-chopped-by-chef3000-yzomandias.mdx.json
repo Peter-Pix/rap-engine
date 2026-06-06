@@ -12,16 +12,19 @@
   "album": "Láska & Bolest",
   "albumSlug": "laska-bolest",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:13",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Láska & Bolest (Slowed & Chopped by Chef3000) — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},d=(e,t,o,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!f.call(e,s)&&s!==o&&a(e,s,{get:()=>t[s],enumerable:!(r=u(t,s))||r.enumerable});return e};var y=(e,t,o)=>(o=e!=null?c(b(e)):{},d(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>d(a({},\"__esModule\",{value:!0}),e);var i=x((S,l)=>{l.exports=_jsx_runtime});var C={};k(C,{default:()=>p,frontmatter:()=>g});var n=y(i()),g={title:\"L\\xE1ska & Bolest (Slowed & Chopped by Chef3000)\",slug:\"laska-bolest-slowed-chopped-by-chef3000-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"L\\xE1ska & Bolest\",albumSlug:\"laska-bolest\",year:2022,genre:[],duration:\"4:13\",trackNumber:2,producers:[],producersNames:[],description:\"L\\xE1ska & Bolest (Slowed & Chopped by Chef3000) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[Láska & Bolest (Slowed & Chopped by Chef3000)](/skladby/laska-bolest-slowed-chopped-by-chef3000-yzomandias)** od [Yzomandias](/raperi/yzomandias) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),y=(o,e)=>{for(var a in e)n(o,a,{get:e[a],enumerable:!0})},d=(o,e,a,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(o,t)&&t!==a&&n(o,t,{get:()=>e[t],enumerable:!(r=u(e,t))||r.enumerable});return o};var x=(o,e,a)=>(a=o!=null?m(b(o)):{},d(e||!o||!o.__esModule?n(a,\"default\",{value:o,enumerable:!0}):a,o)),C=o=>d(n({},\"__esModule\",{value:!0}),o);var p=k((_,l)=>{l.exports=_jsx_runtime});var z={};y(z,{default:()=>c,frontmatter:()=>g});var s=x(p()),g={title:\"L\\xE1ska & Bolest (Slowed & Chopped by Chef3000)\",slug:\"laska-bolest-slowed-chopped-by-chef3000-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"L\\xE1ska & Bolest\",albumSlug:\"laska-bolest\",year:2022,genre:[\"\"],duration:\"4:13\",trackNumber:2,producers:[],producersNames:[],description:\"L\\xE1ska & Bolest (Slowed & Chopped by Chef3000) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/laska-bolest-slowed-chopped-by-chef3000-yzomandias\",children:\"L\\xE1ska & Bolest (Slowed & Chopped by Chef3000)\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" (2022).\"]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,s.jsx)(e,{...o,children:(0,s.jsx)(i,{...o})}):i(o)}return C(z);})();\n;return Component;"
   },
   "_id": "skladby/laska-bolest-slowed-chopped-by-chef3000-yzomandias.mdx",
   "_raw": {

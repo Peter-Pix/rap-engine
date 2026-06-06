@@ -8,16 +8,19 @@
   "album": "Mačkáš mi hada",
   "albumSlug": "mackas-mi-hada",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:46",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Mačkáš mi hada — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var n in e)m(a,n,{get:e[n],enumerable:!0})},i=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!x.call(a,r)&&r!==n&&m(a,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return a};var _=(a,e,n)=>(n=a!=null?l(k(a)):{},i(e||!a||!a.__esModule?m(n,\"default\",{value:a,enumerable:!0}):n,a)),b=a=>i(m({},\"__esModule\",{value:!0}),a);var c=M((S,o)=>{o.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>g});var t=_(c()),g={title:\"Ma\\u010Dk\\xE1\\u0161 mi hada\",slug:\"mackas-mi-hada-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ma\\u010Dk\\xE1\\u0161 mi hada\",albumSlug:\"mackas-mi-hada\",year:2017,genre:[],duration:\"3:46\",trackNumber:1,producers:[],producersNames:[],description:\"Ma\\u010Dk\\xE1\\u0161 mi hada \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(a){let e={em:\"em\",h2:\"h2\",p:\"p\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(d,{...a})}):d(a)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Mačkáš mi hada](/skladby/mackas-mi-hada-maniak)** od [Maniak](/raperi/maniak) (2017).\n",
+    "code": "var Component=(()=>{var k=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)s(e,r,{get:a[r],enumerable:!0})},m=(e,a,r,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of l(a))!M.call(e,t)&&t!==r&&s(e,t,{get:()=>a[t],enumerable:!(i=h(a,t))||i.enumerable});return e};var g=(e,a,r)=>(r=e!=null?k(p(e)):{},m(a||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>m(s({},\"__esModule\",{value:!0}),e);var d=f((N,o)=>{o.exports=_jsx_runtime});var j={};x(j,{default:()=>u,frontmatter:()=>_});var n=g(d()),_={title:\"Ma\\u010Dk\\xE1\\u0161 mi hada\",slug:\"mackas-mi-hada-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Ma\\u010Dk\\xE1\\u0161 mi hada\",albumSlug:\"mackas-mi-hada\",year:2017,genre:[\"\"],duration:\"3:46\",trackNumber:1,producers:[],producersNames:[],description:\"Ma\\u010Dk\\xE1\\u0161 mi hada \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/mackas-mi-hada-maniak\",children:\"Ma\\u010Dk\\xE1\\u0161 mi hada\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2017).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/mackas-mi-hada-maniak.mdx",
   "_raw": {

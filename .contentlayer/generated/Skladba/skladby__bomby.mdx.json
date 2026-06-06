@@ -1,0 +1,28 @@
+{
+  "title": "Bomby",
+  "slug": "bomby",
+  "rapper": "Mairee",
+  "rapperSlug": "mairee",
+  "year": 2022,
+  "description": "Bomby — singl od Mairee (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a8adf7ef368ecdb5e0befd1917a55f3d/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Bomby](/skladby/bomby)** (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var u=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=b(t,o))||a.enumerable});return e};var h=(e,t,n)=>(n=e!=null?p(g(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var d=u((D,c)=>{c.exports=_jsx_runtime});var M={};y(M,{default:()=>m,frontmatter:()=>_});var r=h(d()),_={title:\"Bomby\",slug:\"bomby\",rapper:\"Mairee\",rapperSlug:\"mairee\",year:2022,description:\"Bomby \\u2014 singl od Mairee (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/a8adf7ef368ecdb5e0befd1917a55f3d/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/bomby\",children:\"Bomby\"})}),\" (2022).\"]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(M);})();\n;return Component;"
+  },
+  "_id": "skladby/bomby.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/bomby.mdx",
+    "sourceFileName": "bomby.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/bomby"
+  },
+  "type": "Skladba",
+  "url": "/skladby/bomby",
+  "canonicalUrl": "https://4rap.cz/skladby/bomby"
+}

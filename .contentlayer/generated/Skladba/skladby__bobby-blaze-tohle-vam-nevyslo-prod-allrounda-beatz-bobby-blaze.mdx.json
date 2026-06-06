@@ -8,16 +8,19 @@
   "album": "ČERNÁ VRÁNA",
   "albumSlug": "cerna-vrana",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:11",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Bobby Blaze - Tohle vám nevyšlo (prod. Allrounda Beatz) — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),z=(e,o)=>{for(var t in o)a(e,t,{get:o[t],enumerable:!0})},b=(e,o,t,l)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of i(o))!y.call(e,n)&&n!==t&&a(e,n,{get:()=>o[n],enumerable:!(l=p(o,n))||l.enumerable});return e};var B=(e,o,t)=>(t=e!=null?c(h(e)):{},b(o||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),f=e=>b(a({},\"__esModule\",{value:!0}),e);var u=x((j,s)=>{s.exports=_jsx_runtime});var _={};z(_,{default:()=>m,frontmatter:()=>v});var r=B(u()),v={title:\"Bobby Blaze - Tohle v\\xE1m nevy\\u0161lo (prod. Allrounda Beatz)\",slug:\"bobby-blaze-tohle-vam-nevyslo-prod-allrounda-beatz-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"\\u010CERN\\xC1 VR\\xC1NA\",albumSlug:\"cerna-vrana\",year:2025,genre:[],duration:\"3:11\",trackNumber:9,producers:[],producersNames:[],description:\"Bobby Blaze - Tohle v\\xE1m nevy\\u0161lo (prod. Allrounda Beatz) \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(e){let o={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(o.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(o.p,{children:(0,r.jsx)(o.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:o}=e.components||{};return o?(0,r.jsx)(o,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return f(_);})();\n;return Component;"
+    "raw": "\n**[Bobby Blaze - Tohle vám nevyšlo (prod. Allrounda Beatz)](/skladby/bobby-blaze-tohle-vam-nevyslo-prod-allrounda-beatz-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [ČERNÁ VRÁNA](/alba/cerna-vrana) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,i=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),B=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},t=(a,e,r,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of z(e))!i.call(a,l)&&l!==r&&n(a,l,{get:()=>e[l],enumerable:!(b=y(e,l))||b.enumerable});return a};var v=(a,e,r)=>(r=a!=null?p(m(a)):{},t(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),f=a=>t(n({},\"__esModule\",{value:!0}),a);var d=h((A,s)=>{s.exports=_jsx_runtime});var g={};B(g,{default:()=>c,frontmatter:()=>x});var o=v(d()),x={title:\"Bobby Blaze - Tohle v\\xE1m nevy\\u0161lo (prod. Allrounda Beatz)\",slug:\"bobby-blaze-tohle-vam-nevyslo-prod-allrounda-beatz-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"\\u010CERN\\xC1 VR\\xC1NA\",albumSlug:\"cerna-vrana\",year:2025,genre:[\"\"],duration:\"3:11\",trackNumber:9,producers:[],producersNames:[],description:\"Bobby Blaze - Tohle v\\xE1m nevy\\u0161lo (prod. Allrounda Beatz) \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/bobby-blaze-tohle-vam-nevyslo-prod-allrounda-beatz-bobby-blaze\",children:\"Bobby Blaze - Tohle v\\xE1m nevy\\u0161lo (prod. Allrounda Beatz)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/cerna-vrana\",children:\"\\u010CERN\\xC1 VR\\xC1NA\"}),\" (2025).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(u,{...a})}):u(a)}return f(g);})();\n;return Component;"
   },
   "_id": "skladby/bobby-blaze-tohle-vam-nevyslo-prod-allrounda-beatz-bobby-blaze.mdx",
   "_raw": {

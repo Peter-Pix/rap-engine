@@ -14,16 +14,19 @@
   "album": "Garn Again",
   "albumSlug": "garn-again",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:14",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Back It Up — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of k(t))!g.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(c=d(t,r))||c.enumerable});return e};var b=(e,t,a)=>(a=e!=null?p(x(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>o(s({},\"__esModule\",{value:!0}),e);var i=h((S,u)=>{u.exports=_jsx_runtime});var j={};y(j,{default:()=>m,frontmatter:()=>_});var n=b(i()),_={title:\"Back It Up\",slug:\"back-it-up-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"jamkvy\",\"saskilla\"],featuresNames:[\"Jamkvy\",\"Saskilla\"],album:\"Garn Again\",albumSlug:\"garn-again\",year:2023,genre:[],duration:\"4:14\",trackNumber:5,producers:[],producersNames:[],description:\"Back It Up \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return f(j);})();\n;return Component;"
+    "raw": "\n**[Back It Up](/skladby/back-it-up-decky)** od [Decky](/raperi/decky) z alba [Garn Again](/alba/garn-again) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var n in a)c(e,n,{get:a[n],enumerable:!0})},o=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!y.call(e,t)&&t!==n&&c(e,t,{get:()=>a[t],enumerable:!(s=k(a,t))||s.enumerable});return e};var h=(e,a,n)=>(n=e!=null?p(g(e)):{},o(a||!e||!e.__esModule?c(n,\"default\",{value:e,enumerable:!0}):n,e)),x=e=>o(c({},\"__esModule\",{value:!0}),e);var l=b((A,i)=>{i.exports=_jsx_runtime});var _={};f(_,{default:()=>u,frontmatter:()=>j});var r=h(l()),j={title:\"Back It Up\",slug:\"back-it-up-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"jamkvy\",\"saskilla\"],featuresNames:[\"Jamkvy\",\"Saskilla\"],album:\"Garn Again\",albumSlug:\"garn-again\",year:2023,genre:[\"\"],duration:\"4:14\",trackNumber:5,producers:[],producersNames:[],description:\"Back It Up \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/back-it-up-decky\",children:\"Back It Up\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/garn-again\",children:\"Garn Again\"}),\" (2023).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/back-it-up-decky.mdx",
   "_raw": {

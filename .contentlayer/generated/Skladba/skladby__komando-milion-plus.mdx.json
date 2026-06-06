@@ -18,16 +18,19 @@
   "album": "KRTEK MONEY LIFE",
   "albumSlug": "krtek-money-life",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:37",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "KOMANDO — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!k.call(e,r)&&r!==t&&a(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var M=(e,n,t)=>(t=e!=null?d(h(e)):{},i(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),K=e=>i(a({},\"__esModule\",{value:!0}),e);var u=b((N,l)=>{l.exports=_jsx_runtime});var g={};f(g,{default:()=>c,frontmatter:()=>_});var o=M(u()),_={title:\"KOMANDO\",slug:\"komando-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"robin-zoot\",\"koky\",\"karlo\"],featuresNames:[\"Yzomandias\",\"Robin Zoot\",\"Koky\",\"Karlo\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"2:37\",trackNumber:8,producers:[],producersNames:[],description:\"KOMANDO \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return K(g);})();\n;return Component;"
+    "raw": "\n**[KOMANDO](/skladby/komando-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [KRTEK MONEY LIFE](/alba/krtek-money-life) (2018).\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var b=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),h=(e,o)=>{for(var r in o)a(e,r,{get:o[r],enumerable:!0})},l=(e,o,r,i)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let t of k(o))!M.call(e,t)&&t!==r&&a(e,t,{get:()=>o[t],enumerable:!(i=p(o,t))||i.enumerable});return e};var x=(e,o,r)=>(r=e!=null?c(f(e)):{},l(o||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),K=e=>l(a({},\"__esModule\",{value:!0}),e);var u=b((g,s)=>{s.exports=_jsx_runtime});var N={};h(N,{default:()=>d,frontmatter:()=>y});var n=x(u()),y={title:\"KOMANDO\",slug:\"komando-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"robin-zoot\",\"koky\",\"karlo\"],featuresNames:[\"Yzomandias\",\"Robin Zoot\",\"Koky\",\"Karlo\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[\"\"],duration:\"2:37\",trackNumber:8,producers:[],producersNames:[],description:\"KOMANDO \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let o={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(o.p,{children:[(0,n.jsx)(o.strong,{children:(0,n.jsx)(o.a,{href:\"/skladby/komando-milion-plus\",children:\"KOMANDO\"})}),\" od \",(0,n.jsx)(o.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,n.jsx)(o.a,{href:\"/alba/krtek-money-life\",children:\"KRTEK MONEY LIFE\"}),\" (2018).\"]})}function d(e={}){let{wrapper:o}=e.components||{};return o?(0,n.jsx)(o,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return K(N);})();\n;return Component;"
   },
   "_id": "skladby/komando-milion-plus.mdx",
   "_raw": {

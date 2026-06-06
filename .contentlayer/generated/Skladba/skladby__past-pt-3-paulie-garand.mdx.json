@@ -14,16 +14,19 @@
   "album": "DANK",
   "albumSlug": "dank",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:35",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Past pt. 3 — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=m(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(g(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var p=b((P,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>c,frontmatter:()=>k});var n=_(p()),k={title:\"Past pt. 3\",slug:\"past-pt-3-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ben-cristovao\"],featuresNames:[\"Kenny Rough\",\"Ben Cristovao\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"3:35\",trackNumber:11,producers:[],producersNames:[],description:\"Past pt. 3 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Past pt. 3](/skladby/past-pt-3-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [DANK](/alba/dank) (2018).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},u=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(e,t)&&t!==n&&s(e,t,{get:()=>a[t],enumerable:!(o=g(a,t))||o.enumerable});return e};var k=(e,a,n)=>(n=e!=null?c(m(e)):{},u(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),P=e=>u(s({},\"__esModule\",{value:!0}),e);var p=b((N,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>l,frontmatter:()=>_});var r=k(p()),_={title:\"Past pt. 3\",slug:\"past-pt-3-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ben-cristovao\"],featuresNames:[\"Kenny Rough\",\"Ben Cristovao\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[\"\"],duration:\"3:35\",trackNumber:11,producers:[],producersNames:[],description:\"Past pt. 3 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/past-pt-3-paulie-garand\",children:\"Past pt. 3\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/dank\",children:\"DANK\"}),\" (2018).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return P(j);})();\n;return Component;"
   },
   "_id": "skladby/past-pt-3-paulie-garand.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Bieber Fever",
   "albumSlug": "bieber-fever",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:32",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Yalla — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(b(e)):{},l(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var u=f((F,c)=>{c.exports=_jsx_runtime});var C={};_(C,{default:()=>m,frontmatter:()=>N});var t=g(u()),N={title:\"Yalla\",slug:\"yalla-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[],duration:\"1:32\",trackNumber:7,producers:[],producersNames:[],description:\"Yalla \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Yalla](/skladby/yalla-calin)** od [Calin](/raperi/calin) z alba [Bieber Fever](/alba/bieber-fever) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var n in e)l(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!h.call(r,t)&&t!==n&&l(r,t,{get:()=>e[t],enumerable:!(s=b(e,t))||s.enumerable});return r};var _=(r,e,n)=>(n=r!=null?p(m(r)):{},o(e||!r||!r.__esModule?l(n,\"default\",{value:r,enumerable:!0}):n,r)),j=r=>o(l({},\"__esModule\",{value:!0}),r);var c=x((v,i)=>{i.exports=_jsx_runtime});var C={};g(C,{default:()=>d,frontmatter:()=>y});var a=_(c()),y={title:\"Yalla\",slug:\"yalla-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[\"\"],duration:\"1:32\",trackNumber:7,producers:[],producersNames:[],description:\"Yalla \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/yalla-calin\",children:\"Yalla\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/bieber-fever\",children:\"Bieber Fever\"}),\" (2024).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return j(C);})();\n;return Component;"
   },
   "_id": "skladby/yalla-calin.mdx",
   "_raw": {

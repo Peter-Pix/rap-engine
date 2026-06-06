@@ -12,16 +12,19 @@
   "album": "Babushka Traphouse afterparty",
   "albumSlug": "babushka-traphouse-afterparty",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:36",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Jen kamarádi — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var t in a)s(e,t,{get:a[t],enumerable:!0})},i=(e,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!x.call(e,n)&&n!==t&&s(e,n,{get:()=>a[n],enumerable:!(o=l(a,n))||o.enumerable});return e};var g=(e,a,t)=>(t=e!=null?d(k(e)):{},i(a||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var u=b((N,m)=>{m.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>j});var r=g(u()),j={title:\"Jen kamar\\xE1di\",slug:\"jen-kamaradi-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"grimaso\"],featuresNames:[\"Grimaso\"],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[],duration:\"2:36\",trackNumber:3,producers:[],producersNames:[],description:\"Jen kamar\\xE1di \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Jen kamarádi](/skladby/jen-kamaradi-maniak)** od [Maniak](/raperi/maniak) z alba [Babushka Traphouse afterparty](/alba/babushka-traphouse-afterparty) (2025).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var t in a)s(r,t,{get:a[t],enumerable:!0})},i=(r,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!b.call(r,n)&&n!==t&&s(r,n,{get:()=>a[n],enumerable:!(o=k(a,n))||o.enumerable});return r};var g=(r,a,t)=>(t=r!=null?c(l(r)):{},i(a||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>i(s({},\"__esModule\",{value:!0}),r);var m=f((J,u)=>{u.exports=_jsx_runtime});var M={};x(M,{default:()=>d,frontmatter:()=>y});var e=g(m()),y={title:\"Jen kamar\\xE1di\",slug:\"jen-kamaradi-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"grimaso\"],featuresNames:[\"Grimaso\"],album:\"Babushka Traphouse afterparty\",albumSlug:\"babushka-traphouse-afterparty\",year:2025,genre:[\"\"],duration:\"2:36\",trackNumber:3,producers:[],producersNames:[],description:\"Jen kamar\\xE1di \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/jen-kamaradi-maniak\",children:\"Jen kamar\\xE1di\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/babushka-traphouse-afterparty\",children:\"Babushka Traphouse afterparty\"}),\" (2025).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(p,{...r})}):p(r)}return j(M);})();\n;return Component;"
   },
   "_id": "skladby/jen-kamaradi-maniak.mdx",
   "_raw": {

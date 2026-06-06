@@ -14,16 +14,19 @@
   "album": "Boomerang",
   "albumSlug": "boomerang",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "L.B.C. — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of g(n))!b.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(u=p(n,t))||u.enumerable});return e};var k=(e,n,a)=>(a=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var l=x((B,d)=>{d.exports=_jsx_runtime});var y={};f(y,{default:()=>i,frontmatter:()=>j});var r=k(l()),j={title:\"L.B.C.\",slug:\"l-b-c-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"jakub-dekan\"],featuresNames:[\"Kenny Rough\",\"Jakub D\\u011Bkan\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"3:45\",trackNumber:9,producers:[],producersNames:[],description:\"L.B.C. \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[L.B.C.](/skladby/l-b-c-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Boomerang](/alba/boomerang) (2015).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},l=(e,a,n,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of m(a))!h.call(e,o)&&o!==n&&t(e,o,{get:()=>a[o],enumerable:!(u=g(a,o))||u.enumerable});return e};var k=(e,a,n)=>(n=e!=null?p(b(e)):{},l(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>l(t({},\"__esModule\",{value:!0}),e);var d=f((C,s)=>{s.exports=_jsx_runtime});var y={};x(y,{default:()=>c,frontmatter:()=>_});var r=k(d()),_={title:\"L.B.C.\",slug:\"l-b-c-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"jakub-dekan\"],featuresNames:[\"Kenny Rough\",\"Jakub D\\u011Bkan\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[\"\"],duration:\"3:45\",trackNumber:9,producers:[],producersNames:[],description:\"L.B.C. \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/l-b-c-paulie-garand\",children:\"L.B.C.\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/boomerang\",children:\"Boomerang\"}),\" (2015).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
   },
   "_id": "skladby/l-b-c-paulie-garand.mdx",
   "_raw": {

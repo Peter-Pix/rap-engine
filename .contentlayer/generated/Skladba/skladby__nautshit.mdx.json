@@ -1,0 +1,28 @@
+{
+  "title": "Nautshit",
+  "slug": "nautshit",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "year": 2020,
+  "description": "Nautshit — singl od Hugo Toxxx (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/82d029454b8d73378a485878276c1b4c/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Nautshit](/skladby/nautshit)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2020).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!m.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(a=p(t,r))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>i(s({},\"__esModule\",{value:!0}),e);var c=f((H,x)=>{x.exports=_jsx_runtime});var T={};j(T,{default:()=>d,frontmatter:()=>y});var o=_(c()),y={title:\"Nautshit\",slug:\"nautshit\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",year:2020,description:\"Nautshit \\u2014 singl od Hugo Toxxx (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/82d029454b8d73378a485878276c1b4c/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function u(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(t.p,{children:[(0,o.jsx)(t.strong,{children:(0,o.jsx)(t.a,{href:\"/skladby/nautshit\",children:\"Nautshit\"})}),\" od \",(0,o.jsx)(t.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2020).\"]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return b(T);})();\n;return Component;"
+  },
+  "_id": "skladby/nautshit.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nautshit.mdx",
+    "sourceFileName": "nautshit.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nautshit"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nautshit",
+  "canonicalUrl": "https://4rap.cz/skladby/nautshit"
+}

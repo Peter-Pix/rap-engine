@@ -12,16 +12,19 @@
   "album": "OneWay",
   "albumSlug": "oneway",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "556 Love — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=d(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(h(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=_((v,m)=>{m.exports=_jsx_runtime});var M={};b(M,{default:()=>p,frontmatter:()=>k});var t=g(i()),k={title:\"556 Love\",slug:\"556-love-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[],duration:\"3:31\",trackNumber:10,producers:[],producersNames:[],description:\"556 Love \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[556 Love](/skladby/556-love-maniak)** od [Maniak](/raperi/maniak) z alba [OneWay](/alba/oneway) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!k.call(a,t)&&t!==r&&o(a,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return a};var g=(a,e,r)=>(r=a!=null?m(h(a)):{},i(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),y=a=>i(o({},\"__esModule\",{value:!0}),a);var l=x((v,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>M});var n=g(l()),M={title:\"556 Love\",slug:\"556-love-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[\"\"],duration:\"3:31\",trackNumber:10,producers:[],producersNames:[],description:\"556 Love \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/556-love-maniak\",children:\"556 Love\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/oneway\",children:\"OneWay\"}),\" (2023).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(c,{...a})}):c(a)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/556-love-maniak.mdx",
   "_raw": {

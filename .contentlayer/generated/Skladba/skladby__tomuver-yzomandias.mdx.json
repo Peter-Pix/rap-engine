@@ -14,16 +14,19 @@
   "album": "J. EDEN E-G3N (#freekarlo edition)",
   "albumSlug": "j-eden-e-g3n",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:16",
   "trackNumber": 19,
   "producers": [],
   "producersNames": [],
   "description": "tomuver — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},i=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!b.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var g=(e,t,o)=>(o=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),k=e=>i(a({},\"__esModule\",{value:!0}),e);var m=f((z,d)=>{d.exports=_jsx_runtime});var j={};y(j,{default:()=>c,frontmatter:()=>_});var n=g(m()),_={title:\"tomuver\",slug:\"tomuver-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"dokkeytino\"],featuresNames:[\"Nobodylisten\",\"Dokkeytino\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[],duration:\"2:16\",trackNumber:19,producers:[],producersNames:[],description:\"tomuver \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[tomuver](/skladby/tomuver-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-G3N (#freekarlo edition)](/alba/j-eden-e-g3n) (2022).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),g=(n,e)=>{for(var o in e)t(n,o,{get:e[o],enumerable:!0})},d=(n,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!b.call(n,a)&&a!==o&&t(n,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return n};var k=(n,e,o)=>(o=n!=null?c(y(n)):{},d(e||!n||!n.__esModule?t(o,\"default\",{value:n,enumerable:!0}):o,n)),x=n=>d(t({},\"__esModule\",{value:!0}),n);var m=h((E,i)=>{i.exports=_jsx_runtime});var N={};g(N,{default:()=>l,frontmatter:()=>z});var r=k(m()),z={title:\"tomuver\",slug:\"tomuver-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"dokkeytino\"],featuresNames:[\"Nobodylisten\",\"Dokkeytino\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[\"\"],duration:\"2:16\",trackNumber:19,producers:[],producersNames:[],description:\"tomuver \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/tomuver-yzomandias\",children:\"tomuver\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/j-eden-e-g3n\",children:\"J. EDEN E-G3N (#freekarlo edition)\"}),\" (2022).\"]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return x(N);})();\n;return Component;"
   },
   "_id": "skladby/tomuver-yzomandias.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Road 2 Redemption",
   "albumSlug": "road-2-redemption",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:47",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Lyrical Alchemy — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!y.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(l=b(t,a))||l.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var m=x((A,s)=>{s.exports=_jsx_runtime});var z={};f(z,{default:()=>u,frontmatter:()=>j});var r=_(m()),j={title:\"Lyrical Alchemy\",slug:\"lyrical-alchemy-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[],duration:\"3:47\",trackNumber:6,producers:[],producersNames:[],description:\"Lyrical Alchemy \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Lyrical Alchemy](/skladby/lyrical-alchemy-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Road 2 Redemption](/alba/road-2-redemption) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)l(r,o,{get:e[o],enumerable:!0})},b=(r,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!h.call(r,t)&&t!==o&&l(r,t,{get:()=>e[t],enumerable:!(n=y(e,t))||n.enumerable});return r};var z=(r,e,o)=>(o=r!=null?m(u(r)):{},b(e||!r||!r.__esModule?l(o,\"default\",{value:r,enumerable:!0}):o,r)),g=r=>b(l({},\"__esModule\",{value:!0}),r);var s=f((A,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>i,frontmatter:()=>B});var a=z(s()),B={title:\"Lyrical Alchemy\",slug:\"lyrical-alchemy-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[\"\"],duration:\"3:47\",trackNumber:6,producers:[],producersNames:[],description:\"Lyrical Alchemy \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/lyrical-alchemy-bobby-blaze\",children:\"Lyrical Alchemy\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/road-2-redemption\",children:\"Road 2 Redemption\"}),\" (2023).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/lyrical-alchemy-bobby-blaze.mdx",
   "_raw": {

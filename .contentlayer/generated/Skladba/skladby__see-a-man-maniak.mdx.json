@@ -8,16 +8,19 @@
   "album": "Finding Myself",
   "albumSlug": "finding-myself",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "See A Man — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of f(n))!h.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var _=(e,n,a)=>(a=e!=null?l(x(e)):{},i(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>i(s({},\"__esModule\",{value:!0}),e);var u=g((y,m)=>{m.exports=_jsx_runtime});var j={};M(j,{default:()=>d,frontmatter:()=>k});var t=_(u()),k={title:\"See A Man\",slug:\"see-a-man-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Finding Myself\",albumSlug:\"finding-myself\",year:2026,genre:[],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"See A Man \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[See A Man](/skladby/see-a-man-maniak)** od [Maniak](/raperi/maniak) z alba [Finding Myself](/alba/finding-myself) (2026).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},o=(n,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!M.call(n,t)&&t!==r&&s(n,t,{get:()=>e[t],enumerable:!(i=f(e,t))||i.enumerable});return n};var x=(n,e,r)=>(r=n!=null?u(g(n)):{},o(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),b=n=>o(s({},\"__esModule\",{value:!0}),n);var d=h((S,l)=>{l.exports=_jsx_runtime});var _={};k(_,{default:()=>c,frontmatter:()=>y});var a=x(d()),y={title:\"See A Man\",slug:\"see-a-man-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Finding Myself\",albumSlug:\"finding-myself\",year:2026,genre:[\"\"],duration:\"3:03\",trackNumber:2,producers:[],producersNames:[],description:\"See A Man \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/see-a-man-maniak\",children:\"See A Man\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/finding-myself\",children:\"Finding Myself\"}),\" (2026).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(m,{...n})}):m(n)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/see-a-man-maniak.mdx",
   "_raw": {

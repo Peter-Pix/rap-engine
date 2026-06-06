@@ -14,16 +14,19 @@
   "album": "karanténa",
   "albumSlug": "karantena",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:26",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "LOSING MY MIND — skladba od Konex.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!k.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var M=(e,n,r)=>(r=e!=null?l(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>c(o({},\"__esModule\",{value:!0}),e);var m=f((y,u)=>{u.exports=_jsx_runtime});var b={};g(b,{default:()=>i,frontmatter:()=>_});var t=M(m()),_={title:\"LOSING MY MIND\",slug:\"losing-my-mind-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"hasan\"],featuresNames:[\"Decky\",\"Hasan\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[],duration:\"3:26\",trackNumber:5,producers:[],producersNames:[],description:\"LOSING MY MIND \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return N(b);})();\n;return Component;"
+    "raw": "\n**[LOSING MY MIND](/skladby/losing-my-mind-konex)** (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),N=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var f=(e,n,r)=>(r=e!=null?m(k(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),h=e=>c(o({},\"__esModule\",{value:!0}),e);var d=M((I,u)=>{u.exports=_jsx_runtime});var b={};N(b,{default:()=>l,frontmatter:()=>y});var t=f(d()),y={title:\"LOSING MY MIND\",slug:\"losing-my-mind-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"hasan\"],featuresNames:[\"Decky\",\"Hasan\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[\"\"],duration:\"3:26\",trackNumber:5,producers:[],producersNames:[],description:\"LOSING MY MIND \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function i(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/losing-my-mind-konex\",children:\"LOSING MY MIND\"})}),\" (2020).\"]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return h(b);})();\n;return Component;"
   },
   "_id": "skladby/losing-my-mind-konex.mdx",
   "_raw": {

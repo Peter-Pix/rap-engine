@@ -12,16 +12,19 @@
   "album": "Yzotape",
   "albumSlug": "yzotape",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Sushi Swag — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),S=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!g.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=l(t,r))||o.enumerable});return e};var _=(e,t,a)=>(a=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>i(s({},\"__esModule\",{value:!0}),e);var m=f((k,u)=>{u.exports=_jsx_runtime});var z={};S(z,{default:()=>d,frontmatter:()=>j});var n=_(m()),j={title:\"Sushi Swag\",slug:\"sushi-swag-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[],duration:\"3:07\",trackNumber:13,producers:[],producersNames:[],description:\"Sushi Swag \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(z);})();\n;return Component;"
+    "raw": "\n**[Sushi Swag](/skladby/sushi-swag-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Yzotape](/alba/yzotape) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},i=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!z.call(e,r)&&r!==n&&t(e,r,{get:()=>a[r],enumerable:!(o=l(a,r))||o.enumerable});return e};var y=(e,a,n)=>(n=e!=null?p(g(e)):{},i(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>i(t({},\"__esModule\",{value:!0}),e);var u=f((_,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>m,frontmatter:()=>S});var s=y(u()),S={title:\"Sushi Swag\",slug:\"sushi-swag-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[\"\"],duration:\"3:07\",trackNumber:13,producers:[],producersNames:[],description:\"Sushi Swag \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,s.jsxs)(a.p,{children:[(0,s.jsx)(a.strong,{children:(0,s.jsx)(a.a,{href:\"/skladby/sushi-swag-yzomandias\",children:\"Sushi Swag\"})}),\" od \",(0,s.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,s.jsx)(a.a,{href:\"/alba/yzotape\",children:\"Yzotape\"}),\" (2021).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,s.jsx)(a,{...e,children:(0,s.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/sushi-swag-yzomandias.mdx",
   "_raw": {

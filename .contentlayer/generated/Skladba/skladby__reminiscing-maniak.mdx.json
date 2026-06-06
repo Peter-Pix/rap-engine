@@ -12,16 +12,19 @@
   "album": "Maniak Muzik",
   "albumSlug": "maniak-muzik",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:43",
   "trackNumber": 17,
   "producers": [],
   "producersNames": [],
   "description": "Reminiscing — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),M=(n,e)=>{for(var t in e)r(n,t,{get:e[t],enumerable:!0})},m=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of k(e))!g.call(n,i)&&i!==t&&r(n,i,{get:()=>e[i],enumerable:!(s=p(e,i))||s.enumerable});return n};var f=(n,e,t)=>(t=n!=null?d(x(n)):{},m(e||!n||!n.__esModule?r(t,\"default\",{value:n,enumerable:!0}):t,n)),_=n=>m(r({},\"__esModule\",{value:!0}),n);var u=h((S,o)=>{o.exports=_jsx_runtime});var j={};M(j,{default:()=>l,frontmatter:()=>b});var a=f(u()),b={title:\"Reminiscing\",slug:\"reminiscing-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"2:43\",trackNumber:17,producers:[],producersNames:[],description:\"Reminiscing \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(c,{...n})}):c(n)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Reminiscing](/skladby/reminiscing-maniak)** od [Maniak](/raperi/maniak) z alba [Maniak Muzik](/alba/maniak-muzik) (2016).\n",
+    "code": "var Component=(()=>{var k=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),h=(n,a)=>{for(var e in a)t(n,e,{get:a[e],enumerable:!0})},m=(n,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of p(a))!M.call(n,r)&&r!==e&&t(n,r,{get:()=>a[r],enumerable:!(s=d(a,r))||s.enumerable});return n};var x=(n,a,e)=>(e=n!=null?k(g(n)):{},m(a||!n||!n.__esModule?t(e,\"default\",{value:n,enumerable:!0}):e,n)),b=n=>m(t({},\"__esModule\",{value:!0}),n);var c=f((y,o)=>{o.exports=_jsx_runtime});var j={};h(j,{default:()=>l,frontmatter:()=>_});var i=x(c()),_={title:\"Reminiscing\",slug:\"reminiscing-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[\"\"],duration:\"2:43\",trackNumber:17,producers:[],producersNames:[],description:\"Reminiscing \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,i.jsxs)(a.p,{children:[(0,i.jsx)(a.strong,{children:(0,i.jsx)(a.a,{href:\"/skladby/reminiscing-maniak\",children:\"Reminiscing\"})}),\" od \",(0,i.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,i.jsx)(a.a,{href:\"/alba/maniak-muzik\",children:\"Maniak Muzik\"}),\" (2016).\"]})}function l(n={}){let{wrapper:a}=n.components||{};return a?(0,i.jsx)(a,{...n,children:(0,i.jsx)(u,{...n})}):u(n)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/reminiscing-maniak.mdx",
   "_raw": {

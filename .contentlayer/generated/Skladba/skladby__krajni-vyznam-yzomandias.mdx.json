@@ -8,16 +8,19 @@
   "album": "Yzomandias (Remaster)",
   "albumSlug": "yzomandias",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:29",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Krajní Význam — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},m=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!z.call(e,r)&&r!==t&&s(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?l(h(e)):{},m(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>m(s({},\"__esModule\",{value:!0}),e);var d=j((K,i)=>{i.exports=_jsx_runtime});var y={};f(y,{default:()=>c,frontmatter:()=>g});var a=_(d()),g={title:\"Krajn\\xED V\\xFDznam\",slug:\"krajni-vyznam-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Yzomandias (Remaster)\",albumSlug:\"yzomandias\",year:2023,genre:[],duration:\"2:29\",trackNumber:1,producers:[],producersNames:[],description:\"Krajn\\xED V\\xFDznam \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return b(y);})();\n;return Component;"
+    "raw": "\n**[Krajní Význam](/skladby/krajni-vyznam-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Yzomandias (Remaster)](/alba/yzomandias) (2023).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var z=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),j=(n,a)=>{for(var e in a)t(n,e,{get:a[e],enumerable:!0})},m=(n,a,e,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of p(a))!f.call(n,s)&&s!==e&&t(n,s,{get:()=>a[s],enumerable:!(o=z(a,s))||o.enumerable});return n};var x=(n,a,e)=>(e=n!=null?l(y(n)):{},m(a||!n||!n.__esModule?t(e,\"default\",{value:n,enumerable:!0}):e,n)),b=n=>m(t({},\"__esModule\",{value:!0}),n);var d=h((Y,i)=>{i.exports=_jsx_runtime});var _={};j(_,{default:()=>u,frontmatter:()=>g});var r=x(d()),g={title:\"Krajn\\xED V\\xFDznam\",slug:\"krajni-vyznam-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Yzomandias (Remaster)\",albumSlug:\"yzomandias\",year:2023,genre:[\"\"],duration:\"2:29\",trackNumber:1,producers:[],producersNames:[],description:\"Krajn\\xED V\\xFDznam \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/krajni-vyznam-yzomandias\",children:\"Krajn\\xED V\\xFDznam\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/yzomandias\",children:\"Yzomandias (Remaster)\"}),\" (2023).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/krajni-vyznam-yzomandias.mdx",
   "_raw": {

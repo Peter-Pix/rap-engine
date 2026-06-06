@@ -12,16 +12,19 @@
   "album": "Good Night",
   "albumSlug": "good-night",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:34",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Good Night (BizZa Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),z=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==n&&a(e,r,{get:()=>t[r],enumerable:!(i=p(t,r))||i.enumerable});return e};var f=(e,t,n)=>(n=e!=null?l(g(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var c=b((B,m)=>{m.exports=_jsx_runtime});var N={};z(N,{default:()=>u,frontmatter:()=>_});var o=f(c()),_={title:\"Good Night (BizZa Remix)\",slug:\"good-night-bizza-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"bizza\"],featuresNames:[\"Bizza\"],album:\"Good Night\",albumSlug:\"good-night\",year:2024,genre:[],duration:\"3:34\",trackNumber:2,producers:[],producersNames:[],description:\"Good Night (BizZa Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(d,{...e})}):d(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Good Night (BizZa Remix)](/skladby/good-night-bizza-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Good Night](/alba/good-night) (2024).\n",
+    "code": "var Component=(()=>{var g=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var z=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),b=(o,e)=>{for(var t in e)i(o,t,{get:e[t],enumerable:!0})},s=(o,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of u(e))!x.call(o,r)&&r!==t&&i(o,r,{get:()=>e[r],enumerable:!(n=h(e,r))||n.enumerable});return o};var f=(o,e,t)=>(t=o!=null?g(p(o)):{},s(e||!o||!o.__esModule?i(t,\"default\",{value:o,enumerable:!0}):t,o)),j=o=>s(i({},\"__esModule\",{value:!0}),o);var l=z((G,d)=>{d.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>N});var a=f(l()),N={title:\"Good Night (BizZa Remix)\",slug:\"good-night-bizza-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"bizza\"],featuresNames:[\"Bizza\"],album:\"Good Night\",albumSlug:\"good-night\",year:2024,genre:[\"\"],duration:\"3:34\",trackNumber:2,producers:[],producersNames:[],description:\"Good Night (BizZa Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/good-night-bizza-remix-james-cole\",children:\"Good Night (BizZa Remix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/good-night\",children:\"Good Night\"}),\" (2024).\"]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,a.jsx)(e,{...o,children:(0,a.jsx)(m,{...o})}):m(o)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/good-night-bizza-remix-james-cole.mdx",
   "_raw": {

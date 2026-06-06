@@ -12,16 +12,19 @@
   "album": "Scam",
   "albumSlug": "scam",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:19",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Scam — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),S=e=>u(a({},\"__esModule\",{value:!0}),e);var m=b((M,c)=>{c.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>j});var r=_(m()),j={title:\"Scam\",slug:\"scam-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"huclberry\"],featuresNames:[\"Huclberry\"],album:\"Scam\",albumSlug:\"scam\",year:2023,genre:[],duration:\"2:19\",trackNumber:1,producers:[],producersNames:[],description:\"Scam \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function x(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(x,{...e})}):x(e)}return S(y);})();\n;return Component;"
+    "raw": "\n**[Scam](/skladby/scam-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2023).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var o in r)n(e,o,{get:r[o],enumerable:!0})},x=(e,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!h.call(e,a)&&a!==o&&n(e,a,{get:()=>r[a],enumerable:!(s=i(r,a))||s.enumerable});return e};var S=(e,r,o)=>(o=e!=null?d(g(e)):{},x(r||!e||!e.__esModule?n(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>x(n({},\"__esModule\",{value:!0}),e);var c=f((k,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>l,frontmatter:()=>j});var t=S(c()),j={title:\"Scam\",slug:\"scam-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"huclberry\"],featuresNames:[\"Huclberry\"],album:\"Scam\",albumSlug:\"scam\",year:2023,genre:[\"\"],duration:\"2:19\",trackNumber:1,producers:[],producersNames:[],description:\"Scam \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/scam-hugo-toxxx\",children:\"Scam\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2023).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/scam-hugo-toxxx.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Černej kůň plus",
   "albumSlug": "cernej-kun-plus",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Úžasná pouť internetem — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(o=d(n,a))||o.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(k(e)):{},u(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var m=j((D,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>g});var t=_(m()),g={title:\"\\xDA\\u017Easn\\xE1 pou\\u0165 internetem\",slug:\"uzasna-pout-internetem-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"mikyr\"],featuresNames:[\"DJ Wich\",\"Mik\\xFD\\u0159\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[],duration:\"3:08\",trackNumber:4,producers:[],producersNames:[],description:\"\\xDA\\u017Easn\\xE1 pou\\u0165 internetem \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Úžasná pouť internetem](/skladby/uzasna-pout-internetem-maniak)** od [Maniak](/raperi/maniak) z alba [Černej kůň plus](/alba/cernej-kun-plus) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},u=(n,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of k(e))!f.call(n,t)&&t!==r&&s(n,t,{get:()=>e[t],enumerable:!(i=d(e,t))||i.enumerable});return n};var b=(n,e,r)=>(r=n!=null?m(h(n)):{},u(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>u(s({},\"__esModule\",{value:!0}),n);var p=j((z,o)=>{o.exports=_jsx_runtime});var _={};x(_,{default:()=>l,frontmatter:()=>M});var a=b(p()),M={title:\"\\xDA\\u017Easn\\xE1 pou\\u0165 internetem\",slug:\"uzasna-pout-internetem-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"mikyr\"],featuresNames:[\"DJ Wich\",\"Mik\\xFD\\u0159\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[\"\"],duration:\"3:08\",trackNumber:4,producers:[],producersNames:[],description:\"\\xDA\\u017Easn\\xE1 pou\\u0165 internetem \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/uzasna-pout-internetem-maniak\",children:\"\\xDA\\u017Easn\\xE1 pou\\u0165 internetem\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/cernej-kun-plus\",children:\"\\u010Cernej k\\u016F\\u0148 plus\"}),\" (2022).\"]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(c,{...n})}):c(n)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/uzasna-pout-internetem-maniak.mdx",
   "_raw": {

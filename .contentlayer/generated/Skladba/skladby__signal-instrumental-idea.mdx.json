@@ -8,16 +8,19 @@
   "album": "Tempo (Instrumental)",
   "albumSlug": "tempo-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Signal (Instrumental) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?c(g(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var l=f((N,m)=>{m.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>I});var n=b(l()),I={title:\"Signal (Instrumental)\",slug:\"signal-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[],duration:\"3:33\",trackNumber:2,producers:[],producersNames:[],description:\"Signal (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Signal (Instrumental)](/skladby/signal-instrumental-idea)** od [Idea](/raperi/idea) z alba [Tempo (Instrumental)](/alba/tempo-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var a in e)s(n,a,{get:e[a],enumerable:!0})},o=(n,e,a,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!h.call(n,r)&&r!==a&&s(n,r,{get:()=>e[r],enumerable:!(l=p(e,r))||l.enumerable});return n};var I=(n,e,a)=>(a=n!=null?c(f(n)):{},o(e||!n||!n.__esModule?s(a,\"default\",{value:n,enumerable:!0}):a,n)),_=n=>o(s({},\"__esModule\",{value:!0}),n);var u=x((y,i)=>{i.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>j});var t=I(u()),j={title:\"Signal (Instrumental)\",slug:\"signal-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[\"\"],duration:\"3:33\",trackNumber:2,producers:[],producersNames:[],description:\"Signal (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/signal-instrumental-idea\",children:\"Signal (Instrumental)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/tempo-instrumental\",children:\"Tempo (Instrumental)\"}),\" (2020).\"]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(m,{...n})}):m(n)}return _(S);})();\n;return Component;"
   },
   "_id": "skladby/signal-instrumental-idea.mdx",
   "_raw": {

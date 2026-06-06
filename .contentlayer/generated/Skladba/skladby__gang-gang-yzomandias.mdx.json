@@ -12,16 +12,19 @@
   "album": "Paranoia",
   "albumSlug": "paranoia",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:29",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "GANG GANG — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var G=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),N=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of g(n))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var f=(e,n,a)=>(a=e!=null?p(x(e)):{},i(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var m=G((k,d)=>{d.exports=_jsx_runtime});var j={};N(j,{default:()=>c,frontmatter:()=>b});var t=f(m()),b={title:\"GANG GANG\",slug:\"gang-gang-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Paranoia\",albumSlug:\"paranoia\",year:2024,genre:[],duration:\"3:29\",trackNumber:5,producers:[],producersNames:[],description:\"GANG GANG \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[GANG GANG](/skladby/gang-gang-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Paranoia](/alba/paranoia) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var G=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),N=(n,a)=>{for(var e in a)t(n,e,{get:a[e],enumerable:!0})},i=(n,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of g(a))!f.call(n,o)&&o!==e&&t(n,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return n};var x=(n,a,e)=>(e=n!=null?l(G(n)):{},i(a||!n||!n.__esModule?t(e,\"default\",{value:n,enumerable:!0}):e,n)),b=n=>i(t({},\"__esModule\",{value:!0}),n);var c=h((_,d)=>{d.exports=_jsx_runtime});var y={};N(y,{default:()=>u,frontmatter:()=>z});var r=x(c()),z={title:\"GANG GANG\",slug:\"gang-gang-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Paranoia\",albumSlug:\"paranoia\",year:2024,genre:[\"\"],duration:\"3:29\",trackNumber:5,producers:[],producersNames:[],description:\"GANG GANG \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/gang-gang-yzomandias\",children:\"GANG GANG\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/paranoia\",children:\"Paranoia\"}),\" (2024).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(m,{...n})}):m(n)}return b(y);})();\n;return Component;"
   },
   "_id": "skladby/gang-gang-yzomandias.mdx",
   "_raw": {

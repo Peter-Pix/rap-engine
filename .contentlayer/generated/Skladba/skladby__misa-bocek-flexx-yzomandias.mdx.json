@@ -12,16 +12,19 @@
   "album": "Kruhy & Vlny (217 Twins Edition)",
   "albumSlug": "kruhy-vlny",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:55",
   "trackNumber": 19,
   "producers": [],
   "producersNames": [],
   "description": "Míša Boček Flexx — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=x(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?c(h(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var m=k((z,d)=>{d.exports=_jsx_runtime});var j={};y(j,{default:()=>l,frontmatter:()=>g});var t=b(m()),g={title:\"M\\xED\\u0161a Bo\\u010Dek Flexx\",slug:\"misa-bocek-flexx-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[],duration:\"1:55\",trackNumber:19,producers:[],producersNames:[],description:\"M\\xED\\u0161a Bo\\u010Dek Flexx \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Míša Boček Flexx](/skladby/misa-bocek-flexx-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var r in e)t(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!h.call(n,o)&&o!==r&&t(n,o,{get:()=>e[o],enumerable:!(s=x(e,o))||s.enumerable});return n};var b=(n,e,r)=>(r=n!=null?m(y(n)):{},i(e||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),z=n=>i(t({},\"__esModule\",{value:!0}),n);var l=f((j,d)=>{d.exports=_jsx_runtime});var M={};k(M,{default:()=>c,frontmatter:()=>g});var a=b(l()),g={title:\"M\\xED\\u0161a Bo\\u010Dek Flexx\",slug:\"misa-bocek-flexx-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"1:55\",trackNumber:19,producers:[],producersNames:[],description:\"M\\xED\\u0161a Bo\\u010Dek Flexx \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/misa-bocek-flexx-yzomandias\",children:\"M\\xED\\u0161a Bo\\u010Dek Flexx\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(u,{...n})}):u(n)}return z(M);})();\n;return Component;"
   },
   "_id": "skladby/misa-bocek-flexx-yzomandias.mdx",
   "_raw": {

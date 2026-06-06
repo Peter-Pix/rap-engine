@@ -8,16 +8,19 @@
   "album": "Tempo (Instrumental)",
   "albumSlug": "tempo-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:32",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "S tebou / vedle tebe (Instrumental) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of b(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var g=(e,t,r)=>(r=e!=null?c(x(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var l=f((M,m)=>{m.exports=_jsx_runtime});var S={};_(S,{default:()=>i,frontmatter:()=>I});var n=g(l()),I={title:\"S tebou / vedle tebe (Instrumental)\",slug:\"s-tebou-vedle-tebe-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[],duration:\"5:32\",trackNumber:11,producers:[],producersNames:[],description:\"S tebou / vedle tebe (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[S tebou / vedle tebe (Instrumental)](/skladby/s-tebou-vedle-tebe-instrumental-idea)** od [Idea](/raperi/idea) z alba [Tempo (Instrumental)](/alba/tempo-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),I=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},u=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of b(e))!h.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return t};var g=(t,e,r)=>(r=t!=null?c(f(t)):{},u(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>u(s({},\"__esModule\",{value:!0}),t);var d=x((k,l)=>{l.exports=_jsx_runtime});var v={};I(v,{default:()=>i,frontmatter:()=>j});var n=g(d()),j={title:\"S tebou / vedle tebe (Instrumental)\",slug:\"s-tebou-vedle-tebe-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[\"\"],duration:\"5:32\",trackNumber:11,producers:[],producersNames:[],description:\"S tebou / vedle tebe (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/s-tebou-vedle-tebe-instrumental-idea\",children:\"S tebou / vedle tebe (Instrumental)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/tempo-instrumental\",children:\"Tempo (Instrumental)\"}),\" (2020).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return _(v);})();\n;return Component;"
   },
   "_id": "skladby/s-tebou-vedle-tebe-instrumental-idea.mdx",
   "_raw": {

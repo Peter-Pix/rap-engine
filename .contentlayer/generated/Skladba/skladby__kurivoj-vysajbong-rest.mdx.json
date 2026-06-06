@@ -12,16 +12,19 @@
   "album": "Premiéra",
   "albumSlug": "premiera",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:07",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Kuřivoj Vysajbong — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of j(t))!b.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var f=(e,t,n)=>(n=e!=null?p(x(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var m=g((D,i)=>{i.exports=_jsx_runtime});var v={};h(v,{default:()=>d,frontmatter:()=>y});var r=f(m()),y={title:\"Ku\\u0159ivoj Vysajbong\",slug:\"kurivoj-vysajbong-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"5:07\",trackNumber:13,producers:[],producersNames:[],description:\"Ku\\u0159ivoj Vysajbong \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(v);})();\n;return Component;"
+    "raw": "\n**[Kuřivoj Vysajbong](/skladby/kurivoj-vysajbong-rest)** od [Rest](/raperi/rest) z alba [Premiéra](/alba/premiera) (2010).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of m(e))!g.call(r,s)&&s!==a&&n(r,s,{get:()=>e[s],enumerable:!(o=j(e,s))||o.enumerable});return r};var x=(r,e,a)=>(a=r!=null?p(b(r)):{},i(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),y=r=>i(n({},\"__esModule\",{value:!0}),r);var c=f((D,u)=>{u.exports=_jsx_runtime});var _={};h(_,{default:()=>l,frontmatter:()=>v});var t=x(c()),v={title:\"Ku\\u0159ivoj Vysajbong\",slug:\"kurivoj-vysajbong-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[\"\"],duration:\"5:07\",trackNumber:13,producers:[],producersNames:[],description:\"Ku\\u0159ivoj Vysajbong \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/kurivoj-vysajbong-rest\",children:\"Ku\\u0159ivoj Vysajbong\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/premiera\",children:\"Premi\\xE9ra\"}),\" (2010).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/kurivoj-vysajbong-rest.mdx",
   "_raw": {

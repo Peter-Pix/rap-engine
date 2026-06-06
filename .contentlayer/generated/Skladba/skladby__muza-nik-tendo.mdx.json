@@ -14,16 +14,19 @@
   "album": "GOLDKID: ULTIMATE SECTION",
   "albumSlug": "goldkid-ultimate-section",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:28",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "MŮZA — skladba od Nik Tendo.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of k(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(x(e)):{},d(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>d(a({},\"__esModule\",{value:!0}),e);var u=f((D,i)=>{i.exports=_jsx_runtime});var N={};g(N,{default:()=>l,frontmatter:()=>M});var n=_(u()),M={title:\"M\\u016EZA\",slug:\"muza-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"karlo\"],featuresNames:[\"Decky\",\"Karlo\"],album:\"GOLDKID: ULTIMATE SECTION\",albumSlug:\"goldkid-ultimate-section\",year:2025,genre:[],duration:\"3:28\",trackNumber:5,producers:[],producersNames:[],description:\"M\\u016EZA \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[MŮZA](/skladby/muza-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GOLDKID: ULTIMATE SECTION](/alba/goldkid-ultimate-section) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!h.call(n,o)&&o!==r&&a(n,o,{get:()=>e[o],enumerable:!(d=k(e,o))||d.enumerable});return n};var T=(n,e,r)=>(r=n!=null?m(f(n)):{},i(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),b=n=>i(a({},\"__esModule\",{value:!0}),n);var l=g((A,s)=>{s.exports=_jsx_runtime});var N={};x(N,{default:()=>u,frontmatter:()=>M});var t=T(l()),M={title:\"M\\u016EZA\",slug:\"muza-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"karlo\"],featuresNames:[\"Decky\",\"Karlo\"],album:\"GOLDKID: ULTIMATE SECTION\",albumSlug:\"goldkid-ultimate-section\",year:2025,genre:[\"\"],duration:\"3:28\",trackNumber:5,producers:[],producersNames:[],description:\"M\\u016EZA \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/muza-nik-tendo\",children:\"M\\u016EZA\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/goldkid-ultimate-section\",children:\"GOLDKID: ULTIMATE SECTION\"}),\" (2025).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(c,{...n})}):c(n)}return b(N);})();\n;return Component;"
   },
   "_id": "skladby/muza-nik-tendo.mdx",
   "_raw": {

@@ -1,0 +1,28 @@
+{
+  "title": "Insane",
+  "slug": "insane",
+  "rapper": "Hugo Toxxx",
+  "rapperSlug": "hugo-toxxx",
+  "year": 2026,
+  "description": "Insane — singl od Hugo Toxxx (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0cdaa744636a5237d9349b5931a37c80/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Insane](/skladby/insane)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2026).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},x=(n,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of u(e))!m.call(n,r)&&r!==t&&s(n,r,{get:()=>e[r],enumerable:!(a=g(e,r))||a.enumerable});return n};var _=(n,e,t)=>(t=n!=null?p(h(n)):{},x(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),y=n=>x(s({},\"__esModule\",{value:!0}),n);var c=f((H,i)=>{i.exports=_jsx_runtime});var b={};j(b,{default:()=>l,frontmatter:()=>T});var o=_(c()),T={title:\"Insane\",slug:\"insane\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",year:2026,description:\"Insane \\u2014 singl od Hugo Toxxx (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/0cdaa744636a5237d9349b5931a37c80/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/insane\",children:\"Insane\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2026).\"]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(d,{...n})}):d(n)}return y(b);})();\n;return Component;"
+  },
+  "_id": "skladby/insane.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/insane.mdx",
+    "sourceFileName": "insane.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/insane"
+  },
+  "type": "Skladba",
+  "url": "/skladby/insane",
+  "canonicalUrl": "https://4rap.cz/skladby/insane"
+}

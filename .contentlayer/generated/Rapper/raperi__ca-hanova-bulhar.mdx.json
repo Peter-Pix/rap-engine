@@ -1,12 +1,33 @@
 {
   "title": "CA$HANOVA BULHAR",
   "slug": "ca-hanova-bulhar",
-  "description": "CA$HANOVA BULHAR — interpret české/slovenské rapové scény.",
+  "realName": "Matěj Kratejl",
+  "born": "1994",
+  "active": "2016–současnost",
+  "label": "Nezávislý",
+  "genre": [
+    "trap",
+    "hip-hop"
+  ],
+  "description": "Cashanova Bulhar, je pražský rapper a zakladatel specifického subžánru inspirovaného fotbalovým a klubovým prostředím.",
   "featured": false,
-  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "publishedAt": "2026-05-14T00:00:00.000Z",
+  "relatedRappers": [
+    "yzomandias",
+    "labello"
+  ],
+  "relatedAlbums": [
+    "rap-disco-revoluce",
+    "romeo",
+    "dripolar"
+  ],
+  "aliases": [
+    "Cashanova Bulhar",
+    "Matěj Kratejl"
+  ],
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var _=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),f=(n,t)=>{for(var r in t)s(n,r,{get:t[r],enumerable:!0})},i=(n,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!A.call(n,o)&&o!==r&&s(n,o,{get:()=>t[o],enumerable:!(c=u(t,o))||c.enumerable});return n};var j=(n,t,r)=>(r=n!=null?p(x(n)):{},i(t||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),C=n=>i(s({},\"__esModule\",{value:!0}),n);var l=_((v,a)=>{a.exports=_jsx_runtime});var b={};f(b,{default:()=>h,frontmatter:()=>H});var e=j(l()),H={title:\"CA$HANOVA BULHAR\",slug:\"ca-hanova-bulhar\",description:\"CA$HANOVA BULHAR \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-04\"};function m(n){let t={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,e.jsx)(t.p,{children:(0,e.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return C(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar)** je rapper působící na české rapové scéně.\nNa kontě má 12 alb.\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var j=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},l=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!v.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(s=d(a,t))||s.enumerable});return e};var A=(e,a,n)=>(n=e!=null?u(b(e)):{},l(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),x=e=>l(o({},\"__esModule\",{value:!0}),e);var i=j((C,p)=>{p.exports=_jsx_runtime});var _={};f(_,{default:()=>h,frontmatter:()=>g});var r=A(i()),g={title:\"CA$HANOVA BULHAR\",slug:\"ca-hanova-bulhar\",realName:\"Mat\\u011Bj Kratejl\",born:\"1994\",active:\"2016\\u2013sou\\u010Dasnost\",label:\"Nez\\xE1visl\\xFD\",genre:[\"trap\",\"hip-hop\"],description:\"Cashanova Bulhar, je pra\\u017Esk\\xFD rapper a zakladatel specifick\\xE9ho sub\\u017E\\xE1nru inspirovan\\xE9ho fotbalov\\xFDm a klubov\\xFDm prost\\u0159ed\\xEDm.\",featured:!1,aliases:[\"Cashanova Bulhar\",\"Mat\\u011Bj Kratejl\"],publishedAt:\"2026-05-14\",relatedRappers:[\"yzomandias\",\"labello\"],relatedAlbums:[\"rap-disco-revoluce\",\"romeo\",\"dripolar\"]};function c(e){let a={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"})}),` je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\nNa kont\\u011B m\\xE1 12 alb.`]})]})}function h(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return x(_);})();\n;return Component;"
   },
   "_id": "raperi/ca-hanova-bulhar.mdx",
   "_raw": {

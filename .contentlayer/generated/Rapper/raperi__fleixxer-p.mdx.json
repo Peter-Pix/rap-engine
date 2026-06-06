@@ -1,13 +1,15 @@
 {
   "title": "Fleixxer P",
   "slug": "fleixxer-p",
-  "genre": [],
-  "description": "Fleixxer P — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Fleixxer P — nezávislý interpret rapové scény s ostrým flow a autentickým přístupem k tvorbě. Přináší syrový zvuk bez kompromisů. Poslouchej jeho tracky.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var a=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of u(n))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(i=d(n,o))||i.enumerable});return e};var g=(e,n,r)=>(r=e!=null?a(h(e)):{},c(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),F=e=>c(s({},\"__esModule\",{value:!0}),e);var l=f((v,x)=>{x.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>M});var t=g(l()),M={title:\"Fleixxer P\",slug:\"fleixxer-p\",genre:[],description:\"Fleixxer P \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return F(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Fleixxer P](/raperi/fleixxer-p)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},a=(r,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!f.call(r,o)&&o!==t&&s(r,o,{get:()=>e[o],enumerable:!(i=h(e,o))||i.enumerable});return r};var v=(r,e,t)=>(t=r!=null?m(d(r)):{},a(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>a(s({},\"__esModule\",{value:!0}),r);var p=j((b,c)=>{c.exports=_jsx_runtime});var F={};g(F,{default:()=>l,frontmatter:()=>k});var n=v(p()),k={title:\"Fleixxer P\",slug:\"fleixxer-p\",genre:[\"\"],description:\"Fleixxer P \\u2014 nez\\xE1visl\\xFD interpret rapov\\xE9 sc\\xE9ny s ostr\\xFDm flow a autentick\\xFDm p\\u0159\\xEDstupem k tvorb\\u011B. P\\u0159in\\xE1\\u0161\\xED syrov\\xFD zvuk bez kompromis\\u016F. Poslouchej jeho tracky.\",publishedAt:\"2026-05-31\"};function x(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/raperi/fleixxer-p\",children:\"Fleixxer P\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(x,{...r})}):x(r)}return _(F);})();\n;return Component;"
   },
   "_id": "raperi/fleixxer-p.mdx",
   "_raw": {

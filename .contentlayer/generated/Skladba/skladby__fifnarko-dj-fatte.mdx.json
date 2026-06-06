@@ -8,16 +8,19 @@
   "album": "Což takhle dát si Tesař",
   "albumSlug": "coz-takhle-dat-si-tesar",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:23",
   "trackNumber": 23,
   "producers": [],
   "producersNames": [],
   "description": "Fifňárko — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(h(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var c=j((C,u)=>{u.exports=_jsx_runtime});var F={};k(F,{default:()=>l,frontmatter:()=>g});var r=_(c()),g={title:\"Fif\\u0148\\xE1rko\",slug:\"fifnarko-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[],duration:\"1:23\",trackNumber:23,producers:[],producersNames:[],description:\"Fif\\u0148\\xE1rko \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(F);})();\n;return Component;"
+    "raw": "\n**[Fifňárko](/skladby/fifnarko-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Což takhle dát si Tesař](/alba/coz-takhle-dat-si-tesar) (2011).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!m.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?u(k(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var l=j((C,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>f,frontmatter:()=>F});var a=b(l()),F={title:\"Fif\\u0148\\xE1rko\",slug:\"fifnarko-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[\"\"],duration:\"1:23\",trackNumber:23,producers:[],producersNames:[],description:\"Fif\\u0148\\xE1rko \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(t.p,{children:[(0,a.jsx)(t.strong,{children:(0,a.jsx)(t.a,{href:\"/skladby/fifnarko-dj-fatte\",children:\"Fif\\u0148\\xE1rko\"})}),\" od \",(0,a.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(t.a,{href:\"/alba/coz-takhle-dat-si-tesar\",children:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\"}),\" (2011).\"]})}function f(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/fifnarko-dj-fatte.mdx",
   "_raw": {

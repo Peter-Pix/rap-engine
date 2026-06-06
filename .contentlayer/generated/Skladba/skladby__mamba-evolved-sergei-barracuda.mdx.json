@@ -12,16 +12,19 @@
   "album": "Mamba (Evolved)",
   "albumSlug": "mamba-evolved",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:06",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Mamba (Evolved) — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},d=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!v.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var f=(e,r,t)=>(t=e!=null?l(g(e)):{},d(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>d(o({},\"__esModule\",{value:!0}),e);var u=x((S,m)=>{m.exports=_jsx_runtime});var M={};h(M,{default:()=>i,frontmatter:()=>k});var a=f(u()),k={title:\"Mamba (Evolved)\",slug:\"mamba-evolved-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"Mamba (Evolved)\",albumSlug:\"mamba-evolved\",year:2025,genre:[],duration:\"4:06\",trackNumber:1,producers:[],producersNames:[],description:\"Mamba (Evolved) \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Mamba (Evolved)](/skladby/mamba-evolved-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},s=(a,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!v.call(a,o)&&o!==r&&n(a,o,{get:()=>e[o],enumerable:!(d=b(e,o))||d.enumerable});return a};var h=(a,e,r)=>(r=a!=null?m(g(a)):{},s(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),k=a=>s(n({},\"__esModule\",{value:!0}),a);var c=f((y,u)=>{u.exports=_jsx_runtime});var _={};x(_,{default:()=>l,frontmatter:()=>M});var t=h(c()),M={title:\"Mamba (Evolved)\",slug:\"mamba-evolved-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"Mamba (Evolved)\",albumSlug:\"mamba-evolved\",year:2025,genre:[\"\"],duration:\"4:06\",trackNumber:1,producers:[],producersNames:[],description:\"Mamba (Evolved) \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/mamba-evolved-sergei-barracuda\",children:\"Mamba (Evolved)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" (2025).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(i,{...a})}):i(a)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/mamba-evolved-sergei-barracuda.mdx",
   "_raw": {

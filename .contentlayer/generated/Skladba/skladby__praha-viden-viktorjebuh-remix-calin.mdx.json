@@ -12,16 +12,19 @@
   "album": "Praha/Vídeň (viktorjebuh Remix)",
   "albumSlug": "praha-viden-viktorjebuh-remix",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:01",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Praha/Vídeň (viktorjebuh Remix) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!b.call(e,a)&&a!==n&&i(e,a,{get:()=>r[a],enumerable:!(o=l(r,a))||o.enumerable});return e};var v=(e,r,n)=>(n=e!=null?d(x(e)):{},u(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>u(i({},\"__esModule\",{value:!0}),e);var m=j((C,s)=>{s.exports=_jsx_runtime});var g={};k(g,{default:()=>c,frontmatter:()=>_});var t=v(m()),_={title:\"Praha/V\\xEDde\\u0148 (viktorjebuh Remix)\",slug:\"praha-viden-viktorjebuh-remix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"viktorjebuh\"],featuresNames:[\"viktorjebuh\"],album:\"Praha/V\\xEDde\\u0148 (viktorjebuh Remix)\",albumSlug:\"praha-viden-viktorjebuh-remix\",year:2021,genre:[],duration:\"3:01\",trackNumber:1,producers:[],producersNames:[],description:\"Praha/V\\xEDde\\u0148 (viktorjebuh Remix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function h(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(h,{...e})}):h(e)}return f(g);})();\n;return Component;"
+    "raw": "\n**[Praha/Vídeň (viktorjebuh Remix)](/skladby/praha-viden-viktorjebuh-remix-calin)** od [Calin](/raperi/calin) (2021).\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var a in e)i(r,a,{get:e[a],enumerable:!0})},u=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!b.call(r,n)&&n!==a&&i(r,n,{get:()=>e[n],enumerable:!(o=m(e,n))||o.enumerable});return r};var v=(r,e,a)=>(a=r!=null?l(x(r)):{},u(e||!r||!r.__esModule?i(a,\"default\",{value:r,enumerable:!0}):a,r)),f=r=>u(i({},\"__esModule\",{value:!0}),r);var h=j((N,s)=>{s.exports=_jsx_runtime});var _={};k(_,{default:()=>c,frontmatter:()=>g});var t=v(h()),g={title:\"Praha/V\\xEDde\\u0148 (viktorjebuh Remix)\",slug:\"praha-viden-viktorjebuh-remix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"viktorjebuh\"],featuresNames:[\"viktorjebuh\"],album:\"Praha/V\\xEDde\\u0148 (viktorjebuh Remix)\",albumSlug:\"praha-viden-viktorjebuh-remix\",year:2021,genre:[\"\"],duration:\"3:01\",trackNumber:1,producers:[],producersNames:[],description:\"Praha/V\\xEDde\\u0148 (viktorjebuh Remix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/praha-viden-viktorjebuh-remix-calin\",children:\"Praha/V\\xEDde\\u0148 (viktorjebuh Remix)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2021).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return f(_);})();\n;return Component;"
   },
   "_id": "skladby/praha-viden-viktorjebuh-remix-calin.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Z fotky mý mámy kape krev",
   "albumSlug": "z-fotky-my-mamy-kape-krev",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:55",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Z fotky mý mámy kape krev — skladba od Mike Trafik.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var a in r)n(e,a,{get:r[a],enumerable:!0})},o=(e,r,a,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let m of l(r))!y.call(e,m)&&m!==a&&n(e,m,{get:()=>r[m],enumerable:!(i=d(r,m))||i.enumerable});return e};var _=(e,r,a)=>(a=e!=null?c(f(e)):{},o(r||!e||!e.__esModule?n(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>o(n({},\"__esModule\",{value:!0}),e);var s=x((M,k)=>{k.exports=_jsx_runtime});var v={};h(v,{default:()=>u,frontmatter:()=>g});var t=_(s()),g={title:\"Z fotky m\\xFD m\\xE1my kape krev\",slug:\"z-fotky-my-mamy-kape-krev-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"katarzia\",\"vladimir-518\"],featuresNames:[\"Katarzia\",\"Vladimir 518\"],album:\"Z fotky m\\xFD m\\xE1my kape krev\",albumSlug:\"z-fotky-my-mamy-kape-krev\",year:2025,genre:[],duration:\"3:55\",trackNumber:1,producers:[],producersNames:[],description:\"Z fotky m\\xFD m\\xE1my kape krev \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function p(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return b(v);})();\n;return Component;"
+    "raw": "\n**[Z fotky mý mámy kape krev](/skladby/z-fotky-my-mamy-kape-krev-mike-trafik)** od [Mike Trafik](/raperi/mike-trafik) (2025).\n",
+    "code": "var Component=(()=>{var y=Object.create;var m=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var c=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var a in e)m(r,a,{get:e[a],enumerable:!0})},o=(r,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let k of c(e))!l.call(r,k)&&k!==a&&m(r,k,{get:()=>e[k],enumerable:!(i=u(e,k))||i.enumerable});return r};var v=(r,e,a)=>(a=r!=null?y(d(r)):{},o(e||!r||!r.__esModule?m(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>o(m({},\"__esModule\",{value:!0}),r);var s=x((j,n)=>{n.exports=_jsx_runtime});var M={};h(M,{default:()=>p,frontmatter:()=>b});var t=v(s()),b={title:\"Z fotky m\\xFD m\\xE1my kape krev\",slug:\"z-fotky-my-mamy-kape-krev-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"katarzia\",\"vladimir-518\"],featuresNames:[\"Katarzia\",\"Vladimir 518\"],album:\"Z fotky m\\xFD m\\xE1my kape krev\",albumSlug:\"z-fotky-my-mamy-kape-krev\",year:2025,genre:[\"\"],duration:\"3:55\",trackNumber:1,producers:[],producersNames:[],description:\"Z fotky m\\xFD m\\xE1my kape krev \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function f(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/z-fotky-my-mamy-kape-krev-mike-trafik\",children:\"Z fotky m\\xFD m\\xE1my kape krev\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/mike-trafik\",children:\"Mike Trafik\"}),\" (2025).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(f,{...r})}):f(r)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/z-fotky-my-mamy-kape-krev-mike-trafik.mdx",
   "_raw": {

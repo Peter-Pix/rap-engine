@@ -12,16 +12,19 @@
   "album": "Mezitím",
   "albumSlug": "mezitim",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:54",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Kolik stojí? — skladba od IdeaFatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var m=j((D,d)=>{d.exports=_jsx_runtime});var F={};_(F,{default:()=>c,frontmatter:()=>k});var r=b(m()),k={title:\"Kolik stoj\\xED?\",slug:\"kolik-stoji-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[],duration:\"2:54\",trackNumber:13,producers:[],producersNames:[],description:\"Kolik stoj\\xED? \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[Kolik stojí?](/skladby/kolik-stoji-ideafatte)** z alba [Mezitím](/alba/mezitim) (2008).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)n(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!k.call(e,o)&&o!==a&&n(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var h=(e,t,a)=>(a=e!=null?m(j(e)):{},i(t||!e||!e.__esModule?n(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>i(n({},\"__esModule\",{value:!0}),e);var d=x((y,l)=>{l.exports=_jsx_runtime});var z={};b(z,{default:()=>c,frontmatter:()=>_});var r=h(d()),_={title:\"Kolik stoj\\xED?\",slug:\"kolik-stoji-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[\"\"],duration:\"2:54\",trackNumber:13,producers:[],producersNames:[],description:\"Kolik stoj\\xED? \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function u(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/kolik-stoji-ideafatte\",children:\"Kolik stoj\\xED?\"})}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/mezitim\",children:\"Mezit\\xEDm\"}),\" (2008).\"]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(z);})();\n;return Component;"
   },
   "_id": "skladby/kolik-stoji-ideafatte.mdx",
   "_raw": {

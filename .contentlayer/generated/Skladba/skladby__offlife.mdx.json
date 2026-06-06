@@ -1,0 +1,28 @@
+{
+  "title": "Offlife",
+  "slug": "offlife",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "year": 2026,
+  "description": "Offlife — singl od Maniak (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/dd0d6d1da9aa59bb3c8c2492dfb1fdfe/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Offlife](/skladby/offlife)** od [Maniak](/raperi/maniak) (2026).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var t in e)i(n,t,{get:e[t],enumerable:!0})},f=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!u.call(n,r)&&r!==t&&i(n,r,{get:()=>e[r],enumerable:!(s=m(e,r))||s.enumerable});return n};var k=(n,e,t)=>(t=n!=null?p(x(n)):{},f(e||!n||!n.__esModule?i(t,\"default\",{value:n,enumerable:!0}):t,n)),M=n=>f(i({},\"__esModule\",{value:!0}),n);var d=h((D,o)=>{o.exports=_jsx_runtime});var b={};j(b,{default:()=>c,frontmatter:()=>_});var a=k(d()),_={title:\"Offlife\",slug:\"offlife\",rapper:\"Maniak\",rapperSlug:\"maniak\",year:2026,description:\"Offlife \\u2014 singl od Maniak (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/dd0d6d1da9aa59bb3c8c2492dfb1fdfe/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/offlife\",children:\"Offlife\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2026).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return M(b);})();\n;return Component;"
+  },
+  "_id": "skladby/offlife.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/offlife.mdx",
+    "sourceFileName": "offlife.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/offlife"
+  },
+  "type": "Skladba",
+  "url": "/skladby/offlife",
+  "canonicalUrl": "https://4rap.cz/skladby/offlife"
+}

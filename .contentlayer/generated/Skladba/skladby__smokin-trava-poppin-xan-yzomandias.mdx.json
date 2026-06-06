@@ -12,16 +12,19 @@
   "album": "Kruhy & Vlny (217 Twins Edition)",
   "albumSlug": "kruhy-vlny",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:23",
   "trackNumber": 22,
   "producers": [],
   "producersNames": [],
   "description": "Smokin Tráva, Poppin Xan — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},s=(n,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!k.call(n,a)&&a!==r&&o(n,a,{get:()=>e[a],enumerable:!(i=l(e,a))||i.enumerable});return n};var _=(n,e,r)=>(r=n!=null?c(x(n)):{},s(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),b=n=>s(o({},\"__esModule\",{value:!0}),n);var d=y((v,m)=>{m.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>g});var t=_(d()),g={title:\"Smokin Tr\\xE1va, Poppin Xan\",slug:\"smokin-trava-poppin-xan-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[],duration:\"2:23\",trackNumber:22,producers:[],producersNames:[],description:\"Smokin Tr\\xE1va, Poppin Xan \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function p(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(p,{...n})}):p(n)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Smokin Tráva, Poppin Xan](/skladby/smokin-trava-poppin-xan-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),f=(a,n)=>{for(var o in n)i(a,o,{get:n[o],enumerable:!0})},s=(a,n,o,t)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let e of y(n))!k.call(a,e)&&e!==o&&i(a,e,{get:()=>n[e],enumerable:!(t=c(n,e))||t.enumerable});return a};var b=(a,n,o)=>(o=a!=null?l(h(a)):{},s(n||!a||!a.__esModule?i(o,\"default\",{value:a,enumerable:!0}):o,a)),z=a=>s(i({},\"__esModule\",{value:!0}),a);var p=x((_,d)=>{d.exports=_jsx_runtime});var v={};f(v,{default:()=>u,frontmatter:()=>g});var r=b(p()),g={title:\"Smokin Tr\\xE1va, Poppin Xan\",slug:\"smokin-trava-poppin-xan-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"2:23\",trackNumber:22,producers:[],producersNames:[],description:\"Smokin Tr\\xE1va, Poppin Xan \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(a){let n={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/skladby/smokin-trava-poppin-xan-yzomandias\",children:\"Smokin Tr\\xE1va, Poppin Xan\"})}),\" od \",(0,r.jsx)(n.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(n.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function u(a={}){let{wrapper:n}=a.components||{};return n?(0,r.jsx)(n,{...a,children:(0,r.jsx)(m,{...a})}):m(a)}return z(v);})();\n;return Component;"
   },
   "_id": "skladby/smokin-trava-poppin-xan-yzomandias.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "The Devil Is a Busy Man (Live)",
   "albumSlug": "the-devil-is-a-busy-man-live",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:53",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "The Devil Is a Busy Man (Live) — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==t&&s(e,r,{get:()=>n[r],enumerable:!(i=p(n,r))||i.enumerable});return e};var f=(e,n,t)=>(t=e!=null?d(v(e)):{},l(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>l(s({},\"__esModule\",{value:!0}),e);var u=b((j,o)=>{o.exports=_jsx_runtime});var g={};M(g,{default:()=>c,frontmatter:()=>_});var a=f(u()),_={title:\"The Devil Is a Busy Man (Live)\",slug:\"the-devil-is-a-busy-man-live-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"soll\"],featuresNames:[\"Soll\"],album:\"The Devil Is a Busy Man (Live)\",albumSlug:\"the-devil-is-a-busy-man-live\",year:2021,genre:[],duration:\"4:53\",trackNumber:1,producers:[],producersNames:[],description:\"The Devil Is a Busy Man (Live) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(m,{...e})}):m(e)}return y(g);})();\n;return Component;"
+    "raw": "\n**[The Devil Is a Busy Man (Live)](/skladby/the-devil-is-a-busy-man-live-maniak)** od [Maniak](/raperi/maniak) (2021).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),M=(a,e)=>{for(var n in e)i(a,n,{get:e[n],enumerable:!0})},l=(a,e,n,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!k.call(a,r)&&r!==n&&i(a,r,{get:()=>e[r],enumerable:!(t=h(e,r))||t.enumerable});return a};var b=(a,e,n)=>(n=a!=null?c(v(a)):{},l(e||!a||!a.__esModule?i(n,\"default\",{value:a,enumerable:!0}):n,a)),f=a=>l(i({},\"__esModule\",{value:!0}),a);var u=y((_,o)=>{o.exports=_jsx_runtime});var g={};M(g,{default:()=>m,frontmatter:()=>x});var s=b(u()),x={title:\"The Devil Is a Busy Man (Live)\",slug:\"the-devil-is-a-busy-man-live-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"soll\"],featuresNames:[\"Soll\"],album:\"The Devil Is a Busy Man (Live)\",albumSlug:\"the-devil-is-a-busy-man-live\",year:2021,genre:[\"\"],duration:\"4:53\",trackNumber:1,producers:[],producersNames:[],description:\"The Devil Is a Busy Man (Live) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/the-devil-is-a-busy-man-live-maniak\",children:\"The Devil Is a Busy Man (Live)\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2021).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,s.jsx)(e,{...a,children:(0,s.jsx)(d,{...a})}):d(a)}return f(g);})();\n;return Component;"
   },
   "_id": "skladby/the-devil-is-a-busy-man-live-maniak.mdx",
   "_raw": {

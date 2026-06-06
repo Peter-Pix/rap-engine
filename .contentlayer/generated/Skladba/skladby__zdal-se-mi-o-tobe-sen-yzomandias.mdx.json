@@ -12,16 +12,19 @@
   "album": "Prozyum",
   "albumSlug": "prozyum",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:03",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Zdál Se Mi O Tobě Sen — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),z=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var S=(e,n,r)=>(r=e!=null?l(b(e)):{},d(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>d(a({},\"__esModule\",{value:!0}),e);var m=f((M,i)=>{i.exports=_jsx_runtime});var y={};z(y,{default:()=>c,frontmatter:()=>g});var t=S(m()),g={title:\"Zd\\xE1l Se Mi O Tob\\u011B Sen\",slug:\"zdal-se-mi-o-tobe-sen-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[],duration:\"4:03\",trackNumber:5,producers:[],producersNames:[],description:\"Zd\\xE1l Se Mi O Tob\\u011B Sen \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[Zdál Se Mi O Tobě Sen](/skladby/zdal-se-mi-o-tobe-sen-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),h=(n,e)=>{for(var o in e)t(n,o,{get:e[o],enumerable:!0})},d=(n,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of z(e))!y.call(n,r)&&r!==o&&t(n,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return n};var x=(n,e,o)=>(o=n!=null?c(b(n)):{},d(e||!n||!n.__esModule?t(o,\"default\",{value:n,enumerable:!0}):o,n)),S=n=>d(t({},\"__esModule\",{value:!0}),n);var m=f((j,i)=>{i.exports=_jsx_runtime});var M={};h(M,{default:()=>u,frontmatter:()=>g});var a=x(m()),g={title:\"Zd\\xE1l Se Mi O Tob\\u011B Sen\",slug:\"zdal-se-mi-o-tobe-sen-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[\"\"],duration:\"4:03\",trackNumber:5,producers:[],producersNames:[],description:\"Zd\\xE1l Se Mi O Tob\\u011B Sen \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/zdal-se-mi-o-tobe-sen-yzomandias\",children:\"Zd\\xE1l Se Mi O Tob\\u011B Sen\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2020).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return S(M);})();\n;return Component;"
   },
   "_id": "skladby/zdal-se-mi-o-tobe-sen-yzomandias.mdx",
   "_raw": {

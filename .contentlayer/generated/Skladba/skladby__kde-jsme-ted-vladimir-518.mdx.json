@@ -12,16 +12,19 @@
   "album": "White Boy",
   "albumSlug": "white-boy",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:51",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Kde jsme teď — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!j.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?c(x(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var d=b((M,m)=>{m.exports=_jsx_runtime});var y={};f(y,{default:()=>l,frontmatter:()=>k});var r=_(d()),k={title:\"Kde jsme te\\u010F\",slug:\"kde-jsme-ted-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"7krat3\"],featuresNames:[\"7kr\\xE1t3\"],album:\"White Boy\",albumSlug:\"white-boy\",year:2025,genre:[],duration:\"3:51\",trackNumber:10,producers:[],producersNames:[],description:\"Kde jsme te\\u010F \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Kde jsme teď](/skladby/kde-jsme-ted-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [White Boy](/alba/white-boy) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},d=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!f.call(r,i)&&i!==a&&n(r,i,{get:()=>e[i],enumerable:!(s=p(e,i))||s.enumerable});return r};var g=(r,e,a)=>(a=r!=null?u(b(r)):{},d(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),k=r=>d(n({},\"__esModule\",{value:!0}),r);var l=j((w,o)=>{o.exports=_jsx_runtime});var _={};x(_,{default:()=>c,frontmatter:()=>y});var t=g(l()),y={title:\"Kde jsme te\\u010F\",slug:\"kde-jsme-ted-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"7krat3\"],featuresNames:[\"7kr\\xE1t3\"],album:\"White Boy\",albumSlug:\"white-boy\",year:2025,genre:[\"\"],duration:\"3:51\",trackNumber:10,producers:[],producersNames:[],description:\"Kde jsme te\\u010F \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/kde-jsme-ted-vladimir-518\",children:\"Kde jsme te\\u010F\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/white-boy\",children:\"White Boy\"}),\" (2025).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(m,{...r})}):m(r)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/kde-jsme-ted-vladimir-518.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Molo II (Deluxe)",
   "albumSlug": "molo-ii",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Jungle Gin — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)u(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==t&&u(e,a,{get:()=>n[a],enumerable:!(o=p(n,a))||o.enumerable});return e};var b=(e,n,t)=>(t=e!=null?c(h(e)):{},l(n||!e||!e.__esModule?u(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>l(u({},\"__esModule\",{value:!0}),e);var s=f((k,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>m,frontmatter:()=>M});var r=b(s()),M={title:\"Jungle Gin\",slug:\"jungle-gin-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"alan-murin\"],featuresNames:[\"Kenny Rough\",\"Alan Murin\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"3:07\",trackNumber:10,producers:[],producersNames:[],description:\"Jungle Gin \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Jungle Gin](/skladby/jungle-gin-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Molo II (Deluxe)](/alba/molo-ii) (2025).\n",
+    "code": "var Component=(()=>{var c=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var r in e)u(n,r,{get:e[r],enumerable:!0})},t=(n,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of m(e))!x.call(n,l)&&l!==r&&u(n,l,{get:()=>e[l],enumerable:!(o=p(e,l))||o.enumerable});return n};var j=(n,e,r)=>(r=n!=null?c(h(n)):{},t(e||!n||!n.__esModule?u(r,\"default\",{value:n,enumerable:!0}):r,n)),G=n=>t(u({},\"__esModule\",{value:!0}),n);var s=f((k,i)=>{i.exports=_jsx_runtime});var _={};b(_,{default:()=>g,frontmatter:()=>M});var a=j(s()),M={title:\"Jungle Gin\",slug:\"jungle-gin-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"alan-murin\"],featuresNames:[\"Kenny Rough\",\"Alan Murin\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[\"\"],duration:\"3:07\",trackNumber:10,producers:[],producersNames:[],description:\"Jungle Gin \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/jungle-gin-paulie-garand\",children:\"Jungle Gin\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/molo-ii\",children:\"Molo II (Deluxe)\"}),\" (2025).\"]})}function g(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(d,{...n})}):d(n)}return G(_);})();\n;return Component;"
   },
   "_id": "skladby/jungle-gin-paulie-garand.mdx",
   "_raw": {

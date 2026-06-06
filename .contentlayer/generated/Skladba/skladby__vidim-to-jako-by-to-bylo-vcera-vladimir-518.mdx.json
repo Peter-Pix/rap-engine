@@ -14,16 +14,19 @@
   "album": "Vidim to, jako by to bylo včera",
   "albumSlug": "vidim-to-jako-by-to-bylo-vcera",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:43",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Vidim to, jako by to bylo včera — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)i(t,a,{get:e[a],enumerable:!0})},m=(t,e,a,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!y.call(t,o)&&o!==a&&i(t,o,{get:()=>e[o],enumerable:!(n=b(e,o))||n.enumerable});return t};var f=(t,e,a)=>(a=t!=null?u(k(t)):{},m(e||!t||!t.__esModule?i(a,\"default\",{value:t,enumerable:!0}):a,t)),h=t=>m(i({},\"__esModule\",{value:!0}),t);var l=j((V,d)=>{d.exports=_jsx_runtime});var _={};x(_,{default:()=>c,frontmatter:()=>v});var r=f(l()),v={title:\"Vidim to, jako by to bylo v\\u010Dera\",slug:\"vidim-to-jako-by-to-bylo-vcera-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"katarzia\"],featuresNames:[\"Mike Trafik\",\"Katarzia\"],album:\"Vidim to, jako by to bylo v\\u010Dera\",albumSlug:\"vidim-to-jako-by-to-bylo-vcera\",year:2023,genre:[],duration:\"4:43\",trackNumber:1,producers:[],producersNames:[],description:\"Vidim to, jako by to bylo v\\u010Dera \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function s(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(s,{...t})}):s(t)}return h(_);})();\n;return Component;"
+    "raw": "\n**[Vidim to, jako by to bylo včera](/skladby/vidim-to-jako-by-to-bylo-vcera-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) (2023).\n",
+    "code": "var Component=(()=>{var b=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var v=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),j=(a,r)=>{for(var o in r)i(a,o,{get:r[o],enumerable:!0})},d=(a,r,o,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let e of y(r))!p.call(a,e)&&e!==o&&i(a,e,{get:()=>r[e],enumerable:!(n=u(r,e))||n.enumerable});return a};var f=(a,r,o)=>(o=a!=null?b(k(a)):{},d(r||!a||!a.__esModule?i(o,\"default\",{value:a,enumerable:!0}):o,a)),x=a=>d(i({},\"__esModule\",{value:!0}),a);var m=v((_,l)=>{l.exports=_jsx_runtime});var g={};j(g,{default:()=>c,frontmatter:()=>h});var t=f(m()),h={title:\"Vidim to, jako by to bylo v\\u010Dera\",slug:\"vidim-to-jako-by-to-bylo-vcera-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"katarzia\"],featuresNames:[\"Mike Trafik\",\"Katarzia\"],album:\"Vidim to, jako by to bylo v\\u010Dera\",albumSlug:\"vidim-to-jako-by-to-bylo-vcera\",year:2023,genre:[\"\"],duration:\"4:43\",trackNumber:1,producers:[],producersNames:[],description:\"Vidim to, jako by to bylo v\\u010Dera \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function s(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/vidim-to-jako-by-to-bylo-vcera-vladimir-518\",children:\"Vidim to, jako by to bylo v\\u010Dera\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" (2023).\"]})}function c(a={}){let{wrapper:r}=a.components||{};return r?(0,t.jsx)(r,{...a,children:(0,t.jsx)(s,{...a})}):s(a)}return x(g);})();\n;return Component;"
   },
   "_id": "skladby/vidim-to-jako-by-to-bylo-vcera-vladimir-518.mdx",
   "_raw": {

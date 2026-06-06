@@ -1,13 +1,15 @@
 {
   "title": "Sxmpra",
   "slug": "sxmpra",
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "description": "Sxmpra — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of u(n))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(c=d(n,o))||c.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(h(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var a=f((v,m)=>{m.exports=_jsx_runtime});var b={};j(b,{default:()=>x,frontmatter:()=>S});var t=g(a()),S={title:\"Sxmpra\",slug:\"sxmpra\",genre:[],description:\"Sxmpra \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function x(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return M(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Sxmpra](/raperi/sxmpra)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(n,r)=>()=>(r||n((r={exports:{}}).exports,r),r.exports),f=(n,r)=>{for(var t in r)o(n,t,{get:r[t],enumerable:!0})},p=(n,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of d(r))!g.call(n,s)&&s!==t&&o(n,s,{get:()=>r[s],enumerable:!(a=l(r,s))||a.enumerable});return n};var j=(n,r,t)=>(t=n!=null?h(u(n)):{},p(r||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),v=n=>p(o({},\"__esModule\",{value:!0}),n);var i=_((b,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>x,frontmatter:()=>k});var e=j(i()),k={title:\"Sxmpra\",slug:\"sxmpra\",genre:[\"\"],description:\"Sxmpra \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(n){let r={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(r.h2,{children:\"O rapperovi\"}),`\n`,(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/raperi/sxmpra\",children:\"Sxmpra\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function x(n={}){let{wrapper:r}=n.components||{};return r?(0,e.jsx)(r,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return v(M);})();\n;return Component;"
   },
   "_id": "raperi/sxmpra.mdx",
   "_raw": {

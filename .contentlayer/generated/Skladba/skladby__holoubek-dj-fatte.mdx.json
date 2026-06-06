@@ -12,16 +12,19 @@
   "album": "Koupili jsme Boha, aby za nás makal",
   "albumSlug": "koupili-jsme-boha-aby-za-nas-makal",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:15",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Holoubek — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)r(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!k.call(e,o)&&o!==n&&r(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?c(h(e)):{},u(t||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(r({},\"__esModule\",{value:!0}),e);var m=x((F,l)=>{l.exports=_jsx_runtime});var y={};f(y,{default:()=>p,frontmatter:()=>_});var a=j(m()),_={title:\"Holoubek\",slug:\"holoubek-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[],duration:\"3:15\",trackNumber:3,producers:[],producersNames:[],description:\"Holoubek \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Holoubek](/skladby/holoubek-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Koupili jsme Boha, aby za nás makal](/alba/koupili-jsme-boha-aby-za-nas-makal) (2026).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var c=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),j=(e,a)=>{for(var o in a)n(e,o,{get:a[o],enumerable:!0})},l=(e,a,o,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of c(a))!k.call(e,r)&&r!==o&&n(e,r,{get:()=>a[r],enumerable:!(s=b(a,r))||s.enumerable});return e};var g=(e,a,o)=>(o=e!=null?m(h(e)):{},l(a||!e||!e.__esModule?n(o,\"default\",{value:e,enumerable:!0}):o,e)),x=e=>l(n({},\"__esModule\",{value:!0}),e);var i=f((D,u)=>{u.exports=_jsx_runtime});var _={};j(_,{default:()=>p,frontmatter:()=>y});var t=g(i()),y={title:\"Holoubek\",slug:\"holoubek-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[\"\"],duration:\"3:15\",trackNumber:3,producers:[],producersNames:[],description:\"Holoubek \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/holoubek-dj-fatte\",children:\"Holoubek\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,t.jsx)(a.a,{href:\"/alba/koupili-jsme-boha-aby-za-nas-makal\",children:\"Koupili jsme Boha, aby za n\\xE1s makal\"}),\" (2026).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/holoubek-dj-fatte.mdx",
   "_raw": {

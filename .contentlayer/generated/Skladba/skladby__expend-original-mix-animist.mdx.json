@@ -8,16 +8,19 @@
   "album": "Alliwant Wax digital 001 VA",
   "albumSlug": "alliwant-wax-digital-001-va",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:03",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Expend (Original Mix) — skladba od Daniel Meister.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?c(g(e)):{},l(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>l(i({},\"__esModule\",{value:!0}),e);var d=f((A,o)=>{o.exports=_jsx_runtime});var w={};M(w,{default:()=>u,frontmatter:()=>j});var n=_(d()),j={title:\"Expend (Original Mix)\",slug:\"expend-original-mix-animist\",rapper:\"Daniel Meister\",rapperSlug:\"animist\",features:[],featuresNames:[],album:\"Alliwant Wax digital 001 VA\",albumSlug:\"alliwant-wax-digital-001-va\",year:2020,genre:[],duration:\"7:03\",trackNumber:3,producers:[],producersNames:[],description:\"Expend (Original Mix) \\u2014 skladba od Daniel Meister.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return b(w);})();\n;return Component;"
+    "raw": "\n**[Expend (Original Mix)](/skladby/expend-original-mix-animist)** z alba [Alliwant Wax digital 001 VA](/alba/alliwant-wax-digital-001-va) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var i in a)r(e,i,{get:a[i],enumerable:!0})},s=(e,a,i,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!f.call(e,t)&&t!==i&&r(e,t,{get:()=>a[t],enumerable:!(l=c(a,t))||l.enumerable});return e};var M=(e,a,i)=>(i=e!=null?u(g(e)):{},s(a||!e||!e.__esModule?r(i,\"default\",{value:e,enumerable:!0}):i,e)),w=e=>s(r({},\"__esModule\",{value:!0}),e);var d=b((D,o)=>{o.exports=_jsx_runtime});var j={};h(j,{default:()=>p,frontmatter:()=>_});var n=M(d()),_={title:\"Expend (Original Mix)\",slug:\"expend-original-mix-animist\",rapper:\"Daniel Meister\",rapperSlug:\"animist\",features:[],featuresNames:[],album:\"Alliwant Wax digital 001 VA\",albumSlug:\"alliwant-wax-digital-001-va\",year:2020,genre:[\"\"],duration:\"7:03\",trackNumber:3,producers:[],producersNames:[],description:\"Expend (Original Mix) \\u2014 skladba od Daniel Meister.\",publishedAt:\"2026-06-04\"};function x(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/expend-original-mix-animist\",children:\"Expend (Original Mix)\"})}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/alliwant-wax-digital-001-va\",children:\"Alliwant Wax digital 001 VA\"}),\" (2020).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(x,{...e})}):x(e)}return w(j);})();\n;return Component;"
   },
   "_id": "skladby/expend-original-mix-animist.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "ALIEN",
   "albumSlug": "alien",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:01",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "NG+ — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var l=g((S,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>i,frontmatter:()=>N});var n=_(l()),N={title:\"NG+\",slug:\"ng-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[],duration:\"3:01\",trackNumber:11,producers:[],producersNames:[],description:\"NG+ \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return b(C);})();\n;return Component;"
+    "raw": "\n**[NG+](/skladby/ng-james-cole)** od [James Cole](/raperi/james-cole) z alba [ALIEN](/alba/alien) (2022).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},l=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!g.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(o=p(e,t))||o.enumerable});return r};var b=(r,e,n)=>(n=r!=null?d(h(r)):{},l(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),N=r=>l(s({},\"__esModule\",{value:!0}),r);var m=j((y,c)=>{c.exports=_jsx_runtime});var C={};x(C,{default:()=>i,frontmatter:()=>_});var a=b(m()),_={title:\"NG+\",slug:\"ng-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[\"\"],duration:\"3:01\",trackNumber:11,producers:[],producersNames:[],description:\"NG+ \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/ng-james-cole\",children:\"NG+\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/alien\",children:\"ALIEN\"}),\" (2022).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return N(C);})();\n;return Component;"
   },
   "_id": "skladby/ng-james-cole.mdx",
   "_raw": {

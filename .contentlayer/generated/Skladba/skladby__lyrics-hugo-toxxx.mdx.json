@@ -8,16 +8,19 @@
   "album": "Bauch Money II",
   "albumSlug": "bauch-money-ii",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:05",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Lyrics — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(u=d(t,o))||u.enumerable});return e};var y=(e,t,n)=>(n=e!=null?l(h(e)):{},a(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>a(s({},\"__esModule\",{value:!0}),e);var x=b((N,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>j});var r=y(x()),j={title:\"Lyrics\",slug:\"lyrics-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"3:05\",trackNumber:2,producers:[],producersNames:[],description:\"Lyrics \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Lyrics](/skladby/lyrics-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [Bauch Money II](/alba/bauch-money-ii) (2020).\n",
+    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},u=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!m.call(r,n)&&n!==t&&a(r,n,{get:()=>e[n],enumerable:!(s=d(e,n))||s.enumerable});return r};var f=(r,e,t)=>(t=r!=null?h(g(r)):{},u(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>u(a({},\"__esModule\",{value:!0}),r);var c=y((L,x)=>{x.exports=_jsx_runtime});var M={};b(M,{default:()=>l,frontmatter:()=>j});var o=f(c()),j={title:\"Lyrics\",slug:\"lyrics-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[\"\"],duration:\"3:05\",trackNumber:2,producers:[],producersNames:[],description:\"Lyrics \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/lyrics-hugo-toxxx\",children:\"Lyrics\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/bauch-money-ii\",children:\"Bauch Money II\"}),\" (2020).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(i,{...r})}):i(r)}return _(M);})();\n;return Component;"
   },
   "_id": "skladby/lyrics-hugo-toxxx.mdx",
   "_raw": {

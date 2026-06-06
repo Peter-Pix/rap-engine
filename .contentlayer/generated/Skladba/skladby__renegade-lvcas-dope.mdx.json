@@ -14,16 +14,19 @@
   "album": "JUSTiCE44 (Mixtape1)",
   "albumSlug": "justice44-mixtape1",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:18",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Renegade — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},c=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!g.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(s=l(t,r))||s.enumerable});return e};var _=(e,t,o)=>(o=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var i=b((y,d)=>{d.exports=_jsx_runtime});var D={};f(D,{default:()=>u,frontmatter:()=>k});var n=_(i()),k={title:\"Renegade\",slug:\"renegade-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"robis-hood\",\"dokkeytino\"],featuresNames:[\"Robis Hood\",\"Dokkeytino\"],album:\"JUSTiCE44 (Mixtape1)\",albumSlug:\"justice44-mixtape1\",year:2017,genre:[],duration:\"4:18\",trackNumber:5,producers:[],producersNames:[],description:\"Renegade \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Renegade](/skladby/renegade-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [JUSTiCE44 (Mixtape1)](/alba/justice44-mixtape1) (2017).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},d=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!h.call(a,o)&&o!==t&&n(a,o,{get:()=>e[o],enumerable:!(s=m(e,o))||s.enumerable});return a};var j=(a,e,t)=>(t=a!=null?u(g(a)):{},d(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),k=a=>d(n({},\"__esModule\",{value:!0}),a);var i=b((y,c)=>{c.exports=_jsx_runtime});var D={};f(D,{default:()=>l,frontmatter:()=>v});var r=j(i()),v={title:\"Renegade\",slug:\"renegade-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"robis-hood\",\"dokkeytino\"],featuresNames:[\"Robis Hood\",\"Dokkeytino\"],album:\"JUSTiCE44 (Mixtape1)\",albumSlug:\"justice44-mixtape1\",year:2017,genre:[\"\"],duration:\"4:18\",trackNumber:5,producers:[],producersNames:[],description:\"Renegade \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/renegade-lvcas-dope\",children:\"Renegade\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/justice44-mixtape1\",children:\"JUSTiCE44 (Mixtape1)\"}),\" (2017).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(p,{...a})}):p(a)}return k(D);})();\n;return Component;"
   },
   "_id": "skladby/renegade-lvcas-dope.mdx",
   "_raw": {

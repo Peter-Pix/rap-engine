@@ -12,16 +12,19 @@
   "album": "Opičí král vrací úder",
   "albumSlug": "opici-kral-vraci-uder",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:00",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Nebojsa — skladba od MC Gey.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(b(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var i=j((k,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>y});var r=g(i()),y={title:\"Nebojsa\",slug:\"nebojsa-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\",albumSlug:\"opici-kral-vraci-uder\",year:2014,genre:[],duration:\"3:00\",trackNumber:15,producers:[],producersNames:[],description:\"Nebojsa \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Nebojsa](/skladby/nebojsa-mc-gey)** od [MC Gey](/raperi/mc-gey) z alba [Opičí král vrací úder](/alba/opici-kral-vraci-uder) (2014).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!g.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return r};var y=(r,e,t)=>(t=r!=null?p(f(r)):{},c(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),x=r=>c(o({},\"__esModule\",{value:!0}),r);var d=j((_,i)=>{i.exports=_jsx_runtime});var M={};h(M,{default:()=>u,frontmatter:()=>k});var a=y(d()),k={title:\"Nebojsa\",slug:\"nebojsa-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\",albumSlug:\"opici-kral-vraci-uder\",year:2014,genre:[\"\"],duration:\"3:00\",trackNumber:15,producers:[],producersNames:[],description:\"Nebojsa \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/nebojsa-mc-gey\",children:\"Nebojsa\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/mc-gey\",children:\"MC Gey\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/opici-kral-vraci-uder\",children:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\"}),\" (2014).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return x(M);})();\n;return Component;"
   },
   "_id": "skladby/nebojsa-mc-gey.mdx",
   "_raw": {

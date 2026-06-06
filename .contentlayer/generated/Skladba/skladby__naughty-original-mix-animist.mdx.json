@@ -8,16 +8,19 @@
   "album": "Alliwant Wax digital 001 VA",
   "albumSlug": "alliwant-wax-digital-001-va",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:48",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Naughty (Original Mix) — skladba od Animist.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var a in e)r(t,a,{get:e[a],enumerable:!0})},o=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of x(e))!h.call(t,i)&&i!==a&&r(t,i,{get:()=>e[i],enumerable:!(s=p(e,i))||s.enumerable});return t};var b=(t,e,a)=>(a=t!=null?d(g(t)):{},o(e||!t||!t.__esModule?r(a,\"default\",{value:t,enumerable:!0}):a,t)),j=t=>o(r({},\"__esModule\",{value:!0}),t);var u=f((N,l)=>{l.exports=_jsx_runtime});var A={};_(A,{default:()=>c,frontmatter:()=>y});var n=b(u()),y={title:\"Naughty (Original Mix)\",slug:\"naughty-original-mix-animist\",rapper:\"Animist\",rapperSlug:\"animist\",features:[],featuresNames:[],album:\"Alliwant Wax digital 001 VA\",albumSlug:\"alliwant-wax-digital-001-va\",year:2020,genre:[],duration:\"6:48\",trackNumber:1,producers:[],producersNames:[],description:\"Naughty (Original Mix) \\u2014 skladba od Animist.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return j(A);})();\n;return Component;"
+    "raw": "\n**[Naughty (Original Mix)](/skladby/naughty-original-mix-animist)** z alba [Alliwant Wax digital 001 VA](/alba/alliwant-wax-digital-001-va) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var e=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),b=(t,a)=>{for(var i in a)e(t,i,{get:a[i],enumerable:!0})},s=(t,a,i,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!h.call(t,r)&&r!==i&&e(t,r,{get:()=>a[r],enumerable:!(l=c(a,r))||l.enumerable});return t};var y=(t,a,i)=>(i=t!=null?m(p(t)):{},s(a||!t||!t.__esModule?e(i,\"default\",{value:t,enumerable:!0}):i,t)),w=t=>s(e({},\"__esModule\",{value:!0}),t);var u=f((_,o)=>{o.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>A});var n=y(u()),A={title:\"Naughty (Original Mix)\",slug:\"naughty-original-mix-animist\",rapper:\"Animist\",rapperSlug:\"animist\",features:[],featuresNames:[],album:\"Alliwant Wax digital 001 VA\",albumSlug:\"alliwant-wax-digital-001-va\",year:2020,genre:[\"\"],duration:\"6:48\",trackNumber:1,producers:[],producersNames:[],description:\"Naughty (Original Mix) \\u2014 skladba od Animist.\",publishedAt:\"2026-06-04\"};function g(t){let a={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/naughty-original-mix-animist\",children:\"Naughty (Original Mix)\"})}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/alliwant-wax-digital-001-va\",children:\"Alliwant Wax digital 001 VA\"}),\" (2020).\"]})}function d(t={}){let{wrapper:a}=t.components||{};return a?(0,n.jsx)(a,{...t,children:(0,n.jsx)(g,{...t})}):g(t)}return w(M);})();\n;return Component;"
   },
   "_id": "skladby/naughty-original-mix-animist.mdx",
   "_raw": {

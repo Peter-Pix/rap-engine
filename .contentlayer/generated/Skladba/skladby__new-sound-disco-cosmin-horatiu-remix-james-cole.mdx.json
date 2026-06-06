@@ -12,16 +12,19 @@
   "album": "Feel The Groove EP",
   "albumSlug": "feel-the-groove-ep",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:55",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "New Sound Disco (Cosmin Horatiu remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),j=(e,o)=>{for(var t in o)s(e,t,{get:o[t],enumerable:!0})},i=(e,o,t,a)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of h(o))!f.call(e,n)&&n!==t&&s(e,n,{get:()=>o[n],enumerable:!(a=p(o,n))||a.enumerable});return e};var C=(e,o,t)=>(t=e!=null?d(x(e)):{},i(o||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var u=g((w,m)=>{m.exports=_jsx_runtime});var N={};j(N,{default:()=>l,frontmatter:()=>b});var r=C(u()),b={title:\"New Sound Disco (Cosmin Horatiu remix)\",slug:\"new-sound-disco-cosmin-horatiu-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"cosmin-horatiu\"],featuresNames:[\"Cosmin Horatiu\"],album:\"Feel The Groove EP\",albumSlug:\"feel-the-groove-ep\",year:2019,genre:[],duration:\"6:55\",trackNumber:3,producers:[],producersNames:[],description:\"New Sound Disco (Cosmin Horatiu remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let o={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(o.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(o.p,{children:(0,r.jsx)(o.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:o}=e.components||{};return o?(0,r.jsx)(o,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(N);})();\n;return Component;"
+    "raw": "\n**[New Sound Disco (Cosmin Horatiu remix)](/skladby/new-sound-disco-cosmin-horatiu-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Feel The Groove EP](/alba/feel-the-groove-ep) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),j=(o,e)=>{for(var s in e)a(o,s,{get:e[s],enumerable:!0})},i=(o,e,s,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!f.call(o,n)&&n!==s&&a(o,n,{get:()=>e[n],enumerable:!(t=h(e,n))||t.enumerable});return o};var C=(o,e,s)=>(s=o!=null?d(x(o)):{},i(e||!o||!o.__esModule?a(s,\"default\",{value:o,enumerable:!0}):s,o)),b=o=>i(a({},\"__esModule\",{value:!0}),o);var m=g((D,c)=>{c.exports=_jsx_runtime});var N={};j(N,{default:()=>l,frontmatter:()=>w});var r=C(m()),w={title:\"New Sound Disco (Cosmin Horatiu remix)\",slug:\"new-sound-disco-cosmin-horatiu-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"cosmin-horatiu\"],featuresNames:[\"Cosmin Horatiu\"],album:\"Feel The Groove EP\",albumSlug:\"feel-the-groove-ep\",year:2019,genre:[\"\"],duration:\"6:55\",trackNumber:3,producers:[],producersNames:[],description:\"New Sound Disco (Cosmin Horatiu remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/new-sound-disco-cosmin-horatiu-remix-james-cole\",children:\"New Sound Disco (Cosmin Horatiu remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/feel-the-groove-ep\",children:\"Feel The Groove EP\"}),\" (2019).\"]})}function l(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(u,{...o})}):u(o)}return b(N);})();\n;return Component;"
   },
   "_id": "skladby/new-sound-disco-cosmin-horatiu-remix-james-cole.mdx",
   "_raw": {

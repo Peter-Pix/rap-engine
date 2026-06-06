@@ -12,16 +12,19 @@
   "album": "You Don't Know",
   "albumSlug": "you-don-t-know",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:26",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "You Don't Know — skladba od Koukr.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var o in e)u(n,o,{get:e[o],enumerable:!0})},s=(n,e,o,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of k(e))!h.call(n,r)&&r!==o&&u(n,r,{get:()=>e[r],enumerable:!(a=p(e,r))||a.enumerable});return n};var b=(n,e,o)=>(o=n!=null?l(x(n)):{},s(e||!n||!n.__esModule?u(o,\"default\",{value:n,enumerable:!0}):o,n)),g=n=>s(u({},\"__esModule\",{value:!0}),n);var m=f((D,c)=>{c.exports=_jsx_runtime});var K={};_(K,{default:()=>i,frontmatter:()=>w});var t=b(m()),w={title:\"You Don't Know\",slug:\"you-don-t-know-koukr\",rapper:\"Koukr\",rapperSlug:\"koukr\",features:[\"maniak\"],featuresNames:[\"Maniak\"],album:\"You Don't Know\",albumSlug:\"you-don-t-know\",year:2022,genre:[],duration:\"3:26\",trackNumber:1,producers:[],producersNames:[],description:\"You Don't Know \\u2014 skladba od Koukr.\",publishedAt:\"2026-06-04\"};function d(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(d,{...n})}):d(n)}return g(K);})();\n;return Component;"
+    "raw": "\n**[You Don't Know](/skladby/you-don-t-know-koukr)** od [Koukr](/raperi/koukr) (2022).\n",
+    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(n,o)=>()=>(o||n((o={exports:{}}).exports,o),o.exports),w=(n,o)=>{for(var r in o)u(n,r,{get:o[r],enumerable:!0})},s=(n,o,r,a)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let e of m(o))!x.call(n,e)&&e!==r&&u(n,e,{get:()=>o[e],enumerable:!(a=p(o,e))||a.enumerable});return n};var g=(n,o,r)=>(r=n!=null?l(f(n)):{},s(o||!n||!n.__esModule?u(r,\"default\",{value:n,enumerable:!0}):r,n)),K=n=>s(u({},\"__esModule\",{value:!0}),n);var k=h((_,d)=>{d.exports=_jsx_runtime});var y={};w(y,{default:()=>i,frontmatter:()=>b});var t=g(k()),b={title:\"You Don't Know\",slug:\"you-don-t-know-koukr\",rapper:\"Koukr\",rapperSlug:\"koukr\",features:[\"maniak\"],featuresNames:[\"Maniak\"],album:\"You Don't Know\",albumSlug:\"you-don-t-know\",year:2022,genre:[\"\"],duration:\"3:26\",trackNumber:1,producers:[],producersNames:[],description:\"You Don't Know \\u2014 skladba od Koukr.\",publishedAt:\"2026-06-04\"};function c(n){let o={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(o.p,{children:[(0,t.jsx)(o.strong,{children:(0,t.jsx)(o.a,{href:\"/skladby/you-don-t-know-koukr\",children:\"You Don't Know\"})}),\" od \",(0,t.jsx)(o.a,{href:\"/raperi/koukr\",children:\"Koukr\"}),\" (2022).\"]})}function i(n={}){let{wrapper:o}=n.components||{};return o?(0,t.jsx)(o,{...n,children:(0,t.jsx)(c,{...n})}):c(n)}return K(y);})();\n;return Component;"
   },
   "_id": "skladby/you-don-t-know-koukr.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Finesa",
   "albumSlug": "finesa",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:40",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Svatební materiál — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},o=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!g.call(e,n)&&n!==t&&s(e,n,{get:()=>r[n],enumerable:!(i=p(r,n))||i.enumerable});return e};var S=(e,r,t)=>(t=e!=null?d(b(e)):{},o(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>o(s({},\"__esModule\",{value:!0}),e);var c=x((F,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>j});var a=S(c()),j={title:\"Svatebn\\xED materi\\xE1l\",slug:\"svatebni-material-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"mishala-orth\"],featuresNames:[\"Mishala ORTH\"],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[],duration:\"3:40\",trackNumber:8,producers:[],producersNames:[],description:\"Svatebn\\xED materi\\xE1l \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Svatební materiál](/skladby/svatebni-material-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Finesa](/alba/finesa) (2024).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var t in a)s(e,t,{get:a[t],enumerable:!0})},o=(e,a,t,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of p(a))!h.call(e,n)&&n!==t&&s(e,n,{get:()=>a[n],enumerable:!(i=b(a,n))||i.enumerable});return e};var S=(e,a,t)=>(t=e!=null?m(g(e)):{},o(a||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>o(s({},\"__esModule\",{value:!0}),e);var u=f((k,c)=>{c.exports=_jsx_runtime});var v={};x(v,{default:()=>d,frontmatter:()=>j});var r=S(u()),j={title:\"Svatebn\\xED materi\\xE1l\",slug:\"svatebni-material-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"mishala-orth\"],featuresNames:[\"Mishala ORTH\"],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[\"\"],duration:\"3:40\",trackNumber:8,producers:[],producersNames:[],description:\"Svatebn\\xED materi\\xE1l \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/svatebni-material-sergei-barracuda\",children:\"Svatebn\\xED materi\\xE1l\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/finesa\",children:\"Finesa\"}),\" (2024).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(v);})();\n;return Component;"
   },
   "_id": "skladby/svatebni-material-sergei-barracuda.mdx",
   "_raw": {

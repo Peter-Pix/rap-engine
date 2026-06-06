@@ -8,16 +8,19 @@
   "album": "F4R4on",
   "albumSlug": "f4r4on",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:15",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "RA — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var p=_((F,u)=>{u.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>v});var r=g(p()),v={title:\"RA\",slug:\"ra-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"F4R4on\",albumSlug:\"f4r4on\",year:2019,genre:[],duration:\"4:15\",trackNumber:2,producers:[],producersNames:[],description:\"RA \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[RA](/skladby/ra-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [F4R4on](/alba/f4r4on) (2019).\n",
+    "code": "var Component=(()=>{var i=Object.create;var t=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!x.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(s=f(e,o))||s.enumerable});return r};var v=(r,e,n)=>(n=r!=null?i(h(r)):{},c(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),_=r=>c(t({},\"__esModule\",{value:!0}),r);var p=b((A,l)=>{l.exports=_jsx_runtime});var D={};g(D,{default:()=>u,frontmatter:()=>j});var a=v(p()),j={title:\"RA\",slug:\"ra-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"F4R4on\",albumSlug:\"f4r4on\",year:2019,genre:[\"\"],duration:\"4:15\",trackNumber:2,producers:[],producersNames:[],description:\"RA \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/ra-lvcas-dope\",children:\"RA\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/f4r4on\",children:\"F4R4on\"}),\" (2019).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return _(D);})();\n;return Component;"
   },
   "_id": "skladby/ra-lvcas-dope.mdx",
   "_raw": {

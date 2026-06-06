@@ -8,16 +8,19 @@
   "album": "SUBUTEX",
   "albumSlug": "subutex",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:35",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "SUBUTEX — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var u=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)u(e,n,{get:t[n],enumerable:!0})},x=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&u(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(h(e)):{},x(t||!e||!e.__esModule?u(n,\"default\",{value:e,enumerable:!0}):n,e)),S=e=>x(u({},\"__esModule\",{value:!0}),e);var c=b((X,a)=>{a.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>U});var r=_(c()),U={title:\"SUBUTEX\",slug:\"subutex-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"SUBUTEX\",albumSlug:\"subutex\",year:2026,genre:[],duration:\"1:35\",trackNumber:1,producers:[],producersNames:[],description:\"SUBUTEX \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return S(j);})();\n;return Component;"
+    "raw": "\n**[SUBUTEX](/skladby/subutex-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2026).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var o in e)n(t,o,{get:e[o],enumerable:!0})},s=(t,e,o,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let x of g(e))!m.call(t,x)&&x!==o&&n(t,x,{get:()=>e[x],enumerable:!(u=p(e,x))||u.enumerable});return t};var U=(t,e,o)=>(o=t!=null?l(h(t)):{},s(e||!t||!t.__esModule?n(o,\"default\",{value:t,enumerable:!0}):o,t)),T=t=>s(n({},\"__esModule\",{value:!0}),t);var c=b((j,a)=>{a.exports=_jsx_runtime});var X={};f(X,{default:()=>i,frontmatter:()=>S});var r=U(c()),S={title:\"SUBUTEX\",slug:\"subutex-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"SUBUTEX\",albumSlug:\"subutex\",year:2026,genre:[\"\"],duration:\"1:35\",trackNumber:1,producers:[],producersNames:[],description:\"SUBUTEX \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/subutex-hugo-toxxx\",children:\"SUBUTEX\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2026).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return T(X);})();\n;return Component;"
   },
   "_id": "skladby/subutex-hugo-toxxx.mdx",
   "_raw": {

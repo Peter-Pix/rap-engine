@@ -8,16 +8,19 @@
   "album": "Soundtrack (Instrumentals)",
   "albumSlug": "soundtrack-instrumentals",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:41",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Důležitá informace (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},u=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!h.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return t};var b=(t,e,r)=>(r=t!=null?d(x(t)):{},u(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>u(s({},\"__esModule\",{value:!0}),t);var c=j((S,m)=>{m.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>D});var n=b(c()),D={title:\"D\\u016Fle\\u017Eit\\xE1 informace (Instrumental)\",slug:\"dulezita-informace-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[],duration:\"1:41\",trackNumber:2,producers:[],producersNames:[],description:\"D\\u016Fle\\u017Eit\\xE1 informace (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(i,{...t})}):i(t)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Důležitá informace (Instrumental)](/skladby/dulezita-informace-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack (Instrumentals)](/alba/soundtrack-instrumentals) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!j.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=f(t,a))||o.enumerable});return e};var D=(e,t,r)=>(r=e!=null?m(h(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var i=x((S,l)=>{l.exports=_jsx_runtime});var _={};b(_,{default:()=>d,frontmatter:()=>k});var n=D(i()),k={title:\"D\\u016Fle\\u017Eit\\xE1 informace (Instrumental)\",slug:\"dulezita-informace-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[\"\"],duration:\"1:41\",trackNumber:2,producers:[],producersNames:[],description:\"D\\u016Fle\\u017Eit\\xE1 informace (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(t.p,{children:[(0,n.jsx)(t.strong,{children:(0,n.jsx)(t.a,{href:\"/skladby/dulezita-informace-instrumental-dj-fatte\",children:\"D\\u016Fle\\u017Eit\\xE1 informace (Instrumental)\"})}),\" od \",(0,n.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,n.jsx)(t.a,{href:\"/alba/soundtrack-instrumentals\",children:\"Soundtrack (Instrumentals)\"}),\" (2021).\"]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/dulezita-informace-instrumental-dj-fatte.mdx",
   "_raw": {

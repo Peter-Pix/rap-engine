@@ -8,16 +8,19 @@
   "album": "No Title",
   "albumSlug": "no-title",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:51",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Rebel (Short Edit) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(x(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),N=e=>i(a({},\"__esModule\",{value:!0}),e);var c=f((L,l)=>{l.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>j});var r=g(c()),j={title:\"Rebel (Short Edit)\",slug:\"rebel-short-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[],duration:\"4:51\",trackNumber:6,producers:[],producersNames:[],description:\"Rebel (Short Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return N(S);})();\n;return Component;"
+    "raw": "\n**[Rebel (Short Edit)](/skladby/rebel-short-edit-calin)** od [Calin](/raperi/calin) z alba [No Title](/alba/no-title) (2014).\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of b(e))!f.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(l=p(e,a))||l.enumerable});return t};var N=(t,e,n)=>(n=t!=null?h(m(t)):{},i(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>i(o({},\"__esModule\",{value:!0}),t);var c=x((k,s)=>{s.exports=_jsx_runtime});var C={};g(C,{default:()=>u,frontmatter:()=>j});var r=N(c()),j={title:\"Rebel (Short Edit)\",slug:\"rebel-short-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[\"\"],duration:\"4:51\",trackNumber:6,producers:[],producersNames:[],description:\"Rebel (Short Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/rebel-short-edit-calin\",children:\"Rebel (Short Edit)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/no-title\",children:\"No Title\"}),\" (2014).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/rebel-short-edit-calin.mdx",
   "_raw": {

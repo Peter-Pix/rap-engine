@@ -1,0 +1,28 @@
+{
+  "title": "UZI",
+  "slug": "uzi",
+  "rapper": "Jerry Lee",
+  "rapperSlug": "jerry-lee",
+  "year": 2021,
+  "description": "UZI — singl od Jerry Lee (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/47675d3685523f392293b9134965757c/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[UZI](/skladby/uzi)** (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==r&&o(e,s,{get:()=>t[s],enumerable:!(a=g(t,s))||a.enumerable});return e};var y=(e,t,r)=>(r=e!=null?u(m(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var l=h((I,c)=>{c.exports=_jsx_runtime});var z={};j(z,{default:()=>d,frontmatter:()=>b});var n=y(l()),b={title:\"UZI\",slug:\"uzi\",rapper:\"Jerry Lee\",rapperSlug:\"jerry-lee\",year:2021,description:\"UZI \\u2014 singl od Jerry Lee (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/47675d3685523f392293b9134965757c/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(t.p,{children:[(0,n.jsx)(t.strong,{children:(0,n.jsx)(t.a,{href:\"/skladby/uzi\",children:\"UZI\"})}),\" (2021).\"]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return _(z);})();\n;return Component;"
+  },
+  "_id": "skladby/uzi.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/uzi.mdx",
+    "sourceFileName": "uzi.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/uzi"
+  },
+  "type": "Skladba",
+  "url": "/skladby/uzi",
+  "canonicalUrl": "https://4rap.cz/skladby/uzi"
+}

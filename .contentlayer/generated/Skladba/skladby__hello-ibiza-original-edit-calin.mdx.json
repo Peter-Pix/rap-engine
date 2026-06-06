@@ -8,16 +8,19 @@
   "album": "Hello Ibiza",
   "albumSlug": "hello-ibiza",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:11",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Hello Ibiza (Original Edit) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of b(t))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(l=p(t,a))||l.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},o(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(i({},\"__esModule\",{value:!0}),e);var c=g((C,s)=>{s.exports=_jsx_runtime});var I={};f(I,{default:()=>d,frontmatter:()=>z});var n=_(c()),z={title:\"Hello Ibiza (Original Edit)\",slug:\"hello-ibiza-original-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Hello Ibiza\",albumSlug:\"hello-ibiza\",year:2012,genre:[],duration:\"3:11\",trackNumber:1,producers:[],producersNames:[],description:\"Hello Ibiza (Original Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(I);})();\n;return Component;"
+    "raw": "\n**[Hello Ibiza (Original Edit)](/skladby/hello-ibiza-original-edit-calin)** od [Calin](/raperi/calin) z alba [Hello Ibiza](/alba/hello-ibiza) (2012).\n",
+    "code": "var Component=(()=>{var b=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),z=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},o=(a,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of h(e))!m.call(a,l)&&l!==r&&n(a,l,{get:()=>e[l],enumerable:!(t=p(e,l))||t.enumerable});return a};var x=(a,e,r)=>(r=a!=null?b(g(a)):{},o(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),I=a=>o(n({},\"__esModule\",{value:!0}),a);var c=f((H,s)=>{s.exports=_jsx_runtime});var j={};z(j,{default:()=>u,frontmatter:()=>_});var i=x(c()),_={title:\"Hello Ibiza (Original Edit)\",slug:\"hello-ibiza-original-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Hello Ibiza\",albumSlug:\"hello-ibiza\",year:2012,genre:[\"\"],duration:\"3:11\",trackNumber:1,producers:[],producersNames:[],description:\"Hello Ibiza (Original Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,i.jsxs)(e.p,{children:[(0,i.jsx)(e.strong,{children:(0,i.jsx)(e.a,{href:\"/skladby/hello-ibiza-original-edit-calin\",children:\"Hello Ibiza (Original Edit)\"})}),\" od \",(0,i.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,i.jsx)(e.a,{href:\"/alba/hello-ibiza\",children:\"Hello Ibiza\"}),\" (2012).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,i.jsx)(e,{...a,children:(0,i.jsx)(d,{...a})}):d(a)}return I(j);})();\n;return Component;"
   },
   "_id": "skladby/hello-ibiza-original-edit-calin.mdx",
   "_raw": {

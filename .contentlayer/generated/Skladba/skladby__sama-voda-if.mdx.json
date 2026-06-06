@@ -14,16 +14,19 @@
   "album": "Stop Play",
   "albumSlug": "stop-play",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Samá Voda — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!h.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(s=l(t,n))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(x(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var u=_((D,m)=>{m.exports=_jsx_runtime});var F={};b(F,{default:()=>i,frontmatter:()=>S});var a=g(u()),S={title:\"Sam\\xE1 Voda\",slug:\"sama-voda-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[],duration:\"3:52\",trackNumber:11,producers:[],producersNames:[],description:\"Sam\\xE1 Voda \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return j(F);})();\n;return Component;"
+    "raw": "\n**[Samá Voda](/skladby/sama-voda-if)** z alba [Stop Play](/alba/stop-play) (2016).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),g=(e,a)=>{for(var t in a)n(e,t,{get:a[t],enumerable:!0})},d=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of f(a))!b.call(e,o)&&o!==t&&n(e,o,{get:()=>a[o],enumerable:!(s=m(a,o))||s.enumerable});return e};var y=(e,a,t)=>(t=e!=null?i(x(e)):{},d(a||!e||!e.__esModule?n(t,\"default\",{value:e,enumerable:!0}):t,e)),S=e=>d(n({},\"__esModule\",{value:!0}),e);var p=h((D,l)=>{l.exports=_jsx_runtime});var _={};g(_,{default:()=>c,frontmatter:()=>j});var r=y(p()),j={title:\"Sam\\xE1 Voda\",slug:\"sama-voda-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[\"\"],duration:\"3:52\",trackNumber:11,producers:[],producersNames:[],description:\"Sam\\xE1 Voda \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/sama-voda-if\",children:\"Sam\\xE1 Voda\"})}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/stop-play\",children:\"Stop Play\"}),\" (2016).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return S(_);})();\n;return Component;"
   },
   "_id": "skladby/sama-voda-if.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "rap disco revoluce",
   "albumSlug": "rap-disco-revoluce",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:19",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Sex Disco Revoluce — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!A.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(c=p(r,o))||c.enumerable});return e};var v=(e,r,n)=>(n=e!=null?m(x(e)):{},s(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(a({},\"__esModule\",{value:!0}),e);var l=b((S,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>g});var t=v(l()),g={title:\"Sex Disco Revoluce\",slug:\"sex-disco-revoluce-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[],duration:\"3:19\",trackNumber:2,producers:[],producersNames:[],description:\"Sex Disco Revoluce \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Sex Disco Revoluce](/skladby/sex-disco-revoluce-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [rap disco revoluce](/alba/rap-disco-revoluce) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),m=(r,e)=>{for(var o in e)s(r,o,{get:e[o],enumerable:!0})},t=(r,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let c of x(e))!A.call(r,c)&&c!==o&&s(r,c,{get:()=>e[c],enumerable:!(n=h(e,c))||n.enumerable});return r};var f=(r,e,o)=>(o=r!=null?p(v(r)):{},t(e||!r||!r.__esModule?s(o,\"default\",{value:r,enumerable:!0}):o,r)),g=r=>t(s({},\"__esModule\",{value:!0}),r);var l=b((_,u)=>{u.exports=_jsx_runtime});var N={};m(N,{default:()=>d,frontmatter:()=>H});var a=f(l()),H={title:\"Sex Disco Revoluce\",slug:\"sex-disco-revoluce-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"rap disco revoluce\",albumSlug:\"rap-disco-revoluce\",year:2020,genre:[\"\"],duration:\"3:19\",trackNumber:2,producers:[],producersNames:[],description:\"Sex Disco Revoluce \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/sex-disco-revoluce-ca-hanova-bulhar\",children:\"Sex Disco Revoluce\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/rap-disco-revoluce\",children:\"rap disco revoluce\"}),\" (2020).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return g(N);})();\n;return Component;"
   },
   "_id": "skladby/sex-disco-revoluce-ca-hanova-bulhar.mdx",
   "_raw": {

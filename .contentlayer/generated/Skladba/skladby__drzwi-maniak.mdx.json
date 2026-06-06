@@ -16,16 +16,19 @@
   "album": "NIBIRU",
   "albumSlug": "nibiru",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Drzwi — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of k(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(u=p(t,a))||u.enumerable});return e};var f=(e,t,r)=>(r=e!=null?d(x(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var m=y((z,o)=>{o.exports=_jsx_runtime});var j={};b(j,{default:()=>l,frontmatter:()=>g});var n=f(m()),g={title:\"Drzwi\",slug:\"drzwi-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\",\"justyna-kusmierczyk\",\"talent-kolektyw\"],featuresNames:[\"Zeus\",\"Justyna Ku\\u015Bmierczyk\",\"Talent Kolektyw\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[],duration:\"3:52\",trackNumber:5,producers:[],producersNames:[],description:\"Drzwi \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Drzwi](/skladby/drzwi-maniak)** od [Maniak](/raperi/maniak) z alba [NIBIRU](/alba/nibiru) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(r,t)&&t!==n&&i(r,t,{get:()=>e[t],enumerable:!(s=k(e,t))||s.enumerable});return r};var y=(r,e,n)=>(n=r!=null?m(b(r)):{},o(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),z=r=>o(i({},\"__esModule\",{value:!0}),r);var l=h((M,u)=>{u.exports=_jsx_runtime});var g={};x(g,{default:()=>d,frontmatter:()=>w});var a=y(l()),w={title:\"Drzwi\",slug:\"drzwi-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\",\"justyna-kusmierczyk\",\"talent-kolektyw\"],featuresNames:[\"Zeus\",\"Justyna Ku\\u015Bmierczyk\",\"Talent Kolektyw\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[\"\"],duration:\"3:52\",trackNumber:5,producers:[],producersNames:[],description:\"Drzwi \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/drzwi-maniak\",children:\"Drzwi\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/nibiru\",children:\"NIBIRU\"}),\" (2025).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return z(g);})();\n;return Component;"
   },
   "_id": "skladby/drzwi-maniak.mdx",
   "_raw": {

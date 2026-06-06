@@ -14,16 +14,19 @@
   "album": "Yzotape",
   "albumSlug": "yzotape",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Mortar42.0 — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var i=j((M,m)=>{m.exports=_jsx_runtime});var z={};_(z,{default:()=>d,frontmatter:()=>k});var r=b(i()),k={title:\"Mortar42.0\",slug:\"mortar42-0-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\",\"jckpt\"],featuresNames:[\"Jickson\",\"Jckpt\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[],duration:\"3:31\",trackNumber:2,producers:[],producersNames:[],description:\"Mortar42.0 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Mortar42.0](/skladby/mortar42-0-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Yzotape](/alba/yzotape) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),y=(r,a)=>{for(var t in a)n(r,t,{get:a[t],enumerable:!0})},i=(r,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of z(a))!h.call(r,o)&&o!==t&&n(r,o,{get:()=>a[o],enumerable:!(s=l(a,o))||s.enumerable});return r};var b=(r,a,t)=>(t=r!=null?u(f(r)):{},i(a||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),g=r=>i(n({},\"__esModule\",{value:!0}),r);var c=x((_,d)=>{d.exports=_jsx_runtime});var k={};y(k,{default:()=>p,frontmatter:()=>j});var e=b(c()),j={title:\"Mortar42.0\",slug:\"mortar42-0-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\",\"jckpt\"],featuresNames:[\"Jickson\",\"Jckpt\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[\"\"],duration:\"3:31\",trackNumber:2,producers:[],producersNames:[],description:\"Mortar42.0 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/mortar42-0-yzomandias\",children:\"Mortar42.0\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/yzotape\",children:\"Yzotape\"}),\" (2021).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(m,{...r})}):m(r)}return g(k);})();\n;return Component;"
   },
   "_id": "skladby/mortar42-0-yzomandias.mdx",
   "_raw": {

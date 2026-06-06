@@ -14,16 +14,19 @@
   "album": "Molo II (Deluxe)",
   "albumSlug": "molo-ii",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:38",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Nehledáme nic — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(x(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var l=b((k,s)=>{s.exports=_jsx_runtime});var y={};f(y,{default:()=>d,frontmatter:()=>N});var r=_(l()),N={title:\"Nehled\\xE1me nic\",slug:\"nehledame-nic-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ben-cristovao\"],featuresNames:[\"Kenny Rough\",\"Ben Cristovao\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"2:38\",trackNumber:13,producers:[],producersNames:[],description:\"Nehled\\xE1me nic \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Nehledáme nic](/skladby/nehledame-nic-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Molo II (Deluxe)](/alba/molo-ii) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var r in e)t(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!x.call(a,o)&&o!==r&&t(a,o,{get:()=>e[o],enumerable:!(l=p(e,o))||l.enumerable});return a};var N=(a,e,r)=>(r=a!=null?m(g(a)):{},i(e||!a||!a.__esModule?t(r,\"default\",{value:a,enumerable:!0}):r,a)),_=a=>i(t({},\"__esModule\",{value:!0}),a);var d=f((k,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>j});var n=N(d()),j={title:\"Nehled\\xE1me nic\",slug:\"nehledame-nic-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ben-cristovao\"],featuresNames:[\"Kenny Rough\",\"Ben Cristovao\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[\"\"],duration:\"2:38\",trackNumber:13,producers:[],producersNames:[],description:\"Nehled\\xE1me nic \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function s(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/nehledame-nic-paulie-garand\",children:\"Nehled\\xE1me nic\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/molo-ii\",children:\"Molo II (Deluxe)\"}),\" (2025).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(s,{...a})}):s(a)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/nehledame-nic-paulie-garand.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Nadzemí",
   "albumSlug": "nadzemi",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:22",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Parazit — skladba od Mike Trafik.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!x.call(e,n)&&n!==a&&i(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var b=(e,t,a)=>(a=e!=null?d(k(e)):{},s(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var u=h((N,m)=>{m.exports=_jsx_runtime});var z={};_(z,{default:()=>l,frontmatter:()=>j});var r=b(u()),j={title:\"Parazit\",slug:\"parazit-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"james-cole\",\"la4\"],featuresNames:[\"James Cole\",\"LA4\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[],duration:\"3:22\",trackNumber:5,producers:[],producersNames:[],description:\"Parazit \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Parazit](/skladby/parazit-mike-trafik)** od [Mike Trafik](/raperi/mike-trafik) z alba [Nadzemí](/alba/nadzemi) (2012).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var z=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},o=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of k(e))!h.call(a,i)&&i!==t&&n(a,i,{get:()=>e[i],enumerable:!(s=f(e,i))||s.enumerable});return a};var b=(a,e,t)=>(t=a!=null?u(p(a)):{},o(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),g=a=>o(n({},\"__esModule\",{value:!0}),a);var d=z((N,m)=>{m.exports=_jsx_runtime});var M={};x(M,{default:()=>c,frontmatter:()=>j});var r=b(d()),j={title:\"Parazit\",slug:\"parazit-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"james-cole\",\"la4\"],featuresNames:[\"James Cole\",\"LA4\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[\"\"],duration:\"3:22\",trackNumber:5,producers:[],producersNames:[],description:\"Parazit \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/parazit-mike-trafik\",children:\"Parazit\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/mike-trafik\",children:\"Mike Trafik\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/nadzemi\",children:\"Nadzem\\xED\"}),\" (2012).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(l,{...a})}):l(a)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/parazit-mike-trafik.mdx",
   "_raw": {

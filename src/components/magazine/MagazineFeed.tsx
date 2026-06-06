@@ -1,15 +1,9 @@
 'use client'
 
-// ═══════════════════════════════════════════════════════════════
-// MagazineFeed — client wrapper pro homepage feed s filtry
-//
-// Přebírá pole článků ze serveru a zapojuje FeedFilters onChange
-// callback pro reálné filtrování na klientovi.
-// ═══════════════════════════════════════════════════════════════
-
 import { useState, useMemo } from 'react'
 import { ArticleCard } from './ArticleCard'
 import { FeedFilters, type FilterState } from './FeedFilters'
+import { useUnread } from '@/hooks/useUnread'
 import type { ArticleListItem } from '@/lib/magazine'
 
 interface MagazineFeedProps {
@@ -17,11 +11,23 @@ interface MagazineFeedProps {
 }
 
 export function MagazineFeed({ articles }: MagazineFeedProps) {
+  const { isUnread, filterUnread, markRead } = useUnread()
   const [filter, setFilter] = useState<FilterState>({
     unreadOnly: false,
-    randomOrder: false,
     category: null,
   })
+
+  // Extract existing categories from data
+  const existingCategories = useMemo(
+    () => [...new Set(articles.map((a) => a.category).filter(Boolean))] as string[],
+    [articles],
+  )
+
+  // Count of unread articles (= total - read)
+  const unreadCount = useMemo(
+    () => articles.filter((a) => isUnread(a.slug)).length,
+    [articles, isUnread],
+  )
 
   const filtered = useMemo(() => {
     let result = articles
@@ -31,25 +37,27 @@ export function MagazineFeed({ articles }: MagazineFeedProps) {
       result = result.filter((a) => a.category === filter.category)
     }
 
-    // Unread only (MVP: placeholder — reálná logika přijde s localStorage reading history)
-    // Prozatím jen předáno do onChange, bez efektu na data
-
-    // Random order
-    if (filter.randomOrder) {
-      result = [...result].sort(() => Math.random() - 0.5)
+    // Unread only — localStorage-backed
+    if (filter.unreadOnly) {
+      result = filterUnread(result)
     }
 
     return result
-  }, [articles, filter])
+  }, [articles, filter, filterUnread])
 
   return (
     <div>
-      <FeedFilters totalCount={articles.length} onChange={setFilter} />
+      <FeedFilters
+        totalCount={articles.length}
+        existingCategories={existingCategories}
+        unreadCount={unreadCount}
+        onChange={setFilter}
+      />
 
       {filtered.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {filtered.map((a) => (
-            <ArticleCard key={a.slug} article={a} />
+            <ArticleCard key={a.slug} article={a} isUnread={isUnread(a.slug)} onRead={markRead} />
           ))}
         </div>
       ) : (

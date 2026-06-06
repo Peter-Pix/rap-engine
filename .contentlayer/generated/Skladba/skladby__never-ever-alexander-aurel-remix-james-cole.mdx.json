@@ -12,16 +12,19 @@
   "album": "Never Ever Ep",
   "albumSlug": "never-ever-ep",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:12",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Never Ever (Alexander Aurel Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var l=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var t in r)l(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!h.call(e,a)&&a!==t&&l(e,a,{get:()=>r[a],enumerable:!(o=x(r,a))||o.enumerable});return e};var A=(e,r,t)=>(t=e!=null?i(v(e)):{},s(r||!e||!e.__esModule?l(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(l({},\"__esModule\",{value:!0}),e);var m=f((C,u)=>{u.exports=_jsx_runtime});var g={};j(g,{default:()=>d,frontmatter:()=>b});var n=A(m()),b={title:\"Never Ever (Alexander Aurel Remix)\",slug:\"never-ever-alexander-aurel-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"alexander-aurel\"],featuresNames:[\"Alexander Aurel\"],album:\"Never Ever Ep\",albumSlug:\"never-ever-ep\",year:2018,genre:[],duration:\"7:12\",trackNumber:2,producers:[],producersNames:[],description:\"Never Ever (Alexander Aurel Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(g);})();\n;return Component;"
+    "raw": "\n**[Never Ever (Alexander Aurel Remix)](/skladby/never-ever-alexander-aurel-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Never Ever Ep](/alba/never-ever-ep) (2018).\n",
+    "code": "var Component=(()=>{var i=Object.create;var t=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of p(e))!f.call(r,l)&&l!==n&&t(r,l,{get:()=>e[l],enumerable:!(s=x(e,l))||s.enumerable});return r};var A=(r,e,n)=>(n=r!=null?i(v(r)):{},o(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),b=r=>o(t({},\"__esModule\",{value:!0}),r);var d=h((_,u)=>{u.exports=_jsx_runtime});var g={};j(g,{default:()=>c,frontmatter:()=>N});var a=A(d()),N={title:\"Never Ever (Alexander Aurel Remix)\",slug:\"never-ever-alexander-aurel-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"alexander-aurel\"],featuresNames:[\"Alexander Aurel\"],album:\"Never Ever Ep\",albumSlug:\"never-ever-ep\",year:2018,genre:[\"\"],duration:\"7:12\",trackNumber:2,producers:[],producersNames:[],description:\"Never Ever (Alexander Aurel Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/never-ever-alexander-aurel-remix-james-cole\",children:\"Never Ever (Alexander Aurel Remix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/never-ever-ep\",children:\"Never Ever Ep\"}),\" (2018).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return b(g);})();\n;return Component;"
   },
   "_id": "skladby/never-ever-alexander-aurel-remix-james-cole.mdx",
   "_raw": {

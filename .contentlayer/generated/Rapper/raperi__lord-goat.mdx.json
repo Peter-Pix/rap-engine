@@ -1,13 +1,15 @@
 {
   "title": "Lord Goat",
   "slug": "lord-goat",
-  "genre": [],
-  "description": "Lord Goat — interpret české/slovenské rapové scény.",
+  "genre": [
+    ""
+  ],
+  "description": "Lord Goat — nezávislý interpret temného rapového undergroundu s ostrými texty a syrovým zvukem. Hraje klíčovou roli na české a slovenské scéně. Objev jeho tvorbu.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},i=(t,e,o,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!_.call(t,r)&&r!==o&&s(t,r,{get:()=>e[r],enumerable:!(c=u(e,r))||c.enumerable});return t};var j=(t,e,o)=>(o=t!=null?p(x(t)):{},i(e||!t||!t.__esModule?s(o,\"default\",{value:t,enumerable:!0}):o,t)),L=t=>i(s({},\"__esModule\",{value:!0}),t);var d=f((v,a)=>{a.exports=_jsx_runtime});var b={};g(b,{default:()=>m,frontmatter:()=>M});var n=j(d()),M={title:\"Lord Goat\",slug:\"lord-goat\",genre:[],description:\"Lord Goat \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return L(b);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Lord Goat](/raperi/lord-goat)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of m(r))!v.call(e,n)&&n!==t&&s(e,n,{get:()=>r[n],enumerable:!(a=h(r,n))||a.enumerable});return e};var _=(e,r,t)=>(t=e!=null?u(g(e)):{},i(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),f=e=>i(s({},\"__esModule\",{value:!0}),e);var d=x((y,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>l,frontmatter:()=>k});var o=_(d()),k={title:\"Lord Goat\",slug:\"lord-goat\",genre:[\"\"],description:\"Lord Goat \\u2014 nez\\xE1visl\\xFD interpret temn\\xE9ho rapov\\xE9ho undergroundu s ostr\\xFDmi texty a syrov\\xFDm zvukem. Hraje kl\\xED\\u010Dovou roli na \\u010Desk\\xE9 a slovensk\\xE9 sc\\xE9n\\u011B. Objev jeho tvorbu.\",publishedAt:\"2026-05-31\"};function p(e){let r={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(r.h2,{children:\"O rapperovi\"}),`\n`,(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/raperi/lord-goat\",children:\"Lord Goat\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(p,{...e})}):p(e)}return f(b);})();\n;return Component;"
   },
   "_id": "raperi/lord-goat.mdx",
   "_raw": {

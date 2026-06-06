@@ -8,16 +8,19 @@
   "album": "J. Eden",
   "albumSlug": "j-eden",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:29",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Práca — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?p(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var m=_((N,d)=>{d.exports=_jsx_runtime});var z={};b(z,{default:()=>i,frontmatter:()=>y});var t=g(m()),y={title:\"Pr\\xE1ca\",slug:\"praca-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden\",albumSlug:\"j-eden\",year:2020,genre:[],duration:\"1:29\",trackNumber:14,producers:[],producersNames:[],description:\"Pr\\xE1ca \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(z);})();\n;return Component;"
+    "raw": "\n**[Práca](/skladby/praca-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN](/alba/j-eden) (2020).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),z=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of f(a))!x.call(e,t)&&t!==n&&s(e,t,{get:()=>a[t],enumerable:!(o=p(a,t))||o.enumerable});return e};var g=(e,a,n)=>(n=e!=null?l(h(e)):{},d(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>d(s({},\"__esModule\",{value:!0}),e);var i=b((k,c)=>{c.exports=_jsx_runtime});var _={};z(_,{default:()=>u,frontmatter:()=>y});var r=g(i()),y={title:\"Pr\\xE1ca\",slug:\"praca-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden\",albumSlug:\"j-eden\",year:2020,genre:[\"\"],duration:\"1:29\",trackNumber:14,producers:[],producersNames:[],description:\"Pr\\xE1ca \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/praca-yzomandias\",children:\"Pr\\xE1ca\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/j-eden\",children:\"J. EDEN\"}),\" (2020).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/praca-yzomandias.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "No Title",
   "albumSlug": "no-title",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:56",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Dreamseller (Original Mix) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},o=(e,r,n,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!h.call(e,a)&&a!==n&&i(e,a,{get:()=>r[a],enumerable:!(l=p(r,a))||l.enumerable});return e};var b=(e,r,n)=>(n=e!=null?d(g(e)):{},o(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),N=e=>o(i({},\"__esModule\",{value:!0}),e);var m=f((D,s)=>{s.exports=_jsx_runtime});var M={};_(M,{default:()=>u,frontmatter:()=>j});var t=b(m()),j={title:\"Dreamseller (Original Mix)\",slug:\"dreamseller-original-mix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[],duration:\"3:56\",trackNumber:10,producers:[],producersNames:[],description:\"Dreamseller (Original Mix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return N(M);})();\n;return Component;"
+    "raw": "\n**[Dreamseller (Original Mix)](/skladby/dreamseller-original-mix-calin)** od [Calin](/raperi/calin) z alba [No Title](/alba/no-title) (2014).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of x(e))!f.call(r,l)&&l!==n&&t(r,l,{get:()=>e[l],enumerable:!(i=p(e,l))||i.enumerable});return r};var N=(r,e,n)=>(n=r!=null?u(g(r)):{},o(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),M=r=>o(t({},\"__esModule\",{value:!0}),r);var c=h((D,s)=>{s.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>_});var a=N(c()),_={title:\"Dreamseller (Original Mix)\",slug:\"dreamseller-original-mix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[\"\"],duration:\"3:56\",trackNumber:10,producers:[],producersNames:[],description:\"Dreamseller (Original Mix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/dreamseller-original-mix-calin\",children:\"Dreamseller (Original Mix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/no-title\",children:\"No Title\"}),\" (2014).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/dreamseller-original-mix-calin.mdx",
   "_raw": {

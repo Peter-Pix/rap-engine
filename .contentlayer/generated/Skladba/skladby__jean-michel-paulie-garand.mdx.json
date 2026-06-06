@@ -12,16 +12,19 @@
   "album": "Amonit (Deluxe)",
   "albumSlug": "amonit",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:38",
   "trackNumber": 18,
   "producers": [],
   "producersNames": [],
   "description": "Jean-Michel — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(l=p(n,a))||l.enumerable});return e};var b=(e,n,t)=>(t=e!=null?m(x(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var s=f((D,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>M});var r=b(s()),M={title:\"Jean-Michel\",slug:\"jean-michel-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"under-my-pillow\"],featuresNames:[\"Under My Pillow\"],album:\"Amonit (Deluxe)\",albumSlug:\"amonit\",year:2023,genre:[],duration:\"3:38\",trackNumber:18,producers:[],producersNames:[],description:\"Jean-Michel \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Jean-Michel](/skladby/jean-michel-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Amonit (Deluxe)](/alba/amonit) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var r in e)l(a,r,{get:e[r],enumerable:!0})},o=(a,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!x.call(a,t)&&t!==r&&l(a,t,{get:()=>e[t],enumerable:!(i=m(e,t))||i.enumerable});return a};var j=(a,e,r)=>(r=a!=null?p(g(a)):{},o(e||!a||!a.__esModule?l(r,\"default\",{value:a,enumerable:!0}):r,a)),M=a=>o(l({},\"__esModule\",{value:!0}),a);var s=f((P,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>_});var n=j(s()),_={title:\"Jean-Michel\",slug:\"jean-michel-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"under-my-pillow\"],featuresNames:[\"Under My Pillow\"],album:\"Amonit (Deluxe)\",albumSlug:\"amonit\",year:2023,genre:[\"\"],duration:\"3:38\",trackNumber:18,producers:[],producersNames:[],description:\"Jean-Michel \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/jean-michel-paulie-garand\",children:\"Jean-Michel\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/amonit\",children:\"Amonit (Deluxe)\"}),\" (2023).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return M(y);})();\n;return Component;"
   },
   "_id": "skladby/jean-michel-paulie-garand.mdx",
   "_raw": {

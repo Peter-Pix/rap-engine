@@ -8,16 +8,19 @@
   "album": "French Connection / Music Is the Future",
   "albumSlug": "french-connection-music-is-the-future",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:49",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Music Is the Future (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var u=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!f.call(e,s)&&s!==r&&u(e,s,{get:()=>t[s],enumerable:!(i=d(t,s))||i.enumerable});return e};var j=(e,t,r)=>(r=e!=null?h(x(e)):{},o(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(u({},\"__esModule\",{value:!0}),e);var c=g((I,a)=>{a.exports=_jsx_runtime});var F={};M(F,{default:()=>l,frontmatter:()=>b});var n=j(c()),b={title:\"Music Is the Future (Original Mix)\",slug:\"music-is-the-future-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"French Connection / Music Is the Future\",albumSlug:\"french-connection-music-is-the-future\",year:2017,genre:[],duration:\"7:49\",trackNumber:2,producers:[],producersNames:[],description:\"Music Is the Future (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(F);})();\n;return Component;"
+    "raw": "\n**[Music Is the Future (Original Mix)](/skladby/music-is-the-future-original-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [French Connection / Music Is the Future](/alba/french-connection-music-is-the-future) (2017).\n",
+    "code": "var Component=(()=>{var h=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),M=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},a=(r,e,n,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!x.call(r,s)&&s!==n&&i(r,s,{get:()=>e[s],enumerable:!(u=d(e,s))||u.enumerable});return r};var j=(r,e,n)=>(n=r!=null?h(p(r)):{},a(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),b=r=>a(i({},\"__esModule\",{value:!0}),r);var c=g((I,o)=>{o.exports=_jsx_runtime});var F={};M(F,{default:()=>m,frontmatter:()=>C});var t=j(c()),C={title:\"Music Is the Future (Original Mix)\",slug:\"music-is-the-future-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"French Connection / Music Is the Future\",albumSlug:\"french-connection-music-is-the-future\",year:2017,genre:[\"\"],duration:\"7:49\",trackNumber:2,producers:[],producersNames:[],description:\"Music Is the Future (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/music-is-the-future-original-mix-james-cole\",children:\"Music Is the Future (Original Mix)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/french-connection-music-is-the-future\",children:\"French Connection / Music Is the Future\"}),\" (2017).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return b(F);})();\n;return Component;"
   },
   "_id": "skladby/music-is-the-future-original-mix-james-cole.mdx",
   "_raw": {

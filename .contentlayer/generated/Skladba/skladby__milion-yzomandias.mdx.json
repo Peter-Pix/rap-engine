@@ -12,16 +12,19 @@
   "album": "[Gudlak]",
   "albumSlug": "gudlak",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:04",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Milion+ — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?c(h(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var m=g((z,l)=>{l.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>k});var t=b(m()),k={title:\"Milion+\",slug:\"milion-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[],duration:\"4:04\",trackNumber:4,producers:[],producersNames:[],description:\"Milion+ \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Milion+](/skladby/milion-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [[Gudlak]](/alba/gudlak) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),b=(n,a)=>{for(var e in a)t(n,e,{get:a[e],enumerable:!0})},i=(n,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of f(a))!g.call(n,o)&&o!==e&&t(n,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return n};var k=(n,a,e)=>(e=n!=null?c(h(n)):{},i(a||!n||!n.__esModule?t(e,\"default\",{value:n,enumerable:!0}):e,n)),z=n=>i(t({},\"__esModule\",{value:!0}),n);var d=x((j,l)=>{l.exports=_jsx_runtime});var M={};b(M,{default:()=>m,frontmatter:()=>y});var r=k(d()),y={title:\"Milion+\",slug:\"milion-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"karlo\"],featuresNames:[\"Karlo\"],album:\"[Gudlak]\",albumSlug:\"gudlak\",year:2020,genre:[\"\"],duration:\"4:04\",trackNumber:4,producers:[],producersNames:[],description:\"Milion+ \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/milion-yzomandias\",children:\"Milion+\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/gudlak\",children:\"[Gudlak]\"}),\" (2020).\"]})}function m(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return z(M);})();\n;return Component;"
   },
   "_id": "skladby/milion-yzomandias.mdx",
   "_raw": {

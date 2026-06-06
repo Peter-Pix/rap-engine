@@ -12,16 +12,19 @@
   "album": "Prozyum",
   "albumSlug": "prozyum",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:20",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Někdy Je Míň Víc — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},m=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of y(n))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=l(n,o))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?p(x(e)):{},m(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>m(a({},\"__esModule\",{value:!0}),e);var u=k((M,d)=>{d.exports=_jsx_runtime});var j={};f(j,{default:()=>i,frontmatter:()=>g});var t=_(u()),g={title:\"N\\u011Bkdy Je M\\xED\\u0148 V\\xEDc\",slug:\"nekdy-je-min-vic-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"koky\"],featuresNames:[\"Koky\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[],duration:\"3:20\",trackNumber:3,producers:[],producersNames:[],description:\"N\\u011Bkdy Je M\\xED\\u0148 V\\xEDc \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Někdy Je Míň Víc](/skladby/nekdy-je-min-vic-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2020).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},d=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!k.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(s=y(e,o))||s.enumerable});return r};var x=(r,e,n)=>(n=r!=null?l(z(r)):{},d(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),b=r=>d(t({},\"__esModule\",{value:!0}),r);var m=f((N,i)=>{i.exports=_jsx_runtime});var j={};h(j,{default:()=>u,frontmatter:()=>g});var a=x(m()),g={title:\"N\\u011Bkdy Je M\\xED\\u0148 V\\xEDc\",slug:\"nekdy-je-min-vic-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"koky\"],featuresNames:[\"Koky\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[\"\"],duration:\"3:20\",trackNumber:3,producers:[],producersNames:[],description:\"N\\u011Bkdy Je M\\xED\\u0148 V\\xEDc \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/nekdy-je-min-vic-yzomandias\",children:\"N\\u011Bkdy Je M\\xED\\u0148 V\\xEDc\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2020).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/nekdy-je-min-vic-yzomandias.mdx",
   "_raw": {

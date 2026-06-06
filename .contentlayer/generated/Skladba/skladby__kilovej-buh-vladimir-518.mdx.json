@@ -14,16 +14,19 @@
   "album": "Idiot",
   "albumSlug": "idiot",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:03",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Kilovej buh — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!b.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(a=p(r,o))||a.enumerable});return e};var _=(e,r,n)=>(n=e!=null?c(x(e)):{},l(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>l(i({},\"__esModule\",{value:!0}),e);var m=j((K,s)=>{s.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>v});var t=_(m()),v={title:\"Kilovej buh\",slug:\"kilovej-buh-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"jiri-korn\",\"roman-holy\"],featuresNames:[\"Jiri Korn\",\"Roman Holy\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"5:03\",trackNumber:6,producers:[],producersNames:[],description:\"Kilovej buh \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Kilovej buh](/skladby/kilovej-buh-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Idiot](/alba/idiot) (2013).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),v=(e,r)=>{for(var o in r)t(e,o,{get:r[o],enumerable:!0})},l=(e,r,o,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!j.call(e,a)&&a!==o&&t(e,a,{get:()=>r[a],enumerable:!(n=h(r,a))||n.enumerable});return e};var x=(e,r,o)=>(o=e!=null?c(b(e)):{},l(r||!e||!e.__esModule?t(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>l(t({},\"__esModule\",{value:!0}),e);var s=f((K,d)=>{d.exports=_jsx_runtime});var _={};v(_,{default:()=>m,frontmatter:()=>k});var i=x(s()),k={title:\"Kilovej buh\",slug:\"kilovej-buh-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"jiri-korn\",\"roman-holy\"],featuresNames:[\"Jiri Korn\",\"Roman Holy\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[\"\"],duration:\"5:03\",trackNumber:6,producers:[],producersNames:[],description:\"Kilovej buh \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,i.jsxs)(r.p,{children:[(0,i.jsx)(r.strong,{children:(0,i.jsx)(r.a,{href:\"/skladby/kilovej-buh-vladimir-518\",children:\"Kilovej buh\"})}),\" od \",(0,i.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,i.jsx)(r.a,{href:\"/alba/idiot\",children:\"Idiot\"}),\" (2013).\"]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,i.jsx)(r,{...e,children:(0,i.jsx)(u,{...e})}):u(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/kilovej-buh-vladimir-518.mdx",
   "_raw": {

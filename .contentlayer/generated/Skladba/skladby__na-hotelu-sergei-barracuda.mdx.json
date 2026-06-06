@@ -12,16 +12,19 @@
   "album": "713",
   "albumSlug": "713",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:01",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Na Hotelu — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var _=(e,r,a)=>(a=e!=null?m(h(e)):{},u(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var d=b((k,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>l,frontmatter:()=>N});var t=_(d()),N={title:\"Na Hotelu\",slug:\"na-hotelu-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pastor\"],featuresNames:[\"Pastor\"],album:\"713\",albumSlug:\"713\",year:2017,genre:[],duration:\"4:01\",trackNumber:14,producers:[],producersNames:[],description:\"Na Hotelu \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Na Hotelu](/skladby/na-hotelu-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [713](/alba/713) (2017).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!m.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(s=g(r,n))||s.enumerable});return e};var N=(e,r,t)=>(t=e!=null?p(h(e)):{},u(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((y,c)=>{c.exports=_jsx_runtime});var S={};x(S,{default:()=>l,frontmatter:()=>j});var a=N(d()),j={title:\"Na Hotelu\",slug:\"na-hotelu-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pastor\"],featuresNames:[\"Pastor\"],album:\"713\",albumSlug:\"713\",year:2017,genre:[\"\"],duration:\"4:01\",trackNumber:14,producers:[],producersNames:[],description:\"Na Hotelu \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/na-hotelu-sergei-barracuda\",children:\"Na Hotelu\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/713\",children:\"713\"}),\" (2017).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return _(S);})();\n;return Component;"
   },
   "_id": "skladby/na-hotelu-sergei-barracuda.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Soundtrack (Instrumentals)",
   "albumSlug": "soundtrack-instrumentals",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 21,
   "producers": [],
   "producersNames": [],
   "description": "Iluzionisti (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var r in e)a(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!h.call(t,s)&&s!==r&&a(t,s,{get:()=>e[s],enumerable:!(u=p(e,s))||u.enumerable});return t};var b=(t,e,r)=>(r=t!=null?d(f(t)):{},o(e||!t||!t.__esModule?a(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>o(a({},\"__esModule\",{value:!0}),t);var l=j((F,i)=>{i.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>I});var n=b(l()),I={title:\"Iluzionisti (Instrumental)\",slug:\"iluzionisti-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[],duration:\"3:16\",trackNumber:21,producers:[],producersNames:[],description:\"Iluzionisti (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Iluzionisti (Instrumental)](/skladby/iluzionisti-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack (Instrumentals)](/alba/soundtrack-instrumentals) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),b=(n,t)=>{for(var r in t)s(n,r,{get:t[r],enumerable:!0})},u=(n,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!j.call(n,a)&&a!==r&&s(n,a,{get:()=>t[a],enumerable:!(i=p(t,a))||i.enumerable});return n};var I=(n,t,r)=>(r=n!=null?m(h(n)):{},u(t||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>u(s({},\"__esModule\",{value:!0}),n);var l=x((D,o)=>{o.exports=_jsx_runtime});var z={};b(z,{default:()=>c,frontmatter:()=>k});var e=I(l()),k={title:\"Iluzionisti (Instrumental)\",slug:\"iluzionisti-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[\"\"],duration:\"3:16\",trackNumber:21,producers:[],producersNames:[],description:\"Iluzionisti (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(n){let t={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(t.p,{children:[(0,e.jsx)(t.strong,{children:(0,e.jsx)(t.a,{href:\"/skladby/iluzionisti-instrumental-dj-fatte\",children:\"Iluzionisti (Instrumental)\"})}),\" od \",(0,e.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,e.jsx)(t.a,{href:\"/alba/soundtrack-instrumentals\",children:\"Soundtrack (Instrumentals)\"}),\" (2021).\"]})}function c(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(d,{...n})}):d(n)}return g(z);})();\n;return Component;"
   },
   "_id": "skladby/iluzionisti-instrumental-dj-fatte.mdx",
   "_raw": {

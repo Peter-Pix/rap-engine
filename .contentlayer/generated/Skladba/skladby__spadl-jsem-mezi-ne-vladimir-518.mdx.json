@@ -14,16 +14,19 @@
   "album": "White Boy",
   "albumSlug": "white-boy",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Spadl jsem mezi ně — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!j.call(e,a)&&a!==n&&i(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var _=(e,r,n)=>(n=e!=null?c(x(e)):{},s(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var d=b((z,m)=>{m.exports=_jsx_runtime});var k={};f(k,{default:()=>u,frontmatter:()=>S});var t=_(d()),S={title:\"Spadl jsem mezi n\\u011B\",slug:\"spadl-jsem-mezi-ne-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"7krat3\",\"orion\"],featuresNames:[\"7kr\\xE1t3\",\"Orion\"],album:\"White Boy\",albumSlug:\"white-boy\",year:2025,genre:[],duration:\"3:03\",trackNumber:9,producers:[],producersNames:[],description:\"Spadl jsem mezi n\\u011B \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Spadl jsem mezi ně](/skladby/spadl-jsem-mezi-ne-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [White Boy](/alba/white-boy) (2025).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},o=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!f.call(r,i)&&i!==t&&n(r,i,{get:()=>e[i],enumerable:!(s=u(e,i))||s.enumerable});return r};var g=(r,e,t)=>(t=r!=null?c(b(r)):{},o(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),y=r=>o(n({},\"__esModule\",{value:!0}),r);var d=j((S,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>p,frontmatter:()=>z});var a=g(d()),z={title:\"Spadl jsem mezi n\\u011B\",slug:\"spadl-jsem-mezi-ne-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"7krat3\",\"orion\"],featuresNames:[\"7kr\\xE1t3\",\"Orion\"],album:\"White Boy\",albumSlug:\"white-boy\",year:2025,genre:[\"\"],duration:\"3:03\",trackNumber:9,producers:[],producersNames:[],description:\"Spadl jsem mezi n\\u011B \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/spadl-jsem-mezi-ne-vladimir-518\",children:\"Spadl jsem mezi n\\u011B\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/white-boy\",children:\"White Boy\"}),\" (2025).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/spadl-jsem-mezi-ne-vladimir-518.mdx",
   "_raw": {

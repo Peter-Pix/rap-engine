@@ -6,16 +6,17 @@
   "label": "Bigg Boss",
   "year": 2018,
   "genre": [],
-  "description": "Chápeš? — singl od Kali (2018).",
+  "description": "Kali v roce 2018 vydal své debutové album. Obsahuje celkem jednu skladbu. Deska vyšla pod labelem Bigg Boss.",
   "image": "https://cdn-images.dzcdn.net/images/cover/75c4d46a42f8572ba8f55abf0e1bb482/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
     "Chápeš?"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(i=h(t,a))||i.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(u(e)):{},o(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var l=b((y,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>C});var n=_(l()),C={title:\"Ch\\xE1pe\\u0161?\",slug:\"chapes\",rapper:\"Kali\",rapperSlug:\"kali\",label:\"Bigg Boss\",year:2018,genre:[],description:\"Ch\\xE1pe\\u0161? \\u2014 singl od Kali (2018).\",image:\"https://cdn-images.dzcdn.net/images/cover/75c4d46a42f8572ba8f55abf0e1bb482/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Ch\\xE1pe\\u0161?\"],publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(M);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Kali](/raperi/kali) v roce 2018 vydal své debutové album.\n\nAlbum obsahuje celkem jednu skladbu.\n\nDeska vyšla pod labelem Bigg Boss.\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var v=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var t in e)s(a,t,{get:e[t],enumerable:!0})},o=(a,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of b(e))!g.call(a,l)&&l!==t&&s(a,l,{get:()=>e[l],enumerable:!(r=m(e,l))||r.enumerable});return a};var x=(a,e,t)=>(t=a!=null?u(h(a)):{},o(e||!a||!a.__esModule?s(t,\"default\",{value:a,enumerable:!0}):t,a)),f=a=>o(s({},\"__esModule\",{value:!0}),a);var c=v((B,i)=>{i.exports=_jsx_runtime});var _={};j(_,{default:()=>p,frontmatter:()=>k});var n=x(c()),k={title:\"Ch\\xE1pe\\u0161?\",slug:\"chapes\",rapper:\"Kali\",rapperSlug:\"kali\",label:\"Bigg Boss\",year:2018,genre:[],description:\"Kali v roce 2018 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem jednu skladbu. Deska vy\\u0161la pod labelem Bigg Boss.\",image:\"https://cdn-images.dzcdn.net/images/cover/75c4d46a42f8572ba8f55abf0e1bb482/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Ch\\xE1pe\\u0161?\"],publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/kali\",children:\"Kali\"}),\" v roce 2018 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem jednu skladbu.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Bigg Boss.\"})]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return f(_);})();\n;return Component;"
   },
   "_id": "alba/chapes.mdx",
   "_raw": {

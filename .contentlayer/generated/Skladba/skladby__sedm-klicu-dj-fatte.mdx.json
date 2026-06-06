@@ -12,16 +12,19 @@
   "album": "Řev",
   "albumSlug": "rev",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:32",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Sedm klíčů — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(f(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var m=g((F,d)=>{d.exports=_jsx_runtime});var S={};j(S,{default:()=>i,frontmatter:()=>k});var r=_(m()),k={title:\"Sedm kl\\xED\\u010D\\u016F\",slug:\"sedm-klicu-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"\\u0158ev\",albumSlug:\"rev\",year:2024,genre:[],duration:\"4:32\",trackNumber:7,producers:[],producersNames:[],description:\"Sedm kl\\xED\\u010D\\u016F \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return b(S);})();\n;return Component;"
+    "raw": "\n**[Sedm klíčů](/skladby/sedm-klicu-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Řev](/alba/rev) (2024).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},o=(t,e,a,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!g.call(t,n)&&n!==a&&s(t,n,{get:()=>e[n],enumerable:!(d=p(e,n))||d.enumerable});return t};var b=(t,e,a)=>(a=t!=null?m(h(t)):{},o(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),k=t=>o(s({},\"__esModule\",{value:!0}),t);var c=j((v,l)=>{l.exports=_jsx_runtime});var D={};x(D,{default:()=>i,frontmatter:()=>_});var r=b(c()),_={title:\"Sedm kl\\xED\\u010D\\u016F\",slug:\"sedm-klicu-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"\\u0158ev\",albumSlug:\"rev\",year:2024,genre:[\"\"],duration:\"4:32\",trackNumber:7,producers:[],producersNames:[],description:\"Sedm kl\\xED\\u010D\\u016F \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/sedm-klicu-dj-fatte\",children:\"Sedm kl\\xED\\u010D\\u016F\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/rev\",children:\"\\u0158ev\"}),\" (2024).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return k(D);})();\n;return Component;"
   },
   "_id": "skladby/sedm-klicu-dj-fatte.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Koupili jsme Boha, aby za nás makal (Instrumentals)",
   "albumSlug": "koupili-jsme-boha-aby-za-nas-makal",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:52",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Superschopnost (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},u=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!b.call(t,r)&&r!==a&&s(t,r,{get:()=>e[r],enumerable:!(o=d(e,r))||o.enumerable});return t};var g=(t,e,a)=>(a=t!=null?i(x(t)):{},u(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),k=t=>u(s({},\"__esModule\",{value:!0}),t);var p=f((D,m)=>{m.exports=_jsx_runtime});var S={};j(S,{default:()=>c,frontmatter:()=>_});var n=g(p()),_={title:\"Superschopnost (Instrumental)\",slug:\"superschopnost-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal (Instrumentals)\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[],duration:\"2:52\",trackNumber:5,producers:[],producersNames:[],description:\"Superschopnost (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return k(S);})();\n;return Component;"
+    "raw": "\n**[Superschopnost (Instrumental)](/skladby/superschopnost-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Koupili jsme Boha, aby za nás makal](/alba/koupili-jsme-boha-aby-za-nas-makal) (2026).\n",
+    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),k=(t,a)=>{for(var n in a)r(t,n,{get:a[n],enumerable:!0})},u=(t,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of h(a))!f.call(t,s)&&s!==n&&r(t,s,{get:()=>a[s],enumerable:!(o=d(a,s))||o.enumerable});return t};var g=(t,a,n)=>(n=t!=null?c(b(t)):{},u(a||!t||!t.__esModule?r(n,\"default\",{value:t,enumerable:!0}):n,t)),x=t=>u(r({},\"__esModule\",{value:!0}),t);var p=j((z,l)=>{l.exports=_jsx_runtime});var S={};k(S,{default:()=>m,frontmatter:()=>y});var e=g(p()),y={title:\"Superschopnost (Instrumental)\",slug:\"superschopnost-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal (Instrumentals)\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[\"\"],duration:\"2:52\",trackNumber:5,producers:[],producersNames:[],description:\"Superschopnost (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let a={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/superschopnost-instrumental-dj-fatte\",children:\"Superschopnost (Instrumental)\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/koupili-jsme-boha-aby-za-nas-makal\",children:\"Koupili jsme Boha, aby za n\\xE1s makal\"}),\" (2026).\"]})}function m(t={}){let{wrapper:a}=t.components||{};return a?(0,e.jsx)(a,{...t,children:(0,e.jsx)(i,{...t})}):i(t)}return x(S);})();\n;return Component;"
   },
   "_id": "skladby/superschopnost-instrumental-dj-fatte.mdx",
   "_raw": {

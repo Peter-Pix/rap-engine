@@ -8,16 +8,19 @@
   "album": "Crimson Stain",
   "albumSlug": "crimson-stain",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:18",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Break Bread — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var B=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},b=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=d(r,a))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?m(x(e)):{},b(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>b(o({},\"__esModule\",{value:!0}),e);var c=B((z,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>y});var t=_(c()),y={title:\"Break Bread\",slug:\"break-bread-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Crimson Stain\",albumSlug:\"crimson-stain\",year:2025,genre:[],duration:\"4:18\",trackNumber:6,producers:[],producersNames:[],description:\"Break Bread \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Break Bread](/skladby/break-bread-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Crimson Stain](/alba/crimson-stain) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var B=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(b=m(e,t))||b.enumerable});return r};var x=(r,e,n)=>(n=r!=null?u(B(r)):{},s(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),k=r=>s(o({},\"__esModule\",{value:!0}),r);var i=h((j,l)=>{l.exports=_jsx_runtime});var g={};y(g,{default:()=>c,frontmatter:()=>z});var a=x(i()),z={title:\"Break Bread\",slug:\"break-bread-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Crimson Stain\",albumSlug:\"crimson-stain\",year:2025,genre:[\"\"],duration:\"4:18\",trackNumber:6,producers:[],producersNames:[],description:\"Break Bread \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/break-bread-bobby-blaze\",children:\"Break Bread\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/crimson-stain\",children:\"Crimson Stain\"}),\" (2025).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return k(g);})();\n;return Component;"
   },
   "_id": "skladby/break-bread-bobby-blaze.mdx",
   "_raw": {

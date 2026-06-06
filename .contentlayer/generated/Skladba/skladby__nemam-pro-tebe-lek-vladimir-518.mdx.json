@@ -12,16 +12,19 @@
   "album": "Ultra! Ultra!",
   "albumSlug": "ultra-ultra",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:28",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Nemám Pro Tebe Lék — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)m(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!h.call(e,a)&&a!==n&&m(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(b(e)):{},l(r||!e||!e.__esModule?m(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>l(m({},\"__esModule\",{value:!0}),e);var i=f((L,s)=>{s.exports=_jsx_runtime});var N={};_(N,{default:()=>c,frontmatter:()=>k});var t=g(i()),k={title:\"Nem\\xE1m Pro Tebe Le\\u0301k\",slug:\"nemam-pro-tebe-lek-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"5:28\",trackNumber:4,producers:[],producersNames:[],description:\"Nem\\xE1m Pro Tebe Le\\u0301k \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Nemám Pro Tebe Lék](/skladby/nemam-pro-tebe-lek-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Ultra! Ultra!](/alba/ultra-ultra) (2017).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},m=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of b(e))!h.call(r,l)&&l!==t&&n(r,l,{get:()=>e[l],enumerable:!(o=p(e,l))||o.enumerable});return r};var g=(r,e,t)=>(t=r!=null?c(f(r)):{},m(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>m(n({},\"__esModule\",{value:!0}),r);var s=x((L,i)=>{i.exports=_jsx_runtime});var _={};k(_,{default:()=>u,frontmatter:()=>N});var a=g(s()),N={title:\"Nem\\xE1m Pro Tebe Le\\u0301k\",slug:\"nemam-pro-tebe-lek-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[\"\"],duration:\"5:28\",trackNumber:4,producers:[],producersNames:[],description:\"Nem\\xE1m Pro Tebe Le\\u0301k \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/nemam-pro-tebe-lek-vladimir-518\",children:\"Nem\\xE1m Pro Tebe Le\\u0301k\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/ultra-ultra\",children:\"Ultra! Ultra!\"}),\" (2017).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/nemam-pro-tebe-lek-vladimir-518.mdx",
   "_raw": {

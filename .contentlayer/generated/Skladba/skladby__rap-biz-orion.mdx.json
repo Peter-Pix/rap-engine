@@ -18,16 +18,19 @@
   "album": "Orikoule",
   "albumSlug": "orikoule",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:05",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Rap Biz — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!f.call(e,n)&&n!==o&&a(e,n,{get:()=>r[n],enumerable:!(i=d(r,n))||i.enumerable});return e};var b=(e,r,o)=>(o=e!=null?p(h(e)):{},s(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>s(a({},\"__esModule\",{value:!0}),e);var m=g((C,u)=>{u.exports=_jsx_runtime});var M={};k(M,{default:()=>l,frontmatter:()=>j});var t=b(m()),j={title:\"Rap Biz\",slug:\"rap-biz-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"mike-trafik\",\"james-cole\",\"hugo-toxxx\",\"ted-e\"],featuresNames:[\"Mike Trafik\",\"James Cole\",\"Hugo Toxxx\",\"Ted-E\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"4:05\",trackNumber:3,producers:[],producersNames:[],description:\"Rap Biz \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Rap Biz](/skladby/rap-biz-orion)** od [Orion](/raperi/orion) z alba [Orikoule](/alba/orikoule) (2008).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)t(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!h.call(e,n)&&n!==a&&t(e,n,{get:()=>r[n],enumerable:!(i=m(r,n))||i.enumerable});return e};var g=(e,r,a)=>(a=e!=null?d(f(e)):{},s(r||!e||!e.__esModule?t(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(t({},\"__esModule\",{value:!0}),e);var l=k((M,u)=>{u.exports=_jsx_runtime});var _={};b(_,{default:()=>p,frontmatter:()=>z});var o=g(l()),z={title:\"Rap Biz\",slug:\"rap-biz-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"mike-trafik\",\"james-cole\",\"hugo-toxxx\",\"ted-e\"],featuresNames:[\"Mike Trafik\",\"James Cole\",\"Hugo Toxxx\",\"Ted-E\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[\"\"],duration:\"4:05\",trackNumber:3,producers:[],producersNames:[],description:\"Rap Biz \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/rap-biz-orion\",children:\"Rap Biz\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(r.a,{href:\"/alba/orikoule\",children:\"Orikoule\"}),\" (2008).\"]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(c,{...e})}):c(e)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/rap-biz-orion.mdx",
   "_raw": {

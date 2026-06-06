@@ -14,16 +14,19 @@
   "album": "MAMUTI L.P.",
   "albumSlug": "mamuti-l-p",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:38",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "JASON DONOVAN — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var O=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!N.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>i(a({},\"__esModule\",{value:!0}),e);var c=O((S,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>g});var n=_(c()),g={title:\"JASON DONOVAN\",slug:\"jason-donovan-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"sketa\"],featuresNames:[\"\\u010Cis T\",\"Sketa\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[],duration:\"3:38\",trackNumber:10,producers:[],producersNames:[],description:\"JASON DONOVAN \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[JASON DONOVAN](/skladby/jason-donovan-orion)** od [Orion](/raperi/orion) z alba [MAMUTI L.P.](/alba/mamuti-l-p) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var N=Object.getOwnPropertyNames;var O=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,r)=>()=>(r||n((r={exports:{}}).exports,r),r.exports),x=(n,r)=>{for(var o in r)a(n,o,{get:r[o],enumerable:!0})},i=(n,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of N(r))!f.call(n,t)&&t!==o&&a(n,t,{get:()=>r[t],enumerable:!(s=m(r,t))||s.enumerable});return n};var A=(n,r,o)=>(o=n!=null?p(O(n)):{},i(r||!n||!n.__esModule?a(o,\"default\",{value:n,enumerable:!0}):o,n)),b=n=>i(a({},\"__esModule\",{value:!0}),n);var c=h((S,u)=>{u.exports=_jsx_runtime});var j={};x(j,{default:()=>d,frontmatter:()=>g});var e=A(c()),g={title:\"JASON DONOVAN\",slug:\"jason-donovan-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"sketa\"],featuresNames:[\"\\u010Cis T\",\"Sketa\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[\"\"],duration:\"3:38\",trackNumber:10,producers:[],producersNames:[],description:\"JASON DONOVAN \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(n){let r={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/jason-donovan-orion\",children:\"JASON DONOVAN\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/mamuti-l-p\",children:\"MAMUTI L.P.\"}),\" (2024).\"]})}function d(n={}){let{wrapper:r}=n.components||{};return r?(0,e.jsx)(r,{...n,children:(0,e.jsx)(l,{...n})}):l(n)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/jason-donovan-orion.mdx",
   "_raw": {

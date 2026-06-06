@@ -1,0 +1,28 @@
+{
+  "title": "Pretty Boy",
+  "slug": "pretty-boy",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "year": 2023,
+  "description": "Pretty Boy — singl od CÂLIN (2023).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/56932c34fc4d09769d1a922eabba2ebc/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Pretty Boy](/skladby/pretty-boy)** od [Calin](/raperi/calin) (2023).\n",
+    "code": "var Component=(()=>{var y=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!u.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(s=g(e,a))||s.enumerable});return t};var b=(t,e,n)=>(n=t!=null?y(m(t)):{},c(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>c(o({},\"__esModule\",{value:!0}),t);var l=f((D,i)=>{i.exports=_jsx_runtime});var C={};h(C,{default:()=>d,frontmatter:()=>_});var r=b(l()),_={title:\"Pretty Boy\",slug:\"pretty-boy\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",year:2023,description:\"Pretty Boy \\u2014 singl od C\\xC2LIN (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/56932c34fc4d09769d1a922eabba2ebc/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/pretty-boy\",children:\"Pretty Boy\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2023).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return j(C);})();\n;return Component;"
+  },
+  "_id": "skladby/pretty-boy.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pretty-boy.mdx",
+    "sourceFileName": "pretty-boy.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pretty-boy"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pretty-boy",
+  "canonicalUrl": "https://4rap.cz/skladby/pretty-boy"
+}

@@ -8,16 +8,19 @@
   "album": "No Album",
   "albumSlug": "no-album",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:25",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Break My Fall — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(l=p(t,a))||l.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(b(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),N=e=>s(o({},\"__esModule\",{value:!0}),e);var c=f((M,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>i,frontmatter:()=>j});var r=g(c()),j={title:\"Break My Fall\",slug:\"break-my-fall-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Album\",albumSlug:\"no-album\",year:2015,genre:[],duration:\"5:25\",trackNumber:1,producers:[],producersNames:[],description:\"Break My Fall \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return N(k);})();\n;return Component;"
+    "raw": "\n**[Break My Fall](/skladby/break-my-fall-calin)** od [Calin](/raperi/calin) z alba [No Album](/alba/no-album) (2015).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),k=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let l of b(a))!h.call(e,l)&&l!==n&&t(e,l,{get:()=>a[l],enumerable:!(o=p(a,l))||o.enumerable});return e};var y=(e,a,n)=>(n=e!=null?d(f(e)):{},s(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(t({},\"__esModule\",{value:!0}),e);var u=x((j,c)=>{c.exports=_jsx_runtime});var M={};k(M,{default:()=>m,frontmatter:()=>N});var r=y(u()),N={title:\"Break My Fall\",slug:\"break-my-fall-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Album\",albumSlug:\"no-album\",year:2015,genre:[\"\"],duration:\"5:25\",trackNumber:1,producers:[],producersNames:[],description:\"Break My Fall \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/break-my-fall-calin\",children:\"Break My Fall\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/no-album\",children:\"No Album\"}),\" (2015).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/break-my-fall-calin.mdx",
   "_raw": {

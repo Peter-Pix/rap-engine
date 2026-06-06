@@ -8,16 +8,19 @@
   "album": "CityLights",
   "albumSlug": "citylights",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:53",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Důvody — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var b=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!y.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?b(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var c=x((D,l)=>{l.exports=_jsx_runtime});var z={};g(z,{default:()=>i,frontmatter:()=>j});var r=f(c()),j={title:\"D\\u016Fvody\",slug:\"duvody-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"CityLights\",albumSlug:\"citylights\",year:2024,genre:[],duration:\"2:53\",trackNumber:4,producers:[],producersNames:[],description:\"D\\u016Fvody \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(z);})();\n;return Component;"
+    "raw": "\n**[Důvody](/skladby/duvody-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [CityLights](/alba/citylights) (2024).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var a in e)n(t,a,{get:e[a],enumerable:!0})},b=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!m.call(t,o)&&o!==a&&n(t,o,{get:()=>e[o],enumerable:!(s=y(e,o))||s.enumerable});return t};var x=(t,e,a)=>(a=t!=null?u(h(t)):{},b(e||!t||!t.__esModule?n(a,\"default\",{value:t,enumerable:!0}):a,t)),z=t=>b(n({},\"__esModule\",{value:!0}),t);var d=g((v,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>B});var r=x(d()),B={title:\"D\\u016Fvody\",slug:\"duvody-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"CityLights\",albumSlug:\"citylights\",year:2024,genre:[\"\"],duration:\"2:53\",trackNumber:4,producers:[],producersNames:[],description:\"D\\u016Fvody \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/duvody-bobby-blaze\",children:\"D\\u016Fvody\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/citylights\",children:\"CityLights\"}),\" (2024).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/duvody-bobby-blaze.mdx",
   "_raw": {

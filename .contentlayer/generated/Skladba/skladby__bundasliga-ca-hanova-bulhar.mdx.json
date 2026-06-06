@@ -8,16 +8,19 @@
   "album": "CA$HFLOW",
   "albumSlug": "ca-hflow",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:45",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Bundasliga — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!A.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var f=(e,n,a)=>(a=e!=null?m(x(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var l=b((N,c)=>{c.exports=_jsx_runtime});var C={};g(C,{default:()=>i,frontmatter:()=>j});var t=f(l()),j={title:\"Bundasliga\",slug:\"bundasliga-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"CA$HFLOW\",albumSlug:\"ca-hflow\",year:2025,genre:[],duration:\"1:45\",trackNumber:6,producers:[],producersNames:[],description:\"Bundasliga \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[Bundasliga](/skladby/bundasliga-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [CA$HFLOW](/alba/ca-hflow) (2025).\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),m=(r,a)=>{for(var n in a)o(r,n,{get:a[n],enumerable:!0})},l=(r,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of A(a))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return r};var x=(r,a,n)=>(n=r!=null?h(b(r)):{},l(a||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),H=r=>l(o({},\"__esModule\",{value:!0}),r);var c=g((N,u)=>{u.exports=_jsx_runtime});var B={};m(B,{default:()=>i,frontmatter:()=>C});var e=x(c()),C={title:\"Bundasliga\",slug:\"bundasliga-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"CA$HFLOW\",albumSlug:\"ca-hflow\",year:2025,genre:[\"\"],duration:\"1:45\",trackNumber:6,producers:[],producersNames:[],description:\"Bundasliga \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/bundasliga-ca-hanova-bulhar\",children:\"Bundasliga\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/ca-hflow\",children:\"CA$HFLOW\"}),\" (2025).\"]})}function i(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(d,{...r})}):d(r)}return H(B);})();\n;return Component;"
   },
   "_id": "skladby/bundasliga-ca-hanova-bulhar.mdx",
   "_raw": {

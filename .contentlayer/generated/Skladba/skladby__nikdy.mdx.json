@@ -1,0 +1,28 @@
+{
+  "title": "Nikdy",
+  "slug": "nikdy",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "year": 2024,
+  "description": "Nikdy — singl od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/2cb093fd395f94fa0f3126ae9b801572/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Nikdy](/skladby/nikdy)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var m=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),u=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!x.call(n,a)&&a!==t&&o(n,a,{get:()=>e[a],enumerable:!(s=y(e,a))||s.enumerable});return n};var h=(n,e,t)=>(t=n!=null?p(g(n)):{},i(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),j=n=>i(o({},\"__esModule\",{value:!0}),n);var d=m((_,l)=>{l.exports=_jsx_runtime});var z={};u(z,{default:()=>b,frontmatter:()=>k});var r=h(d()),k={title:\"Nikdy\",slug:\"nikdy\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",year:2024,description:\"Nikdy \\u2014 singl od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/2cb093fd395f94fa0f3126ae9b801572/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nikdy\",children:\"Nikdy\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function b(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return j(z);})();\n;return Component;"
+  },
+  "_id": "skladby/nikdy.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/nikdy.mdx",
+    "sourceFileName": "nikdy.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/nikdy"
+  },
+  "type": "Skladba",
+  "url": "/skladby/nikdy",
+  "canonicalUrl": "https://4rap.cz/skladby/nikdy"
+}

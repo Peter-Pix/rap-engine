@@ -8,16 +8,19 @@
   "album": "V hlavní roli",
   "albumSlug": "v-hlavni-roli",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:19",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "V cizích rolích — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(c=m(r,a))||c.enumerable});return e};var b=(e,r,t)=>(t=e!=null?h(x(e)):{},i(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var s=f((N,l)=>{l.exports=_jsx_runtime});var z={};_(z,{default:()=>d,frontmatter:()=>v});var n=b(s()),v={title:\"V ciz\\xEDch rol\\xEDch\",slug:\"v-cizich-rolich-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:19\",trackNumber:2,producers:[],producersNames:[],description:\"V ciz\\xEDch rol\\xEDch \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(z);})();\n;return Component;"
+    "raw": "\n**[V cizích rolích](/skladby/v-cizich-rolich-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [V\\_hlavní roli](/alba/v-hlavni-roli) (2012).\n",
+    "code": "var Component=(()=>{var h=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),b=(a,r)=>{for(var n in r)l(a,n,{get:r[n],enumerable:!0})},o=(a,r,n,t)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of m(r))!f.call(a,i)&&i!==n&&l(a,i,{get:()=>r[i],enumerable:!(t=p(r,i))||t.enumerable});return a};var v=(a,r,n)=>(n=a!=null?h(g(a)):{},o(r||!a||!a.__esModule?l(n,\"default\",{value:a,enumerable:!0}):n,a)),_=a=>o(l({},\"__esModule\",{value:!0}),a);var s=x((k,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>z});var e=v(s()),z={title:\"V ciz\\xEDch rol\\xEDch\",slug:\"v-cizich-rolich-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[\"\"],duration:\"3:19\",trackNumber:2,producers:[],producersNames:[],description:\"V ciz\\xEDch rol\\xEDch \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function u(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/v-cizich-rolich-paulie-garand\",children:\"V ciz\\xEDch rol\\xEDch\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/v-hlavni-roli\",children:\"V_hlavn\\xED roli\"}),\" (2012).\"]})}function d(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(u,{...a})}):u(a)}return _(j);})();\n;return Component;"
   },
   "_id": "skladby/v-cizich-rolich-paulie-garand.mdx",
   "_raw": {

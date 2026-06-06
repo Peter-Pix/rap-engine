@@ -6,16 +6,17 @@
   "label": "WM Czech Republic",
   "year": 2022,
   "genre": [],
-  "description": "Rossignol — singl od Rohony (2022).",
+  "description": "Rohony v roce 2022 vydal své debutové album. Obsahuje celkem jednu skladbu. Deska vyšla pod labelem WM Czech Republic.",
   "image": "https://cdn-images.dzcdn.net/images/cover/4ac9f3d99dc49d9222d1a0c78cb532e9/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
     "Rossignol"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(c=g(n,r))||c.enumerable});return e};var f=(e,n,o)=>(o=e!=null?m(u(e)):{},i(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var l=_((C,a)=>{a.exports=_jsx_runtime});var y={};b(y,{default:()=>p,frontmatter:()=>R});var t=f(l()),R={title:\"Rossignol\",slug:\"rossignol\",rapper:\"Rohony\",rapperSlug:\"rohony\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Rossignol \\u2014 singl od Rohony (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/4ac9f3d99dc49d9222d1a0c78cb532e9/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Rossignol\"],publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(y);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Rohony](/raperi/rohony) v roce 2022 vydal své debutové album.\n\nAlbum obsahuje celkem jednu skladbu.\n\nDeska vyšla pod labelem WM Czech Republic.\n",
+    "code": "var Component=(()=>{var h=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var v=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),y=(n,e)=>{for(var a in e)t(n,a,{get:e[a],enumerable:!0})},c=(n,e,a,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!g.call(n,r)&&r!==a&&t(n,r,{get:()=>e[r],enumerable:!(l=p(e,r))||l.enumerable});return n};var j=(n,e,a)=>(a=n!=null?h(b(n)):{},c(e||!n||!n.__esModule?t(a,\"default\",{value:n,enumerable:!0}):a,n)),x=n=>c(t({},\"__esModule\",{value:!0}),n);var d=v((_,s)=>{s.exports=_jsx_runtime});var f={};y(f,{default:()=>u,frontmatter:()=>R});var o=j(d()),R={title:\"Rossignol\",slug:\"rossignol\",rapper:\"Rohony\",rapperSlug:\"rohony\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Rohony v roce 2022 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem jednu skladbu. Deska vy\\u0161la pod labelem WM Czech Republic.\",image:\"https://cdn-images.dzcdn.net/images/cover/4ac9f3d99dc49d9222d1a0c78cb532e9/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Rossignol\"],publishedAt:\"2026-06-04\"};function i(n){let e={a:\"a\",h2:\"h2\",p:\"p\",...n.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.a,{href:\"/raperi/rohony\",children:\"Rohony\"}),\" v roce 2022 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,o.jsx)(e.p,{children:\"Album obsahuje celkem jednu skladbu.\"}),`\n`,(0,o.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem WM Czech Republic.\"})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(i,{...n})}):i(n)}return x(f);})();\n;return Component;"
   },
   "_id": "alba/rossignol.mdx",
   "_raw": {

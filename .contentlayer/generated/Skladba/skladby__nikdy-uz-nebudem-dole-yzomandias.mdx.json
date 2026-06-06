@@ -8,16 +8,19 @@
   "album": "ZPÁTKY NA SVOJÍ PLANETU",
   "albumSlug": "zpatky-na-svoji-planetu",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:23",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "NIKDY UŽ NEBUDEM DOLE — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var D=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!N.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var f=(e,n,r)=>(r=e!=null?l(h(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),E=e=>u(o({},\"__esModule\",{value:!0}),e);var m=D((y,d)=>{d.exports=_jsx_runtime});var g={};b(g,{default:()=>c,frontmatter:()=>_});var t=f(m()),_={title:\"NIKDY U\\u017D NEBUDEM DOLE\",slug:\"nikdy-uz-nebudem-dole-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\",albumSlug:\"zpatky-na-svoji-planetu\",year:2023,genre:[],duration:\"3:23\",trackNumber:12,producers:[],producersNames:[],description:\"NIKDY U\\u017D NEBUDEM DOLE \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return E(g);})();\n;return Component;"
+    "raw": "\n**[NIKDY UŽ NEBUDEM DOLE](/skladby/nikdy-uz-nebudem-dole-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [ZPÁTKY NA SVOJÍ PLANETU](/alba/zpatky-na-svoji-planetu) (2023).\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var N=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var D=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),E=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},d=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of N(a))!y.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var b=(e,a,r)=>(r=e!=null?c(z(e)):{},d(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),f=e=>d(o({},\"__esModule\",{value:!0}),e);var u=D((Y,i)=>{i.exports=_jsx_runtime});var x={};E(x,{default:()=>m,frontmatter:()=>h});var n=b(u()),h={title:\"NIKDY U\\u017D NEBUDEM DOLE\",slug:\"nikdy-uz-nebudem-dole-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\",albumSlug:\"zpatky-na-svoji-planetu\",year:2023,genre:[\"\"],duration:\"3:23\",trackNumber:12,producers:[],producersNames:[],description:\"NIKDY U\\u017D NEBUDEM DOLE \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/nikdy-uz-nebudem-dole-yzomandias\",children:\"NIKDY U\\u017D NEBUDEM DOLE\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/zpatky-na-svoji-planetu\",children:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\"}),\" (2023).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return f(x);})();\n;return Component;"
   },
   "_id": "skladby/nikdy-uz-nebudem-dole-yzomandias.mdx",
   "_raw": {

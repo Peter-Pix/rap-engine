@@ -12,16 +12,19 @@
   "album": "NIBIRU",
   "albumSlug": "nibiru",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:32",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Od najmłodszych — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!j.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(o=p(n,a))||o.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(x(e)):{},u(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var c=b((z,m)=>{m.exports=_jsx_runtime});var y={};f(y,{default:()=>i,frontmatter:()=>k});var t=_(c()),k={title:\"Od najm\\u0142odszych\",slug:\"od-najm-odszych-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\"],featuresNames:[\"Zeus\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[],duration:\"3:32\",trackNumber:1,producers:[],producersNames:[],description:\"Od najm\\u0142odszych \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Od najmłodszych](/skladby/od-najm-odszych-maniak)** od [Maniak](/raperi/maniak) z alba [NIBIRU](/alba/nibiru) (2025).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),k=(n,a)=>{for(var r in a)s(n,r,{get:a[r],enumerable:!0})},d=(n,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!f.call(n,t)&&t!==r&&s(n,t,{get:()=>a[t],enumerable:!(o=h(a,t))||o.enumerable});return n};var x=(n,a,r)=>(r=n!=null?l(b(n)):{},d(a||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),y=n=>d(s({},\"__esModule\",{value:!0}),n);var c=j((_,i)=>{i.exports=_jsx_runtime});var z={};k(z,{default:()=>m,frontmatter:()=>g});var e=x(c()),g={title:\"Od najm\\u0142odszych\",slug:\"od-najm-odszych-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\"],featuresNames:[\"Zeus\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[\"\"],duration:\"3:32\",trackNumber:1,producers:[],producersNames:[],description:\"Od najm\\u0142odszych \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/od-najm-odszych-maniak\",children:\"Od najm\\u0142odszych\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/nibiru\",children:\"NIBIRU\"}),\" (2025).\"]})}function m(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(u,{...n})}):u(n)}return y(z);})();\n;return Component;"
   },
   "_id": "skladby/od-najm-odszych-maniak.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Talk2me",
   "albumSlug": "talk2me",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Iné Plemená — skladba od Sara Rikas.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!x.call(e,a)&&a!==t&&s(e,a,{get:()=>r[a],enumerable:!(o=d(r,a))||o.enumerable});return e};var b=(e,r,t)=>(t=e!=null?p(k(e)):{},i(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var l=f((N,m)=>{m.exports=_jsx_runtime});var j={};_(j,{default:()=>c,frontmatter:()=>S});var n=b(l()),S={title:\"In\\xE9 Plemen\\xE1\",slug:\"ine-plemena-sara-rikas\",rapper:\"Sara Rikas\",rapperSlug:\"sara-rikas\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"Talk2me\",albumSlug:\"talk2me\",year:2025,genre:[],duration:\"3:08\",trackNumber:2,producers:[],producersNames:[],description:\"In\\xE9 Plemen\\xE1 \\u2014 skladba od Sara Rikas.\",publishedAt:\"2026-05-31\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Iné Plemená](/skladby/ine-plemena-sara-rikas)** od [Sara Rikas](/raperi/sara-rikas) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of k(e))!f.call(r,s)&&s!==a&&t(r,s,{get:()=>e[s],enumerable:!(o=d(e,s))||o.enumerable});return r};var b=(r,e,a)=>(a=r!=null?p(h(r)):{},i(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),S=r=>i(t({},\"__esModule\",{value:!0}),r);var m=x((I,l)=>{l.exports=_jsx_runtime});var j={};g(j,{default:()=>c,frontmatter:()=>_});var n=b(m()),_={title:\"In\\xE9 Plemen\\xE1\",slug:\"ine-plemena-sara-rikas\",rapper:\"Sara Rikas\",rapperSlug:\"sara-rikas\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"Talk2me\",albumSlug:\"talk2me\",year:2025,genre:[\"\"],duration:\"3:08\",trackNumber:2,producers:[],producersNames:[],description:\"In\\xE9 Plemen\\xE1 \\u2014 skladba od Sara Rikas.\",publishedAt:\"2026-05-31\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/ine-plemena-sara-rikas\",children:\"In\\xE9 Plemen\\xE1\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/sara-rikas\",children:\"Sara Rikas\"}),\" (2025).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(u,{...r})}):u(r)}return S(j);})();\n;return Component;"
   },
   "_id": "skladby/ine-plemena-sara-rikas.mdx",
   "_raw": {

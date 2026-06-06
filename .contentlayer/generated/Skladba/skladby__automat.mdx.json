@@ -1,0 +1,28 @@
+{
+  "title": "Automat",
+  "slug": "automat",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "year": 2025,
+  "description": "Automat — singl od Maniak (2025).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/7411596c7709fb303b09e02261322ab6/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Automat](/skladby/automat)** od [Maniak](/raperi/maniak) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},i=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!f.call(t,r)&&r!==a&&o(t,r,{get:()=>e[r],enumerable:!(s=u(e,r))||s.enumerable});return t};var k=(t,e,a)=>(a=t!=null?d(x(t)):{},i(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),M=t=>i(o({},\"__esModule\",{value:!0}),t);var l=h((A,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>p,frontmatter:()=>_});var n=k(l()),_={title:\"Automat\",slug:\"automat\",rapper:\"Maniak\",rapperSlug:\"maniak\",year:2025,description:\"Automat \\u2014 singl od Maniak (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/7411596c7709fb303b09e02261322ab6/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function m(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/automat\",children:\"Automat\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2025).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return M(b);})();\n;return Component;"
+  },
+  "_id": "skladby/automat.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/automat.mdx",
+    "sourceFileName": "automat.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/automat"
+  },
+  "type": "Skladba",
+  "url": "/skladby/automat",
+  "canonicalUrl": "https://4rap.cz/skladby/automat"
+}

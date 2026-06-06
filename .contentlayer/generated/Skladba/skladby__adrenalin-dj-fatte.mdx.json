@@ -14,16 +14,19 @@
   "album": "Řev",
   "albumSlug": "rev",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:22",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Adrenalin — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(f(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>d(o({},\"__esModule\",{value:!0}),e);var u=h((M,i)=>{i.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>y});var n=_(u()),y={title:\"Adrenalin\",slug:\"adrenalin-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"mc-gey\"],featuresNames:[\"Regie 257\",\"MC Gey\"],album:\"\\u0158ev\",albumSlug:\"rev\",year:2024,genre:[],duration:\"3:22\",trackNumber:3,producers:[],producersNames:[],description:\"Adrenalin \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Adrenalin](/skladby/adrenalin-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Řev](/alba/rev) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},o=(r,e,a,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!h.call(r,n)&&n!==a&&s(r,n,{get:()=>e[n],enumerable:!(d=f(e,n))||d.enumerable});return r};var b=(r,e,a)=>(a=r!=null?p(g(r)):{},o(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),_=r=>o(s({},\"__esModule\",{value:!0}),r);var l=j((A,i)=>{i.exports=_jsx_runtime});var D={};x(D,{default:()=>u,frontmatter:()=>y});var t=b(l()),y={title:\"Adrenalin\",slug:\"adrenalin-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\",\"mc-gey\"],featuresNames:[\"Regie 257\",\"MC Gey\"],album:\"\\u0158ev\",albumSlug:\"rev\",year:2024,genre:[\"\"],duration:\"3:22\",trackNumber:3,producers:[],producersNames:[],description:\"Adrenalin \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/adrenalin-dj-fatte\",children:\"Adrenalin\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/rev\",children:\"\\u0158ev\"}),\" (2024).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(c,{...r})}):c(r)}return _(D);})();\n;return Component;"
   },
   "_id": "skladby/adrenalin-dj-fatte.mdx",
   "_raw": {

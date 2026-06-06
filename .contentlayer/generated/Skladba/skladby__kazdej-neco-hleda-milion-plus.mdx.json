@@ -20,16 +20,19 @@
   "album": "Krtek Forever",
   "albumSlug": "krtek-forever",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:02",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Každej Něco Hledá — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},l=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of k(n))!h.call(e,t)&&t!==o&&a(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var K=(e,n,o)=>(o=e!=null?d(f(e)):{},l(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>l(a({},\"__esModule\",{value:!0}),e);var u=x((N,i)=>{i.exports=_jsx_runtime});var g={};j(g,{default:()=>m,frontmatter:()=>b});var r=K(u()),b={title:\"Ka\\u017Edej N\\u011Bco Hled\\xE1\",slug:\"kazdej-neco-hleda-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"kamil-hoffmann\",\"hasan\",\"karlo\",\"koky\",\"jickson\"],featuresNames:[\"Kamil Hoffmann\",\"Hasan\",\"Karlo\",\"Koky\",\"Jickson\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[],duration:\"4:02\",trackNumber:3,producers:[],producersNames:[],description:\"Ka\\u017Edej N\\u011Bco Hled\\xE1 \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(g);})();\n;return Component;"
+    "raw": "\n**[Každej Něco Hledá](/skladby/kazdej-neco-hleda-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [Krtek Forever](/alba/krtek-forever) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)l(r,o,{get:e[o],enumerable:!0})},s=(r,e,o,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of k(e))!h.call(r,a)&&a!==o&&l(r,a,{get:()=>e[a],enumerable:!(t=p(e,a))||t.enumerable});return r};var b=(r,e,o)=>(o=r!=null?m(f(r)):{},s(e||!r||!r.__esModule?l(o,\"default\",{value:r,enumerable:!0}):o,r)),K=r=>s(l({},\"__esModule\",{value:!0}),r);var d=j((_,i)=>{i.exports=_jsx_runtime});var M={};x(M,{default:()=>u,frontmatter:()=>g});var n=b(d()),g={title:\"Ka\\u017Edej N\\u011Bco Hled\\xE1\",slug:\"kazdej-neco-hleda-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"kamil-hoffmann\",\"hasan\",\"karlo\",\"koky\",\"jickson\"],featuresNames:[\"Kamil Hoffmann\",\"Hasan\",\"Karlo\",\"Koky\",\"Jickson\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[\"\"],duration:\"4:02\",trackNumber:3,producers:[],producersNames:[],description:\"Ka\\u017Edej N\\u011Bco Hled\\xE1 \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/kazdej-neco-hleda-milion-plus\",children:\"Ka\\u017Edej N\\u011Bco Hled\\xE1\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/krtek-forever\",children:\"Krtek Forever\"}),\" (2023).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return K(M);})();\n;return Component;"
   },
   "_id": "skladby/kazdej-neco-hleda-milion-plus.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Majitel",
   "albumSlug": "majitel",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:39",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Skladba evokuje pocit dominance a kontroly nad městským prostorem.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of j(t))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(x(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(a({},\"__esModule\",{value:!0}),e);var u=h((y,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>k});var n=_(u()),k={title:\"Majitel m\\u011Bsta\",slug:\"majitel-mesta-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[],featuresNames:[],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[],duration:\"1:39\",trackNumber:1,producers:[],producersNames:[],description:\"Skladba evokuje pocit dominance a kontroly nad m\\u011Bstsk\\xFDm prostorem.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Majitel města](/skladby/majitel-mesta-robin-zoot)** od [Robin Zoot](/raperi/robin-zoot) (2026).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},i=(e,t,o,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of b(t))!f.call(e,n)&&n!==o&&a(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var g=(e,t,o)=>(o=e!=null?d(j(e)):{},i(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),k=e=>i(a({},\"__esModule\",{value:!0}),e);var l=x((z,m)=>{m.exports=_jsx_runtime});var _={};h(_,{default:()=>u,frontmatter:()=>M});var r=g(l()),M={title:\"Majitel m\\u011Bsta\",slug:\"majitel-mesta-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[],featuresNames:[],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[\"\"],duration:\"1:39\",trackNumber:1,producers:[],producersNames:[],description:\"Skladba evokuje pocit dominance a kontroly nad m\\u011Bstsk\\xFDm prostorem.\",publishedAt:\"2026-05-31\"};function c(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/majitel-mesta-robin-zoot\",children:\"Majitel m\\u011Bsta\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/robin-zoot\",children:\"Robin Zoot\"}),\" (2026).\"]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/majitel-mesta-robin-zoot.mdx",
   "_raw": {

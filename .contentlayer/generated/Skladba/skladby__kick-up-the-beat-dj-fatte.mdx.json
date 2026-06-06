@@ -8,16 +8,19 @@
   "album": "Kick Up The Beat",
   "albumSlug": "kick-up-the-beat",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:51",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Kick Up The Beat — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var i=k((K,u)=>{u.exports=_jsx_runtime});var D={};b(D,{default:()=>d,frontmatter:()=>g});var r=j(i()),g={title:\"Kick Up The Beat\",slug:\"kick-up-the-beat-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Kick Up The Beat\",albumSlug:\"kick-up-the-beat\",year:2022,genre:[],duration:\"4:51\",trackNumber:1,producers:[],producersNames:[],description:\"Kick Up The Beat \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return _(D);})();\n;return Component;"
+    "raw": "\n**[Kick Up The Beat](/skladby/kick-up-the-beat-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) (2022).\n",
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},c=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!m.call(t,n)&&n!==a&&s(t,n,{get:()=>e[n],enumerable:!(o=l(e,n))||o.enumerable});return t};var x=(t,e,a)=>(a=t!=null?h(k(t)):{},c(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>c(s({},\"__esModule\",{value:!0}),t);var p=b((K,i)=>{i.exports=_jsx_runtime});var D={};j(D,{default:()=>d,frontmatter:()=>_});var r=x(p()),_={title:\"Kick Up The Beat\",slug:\"kick-up-the-beat-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Kick Up The Beat\",albumSlug:\"kick-up-the-beat\",year:2022,genre:[\"\"],duration:\"4:51\",trackNumber:1,producers:[],producersNames:[],description:\"Kick Up The Beat \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/kick-up-the-beat-dj-fatte\",children:\"Kick Up The Beat\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" (2022).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return g(D);})();\n;return Component;"
   },
   "_id": "skladby/kick-up-the-beat-dj-fatte.mdx",
   "_raw": {

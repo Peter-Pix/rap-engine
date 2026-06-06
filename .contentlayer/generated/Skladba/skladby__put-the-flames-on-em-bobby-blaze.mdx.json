@@ -8,16 +8,19 @@
   "album": "The Text",
   "albumSlug": "the-text",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:37",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Put the Flames On 'Em — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of i(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>m(o({},\"__esModule\",{value:!0}),e);var l=f((F,u)=>{u.exports=_jsx_runtime});var z={};_(z,{default:()=>c,frontmatter:()=>j});var n=g(l()),j={title:\"Put the Flames On 'Em\",slug:\"put-the-flames-on-em-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[],duration:\"3:37\",trackNumber:3,producers:[],producersNames:[],description:\"Put the Flames On 'Em \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return y(z);})();\n;return Component;"
+    "raw": "\n**[Put the Flames On 'Em](/skladby/put-the-flames-on-em-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Text](/alba/the-text) (2006).\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var i=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},b=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!x.call(t,n)&&n!==r&&o(t,n,{get:()=>e[n],enumerable:!(s=d(e,n))||s.enumerable});return t};var z=(t,e,r)=>(r=t!=null?h(i(t)):{},b(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>b(o({},\"__esModule\",{value:!0}),t);var u=f((T,l)=>{l.exports=_jsx_runtime});var _={};y(_,{default:()=>c,frontmatter:()=>B});var a=z(u()),B={title:\"Put the Flames On 'Em\",slug:\"put-the-flames-on-em-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[\"\"],duration:\"3:37\",trackNumber:3,producers:[],producersNames:[],description:\"Put the Flames On 'Em \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/put-the-flames-on-em-bobby-blaze\",children:\"Put the Flames On 'Em\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/the-text\",children:\"The Text\"}),\" (2006).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(m,{...t})}):m(t)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/put-the-flames-on-em-bobby-blaze.mdx",
   "_raw": {

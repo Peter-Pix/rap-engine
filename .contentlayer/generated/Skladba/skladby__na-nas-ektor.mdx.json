@@ -12,16 +12,19 @@
   "album": "Tetris",
   "albumSlug": "tetris",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:59",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Na nás — skladba od Ektor.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!f.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=p(t,s))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var i=_((M,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>d,frontmatter:()=>k});var r=g(i()),k={title:\"Na n\\xE1s\",slug:\"na-nas-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[],duration:\"2:59\",trackNumber:7,producers:[],producersNames:[],description:\"Na n\\xE1s \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Na nás](/skladby/na-nas-ektor)** od [Ektor](/raperi/ektor) z alba [Tetris](/alba/tetris) (2012).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of m(r))!k.call(e,a)&&a!==n&&s(e,a,{get:()=>r[a],enumerable:!(o=h(r,a))||o.enumerable});return e};var g=(e,r,n)=>(n=e!=null?p(f(e)):{},i(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var u=x((D,c)=>{c.exports=_jsx_runtime});var _={};b(_,{default:()=>l,frontmatter:()=>N});var t=g(u()),N={title:\"Na n\\xE1s\",slug:\"na-nas-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[\"\"],duration:\"2:59\",trackNumber:7,producers:[],producersNames:[],description:\"Na n\\xE1s \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/na-nas-ektor\",children:\"Na n\\xE1s\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/ektor\",children:\"Ektor\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/tetris\",children:\"Tetris\"}),\" (2012).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/na-nas-ektor.mdx",
   "_raw": {
