@@ -63,8 +63,8 @@ export function EntityCard({ title, description, href, type, meta, tags, feature
 
         {tags && tags.length > 0 && (
           <div className="flex flex-wrap gap-1.5">
-            {tags.slice(0, 3).map((tag) => (
-              <span key={tag} className="text-[10px] font-mono text-zinc-600 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded-sm">
+            {tags.filter(Boolean).slice(0, 3).map((tag, i) => (
+              <span key={`${tag}-${i}`} className="text-[10px] font-mono text-zinc-600 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded-sm">
                 {tag}
               </span>
             ))}

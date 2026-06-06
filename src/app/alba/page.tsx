@@ -11,12 +11,8 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://4rap.cz/alba' },
 }
 
-const isSingle = (a: { releaseType?: string }) =>
-  a.releaseType === 'single'
-
 export default function AlbaPage() {
   const items = allAlbums
-    .filter((a) => !isSingle(a))
     .map((a) => {
       const rapper = allRappers.find((r) => r.slug === a.rapperSlug)
       return {
@@ -63,7 +59,6 @@ export default function AlbaPage() {
           filters={[
             { key: 'genres', label: 'Žánr', type: 'multi' },
             { key: 'year', label: 'Rok', type: 'year' },
-            { key: 'releaseType', label: 'Typ', type: 'multi' },
           ]}
           availableSorts={['date', 'featured', 'alpha']}
           defaultSort="date"

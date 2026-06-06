@@ -104,9 +104,9 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                 />
               </SidebarCard>
 
-              {/* Diskografie — jen alba + EP */}
+              {/* Diskografie */}
               {albums.length > 0 && (
-                <SidebarCard title={`Diskografie · ${albums.length} alb a EP`}>
+                <SidebarCard title={`Diskografie · ${albums.length}`}>
                   <ul className="space-y-2.5">
                     {albums
                       .slice()
@@ -127,13 +127,13 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                           </a>
                         </li>
                       ))}
-                    {allReleases.length > 8 && (
+                    {albums.length > 8 && (
                       <li className="pt-2 border-t border-white/5">
                         <a
                           href={`/raperi/${rapper.slug}/alba`}
                           className="text-xs font-mono uppercase tracking-widest text-sky-400 hover:text-sky-300 transition-colors"
                         >
-                          Všechny releases ({allReleases.length}) →
+                          Všechna alba a EP →
                         </a>
                       </li>
                     )}
@@ -148,7 +148,7 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
             <MDXRenderer code={rapper.body.code} />
           </article>
 
-          {/* Albums grid pod článkem — jen alba + EP */}
+          {/* Albums grid pod článkem */}
           {albums.length > 0 && (
             <section className="mt-12 sm:mt-16">
               <div className="flex items-baseline justify-between mb-6">
@@ -170,7 +170,6 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                     meta={String(a.year)}
                     tags={a.genre || []}
                     featured={a.featured}
-                    typeLabel={a.releaseType === 'ep' ? 'EP' : 'ALBUM'}
                   />
                 ))}
               </div>

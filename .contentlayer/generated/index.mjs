@@ -4,12 +4,12 @@ export { isType } from 'contentlayer2/client'
 
 // NOTE During development Contentlayer imports from `.mjs` files to improve HMR speeds.
 // During (production) builds Contentlayer it imports from `.json` files to improve build performance.
-import allRappers from './Rapper/_index.json' with { type: 'json' }
-import allAlbums from './Album/_index.json' with { type: 'json' }
-import allLabels from './Label/_index.json' with { type: 'json' }
-import allZanrs from './Zanr/_index.json' with { type: 'json' }
-import allClaneks from './Clanek/_index.json' with { type: 'json' }
-import allSkladbas from './Skladba/_index.json' with { type: 'json' }
+import { allRappers } from './Rapper/_index.mjs'
+import { allAlbums } from './Album/_index.mjs'
+import { allLabels } from './Label/_index.mjs'
+import { allZanrs } from './Zanr/_index.mjs'
+import { allClaneks } from './Clanek/_index.mjs'
+import { allSkladbas } from './Skladba/_index.mjs'
 
 export { allRappers, allAlbums, allLabels, allZanrs, allClaneks, allSkladbas }
 

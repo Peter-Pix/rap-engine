@@ -4,7 +4,7 @@ import { allClaneks, allRappers, allZanrs } from 'contentlayer/generated'
 
 import { FeaturedHero } from '@/components/magazine/FeaturedHero'
 import { TrendingSidebar } from '@/components/magazine/TrendingSidebar'
-import { MagazineFeed } from '@/components/magazine/MagazineFeed'
+import { UnreadFeed } from '@/components/magazine/UnreadFeed'
 import { EntityCard } from '@/components/shared/EntityCard'
 
 import {
@@ -124,7 +124,7 @@ export default function MagazineHomePage() {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-8">
         {/* FEED */}
         <main>
-          <MagazineFeed articles={feed} />
+          <UnreadFeed articles={feed} />
         </main>
 
         {/* TRENDING sidebar */}

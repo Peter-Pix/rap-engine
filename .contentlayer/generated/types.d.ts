@@ -66,6 +66,7 @@ export type Clanek = {
   publishedAt: IsoDateTimeString
   updatedAt?: IsoDateTimeString | undefined
   tags?: string[] | undefined
+  deezerTrackId?: number | undefined
   /** MDX file body */
   body: MDX
   url: string
@@ -146,6 +147,8 @@ export type Skladba = {
   slug: string
   rapper: string
   rapperSlug: string
+  label?: string | undefined
+  labelSlug?: string | undefined
   features?: string[] | undefined
   featuresNames?: string[] | undefined
   album?: string | undefined

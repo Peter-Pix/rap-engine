@@ -2,29 +2,21 @@
 /**
  * deezer.mjs — SJEDNOCENÝ Deezer fetcher & saver pro 4rap rap-engine
  *
- *   node scripts/deezer.mjs search "yzomandias"              # vyhledá (top 5)
+ *   node scripts/deezer.mjs search "yzomandias"              # vyhledá (interaktivní výběr)
  *   node scripts/deezer.mjs search "noir yzomandias" --type track
  *
- *   node scripts/deezer.mjs track 3087922611                 # uloží skladbu
- *   node scripts/deezer.mjs album https://www.deezer.com/cs/album/911158401   # album + skladby
- *   node scripts/deezer.mjs artist 10525251                  # rapper entita
+ *   node scripts/deezer.mjs track 3087922611 12345           # uloží jednu nebo více skladeb
+ *   node scripts/deezer.mjs album https://www.deezer.com/cs/album/911158401 108473    # alba + skladby
+ *   node scripts/deezer.mjs artist 10525251 4050202          # rapper entity (více ID)
  *   node scripts/deezer.mjs artist 10525251 --pull-albums    # rapper + všechna alba + skladby
  *
  *   flagy: --dry-run --force --no-mdx --no-tracks --limit-albums N --limit-tracks N
- *
- * Co dělá:
- *   • Resolver přes Deezer artist ID + aliasy (Smack One → smack, P T K → ptk).
- *   • Píše data/{tracks,albums,rappers}/<slug>.json v ověřeném schématu.
- *   • Píše content/{skladby,alba,raperi}/<slug>.mdx — POUZE chybějící (ruční prózu nesmaže).
- *   • Ukládá kompletní _deezer.raw (BPM, ISRC, cover, contributors, …).
- *   • year v MDX jako ČÍSLO; description/publishedAt vždy vyplněné.
- *
- * Po doběhnutí: node scripts/extract-edges.mjs  (přestaví graf z meta)
  */
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import readline from "node:readline/promises";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -37,17 +29,27 @@ const DIR = {
 const MAP_FILE = D(path.join(DIR.maps, "deezer-artists.json"));
 const TODAY = new Date().toISOString().slice(0, 10);
 
-const [cmd, arg, ...rest] = process.argv.slice(2);
+// ──────────────── ARGUMENT PARSING ────────────────
+const argv = process.argv.slice(2);
+const cmd = argv.shift() || null;
+const operands = [];
 const FLAGS = {
-  dryRun: rest.includes("--dry-run"),
-  force: rest.includes("--force"),
-  noMdx: rest.includes("--no-mdx"),
-  noTracks: rest.includes("--no-tracks"),
-  pullAlbums: rest.includes("--pull-albums"),
-  type: takeArg(rest, "--type"),
-  limitAlbums: parseInt(takeArg(rest, "--limit-albums") || "999", 10),
-  limitTracks: parseInt(takeArg(rest, "--limit-tracks") || "9999", 10),
+  dryRun: false, force: false, noMdx: false, noTracks: false, pullAlbums: false,
+  type: null, limitAlbums: 999, limitTracks: 9999,
 };
+
+for (let i = 0; i < argv.length; i++) {
+  const a = argv[i];
+  if (a === "--dry-run") FLAGS.dryRun = true;
+  else if (a === "--force") FLAGS.force = true;
+  else if (a === "--no-mdx") FLAGS.noMdx = true;
+  else if (a === "--no-tracks") FLAGS.noTracks = true;
+  else if (a === "--pull-albums") FLAGS.pullAlbums = true;
+  else if (a === "--type" && argv[i + 1]) { FLAGS.type = argv[++i]; }
+  else if (a === "--limit-albums" && argv[i + 1]) { FLAGS.limitAlbums = parseInt(argv[++i], 10); }
+  else if (a === "--limit-tracks" && argv[i + 1]) { FLAGS.limitTracks = parseInt(argv[++i], 10); }
+  else operands.push(a);
+}
 
 const NAME = { rapper: nameIndex(DIR.rappers), album: nameIndex(DIR.albums), label: nameIndex(DIR.labels) };
 const RAPPER_SLUGS = new Set(Object.keys(NAME.rapper));
@@ -61,11 +63,24 @@ main().catch((e) => { console.error("\n✖", e.message); process.exit(1); });
 
 async function main() {
   if (!cmd) return printHelp();
-  if (cmd === "search") return runSearch(arg);
-  if (cmd === "track") return runTrack(parseDeezerId(arg));
-  if (cmd === "album") return runAlbum(parseDeezerId(arg));
-  if (cmd === "artist") return runArtist(parseDeezerId(arg));
+  if (cmd === "search") return runSearch(operands.join(" "));
+  if (cmd === "track") return runBatch(operands, processTrack);
+  if (cmd === "album") return runBatch(operands, processAlbum);
+  if (cmd === "artist") return runBatch(operands, processArtist);
   printHelp();
+}
+
+// ──────────────── BATCH PROCESSING ────────────────
+async function runBatch(ids, processorFn) {
+  if (!ids.length) return console.log("Zadej alespoň jedno Deezer ID nebo URL.");
+  for (const id of ids) {
+    try {
+      await processorFn(id);
+    } catch (e) {
+      console.error(`\n✖ Chyba při zpracování ${id}: ${e.message}`);
+    }
+    if (ids.indexOf(id) < ids.length - 1) await sleep(350);
+  }
 }
 
 // ──────────────── SEARCH ────────────────
@@ -73,21 +88,53 @@ async function runSearch(query) {
   if (!query) return console.log("Zadej dotaz: deezer.mjs search \"yzomandias\" [--type track|album|artist]");
   const type = FLAGS.type || "track";
   const url = type === "artist" ? `search/artist` : type === "album" ? `search/album` : `search/track`;
-  const r = await dz(`${url}?q=${encodeURIComponent(query)}&limit=5`);
+  const r = await dz(`${url}?q=${encodeURIComponent(query)}&limit=10`);
   const items = r.data || [];
   if (!items.length) return console.log("Nic nenalezeno.");
+
   console.log(`Top ${items.length} ${type}:`);
-  for (const it of items) {
-    if (type === "artist") console.log(`  id ${it.id}  ${it.name}  (${it.nb_fan} fans)`);
-    else if (type === "album") console.log(`  id ${it.id}  "${it.title}" — ${it.artist?.name}  (${it.nb_tracks} skl.)`);
-    else console.log(`  id ${it.id}  "${it.title}" — ${it.artist?.name}  [album: ${it.album?.title}]`);
+  for (let i = 0; i < items.length; i++) {
+    const it = items[i];
+    if (type === "artist") console.log(`  [${i + 1}] id ${it.id}  ${it.name}  (${it.nb_fan} fans)`);
+    else if (type === "album") console.log(`  [${i + 1}] id ${it.id}  "${it.title}" — ${it.artist?.name}  (${it.nb_tracks} skl.)`);
+    else console.log(`  [${i + 1}] id ${it.id}  "${it.title}" — ${it.artist?.name}  [album: ${it.album?.title}]`);
   }
-  console.log(`\nPro uložení: node scripts/deezer.mjs ${type} <id>`);
+
+  const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+  const answer = await rl.question(`\nVyber položky k uložení (např. 1,3-5) nebo Enter pro přeskočení: `);
+  rl.close();
+
+  const selectedIndices = parseSelection(answer, items.length);
+  for (const idx of selectedIndices) {
+    const it = items[idx - 1];
+    console.log(`\n→ Zpracovávám výběr [${idx}]: ${it.name || it.title}`);
+    if (type === "artist") await processArtist(String(it.id));
+    else if (type === "album") await processAlbum(String(it.id));
+    else await processTrack(String(it.id));
+    await sleep(300);
+  }
+}
+
+function parseSelection(input, max) {
+  const selected = new Set();
+  if (!input) return [];
+  input.split(",").forEach((part) => {
+    part = part.trim();
+    if (part.includes("-")) {
+      const [start, end] = part.split("-").map(Number);
+      for (let i = start; i <= Math.min(end, max); i++) if (i > 0) selected.add(i);
+    } else {
+      const num = parseInt(part, 10);
+      if (num > 0 && num <= max) selected.add(num);
+    }
+  });
+  return [...selected].sort((a, b) => a - b);
 }
 
 // ──────────────── TRACK ────────────────
-async function runTrack(id) {
-  if (!id) return console.log("Zadej Deezer track ID nebo URL.");
+async function processTrack(idOrUrl) {
+  const id = parseDeezerId(idOrUrl);
+  if (!id) return console.log(`⚠ Nelze parsovat track ID: ${idOrUrl}`);
   const t = await dz(`track/${id}`);
   if (t.error) throw new Error(`Deezer: ${t.error.message}`);
   await saveTrack(t);
@@ -116,18 +163,11 @@ async function saveTrack(t, ctx = {}) {
       primaryArtist: { kind: "rapper", slug: primarySlug },
       features: featDedup.map((f) => ({ kind: "rapper", slug: f.slug })),
       album: albumSlug ? { kind: "album", slug: albumSlug } : null,
-      producers: [],
-      year,
-      duration: t.duration ? fmtDur(t.duration) : null,
+      producers: [], year, duration: t.duration ? fmtDur(t.duration) : null,
       trackNumber: t.track_position ?? ctx.trackNumber ?? null,
-      genres: [],
-      deezerId: t.id,
-      isrc: t.isrc || null,
-      rank: t.rank || null,
-      explicit: !!t.explicit_lyrics,
-      cover: t.album?.cover_xl || t.album?.cover_big || null,
-      previewUrl: t.preview || null,
-      bpm: t.bpm && t.bpm > 0 ? Math.round(t.bpm) : null,
+      genres: [], deezerId: t.id, isrc: t.isrc || null, rank: t.rank || null,
+      explicit: !!t.explicit_lyrics, cover: t.album?.cover_xl || t.album?.cover_big || null,
+      previewUrl: t.preview || null, bpm: t.bpm && t.bpm > 0 ? Math.round(t.bpm) : null,
     },
     significance: emptySig(), timeline: [], quotes: [], faq: [],
     hasLongform: false, seo: { noindex: true },
@@ -142,8 +182,7 @@ async function saveTrack(t, ctx = {}) {
     featuresNames: featDedup.map((f) => f.name),
     album: albumSlug ? (NAME.album[albumSlug] || ctx.albumTitle || t.album?.title) : undefined,
     albumSlug: albumSlug || undefined,
-    year: year ?? undefined,
-    genre: [],
+    year: year ?? undefined, genre: [],
     duration: t.duration ? fmtDur(t.duration) : undefined,
     trackNumber: t.track_position ?? ctx.trackNumber ?? undefined,
     producers: [], producersNames: [],
@@ -160,8 +199,9 @@ async function saveTrack(t, ctx = {}) {
 }
 
 // ──────────────── ALBUM ────────────────
-async function runAlbum(id) {
-  if (!id) return console.log("Zadej Deezer album ID nebo URL.");
+async function processAlbum(idOrUrl) {
+  const id = parseDeezerId(idOrUrl);
+  if (!id) return console.log(`⚠ Nelze parsovat album ID: ${idOrUrl}`);
   const a = await dz(`album/${id}`);
   if (a.error) throw new Error(`Deezer: ${a.error.message}`);
   await saveAlbum(a);
@@ -213,11 +253,9 @@ async function saveAlbum(a) {
     rapperSlug: artistSlug,
     label: labelSlug ? (NAME.label[labelSlug] || a.label) : (a.label || undefined),
     labelSlug: labelSlug || undefined,
-    year: year ?? undefined,
-    genre: genres,
+    year: year ?? undefined, genre: genres,
     description: `${a.title} — ${labelOfType(a.record_type)} od ${NAME.rapper[artistSlug] || a.artist?.name || artistSlug}${year ? ` (${year})` : ""}.`,
-    image: a.cover_xl || undefined,
-    tracklist: trackTitles.length ? trackTitles : undefined,
+    image: a.cover_xl || undefined, tracklist: trackTitles.length ? trackTitles : undefined,
     publishedAt: TODAY,
   })}\n---\n\n## O albu\n\n_Stub — doplnit._\n`;
 
@@ -231,8 +269,9 @@ async function saveAlbum(a) {
 }
 
 // ──────────────── ARTIST ────────────────
-async function runArtist(id) {
-  if (!id) return console.log("Zadej Deezer artist ID, jméno nebo URL.");
+async function processArtist(idOrUrl) {
+  const id = parseDeezerId(idOrUrl);
+  if (!id) return console.log(`⚠ Nelze parsovat artist ID: ${idOrUrl}`);
   const a = await dz(`artist/${id}`);
   if (a.error) throw new Error(`Deezer: ${a.error.message}`);
   await saveArtist(a);
@@ -240,12 +279,14 @@ async function runArtist(id) {
   if (FLAGS.pullAlbums) {
     const albums = await dzPage(`artist/${a.id}/albums`, FLAGS.limitAlbums);
     console.log(`  → ${albums.length} alb`);
-    for (const al of albums) { await runAlbum(al.id); await sleep(280); }
+    for (const al of albums) {
+      await processAlbum(String(al.id));
+      await sleep(280);
+    }
   }
 }
 
 async function saveArtist(a) {
-  // pokud už existuje v mapě, použij ten kanonický slug; jinak resolveByName; jinak nový stub slug
   const existing = MAP.byId?.[String(a.id)] || resolveByName(a.name);
   const slug = existing || slugify(a.name);
 
@@ -275,7 +316,6 @@ async function saveArtist(a) {
     mdxPath: D(path.join(DIR.mdxRappers, `${slug}.mdx`)), mdx: rapperMdx,
   });
 
-  // ulož mapování ID → slug
   MAP.byId = MAP.byId || {};
   if (MAP.byId[String(a.id)] !== slug) { MAP.byId[String(a.id)] = slug; saveMap(); }
   RAPPER_SLUGS.add(slug); NAME.rapper[slug] = a.name;
@@ -390,15 +430,14 @@ function loadMap() {
 }
 function saveMap() { fs.mkdirSync(D(DIR.maps), { recursive: true }); fs.writeFileSync(MAP_FILE, JSON.stringify(MAP, null, 2) + "\n", "utf8"); }
 function listJson(dir) { try { return fs.readdirSync(dir).filter((f) => f.endsWith(".json") && !f.startsWith("_")); } catch { return []; } }
-function takeArg(arr, name) { const i = arr.indexOf(name); return i >= 0 ? arr[i + 1] : null; }
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 function printHelp() {
   console.log(`deezer.mjs — Deezer fetcher pro 4rap rap-engine
 
-  search   "<dotaz>"        [--type track|album|artist]
-  track    <id|url>
-  album    <id|url>          [--no-tracks --limit-tracks N]
-  artist   <id|url>          [--pull-albums --limit-albums N]
+  search   "<dotaz>"        [--type track|album|artist]  (interaktivní výběr)
+  track    <id|url> [...]    (více ID oddělených mezerou)
+  album    <id|url> [...]    [--no-tracks --limit-tracks N]
+  artist   <id|url> [...]    [--pull-albums --limit-albums N]
 
   spol.:  --dry-run  --force  --no-mdx`);
 }

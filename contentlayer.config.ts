@@ -157,6 +157,7 @@ export const Clanek = defineDocumentType(() => ({
     publishedAt: { type: 'date',     required: true },
     updatedAt:   { type: 'date',     required: false },
     tags:        { type: 'list',     of: { type: 'string' }, required: false },
+    deezerTrackId:{ type: 'number',   required: false },
   },
   computedFields: {
     url:          { type: 'string', resolve: (doc) => `/clanky/${doc.slug}` },
@@ -178,6 +179,8 @@ export const Skladba = defineDocumentType(() => ({
     slug:         { type: 'string',   required: true },
     rapper:       { type: 'string',   required: true },
     rapperSlug:   { type: 'string',   required: true },
+    label:        { type: 'string',   required: false },
+    labelSlug:    { type: 'string',   required: false },
     features:     { type: 'list',     of: { type: 'string' }, required: false },
     featuresNames: { type: 'list',    of: { type: 'string' }, required: false },
     album:        { type: 'string',   required: false },
