@@ -14,16 +14,19 @@
   "album": "Space Lopata",
   "albumSlug": "space-lopata",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:42",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Poseru trůn — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=l(r,a))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?m(h(e)):{},u(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var d=_((w,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>i,frontmatter:()=>y});var t=g(d()),y={title:\"Poseru tr\\u016Fn\",slug:\"poseru-trun-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\",\"dj-zerwox\"],featuresNames:[\"Str\\xFDc Nory\",\"DJ Zerwox\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[],duration:\"2:42\",trackNumber:9,producers:[],producersNames:[],description:\"Poseru tr\\u016Fn \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function p(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Poseru trůn](/skladby/poseru-trun-idea)** od [Idea](/raperi/idea) z alba [Space Lopata](/alba/space-lopata) (2023).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},u=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!h.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return r};var j=(r,e,t)=>(t=r!=null?l(f(r)):{},u(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),y=r=>u(o({},\"__esModule\",{value:!0}),r);var d=b((k,c)=>{c.exports=_jsx_runtime});var S={};g(S,{default:()=>i,frontmatter:()=>_});var a=j(d()),_={title:\"Poseru tr\\u016Fn\",slug:\"poseru-trun-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\",\"dj-zerwox\"],featuresNames:[\"Str\\xFDc Nory\",\"DJ Zerwox\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[\"\"],duration:\"2:42\",trackNumber:9,producers:[],producersNames:[],description:\"Poseru tr\\u016Fn \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/poseru-trun-idea\",children:\"Poseru tr\\u016Fn\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/space-lopata\",children:\"Space Lopata\"}),\" (2023).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return y(S);})();\n;return Component;"
   },
   "_id": "skladby/poseru-trun-idea.mdx",
   "_raw": {

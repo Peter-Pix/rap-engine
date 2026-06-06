@@ -8,16 +8,19 @@
   "album": "AssDrop",
   "albumSlug": "assdrop",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:00",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "AssDrop — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var o in t)s(e,o,{get:t[o],enumerable:!0})},u=(e,t,o,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of l(t))!g.call(e,n)&&n!==o&&s(e,n,{get:()=>t[n],enumerable:!(a=i(t,n))||a.enumerable});return e};var b=(e,t,o)=>(o=e!=null?m(h(e)):{},u(t||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var p=f((N,x)=>{x.exports=_jsx_runtime});var A={};_(A,{default:()=>d,frontmatter:()=>D});var r=b(p()),D={title:\"AssDrop\",slug:\"assdrop-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"AssDrop\",albumSlug:\"assdrop\",year:2026,genre:[],duration:\"2:00\",trackNumber:1,producers:[],producersNames:[],description:\"AssDrop \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(A);})();\n;return Component;"
+    "raw": "\n**[AssDrop](/skladby/assdrop-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2026).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,o)=>()=>(o||r((o={exports:{}}).exports,o),o.exports),b=(r,o)=>{for(var e in o)n(r,e,{get:o[e],enumerable:!0})},a=(r,o,e,x)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let t of g(o))!m.call(r,t)&&t!==e&&n(r,t,{get:()=>o[t],enumerable:!(x=l(o,t))||x.enumerable});return r};var D=(r,o,e)=>(e=r!=null?i(h(r)):{},a(o||!r||!r.__esModule?n(e,\"default\",{value:r,enumerable:!0}):e,r)),_=r=>a(n({},\"__esModule\",{value:!0}),r);var p=f((y,u)=>{u.exports=_jsx_runtime});var A={};b(A,{default:()=>c,frontmatter:()=>j});var s=D(p()),j={title:\"AssDrop\",slug:\"assdrop-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"AssDrop\",albumSlug:\"assdrop\",year:2026,genre:[\"\"],duration:\"2:00\",trackNumber:1,producers:[],producersNames:[],description:\"AssDrop \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function d(r){let o={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(o.p,{children:[(0,s.jsx)(o.strong,{children:(0,s.jsx)(o.a,{href:\"/skladby/assdrop-hugo-toxxx\",children:\"AssDrop\"})}),\" od \",(0,s.jsx)(o.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2026).\"]})}function c(r={}){let{wrapper:o}=r.components||{};return o?(0,s.jsx)(o,{...r,children:(0,s.jsx)(d,{...r})}):d(r)}return _(A);})();\n;return Component;"
   },
   "_id": "skladby/assdrop-hugo-toxxx.mdx",
   "_raw": {

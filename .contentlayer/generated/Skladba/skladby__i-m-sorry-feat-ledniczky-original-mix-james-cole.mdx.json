@@ -12,16 +12,19 @@
   "album": "I'm Sorry feat. Ledniczky",
   "albumSlug": "i-m-sorry-feat-ledniczky",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:52",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "I m Sorry feat. Ledniczky (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of y(r))!f.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(i=p(r,a))||i.enumerable});return e};var k=(e,r,t)=>(t=e!=null?u(x(e)):{},s(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var m=g((S,c)=>{c.exports=_jsx_runtime});var _={};h(_,{default:()=>d,frontmatter:()=>z});var n=k(m()),z={title:\"I m Sorry feat. Ledniczky (Original Mix)\",slug:\"i-m-sorry-feat-ledniczky-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ledniczky\"],featuresNames:[\"Ledniczky\"],album:\"I'm Sorry feat. Ledniczky\",albumSlug:\"i-m-sorry-feat-ledniczky\",year:2023,genre:[],duration:\"6:52\",trackNumber:1,producers:[],producersNames:[],description:\"I m Sorry feat. Ledniczky (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(_);})();\n;return Component;"
+    "raw": "\n**[I m Sorry feat. Ledniczky (Original Mix)](/skladby/i-m-sorry-feat-ledniczky-original-mix-james-cole)** od [James Cole](/raperi/james-cole) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!x.call(r,t)&&t!==n&&i(r,t,{get:()=>e[t],enumerable:!(o=y(e,t))||o.enumerable});return r};var j=(r,e,n)=>(n=r!=null?u(p(r)):{},s(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),z=r=>s(i({},\"__esModule\",{value:!0}),r);var l=g((M,c)=>{c.exports=_jsx_runtime});var b={};k(b,{default:()=>d,frontmatter:()=>h});var a=j(l()),h={title:\"I m Sorry feat. Ledniczky (Original Mix)\",slug:\"i-m-sorry-feat-ledniczky-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ledniczky\"],featuresNames:[\"Ledniczky\"],album:\"I'm Sorry feat. Ledniczky\",albumSlug:\"i-m-sorry-feat-ledniczky\",year:2023,genre:[\"\"],duration:\"6:52\",trackNumber:1,producers:[],producersNames:[],description:\"I m Sorry feat. Ledniczky (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/i-m-sorry-feat-ledniczky-original-mix-james-cole\",children:\"I m Sorry feat. Ledniczky (Original Mix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" (2023).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return z(b);})();\n;return Component;"
   },
   "_id": "skladby/i-m-sorry-feat-ledniczky-original-mix-james-cole.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Soundtrack (Instrumentals)",
   "albumSlug": "soundtrack-instrumentals",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:20",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Ztraceno v překladu (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),k=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(u=i(e,a))||u.enumerable});return t};var _=(t,e,r)=>(r=t!=null?p(f(t)):{},o(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),b=t=>o(s({},\"__esModule\",{value:!0}),t);var l=j((S,c)=>{c.exports=_jsx_runtime});var D={};k(D,{default:()=>m,frontmatter:()=>g});var n=_(l()),g={title:\"Ztraceno v p\\u0159ekladu (Instrumental)\",slug:\"ztraceno-v-prekladu-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[],duration:\"3:20\",trackNumber:9,producers:[],producersNames:[],description:\"Ztraceno v p\\u0159ekladu (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Ztraceno v překladu (Instrumental)](/skladby/ztraceno-v-prekladu-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack (Instrumentals)](/alba/soundtrack-instrumentals) (2021).\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!h.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(u=p(t,n))||u.enumerable});return e};var b=(e,t,a)=>(a=e!=null?i(k(e)):{},o(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>o(s({},\"__esModule\",{value:!0}),e);var d=j((I,l)=>{l.exports=_jsx_runtime});var v={};x(v,{default:()=>m,frontmatter:()=>_});var r=b(d()),_={title:\"Ztraceno v p\\u0159ekladu (Instrumental)\",slug:\"ztraceno-v-prekladu-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[\"\"],duration:\"3:20\",trackNumber:9,producers:[],producersNames:[],description:\"Ztraceno v p\\u0159ekladu (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/ztraceno-v-prekladu-instrumental-dj-fatte\",children:\"Ztraceno v p\\u0159ekladu (Instrumental)\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/soundtrack-instrumentals\",children:\"Soundtrack (Instrumentals)\"}),\" (2021).\"]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(v);})();\n;return Component;"
   },
   "_id": "skladby/ztraceno-v-prekladu-instrumental-dj-fatte.mdx",
   "_raw": {

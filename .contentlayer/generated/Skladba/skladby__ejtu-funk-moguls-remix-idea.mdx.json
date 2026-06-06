@@ -14,16 +14,19 @@
   "album": "O beatech a remixech",
   "albumSlug": "o-beatech-a-remixech",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:34",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Ejtu (Funk Moguls Remix) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!g.call(e,a)&&a!==r&&u(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(h(e)):{},s(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>s(u({},\"__esModule\",{value:!0}),e);var c=f((A,m)=>{m.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>_});var n=b(c()),_={title:\"Ejtu (Funk Moguls Remix)\",slug:\"ejtu-funk-moguls-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"dj-aka\",\"funk-moguls\"],featuresNames:[\"DJ AKA\",\"Funk Moguls\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[],duration:\"1:34\",trackNumber:5,producers:[],producersNames:[],description:\"Ejtu (Funk Moguls Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return k(M);})();\n;return Component;"
+    "raw": "\n**[Ejtu (Funk Moguls Remix)](/skladby/ejtu-funk-moguls-remix-idea)** od [Idea](/raperi/idea) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var t in e)u(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!f.call(r,n)&&n!==t&&u(r,n,{get:()=>e[n],enumerable:!(o=x(e,n))||o.enumerable});return r};var k=(r,e,t)=>(t=r!=null?m(g(r)):{},s(e||!r||!r.__esModule?u(t,\"default\",{value:r,enumerable:!0}):t,r)),b=r=>s(u({},\"__esModule\",{value:!0}),r);var d=h((y,i)=>{i.exports=_jsx_runtime});var _={};j(_,{default:()=>l,frontmatter:()=>M});var a=k(d()),M={title:\"Ejtu (Funk Moguls Remix)\",slug:\"ejtu-funk-moguls-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"dj-aka\",\"funk-moguls\"],featuresNames:[\"DJ AKA\",\"Funk Moguls\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[\"\"],duration:\"1:34\",trackNumber:5,producers:[],producersNames:[],description:\"Ejtu (Funk Moguls Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/ejtu-funk-moguls-remix-idea\",children:\"Ejtu (Funk Moguls Remix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" (2021).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/ejtu-funk-moguls-remix-idea.mdx",
   "_raw": {

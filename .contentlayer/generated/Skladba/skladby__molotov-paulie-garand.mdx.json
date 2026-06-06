@@ -14,16 +14,19 @@
   "album": "DANK",
   "albumSlug": "dank",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:30",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Molotov — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(g(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((N,l)=>{l.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>M});var n=b(d()),M={title:\"Molotov\",slug:\"molotov-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"rest\"],featuresNames:[\"Kenny Rough\",\"Rest\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[],duration:\"4:30\",trackNumber:10,producers:[],producersNames:[],description:\"Molotov \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Molotov](/skladby/molotov-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [DANK](/alba/dank) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of g(a))!f.call(e,o)&&o!==n&&t(e,o,{get:()=>a[o],enumerable:!(l=m(a,o))||l.enumerable});return e};var k=(e,a,n)=>(n=e!=null?p(h(e)):{},s(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),M=e=>s(t({},\"__esModule\",{value:!0}),e);var d=x((y,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>_});var r=k(d()),_={title:\"Molotov\",slug:\"molotov-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"rest\"],featuresNames:[\"Kenny Rough\",\"Rest\"],album:\"DANK\",albumSlug:\"dank\",year:2018,genre:[\"\"],duration:\"4:30\",trackNumber:10,producers:[],producersNames:[],description:\"Molotov \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/molotov-paulie-garand\",children:\"Molotov\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/dank\",children:\"DANK\"}),\" (2018).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/molotov-paulie-garand.mdx",
   "_raw": {

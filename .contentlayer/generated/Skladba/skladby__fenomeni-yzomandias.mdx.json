@@ -14,16 +14,19 @@
   "album": "Yzotape",
   "albumSlug": "yzotape",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:45",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Fenoméni — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),z=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(x(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var c=k((F,m)=>{m.exports=_jsx_runtime});var j={};z(j,{default:()=>d,frontmatter:()=>g});var t=_(c()),g={title:\"Fenom\\xE9ni\",slug:\"fenomeni-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\",\"zkrat-kratochvil\"],featuresNames:[\"Jickson\",\"Zkrat Kratochv\\xEDl\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[],duration:\"4:45\",trackNumber:1,producers:[],producersNames:[],description:\"Fenom\\xE9ni \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Fenoméni](/skladby/fenomeni-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Yzotape](/alba/yzotape) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),y=(a,e)=>{for(var o in e)t(a,o,{get:e[o],enumerable:!0})},i=(a,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of z(e))!h.call(a,r)&&r!==o&&t(a,r,{get:()=>e[r],enumerable:!(s=u(e,r))||s.enumerable});return a};var b=(a,e,o)=>(o=a!=null?p(f(a)):{},i(e||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),k=a=>i(t({},\"__esModule\",{value:!0}),a);var m=x((Y,d)=>{d.exports=_jsx_runtime});var j={};y(j,{default:()=>l,frontmatter:()=>g});var n=b(m()),g={title:\"Fenom\\xE9ni\",slug:\"fenomeni-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\",\"zkrat-kratochvil\"],featuresNames:[\"Jickson\",\"Zkrat Kratochv\\xEDl\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[\"\"],duration:\"4:45\",trackNumber:1,producers:[],producersNames:[],description:\"Fenom\\xE9ni \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/fenomeni-yzomandias\",children:\"Fenom\\xE9ni\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/yzotape\",children:\"Yzotape\"}),\" (2021).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(c,{...a})}):c(a)}return k(j);})();\n;return Component;"
   },
   "_id": "skladby/fenomeni-yzomandias.mdx",
   "_raw": {

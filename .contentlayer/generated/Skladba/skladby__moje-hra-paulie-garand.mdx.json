@@ -8,16 +8,19 @@
   "album": "NAHORU NA DNO",
   "albumSlug": "nahoru-na-dno",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:59",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "MOJE HRA — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var b=(e,n,t)=>(t=e!=null?m(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((O,d)=>{d.exports=_jsx_runtime});var A={};_(A,{default:()=>c,frontmatter:()=>N});var r=b(i()),N={title:\"MOJE HRA\",slug:\"moje-hra-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"NAHORU NA DNO\",albumSlug:\"nahoru-na-dno\",year:2024,genre:[],duration:\"2:59\",trackNumber:6,producers:[],producersNames:[],description:\"MOJE HRA \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(A);})();\n;return Component;"
+    "raw": "\n**[MOJE HRA](/skladby/moje-hra-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [NAHORU NA DNO](/alba/nahoru-na-dno) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),N=(r,a)=>{for(var n in a)o(r,n,{get:a[n],enumerable:!0})},s=(r,a,n,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>a[t],enumerable:!(u=h(a,t))||u.enumerable});return r};var b=(r,a,n)=>(n=r!=null?p(g(r)):{},s(a||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),A=r=>s(o({},\"__esModule\",{value:!0}),r);var l=x((_,d)=>{d.exports=_jsx_runtime});var O={};N(O,{default:()=>c,frontmatter:()=>j});var e=b(l()),j={title:\"MOJE HRA\",slug:\"moje-hra-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"NAHORU NA DNO\",albumSlug:\"nahoru-na-dno\",year:2024,genre:[\"\"],duration:\"2:59\",trackNumber:6,producers:[],producersNames:[],description:\"MOJE HRA \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/moje-hra-paulie-garand\",children:\"MOJE HRA\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/nahoru-na-dno\",children:\"NAHORU NA DNO\"}),\" (2024).\"]})}function c(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(i,{...r})}):i(r)}return A(O);})();\n;return Component;"
   },
   "_id": "skladby/moje-hra-paulie-garand.mdx",
   "_raw": {

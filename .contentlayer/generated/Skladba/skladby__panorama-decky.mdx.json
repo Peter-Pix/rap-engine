@@ -12,16 +12,19 @@
   "album": "KINGPIN",
   "albumSlug": "kingpin",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:01",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "PANORAMA — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!f.call(e,a)&&a!==r&&s(e,a,{get:()=>n[a],enumerable:!(o=l(n,a))||o.enumerable});return e};var A=(e,n,r)=>(r=e!=null?p(x(e)):{},c(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>c(s({},\"__esModule\",{value:!0}),e);var m=g((j,u)=>{u.exports=_jsx_runtime});var b={};k(b,{default:()=>i,frontmatter:()=>_});var t=A(m()),_={title:\"PANORAMA\",slug:\"panorama-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"hasan\"],featuresNames:[\"Hasan\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[],duration:\"3:01\",trackNumber:8,producers:[],producersNames:[],description:\"PANORAMA \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return N(b);})();\n;return Component;"
+    "raw": "\n**[PANORAMA](/skladby/panorama-decky)** od [Decky](/raperi/decky) z alba [KINGPIN](/alba/kingpin) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),A=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of k(e))!f.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(o=m(e,t))||o.enumerable});return r};var N=(r,e,n)=>(n=r!=null?l(h(r)):{},c(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>c(s({},\"__esModule\",{value:!0}),r);var i=y((_,d)=>{d.exports=_jsx_runtime});var b={};A(b,{default:()=>u,frontmatter:()=>x});var a=N(i()),x={title:\"PANORAMA\",slug:\"panorama-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"hasan\"],featuresNames:[\"Hasan\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[\"\"],duration:\"3:01\",trackNumber:8,producers:[],producersNames:[],description:\"PANORAMA \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/panorama-decky\",children:\"PANORAMA\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/kingpin\",children:\"KINGPIN\"}),\" (2019).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return g(b);})();\n;return Component;"
   },
   "_id": "skladby/panorama-decky.mdx",
   "_raw": {

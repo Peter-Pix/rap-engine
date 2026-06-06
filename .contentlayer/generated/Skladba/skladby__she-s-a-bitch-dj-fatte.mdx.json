@@ -8,16 +8,19 @@
   "album": "Short Stories 2",
   "albumSlug": "short-stories-2",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "She'S A Bitch — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var S=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of p(e))!f.call(t,s)&&s!==n&&a(t,s,{get:()=>e[s],enumerable:!(o=l(e,s))||o.enumerable});return t};var j=(t,e,n)=>(n=t!=null?m(x(t)):{},c(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>c(a({},\"__esModule\",{value:!0}),t);var u=S((A,i)=>{i.exports=_jsx_runtime});var D={};b(D,{default:()=>h,frontmatter:()=>g});var r=j(u()),g={title:\"She'S A Bitch\",slug:\"she-s-a-bitch-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Short Stories 2\",albumSlug:\"short-stories-2\",year:2017,genre:[],duration:\"3:16\",trackNumber:4,producers:[],producersNames:[],description:\"She'S A Bitch \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return _(D);})();\n;return Component;"
+    "raw": "\n**[She'S A Bitch](/skladby/she-s-a-bitch-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Short Stories 2](/alba/short-stories-2) (2017).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,S=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,n)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of f(t))!S.call(e,s)&&s!==a&&o(e,s,{get:()=>t[s],enumerable:!(n=p(t,s))||n.enumerable});return e};var x=(e,t,a)=>(a=e!=null?l(m(e)):{},i(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var h=b((k,c)=>{c.exports=_jsx_runtime});var D={};j(D,{default:()=>u,frontmatter:()=>_});var r=x(h()),_={title:\"She'S A Bitch\",slug:\"she-s-a-bitch-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Short Stories 2\",albumSlug:\"short-stories-2\",year:2017,genre:[\"\"],duration:\"3:16\",trackNumber:4,producers:[],producersNames:[],description:\"She'S A Bitch \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/she-s-a-bitch-dj-fatte\",children:\"She'S A Bitch\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/short-stories-2\",children:\"Short Stories 2\"}),\" (2017).\"]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(D);})();\n;return Component;"
   },
   "_id": "skladby/she-s-a-bitch-dj-fatte.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Timeless Emotions",
   "albumSlug": "timeless-emotions",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:04",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Emoce evokujeme — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),v=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!j.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(a=d(t,r))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>m(s({},\"__esModule\",{value:!0}),e);var u=f((E,c)=>{c.exports=_jsx_runtime});var k={};v(k,{default:()=>l,frontmatter:()=>g});var o=_(u()),g={title:\"Emoce evokujeme\",slug:\"emoce-evokujeme-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Timeless Emotions\",albumSlug:\"timeless-emotions\",year:2023,genre:[],duration:\"2:04\",trackNumber:1,producers:[],producersNames:[],description:\"Emoce evokujeme \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(i,{...e})}):i(e)}return b(k);})();\n;return Component;"
+    "raw": "\n**[Emoce evokujeme](/skladby/emoce-evokujeme-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) (2023).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var v=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),h=(o,e)=>{for(var r in e)n(o,r,{get:e[r],enumerable:!0})},c=(o,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of v(e))!f.call(o,t)&&t!==r&&n(o,t,{get:()=>e[t],enumerable:!(a=i(e,t))||a.enumerable});return o};var k=(o,e,r)=>(r=o!=null?d(j(o)):{},c(e||!o||!o.__esModule?n(r,\"default\",{value:o,enumerable:!0}):r,o)),g=o=>c(n({},\"__esModule\",{value:!0}),o);var u=x((E,m)=>{m.exports=_jsx_runtime});var _={};h(_,{default:()=>l,frontmatter:()=>b});var s=k(u()),b={title:\"Emoce evokujeme\",slug:\"emoce-evokujeme-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Timeless Emotions\",albumSlug:\"timeless-emotions\",year:2023,genre:[\"\"],duration:\"2:04\",trackNumber:1,producers:[],producersNames:[],description:\"Emoce evokujeme \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/emoce-evokujeme-lvcas-dope\",children:\"Emoce evokujeme\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" (2023).\"]})}function l(o={}){let{wrapper:e}=o.components||{};return e?(0,s.jsx)(e,{...o,children:(0,s.jsx)(p,{...o})}):p(o)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/emoce-evokujeme-lvcas-dope.mdx",
   "_raw": {

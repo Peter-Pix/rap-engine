@@ -12,16 +12,19 @@
   "album": "Mezitím",
   "albumSlug": "mezitim",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:56",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Stejný jako včera — skladba od IdeaFatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of j(t))!x.call(e,n)&&n!==r&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(f(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var m=h((M,i)=>{i.exports=_jsx_runtime});var F={};_(F,{default:()=>c,frontmatter:()=>k});var a=b(m()),k={title:\"Stejn\\xFD jako v\\u010Dera\",slug:\"stejny-jako-vcera-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[],duration:\"3:56\",trackNumber:3,producers:[],producersNames:[],description:\"Stejn\\xFD jako v\\u010Dera \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[Stejný jako včera](/skladby/stejny-jako-vcera-ideafatte)** z alba [Mezitím](/alba/mezitim) (2008).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},i=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!x.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=j(e,n))||s.enumerable});return t};var k=(t,e,a)=>(a=t!=null?l(f(t)):{},i(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>i(o({},\"__esModule\",{value:!0}),t);var c=b((z,d)=>{d.exports=_jsx_runtime});var v={};h(v,{default:()=>m,frontmatter:()=>_});var r=k(c()),_={title:\"Stejn\\xFD jako v\\u010Dera\",slug:\"stejny-jako-vcera-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[\"\"],duration:\"3:56\",trackNumber:3,producers:[],producersNames:[],description:\"Stejn\\xFD jako v\\u010Dera \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/stejny-jako-vcera-ideafatte\",children:\"Stejn\\xFD jako v\\u010Dera\"})}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/mezitim\",children:\"Mezit\\xEDm\"}),\" (2008).\"]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return g(v);})();\n;return Component;"
   },
   "_id": "skladby/stejny-jako-vcera-ideafatte.mdx",
   "_raw": {

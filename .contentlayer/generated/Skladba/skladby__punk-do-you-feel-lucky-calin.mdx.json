@@ -8,16 +8,19 @@
   "album": "Menaces & Opportunités",
   "albumSlug": "menaces-opportunites",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:12",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Punk (Do You Feel Lucky?) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)u(e,r,{get:n[r],enumerable:!0})},a=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!f.call(e,o)&&o!==r&&u(e,o,{get:()=>n[o],enumerable:!(s=d(n,o))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?m(h(e)):{},a(n||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>a(u({},\"__esModule\",{value:!0}),e);var l=k((N,c)=>{c.exports=_jsx_runtime});var j={};_(j,{default:()=>i,frontmatter:()=>y});var t=b(l()),y={title:\"Punk (Do You Feel Lucky?)\",slug:\"punk-do-you-feel-lucky-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Menaces & Opportunit\\xE9s\",albumSlug:\"menaces-opportunites\",year:2013,genre:[],duration:\"6:12\",trackNumber:3,producers:[],producersNames:[],description:\"Punk (Do You Feel Lucky?) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Punk (Do You Feel Lucky?)](/skladby/punk-do-you-feel-lucky-calin)** od [Calin](/raperi/calin) z alba [Menaces & Opportunités](/alba/menaces-opportunites) (2013).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var t in e)a(n,t,{get:e[t],enumerable:!0})},s=(n,e,t,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of k(e))!h.call(n,o)&&o!==t&&a(n,o,{get:()=>e[o],enumerable:!(u=m(e,o))||u.enumerable});return n};var b=(n,e,t)=>(t=n!=null?d(f(n)):{},s(e||!n||!n.__esModule?a(t,\"default\",{value:n,enumerable:!0}):t,n)),g=n=>s(a({},\"__esModule\",{value:!0}),n);var l=y((C,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>p,frontmatter:()=>L});var r=b(l()),L={title:\"Punk (Do You Feel Lucky?)\",slug:\"punk-do-you-feel-lucky-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Menaces & Opportunit\\xE9s\",albumSlug:\"menaces-opportunites\",year:2013,genre:[\"\"],duration:\"6:12\",trackNumber:3,producers:[],producersNames:[],description:\"Punk (Do You Feel Lucky?) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/punk-do-you-feel-lucky-calin\",children:\"Punk (Do You Feel Lucky?)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/menaces-opportunites\",children:\"Menaces & Opportunit\\xE9s\"}),\" (2013).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(i,{...n})}):i(n)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/punk-do-you-feel-lucky-calin.mdx",
   "_raw": {

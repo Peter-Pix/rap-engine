@@ -12,16 +12,19 @@
   "album": "V hlavní roli",
   "albumSlug": "v-hlavni-roli",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:51",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Pramen — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!g.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(s=c(n,t))||s.enumerable});return e};var b=(e,n,a)=>(a=e!=null?d(x(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var l=f((M,i)=>{i.exports=_jsx_runtime});var P={};_(P,{default:()=>p,frontmatter:()=>y});var r=b(l()),y={title:\"Pramen\",slug:\"pramen-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"inphy\"],featuresNames:[\"Inphy\"],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"2:51\",trackNumber:10,producers:[],producersNames:[],description:\"Pramen \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(P);})();\n;return Component;"
+    "raw": "\n**[Pramen](/skladby/pramen-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [V\\_hlavní roli](/alba/v-hlavni-roli) (2012).\n",
+    "code": "var Component=(()=>{var c=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var n in a)l(r,n,{get:a[n],enumerable:!0})},o=(r,a,n,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(r,t)&&t!==n&&l(r,t,{get:()=>a[t],enumerable:!(i=m(a,t))||i.enumerable});return r};var _=(r,a,n)=>(n=r!=null?c(g(r)):{},o(a||!r||!r.__esModule?l(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>o(l({},\"__esModule\",{value:!0}),r);var u=x((k,s)=>{s.exports=_jsx_runtime});var j={};b(j,{default:()=>p,frontmatter:()=>P});var e=_(u()),P={title:\"Pramen\",slug:\"pramen-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"inphy\"],featuresNames:[\"Inphy\"],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[\"\"],duration:\"2:51\",trackNumber:10,producers:[],producersNames:[],description:\"Pramen \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/pramen-paulie-garand\",children:\"Pramen\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/v-hlavni-roli\",children:\"V_hlavn\\xED roli\"}),\" (2012).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(d,{...r})}):d(r)}return v(j);})();\n;return Component;"
   },
   "_id": "skladby/pramen-paulie-garand.mdx",
   "_raw": {

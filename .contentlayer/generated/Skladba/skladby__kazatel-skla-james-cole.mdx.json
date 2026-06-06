@@ -8,16 +8,19 @@
   "album": "Moby Dick",
   "albumSlug": "moby-dick",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:50",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Kazatel skla — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!b.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(h(e)):{},l(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var m=k((M,c)=>{c.exports=_jsx_runtime});var y={};f(y,{default:()=>i,frontmatter:()=>g});var a=j(m()),g={title:\"Kazatel skla\",slug:\"kazatel-skla-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[],duration:\"2:50\",trackNumber:8,producers:[],producersNames:[],description:\"Kazatel skla \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[Kazatel skla](/skladby/kazatel-skla-james-cole)** od [James Cole](/raperi/james-cole) z alba [Moby Dick](/alba/moby-dick) (2013).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var t in e)o(a,t,{get:e[t],enumerable:!0})},n=(a,e,t,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of k(e))!f.call(a,s)&&s!==t&&o(a,s,{get:()=>e[s],enumerable:!(l=p(e,s))||l.enumerable});return a};var x=(a,e,t)=>(t=a!=null?u(b(a)):{},n(e||!a||!a.__esModule?o(t,\"default\",{value:a,enumerable:!0}):t,a)),g=a=>n(o({},\"__esModule\",{value:!0}),a);var m=h((C,c)=>{c.exports=_jsx_runtime});var z={};j(z,{default:()=>d,frontmatter:()=>y});var r=x(m()),y={title:\"Kazatel skla\",slug:\"kazatel-skla-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[\"\"],duration:\"2:50\",trackNumber:8,producers:[],producersNames:[],description:\"Kazatel skla \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/kazatel-skla-james-cole\",children:\"Kazatel skla\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/moby-dick\",children:\"Moby Dick\"}),\" (2013).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(i,{...a})}):i(a)}return g(z);})();\n;return Component;"
   },
   "_id": "skladby/kazatel-skla-james-cole.mdx",
   "_raw": {

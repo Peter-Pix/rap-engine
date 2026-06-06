@@ -12,16 +12,19 @@
   "album": "Imaginarium naprosto běžných podivností",
   "albumSlug": "imaginarium-naprosto-beznych-podivnosti",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:37",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Tenhleten — skladba od MC Gey.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var y=(e,t,r)=>(r=e!=null?d(g(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var c=b((D,m)=>{m.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>j});var n=y(c()),j={title:\"Tenhleten\",slug:\"tenhleten-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Imaginarium naprosto b\\u011B\\u017En\\xFDch podivnost\\xED\",albumSlug:\"imaginarium-naprosto-beznych-podivnosti\",year:2011,genre:[],duration:\"3:37\",trackNumber:1,producers:[],producersNames:[],description:\"Tenhleten \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Tenhleten](/skladby/tenhleten-mc-gey)** od [MC Gey](/raperi/mc-gey) z alba [Imaginarium naprosto běžných podivností](/alba/imaginarium-naprosto-beznych-podivnosti) (2011).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var y=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var r in e)o(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!b.call(n,a)&&a!==r&&o(n,a,{get:()=>e[a],enumerable:!(s=d(e,a))||s.enumerable});return n};var x=(n,e,r)=>(r=n!=null?u(g(n)):{},i(e||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),j=n=>i(o({},\"__esModule\",{value:!0}),n);var m=y((v,c)=>{c.exports=_jsx_runtime});var _={};f(_,{default:()=>p,frontmatter:()=>M});var t=x(m()),M={title:\"Tenhleten\",slug:\"tenhleten-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Imaginarium naprosto b\\u011B\\u017En\\xFDch podivnost\\xED\",albumSlug:\"imaginarium-naprosto-beznych-podivnosti\",year:2011,genre:[\"\"],duration:\"3:37\",trackNumber:1,producers:[],producersNames:[],description:\"Tenhleten \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/tenhleten-mc-gey\",children:\"Tenhleten\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/mc-gey\",children:\"MC Gey\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/imaginarium-naprosto-beznych-podivnosti\",children:\"Imaginarium naprosto b\\u011B\\u017En\\xFDch podivnost\\xED\"}),\" (2011).\"]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/tenhleten-mc-gey.mdx",
   "_raw": {

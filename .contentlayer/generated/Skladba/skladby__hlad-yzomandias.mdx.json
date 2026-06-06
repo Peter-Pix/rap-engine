@@ -16,16 +16,19 @@
   "album": "J. EDEN E-G3N (#freekarlo edition)",
   "albumSlug": "j-eden-e-g3n",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:01",
   "trackNumber": 21,
   "producers": [],
   "producersNames": [],
   "description": "HLAD — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},d=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!b.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var y=(e,n,o)=>(o=e!=null?c(x(e)):{},d(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>d(a({},\"__esModule\",{value:!0}),e);var m=f((D,i)=>{i.exports=_jsx_runtime});var _={};k(_,{default:()=>l,frontmatter:()=>N});var t=y(m()),N={title:\"HLAD\",slug:\"hlad-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"nik-tendo\",\"koky\"],featuresNames:[\"Nobodylisten\",\"Nik Tendo\",\"Koky\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[],duration:\"3:01\",trackNumber:21,producers:[],producersNames:[],description:\"HLAD \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(_);})();\n;return Component;"
+    "raw": "\n**[HLAD](/skladby/hlad-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-G3N (#freekarlo edition)](/alba/j-eden-e-g3n) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var r in e)t(n,r,{get:e[r],enumerable:!0})},d=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!y.call(n,o)&&o!==r&&t(n,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return n};var g=(n,e,r)=>(r=n!=null?u(h(n)):{},d(e||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),x=n=>d(t({},\"__esModule\",{value:!0}),n);var l=b((D,i)=>{i.exports=_jsx_runtime});var z={};k(z,{default:()=>m,frontmatter:()=>N});var a=g(l()),N={title:\"HLAD\",slug:\"hlad-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"nik-tendo\",\"koky\"],featuresNames:[\"Nobodylisten\",\"Nik Tendo\",\"Koky\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[\"\"],duration:\"3:01\",trackNumber:21,producers:[],producersNames:[],description:\"HLAD \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/hlad-yzomandias\",children:\"HLAD\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/j-eden-e-g3n\",children:\"J. EDEN E-G3N (#freekarlo edition)\"}),\" (2022).\"]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(c,{...n})}):c(n)}return x(z);})();\n;return Component;"
   },
   "_id": "skladby/hlad-yzomandias.mdx",
   "_raw": {

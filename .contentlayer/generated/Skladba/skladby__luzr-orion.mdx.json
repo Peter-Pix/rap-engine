@@ -14,16 +14,19 @@
   "album": "Orikoule",
   "albumSlug": "orikoule",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:59",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Lůzr — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var b=(e,r,n)=>(n=e!=null?d(f(e)):{},i(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var l=k((C,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>j});var t=b(l()),j={title:\"L\\u016Fzr\",slug:\"luzr-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\",\"mike-trafik\"],featuresNames:[\"James Cole\",\"Mike Trafik\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"4:59\",trackNumber:8,producers:[],producersNames:[],description:\"L\\u016Fzr \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Lůzr](/skladby/luzr-orion)** od [Orion](/raperi/orion) z alba [Orikoule](/alba/orikoule) (2008).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of f(r))!h.call(e,t)&&t!==n&&a(e,t,{get:()=>r[t],enumerable:!(i=p(r,t))||i.enumerable});return e};var g=(e,r,n)=>(n=e!=null?m(k(e)):{},s(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var u=x((L,l)=>{l.exports=_jsx_runtime});var _={};b(_,{default:()=>d,frontmatter:()=>z});var o=g(u()),z={title:\"L\\u016Fzr\",slug:\"luzr-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\",\"mike-trafik\"],featuresNames:[\"James Cole\",\"Mike Trafik\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[\"\"],duration:\"4:59\",trackNumber:8,producers:[],producersNames:[],description:\"L\\u016Fzr \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/luzr-orion\",children:\"L\\u016Fzr\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(r.a,{href:\"/alba/orikoule\",children:\"Orikoule\"}),\" (2008).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(c,{...e})}):c(e)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/luzr-orion.mdx",
   "_raw": {

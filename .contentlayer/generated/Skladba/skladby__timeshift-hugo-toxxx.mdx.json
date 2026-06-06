@@ -8,16 +8,19 @@
   "album": "Bauch Money II",
   "albumSlug": "bauch-money-ii",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Timeshift — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of l(t))!f.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(u=d(t,o))||u.enumerable});return e};var _=(e,t,r)=>(r=e!=null?h(p(e)):{},a(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var x=g((N,i)=>{i.exports=_jsx_runtime});var M={};b(M,{default:()=>c,frontmatter:()=>y});var n=_(x()),y={title:\"Timeshift\",slug:\"timeshift-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"3:07\",trackNumber:11,producers:[],producersNames:[],description:\"Timeshift \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Timeshift](/skladby/timeshift-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [Bauch Money II](/alba/bauch-money-ii) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var r in e)a(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of d(e))!p.call(t,n)&&n!==r&&a(t,n,{get:()=>e[n],enumerable:!(s=l(e,n))||s.enumerable});return t};var y=(t,e,r)=>(r=t!=null?m(f(t)):{},i(e||!t||!t.__esModule?a(r,\"default\",{value:t,enumerable:!0}):r,t)),T=t=>i(a({},\"__esModule\",{value:!0}),t);var x=g((I,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>h,frontmatter:()=>_});var o=y(x()),_={title:\"Timeshift\",slug:\"timeshift-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[\"\"],duration:\"3:07\",trackNumber:11,producers:[],producersNames:[],description:\"Timeshift \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/timeshift-hugo-toxxx\",children:\"Timeshift\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/bauch-money-ii\",children:\"Bauch Money II\"}),\" (2020).\"]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(c,{...t})}):c(t)}return T(j);})();\n;return Component;"
   },
   "_id": "skladby/timeshift-hugo-toxxx.mdx",
   "_raw": {

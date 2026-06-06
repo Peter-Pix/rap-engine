@@ -8,16 +8,19 @@
   "album": "Gorila vs. Architekt",
   "albumSlug": "gorila-vs-architekt",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:30",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Intro — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(i=p(r,a))||i.enumerable});return e};var b=(e,r,n)=>(n=e!=null?d(x(e)):{},s(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var m=g((N,l)=>{l.exports=_jsx_runtime});var v={};_(v,{default:()=>u,frontmatter:()=>k});var t=b(m()),k={title:\"Intro\",slug:\"intro-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[],duration:\"2:30\",trackNumber:1,producers:[],producersNames:[],description:\"Intro \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(v);})();\n;return Component;"
+    "raw": "\n**[Intro](/skladby/intro-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Gorila vs. Architekt](/alba/gorila-vs-architekt) (2008).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),b=(t,r)=>{for(var a in r)n(t,a,{get:r[a],enumerable:!0})},s=(t,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of h(r))!g.call(t,i)&&i!==a&&n(t,i,{get:()=>r[i],enumerable:!(o=p(r,i))||o.enumerable});return t};var v=(t,r,a)=>(a=t!=null?u(f(t)):{},s(r||!t||!t.__esModule?n(a,\"default\",{value:t,enumerable:!0}):a,t)),k=t=>s(n({},\"__esModule\",{value:!0}),t);var d=x((A,l)=>{l.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>_});var e=v(d()),_={title:\"Intro\",slug:\"intro-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[\"\"],duration:\"2:30\",trackNumber:1,producers:[],producersNames:[],description:\"Intro \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function c(t){let r={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/intro-vladimir-518\",children:\"Intro\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/gorila-vs-architekt\",children:\"Gorila vs. Architekt\"}),\" (2008).\"]})}function m(t={}){let{wrapper:r}=t.components||{};return r?(0,e.jsx)(r,{...t,children:(0,e.jsx)(c,{...t})}):c(t)}return k(j);})();\n;return Component;"
   },
   "_id": "skladby/intro-vladimir-518.mdx",
   "_raw": {

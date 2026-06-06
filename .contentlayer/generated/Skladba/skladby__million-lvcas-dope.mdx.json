@@ -12,16 +12,19 @@
   "album": "Million",
   "albumSlug": "million",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:28",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Million — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},l=(e,n,o,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(a=d(n,r))||a.enumerable});return e};var g=(e,n,o)=>(o=e!=null?p(h(e)):{},l(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>l(s({},\"__esModule\",{value:!0}),e);var c=_((D,i)=>{i.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>j});var t=g(c()),j={title:\"Million\",slug:\"million-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"ekoo\"],featuresNames:[\"EkoO\"],album:\"Million\",albumSlug:\"million\",year:2018,genre:[],duration:\"3:28\",trackNumber:1,producers:[],producersNames:[],description:\"Million \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return M(k);})();\n;return Component;"
+    "raw": "\n**[Million](/skladby/million-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) (2018).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),v=(o,e)=>{for(var r in e)s(o,r,{get:e[r],enumerable:!0})},l=(o,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!h.call(o,t)&&t!==r&&s(o,t,{get:()=>e[t],enumerable:!(a=m(e,t))||a.enumerable});return o};var M=(o,e,r)=>(r=o!=null?u(x(o)):{},l(e||!o||!o.__esModule?s(r,\"default\",{value:o,enumerable:!0}):r,o)),b=o=>l(s({},\"__esModule\",{value:!0}),o);var c=g((D,i)=>{i.exports=_jsx_runtime});var j={};v(j,{default:()=>d,frontmatter:()=>_});var n=M(c()),_={title:\"Million\",slug:\"million-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"ekoo\"],featuresNames:[\"EkoO\"],album:\"Million\",albumSlug:\"million\",year:2018,genre:[\"\"],duration:\"3:28\",trackNumber:1,producers:[],producersNames:[],description:\"Million \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/million-lvcas-dope\",children:\"Million\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" (2018).\"]})}function d(o={}){let{wrapper:e}=o.components||{};return e?(0,n.jsx)(e,{...o,children:(0,n.jsx)(p,{...o})}):p(o)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/million-lvcas-dope.mdx",
   "_raw": {

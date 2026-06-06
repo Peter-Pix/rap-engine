@@ -12,16 +12,19 @@
   "album": "Jeden",
   "albumSlug": "jeden",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:30",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Jeden (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(f(e)):{},u(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var m=j((M,d)=>{d.exports=_jsx_runtime});var D={};g(D,{default:()=>i,frontmatter:()=>J});var n=_(m()),J={title:\"Jeden (Instrumental)\",slug:\"jeden-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Jeden\",albumSlug:\"jeden\",year:2025,genre:[],duration:\"4:30\",trackNumber:2,producers:[],producersNames:[],description:\"Jeden (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Jeden (Instrumental)](/skladby/jeden-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Jeden](/alba/jeden) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!h.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(d=p(e,a))||d.enumerable});return t};var b=(t,e,r)=>(r=t!=null?m(j(t)):{},o(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),J=t=>o(s({},\"__esModule\",{value:!0}),t);var l=g((y,u)=>{u.exports=_jsx_runtime});var D={};x(D,{default:()=>c,frontmatter:()=>_});var n=b(l()),_={title:\"Jeden (Instrumental)\",slug:\"jeden-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Jeden\",albumSlug:\"jeden\",year:2025,genre:[\"\"],duration:\"4:30\",trackNumber:2,producers:[],producersNames:[],description:\"Jeden (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/jeden-instrumental-dj-fatte\",children:\"Jeden (Instrumental)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/jeden\",children:\"Jeden\"}),\" (2025).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(i,{...t})}):i(t)}return J(D);})();\n;return Component;"
   },
   "_id": "skladby/jeden-instrumental-dj-fatte.mdx",
   "_raw": {

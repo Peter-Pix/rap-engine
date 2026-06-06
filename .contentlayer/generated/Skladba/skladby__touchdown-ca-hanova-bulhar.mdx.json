@@ -12,16 +12,19 @@
   "album": "DRIPOLAR",
   "albumSlug": "dripolar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:25",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "TOUCHDOWN — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var N=(e,t,n)=>(n=e!=null?m(b(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),O=e=>u(a({},\"__esModule\",{value:!0}),e);var i=A((H,c)=>{c.exports=_jsx_runtime});var g={};f(g,{default:()=>d,frontmatter:()=>_});var r=N(i()),_={title:\"TOUCHDOWN\",slug:\"touchdown-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"DRIPOLAR\",albumSlug:\"dripolar\",year:2022,genre:[],duration:\"3:25\",trackNumber:6,producers:[],producersNames:[],description:\"TOUCHDOWN \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return O(g);})();\n;return Component;"
+    "raw": "\n**[TOUCHDOWN](/skladby/touchdown-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [DRIPOLAR](/alba/dripolar) (2022).\n",
+    "code": "var Component=(()=>{var i=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var O=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),f=(a,r)=>{for(var o in r)t(a,o,{get:r[o],enumerable:!0})},c=(a,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of A(r))!m.call(a,n)&&n!==o&&t(a,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return a};var x=(a,r,o)=>(o=a!=null?i(b(a)):{},c(r||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),H=a=>c(t({},\"__esModule\",{value:!0}),a);var l=O((g,u)=>{u.exports=_jsx_runtime});var C={};f(C,{default:()=>h,frontmatter:()=>N});var e=x(l()),N={title:\"TOUCHDOWN\",slug:\"touchdown-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"DRIPOLAR\",albumSlug:\"dripolar\",year:2022,genre:[\"\"],duration:\"3:25\",trackNumber:6,producers:[],producersNames:[],description:\"TOUCHDOWN \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/touchdown-ca-hanova-bulhar\",children:\"TOUCHDOWN\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/dripolar\",children:\"DRIPOLAR\"}),\" (2022).\"]})}function h(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(d,{...a})}):d(a)}return H(C);})();\n;return Component;"
   },
   "_id": "skladby/touchdown-ca-hanova-bulhar.mdx",
   "_raw": {

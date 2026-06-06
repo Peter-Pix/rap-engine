@@ -8,16 +8,19 @@
   "album": "Mozoly",
   "albumSlug": "mozoly",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:47",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Obrazy skutečnosti č.1 — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var y=(e,t,n)=>(n=e!=null?m(b(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var l=g((M,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>j});var r=y(l()),j={title:\"Obrazy skute\\u010Dnosti \\u010D.1\",slug:\"obrazy-skutecnosti-c-1-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[],duration:\"3:47\",trackNumber:3,producers:[],producersNames:[],description:\"Obrazy skute\\u010Dnosti \\u010D.1 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Obrazy skutečnosti č.1](/skladby/obrazy-skutecnosti-c-1-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Mozoly](/alba/mozoly) (2006).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},u=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of b(a))!g.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=m(a,n))||s.enumerable});return e};var z=(e,a,t)=>(t=e!=null?p(y(e)):{},u(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),x=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((M,l)=>{l.exports=_jsx_runtime});var _={};h(_,{default:()=>c,frontmatter:()=>k});var r=z(i()),k={title:\"Obrazy skute\\u010Dnosti \\u010D.1\",slug:\"obrazy-skutecnosti-c-1-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[\"\"],duration:\"3:47\",trackNumber:3,producers:[],producersNames:[],description:\"Obrazy skute\\u010Dnosti \\u010D.1 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/obrazy-skutecnosti-c-1-paulie-garand\",children:\"Obrazy skute\\u010Dnosti \\u010D.1\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/mozoly\",children:\"Mozoly\"}),\" (2006).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/obrazy-skutecnosti-c-1-paulie-garand.mdx",
   "_raw": {

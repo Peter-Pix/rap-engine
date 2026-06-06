@@ -12,16 +12,19 @@
   "album": "To je vražda, napsal",
   "albumSlug": "to-je-vrazda-napsal",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:39",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Vincent Vega — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},c=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!g.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=l(n,r))||o.enumerable});return e};var j=(e,n,a)=>(a=e!=null?d(x(e)):{},c(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>c(s({},\"__esModule\",{value:!0}),e);var p=b((y,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>k});var t=j(p()),k={title:\"Vincent Vega\",slug:\"vincent-vega-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"cheppy-beats\"],featuresNames:[\"Cheppy Beats\"],album:\"To je vra\\u017Eda, napsal\",albumSlug:\"to-je-vrazda-napsal\",year:2023,genre:[],duration:\"1:39\",trackNumber:10,producers:[],producersNames:[],description:\"Vincent Vega \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Vincent Vega](/skladby/vincent-vega-maniak)** od [Maniak](/raperi/maniak) z alba [To je vražda, napsal](/alba/to-je-vrazda-napsal) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var r in a)s(e,r,{get:a[r],enumerable:!0})},i=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of g(a))!f.call(e,t)&&t!==r&&s(e,t,{get:()=>a[t],enumerable:!(o=m(a,t))||o.enumerable});return e};var j=(e,a,r)=>(r=e!=null?u(h(e)):{},i(a||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),x=e=>i(s({},\"__esModule\",{value:!0}),e);var p=k((_,c)=>{c.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>v});var n=j(p()),v={title:\"Vincent Vega\",slug:\"vincent-vega-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"cheppy-beats\"],featuresNames:[\"Cheppy Beats\"],album:\"To je vra\\u017Eda, napsal\",albumSlug:\"to-je-vrazda-napsal\",year:2023,genre:[\"\"],duration:\"1:39\",trackNumber:10,producers:[],producersNames:[],description:\"Vincent Vega \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/vincent-vega-maniak\",children:\"Vincent Vega\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/to-je-vrazda-napsal\",children:\"To je vra\\u017Eda, napsal\"}),\" (2023).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return x(M);})();\n;return Component;"
   },
   "_id": "skladby/vincent-vega-maniak.mdx",
   "_raw": {

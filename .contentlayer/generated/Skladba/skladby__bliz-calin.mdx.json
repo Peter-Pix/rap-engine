@@ -14,16 +14,19 @@
   "album": "Blíž (with JVNZ & D.Kop)",
   "albumSlug": "bliz-with-jvnz-d-kop",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:14",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Blíž — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var N=(e,t,r)=>(r=e!=null?d(x(e)):{},l(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(a({},\"__esModule\",{value:!0}),e);var c=f((C,i)=>{i.exports=_jsx_runtime});var k={};j(k,{default:()=>p,frontmatter:()=>g});var n=N(c()),g={title:\"Bl\\xED\\u017E\",slug:\"bliz-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"d-kop\",\"jvnz\"],featuresNames:[\"D.Kop\",\"JVNZ\"],album:\"Bl\\xED\\u017E (with JVNZ & D.Kop)\",albumSlug:\"bliz-with-jvnz-d-kop\",year:2016,genre:[],duration:\"3:14\",trackNumber:1,producers:[],producersNames:[],description:\"Bl\\xED\\u017E \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Blíž](/skladby/bliz-calin)** od [Calin](/raperi/calin) (2016).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!f.call(r,a)&&a!==n&&o(r,a,{get:()=>e[a],enumerable:!(l=m(e,a))||l.enumerable});return r};var j=(r,e,n)=>(n=r!=null?d(b(r)):{},s(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),N=r=>s(o({},\"__esModule\",{value:!0}),r);var c=x((C,i)=>{i.exports=_jsx_runtime});var k={};g(k,{default:()=>u,frontmatter:()=>_});var t=j(c()),_={title:\"Bl\\xED\\u017E\",slug:\"bliz-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"d-kop\",\"jvnz\"],featuresNames:[\"D.Kop\",\"JVNZ\"],album:\"Bl\\xED\\u017E (with JVNZ & D.Kop)\",albumSlug:\"bliz-with-jvnz-d-kop\",year:2016,genre:[\"\"],duration:\"3:14\",trackNumber:1,producers:[],producersNames:[],description:\"Bl\\xED\\u017E \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/bliz-calin\",children:\"Bl\\xED\\u017E\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2016).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(p,{...r})}):p(r)}return N(k);})();\n;return Component;"
   },
   "_id": "skladby/bliz-calin.mdx",
   "_raw": {

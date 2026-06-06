@@ -8,16 +8,19 @@
   "album": "Slova",
   "albumSlug": "slova",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Madam Poezie — skladba od Bpm.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(m=l(t,a))||m.enumerable});return e};var g=(e,t,n)=>(n=e!=null?i(h(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var u=f((N,p)=>{p.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>M});var r=g(u()),M={title:\"Madam Poezie\",slug:\"madam-poezie-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[],duration:\"3:16\",trackNumber:1,producers:[],producersNames:[],description:\"Madam Poezie \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Madam Poezie](/skladby/madam-poezie-bpm)** z alba [Slova](/alba/slova) (2007).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},m=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of b(e))!x.call(a,o)&&o!==r&&n(a,o,{get:()=>e[o],enumerable:!(s=c(e,o))||s.enumerable});return a};var z=(a,e,r)=>(r=a!=null?u(f(a)):{},m(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),M=a=>m(n({},\"__esModule\",{value:!0}),a);var p=h((S,l)=>{l.exports=_jsx_runtime});var j={};g(j,{default:()=>i,frontmatter:()=>_});var t=z(p()),_={title:\"Madam Poezie\",slug:\"madam-poezie-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[\"\"],duration:\"3:16\",trackNumber:1,producers:[],producersNames:[],description:\"Madam Poezie \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/madam-poezie-bpm\",children:\"Madam Poezie\"})}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/slova\",children:\"Slova\"}),\" (2007).\"]})}function i(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(d,{...a})}):d(a)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/madam-poezie-bpm.mdx",
   "_raw": {

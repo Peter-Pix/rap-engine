@@ -12,16 +12,19 @@
   "album": "Teritorium Remixy",
   "albumSlug": "teritorium-remixy",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Co Je Doma To Se Počítá — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),_=(e,o)=>{for(var r in o)a(e,r,{get:o[r],enumerable:!0})},i=(e,o,r,s)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of x(o))!f.call(e,n)&&n!==r&&a(e,n,{get:()=>o[n],enumerable:!(s=p(o,n))||s.enumerable});return e};var b=(e,o,r)=>(r=e!=null?d(h(e)):{},i(o||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var u=j((D,m)=>{m.exports=_jsx_runtime});var S={};_(S,{default:()=>l,frontmatter:()=>C});var t=b(u()),C={title:\"Co Je Doma To Se Po\\u010D\\xEDt\\xE1\",slug:\"co-je-doma-to-se-pocita-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"3:52\",trackNumber:14,producers:[],producersNames:[],description:\"Co Je Doma To Se Po\\u010D\\xEDt\\xE1 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let o={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(o.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(o.p,{children:(0,t.jsx)(o.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Co Je Doma To Se Počítá](/skladby/co-je-doma-to-se-pocita-orion)** od [Orion](/raperi/orion) (2007).\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),g=(e,o)=>{for(var r in o)a(e,r,{get:o[r],enumerable:!0})},i=(e,o,r,s)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of x(o))!h.call(e,n)&&n!==r&&a(e,n,{get:()=>o[n],enumerable:!(s=p(o,n))||s.enumerable});return e};var b=(e,o,r)=>(r=e!=null?l(f(e)):{},i(o||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),C=e=>i(a({},\"__esModule\",{value:!0}),e);var m=j((S,c)=>{c.exports=_jsx_runtime});var y={};g(y,{default:()=>d,frontmatter:()=>_});var t=b(m()),_={title:\"Co Je Doma To Se Po\\u010D\\xEDt\\xE1\",slug:\"co-je-doma-to-se-pocita-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[\"\"],duration:\"3:52\",trackNumber:14,producers:[],producersNames:[],description:\"Co Je Doma To Se Po\\u010D\\xEDt\\xE1 \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(e){let o={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(o.p,{children:[(0,t.jsx)(o.strong,{children:(0,t.jsx)(o.a,{href:\"/skladby/co-je-doma-to-se-pocita-orion\",children:\"Co Je Doma To Se Po\\u010D\\xEDt\\xE1\"})}),\" od \",(0,t.jsx)(o.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" (2007).\"]})}function d(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return C(y);})();\n;return Component;"
   },
   "_id": "skladby/co-je-doma-to-se-pocita-orion.mdx",
   "_raw": {

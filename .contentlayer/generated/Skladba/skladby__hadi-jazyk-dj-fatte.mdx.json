@@ -14,16 +14,19 @@
   "album": "Koupili jsme Boha, aby za nás makal",
   "albumSlug": "koupili-jsme-boha-aby-za-nas-makal",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:17",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Hadí jazyk — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},u=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!k.call(a,r)&&r!==n&&o(a,r,{get:()=>e[r],enumerable:!(s=c(e,r))||s.enumerable});return a};var f=(a,e,n)=>(n=a!=null?l(j(a)):{},u(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),g=a=>u(o({},\"__esModule\",{value:!0}),a);var i=x((S,d)=>{d.exports=_jsx_runtime});var _={};b(_,{default:()=>p,frontmatter:()=>y});var t=f(i()),y={title:\"Had\\xED jazyk\",slug:\"hadi-jazyk-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\",\"pio-squad\"],featuresNames:[\"Yoga Spank\",\"Pio Squad\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[],duration:\"3:17\",trackNumber:10,producers:[],producersNames:[],description:\"Had\\xED jazyk \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(a){let e={em:\"em\",h2:\"h2\",p:\"p\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(m,{...a})}):m(a)}return g(_);})();\n;return Component;"
+    "raw": "\n**[Hadí jazyk](/skladby/hadi-jazyk-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Koupili jsme Boha, aby za nás makal](/alba/koupili-jsme-boha-aby-za-nas-makal) (2026).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},d=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of j(a))!k.call(e,n)&&n!==r&&o(e,n,{get:()=>a[n],enumerable:!(s=c(a,n))||s.enumerable});return e};var y=(e,a,r)=>(r=e!=null?m(h(e)):{},d(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>d(o({},\"__esModule\",{value:!0}),e);var l=b((D,i)=>{i.exports=_jsx_runtime});var x={};f(x,{default:()=>p,frontmatter:()=>g});var t=y(l()),g={title:\"Had\\xED jazyk\",slug:\"hadi-jazyk-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\",\"pio-squad\"],featuresNames:[\"Yoga Spank\",\"Pio Squad\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[\"\"],duration:\"3:17\",trackNumber:10,producers:[],producersNames:[],description:\"Had\\xED jazyk \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/hadi-jazyk-dj-fatte\",children:\"Had\\xED jazyk\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,t.jsx)(a.a,{href:\"/alba/koupili-jsme-boha-aby-za-nas-makal\",children:\"Koupili jsme Boha, aby za n\\xE1s makal\"}),\" (2026).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return z(x);})();\n;return Component;"
   },
   "_id": "skladby/hadi-jazyk-dj-fatte.mdx",
   "_raw": {

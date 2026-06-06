@@ -8,16 +8,19 @@
   "album": "ROMEO",
   "albumSlug": "romeo",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:01",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "U wish — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!A.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?h(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var i=b((C,c)=>{c.exports=_jsx_runtime});var N={};f(N,{default:()=>l,frontmatter:()=>j});var r=_(i()),j={title:\"U wish\",slug:\"u-wish-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"ROMEO\",albumSlug:\"romeo\",year:2021,genre:[],duration:\"3:01\",trackNumber:12,producers:[],producersNames:[],description:\"U wish \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[U wish](/skladby/u-wish-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [ROMEO](/alba/romeo) (2021).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),x=(a,r)=>{for(var n in r)o(a,n,{get:r[n],enumerable:!0})},u=(a,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of m(r))!b.call(a,t)&&t!==n&&o(a,t,{get:()=>r[t],enumerable:!(s=p(r,t))||s.enumerable});return a};var g=(a,r,n)=>(n=a!=null?d(A(a)):{},u(r||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),O=a=>u(o({},\"__esModule\",{value:!0}),a);var h=f((U,c)=>{c.exports=_jsx_runtime});var H={};x(H,{default:()=>i,frontmatter:()=>w});var e=g(h()),w={title:\"U wish\",slug:\"u-wish-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"ROMEO\",albumSlug:\"romeo\",year:2021,genre:[\"\"],duration:\"3:01\",trackNumber:12,producers:[],producersNames:[],description:\"U wish \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/u-wish-ca-hanova-bulhar\",children:\"U wish\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/romeo\",children:\"ROMEO\"}),\" (2021).\"]})}function i(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(l,{...a})}):l(a)}return O(H);})();\n;return Component;"
   },
   "_id": "skladby/u-wish-ca-hanova-bulhar.mdx",
   "_raw": {

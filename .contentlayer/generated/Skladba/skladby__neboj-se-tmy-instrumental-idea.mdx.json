@@ -8,16 +8,19 @@
   "album": "Tempo (Instrumental)",
   "albumSlug": "tempo-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Neboj se tmy (Instrumental) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?c(b(e)):{},m(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var l=j((M,u)=>{u.exports=_jsx_runtime});var I={};f(I,{default:()=>i,frontmatter:()=>y});var n=_(l()),y={title:\"Neboj se tmy (Instrumental)\",slug:\"neboj-se-tmy-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[],duration:\"3:07\",trackNumber:12,producers:[],producersNames:[],description:\"Neboj se tmy (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return g(I);})();\n;return Component;"
+    "raw": "\n**[Neboj se tmy (Instrumental)](/skladby/neboj-se-tmy-instrumental-idea)** od [Idea](/raperi/idea) z alba [Tempo (Instrumental)](/alba/tempo-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},m=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of b(e))!h.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return t};var y=(t,e,r)=>(r=t!=null?c(f(t)):{},m(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),I=t=>m(s({},\"__esModule\",{value:!0}),t);var l=j((k,u)=>{u.exports=_jsx_runtime});var N={};x(N,{default:()=>i,frontmatter:()=>g});var n=y(l()),g={title:\"Neboj se tmy (Instrumental)\",slug:\"neboj-se-tmy-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[\"\"],duration:\"3:07\",trackNumber:12,producers:[],producersNames:[],description:\"Neboj se tmy (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/neboj-se-tmy-instrumental-idea\",children:\"Neboj se tmy (Instrumental)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/tempo-instrumental\",children:\"Tempo (Instrumental)\"}),\" (2020).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return I(N);})();\n;return Component;"
   },
   "_id": "skladby/neboj-se-tmy-instrumental-idea.mdx",
   "_raw": {

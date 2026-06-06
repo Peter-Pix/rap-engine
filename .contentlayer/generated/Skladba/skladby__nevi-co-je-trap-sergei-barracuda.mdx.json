@@ -12,16 +12,19 @@
   "album": "Kila Zdarma (Mixtape)",
   "albumSlug": "kila-zdarma-mixtape",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:42",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Neví co je Trap — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!h.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(c=l(r,n))||c.enumerable});return e};var f=(e,r,t)=>(t=e!=null?p(g(e)):{},i(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var u=b((k,s)=>{s.exports=_jsx_runtime});var S={};j(S,{default:()=>m,frontmatter:()=>N});var a=f(u()),N={title:\"Nev\\xED co je Trap\",slug:\"nevi-co-je-trap-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"hard-rico\"],featuresNames:[\"Hard Rico\"],album:\"Kila Zdarma (Mixtape)\",albumSlug:\"kila-zdarma-mixtape\",year:2024,genre:[],duration:\"2:42\",trackNumber:10,producers:[],producersNames:[],description:\"Nev\\xED co je Trap \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Neví co je Trap](/skladby/nevi-co-je-trap-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Kila Zdarma (Mixtape)](/alba/kila-zdarma-mixtape) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),f=(r,a)=>{for(var t in a)n(r,t,{get:a[t],enumerable:!0})},o=(r,a,t,c)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let i of g(a))!b.call(r,i)&&i!==t&&n(r,i,{get:()=>a[i],enumerable:!(c=m(a,i))||c.enumerable});return r};var j=(r,a,t)=>(t=r!=null?l(x(r)):{},o(a||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),N=r=>o(n({},\"__esModule\",{value:!0}),r);var d=h((M,s)=>{s.exports=_jsx_runtime});var k={};f(k,{default:()=>p,frontmatter:()=>_});var e=j(d()),_={title:\"Nev\\xED co je Trap\",slug:\"nevi-co-je-trap-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"hard-rico\"],featuresNames:[\"Hard Rico\"],album:\"Kila Zdarma (Mixtape)\",albumSlug:\"kila-zdarma-mixtape\",year:2024,genre:[\"\"],duration:\"2:42\",trackNumber:10,producers:[],producersNames:[],description:\"Nev\\xED co je Trap \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/nevi-co-je-trap-sergei-barracuda\",children:\"Nev\\xED co je Trap\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/kila-zdarma-mixtape\",children:\"Kila Zdarma (Mixtape)\"}),\" (2024).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(u,{...r})}):u(r)}return N(k);})();\n;return Component;"
   },
   "_id": "skladby/nevi-co-je-trap-sergei-barracuda.mdx",
   "_raw": {

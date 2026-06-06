@@ -12,16 +12,19 @@
   "album": "Goodfellas",
   "albumSlug": "goodfellas",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:25",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Reprezentuju — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!f.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(u=p(r,n))||u.enumerable});return e};var j=(e,r,a)=>(a=e!=null?m(x(e)):{},s(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var d=h((N,c)=>{c.exports=_jsx_runtime});var z={};b(z,{default:()=>i,frontmatter:()=>S});var t=j(d()),S={title:\"Reprezentuju\",slug:\"reprezentuju-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"palermo\"],featuresNames:[\"Palermo\"],album:\"Goodfellas\",albumSlug:\"goodfellas\",year:2024,genre:[],duration:\"3:25\",trackNumber:7,producers:[],producersNames:[],description:\"Reprezentuju \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(z);})();\n;return Component;"
+    "raw": "\n**[Reprezentuju](/skladby/reprezentuju-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Goodfellas](/alba/goodfellas) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!b.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(u=g(e,n))||u.enumerable});return r};var x=(r,e,t)=>(t=r!=null?p(m(r)):{},s(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),z=r=>s(o({},\"__esModule\",{value:!0}),r);var l=h((y,d)=>{d.exports=_jsx_runtime});var S={};j(S,{default:()=>i,frontmatter:()=>_});var a=x(l()),_={title:\"Reprezentuju\",slug:\"reprezentuju-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"palermo\"],featuresNames:[\"Palermo\"],album:\"Goodfellas\",albumSlug:\"goodfellas\",year:2024,genre:[\"\"],duration:\"3:25\",trackNumber:7,producers:[],producersNames:[],description:\"Reprezentuju \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/reprezentuju-sergei-barracuda\",children:\"Reprezentuju\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/goodfellas\",children:\"Goodfellas\"}),\" (2024).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return z(S);})();\n;return Component;"
   },
   "_id": "skladby/reprezentuju-sergei-barracuda.mdx",
   "_raw": {

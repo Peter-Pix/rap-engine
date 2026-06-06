@@ -12,16 +12,19 @@
   "album": "ASI TO TAK MALO BYŤ",
   "albumSlug": "asi-to-tak-malo-byt",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:00",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "ASI TO TAK MALO BYŤ — skladba od Palermo.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},m=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!b.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var f=(e,r,a)=>(a=e!=null?d(A(e)):{},m(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),S=e=>m(o({},\"__esModule\",{value:!0}),e);var l=h((T,u)=>{u.exports=_jsx_runtime});var M={};g(M,{default:()=>i,frontmatter:()=>_});var t=f(l()),_={title:\"ASI TO TAK MALO BY\\u0164\",slug:\"asi-to-tak-malo-byt-palermo\",rapper:\"Palermo\",rapperSlug:\"palermo\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"ASI TO TAK MALO BY\\u0164\",albumSlug:\"asi-to-tak-malo-byt\",year:2024,genre:[],duration:\"3:00\",trackNumber:1,producers:[],producersNames:[],description:\"ASI TO TAK MALO BY\\u0164 \\u2014 skladba od Palermo.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return S(M);})();\n;return Component;"
+    "raw": "\n**[ASI TO TAK MALO BYŤ](/skladby/asi-to-tak-malo-byt-palermo)** od [Palermo](/raperi/palermo) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),x=(e,r)=>{for(var a in r)n(e,a,{get:r[a],enumerable:!0})},l=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of A(r))!f.call(e,o)&&o!==a&&n(e,o,{get:()=>r[o],enumerable:!(s=d(r,o))||s.enumerable});return e};var h=(e,r,a)=>(a=e!=null?p(b(e)):{},l(r||!e||!e.__esModule?n(a,\"default\",{value:e,enumerable:!0}):a,e)),O=e=>l(n({},\"__esModule\",{value:!0}),e);var u=g((k,m)=>{m.exports=_jsx_runtime});var M={};x(M,{default:()=>i,frontmatter:()=>T});var t=h(u()),T={title:\"ASI TO TAK MALO BY\\u0164\",slug:\"asi-to-tak-malo-byt-palermo\",rapper:\"Palermo\",rapperSlug:\"palermo\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"ASI TO TAK MALO BY\\u0164\",albumSlug:\"asi-to-tak-malo-byt\",year:2024,genre:[\"\"],duration:\"3:00\",trackNumber:1,producers:[],producersNames:[],description:\"ASI TO TAK MALO BY\\u0164 \\u2014 skladba od Palermo.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/asi-to-tak-malo-byt-palermo\",children:\"ASI TO TAK MALO BY\\u0164\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/palermo\",children:\"Palermo\"}),\" (2024).\"]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return O(M);})();\n;return Component;"
   },
   "_id": "skladby/asi-to-tak-malo-byt-palermo.mdx",
   "_raw": {

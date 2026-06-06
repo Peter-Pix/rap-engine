@@ -12,16 +12,19 @@
   "album": "CA$HFLOW",
   "albumSlug": "ca-hflow",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:27",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Kancléř — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!A.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(c=d(t,a))||c.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(x(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var u=b((k,l)=>{l.exports=_jsx_runtime});var L={};f(L,{default:()=>m,frontmatter:()=>C});var r=_(u()),C={title:\"Kancl\\xE9\\u0159\",slug:\"kancler-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"patrik-love-icy-l\"],featuresNames:[\"Patrik Love ICY L\"],album:\"CA$HFLOW\",albumSlug:\"ca-hflow\",year:2025,genre:[],duration:\"2:27\",trackNumber:7,producers:[],producersNames:[],description:\"Kancl\\xE9\\u0159 \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(L);})();\n;return Component;"
+    "raw": "\n**[Kancléř](/skladby/kancler-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [CA$HFLOW](/alba/ca-hflow) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var m=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var n in a)o(r,n,{get:a[n],enumerable:!0})},l=(r,a,n,c)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of A(a))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>a[t],enumerable:!(c=p(a,t))||c.enumerable});return r};var C=(r,a,n)=>(n=r!=null?d(b(r)):{},l(a||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),H=r=>l(o({},\"__esModule\",{value:!0}),r);var u=m((v,s)=>{s.exports=_jsx_runtime});var g={};x(g,{default:()=>i,frontmatter:()=>L});var e=C(u()),L={title:\"Kancl\\xE9\\u0159\",slug:\"kancler-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"patrik-love-icy-l\"],featuresNames:[\"Patrik Love ICY L\"],album:\"CA$HFLOW\",albumSlug:\"ca-hflow\",year:2025,genre:[\"\"],duration:\"2:27\",trackNumber:7,producers:[],producersNames:[],description:\"Kancl\\xE9\\u0159 \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function h(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/kancler-ca-hanova-bulhar\",children:\"Kancl\\xE9\\u0159\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/ca-hflow\",children:\"CA$HFLOW\"}),\" (2025).\"]})}function i(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(h,{...r})}):h(r)}return H(g);})();\n;return Component;"
   },
   "_id": "skladby/kancler-ca-hanova-bulhar.mdx",
   "_raw": {

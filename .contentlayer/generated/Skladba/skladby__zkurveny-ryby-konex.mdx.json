@@ -16,16 +16,19 @@
   "album": "karanténa",
   "albumSlug": "karantena",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:18",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "ZKURVENÝ RYBY — skladba od Konex.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!h.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var f=(e,n,t)=>(t=e!=null?l(k(e)):{},u(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var m=y((N,c)=>{c.exports=_jsx_runtime});var K={};b(K,{default:()=>i,frontmatter:()=>g});var r=f(m()),g={title:\"ZKURVEN\\xDD RYBY\",slug:\"zkurveny-ryby-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"karlo\",\"yzomandias\"],featuresNames:[\"Decky\",\"Karlo\",\"Yzomandias\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[],duration:\"3:18\",trackNumber:6,producers:[],producersNames:[],description:\"ZKURVEN\\xDD RYBY \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(K);})();\n;return Component;"
+    "raw": "\n**[ZKURVENÝ RYBY](/skladby/zkurveny-ryby-konex)** (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!y.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?m(k(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),Y=e=>u(o({},\"__esModule\",{value:!0}),e);var d=b((R,c)=>{c.exports=_jsx_runtime});var K={};f(K,{default:()=>i,frontmatter:()=>h});var t=g(d()),h={title:\"ZKURVEN\\xDD RYBY\",slug:\"zkurveny-ryby-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\",\"karlo\",\"yzomandias\"],featuresNames:[\"Decky\",\"Karlo\",\"Yzomandias\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[\"\"],duration:\"3:18\",trackNumber:6,producers:[],producersNames:[],description:\"ZKURVEN\\xDD RYBY \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function l(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/zkurveny-ryby-konex\",children:\"ZKURVEN\\xDD RYBY\"})}),\" (2020).\"]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return Y(K);})();\n;return Component;"
   },
   "_id": "skladby/zkurveny-ryby-konex.mdx",
   "_raw": {

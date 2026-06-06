@@ -8,16 +8,19 @@
   "album": "713 až na věky",
   "albumSlug": "713-az-na-veky",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:33",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Peníze & moc — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of g(r))!h.call(e,t)&&t!==n&&o(e,t,{get:()=>r[t],enumerable:!(s=l(r,t))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?p(x(e)):{},c(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var i=b((z,u)=>{u.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>S});var a=_(i()),S={title:\"Pen\\xEDze & moc\",slug:\"penize-moc-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"713 a\\u017E na v\\u011Bky\",albumSlug:\"713-az-na-veky\",year:2024,genre:[],duration:\"2:33\",trackNumber:6,producers:[],producersNames:[],description:\"Pen\\xEDze & moc \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(m,{...e})}):m(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Peníze & moc](/skladby/penize-moc-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},c=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!f.call(r,t)&&t!==a&&o(r,t,{get:()=>e[t],enumerable:!(s=l(e,t))||s.enumerable});return r};var z=(r,e,a)=>(a=r!=null?p(b(r)):{},c(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),_=r=>c(o({},\"__esModule\",{value:!0}),r);var i=x((S,u)=>{u.exports=_jsx_runtime});var k={};h(k,{default:()=>m,frontmatter:()=>j});var n=z(i()),j={title:\"Pen\\xEDze & moc\",slug:\"penize-moc-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"713 a\\u017E na v\\u011Bky\",albumSlug:\"713-az-na-veky\",year:2024,genre:[\"\"],duration:\"2:33\",trackNumber:6,producers:[],producersNames:[],description:\"Pen\\xEDze & moc \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/penize-moc-sergei-barracuda\",children:\"Pen\\xEDze & moc\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" (2024).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/penize-moc-sergei-barracuda.mdx",
   "_raw": {

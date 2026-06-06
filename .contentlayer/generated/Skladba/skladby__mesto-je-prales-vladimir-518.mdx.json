@@ -8,16 +8,19 @@
   "album": "Idiot",
   "albumSlug": "idiot",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:10",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Mesto je prales — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!j.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?c(h(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var m=f((k,l)=>{l.exports=_jsx_runtime});var N={};_(N,{default:()=>u,frontmatter:()=>M});var r=b(m()),M={title:\"Mesto je prales\",slug:\"mesto-je-prales-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"3:10\",trackNumber:5,producers:[],producersNames:[],description:\"Mesto je prales \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[Mesto je prales](/skladby/mesto-je-prales-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Idiot](/alba/idiot) (2013).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var a in e)i(r,a,{get:e[a],enumerable:!0})},n=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!j.call(r,s)&&s!==a&&i(r,s,{get:()=>e[s],enumerable:!(o=u(e,s))||o.enumerable});return r};var g=(r,e,a)=>(a=r!=null?c(h(r)):{},n(e||!r||!r.__esModule?i(a,\"default\",{value:r,enumerable:!0}):a,r)),M=r=>n(i({},\"__esModule\",{value:!0}),r);var d=x((y,l)=>{l.exports=_jsx_runtime});var v={};b(v,{default:()=>p,frontmatter:()=>_});var t=g(d()),_={title:\"Mesto je prales\",slug:\"mesto-je-prales-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[\"\"],duration:\"3:10\",trackNumber:5,producers:[],producersNames:[],description:\"Mesto je prales \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/mesto-je-prales-vladimir-518\",children:\"Mesto je prales\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/idiot\",children:\"Idiot\"}),\" (2013).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(m,{...r})}):m(r)}return M(v);})();\n;return Component;"
   },
   "_id": "skladby/mesto-je-prales-vladimir-518.mdx",
   "_raw": {

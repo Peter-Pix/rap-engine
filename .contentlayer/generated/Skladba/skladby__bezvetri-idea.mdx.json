@@ -12,16 +12,19 @@
   "album": "Daleko blíž",
   "albumSlug": "daleko-bliz",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:55",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Bezvetří — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(x(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var u=f((v,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>k});var n=g(u()),k={title:\"Bezvet\\u0159\\xED\",slug:\"bezvetri-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"inphy\"],featuresNames:[\"Inphy\"],album:\"Daleko bl\\xED\\u017E\",albumSlug:\"daleko-bliz\",year:2012,genre:[],duration:\"1:55\",trackNumber:1,producers:[],producersNames:[],description:\"Bezvet\\u0159\\xED \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Bezvetří](/skladby/bezvetri-idea)** od [Idea](/raperi/idea) z alba [Daleko blíž](/alba/daleko-bliz) (2012).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),z=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},d=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!f.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=b(e,n))||s.enumerable});return r};var g=(r,e,t)=>(t=r!=null?p(m(r)):{},d(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),k=r=>d(o({},\"__esModule\",{value:!0}),r);var i=x((y,l)=>{l.exports=_jsx_runtime});var j={};z(j,{default:()=>u,frontmatter:()=>_});var a=g(i()),_={title:\"Bezvet\\u0159\\xED\",slug:\"bezvetri-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"inphy\"],featuresNames:[\"Inphy\"],album:\"Daleko bl\\xED\\u017E\",albumSlug:\"daleko-bliz\",year:2012,genre:[\"\"],duration:\"1:55\",trackNumber:1,producers:[],producersNames:[],description:\"Bezvet\\u0159\\xED \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/bezvetri-idea\",children:\"Bezvet\\u0159\\xED\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/daleko-bliz\",children:\"Daleko bl\\xED\\u017E\"}),\" (2012).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return k(j);})();\n;return Component;"
   },
   "_id": "skladby/bezvetri-idea.mdx",
   "_raw": {

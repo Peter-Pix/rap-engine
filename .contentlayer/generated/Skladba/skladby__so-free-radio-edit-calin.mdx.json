@@ -8,16 +8,19 @@
   "album": "Weekend EP",
   "albumSlug": "weekend-ep",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:35",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "So Free (Radio Edit) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(h(e)):{},d(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>d(a({},\"__esModule\",{value:!0}),e);var c=_((C,i)=>{i.exports=_jsx_runtime});var S={};b(S,{default:()=>l,frontmatter:()=>N});var r=g(c()),N={title:\"So Free (Radio Edit)\",slug:\"so-free-radio-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Weekend EP\",albumSlug:\"weekend-ep\",year:2012,genre:[],duration:\"3:35\",trackNumber:2,producers:[],producersNames:[],description:\"So Free (Radio Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[So Free (Radio Edit)](/skladby/so-free-radio-edit-calin)** od [Calin](/raperi/calin) z alba [Weekend EP](/alba/weekend-ep) (2012).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!x.call(r,t)&&t!==a&&o(r,t,{get:()=>e[t],enumerable:!(d=f(e,t))||d.enumerable});return r};var k=(r,e,a)=>(a=r!=null?p(h(r)):{},i(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),_=r=>i(o({},\"__esModule\",{value:!0}),r);var c=b((N,s)=>{s.exports=_jsx_runtime});var C={};g(C,{default:()=>u,frontmatter:()=>j});var n=k(c()),j={title:\"So Free (Radio Edit)\",slug:\"so-free-radio-edit-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Weekend EP\",albumSlug:\"weekend-ep\",year:2012,genre:[\"\"],duration:\"3:35\",trackNumber:2,producers:[],producersNames:[],description:\"So Free (Radio Edit) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/so-free-radio-edit-calin\",children:\"So Free (Radio Edit)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/weekend-ep\",children:\"Weekend EP\"}),\" (2012).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(l,{...r})}):l(r)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/so-free-radio-edit-calin.mdx",
   "_raw": {

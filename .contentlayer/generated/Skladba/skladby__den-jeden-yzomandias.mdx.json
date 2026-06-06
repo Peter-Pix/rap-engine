@@ -8,16 +8,19 @@
   "album": "Zhora Vypadá Všechno Líp",
   "albumSlug": "zhora-vypada-vsechno-lip",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:32",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Den - Jeden — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?p(x(e)):{},d(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var c=_((M,m)=>{m.exports=_jsx_runtime});var z={};b(z,{default:()=>u,frontmatter:()=>y});var t=g(c()),y={title:\"Den - Jeden\",slug:\"den-jeden-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"4:32\",trackNumber:8,producers:[],producersNames:[],description:\"Den - Jeden \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return j(z);})();\n;return Component;"
+    "raw": "\n**[Den - Jeden](/skladby/den-jeden-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Zhora Vypadá Všechno Líp](/alba/zhora-vypada-vsechno-lip) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var z=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},d=(a,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!f.call(a,o)&&o!==r&&s(a,o,{get:()=>e[o],enumerable:!(t=u(e,o))||t.enumerable});return a};var b=(a,e,r)=>(r=a!=null?m(y(a)):{},d(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>d(s({},\"__esModule\",{value:!0}),a);var c=z((v,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>l,frontmatter:()=>j});var n=b(c()),j={title:\"Den - Jeden\",slug:\"den-jeden-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[\"\"],duration:\"4:32\",trackNumber:8,producers:[],producersNames:[],description:\"Den - Jeden \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/den-jeden-yzomandias\",children:\"Den - Jeden\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/zhora-vypada-vsechno-lip\",children:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\"}),\" (2020).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(p,{...a})}):p(a)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/den-jeden-yzomandias.mdx",
   "_raw": {

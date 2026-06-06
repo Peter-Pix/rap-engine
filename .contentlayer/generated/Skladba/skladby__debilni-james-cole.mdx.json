@@ -8,16 +8,19 @@
   "album": "Kapitán Láska (Deluxe Edition)",
   "albumSlug": "kapitan-laska",
   "year": 2009,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:37",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Debilní — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(b(e)):{},l(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>l(s({},\"__esModule\",{value:!0}),e);var m=f((M,i)=>{i.exports=_jsx_runtime});var D={};j(D,{default:()=>c,frontmatter:()=>k});var n=_(m()),k={title:\"Debiln\\xED\",slug:\"debilni-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[],duration:\"3:37\",trackNumber:12,producers:[],producersNames:[],description:\"Debiln\\xED \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Debilní](/skladby/debilni-james-cole)** od [James Cole](/raperi/james-cole) z alba [Kapitán Láska (Deluxe Edition)](/alba/kapitan-laska) (2009).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},l=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!f.call(a,t)&&t!==r&&s(a,t,{get:()=>e[t],enumerable:!(o=p(e,t))||o.enumerable});return a};var k=(a,e,r)=>(r=a!=null?m(x(a)):{},l(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>l(s({},\"__esModule\",{value:!0}),a);var c=h((y,i)=>{i.exports=_jsx_runtime});var _={};j(_,{default:()=>u,frontmatter:()=>D});var n=k(c()),D={title:\"Debiln\\xED\",slug:\"debilni-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[\"\"],duration:\"3:37\",trackNumber:12,producers:[],producersNames:[],description:\"Debiln\\xED \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/debilni-james-cole\",children:\"Debiln\\xED\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/kapitan-laska\",children:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\"}),\" (2009).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/debilni-james-cole.mdx",
   "_raw": {

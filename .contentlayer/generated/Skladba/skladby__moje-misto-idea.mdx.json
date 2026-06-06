@@ -12,16 +12,19 @@
   "album": "Space Lopata",
   "albumSlug": "space-lopata",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:34",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Moje místo — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!j.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(h(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(a({},\"__esModule\",{value:!0}),e);var u=f((N,m)=>{m.exports=_jsx_runtime});var M={};_(M,{default:()=>p,frontmatter:()=>y});var r=b(u()),y={title:\"Moje m\\xEDsto\",slug:\"moje-misto-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[],duration:\"2:34\",trackNumber:6,producers:[],producersNames:[],description:\"Moje m\\xEDsto \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Moje místo](/skladby/moje-misto-idea)** od [Idea](/raperi/idea) z alba [Space Lopata](/alba/space-lopata) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},c=(a,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!j.call(a,o)&&o!==r&&s(a,o,{get:()=>e[o],enumerable:!(n=u(e,o))||n.enumerable});return a};var g=(a,e,r)=>(r=a!=null?m(h(a)):{},c(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),y=a=>c(s({},\"__esModule\",{value:!0}),a);var p=x((N,d)=>{d.exports=_jsx_runtime});var _={};b(_,{default:()=>l,frontmatter:()=>M});var t=g(p()),M={title:\"Moje m\\xEDsto\",slug:\"moje-misto-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[\"\"],duration:\"2:34\",trackNumber:6,producers:[],producersNames:[],description:\"Moje m\\xEDsto \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/moje-misto-idea\",children:\"Moje m\\xEDsto\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/space-lopata\",children:\"Space Lopata\"}),\" (2023).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(i,{...a})}):i(a)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/moje-misto-idea.mdx",
   "_raw": {

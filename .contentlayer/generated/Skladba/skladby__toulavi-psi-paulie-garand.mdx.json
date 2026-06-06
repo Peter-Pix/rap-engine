@@ -12,16 +12,19 @@
   "album": "NAHORU NA DNO",
   "albumSlug": "nahoru-na-dno",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:08",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "TOULAVÍ PSI — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=m(n,a))||u.enumerable});return e};var b=(e,n,t)=>(t=e!=null?c(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),N=e=>s(o({},\"__esModule\",{value:!0}),e);var i=f((S,l)=>{l.exports=_jsx_runtime});var A={};_(A,{default:()=>p,frontmatter:()=>j});var r=b(i()),j={title:\"TOULAV\\xCD PSI\",slug:\"toulavi-psi-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"under-my-pillow\"],featuresNames:[\"Under My Pillow\"],album:\"NAHORU NA DNO\",albumSlug:\"nahoru-na-dno\",year:2024,genre:[],duration:\"2:08\",trackNumber:3,producers:[],producersNames:[],description:\"TOULAV\\xCD PSI \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return N(A);})();\n;return Component;"
+    "raw": "\n**[TOULAVÍ PSI](/skladby/toulavi-psi-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [NAHORU NA DNO](/alba/nahoru-na-dno) (2024).\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),N=(r,a)=>{for(var n in a)o(r,n,{get:a[n],enumerable:!0})},u=(r,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>a[t],enumerable:!(l=m(a,t))||l.enumerable});return r};var b=(r,a,n)=>(n=r!=null?c(g(r)):{},u(a||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),A=r=>u(o({},\"__esModule\",{value:!0}),r);var s=x((_,i)=>{i.exports=_jsx_runtime});var P={};N(P,{default:()=>p,frontmatter:()=>O});var e=b(s()),O={title:\"TOULAV\\xCD PSI\",slug:\"toulavi-psi-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"under-my-pillow\"],featuresNames:[\"Under My Pillow\"],album:\"NAHORU NA DNO\",albumSlug:\"nahoru-na-dno\",year:2024,genre:[\"\"],duration:\"2:08\",trackNumber:3,producers:[],producersNames:[],description:\"TOULAV\\xCD PSI \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/toulavi-psi-paulie-garand\",children:\"TOULAV\\xCD PSI\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/nahoru-na-dno\",children:\"NAHORU NA DNO\"}),\" (2024).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(d,{...r})}):d(r)}return A(P);})();\n;return Component;"
   },
   "_id": "skladby/toulavi-psi-paulie-garand.mdx",
   "_raw": {

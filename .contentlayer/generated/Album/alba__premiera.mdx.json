@@ -1,0 +1,53 @@
+{
+  "title": "Premiéra",
+  "slug": "premiera",
+  "rapper": "Rest & DJ Fatte",
+  "rapperSlug": "rest",
+  "label": "Ty Nikdy",
+  "labelSlug": "ty-nikdy",
+  "year": 2010,
+  "genre": [
+    "boom-bap",
+    "hip-hop"
+  ],
+  "description": "Rest & DJ Fatte v roce 2010 vydal album. Kombinuje boom bap a hip hop, obsahuje celkem 18 skladeb. Deska vyšla pod labelem Ty Nikdy.",
+  "featured": false,
+  "tracklist": [
+    "Vstup",
+    "Premiéra",
+    "Blíž k mýmu pivu (feat. Idea)",
+    "Priority",
+    "Realitka",
+    "Faktická (Věcná!)",
+    "Fellaz",
+    "Panáky na zem",
+    "Balkónovka",
+    "Alte Schule",
+    "Život je pes",
+    "24",
+    "Kuřivoj Vysajbong",
+    "Hudba (feat. Oliver Lowe)",
+    "Nestarám se",
+    "Skit úplně nejvíc",
+    "Potřebuješ (feat. Idea, Zverina)",
+    "Výstupní (feat. Kato)"
+  ],
+  "publishedAt": "2024-01-20T00:00:00.000Z",
+  "releaseType": "album",
+  "explicit": false,
+  "body": {
+    "raw": "\n## O albu\n\n[Rest & DJ Fatte](/raperi/rest) v roce 2010 vydal debutové album.\n\nKombinuje [boom bap](/zanry/boom-bap) a [hip hop](/zanry/hip-hop).\n\nAlbum obsahuje celkem 18 skladeb.\n\nDeska vyšla pod labelem [Ty Nikdy](/labely/ty-nikdy).\n",
+    "code": "var Component=(()=>{var h=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var k=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)l(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!y.call(a,n)&&n!==r&&l(a,n,{get:()=>e[n],enumerable:!(o=m(e,n))||o.enumerable});return a};var v=(a,e,r)=>(r=a!=null?h(u(a)):{},i(e||!a||!a.__esModule?l(r,\"default\",{value:a,enumerable:!0}):r,a)),f=a=>i(l({},\"__esModule\",{value:!0}),a);var s=k((F,p)=>{p.exports=_jsx_runtime});var g={};j(g,{default:()=>d,frontmatter:()=>x});var t=v(s()),x={title:\"Premi\\xE9ra\",slug:\"premiera\",rapper:\"Rest & DJ Fatte\",rapperSlug:\"rest\",label:\"Ty Nikdy\",labelSlug:\"ty-nikdy\",year:2010,releaseType:\"album\",genre:[\"boom-bap\",\"hip-hop\"],description:\"Rest & DJ Fatte v roce 2010 vydal album. Kombinuje boom bap a hip hop, obsahuje celkem 18 skladeb. Deska vy\\u0161la pod labelem Ty Nikdy.\",tracklist:[\"Vstup\",\"Premi\\xE9ra\",\"Bl\\xED\\u017E k m\\xFDmu pivu (feat. Idea)\",\"Priority\",\"Realitka\",\"Faktick\\xE1 (V\\u011Bcn\\xE1!)\",\"Fellaz\",\"Pan\\xE1ky na zem\",\"Balk\\xF3novka\",\"Alte Schule\",\"\\u017Divot je pes\",\"24\",\"Ku\\u0159ivoj Vysajbong\",\"Hudba (feat. Oliver Lowe)\",\"Nestar\\xE1m se\",\"Skit \\xFApln\\u011B nejv\\xEDc\",\"Pot\\u0159ebuje\\u0161 (feat. Idea, Zverina)\",\"V\\xFDstupn\\xED (feat. Kato)\"],publishedAt:\"2024-01-20\"};function c(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest & DJ Fatte\"}),\" v roce 2010 vydal debutov\\xE9 album.\"]}),`\n`,(0,t.jsxs)(e.p,{children:[\"Kombinuje \",(0,t.jsx)(e.a,{href:\"/zanry/boom-bap\",children:\"boom bap\"}),\" a \",(0,t.jsx)(e.a,{href:\"/zanry/hip-hop\",children:\"hip hop\"}),\".\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Album obsahuje celkem 18 skladeb.\"}),`\n`,(0,t.jsxs)(e.p,{children:[\"Deska vy\\u0161la pod labelem \",(0,t.jsx)(e.a,{href:\"/labely/ty-nikdy\",children:\"Ty Nikdy\"}),\".\"]})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(c,{...a})}):c(a)}return f(g);})();\n;return Component;"
+  },
+  "_id": "alba/premiera.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/premiera.mdx",
+    "sourceFileName": "premiera.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/premiera"
+  },
+  "type": "Album",
+  "url": "/alba/premiera",
+  "canonicalUrl": "https://4rap.cz/alba/premiera"
+}

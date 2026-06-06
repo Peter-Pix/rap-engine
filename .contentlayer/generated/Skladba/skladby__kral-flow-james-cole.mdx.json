@@ -8,16 +8,19 @@
   "album": "G.O.A.T.",
   "albumSlug": "g-o-a-t",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:05",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Král flow — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(x(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>l(a({},\"__esModule\",{value:!0}),e);var c=g((K,m)=>{m.exports=_jsx_runtime});var C={};j(C,{default:()=>d,frontmatter:()=>w});var r=_(c()),w={title:\"Kr\\xE1l flow\",slug:\"kral-flow-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"3:05\",trackNumber:1,producers:[],producersNames:[],description:\"Kr\\xE1l flow \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(C);})();\n;return Component;"
+    "raw": "\n**[Král flow](/skladby/kral-flow-james-cole)** od [James Cole](/raperi/james-cole) z alba [G.O.A.T.](/alba/g-o-a-t) (2020).\n",
+    "code": "var Component=(()=>{var i=Object.create;var l=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)l(r,o,{get:e[o],enumerable:!0})},n=(r,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!g.call(r,t)&&t!==o&&l(r,t,{get:()=>e[t],enumerable:!(s=f(e,t))||s.enumerable});return r};var b=(r,e,o)=>(o=r!=null?i(h(r)):{},n(e||!r||!r.__esModule?l(o,\"default\",{value:r,enumerable:!0}):o,r)),w=r=>n(l({},\"__esModule\",{value:!0}),r);var m=j((y,c)=>{c.exports=_jsx_runtime});var k={};x(k,{default:()=>d,frontmatter:()=>_});var a=b(m()),_={title:\"Kr\\xE1l flow\",slug:\"kral-flow-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[\"\"],duration:\"3:05\",trackNumber:1,producers:[],producersNames:[],description:\"Kr\\xE1l flow \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/kral-flow-james-cole\",children:\"Kr\\xE1l flow\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/g-o-a-t\",children:\"G.O.A.T.\"}),\" (2020).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return w(k);})();\n;return Component;"
   },
   "_id": "skladby/kral-flow-james-cole.mdx",
   "_raw": {

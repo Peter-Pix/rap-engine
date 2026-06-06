@@ -8,16 +8,19 @@
   "album": "POPSTAR",
   "albumSlug": "popstar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:02",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Nad ránem — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var N=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?l(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var u=N((L,m)=>{m.exports=_jsx_runtime});var C={};_(C,{default:()=>i,frontmatter:()=>j});var t=b(u()),j={title:\"Nad r\\xE1nem\",slug:\"nad-ranem-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"3:02\",trackNumber:11,producers:[],producersNames:[],description:\"Nad r\\xE1nem \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[Nad ránem](/skladby/nad-ranem-calin)** od [Calin](/raperi/calin) z alba [POPSTAR](/alba/popstar) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),N=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of f(r))!x.call(e,t)&&t!==n&&s(e,t,{get:()=>r[t],enumerable:!(o=m(r,t))||o.enumerable});return e};var g=(e,r,n)=>(n=e!=null?u(h(e)):{},c(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(s({},\"__esModule\",{value:!0}),e);var d=b((S,l)=>{l.exports=_jsx_runtime});var C={};N(C,{default:()=>p,frontmatter:()=>j});var a=g(d()),j={title:\"Nad r\\xE1nem\",slug:\"nad-ranem-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[\"\"],duration:\"3:02\",trackNumber:11,producers:[],producersNames:[],description:\"Nad r\\xE1nem \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/nad-ranem-calin\",children:\"Nad r\\xE1nem\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/popstar\",children:\"POPSTAR\"}),\" (2022).\"]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/nad-ranem-calin.mdx",
   "_raw": {

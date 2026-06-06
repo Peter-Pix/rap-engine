@@ -8,16 +8,19 @@
   "album": "Dobrá Duše, Srdce ze Zlata",
   "albumSlug": "dobra-duse-srdce-ze-zlata",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:21",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Necejtim Nic — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var z=(e,t,r)=>(r=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),N=e=>c(o({},\"__esModule\",{value:!0}),e);var m=j((D,i)=>{i.exports=_jsx_runtime});var g={};f(g,{default:()=>u,frontmatter:()=>_});var n=z(m()),_={title:\"Necejtim Nic\",slug:\"necejtim-nic-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[],duration:\"3:21\",trackNumber:1,producers:[],producersNames:[],description:\"Necejtim Nic \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return N(g);})();\n;return Component;"
+    "raw": "\n**[Necejtim Nic](/skladby/necejtim-nic-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Dobrá Duše, Srdce ze Zlata](/alba/dobra-duse-srdce-ze-zlata) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var t in e)s(a,t,{get:e[t],enumerable:!0})},c=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of z(e))!f.call(a,n)&&n!==t&&s(a,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return a};var x=(a,e,t)=>(t=a!=null?l(b(a)):{},c(e||!a||!a.__esModule?s(t,\"default\",{value:a,enumerable:!0}):t,a)),N=a=>c(s({},\"__esModule\",{value:!0}),a);var d=h((_,i)=>{i.exports=_jsx_runtime});var y={};j(y,{default:()=>u,frontmatter:()=>g});var r=x(d()),g={title:\"Necejtim Nic\",slug:\"necejtim-nic-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[\"\"],duration:\"3:21\",trackNumber:1,producers:[],producersNames:[],description:\"Necejtim Nic \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/necejtim-nic-yzomandias\",children:\"Necejtim Nic\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/dobra-duse-srdce-ze-zlata\",children:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\"}),\" (2019).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(m,{...a})}):m(a)}return N(y);})();\n;return Component;"
   },
   "_id": "skladby/necejtim-nic-yzomandias.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Evoluce haranta",
   "albumSlug": "evoluce-haranta",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:22",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Evoluce haranta — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},c=(e,a,t,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!g.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(u=p(a,n))||u.enumerable});return e};var b=(e,a,t)=>(t=e!=null?m(x(e)):{},c(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var s=f((M,l)=>{l.exports=_jsx_runtime});var D={};_(D,{default:()=>d,frontmatter:()=>v});var r=b(s()),v={title:\"Evoluce haranta\",slug:\"evoluce-haranta-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"Evoluce haranta\",albumSlug:\"evoluce-haranta\",year:2026,genre:[],duration:\"2:22\",trackNumber:1,producers:[],producersNames:[],description:\"Evoluce haranta \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Evoluce haranta](/skladby/evoluce-haranta-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) (2026).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),v=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},l=(e,a,r,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!f.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(u=h(a,t))||u.enumerable});return e};var b=(e,a,r)=>(r=e!=null?p(g(e)):{},l(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>l(o({},\"__esModule\",{value:!0}),e);var s=x((y,c)=>{c.exports=_jsx_runtime});var E={};v(E,{default:()=>i,frontmatter:()=>_});var n=b(s()),_={title:\"Evoluce haranta\",slug:\"evoluce-haranta-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"Evoluce haranta\",albumSlug:\"evoluce-haranta\",year:2026,genre:[\"\"],duration:\"2:22\",trackNumber:1,producers:[],producersNames:[],description:\"Evoluce haranta \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/evoluce-haranta-paulie-garand\",children:\"Evoluce haranta\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" (2026).\"]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(E);})();\n;return Component;"
   },
   "_id": "skladby/evoluce-haranta-paulie-garand.mdx",
   "_raw": {

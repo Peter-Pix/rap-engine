@@ -8,16 +8,19 @@
   "album": "Avec Moi",
   "albumSlug": "avec-moi",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:07",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Avec Moi (Extended Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!M.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=x(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(a({},\"__esModule\",{value:!0}),e);var i=f((C,m)=>{m.exports=_jsx_runtime});var v={};j(v,{default:()=>u,frontmatter:()=>g});var n=_(i()),g={title:\"Avec Moi (Extended Mix)\",slug:\"avec-moi-extended-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Avec Moi\",albumSlug:\"avec-moi\",year:2023,genre:[],duration:\"6:07\",trackNumber:2,producers:[],producersNames:[],description:\"Avec Moi (Extended Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return b(v);})();\n;return Component;"
+    "raw": "\n**[Avec Moi (Extended Mix)](/skladby/avec-moi-extended-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Avec Moi](/alba/avec-moi) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},c=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(a,t)&&t!==r&&n(a,t,{get:()=>e[t],enumerable:!(s=x(e,t))||s.enumerable});return a};var v=(a,e,r)=>(r=a!=null?u(M(a)):{},c(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),b=a=>c(n({},\"__esModule\",{value:!0}),a);var d=h((C,i)=>{i.exports=_jsx_runtime});var A={};j(A,{default:()=>m,frontmatter:()=>g});var o=v(d()),g={title:\"Avec Moi (Extended Mix)\",slug:\"avec-moi-extended-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Avec Moi\",albumSlug:\"avec-moi\",year:2023,genre:[\"\"],duration:\"6:07\",trackNumber:2,producers:[],producersNames:[],description:\"Avec Moi (Extended Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/avec-moi-extended-mix-james-cole\",children:\"Avec Moi (Extended Mix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/avec-moi\",children:\"Avec Moi\"}),\" (2023).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(l,{...a})}):l(a)}return b(A);})();\n;return Component;"
   },
   "_id": "skladby/avec-moi-extended-mix-james-cole.mdx",
   "_raw": {

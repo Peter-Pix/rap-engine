@@ -8,16 +8,19 @@
   "album": "Moby Dick",
   "albumSlug": "moby-dick",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:41",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Sen neonové noci — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!b.call(e,r)&&r!==t&&s(e,r,{get:()=>n[r],enumerable:!(a=p(n,r))||a.enumerable});return e};var _=(e,n,t)=>(t=e!=null?d(h(e)):{},c(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var i=f((C,m)=>{m.exports=_jsx_runtime});var k={};j(k,{default:()=>l,frontmatter:()=>S});var o=_(i()),S={title:\"Sen neonov\\xE9 noci\",slug:\"sen-neonove-noci-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[],duration:\"3:41\",trackNumber:15,producers:[],producersNames:[],description:\"Sen neonov\\xE9 noci \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Sen neonové noci](/skladby/sen-neonove-noci-james-cole)** od [James Cole](/raperi/james-cole) z alba [Moby Dick](/alba/moby-dick) (2013).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},c=(n,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of b(e))!h.call(n,a)&&a!==r&&s(n,a,{get:()=>e[a],enumerable:!(t=p(e,a))||t.enumerable});return n};var g=(n,e,r)=>(r=n!=null?u(f(n)):{},c(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),k=n=>c(s({},\"__esModule\",{value:!0}),n);var l=j((C,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>d,frontmatter:()=>y});var o=g(l()),y={title:\"Sen neonov\\xE9 noci\",slug:\"sen-neonove-noci-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[\"\"],duration:\"3:41\",trackNumber:15,producers:[],producersNames:[],description:\"Sen neonov\\xE9 noci \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/sen-neonove-noci-james-cole\",children:\"Sen neonov\\xE9 noci\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/moby-dick\",children:\"Moby Dick\"}),\" (2013).\"]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(m,{...n})}):m(n)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/sen-neonove-noci-james-cole.mdx",
   "_raw": {

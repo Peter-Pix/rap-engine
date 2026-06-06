@@ -8,16 +8,19 @@
   "album": "Hood Celebrity 2",
   "albumSlug": "hood-celebrity-2",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 18,
   "producers": [],
   "producersNames": [],
   "description": "Cígo za cígem — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),A=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(c=p(t,a))||c.enumerable});return e};var f=(e,t,n)=>(n=e!=null?d(g(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),C=e=>s(o({},\"__esModule\",{value:!0}),e);var m=x((N,u)=>{u.exports=_jsx_runtime});var j={};A(j,{default:()=>l,frontmatter:()=>_});var r=f(m()),_={title:\"C\\xEDgo za c\\xEDgem\",slug:\"cigo-za-cigem-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[],duration:\"3:31\",trackNumber:18,producers:[],producersNames:[],description:\"C\\xEDgo za c\\xEDgem \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return C(j);})();\n;return Component;"
+    "raw": "\n**[Cígo za cígem](/skladby/cigo-za-cigem-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Hood Celebrity 2](/alba/hood-celebrity-2) (2018).\n",
+    "code": "var Component=(()=>{var h=Object.create;var n=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var A=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var o in e)n(a,o,{get:e[o],enumerable:!0})},s=(a,e,o,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!p.call(a,t)&&t!==o&&n(a,t,{get:()=>e[t],enumerable:!(c=g(e,t))||c.enumerable});return a};var C=(a,e,o)=>(o=a!=null?h(b(a)):{},s(e||!a||!a.__esModule?n(o,\"default\",{value:a,enumerable:!0}):o,a)),x=a=>s(n({},\"__esModule\",{value:!0}),a);var i=A((N,l)=>{l.exports=_jsx_runtime});var y={};f(y,{default:()=>d,frontmatter:()=>H});var r=C(i()),H={title:\"C\\xEDgo za c\\xEDgem\",slug:\"cigo-za-cigem-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[\"\"],duration:\"3:31\",trackNumber:18,producers:[],producersNames:[],description:\"C\\xEDgo za c\\xEDgem \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/cigo-za-cigem-ca-hanova-bulhar\",children:\"C\\xEDgo za c\\xEDgem\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/hood-celebrity-2\",children:\"Hood Celebrity 2\"}),\" (2018).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(u,{...a})}):u(a)}return x(y);})();\n;return Component;"
   },
   "_id": "skladby/cigo-za-cigem-ca-hanova-bulhar.mdx",
   "_raw": {

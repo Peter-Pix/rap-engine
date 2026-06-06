@@ -12,16 +12,19 @@
   "album": "Ultra! Ultra!",
   "albumSlug": "ultra-ultra",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:33",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Nic Mi Neni Svatý — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var N=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(f(e)):{},o(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>o(i({},\"__esModule\",{value:!0}),e);var m=N((v,l)=>{l.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>k});var r=b(m()),k={title:\"Nic Mi Neni Svaty\\u0301\",slug:\"nic-mi-neni-svaty-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[],duration:\"4:33\",trackNumber:7,producers:[],producersNames:[],description:\"Nic Mi Neni Svaty\\u0301 \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Nic Mi Neni Svatý](/skladby/nic-mi-neni-svaty-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Ultra! Ultra!](/alba/ultra-ultra) (2017).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),N=(a,r)=>{for(var t in r)n(a,t,{get:r[t],enumerable:!0})},s=(a,r,t,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of f(r))!v.call(a,i)&&i!==t&&n(a,i,{get:()=>r[i],enumerable:!(l=p(r,i))||l.enumerable});return a};var b=(a,r,t)=>(t=a!=null?m(h(a)):{},s(r||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),y=a=>s(n({},\"__esModule\",{value:!0}),a);var c=x((_,o)=>{o.exports=_jsx_runtime});var k={};N(k,{default:()=>u,frontmatter:()=>g});var e=b(c()),g={title:\"Nic Mi Neni Svaty\\u0301\",slug:\"nic-mi-neni-svaty-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Ultra! Ultra!\",albumSlug:\"ultra-ultra\",year:2017,genre:[\"\"],duration:\"4:33\",trackNumber:7,producers:[],producersNames:[],description:\"Nic Mi Neni Svaty\\u0301 \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/nic-mi-neni-svaty-vladimir-518\",children:\"Nic Mi Neni Svaty\\u0301\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/ultra-ultra\",children:\"Ultra! Ultra!\"}),\" (2017).\"]})}function u(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(d,{...a})}):d(a)}return y(k);})();\n;return Component;"
   },
   "_id": "skladby/nic-mi-neni-svaty-vladimir-518.mdx",
   "_raw": {

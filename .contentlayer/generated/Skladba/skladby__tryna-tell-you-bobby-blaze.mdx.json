@@ -8,16 +8,19 @@
   "album": "Street Sermons, Vol. 1",
   "albumSlug": "street-sermons-vol-1",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:10",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Tryna Tell You — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!y.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(x(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>l(a({},\"__esModule\",{value:!0}),e);var m=h((B,u)=>{u.exports=_jsx_runtime});var S={};f(S,{default:()=>c,frontmatter:()=>j});var r=_(m()),j={title:\"Tryna Tell You\",slug:\"tryna-tell-you-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Street Sermons, Vol. 1\",albumSlug:\"street-sermons-vol-1\",year:2022,genre:[],duration:\"3:10\",trackNumber:3,producers:[],producersNames:[],description:\"Tryna Tell You \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Tryna Tell You](/skladby/tryna-tell-you-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Street Sermons, Vol. 1](/alba/street-sermons-vol-1) (2022).\n",
+    "code": "var Component=(()=>{var y=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)n(r,o,{get:e[o],enumerable:!0})},s=(r,e,o,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!f.call(r,a)&&a!==o&&n(r,a,{get:()=>e[a],enumerable:!(l=i(e,a))||l.enumerable});return r};var z=(r,e,o)=>(o=r!=null?y(p(r)):{},s(e||!r||!r.__esModule?n(o,\"default\",{value:r,enumerable:!0}):o,r)),g=r=>s(n({},\"__esModule\",{value:!0}),r);var u=h((_,b)=>{b.exports=_jsx_runtime});var S={};x(S,{default:()=>d,frontmatter:()=>B});var t=z(u()),B={title:\"Tryna Tell You\",slug:\"tryna-tell-you-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Street Sermons, Vol. 1\",albumSlug:\"street-sermons-vol-1\",year:2022,genre:[\"\"],duration:\"3:10\",trackNumber:3,producers:[],producersNames:[],description:\"Tryna Tell You \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/tryna-tell-you-bobby-blaze\",children:\"Tryna Tell You\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/street-sermons-vol-1\",children:\"Street Sermons, Vol. 1\"}),\" (2022).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(c,{...r})}):c(r)}return g(S);})();\n;return Component;"
   },
   "_id": "skladby/tryna-tell-you-bobby-blaze.mdx",
   "_raw": {

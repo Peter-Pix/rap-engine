@@ -8,16 +8,19 @@
   "album": "Jizvy",
   "albumSlug": "jizvy",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:48",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Jizvy — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(h(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var u=j((N,c)=>{c.exports=_jsx_runtime});var v={};y(v,{default:()=>m,frontmatter:()=>g});var n=_(u()),g={title:\"Jizvy\",slug:\"jizvy-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Jizvy\",albumSlug:\"jizvy\",year:2019,genre:[],duration:\"3:48\",trackNumber:1,producers:[],producersNames:[],description:\"Jizvy \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(v);})();\n;return Component;"
+    "raw": "\n**[Jizvy](/skladby/jizvy-calin)** od [Calin](/raperi/calin) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of y(e))!x.call(r,a)&&a!==n&&i(r,a,{get:()=>e[a],enumerable:!(s=m(e,a))||s.enumerable});return r};var g=(r,e,n)=>(n=r!=null?p(f(r)):{},o(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>o(i({},\"__esModule\",{value:!0}),r);var l=h((C,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>d,frontmatter:()=>z});var t=g(l()),z={title:\"Jizvy\",slug:\"jizvy-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Jizvy\",albumSlug:\"jizvy\",year:2019,genre:[\"\"],duration:\"3:48\",trackNumber:1,producers:[],producersNames:[],description:\"Jizvy \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/jizvy-calin\",children:\"Jizvy\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2019).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(u,{...r})}):u(r)}return v(b);})();\n;return Component;"
   },
   "_id": "skladby/jizvy-calin.mdx",
   "_raw": {

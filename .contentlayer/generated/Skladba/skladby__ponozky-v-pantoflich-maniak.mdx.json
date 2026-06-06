@@ -8,16 +8,19 @@
   "album": "Ponožky v pantoflích",
   "albumSlug": "ponozky-v-pantoflich",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:32",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Ponožky v pantoflích — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),y=(n,e)=>{for(var o in e)r(n,o,{get:e[o],enumerable:!0})},c=(n,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!k.call(n,a)&&a!==o&&r(n,a,{get:()=>e[a],enumerable:!(s=d(e,a))||s.enumerable});return n};var _=(n,e,o)=>(o=n!=null?m(f(n)):{},c(e||!n||!n.__esModule?r(o,\"default\",{value:n,enumerable:!0}):o,n)),b=n=>c(r({},\"__esModule\",{value:!0}),n);var i=x((M,p)=>{p.exports=_jsx_runtime});var j={};y(j,{default:()=>u,frontmatter:()=>g});var t=_(i()),g={title:\"Pono\\u017Eky v pantofl\\xEDch\",slug:\"ponozky-v-pantoflich-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Pono\\u017Eky v pantofl\\xEDch\",albumSlug:\"ponozky-v-pantoflich\",year:2019,genre:[],duration:\"2:32\",trackNumber:1,producers:[],producersNames:[],description:\"Pono\\u017Eky v pantofl\\xEDch \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Ponožky v pantoflích](/skladby/ponozky-v-pantoflich-maniak)** od [Maniak](/raperi/maniak) (2019).\n",
+    "code": "var Component=(()=>{var k=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),x=(a,n)=>{for(var o in n)r(a,o,{get:n[o],enumerable:!0})},c=(a,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let e of f(n))!h.call(a,e)&&e!==o&&r(a,e,{get:()=>n[e],enumerable:!(s=d(n,e))||s.enumerable});return a};var g=(a,n,o)=>(o=a!=null?k(m(a)):{},c(n||!a||!a.__esModule?r(o,\"default\",{value:a,enumerable:!0}):o,a)),v=a=>c(r({},\"__esModule\",{value:!0}),a);var p=y((j,i)=>{i.exports=_jsx_runtime});var M={};x(M,{default:()=>u,frontmatter:()=>b});var t=g(p()),b={title:\"Pono\\u017Eky v pantofl\\xEDch\",slug:\"ponozky-v-pantoflich-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Pono\\u017Eky v pantofl\\xEDch\",albumSlug:\"ponozky-v-pantoflich\",year:2019,genre:[\"\"],duration:\"2:32\",trackNumber:1,producers:[],producersNames:[],description:\"Pono\\u017Eky v pantofl\\xEDch \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(a){let n={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/ponozky-v-pantoflich-maniak\",children:\"Pono\\u017Eky v pantofl\\xEDch\"})}),\" od \",(0,t.jsx)(n.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2019).\"]})}function u(a={}){let{wrapper:n}=a.components||{};return n?(0,t.jsx)(n,{...a,children:(0,t.jsx)(l,{...a})}):l(a)}return v(M);})();\n;return Component;"
   },
   "_id": "skladby/ponozky-v-pantoflich-maniak.mdx",
   "_raw": {

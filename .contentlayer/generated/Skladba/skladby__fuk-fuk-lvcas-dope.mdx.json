@@ -8,16 +8,19 @@
   "album": "JUSTiCE44 (Mixtape1)",
   "albumSlug": "justice44-mixtape1",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:56",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Fuk Fuk — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(f(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var p=k((D,c)=>{c.exports=_jsx_runtime});var F={};_(F,{default:()=>m,frontmatter:()=>j});var r=b(p()),j={title:\"Fuk Fuk\",slug:\"fuk-fuk-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"JUSTiCE44 (Mixtape1)\",albumSlug:\"justice44-mixtape1\",year:2017,genre:[],duration:\"1:56\",trackNumber:4,producers:[],producersNames:[],description:\"Fuk Fuk \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[Fuk Fuk](/skladby/fuk-fuk-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [JUSTiCE44 (Mixtape1)](/alba/justice44-mixtape1) (2017).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},u=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of m(e))!x.call(a,s)&&s!==t&&n(a,s,{get:()=>e[s],enumerable:!(o=f(e,s))||o.enumerable});return a};var g=(a,e,t)=>(t=a!=null?d(k(a)):{},u(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),j=a=>u(n({},\"__esModule\",{value:!0}),a);var p=h((D,c)=>{c.exports=_jsx_runtime});var F={};b(F,{default:()=>l,frontmatter:()=>v});var r=g(p()),v={title:\"Fuk Fuk\",slug:\"fuk-fuk-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"JUSTiCE44 (Mixtape1)\",albumSlug:\"justice44-mixtape1\",year:2017,genre:[\"\"],duration:\"1:56\",trackNumber:4,producers:[],producersNames:[],description:\"Fuk Fuk \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/fuk-fuk-lvcas-dope\",children:\"Fuk Fuk\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/justice44-mixtape1\",children:\"JUSTiCE44 (Mixtape1)\"}),\" (2017).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(i,{...a})}):i(a)}return j(F);})();\n;return Component;"
   },
   "_id": "skladby/fuk-fuk-lvcas-dope.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Narcos",
   "albumSlug": "narcos",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:11",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Narcos — skladba od Hard Rico.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!f.call(r,a)&&a!==n&&o(r,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return r};var g=(r,e,n)=>(n=r!=null?l(x(r)):{},c(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),N=r=>c(o({},\"__esModule\",{value:!0}),r);var i=_((S,d)=>{d.exports=_jsx_runtime});var y={};b(y,{default:()=>m,frontmatter:()=>j});var t=g(i()),j={title:\"Narcos\",slug:\"narcos-hard-rico\",rapper:\"Hard Rico\",rapperSlug:\"hard-rico\",features:[\"yzomandias\"],featuresNames:[\"Yzomandias\"],album:\"Narcos\",albumSlug:\"narcos\",year:2024,genre:[],duration:\"3:11\",trackNumber:1,producers:[],producersNames:[],description:\"Narcos \\u2014 skladba od Hard Rico.\",publishedAt:\"2026-05-31\"};function u(r){let e={em:\"em\",h2:\"h2\",p:\"p\",...r.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(u,{...r})}):u(r)}return N(y);})();\n;return Component;"
+    "raw": "\n**[Narcos](/skladby/narcos-hard-rico)** od [Hard Rico](/raperi/hard-rico) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),N=(a,r)=>{for(var o in r)s(a,o,{get:r[o],enumerable:!0})},c=(a,r,o,t)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!x.call(a,n)&&n!==o&&s(a,n,{get:()=>r[n],enumerable:!(t=m(r,n))||t.enumerable});return a};var b=(a,r,o)=>(o=a!=null?p(f(a)):{},c(r||!a||!a.__esModule?s(o,\"default\",{value:a,enumerable:!0}):o,a)),_=a=>c(s({},\"__esModule\",{value:!0}),a);var i=g((H,d)=>{d.exports=_jsx_runtime});var y={};N(y,{default:()=>l,frontmatter:()=>j});var e=b(i()),j={title:\"Narcos\",slug:\"narcos-hard-rico\",rapper:\"Hard Rico\",rapperSlug:\"hard-rico\",features:[\"yzomandias\"],featuresNames:[\"Yzomandias\"],album:\"Narcos\",albumSlug:\"narcos\",year:2024,genre:[\"\"],duration:\"3:11\",trackNumber:1,producers:[],producersNames:[],description:\"Narcos \\u2014 skladba od Hard Rico.\",publishedAt:\"2026-05-31\"};function u(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/narcos-hard-rico\",children:\"Narcos\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/hard-rico\",children:\"Hard Rico\"}),\" (2024).\"]})}function l(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(u,{...a})}):u(a)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/narcos-hard-rico.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "1000",
   "albumSlug": "1000",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "FDK — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(u=l(t,o))||u.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(h(e)):{},a(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(s({},\"__esModule\",{value:!0}),e);var c=f((K,x)=>{x.exports=_jsx_runtime});var F={};_(F,{default:()=>d,frontmatter:()=>D});var r=b(c()),D={title:\"FDK\",slug:\"fdk-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"3:45\",trackNumber:12,producers:[],producersNames:[],description:\"FDK \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(F);})();\n;return Component;"
+    "raw": "\n**[FDK](/skladby/fdk-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [1000](/alba/1000) (2019).\n",
+    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var m=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!f.call(r,n)&&n!==t&&a(r,n,{get:()=>e[n],enumerable:!(x=p(e,n))||x.enumerable});return r};var _=(r,e,t)=>(t=r!=null?i(h(r)):{},s(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>s(a({},\"__esModule\",{value:!0}),r);var c=m((F,u)=>{u.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>k});var o=_(c()),k={title:\"FDK\",slug:\"fdk-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[\"\"],duration:\"3:45\",trackNumber:12,producers:[],producersNames:[],description:\"FDK \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/fdk-hugo-toxxx\",children:\"FDK\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/1000\",children:\"1000\"}),\" (2019).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(d,{...r})}):d(r)}return j(D);})();\n;return Component;"
   },
   "_id": "skladby/fdk-hugo-toxxx.mdx",
   "_raw": {

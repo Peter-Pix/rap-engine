@@ -14,16 +14,19 @@
   "album": "The Prodigal Son",
   "albumSlug": "the-prodigal-son",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:46",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Persevere — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},l=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of p(r))!x.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(s=m(r,o))||s.enumerable});return e};var _=(e,r,t)=>(t=e!=null?i(h(e)):{},l(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>l(a({},\"__esModule\",{value:!0}),e);var b=g((B,u)=>{u.exports=_jsx_runtime});var z={};f(z,{default:()=>d,frontmatter:()=>y});var n=_(b()),y={title:\"Persevere\",slug:\"persevere-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"aaron-s\",\"tone-jonez\"],featuresNames:[\"Aaron S.\",\"Tone Jonez\"],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"5:46\",trackNumber:8,producers:[],producersNames:[],description:\"Persevere \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(z);})();\n;return Component;"
+    "raw": "\n**[Persevere](/skladby/persevere-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Prodigal Son](/alba/the-prodigal-son) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},b=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!g.call(r,n)&&n!==a&&t(r,n,{get:()=>e[n],enumerable:!(s=u(e,n))||s.enumerable});return r};var z=(r,e,a)=>(a=r!=null?p(m(r)):{},b(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),x=r=>b(t({},\"__esModule\",{value:!0}),r);var d=f((v,l)=>{l.exports=_jsx_runtime});var B={};y(B,{default:()=>c,frontmatter:()=>j});var o=z(d()),j={title:\"Persevere\",slug:\"persevere-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"aaron-s\",\"tone-jonez\"],featuresNames:[\"Aaron S.\",\"Tone Jonez\"],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[\"\"],duration:\"5:46\",trackNumber:8,producers:[],producersNames:[],description:\"Persevere \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/persevere-bobby-blaze\",children:\"Persevere\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/the-prodigal-son\",children:\"The Prodigal Son\"}),\" (2021).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(i,{...r})}):i(r)}return x(B);})();\n;return Component;"
   },
   "_id": "skladby/persevere-bobby-blaze.mdx",
   "_raw": {

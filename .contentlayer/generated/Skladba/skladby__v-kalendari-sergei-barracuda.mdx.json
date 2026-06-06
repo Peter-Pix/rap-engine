@@ -12,16 +12,19 @@
   "album": "Produkt",
   "albumSlug": "produkt",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:14",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "V Kalendáři — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!x.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return e};var _=(e,r,a)=>(a=e!=null?l(h(e)):{},u(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),S=e=>u(s({},\"__esModule\",{value:!0}),e);var i=b((K,d)=>{d.exports=_jsx_runtime});var k={};f(k,{default:()=>m,frontmatter:()=>j});var t=_(i()),j={title:\"V Kalend\\xE1\\u0159i\",slug:\"v-kalendari-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"shimmi\"],featuresNames:[\"SHIMMI\"],album:\"Produkt\",albumSlug:\"produkt\",year:2024,genre:[],duration:\"3:14\",trackNumber:6,producers:[],producersNames:[],description:\"V Kalend\\xE1\\u0159i \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return S(k);})();\n;return Component;"
+    "raw": "\n**[V Kalendáři](/skladby/v-kalendari-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Produkt](/alba/produkt) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var t in r)d(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of m(r))!h.call(e,n)&&n!==t&&d(e,n,{get:()=>r[n],enumerable:!(s=g(r,n))||s.enumerable});return e};var x=(e,r,t)=>(t=e!=null?p(b(e)):{},i(r||!e||!e.__esModule?d(t,\"default\",{value:e,enumerable:!0}):t,e)),S=e=>i(d({},\"__esModule\",{value:!0}),e);var u=f((y,o)=>{o.exports=_jsx_runtime});var j={};k(j,{default:()=>l,frontmatter:()=>_});var a=x(u()),_={title:\"V Kalend\\xE1\\u0159i\",slug:\"v-kalendari-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"shimmi\"],featuresNames:[\"SHIMMI\"],album:\"Produkt\",albumSlug:\"produkt\",year:2024,genre:[\"\"],duration:\"3:14\",trackNumber:6,producers:[],producersNames:[],description:\"V Kalend\\xE1\\u0159i \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/v-kalendari-sergei-barracuda\",children:\"V Kalend\\xE1\\u0159i\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/produkt\",children:\"Produkt\"}),\" (2024).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return S(j);})();\n;return Component;"
   },
   "_id": "skladby/v-kalendari-sergei-barracuda.mdx",
   "_raw": {

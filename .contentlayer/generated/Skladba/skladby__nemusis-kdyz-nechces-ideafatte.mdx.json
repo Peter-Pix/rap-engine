@@ -12,16 +12,19 @@
   "album": "Mezitím",
   "albumSlug": "mezitim",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:23",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Nemusíš, když nechceš — skladba od IdeaFatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(c=p(t,a))||c.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(f(e)):{},o(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var m=_((N,d)=>{d.exports=_jsx_runtime});var y={};b(y,{default:()=>i,frontmatter:()=>k});var n=g(m()),k={title:\"Nemus\\xED\\u0161, kdy\\u017E nechce\\u0161\",slug:\"nemusis-kdyz-nechces-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[],duration:\"3:23\",trackNumber:11,producers:[],producersNames:[],description:\"Nemus\\xED\\u0161, kdy\\u017E nechce\\u0161 \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Nemusíš, když nechceš](/skladby/nemusis-kdyz-nechces-ideafatte)** z alba [Mezitím](/alba/mezitim) (2008).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),k=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},d=(t,e,a,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!x.call(t,r)&&r!==a&&s(t,r,{get:()=>e[r],enumerable:!(c=p(e,r))||c.enumerable});return t};var y=(t,e,a)=>(a=t!=null?l(h(t)):{},d(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>d(s({},\"__esModule\",{value:!0}),t);var o=b((_,i)=>{i.exports=_jsx_runtime});var j={};k(j,{default:()=>m,frontmatter:()=>z});var n=y(o()),z={title:\"Nemus\\xED\\u0161, kdy\\u017E nechce\\u0161\",slug:\"nemusis-kdyz-nechces-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[\"\"],duration:\"3:23\",trackNumber:11,producers:[],producersNames:[],description:\"Nemus\\xED\\u0161, kdy\\u017E nechce\\u0161 \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/nemusis-kdyz-nechces-ideafatte\",children:\"Nemus\\xED\\u0161, kdy\\u017E nechce\\u0161\"})}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/mezitim\",children:\"Mezit\\xEDm\"}),\" (2008).\"]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(u,{...t})}):u(t)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/nemusis-kdyz-nechces-ideafatte.mdx",
   "_raw": {

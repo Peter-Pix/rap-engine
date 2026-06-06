@@ -8,16 +8,19 @@
   "album": "Soundtrack (Instrumentals)",
   "albumSlug": "soundtrack-instrumentals",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:50",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Zmietam sa (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},u=(t,e,r,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(m=p(e,a))||m.enumerable});return t};var b=(t,e,r)=>(r=t!=null?d(f(t)):{},u(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>u(s({},\"__esModule\",{value:!0}),t);var c=j((S,o)=>{o.exports=_jsx_runtime});var D={};_(D,{default:()=>l,frontmatter:()=>k});var n=b(c()),k={title:\"Zmietam sa (Instrumental)\",slug:\"zmietam-sa-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[],duration:\"2:50\",trackNumber:15,producers:[],producersNames:[],description:\"Zmietam sa (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(i,{...t})}):i(t)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Zmietam sa (Instrumental)](/skladby/zmietam-sa-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack (Instrumentals)](/alba/soundtrack-instrumentals) (2021).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of f(t))!j.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(u=p(t,r))||u.enumerable});return e};var g=(e,t,n)=>(n=e!=null?c(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>m(s({},\"__esModule\",{value:!0}),e);var l=x((S,o)=>{o.exports=_jsx_runtime});var D={};b(D,{default:()=>i,frontmatter:()=>_});var a=g(l()),_={title:\"Zmietam sa (Instrumental)\",slug:\"zmietam-sa-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[\"\"],duration:\"2:50\",trackNumber:15,producers:[],producersNames:[],description:\"Zmietam sa (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(t.p,{children:[(0,a.jsx)(t.strong,{children:(0,a.jsx)(t.a,{href:\"/skladby/zmietam-sa-instrumental-dj-fatte\",children:\"Zmietam sa (Instrumental)\"})}),\" od \",(0,a.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(t.a,{href:\"/alba/soundtrack-instrumentals\",children:\"Soundtrack (Instrumentals)\"}),\" (2021).\"]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return k(D);})();\n;return Component;"
   },
   "_id": "skladby/zmietam-sa-instrumental-dj-fatte.mdx",
   "_raw": {

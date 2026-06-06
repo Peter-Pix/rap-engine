@@ -14,16 +14,19 @@
   "album": "Dobrá Duše, Srdce ze Zlata",
   "albumSlug": "dobra-duse-srdce-ze-zlata",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:09",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Luskni — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var z=(e,n,r)=>(r=e!=null?l(h(e)):{},d(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>d(o({},\"__esModule\",{value:!0}),e);var i=k((D,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>g});var t=z(i()),g={title:\"Luskni\",slug:\"luskni-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"karlo\"],featuresNames:[\"Nik Tendo\",\"Karlo\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[],duration:\"3:09\",trackNumber:13,producers:[],producersNames:[],description:\"Luskni \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Luskni](/skladby/luskni-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Dobrá Duše, Srdce ze Zlata](/alba/dobra-duse-srdce-ze-zlata) (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of z(a))!k.call(e,s)&&s!==n&&o(e,s,{get:()=>a[s],enumerable:!(t=p(a,s))||t.enumerable});return e};var x=(e,a,n)=>(n=e!=null?m(b(e)):{},d(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var u=f((j,i)=>{i.exports=_jsx_runtime});var D={};h(D,{default:()=>c,frontmatter:()=>y});var r=x(u()),y={title:\"Luskni\",slug:\"luskni-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"karlo\"],featuresNames:[\"Nik Tendo\",\"Karlo\"],album:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\",albumSlug:\"dobra-duse-srdce-ze-zlata\",year:2019,genre:[\"\"],duration:\"3:09\",trackNumber:13,producers:[],producersNames:[],description:\"Luskni \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/luskni-yzomandias\",children:\"Luskni\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/dobra-duse-srdce-ze-zlata\",children:\"Dobr\\xE1 Du\\u0161e, Srdce ze Zlata\"}),\" (2019).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(D);})();\n;return Component;"
   },
   "_id": "skladby/luskni-yzomandias.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Idiot",
   "albumSlug": "idiot",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:35",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Idiot — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of x(e))!f.call(t,i)&&i!==n&&a(t,i,{get:()=>e[i],enumerable:!(o=p(e,i))||o.enumerable});return t};var g=(t,e,n)=>(n=t!=null?c(h(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>s(a({},\"__esModule\",{value:!0}),t);var m=_((S,d)=>{d.exports=_jsx_runtime});var v={};b(v,{default:()=>l,frontmatter:()=>k});var r=g(m()),k={title:\"Idiot\",slug:\"idiot-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"martin-svatek\"],featuresNames:[\"Martin Svatek\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"4:35\",trackNumber:7,producers:[],producersNames:[],description:\"Idiot \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return j(v);})();\n;return Component;"
+    "raw": "\n**[Idiot](/skladby/idiot-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Idiot](/alba/idiot) (2013).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),g=(t,r)=>{for(var i in r)n(t,i,{get:r[i],enumerable:!0})},d=(t,r,i,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of f(r))!x.call(t,a)&&a!==i&&n(t,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return t};var v=(t,r,i)=>(i=t!=null?u(h(t)):{},d(r||!t||!t.__esModule?n(i,\"default\",{value:t,enumerable:!0}):i,t)),_=t=>d(n({},\"__esModule\",{value:!0}),t);var l=b((M,s)=>{s.exports=_jsx_runtime});var k={};g(k,{default:()=>c,frontmatter:()=>j});var e=v(l()),j={title:\"Idiot\",slug:\"idiot-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"martin-svatek\"],featuresNames:[\"Martin Svatek\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[\"\"],duration:\"4:35\",trackNumber:7,producers:[],producersNames:[],description:\"Idiot \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(t){let r={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/idiot-vladimir-518\",children:\"Idiot\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/idiot\",children:\"Idiot\"}),\" (2013).\"]})}function c(t={}){let{wrapper:r}=t.components||{};return r?(0,e.jsx)(r,{...t,children:(0,e.jsx)(m,{...t})}):m(t)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/idiot-vladimir-518.mdx",
   "_raw": {

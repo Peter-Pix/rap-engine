@@ -80,6 +80,10 @@ export function albumsByRapper(rapperSlug: string) {
     .sort((a, b) => b.year - a.year)
 }
 
+export function allReleasesByRapper(rapperSlug: string) {
+  return albumsByRapper(rapperSlug)
+}
+
 export function skladbyByRapper(rapperSlug: string) {
   // Primary artist + features
   return allSkladbas

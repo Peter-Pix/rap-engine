@@ -16,16 +16,19 @@
   "album": "Střepy",
   "albumSlug": "strepy",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:47",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Revizor — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of f(t))!h.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=d(t,s))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var c=j((R,p)=>{p.exports=_jsx_runtime});var y={};_(y,{default:()=>m,frontmatter:()=>S});var r=b(c()),S={title:\"Revizor\",slug:\"revizor-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\",\"majself\",\"separ\"],featuresNames:[\"DJ Fatte\",\"Majself\",\"Separ\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[],duration:\"3:47\",trackNumber:9,producers:[],producersNames:[],description:\"Revizor \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Revizor](/skladby/revizor-rest)** od [Rest](/raperi/rest) z alba [Střepy](/alba/strepy) (2013).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var s in e)n(r,s,{get:e[s],enumerable:!0})},i=(r,e,s,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!x.call(r,a)&&a!==s&&n(r,a,{get:()=>e[a],enumerable:!(o=f(e,a))||o.enumerable});return r};var g=(r,e,s)=>(s=r!=null?d(h(r)):{},i(e||!r||!r.__esModule?n(s,\"default\",{value:r,enumerable:!0}):s,r)),y=r=>i(n({},\"__esModule\",{value:!0}),r);var l=b((v,p)=>{p.exports=_jsx_runtime});var R={};j(R,{default:()=>u,frontmatter:()=>z});var t=g(l()),z={title:\"Revizor\",slug:\"revizor-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\",\"majself\",\"separ\"],featuresNames:[\"DJ Fatte\",\"Majself\",\"Separ\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[\"\"],duration:\"3:47\",trackNumber:9,producers:[],producersNames:[],description:\"Revizor \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/revizor-rest\",children:\"Revizor\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/strepy\",children:\"St\\u0159epy\"}),\" (2013).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(c,{...r})}):c(r)}return y(R);})();\n;return Component;"
   },
   "_id": "skladby/revizor-rest.mdx",
   "_raw": {

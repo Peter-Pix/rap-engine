@@ -8,16 +8,19 @@
   "album": "Through These Eyes",
   "albumSlug": "through-these-eyes",
   "year": 2004,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:32",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Soldier's March — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),y=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of m(r))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>r[o],enumerable:!(a=i(r,o))||a.enumerable});return e};var f=(e,r,n)=>(n=e!=null?h(p(e)):{},l(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var c=g((z,u)=>{u.exports=_jsx_runtime});var M={};y(M,{default:()=>d,frontmatter:()=>j});var t=f(c()),j={title:\"Soldier's March\",slug:\"soldier-s-march-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[],duration:\"4:32\",trackNumber:8,producers:[],producersNames:[],description:\"Soldier's March \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(b,{...e})}):b(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Soldier's March](/skladby/soldier-s-march-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Through These Eyes](/alba/through-these-eyes) (2004).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},b=(r,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of p(e))!y.call(r,s)&&s!==o&&t(r,s,{get:()=>e[s],enumerable:!(n=i(e,s))||n.enumerable});return r};var x=(r,e,o)=>(o=r!=null?d(m(r)):{},b(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),z=r=>b(t({},\"__esModule\",{value:!0}),r);var h=g((j,l)=>{l.exports=_jsx_runtime});var M={};f(M,{default:()=>u,frontmatter:()=>B});var a=x(h()),B={title:\"Soldier's March\",slug:\"soldier-s-march-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[\"\"],duration:\"4:32\",trackNumber:8,producers:[],producersNames:[],description:\"Soldier's March \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/soldier-s-march-bobby-blaze\",children:\"Soldier's March\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/through-these-eyes\",children:\"Through These Eyes\"}),\" (2004).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return z(M);})();\n;return Component;"
   },
   "_id": "skladby/soldier-s-march-bobby-blaze.mdx",
   "_raw": {

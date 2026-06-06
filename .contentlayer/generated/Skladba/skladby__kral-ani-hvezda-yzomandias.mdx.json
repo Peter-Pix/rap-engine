@@ -8,16 +8,19 @@
   "album": "J. Eden Dva",
   "albumSlug": "j-eden-dva",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:27",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Král ani Hvězda — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var z=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},d=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==t&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?l(x(e)):{},d(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var m=z((k,i)=>{i.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>j});var a=b(m()),j={title:\"Kr\\xE1l ani Hv\\u011Bzda\",slug:\"kral-ani-hvezda-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"1:27\",trackNumber:1,producers:[],producersNames:[],description:\"Kr\\xE1l ani Hv\\u011Bzda \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(u,{...e})}):u(e)}return g(v);})();\n;return Component;"
+    "raw": "\n**[Král ani Hvězda](/skladby/kral-ani-hvezda-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN DVA](/alba/j-eden-dva) (2019).\n",
+    "code": "var Component=(()=>{var u=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var r in a)d(e,r,{get:a[r],enumerable:!0})},o=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of z(a))!f.call(e,t)&&t!==r&&d(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var v=(e,a,r)=>(r=e!=null?u(h(e)):{},o(a||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>o(d({},\"__esModule\",{value:!0}),e);var l=x((k,i)=>{i.exports=_jsx_runtime});var y={};b(y,{default:()=>m,frontmatter:()=>j});var n=v(l()),j={title:\"Kr\\xE1l ani Hv\\u011Bzda\",slug:\"kral-ani-hvezda-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[\"\"],duration:\"1:27\",trackNumber:1,producers:[],producersNames:[],description:\"Kr\\xE1l ani Hv\\u011Bzda \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/kral-ani-hvezda-yzomandias\",children:\"Kr\\xE1l ani Hv\\u011Bzda\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/j-eden-dva\",children:\"J. EDEN DVA\"}),\" (2019).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(y);})();\n;return Component;"
   },
   "_id": "skladby/kral-ani-hvezda-yzomandias.mdx",
   "_raw": {

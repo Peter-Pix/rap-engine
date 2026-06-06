@@ -8,16 +8,19 @@
   "album": "Hood Celebrity 2",
   "albumSlug": "hood-celebrity-2",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:50",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Pacanda je z5 — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==n&&o(e,r,{get:()=>t[r],enumerable:!(c=p(t,r))||c.enumerable});return e};var f=(e,t,n)=>(n=e!=null?m(b(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var d=A((N,u)=>{u.exports=_jsx_runtime});var C={};j(C,{default:()=>i,frontmatter:()=>g});var a=f(d()),g={title:\"Pacanda je z5\",slug:\"pacanda-je-z5-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[],duration:\"2:50\",trackNumber:1,producers:[],producersNames:[],description:\"Pacanda je z5 \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[Pacanda je z5](/skladby/pacanda-je-z5-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Hood Celebrity 2](/alba/hood-celebrity-2) (2018).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),j=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,c)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of b(a))!m.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(c=p(a,t))||c.enumerable});return e};var x=(e,a,n)=>(n=e!=null?i(A(e)):{},s(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),H=e=>s(o({},\"__esModule\",{value:!0}),e);var l=f((z,d)=>{d.exports=_jsx_runtime});var y={};j(y,{default:()=>h,frontmatter:()=>g});var r=x(l()),g={title:\"Pacanda je z5\",slug:\"pacanda-je-z5-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[\"\"],duration:\"2:50\",trackNumber:1,producers:[],producersNames:[],description:\"Pacanda je z5 \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/pacanda-je-z5-ca-hanova-bulhar\",children:\"Pacanda je z5\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/hood-celebrity-2\",children:\"Hood Celebrity 2\"}),\" (2018).\"]})}function h(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return H(y);})();\n;return Component;"
   },
   "_id": "skladby/pacanda-je-z5-ca-hanova-bulhar.mdx",
   "_raw": {

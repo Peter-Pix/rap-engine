@@ -8,16 +8,19 @@
   "album": "ZPÁTKY NA SVOJÍ PLANETU",
   "albumSlug": "zpatky-na-svoji-planetu",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:58",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "JÁN JÁKOBY vs SVĚT — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},m=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!j.call(e,r)&&r!==a&&s(e,r,{get:()=>t[r],enumerable:!(o=l(t,r))||o.enumerable});return e};var N=(e,t,a)=>(a=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>m(s({},\"__esModule\",{value:!0}),e);var i=b((v,u)=>{u.exports=_jsx_runtime});var y={};f(y,{default:()=>c,frontmatter:()=>g});var n=N(i()),g={title:\"J\\xC1N J\\xC1KOBY vs SV\\u011AT\",slug:\"jan-jakoby-vs-svet-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\",albumSlug:\"zpatky-na-svoji-planetu\",year:2023,genre:[],duration:\"3:58\",trackNumber:3,producers:[],producersNames:[],description:\"J\\xC1N J\\xC1KOBY vs SV\\u011AT \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[JÁN JÁKOBY vs SVĚT](/skladby/jan-jakoby-vs-svet-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [ZPÁTKY NA SVOJÍ PLANETU](/alba/zpatky-na-svoji-planetu) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var s in a)t(e,s,{get:a[s],enumerable:!0})},i=(e,a,s,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of j(a))!b.call(e,r)&&r!==s&&t(e,r,{get:()=>a[r],enumerable:!(o=p(a,r))||o.enumerable});return e};var z=(e,a,s)=>(s=e!=null?m(y(e)):{},i(a||!e||!e.__esModule?t(s,\"default\",{value:e,enumerable:!0}):s,e)),N=e=>i(t({},\"__esModule\",{value:!0}),e);var u=f((Y,d)=>{d.exports=_jsx_runtime});var x={};h(x,{default:()=>c,frontmatter:()=>v});var n=z(u()),v={title:\"J\\xC1N J\\xC1KOBY vs SV\\u011AT\",slug:\"jan-jakoby-vs-svet-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\",albumSlug:\"zpatky-na-svoji-planetu\",year:2023,genre:[\"\"],duration:\"3:58\",trackNumber:3,producers:[],producersNames:[],description:\"J\\xC1N J\\xC1KOBY vs SV\\u011AT \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/jan-jakoby-vs-svet-yzomandias\",children:\"J\\xC1N J\\xC1KOBY vs SV\\u011AT\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/zpatky-na-svoji-planetu\",children:\"ZP\\xC1TKY NA SVOJ\\xCD PLANETU\"}),\" (2023).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return N(x);})();\n;return Component;"
   },
   "_id": "skladby/jan-jakoby-vs-svet-yzomandias.mdx",
   "_raw": {

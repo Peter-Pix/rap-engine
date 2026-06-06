@@ -14,16 +14,19 @@
   "album": "KINGPIN",
   "albumSlug": "kingpin",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:12",
   "trackNumber": 16,
   "producers": [],
   "producersNames": [],
   "description": "UZAVŘENÝ KRUH — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!k.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var y=(e,n,t)=>(t=e!=null?m(x(e)):{},c(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),N=e=>c(o({},\"__esModule\",{value:!0}),e);var d=f((K,u)=>{u.exports=_jsx_runtime});var b={};g(b,{default:()=>l,frontmatter:()=>_});var r=y(d()),_={title:\"UZAV\\u0158EN\\xDD KRUH\",slug:\"uzavreny-kruh-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"karlo\",\"hasan\"],featuresNames:[\"Karlo\",\"Hasan\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[],duration:\"4:12\",trackNumber:16,producers:[],producersNames:[],description:\"UZAV\\u0158EN\\xDD KRUH \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return N(b);})();\n;return Component;"
+    "raw": "\n**[UZAVŘENÝ KRUH](/skladby/uzavreny-kruh-decky)** od [Decky](/raperi/decky) z alba [KINGPIN](/alba/kingpin) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),N=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},c=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!y.call(r,t)&&t!==a&&s(r,t,{get:()=>e[t],enumerable:!(o=k(e,t))||o.enumerable});return r};var g=(r,e,a)=>(a=r!=null?p(m(r)):{},c(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),x=r=>c(s({},\"__esModule\",{value:!0}),r);var d=f((_,u)=>{u.exports=_jsx_runtime});var K={};N(K,{default:()=>l,frontmatter:()=>b});var n=g(d()),b={title:\"UZAV\\u0158EN\\xDD KRUH\",slug:\"uzavreny-kruh-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[\"karlo\",\"hasan\"],featuresNames:[\"Karlo\",\"Hasan\"],album:\"KINGPIN\",albumSlug:\"kingpin\",year:2019,genre:[\"\"],duration:\"4:12\",trackNumber:16,producers:[],producersNames:[],description:\"UZAV\\u0158EN\\xDD KRUH \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/uzavreny-kruh-decky\",children:\"UZAV\\u0158EN\\xDD KRUH\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/kingpin\",children:\"KINGPIN\"}),\" (2019).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(i,{...r})}):i(r)}return x(K);})();\n;return Component;"
   },
   "_id": "skladby/uzavreny-kruh-decky.mdx",
   "_raw": {

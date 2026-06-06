@@ -6,7 +6,7 @@
   "label": "WM Czech Republic",
   "year": 2016,
   "genre": [],
-  "description": "Rep — EP od IF (2016).",
+  "description": "IF v roce 2016 vydal EP. Obsahuje celkem čtyři skladby. Deska vyšla pod labelem WM Czech Republic.",
   "image": "https://cdn-images.dzcdn.net/images/cover/dad7fc5b0eba453c625c4f57ce1dae43/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -16,9 +16,11 @@
     "Michael Jackson"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let c of h(t))!f.call(e,c)&&c!==r&&a(e,c,{get:()=>t[c],enumerable:!(s=u(t,c))||s.enumerable});return e};var M=(e,t,r)=>(r=e!=null?m(x(e)):{},o(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(a({},\"__esModule\",{value:!0}),e);var p=g((C,i)=>{i.exports=_jsx_runtime});var F={};b(F,{default:()=>l,frontmatter:()=>j});var n=M(p()),j={title:\"Rep\",slug:\"rep\",rapper:\"IF\",rapperSlug:\"if\",label:\"WM Czech Republic\",year:2016,genre:[],description:\"Rep \\u2014 EP od IF (2016).\",image:\"https://cdn-images.dzcdn.net/images/cover/dad7fc5b0eba453c625c4f57ce1dae43/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Pres Noc\",\"LOL\",\"BMPM (feat. Rest)\",\"Michael Jackson\"],publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return _(F);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[IF](/raperi/if) v roce 2016 vydal EP.\n\nAlbum obsahuje celkem čtyři skladby.\n\nDeska vyšla pod labelem WM Czech Republic.\n",
+    "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var n in e)r(a,n,{get:e[n],enumerable:!0})},s=(a,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let c of u(e))!f.call(a,c)&&c!==n&&r(a,c,{get:()=>e[c],enumerable:!(l=m(e,c))||l.enumerable});return a};var g=(a,e,n)=>(n=a!=null?h(b(a)):{},s(e||!a||!a.__esModule?r(n,\"default\",{value:a,enumerable:!0}):n,a)),M=a=>s(r({},\"__esModule\",{value:!0}),a);var o=y((_,i)=>{i.exports=_jsx_runtime});var k={};x(k,{default:()=>d,frontmatter:()=>j});var t=g(o()),j={title:\"Rep\",slug:\"rep\",rapper:\"IF\",rapperSlug:\"if\",label:\"WM Czech Republic\",year:2016,releaseType:\"ep\",genre:[],description:\"IF v roce 2016 vydal EP. Obsahuje celkem \\u010Dty\\u0159i skladby. Deska vy\\u0161la pod labelem WM Czech Republic.\",image:\"https://cdn-images.dzcdn.net/images/cover/dad7fc5b0eba453c625c4f57ce1dae43/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Pres Noc\",\"LOL\",\"BMPM (feat. Rest)\",\"Michael Jackson\"],publishedAt:\"2026-06-04\"};function p(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.a,{href:\"/raperi/if\",children:\"IF\"}),\" v roce 2016 vydal EP.\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Album obsahuje celkem \\u010Dty\\u0159i skladby.\"}),`\n`,(0,t.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem WM Czech Republic.\"})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(p,{...a})}):p(a)}return M(k);})();\n;return Component;"
   },
   "_id": "alba/rep.mdx",
   "_raw": {

@@ -1,0 +1,50 @@
+{
+  "title": "DEJV",
+  "slug": "dejv",
+  "realName": "David Smetana",
+  "birthPlace": "Československo",
+  "genre": [
+    "punk",
+    "hardcore-punk",
+    "underground-rock"
+  ],
+  "description": "Bubeník a zakládající člen legendární české punkové kapely !V.V.Ú., který pod pseudonymem DEJV zanechal nesmazatelnou stopu v undergroundové hudební scéně 90. let. Jeho energické bicí a syrový vokál pomohly definovat zvuk kapely, která se stala kultovní nejen pro svou hudbu, ale i pro provokativní texty a nekompromisní postoj.",
+  "image": "https://cdn-images.dzcdn.net/images/artist/367f7a59ef4ec300bc291fd9d54e11dc/1000x1000-000000-80-0-0.jpg",
+  "featured": false,
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "updatedAt": "2026-06-15T00:00:00.000Z",
+  "deezerId": 67912732,
+  "aliases": [
+    "David Smetana",
+    "Dejv Smetana"
+  ],
+  "labels": [
+    "Nezávislá scéna"
+  ],
+  "subgenres": [
+    "political-punk",
+    "garage-punk"
+  ],
+  "status": "complete",
+  "associatedActs": [
+    "!V.V.Ú.",
+    "Alda",
+    "Herr Boss",
+    "Pafka"
+  ],
+  "body": {
+    "raw": "\n## O rapperovi\n\n**[DEJV](/raperi/dejv)** je rapper působící na české rapové scéně.\n",
+    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var t in e)r(n,t,{get:e[t],enumerable:!0})},d=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!h.call(n,o)&&o!==t&&r(n,o,{get:()=>e[o],enumerable:!(s=k(e,o))||s.enumerable});return n};var f=(n,e,t)=>(t=n!=null?u(v(n)):{},d(e||!n||!n.__esModule?r(t,\"default\",{value:n,enumerable:!0}):t,n)),x=n=>d(r({},\"__esModule\",{value:!0}),n);var p=g((z,c)=>{c.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>b});var a=f(p()),b={title:\"DEJV\",slug:\"dejv\",realName:\"David Smetana\",birthPlace:\"\\u010Ceskoslovensko\",genre:[\"punk\",\"hardcore-punk\",\"underground-rock\"],description:\"Buben\\xEDk a zakl\\xE1daj\\xEDc\\xED \\u010Dlen legend\\xE1rn\\xED \\u010Desk\\xE9 punkov\\xE9 kapely !V.V.\\xDA., kter\\xFD pod pseudonymem DEJV zanechal nesmazatelnou stopu v undergroundov\\xE9 hudebn\\xED sc\\xE9n\\u011B 90. let. Jeho energick\\xE9 bic\\xED a syrov\\xFD vok\\xE1l pomohly definovat zvuk kapely, kter\\xE1 se stala kultovn\\xED nejen pro svou hudbu, ale i pro provokativn\\xED texty a nekompromisn\\xED postoj.\",image:\"https://cdn-images.dzcdn.net/images/artist/367f7a59ef4ec300bc291fd9d54e11dc/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-05-31\",updatedAt:\"2026-06-15\",deezerId:67912732,aliases:[\"David Smetana\",\"Dejv Smetana\"],labels:[\"Nez\\xE1visl\\xE1 sc\\xE9na\"],subgenres:[\"political-punk\",\"garage-punk\"],status:\"complete\",associatedActs:[\"!V.V.\\xDA.\",\"Alda\",\"Herr Boss\",\"Pafka\"]};function i(n){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/raperi/dejv\",children:\"DEJV\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(i,{...n})}):i(n)}return x(D);})();\n;return Component;"
+  },
+  "_id": "raperi/dejv.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/dejv.mdx",
+    "sourceFileName": "dejv.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/dejv"
+  },
+  "type": "Rapper",
+  "url": "/raperi/dejv",
+  "canonicalUrl": "https://4rap.cz/raperi/dejv"
+}

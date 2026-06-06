@@ -16,16 +16,19 @@
   "album": "Rap",
   "albumSlug": "rap",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:23",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "To Nejsem Já — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of j(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(f(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var d=h((J,u)=>{u.exports=_jsx_runtime});var N={};_(N,{default:()=>i,frontmatter:()=>F});var r=b(d()),F={title:\"To Nejsem J\\xE1\",slug:\"to-nejsem-ja-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"dj-aka\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"DJ AKA\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[],duration:\"3:23\",trackNumber:2,producers:[],producersNames:[],description:\"To Nejsem J\\xE1 \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[To Nejsem Já](/skladby/to-nejsem-ja-if)** z alba [Rap](/alba/rap) (2015).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},d=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of j(e))!x.call(t,n)&&n!==a&&s(t,n,{get:()=>e[n],enumerable:!(o=m(e,n))||o.enumerable});return t};var g=(t,e,a)=>(a=t!=null?l(f(t)):{},d(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),N=t=>d(s({},\"__esModule\",{value:!0}),t);var c=b((D,u)=>{u.exports=_jsx_runtime});var J={};h(J,{default:()=>p,frontmatter:()=>_});var r=g(c()),_={title:\"To Nejsem J\\xE1\",slug:\"to-nejsem-ja-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"dj-aka\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"DJ AKA\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[\"\"],duration:\"3:23\",trackNumber:2,producers:[],producersNames:[],description:\"To Nejsem J\\xE1 \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/to-nejsem-ja-if\",children:\"To Nejsem J\\xE1\"})}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/rap\",children:\"Rap\"}),\" (2015).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return N(J);})();\n;return Component;"
   },
   "_id": "skladby/to-nejsem-ja-if.mdx",
   "_raw": {

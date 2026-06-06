@@ -8,16 +8,19 @@
   "album": "Short Stories 2",
   "albumSlug": "short-stories-2",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:49",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Oschlemeen In Vegas — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!f.call(e,s)&&s!==r&&a(e,s,{get:()=>t[s],enumerable:!(o=p(t,s))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(a({},\"__esModule\",{value:!0}),e);var u=g((M,m)=>{m.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>S});var n=_(u()),S={title:\"Oschlemeen In Vegas\",slug:\"oschlemeen-in-vegas-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Short Stories 2\",albumSlug:\"short-stories-2\",year:2017,genre:[],duration:\"2:49\",trackNumber:2,producers:[],producersNames:[],description:\"Oschlemeen In Vegas \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Oschlemeen In Vegas](/skladby/oschlemeen-in-vegas-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Short Stories 2](/alba/short-stories-2) (2017).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var s in e)n(t,s,{get:e[s],enumerable:!0})},c=(t,e,s,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!g.call(t,a)&&a!==s&&n(t,a,{get:()=>e[a],enumerable:!(o=m(e,a))||o.enumerable});return t};var b=(t,e,s)=>(s=t!=null?u(f(t)):{},c(e||!t||!t.__esModule?n(s,\"default\",{value:t,enumerable:!0}):s,t)),S=t=>c(n({},\"__esModule\",{value:!0}),t);var i=j((y,l)=>{l.exports=_jsx_runtime});var D={};x(D,{default:()=>h,frontmatter:()=>_});var r=b(i()),_={title:\"Oschlemeen In Vegas\",slug:\"oschlemeen-in-vegas-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Short Stories 2\",albumSlug:\"short-stories-2\",year:2017,genre:[\"\"],duration:\"2:49\",trackNumber:2,producers:[],producersNames:[],description:\"Oschlemeen In Vegas \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/oschlemeen-in-vegas-dj-fatte\",children:\"Oschlemeen In Vegas\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/short-stories-2\",children:\"Short Stories 2\"}),\" (2017).\"]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return S(D);})();\n;return Component;"
   },
   "_id": "skladby/oschlemeen-in-vegas-dj-fatte.mdx",
   "_raw": {

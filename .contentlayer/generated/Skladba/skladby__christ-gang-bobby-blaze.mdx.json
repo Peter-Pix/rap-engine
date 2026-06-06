@@ -12,16 +12,19 @@
   "album": "Road 2 Redemption",
   "albumSlug": "road-2-redemption",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:05",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Christ Gang — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=b(r,a))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?m(h(e)):{},i(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var l=x((B,u)=>{u.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>y});var t=_(l()),y={title:\"Christ Gang\",slug:\"christ-gang-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"junior-walker\"],featuresNames:[\"Junior Walker\"],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[],duration:\"2:05\",trackNumber:5,producers:[],producersNames:[],description:\"Christ Gang \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Christ Gang](/skladby/christ-gang-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Road 2 Redemption](/alba/road-2-redemption) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},b=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!g.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return r};var x=(r,e,t)=>(t=r!=null?u(h(r)):{},b(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),z=r=>b(o({},\"__esModule\",{value:!0}),r);var l=f((k,i)=>{i.exports=_jsx_runtime});var B={};y(B,{default:()=>c,frontmatter:()=>j});var a=x(l()),j={title:\"Christ Gang\",slug:\"christ-gang-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"junior-walker\"],featuresNames:[\"Junior Walker\"],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[\"\"],duration:\"2:05\",trackNumber:5,producers:[],producersNames:[],description:\"Christ Gang \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/christ-gang-bobby-blaze\",children:\"Christ Gang\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/road-2-redemption\",children:\"Road 2 Redemption\"}),\" (2023).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return z(B);})();\n;return Component;"
   },
   "_id": "skladby/christ-gang-bobby-blaze.mdx",
   "_raw": {

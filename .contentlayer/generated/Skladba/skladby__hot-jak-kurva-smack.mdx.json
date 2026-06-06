@@ -8,16 +8,19 @@
   "album": "2051",
   "albumSlug": "2051",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:01",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Hot Jak Kurva — skladba od Smack.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(k(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var m=f((K,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>i,frontmatter:()=>j});var r=b(m()),j={title:\"Hot Jak Kurva\",slug:\"hot-jak-kurva-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[],duration:\"4:01\",trackNumber:3,producers:[],producersNames:[],description:\"Hot Jak Kurva \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Hot Jak Kurva](/skladby/hot-jak-kurva-smack)** od [Smack One](/raperi/smack) z alba [2051](/alba/2051) (2012).\n",
+    "code": "var Component=(()=>{var k=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var t in a)o(r,t,{get:a[t],enumerable:!0})},c=(r,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of p(a))!f.call(r,n)&&n!==t&&o(r,n,{get:()=>a[n],enumerable:!(s=i(a,n))||s.enumerable});return r};var g=(r,a,t)=>(t=r!=null?k(h(r)):{},c(a||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>c(o({},\"__esModule\",{value:!0}),r);var m=x((y,u)=>{u.exports=_jsx_runtime});var v={};b(v,{default:()=>d,frontmatter:()=>_});var e=g(m()),_={title:\"Hot Jak Kurva\",slug:\"hot-jak-kurva-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[\"\"],duration:\"4:01\",trackNumber:3,producers:[],producersNames:[],description:\"Hot Jak Kurva \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function l(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/hot-jak-kurva-smack\",children:\"Hot Jak Kurva\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/smack\",children:\"Smack One\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/2051\",children:\"2051\"}),\" (2012).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(l,{...r})}):l(r)}return j(v);})();\n;return Component;"
   },
   "_id": "skladby/hot-jak-kurva-smack.mdx",
   "_raw": {

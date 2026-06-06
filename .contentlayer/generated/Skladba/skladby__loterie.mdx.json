@@ -1,0 +1,29 @@
+{
+  "title": "Loterie",
+  "slug": "loterie",
+  "rapper": "Maniak",
+  "rapperSlug": "maniak",
+  "label": "WM Czech Republic",
+  "year": 2024,
+  "description": "Loterie — singl od Maniak (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/1e668611d605002f070e8ab3b20e84dc/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Loterie](/skladby/loterie)** od [Maniak](/raperi/maniak) (2024).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),M=(t,e)=>{for(var n in e)i(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of u(e))!h.call(t,a)&&a!==n&&i(t,a,{get:()=>e[a],enumerable:!(o=g(e,a))||o.enumerable});return t};var b=(t,e,n)=>(n=t!=null?m(x(t)):{},s(e||!t||!t.__esModule?i(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>s(i({},\"__esModule\",{value:!0}),t);var l=f((L,c)=>{c.exports=_jsx_runtime});var _={};M(_,{default:()=>d,frontmatter:()=>k});var r=b(l()),k={title:\"Loterie\",slug:\"loterie\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"WM Czech Republic\",year:2024,description:\"Loterie \\u2014 singl od Maniak (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/1e668611d605002f070e8ab3b20e84dc/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/loterie\",children:\"Loterie\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2024).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return j(_);})();\n;return Component;"
+  },
+  "_id": "skladby/loterie.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/loterie.mdx",
+    "sourceFileName": "loterie.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/loterie"
+  },
+  "type": "Skladba",
+  "url": "/skladby/loterie",
+  "canonicalUrl": "https://4rap.cz/skladby/loterie"
+}

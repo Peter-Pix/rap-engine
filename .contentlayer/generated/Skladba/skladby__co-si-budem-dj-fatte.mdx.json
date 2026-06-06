@@ -12,16 +12,19 @@
   "album": "Aura",
   "albumSlug": "aura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:32",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Co si budem — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?l(b(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var i=h((M,d)=>{d.exports=_jsx_runtime});var D={};g(D,{default:()=>c,frontmatter:()=>C});var r=j(i()),C={title:\"Co si budem\",slug:\"co-si-budem-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"3:32\",trackNumber:1,producers:[],producersNames:[],description:\"Co si budem \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(D);})();\n;return Component;"
+    "raw": "\n**[Co si budem](/skladby/co-si-budem-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Aura](/alba/aura) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},u=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!h.call(t,n)&&n!==a&&s(t,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return t};var x=(t,e,a)=>(a=t!=null?m(b(t)):{},u(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),_=t=>u(s({},\"__esModule\",{value:!0}),t);var i=g((y,d)=>{d.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>C});var r=x(i()),C={title:\"Co si budem\",slug:\"co-si-budem-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[\"\"],duration:\"3:32\",trackNumber:1,producers:[],producersNames:[],description:\"Co si budem \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/co-si-budem-dj-fatte\",children:\"Co si budem\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/aura\",children:\"Aura\"}),\" (2022).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return _(D);})();\n;return Component;"
   },
   "_id": "skladby/co-si-budem-dj-fatte.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Off Season",
   "albumSlug": "off-season",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:55",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Šárka Peková — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=i(r,n))||s.enumerable});return e};var k=(e,r,a)=>(a=e!=null?d(f(e)):{},u(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var l=A((N,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>p,frontmatter:()=>g});var t=k(l()),g={title:\"\\u0160\\xE1rka Pekov\\xE1\",slug:\"sarka-pekova-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Off Season\",albumSlug:\"off-season\",year:2018,genre:[],duration:\"2:55\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160\\xE1rka Pekov\\xE1 \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Šárka Peková](/skladby/sarka-pekova-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Off Season](/alba/off-season) (2018).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var b=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),m=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},c=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of i(a))!A.call(e,o)&&o!==n&&t(e,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return e};var v=(e,a,n)=>(n=e!=null?d(k(e)):{},c(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),x=e=>c(t({},\"__esModule\",{value:!0}),e);var l=b((_,u)=>{u.exports=_jsx_runtime});var H={};m(H,{default:()=>h,frontmatter:()=>g});var r=v(l()),g={title:\"\\u0160\\xE1rka Pekov\\xE1\",slug:\"sarka-pekova-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Off Season\",albumSlug:\"off-season\",year:2018,genre:[\"\"],duration:\"2:55\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160\\xE1rka Pekov\\xE1 \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function f(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/sarka-pekova-ca-hanova-bulhar\",children:\"\\u0160\\xE1rka Pekov\\xE1\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/off-season\",children:\"Off Season\"}),\" (2018).\"]})}function h(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(f,{...e})}):f(e)}return x(H);})();\n;return Component;"
   },
   "_id": "skladby/sarka-pekova-ca-hanova-bulhar.mdx",
   "_raw": {

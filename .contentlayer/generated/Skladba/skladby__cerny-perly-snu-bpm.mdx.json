@@ -8,16 +8,19 @@
   "album": "Slova",
   "albumSlug": "slova",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:37",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Černý perly snů — skladba od Bpm.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},p=(e,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of x(r))!b.call(e,s)&&s!==t&&o(e,s,{get:()=>r[s],enumerable:!(a=i(r,s))||a.enumerable});return e};var g=(e,r,t)=>(t=e!=null?d(h(e)):{},p(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>p(o({},\"__esModule\",{value:!0}),e);var u=f((N,m)=>{m.exports=_jsx_runtime});var S={};_(S,{default:()=>c,frontmatter:()=>j});var n=g(u()),j={title:\"\\u010Cern\\xFD perly sn\\u016F\",slug:\"cerny-perly-snu-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[],duration:\"4:37\",trackNumber:14,producers:[],producersNames:[],description:\"\\u010Cern\\xFD perly sn\\u016F \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return y(S);})();\n;return Component;"
+    "raw": "\n**[Černý perly snů](/skladby/cerny-perly-snu-bpm)** z alba [Slova](/alba/slova) (2007).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var n in e)a(r,n,{get:e[n],enumerable:!0})},l=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of b(e))!f.call(r,s)&&s!==n&&a(r,s,{get:()=>e[s],enumerable:!(o=i(e,s))||o.enumerable});return r};var g=(r,e,n)=>(n=r!=null?d(y(r)):{},l(e||!r||!r.__esModule?a(n,\"default\",{value:r,enumerable:!0}):n,r)),_=r=>l(a({},\"__esModule\",{value:!0}),r);var u=x((k,p)=>{p.exports=_jsx_runtime});var v={};h(v,{default:()=>m,frontmatter:()=>j});var t=g(u()),j={title:\"\\u010Cern\\xFD perly sn\\u016F\",slug:\"cerny-perly-snu-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[\"\"],duration:\"4:37\",trackNumber:14,producers:[],producersNames:[],description:\"\\u010Cern\\xFD perly sn\\u016F \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/cerny-perly-snu-bpm\",children:\"\\u010Cern\\xFD perly sn\\u016F\"})}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/slova\",children:\"Slova\"}),\" (2007).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(c,{...r})}):c(r)}return _(v);})();\n;return Component;"
   },
   "_id": "skladby/cerny-perly-snu-bpm.mdx",
   "_raw": {

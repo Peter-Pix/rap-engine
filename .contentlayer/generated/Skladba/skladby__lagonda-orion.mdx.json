@@ -12,16 +12,19 @@
   "album": "Teritorium III.",
   "albumSlug": "teritorium-iii",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Lagonda — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(i=p(r,o))||i.enumerable});return e};var b=(e,r,t)=>(t=e!=null?l(g(e)):{},s(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var m=f((I,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>d,frontmatter:()=>N});var n=b(m()),N={title:\"Lagonda\",slug:\"lagonda-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"kony\"],featuresNames:[\"KONY\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[],duration:\"3:07\",trackNumber:11,producers:[],producersNames:[],description:\"Lagonda \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Lagonda](/skladby/lagonda-orion)** od [Orion](/raperi/orion) z alba [Teritorium III.](/alba/teritorium-iii) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of g(r))!h.call(e,t)&&t!==n&&a(e,t,{get:()=>r[t],enumerable:!(i=p(r,t))||i.enumerable});return e};var I=(e,r,n)=>(n=e!=null?m(f(e)):{},s(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(a({},\"__esModule\",{value:!0}),e);var d=x((L,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>c,frontmatter:()=>j});var o=I(d()),j={title:\"Lagonda\",slug:\"lagonda-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"kony\"],featuresNames:[\"KONY\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[\"\"],duration:\"3:07\",trackNumber:11,producers:[],producersNames:[],description:\"Lagonda \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/lagonda-orion\",children:\"Lagonda\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(r.a,{href:\"/alba/teritorium-iii\",children:\"Teritorium III.\"}),\" (2021).\"]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(l,{...e})}):l(e)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/lagonda-orion.mdx",
   "_raw": {

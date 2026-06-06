@@ -12,16 +12,19 @@
   "album": "ALIEN",
   "albumSlug": "alien",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:19",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "ALIEN — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(h(e)):{},l(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>l(a({},\"__esModule\",{value:!0}),e);var c=j((A,m)=>{m.exports=_jsx_runtime});var N={};_(N,{default:()=>i,frontmatter:()=>k});var n=b(c()),k={title:\"ALIEN\",slug:\"alien-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[],duration:\"3:19\",trackNumber:1,producers:[],producersNames:[],description:\"ALIEN \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[ALIEN](/skladby/alien-james-cole)** od [James Cole](/raperi/james-cole) z alba [ALIEN](/alba/alien) (2022).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},l=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!j.call(a,t)&&t!==n&&o(a,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return a};var N=(a,e,n)=>(n=a!=null?d(h(a)):{},l(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),g=a=>l(o({},\"__esModule\",{value:!0}),a);var i=x((_,c)=>{c.exports=_jsx_runtime});var A={};b(A,{default:()=>u,frontmatter:()=>k});var r=N(i()),k={title:\"ALIEN\",slug:\"alien-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"dokkeytino\"],featuresNames:[\"Dokkeytino\"],album:\"ALIEN\",albumSlug:\"alien\",year:2022,genre:[\"\"],duration:\"3:19\",trackNumber:1,producers:[],producersNames:[],description:\"ALIEN \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/alien-james-cole\",children:\"ALIEN\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/alien\",children:\"ALIEN\"}),\" (2022).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(m,{...a})}):m(a)}return g(A);})();\n;return Component;"
   },
   "_id": "skladby/alien-james-cole.mdx",
   "_raw": {

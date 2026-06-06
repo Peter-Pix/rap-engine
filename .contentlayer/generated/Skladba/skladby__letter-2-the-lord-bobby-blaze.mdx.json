@@ -8,16 +8,19 @@
   "album": "Road 2 Redemption",
   "albumSlug": "road-2-redemption",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:12",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Letter 2 The Lord — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?c(h(e)):{},d(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>d(a({},\"__esModule\",{value:!0}),e);var u=f((B,l)=>{l.exports=_jsx_runtime});var L={};_(L,{default:()=>b,frontmatter:()=>j});var r=g(u()),j={title:\"Letter 2 The Lord\",slug:\"letter-2-the-lord-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[],duration:\"4:12\",trackNumber:9,producers:[],producersNames:[],description:\"Letter 2 The Lord \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return y(L);})();\n;return Component;"
+    "raw": "\n**[Letter 2 The Lord](/skladby/letter-2-the-lord-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Road 2 Redemption](/alba/road-2-redemption) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)n(r,o,{get:e[o],enumerable:!0})},d=(r,e,o,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!f.call(r,a)&&a!==o&&n(r,a,{get:()=>e[a],enumerable:!(b=u(e,a))||b.enumerable});return r};var z=(r,e,o)=>(o=r!=null?p(h(r)):{},d(e||!r||!r.__esModule?n(o,\"default\",{value:r,enumerable:!0}):o,r)),g=r=>d(n({},\"__esModule\",{value:!0}),r);var s=y((j,l)=>{l.exports=_jsx_runtime});var B={};x(B,{default:()=>c,frontmatter:()=>L});var t=z(s()),L={title:\"Letter 2 The Lord\",slug:\"letter-2-the-lord-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Road 2 Redemption\",albumSlug:\"road-2-redemption\",year:2023,genre:[\"\"],duration:\"4:12\",trackNumber:9,producers:[],producersNames:[],description:\"Letter 2 The Lord \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/letter-2-the-lord-bobby-blaze\",children:\"Letter 2 The Lord\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/road-2-redemption\",children:\"Road 2 Redemption\"}),\" (2023).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(i,{...r})}):i(r)}return g(B);})();\n;return Component;"
   },
   "_id": "skladby/letter-2-the-lord-bobby-blaze.mdx",
   "_raw": {

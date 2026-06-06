@@ -8,16 +8,19 @@
   "album": "Hood Celebrity 2",
   "albumSlug": "hood-celebrity-2",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:21",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Tom Brady Freestyle — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),A=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var f=(e,r,n)=>(n=e!=null?i(b(e)):{},l(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var c=y((H,u)=>{u.exports=_jsx_runtime});var j={};A(j,{default:()=>m,frontmatter:()=>g});var t=f(c()),g={title:\"Tom Brady Freestyle\",slug:\"tom-brady-freestyle-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[],duration:\"3:21\",trackNumber:5,producers:[],producersNames:[],description:\"Tom Brady Freestyle \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Tom Brady Freestyle](/skladby/tom-brady-freestyle-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Hood Celebrity 2](/alba/hood-celebrity-2) (2018).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var A=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!p.call(r,o)&&o!==t&&n(r,o,{get:()=>e[o],enumerable:!(s=b(e,o))||s.enumerable});return r};var x=(r,e,t)=>(t=r!=null?i(y(r)):{},l(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),H=r=>l(n({},\"__esModule\",{value:!0}),r);var c=A((N,d)=>{d.exports=_jsx_runtime});var C={};f(C,{default:()=>h,frontmatter:()=>g});var a=x(c()),g={title:\"Tom Brady Freestyle\",slug:\"tom-brady-freestyle-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[\"\"],duration:\"3:21\",trackNumber:5,producers:[],producersNames:[],description:\"Tom Brady Freestyle \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/tom-brady-freestyle-ca-hanova-bulhar\",children:\"Tom Brady Freestyle\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/hood-celebrity-2\",children:\"Hood Celebrity 2\"}),\" (2018).\"]})}function h(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return H(C);})();\n;return Component;"
   },
   "_id": "skladby/tom-brady-freestyle-ca-hanova-bulhar.mdx",
   "_raw": {

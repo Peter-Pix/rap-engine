@@ -12,16 +12,19 @@
   "album": "Disrespect (feat. Mike Ondo)",
   "albumSlug": "disrespect-feat-mike-ondo",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:25",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Disrespect — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=m(t,o))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>i(s({},\"__esModule\",{value:!0}),e);var d=h((M,c)=>{c.exports=_jsx_runtime});var j={};_(j,{default:()=>u,frontmatter:()=>y});var r=g(d()),y={title:\"Disrespect\",slug:\"disrespect-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"mike-ondo\"],featuresNames:[\"Mike Ondo\"],album:\"Disrespect (feat. Mike Ondo)\",albumSlug:\"disrespect-feat-mike-ondo\",year:2024,genre:[],duration:\"3:25\",trackNumber:1,producers:[],producersNames:[],description:\"Disrespect \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Disrespect](/skladby/disrespect-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},b=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!y.call(r,o)&&o!==t&&n(r,o,{get:()=>e[o],enumerable:!(a=u(e,o))||a.enumerable});return r};var g=(r,e,t)=>(t=r!=null?p(f(r)):{},b(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),k=r=>b(n({},\"__esModule\",{value:!0}),r);var c=x((_,i)=>{i.exports=_jsx_runtime});var B={};h(B,{default:()=>l,frontmatter:()=>z});var s=g(c()),z={title:\"Disrespect\",slug:\"disrespect-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"mike-ondo\"],featuresNames:[\"Mike Ondo\"],album:\"Disrespect (feat. Mike Ondo)\",albumSlug:\"disrespect-feat-mike-ondo\",year:2024,genre:[\"\"],duration:\"3:25\",trackNumber:1,producers:[],producersNames:[],description:\"Disrespect \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/disrespect-bobby-blaze\",children:\"Disrespect\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(d,{...r})}):d(r)}return k(B);})();\n;return Component;"
   },
   "_id": "skladby/disrespect-bobby-blaze.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "J. EDEN E-G3N (#freekarlo edition)",
   "albumSlug": "j-eden-e-g3n",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:49",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "WHOLE LOTTA GANG SHIT — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!g.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var N=(e,n,r)=>(r=e!=null?c(x(e)):{},i(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var m=b((A,d)=>{d.exports=_jsx_runtime});var y={};f(y,{default:()=>u,frontmatter:()=>j});var t=N(m()),j={title:\"WHOLE LOTTA GANG SHIT\",slug:\"whole-lotta-gang-shit-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[],duration:\"1:49\",trackNumber:14,producers:[],producersNames:[],description:\"WHOLE LOTTA GANG SHIT \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[WHOLE LOTTA GANG SHIT](/skladby/whole-lotta-gang-shit-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-G3N (#freekarlo edition)](/alba/j-eden-e-g3n) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var N=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(a,t)&&t!==r&&o(a,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return a};var x=(a,e,r)=>(r=a!=null?u(g(a)):{},i(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),y=a=>i(o({},\"__esModule\",{value:!0}),a);var l=N((G,d)=>{d.exports=_jsx_runtime});var T={};b(T,{default:()=>m,frontmatter:()=>E});var n=x(l()),E={title:\"WHOLE LOTTA GANG SHIT\",slug:\"whole-lotta-gang-shit-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[\"\"],duration:\"1:49\",trackNumber:14,producers:[],producersNames:[],description:\"WHOLE LOTTA GANG SHIT \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/whole-lotta-gang-shit-yzomandias\",children:\"WHOLE LOTTA GANG SHIT\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/j-eden-e-g3n\",children:\"J. EDEN E-G3N (#freekarlo edition)\"}),\" (2022).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(c,{...a})}):c(a)}return y(T);})();\n;return Component;"
   },
   "_id": "skladby/whole-lotta-gang-shit-yzomandias.mdx",
   "_raw": {

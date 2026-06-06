@@ -1,0 +1,29 @@
+{
+  "title": "ALL STAR",
+  "slug": "all-star",
+  "rapper": "Fill",
+  "rapperSlug": "fill",
+  "label": "Fill",
+  "year": 2026,
+  "description": "ALL STAR — singl od Fill (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0284c8b6f7add230f4fff426def87c3a/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[ALL STAR](/skladby/all-star)** (2026).\n",
+    "code": "var Component=(()=>{var f=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),A=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let l of x(t))!u.call(e,l)&&l!==n&&s(e,l,{get:()=>t[l],enumerable:!(a=g(t,l))||a.enumerable});return e};var L=(e,t,n)=>(n=e!=null?f(m(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var c=h((S,o)=>{o.exports=_jsx_runtime});var b={};A(b,{default:()=>p,frontmatter:()=>_});var r=L(c()),_={title:\"ALL STAR\",slug:\"all-star\",rapper:\"Fill\",rapperSlug:\"fill\",label:\"Fill\",year:2026,description:\"ALL STAR \\u2014 singl od Fill (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/0284c8b6f7add230f4fff426def87c3a/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/all-star\",children:\"ALL STAR\"})}),\" (2026).\"]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(b);})();\n;return Component;"
+  },
+  "_id": "skladby/all-star.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/all-star.mdx",
+    "sourceFileName": "all-star.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/all-star"
+  },
+  "type": "Skladba",
+  "url": "/skladby/all-star",
+  "canonicalUrl": "https://4rap.cz/skladby/all-star"
+}

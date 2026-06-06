@@ -14,16 +14,19 @@
   "album": "GhostTown",
   "albumSlug": "ghosttown",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:46",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "GhostTown — skladba od Frayer Flexking.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of m(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=h(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(p(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>u(a({},\"__esModule\",{value:!0}),e);var l=f((j,i)=>{i.exports=_jsx_runtime});var y={};k(y,{default:()=>c,frontmatter:()=>w});var r=_(l()),w={title:\"GhostTown\",slug:\"ghosttown-frayer-flexking\",rapper:\"Frayer Flexking\",rapperSlug:\"frayer-flexking\",features:[\"hugo-toxxx\",\"radikal-chef\"],featuresNames:[\"Hugo Toxxx\",\"Radikal Chef\"],album:\"GhostTown\",albumSlug:\"ghosttown\",year:2020,genre:[],duration:\"3:46\",trackNumber:1,producers:[],producersNames:[],description:\"GhostTown \\u2014 skladba od Frayer Flexking.\",publishedAt:\"2026-06-04\"};function x(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(x,{...e})}):x(e)}return b(y);})();\n;return Component;"
+    "raw": "\n**[GhostTown](/skladby/ghosttown-frayer-flexking)** (2020).\n",
+    "code": "var Component=(()=>{var g=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var m=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var t in r)s(e,t,{get:r[t],enumerable:!0})},l=(e,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of f(r))!p.call(e,o)&&o!==t&&s(e,o,{get:()=>r[o],enumerable:!(a=d(r,o))||a.enumerable});return e};var w=(e,r,t)=>(t=e!=null?g(h(e)):{},l(r||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>l(s({},\"__esModule\",{value:!0}),e);var i=m((T,u)=>{u.exports=_jsx_runtime});var _={};k(_,{default:()=>c,frontmatter:()=>b});var n=w(i()),b={title:\"GhostTown\",slug:\"ghosttown-frayer-flexking\",rapper:\"Frayer Flexking\",rapperSlug:\"frayer-flexking\",features:[\"hugo-toxxx\",\"radikal-chef\"],featuresNames:[\"Hugo Toxxx\",\"Radikal Chef\"],album:\"GhostTown\",albumSlug:\"ghosttown\",year:2020,genre:[\"\"],duration:\"3:46\",trackNumber:1,producers:[],producersNames:[],description:\"GhostTown \\u2014 skladba od Frayer Flexking.\",publishedAt:\"2026-06-04\"};function x(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/ghosttown-frayer-flexking\",children:\"GhostTown\"})}),\" (2020).\"]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(x,{...e})}):x(e)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/ghosttown-frayer-flexking.mdx",
   "_raw": {

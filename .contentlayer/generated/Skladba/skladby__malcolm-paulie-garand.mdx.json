@@ -8,16 +8,19 @@
   "album": "Monology",
   "albumSlug": "monology",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:30",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Malcolm — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!h.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(l=p(n,a))||l.enumerable});return e};var b=(e,n,t)=>(t=e!=null?i(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),M=e=>s(o({},\"__esModule\",{value:!0}),e);var m=f((S,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>j});var r=b(m()),j={title:\"Malcolm\",slug:\"malcolm-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Monology\",albumSlug:\"monology\",year:2020,genre:[],duration:\"4:30\",trackNumber:5,producers:[],producersNames:[],description:\"Malcolm \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return M(y);})();\n;return Component;"
+    "raw": "\n**[Malcolm](/skladby/malcolm-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Monology](/alba/monology) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)l(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of g(a))!h.call(e,o)&&o!==n&&l(e,o,{get:()=>a[o],enumerable:!(t=p(a,o))||t.enumerable});return e};var M=(e,a,n)=>(n=e!=null?m(f(e)):{},s(a||!e||!e.__esModule?l(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>s(l({},\"__esModule\",{value:!0}),e);var c=x((G,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>i,frontmatter:()=>_});var r=M(c()),_={title:\"Malcolm\",slug:\"malcolm-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Monology\",albumSlug:\"monology\",year:2020,genre:[\"\"],duration:\"4:30\",trackNumber:5,producers:[],producersNames:[],description:\"Malcolm \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/malcolm-paulie-garand\",children:\"Malcolm\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/monology\",children:\"Monology\"}),\" (2020).\"]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/malcolm-paulie-garand.mdx",
   "_raw": {

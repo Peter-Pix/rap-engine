@@ -14,16 +14,19 @@
   "album": "Paranoia",
   "albumSlug": "paranoia",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:23",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "až bude hořet — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of l(t))!b.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=h(t,n))||s.enumerable});return e};var g=(e,t,a)=>(a=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((S,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>c,frontmatter:()=>z});var r=g(u()),z={title:\"a\\u017E bude ho\\u0159et\",slug:\"az-bude-horet-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"viktor-sheen\",\"hard-rico\"],featuresNames:[\"Viktor Sheen\",\"Hard Rico\"],album:\"Paranoia\",albumSlug:\"paranoia\",year:2024,genre:[],duration:\"2:23\",trackNumber:2,producers:[],producersNames:[],description:\"a\\u017E bude ho\\u0159et \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[až bude hořet](/skladby/az-bude-horet-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Paranoia](/alba/paranoia) (2024).\n",
+    "code": "var Component=(()=>{var h=Object.create;var t=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var z=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!f.call(e,o)&&o!==n&&t(e,o,{get:()=>a[o],enumerable:!(s=l(a,o))||s.enumerable});return e};var g=(e,a,n)=>(n=e!=null?h(b(e)):{},d(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>d(t({},\"__esModule\",{value:!0}),e);var u=z((M,i)=>{i.exports=_jsx_runtime});var j={};x(j,{default:()=>m,frontmatter:()=>_});var r=g(u()),_={title:\"a\\u017E bude ho\\u0159et\",slug:\"az-bude-horet-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"viktor-sheen\",\"hard-rico\"],featuresNames:[\"Viktor Sheen\",\"Hard Rico\"],album:\"Paranoia\",albumSlug:\"paranoia\",year:2024,genre:[\"\"],duration:\"2:23\",trackNumber:2,producers:[],producersNames:[],description:\"a\\u017E bude ho\\u0159et \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/az-bude-horet-yzomandias\",children:\"a\\u017E bude ho\\u0159et\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/paranoia\",children:\"Paranoia\"}),\" (2024).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/az-bude-horet-yzomandias.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "V hlavní roli",
   "albumSlug": "v-hlavni-roli",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:47",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Klid — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)l(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==t&&l(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var b=(e,r,t)=>(t=e!=null?m(x(e)):{},i(r||!e||!e.__esModule?l(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(l({},\"__esModule\",{value:!0}),e);var u=f((M,s)=>{s.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>k});var n=b(u()),k={title:\"Klid\",slug:\"klid-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[],duration:\"3:47\",trackNumber:3,producers:[],producersNames:[],description:\"Klid \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(v);})();\n;return Component;"
+    "raw": "\n**[Klid](/skladby/klid-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [V\\_hlavní roli](/alba/v-hlavni-roli) (2012).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var n in a)t(r,n,{get:a[n],enumerable:!0})},o=(r,a,n,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let l of m(a))!f.call(r,l)&&l!==n&&t(r,l,{get:()=>a[l],enumerable:!(i=h(a,l))||i.enumerable});return r};var _=(r,a,n)=>(n=r!=null?p(g(r)):{},o(a||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>o(t({},\"__esModule\",{value:!0}),r);var s=x((G,d)=>{d.exports=_jsx_runtime});var k={};b(k,{default:()=>c,frontmatter:()=>j});var e=_(s()),j={title:\"Klid\",slug:\"klid-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"V\\xA0hlavn\\xED roli\",albumSlug:\"v-hlavni-roli\",year:2012,genre:[\"\"],duration:\"3:47\",trackNumber:3,producers:[],producersNames:[],description:\"Klid \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function u(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/klid-paulie-garand\",children:\"Klid\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/v-hlavni-roli\",children:\"V_hlavn\\xED roli\"}),\" (2012).\"]})}function c(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(u,{...r})}):u(r)}return v(k);})();\n;return Component;"
   },
   "_id": "skladby/klid-paulie-garand.mdx",
   "_raw": {

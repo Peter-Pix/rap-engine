@@ -12,16 +12,19 @@
   "album": "Ze Dna",
   "albumSlug": "ze-dna",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:15",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Spearow — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var g=(e,n,t)=>(t=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var d=_((y,m)=>{m.exports=_jsx_runtime});var S={};b(S,{default:()=>c,frontmatter:()=>z});var r=g(d()),z={title:\"Spearow\",slug:\"spearow-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"orion\"],featuresNames:[\"Orion\"],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[],duration:\"4:15\",trackNumber:2,producers:[],producersNames:[],description:\"Spearow \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Spearow](/skladby/spearow-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Ze Dna](/alba/ze-dna) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of f(a))!z.call(e,o)&&o!==n&&s(e,o,{get:()=>a[o],enumerable:!(t=l(a,o))||t.enumerable});return e};var g=(e,a,n)=>(n=e!=null?u(h(e)):{},d(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>d(s({},\"__esModule\",{value:!0}),e);var p=x((S,i)=>{i.exports=_jsx_runtime});var _={};b(_,{default:()=>m,frontmatter:()=>w});var r=g(p()),w={title:\"Spearow\",slug:\"spearow-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"orion\"],featuresNames:[\"Orion\"],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[\"\"],duration:\"4:15\",trackNumber:2,producers:[],producersNames:[],description:\"Spearow \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/spearow-yzomandias\",children:\"Spearow\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/ze-dna\",children:\"Ze Dna\"}),\" (2020).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/spearow-yzomandias.mdx",
   "_raw": {

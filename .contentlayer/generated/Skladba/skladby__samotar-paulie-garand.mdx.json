@@ -12,16 +12,19 @@
   "album": "Molo",
   "albumSlug": "molo",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:50",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Samotář — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var b=(e,n,r)=>(r=e!=null?c(g(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var m=f((k,l)=>{l.exports=_jsx_runtime});var y={};_(y,{default:()=>i,frontmatter:()=>S});var t=b(m()),S={title:\"Samot\\xE1\\u0159\",slug:\"samotar-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Molo\",albumSlug:\"molo\",year:2014,genre:[],duration:\"3:50\",trackNumber:14,producers:[],producersNames:[],description:\"Samot\\xE1\\u0159 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Samotář](/skladby/samotar-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Molo](/alba/molo) (2014).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of g(a))!f.call(e,o)&&o!==n&&t(e,o,{get:()=>a[o],enumerable:!(l=p(a,o))||l.enumerable});return e};var _=(e,a,n)=>(n=e!=null?m(h(e)):{},s(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(t({},\"__esModule\",{value:!0}),e);var d=x((k,u)=>{u.exports=_jsx_runtime});var M={};b(M,{default:()=>c,frontmatter:()=>y});var r=_(d()),y={title:\"Samot\\xE1\\u0159\",slug:\"samotar-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Molo\",albumSlug:\"molo\",year:2014,genre:[\"\"],duration:\"3:50\",trackNumber:14,producers:[],producersNames:[],description:\"Samot\\xE1\\u0159 \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/samotar-paulie-garand\",children:\"Samot\\xE1\\u0159\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/molo\",children:\"Molo\"}),\" (2014).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(M);})();\n;return Component;"
   },
   "_id": "skladby/samotar-paulie-garand.mdx",
   "_raw": {

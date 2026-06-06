@@ -6,7 +6,7 @@
   "label": "WM Czech Republic",
   "year": 2022,
   "genre": [],
-  "description": "Idea x Strýc Nory EP — EP od Idea (2022).",
+  "description": "Idea v roce 2022 vydal EP. Obsahuje celkem tři skladby. Deska vyšla pod labelem WM Czech Republic.",
   "image": "https://cdn-images.dzcdn.net/images/cover/b7a9cf2216bae1c06800e705d49f20e2/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -15,9 +15,11 @@
     "Z.M.R.D."
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!g.call(e,a)&&a!==r&&c(e,a,{get:()=>t[a],enumerable:!(o=u(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(h(e)):{},s(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(c({},\"__esModule\",{value:!0}),e);var i=b((S,d)=>{d.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>y});var n=_(i()),y={title:\"Idea x Str\\xFDc Nory EP\",slug:\"idea-x-stryc-nory-ep\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2022,genre:[],description:\"Idea x Str\\xFDc Nory EP \\u2014 EP od Idea (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/b7a9cf2216bae1c06800e705d49f20e2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Tov\\xE1rn\\xED nastaven\\xED\",\"He\\u010D!\",\"Z.M.R.D.\"],publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(M);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Idea](/raperi/idea) v roce 2022 vydal EP.\n\nAlbum obsahuje celkem tři skladby.\n\nDeska vyšla pod labelem WM Czech Republic.\n",
+    "code": "var Component=(()=>{var h=Object.create;var c=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var r in e)c(a,r,{get:e[r],enumerable:!0})},s=(a,e,r,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of u(e))!x.call(a,t)&&t!==r&&c(a,t,{get:()=>e[t],enumerable:!(l=m(e,t))||l.enumerable});return a};var v=(a,e,r)=>(r=a!=null?h(b(a)):{},s(e||!a||!a.__esModule?c(r,\"default\",{value:a,enumerable:!0}):r,a)),f=a=>s(c({},\"__esModule\",{value:!0}),a);var i=y((_,d)=>{d.exports=_jsx_runtime});var k={};g(k,{default:()=>p,frontmatter:()=>j});var n=v(i()),j={title:\"Idea x Str\\xFDc Nory EP\",slug:\"idea-x-stryc-nory-ep\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2022,releaseType:\"ep\",genre:[],description:\"Idea v roce 2022 vydal EP. Obsahuje celkem t\\u0159i skladby. Deska vy\\u0161la pod labelem WM Czech Republic.\",image:\"https://cdn-images.dzcdn.net/images/cover/b7a9cf2216bae1c06800e705d49f20e2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Tov\\xE1rn\\xED nastaven\\xED\",\"He\\u010D!\",\"Z.M.R.D.\"],publishedAt:\"2026-06-04\"};function o(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" v roce 2022 vydal EP.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem t\\u0159i skladby.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem WM Czech Republic.\"})]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(o,{...a})}):o(a)}return f(k);})();\n;return Component;"
   },
   "_id": "alba/idea-x-stryc-nory-ep.mdx",
   "_raw": {

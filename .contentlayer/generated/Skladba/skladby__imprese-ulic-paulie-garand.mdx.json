@@ -8,16 +8,19 @@
   "album": "Harant",
   "albumSlug": "harant",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:29",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Imprese ulic — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},o=(e,r,n,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==n&&s(e,a,{get:()=>r[a],enumerable:!(u=d(r,a))||u.enumerable});return e};var b=(e,r,n)=>(n=e!=null?p(x(e)):{},o(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var l=f((k,i)=>{i.exports=_jsx_runtime});var N={};_(N,{default:()=>m,frontmatter:()=>M});var t=b(l()),M={title:\"Imprese ulic\",slug:\"imprese-ulic-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[],duration:\"3:29\",trackNumber:13,producers:[],producersNames:[],description:\"Imprese ulic \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Imprese ulic](/skladby/imprese-ulic-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Harant](/alba/harant) (2010).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},i=(e,a,n,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(e,t)&&t!==n&&s(e,t,{get:()=>a[t],enumerable:!(u=m(a,t))||u.enumerable});return e};var _=(e,a,n)=>(n=e!=null?p(g(e)):{},i(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var o=x((I,l)=>{l.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>k});var r=_(o()),k={title:\"Imprese ulic\",slug:\"imprese-ulic-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[\"\"],duration:\"3:29\",trackNumber:13,producers:[],producersNames:[],description:\"Imprese ulic \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/imprese-ulic-paulie-garand\",children:\"Imprese ulic\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/harant\",children:\"Harant\"}),\" (2010).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
   },
   "_id": "skladby/imprese-ulic-paulie-garand.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Melanž",
   "albumSlug": "melanz",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "0:48",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Hroby — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},m=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(x(e)):{},m(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var d=f((N,u)=>{u.exports=_jsx_runtime});var z={};y(z,{default:()=>c,frontmatter:()=>j});var t=_(d()),j={title:\"Hroby\",slug:\"hroby-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Melan\\u017E\",albumSlug:\"melanz\",year:2020,genre:[],duration:\"0:48\",trackNumber:3,producers:[],producersNames:[],description:\"Hroby \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Hroby](/skladby/hroby-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Melanž](/alba/melanz) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),z=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of b(a))!y.call(e,o)&&o!==n&&t(e,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return e};var x=(e,a,n)=>(n=e!=null?u(h(e)):{},d(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>d(t({},\"__esModule\",{value:!0}),e);var l=f((k,i)=>{i.exports=_jsx_runtime});var j={};z(j,{default:()=>c,frontmatter:()=>_});var r=x(l()),_={title:\"Hroby\",slug:\"hroby-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Melan\\u017E\",albumSlug:\"melanz\",year:2020,genre:[\"\"],duration:\"0:48\",trackNumber:3,producers:[],producersNames:[],description:\"Hroby \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/hroby-yzomandias\",children:\"Hroby\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/melanz\",children:\"Melan\\u017E\"}),\" (2020).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/hroby-yzomandias.mdx",
   "_raw": {

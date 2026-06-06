@@ -8,16 +8,19 @@
   "album": "TIMBERLAKETRAPPED",
   "albumSlug": "timberlaketrapped",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:31",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Groupies Have Feelings Too — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=d(r,a))||s.enumerable});return e};var f=(e,r,n)=>(n=e!=null?m(A(e)):{},u(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var l=x((N,i)=>{i.exports=_jsx_runtime});var j={};b(j,{default:()=>p,frontmatter:()=>H});var t=f(l()),H={title:\"Groupies Have Feelings Too\",slug:\"groupies-have-feelings-too-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"TIMBERLAKETRAPPED\",albumSlug:\"timberlaketrapped\",year:2019,genre:[],duration:\"2:31\",trackNumber:6,producers:[],producersNames:[],description:\"Groupies Have Feelings Too \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Groupies Have Feelings Too](/skladby/groupies-have-feelings-too-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [TIMBERLAKETRAPPED](/alba/timberlaketrapped) (2019).\n",
+    "code": "var Component=(()=>{var h=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var m=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var o in e)t(a,o,{get:e[o],enumerable:!0})},l=(a,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of A(e))!g.call(a,n)&&n!==o&&t(a,n,{get:()=>e[n],enumerable:!(s=d(e,n))||s.enumerable});return a};var v=(a,e,o)=>(o=a!=null?h(b(a)):{},l(e||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),x=a=>l(t({},\"__esModule\",{value:!0}),a);var u=m((E,i)=>{i.exports=_jsx_runtime});var R={};f(R,{default:()=>c,frontmatter:()=>H});var r=v(u()),H={title:\"Groupies Have Feelings Too\",slug:\"groupies-have-feelings-too-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"TIMBERLAKETRAPPED\",albumSlug:\"timberlaketrapped\",year:2019,genre:[\"\"],duration:\"2:31\",trackNumber:6,producers:[],producersNames:[],description:\"Groupies Have Feelings Too \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/groupies-have-feelings-too-ca-hanova-bulhar\",children:\"Groupies Have Feelings Too\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/timberlaketrapped\",children:\"TIMBERLAKETRAPPED\"}),\" (2019).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(p,{...a})}):p(a)}return x(R);})();\n;return Component;"
   },
   "_id": "skladby/groupies-have-feelings-too-ca-hanova-bulhar.mdx",
   "_raw": {

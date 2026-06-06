@@ -8,16 +8,19 @@
   "album": "Tulips",
   "albumSlug": "tulips",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:35",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Tulips — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==r&&a(e,s,{get:()=>t[s],enumerable:!(u=d(t,s))||u.enumerable});return e};var g=(e,t,r)=>(r=e!=null?m(h(e)):{},o(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>o(a({},\"__esModule\",{value:!0}),e);var l=_((M,i)=>{i.exports=_jsx_runtime});var C={};b(C,{default:()=>p,frontmatter:()=>N});var n=g(l()),N={title:\"Tulips\",slug:\"tulips-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Tulips\",albumSlug:\"tulips\",year:2017,genre:[],duration:\"4:35\",trackNumber:1,producers:[],producersNames:[],description:\"Tulips \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Tulips](/skladby/tulips-calin)** od [Calin](/raperi/calin) (2017).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!h.call(r,s)&&s!==t&&a(r,s,{get:()=>e[s],enumerable:!(i=m(e,s))||i.enumerable});return r};var _=(r,e,t)=>(t=r!=null?d(x(r)):{},l(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>l(a({},\"__esModule\",{value:!0}),r);var u=g((k,o)=>{o.exports=_jsx_runtime});var N={};b(N,{default:()=>p,frontmatter:()=>C});var n=_(u()),C={title:\"Tulips\",slug:\"tulips-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Tulips\",albumSlug:\"tulips\",year:2017,genre:[\"\"],duration:\"4:35\",trackNumber:1,producers:[],producersNames:[],description:\"Tulips \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/tulips-calin\",children:\"Tulips\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2017).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return j(N);})();\n;return Component;"
   },
   "_id": "skladby/tulips-calin.mdx",
   "_raw": {

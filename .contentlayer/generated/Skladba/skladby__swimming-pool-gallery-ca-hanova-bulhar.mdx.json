@@ -8,16 +8,19 @@
   "album": "CA$HFLOW",
   "albumSlug": "ca-hflow",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:53",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Swimming Pool Gallery — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(l=d(r,a))||l.enumerable});return e};var f=(e,r,t)=>(t=e!=null?p(g(e)):{},s(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var u=A((C,m)=>{m.exports=_jsx_runtime});var w={};b(w,{default:()=>i,frontmatter:()=>j});var n=f(u()),j={title:\"Swimming Pool Gallery\",slug:\"swimming-pool-gallery-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"CA$HFLOW\",albumSlug:\"ca-hflow\",year:2025,genre:[],duration:\"1:53\",trackNumber:12,producers:[],producersNames:[],description:\"Swimming Pool Gallery \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(w);})();\n;return Component;"
+    "raw": "\n**[Swimming Pool Gallery](/skladby/swimming-pool-gallery-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [CA$HFLOW](/alba/ca-hflow) (2025).\n",
+    "code": "var Component=(()=>{var h=Object.create;var l=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),f=(r,a)=>{for(var n in a)l(r,n,{get:a[n],enumerable:!0})},s=(r,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!g.call(r,o)&&o!==n&&l(r,o,{get:()=>a[o],enumerable:!(t=d(a,o))||t.enumerable});return r};var x=(r,a,n)=>(n=r!=null?h(A(r)):{},s(a||!r||!r.__esModule?l(n,\"default\",{value:r,enumerable:!0}):n,r)),w=r=>s(l({},\"__esModule\",{value:!0}),r);var c=b((L,i)=>{i.exports=_jsx_runtime});var H={};f(H,{default:()=>m,frontmatter:()=>y});var e=x(c()),y={title:\"Swimming Pool Gallery\",slug:\"swimming-pool-gallery-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"CA$HFLOW\",albumSlug:\"ca-hflow\",year:2025,genre:[\"\"],duration:\"1:53\",trackNumber:12,producers:[],producersNames:[],description:\"Swimming Pool Gallery \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function u(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/swimming-pool-gallery-ca-hanova-bulhar\",children:\"Swimming Pool Gallery\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/ca-hflow\",children:\"CA$HFLOW\"}),\" (2025).\"]})}function m(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(u,{...r})}):u(r)}return w(H);})();\n;return Component;"
   },
   "_id": "skladby/swimming-pool-gallery-ca-hanova-bulhar.mdx",
   "_raw": {

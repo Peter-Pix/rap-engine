@@ -8,16 +8,19 @@
   "album": "Black Chinese II",
   "albumSlug": "black-chinese-ii",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:48",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Le Club de la Destinée — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),C=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(l=p(t,a))||l.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(b(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var o=f((k,i)=>{i.exports=_jsx_runtime});var L={};C(L,{default:()=>d,frontmatter:()=>j});var n=_(o()),j={title:\"Le Club de la Destin\\xE9e\",slug:\"le-club-de-la-destinee-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Black Chinese II\",albumSlug:\"black-chinese-ii\",year:2011,genre:[],duration:\"5:48\",trackNumber:3,producers:[],producersNames:[],description:\"Le Club de la Destin\\xE9e \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(L);})();\n;return Component;"
+    "raw": "\n**[Le Club de la Destinée](/skladby/le-club-de-la-destinee-calin)** od [Calin](/raperi/calin) z alba [Black Chinese II](/alba/black-chinese-ii) (2011).\n",
+    "code": "var Component=(()=>{var b=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var C=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var r in e)l(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(n,t)&&t!==r&&l(n,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return n};var g=(n,e,r)=>(r=n!=null?b(m(n)):{},i(e||!n||!n.__esModule?l(r,\"default\",{value:n,enumerable:!0}):r,n)),k=n=>i(l({},\"__esModule\",{value:!0}),n);var o=C((j,c)=>{c.exports=_jsx_runtime});var L={};x(L,{default:()=>u,frontmatter:()=>I});var a=g(o()),I={title:\"Le Club de la Destin\\xE9e\",slug:\"le-club-de-la-destinee-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Black Chinese II\",albumSlug:\"black-chinese-ii\",year:2011,genre:[\"\"],duration:\"5:48\",trackNumber:3,producers:[],producersNames:[],description:\"Le Club de la Destin\\xE9e \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/le-club-de-la-destinee-calin\",children:\"Le Club de la Destin\\xE9e\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/black-chinese-ii\",children:\"Black Chinese II\"}),\" (2011).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(d,{...n})}):d(n)}return k(L);})();\n;return Component;"
   },
   "_id": "skladby/le-club-de-la-destinee-calin.mdx",
   "_raw": {

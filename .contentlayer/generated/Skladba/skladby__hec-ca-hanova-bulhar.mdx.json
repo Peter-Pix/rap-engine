@@ -12,16 +12,19 @@
   "album": "Hood Celebrity 2",
   "albumSlug": "hood-celebrity-2",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Heč — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),H=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=h(t,a))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?m(b(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(o({},\"__esModule\",{value:!0}),e);var l=A((N,u)=>{u.exports=_jsx_runtime});var C={};H(C,{default:()=>i,frontmatter:()=>g});var r=f(l()),g={title:\"He\\u010D\",slug:\"hec-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"belxch\"],featuresNames:[\"BELXCH\"],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[],duration:\"3:03\",trackNumber:3,producers:[],producersNames:[],description:\"He\\u010D \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[Heč](/skladby/hec-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Hood Celebrity 2](/alba/hood-celebrity-2) (2018).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var H=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!m.call(r,o)&&o!==t&&n(r,o,{get:()=>e[o],enumerable:!(c=b(e,o))||c.enumerable});return r};var x=(r,e,t)=>(t=r!=null?i(A(r)):{},l(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),C=r=>l(n({},\"__esModule\",{value:!0}),r);var h=H((_,s)=>{s.exports=_jsx_runtime});var y={};f(y,{default:()=>d,frontmatter:()=>g});var a=x(h()),g={title:\"He\\u010D\",slug:\"hec-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"belxch\"],featuresNames:[\"BELXCH\"],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[\"\"],duration:\"3:03\",trackNumber:3,producers:[],producersNames:[],description:\"He\\u010D \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/hec-ca-hanova-bulhar\",children:\"He\\u010D\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/hood-celebrity-2\",children:\"Hood Celebrity 2\"}),\" (2018).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return C(y);})();\n;return Component;"
   },
   "_id": "skladby/hec-ca-hanova-bulhar.mdx",
   "_raw": {

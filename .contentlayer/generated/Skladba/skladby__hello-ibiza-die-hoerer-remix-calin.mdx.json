@@ -12,16 +12,19 @@
   "album": "Hello Ibiza",
   "albumSlug": "hello-ibiza",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:50",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Hello Ibiza (Die Hoerer Remix) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!b.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(a=p(r,o))||a.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(x(e)):{},l(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),H=e=>l(i({},\"__esModule\",{value:!0}),e);var c=f((I,s)=>{s.exports=_jsx_runtime});var z={};_(z,{default:()=>u,frontmatter:()=>j});var t=g(c()),j={title:\"Hello Ibiza (Die Hoerer Remix)\",slug:\"hello-ibiza-die-hoerer-remix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"die-hoerer\"],featuresNames:[\"Die Hoerer\"],album:\"Hello Ibiza\",albumSlug:\"hello-ibiza\",year:2012,genre:[],duration:\"5:50\",trackNumber:4,producers:[],producersNames:[],description:\"Hello Ibiza (Die Hoerer Remix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return H(z);})();\n;return Component;"
+    "raw": "\n**[Hello Ibiza (Die Hoerer Remix)](/skladby/hello-ibiza-die-hoerer-remix-calin)** od [Calin](/raperi/calin) z alba [Hello Ibiza](/alba/hello-ibiza) (2012).\n",
+    "code": "var Component=(()=>{var b=Object.create;var l=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),z=(r,e)=>{for(var a in e)l(r,a,{get:e[a],enumerable:!0})},t=(r,e,a,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!x.call(r,o)&&o!==a&&l(r,o,{get:()=>e[o],enumerable:!(n=h(e,o))||n.enumerable});return r};var H=(r,e,a)=>(a=r!=null?b(p(r)):{},t(e||!r||!r.__esModule?l(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>t(l({},\"__esModule\",{value:!0}),r);var c=f((j,s)=>{s.exports=_jsx_runtime});var D={};z(D,{default:()=>u,frontmatter:()=>I});var i=H(c()),I={title:\"Hello Ibiza (Die Hoerer Remix)\",slug:\"hello-ibiza-die-hoerer-remix-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"die-hoerer\"],featuresNames:[\"Die Hoerer\"],album:\"Hello Ibiza\",albumSlug:\"hello-ibiza\",year:2012,genre:[\"\"],duration:\"5:50\",trackNumber:4,producers:[],producersNames:[],description:\"Hello Ibiza (Die Hoerer Remix) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,i.jsxs)(e.p,{children:[(0,i.jsx)(e.strong,{children:(0,i.jsx)(e.a,{href:\"/skladby/hello-ibiza-die-hoerer-remix-calin\",children:\"Hello Ibiza (Die Hoerer Remix)\"})}),\" od \",(0,i.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,i.jsx)(e.a,{href:\"/alba/hello-ibiza\",children:\"Hello Ibiza\"}),\" (2012).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,i.jsx)(e,{...r,children:(0,i.jsx)(d,{...r})}):d(r)}return g(D);})();\n;return Component;"
   },
   "_id": "skladby/hello-ibiza-die-hoerer-remix-calin.mdx",
   "_raw": {

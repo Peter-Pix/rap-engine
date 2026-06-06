@@ -8,16 +8,19 @@
   "album": "Moby Dick",
   "albumSlug": "moby-dick",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:44",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Mike Adriano — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var k=(e,t,n)=>(n=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var c=f((C,m)=>{m.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>g});var r=k(c()),g={title:\"Mike Adriano\",slug:\"mike-adriano-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[],duration:\"4:44\",trackNumber:5,producers:[],producersNames:[],description:\"Mike Adriano \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Mike Adriano](/skladby/mike-adriano-james-cole)** od [James Cole](/raperi/james-cole) z alba [Moby Dick](/alba/moby-dick) (2013).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},i=(r,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!f.call(r,n)&&n!==o&&t(r,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return r};var x=(r,e,o)=>(o=r!=null?u(k(r)):{},i(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),M=r=>i(t({},\"__esModule\",{value:!0}),r);var l=h((C,c)=>{c.exports=_jsx_runtime});var y={};j(y,{default:()=>m,frontmatter:()=>g});var a=x(l()),g={title:\"Mike Adriano\",slug:\"mike-adriano-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[\"\"],duration:\"4:44\",trackNumber:5,producers:[],producersNames:[],description:\"Mike Adriano \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/mike-adriano-james-cole\",children:\"Mike Adriano\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/moby-dick\",children:\"Moby Dick\"}),\" (2013).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return M(y);})();\n;return Component;"
   },
   "_id": "skladby/mike-adriano-james-cole.mdx",
   "_raw": {

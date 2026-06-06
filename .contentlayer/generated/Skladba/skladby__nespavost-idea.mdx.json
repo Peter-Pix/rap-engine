@@ -16,16 +16,19 @@
   "album": "O beatech a lidech",
   "albumSlug": "o-beatech-a-lidech",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:45",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Nespavost — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var i=f((D,d)=>{d.exports=_jsx_runtime});var v={};_(v,{default:()=>l,frontmatter:()=>N});var r=g(i()),N={title:\"Nespavost\",slug:\"nespavost-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"6polnic\",\"dj-zerwox\",\"radimo\"],featuresNames:[\"6Polnic\",\"DJ Zerwox\",\"Radimo\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[],duration:\"4:45\",trackNumber:10,producers:[],producersNames:[],description:\"Nespavost \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(v);})();\n;return Component;"
+    "raw": "\n**[Nespavost](/skladby/nespavost-idea)** od [Idea](/raperi/idea) z alba [O beatech a lidech](/alba/o-beatech-a-lidech) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},d=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!x.call(a,o)&&o!==t&&n(a,o,{get:()=>e[o],enumerable:!(s=h(e,o))||s.enumerable});return a};var j=(a,e,t)=>(t=a!=null?u(b(a)):{},d(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),N=a=>d(n({},\"__esModule\",{value:!0}),a);var i=f((w,c)=>{c.exports=_jsx_runtime});var v={};g(v,{default:()=>p,frontmatter:()=>_});var r=j(i()),_={title:\"Nespavost\",slug:\"nespavost-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"6polnic\",\"dj-zerwox\",\"radimo\"],featuresNames:[\"6Polnic\",\"DJ Zerwox\",\"Radimo\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[\"\"],duration:\"4:45\",trackNumber:10,producers:[],producersNames:[],description:\"Nespavost \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nespavost-idea\",children:\"Nespavost\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/o-beatech-a-lidech\",children:\"O beatech a lidech\"}),\" (2021).\"]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(l,{...a})}):l(a)}return N(v);})();\n;return Component;"
   },
   "_id": "skladby/nespavost-idea.mdx",
   "_raw": {

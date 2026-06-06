@@ -12,16 +12,19 @@
   "album": "Idiot",
   "albumSlug": "idiot",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:17",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Tak to mam rad — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},i=(t,e,a,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!f.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(m=p(e,n))||m.enumerable});return t};var b=(t,e,a)=>(a=t!=null?c(h(t)):{},i(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>i(o({},\"__esModule\",{value:!0}),t);var s=k((S,d)=>{d.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>j});var r=b(s()),j={title:\"Tak to mam rad\",slug:\"tak-to-mam-rad-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"ektor\"],featuresNames:[\"Ektor\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"4:17\",trackNumber:10,producers:[],producersNames:[],description:\"Tak to mam rad \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Tak to mam rad](/skladby/tak-to-mam-rad-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Idiot](/alba/idiot) (2013).\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),b=(a,r)=>{for(var e in r)i(a,e,{get:r[e],enumerable:!0})},n=(a,r,e,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of f(r))!k.call(a,o)&&o!==e&&i(a,o,{get:()=>r[o],enumerable:!(d=p(r,o))||d.enumerable});return a};var g=(a,r,e)=>(e=a!=null?u(h(a)):{},n(r||!a||!a.__esModule?i(e,\"default\",{value:a,enumerable:!0}):e,a)),_=a=>n(i({},\"__esModule\",{value:!0}),a);var s=x((M,m)=>{m.exports=_jsx_runtime});var v={};b(v,{default:()=>c,frontmatter:()=>j});var t=g(s()),j={title:\"Tak to mam rad\",slug:\"tak-to-mam-rad-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"ektor\"],featuresNames:[\"Ektor\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[\"\"],duration:\"4:17\",trackNumber:10,producers:[],producersNames:[],description:\"Tak to mam rad \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function l(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/tak-to-mam-rad-vladimir-518\",children:\"Tak to mam rad\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/idiot\",children:\"Idiot\"}),\" (2013).\"]})}function c(a={}){let{wrapper:r}=a.components||{};return r?(0,t.jsx)(r,{...a,children:(0,t.jsx)(l,{...a})}):l(a)}return _(v);})();\n;return Component;"
   },
   "_id": "skladby/tak-to-mam-rad-vladimir-518.mdx",
   "_raw": {

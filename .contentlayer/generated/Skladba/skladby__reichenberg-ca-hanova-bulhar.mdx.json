@@ -12,16 +12,19 @@
   "album": "Hood Celebrity 2",
   "albumSlug": "hood-celebrity-2",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:39",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Reichenberg — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!A.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(c=m(r,a))||c.enumerable});return e};var f=(e,r,n)=>(n=e!=null?h(b(e)):{},s(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var i=x((H,u)=>{u.exports=_jsx_runtime});var j={};g(j,{default:()=>d,frontmatter:()=>y});var t=f(i()),y={title:\"Reichenberg\",slug:\"reichenberg-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"tropy-aya\"],featuresNames:[\"TROPY AYA\"],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[],duration:\"3:39\",trackNumber:8,producers:[],producersNames:[],description:\"Reichenberg \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Reichenberg](/skladby/reichenberg-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Hood Celebrity 2](/alba/hood-celebrity-2) (2018).\n",
+    "code": "var Component=(()=>{var b=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var m=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!g.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(c=d(e,t))||c.enumerable});return r};var x=(r,e,n)=>(n=r!=null?b(A(r)):{},s(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),y=r=>s(o({},\"__esModule\",{value:!0}),r);var h=m((N,l)=>{l.exports=_jsx_runtime});var C={};f(C,{default:()=>u,frontmatter:()=>H});var a=x(h()),H={title:\"Reichenberg\",slug:\"reichenberg-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"tropy-aya\"],featuresNames:[\"TROPY AYA\"],album:\"Hood Celebrity 2\",albumSlug:\"hood-celebrity-2\",year:2018,genre:[\"\"],duration:\"3:39\",trackNumber:8,producers:[],producersNames:[],description:\"Reichenberg \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/reichenberg-ca-hanova-bulhar\",children:\"Reichenberg\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/hood-celebrity-2\",children:\"Hood Celebrity 2\"}),\" (2018).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return y(C);})();\n;return Component;"
   },
   "_id": "skladby/reichenberg-ca-hanova-bulhar.mdx",
   "_raw": {

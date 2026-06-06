@@ -12,16 +12,19 @@
   "album": "Soundtrack",
   "albumSlug": "soundtrack",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:11",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Nerozhodný — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var c=j((D,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>N});var r=b(c()),N={title:\"Nerozhodn\\xFD\",slug:\"nerozhodny-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"luzer\"],featuresNames:[\"LUZER\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"3:11\",trackNumber:6,producers:[],producersNames:[],description:\"Nerozhodn\\xFD \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Nerozhodný](/skladby/nerozhodny-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack](/alba/soundtrack) (2013).\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!j.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(d=p(e,a))||d.enumerable});return t};var g=(t,e,n)=>(n=t!=null?h(m(t)):{},s(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),k=t=>s(o({},\"__esModule\",{value:!0}),t);var c=x((y,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>i,frontmatter:()=>z});var r=g(c()),z={title:\"Nerozhodn\\xFD\",slug:\"nerozhodny-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"luzer\"],featuresNames:[\"LUZER\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[\"\"],duration:\"3:11\",trackNumber:6,producers:[],producersNames:[],description:\"Nerozhodn\\xFD \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nerozhodny-dj-fatte\",children:\"Nerozhodn\\xFD\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/soundtrack\",children:\"Soundtrack\"}),\" (2013).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(l,{...t})}):l(t)}return k(N);})();\n;return Component;"
   },
   "_id": "skladby/nerozhodny-dj-fatte.mdx",
   "_raw": {

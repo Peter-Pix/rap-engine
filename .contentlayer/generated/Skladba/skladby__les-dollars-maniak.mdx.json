@@ -12,16 +12,19 @@
   "album": "Černej kůň plus",
   "albumSlug": "cernej-kun-plus",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:28",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Les dollars — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!j.call(e,a)&&a!==t&&s(e,a,{get:()=>n[a],enumerable:!(o=p(n,a))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(x(e)):{},l(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>l(s({},\"__esModule\",{value:!0}),e);var c=k((L,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>g});var r=_(c()),g={title:\"Les dollars\",slug:\"les-dollars-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[],duration:\"4:28\",trackNumber:5,producers:[],producersNames:[],description:\"Les dollars \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Les dollars](/skladby/les-dollars-maniak)** od [Maniak](/raperi/maniak) z alba [Černej kůň plus](/alba/cernej-kun-plus) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of k(e))!f.call(r,s)&&s!==n&&t(r,s,{get:()=>e[s],enumerable:!(l=m(e,s))||l.enumerable});return r};var b=(r,e,n)=>(n=r!=null?p(h(r)):{},o(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>o(t({},\"__esModule\",{value:!0}),r);var u=j((y,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>d,frontmatter:()=>M});var a=b(u()),M={title:\"Les dollars\",slug:\"les-dollars-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[\"\"],duration:\"4:28\",trackNumber:5,producers:[],producersNames:[],description:\"Les dollars \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/les-dollars-maniak\",children:\"Les dollars\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/cernej-kun-plus\",children:\"\\u010Cernej k\\u016F\\u0148 plus\"}),\" (2022).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/les-dollars-maniak.mdx",
   "_raw": {

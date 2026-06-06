@@ -1,0 +1,29 @@
+{
+  "title": "99 Lies",
+  "slug": "99-lies",
+  "rapper": "DJ Fatte",
+  "rapperSlug": "dj-fatte",
+  "label": "WM Czech Republic",
+  "year": 2016,
+  "description": "99 Lies — singl od DJ Fatte (2016).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/ddff783a8fa0c64380f71677adad1374/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[99 Lies](/skladby/99-lies)** od [DJ Fatte](/raperi/dj-fatte) (2016).\n",
+    "code": "var Component=(()=>{var f=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var m=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},o=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of u(e))!h.call(t,r)&&r!==n&&s(t,r,{get:()=>e[r],enumerable:!(i=g(e,r))||i.enumerable});return t};var D=(t,e,n)=>(n=t!=null?f(x(t)):{},o(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>o(s({},\"__esModule\",{value:!0}),t);var l=m((M,c)=>{c.exports=_jsx_runtime});var y={};j(y,{default:()=>p,frontmatter:()=>b});var a=D(l()),b={title:\"99 Lies\",slug:\"99-lies\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2016,description:\"99 Lies \\u2014 singl od DJ Fatte (2016).\",image:\"https://cdn-images.dzcdn.net/images/cover/ddff783a8fa0c64380f71677adad1374/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/99-lies\",children:\"99 Lies\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" (2016).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(d,{...t})}):d(t)}return _(y);})();\n;return Component;"
+  },
+  "_id": "skladby/99-lies.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/99-lies.mdx",
+    "sourceFileName": "99-lies.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/99-lies"
+  },
+  "type": "Skladba",
+  "url": "/skladby/99-lies",
+  "canonicalUrl": "https://4rap.cz/skladby/99-lies"
+}

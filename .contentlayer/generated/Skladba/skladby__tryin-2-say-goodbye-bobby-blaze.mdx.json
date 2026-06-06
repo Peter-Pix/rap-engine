@@ -8,16 +8,19 @@
   "album": "The Text",
   "albumSlug": "the-text",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:54",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Tryin 2 Say Goodbye — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},b=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?i(y(e)):{},b(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>b(a({},\"__esModule\",{value:!0}),e);var l=h((B,u)=>{u.exports=_jsx_runtime});var S={};f(S,{default:()=>d,frontmatter:()=>j});var r=g(l()),j={title:\"Tryin 2 Say Goodbye\",slug:\"tryin-2-say-goodbye-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[],duration:\"3:54\",trackNumber:11,producers:[],producersNames:[],description:\"Tryin 2 Say Goodbye \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Tryin 2 Say Goodbye](/skladby/tryin-2-say-goodbye-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Text](/alba/the-text) (2006).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var m=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},s=(r,e,a,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!x.call(r,o)&&o!==a&&n(r,o,{get:()=>e[o],enumerable:!(b=u(e,o))||b.enumerable});return r};var g=(r,e,a)=>(a=r!=null?c(h(r)):{},s(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),z=r=>s(n({},\"__esModule\",{value:!0}),r);var y=m((j,l)=>{l.exports=_jsx_runtime});var B={};f(B,{default:()=>i,frontmatter:()=>T});var t=g(y()),T={title:\"Tryin 2 Say Goodbye\",slug:\"tryin-2-say-goodbye-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[\"\"],duration:\"3:54\",trackNumber:11,producers:[],producersNames:[],description:\"Tryin 2 Say Goodbye \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/tryin-2-say-goodbye-bobby-blaze\",children:\"Tryin 2 Say Goodbye\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/the-text\",children:\"The Text\"}),\" (2006).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return z(B);})();\n;return Component;"
   },
   "_id": "skladby/tryin-2-say-goodbye-bobby-blaze.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Brooklyn International",
   "albumSlug": "brooklyn-international",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:19",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Go Like This — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(x(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>i(a({},\"__esModule\",{value:!0}),e);var m=f((L,l)=>{l.exports=_jsx_runtime});var y={};g(y,{default:()=>u,frontmatter:()=>_});var n=j(m()),_={title:\"Go Like This\",slug:\"go-like-this-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Brooklyn International\",albumSlug:\"brooklyn-international\",year:2018,genre:[],duration:\"7:19\",trackNumber:3,producers:[],producersNames:[],description:\"Go Like This \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return k(y);})();\n;return Component;"
+    "raw": "\n**[Go Like This](/skladby/go-like-this-james-cole)** od [James Cole](/raperi/james-cole) z alba [Brooklyn International](/alba/brooklyn-international) (2018).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),g=(o,e)=>{for(var n in e)t(o,n,{get:e[n],enumerable:!0})},l=(o,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!b.call(o,a)&&a!==n&&t(o,a,{get:()=>e[a],enumerable:!(s=h(e,a))||s.enumerable});return o};var j=(o,e,n)=>(n=o!=null?d(k(o)):{},l(e||!o||!o.__esModule?t(n,\"default\",{value:o,enumerable:!0}):n,o)),x=o=>l(t({},\"__esModule\",{value:!0}),o);var c=f((L,i)=>{i.exports=_jsx_runtime});var _={};g(_,{default:()=>u,frontmatter:()=>y});var r=j(c()),y={title:\"Go Like This\",slug:\"go-like-this-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Brooklyn International\",albumSlug:\"brooklyn-international\",year:2018,genre:[\"\"],duration:\"7:19\",trackNumber:3,producers:[],producersNames:[],description:\"Go Like This \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/go-like-this-james-cole\",children:\"Go Like This\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/brooklyn-international\",children:\"Brooklyn International\"}),\" (2018).\"]})}function u(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(m,{...o})}):m(o)}return x(_);})();\n;return Component;"
   },
   "_id": "skladby/go-like-this-james-cole.mdx",
   "_raw": {

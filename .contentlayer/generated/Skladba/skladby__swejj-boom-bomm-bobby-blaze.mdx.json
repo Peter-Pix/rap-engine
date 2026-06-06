@@ -8,16 +8,19 @@
   "album": "SWEJJ Boom Bomm",
   "albumSlug": "swejj-boom-bomm",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:18",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "SWEJJ Boom Bomm — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var m=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,B=Object.prototype.hasOwnProperty;var h=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),j=(e,o)=>{for(var r in o)m(e,r,{get:o[r],enumerable:!0})},s=(e,o,r,a)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of p(o))!B.call(e,n)&&n!==r&&m(e,n,{get:()=>o[n],enumerable:!(a=i(o,n))||a.enumerable});return e};var f=(e,o,r)=>(r=e!=null?d(x(e)):{},s(o||!e||!e.__esModule?m(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(m({},\"__esModule\",{value:!0}),e);var u=h((S,b)=>{b.exports=_jsx_runtime});var y={};j(y,{default:()=>c,frontmatter:()=>g});var t=f(u()),g={title:\"SWEJJ Boom Bomm\",slug:\"swejj-boom-bomm-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"SWEJJ Boom Bomm\",albumSlug:\"swejj-boom-bomm\",year:2024,genre:[],duration:\"3:18\",trackNumber:1,producers:[],producersNames:[],description:\"SWEJJ Boom Bomm \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function l(e){let o={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(o.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(o.p,{children:(0,t.jsx)(o.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[SWEJJ Boom Bomm](/skladby/swejj-boom-bomm-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var B=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var y=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),f=(e,o)=>{for(var r in o)a(e,r,{get:o[r],enumerable:!0})},n=(e,o,r,m)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let b of p(o))!j.call(e,b)&&b!==r&&a(e,b,{get:()=>o[b],enumerable:!(m=i(o,b))||m.enumerable});return e};var x=(e,o,r)=>(r=e!=null?d(B(e)):{},n(o||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),h=e=>n(a({},\"__esModule\",{value:!0}),e);var l=y((S,s)=>{s.exports=_jsx_runtime});var g={};f(g,{default:()=>c,frontmatter:()=>J});var t=x(l()),J={title:\"SWEJJ Boom Bomm\",slug:\"swejj-boom-bomm-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"SWEJJ Boom Bomm\",albumSlug:\"swejj-boom-bomm\",year:2024,genre:[\"\"],duration:\"3:18\",trackNumber:1,producers:[],producersNames:[],description:\"SWEJJ Boom Bomm \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(e){let o={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(o.p,{children:[(0,t.jsx)(o.strong,{children:(0,t.jsx)(o.a,{href:\"/skladby/swejj-boom-bomm-bobby-blaze\",children:\"SWEJJ Boom Bomm\"})}),\" od \",(0,t.jsx)(o.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function c(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return h(g);})();\n;return Component;"
   },
   "_id": "skladby/swejj-boom-bomm-bobby-blaze.mdx",
   "_raw": {

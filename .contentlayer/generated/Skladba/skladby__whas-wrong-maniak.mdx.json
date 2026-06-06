@@ -12,16 +12,19 @@
   "album": "OneWay",
   "albumSlug": "oneway",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:12",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Whas Wrong — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?d(x(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((w,m)=>{m.exports=_jsx_runtime});var M={};_(M,{default:()=>p,frontmatter:()=>k});var t=b(i()),k={title:\"Whas Wrong\",slug:\"whas-wrong-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[],duration:\"3:12\",trackNumber:13,producers:[],producersNames:[],description:\"Whas Wrong \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Whas Wrong](/skladby/whas-wrong-maniak)** od [Maniak](/raperi/maniak) z alba [OneWay](/alba/oneway) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var r in a)o(n,r,{get:a[r],enumerable:!0})},i=(n,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of h(a))!f.call(n,t)&&t!==r&&o(n,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return n};var b=(n,a,r)=>(r=n!=null?m(g(n)):{},i(a||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),W=n=>i(o({},\"__esModule\",{value:!0}),n);var c=k((j,u)=>{u.exports=_jsx_runtime});var y={};x(y,{default:()=>d,frontmatter:()=>w});var e=b(c()),w={title:\"Whas Wrong\",slug:\"whas-wrong-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[\"\"],duration:\"3:12\",trackNumber:13,producers:[],producersNames:[],description:\"Whas Wrong \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/whas-wrong-maniak\",children:\"Whas Wrong\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/oneway\",children:\"OneWay\"}),\" (2023).\"]})}function d(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(l,{...n})}):l(n)}return W(y);})();\n;return Component;"
   },
   "_id": "skladby/whas-wrong-maniak.mdx",
   "_raw": {

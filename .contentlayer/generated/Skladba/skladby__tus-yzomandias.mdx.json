@@ -14,16 +14,19 @@
   "album": "J. EDEN E-GEN (mixed by NobodyListen)",
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:26",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "TUŠ — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},d=(e,n,o,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!y.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(a=p(n,r))||a.enumerable});return e};var g=(e,n,o)=>(o=e!=null?l(x(e)):{},d(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),N=e=>d(s({},\"__esModule\",{value:!0}),e);var m=h((E,i)=>{i.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>_});var t=g(m()),_={title:\"TU\\u0160\",slug:\"tus-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"ptk\"],featuresNames:[\"Nobodylisten\",\"P T K\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[],duration:\"3:26\",trackNumber:11,producers:[],producersNames:[],description:\"TU\\u0160 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return N(j);})();\n;return Component;"
+    "raw": "\n**[TUŠ](/skladby/tus-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
+    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),h=(n,e)=>{for(var o in e)r(n,o,{get:e[o],enumerable:!0})},d=(n,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of y(e))!x.call(n,t)&&t!==o&&r(n,t,{get:()=>e[t],enumerable:!(s=b(e,t))||s.enumerable});return n};var N=(n,e,o)=>(o=n!=null?c(p(n)):{},d(e||!n||!n.__esModule?r(o,\"default\",{value:n,enumerable:!0}):o,n)),g=n=>d(r({},\"__esModule\",{value:!0}),n);var m=f((_,i)=>{i.exports=_jsx_runtime});var E={};h(E,{default:()=>u,frontmatter:()=>z});var a=N(m()),z={title:\"TU\\u0160\",slug:\"tus-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"ptk\"],featuresNames:[\"Nobodylisten\",\"P T K\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"3:26\",trackNumber:11,producers:[],producersNames:[],description:\"TU\\u0160 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/tus-yzomandias\",children:\"TU\\u0160\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return g(E);})();\n;return Component;"
   },
   "_id": "skladby/tus-yzomandias.mdx",
   "_raw": {

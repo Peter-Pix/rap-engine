@@ -8,16 +8,19 @@
   "album": "No Words Needed",
   "albumSlug": "no-words-needed",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:01",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Ride Alone — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(d=p(t,o))||d.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(f(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var c=j((A,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>l,frontmatter:()=>N});var n=b(c()),N={title:\"Ride Alone\",slug:\"ride-alone-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"No Words Needed\",albumSlug:\"no-words-needed\",year:2019,genre:[],duration:\"3:01\",trackNumber:10,producers:[],producersNames:[],description:\"Ride Alone \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Ride Alone](/skladby/ride-alone-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [No Words Needed](/alba/no-words-needed) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!j.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(d=f(e,a))||d.enumerable});return t};var g=(t,e,n)=>(n=t!=null?p(h(t)):{},s(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),N=t=>s(o({},\"__esModule\",{value:!0}),t);var i=x((k,l)=>{l.exports=_jsx_runtime});var D={};b(D,{default:()=>u,frontmatter:()=>_});var r=g(i()),_={title:\"Ride Alone\",slug:\"ride-alone-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"No Words Needed\",albumSlug:\"no-words-needed\",year:2019,genre:[\"\"],duration:\"3:01\",trackNumber:10,producers:[],producersNames:[],description:\"Ride Alone \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/ride-alone-dj-fatte\",children:\"Ride Alone\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/no-words-needed\",children:\"No Words Needed\"}),\" (2019).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return N(D);})();\n;return Component;"
   },
   "_id": "skladby/ride-alone-dj-fatte.mdx",
   "_raw": {

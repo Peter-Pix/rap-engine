@@ -24,16 +24,19 @@
   "album": "Krtek Forever",
   "albumSlug": "krtek-forever",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:54",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Krtek Forever — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of k(n))!h.call(e,t)&&t!==o&&a(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var _=(e,n,o)=>(o=e!=null?d(f(e)):{},i(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var m=x((F,l)=>{l.exports=_jsx_runtime});var K={};b(K,{default:()=>c,frontmatter:()=>j});var r=_(m()),j={title:\"Krtek Forever\",slug:\"krtek-forever-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"nik-tendo\",\"hasan\",\"kamil-hoffmann\",\"karlo\",\"jickson\",\"robin-zoot\"],featuresNames:[\"Yzomandias\",\"Nik Tendo\",\"Hasan\",\"Kamil Hoffmann\",\"Karlo\",\"Jickson\",\"Robin Zoot\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[],duration:\"5:54\",trackNumber:10,producers:[],producersNames:[],description:\"Krtek Forever \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(K);})();\n;return Component;"
+    "raw": "\n**[Krtek Forever](/skladby/krtek-forever-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [Krtek Forever](/alba/krtek-forever) (2023).\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var n in e)a(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!h.call(r,t)&&t!==n&&a(r,t,{get:()=>e[t],enumerable:!(i=d(e,t))||i.enumerable});return r};var x=(r,e,n)=>(n=r!=null?c(f(r)):{},s(e||!r||!r.__esModule?a(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>s(a({},\"__esModule\",{value:!0}),r);var u=b((_,l)=>{l.exports=_jsx_runtime});var j={};v(j,{default:()=>m,frontmatter:()=>K});var o=x(u()),K={title:\"Krtek Forever\",slug:\"krtek-forever-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"nik-tendo\",\"hasan\",\"kamil-hoffmann\",\"karlo\",\"jickson\",\"robin-zoot\"],featuresNames:[\"Yzomandias\",\"Nik Tendo\",\"Hasan\",\"Kamil Hoffmann\",\"Karlo\",\"Jickson\",\"Robin Zoot\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[\"\"],duration:\"5:54\",trackNumber:10,producers:[],producersNames:[],description:\"Krtek Forever \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function k(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/krtek-forever-milion-plus\",children:\"Krtek Forever\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/krtek-forever\",children:\"Krtek Forever\"}),\" (2023).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(k,{...r})}):k(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/krtek-forever-milion-plus.mdx",
   "_raw": {

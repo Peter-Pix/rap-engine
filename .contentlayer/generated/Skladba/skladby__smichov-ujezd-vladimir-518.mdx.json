@@ -16,16 +16,19 @@
   "album": "Gorila vs. Architekt",
   "albumSlug": "gorila-vs-architekt",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:03",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Smíchov - Újezd — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!f.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(a=x(r,o))||a.enumerable});return e};var k=(e,r,n)=>(n=e!=null?l(p(e)):{},s(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),v=e=>s(i({},\"__esModule\",{value:!0}),e);var c=g((M,m)=>{m.exports=_jsx_runtime});var b={};j(b,{default:()=>d,frontmatter:()=>_});var t=k(c()),_={title:\"Sm\\xEDchov - \\xDAjezd\",slug:\"smichov-ujezd-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"orion\",\"hugo-toxxx\"],featuresNames:[\"Mike Trafik\",\"Orion\",\"Hugo Toxxx\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[],duration:\"6:03\",trackNumber:11,producers:[],producersNames:[],description:\"Sm\\xEDchov - \\xDAjezd \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return v(b);})();\n;return Component;"
+    "raw": "\n**[Smíchov - Újezd](/skladby/smichov-ujezd-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Gorila vs. Architekt](/alba/gorila-vs-architekt) (2008).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var i in r)o(e,i,{get:r[i],enumerable:!0})},s=(e,r,i,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of p(r))!v.call(e,t)&&t!==i&&o(e,t,{get:()=>r[t],enumerable:!(n=h(r,t))||n.enumerable});return e};var k=(e,r,i)=>(i=e!=null?u(x(e)):{},s(r||!e||!e.__esModule?o(i,\"default\",{value:e,enumerable:!0}):i,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var l=f((S,d)=>{d.exports=_jsx_runtime});var z={};g(z,{default:()=>m,frontmatter:()=>b});var a=k(l()),b={title:\"Sm\\xEDchov - \\xDAjezd\",slug:\"smichov-ujezd-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"orion\",\"hugo-toxxx\"],featuresNames:[\"Mike Trafik\",\"Orion\",\"Hugo Toxxx\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[\"\"],duration:\"6:03\",trackNumber:11,producers:[],producersNames:[],description:\"Sm\\xEDchov - \\xDAjezd \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/smichov-ujezd-vladimir-518\",children:\"Sm\\xEDchov - \\xDAjezd\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/gorila-vs-architekt\",children:\"Gorila vs. Architekt\"}),\" (2008).\"]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return j(z);})();\n;return Component;"
   },
   "_id": "skladby/smichov-ujezd-vladimir-518.mdx",
   "_raw": {

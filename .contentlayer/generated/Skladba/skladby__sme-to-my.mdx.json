@@ -1,0 +1,29 @@
+{
+  "title": "Sme to my",
+  "slug": "sme-to-my",
+  "rapper": "Idea",
+  "rapperSlug": "idea",
+  "label": "WM Czech Republic",
+  "year": 2019,
+  "description": "Sme to my — singl od Idea (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/867790813cf4770fd25fb044631851a7/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Sme to my](/skladby/sme-to-my)** od [Idea](/raperi/idea) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of g(e))!x.call(t,a)&&a!==n&&s(t,a,{get:()=>e[a],enumerable:!(o=f(e,a))||o.enumerable});return t};var j=(t,e,n)=>(n=t!=null?p(u(t)):{},i(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>i(s({},\"__esModule\",{value:!0}),t);var d=h((C,c)=>{c.exports=_jsx_runtime});var M={};y(M,{default:()=>m,frontmatter:()=>b});var r=j(d()),b={title:\"Sme to my\",slug:\"sme-to-my\",rapper:\"Idea\",rapperSlug:\"idea\",label:\"WM Czech Republic\",year:2019,description:\"Sme to my \\u2014 singl od Idea (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/867790813cf4770fd25fb044631851a7/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/sme-to-my\",children:\"Sme to my\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" (2019).\"]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(l,{...t})}):l(t)}return _(M);})();\n;return Component;"
+  },
+  "_id": "skladby/sme-to-my.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/sme-to-my.mdx",
+    "sourceFileName": "sme-to-my.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/sme-to-my"
+  },
+  "type": "Skladba",
+  "url": "/skladby/sme-to-my",
+  "canonicalUrl": "https://4rap.cz/skladby/sme-to-my"
+}

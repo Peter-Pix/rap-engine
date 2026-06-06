@@ -8,16 +8,19 @@
   "album": "The Text",
   "albumSlug": "the-text",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:01",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Memory Lane — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(a({},\"__esModule\",{value:!0}),e);var u=y((B,l)=>{l.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>j});var r=_(u()),j={title:\"Memory Lane\",slug:\"memory-lane-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[],duration:\"4:01\",trackNumber:7,producers:[],producersNames:[],description:\"Memory Lane \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Memory Lane](/skladby/memory-lane-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Text](/alba/the-text) (2006).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},l=(r,e,a,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!h.call(r,n)&&n!==a&&o(r,n,{get:()=>e[n],enumerable:!(b=i(e,n))||b.enumerable});return r};var z=(r,e,a)=>(a=r!=null?d(y(r)):{},l(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>l(o({},\"__esModule\",{value:!0}),r);var c=x((j,s)=>{s.exports=_jsx_runtime});var M={};f(M,{default:()=>u,frontmatter:()=>B});var t=z(c()),B={title:\"Memory Lane\",slug:\"memory-lane-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[\"\"],duration:\"4:01\",trackNumber:7,producers:[],producersNames:[],description:\"Memory Lane \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/memory-lane-bobby-blaze\",children:\"Memory Lane\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/the-text\",children:\"The Text\"}),\" (2006).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(m,{...r})}):m(r)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/memory-lane-bobby-blaze.mdx",
   "_raw": {

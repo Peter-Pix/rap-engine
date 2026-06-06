@@ -16,16 +16,19 @@
   "album": "JUSTiCE44 (Ledová Cesta)",
   "albumSlug": "justice44-ledova-cesta",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:54",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Ledová Cesta — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var v=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,n)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of v(t))!x.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(n=m(t,a))||n.enumerable});return e};var f=(e,t,r)=>(r=e!=null?p(h(e)):{},d(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),L=e=>d(s({},\"__esModule\",{value:!0}),e);var u=b((D,c)=>{c.exports=_jsx_runtime});var g={};j(g,{default:()=>l,frontmatter:()=>_});var o=f(u()),_={title:\"Ledov\\xE1 Cesta\",slug:\"ledova-cesta-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"robis-hood\",\"samuraj-pitr\",\"ledovy-don\"],featuresNames:[\"Robis Hood\",\"Samuraj P\\xEDtr\",\"Ledov\\xFD Don\"],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[],duration:\"3:54\",trackNumber:2,producers:[],producersNames:[],description:\"Ledov\\xE1 Cesta \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(i,{...e})}):i(e)}return L(g);})();\n;return Component;"
+    "raw": "\n**[Ledová Cesta](/skladby/ledova-cesta-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [JUSTiCE44 (Ledová Cesta)](/alba/justice44-ledova-cesta) (2018).\n",
+    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var v=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),L=(a,e)=>{for(var t in e)r(a,t,{get:e[t],enumerable:!0})},n=(a,e,t,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of m(e))!b.call(a,s)&&s!==t&&r(a,s,{get:()=>e[s],enumerable:!(d=v(e,s))||d.enumerable});return a};var j=(a,e,t)=>(t=a!=null?u(h(a)):{},n(e||!a||!a.__esModule?r(t,\"default\",{value:a,enumerable:!0}):t,a)),x=a=>n(r({},\"__esModule\",{value:!0}),a);var l=f((_,c)=>{c.exports=_jsx_runtime});var g={};L(g,{default:()=>p,frontmatter:()=>C});var o=j(l()),C={title:\"Ledov\\xE1 Cesta\",slug:\"ledova-cesta-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"robis-hood\",\"samuraj-pitr\",\"ledovy-don\"],featuresNames:[\"Robis Hood\",\"Samuraj P\\xEDtr\",\"Ledov\\xFD Don\"],album:\"JUSTiCE44 (Ledov\\xE1 Cesta)\",albumSlug:\"justice44-ledova-cesta\",year:2018,genre:[\"\"],duration:\"3:54\",trackNumber:2,producers:[],producersNames:[],description:\"Ledov\\xE1 Cesta \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/ledova-cesta-lvcas-dope\",children:\"Ledov\\xE1 Cesta\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/justice44-ledova-cesta\",children:\"JUSTiCE44 (Ledov\\xE1 Cesta)\"}),\" (2018).\"]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(i,{...a})}):i(a)}return x(g);})();\n;return Component;"
   },
   "_id": "skladby/ledova-cesta-lvcas-dope.mdx",
   "_raw": {

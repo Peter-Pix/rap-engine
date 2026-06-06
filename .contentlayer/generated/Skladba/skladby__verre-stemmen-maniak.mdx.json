@@ -8,16 +8,19 @@
   "album": "Maison Maniak",
   "albumSlug": "maison-maniak",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:17",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Verre Stemmen — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var r in n)m(e,r,{get:n[r],enumerable:!0})},o=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!k.call(e,a)&&a!==r&&m(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(h(e)):{},o(n||!e||!e.__esModule?m(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>o(m({},\"__esModule\",{value:!0}),e);var u=f((N,i)=>{i.exports=_jsx_runtime});var j={};M(j,{default:()=>d,frontmatter:()=>g});var t=_(u()),g={title:\"Verre Stemmen\",slug:\"verre-stemmen-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Maison Maniak\",albumSlug:\"maison-maniak\",year:2025,genre:[],duration:\"3:17\",trackNumber:4,producers:[],producersNames:[],description:\"Verre Stemmen \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Verre Stemmen](/skladby/verre-stemmen-maniak)** od [Maniak](/raperi/maniak) z alba [Maison Maniak](/alba/maison-maniak) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},m=(a,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of k(e))!h.call(a,t)&&t!==r&&s(a,t,{get:()=>e[t],enumerable:!(i=p(e,t))||i.enumerable});return a};var b=(a,e,r)=>(r=a!=null?d(f(a)):{},m(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>m(s({},\"__esModule\",{value:!0}),a);var c=M((y,o)=>{o.exports=_jsx_runtime});var j={};x(j,{default:()=>l,frontmatter:()=>_});var n=b(c()),_={title:\"Verre Stemmen\",slug:\"verre-stemmen-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Maison Maniak\",albumSlug:\"maison-maniak\",year:2025,genre:[\"\"],duration:\"3:17\",trackNumber:4,producers:[],producersNames:[],description:\"Verre Stemmen \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/verre-stemmen-maniak\",children:\"Verre Stemmen\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/maison-maniak\",children:\"Maison Maniak\"}),\" (2025).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(u,{...a})}):u(a)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/verre-stemmen-maniak.mdx",
   "_raw": {

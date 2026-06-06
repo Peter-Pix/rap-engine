@@ -14,16 +14,19 @@
   "album": "Černej kůň plus",
   "albumSlug": "cernej-kun-plus",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:20",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Problems — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!b.call(e,a)&&a!==t&&s(e,a,{get:()=>n[a],enumerable:!(o=d(n,a))||o.enumerable});return e};var f=(e,n,t)=>(t=e!=null?p(x(e)):{},u(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var c=j((D,m)=>{m.exports=_jsx_runtime});var M={};k(M,{default:()=>l,frontmatter:()=>g});var r=f(c()),g={title:\"Problems\",slug:\"problems-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"psh\"],featuresNames:[\"DJ Wich\",\"PSH\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[],duration:\"5:20\",trackNumber:7,producers:[],producersNames:[],description:\"Problems \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Problems](/skladby/problems-maniak)** od [Maniak](/raperi/maniak) z alba [Černej kůň plus](/alba/cernej-kun-plus) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},l=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of k(e))!h.call(r,s)&&s!==a&&t(r,s,{get:()=>e[s],enumerable:!(o=d(e,s))||o.enumerable});return r};var x=(r,e,a)=>(a=r!=null?m(b(r)):{},l(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>l(t({},\"__esModule\",{value:!0}),r);var u=f((y,i)=>{i.exports=_jsx_runtime});var _={};j(_,{default:()=>p,frontmatter:()=>M});var n=x(u()),M={title:\"Problems\",slug:\"problems-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\",\"psh\"],featuresNames:[\"DJ Wich\",\"PSH\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[\"\"],duration:\"5:20\",trackNumber:7,producers:[],producersNames:[],description:\"Problems \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/problems-maniak\",children:\"Problems\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/cernej-kun-plus\",children:\"\\u010Cernej k\\u016F\\u0148 plus\"}),\" (2022).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/problems-maniak.mdx",
   "_raw": {

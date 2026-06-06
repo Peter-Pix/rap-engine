@@ -12,16 +12,19 @@
   "album": "Yzotape",
   "albumSlug": "yzotape",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:26",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Růženka — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),z=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var u=k((M,m)=>{m.exports=_jsx_runtime});var j={};z(j,{default:()=>d,frontmatter:()=>g});var t=_(u()),g={title:\"R\\u016F\\u017Eenka\",slug:\"ruzenka-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[],duration:\"3:26\",trackNumber:6,producers:[],producersNames:[],description:\"R\\u016F\\u017Eenka \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Růženka](/skladby/ruzenka-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Yzotape](/alba/yzotape) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},i=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of z(a))!h.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=l(a,t))||s.enumerable});return e};var y=(e,a,r)=>(r=e!=null?p(f(e)):{},i(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var c=k((Y,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>m,frontmatter:()=>g});var n=y(c()),g={title:\"R\\u016F\\u017Eenka\",slug:\"ruzenka-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"jickson\"],featuresNames:[\"Jickson\"],album:\"Yzotape\",albumSlug:\"yzotape\",year:2021,genre:[\"\"],duration:\"3:26\",trackNumber:6,producers:[],producersNames:[],description:\"R\\u016F\\u017Eenka \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/ruzenka-yzomandias\",children:\"R\\u016F\\u017Eenka\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/yzotape\",children:\"Yzotape\"}),\" (2021).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/ruzenka-yzomandias.mdx",
   "_raw": {

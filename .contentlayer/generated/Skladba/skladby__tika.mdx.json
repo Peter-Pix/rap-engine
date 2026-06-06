@@ -1,0 +1,29 @@
+{
+  "title": "Tiká",
+  "slug": "tika",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2021,
+  "description": "Tiká — singl od CÂLIN (2021).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/f446706c2d52149c487b6731d196c539/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Tiká](/skladby/tika)** od [Calin](/raperi/calin) (2021).\n",
+    "code": "var Component=(()=>{var g=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of x(e))!m.call(t,i)&&i!==n&&a(t,i,{get:()=>e[i],enumerable:!(s=u(e,i))||s.enumerable});return t};var k=(t,e,n)=>(n=t!=null?g(h(t)):{},c(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),C=t=>c(a({},\"__esModule\",{value:!0}),t);var l=f((M,o)=>{o.exports=_jsx_runtime});var b={};j(b,{default:()=>d,frontmatter:()=>_});var r=k(l()),_={title:\"Tik\\xE1\",slug:\"tika\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2021,description:\"Tik\\xE1 \\u2014 singl od C\\xC2LIN (2021).\",image:\"https://cdn-images.dzcdn.net/images/cover/f446706c2d52149c487b6731d196c539/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/tika\",children:\"Tik\\xE1\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2021).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return C(b);})();\n;return Component;"
+  },
+  "_id": "skladby/tika.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/tika.mdx",
+    "sourceFileName": "tika.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/tika"
+  },
+  "type": "Skladba",
+  "url": "/skladby/tika",
+  "canonicalUrl": "https://4rap.cz/skladby/tika"
+}

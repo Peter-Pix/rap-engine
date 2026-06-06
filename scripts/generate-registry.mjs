@@ -30,6 +30,38 @@ function parseField(content, field) {
   return value || null
 }
 
+/**
+ * Parse a YAML list frontmatter field (e.g. aliases: \n  - "a"\n  - "b")
+ * Returns array of strings, or null
+ */
+function parseList(content, field) {
+  const lines = content.split('\n')
+  let inField = false
+  const values = []
+  for (const line of lines) {
+    if (line.startsWith(`${field}:`)) {
+      inField = true
+      // inline array: aliases: ["a", "b"]
+      const inline = line.slice(field.length + 1).trim()
+      if (inline.startsWith('[')) {
+        try { return JSON.parse(inline.replace(/'/g, '"')) } catch {}
+      }
+      // Single inline value: aliases: "value"
+      if (inline && !inline.startsWith('-')) {
+        values.push(inline.replace(/^["']|["']$/g, ''))
+        break
+      }
+      continue
+    }
+    if (!inField) continue
+    // End of list — next top-level field
+    if (!line.startsWith(' ') && !line.startsWith('\t') && line.trim() !== '') break
+    const item = line.trim().replace(/^-\s*/, '').replace(/^["']|["']$/g, '')
+    if (item) values.push(item)
+  }
+  return values.length > 0 ? values : null
+}
+
 function parseBool(content, field) {
   const m = content.match(new RegExp(`^${field}:\\s*(true|false)`, 'm'))
   return m?.[1] === 'true'
@@ -66,10 +98,22 @@ for (const { dir, type, aliasField, caseSensitive } of ENTITY_TYPES) {
     const entry = { name: title, slug, type }
     if (caseSensitive === false) entry.caseSensitive = false
 
+    // Build aliases from realName + explicit aliases list
+    const allAliases = []
     if (aliasField) {
-      const alias = parseField(content, aliasField)
-      if (alias && alias !== title) entry.aliases = [alias]
+      const realName = parseField(content, aliasField)
+      if (realName && realName !== title) allAliases.push(realName)
     }
+    // Explicit aliases field in frontmatter
+    const explicitAliases = parseList(content, 'aliases')
+    if (explicitAliases) {
+      for (const a of explicitAliases) {
+        if (a !== title && !allAliases.includes(a)) {
+          allAliases.push(a)
+        }
+      }
+    }
+    if (allAliases.length > 0) entry.aliases = allAliases
 
     entries.push(entry)
   }

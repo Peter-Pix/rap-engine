@@ -8,16 +8,19 @@
   "album": "Hráč Roku Playlist",
   "albumSlug": "hrac-roku-playlist",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Někde v Oblacích — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var i=f((z,d)=>{d.exports=_jsx_runtime});var j={};k(j,{default:()=>u,frontmatter:()=>y});var n=_(i()),y={title:\"N\\u011Bkde v Oblac\\xEDch\",slug:\"nekde-v-oblacich-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Hr\\xE1\\u010D Roku Playlist\",albumSlug:\"hrac-roku-playlist\",year:2020,genre:[],duration:\"3:16\",trackNumber:12,producers:[],producersNames:[],description:\"N\\u011Bkde v Oblac\\xEDch \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Někde v Oblacích](/skladby/nekde-v-oblacich-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Hráč Roku Playlist](/alba/hrac-roku-playlist) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},c=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!k.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(s=h(a,t))||s.enumerable});return e};var x=(e,a,n)=>(n=e!=null?m(b(e)):{},c(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),z=e=>c(o({},\"__esModule\",{value:!0}),e);var d=y((j,l)=>{l.exports=_jsx_runtime});var N={};f(N,{default:()=>u,frontmatter:()=>g});var r=x(d()),g={title:\"N\\u011Bkde v Oblac\\xEDch\",slug:\"nekde-v-oblacich-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Hr\\xE1\\u010D Roku Playlist\",albumSlug:\"hrac-roku-playlist\",year:2020,genre:[\"\"],duration:\"3:16\",trackNumber:12,producers:[],producersNames:[],description:\"N\\u011Bkde v Oblac\\xEDch \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/nekde-v-oblacich-yzomandias\",children:\"N\\u011Bkde v Oblac\\xEDch\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/hrac-roku-playlist\",children:\"Hr\\xE1\\u010D Roku Playlist\"}),\" (2020).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return z(N);})();\n;return Component;"
   },
   "_id": "skladby/nekde-v-oblacich-yzomandias.mdx",
   "_raw": {

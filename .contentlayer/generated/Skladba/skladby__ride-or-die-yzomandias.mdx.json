@@ -18,16 +18,19 @@
   "album": "Kruhy & Vlny (217 Twins Edition)",
   "albumSlug": "kruhy-vlny",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:38",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Ride or Die — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!y.call(e,o)&&o!==r&&i(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var k=(e,n,r)=>(r=e!=null?c(x(e)):{},s(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var u=b((z,d)=>{d.exports=_jsx_runtime});var j={};f(j,{default:()=>m,frontmatter:()=>g});var t=k(u()),g={title:\"Ride or Die\",slug:\"ride-or-die-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"calin\",\"viktor-sheen\",\"nobodylisten\"],featuresNames:[\"Nik Tendo\",\"Calin\",\"Viktor Sheen\",\"Nobodylisten\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[],duration:\"3:38\",trackNumber:2,producers:[],producersNames:[],description:\"Ride or Die \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Ride or Die](/skladby/ride-or-die-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var o in e)i(n,o,{get:e[o],enumerable:!0})},s=(n,e,o,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!b.call(n,a)&&a!==o&&i(n,a,{get:()=>e[a],enumerable:!(t=y(e,a))||t.enumerable});return n};var x=(n,e,o)=>(o=n!=null?m(p(n)):{},s(e||!n||!n.__esModule?i(o,\"default\",{value:n,enumerable:!0}):o,n)),z=n=>s(i({},\"__esModule\",{value:!0}),n);var l=f((D,d)=>{d.exports=_jsx_runtime});var _={};k(_,{default:()=>c,frontmatter:()=>g});var r=x(l()),g={title:\"Ride or Die\",slug:\"ride-or-die-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"calin\",\"viktor-sheen\",\"nobodylisten\"],featuresNames:[\"Nik Tendo\",\"Calin\",\"Viktor Sheen\",\"Nobodylisten\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"3:38\",trackNumber:2,producers:[],producersNames:[],description:\"Ride or Die \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/ride-or-die-yzomandias\",children:\"Ride or Die\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/ride-or-die-yzomandias.mdx",
   "_raw": {

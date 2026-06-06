@@ -12,16 +12,19 @@
   "album": "Maniak Muzik",
   "albumSlug": "maniak-muzik",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:04",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Batter Up — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of k(t))!h.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(o=d(t,r))||o.enumerable});return e};var f=(e,t,n)=>(n=e!=null?p(x(e)):{},s(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var m=M((S,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>l,frontmatter:()=>g});var a=f(m()),g={title:\"Batter Up\",slug:\"batter-up-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"5:04\",trackNumber:3,producers:[],producersNames:[],description:\"Batter Up \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Batter Up](/skladby/batter-up-maniak)** od [Maniak](/raperi/maniak) z alba [Maniak Muzik](/alba/maniak-muzik) (2016).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var n in a)i(e,n,{get:a[n],enumerable:!0})},o=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of d(a))!b.call(e,t)&&t!==n&&i(e,t,{get:()=>a[t],enumerable:!(s=c(a,t))||s.enumerable});return e};var x=(e,a,n)=>(n=e!=null?p(M(e)):{},o(a||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>o(i({},\"__esModule\",{value:!0}),e);var l=f((y,u)=>{u.exports=_jsx_runtime});var j={};h(j,{default:()=>k,frontmatter:()=>_});var r=x(l()),_={title:\"Batter Up\",slug:\"batter-up-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[\"\"],duration:\"5:04\",trackNumber:3,producers:[],producersNames:[],description:\"Batter Up \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/batter-up-maniak\",children:\"Batter Up\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/maniak-muzik\",children:\"Maniak Muzik\"}),\" (2016).\"]})}function k(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/batter-up-maniak.mdx",
   "_raw": {

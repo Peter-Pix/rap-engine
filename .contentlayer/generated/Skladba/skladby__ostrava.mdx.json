@@ -1,0 +1,29 @@
+{
+  "title": "Ostrava",
+  "slug": "ostrava",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2024,
+  "description": "Ostrava — singl od Sergei Barracuda (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/cf070f0c9b39d9e39b4754689582f71b/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Ostrava](/skladby/ostrava)** od [Sergei Barracuda](/raperi/sergei-barracuda) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},c=(r,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!m.call(r,s)&&s!==a&&n(r,s,{get:()=>e[s],enumerable:!(i=u(e,s))||i.enumerable});return r};var v=(r,e,a)=>(a=r!=null?p(x(r)):{},c(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),j=r=>c(n({},\"__esModule\",{value:!0}),r);var d=b((D,o)=>{o.exports=_jsx_runtime});var _={};h(_,{default:()=>g,frontmatter:()=>S});var t=v(d()),S={title:\"Ostrava\",slug:\"ostrava\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2024,description:\"Ostrava \\u2014 singl od Sergei Barracuda (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/cf070f0c9b39d9e39b4754689582f71b/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/ostrava\",children:\"Ostrava\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" (2024).\"]})}function g(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return j(_);})();\n;return Component;"
+  },
+  "_id": "skladby/ostrava.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/ostrava.mdx",
+    "sourceFileName": "ostrava.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/ostrava"
+  },
+  "type": "Skladba",
+  "url": "/skladby/ostrava",
+  "canonicalUrl": "https://4rap.cz/skladby/ostrava"
+}

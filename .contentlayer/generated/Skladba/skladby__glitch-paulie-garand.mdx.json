@@ -16,16 +16,19 @@
   "album": "Mezi prsty",
   "albumSlug": "mezi-prsty",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:37",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Glitch — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!g.call(e,n)&&n!==a&&i(e,n,{get:()=>t[n],enumerable:!(s=m(t,n))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?d(x(e)):{},o(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>o(i({},\"__esModule\",{value:!0}),e);var c=j((D,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>k});var r=_(c()),k={title:\"Glitch\",slug:\"glitch-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"dano-kapitan\",\"majk-spirit\"],featuresNames:[\"DJ Wich\",\"Dano Kapit\\xE1n\",\"Majk Spirit\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[],duration:\"4:37\",trackNumber:7,producers:[],producersNames:[],description:\"Glitch \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Glitch](/skladby/glitch-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Mezi prsty](/alba/mezi-prsty) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var t in a)i(r,t,{get:a[t],enumerable:!0})},l=(r,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of m(a))!f.call(r,n)&&n!==t&&i(r,n,{get:()=>a[n],enumerable:!(s=h(a,n))||s.enumerable});return r};var j=(r,a,t)=>(t=r!=null?u(g(r)):{},l(a||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),y=r=>l(i({},\"__esModule\",{value:!0}),r);var p=x((_,o)=>{o.exports=_jsx_runtime});var G={};b(G,{default:()=>d,frontmatter:()=>k});var e=j(p()),k={title:\"Glitch\",slug:\"glitch-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"dj-wich\",\"dano-kapitan\",\"majk-spirit\"],featuresNames:[\"DJ Wich\",\"Dano Kapit\\xE1n\",\"Majk Spirit\"],album:\"Mezi prsty\",albumSlug:\"mezi-prsty\",year:2020,genre:[\"\"],duration:\"4:37\",trackNumber:7,producers:[],producersNames:[],description:\"Glitch \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/glitch-paulie-garand\",children:\"Glitch\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/mezi-prsty\",children:\"Mezi prsty\"}),\" (2020).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return y(G);})();\n;return Component;"
   },
   "_id": "skladby/glitch-paulie-garand.mdx",
   "_raw": {

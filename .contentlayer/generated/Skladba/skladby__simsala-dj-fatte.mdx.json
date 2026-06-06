@@ -8,16 +8,19 @@
   "album": "Fatte No More",
   "albumSlug": "fatte-no-more",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:20",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Simsala — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},m=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!h.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var b=(e,t,a)=>(a=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var c=j((M,u)=>{u.exports=_jsx_runtime});var S={};_(S,{default:()=>l,frontmatter:()=>F});var r=b(c()),F={title:\"Simsala\",slug:\"simsala-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[],duration:\"3:20\",trackNumber:4,producers:[],producersNames:[],description:\"Simsala \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Simsala](/skladby/simsala-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fatte No More](/alba/fatte-no-more) (2012).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},l=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!j.call(t,n)&&n!==r&&o(t,n,{get:()=>e[n],enumerable:!(s=f(e,n))||s.enumerable});return t};var g=(t,e,r)=>(r=t!=null?u(h(t)):{},l(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>l(o({},\"__esModule\",{value:!0}),t);var i=x((N,d)=>{d.exports=_jsx_runtime});var F={};b(F,{default:()=>m,frontmatter:()=>D});var a=g(i()),D={title:\"Simsala\",slug:\"simsala-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[\"\"],duration:\"3:20\",trackNumber:4,producers:[],producersNames:[],description:\"Simsala \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/simsala-dj-fatte\",children:\"Simsala\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/fatte-no-more\",children:\"Fatte No More\"}),\" (2012).\"]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(c,{...t})}):c(t)}return _(F);})();\n;return Component;"
   },
   "_id": "skladby/simsala-dj-fatte.mdx",
   "_raw": {

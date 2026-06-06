@@ -6,7 +6,7 @@
   "label": "WM Czech Republic",
   "year": 2025,
   "genre": [],
-  "description": "Jeden — singl od DJ Fatte (2025).",
+  "description": "DJ Fatte v roce 2025 vydal EP. Obsahuje celkem dvě skladby. Deska vyšla pod labelem WM Czech Republic.",
   "image": "https://cdn-images.dzcdn.net/images/cover/d628d966285fe015901cbd171e879ab3/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -14,9 +14,11 @@
     "Jeden (Instrumental)"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)d(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&d(e,a,{get:()=>t[a],enumerable:!(s=u(t,a))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?p(g(e)):{},c(t||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>c(d({},\"__esModule\",{value:!0}),e);var i=j((M,o)=>{o.exports=_jsx_runtime});var D={};b(D,{default:()=>m,frontmatter:()=>J});var n=f(i()),J={title:\"Jeden\",slug:\"jeden\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2025,genre:[],description:\"Jeden \\u2014 singl od DJ Fatte (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/d628d966285fe015901cbd171e879ab3/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Jeden\",\"Jeden (Instrumental)\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(D);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[DJ Fatte](/raperi/dj-fatte) v roce 2025 vydal EP.\n\nAlbum obsahuje celkem dvě skladby.\n\nDeska vyšla pod labelem WM Czech Republic.\n",
+    "code": "var Component=(()=>{var h=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var a in e)l(t,a,{get:e[a],enumerable:!0})},d=(t,e,a,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of u(e))!j.call(t,r)&&r!==a&&l(t,r,{get:()=>e[r],enumerable:!(c=m(e,r))||c.enumerable});return t};var g=(t,e,a)=>(a=t!=null?h(b(t)):{},d(e||!t||!t.__esModule?l(a,\"default\",{value:t,enumerable:!0}):a,t)),v=t=>d(l({},\"__esModule\",{value:!0}),t);var o=x((_,s)=>{s.exports=_jsx_runtime});var k={};f(k,{default:()=>i,frontmatter:()=>y});var n=g(o()),y={title:\"Jeden\",slug:\"jeden\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",label:\"WM Czech Republic\",year:2025,releaseType:\"ep\",genre:[],description:\"DJ Fatte v roce 2025 vydal EP. Obsahuje celkem dv\\u011B skladby. Deska vy\\u0161la pod labelem WM Czech Republic.\",image:\"https://cdn-images.dzcdn.net/images/cover/d628d966285fe015901cbd171e879ab3/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Jeden\",\"Jeden (Instrumental)\"],publishedAt:\"2026-06-04\"};function p(t){let e={a:\"a\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" v roce 2025 vydal EP.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem dv\\u011B skladby.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem WM Czech Republic.\"})]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(p,{...t})}):p(t)}return v(k);})();\n;return Component;"
   },
   "_id": "alba/jeden.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Every Night EP",
   "albumSlug": "every-night-ep",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:38",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Every Night (Vincenzo D'amico Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!g.call(e,o)&&o!==r&&i(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var v=(e,n,r)=>(r=e!=null?d(x(e)):{},c(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>c(i({},\"__esModule\",{value:!0}),e);var s=f((z,m)=>{m.exports=_jsx_runtime});var b={};j(b,{default:()=>l,frontmatter:()=>_});var t=v(s()),_={title:\"Every Night (Vincenzo D'amico Remix)\",slug:\"every-night-vincenzo-d-amico-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"vincenzo-d-amico\"],featuresNames:[\"Vincenzo D'amico\"],album:\"Every Night EP\",albumSlug:\"every-night-ep\",year:2024,genre:[],duration:\"6:38\",trackNumber:2,producers:[],producersNames:[],description:\"Every Night (Vincenzo D'amico Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return y(b);})();\n;return Component;"
+    "raw": "\n**[Every Night (Vincenzo D'amico Remix)](/skladby/every-night-vincenzo-d-amico-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Every Night EP](/alba/every-night-ep) (2024).\n",
+    "code": "var Component=(()=>{var h=Object.create;var t=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var v=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},c=(r,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!x.call(r,a)&&a!==o&&t(r,a,{get:()=>e[a],enumerable:!(i=u(e,a))||i.enumerable});return r};var f=(r,e,o)=>(o=r!=null?h(g(r)):{},c(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),j=r=>c(t({},\"__esModule\",{value:!0}),r);var m=v((E,s)=>{s.exports=_jsx_runtime});var z={};y(z,{default:()=>d,frontmatter:()=>b});var n=f(m()),b={title:\"Every Night (Vincenzo D'amico Remix)\",slug:\"every-night-vincenzo-d-amico-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"vincenzo-d-amico\"],featuresNames:[\"Vincenzo D'amico\"],album:\"Every Night EP\",albumSlug:\"every-night-ep\",year:2024,genre:[\"\"],duration:\"6:38\",trackNumber:2,producers:[],producersNames:[],description:\"Every Night (Vincenzo D'amico Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/every-night-vincenzo-d-amico-remix-james-cole\",children:\"Every Night (Vincenzo D'amico Remix)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/every-night-ep\",children:\"Every Night EP\"}),\" (2024).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(l,{...r})}):l(r)}return j(z);})();\n;return Component;"
   },
   "_id": "skladby/every-night-vincenzo-d-amico-remix-james-cole.mdx",
   "_raw": {

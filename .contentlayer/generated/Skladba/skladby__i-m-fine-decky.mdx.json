@@ -8,16 +8,19 @@
   "album": "Garn Again",
   "albumSlug": "garn-again",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:08",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "I'm Fine — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?l(g(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>c(o({},\"__esModule\",{value:!0}),e);var m=f((F,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>y});var t=b(m()),y={title:\"I'm Fine\",slug:\"i-m-fine-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[],featuresNames:[],album:\"Garn Again\",albumSlug:\"garn-again\",year:2023,genre:[],duration:\"2:08\",trackNumber:2,producers:[],producersNames:[],description:\"I'm Fine \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[I'm Fine](/skladby/i-m-fine-decky)** od [Decky](/raperi/decky) z alba [Garn Again](/alba/garn-again) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),y=(n,e)=>{for(var a in e)i(n,a,{get:e[a],enumerable:!0})},c=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!h.call(n,t)&&t!==a&&i(n,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return n};var x=(n,e,a)=>(a=n!=null?m(f(n)):{},c(e||!n||!n.__esModule?i(a,\"default\",{value:n,enumerable:!0}):a,n)),b=n=>c(i({},\"__esModule\",{value:!0}),n);var d=k((A,o)=>{o.exports=_jsx_runtime});var j={};y(j,{default:()=>l,frontmatter:()=>_});var r=x(d()),_={title:\"I'm Fine\",slug:\"i-m-fine-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[],featuresNames:[],album:\"Garn Again\",albumSlug:\"garn-again\",year:2023,genre:[\"\"],duration:\"2:08\",trackNumber:2,producers:[],producersNames:[],description:\"I'm Fine \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/i-m-fine-decky\",children:\"I'm Fine\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/garn-again\",children:\"Garn Again\"}),\" (2023).\"]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/i-m-fine-decky.mdx",
   "_raw": {

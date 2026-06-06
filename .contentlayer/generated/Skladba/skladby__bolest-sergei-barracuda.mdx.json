@@ -8,16 +8,19 @@
   "album": "Pouliční Ekonomická 3: Láska & Loyalita (Deluxe Version)",
   "albumSlug": "poulicni-ekonomicka-3-laska-loyalita",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:42",
   "trackNumber": 17,
   "producers": [],
   "producersNames": [],
   "description": "Bolest — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},i=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!b.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var f=(e,r,a)=>(a=e!=null?m(g(e)):{},i(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var c=h((B,u)=>{u.exports=_jsx_runtime});var S={};k(S,{default:()=>d,frontmatter:()=>j});var t=f(c()),j={title:\"Bolest\",slug:\"bolest-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita (Deluxe Version)\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[],duration:\"2:42\",trackNumber:17,producers:[],producersNames:[],description:\"Bolest \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Bolest](/skladby/bolest-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Pouliční Ekonomická 3: Láska & Loyalita](/alba/poulicni-ekonomicka-3-laska-loyalita) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var o in a)n(e,o,{get:a[o],enumerable:!0})},i=(e,a,o,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of k(a))!g.call(e,t)&&t!==o&&n(e,t,{get:()=>a[t],enumerable:!(s=m(a,t))||s.enumerable});return e};var x=(e,a,o)=>(o=e!=null?p(b(e)):{},i(a||!e||!e.__esModule?n(o,\"default\",{value:e,enumerable:!0}):o,e)),y=e=>i(n({},\"__esModule\",{value:!0}),e);var c=f((L,l)=>{l.exports=_jsx_runtime});var _={};h(_,{default:()=>d,frontmatter:()=>B});var r=x(c()),B={title:\"Bolest\",slug:\"bolest-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita (Deluxe Version)\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[\"\"],duration:\"2:42\",trackNumber:17,producers:[],producersNames:[],description:\"Bolest \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/bolest-sergei-barracuda\",children:\"Bolest\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/poulicni-ekonomicka-3-laska-loyalita\",children:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\"}),\" (2018).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/bolest-sergei-barracuda.mdx",
   "_raw": {

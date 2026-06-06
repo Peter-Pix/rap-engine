@@ -8,16 +8,19 @@
   "album": "G.O.A.T.",
   "albumSlug": "g-o-a-t",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:11",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "MVP — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>m(a({},\"__esModule\",{value:!0}),e);var u=g((S,c)=>{c.exports=_jsx_runtime});var C={};j(C,{default:()=>p,frontmatter:()=>M});var r=_(u()),M={title:\"MVP\",slug:\"mvp-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"3:11\",trackNumber:5,producers:[],producersNames:[],description:\"MVP \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(C);})();\n;return Component;"
+    "raw": "\n**[MVP](/skladby/mvp-james-cole)** od [James Cole](/raperi/james-cole) z alba [G.O.A.T.](/alba/g-o-a-t) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!g.call(r,o)&&o!==t&&s(r,o,{get:()=>e[o],enumerable:!(n=i(e,o))||n.enumerable});return r};var b=(r,e,t)=>(t=r!=null?p(h(r)):{},l(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),M=r=>l(s({},\"__esModule\",{value:!0}),r);var m=j((y,c)=>{c.exports=_jsx_runtime});var C={};x(C,{default:()=>d,frontmatter:()=>_});var a=b(m()),_={title:\"MVP\",slug:\"mvp-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[\"\"],duration:\"3:11\",trackNumber:5,producers:[],producersNames:[],description:\"MVP \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/mvp-james-cole\",children:\"MVP\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/g-o-a-t\",children:\"G.O.A.T.\"}),\" (2020).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return M(C);})();\n;return Component;"
   },
   "_id": "skladby/mvp-james-cole.mdx",
   "_raw": {

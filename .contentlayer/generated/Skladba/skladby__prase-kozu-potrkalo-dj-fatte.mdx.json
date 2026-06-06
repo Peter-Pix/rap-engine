@@ -12,16 +12,19 @@
   "album": "Soundtrack",
   "albumSlug": "soundtrack",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Prase kozu potrkalo — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)n(t,a,{get:e[a],enumerable:!0})},u=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of k(e))!f.call(t,o)&&o!==a&&n(t,o,{get:()=>e[o],enumerable:!(s=m(e,o))||s.enumerable});return t};var _=(t,e,a)=>(a=t!=null?i(x(t)):{},u(e||!t||!t.__esModule?n(a,\"default\",{value:t,enumerable:!0}):a,t)),b=t=>u(n({},\"__esModule\",{value:!0}),t);var c=h((F,d)=>{d.exports=_jsx_runtime});var S={};j(S,{default:()=>l,frontmatter:()=>g});var r=_(c()),g={title:\"Prase kozu potrkalo\",slug:\"prase-kozu-potrkalo-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"pio-squad\"],featuresNames:[\"Pio Squad\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[],duration:\"3:16\",trackNumber:3,producers:[],producersNames:[],description:\"Prase kozu potrkalo \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function p(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return b(S);})();\n;return Component;"
+    "raw": "\n**[Prase kozu potrkalo](/skladby/prase-kozu-potrkalo-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack](/alba/soundtrack) (2013).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(r,t)=>()=>(t||r((t={exports:{}}).exports,t),t.exports),x=(r,t)=>{for(var a in t)n(r,a,{get:t[a],enumerable:!0})},u=(r,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!h.call(r,o)&&o!==a&&n(r,o,{get:()=>t[o],enumerable:!(s=k(t,o))||s.enumerable});return r};var b=(r,t,a)=>(a=r!=null?i(m(r)):{},u(t||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>u(n({},\"__esModule\",{value:!0}),r);var c=j((S,d)=>{d.exports=_jsx_runtime});var _={};x(_,{default:()=>p,frontmatter:()=>z});var e=b(c()),z={title:\"Prase kozu potrkalo\",slug:\"prase-kozu-potrkalo-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"pio-squad\"],featuresNames:[\"Pio Squad\"],album:\"Soundtrack\",albumSlug:\"soundtrack\",year:2013,genre:[\"\"],duration:\"3:16\",trackNumber:3,producers:[],producersNames:[],description:\"Prase kozu potrkalo \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(r){let t={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(t.p,{children:[(0,e.jsx)(t.strong,{children:(0,e.jsx)(t.a,{href:\"/skladby/prase-kozu-potrkalo-dj-fatte\",children:\"Prase kozu potrkalo\"})}),\" od \",(0,e.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,e.jsx)(t.a,{href:\"/alba/soundtrack\",children:\"Soundtrack\"}),\" (2013).\"]})}function p(r={}){let{wrapper:t}=r.components||{};return t?(0,e.jsx)(t,{...r,children:(0,e.jsx)(l,{...r})}):l(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/prase-kozu-potrkalo-dj-fatte.mdx",
   "_raw": {

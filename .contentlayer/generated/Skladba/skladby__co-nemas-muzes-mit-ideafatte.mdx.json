@@ -12,16 +12,19 @@
   "album": "Mezitím",
   "albumSlug": "mezitim",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:53",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Co nemáš, můžeš mít — skladba od IdeaFatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)m(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==r&&m(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(x(e)):{},s(t||!e||!e.__esModule?m(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(m({},\"__esModule\",{value:!0}),e);var u=_((z,i)=>{i.exports=_jsx_runtime});var C={};b(C,{default:()=>c,frontmatter:()=>F});var n=g(u()),F={title:\"Co nem\\xE1\\u0161, m\\u016F\\u017Ee\\u0161 m\\xEDt\",slug:\"co-nemas-muzes-mit-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[],duration:\"3:53\",trackNumber:4,producers:[],producersNames:[],description:\"Co nem\\xE1\\u0161, m\\u016F\\u017Ee\\u0161 m\\xEDt \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Co nemáš, můžeš mít](/skladby/co-nemas-muzes-mit-ideafatte)** z alba [Mezitím](/alba/mezitim) (2008).\n",
+    "code": "var Component=(()=>{var l=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var a in e)m(t,a,{get:e[a],enumerable:!0})},o=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!b.call(t,n)&&n!==a&&m(t,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return t};var z=(t,e,a)=>(a=t!=null?l(x(t)):{},o(e||!t||!t.__esModule?m(a,\"default\",{value:t,enumerable:!0}):a,t)),j=t=>o(m({},\"__esModule\",{value:!0}),t);var d=h((k,i)=>{i.exports=_jsx_runtime});var C={};g(C,{default:()=>c,frontmatter:()=>_});var r=z(d()),_={title:\"Co nem\\xE1\\u0161, m\\u016F\\u017Ee\\u0161 m\\xEDt\",slug:\"co-nemas-muzes-mit-ideafatte\",rapper:\"IdeaFatte\",rapperSlug:\"ideafatte\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Mezit\\xEDm\",albumSlug:\"mezitim\",year:2008,genre:[\"\"],duration:\"3:53\",trackNumber:4,producers:[],producersNames:[],description:\"Co nem\\xE1\\u0161, m\\u016F\\u017Ee\\u0161 m\\xEDt \\u2014 skladba od IdeaFatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/co-nemas-muzes-mit-ideafatte\",children:\"Co nem\\xE1\\u0161, m\\u016F\\u017Ee\\u0161 m\\xEDt\"})}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/mezitim\",children:\"Mezit\\xEDm\"}),\" (2008).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return j(C);})();\n;return Component;"
   },
   "_id": "skladby/co-nemas-muzes-mit-ideafatte.mdx",
   "_raw": {

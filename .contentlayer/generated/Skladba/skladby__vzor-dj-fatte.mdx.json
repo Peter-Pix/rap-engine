@@ -12,16 +12,19 @@
   "album": "EP01",
   "albumSlug": "ep01",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Vzor — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(f(e)):{},d(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var c=j((M,u)=>{u.exports=_jsx_runtime});var F={};_(F,{default:()=>l,frontmatter:()=>D});var r=b(c()),D={title:\"Vzor\",slug:\"vzor-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"daniel-vardan\"],featuresNames:[\"Daniel Vardan\"],album:\"EP01\",albumSlug:\"ep01\",year:2019,genre:[],duration:\"3:07\",trackNumber:3,producers:[],producersNames:[],description:\"Vzor \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[Vzor](/skladby/vzor-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [EP01](/alba/ep01) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},d=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!j.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=f(e,n))||s.enumerable});return t};var g=(t,e,a)=>(a=t!=null?p(h(t)):{},d(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),z=t=>d(o({},\"__esModule\",{value:!0}),t);var c=x((k,l)=>{l.exports=_jsx_runtime});var _={};b(_,{default:()=>i,frontmatter:()=>D});var r=g(c()),D={title:\"Vzor\",slug:\"vzor-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"daniel-vardan\"],featuresNames:[\"Daniel Vardan\"],album:\"EP01\",albumSlug:\"ep01\",year:2019,genre:[\"\"],duration:\"3:07\",trackNumber:3,producers:[],producersNames:[],description:\"Vzor \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/vzor-dj-fatte\",children:\"Vzor\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/ep01\",children:\"EP01\"}),\" (2019).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/vzor-dj-fatte.mdx",
   "_raw": {

@@ -16,16 +16,19 @@
   "album": "Dropbox",
   "albumSlug": "dropbox",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:48",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Pow Pow — skladba od Prezident Lourajder.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!j.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(d=l(r,o))||d.enumerable});return e};var w=(e,r,n)=>(n=e!=null?c(h(e)):{},s(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(a({},\"__esModule\",{value:!0}),e);var i=b((M,u)=>{u.exports=_jsx_runtime});var y={};f(y,{default:()=>m,frontmatter:()=>g});var t=w(i()),g={title:\"Pow Pow\",slug:\"pow-pow-prezident-lourajder\",rapper:\"Prezident Lourajder\",rapperSlug:\"prezident-lourajder\",features:[\"idea\",\"martin-matys\",\"inphy\"],featuresNames:[\"Idea\",\"Martin Matys\",\"Inphy\"],album:\"Dropbox\",albumSlug:\"dropbox\",year:2018,genre:[],duration:\"3:48\",trackNumber:5,producers:[],producersNames:[],description:\"Pow Pow \\u2014 skladba od Prezident Lourajder.\",publishedAt:\"2026-06-04\"};function p(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[Pow Pow](/skladby/pow-pow-prezident-lourajder)** od [Prezident Lourajder](/raperi/prezident-lourajder) z alba [Dropbox](/alba/dropbox) (2018).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),w=(e,r)=>{for(var t in r)n(e,t,{get:r[t],enumerable:!0})},p=(e,r,t,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!h.call(e,a)&&a!==t&&n(e,a,{get:()=>r[a],enumerable:!(d=m(r,a))||d.enumerable});return e};var f=(e,r,t)=>(t=e!=null?c(b(e)):{},p(r||!e||!e.__esModule?n(t,\"default\",{value:e,enumerable:!0}):t,e)),P=e=>p(n({},\"__esModule\",{value:!0}),e);var i=j((_,s)=>{s.exports=_jsx_runtime});var g={};w(g,{default:()=>l,frontmatter:()=>z});var o=f(i()),z={title:\"Pow Pow\",slug:\"pow-pow-prezident-lourajder\",rapper:\"Prezident Lourajder\",rapperSlug:\"prezident-lourajder\",features:[\"idea\",\"martin-matys\",\"inphy\"],featuresNames:[\"Idea\",\"Martin Matys\",\"Inphy\"],album:\"Dropbox\",albumSlug:\"dropbox\",year:2018,genre:[\"\"],duration:\"3:48\",trackNumber:5,producers:[],producersNames:[],description:\"Pow Pow \\u2014 skladba od Prezident Lourajder.\",publishedAt:\"2026-06-04\"};function u(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/pow-pow-prezident-lourajder\",children:\"Pow Pow\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/prezident-lourajder\",children:\"Prezident Lourajder\"}),\" z alba \",(0,o.jsx)(r.a,{href:\"/alba/dropbox\",children:\"Dropbox\"}),\" (2018).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return P(g);})();\n;return Component;"
   },
   "_id": "skladby/pow-pow-prezident-lourajder.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Teritorium Remixy",
   "albumSlug": "teritorium-remixy",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Tréning (RMX) — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of x(r))!g.call(e,i)&&i!==t&&o(e,i,{get:()=>r[i],enumerable:!(a=p(r,i))||a.enumerable});return e};var b=(e,r,t)=>(t=e!=null?l(f(e)):{},s(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),k=e=>s(o({},\"__esModule\",{value:!0}),e);var u=h((T,m)=>{m.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>M});var n=b(u()),M={title:\"Tr\\xE9ning (RMX)\",slug:\"trening-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"3:24\",trackNumber:1,producers:[],producersNames:[],description:\"Tr\\xE9ning (RMX) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Tréning (RMX)](/skladby/trening-rmx-orion)** od [Orion](/raperi/orion) (2007).\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),k=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!f.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(a=p(r,o))||a.enumerable});return e};var M=(e,r,n)=>(n=e!=null?l(g(e)):{},s(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var m=h((T,u)=>{u.exports=_jsx_runtime});var j={};k(j,{default:()=>d,frontmatter:()=>_});var t=M(m()),_={title:\"Tr\\xE9ning (RMX)\",slug:\"trening-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"mike-trafik\"],featuresNames:[\"Mike Trafik\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[\"\"],duration:\"3:24\",trackNumber:1,producers:[],producersNames:[],description:\"Tr\\xE9ning (RMX) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/trening-rmx-orion\",children:\"Tr\\xE9ning (RMX)\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" (2007).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/trening-rmx-orion.mdx",
   "_raw": {

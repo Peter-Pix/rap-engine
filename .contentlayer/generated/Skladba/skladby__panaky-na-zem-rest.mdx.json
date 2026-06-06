@@ -12,16 +12,19 @@
   "album": "Premiéra",
   "albumSlug": "premiera",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:31",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Panáky na zem — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(s({},\"__esModule\",{value:!0}),e);var c=_((D,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>p,frontmatter:()=>k});var r=g(c()),k={title:\"Pan\\xE1ky na zem\",slug:\"panaky-na-zem-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"5:31\",trackNumber:8,producers:[],producersNames:[],description:\"Pan\\xE1ky na zem \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Panáky na zem](/skladby/panaky-na-zem-rest)** od [Rest](/raperi/rest) z alba [Premiéra](/alba/premiera) (2010).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},m=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!x.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(o=l(e,n))||o.enumerable});return r};var y=(r,e,t)=>(t=r!=null?d(h(r)):{},m(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),g=r=>m(s({},\"__esModule\",{value:!0}),r);var c=b((P,i)=>{i.exports=_jsx_runtime});var z={};k(z,{default:()=>u,frontmatter:()=>j});var a=y(c()),j={title:\"Pan\\xE1ky na zem\",slug:\"panaky-na-zem-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[\"\"],duration:\"5:31\",trackNumber:8,producers:[],producersNames:[],description:\"Pan\\xE1ky na zem \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/panaky-na-zem-rest\",children:\"Pan\\xE1ky na zem\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/premiera\",children:\"Premi\\xE9ra\"}),\" (2010).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return g(z);})();\n;return Component;"
   },
   "_id": "skladby/panaky-na-zem-rest.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Prozyum",
   "albumSlug": "prozyum",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:09",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Rozdíl Mezi Náma — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of z(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(x(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var d=f((N,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>c,frontmatter:()=>y});var r=b(d()),y={title:\"Rozd\\xEDl Mezi N\\xE1ma\",slug:\"rozdil-mezi-nama-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"ektor\"],featuresNames:[\"Ektor\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[],duration:\"4:09\",trackNumber:8,producers:[],producersNames:[],description:\"Rozd\\xEDl Mezi N\\xE1ma \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Rozdíl Mezi Náma](/skladby/rozdil-mezi-nama-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2020).\n",
+    "code": "var Component=(()=>{var z=Object.create;var t=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var o in a)t(r,o,{get:a[o],enumerable:!0})},i=(r,a,o,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of p(a))!f.call(r,n)&&n!==o&&t(r,n,{get:()=>a[n],enumerable:!(s=c(a,n))||s.enumerable});return r};var b=(r,a,o)=>(o=r!=null?z(y(r)):{},i(a||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),g=r=>i(t({},\"__esModule\",{value:!0}),r);var d=h((j,m)=>{m.exports=_jsx_runtime});var N={};x(N,{default:()=>u,frontmatter:()=>M});var e=b(d()),M={title:\"Rozd\\xEDl Mezi N\\xE1ma\",slug:\"rozdil-mezi-nama-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"ektor\"],featuresNames:[\"Ektor\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[\"\"],duration:\"4:09\",trackNumber:8,producers:[],producersNames:[],description:\"Rozd\\xEDl Mezi N\\xE1ma \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/rozdil-mezi-nama-yzomandias\",children:\"Rozd\\xEDl Mezi N\\xE1ma\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2020).\"]})}function u(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(l,{...r})}):l(r)}return g(N);})();\n;return Component;"
   },
   "_id": "skladby/rozdil-mezi-nama-yzomandias.mdx",
   "_raw": {

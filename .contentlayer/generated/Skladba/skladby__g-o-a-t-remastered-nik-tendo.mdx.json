@@ -16,16 +16,19 @@
   "album": "GOLDKID: ULTIMATE SECTION",
   "albumSlug": "goldkid-ultimate-section",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:02",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "G.O.A.T. (Remastered) — skladba od Nik Tendo.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of k(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var T=(e,t,r)=>(r=e!=null?l(x(e)):{},d(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>d(a({},\"__esModule\",{value:!0}),e);var c=g((D,i)=>{i.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>b});var n=T(c()),b={title:\"G.O.A.T. (Remastered)\",slug:\"g-o-a-t-remastered-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"jickson\",\"karlo\"],featuresNames:[\"Decky\",\"Jickson\",\"Karlo\"],album:\"GOLDKID: ULTIMATE SECTION\",albumSlug:\"goldkid-ultimate-section\",year:2025,genre:[],duration:\"4:02\",trackNumber:8,producers:[],producersNames:[],description:\"G.O.A.T. (Remastered) \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[G.O.A.T. (Remastered)](/skladby/g-o-a-t-remastered-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GOLDKID: ULTIMATE SECTION](/alba/goldkid-ultimate-section) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var T=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},d=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(s=k(e,o))||s.enumerable});return t};var x=(t,e,n)=>(n=t!=null?m(T(t)):{},d(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>d(a({},\"__esModule\",{value:!0}),t);var c=f((j,i)=>{i.exports=_jsx_runtime});var D={};h(D,{default:()=>u,frontmatter:()=>N});var r=x(c()),N={title:\"G.O.A.T. (Remastered)\",slug:\"g-o-a-t-remastered-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\",\"jickson\",\"karlo\"],featuresNames:[\"Decky\",\"Jickson\",\"Karlo\"],album:\"GOLDKID: ULTIMATE SECTION\",albumSlug:\"goldkid-ultimate-section\",year:2025,genre:[\"\"],duration:\"4:02\",trackNumber:8,producers:[],producersNames:[],description:\"G.O.A.T. (Remastered) \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/g-o-a-t-remastered-nik-tendo\",children:\"G.O.A.T. (Remastered)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/goldkid-ultimate-section\",children:\"GOLDKID: ULTIMATE SECTION\"}),\" (2025).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(l,{...t})}):l(t)}return b(D);})();\n;return Component;"
   },
   "_id": "skladby/g-o-a-t-remastered-nik-tendo.mdx",
   "_raw": {

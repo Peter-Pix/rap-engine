@@ -18,16 +18,19 @@
   "album": "Krtek Forever",
   "albumSlug": "krtek-forever",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:41",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Nevyčíslitelný — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!x.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var _=(e,n,r)=>(r=e!=null?d(k(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>i(s({},\"__esModule\",{value:!0}),e);var u=y((v,l)=>{l.exports=_jsx_runtime});var N={};f(N,{default:()=>c,frontmatter:()=>g});var t=_(u()),g={title:\"Nevy\\u010D\\xEDsliteln\\xFD\",slug:\"nevycislitelny-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"nik-tendo\",\"hasan\",\"koky\"],featuresNames:[\"Yzomandias\",\"Nik Tendo\",\"Hasan\",\"Koky\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[],duration:\"3:41\",trackNumber:7,producers:[],producersNames:[],description:\"Nevy\\u010D\\xEDsliteln\\xFD \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Nevyčíslitelný](/skladby/nevycislitelny-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [Krtek Forever](/alba/krtek-forever) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),v=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of k(e))!f.call(n,o)&&o!==t&&s(n,o,{get:()=>e[o],enumerable:!(l=m(e,o))||l.enumerable});return n};var x=(n,e,t)=>(t=n!=null?p(y(n)):{},i(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),b=n=>i(s({},\"__esModule\",{value:!0}),n);var u=h((_,a)=>{a.exports=_jsx_runtime});var N={};v(N,{default:()=>d,frontmatter:()=>g});var r=x(u()),g={title:\"Nevy\\u010D\\xEDsliteln\\xFD\",slug:\"nevycislitelny-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"nik-tendo\",\"hasan\",\"koky\"],featuresNames:[\"Yzomandias\",\"Nik Tendo\",\"Hasan\",\"Koky\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[\"\"],duration:\"3:41\",trackNumber:7,producers:[],producersNames:[],description:\"Nevy\\u010D\\xEDsliteln\\xFD \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nevycislitelny-milion-plus\",children:\"Nevy\\u010D\\xEDsliteln\\xFD\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/krtek-forever\",children:\"Krtek Forever\"}),\" (2023).\"]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return b(N);})();\n;return Component;"
   },
   "_id": "skladby/nevycislitelny-milion-plus.mdx",
   "_raw": {

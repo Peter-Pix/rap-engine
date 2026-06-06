@@ -14,16 +14,19 @@
   "album": "Idea x TrashBoySony EP",
   "albumSlug": "idea-x-trashboysony-ep",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:12",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Juro — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!y.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=l(r,o))||s.enumerable});return e};var j=(e,r,n)=>(n=e!=null?p(x(e)):{},u(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var i=f((z,d)=>{d.exports=_jsx_runtime});var S={};b(S,{default:()=>m,frontmatter:()=>g});var t=j(i()),g={title:\"Juro\",slug:\"juro-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"trashboysony\",\"jozef-reznik\"],featuresNames:[\"TrashBoySony\",\"Jozef Reznik\"],album:\"Idea x TrashBoySony EP\",albumSlug:\"idea-x-trashboysony-ep\",year:2022,genre:[],duration:\"4:12\",trackNumber:2,producers:[],producersNames:[],description:\"Juro \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Juro](/skladby/juro-idea)** od [Idea](/raperi/idea) z alba [Idea x TrashBoySony EP](/alba/idea-x-trashboysony-ep) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var m=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},d=(r,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of y(e))!f.call(r,n)&&n!==o&&t(r,n,{get:()=>e[n],enumerable:!(s=h(e,n))||s.enumerable});return r};var j=(r,e,o)=>(o=r!=null?p(x(r)):{},d(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),g=r=>d(t({},\"__esModule\",{value:!0}),r);var u=m((I,i)=>{i.exports=_jsx_runtime});var k={};b(k,{default:()=>l,frontmatter:()=>_});var a=j(u()),_={title:\"Juro\",slug:\"juro-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"trashboysony\",\"jozef-reznik\"],featuresNames:[\"TrashBoySony\",\"Jozef Reznik\"],album:\"Idea x TrashBoySony EP\",albumSlug:\"idea-x-trashboysony-ep\",year:2022,genre:[\"\"],duration:\"4:12\",trackNumber:2,producers:[],producersNames:[],description:\"Juro \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/juro-idea\",children:\"Juro\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/idea-x-trashboysony-ep\",children:\"Idea x TrashBoySony EP\"}),\" (2022).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return g(k);})();\n;return Component;"
   },
   "_id": "skladby/juro-idea.mdx",
   "_raw": {

@@ -6,7 +6,7 @@
   "label": "Alliwant Wax",
   "year": 2024,
   "genre": [],
-  "description": "Walking On EP — EP od James Cole (2024).",
+  "description": "James Cole v roce 2024 vydal EP. Obsahuje celkem tři skladby. Deska vyšla pod labelem Alliwant Wax.",
   "image": "https://cdn-images.dzcdn.net/images/cover/951c540d5ef7a7ae62497b7c0029e2d8/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -15,9 +15,11 @@
     "Underground Beats (Callum Edwards Remix)"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var g=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)i(e,a,{get:n[a],enumerable:!0})},o=(e,n,a,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of u(n))!h.call(e,r)&&r!==a&&i(e,r,{get:()=>n[r],enumerable:!(l=p(n,r))||l.enumerable});return e};var b=(e,n,a)=>(a=e!=null?g(x(e)):{},o(n||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>o(i({},\"__esModule\",{value:!0}),e);var c=j((O,s)=>{s.exports=_jsx_runtime});var C={};_(C,{default:()=>m,frontmatter:()=>k});var t=b(c()),k={title:\"Walking On EP\",slug:\"walking-on-ep\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Alliwant Wax\",year:2024,genre:[],description:\"Walking On EP \\u2014 EP od James Cole (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/951c540d5ef7a7ae62497b7c0029e2d8/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Walking On (Dub Mix)\",\"Underground Beats (Original Mix)\",\"Underground Beats (Callum Edwards Remix)\"],publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return f(C);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[James Cole](/raperi/james-cole) v roce 2024 vydal EP.\n\nAlbum obsahuje celkem tři skladby.\n\nDeska vyšla pod labelem Alliwant Wax.\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var l in e)r(a,l,{get:e[l],enumerable:!0})},i=(a,e,l,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!h.call(a,t)&&t!==l&&r(a,t,{get:()=>e[t],enumerable:!(s=u(e,t))||s.enumerable});return a};var k=(a,e,l)=>(l=a!=null?p(g(a)):{},i(e||!a||!a.__esModule?r(l,\"default\",{value:a,enumerable:!0}):l,a)),y=a=>i(r({},\"__esModule\",{value:!0}),a);var c=b((w,o)=>{o.exports=_jsx_runtime});var v={};j(v,{default:()=>m,frontmatter:()=>f});var n=k(c()),f={title:\"Walking On EP\",slug:\"walking-on-ep\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Alliwant Wax\",year:2024,releaseType:\"ep\",genre:[],description:\"James Cole v roce 2024 vydal EP. Obsahuje celkem t\\u0159i skladby. Deska vy\\u0161la pod labelem Alliwant Wax.\",image:\"https://cdn-images.dzcdn.net/images/cover/951c540d5ef7a7ae62497b7c0029e2d8/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Walking On (Dub Mix)\",\"Underground Beats (Original Mix)\",\"Underground Beats (Callum Edwards Remix)\"],publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" v roce 2024 vydal EP.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem t\\u0159i skladby.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Alliwant Wax.\"})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return y(v);})();\n;return Component;"
   },
   "_id": "alba/walking-on-ep.mdx",
   "_raw": {

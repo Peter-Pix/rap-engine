@@ -12,16 +12,19 @@
   "album": "Teritorium II",
   "albumSlug": "teritorium-ii",
   "year": 2005,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:12",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Klony — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!f.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(a=p(r,o))||a.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(h(e)):{},s(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var m=_((M,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>c,frontmatter:()=>y});var t=g(m()),y={title:\"Klony\",slug:\"klony-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"vladimir-518\"],featuresNames:[\"Vladimir 518\"],album:\"Teritorium II\",albumSlug:\"teritorium-ii\",year:2005,genre:[],duration:\"4:12\",trackNumber:10,producers:[],producersNames:[],description:\"Klony \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Klony](/skladby/klony-orion)** od [Orion](/raperi/orion) z alba [Teritorium II](/alba/teritorium-ii) (2005).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),y=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of f(r))!x.call(e,t)&&t!==n&&i(e,t,{get:()=>r[t],enumerable:!(a=p(r,t))||a.enumerable});return e};var g=(e,r,n)=>(n=e!=null?m(h(e)):{},s(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var u=b((K,l)=>{l.exports=_jsx_runtime});var k={};y(k,{default:()=>d,frontmatter:()=>j});var o=g(u()),j={title:\"Klony\",slug:\"klony-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"vladimir-518\"],featuresNames:[\"Vladimir 518\"],album:\"Teritorium II\",albumSlug:\"teritorium-ii\",year:2005,genre:[\"\"],duration:\"4:12\",trackNumber:10,producers:[],producersNames:[],description:\"Klony \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/klony-orion\",children:\"Klony\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(r.a,{href:\"/alba/teritorium-ii\",children:\"Teritorium II\"}),\" (2005).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/klony-orion.mdx",
   "_raw": {

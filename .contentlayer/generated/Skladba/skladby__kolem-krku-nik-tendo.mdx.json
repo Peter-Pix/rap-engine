@@ -12,16 +12,19 @@
   "album": "GoldKid",
   "albumSlug": "goldkid",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:01",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Kolem krku — skladba od Nik Tendo.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)d(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!h.call(e,o)&&o!==r&&d(e,o,{get:()=>t[o],enumerable:!(s=k(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(x(e)):{},a(t||!e||!e.__esModule?d(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>a(d({},\"__esModule\",{value:!0}),e);var i=f((K,u)=>{u.exports=_jsx_runtime});var N={};g(N,{default:()=>l,frontmatter:()=>j});var n=_(i()),j={title:\"Kolem krku\",slug:\"kolem-krku-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GoldKid\",albumSlug:\"goldkid\",year:2019,genre:[],duration:\"4:01\",trackNumber:7,producers:[],producersNames:[],description:\"Kolem krku \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Kolem krku](/skladby/kolem-krku-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GoldKid](/alba/goldkid) (2019).\n",
+    "code": "var Component=(()=>{var c=Object.create;var d=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var o in e)d(r,o,{get:e[o],enumerable:!0})},i=(r,e,o,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!h.call(r,t)&&t!==o&&d(r,t,{get:()=>e[t],enumerable:!(a=m(e,t))||a.enumerable});return r};var b=(r,e,o)=>(o=r!=null?c(f(r)):{},i(e||!r||!r.__esModule?d(o,\"default\",{value:r,enumerable:!0}):o,r)),N=r=>i(d({},\"__esModule\",{value:!0}),r);var s=g((K,l)=>{l.exports=_jsx_runtime});var j={};x(j,{default:()=>u,frontmatter:()=>_});var n=b(s()),_={title:\"Kolem krku\",slug:\"kolem-krku-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GoldKid\",albumSlug:\"goldkid\",year:2019,genre:[\"\"],duration:\"4:01\",trackNumber:7,producers:[],producersNames:[],description:\"Kolem krku \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function k(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/kolem-krku-nik-tendo\",children:\"Kolem krku\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/goldkid\",children:\"GoldKid\"}),\" (2019).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(k,{...r})}):k(r)}return N(j);})();\n;return Component;"
   },
   "_id": "skladby/kolem-krku-nik-tendo.mdx",
   "_raw": {

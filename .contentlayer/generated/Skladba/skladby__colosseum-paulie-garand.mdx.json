@@ -8,16 +8,19 @@
   "album": "Nirvana",
   "albumSlug": "nirvana",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:15",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Colosseum — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!g.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var b=(e,n,a)=>(a=e!=null?d(h(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((S,l)=>{l.exports=_jsx_runtime});var N={};_(N,{default:()=>c,frontmatter:()=>C});var r=b(i()),C={title:\"Colosseum\",slug:\"colosseum-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"3:15\",trackNumber:6,producers:[],producersNames:[],description:\"Colosseum \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Colosseum](/skladby/colosseum-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Nirvana](/alba/nirvana) (2017).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},u=(e,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of g(a))!h.call(e,s)&&s!==n&&o(e,s,{get:()=>a[s],enumerable:!(t=m(a,s))||t.enumerable});return e};var _=(e,a,n)=>(n=e!=null?p(f(e)):{},u(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=x((k,l)=>{l.exports=_jsx_runtime});var N={};b(N,{default:()=>c,frontmatter:()=>C});var r=_(i()),C={title:\"Colosseum\",slug:\"colosseum-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[\"\"],duration:\"3:15\",trackNumber:6,producers:[],producersNames:[],description:\"Colosseum \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/colosseum-paulie-garand\",children:\"Colosseum\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/nirvana\",children:\"Nirvana\"}),\" (2017).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(N);})();\n;return Component;"
   },
   "_id": "skladby/colosseum-paulie-garand.mdx",
   "_raw": {

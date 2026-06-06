@@ -12,16 +12,19 @@
   "album": "Teritorium Remixy",
   "albumSlug": "teritorium-remixy",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 16,
   "producers": [],
   "producersNames": [],
   "description": "Zápas — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=d(r,o))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?l(h(e)):{},i(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(a({},\"__esModule\",{value:!0}),e);var u=_((N,m)=>{m.exports=_jsx_runtime});var C={};b(C,{default:()=>p,frontmatter:()=>y});var t=g(u()),y={title:\"Z\\xE1pas\",slug:\"zapas-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"3:52\",trackNumber:16,producers:[],producersNames:[],description:\"Z\\xE1pas \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Zápas](/skladby/zapas-orion)** od [Orion](/raperi/orion) (2007).\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},i=(e,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of x(r))!h.call(e,t)&&t!==o&&a(e,t,{get:()=>r[t],enumerable:!(s=d(r,t))||s.enumerable});return e};var j=(e,r,o)=>(o=e!=null?l(f(e)):{},i(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var p=g((M,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>m,frontmatter:()=>y});var n=j(p()),y={title:\"Z\\xE1pas\",slug:\"zapas-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[\"\"],duration:\"3:52\",trackNumber:16,producers:[],producersNames:[],description:\"Z\\xE1pas \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/zapas-orion\",children:\"Z\\xE1pas\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" (2007).\"]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/zapas-orion.mdx",
   "_raw": {

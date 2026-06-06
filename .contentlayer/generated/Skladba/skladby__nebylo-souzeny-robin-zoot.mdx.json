@@ -12,16 +12,19 @@
   "album": "Majitel",
   "albumSlug": "majitel",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:36",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Skladba vyjadřuje hlubokou melancholii a ztracenou naději.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},s=(e,t,o,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!j.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(u=p(t,r))||u.enumerable});return e};var _=(e,t,o)=>(o=e!=null?d(b(e)):{},s(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var l=x((N,i)=>{i.exports=_jsx_runtime});var z={};f(z,{default:()=>m,frontmatter:()=>y});var n=_(l()),y={title:\"Nebylo souzen\\xFD\",slug:\"nebylo-souzeny-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"chawo\"],featuresNames:[\"Chawo\"],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[],duration:\"2:36\",trackNumber:4,producers:[],producersNames:[],description:\"Skladba vyjad\\u0159uje hlubokou melancholii a ztracenou nad\\u011Bji.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Nebylo souzený](/skladby/nebylo-souzeny-robin-zoot)** od [Robin Zoot](/raperi/robin-zoot) (2026).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var y=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),f=(e,o)=>{for(var n in o)a(e,n,{get:o[n],enumerable:!0})},u=(e,o,n,s)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let t of m(o))!j.call(e,t)&&t!==n&&a(e,t,{get:()=>o[t],enumerable:!(s=p(o,t))||s.enumerable});return e};var x=(e,o,n)=>(n=e!=null?d(h(e)):{},u(o||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),z=e=>u(a({},\"__esModule\",{value:!0}),e);var l=y((k,i)=>{i.exports=_jsx_runtime});var _={};f(_,{default:()=>b,frontmatter:()=>g});var r=x(l()),g={title:\"Nebylo souzen\\xFD\",slug:\"nebylo-souzeny-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"chawo\"],featuresNames:[\"Chawo\"],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[\"\"],duration:\"2:36\",trackNumber:4,producers:[],producersNames:[],description:\"Skladba vyjad\\u0159uje hlubokou melancholii a ztracenou nad\\u011Bji.\",publishedAt:\"2026-05-31\"};function c(e){let o={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(o.p,{children:[(0,r.jsx)(o.strong,{children:(0,r.jsx)(o.a,{href:\"/skladby/nebylo-souzeny-robin-zoot\",children:\"Nebylo souzen\\xFD\"})}),\" od \",(0,r.jsx)(o.a,{href:\"/raperi/robin-zoot\",children:\"Robin Zoot\"}),\" (2026).\"]})}function b(e={}){let{wrapper:o}=e.components||{};return o?(0,r.jsx)(o,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/nebylo-souzeny-robin-zoot.mdx",
   "_raw": {

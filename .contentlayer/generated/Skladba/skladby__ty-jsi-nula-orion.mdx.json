@@ -18,16 +18,19 @@
   "album": "Ty jsi nula",
   "albumSlug": "ty-jsi-nula",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Ty jsi nula — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(s=d(n,a))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(j(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((T,c)=>{c.exports=_jsx_runtime});var k={};y(k,{default:()=>p,frontmatter:()=>g});var r=_(u()),g={title:\"Ty jsi nula\",slug:\"ty-jsi-nula-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"p-a-t\",\"dj-wich\",\"pater-capo\",\"prince-marock\"],featuresNames:[\"P.A.T.\",\"DJ Wich\",\"Pater Capo\",\"Prince Marock\"],album:\"Ty jsi nula\",albumSlug:\"ty-jsi-nula\",year:2016,genre:[],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Ty jsi nula \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(k);})();\n;return Component;"
+    "raw": "\n**[Ty jsi nula](/skladby/ty-jsi-nula-orion)** od [Orion](/raperi/orion) (2016).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(n,r)=>()=>(r||n((r={exports:{}}).exports,r),r.exports),x=(n,r)=>{for(var e in r)a(n,e,{get:r[e],enumerable:!0})},i=(n,r,e,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of m(r))!y.call(n,o)&&o!==e&&a(n,o,{get:()=>r[o],enumerable:!(s=j(r,o))||s.enumerable});return n};var g=(n,r,e)=>(e=n!=null?d(h(n)):{},i(r||!n||!n.__esModule?a(e,\"default\",{value:n,enumerable:!0}):e,n)),b=n=>i(a({},\"__esModule\",{value:!0}),n);var c=f((M,u)=>{u.exports=_jsx_runtime});var k={};x(k,{default:()=>p,frontmatter:()=>_});var t=g(c()),_={title:\"Ty jsi nula\",slug:\"ty-jsi-nula-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"p-a-t\",\"dj-wich\",\"pater-capo\",\"prince-marock\"],featuresNames:[\"P.A.T.\",\"DJ Wich\",\"Pater Capo\",\"Prince Marock\"],album:\"Ty jsi nula\",albumSlug:\"ty-jsi-nula\",year:2016,genre:[\"\"],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Ty jsi nula \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(n){let r={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/ty-jsi-nula-orion\",children:\"Ty jsi nula\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" (2016).\"]})}function p(n={}){let{wrapper:r}=n.components||{};return r?(0,t.jsx)(r,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return b(k);})();\n;return Component;"
   },
   "_id": "skladby/ty-jsi-nula-orion.mdx",
   "_raw": {

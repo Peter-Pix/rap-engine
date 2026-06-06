@@ -12,16 +12,19 @@
   "album": "Maniak Muzik",
   "albumSlug": "maniak-muzik",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:49",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Affection — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var a in n)i(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of f(n))!x.call(e,r)&&r!==a&&i(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var _=(e,n,a)=>(a=e!=null?d(k(e)):{},s(n||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var u=h((N,m)=>{m.exports=_jsx_runtime});var j={};M(j,{default:()=>l,frontmatter:()=>g});var t=_(u()),g={title:\"Affection\",slug:\"affection-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[],duration:\"3:49\",trackNumber:2,producers:[],producersNames:[],description:\"Affection \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Affection](/skladby/affection-maniak)** od [Maniak](/raperi/maniak) z alba [Maniak Muzik](/alba/maniak-muzik) (2016).\n",
+    "code": "var Component=(()=>{var f=Object.create;var i=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var h=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var r in a)i(n,r,{get:a[r],enumerable:!0})},s=(n,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of d(a))!M.call(n,t)&&t!==r&&i(n,t,{get:()=>a[t],enumerable:!(o=k(a,t))||o.enumerable});return n};var b=(n,a,r)=>(r=n!=null?f(p(n)):{},s(a||!n||!n.__esModule?i(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>s(i({},\"__esModule\",{value:!0}),n);var u=h((A,c)=>{c.exports=_jsx_runtime});var j={};x(j,{default:()=>m,frontmatter:()=>_});var e=b(u()),_={title:\"Affection\",slug:\"affection-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"lil-maniak\"],featuresNames:[\"Lil Maniak\"],album:\"Maniak Muzik\",albumSlug:\"maniak-muzik\",year:2016,genre:[\"\"],duration:\"3:49\",trackNumber:2,producers:[],producersNames:[],description:\"Affection \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/affection-maniak\",children:\"Affection\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/maniak-muzik\",children:\"Maniak Muzik\"}),\" (2016).\"]})}function m(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(l,{...n})}):l(n)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/affection-maniak.mdx",
   "_raw": {

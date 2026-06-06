@@ -12,16 +12,19 @@
   "album": "Ach Ano III: Ballerbyn",
   "albumSlug": "ach-ano-iii-ballerbyn",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:48",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Kruhy pod očima — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!b.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(i=d(n,a))||i.enumerable});return e};var y=(e,n,t)=>(t=e!=null?p(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var m=f((A,u)=>{u.exports=_jsx_runtime});var j={};k(j,{default:()=>l,frontmatter:()=>g});var r=y(m()),g={title:\"Kruhy pod o\\u010Dima\",slug:\"kruhy-pod-ocima-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"protiva\"],featuresNames:[\"Protiva\"],album:\"Ach Ano III: Ballerbyn\",albumSlug:\"ach-ano-iii-ballerbyn\",year:2019,genre:[],duration:\"2:48\",trackNumber:3,producers:[],producersNames:[],description:\"Kruhy pod o\\u010Dima \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Kruhy pod očima](/skladby/kruhy-pod-ocima-maniak)** od [Maniak](/raperi/maniak) z alba [Ach Ano III: Ballerbyn](/alba/ach-ano-iii-ballerbyn) (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),f=(r,a)=>{for(var e in a)t(r,e,{get:a[e],enumerable:!0})},s=(r,a,e,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of h(a))!k.call(r,o)&&o!==e&&t(r,o,{get:()=>a[o],enumerable:!(i=p(a,o))||i.enumerable});return r};var x=(r,a,e)=>(e=r!=null?m(b(r)):{},s(a||!r||!r.__esModule?t(e,\"default\",{value:r,enumerable:!0}):e,r)),g=r=>s(t({},\"__esModule\",{value:!0}),r);var c=y((j,l)=>{l.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>I});var n=x(c()),I={title:\"Kruhy pod o\\u010Dima\",slug:\"kruhy-pod-ocima-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"protiva\"],featuresNames:[\"Protiva\"],album:\"Ach Ano III: Ballerbyn\",albumSlug:\"ach-ano-iii-ballerbyn\",year:2019,genre:[\"\"],duration:\"2:48\",trackNumber:3,producers:[],producersNames:[],description:\"Kruhy pod o\\u010Dima \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/kruhy-pod-ocima-maniak\",children:\"Kruhy pod o\\u010Dima\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/ach-ano-iii-ballerbyn\",children:\"Ach Ano III: Ballerbyn\"}),\" (2019).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,n.jsx)(a,{...r,children:(0,n.jsx)(u,{...r})}):u(r)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/kruhy-pod-ocima-maniak.mdx",
   "_raw": {

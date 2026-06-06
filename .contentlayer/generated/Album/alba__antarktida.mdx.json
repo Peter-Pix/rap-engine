@@ -6,7 +6,7 @@
   "label": "Virgin Music Label And Artist Services (S&D)",
   "year": 2025,
   "genre": [],
-  "description": "Antarktida — singl od Sergei Barracuda (2025).",
+  "description": "Sergei Barracuda v roce 2025 vydal EP. Obsahuje celkem dvě skladby. Deska vyšla pod labelem Virgin Music Label And Artist Services (S&D).",
   "image": "https://cdn-images.dzcdn.net/images/cover/2b4a1d98f06249becae5a22f99c1f334/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -14,9 +14,11 @@
     "Antarktida (Instrumental)"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var A=(e,t,n)=>(n=e!=null?m(h(e)):{},c(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(i({},\"__esModule\",{value:!0}),e);var o=b((M,d)=>{d.exports=_jsx_runtime});var k={};f(k,{default:()=>u,frontmatter:()=>j});var r=A(o()),j={title:\"Antarktida\",slug:\"antarktida\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2025,genre:[],description:\"Antarktida \\u2014 singl od Sergei Barracuda (2025).\",image:\"https://cdn-images.dzcdn.net/images/cover/2b4a1d98f06249becae5a22f99c1f334/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Antarktida\",\"Antarktida (Instrumental)\"],publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(k);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Sergei Barracuda](/raperi/sergei-barracuda) v roce 2025 vydal EP.\n\nAlbum obsahuje celkem dvě skladby.\n\nDeska vyšla pod labelem Virgin Music Label And Artist Services (S&D).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var v=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),k=(a,e)=>{for(var t in e)i(a,t,{get:e[t],enumerable:!0})},c=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!h.call(a,n)&&n!==t&&i(a,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return a};var A=(a,e,t)=>(t=a!=null?p(g(a)):{},c(e||!a||!a.__esModule?i(t,\"default\",{value:a,enumerable:!0}):t,a)),x=a=>c(i({},\"__esModule\",{value:!0}),a);var l=v((j,d)=>{d.exports=_jsx_runtime});var f={};k(f,{default:()=>u,frontmatter:()=>S});var r=A(l()),S={title:\"Antarktida\",slug:\"antarktida\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2025,releaseType:\"ep\",genre:[],description:\"Sergei Barracuda v roce 2025 vydal EP. Obsahuje celkem dv\\u011B skladby. Deska vy\\u0161la pod labelem Virgin Music Label And Artist Services (S&D).\",image:\"https://cdn-images.dzcdn.net/images/cover/2b4a1d98f06249becae5a22f99c1f334/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Antarktida\",\"Antarktida (Instrumental)\"],publishedAt:\"2026-06-04\"};function o(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" v roce 2025 vydal EP.\"]}),`\n`,(0,r.jsx)(e.p,{children:\"Album obsahuje celkem dv\\u011B skladby.\"}),`\n`,(0,r.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Virgin Music Label And Artist Services (S&D).\"})]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(o,{...a})}):o(a)}return x(f);})();\n;return Component;"
   },
   "_id": "alba/antarktida.mdx",
   "_raw": {

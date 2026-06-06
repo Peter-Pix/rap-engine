@@ -16,16 +16,19 @@
   "album": "1000",
   "albumSlug": "1000",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:50",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Moist — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),b=(e,o)=>{for(var r in o)s(e,r,{get:o[r],enumerable:!0})},u=(e,o,r,a)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of p(o))!g.call(e,n)&&n!==r&&s(e,n,{get:()=>o[n],enumerable:!(a=l(o,n))||a.enumerable});return e};var f=(e,o,r)=>(r=e!=null?m(h(e)):{},u(o||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var i=y((N,x)=>{x.exports=_jsx_runtime});var M={};b(M,{default:()=>c,frontmatter:()=>j});var t=f(i()),j={title:\"Moist\",slug:\"moist-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"blako\",\"pridenyyy\",\"voodoo\"],featuresNames:[\"Blako\",\"Pridenyyy\",\"Voodoo\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"3:50\",trackNumber:6,producers:[],producersNames:[],description:\"Moist \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function d(e){let o={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(o.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(o.p,{children:(0,t.jsx)(o.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Moist](/skladby/moist-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [1000](/alba/1000) (2019).\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),b=(e,o)=>{for(var r in o)a(e,r,{get:o[r],enumerable:!0})},x=(e,o,r,s)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of g(o))!m.call(e,n)&&n!==r&&a(e,n,{get:()=>o[n],enumerable:!(s=p(o,n))||s.enumerable});return e};var y=(e,o,r)=>(r=e!=null?c(h(e)):{},x(o||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),M=e=>x(a({},\"__esModule\",{value:!0}),e);var i=f((H,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>l,frontmatter:()=>_});var t=y(i()),_={title:\"Moist\",slug:\"moist-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"blako\",\"pridenyyy\",\"voodoo\"],featuresNames:[\"Blako\",\"Pridenyyy\",\"Voodoo\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[\"\"],duration:\"3:50\",trackNumber:6,producers:[],producersNames:[],description:\"Moist \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function d(e){let o={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(o.p,{children:[(0,t.jsx)(o.strong,{children:(0,t.jsx)(o.a,{href:\"/skladby/moist-hugo-toxxx\",children:\"Moist\"})}),\" od \",(0,t.jsx)(o.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,t.jsx)(o.a,{href:\"/alba/1000\",children:\"1000\"}),\" (2019).\"]})}function l(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/moist-hugo-toxxx.mdx",
   "_raw": {

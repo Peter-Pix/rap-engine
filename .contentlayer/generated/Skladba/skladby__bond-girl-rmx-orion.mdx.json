@@ -14,16 +14,19 @@
   "album": "Teritorium III. (Deluxe Version)",
   "albumSlug": "teritorium-iii",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:59",
   "trackNumber": 16,
   "producers": [],
   "producersNames": [],
   "description": "Bond girl RMX — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},a=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!h.call(r,o)&&o!==t&&i(r,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return r};var _=(r,e,t)=>(t=r!=null?l(g(r)):{},a(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>a(i({},\"__esModule\",{value:!0}),r);var m=b((X,u)=>{u.exports=_jsx_runtime});var y={};f(y,{default:()=>d,frontmatter:()=>M});var n=_(m()),M={title:\"Bond girl RMX\",slug:\"bond-girl-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"dryman\"],featuresNames:[\"\\u010Cis T\",\"Dryman\"],album:\"Teritorium III. (Deluxe Version)\",albumSlug:\"teritorium-iii\",year:2022,genre:[],duration:\"2:59\",trackNumber:16,producers:[],producersNames:[],description:\"Bond girl RMX \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(r){let e={em:\"em\",h2:\"h2\",p:\"p\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Bond girl RMX](/skladby/bond-girl-rmx-orion)** od [Orion](/raperi/orion) z alba [Teritorium III.](/alba/teritorium-iii) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var o in r)t(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of g(r))!b.call(e,i)&&i!==o&&t(e,i,{get:()=>r[i],enumerable:!(a=p(r,i))||a.enumerable});return e};var I=(e,r,o)=>(o=e!=null?m(x(e)):{},s(r||!e||!e.__esModule?t(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>s(t({},\"__esModule\",{value:!0}),e);var u=f((X,l)=>{l.exports=_jsx_runtime});var j={};h(j,{default:()=>c,frontmatter:()=>_});var n=I(u()),_={title:\"Bond girl RMX\",slug:\"bond-girl-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"dryman\"],featuresNames:[\"\\u010Cis T\",\"Dryman\"],album:\"Teritorium III. (Deluxe Version)\",albumSlug:\"teritorium-iii\",year:2022,genre:[\"\"],duration:\"2:59\",trackNumber:16,producers:[],producersNames:[],description:\"Bond girl RMX \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/bond-girl-rmx-orion\",children:\"Bond girl RMX\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/teritorium-iii\",children:\"Teritorium III.\"}),\" (2022).\"]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/bond-girl-rmx-orion.mdx",
   "_raw": {

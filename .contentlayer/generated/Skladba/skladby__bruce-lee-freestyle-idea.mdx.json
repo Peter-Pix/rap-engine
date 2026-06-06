@@ -12,16 +12,19 @@
   "album": "Space Lopata",
   "albumSlug": "space-lopata",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:07",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Bruce Lee freestyle — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=m(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(x(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var l=y((N,u)=>{u.exports=_jsx_runtime});var S={};b(S,{default:()=>p,frontmatter:()=>j});var r=_(l()),j={title:\"Bruce Lee freestyle\",slug:\"bruce-lee-freestyle-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[],duration:\"1:07\",trackNumber:4,producers:[],producersNames:[],description:\"Bruce Lee freestyle \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Bruce Lee freestyle](/skladby/bruce-lee-freestyle-idea)** od [Idea](/raperi/idea) z alba [Space Lopata](/alba/space-lopata) (2023).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of m(e))!b.call(r,s)&&s!==t&&n(r,s,{get:()=>e[s],enumerable:!(o=f(e,s))||o.enumerable});return r};var g=(r,e,t)=>(t=r!=null?i(y(r)):{},c(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),L=r=>c(n({},\"__esModule\",{value:!0}),r);var d=h((N,l)=>{l.exports=_jsx_runtime});var j={};x(j,{default:()=>p,frontmatter:()=>_});var a=g(d()),_={title:\"Bruce Lee freestyle\",slug:\"bruce-lee-freestyle-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[\"\"],duration:\"1:07\",trackNumber:4,producers:[],producersNames:[],description:\"Bruce Lee freestyle \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/bruce-lee-freestyle-idea\",children:\"Bruce Lee freestyle\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/space-lopata\",children:\"Space Lopata\"}),\" (2023).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return L(j);})();\n;return Component;"
   },
   "_id": "skladby/bruce-lee-freestyle-idea.mdx",
   "_raw": {

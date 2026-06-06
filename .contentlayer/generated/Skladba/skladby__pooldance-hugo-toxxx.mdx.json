@@ -12,16 +12,19 @@
   "album": "1000",
   "albumSlug": "1000",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:27",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Pooldance — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!g.call(e,r)&&r!==n&&a(e,r,{get:()=>t[r],enumerable:!(s=m(t,r))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(h(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var x=f((L,c)=>{c.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>k});var o=b(x()),k={title:\"Pooldance\",slug:\"pooldance-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"patrik-love-icy-l\"],featuresNames:[\"Patrik Love ICY L\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"3:27\",trackNumber:15,producers:[],producersNames:[],description:\"Pooldance \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Pooldance](/skladby/pooldance-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [1000](/alba/1000) (2019).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),b=(e,o)=>{for(var t in o)n(e,t,{get:o[t],enumerable:!0})},s=(e,o,t,x)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let a of g(o))!m.call(e,a)&&a!==t&&n(e,a,{get:()=>o[a],enumerable:!(x=p(o,a))||x.enumerable});return e};var _=(e,o,t)=>(t=e!=null?i(h(e)):{},s(o||!e||!e.__esModule?n(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>s(n({},\"__esModule\",{value:!0}),e);var c=f((C,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>k});var r=_(c()),k={title:\"Pooldance\",slug:\"pooldance-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"patrik-love-icy-l\"],featuresNames:[\"Patrik Love ICY L\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[\"\"],duration:\"3:27\",trackNumber:15,producers:[],producersNames:[],description:\"Pooldance \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(e){let o={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(o.p,{children:[(0,r.jsx)(o.strong,{children:(0,r.jsx)(o.a,{href:\"/skladby/pooldance-hugo-toxxx\",children:\"Pooldance\"})}),\" od \",(0,r.jsx)(o.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,r.jsx)(o.a,{href:\"/alba/1000\",children:\"1000\"}),\" (2019).\"]})}function d(e={}){let{wrapper:o}=e.components||{};return o?(0,r.jsx)(o,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
   },
   "_id": "skladby/pooldance-hugo-toxxx.mdx",
   "_raw": {

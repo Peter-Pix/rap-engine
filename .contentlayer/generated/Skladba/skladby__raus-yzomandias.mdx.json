@@ -16,16 +16,19 @@
   "album": "Prozyum (Director’s Cut)",
   "albumSlug": "prozyum",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:10",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Rauš — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},u=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(x(e)):{},u(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var m=f((A,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>d,frontmatter:()=>k});var t=g(m()),k={title:\"Rau\\u0161\",slug:\"raus-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"jickson\",\"ca-hanova-bulhar\"],featuresNames:[\"Nik Tendo\",\"Jickson\",\"CA$HANOVA BULHAR\"],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum\",year:2021,genre:[],duration:\"4:10\",trackNumber:2,producers:[],producersNames:[],description:\"Rau\\u0161 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Rauš](/skladby/raus-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2021).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var n in a)s(r,n,{get:a[n],enumerable:!0})},u=(r,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of h(a))!y.call(r,o)&&o!==n&&s(r,o,{get:()=>a[o],enumerable:!(t=p(a,o))||t.enumerable});return r};var x=(r,a,n)=>(n=r!=null?l(z(r)):{},u(a||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>u(s({},\"__esModule\",{value:!0}),r);var d=f((A,i)=>{i.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>k});var e=x(d()),k={title:\"Rau\\u0161\",slug:\"raus-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"jickson\",\"ca-hanova-bulhar\"],featuresNames:[\"Nik Tendo\",\"Jickson\",\"CA$HANOVA BULHAR\"],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum\",year:2021,genre:[\"\"],duration:\"4:10\",trackNumber:2,producers:[],producersNames:[],description:\"Rau\\u0161 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/raus-yzomandias\",children:\"Rau\\u0161\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2021).\"]})}function m(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/raus-yzomandias.mdx",
   "_raw": {

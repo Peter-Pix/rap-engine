@@ -8,16 +8,19 @@
   "album": "Druhý Vánoce",
   "albumSlug": "druhy-vanoce",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:52",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Druhý Vánoce — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!f.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var g=(e,n,t)=>(t=e!=null?l(x(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),k=e=>s(o({},\"__esModule\",{value:!0}),e);var i=_((y,c)=>{c.exports=_jsx_runtime});var D={};b(D,{default:()=>d,frontmatter:()=>j});var r=g(i()),j={title:\"Druh\\xFD V\\xE1noce\",slug:\"druhy-vanoce-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Druh\\xFD V\\xE1noce\",albumSlug:\"druhy-vanoce\",year:2025,genre:[],duration:\"1:52\",trackNumber:1,producers:[],producersNames:[],description:\"Druh\\xFD V\\xE1noce \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return k(D);})();\n;return Component;"
+    "raw": "\n**[Druhý Vánoce](/skladby/druhy-vanoce-maniak)** od [Maniak](/raperi/maniak) (2025).\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},u=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=l(e,t))||s.enumerable});return r};var b=(r,e,n)=>(n=r!=null?h(k(r)):{},u(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),y=r=>u(o({},\"__esModule\",{value:!0}),r);var i=x((j,c)=>{c.exports=_jsx_runtime});var M={};g(M,{default:()=>m,frontmatter:()=>D});var a=b(i()),D={title:\"Druh\\xFD V\\xE1noce\",slug:\"druhy-vanoce-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Druh\\xFD V\\xE1noce\",albumSlug:\"druhy-vanoce\",year:2025,genre:[\"\"],duration:\"1:52\",trackNumber:1,producers:[],producersNames:[],description:\"Druh\\xFD V\\xE1noce \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/druhy-vanoce-maniak\",children:\"Druh\\xFD V\\xE1noce\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2025).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return y(M);})();\n;return Component;"
   },
   "_id": "skladby/druhy-vanoce-maniak.mdx",
   "_raw": {

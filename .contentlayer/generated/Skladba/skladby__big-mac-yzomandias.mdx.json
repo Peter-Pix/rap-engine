@@ -8,16 +8,19 @@
   "album": "Paranoia",
   "albumSlug": "paranoia",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:59",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "BIG MAC — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!b.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((C,m)=>{m.exports=_jsx_runtime});var y={};g(y,{default:()=>d,frontmatter:()=>M});var t=_(u()),M={title:\"BIG MAC\",slug:\"big-mac-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Paranoia\",albumSlug:\"paranoia\",year:2024,genre:[],duration:\"3:59\",trackNumber:3,producers:[],producersNames:[],description:\"BIG MAC \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[BIG MAC](/skladby/big-mac-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Paranoia](/alba/paranoia) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var e in a)t(r,e,{get:a[e],enumerable:!0})},i=(r,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of b(a))!h.call(r,o)&&o!==e&&t(r,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return r};var z=(r,a,e)=>(e=r!=null?l(f(r)):{},i(a||!r||!r.__esModule?t(e,\"default\",{value:r,enumerable:!0}):e,r)),y=r=>i(t({},\"__esModule\",{value:!0}),r);var c=g((C,d)=>{d.exports=_jsx_runtime});var _={};x(_,{default:()=>u,frontmatter:()=>M});var n=z(c()),M={title:\"BIG MAC\",slug:\"big-mac-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Paranoia\",albumSlug:\"paranoia\",year:2024,genre:[\"\"],duration:\"3:59\",trackNumber:3,producers:[],producersNames:[],description:\"BIG MAC \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/big-mac-yzomandias\",children:\"BIG MAC\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/paranoia\",children:\"Paranoia\"}),\" (2024).\"]})}function u(r={}){let{wrapper:a}=r.components||{};return a?(0,n.jsx)(a,{...r,children:(0,n.jsx)(m,{...r})}):m(r)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/big-mac-yzomandias.mdx",
   "_raw": {

@@ -6,7 +6,7 @@
   "label": "Alliwant Music",
   "year": 2020,
   "genre": [],
-  "description": "Let Me Tell You — singl od James Cole (2020).",
+  "description": "James Cole v roce 2020 vydal EP. Obsahuje celkem dvě skladby. Deska vyšla pod labelem Alliwant Music.",
   "image": "https://cdn-images.dzcdn.net/images/cover/c5693185402b3df7e773b476e8f75fa1/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -14,9 +14,11 @@
     "Let Me Tell You (The Mekanism remix)"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var l in t)o(e,l,{get:t[l],enumerable:!0})},a=(e,t,l,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!h.call(e,r)&&r!==l&&o(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var j=(e,t,l)=>(l=e!=null?d(g(e)):{},a(t||!e||!e.__esModule?o(l,\"default\",{value:e,enumerable:!0}):l,e)),_=e=>a(o({},\"__esModule\",{value:!0}),e);var c=M((C,i)=>{i.exports=_jsx_runtime});var L={};f(L,{default:()=>u,frontmatter:()=>b});var n=j(c()),b={title:\"Let Me Tell You\",slug:\"let-me-tell-you\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Alliwant Music\",year:2020,genre:[],description:\"Let Me Tell You \\u2014 singl od James Cole (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/c5693185402b3df7e773b476e8f75fa1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Let Me Tell You (Original Mix)\",\"Let Me Tell You (The Mekanism remix)\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return _(L);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[James Cole](/raperi/james-cole) v roce 2020 vydal EP.\n\nAlbum obsahuje celkem dvě skladby.\n\nDeska vyšla pod labelem Alliwant Music.\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var M=(l,e)=>()=>(e||l((e={exports:{}}).exports,e),e.exports),g=(l,e)=>{for(var t in e)r(l,t,{get:e[t],enumerable:!0})},o=(l,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!x.call(l,n)&&n!==t&&r(l,n,{get:()=>e[n],enumerable:!(s=u(e,n))||s.enumerable});return l};var j=(l,e,t)=>(t=l!=null?p(b(l)):{},o(e||!l||!l.__esModule?r(t,\"default\",{value:l,enumerable:!0}):t,l)),y=l=>o(r({},\"__esModule\",{value:!0}),l);var i=M((_,c)=>{c.exports=_jsx_runtime});var v={};g(v,{default:()=>d,frontmatter:()=>f});var a=j(i()),f={title:\"Let Me Tell You\",slug:\"let-me-tell-you\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Alliwant Music\",year:2020,releaseType:\"ep\",genre:[],description:\"James Cole v roce 2020 vydal EP. Obsahuje celkem dv\\u011B skladby. Deska vy\\u0161la pod labelem Alliwant Music.\",image:\"https://cdn-images.dzcdn.net/images/cover/c5693185402b3df7e773b476e8f75fa1/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Let Me Tell You (Original Mix)\",\"Let Me Tell You (The Mekanism remix)\"],publishedAt:\"2026-06-04\"};function m(l){let e={a:\"a\",h2:\"h2\",p:\"p\",...l.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" v roce 2020 vydal EP.\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Album obsahuje celkem dv\\u011B skladby.\"}),`\n`,(0,a.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Alliwant Music.\"})]})}function d(l={}){let{wrapper:e}=l.components||{};return e?(0,a.jsx)(e,{...l,children:(0,a.jsx)(m,{...l})}):m(l)}return y(v);})();\n;return Component;"
   },
   "_id": "alba/let-me-tell-you.mdx",
   "_raw": {

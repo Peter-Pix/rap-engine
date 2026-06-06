@@ -12,16 +12,19 @@
   "album": "Idiot",
   "albumSlug": "idiot",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:41",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "V Cechach je vsechno fajn — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!f.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(c=h(n,a))||c.enumerable});return e};var b=(e,n,t)=>(t=e!=null?l(j(e)):{},i(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var d=x((M,s)=>{s.exports=_jsx_runtime});var C={};_(C,{default:()=>u,frontmatter:()=>v});var r=b(d()),v={title:\"V Cechach je vsechno fajn\",slug:\"v-cechach-je-vsechno-fajn-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"orion\"],featuresNames:[\"Orion\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"3:41\",trackNumber:13,producers:[],producersNames:[],description:\"V Cechach je vsechno fajn \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[V Cechach je vsechno fajn](/skladby/v-cechach-je-vsechno-fajn-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Idiot](/alba/idiot) (2013).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var v=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!p.call(r,t)&&t!==n&&i(r,t,{get:()=>e[t],enumerable:!(o=u(e,t))||o.enumerable});return r};var b=(r,e,n)=>(n=r!=null?m(j(r)):{},c(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>c(i({},\"__esModule\",{value:!0}),r);var d=v((k,s)=>{s.exports=_jsx_runtime});var _={};x(_,{default:()=>l,frontmatter:()=>V});var a=b(d()),V={title:\"V Cechach je vsechno fajn\",slug:\"v-cechach-je-vsechno-fajn-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"orion\"],featuresNames:[\"Orion\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[\"\"],duration:\"3:41\",trackNumber:13,producers:[],producersNames:[],description:\"V Cechach je vsechno fajn \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function h(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/v-cechach-je-vsechno-fajn-vladimir-518\",children:\"V Cechach je vsechno fajn\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/idiot\",children:\"Idiot\"}),\" (2013).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(h,{...r})}):h(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/v-cechach-je-vsechno-fajn-vladimir-518.mdx",
   "_raw": {

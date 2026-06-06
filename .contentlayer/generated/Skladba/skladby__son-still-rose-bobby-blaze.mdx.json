@@ -8,16 +8,19 @@
   "album": "Crimson Stain",
   "albumSlug": "crimson-stain",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:54",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Son Still Rose — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var b=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var S=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!h.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?b(x(e)):{},l(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>l(s({},\"__esModule\",{value:!0}),e);var u=S((B,i)=>{i.exports=_jsx_runtime});var j={};f(j,{default:()=>m,frontmatter:()=>y});var n=_(u()),y={title:\"Son Still Rose\",slug:\"son-still-rose-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Crimson Stain\",albumSlug:\"crimson-stain\",year:2025,genre:[],duration:\"3:54\",trackNumber:8,producers:[],producersNames:[],description:\"Son Still Rose \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Son Still Rose](/skladby/son-still-rose-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Crimson Stain](/alba/crimson-stain) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),S=(r,e)=>{for(var n in e)a(r,n,{get:e[n],enumerable:!0})},l=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!h.call(r,t)&&t!==n&&a(r,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return r};var x=(r,e,n)=>(n=r!=null?d(f(r)):{},l(e||!r||!r.__esModule?a(n,\"default\",{value:r,enumerable:!0}):n,r)),z=r=>l(a({},\"__esModule\",{value:!0}),r);var i=y((j,b)=>{b.exports=_jsx_runtime});var B={};S(B,{default:()=>u,frontmatter:()=>g});var o=x(i()),g={title:\"Son Still Rose\",slug:\"son-still-rose-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Crimson Stain\",albumSlug:\"crimson-stain\",year:2025,genre:[\"\"],duration:\"3:54\",trackNumber:8,producers:[],producersNames:[],description:\"Son Still Rose \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/son-still-rose-bobby-blaze\",children:\"Son Still Rose\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/crimson-stain\",children:\"Crimson Stain\"}),\" (2025).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(c,{...r})}):c(r)}return z(B);})();\n;return Component;"
   },
   "_id": "skladby/son-still-rose-bobby-blaze.mdx",
   "_raw": {

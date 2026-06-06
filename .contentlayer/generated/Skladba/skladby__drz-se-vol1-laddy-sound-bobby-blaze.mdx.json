@@ -8,16 +8,19 @@
   "album": "Drž se - Vol1 - Laddy Sound",
   "albumSlug": "drz-se-vol1-laddy-sound",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:23",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Drž se - Vol1 - Laddy Sound — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of p(r))!x.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(d=i(r,o))||d.enumerable});return e};var _=(e,r,t)=>(t=e!=null?m(y(e)):{},s(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var u=h((D,l)=>{l.exports=_jsx_runtime});var S={};f(S,{default:()=>c,frontmatter:()=>z});var n=_(u()),z={title:\"Dr\\u017E se - Vol1 - Laddy Sound\",slug:\"drz-se-vol1-laddy-sound-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Dr\\u017E se - Vol1 - Laddy Sound\",albumSlug:\"drz-se-vol1-laddy-sound\",year:2024,genre:[],duration:\"2:23\",trackNumber:1,producers:[],producersNames:[],description:\"Dr\\u017E se - Vol1 - Laddy Sound \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Drž se - Vol1 - Laddy Sound](/skladby/drz-se-vol1-laddy-sound-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var y=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),x=(o,e)=>{for(var r in e)n(o,r,{get:e[r],enumerable:!0})},t=(o,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let d of p(e))!z.call(o,d)&&d!==r&&n(o,d,{get:()=>e[d],enumerable:!(s=i(e,d))||s.enumerable});return o};var h=(o,e,r)=>(r=o!=null?y(m(o)):{},t(e||!o||!o.__esModule?n(r,\"default\",{value:o,enumerable:!0}):r,o)),g=o=>t(n({},\"__esModule\",{value:!0}),o);var b=f((_,l)=>{l.exports=_jsx_runtime});var D={};x(D,{default:()=>c,frontmatter:()=>B});var a=h(b()),B={title:\"Dr\\u017E se - Vol1 - Laddy Sound\",slug:\"drz-se-vol1-laddy-sound-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Dr\\u017E se - Vol1 - Laddy Sound\",albumSlug:\"drz-se-vol1-laddy-sound\",year:2024,genre:[\"\"],duration:\"2:23\",trackNumber:1,producers:[],producersNames:[],description:\"Dr\\u017E se - Vol1 - Laddy Sound \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/drz-se-vol1-laddy-sound-bobby-blaze\",children:\"Dr\\u017E se - Vol1 - Laddy Sound\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,a.jsx)(e,{...o,children:(0,a.jsx)(u,{...o})}):u(o)}return g(D);})();\n;return Component;"
   },
   "_id": "skladby/drz-se-vol1-laddy-sound-bobby-blaze.mdx",
   "_raw": {

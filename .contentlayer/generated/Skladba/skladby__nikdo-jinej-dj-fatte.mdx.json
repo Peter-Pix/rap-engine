@@ -12,16 +12,19 @@
   "album": "EP01",
   "albumSlug": "ep01",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Nikdo Jinej — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of j(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(x(e)):{},d(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(o({},\"__esModule\",{value:!0}),e);var u=h((F,i)=>{i.exports=_jsx_runtime});var D={};_(D,{default:()=>l,frontmatter:()=>k});var n=b(u()),k={title:\"Nikdo Jinej\",slug:\"nikdo-jinej-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"daniel-vardan\"],featuresNames:[\"Daniel Vardan\"],album:\"EP01\",albumSlug:\"ep01\",year:2019,genre:[],duration:\"3:24\",trackNumber:6,producers:[],producersNames:[],description:\"Nikdo Jinej \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Nikdo Jinej](/skladby/nikdo-jinej-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [EP01](/alba/ep01) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},i=(t,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!h.call(t,r)&&r!==n&&o(t,r,{get:()=>e[r],enumerable:!(d=j(e,r))||d.enumerable});return t};var k=(t,e,n)=>(n=t!=null?p(m(t)):{},i(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),g=t=>i(o({},\"__esModule\",{value:!0}),t);var l=x((_,s)=>{s.exports=_jsx_runtime});var J={};b(J,{default:()=>u,frontmatter:()=>D});var a=k(l()),D={title:\"Nikdo Jinej\",slug:\"nikdo-jinej-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"daniel-vardan\"],featuresNames:[\"Daniel Vardan\"],album:\"EP01\",albumSlug:\"ep01\",year:2019,genre:[\"\"],duration:\"3:24\",trackNumber:6,producers:[],producersNames:[],description:\"Nikdo Jinej \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/nikdo-jinej-dj-fatte\",children:\"Nikdo Jinej\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/ep01\",children:\"EP01\"}),\" (2019).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(c,{...t})}):c(t)}return g(J);})();\n;return Component;"
   },
   "_id": "skladby/nikdo-jinej-dj-fatte.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Molo II (Deluxe)",
   "albumSlug": "molo-ii",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Lucky — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=p(n,a))||u.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var c=f((D,l)=>{l.exports=_jsx_runtime});var j={};y(j,{default:()=>d,frontmatter:()=>k});var r=_(c()),k={title:\"Lucky\",slug:\"lucky-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ego\"],featuresNames:[\"Kenny Rough\",\"Ego\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[],duration:\"3:24\",trackNumber:8,producers:[],producersNames:[],description:\"Lucky \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Lucky](/skladby/lucky-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Molo II (Deluxe)](/alba/molo-ii) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),y=(a,e)=>{for(var n in e)t(a,n,{get:e[n],enumerable:!0})},l=(a,e,n,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!x.call(a,o)&&o!==n&&t(a,o,{get:()=>e[o],enumerable:!(u=g(e,o))||u.enumerable});return a};var k=(a,e,n)=>(n=a!=null?p(h(a)):{},l(e||!a||!a.__esModule?t(n,\"default\",{value:a,enumerable:!0}):n,a)),b=a=>l(t({},\"__esModule\",{value:!0}),a);var s=f((D,i)=>{i.exports=_jsx_runtime});var j={};y(j,{default:()=>d,frontmatter:()=>_});var r=k(s()),_={title:\"Lucky\",slug:\"lucky-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"ego\"],featuresNames:[\"Kenny Rough\",\"Ego\"],album:\"Molo II (Deluxe)\",albumSlug:\"molo-ii\",year:2025,genre:[\"\"],duration:\"3:24\",trackNumber:8,producers:[],producersNames:[],description:\"Lucky \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/lucky-paulie-garand\",children:\"Lucky\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/molo-ii\",children:\"Molo II (Deluxe)\"}),\" (2025).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(c,{...a})}):c(a)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/lucky-paulie-garand.mdx",
   "_raw": {

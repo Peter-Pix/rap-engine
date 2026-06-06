@@ -1,0 +1,29 @@
+{
+  "title": "Panama",
+  "slug": "panama",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2020,
+  "description": "Panama — singl od CÂLIN (2020).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/d7d3b23e8666844b531d14f0a6b57536/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Panama](/skladby/panama)** od [Calin](/raperi/calin) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var n in e)s(a,n,{get:e[n],enumerable:!0})},o=(a,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of u(e))!h.call(a,r)&&r!==n&&s(a,r,{get:()=>e[r],enumerable:!(i=g(e,r))||i.enumerable});return a};var j=(a,e,n)=>(n=a!=null?m(x(a)):{},o(e||!a||!a.__esModule?s(n,\"default\",{value:a,enumerable:!0}):n,a)),C=a=>o(s({},\"__esModule\",{value:!0}),a);var l=f((D,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>_});var t=j(l()),_={title:\"Panama\",slug:\"panama\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2020,description:\"Panama \\u2014 singl od C\\xC2LIN (2020).\",image:\"https://cdn-images.dzcdn.net/images/cover/d7d3b23e8666844b531d14f0a6b57536/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/panama\",children:\"Panama\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2020).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(p,{...a})}):p(a)}return C(y);})();\n;return Component;"
+  },
+  "_id": "skladby/panama.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/panama.mdx",
+    "sourceFileName": "panama.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/panama"
+  },
+  "type": "Skladba",
+  "url": "/skladby/panama",
+  "canonicalUrl": "https://4rap.cz/skladby/panama"
+}

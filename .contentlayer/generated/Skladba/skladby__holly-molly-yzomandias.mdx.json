@@ -12,16 +12,19 @@
   "album": "Zhora Vypadá Všechno Líp",
   "albumSlug": "zhora-vypada-vsechno-lip",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:48",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Holly Molly — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)r(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!x.call(e,a)&&a!==t&&r(e,a,{get:()=>n[a],enumerable:!(s=u(n,a))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?i(y(e)):{},l(n||!e||!e.__esModule?r(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>l(r({},\"__esModule\",{value:!0}),e);var d=f((v,c)=>{c.exports=_jsx_runtime});var z={};_(z,{default:()=>p,frontmatter:()=>j});var o=b(d()),j={title:\"Holly Molly\",slug:\"holly-molly-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"lvcas-dope\"],featuresNames:[\"Lvcas Dope\"],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[],duration:\"4:48\",trackNumber:13,producers:[],producersNames:[],description:\"Holly Molly \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Holly Molly](/skladby/holly-molly-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Zhora Vypadá Všechno Líp](/alba/zhora-vypada-vsechno-lip) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var z=(o,a)=>()=>(a||o((a={exports:{}}).exports,a),a.exports),x=(o,a)=>{for(var r in a)l(o,r,{get:a[r],enumerable:!0})},t=(o,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of h(a))!f.call(o,n)&&n!==r&&l(o,n,{get:()=>a[n],enumerable:!(s=y(a,n))||s.enumerable});return o};var b=(o,a,r)=>(r=o!=null?m(u(o)):{},t(a||!o||!o.__esModule?l(r,\"default\",{value:o,enumerable:!0}):r,o)),g=o=>t(l({},\"__esModule\",{value:!0}),o);var c=z((j,d)=>{d.exports=_jsx_runtime});var M={};x(M,{default:()=>p,frontmatter:()=>v});var e=b(c()),v={title:\"Holly Molly\",slug:\"holly-molly-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"lvcas-dope\"],featuresNames:[\"Lvcas Dope\"],album:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",albumSlug:\"zhora-vypada-vsechno-lip\",year:2020,genre:[\"\"],duration:\"4:48\",trackNumber:13,producers:[],producersNames:[],description:\"Holly Molly \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(o){let a={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/holly-molly-yzomandias\",children:\"Holly Molly\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/zhora-vypada-vsechno-lip\",children:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\"}),\" (2020).\"]})}function p(o={}){let{wrapper:a}=o.components||{};return a?(0,e.jsx)(a,{...o,children:(0,e.jsx)(i,{...o})}):i(o)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/holly-molly-yzomandias.mdx",
   "_raw": {

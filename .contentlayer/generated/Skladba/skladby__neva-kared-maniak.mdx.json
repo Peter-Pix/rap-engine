@@ -12,16 +12,19 @@
   "album": "OneWay",
   "albumSlug": "oneway",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Neva Kared — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var b=(e,n,a)=>(a=e!=null?p(h(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var i=k((y,m)=>{m.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>j});var t=b(i()),j={title:\"Neva Kared\",slug:\"neva-kared-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[],duration:\"3:08\",trackNumber:2,producers:[],producersNames:[],description:\"Neva Kared \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Neva Kared](/skladby/neva-kared-maniak)** od [Maniak](/raperi/maniak) z alba [OneWay](/alba/oneway) (2023).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},i=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of k(a))!h.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var g=(e,a,n)=>(n=e!=null?m(f(e)):{},i(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>i(o({},\"__esModule\",{value:!0}),e);var d=x((_,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>l,frontmatter:()=>M});var r=g(d()),M={title:\"Neva Kared\",slug:\"neva-kared-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"jumpout\"],featuresNames:[\"JuMpOuT\"],album:\"OneWay\",albumSlug:\"oneway\",year:2023,genre:[\"\"],duration:\"3:08\",trackNumber:2,producers:[],producersNames:[],description:\"Neva Kared \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/neva-kared-maniak\",children:\"Neva Kared\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/oneway\",children:\"OneWay\"}),\" (2023).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/neva-kared-maniak.mdx",
   "_raw": {

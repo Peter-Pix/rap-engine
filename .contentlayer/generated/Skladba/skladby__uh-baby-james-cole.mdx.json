@@ -8,16 +8,19 @@
   "album": "Guestlist",
   "albumSlug": "guestlist",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:29",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Uh Baby — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of h(t))!x.call(e,s)&&s!==n&&a(e,s,{get:()=>t[s],enumerable:!(o=p(t,s))||o.enumerable});return e};var j=(e,t,n)=>(n=e!=null?d(b(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var m=f((N,l)=>{l.exports=_jsx_runtime});var C={};g(C,{default:()=>i,frontmatter:()=>y});var r=j(m()),y={title:\"Uh Baby\",slug:\"uh-baby-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Guestlist\",albumSlug:\"guestlist\",year:2017,genre:[],duration:\"6:29\",trackNumber:3,producers:[],producersNames:[],description:\"Uh Baby \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[Uh Baby](/skladby/uh-baby-james-cole)** od [James Cole](/raperi/james-cole) z alba [Guestlist](/alba/guestlist) (2017).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)n(t,r,{get:e[r],enumerable:!0})},l=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!f.call(t,s)&&s!==r&&n(t,s,{get:()=>e[s],enumerable:!(o=b(e,s))||o.enumerable});return t};var x=(t,e,r)=>(r=t!=null?d(p(t)):{},l(e||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),y=t=>l(n({},\"__esModule\",{value:!0}),t);var c=g((B,u)=>{u.exports=_jsx_runtime});var C={};j(C,{default:()=>m,frontmatter:()=>_});var a=x(c()),_={title:\"Uh Baby\",slug:\"uh-baby-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Guestlist\",albumSlug:\"guestlist\",year:2017,genre:[\"\"],duration:\"6:29\",trackNumber:3,producers:[],producersNames:[],description:\"Uh Baby \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/uh-baby-james-cole\",children:\"Uh Baby\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/guestlist\",children:\"Guestlist\"}),\" (2017).\"]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(i,{...t})}):i(t)}return y(C);})();\n;return Component;"
   },
   "_id": "skladby/uh-baby-james-cole.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "O beatech a lidech",
   "albumSlug": "o-beatech-a-lidech",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:23",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Hesla — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!b.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(o=h(t,r))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var i=g((S,d)=>{d.exports=_jsx_runtime});var k={};f(k,{default:()=>u,frontmatter:()=>M});var a=_(i()),M={title:\"Hesla\",slug:\"hesla-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"jana-kirschner\",\"magenta\"],featuresNames:[\"Jana Kirschner\",\"Magenta\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[],duration:\"3:23\",trackNumber:4,producers:[],producersNames:[],description:\"Hesla \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Hesla](/skladby/hesla-idea)** od [Idea](/raperi/idea) z alba [O beatech a lidech](/alba/o-beatech-a-lidech) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var t in e)s(a,t,{get:e[t],enumerable:!0})},d=(a,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!f.call(a,n)&&n!==t&&s(a,n,{get:()=>e[n],enumerable:!(c=p(e,n))||c.enumerable});return a};var j=(a,e,t)=>(t=a!=null?u(b(a)):{},d(e||!a||!a.__esModule?s(t,\"default\",{value:a,enumerable:!0}):t,a)),_=a=>d(s({},\"__esModule\",{value:!0}),a);var l=g((H,o)=>{o.exports=_jsx_runtime});var M={};x(M,{default:()=>h,frontmatter:()=>k});var r=j(l()),k={title:\"Hesla\",slug:\"hesla-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"jana-kirschner\",\"magenta\"],featuresNames:[\"Jana Kirschner\",\"Magenta\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[\"\"],duration:\"3:23\",trackNumber:4,producers:[],producersNames:[],description:\"Hesla \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/hesla-idea\",children:\"Hesla\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/o-beatech-a-lidech\",children:\"O beatech a lidech\"}),\" (2021).\"]})}function h(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(i,{...a})}):i(a)}return _(M);})();\n;return Component;"
   },
   "_id": "skladby/hesla-idea.mdx",
   "_raw": {

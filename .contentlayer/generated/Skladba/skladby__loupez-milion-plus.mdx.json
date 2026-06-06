@@ -24,16 +24,19 @@
   "album": "Krtek Forever",
   "albumSlug": "krtek-forever",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Loupež — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of k(n))!x.call(e,t)&&t!==r&&s(e,t,{get:()=>n[t],enumerable:!(a=d(n,t))||a.enumerable});return e};var _=(e,n,r)=>(r=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var l=b((z,u)=>{u.exports=_jsx_runtime});var y={};f(y,{default:()=>c,frontmatter:()=>j});var o=_(l()),j={title:\"Loupe\\u017E\",slug:\"loupez-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"nik-tendo\",\"hasan\",\"robin-zoot\",\"karlo\",\"jickson\",\"koky\"],featuresNames:[\"Yzomandias\",\"Nik Tendo\",\"Hasan\",\"Robin Zoot\",\"Karlo\",\"Jickson\",\"Koky\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[],duration:\"3:45\",trackNumber:9,producers:[],producersNames:[],description:\"Loupe\\u017E \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Loupež](/skladby/loupez-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [Krtek Forever](/alba/krtek-forever) (2023).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),x=(o,e)=>{for(var n in e)a(o,n,{get:e[n],enumerable:!0})},i=(o,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of k(e))!h.call(o,t)&&t!==n&&a(o,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return o};var g=(o,e,n)=>(n=o!=null?d(f(o)):{},i(e||!o||!o.__esModule?a(n,\"default\",{value:o,enumerable:!0}):n,o)),j=o=>i(a({},\"__esModule\",{value:!0}),o);var u=b((_,l)=>{l.exports=_jsx_runtime});var z={};x(z,{default:()=>c,frontmatter:()=>y});var r=g(u()),y={title:\"Loupe\\u017E\",slug:\"loupez-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"yzomandias\",\"nik-tendo\",\"hasan\",\"robin-zoot\",\"karlo\",\"jickson\",\"koky\"],featuresNames:[\"Yzomandias\",\"Nik Tendo\",\"Hasan\",\"Robin Zoot\",\"Karlo\",\"Jickson\",\"Koky\"],album:\"Krtek Forever\",albumSlug:\"krtek-forever\",year:2023,genre:[\"\"],duration:\"3:45\",trackNumber:9,producers:[],producersNames:[],description:\"Loupe\\u017E \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function p(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/loupez-milion-plus\",children:\"Loupe\\u017E\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/krtek-forever\",children:\"Krtek Forever\"}),\" (2023).\"]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(p,{...o})}):p(o)}return j(z);})();\n;return Component;"
   },
   "_id": "skladby/loupez-milion-plus.mdx",
   "_raw": {

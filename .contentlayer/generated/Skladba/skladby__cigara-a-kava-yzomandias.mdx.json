@@ -8,16 +8,19 @@
   "album": "J. Eden Dva",
   "albumSlug": "j-eden-dva",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "0:50",
   "trackNumber": 18,
   "producers": [],
   "producersNames": [],
   "description": "Cigára a Káva — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},d=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!h.call(e,r)&&r!==t&&o(e,r,{get:()=>a[r],enumerable:!(s=p(a,r))||s.enumerable});return e};var b=(e,a,t)=>(t=e!=null?l(g(e)):{},d(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var m=f((C,i)=>{i.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>v});var n=b(m()),v={title:\"Cig\\xE1ra a K\\xE1va\",slug:\"cigara-a-kava-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"0:50\",trackNumber:18,producers:[],producersNames:[],description:\"Cig\\xE1ra a K\\xE1va \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Cigára a Káva](/skladby/cigara-a-kava-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN DVA](/alba/j-eden-dva) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)s(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of g(a))!h.call(e,t)&&t!==n&&s(e,t,{get:()=>a[t],enumerable:!(o=p(a,t))||o.enumerable});return e};var v=(e,a,n)=>(n=e!=null?l(f(e)):{},d(a||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),z=e=>d(s({},\"__esModule\",{value:!0}),e);var c=x((k,i)=>{i.exports=_jsx_runtime});var y={};b(y,{default:()=>u,frontmatter:()=>j});var r=v(c()),j={title:\"Cig\\xE1ra a K\\xE1va\",slug:\"cigara-a-kava-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[\"\"],duration:\"0:50\",trackNumber:18,producers:[],producersNames:[],description:\"Cig\\xE1ra a K\\xE1va \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/cigara-a-kava-yzomandias\",children:\"Cig\\xE1ra a K\\xE1va\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/j-eden-dva\",children:\"J. EDEN DVA\"}),\" (2019).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return z(y);})();\n;return Component;"
   },
   "_id": "skladby/cigara-a-kava-yzomandias.mdx",
   "_raw": {

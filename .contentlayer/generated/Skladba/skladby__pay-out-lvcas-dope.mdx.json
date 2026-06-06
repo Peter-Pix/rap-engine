@@ -8,16 +8,19 @@
   "album": "Pay Out",
   "albumSlug": "pay-out",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:26",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Pay Out — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=i(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(h(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var p=y((L,c)=>{c.exports=_jsx_runtime});var v={};_(v,{default:()=>l,frontmatter:()=>j});var r=b(p()),j={title:\"Pay Out\",slug:\"pay-out-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Pay Out\",albumSlug:\"pay-out\",year:2017,genre:[],duration:\"4:26\",trackNumber:1,producers:[],producersNames:[],description:\"Pay Out \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(v);})();\n;return Component;"
+    "raw": "\n**[Pay Out](/skladby/pay-out-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) (2017).\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},u=(t,e,a,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of y(e))!x.call(t,o)&&o!==a&&s(t,o,{get:()=>e[o],enumerable:!(n=m(e,o))||n.enumerable});return t};var v=(t,e,a)=>(a=t!=null?i(f(t)):{},u(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),b=t=>u(s({},\"__esModule\",{value:!0}),t);var p=h((L,c)=>{c.exports=_jsx_runtime});var j={};g(j,{default:()=>l,frontmatter:()=>_});var r=v(p()),_={title:\"Pay Out\",slug:\"pay-out-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Pay Out\",albumSlug:\"pay-out\",year:2017,genre:[\"\"],duration:\"4:26\",trackNumber:1,producers:[],producersNames:[],description:\"Pay Out \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/pay-out-lvcas-dope\",children:\"Pay Out\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" (2017).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/pay-out-lvcas-dope.mdx",
   "_raw": {

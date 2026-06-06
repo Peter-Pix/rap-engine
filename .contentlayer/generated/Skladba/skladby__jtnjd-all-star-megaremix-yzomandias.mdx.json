@@ -22,16 +22,19 @@
   "album": "Prozyum (Director’s Cut)",
   "albumSlug": "prozyum",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:10",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "JTNJD All-Star MegaRemix — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},i=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!k.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var b=(e,t,a)=>(a=e!=null?l(h(e)):{},i(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>i(o({},\"__esModule\",{value:!0}),e);var u=g((_,m)=>{m.exports=_jsx_runtime});var A={};y(A,{default:()=>d,frontmatter:()=>j});var r=b(u()),j={title:\"JTNJD All-Star MegaRemix\",slug:\"jtnjd-all-star-megaremix-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"vercetti-cg\",\"nik-tendo\",\"koky\",\"ca-hanova-bulhar\",\"luca-brassi10x\",\"dokkeytino\"],featuresNames:[\"Vercetti CG\",\"Nik Tendo\",\"Koky\",\"CA$HANOVA BULHAR\",\"Luca Brassi10x\",\"Dokkeytino\"],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum\",year:2021,genre:[],duration:\"6:10\",trackNumber:5,producers:[],producersNames:[],description:\"JTNJD All-Star MegaRemix \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return f(A);})();\n;return Component;"
+    "raw": "\n**[JTNJD All-Star MegaRemix](/skladby/jtnjd-all-star-megaremix-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2021).\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),k=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},i=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of x(a))!g.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=p(a,n))||s.enumerable});return e};var z=(e,a,t)=>(t=e!=null?c(y(e)):{},i(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var m=h((N,l)=>{l.exports=_jsx_runtime});var j={};k(j,{default:()=>u,frontmatter:()=>f});var r=z(m()),f={title:\"JTNJD All-Star MegaRemix\",slug:\"jtnjd-all-star-megaremix-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"vercetti-cg\",\"nik-tendo\",\"koky\",\"ca-hanova-bulhar\",\"luca-brassi10x\",\"dokkeytino\"],featuresNames:[\"Vercetti CG\",\"Nik Tendo\",\"Koky\",\"CA$HANOVA BULHAR\",\"Luca Brassi10x\",\"Dokkeytino\"],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum\",year:2021,genre:[\"\"],duration:\"6:10\",trackNumber:5,producers:[],producersNames:[],description:\"JTNJD All-Star MegaRemix \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/jtnjd-all-star-megaremix-yzomandias\",children:\"JTNJD All-Star MegaRemix\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2021).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/jtnjd-all-star-megaremix-yzomandias.mdx",
   "_raw": {

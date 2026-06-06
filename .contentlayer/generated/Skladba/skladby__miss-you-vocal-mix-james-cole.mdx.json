@@ -12,16 +12,19 @@
   "album": "Miss You",
   "albumSlug": "miss-you",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "8:36",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Miss You (Vocal Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,s)=>()=>(s||e((s={exports:{}}).exports,s),s.exports),j=(e,s)=>{for(var o in s)n(e,o,{get:s[o],enumerable:!0})},i=(e,s,o,a)=>{if(s&&typeof s==\"object\"||typeof s==\"function\")for(let r of x(s))!M.call(e,r)&&r!==o&&n(e,r,{get:()=>s[r],enumerable:!(a=p(s,r))||a.enumerable});return e};var _=(e,s,o)=>(o=e!=null?d(h(e)):{},i(s||!e||!e.__esModule?n(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>i(n({},\"__esModule\",{value:!0}),e);var m=f((S,u)=>{u.exports=_jsx_runtime});var y={};j(y,{default:()=>l,frontmatter:()=>g});var t=_(m()),g={title:\"Miss You (Vocal Mix)\",slug:\"miss-you-vocal-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"e-soreni\"],featuresNames:[\"E-Soreni\"],album:\"Miss You\",albumSlug:\"miss-you\",year:2018,genre:[],duration:\"8:36\",trackNumber:1,producers:[],producersNames:[],description:\"Miss You (Vocal Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let s={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(s.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(s.p,{children:(0,t.jsx)(s.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:s}=e.components||{};return s?(0,t.jsx)(s,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return b(y);})();\n;return Component;"
+    "raw": "\n**[Miss You (Vocal Mix)](/skladby/miss-you-vocal-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Miss You](/alba/miss-you) (2018).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(s,e)=>()=>(e||s((e={exports:{}}).exports,e),e.exports),j=(s,e)=>{for(var r in e)t(s,r,{get:e[r],enumerable:!0})},i=(s,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!f.call(s,a)&&a!==r&&t(s,a,{get:()=>e[a],enumerable:!(n=p(e,a))||n.enumerable});return s};var b=(s,e,r)=>(r=s!=null?d(M(s)):{},i(e||!s||!s.__esModule?t(r,\"default\",{value:s,enumerable:!0}):r,s)),g=s=>i(t({},\"__esModule\",{value:!0}),s);var c=h((Y,l)=>{l.exports=_jsx_runtime});var _={};j(_,{default:()=>m,frontmatter:()=>y});var o=b(c()),y={title:\"Miss You (Vocal Mix)\",slug:\"miss-you-vocal-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"e-soreni\"],featuresNames:[\"E-Soreni\"],album:\"Miss You\",albumSlug:\"miss-you\",year:2018,genre:[\"\"],duration:\"8:36\",trackNumber:1,producers:[],producersNames:[],description:\"Miss You (Vocal Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(s){let e={a:\"a\",p:\"p\",strong:\"strong\",...s.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/miss-you-vocal-mix-james-cole\",children:\"Miss You (Vocal Mix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/miss-you\",children:\"Miss You\"}),\" (2018).\"]})}function m(s={}){let{wrapper:e}=s.components||{};return e?(0,o.jsx)(e,{...s,children:(0,o.jsx)(u,{...s})}):u(s)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/miss-you-vocal-mix-james-cole.mdx",
   "_raw": {

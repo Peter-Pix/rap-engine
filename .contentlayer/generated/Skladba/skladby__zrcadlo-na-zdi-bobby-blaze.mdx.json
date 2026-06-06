@@ -8,16 +8,19 @@
   "album": "Zrcadlo na zdi",
   "albumSlug": "zrcadlo-na-zdi",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:00",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Zrcadlo na zdi — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var b=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},l=(e,r,t,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(d=m(r,a))||d.enumerable});return e};var _=(e,r,t)=>(t=e!=null?b(z(e)):{},l(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>l(o({},\"__esModule\",{value:!0}),e);var c=h((M,s)=>{s.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>y});var n=_(c()),y={title:\"Zrcadlo na zdi\",slug:\"zrcadlo-na-zdi-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Zrcadlo na zdi\",albumSlug:\"zrcadlo-na-zdi\",year:2024,genre:[],duration:\"2:00\",trackNumber:1,producers:[],producersNames:[],description:\"Zrcadlo na zdi \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Zrcadlo na zdi](/skladby/zrcadlo-na-zdi-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var z=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)t(a,r,{get:e[r],enumerable:!0})},l=(a,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!y.call(a,n)&&n!==r&&t(a,n,{get:()=>e[n],enumerable:!(d=z(e,n))||d.enumerable});return a};var h=(a,e,r)=>(r=a!=null?u(m(a)):{},l(e||!a||!a.__esModule?t(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>l(t({},\"__esModule\",{value:!0}),a);var s=f((Z,b)=>{b.exports=_jsx_runtime});var _={};x(_,{default:()=>i,frontmatter:()=>B});var o=h(s()),B={title:\"Zrcadlo na zdi\",slug:\"zrcadlo-na-zdi-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Zrcadlo na zdi\",albumSlug:\"zrcadlo-na-zdi\",year:2024,genre:[\"\"],duration:\"2:00\",trackNumber:1,producers:[],producersNames:[],description:\"Zrcadlo na zdi \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/zrcadlo-na-zdi-bobby-blaze\",children:\"Zrcadlo na zdi\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function i(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(c,{...a})}):c(a)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/zrcadlo-na-zdi-bobby-blaze.mdx",
   "_raw": {

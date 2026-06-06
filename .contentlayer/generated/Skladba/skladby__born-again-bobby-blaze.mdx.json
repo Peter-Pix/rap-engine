@@ -8,16 +8,19 @@
   "album": "The Prodigal Son",
   "albumSlug": "the-prodigal-son",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:44",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Born Again — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},l=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(s=m(n,o))||s.enumerable});return e};var _=(e,n,t)=>(t=e!=null?d(g(e)):{},l(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>l(a({},\"__esModule\",{value:!0}),e);var u=x((S,i)=>{i.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>B});var r=_(u()),B={title:\"Born Again\",slug:\"born-again-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"3:44\",trackNumber:1,producers:[],producersNames:[],description:\"Born Again \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return y(j);})();\n;return Component;"
+    "raw": "\n**[Born Again](/skladby/born-again-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Prodigal Son](/alba/the-prodigal-son) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},l=(r,e,n,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!m.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(b=p(e,o))||b.enumerable});return r};var x=(r,e,n)=>(n=r!=null?u(h(r)):{},l(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),B=r=>l(t({},\"__esModule\",{value:!0}),r);var i=f((A,s)=>{s.exports=_jsx_runtime});var _={};y(_,{default:()=>c,frontmatter:()=>z});var a=x(i()),z={title:\"Born Again\",slug:\"born-again-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[\"\"],duration:\"3:44\",trackNumber:1,producers:[],producersNames:[],description:\"Born Again \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/born-again-bobby-blaze\",children:\"Born Again\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/the-prodigal-son\",children:\"The Prodigal Son\"}),\" (2021).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return B(_);})();\n;return Component;"
   },
   "_id": "skladby/born-again-bobby-blaze.mdx",
   "_raw": {

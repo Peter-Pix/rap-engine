@@ -12,16 +12,19 @@
   "album": "StreamTape: Vítěznej oblouk",
   "albumSlug": "streamtape-viteznej-oblouk",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:18",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Čaj — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of j(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var m=b((N,u)=>{u.exports=_jsx_runtime});var M={};k(M,{default:()=>l,frontmatter:()=>g});var n=f(m()),g={title:\"\\u010Caj\",slug:\"caj-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"orion\"],featuresNames:[\"Orion\"],album:\"StreamTape: V\\xEDt\\u011Bznej oblouk\",albumSlug:\"streamtape-viteznej-oblouk\",year:2026,genre:[],duration:\"3:18\",trackNumber:7,producers:[],producersNames:[],description:\"\\u010Caj \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Čaj](/skladby/caj-maniak)** od [Maniak](/raperi/maniak) z alba [StreamTape: Vítěznej oblouk](/alba/streamtape-viteznej-oblouk) (2026).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},i=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of j(a))!b.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(s=d(a,t))||s.enumerable});return e};var x=(e,a,n)=>(n=e!=null?p(k(e)):{},i(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var l=f((S,u)=>{u.exports=_jsx_runtime});var _={};h(_,{default:()=>m,frontmatter:()=>M});var r=x(l()),M={title:\"\\u010Caj\",slug:\"caj-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"orion\"],featuresNames:[\"Orion\"],album:\"StreamTape: V\\xEDt\\u011Bznej oblouk\",albumSlug:\"streamtape-viteznej-oblouk\",year:2026,genre:[\"\"],duration:\"3:18\",trackNumber:7,producers:[],producersNames:[],description:\"\\u010Caj \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/caj-maniak\",children:\"\\u010Caj\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/streamtape-viteznej-oblouk\",children:\"StreamTape: V\\xEDt\\u011Bznej oblouk\"}),\" (2026).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/caj-maniak.mdx",
   "_raw": {

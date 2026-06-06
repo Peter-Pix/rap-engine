@@ -12,16 +12,19 @@
   "album": "Aura",
   "albumSlug": "aura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:07",
   "trackNumber": 17,
   "producers": [],
   "producersNames": [],
   "description": "Kryl mi záda Karel — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!h.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?c(f(e)):{},u(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var d=g((D,l)=>{l.exports=_jsx_runtime});var K={};j(K,{default:()=>m,frontmatter:()=>y});var r=_(d()),y={title:\"Kryl mi z\\xE1da Karel\",slug:\"kryl-mi-zada-karel-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"5:07\",trackNumber:17,producers:[],producersNames:[],description:\"Kryl mi z\\xE1da Karel \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(K);})();\n;return Component;"
+    "raw": "\n**[Kryl mi záda Karel](/skladby/kryl-mi-zada-karel-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Aura](/alba/aura) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)l(r,t,{get:e[t],enumerable:!0})},d=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!g.call(r,n)&&n!==t&&l(r,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return r};var b=(r,e,t)=>(t=r!=null?m(h(r)):{},d(e||!r||!r.__esModule?l(t,\"default\",{value:r,enumerable:!0}):t,r)),y=r=>d(l({},\"__esModule\",{value:!0}),r);var i=j((_,o)=>{o.exports=_jsx_runtime});var z={};x(z,{default:()=>c,frontmatter:()=>k});var a=b(i()),k={title:\"Kryl mi z\\xE1da Karel\",slug:\"kryl-mi-zada-karel-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[\"\"],duration:\"5:07\",trackNumber:17,producers:[],producersNames:[],description:\"Kryl mi z\\xE1da Karel \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/kryl-mi-zada-karel-dj-fatte\",children:\"Kryl mi z\\xE1da Karel\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/aura\",children:\"Aura\"}),\" (2022).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return y(z);})();\n;return Component;"
   },
   "_id": "skladby/kryl-mi-zada-karel-dj-fatte.mdx",
   "_raw": {

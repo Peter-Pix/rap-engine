@@ -8,16 +8,19 @@
   "album": "Bieber Fever",
   "albumSlug": "bieber-fever",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:46",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Big Time — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of b(t))!g.call(e,a)&&a!==n&&i(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(x(e)):{},s(t||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var m=h((F,c)=>{c.exports=_jsx_runtime});var C={};f(C,{default:()=>l,frontmatter:()=>N});var r=_(m()),N={title:\"Big Time\",slug:\"big-time-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[],duration:\"1:46\",trackNumber:2,producers:[],producersNames:[],description:\"Big Time \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Big Time](/skladby/big-time-calin)** od [Calin](/raperi/calin) z alba [Bieber Fever](/alba/bieber-fever) (2024).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},o=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!g.call(r,a)&&a!==t&&i(r,a,{get:()=>e[a],enumerable:!(s=b(e,a))||s.enumerable});return r};var _=(r,e,t)=>(t=r!=null?m(f(r)):{},o(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>o(i({},\"__esModule\",{value:!0}),r);var l=h((v,c)=>{c.exports=_jsx_runtime});var C={};x(C,{default:()=>d,frontmatter:()=>B});var n=_(l()),B={title:\"Big Time\",slug:\"big-time-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[\"\"],duration:\"1:46\",trackNumber:2,producers:[],producersNames:[],description:\"Big Time \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/big-time-calin\",children:\"Big Time\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/bieber-fever\",children:\"Bieber Fever\"}),\" (2024).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(u,{...r})}):u(r)}return j(C);})();\n;return Component;"
   },
   "_id": "skladby/big-time-calin.mdx",
   "_raw": {

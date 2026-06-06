@@ -16,16 +16,19 @@
   "album": "Rap",
   "albumSlug": "rap",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:54",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Nech Nás Jít — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),N=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(f(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>c(s({},\"__esModule\",{value:!0}),e);var i=j((v,u)=>{u.exports=_jsx_runtime});var F={};N(F,{default:()=>l,frontmatter:()=>g});var r=_(i()),g={title:\"Nech N\\xE1s J\\xEDt\",slug:\"nech-nas-jit-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"vaclav-roucek\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Vaclav Roucek\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[],duration:\"7:54\",trackNumber:15,producers:[],producersNames:[],description:\"Nech N\\xE1s J\\xEDt \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(F);})();\n;return Component;"
+    "raw": "\n**[Nech Nás Jít](/skladby/nech-nas-jit-if)** z alba [Rap](/alba/rap) (2015).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var N=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var a in e)s(t,a,{get:e[a],enumerable:!0})},o=(t,e,a,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!x.call(t,n)&&n!==a&&s(t,n,{get:()=>e[n],enumerable:!(c=f(e,n))||c.enumerable});return t};var j=(t,e,a)=>(a=t!=null?p(m(t)):{},o(e||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>o(s({},\"__esModule\",{value:!0}),t);var i=N((v,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>d,frontmatter:()=>_});var r=j(i()),_={title:\"Nech N\\xE1s J\\xEDt\",slug:\"nech-nas-jit-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"vaclav-roucek\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Vaclav Roucek\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[\"\"],duration:\"7:54\",trackNumber:15,producers:[],producersNames:[],description:\"Nech N\\xE1s J\\xEDt \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nech-nas-jit-if\",children:\"Nech N\\xE1s J\\xEDt\"})}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/rap\",children:\"Rap\"}),\" (2015).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(l,{...t})}):l(t)}return g(k);})();\n;return Component;"
   },
   "_id": "skladby/nech-nas-jit-if.mdx",
   "_raw": {

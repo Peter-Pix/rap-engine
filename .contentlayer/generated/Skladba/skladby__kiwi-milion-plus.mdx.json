@@ -16,16 +16,19 @@
   "album": "KRTEK MONEY LIFE",
   "albumSlug": "krtek-money-life",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:55",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "KIWI — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==r&&i(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var K=(e,n,r)=>(r=e!=null?c(f(e)):{},s(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var u=b((I,l)=>{l.exports=_jsx_runtime});var M={};k(M,{default:()=>d,frontmatter:()=>g});var t=K(u()),g={title:\"KIWI\",slug:\"kiwi-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"karlo\",\"yzomandias\",\"fobia-kid\"],featuresNames:[\"Karlo\",\"Yzomandias\",\"Fobia Kid\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"1:55\",trackNumber:6,producers:[],producersNames:[],description:\"KIWI \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[KIWI](/skladby/kiwi-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [KRTEK MONEY LIFE](/alba/krtek-money-life) (2018).\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var i in e)a(r,i,{get:e[i],enumerable:!0})},l=(r,e,i,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!b.call(r,o)&&o!==i&&a(r,o,{get:()=>e[o],enumerable:!(t=p(e,o))||t.enumerable});return r};var K=(r,e,i)=>(i=r!=null?c(k(r)):{},l(e||!r||!r.__esModule?a(i,\"default\",{value:r,enumerable:!0}):i,r)),I=r=>l(a({},\"__esModule\",{value:!0}),r);var u=h((E,s)=>{s.exports=_jsx_runtime});var g={};x(g,{default:()=>m,frontmatter:()=>M});var n=K(u()),M={title:\"KIWI\",slug:\"kiwi-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"karlo\",\"yzomandias\",\"fobia-kid\"],featuresNames:[\"Karlo\",\"Yzomandias\",\"Fobia Kid\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[\"\"],duration:\"1:55\",trackNumber:6,producers:[],producersNames:[],description:\"KIWI \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/kiwi-milion-plus\",children:\"KIWI\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/krtek-money-life\",children:\"KRTEK MONEY LIFE\"}),\" (2018).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return I(g);})();\n;return Component;"
   },
   "_id": "skladby/kiwi-milion-plus.mdx",
   "_raw": {

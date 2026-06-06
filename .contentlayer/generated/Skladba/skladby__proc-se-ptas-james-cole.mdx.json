@@ -8,16 +8,19 @@
   "album": "Kapitán Láska (Deluxe Edition)",
   "albumSlug": "kapitan-laska",
   "year": 2009,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:11",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Proč se ptáš — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=d(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(h(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var m=j((M,l)=>{l.exports=_jsx_runtime});var C={};_(C,{default:()=>u,frontmatter:()=>k});var r=b(m()),k={title:\"Pro\\u010D se pt\\xE1\\u0161\",slug:\"proc-se-ptas-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[],duration:\"3:11\",trackNumber:5,producers:[],producersNames:[],description:\"Pro\\u010D se pt\\xE1\\u0161 \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[Proč se ptáš](/skladby/proc-se-ptas-james-cole)** od [James Cole](/raperi/james-cole) z alba [Kapitán Láska (Deluxe Edition)](/alba/kapitan-laska) (2009).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),k=(a,e)=>{for(var t in e)o(a,t,{get:e[t],enumerable:!0})},l=(a,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!h.call(a,s)&&s!==t&&o(a,s,{get:()=>e[s],enumerable:!(n=m(e,s))||n.enumerable});return a};var b=(a,e,t)=>(t=a!=null?d(f(a)):{},l(e||!a||!a.__esModule?o(t,\"default\",{value:a,enumerable:!0}):t,a)),g=a=>l(o({},\"__esModule\",{value:!0}),a);var c=j((y,p)=>{p.exports=_jsx_runtime});var C={};k(C,{default:()=>u,frontmatter:()=>_});var r=b(c()),_={title:\"Pro\\u010D se pt\\xE1\\u0161\",slug:\"proc-se-ptas-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[\"\"],duration:\"3:11\",trackNumber:5,producers:[],producersNames:[],description:\"Pro\\u010D se pt\\xE1\\u0161 \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/proc-se-ptas-james-cole\",children:\"Pro\\u010D se pt\\xE1\\u0161\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/kapitan-laska\",children:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\"}),\" (2009).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(i,{...a})}):i(a)}return g(C);})();\n;return Component;"
   },
   "_id": "skladby/proc-se-ptas-james-cole.mdx",
   "_raw": {

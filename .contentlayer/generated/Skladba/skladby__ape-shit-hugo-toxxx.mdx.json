@@ -12,16 +12,19 @@
   "album": "Bauch Money II",
   "albumSlug": "bauch-money-ii",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:18",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Ape Shit — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var o in t)a(e,o,{get:t[o],enumerable:!0})},s=(e,t,o,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of d(t))!g.call(e,r)&&r!==o&&a(e,r,{get:()=>t[r],enumerable:!(u=h(t,r))||u.enumerable});return e};var _=(e,t,o)=>(o=e!=null?p(l(e)):{},s(t||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),y=e=>s(a({},\"__esModule\",{value:!0}),e);var c=b((A,x)=>{x.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>j});var n=_(c()),j={title:\"Ape Shit\",slug:\"ape-shit-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"z-money\"],featuresNames:[\"Z Money\"],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"3:18\",trackNumber:10,producers:[],producersNames:[],description:\"Ape Shit \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return y(M);})();\n;return Component;"
+    "raw": "\n**[Ape Shit](/skladby/ape-shit-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [Bauch Money II](/alba/bauch-money-ii) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),f=(o,e)=>{for(var r in e)a(o,r,{get:e[r],enumerable:!0})},x=(o,e,r,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of d(e))!g.call(o,n)&&n!==r&&a(o,n,{get:()=>e[n],enumerable:!(u=l(e,n))||u.enumerable});return o};var y=(o,e,r)=>(r=o!=null?p(m(o)):{},x(e||!o||!o.__esModule?a(r,\"default\",{value:o,enumerable:!0}):r,o)),M=o=>x(a({},\"__esModule\",{value:!0}),o);var i=b((A,s)=>{s.exports=_jsx_runtime});var j={};f(j,{default:()=>h,frontmatter:()=>_});var t=y(i()),_={title:\"Ape Shit\",slug:\"ape-shit-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"z-money\"],featuresNames:[\"Z Money\"],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[\"\"],duration:\"3:18\",trackNumber:10,producers:[],producersNames:[],description:\"Ape Shit \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/ape-shit-hugo-toxxx\",children:\"Ape Shit\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/bauch-money-ii\",children:\"Bauch Money II\"}),\" (2020).\"]})}function h(o={}){let{wrapper:e}=o.components||{};return e?(0,t.jsx)(e,{...o,children:(0,t.jsx)(c,{...o})}):c(o)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/ape-shit-hugo-toxxx.mdx",
   "_raw": {

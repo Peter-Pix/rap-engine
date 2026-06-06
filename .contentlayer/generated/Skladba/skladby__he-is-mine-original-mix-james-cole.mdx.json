@@ -8,16 +8,19 @@
   "album": "He Is Mine",
   "albumSlug": "he-is-mine",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:10",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "He Is Mine (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},o=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of x(n))!g.call(e,s)&&s!==r&&i(e,s,{get:()=>n[s],enumerable:!(a=p(n,s))||a.enumerable});return e};var j=(e,n,r)=>(r=e!=null?d(h(e)):{},o(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>o(i({},\"__esModule\",{value:!0}),e);var l=M((I,m)=>{m.exports=_jsx_runtime});var C={};f(C,{default:()=>u,frontmatter:()=>b});var t=j(l()),b={title:\"He Is Mine (Original Mix)\",slug:\"he-is-mine-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"He Is Mine\",albumSlug:\"he-is-mine\",year:2021,genre:[],duration:\"6:10\",trackNumber:2,producers:[],producersNames:[],description:\"He Is Mine (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[He Is Mine (Original Mix)](/skladby/he-is-mine-original-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [He Is Mine](/alba/he-is-mine) (2021).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var M=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var i in e)s(n,i,{get:e[i],enumerable:!0})},o=(n,e,i,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!g.call(n,a)&&a!==i&&s(n,a,{get:()=>e[a],enumerable:!(t=p(e,a))||t.enumerable});return n};var j=(n,e,i)=>(i=n!=null?d(x(n)):{},o(e||!n||!n.__esModule?s(i,\"default\",{value:n,enumerable:!0}):i,n)),b=n=>o(s({},\"__esModule\",{value:!0}),n);var m=M((I,l)=>{l.exports=_jsx_runtime});var C={};f(C,{default:()=>u,frontmatter:()=>_});var r=j(m()),_={title:\"He Is Mine (Original Mix)\",slug:\"he-is-mine-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"He Is Mine\",albumSlug:\"he-is-mine\",year:2021,genre:[\"\"],duration:\"6:10\",trackNumber:2,producers:[],producersNames:[],description:\"He Is Mine (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/he-is-mine-original-mix-james-cole\",children:\"He Is Mine (Original Mix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/he-is-mine\",children:\"He Is Mine\"}),\" (2021).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(c,{...n})}):c(n)}return b(C);})();\n;return Component;"
   },
   "_id": "skladby/he-is-mine-original-mix-james-cole.mdx",
   "_raw": {

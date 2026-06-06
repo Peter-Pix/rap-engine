@@ -1,0 +1,29 @@
+{
+  "title": "The Game",
+  "slug": "the-game",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "Team Green",
+  "year": 2024,
+  "description": "The Game — singl od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/0ac4e8e153dd0d968b96a0ce1bd559bb/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[The Game](/skladby/the-game)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var u=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},l=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!x.call(t,r)&&r!==a&&o(t,r,{get:()=>e[r],enumerable:!(s=m(e,r))||s.enumerable});return t};var f=(t,e,a)=>(a=t!=null?p(g(t)):{},l(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),j=t=>l(o({},\"__esModule\",{value:!0}),t);var c=u((T,b)=>{b.exports=_jsx_runtime});var B={};y(B,{default:()=>d,frontmatter:()=>z});var n=f(c()),z={title:\"The Game\",slug:\"the-game\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"Team Green\",year:2024,description:\"The Game \\u2014 singl od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/0ac4e8e153dd0d968b96a0ce1bd559bb/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/the-game\",children:\"The Game\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(i,{...t})}):i(t)}return j(B);})();\n;return Component;"
+  },
+  "_id": "skladby/the-game.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/the-game.mdx",
+    "sourceFileName": "the-game.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/the-game"
+  },
+  "type": "Skladba",
+  "url": "/skladby/the-game",
+  "canonicalUrl": "https://4rap.cz/skladby/the-game"
+}

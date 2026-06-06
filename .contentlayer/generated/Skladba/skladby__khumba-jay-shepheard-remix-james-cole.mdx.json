@@ -12,16 +12,19 @@
   "album": "Khumba",
   "albumSlug": "khumba",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:09",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Khumba (Jay Shepheard Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var t in a)s(e,t,{get:a[t],enumerable:!0})},o=(e,a,t,m)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of i(a))!b.call(e,n)&&n!==t&&s(e,n,{get:()=>a[n],enumerable:!(m=l(a,n))||m.enumerable});return e};var y=(e,a,t)=>(t=e!=null?p(x(e)):{},o(a||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>o(s({},\"__esModule\",{value:!0}),e);var h=j((k,u)=>{u.exports=_jsx_runtime});var S={};f(S,{default:()=>d,frontmatter:()=>g});var r=y(h()),g={title:\"Khumba (Jay Shepheard Remix)\",slug:\"khumba-jay-shepheard-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"jay-shepheard\"],featuresNames:[\"Jay Shepheard\"],album:\"Khumba\",albumSlug:\"khumba\",year:2018,genre:[],duration:\"6:09\",trackNumber:2,producers:[],producersNames:[],description:\"Khumba (Jay Shepheard Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(a.p,{children:(0,r.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Khumba (Jay Shepheard Remix)](/skladby/khumba-jay-shepheard-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Khumba](/alba/khumba) (2018).\n",
+    "code": "var Component=(()=>{var c=Object.create;var h=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var s in e)h(a,s,{get:e[s],enumerable:!0})},n=(a,e,s,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of i(e))!x.call(a,t)&&t!==s&&h(a,t,{get:()=>e[t],enumerable:!(m=p(e,t))||m.enumerable});return a};var y=(a,e,s)=>(s=a!=null?c(b(a)):{},n(e||!a||!a.__esModule?h(s,\"default\",{value:a,enumerable:!0}):s,a)),g=a=>n(h({},\"__esModule\",{value:!0}),a);var u=j((_,o)=>{o.exports=_jsx_runtime});var J={};f(J,{default:()=>d,frontmatter:()=>k});var r=y(u()),k={title:\"Khumba (Jay Shepheard Remix)\",slug:\"khumba-jay-shepheard-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"jay-shepheard\"],featuresNames:[\"Jay Shepheard\"],album:\"Khumba\",albumSlug:\"khumba\",year:2018,genre:[\"\"],duration:\"6:09\",trackNumber:2,producers:[],producersNames:[],description:\"Khumba (Jay Shepheard Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/khumba-jay-shepheard-remix-james-cole\",children:\"Khumba (Jay Shepheard Remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/khumba\",children:\"Khumba\"}),\" (2018).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(l,{...a})}):l(a)}return g(J);})();\n;return Component;"
   },
   "_id": "skladby/khumba-jay-shepheard-remix-james-cole.mdx",
   "_raw": {

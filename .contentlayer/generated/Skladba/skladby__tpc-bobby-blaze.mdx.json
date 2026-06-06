@@ -8,16 +8,19 @@
   "album": "Tango & Kouř",
   "albumSlug": "tango-kour",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:30",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "TPČ — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of i(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(x(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>u(a({},\"__esModule\",{value:!0}),e);var l=g((k,c)=>{c.exports=_jsx_runtime});var z={};f(z,{default:()=>m,frontmatter:()=>j});var n=_(l()),j={title:\"TP\\u010C\",slug:\"tpc-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[],duration:\"3:30\",trackNumber:2,producers:[],producersNames:[],description:\"TP\\u010C \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return y(z);})();\n;return Component;"
+    "raw": "\n**[TPČ](/skladby/tpc-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Tango & Kouř](/alba/tango-kour) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var o in e)n(r,o,{get:e[o],enumerable:!0})},s=(r,e,o,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!f.call(r,t)&&t!==o&&n(r,t,{get:()=>e[t],enumerable:!(b=i(e,t))||b.enumerable});return r};var x=(r,e,o)=>(o=r!=null?p(g(r)):{},s(e||!r||!r.__esModule?n(o,\"default\",{value:r,enumerable:!0}):o,r)),z=r=>s(n({},\"__esModule\",{value:!0}),r);var u=h((k,l)=>{l.exports=_jsx_runtime});var _={};y(_,{default:()=>d,frontmatter:()=>B});var a=x(u()),B={title:\"TP\\u010C\",slug:\"tpc-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Tango & Kou\\u0159\",albumSlug:\"tango-kour\",year:2024,genre:[\"\"],duration:\"3:30\",trackNumber:2,producers:[],producersNames:[],description:\"TP\\u010C \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/tpc-bobby-blaze\",children:\"TP\\u010C\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/tango-kour\",children:\"Tango & Kou\\u0159\"}),\" (2024).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/tpc-bobby-blaze.mdx",
   "_raw": {

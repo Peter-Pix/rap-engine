@@ -12,16 +12,19 @@
   "album": "Skúsenosti a názor",
   "albumSlug": "skusenosti-a-nazor",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:28",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Skúsenosti a názor — skladba od Saimonsa.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,S=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!S.call(e,t)&&t!==a&&s(e,t,{get:()=>n[t],enumerable:!(o=p(n,t))||o.enumerable});return e};var f=(e,n,a)=>(a=e!=null?l(h(e)):{},i(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>i(s({},\"__esModule\",{value:!0}),e);var m=g((M,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>_});var r=f(m()),_={title:\"Sk\\xFAsenosti a n\\xE1zor\",slug:\"skusenosti-a-nazor-saimonsa\",rapper:\"Saimonsa\",rapperSlug:\"saimonsa\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"Sk\\xFAsenosti a n\\xE1zor\",albumSlug:\"skusenosti-a-nazor\",year:2022,genre:[],duration:\"3:28\",trackNumber:1,producers:[],producersNames:[],description:\"Sk\\xFAsenosti a n\\xE1zor \\u2014 skladba od Saimonsa.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Skúsenosti a názor](/skladby/skusenosti-a-nazor-saimonsa)** (2022).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var S=(s,a)=>()=>(a||s((a={exports:{}}).exports,a),a.exports),f=(s,a)=>{for(var n in a)o(s,n,{get:a[n],enumerable:!0})},i=(s,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of k(a))!x.call(s,r)&&r!==n&&o(s,r,{get:()=>a[r],enumerable:!(t=p(a,r))||t.enumerable});return s};var b=(s,a,n)=>(n=s!=null?l(g(s)):{},i(a||!s||!s.__esModule?o(n,\"default\",{value:s,enumerable:!0}):n,s)),z=s=>i(o({},\"__esModule\",{value:!0}),s);var c=S((y,u)=>{u.exports=_jsx_runtime});var _={};f(_,{default:()=>d,frontmatter:()=>h});var e=b(c()),h={title:\"Sk\\xFAsenosti a n\\xE1zor\",slug:\"skusenosti-a-nazor-saimonsa\",rapper:\"Saimonsa\",rapperSlug:\"saimonsa\",features:[\"sergei-barracuda\"],featuresNames:[\"Sergei Barracuda\"],album:\"Sk\\xFAsenosti a n\\xE1zor\",albumSlug:\"skusenosti-a-nazor\",year:2022,genre:[\"\"],duration:\"3:28\",trackNumber:1,producers:[],producersNames:[],description:\"Sk\\xFAsenosti a n\\xE1zor \\u2014 skladba od Saimonsa.\",publishedAt:\"2026-06-04\"};function m(s){let a={a:\"a\",p:\"p\",strong:\"strong\",...s.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/skusenosti-a-nazor-saimonsa\",children:\"Sk\\xFAsenosti a n\\xE1zor\"})}),\" (2022).\"]})}function d(s={}){let{wrapper:a}=s.components||{};return a?(0,e.jsx)(a,{...s,children:(0,e.jsx)(m,{...s})}):m(s)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/skusenosti-a-nazor-saimonsa.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "SQUADRA AZZURA",
   "albumSlug": "squadra-azzura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:00",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "SQUADRA AZZURA — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),R=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of p(r))!x.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(s=i(r,n))||s.enumerable});return e};var U=(e,r,t)=>(t=e!=null?m(h(e)):{},u(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),f=e=>u(o({},\"__esModule\",{value:!0}),e);var c=b((Z,A)=>{A.exports=_jsx_runtime});var g={};R(g,{default:()=>l,frontmatter:()=>_});var a=U(c()),_={title:\"SQUADRA AZZURA\",slug:\"squadra-azzura-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"SQUADRA AZZURA\",albumSlug:\"squadra-azzura\",year:2022,genre:[],duration:\"2:00\",trackNumber:1,producers:[],producersNames:[],description:\"SQUADRA AZZURA \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return f(g);})();\n;return Component;"
+    "raw": "\n**[SQUADRA AZZURA](/skladby/squadra-azzura-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) (2022).\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,R=Object.prototype.hasOwnProperty;var U=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var e in a)o(r,e,{get:a[e],enumerable:!0})},u=(r,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!R.call(r,t)&&t!==e&&o(r,t,{get:()=>a[t],enumerable:!(s=i(a,t))||s.enumerable});return r};var f=(r,a,e)=>(e=r!=null?h(m(r)):{},u(a||!r||!r.__esModule?o(e,\"default\",{value:r,enumerable:!0}):e,r)),x=r=>u(o({},\"__esModule\",{value:!0}),r);var c=U((D,A)=>{A.exports=_jsx_runtime});var g={};b(g,{default:()=>l,frontmatter:()=>Z});var n=f(c()),Z={title:\"SQUADRA AZZURA\",slug:\"squadra-azzura-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"SQUADRA AZZURA\",albumSlug:\"squadra-azzura\",year:2022,genre:[\"\"],duration:\"2:00\",trackNumber:1,producers:[],producersNames:[],description:\"SQUADRA AZZURA \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/squadra-azzura-ca-hanova-bulhar\",children:\"SQUADRA AZZURA\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" (2022).\"]})}function l(r={}){let{wrapper:a}=r.components||{};return a?(0,n.jsx)(a,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return x(g);})();\n;return Component;"
   },
   "_id": "skladby/squadra-azzura-ca-hanova-bulhar.mdx",
   "_raw": {

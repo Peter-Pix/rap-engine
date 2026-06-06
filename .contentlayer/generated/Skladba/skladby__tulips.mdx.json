@@ -1,0 +1,29 @@
+{
+  "title": "Tulips",
+  "slug": "tulips",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "Calin",
+  "year": 2017,
+  "description": "Tulips — singl od CÂLIN (2017).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/c908106dea844be6fa74ce9e4e765639/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Tulips](/skladby/tulips)** od [Calin](/raperi/calin) (2017).\n",
+    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var t in e)a(n,t,{get:e[t],enumerable:!0})},l=(n,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!f.call(n,s)&&s!==t&&a(n,s,{get:()=>e[s],enumerable:!(i=g(e,s))||i.enumerable});return n};var C=(n,e,t)=>(t=n!=null?u(m(n)):{},l(e||!n||!n.__esModule?a(t,\"default\",{value:n,enumerable:!0}):t,n)),_=n=>l(a({},\"__esModule\",{value:!0}),n);var c=h((D,o)=>{o.exports=_jsx_runtime});var y={};j(y,{default:()=>d,frontmatter:()=>b});var r=C(c()),b={title:\"Tulips\",slug:\"tulips\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"Calin\",year:2017,description:\"Tulips \\u2014 singl od C\\xC2LIN (2017).\",image:\"https://cdn-images.dzcdn.net/images/cover/c908106dea844be6fa74ce9e4e765639/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/tulips\",children:\"Tulips\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2017).\"]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(p,{...n})}):p(n)}return _(y);})();\n;return Component;"
+  },
+  "_id": "skladby/tulips.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/tulips.mdx",
+    "sourceFileName": "tulips.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/tulips"
+  },
+  "type": "Skladba",
+  "url": "/skladby/tulips",
+  "canonicalUrl": "https://4rap.cz/skladby/tulips"
+}

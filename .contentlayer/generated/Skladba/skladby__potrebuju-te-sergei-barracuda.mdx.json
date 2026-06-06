@@ -12,16 +12,19 @@
   "album": "Finesa",
   "albumSlug": "finesa",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Potřebuju tě — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)u(e,a,{get:r[a],enumerable:!0})},o=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!x.call(e,n)&&n!==a&&u(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var j=(e,r,a)=>(a=e!=null?m(g(e)):{},o(r||!e||!e.__esModule?u(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>o(u({},\"__esModule\",{value:!0}),e);var i=h((M,c)=>{c.exports=_jsx_runtime});var C={};f(C,{default:()=>l,frontmatter:()=>S});var t=j(i()),S={title:\"Pot\\u0159ebuju t\\u011B\",slug:\"potrebuju-te-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pil-c\"],featuresNames:[\"Pil C\"],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[],duration:\"3:33\",trackNumber:5,producers:[],producersNames:[],description:\"Pot\\u0159ebuju t\\u011B \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[Potřebuju tě](/skladby/potrebuju-te-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Finesa](/alba/finesa) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var u=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var t in e)u(r,t,{get:e[t],enumerable:!0})},o=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!m.call(r,n)&&n!==t&&u(r,n,{get:()=>e[n],enumerable:!(s=b(e,n))||s.enumerable});return r};var x=(r,e,t)=>(t=r!=null?p(f(r)):{},o(e||!r||!r.__esModule?u(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>o(u({},\"__esModule\",{value:!0}),r);var c=h((y,i)=>{i.exports=_jsx_runtime});var P={};j(P,{default:()=>l,frontmatter:()=>S});var a=x(c()),S={title:\"Pot\\u0159ebuju t\\u011B\",slug:\"potrebuju-te-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pil-c\"],featuresNames:[\"Pil C\"],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[\"\"],duration:\"3:33\",trackNumber:5,producers:[],producersNames:[],description:\"Pot\\u0159ebuju t\\u011B \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/potrebuju-te-sergei-barracuda\",children:\"Pot\\u0159ebuju t\\u011B\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/finesa\",children:\"Finesa\"}),\" (2024).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return _(P);})();\n;return Component;"
   },
   "_id": "skladby/potrebuju-te-sergei-barracuda.mdx",
   "_raw": {

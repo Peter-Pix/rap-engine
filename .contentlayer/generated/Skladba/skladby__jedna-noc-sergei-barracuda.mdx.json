@@ -8,16 +8,19 @@
   "album": "Finesa",
   "albumSlug": "finesa",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:13",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Jedna noc — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},c=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of g(r))!h.call(e,t)&&t!==a&&s(e,t,{get:()=>r[t],enumerable:!(o=p(r,t))||o.enumerable});return e};var _=(e,r,a)=>(a=e!=null?l(x(e)):{},c(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var d=b((N,u)=>{u.exports=_jsx_runtime});var F={};f(F,{default:()=>m,frontmatter:()=>S});var n=_(d()),S={title:\"Jedna noc\",slug:\"jedna-noc-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[],duration:\"4:13\",trackNumber:3,producers:[],producersNames:[],description:\"Jedna noc \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(F);})();\n;return Component;"
+    "raw": "\n**[Jedna noc](/skladby/jedna-noc-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Finesa](/alba/finesa) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!m.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(c=g(e,t))||c.enumerable});return r};var j=(r,e,n)=>(n=r!=null?p(f(r)):{},o(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),_=r=>o(s({},\"__esModule\",{value:!0}),r);var i=h((B,d)=>{d.exports=_jsx_runtime});var k={};x(k,{default:()=>l,frontmatter:()=>S});var a=j(i()),S={title:\"Jedna noc\",slug:\"jedna-noc-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Finesa\",albumSlug:\"finesa\",year:2024,genre:[\"\"],duration:\"4:13\",trackNumber:3,producers:[],producersNames:[],description:\"Jedna noc \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/jedna-noc-sergei-barracuda\",children:\"Jedna noc\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/finesa\",children:\"Finesa\"}),\" (2024).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/jedna-noc-sergei-barracuda.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "No Title",
   "albumSlug": "no-title",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Skywalker — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!k.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(h(e)):{},l(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>l(o({},\"__esModule\",{value:!0}),e);var u=f((S,c)=>{c.exports=_jsx_runtime});var j={};_(j,{default:()=>m,frontmatter:()=>N});var r=b(u()),N={title:\"Skywalker\",slug:\"skywalker-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[],duration:\"3:52\",trackNumber:9,producers:[],producersNames:[],description:\"Skywalker \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Skywalker](/skladby/skywalker-calin)** od [Calin](/raperi/calin) z alba [No Title](/alba/no-title) (2014).\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var a in e)l(r,a,{get:e[a],enumerable:!0})},s=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!h.call(r,n)&&n!==a&&l(r,n,{get:()=>e[n],enumerable:!(o=k(e,n))||o.enumerable});return r};var y=(r,e,a)=>(a=r!=null?p(f(r)):{},s(e||!r||!r.__esModule?l(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>s(l({},\"__esModule\",{value:!0}),r);var c=x((j,i)=>{i.exports=_jsx_runtime});var w={};b(w,{default:()=>d,frontmatter:()=>N});var t=y(c()),N={title:\"Skywalker\",slug:\"skywalker-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"No Title\",albumSlug:\"no-title\",year:2014,genre:[\"\"],duration:\"3:52\",trackNumber:9,producers:[],producersNames:[],description:\"Skywalker \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/skywalker-calin\",children:\"Skywalker\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/no-title\",children:\"No Title\"}),\" (2014).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(u,{...r})}):u(r)}return g(w);})();\n;return Component;"
   },
   "_id": "skladby/skywalker-calin.mdx",
   "_raw": {

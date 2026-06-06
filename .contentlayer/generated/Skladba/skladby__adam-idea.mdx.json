@@ -12,16 +12,19 @@
   "album": "Daleko blíž",
   "albumSlug": "daleko-bliz",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Adam — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)d(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of x(t))!b.call(e,r)&&r!==a&&d(e,r,{get:()=>t[r],enumerable:!(o=p(t,r))||o.enumerable});return e};var g=(e,t,a)=>(a=e!=null?i(h(e)):{},s(t||!e||!e.__esModule?d(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>s(d({},\"__esModule\",{value:!0}),e);var u=f((M,m)=>{m.exports=_jsx_runtime});var A={};_(A,{default:()=>c,frontmatter:()=>j});var n=g(u()),j={title:\"Adam\",slug:\"adam-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"zdenka-predna\"],featuresNames:[\"Zdenka Predna\"],album:\"Daleko bl\\xED\\u017E\",albumSlug:\"daleko-bliz\",year:2012,genre:[],duration:\"3:08\",trackNumber:5,producers:[],producersNames:[],description:\"Adam \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return k(A);})();\n;return Component;"
+    "raw": "\n**[Adam](/skladby/adam-idea)** od [Idea](/raperi/idea) z alba [Daleko blíž](/alba/daleko-bliz) (2012).\n",
+    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var n in e)d(a,n,{get:e[n],enumerable:!0})},s=(a,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!h.call(a,t)&&t!==n&&d(a,t,{get:()=>e[t],enumerable:!(o=p(e,t))||o.enumerable});return a};var g=(a,e,n)=>(n=a!=null?m(f(a)):{},s(e||!a||!a.__esModule?d(n,\"default\",{value:a,enumerable:!0}):n,a)),_=a=>s(d({},\"__esModule\",{value:!0}),a);var i=k((D,l)=>{l.exports=_jsx_runtime});var z={};x(z,{default:()=>u,frontmatter:()=>j});var r=g(i()),j={title:\"Adam\",slug:\"adam-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"zdenka-predna\"],featuresNames:[\"Zdenka Predna\"],album:\"Daleko bl\\xED\\u017E\",albumSlug:\"daleko-bliz\",year:2012,genre:[\"\"],duration:\"3:08\",trackNumber:5,producers:[],producersNames:[],description:\"Adam \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/adam-idea\",children:\"Adam\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/daleko-bliz\",children:\"Daleko bl\\xED\\u017E\"}),\" (2012).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(c,{...a})}):c(a)}return _(z);})();\n;return Component;"
   },
   "_id": "skladby/adam-idea.mdx",
   "_raw": {

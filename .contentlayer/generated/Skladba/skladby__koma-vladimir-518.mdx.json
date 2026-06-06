@@ -8,16 +8,19 @@
   "album": "Idiot",
   "albumSlug": "idiot",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:03",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Koma — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(i=p(t,a))||i.enumerable});return e};var g=(e,t,n)=>(n=e!=null?c(h(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(o({},\"__esModule\",{value:!0}),e);var d=_((N,s)=>{s.exports=_jsx_runtime});var K={};b(K,{default:()=>l,frontmatter:()=>k});var r=g(d()),k={title:\"Koma\",slug:\"koma-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"4:03\",trackNumber:9,producers:[],producersNames:[],description:\"Koma \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(K);})();\n;return Component;"
+    "raw": "\n**[Koma](/skladby/koma-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Idiot](/alba/idiot) (2013).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),g=(a,r)=>{for(var t in r)o(a,t,{get:r[t],enumerable:!0})},d=(a,r,t,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of f(r))!x.call(a,i)&&i!==t&&o(a,i,{get:()=>r[i],enumerable:!(n=p(r,i))||n.enumerable});return a};var _=(a,r,t)=>(t=a!=null?u(h(a)):{},d(r||!a||!a.__esModule?o(t,\"default\",{value:a,enumerable:!0}):t,a)),j=a=>d(o({},\"__esModule\",{value:!0}),a);var l=b((K,s)=>{s.exports=_jsx_runtime});var v={};g(v,{default:()=>c,frontmatter:()=>k});var e=_(l()),k={title:\"Koma\",slug:\"koma-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[\"\"],duration:\"4:03\",trackNumber:9,producers:[],producersNames:[],description:\"Koma \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/koma-vladimir-518\",children:\"Koma\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/idiot\",children:\"Idiot\"}),\" (2013).\"]})}function c(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(m,{...a})}):m(a)}return j(v);})();\n;return Component;"
   },
   "_id": "skladby/koma-vladimir-518.mdx",
   "_raw": {

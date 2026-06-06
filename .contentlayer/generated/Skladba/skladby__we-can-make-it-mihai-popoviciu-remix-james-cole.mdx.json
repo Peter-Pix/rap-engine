@@ -12,16 +12,19 @@
   "album": "Alliwant Wax digital 002",
   "albumSlug": "alliwant-wax-digital-002",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:20",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "We Can Make It (Mihai Popoviciu Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var i in t)o(e,i,{get:t[i],enumerable:!0})},s=(e,t,i,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!g.call(e,n)&&n!==i&&o(e,n,{get:()=>t[n],enumerable:!(r=d(t,n))||r.enumerable});return e};var j=(e,t,i)=>(i=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?o(i,\"default\",{value:e,enumerable:!0}):i,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var c=M((v,m)=>{m.exports=_jsx_runtime});var C={};f(C,{default:()=>u,frontmatter:()=>b});var a=j(c()),b={title:\"We Can Make It (Mihai Popoviciu Remix)\",slug:\"we-can-make-it-mihai-popoviciu-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"mihai-popoviciu\"],featuresNames:[\"Mihai Popoviciu\"],album:\"Alliwant Wax digital 002\",albumSlug:\"alliwant-wax-digital-002\",year:2020,genre:[],duration:\"7:20\",trackNumber:2,producers:[],producersNames:[],description:\"We Can Make It (Mihai Popoviciu Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return _(C);})();\n;return Component;"
+    "raw": "\n**[We Can Make It (Mihai Popoviciu Remix)](/skladby/we-can-make-it-mihai-popoviciu-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Alliwant Wax digital 002](/alba/alliwant-wax-digital-002) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),M=(a,e)=>{for(var t in e)r(a,t,{get:e[t],enumerable:!0})},l=(a,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!g.call(a,o)&&o!==t&&r(a,o,{get:()=>e[o],enumerable:!(n=d(e,o))||n.enumerable});return a};var j=(a,e,t)=>(t=a!=null?p(h(a)):{},l(e||!a||!a.__esModule?r(t,\"default\",{value:a,enumerable:!0}):t,a)),w=a=>l(r({},\"__esModule\",{value:!0}),a);var c=f((v,s)=>{s.exports=_jsx_runtime});var k={};M(k,{default:()=>u,frontmatter:()=>b});var i=j(c()),b={title:\"We Can Make It (Mihai Popoviciu Remix)\",slug:\"we-can-make-it-mihai-popoviciu-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"mihai-popoviciu\"],featuresNames:[\"Mihai Popoviciu\"],album:\"Alliwant Wax digital 002\",albumSlug:\"alliwant-wax-digital-002\",year:2020,genre:[\"\"],duration:\"7:20\",trackNumber:2,producers:[],producersNames:[],description:\"We Can Make It (Mihai Popoviciu Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,i.jsxs)(e.p,{children:[(0,i.jsx)(e.strong,{children:(0,i.jsx)(e.a,{href:\"/skladby/we-can-make-it-mihai-popoviciu-remix-james-cole\",children:\"We Can Make It (Mihai Popoviciu Remix)\"})}),\" od \",(0,i.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,i.jsx)(e.a,{href:\"/alba/alliwant-wax-digital-002\",children:\"Alliwant Wax digital 002\"}),\" (2020).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,i.jsx)(e,{...a,children:(0,i.jsx)(m,{...a})}):m(a)}return w(k);})();\n;return Component;"
   },
   "_id": "skladby/we-can-make-it-mihai-popoviciu-remix-james-cole.mdx",
   "_raw": {

@@ -22,16 +22,19 @@
   "album": "KRTEK MONEY LIFE",
   "albumSlug": "krtek-money-life",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:41",
   "trackNumber": 16,
   "producers": [],
   "producersNames": [],
   "description": "RODINA — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!x.call(n,t)&&t!==r&&a(n,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return n};var b=(n,e,r)=>(r=n!=null?d(k(n)):{},i(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>i(a({},\"__esModule\",{value:!0}),n);var u=f((N,l)=>{l.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>j});var o=b(u()),j={title:\"RODINA\",slug:\"rodina-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"koky\",\"hasan\",\"karlo\",\"orion\",\"yzomandias\",\"jickson\"],featuresNames:[\"Koky\",\"Hasan\",\"Karlo\",\"Orion\",\"Yzomandias\",\"Jickson\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"4:41\",trackNumber:16,producers:[],producersNames:[],description:\"RODINA \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function m(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(e.p,{children:(0,o.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(m,{...n})}):m(n)}return g(y);})();\n;return Component;"
+    "raw": "\n**[RODINA](/skladby/rodina-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [KRTEK MONEY LIFE](/alba/krtek-money-life) (2018).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,n)=>()=>(n||r((n={exports:{}}).exports,n),n.exports),b=(r,n)=>{for(var o in n)i(r,o,{get:n[o],enumerable:!0})},t=(r,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of k(n))!h.call(r,a)&&a!==o&&i(r,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return r};var y=(r,n,o)=>(o=r!=null?m(f(r)):{},t(n||!r||!r.__esModule?i(o,\"default\",{value:r,enumerable:!0}):o,r)),M=r=>t(i({},\"__esModule\",{value:!0}),r);var u=x((E,l)=>{l.exports=_jsx_runtime});var g={};b(g,{default:()=>d,frontmatter:()=>N});var e=y(u()),N={title:\"RODINA\",slug:\"rodina-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"koky\",\"hasan\",\"karlo\",\"orion\",\"yzomandias\",\"jickson\"],featuresNames:[\"Koky\",\"Hasan\",\"Karlo\",\"Orion\",\"Yzomandias\",\"Jickson\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[\"\"],duration:\"4:41\",trackNumber:16,producers:[],producersNames:[],description:\"RODINA \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function c(r){let n={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:(0,e.jsx)(n.a,{href:\"/skladby/rodina-milion-plus\",children:\"RODINA\"})}),\" od \",(0,e.jsx)(n.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,e.jsx)(n.a,{href:\"/alba/krtek-money-life\",children:\"KRTEK MONEY LIFE\"}),\" (2018).\"]})}function d(r={}){let{wrapper:n}=r.components||{};return n?(0,e.jsx)(n,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return M(g);})();\n;return Component;"
   },
   "_id": "skladby/rodina-milion-plus.mdx",
   "_raw": {

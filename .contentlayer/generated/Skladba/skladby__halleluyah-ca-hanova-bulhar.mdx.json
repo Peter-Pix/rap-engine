@@ -12,16 +12,19 @@
   "album": "DRIPOLAR",
   "albumSlug": "dripolar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:25",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "HALLELUYAH — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var A=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var L=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)o(e,a,{get:r[a],enumerable:!0})},u=(e,r,a,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!x.call(e,n)&&n!==a&&o(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var H=(e,r,a)=>(a=e!=null?i(A(e)):{},u(r||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>u(o({},\"__esModule\",{value:!0}),e);var c=L((N,l)=>{l.exports=_jsx_runtime});var g={};b(g,{default:()=>d,frontmatter:()=>_});var t=H(c()),_={title:\"HALLELUYAH\",slug:\"halleluyah-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"yzomandias\"],featuresNames:[\"Yzomandias\"],album:\"DRIPOLAR\",albumSlug:\"dripolar\",year:2022,genre:[],duration:\"3:25\",trackNumber:2,producers:[],producersNames:[],description:\"HALLELUYAH \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return f(g);})();\n;return Component;"
+    "raw": "\n**[HALLELUYAH](/skladby/halleluyah-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [DRIPOLAR](/alba/dripolar) (2022).\n",
+    "code": "var Component=(()=>{var A=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var L=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),H=(r,a)=>{for(var n in a)o(r,n,{get:a[n],enumerable:!0})},s=(r,a,n,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of p(a))!m.call(r,t)&&t!==n&&o(r,t,{get:()=>a[t],enumerable:!(l=i(a,t))||l.enumerable});return r};var f=(r,a,n)=>(n=r!=null?A(L(r)):{},s(a||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),x=r=>s(o({},\"__esModule\",{value:!0}),r);var c=b((N,u)=>{u.exports=_jsx_runtime});var R={};H(R,{default:()=>d,frontmatter:()=>g});var e=f(c()),g={title:\"HALLELUYAH\",slug:\"halleluyah-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"yzomandias\"],featuresNames:[\"Yzomandias\"],album:\"DRIPOLAR\",albumSlug:\"dripolar\",year:2022,genre:[\"\"],duration:\"3:25\",trackNumber:2,producers:[],producersNames:[],description:\"HALLELUYAH \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function h(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/halleluyah-ca-hanova-bulhar\",children:\"HALLELUYAH\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/dripolar\",children:\"DRIPOLAR\"}),\" (2022).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(h,{...r})}):h(r)}return x(R);})();\n;return Component;"
   },
   "_id": "skladby/halleluyah-ca-hanova-bulhar.mdx",
   "_raw": {

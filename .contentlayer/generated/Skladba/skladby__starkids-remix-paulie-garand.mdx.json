@@ -16,16 +16,19 @@
   "album": "Starkids (Remix)",
   "albumSlug": "starkids-remix",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:15",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Starkids (Remix) — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},o=(e,r,a,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!k.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(i=p(r,n))||i.enumerable});return e};var f=(e,r,a)=>(a=e!=null?l(h(e)):{},o(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var d=g((M,u)=>{u.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>S});var t=f(d()),S={title:\"Starkids (Remix)\",slug:\"starkids-remix-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"ben-cristovao\",\"majk-spirit\",\"luecash\"],featuresNames:[\"Ben Cristovao\",\"Majk Spirit\",\"LueCash\"],album:\"Starkids (Remix)\",albumSlug:\"starkids-remix\",year:2023,genre:[],duration:\"3:15\",trackNumber:1,producers:[],producersNames:[],description:\"Starkids (Remix) \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(_);})();\n;return Component;"
+    "raw": "\n**[Starkids (Remix)](/skladby/starkids-remix-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) (2023).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),f=(a,r)=>{for(var e in r)s(a,e,{get:r[e],enumerable:!0})},d=(a,r,e,n)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let i of x(r))!g.call(a,i)&&i!==e&&s(a,i,{get:()=>r[i],enumerable:!(n=m(r,i))||n.enumerable});return a};var b=(a,r,e)=>(e=a!=null?c(k(a)):{},d(r||!a||!a.__esModule?s(e,\"default\",{value:a,enumerable:!0}):e,a)),j=a=>d(s({},\"__esModule\",{value:!0}),a);var u=h((M,o)=>{o.exports=_jsx_runtime});var _={};f(_,{default:()=>p,frontmatter:()=>S});var t=b(u()),S={title:\"Starkids (Remix)\",slug:\"starkids-remix-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"ben-cristovao\",\"majk-spirit\",\"luecash\"],featuresNames:[\"Ben Cristovao\",\"Majk Spirit\",\"LueCash\"],album:\"Starkids (Remix)\",albumSlug:\"starkids-remix\",year:2023,genre:[\"\"],duration:\"3:15\",trackNumber:1,producers:[],producersNames:[],description:\"Starkids (Remix) \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/starkids-remix-paulie-garand\",children:\"Starkids (Remix)\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" (2023).\"]})}function p(a={}){let{wrapper:r}=a.components||{};return r?(0,t.jsx)(r,{...a,children:(0,t.jsx)(l,{...a})}):l(a)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/starkids-remix-paulie-garand.mdx",
   "_raw": {

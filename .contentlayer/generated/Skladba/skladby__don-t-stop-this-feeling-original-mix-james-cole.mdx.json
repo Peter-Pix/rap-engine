@@ -8,16 +8,19 @@
   "album": "Don't Stop This Feeling",
   "albumSlug": "don-t-stop-this-feeling",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:17",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Don't Stop This Feeling (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var o in t)s(e,o,{get:t[o],enumerable:!0})},a=(e,t,o,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!x.call(e,r)&&r!==o&&s(e,r,{get:()=>t[r],enumerable:!(i=d(t,r))||i.enumerable});return e};var _=(e,t,o)=>(o=e!=null?u(h(e)):{},a(t||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>a(s({},\"__esModule\",{value:!0}),e);var m=f((M,l)=>{l.exports=_jsx_runtime});var D={};j(D,{default:()=>p,frontmatter:()=>S});var n=_(m()),S={title:\"Don't Stop This Feeling (Original Mix)\",slug:\"don-t-stop-this-feeling-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Don't Stop This Feeling\",albumSlug:\"don-t-stop-this-feeling\",year:2020,genre:[],duration:\"6:17\",trackNumber:1,producers:[],producersNames:[],description:\"Don't Stop This Feeling (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Don't Stop This Feeling (Original Mix)](/skladby/don-t-stop-this-feeling-original-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Don't Stop This Feeling](/alba/don-t-stop-this-feeling) (2020).\n",
+    "code": "var Component=(()=>{var g=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var o in e)r(t,o,{get:e[o],enumerable:!0})},a=(t,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!f.call(t,i)&&i!==o&&r(t,i,{get:()=>e[i],enumerable:!(s=m(e,i))||s.enumerable});return t};var b=(t,e,o)=>(o=t!=null?g(u(t)):{},a(e||!t||!t.__esModule?r(o,\"default\",{value:t,enumerable:!0}):o,t)),D=t=>a(r({},\"__esModule\",{value:!0}),t);var p=x((C,l)=>{l.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>S});var n=b(p()),S={title:\"Don't Stop This Feeling (Original Mix)\",slug:\"don-t-stop-this-feeling-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Don't Stop This Feeling\",albumSlug:\"don-t-stop-this-feeling\",year:2020,genre:[\"\"],duration:\"6:17\",trackNumber:1,producers:[],producersNames:[],description:\"Don't Stop This Feeling (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/don-t-stop-this-feeling-original-mix-james-cole\",children:\"Don't Stop This Feeling (Original Mix)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/don-t-stop-this-feeling\",children:\"Don't Stop This Feeling\"}),\" (2020).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(c,{...t})}):c(t)}return D(M);})();\n;return Component;"
   },
   "_id": "skladby/don-t-stop-this-feeling-original-mix-james-cole.mdx",
   "_raw": {

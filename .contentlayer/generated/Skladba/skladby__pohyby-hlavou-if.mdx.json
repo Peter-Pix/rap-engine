@@ -16,16 +16,19 @@
   "album": "Rap",
   "albumSlug": "rap",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:00",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Pohyby Hlavou — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(f(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var d=y((v,c)=>{c.exports=_jsx_runtime});var F={};b(F,{default:()=>l,frontmatter:()=>j});var r=g(d()),j={title:\"Pohyby Hlavou\",slug:\"pohyby-hlavou-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"mc-gey\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"MC Gey\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[],duration:\"4:00\",trackNumber:3,producers:[],producersNames:[],description:\"Pohyby Hlavou \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return _(F);})();\n;return Component;"
+    "raw": "\n**[Pohyby Hlavou](/skladby/pohyby-hlavou-if)** z alba [Rap](/alba/rap) (2015).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var m=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},u=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of y(e))!f.call(a,o)&&o!==r&&n(a,o,{get:()=>e[o],enumerable:!(s=h(e,o))||s.enumerable});return a};var g=(a,e,r)=>(r=a!=null?i(b(a)):{},u(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),j=a=>u(n({},\"__esModule\",{value:!0}),a);var p=m((k,l)=>{l.exports=_jsx_runtime});var v={};x(v,{default:()=>d,frontmatter:()=>_});var t=g(p()),_={title:\"Pohyby Hlavou\",slug:\"pohyby-hlavou-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"mc-gey\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"MC Gey\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[\"\"],duration:\"4:00\",trackNumber:3,producers:[],producersNames:[],description:\"Pohyby Hlavou \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/pohyby-hlavou-if\",children:\"Pohyby Hlavou\"})}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/rap\",children:\"Rap\"}),\" (2015).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(c,{...a})}):c(a)}return j(v);})();\n;return Component;"
   },
   "_id": "skladby/pohyby-hlavou-if.mdx",
   "_raw": {

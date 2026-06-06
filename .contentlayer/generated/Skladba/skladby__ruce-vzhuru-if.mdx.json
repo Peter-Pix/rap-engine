@@ -14,16 +14,19 @@
   "album": "Stop Play",
   "albumSlug": "stop-play",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:15",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Ruce Vzhůru — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)u(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&u(e,a,{get:()=>t[a],enumerable:!(o=m(t,a))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(f(e)):{},s(t||!e||!e.__esModule?u(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var d=_((z,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>p,frontmatter:()=>F});var r=g(d()),F={title:\"Ruce Vzh\\u016Fru\",slug:\"ruce-vzhuru-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[],duration:\"3:15\",trackNumber:4,producers:[],producersNames:[],description:\"Ruce Vzh\\u016Fru \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Ruce Vzhůru](/skladby/ruce-vzhuru-if)** z alba [Stop Play](/alba/stop-play) (2016).\n",
+    "code": "var Component=(()=>{var i=Object.create;var u=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var t in e)u(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!x.call(r,n)&&n!==t&&u(r,n,{get:()=>e[n],enumerable:!(o=f(e,n))||o.enumerable});return r};var y=(r,e,t)=>(t=r!=null?i(m(r)):{},s(e||!r||!r.__esModule?u(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>s(u({},\"__esModule\",{value:!0}),r);var l=b((k,c)=>{c.exports=_jsx_runtime});var _={};g(_,{default:()=>d,frontmatter:()=>z});var a=y(l()),z={title:\"Ruce Vzh\\u016Fru\",slug:\"ruce-vzhuru-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\"],featuresNames:[\"Idea\",\"DJ Fatte\"],album:\"Stop Play\",albumSlug:\"stop-play\",year:2016,genre:[\"\"],duration:\"3:15\",trackNumber:4,producers:[],producersNames:[],description:\"Ruce Vzh\\u016Fru \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/ruce-vzhuru-if\",children:\"Ruce Vzh\\u016Fru\"})}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/stop-play\",children:\"Stop Play\"}),\" (2016).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(p,{...r})}):p(r)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/ruce-vzhuru-if.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Ať se to neposere!",
   "albumSlug": "at-se-to-neposere",
   "year": 2016,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:23",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Ať se to neposere! — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let s of x(r))!h.call(e,s)&&s!==n&&o(e,s,{get:()=>r[s],enumerable:!(a=d(r,s))||a.enumerable});return e};var g=(e,r,n)=>(n=e!=null?c(f(e)):{},i(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>i(o({},\"__esModule\",{value:!0}),e);var p=_((C,m)=>{m.exports=_jsx_runtime});var A={};b(A,{default:()=>u,frontmatter:()=>j});var t=g(p()),j={title:\"A\\u0165 se to neposere!\",slug:\"at-se-to-neposere-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"ctrl-priss\"],featuresNames:[\"Mike Trafik\",\"CTRL Priss\"],album:\"A\\u0165 se to neposere!\",albumSlug:\"at-se-to-neposere\",year:2016,genre:[],duration:\"5:23\",trackNumber:1,producers:[],producersNames:[],description:\"A\\u0165 se to neposere! \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return k(A);})();\n;return Component;"
+    "raw": "\n**[Ať se to neposere!](/skladby/at-se-to-neposere-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) (2016).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!h.call(r,o)&&o!==t&&n(r,o,{get:()=>e[o],enumerable:!(a=u(e,o))||a.enumerable});return r};var b=(r,e,t)=>(t=r!=null?c(x(r)):{},i(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>i(n({},\"__esModule\",{value:!0}),r);var l=g((M,d)=>{d.exports=_jsx_runtime});var A={};k(A,{default:()=>m,frontmatter:()=>j});var s=b(l()),j={title:\"A\\u0165 se to neposere!\",slug:\"at-se-to-neposere-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"mike-trafik\",\"ctrl-priss\"],featuresNames:[\"Mike Trafik\",\"CTRL Priss\"],album:\"A\\u0165 se to neposere!\",albumSlug:\"at-se-to-neposere\",year:2016,genre:[\"\"],duration:\"5:23\",trackNumber:1,producers:[],producersNames:[],description:\"A\\u0165 se to neposere! \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/at-se-to-neposere-vladimir-518\",children:\"A\\u0165 se to neposere!\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" (2016).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(p,{...r})}):p(r)}return _(A);})();\n;return Component;"
   },
   "_id": "skladby/at-se-to-neposere-vladimir-518.mdx",
   "_raw": {

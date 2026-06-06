@@ -8,16 +8,19 @@
   "album": "Doggin em",
   "albumSlug": "doggin-em",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:30",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Throw it — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(i=p(t,a))||i.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(g(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>s(o({},\"__esModule\",{value:!0}),e);var u=f((D,m)=>{m.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>j});var n=b(u()),j={title:\"Throw it\",slug:\"throw-it-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Doggin em\",albumSlug:\"doggin-em\",year:2024,genre:[],duration:\"3:30\",trackNumber:4,producers:[],producersNames:[],description:\"Throw it \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return k(M);})();\n;return Component;"
+    "raw": "\n**[Throw it](/skladby/throw-it-maniak)** od [Maniak](/raperi/maniak) z alba [Doggin em](/alba/doggin-em) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(i=g(e,t))||i.enumerable});return r};var b=(r,e,n)=>(n=r!=null?l(p(r)):{},s(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),w=r=>s(o({},\"__esModule\",{value:!0}),r);var c=k((D,m)=>{m.exports=_jsx_runtime});var _={};x(_,{default:()=>u,frontmatter:()=>M});var a=b(c()),M={title:\"Throw it\",slug:\"throw-it-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Doggin em\",albumSlug:\"doggin-em\",year:2024,genre:[\"\"],duration:\"3:30\",trackNumber:4,producers:[],producersNames:[],description:\"Throw it \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/throw-it-maniak\",children:\"Throw it\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/doggin-em\",children:\"Doggin em\"}),\" (2024).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return w(_);})();\n;return Component;"
   },
   "_id": "skladby/throw-it-maniak.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Horizonty",
   "albumSlug": "horizonty",
   "year": 2009,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:54",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Cesta Florencie - Řím — skladba od Bpm.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(a({},\"__esModule\",{value:!0}),e);var c=f((M,i)=>{i.exports=_jsx_runtime});var C={};_(C,{default:()=>u,frontmatter:()=>y});var r=g(c()),y={title:\"Cesta Florencie - \\u0158\\xEDm\",slug:\"cesta-florencie-rim-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[\"habbiel\"],featuresNames:[\"Habbiel\"],album:\"Horizonty\",albumSlug:\"horizonty\",year:2009,genre:[],duration:\"3:54\",trackNumber:6,producers:[],producersNames:[],description:\"Cesta Florencie - \\u0158\\xEDm \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Cesta Florencie - Řím](/skladby/cesta-florencie-rim-bpm)** z alba [Horizonty](/alba/horizonty) (2009).\n",
+    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!h.call(r,o)&&o!==t&&a(r,o,{get:()=>e[o],enumerable:!(s=b(e,o))||s.enumerable});return r};var y=(r,e,t)=>(t=r!=null?u(f(r)):{},i(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>i(a({},\"__esModule\",{value:!0}),r);var l=x((k,c)=>{c.exports=_jsx_runtime});var z={};g(z,{default:()=>p,frontmatter:()=>j});var n=y(l()),j={title:\"Cesta Florencie - \\u0158\\xEDm\",slug:\"cesta-florencie-rim-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[\"habbiel\"],featuresNames:[\"Habbiel\"],album:\"Horizonty\",albumSlug:\"horizonty\",year:2009,genre:[\"\"],duration:\"3:54\",trackNumber:6,producers:[],producersNames:[],description:\"Cesta Florencie - \\u0158\\xEDm \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/cesta-florencie-rim-bpm\",children:\"Cesta Florencie - \\u0158\\xEDm\"})}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/horizonty\",children:\"Horizonty\"}),\" (2009).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(m,{...r})}):m(r)}return _(z);})();\n;return Component;"
   },
   "_id": "skladby/cesta-florencie-rim-bpm.mdx",
   "_raw": {

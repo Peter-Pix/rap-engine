@@ -8,16 +8,19 @@
   "album": "FLEX SYMBOL",
   "albumSlug": "flex-symbol",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:32",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Zlatý časy — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},l=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!b.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var y=(e,t,r)=>(r=e!=null?i(x(e)):{},l(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var c=A((N,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>g});var a=y(c()),g={title:\"Zlat\\xFD \\u010Dasy\",slug:\"zlaty-casy-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"FLEX SYMBOL\",albumSlug:\"flex-symbol\",year:2023,genre:[],duration:\"2:32\",trackNumber:3,producers:[],producersNames:[],description:\"Zlat\\xFD \\u010Dasy \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(m,{...e})}):m(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Zlatý časy](/skladby/zlaty-casy-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [FLEX SYMBOL](/alba/flex-symbol) (2023).\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),y=(r,a)=>{for(var t in a)s(r,t,{get:a[t],enumerable:!0})},l=(r,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of b(a))!A.call(r,n)&&n!==t&&s(r,n,{get:()=>a[n],enumerable:!(o=p(a,n))||o.enumerable});return r};var x=(r,a,t)=>(t=r!=null?i(m(r)):{},l(a||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),L=r=>l(s({},\"__esModule\",{value:!0}),r);var u=f((_,c)=>{c.exports=_jsx_runtime});var H={};y(H,{default:()=>d,frontmatter:()=>g});var e=x(u()),g={title:\"Zlat\\xFD \\u010Dasy\",slug:\"zlaty-casy-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"FLEX SYMBOL\",albumSlug:\"flex-symbol\",year:2023,genre:[\"\"],duration:\"2:32\",trackNumber:3,producers:[],producersNames:[],description:\"Zlat\\xFD \\u010Dasy \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function h(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/zlaty-casy-ca-hanova-bulhar\",children:\"Zlat\\xFD \\u010Dasy\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/flex-symbol\",children:\"FLEX SYMBOL\"}),\" (2023).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(h,{...r})}):h(r)}return L(H);})();\n;return Component;"
   },
   "_id": "skladby/zlaty-casy-ca-hanova-bulhar.mdx",
   "_raw": {

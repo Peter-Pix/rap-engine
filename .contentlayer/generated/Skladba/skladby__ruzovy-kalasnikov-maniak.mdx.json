@@ -8,16 +8,19 @@
   "album": "Nech Rusa flexit EP",
   "albumSlug": "nech-rusa-flexit-ep",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:05",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Růžový Kalašnikov — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!k.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=d(n,r))||s.enumerable});return e};var b=(e,n,a)=>(a=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var c=f((N,u)=>{u.exports=_jsx_runtime});var j={};_(j,{default:()=>m,frontmatter:()=>v});var t=b(c()),v={title:\"R\\u016F\\u017Eov\\xFD Kala\\u0161nikov\",slug:\"ruzovy-kalasnikov-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Nech Rusa flexit EP\",albumSlug:\"nech-rusa-flexit-ep\",year:2020,genre:[],duration:\"4:05\",trackNumber:4,producers:[],producersNames:[],description:\"R\\u016F\\u017Eov\\xFD Kala\\u0161nikov \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Růžový Kalašnikov](/skladby/ruzovy-kalasnikov-maniak)** od [Maniak](/raperi/maniak) z alba [Nech Rusa flexit EP](/alba/nech-rusa-flexit-ep) (2020).\n",
+    "code": "var Component=(()=>{var k=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),v=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},i=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!h.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var b=(e,a,r)=>(r=e!=null?k(f(e)):{},i(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(o({},\"__esModule\",{value:!0}),e);var u=x((y,l)=>{l.exports=_jsx_runtime});var _={};v(_,{default:()=>d,frontmatter:()=>M});var n=b(u()),M={title:\"R\\u016F\\u017Eov\\xFD Kala\\u0161nikov\",slug:\"ruzovy-kalasnikov-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Nech Rusa flexit EP\",albumSlug:\"nech-rusa-flexit-ep\",year:2020,genre:[\"\"],duration:\"4:05\",trackNumber:4,producers:[],producersNames:[],description:\"R\\u016F\\u017Eov\\xFD Kala\\u0161nikov \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/ruzovy-kalasnikov-maniak\",children:\"R\\u016F\\u017Eov\\xFD Kala\\u0161nikov\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/nech-rusa-flexit-ep\",children:\"Nech Rusa flexit EP\"}),\" (2020).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/ruzovy-kalasnikov-maniak.mdx",
   "_raw": {

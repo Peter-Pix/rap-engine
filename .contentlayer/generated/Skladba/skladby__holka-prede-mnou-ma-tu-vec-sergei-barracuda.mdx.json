@@ -8,16 +8,19 @@
   "album": "Pouliční Ekonomická 3: Láska & Loyalita",
   "albumSlug": "poulicni-ekonomicka-3-laska-loyalita",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:44",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Holka Přede Mnou Má Tu Věc — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of k(r))!h.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(u=p(r,n))||u.enumerable});return e};var f=(e,r,t)=>(t=e!=null?m(g(e)):{},c(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),M=e=>c(o({},\"__esModule\",{value:!0}),e);var i=x((y,s)=>{s.exports=_jsx_runtime});var j={};b(j,{default:()=>d,frontmatter:()=>_});var a=f(i()),_={title:\"Holka P\\u0159ede Mnou M\\xE1 Tu V\\u011Bc\",slug:\"holka-prede-mnou-ma-tu-vec-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[],duration:\"3:44\",trackNumber:6,producers:[],producersNames:[],description:\"Holka P\\u0159ede Mnou M\\xE1 Tu V\\u011Bc \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(l,{...e})}):l(e)}return M(j);})();\n;return Component;"
+    "raw": "\n**[Holka Přede Mnou Má Tu Věc](/skladby/holka-prede-mnou-ma-tu-vec-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Pouliční Ekonomická 3: Láska & Loyalita](/alba/poulicni-ekonomicka-3-laska-loyalita) (2018).\n",
+    "code": "var Component=(()=>{var k=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var o in a)t(e,o,{get:a[o],enumerable:!0})},c=(e,a,o,u)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of p(a))!b.call(e,n)&&n!==o&&t(e,n,{get:()=>a[n],enumerable:!(u=m(a,n))||u.enumerable});return e};var x=(e,a,o)=>(o=e!=null?k(g(e)):{},c(a||!e||!e.__esModule?t(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>c(t({},\"__esModule\",{value:!0}),e);var l=h((L,i)=>{i.exports=_jsx_runtime});var _={};f(_,{default:()=>d,frontmatter:()=>y});var r=x(l()),y={title:\"Holka P\\u0159ede Mnou M\\xE1 Tu V\\u011Bc\",slug:\"holka-prede-mnou-ma-tu-vec-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\",albumSlug:\"poulicni-ekonomicka-3-laska-loyalita\",year:2018,genre:[\"\"],duration:\"3:44\",trackNumber:6,producers:[],producersNames:[],description:\"Holka P\\u0159ede Mnou M\\xE1 Tu V\\u011Bc \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function s(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/holka-prede-mnou-ma-tu-vec-sergei-barracuda\",children:\"Holka P\\u0159ede Mnou M\\xE1 Tu V\\u011Bc\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/poulicni-ekonomicka-3-laska-loyalita\",children:\"Pouli\\u010Dn\\xED Ekonomick\\xE1 3: L\\xE1ska & Loyalita\"}),\" (2018).\"]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(s,{...e})}):s(e)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/holka-prede-mnou-ma-tu-vec-sergei-barracuda.mdx",
   "_raw": {

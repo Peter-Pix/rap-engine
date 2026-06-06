@@ -12,16 +12,19 @@
   "album": "J. Eden Dva",
   "albumSlug": "j-eden-dva",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:34",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Yasmin — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)s(e,a,{get:n[a],enumerable:!0})},m=(e,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&s(e,r,{get:()=>n[r],enumerable:!(o=p(n,r))||o.enumerable});return e};var b=(e,n,a)=>(a=e!=null?l(h(e)):{},m(n||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var i=y((D,d)=>{d.exports=_jsx_runtime});var z={};_(z,{default:()=>c,frontmatter:()=>j});var t=b(i()),j={title:\"Yasmin\",slug:\"yasmin-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"zayo\"],featuresNames:[\"Zayo\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"1:34\",trackNumber:3,producers:[],producersNames:[],description:\"Yasmin \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Yasmin](/skladby/yasmin-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN DVA](/alba/j-eden-dva) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),z=(e,a)=>{for(var r in a)t(e,r,{get:a[r],enumerable:!0})},d=(e,a,r,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of y(a))!h.call(e,s)&&s!==r&&t(e,s,{get:()=>a[s],enumerable:!(o=p(a,s))||o.enumerable});return e};var b=(e,a,r)=>(r=e!=null?l(f(e)):{},d(a||!e||!e.__esModule?t(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(t({},\"__esModule\",{value:!0}),e);var m=x((D,i)=>{i.exports=_jsx_runtime});var Y={};z(Y,{default:()=>u,frontmatter:()=>j});var n=b(m()),j={title:\"Yasmin\",slug:\"yasmin-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"zayo\"],featuresNames:[\"Zayo\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[\"\"],duration:\"1:34\",trackNumber:3,producers:[],producersNames:[],description:\"Yasmin \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/yasmin-yzomandias\",children:\"Yasmin\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/j-eden-dva\",children:\"J. EDEN DVA\"}),\" (2019).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(Y);})();\n;return Component;"
   },
   "_id": "skladby/yasmin-yzomandias.mdx",
   "_raw": {

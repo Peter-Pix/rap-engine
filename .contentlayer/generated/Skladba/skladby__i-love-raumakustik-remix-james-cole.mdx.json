@@ -8,16 +8,19 @@
   "album": "I Love",
   "albumSlug": "i-love",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:11",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "I Love (Raumakustik Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!k.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var i=f((L,u)=>{u.exports=_jsx_runtime});var v={};j(v,{default:()=>c,frontmatter:()=>g});var r=_(i()),g={title:\"I Love (Raumakustik Remix)\",slug:\"i-love-raumakustik-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"I Love\",albumSlug:\"i-love\",year:2021,genre:[],duration:\"3:11\",trackNumber:3,producers:[],producersNames:[],description:\"I Love (Raumakustik Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(v);})();\n;return Component;"
+    "raw": "\n**[I Love (Raumakustik Remix)](/skladby/i-love-raumakustik-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [I Love](/alba/i-love) (2021).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var o in e)s(a,o,{get:e[o],enumerable:!0})},i=(a,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!f.call(a,t)&&t!==o&&s(a,t,{get:()=>e[t],enumerable:!(n=p(e,t))||n.enumerable});return a};var v=(a,e,o)=>(o=a!=null?d(k(a)):{},i(e||!a||!a.__esModule?s(o,\"default\",{value:a,enumerable:!0}):o,a)),b=a=>i(s({},\"__esModule\",{value:!0}),a);var m=h((_,l)=>{l.exports=_jsx_runtime});var L={};j(L,{default:()=>c,frontmatter:()=>g});var r=v(m()),g={title:\"I Love (Raumakustik Remix)\",slug:\"i-love-raumakustik-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"I Love\",albumSlug:\"i-love\",year:2021,genre:[\"\"],duration:\"3:11\",trackNumber:3,producers:[],producersNames:[],description:\"I Love (Raumakustik Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/i-love-raumakustik-remix-james-cole\",children:\"I Love (Raumakustik Remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/i-love\",children:\"I Love\"}),\" (2021).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(u,{...a})}):u(a)}return b(L);})();\n;return Component;"
   },
   "_id": "skladby/i-love-raumakustik-remix-james-cole.mdx",
   "_raw": {

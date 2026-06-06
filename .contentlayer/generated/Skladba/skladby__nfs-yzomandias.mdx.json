@@ -20,16 +20,19 @@
   "album": "J. EDEN E-G3N (#freekarlo edition)",
   "albumSlug": "j-eden-e-g3n",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:12",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "NFS — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),N=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},i=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var g=(e,n,a)=>(a=e!=null?c(b(e)):{},i(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>i(o({},\"__esModule\",{value:!0}),e);var u=h((S,d)=>{d.exports=_jsx_runtime});var j={};N(j,{default:()=>m,frontmatter:()=>_});var t=g(u()),_={title:\"NFS\",slug:\"nfs-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"luca-brassi10x\",\"saul\",\"blako\",\"nik-tendo\"],featuresNames:[\"Nobodylisten\",\"Luca Brassi10x\",\"Saul\",\"Blako\",\"Nik Tendo\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[],duration:\"3:12\",trackNumber:4,producers:[],producersNames:[],description:\"NFS \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[NFS](/skladby/nfs-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-G3N (#freekarlo edition)](/alba/j-eden-e-g3n) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),h=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!N.call(a,o)&&o!==r&&s(a,o,{get:()=>e[o],enumerable:!(t=p(e,o))||t.enumerable});return a};var g=(a,e,r)=>(r=a!=null?m(b(a)):{},i(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),k=a=>i(s({},\"__esModule\",{value:!0}),a);var l=x((E,d)=>{d.exports=_jsx_runtime});var z={};h(z,{default:()=>c,frontmatter:()=>y});var n=g(l()),y={title:\"NFS\",slug:\"nfs-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"luca-brassi10x\",\"saul\",\"blako\",\"nik-tendo\"],featuresNames:[\"Nobodylisten\",\"Luca Brassi10x\",\"Saul\",\"Blako\",\"Nik Tendo\"],album:\"J. EDEN E-G3N (#freekarlo edition)\",albumSlug:\"j-eden-e-g3n\",year:2022,genre:[\"\"],duration:\"3:12\",trackNumber:4,producers:[],producersNames:[],description:\"NFS \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/nfs-yzomandias\",children:\"NFS\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/j-eden-e-g3n\",children:\"J. EDEN E-G3N (#freekarlo edition)\"}),\" (2022).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(u,{...a})}):u(a)}return k(z);})();\n;return Component;"
   },
   "_id": "skladby/nfs-yzomandias.mdx",
   "_raw": {

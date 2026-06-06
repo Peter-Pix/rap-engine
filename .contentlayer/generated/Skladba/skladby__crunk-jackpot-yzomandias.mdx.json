@@ -12,16 +12,19 @@
   "album": "J. Eden Dva",
   "albumSlug": "j-eden-dva",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:42",
   "trackNumber": 20,
   "producers": [],
   "producersNames": [],
   "description": "Crunk Jackpot — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},c=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of k(n))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var _=(e,n,a)=>(a=e!=null?p(x(e)):{},c(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var u=f((C,m)=>{m.exports=_jsx_runtime});var y={};j(y,{default:()=>i,frontmatter:()=>g});var t=_(u()),g={title:\"Crunk Jackpot\",slug:\"crunk-jackpot-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"smack\"],featuresNames:[\"Smack One\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"1:42\",trackNumber:20,producers:[],producersNames:[],description:\"Crunk Jackpot \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return b(y);})();\n;return Component;"
+    "raw": "\n**[Crunk Jackpot](/skladby/crunk-jackpot-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN DVA](/alba/j-eden-dva) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},d=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of k(a))!h.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=l(a,t))||s.enumerable});return e};var b=(e,a,r)=>(r=e!=null?p(f(e)):{},d(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>d(o({},\"__esModule\",{value:!0}),e);var u=j((C,c)=>{c.exports=_jsx_runtime});var y={};x(y,{default:()=>m,frontmatter:()=>g});var n=b(u()),g={title:\"Crunk Jackpot\",slug:\"crunk-jackpot-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"smack\"],featuresNames:[\"Smack One\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[\"\"],duration:\"1:42\",trackNumber:20,producers:[],producersNames:[],description:\"Crunk Jackpot \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/crunk-jackpot-yzomandias\",children:\"Crunk Jackpot\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/j-eden-dva\",children:\"J. EDEN DVA\"}),\" (2019).\"]})}function m(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return z(y);})();\n;return Component;"
   },
   "_id": "skladby/crunk-jackpot-yzomandias.mdx",
   "_raw": {

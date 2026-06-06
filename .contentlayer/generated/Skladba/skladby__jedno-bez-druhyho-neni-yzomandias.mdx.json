@@ -12,16 +12,19 @@
   "album": "J. EDEN E-GEN (mixed by NobodyListen)",
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:00",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "jedno bez druhýho neni — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var d=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var o in n)d(e,o,{get:n[o],enumerable:!0})},a=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==o&&d(e,r,{get:()=>n[r],enumerable:!(s=b(n,r))||s.enumerable});return e};var f=(e,n,o)=>(o=e!=null?l(p(e)):{},a(n||!e||!e.__esModule?d(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>a(d({},\"__esModule\",{value:!0}),e);var m=y((E,i)=>{i.exports=_jsx_runtime});var N={};j(N,{default:()=>c,frontmatter:()=>z});var t=f(m()),z={title:\"jedno bez druh\\xFDho neni\",slug:\"jedno-bez-druhyho-neni-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[],duration:\"2:00\",trackNumber:15,producers:[],producersNames:[],description:\"jedno bez druh\\xFDho neni \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[jedno bez druhýho neni](/skladby/jedno-bez-druhyho-neni-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
+    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var c=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),z=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},s=(n,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let d of c(e))!p.call(n,d)&&d!==r&&a(n,d,{get:()=>e[d],enumerable:!(t=h(e,d))||t.enumerable});return n};var j=(n,e,r)=>(r=n!=null?l(y(n)):{},s(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),f=n=>s(a({},\"__esModule\",{value:!0}),n);var u=x((_,i)=>{i.exports=_jsx_runtime});var g={};z(g,{default:()=>m,frontmatter:()=>N});var o=j(u()),N={title:\"jedno bez druh\\xFDho neni\",slug:\"jedno-bez-druhyho-neni-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"2:00\",trackNumber:15,producers:[],producersNames:[],description:\"jedno bez druh\\xFDho neni \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function b(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/jedno-bez-druhyho-neni-yzomandias\",children:\"jedno bez druh\\xFDho neni\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(b,{...n})}):b(n)}return f(g);})();\n;return Component;"
   },
   "_id": "skladby/jedno-bez-druhyho-neni-yzomandias.mdx",
   "_raw": {

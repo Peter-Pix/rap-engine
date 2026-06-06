@@ -12,16 +12,19 @@
   "album": "THUG LOVE SOFIA",
   "albumSlug": "thug-love-sofia",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Stokujeme blok — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==n&&a(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?d(b(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>u(a({},\"__esModule\",{value:!0}),e);var c=A((H,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>i,frontmatter:()=>g});var o=j(c()),g={title:\"Stokujeme blok\",slug:\"stokujeme-blok-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"THUG LOVE SOFIA\",albumSlug:\"thug-love-sofia\",year:2020,genre:[],duration:\"3:08\",trackNumber:5,producers:[],producersNames:[],description:\"Stokujeme blok \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return k(_);})();\n;return Component;"
+    "raw": "\n**[Stokujeme blok](/skladby/stokujeme-blok-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [THUG LOVE SOFIA](/alba/thug-love-sofia) (2020).\n",
+    "code": "var Component=(()=>{var b=Object.create;var n=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var k=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),f=(o,e)=>{for(var r in e)n(o,r,{get:e[r],enumerable:!0})},u=(o,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!A.call(o,t)&&t!==r&&n(o,t,{get:()=>e[t],enumerable:!(s=d(e,t))||s.enumerable});return o};var j=(o,e,r)=>(r=o!=null?b(p(o)):{},u(e||!o||!o.__esModule?n(r,\"default\",{value:o,enumerable:!0}):r,o)),g=o=>u(n({},\"__esModule\",{value:!0}),o);var c=k((S,l)=>{l.exports=_jsx_runtime});var H={};f(H,{default:()=>i,frontmatter:()=>x});var a=j(c()),x={title:\"Stokujeme blok\",slug:\"stokujeme-blok-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"THUG LOVE SOFIA\",albumSlug:\"thug-love-sofia\",year:2020,genre:[\"\"],duration:\"3:08\",trackNumber:5,producers:[],producersNames:[],description:\"Stokujeme blok \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function h(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/stokujeme-blok-ca-hanova-bulhar\",children:\"Stokujeme blok\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/thug-love-sofia\",children:\"THUG LOVE SOFIA\"}),\" (2020).\"]})}function i(o={}){let{wrapper:e}=o.components||{};return e?(0,a.jsx)(e,{...o,children:(0,a.jsx)(h,{...o})}):h(o)}return g(H);})();\n;return Component;"
   },
   "_id": "skladby/stokujeme-blok-ca-hanova-bulhar.mdx",
   "_raw": {

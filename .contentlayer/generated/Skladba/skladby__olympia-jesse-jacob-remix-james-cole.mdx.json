@@ -12,16 +12,19 @@
   "album": "Alliwant Wax digital 010",
   "albumSlug": "alliwant-wax-digital-010",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:12",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Olympia (Jesse Jacob Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var s in t)r(e,s,{get:t[s],enumerable:!0})},l=(e,t,s,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!j.call(e,n)&&n!==s&&r(e,n,{get:()=>t[n],enumerable:!(o=d(t,n))||o.enumerable});return e};var J=(e,t,s)=>(s=e!=null?p(b(e)):{},l(t||!e||!e.__esModule?r(s,\"default\",{value:e,enumerable:!0}):s,e)),f=e=>l(r({},\"__esModule\",{value:!0}),e);var m=h((C,i)=>{i.exports=_jsx_runtime});var y={};g(y,{default:()=>u,frontmatter:()=>_});var a=J(m()),_={title:\"Olympia (Jesse Jacob Remix)\",slug:\"olympia-jesse-jacob-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"jesse-jacob\"],featuresNames:[\"Jesse Jacob\"],album:\"Alliwant Wax digital 010\",albumSlug:\"alliwant-wax-digital-010\",year:2022,genre:[],duration:\"5:12\",trackNumber:2,producers:[],producersNames:[],description:\"Olympia (Jesse Jacob Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return f(y);})();\n;return Component;"
+    "raw": "\n**[Olympia (Jesse Jacob Remix)](/skladby/olympia-jesse-jacob-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Alliwant Wax digital 010](/alba/alliwant-wax-digital-010) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var g=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),J=(a,e)=>{for(var r in e)l(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!j.call(a,t)&&t!==r&&l(a,t,{get:()=>e[t],enumerable:!(o=u(e,t))||o.enumerable});return a};var f=(a,e,r)=>(r=a!=null?p(b(a)):{},i(e||!a||!a.__esModule?l(r,\"default\",{value:a,enumerable:!0}):r,a)),h=a=>i(l({},\"__esModule\",{value:!0}),a);var c=g((C,n)=>{n.exports=_jsx_runtime});var w={};J(w,{default:()=>d,frontmatter:()=>y});var s=f(c()),y={title:\"Olympia (Jesse Jacob Remix)\",slug:\"olympia-jesse-jacob-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"jesse-jacob\"],featuresNames:[\"Jesse Jacob\"],album:\"Alliwant Wax digital 010\",albumSlug:\"alliwant-wax-digital-010\",year:2022,genre:[\"\"],duration:\"5:12\",trackNumber:2,producers:[],producersNames:[],description:\"Olympia (Jesse Jacob Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/olympia-jesse-jacob-remix-james-cole\",children:\"Olympia (Jesse Jacob Remix)\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,s.jsx)(e.a,{href:\"/alba/alliwant-wax-digital-010\",children:\"Alliwant Wax digital 010\"}),\" (2022).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,s.jsx)(e,{...a,children:(0,s.jsx)(m,{...a})}):m(a)}return h(w);})();\n;return Component;"
   },
   "_id": "skladby/olympia-jesse-jacob-remix-james-cole.mdx",
   "_raw": {

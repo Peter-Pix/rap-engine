@@ -12,16 +12,19 @@
   "album": "Idea x Strýc Nory EP",
   "albumSlug": "idea-x-stryc-nory-ep",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:14",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Tovární nastavení — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!y.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var i=f((S,d)=>{d.exports=_jsx_runtime});var j={};_(j,{default:()=>m,frontmatter:()=>v});var r=b(i()),v={title:\"Tov\\xE1rn\\xED nastaven\\xED\",slug:\"tovarni-nastaveni-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Idea x Str\\xFDc Nory EP\",albumSlug:\"idea-x-stryc-nory-ep\",year:2022,genre:[],duration:\"2:14\",trackNumber:1,producers:[],producersNames:[],description:\"Tov\\xE1rn\\xED nastaven\\xED \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Tovární nastavení](/skladby/tovarni-nastaveni-idea)** od [Idea](/raperi/idea) z alba [Idea x Strýc Nory EP](/alba/idea-x-stryc-nory-ep) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},d=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=x(e,t))||s.enumerable});return r};var b=(r,e,n)=>(n=r!=null?p(y(r)):{},d(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>d(o({},\"__esModule\",{value:!0}),r);var c=h((I,i)=>{i.exports=_jsx_runtime});var _={};v(_,{default:()=>l,frontmatter:()=>N});var a=b(c()),N={title:\"Tov\\xE1rn\\xED nastaven\\xED\",slug:\"tovarni-nastaveni-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\"],featuresNames:[\"Str\\xFDc Nory\"],album:\"Idea x Str\\xFDc Nory EP\",albumSlug:\"idea-x-stryc-nory-ep\",year:2022,genre:[\"\"],duration:\"2:14\",trackNumber:1,producers:[],producersNames:[],description:\"Tov\\xE1rn\\xED nastaven\\xED \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/tovarni-nastaveni-idea\",children:\"Tov\\xE1rn\\xED nastaven\\xED\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/idea-x-stryc-nory-ep\",children:\"Idea x Str\\xFDc Nory EP\"}),\" (2022).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/tovarni-nastaveni-idea.mdx",
   "_raw": {

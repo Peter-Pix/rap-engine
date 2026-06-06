@@ -14,16 +14,19 @@
   "album": "Puff Puff Pass [???]",
   "albumSlug": "puff-puff-pass",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:58",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Puff Puff Pass [???] — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var P=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),k=(e,n)=>{for(var s in n)r(e,s,{get:n[s],enumerable:!0})},u=(e,n,s,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of l(n))!h.call(e,a)&&a!==s&&r(e,a,{get:()=>n[a],enumerable:!(o=d(n,a))||o.enumerable});return e};var _=(e,n,s)=>(s=e!=null?c(x(e)):{},u(n||!e||!e.__esModule?r(s,\"default\",{value:e,enumerable:!0}):s,e)),b=e=>u(r({},\"__esModule\",{value:!0}),e);var m=P((z,f)=>{f.exports=_jsx_runtime});var y={};k(y,{default:()=>p,frontmatter:()=>g});var t=_(m()),g={title:\"Puff Puff Pass [???]\",slug:\"puff-puff-pass-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"dokkeytino\",\"smack\"],featuresNames:[\"Dokkeytino\",\"Smack One\"],album:\"Puff Puff Pass [???]\",albumSlug:\"puff-puff-pass\",year:2024,genre:[],duration:\"3:58\",trackNumber:1,producers:[],producersNames:[],description:\"Puff Puff Pass [???] \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return b(y);})();\n;return Component;"
+    "raw": "\n**[Puff Puff Pass [???]](/skladby/puff-puff-pass-yzomandias)** od [Yzomandias](/raperi/yzomandias) (2024).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var P=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(s,a)=>()=>(a||s((a={exports:{}}).exports,a),a.exports),y=(s,a)=>{for(var e in a)t(s,e,{get:a[e],enumerable:!0})},o=(s,a,e,f)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of l(a))!k.call(s,r)&&r!==e&&t(s,r,{get:()=>a[r],enumerable:!(f=c(a,r))||f.enumerable});return s};var h=(s,a,e)=>(e=s!=null?m(P(s)):{},o(a||!s||!s.__esModule?t(e,\"default\",{value:s,enumerable:!0}):e,s)),g=s=>o(t({},\"__esModule\",{value:!0}),s);var d=x((j,u)=>{u.exports=_jsx_runtime});var b={};y(b,{default:()=>p,frontmatter:()=>z});var n=h(d()),z={title:\"Puff Puff Pass [???]\",slug:\"puff-puff-pass-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"dokkeytino\",\"smack\"],featuresNames:[\"Dokkeytino\",\"Smack One\"],album:\"Puff Puff Pass [???]\",albumSlug:\"puff-puff-pass\",year:2024,genre:[\"\"],duration:\"3:58\",trackNumber:1,producers:[],producersNames:[],description:\"Puff Puff Pass [???] \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(s){let a={a:\"a\",p:\"p\",strong:\"strong\",...s.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/puff-puff-pass-yzomandias\",children:\"Puff Puff Pass [???]\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" (2024).\"]})}function p(s={}){let{wrapper:a}=s.components||{};return a?(0,n.jsx)(a,{...s,children:(0,n.jsx)(i,{...s})}):i(s)}return g(b);})();\n;return Component;"
   },
   "_id": "skladby/puff-puff-pass-yzomandias.mdx",
   "_raw": {

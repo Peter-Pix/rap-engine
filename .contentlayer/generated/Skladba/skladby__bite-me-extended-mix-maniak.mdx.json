@@ -8,16 +8,19 @@
   "album": "Bite Me (Extended Mix)",
   "albumSlug": "bite-me",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:06",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Bite Me (Extended Mix) — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var x=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!h.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?x(M(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var m=b((E,d)=>{d.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>k});var n=_(m()),k={title:\"Bite Me (Extended Mix)\",slug:\"bite-me-extended-mix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Bite Me (Extended Mix)\",albumSlug:\"bite-me\",year:2026,genre:[],duration:\"3:06\",trackNumber:1,producers:[],producersNames:[],description:\"Bite Me (Extended Mix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Bite Me (Extended Mix)](/skladby/bite-me-extended-mix-maniak)** od [Maniak](/raperi/maniak) (2026).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var n in e)i(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!k.call(t,r)&&r!==n&&i(t,r,{get:()=>e[r],enumerable:!(d=l(e,r))||d.enumerable});return t};var h=(t,e,n)=>(n=t!=null?c(M(t)):{},s(e||!t||!t.__esModule?i(n,\"default\",{value:t,enumerable:!0}):n,t)),g=t=>s(i({},\"__esModule\",{value:!0}),t);var m=b((E,o)=>{o.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>_});var a=h(m()),_={title:\"Bite Me (Extended Mix)\",slug:\"bite-me-extended-mix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Bite Me (Extended Mix)\",albumSlug:\"bite-me\",year:2026,genre:[\"\"],duration:\"3:06\",trackNumber:1,producers:[],producersNames:[],description:\"Bite Me (Extended Mix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function x(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/bite-me-extended-mix-maniak\",children:\"Bite Me (Extended Mix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2026).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(x,{...t})}):x(t)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/bite-me-extended-mix-maniak.mdx",
   "_raw": {

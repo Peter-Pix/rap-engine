@@ -12,16 +12,19 @@
   "album": "Mozoly",
   "albumSlug": "mozoly",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Mozoly — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),y=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?m(h(e)):{},l(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>l(a({},\"__esModule\",{value:!0}),e);var c=f((k,u)=>{u.exports=_jsx_runtime});var j={};y(j,{default:()=>i,frontmatter:()=>M});var t=_(c()),M={title:\"Mozoly\",slug:\"mozoly-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"roseck\"],featuresNames:[\"Roseck\"],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[],duration:\"3:08\",trackNumber:2,producers:[],producersNames:[],description:\"Mozoly \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Mozoly](/skladby/mozoly-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Mozoly](/alba/mozoly) (2006).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),z=(e,a)=>{for(var o in a)t(e,o,{get:a[o],enumerable:!0})},s=(e,a,o,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of y(a))!f.call(e,n)&&n!==o&&t(e,n,{get:()=>a[n],enumerable:!(l=m(a,n))||l.enumerable});return e};var x=(e,a,o)=>(o=e!=null?p(g(e)):{},s(a||!e||!e.__esModule?t(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>s(t({},\"__esModule\",{value:!0}),e);var d=h((k,u)=>{u.exports=_jsx_runtime});var _={};z(_,{default:()=>c,frontmatter:()=>M});var r=x(d()),M={title:\"Mozoly\",slug:\"mozoly-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"roseck\"],featuresNames:[\"Roseck\"],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[\"\"],duration:\"3:08\",trackNumber:2,producers:[],producersNames:[],description:\"Mozoly \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/mozoly-paulie-garand\",children:\"Mozoly\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/mozoly\",children:\"Mozoly\"}),\" (2006).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(_);})();\n;return Component;"
   },
   "_id": "skladby/mozoly-paulie-garand.mdx",
   "_raw": {

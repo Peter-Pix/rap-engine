@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { CategoryBadge, NewBadge } from './CategoryBadge'
 import { TagList } from './TagPill'
@@ -13,6 +15,7 @@ import { formatCzechDate, isRecent } from '@/lib/magazine'
 // Footer:      "X min čtení" → arrow (decoration)
 //
 // Celá karta je <Link>. Hover = subtle border highlight + bg shift.
+// Při kliknutí se automaticky označí článek jako přečtený (markRead).
 // ═══════════════════════════════════════════════════════════════
 
 export interface ArticleCardData {
@@ -28,25 +31,32 @@ export interface ArticleCardData {
 
 interface ArticleCardProps {
   article: ArticleCardData
+  isUnread?: boolean
   className?: string
+  onRead?: (slug: string) => void
 }
 
-export function ArticleCard({ article, className = '' }: ArticleCardProps) {
+export function ArticleCard({ article, isUnread = false, className = '', onRead }: ArticleCardProps) {
   const showNew = isRecent(article.publishedAt, 14)
 
   return (
     <Link
       href={article.url}
+      onClick={() => onRead?.(article.slug)}
       className={[
         'group relative flex flex-col rounded-2xl bg-zinc-900/40 ring-1 ring-white/[0.06]',
         'hover:bg-zinc-900/60 hover:ring-white/15 transition-all',
-        'p-6 h-full',
+        'p-4 sm:p-6 h-full',
+        'min-w-0', // prevent overflow on small screens
         className,
       ].join(' ')}
     >
       {/* Header row */}
-      <div className="flex items-center gap-3 mb-4 flex-wrap">
+      <div className="flex items-center gap-2.5 mb-4 flex-wrap">
         <CategoryBadge category={article.category} />
+        {isUnread && (
+          <span className="w-2 h-2 rounded-full bg-emerald-400 ring-2 ring-zinc-950 flex-shrink-0" aria-label="Nepřečteno" />
+        )}
         <time
           dateTime={article.publishedAt}
           className="text-[10px] font-mono uppercase tracking-widest text-zinc-500"
@@ -57,7 +67,7 @@ export function ArticleCard({ article, className = '' }: ArticleCardProps) {
       </div>
 
       {/* Title */}
-      <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white uppercase leading-tight mb-3 group-hover:text-zinc-50 transition-colors">
+      <h2 className="text-lg sm:text-xl lg:text-2xl font-black tracking-tight text-white uppercase leading-tight mb-3 group-hover:text-zinc-50 transition-colors break-words hyphens-auto">
         {article.title}
       </h2>
 
@@ -79,7 +89,7 @@ export function ArticleCard({ article, className = '' }: ArticleCardProps) {
           {article.readingTime ?? 5} min čtení
         </span>
         <svg
-          className="w-4 h-4 text-zinc-600 group-hover:text-emerald-400 group-hover:translate-x-1 transition-all"
+          className="w-4 h-4 text-zinc-600 group-hover:text-emerald-400 group-hover:translate-x-1 transition-all flex-shrink-0"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

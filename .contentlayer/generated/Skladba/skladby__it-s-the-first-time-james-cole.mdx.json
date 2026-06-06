@@ -8,16 +8,19 @@
   "album": "Don't Tell The Truth",
   "albumSlug": "don-t-tell-the-truth",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:06",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "It's The First Time — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),T=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!f.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=h(t,s))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var i=j((D,l)=>{l.exports=_jsx_runtime});var C={};T(C,{default:()=>c,frontmatter:()=>g});var r=_(i()),g={title:\"It's The First Time\",slug:\"it-s-the-first-time-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Don't Tell The Truth\",albumSlug:\"don-t-tell-the-truth\",year:2021,genre:[],duration:\"6:06\",trackNumber:2,producers:[],producersNames:[],description:\"It's The First Time \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return b(C);})();\n;return Component;"
+    "raw": "\n**[It's The First Time](/skladby/it-s-the-first-time-james-cole)** od [James Cole](/raperi/james-cole) z alba [Don't Tell The Truth](/alba/don-t-tell-the-truth) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,T=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var s in e)n(t,s,{get:e[s],enumerable:!0})},l=(t,e,s,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!T.call(t,a)&&a!==s&&n(t,a,{get:()=>e[a],enumerable:!(o=d(e,a))||o.enumerable});return t};var b=(t,e,s)=>(s=t!=null?u(f(t)):{},l(e||!t||!t.__esModule?n(s,\"default\",{value:t,enumerable:!0}):s,t)),g=t=>l(n({},\"__esModule\",{value:!0}),t);var m=j((k,i)=>{i.exports=_jsx_runtime});var C={};x(C,{default:()=>h,frontmatter:()=>_});var r=b(m()),_={title:\"It's The First Time\",slug:\"it-s-the-first-time-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Don't Tell The Truth\",albumSlug:\"don-t-tell-the-truth\",year:2021,genre:[\"\"],duration:\"6:06\",trackNumber:2,producers:[],producersNames:[],description:\"It's The First Time \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/it-s-the-first-time-james-cole\",children:\"It's The First Time\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/don-t-tell-the-truth\",children:\"Don't Tell The Truth\"}),\" (2021).\"]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return g(C);})();\n;return Component;"
   },
   "_id": "skladby/it-s-the-first-time-james-cole.mdx",
   "_raw": {

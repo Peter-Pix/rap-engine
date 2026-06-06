@@ -12,16 +12,19 @@
   "album": "Nepýtam Sa",
   "albumSlug": "nepytam-sa",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:14",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Nepýtam Sa — skladba od Nerieš.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!N.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var p=f((M,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>c,frontmatter:()=>S});var n=b(p()),S={title:\"Nep\\xFDtam Sa\",slug:\"nepytam-sa-neries\",rapper:\"Nerie\\u0161\",rapperSlug:\"neries\",features:[\"yzomandias\"],featuresNames:[\"Yzomandias\"],album:\"Nep\\xFDtam Sa\",albumSlug:\"nepytam-sa\",year:2017,genre:[],duration:\"4:14\",trackNumber:1,producers:[],producersNames:[],description:\"Nep\\xFDtam Sa \\u2014 skladba od Nerie\\u0161.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Nepýtam Sa](/skladby/nepytam-sa-neries)** (2017).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),y=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},m=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of x(t))!f.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(o=l(t,n))||o.enumerable});return e};var b=(e,t,a)=>(a=e!=null?d(N(e)):{},m(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),h=e=>m(s({},\"__esModule\",{value:!0}),e);var i=g((k,p)=>{p.exports=_jsx_runtime});var _={};y(_,{default:()=>c,frontmatter:()=>S});var r=b(i()),S={title:\"Nep\\xFDtam Sa\",slug:\"nepytam-sa-neries\",rapper:\"Nerie\\u0161\",rapperSlug:\"neries\",features:[\"yzomandias\"],featuresNames:[\"Yzomandias\"],album:\"Nep\\xFDtam Sa\",albumSlug:\"nepytam-sa\",year:2017,genre:[\"\"],duration:\"4:14\",trackNumber:1,producers:[],producersNames:[],description:\"Nep\\xFDtam Sa \\u2014 skladba od Nerie\\u0161.\",publishedAt:\"2026-05-31\"};function u(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/nepytam-sa-neries\",children:\"Nep\\xFDtam Sa\"})}),\" (2017).\"]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return h(_);})();\n;return Component;"
   },
   "_id": "skladby/nepytam-sa-neries.mdx",
   "_raw": {

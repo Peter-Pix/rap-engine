@@ -12,16 +12,19 @@
   "album": "White Boy",
   "albumSlug": "white-boy",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Jsem měkkej — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)m(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&m(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?c(k(e)):{},o(t||!e||!e.__esModule?m(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>o(m({},\"__esModule\",{value:!0}),e);var u=j((N,i)=>{i.exports=_jsx_runtime});var y={};b(y,{default:()=>l,frontmatter:()=>g});var r=f(u()),g={title:\"Jsem m\\u011Bkkej\",slug:\"jsem-mekkej-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"7krat3\"],featuresNames:[\"7kr\\xE1t3\"],album:\"White Boy\",albumSlug:\"white-boy\",year:2025,genre:[],duration:\"3:33\",trackNumber:6,producers:[],producersNames:[],description:\"Jsem m\\u011Bkkej \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[Jsem měkkej](/skladby/jsem-mekkej-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [White Boy](/alba/white-boy) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},o=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of p(e))!j.call(r,i)&&i!==a&&n(r,i,{get:()=>e[i],enumerable:!(s=k(e,i))||s.enumerable});return r};var x=(r,e,a)=>(a=r!=null?u(h(r)):{},o(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),g=r=>o(n({},\"__esModule\",{value:!0}),r);var l=b((w,m)=>{m.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>y});var t=x(l()),y={title:\"Jsem m\\u011Bkkej\",slug:\"jsem-mekkej-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"7krat3\"],featuresNames:[\"7kr\\xE1t3\"],album:\"White Boy\",albumSlug:\"white-boy\",year:2025,genre:[\"\"],duration:\"3:33\",trackNumber:6,producers:[],producersNames:[],description:\"Jsem m\\u011Bkkej \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/jsem-mekkej-vladimir-518\",children:\"Jsem m\\u011Bkkej\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/white-boy\",children:\"White Boy\"}),\" (2025).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/jsem-mekkej-vladimir-518.mdx",
   "_raw": {

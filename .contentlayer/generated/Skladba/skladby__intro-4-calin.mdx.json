@@ -8,16 +8,19 @@
   "album": "POPSTAR",
   "albumSlug": "popstar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:06",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Intro 4 — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(a({},\"__esModule\",{value:!0}),e);var i=_((S,u)=>{u.exports=_jsx_runtime});var C={};b(C,{default:()=>m,frontmatter:()=>N});var n=g(i()),N={title:\"Intro 4\",slug:\"intro-4-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"2:06\",trackNumber:1,producers:[],producersNames:[],description:\"Intro 4 \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Intro 4](/skladby/intro-4-calin)** od [Calin](/raperi/calin) z alba [POPSTAR](/alba/popstar) (2022).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of f(r))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=m(r,a))||s.enumerable});return e};var _=(e,r,t)=>(t=e!=null?d(h(e)):{},c(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>c(o({},\"__esModule\",{value:!0}),e);var l=b((P,i)=>{i.exports=_jsx_runtime});var I={};g(I,{default:()=>u,frontmatter:()=>C});var n=_(l()),C={title:\"Intro 4\",slug:\"intro-4-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[\"\"],duration:\"2:06\",trackNumber:1,producers:[],producersNames:[],description:\"Intro 4 \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function p(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/intro-4-calin\",children:\"Intro 4\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/popstar\",children:\"POPSTAR\"}),\" (2022).\"]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return j(I);})();\n;return Component;"
   },
   "_id": "skladby/intro-4-calin.mdx",
   "_raw": {

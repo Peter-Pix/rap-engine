@@ -8,16 +8,19 @@
   "album": "Counted Out Deluxe",
   "albumSlug": "counted-out-deluxe",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:59",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Man Now — skladba od Decky.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(u=p(t,o))||u.enumerable});return e};var g=(e,t,r)=>(r=e!=null?i(h(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>s(a({},\"__esModule\",{value:!0}),e);var d=_((M,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>l,frontmatter:()=>y});var n=g(d()),y={title:\"Man Now\",slug:\"man-now-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[],featuresNames:[],album:\"Counted Out Deluxe\",albumSlug:\"counted-out-deluxe\",year:2024,genre:[],duration:\"1:59\",trackNumber:4,producers:[],producersNames:[],description:\"Man Now \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return k(j);})();\n;return Component;"
+    "raw": "\n**[Man Now](/skladby/man-now-decky)** od [Decky](/raperi/decky) z alba [Counted Out Deluxe](/alba/counted-out-deluxe) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),y=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},c=(n,e,r,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!h.call(n,o)&&o!==r&&a(n,o,{get:()=>e[o],enumerable:!(u=m(e,o))||u.enumerable});return n};var b=(n,e,r)=>(r=n!=null?p(f(n)):{},c(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),g=n=>c(a({},\"__esModule\",{value:!0}),n);var s=k((N,d)=>{d.exports=_jsx_runtime});var w={};y(w,{default:()=>i,frontmatter:()=>D});var t=b(s()),D={title:\"Man Now\",slug:\"man-now-decky\",rapper:\"Decky\",rapperSlug:\"decky\",features:[],featuresNames:[],album:\"Counted Out Deluxe\",albumSlug:\"counted-out-deluxe\",year:2024,genre:[\"\"],duration:\"1:59\",trackNumber:4,producers:[],producersNames:[],description:\"Man Now \\u2014 skladba od Decky.\",publishedAt:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/man-now-decky\",children:\"Man Now\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/counted-out-deluxe\",children:\"Counted Out Deluxe\"}),\" (2024).\"]})}function i(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return g(w);})();\n;return Component;"
   },
   "_id": "skladby/man-now-decky.mdx",
   "_raw": {

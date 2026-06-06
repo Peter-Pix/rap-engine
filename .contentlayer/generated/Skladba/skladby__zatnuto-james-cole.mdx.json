@@ -8,16 +8,19 @@
   "album": "Moby Dick",
   "albumSlug": "moby-dick",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Zatnuto — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var m=f((M,c)=>{c.exports=_jsx_runtime});var y={};j(y,{default:()=>i,frontmatter:()=>k});var n=_(m()),k={title:\"Zatnuto\",slug:\"zatnuto-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[],duration:\"3:07\",trackNumber:2,producers:[],producersNames:[],description:\"Zatnuto \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Zatnuto](/skladby/zatnuto-james-cole)** od [James Cole](/raperi/james-cole) z alba [Moby Dick](/alba/moby-dick) (2013).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var o in e)n(t,o,{get:e[o],enumerable:!0})},c=(t,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of b(e))!h.call(t,r)&&r!==o&&n(t,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return t};var g=(t,e,o)=>(o=t!=null?d(f(t)):{},c(e||!t||!t.__esModule?n(o,\"default\",{value:t,enumerable:!0}):o,t)),k=t=>c(n({},\"__esModule\",{value:!0}),t);var u=j((M,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>i,frontmatter:()=>y});var a=g(u()),y={title:\"Zatnuto\",slug:\"zatnuto-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[\"\"],duration:\"3:07\",trackNumber:2,producers:[],producersNames:[],description:\"Zatnuto \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/zatnuto-james-cole\",children:\"Zatnuto\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/moby-dick\",children:\"Moby Dick\"}),\" (2013).\"]})}function i(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(m,{...t})}):m(t)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/zatnuto-james-cole.mdx",
   "_raw": {

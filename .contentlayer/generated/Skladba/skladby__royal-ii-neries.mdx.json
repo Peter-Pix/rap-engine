@@ -14,16 +14,19 @@
   "album": "Royal II",
   "albumSlug": "royal-ii",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Royal II — skladba od Nerieš.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?d(x(e)):{},i(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var u=y((M,l)=>{l.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>I});var t=_(u()),I={title:\"Royal II\",slug:\"royal-ii-neries\",rapper:\"Nerie\\u0161\",rapperSlug:\"neries\",features:[\"yzomandias\",\"eight-o\"],featuresNames:[\"Yzomandias\",\"Eight O\"],album:\"Royal II\",albumSlug:\"royal-ii\",year:2019,genre:[],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Royal II \\u2014 skladba od Nerie\\u0161.\",publishedAt:\"2026-05-31\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Royal II](/skladby/royal-ii-neries)** (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of y(r))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var I=(e,r,t)=>(t=e!=null?m(g(e)):{},i(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((R,l)=>{l.exports=_jsx_runtime});var j={};h(j,{default:()=>d,frontmatter:()=>_});var n=I(u()),_={title:\"Royal II\",slug:\"royal-ii-neries\",rapper:\"Nerie\\u0161\",rapperSlug:\"neries\",features:[\"yzomandias\",\"eight-o\"],featuresNames:[\"Yzomandias\",\"Eight O\"],album:\"Royal II\",albumSlug:\"royal-ii\",year:2019,genre:[\"\"],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Royal II \\u2014 skladba od Nerie\\u0161.\",publishedAt:\"2026-05-31\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/royal-ii-neries\",children:\"Royal II\"})}),\" (2019).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/royal-ii-neries.mdx",
   "_raw": {

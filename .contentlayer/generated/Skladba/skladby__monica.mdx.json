@@ -1,0 +1,29 @@
+{
+  "title": "Monica",
+  "slug": "monica",
+  "rapper": "ACID BASS CLUB",
+  "rapperSlug": "acid-bass-club",
+  "label": "Virgin Music Label And Artist Services (S&D)",
+  "year": 2026,
+  "description": "Monica — singl od ACID BASS CLUB (2026).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/1675a51d471245d1353e17e66e7ce2df/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Monica](/skladby/monica)** (2026).\n",
+    "code": "var Component=(()=>{var g=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),A=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of u(n))!f.call(e,r)&&r!==t&&a(e,r,{get:()=>n[r],enumerable:!(i=m(n,r))||i.enumerable});return e};var M=(e,n,t)=>(t=e!=null?g(x(e)):{},c(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),S=e=>c(a({},\"__esModule\",{value:!0}),e);var l=h((D,o)=>{o.exports=_jsx_runtime});var j={};A(j,{default:()=>p,frontmatter:()=>b});var s=M(l()),b={title:\"Monica\",slug:\"monica\",rapper:\"ACID BASS CLUB\",rapperSlug:\"acid-bass-club\",label:\"Virgin Music Label And Artist Services (S&D)\",year:2026,description:\"Monica \\u2014 singl od ACID BASS CLUB (2026).\",image:\"https://cdn-images.dzcdn.net/images/cover/1675a51d471245d1353e17e66e7ce2df/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,s.jsxs)(n.p,{children:[(0,s.jsx)(n.strong,{children:(0,s.jsx)(n.a,{href:\"/skladby/monica\",children:\"Monica\"})}),\" (2026).\"]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,s.jsx)(n,{...e,children:(0,s.jsx)(d,{...e})}):d(e)}return S(j);})();\n;return Component;"
+  },
+  "_id": "skladby/monica.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/monica.mdx",
+    "sourceFileName": "monica.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/monica"
+  },
+  "type": "Skladba",
+  "url": "/skladby/monica",
+  "canonicalUrl": "https://4rap.cz/skladby/monica"
+}

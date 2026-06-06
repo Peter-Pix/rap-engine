@@ -42,16 +42,19 @@
   "album": "DANIEL MCS REMIX",
   "albumSlug": "daniel-mcs-remix",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:05",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "DANIEL MCS REMIX — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),M=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!k.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var S=(e,r,n)=>(n=e!=null?c(h(e)):{},l(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>l(o({},\"__esModule\",{value:!0}),e);var d=g((C,i)=>{i.exports=_jsx_runtime});var f={};M(f,{default:()=>m,frontmatter:()=>j});var t=S(d()),j={title:\"DANIEL MCS REMIX\",slug:\"daniel-mcs-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"nik-tendo\",\"rest\",\"hugo-toxxx\",\"karlo\",\"ike\",\"boy-wonder\",\"prezident-lourajder\",\"sosr\",\"spiralshawty\",\"mc-gey\",\"fvck-kvlt\",\"dusan-vlk\",\"supa\",\"pain\",\"gleb\"],featuresNames:[\"Idea\",\"Nik Tendo\",\"Rest\",\"Hugo Toxxx\",\"Karlo\",\"IKE\",\"Boy Wonder\",\"Prezident Lourajder\",\"Sosr\",\"SpiralShawty\",\"MC Gey\",\"Fvck_kvlt\",\"Dusan Vlk\",\"Supa\",\"Pain\",\"Gleb\"],album:\"DANIEL MCS REMIX\",albumSlug:\"daniel-mcs-remix\",year:2026,genre:[],duration:\"6:05\",trackNumber:1,producers:[],producersNames:[],description:\"DANIEL MCS REMIX \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(f);})();\n;return Component;"
+    "raw": "\n**[DANIEL MCS REMIX](/skladby/daniel-mcs-remix-james-cole)** od [James Cole](/raperi/james-cole) (2026).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},l=(r,e,a,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!M.call(r,s)&&s!==a&&n(r,s,{get:()=>e[s],enumerable:!(t=p(e,s))||t.enumerable});return r};var j=(r,e,a)=>(a=r!=null?m(k(r)):{},l(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),f=r=>l(n({},\"__esModule\",{value:!0}),r);var d=g((b,i)=>{i.exports=_jsx_runtime});var I={};h(I,{default:()=>u,frontmatter:()=>C});var o=j(d()),C={title:\"DANIEL MCS REMIX\",slug:\"daniel-mcs-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"nik-tendo\",\"rest\",\"hugo-toxxx\",\"karlo\",\"ike\",\"boy-wonder\",\"prezident-lourajder\",\"sosr\",\"spiralshawty\",\"mc-gey\",\"fvck-kvlt\",\"dusan-vlk\",\"supa\",\"pain\",\"gleb\"],featuresNames:[\"Idea\",\"Nik Tendo\",\"Rest\",\"Hugo Toxxx\",\"Karlo\",\"IKE\",\"Boy Wonder\",\"Prezident Lourajder\",\"Sosr\",\"SpiralShawty\",\"MC Gey\",\"Fvck_kvlt\",\"Dusan Vlk\",\"Supa\",\"Pain\",\"Gleb\"],album:\"DANIEL MCS REMIX\",albumSlug:\"daniel-mcs-remix\",year:2026,genre:[\"\"],duration:\"6:05\",trackNumber:1,producers:[],producersNames:[],description:\"DANIEL MCS REMIX \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/daniel-mcs-remix-james-cole\",children:\"DANIEL MCS REMIX\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" (2026).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(c,{...r})}):c(r)}return f(I);})();\n;return Component;"
   },
   "_id": "skladby/daniel-mcs-remix-james-cole.mdx",
   "_raw": {

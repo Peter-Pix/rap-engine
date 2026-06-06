@@ -12,16 +12,19 @@
   "album": "Premiéra",
   "albumSlug": "premiera",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:04",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Realitka — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var m=_((F,u)=>{u.exports=_jsx_runtime});var R={};b(R,{default:()=>l,frontmatter:()=>k});var r=g(m()),k={title:\"Realitka\",slug:\"realitka-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"3:04\",trackNumber:5,producers:[],producersNames:[],description:\"Realitka \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(R);})();\n;return Component;"
+    "raw": "\n**[Realitka](/skladby/realitka-rest)** od [Rest](/raperi/rest) z alba [Premiéra](/alba/premiera) (2010).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var a in e)n(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!x.call(r,s)&&s!==a&&n(r,s,{get:()=>e[s],enumerable:!(o=m(e,s))||o.enumerable});return r};var g=(r,e,a)=>(a=r!=null?p(h(r)):{},i(e||!r||!r.__esModule?n(a,\"default\",{value:r,enumerable:!0}):a,r)),j=r=>i(n({},\"__esModule\",{value:!0}),r);var c=b((D,l)=>{l.exports=_jsx_runtime});var _={};k(_,{default:()=>d,frontmatter:()=>R});var t=g(c()),R={title:\"Realitka\",slug:\"realitka-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[\"\"],duration:\"3:04\",trackNumber:5,producers:[],producersNames:[],description:\"Realitka \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/realitka-rest\",children:\"Realitka\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/premiera\",children:\"Premi\\xE9ra\"}),\" (2010).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(u,{...r})}):u(r)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/realitka-rest.mdx",
   "_raw": {

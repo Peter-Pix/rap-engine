@@ -1,0 +1,29 @@
+{
+  "title": "Had",
+  "slug": "had",
+  "rapper": "Sergei Barracuda",
+  "rapperSlug": "sergei-barracuda",
+  "label": "Azurit Kingdom",
+  "year": 2019,
+  "description": "Had — singl od Sergei Barracuda (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/a19d23c47b945aac2cedddd03de72766/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Had](/skladby/had)** od [Sergei Barracuda](/raperi/sergei-barracuda) (2019).\n",
+    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var a in e)d(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!x.call(r,n)&&n!==a&&d(r,n,{get:()=>e[n],enumerable:!(s=u(e,n))||s.enumerable});return r};var j=(r,e,a)=>(a=r!=null?p(m(r)):{},i(e||!r||!r.__esModule?d(a,\"default\",{value:r,enumerable:!0}):a,r)),_=r=>i(d({},\"__esModule\",{value:!0}),r);var o=f((D,c)=>{c.exports=_jsx_runtime});var S={};b(S,{default:()=>g,frontmatter:()=>y});var t=j(o()),y={title:\"Had\",slug:\"had\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",label:\"Azurit Kingdom\",year:2019,description:\"Had \\u2014 singl od Sergei Barracuda (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/a19d23c47b945aac2cedddd03de72766/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/had\",children:\"Had\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" (2019).\"]})}function g(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/had.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/had.mdx",
+    "sourceFileName": "had.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/had"
+  },
+  "type": "Skladba",
+  "url": "/skladby/had",
+  "canonicalUrl": "https://4rap.cz/skladby/had"
+}

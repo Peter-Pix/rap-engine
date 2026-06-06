@@ -14,16 +14,19 @@
   "album": "Fade In",
   "albumSlug": "fade-in",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Mic Check — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var c=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)c(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!x.call(e,a)&&a!==r&&c(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(h(e)):{},s(t||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(c({},\"__esModule\",{value:!0}),e);var d=j((M,i)=>{i.exports=_jsx_runtime});var D={};_(D,{default:()=>m,frontmatter:()=>k});var n=b(d()),k={title:\"Mic Check\",slug:\"mic-check-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"delik\",\"refew\"],featuresNames:[\"DeliK\",\"Refew\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[],duration:\"3:16\",trackNumber:4,producers:[],producersNames:[],description:\"Mic Check \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Mic Check](/skladby/mic-check-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fade In](/alba/fade-in) (2018).\n",
+    "code": "var Component=(()=>{var f=Object.create;var c=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)c(t,a,{get:e[a],enumerable:!0})},d=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!j.call(t,n)&&n!==a&&c(t,n,{get:()=>e[n],enumerable:!(s=h(e,n))||s.enumerable});return t};var b=(t,e,a)=>(a=t!=null?f(m(t)):{},d(e||!t||!t.__esModule?c(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>d(c({},\"__esModule\",{value:!0}),t);var i=k((C,o)=>{o.exports=_jsx_runtime});var M={};x(M,{default:()=>u,frontmatter:()=>D});var r=b(i()),D={title:\"Mic Check\",slug:\"mic-check-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"delik\",\"refew\"],featuresNames:[\"DeliK\",\"Refew\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[\"\"],duration:\"3:16\",trackNumber:4,producers:[],producersNames:[],description:\"Mic Check \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/mic-check-dj-fatte\",children:\"Mic Check\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/fade-in\",children:\"Fade In\"}),\" (2018).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(l,{...t})}):l(t)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/mic-check-dj-fatte.mdx",
   "_raw": {

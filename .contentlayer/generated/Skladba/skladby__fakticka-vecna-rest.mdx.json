@@ -12,16 +12,19 @@
   "album": "Premiéra",
   "albumSlug": "premiera",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:13",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Faktická (Věcná!) — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(c=l(t,a))||c.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(f(e)):{},o(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>o(s({},\"__esModule\",{value:!0}),e);var u=k((M,i)=>{i.exports=_jsx_runtime});var F={};_(F,{default:()=>d,frontmatter:()=>j});var r=b(u()),j={title:\"Faktick\\xE1 (V\\u011Bcn\\xE1!)\",slug:\"fakticka-vecna-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[],duration:\"4:13\",trackNumber:6,producers:[],producersNames:[],description:\"Faktick\\xE1 (V\\u011Bcn\\xE1!) \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[Faktická (Věcná!)](/skladby/fakticka-vecna-rest)** od [Rest](/raperi/rest) z alba [Premiéra](/alba/premiera) (2010).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},o=(r,e,a,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!h.call(r,n)&&n!==a&&s(r,n,{get:()=>e[n],enumerable:!(c=m(e,n))||c.enumerable});return r};var g=(r,e,a)=>(a=r!=null?p(k(r)):{},o(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),j=r=>o(s({},\"__esModule\",{value:!0}),r);var u=x((D,i)=>{i.exports=_jsx_runtime});var F={};b(F,{default:()=>l,frontmatter:()=>_});var t=g(u()),_={title:\"Faktick\\xE1 (V\\u011Bcn\\xE1!)\",slug:\"fakticka-vecna-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Premi\\xE9ra\",albumSlug:\"premiera\",year:2010,genre:[\"\"],duration:\"4:13\",trackNumber:6,producers:[],producersNames:[],description:\"Faktick\\xE1 (V\\u011Bcn\\xE1!) \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/fakticka-vecna-rest\",children:\"Faktick\\xE1 (V\\u011Bcn\\xE1!)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/premiera\",children:\"Premi\\xE9ra\"}),\" (2010).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return j(F);})();\n;return Component;"
   },
   "_id": "skladby/fakticka-vecna-rest.mdx",
   "_raw": {

@@ -6,6 +6,7 @@ import { buildAlbumMetadata } from '@/lib/metadata'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { DetailHero, DetailLayout, SidebarCard, InfoDl } from '@/components/shared/DetailHero'
 import { EntityCard, EntityChip } from '@/components/shared/EntityCard'
+import { findTrackSlug } from '@/lib/track-lookup'
 import type { Metadata } from 'next'
 
 export async function generateStaticParams() {
@@ -107,18 +108,30 @@ export default async function AlbumPage({ params }: { params: Promise<{ slug: st
                 />
               </SidebarCard>
 
-              {/* Tracklist pokud existuje */}
+              {/* Tracklist s prokliky na skladby */}
               {Array.isArray((album as any).tracklist) && (album as any).tracklist.length > 0 && (
                 <SidebarCard title={`Tracklist · ${(album as any).tracklist.length}`}>
                   <ol className="space-y-2 text-sm text-zinc-300 font-mono">
-                    {(album as any).tracklist.map((t: string, i: number) => (
-                      <li key={i} className="flex items-baseline gap-2.5">
-                        <span className="text-[10px] text-zinc-600 shrink-0 w-5 text-right">
-                          {String(i + 1).padStart(2, '0')}
-                        </span>
-                        <span className="leading-snug">{t}</span>
-                      </li>
-                    ))}
+                    {(album as any).tracklist.map((t: string, i: number) => {
+                      const trackSlug = findTrackSlug(t, album.rapperSlug)
+                      return (
+                        <li key={i} className="flex items-baseline gap-2.5">
+                          <span className="text-[10px] text-zinc-600 shrink-0 w-5 text-right">
+                            {String(i + 1).padStart(2, '0')}
+                          </span>
+                          {trackSlug ? (
+                            <Link
+                              href={`/skladby/${trackSlug}`}
+                              className="leading-snug text-white hover:text-[#e4ff1a] transition-colors"
+                            >
+                              {t}
+                            </Link>
+                          ) : (
+                            <span className="leading-snug">{t}</span>
+                          )}
+                        </li>
+                      )
+                    })}
                   </ol>
                 </SidebarCard>
               )}

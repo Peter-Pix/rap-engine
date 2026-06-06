@@ -16,16 +16,19 @@
   "album": "Rap",
   "albumSlug": "rap",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:02",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "III / Produkt — skladba od IF.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var I=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=m(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var i=I((D,d)=>{d.exports=_jsx_runtime});var k={};_(k,{default:()=>p,frontmatter:()=>j});var r=b(i()),j={title:\"III / Produkt\",slug:\"iii-produkt-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"karlo\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Karlo\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[],duration:\"4:02\",trackNumber:5,producers:[],producersNames:[],description:\"III / Produkt \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[III / Produkt](/skladby/iii-produkt-if)** z alba [Rap](/alba/rap) (2015).\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var I=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),b=(t,r)=>{for(var e in r)o(t,e,{get:r[e],enumerable:!0})},i=(t,r,e,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of m(r))!k.call(t,n)&&n!==e&&o(t,n,{get:()=>r[n],enumerable:!(s=f(r,n))||s.enumerable});return t};var h=(t,r,e)=>(e=t!=null?c(I(t)):{},i(r||!t||!t.__esModule?o(e,\"default\",{value:t,enumerable:!0}):e,t)),g=t=>i(o({},\"__esModule\",{value:!0}),t);var d=x((D,u)=>{u.exports=_jsx_runtime});var _={};b(_,{default:()=>l,frontmatter:()=>j});var a=h(d()),j={title:\"III / Produkt\",slug:\"iii-produkt-if\",rapper:\"IF\",rapperSlug:\"if\",features:[\"idea\",\"dj-fatte\",\"karlo\"],featuresNames:[\"Idea\",\"DJ Fatte\",\"Karlo\"],album:\"Rap\",albumSlug:\"rap\",year:2015,genre:[\"\"],duration:\"4:02\",trackNumber:5,producers:[],producersNames:[],description:\"III / Produkt \\u2014 skladba od IF.\",publishedAt:\"2026-06-04\"};function p(t){let r={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/iii-produkt-if\",children:\"III / Produkt\"})}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/rap\",children:\"Rap\"}),\" (2015).\"]})}function l(t={}){let{wrapper:r}=t.components||{};return r?(0,a.jsx)(r,{...t,children:(0,a.jsx)(p,{...t})}):p(t)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/iii-produkt-if.mdx",
   "_raw": {

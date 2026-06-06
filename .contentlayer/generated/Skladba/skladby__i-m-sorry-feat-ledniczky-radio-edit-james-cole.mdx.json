@@ -12,16 +12,19 @@
   "album": "I'm Sorry feat. Ledniczky",
   "albumSlug": "i-m-sorry-feat-ledniczky",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:25",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "I m Sorry feat. Ledniczky (Radio Edit) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of y(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(i=p(t,o))||i.enumerable});return e};var j=(e,t,n)=>(n=e!=null?u(f(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),z=e=>s(a({},\"__esModule\",{value:!0}),e);var c=h((S,d)=>{d.exports=_jsx_runtime});var b={};k(b,{default:()=>l,frontmatter:()=>_});var r=j(c()),_={title:\"I m Sorry feat. Ledniczky (Radio Edit)\",slug:\"i-m-sorry-feat-ledniczky-radio-edit-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ledniczky\"],featuresNames:[\"Ledniczky\"],album:\"I'm Sorry feat. Ledniczky\",albumSlug:\"i-m-sorry-feat-ledniczky\",year:2023,genre:[],duration:\"3:25\",trackNumber:5,producers:[],producersNames:[],description:\"I m Sorry feat. Ledniczky (Radio Edit) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return z(b);})();\n;return Component;"
+    "raw": "\n**[I m Sorry feat. Ledniczky (Radio Edit)](/skladby/i-m-sorry-feat-ledniczky-radio-edit-james-cole)** od [James Cole](/raperi/james-cole) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!k.call(r,o)&&o!==t&&n(r,o,{get:()=>e[o],enumerable:!(i=y(e,o))||i.enumerable});return r};var z=(r,e,t)=>(t=r!=null?u(p(r)):{},s(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),h=r=>s(n({},\"__esModule\",{value:!0}),r);var c=j((S,d)=>{d.exports=_jsx_runtime});var b={};x(b,{default:()=>m,frontmatter:()=>g});var a=z(c()),g={title:\"I m Sorry feat. Ledniczky (Radio Edit)\",slug:\"i-m-sorry-feat-ledniczky-radio-edit-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"ledniczky\"],featuresNames:[\"Ledniczky\"],album:\"I'm Sorry feat. Ledniczky\",albumSlug:\"i-m-sorry-feat-ledniczky\",year:2023,genre:[\"\"],duration:\"3:25\",trackNumber:5,producers:[],producersNames:[],description:\"I m Sorry feat. Ledniczky (Radio Edit) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/i-m-sorry-feat-ledniczky-radio-edit-james-cole\",children:\"I m Sorry feat. Ledniczky (Radio Edit)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" (2023).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return h(b);})();\n;return Component;"
   },
   "_id": "skladby/i-m-sorry-feat-ledniczky-radio-edit-james-cole.mdx",
   "_raw": {

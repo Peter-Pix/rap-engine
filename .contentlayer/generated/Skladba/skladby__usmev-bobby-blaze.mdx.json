@@ -8,16 +8,19 @@
   "album": "Úsměv",
   "albumSlug": "usmev",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Úsměv — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!h.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=i(t,s))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>m(o({},\"__esModule\",{value:!0}),e);var l=f((B,u)=>{u.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>j});var r=g(l()),j={title:\"\\xDAsm\\u011Bv\",slug:\"usmev-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"\\xDAsm\\u011Bv\",albumSlug:\"usmev\",year:2024,genre:[],duration:\"3:03\",trackNumber:1,producers:[],producersNames:[],description:\"\\xDAsm\\u011Bv \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return y(v);})();\n;return Component;"
+    "raw": "\n**[Úsměv](/skladby/usmev-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},b=(r,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!f.call(r,a)&&a!==t&&o(r,a,{get:()=>e[a],enumerable:!(n=i(e,a))||n.enumerable});return r};var g=(r,e,t)=>(t=r!=null?d(y(r)):{},b(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),v=r=>b(o({},\"__esModule\",{value:!0}),r);var u=x((j,l)=>{l.exports=_jsx_runtime});var B={};h(B,{default:()=>c,frontmatter:()=>z});var s=g(u()),z={title:\"\\xDAsm\\u011Bv\",slug:\"usmev-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"\\xDAsm\\u011Bv\",albumSlug:\"usmev\",year:2024,genre:[\"\"],duration:\"3:03\",trackNumber:1,producers:[],producersNames:[],description:\"\\xDAsm\\u011Bv \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/usmev-bobby-blaze\",children:\"\\xDAsm\\u011Bv\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(m,{...r})}):m(r)}return v(B);})();\n;return Component;"
   },
   "_id": "skladby/usmev-bobby-blaze.mdx",
   "_raw": {

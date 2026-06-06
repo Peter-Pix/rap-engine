@@ -14,16 +14,19 @@
   "album": "Acoustic Session",
   "albumSlug": "acoustic-session",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:40",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Srdce z ledu (Acoustic Session) — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var S=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of h(n))!x.call(e,s)&&s!==t&&a(e,s,{get:()=>n[s],enumerable:!(o=p(n,s))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?m(g(e)):{},u(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>u(a({},\"__esModule\",{value:!0}),e);var i=S((M,c)=>{c.exports=_jsx_runtime});var y={};f(y,{default:()=>d,frontmatter:()=>j});var r=_(i()),j={title:\"Srdce z ledu (Acoustic Session)\",slug:\"srdce-z-ledu-acoustic-session-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"marcell\"],featuresNames:[\"Kenny Rough\",\"Marcell\"],album:\"Acoustic Session\",albumSlug:\"acoustic-session\",year:2023,genre:[],duration:\"3:40\",trackNumber:3,producers:[],producersNames:[],description:\"Srdce z ledu (Acoustic Session) \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(y);})();\n;return Component;"
+    "raw": "\n**[Srdce z ledu (Acoustic Session)](/skladby/srdce-z-ledu-acoustic-session-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),S=(r,e)=>{for(var s in e)t(r,s,{get:e[s],enumerable:!0})},u=(r,e,s,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!f.call(r,n)&&n!==s&&t(r,n,{get:()=>e[n],enumerable:!(o=g(e,n))||o.enumerable});return r};var b=(r,e,s)=>(s=r!=null?p(h(r)):{},u(e||!r||!r.__esModule?t(s,\"default\",{value:r,enumerable:!0}):s,r)),_=r=>u(t({},\"__esModule\",{value:!0}),r);var i=x((A,c)=>{c.exports=_jsx_runtime});var y={};S(y,{default:()=>l,frontmatter:()=>j});var a=b(i()),j={title:\"Srdce z ledu (Acoustic Session)\",slug:\"srdce-z-ledu-acoustic-session-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\",\"marcell\"],featuresNames:[\"Kenny Rough\",\"Marcell\"],album:\"Acoustic Session\",albumSlug:\"acoustic-session\",year:2023,genre:[\"\"],duration:\"3:40\",trackNumber:3,producers:[],producersNames:[],description:\"Srdce z ledu (Acoustic Session) \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/srdce-z-ledu-acoustic-session-paulie-garand\",children:\"Srdce z ledu (Acoustic Session)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" (2023).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/srdce-z-ledu-acoustic-session-paulie-garand.mdx",
   "_raw": {

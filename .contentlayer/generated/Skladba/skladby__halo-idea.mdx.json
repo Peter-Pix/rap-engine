@@ -14,16 +14,19 @@
   "album": "O beatech a lidech",
   "albumSlug": "o-beatech-a-lidech",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:41",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Halo? — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!b.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var g=(e,t,a)=>(a=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),k=e=>c(o({},\"__esModule\",{value:!0}),e);var d=f((M,l)=>{l.exports=_jsx_runtime});var y={};_(y,{default:()=>i,frontmatter:()=>j});var r=g(d()),j={title:\"Halo?\",slug:\"halo-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"karlo\",\"koky\"],featuresNames:[\"Karlo\",\"Koky\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[],duration:\"2:41\",trackNumber:15,producers:[],producersNames:[],description:\"Halo? \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return k(y);})();\n;return Component;"
+    "raw": "\n**[Halo?](/skladby/halo-idea)** od [Idea](/raperi/idea) z alba [O beatech a lidech](/alba/o-beatech-a-lidech) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},d=(a,e,t,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of b(e))!f.call(a,o)&&o!==t&&n(a,o,{get:()=>e[o],enumerable:!(l=p(e,o))||l.enumerable});return a};var k=(a,e,t)=>(t=a!=null?u(m(a)):{},d(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),_=a=>d(n({},\"__esModule\",{value:!0}),a);var s=x((I,c)=>{c.exports=_jsx_runtime});var y={};g(y,{default:()=>h,frontmatter:()=>j});var r=k(s()),j={title:\"Halo?\",slug:\"halo-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"karlo\",\"koky\"],featuresNames:[\"Karlo\",\"Koky\"],album:\"O beatech a lidech\",albumSlug:\"o-beatech-a-lidech\",year:2021,genre:[\"\"],duration:\"2:41\",trackNumber:15,producers:[],producersNames:[],description:\"Halo? \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/halo-idea\",children:\"Halo?\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/o-beatech-a-lidech\",children:\"O beatech a lidech\"}),\" (2021).\"]})}function h(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(i,{...a})}):i(a)}return _(y);})();\n;return Component;"
   },
   "_id": "skladby/halo-idea.mdx",
   "_raw": {

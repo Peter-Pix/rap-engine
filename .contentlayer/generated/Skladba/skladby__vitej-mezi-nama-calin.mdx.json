@@ -12,16 +12,19 @@
   "album": "Bieber Fever Tour Life",
   "albumSlug": "bieber-fever-tour-life",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:13",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Vítej mezi náma — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!b.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(x(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var u=h((S,m)=>{m.exports=_jsx_runtime});var C={};j(C,{default:()=>l,frontmatter:()=>N});var n=_(u()),N={title:\"V\\xEDtej mezi n\\xE1ma\",slug:\"vitej-mezi-nama-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"stein27\"],featuresNames:[\"Stein27\"],album:\"Bieber Fever Tour Life\",albumSlug:\"bieber-fever-tour-life\",year:2024,genre:[],duration:\"3:13\",trackNumber:3,producers:[],producersNames:[],description:\"V\\xEDtej mezi n\\xE1ma \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[Vítej mezi náma](/skladby/vitej-mezi-nama-calin)** od [Calin](/raperi/calin) z alba [Bieber Fever Tour Life](/alba/bieber-fever-tour-life) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!h.call(r,a)&&a!==t&&i(r,a,{get:()=>e[a],enumerable:!(o=f(e,a))||o.enumerable});return r};var g=(r,e,t)=>(t=r!=null?d(b(r)):{},s(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),v=r=>s(i({},\"__esModule\",{value:!0}),r);var c=j((L,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>z});var n=g(c()),z={title:\"V\\xEDtej mezi n\\xE1ma\",slug:\"vitej-mezi-nama-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"stein27\"],featuresNames:[\"Stein27\"],album:\"Bieber Fever Tour Life\",albumSlug:\"bieber-fever-tour-life\",year:2024,genre:[\"\"],duration:\"3:13\",trackNumber:3,producers:[],producersNames:[],description:\"V\\xEDtej mezi n\\xE1ma \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/vitej-mezi-nama-calin\",children:\"V\\xEDtej mezi n\\xE1ma\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/bieber-fever-tour-life\",children:\"Bieber Fever Tour Life\"}),\" (2024).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(u,{...r})}):u(r)}return v(_);})();\n;return Component;"
   },
   "_id": "skladby/vitej-mezi-nama-calin.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "2 MOUCHY 1 RANOU",
   "albumSlug": "2-mouchy-1-ranou",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Gridlock — skladba od Filip Konvalinka.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of k(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(i=m(n,a))||i.enumerable});return e};var _=(e,n,r)=>(r=e!=null?p(f(e)):{},l(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>l(o({},\"__esModule\",{value:!0}),e);var c=x((M,s)=>{s.exports=_jsx_runtime});var F={};g(F,{default:()=>d,frontmatter:()=>j});var t=_(c()),j={title:\"Gridlock\",slug:\"gridlock-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[],duration:\"3:33\",trackNumber:6,producers:[],producersNames:[],description:\"Gridlock \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(F);})();\n;return Component;"
+    "raw": "\n**[Gridlock](/skladby/gridlock-filip-konvalinka)** z alba [2 MOUCHY 1 RANOU](/alba/2-mouchy-1-ranou) (2026).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(n,r)=>()=>(r||n((r={exports:{}}).exports,r),r.exports),x=(n,r)=>{for(var a in r)o(n,a,{get:r[a],enumerable:!0})},l=(n,r,a,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of m(r))!h.call(n,t)&&t!==a&&o(n,t,{get:()=>r[t],enumerable:!(i=k(r,t))||i.enumerable});return n};var b=(n,r,a)=>(a=n!=null?p(f(n)):{},l(r||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),j=n=>l(o({},\"__esModule\",{value:!0}),n);var c=g((M,s)=>{s.exports=_jsx_runtime});var v={};x(v,{default:()=>d,frontmatter:()=>_});var e=b(c()),_={title:\"Gridlock\",slug:\"gridlock-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[\"\"],duration:\"3:33\",trackNumber:6,producers:[],producersNames:[],description:\"Gridlock \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function u(n){let r={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/gridlock-filip-konvalinka\",children:\"Gridlock\"})}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/2-mouchy-1-ranou\",children:\"2 MOUCHY 1 RANOU\"}),\" (2026).\"]})}function d(n={}){let{wrapper:r}=n.components||{};return r?(0,e.jsx)(r,{...n,children:(0,e.jsx)(u,{...n})}):u(n)}return j(v);})();\n;return Component;"
   },
   "_id": "skladby/gridlock-filip-konvalinka.mdx",
   "_raw": {

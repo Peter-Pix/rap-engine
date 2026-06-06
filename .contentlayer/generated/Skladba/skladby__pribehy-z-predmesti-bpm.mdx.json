@@ -12,16 +12,19 @@
   "album": "Horizonty",
   "albumSlug": "horizonty",
   "year": 2009,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Příběhy z předměstí — skladba od Bpm.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(m=l(t,o))||m.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(b(e)):{},a(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>a(s({},\"__esModule\",{value:!0}),e);var i=y((M,p)=>{p.exports=_jsx_runtime});var z={};f(z,{default:()=>c,frontmatter:()=>j});var r=_(i()),j={title:\"P\\u0159\\xEDb\\u011Bhy z p\\u0159edm\\u011Bst\\xED\",slug:\"pribehy-z-predmesti-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[\"lyrik\"],featuresNames:[\"Lyrik\"],album:\"Horizonty\",albumSlug:\"horizonty\",year:2009,genre:[],duration:\"3:24\",trackNumber:9,producers:[],producersNames:[],description:\"P\\u0159\\xEDb\\u011Bhy z p\\u0159edm\\u011Bst\\xED \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(z);})();\n;return Component;"
+    "raw": "\n**[Příběhy z předměstí](/skladby/pribehy-z-predmesti-bpm)** z alba [Horizonty](/alba/horizonty) (2009).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var z=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},p=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of b(e))!y.call(r,o)&&o!==t&&s(r,o,{get:()=>e[o],enumerable:!(a=l(e,o))||a.enumerable});return r};var x=(r,e,t)=>(t=r!=null?c(h(r)):{},p(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),g=r=>p(s({},\"__esModule\",{value:!0}),r);var m=z((M,i)=>{i.exports=_jsx_runtime});var j={};f(j,{default:()=>u,frontmatter:()=>_});var n=x(m()),_={title:\"P\\u0159\\xEDb\\u011Bhy z p\\u0159edm\\u011Bst\\xED\",slug:\"pribehy-z-predmesti-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[\"lyrik\"],featuresNames:[\"Lyrik\"],album:\"Horizonty\",albumSlug:\"horizonty\",year:2009,genre:[\"\"],duration:\"3:24\",trackNumber:9,producers:[],producersNames:[],description:\"P\\u0159\\xEDb\\u011Bhy z p\\u0159edm\\u011Bst\\xED \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/pribehy-z-predmesti-bpm\",children:\"P\\u0159\\xEDb\\u011Bhy z p\\u0159edm\\u011Bst\\xED\"})}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/horizonty\",children:\"Horizonty\"}),\" (2009).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/pribehy-z-predmesti-bpm.mdx",
   "_raw": {

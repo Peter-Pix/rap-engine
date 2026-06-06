@@ -12,16 +12,19 @@
   "album": "Close To Me EP",
   "albumSlug": "close-to-me-ep",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:03",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Close To Me (G-LOVER Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),j=(e,o)=>{for(var r in o)s(e,r,{get:o[r],enumerable:!0})},l=(e,o,r,a)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of x(o))!g.call(e,n)&&n!==r&&s(e,n,{get:()=>o[n],enumerable:!(a=d(o,n))||a.enumerable});return e};var C=(e,o,r)=>(r=e!=null?p(h(e)):{},l(o||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(s({},\"__esModule\",{value:!0}),e);var c=f((R,m)=>{m.exports=_jsx_runtime});var M={};j(M,{default:()=>i,frontmatter:()=>b});var t=C(c()),b={title:\"Close To Me (G-LOVER Remix)\",slug:\"close-to-me-g-lover-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"g-lover\"],featuresNames:[\"G-Lover\"],album:\"Close To Me EP\",albumSlug:\"close-to-me-ep\",year:2025,genre:[],duration:\"6:03\",trackNumber:3,producers:[],producersNames:[],description:\"Close To Me (G-LOVER Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let o={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(o.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(o.p,{children:(0,t.jsx)(o.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:o}=e.components||{};return o?(0,t.jsx)(o,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Close To Me (G-LOVER Remix)](/skladby/close-to-me-g-lover-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Close To Me EP](/alba/close-to-me-ep) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),C=(o,e)=>{for(var s in e)a(o,s,{get:e[s],enumerable:!0})},n=(o,e,s,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!g.call(o,t)&&t!==s&&a(o,t,{get:()=>e[t],enumerable:!(l=p(e,t))||l.enumerable});return o};var j=(o,e,s)=>(s=o!=null?d(f(o)):{},n(e||!o||!o.__esModule?a(s,\"default\",{value:o,enumerable:!0}):s,o)),b=o=>n(a({},\"__esModule\",{value:!0}),o);var c=h((E,m)=>{m.exports=_jsx_runtime});var R={};C(R,{default:()=>u,frontmatter:()=>M});var r=j(c()),M={title:\"Close To Me (G-LOVER Remix)\",slug:\"close-to-me-g-lover-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"g-lover\"],featuresNames:[\"G-Lover\"],album:\"Close To Me EP\",albumSlug:\"close-to-me-ep\",year:2025,genre:[\"\"],duration:\"6:03\",trackNumber:3,producers:[],producersNames:[],description:\"Close To Me (G-LOVER Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/close-to-me-g-lover-remix-james-cole\",children:\"Close To Me (G-LOVER Remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/close-to-me-ep\",children:\"Close To Me EP\"}),\" (2025).\"]})}function u(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(i,{...o})}):i(o)}return b(R);})();\n;return Component;"
   },
   "_id": "skladby/close-to-me-g-lover-remix-james-cole.mdx",
   "_raw": {

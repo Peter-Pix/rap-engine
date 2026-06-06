@@ -12,16 +12,19 @@
   "album": "GOLDKID: ULTIMATE SECTION",
   "albumSlug": "goldkid-ultimate-section",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:48",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "FLEXDAKYKO — skladba od Nik Tendo.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of k(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var D=(e,t,r)=>(r=e!=null?m(x(e)):{},d(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>d(a({},\"__esModule\",{value:!0}),e);var c=f((j,i)=>{i.exports=_jsx_runtime});var K={};g(K,{default:()=>l,frontmatter:()=>b});var n=D(c()),b={title:\"FLEXDAKYKO\",slug:\"flexdakyko-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GOLDKID: ULTIMATE SECTION\",albumSlug:\"goldkid-ultimate-section\",year:2025,genre:[],duration:\"2:48\",trackNumber:13,producers:[],producersNames:[],description:\"FLEXDAKYKO \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return _(K);})();\n;return Component;"
+    "raw": "\n**[FLEXDAKYKO](/skladby/flexdakyko-nik-tendo)** od [Nik Tendo](/raperi/nik-tendo) z alba [GOLDKID: ULTIMATE SECTION](/alba/goldkid-ultimate-section) (2025).\n",
+    "code": "var Component=(()=>{var k=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),D=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!x.call(n,o)&&o!==r&&a(n,o,{get:()=>e[o],enumerable:!(d=p(e,o))||d.enumerable});return n};var g=(n,e,r)=>(r=n!=null?k(f(n)):{},i(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),T=n=>i(a({},\"__esModule\",{value:!0}),n);var l=h((N,s)=>{s.exports=_jsx_runtime});var K={};D(K,{default:()=>u,frontmatter:()=>b});var t=g(l()),b={title:\"FLEXDAKYKO\",slug:\"flexdakyko-nik-tendo\",rapper:\"Nik Tendo\",rapperSlug:\"nik-tendo\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"GOLDKID: ULTIMATE SECTION\",albumSlug:\"goldkid-ultimate-section\",year:2025,genre:[\"\"],duration:\"2:48\",trackNumber:13,producers:[],producersNames:[],description:\"FLEXDAKYKO \\u2014 skladba od Nik Tendo.\",publishedAt:\"2026-06-04\"};function c(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/flexdakyko-nik-tendo\",children:\"FLEXDAKYKO\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/nik-tendo\",children:\"Nik Tendo\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/goldkid-ultimate-section\",children:\"GOLDKID: ULTIMATE SECTION\"}),\" (2025).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(c,{...n})}):c(n)}return T(K);})();\n;return Component;"
   },
   "_id": "skladby/flexdakyko-nik-tendo.mdx",
   "_raw": {

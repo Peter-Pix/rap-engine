@@ -18,16 +18,19 @@
   "album": "NIBIRU",
   "albumSlug": "nibiru",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Życie — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(i=p(t,a))||i.enumerable});return e};var y=(e,t,n)=>(n=e!=null?l(x(e)):{},o(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>o(s({},\"__esModule\",{value:!0}),e);var c=f((N,u)=>{u.exports=_jsx_runtime});var k={};j(k,{default:()=>d,frontmatter:()=>g});var r=y(c()),g={title:\"\\u017Bycie\",slug:\"zycie-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\",\"joteste\",\"hary\",\"dj-cider\"],featuresNames:[\"Zeus\",\"Joteste\",\"Hary\",\"DJ Cider\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[],duration:\"3:52\",trackNumber:8,producers:[],producersNames:[],description:\"\\u017Bycie \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Życie](/skladby/zycie-maniak)** od [Maniak](/raperi/maniak) z alba [NIBIRU](/alba/nibiru) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var n in e)i(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!f.call(r,t)&&t!==n&&i(r,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return r};var x=(r,e,n)=>(n=r!=null?m(b(r)):{},o(e||!r||!r.__esModule?i(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>o(i({},\"__esModule\",{value:!0}),r);var u=k((N,c)=>{c.exports=_jsx_runtime});var M={};y(M,{default:()=>l,frontmatter:()=>j});var a=x(u()),j={title:\"\\u017Bycie\",slug:\"zycie-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\",\"joteste\",\"hary\",\"dj-cider\"],featuresNames:[\"Zeus\",\"Joteste\",\"Hary\",\"DJ Cider\"],album:\"NIBIRU\",albumSlug:\"nibiru\",year:2025,genre:[\"\"],duration:\"3:52\",trackNumber:8,producers:[],producersNames:[],description:\"\\u017Bycie \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/zycie-maniak\",children:\"\\u017Bycie\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/nibiru\",children:\"NIBIRU\"}),\" (2025).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/zycie-maniak.mdx",
   "_raw": {

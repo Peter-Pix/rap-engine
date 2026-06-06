@@ -14,16 +14,19 @@
   "album": "Sbohem Roxano",
   "albumSlug": "sbohem-roxano",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:42",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Kordylery — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},m=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of h(n))!y.call(e,t)&&t!==o&&a(e,t,{get:()=>n[t],enumerable:!(s=p(n,t))||s.enumerable});return e};var _=(e,n,o)=>(o=e!=null?u(x(e)):{},m(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>m(a({},\"__esModule\",{value:!0}),e);var i=f((K,d)=>{d.exports=_jsx_runtime});var j={};b(j,{default:()=>l,frontmatter:()=>k});var r=_(i()),k={title:\"Kordylery\",slug:\"kordylery-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"decky\",\"kamil-hoffmann\"],featuresNames:[\"Decky\",\"Kamil Hoffmann\"],album:\"Sbohem Roxano\",albumSlug:\"sbohem-roxano\",year:2020,genre:[],duration:\"2:42\",trackNumber:4,producers:[],producersNames:[],description:\"Kordylery \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Kordylery](/skladby/kordylery-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Sbohem Roxano](/alba/sbohem-roxano) (2020).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var o in e)s(r,o,{get:e[o],enumerable:!0})},d=(r,e,o,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!f.call(r,n)&&n!==o&&s(r,n,{get:()=>e[n],enumerable:!(t=y(e,n))||t.enumerable});return r};var k=(r,e,o)=>(o=r!=null?u(p(r)):{},d(e||!r||!r.__esModule?s(o,\"default\",{value:r,enumerable:!0}):o,r)),z=r=>d(s({},\"__esModule\",{value:!0}),r);var i=x((K,m)=>{m.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>g});var a=k(i()),g={title:\"Kordylery\",slug:\"kordylery-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"decky\",\"kamil-hoffmann\"],featuresNames:[\"Decky\",\"Kamil Hoffmann\"],album:\"Sbohem Roxano\",albumSlug:\"sbohem-roxano\",year:2020,genre:[\"\"],duration:\"2:42\",trackNumber:4,producers:[],producersNames:[],description:\"Kordylery \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/kordylery-yzomandias\",children:\"Kordylery\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/sbohem-roxano\",children:\"Sbohem Roxano\"}),\" (2020).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/kordylery-yzomandias.mdx",
   "_raw": {

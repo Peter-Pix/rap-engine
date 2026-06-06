@@ -12,16 +12,19 @@
   "album": "G.O.A.T.",
   "albumSlug": "g-o-a-t",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:05",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Marek Eben — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(x(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>m(a({},\"__esModule\",{value:!0}),e);var u=f((N,c)=>{c.exports=_jsx_runtime});var M={};g(M,{default:()=>i,frontmatter:()=>k});var n=j(u()),k={title:\"Marek Eben\",slug:\"marek-eben-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"3:05\",trackNumber:6,producers:[],producersNames:[],description:\"Marek Eben \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Marek Eben](/skladby/marek-eben-james-cole)** od [James Cole](/raperi/james-cole) z alba [G.O.A.T.](/alba/g-o-a-t) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},l=(r,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!h.call(r,n)&&n!==o&&t(r,n,{get:()=>e[n],enumerable:!(s=b(e,n))||s.enumerable});return r};var x=(r,e,o)=>(o=r!=null?d(f(r)):{},l(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),k=r=>l(t({},\"__esModule\",{value:!0}),r);var m=g((y,c)=>{c.exports=_jsx_runtime});var _={};j(_,{default:()=>i,frontmatter:()=>M});var a=x(m()),M={title:\"Marek Eben\",slug:\"marek-eben-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"robin-zoot\"],featuresNames:[\"Robin Zoot\"],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[\"\"],duration:\"3:05\",trackNumber:6,producers:[],producersNames:[],description:\"Marek Eben \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/marek-eben-james-cole\",children:\"Marek Eben\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/g-o-a-t\",children:\"G.O.A.T.\"}),\" (2020).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/marek-eben-james-cole.mdx",
   "_raw": {

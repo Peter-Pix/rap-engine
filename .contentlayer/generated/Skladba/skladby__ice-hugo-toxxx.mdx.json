@@ -12,16 +12,19 @@
   "album": "1000",
   "albumSlug": "1000",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:20",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Ice — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?d(h(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var x=f((N,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>i,frontmatter:()=>k});var n=b(x()),k={title:\"Ice\",slug:\"ice-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"smack\"],featuresNames:[\"Smack One\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"3:20\",trackNumber:7,producers:[],producersNames:[],description:\"Ice \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(S);})();\n;return Component;"
+    "raw": "\n**[Ice](/skladby/ice-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [1000](/alba/1000) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!m.call(r,n)&&n!==t&&a(r,n,{get:()=>e[n],enumerable:!(x=p(e,n))||x.enumerable});return r};var _=(r,e,t)=>(t=r!=null?d(h(r)):{},s(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>s(a({},\"__esModule\",{value:!0}),r);var u=f((I,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>l,frontmatter:()=>k});var o=_(u()),k={title:\"Ice\",slug:\"ice-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"smack\"],featuresNames:[\"Smack One\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[\"\"],duration:\"3:20\",trackNumber:7,producers:[],producersNames:[],description:\"Ice \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/ice-hugo-toxxx\",children:\"Ice\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/1000\",children:\"1000\"}),\" (2019).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(i,{...r})}):i(r)}return j(y);})();\n;return Component;"
   },
   "_id": "skladby/ice-hugo-toxxx.mdx",
   "_raw": {

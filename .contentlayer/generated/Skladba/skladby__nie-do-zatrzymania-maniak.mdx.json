@@ -12,16 +12,19 @@
   "album": "Wygrałem EP",
   "albumSlug": "wygra-em-ep",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:02",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Nie do zatrzymania — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),y=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},i=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of x(a))!g.call(e,r)&&r!==t&&o(e,r,{get:()=>a[r],enumerable:!(s=l(a,r))||s.enumerable});return e};var z=(e,a,t)=>(t=e!=null?p(h(e)):{},i(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((M,m)=>{m.exports=_jsx_runtime});var k={};y(k,{default:()=>d,frontmatter:()=>b});var n=z(u()),b={title:\"Nie do zatrzymania\",slug:\"nie-do-zatrzymania-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\"],featuresNames:[\"Zeus\"],album:\"Wygra\\u0142em EP\",albumSlug:\"wygra-em-ep\",year:2019,genre:[],duration:\"4:02\",trackNumber:1,producers:[],producersNames:[],description:\"Nie do zatrzymania \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Nie do zatrzymania](/skladby/nie-do-zatrzymania-maniak)** od [Maniak](/raperi/maniak) z alba [Wygrałem EP](/alba/wygra-em-ep) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var n in a)i(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of y(a))!g.call(e,t)&&t!==n&&i(e,t,{get:()=>a[t],enumerable:!(o=p(a,t))||o.enumerable});return e};var k=(e,a,n)=>(n=e!=null?l(z(e)):{},s(a||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),x=e=>s(i({},\"__esModule\",{value:!0}),e);var d=f((_,m)=>{m.exports=_jsx_runtime});var M={};h(M,{default:()=>c,frontmatter:()=>b});var r=k(d()),b={title:\"Nie do zatrzymania\",slug:\"nie-do-zatrzymania-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"zeus\"],featuresNames:[\"Zeus\"],album:\"Wygra\\u0142em EP\",albumSlug:\"wygra-em-ep\",year:2019,genre:[\"\"],duration:\"4:02\",trackNumber:1,producers:[],producersNames:[],description:\"Nie do zatrzymania \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/nie-do-zatrzymania-maniak\",children:\"Nie do zatrzymania\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/wygra-em-ep\",children:\"Wygra\\u0142em EP\"}),\" (2019).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return x(M);})();\n;return Component;"
   },
   "_id": "skladby/nie-do-zatrzymania-maniak.mdx",
   "_raw": {

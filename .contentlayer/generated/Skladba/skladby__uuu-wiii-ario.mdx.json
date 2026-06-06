@@ -8,16 +8,19 @@
   "album": "Young Guns 03.",
   "albumSlug": "young-guns-03",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:31",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "UUU, WIII — skladba od Cosmin Horatiu.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},a=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==r&&u(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(g(e)):{},a(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),I=e=>a(u({},\"__esModule\",{value:!0}),e);var m=f((y,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>U});var n=b(m()),U={title:\"UUU, WIII\",slug:\"uuu-wiii-ario\",rapper:\"Cosmin Horatiu\",rapperSlug:\"ario\",features:[],featuresNames:[],album:\"Young Guns 03.\",albumSlug:\"young-guns-03\",year:2019,genre:[],duration:\"7:31\",trackNumber:2,producers:[],producersNames:[],description:\"UUU, WIII \\u2014 skladba od Cosmin Horatiu.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return I(j);})();\n;return Component;"
+    "raw": "\n**[UUU, WIII](/skladby/uuu-wiii-ario)** z alba [Young Guns 03.](/alba/young-guns-03) (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var I=(n,r)=>()=>(r||n((r={exports:{}}).exports,r),r.exports),U=(n,r)=>{for(var e in r)u(n,e,{get:r[e],enumerable:!0})},s=(n,r,e,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of g(r))!x.call(n,o)&&o!==e&&u(n,o,{get:()=>r[o],enumerable:!(a=p(r,o))||a.enumerable});return n};var b=(n,r,e)=>(e=n!=null?m(f(n)):{},s(r||!n||!n.__esModule?u(e,\"default\",{value:n,enumerable:!0}):e,n)),h=n=>s(u({},\"__esModule\",{value:!0}),n);var c=I((C,i)=>{i.exports=_jsx_runtime});var j={};U(j,{default:()=>d,frontmatter:()=>_});var t=b(c()),_={title:\"UUU, WIII\",slug:\"uuu-wiii-ario\",rapper:\"Cosmin Horatiu\",rapperSlug:\"ario\",features:[],featuresNames:[],album:\"Young Guns 03.\",albumSlug:\"young-guns-03\",year:2019,genre:[\"\"],duration:\"7:31\",trackNumber:2,producers:[],producersNames:[],description:\"UUU, WIII \\u2014 skladba od Cosmin Horatiu.\",publishedAt:\"2026-06-04\"};function l(n){let r={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/uuu-wiii-ario\",children:\"UUU, WIII\"})}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/young-guns-03\",children:\"Young Guns 03.\"}),\" (2019).\"]})}function d(n={}){let{wrapper:r}=n.components||{};return r?(0,t.jsx)(r,{...n,children:(0,t.jsx)(l,{...n})}):l(n)}return h(j);})();\n;return Component;"
   },
   "_id": "skladby/uuu-wiii-ario.mdx",
   "_raw": {

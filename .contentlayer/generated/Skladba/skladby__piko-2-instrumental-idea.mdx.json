@@ -8,16 +8,19 @@
   "album": "Tempo (Instrumental)",
   "albumSlug": "tempo-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:12",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Piko 2 (Instrumental) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?c(h(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=_((N,m)=>{m.exports=_jsx_runtime});var I={};b(I,{default:()=>d,frontmatter:()=>k});var n=g(i()),k={title:\"Piko 2 (Instrumental)\",slug:\"piko-2-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[],duration:\"1:12\",trackNumber:6,producers:[],producersNames:[],description:\"Piko 2 (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(I);})();\n;return Component;"
+    "raw": "\n**[Piko 2 (Instrumental)](/skladby/piko-2-instrumental-idea)** od [Idea](/raperi/idea) z alba [Tempo (Instrumental)](/alba/tempo-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),k=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!x.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(o=c(e,a))||o.enumerable});return t};var I=(t,e,r)=>(r=t!=null?p(h(t)):{},i(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>i(s({},\"__esModule\",{value:!0}),t);var l=b((M,u)=>{u.exports=_jsx_runtime});var j={};k(j,{default:()=>d,frontmatter:()=>_});var n=I(l()),_={title:\"Piko 2 (Instrumental)\",slug:\"piko-2-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[\"\"],duration:\"1:12\",trackNumber:6,producers:[],producersNames:[],description:\"Piko 2 (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/piko-2-instrumental-idea\",children:\"Piko 2 (Instrumental)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/tempo-instrumental\",children:\"Tempo (Instrumental)\"}),\" (2020).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/piko-2-instrumental-idea.mdx",
   "_raw": {

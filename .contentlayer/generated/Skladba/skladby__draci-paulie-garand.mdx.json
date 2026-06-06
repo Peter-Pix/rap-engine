@@ -12,16 +12,19 @@
   "album": "Draci",
   "albumSlug": "draci",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Draci — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var d=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)d(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!g.call(e,n)&&n!==t&&d(e,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return e};var b=(e,r,t)=>(t=e!=null?m(h(e)):{},i(r||!e||!e.__esModule?d(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(d({},\"__esModule\",{value:!0}),e);var u=f((S,s)=>{s.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>D});var a=b(u()),D={title:\"Draci\",slug:\"draci-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"odd\"],featuresNames:[\"Odd\"],album:\"Draci\",albumSlug:\"draci\",year:2025,genre:[],duration:\"3:08\",trackNumber:1,producers:[],producersNames:[],description:\"Draci \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Draci](/skladby/draci-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var e in a)d(r,e,{get:a[e],enumerable:!0})},o=(r,a,e,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of g(a))!x.call(r,t)&&t!==e&&d(r,t,{get:()=>a[t],enumerable:!(i=m(a,t))||i.enumerable});return r};var D=(r,a,e)=>(e=r!=null?p(f(r)):{},o(a||!r||!r.__esModule?d(e,\"default\",{value:r,enumerable:!0}):e,r)),_=r=>o(d({},\"__esModule\",{value:!0}),r);var u=h((G,s)=>{s.exports=_jsx_runtime});var k={};b(k,{default:()=>l,frontmatter:()=>j});var n=D(u()),j={title:\"Draci\",slug:\"draci-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"odd\"],featuresNames:[\"Odd\"],album:\"Draci\",albumSlug:\"draci\",year:2025,genre:[\"\"],duration:\"3:08\",trackNumber:1,producers:[],producersNames:[],description:\"Draci \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/draci-paulie-garand\",children:\"Draci\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" (2025).\"]})}function l(r={}){let{wrapper:a}=r.components||{};return a?(0,n.jsx)(a,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/draci-paulie-garand.mdx",
   "_raw": {

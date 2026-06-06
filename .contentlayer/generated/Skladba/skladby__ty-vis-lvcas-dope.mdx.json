@@ -8,16 +8,19 @@
   "album": "Ty Víš",
   "albumSlug": "ty-vis",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:20",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Ty Víš — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=m(t,s))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var p=y((L,u)=>{u.exports=_jsx_runtime});var j={};_(j,{default:()=>i,frontmatter:()=>v});var r=b(p()),v={title:\"Ty V\\xED\\u0161\",slug:\"ty-vis-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Ty V\\xED\\u0161\",albumSlug:\"ty-vis\",year:2020,genre:[],duration:\"4:20\",trackNumber:1,producers:[],producersNames:[],description:\"Ty V\\xED\\u0161 \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Ty Víš](/skladby/ty-vis-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) (2020).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var v=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of v(e))!f.call(r,a)&&a!==t&&o(r,a,{get:()=>e[a],enumerable:!(n=m(e,a))||n.enumerable});return r};var g=(r,e,t)=>(t=r!=null?i(y(r)):{},c(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),b=r=>c(o({},\"__esModule\",{value:!0}),r);var d=x((L,p)=>{p.exports=_jsx_runtime});var j={};h(j,{default:()=>u,frontmatter:()=>_});var s=g(d()),_={title:\"Ty V\\xED\\u0161\",slug:\"ty-vis-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"Ty V\\xED\\u0161\",albumSlug:\"ty-vis\",year:2020,genre:[\"\"],duration:\"4:20\",trackNumber:1,producers:[],producersNames:[],description:\"Ty V\\xED\\u0161 \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/ty-vis-lvcas-dope\",children:\"Ty V\\xED\\u0161\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" (2020).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(l,{...r})}):l(r)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/ty-vis-lvcas-dope.mdx",
   "_raw": {

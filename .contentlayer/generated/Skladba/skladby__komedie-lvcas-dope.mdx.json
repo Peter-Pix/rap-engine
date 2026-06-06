@@ -8,16 +8,19 @@
   "album": "BENİM",
   "albumSlug": "benim",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:18",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Komedie — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!b.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(h(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var d=f((N,m)=>{m.exports=_jsx_runtime});var D={};_(D,{default:()=>i,frontmatter:()=>v});var n=g(d()),v={title:\"Komedie\",slug:\"komedie-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"BEN\\u0130M\",albumSlug:\"benim\",year:2021,genre:[],duration:\"2:18\",trackNumber:5,producers:[],producersNames:[],description:\"Komedie \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Komedie](/skladby/komedie-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [BENİM](/alba/benim) (2021).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var o in e)n(r,o,{get:e[o],enumerable:!0})},c=(r,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!h.call(r,t)&&t!==o&&n(r,t,{get:()=>e[t],enumerable:!(s=u(e,t))||s.enumerable});return r};var v=(r,e,o)=>(o=r!=null?m(f(r)):{},c(e||!r||!r.__esModule?n(o,\"default\",{value:r,enumerable:!0}):o,r)),_=r=>c(n({},\"__esModule\",{value:!0}),r);var i=x((M,d)=>{d.exports=_jsx_runtime});var k={};g(k,{default:()=>p,frontmatter:()=>j});var a=v(i()),j={title:\"Komedie\",slug:\"komedie-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[],featuresNames:[],album:\"BEN\\u0130M\",albumSlug:\"benim\",year:2021,genre:[\"\"],duration:\"2:18\",trackNumber:5,producers:[],producersNames:[],description:\"Komedie \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/komedie-lvcas-dope\",children:\"Komedie\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/benim\",children:\"BEN\\u0130M\"}),\" (2021).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/komedie-lvcas-dope.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Gorila vs. Architekt",
   "albumSlug": "gorila-vs-architekt",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:14",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Kung-Fu Rap — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!g.call(e,a)&&a!==n&&i(e,a,{get:()=>r[a],enumerable:!(o=p(r,a))||o.enumerable});return e};var b=(e,r,n)=>(n=e!=null?d(x(e)):{},s(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>s(i({},\"__esModule\",{value:!0}),e);var m=f((K,u)=>{u.exports=_jsx_runtime});var v={};_(v,{default:()=>c,frontmatter:()=>j});var t=b(m()),j={title:\"Kung-Fu Rap\",slug:\"kung-fu-rap-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"x-kmen\"],featuresNames:[\"X-Kmen\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[],duration:\"4:14\",trackNumber:8,producers:[],producersNames:[],description:\"Kung-Fu Rap \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return k(v);})();\n;return Component;"
+    "raw": "\n**[Kung-Fu Rap](/skladby/kung-fu-rap-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Gorila vs. Architekt](/alba/gorila-vs-architekt) (2008).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),x=(a,r)=>{for(var t in r)i(a,t,{get:r[t],enumerable:!0})},o=(a,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!f.call(a,n)&&n!==t&&i(a,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return a};var b=(a,r,t)=>(t=a!=null?m(h(a)):{},o(r||!a||!a.__esModule?i(t,\"default\",{value:a,enumerable:!0}):t,a)),v=a=>o(i({},\"__esModule\",{value:!0}),a);var u=k((y,l)=>{l.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>_});var e=b(u()),_={title:\"Kung-Fu Rap\",slug:\"kung-fu-rap-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"x-kmen\"],featuresNames:[\"X-Kmen\"],album:\"Gorila vs. Architekt\",albumSlug:\"gorila-vs-architekt\",year:2008,genre:[\"\"],duration:\"4:14\",trackNumber:8,producers:[],producersNames:[],description:\"Kung-Fu Rap \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/kung-fu-rap-vladimir-518\",children:\"Kung-Fu Rap\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/gorila-vs-architekt\",children:\"Gorila vs. Architekt\"}),\" (2008).\"]})}function c(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(d,{...a})}):d(a)}return v(j);})();\n;return Component;"
   },
   "_id": "skladby/kung-fu-rap-vladimir-518.mdx",
   "_raw": {

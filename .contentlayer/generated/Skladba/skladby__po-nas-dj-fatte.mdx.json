@@ -12,16 +12,19 @@
   "album": "Fade In",
   "albumSlug": "fade-in",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:23",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Po Nás — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=l(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(x(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var m=g((M,d)=>{d.exports=_jsx_runtime});var N={};j(N,{default:()=>i,frontmatter:()=>F});var n=_(m()),F={title:\"Po N\\xE1s\",slug:\"po-nas-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"gr-team\"],featuresNames:[\"GR Team\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[],duration:\"3:23\",trackNumber:8,producers:[],producersNames:[],description:\"Po N\\xE1s \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Po Nás](/skladby/po-nas-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fade In](/alba/fade-in) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},d=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!j.call(t,n)&&n!==r&&s(t,n,{get:()=>e[n],enumerable:!(o=f(e,n))||o.enumerable});return t};var g=(t,e,r)=>(r=t!=null?p(h(t)):{},d(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),N=t=>d(s({},\"__esModule\",{value:!0}),t);var u=x((k,c)=>{c.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>_});var a=g(u()),_={title:\"Po N\\xE1s\",slug:\"po-nas-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"gr-team\"],featuresNames:[\"GR Team\"],album:\"Fade In\",albumSlug:\"fade-in\",year:2018,genre:[\"\"],duration:\"3:23\",trackNumber:8,producers:[],producersNames:[],description:\"Po N\\xE1s \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/po-nas-dj-fatte\",children:\"Po N\\xE1s\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/fade-in\",children:\"Fade In\"}),\" (2018).\"]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(i,{...t})}):i(t)}return N(D);})();\n;return Component;"
   },
   "_id": "skladby/po-nas-dj-fatte.mdx",
   "_raw": {

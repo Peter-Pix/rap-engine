@@ -8,16 +8,19 @@
   "album": "J. Eden",
   "albumSlug": "j-eden",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:29",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "S.O.L. (Chopped & Screwed) — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var S=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=l(n,o))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?i(x(e)):{},d(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(a({},\"__esModule\",{value:!0}),e);var m=S((z,c)=>{c.exports=_jsx_runtime});var w={};_(w,{default:()=>u,frontmatter:()=>j});var t=b(m()),j={title:\"S.O.L. (Chopped & Screwed)\",slug:\"s-o-l-chopped-screwed-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden\",albumSlug:\"j-eden\",year:2020,genre:[],duration:\"1:29\",trackNumber:15,producers:[],producersNames:[],description:\"S.O.L. (Chopped & Screwed) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return g(w);})();\n;return Component;"
+    "raw": "\n**[S.O.L. (Chopped & Screwed)](/skladby/s-o-l-chopped-screwed-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN](/alba/j-eden) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),z=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},t=(r,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!x.call(r,o)&&o!==n&&s(r,o,{get:()=>e[o],enumerable:!(d=u(e,o))||d.enumerable});return r};var S=(r,e,n)=>(n=r!=null?m(f(r)):{},t(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>t(s({},\"__esModule\",{value:!0}),r);var p=b((_,c)=>{c.exports=_jsx_runtime});var y={};z(y,{default:()=>l,frontmatter:()=>j});var a=S(p()),j={title:\"S.O.L. (Chopped & Screwed)\",slug:\"s-o-l-chopped-screwed-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"J. Eden\",albumSlug:\"j-eden\",year:2020,genre:[\"\"],duration:\"1:29\",trackNumber:15,producers:[],producersNames:[],description:\"S.O.L. (Chopped & Screwed) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/s-o-l-chopped-screwed-yzomandias\",children:\"S.O.L. (Chopped & Screwed)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/j-eden\",children:\"J. EDEN\"}),\" (2020).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return g(y);})();\n;return Component;"
   },
   "_id": "skladby/s-o-l-chopped-screwed-yzomandias.mdx",
   "_raw": {

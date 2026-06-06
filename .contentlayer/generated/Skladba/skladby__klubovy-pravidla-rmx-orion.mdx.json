@@ -8,16 +8,19 @@
   "album": "Teritorium Remixy",
   "albumSlug": "teritorium-remixy",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:47",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Klubový Pravidla (RMX) — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)a(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>r[o],enumerable:!(i=p(r,o))||i.enumerable});return e};var g=(e,r,n)=>(n=e!=null?d(b(e)):{},u(r||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),v=e=>u(a({},\"__esModule\",{value:!0}),e);var m=f((X,s)=>{s.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>j});var t=g(m()),j={title:\"Klubov\\xFD Pravidla (RMX)\",slug:\"klubovy-pravidla-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"3:47\",trackNumber:2,producers:[],producersNames:[],description:\"Klubov\\xFD Pravidla (RMX) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return v(y);})();\n;return Component;"
+    "raw": "\n**[Klubový Pravidla (RMX)](/skladby/klubovy-pravidla-rmx-orion)** od [Orion](/raperi/orion) (2007).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),h=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of x(r))!v.call(e,t)&&t!==o&&a(e,t,{get:()=>r[t],enumerable:!(i=p(r,t))||i.enumerable});return e};var g=(e,r,o)=>(o=e!=null?m(b(e)):{},s(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),y=e=>s(a({},\"__esModule\",{value:!0}),e);var l=f((k,u)=>{u.exports=_jsx_runtime});var _={};h(_,{default:()=>c,frontmatter:()=>M});var n=g(l()),M={title:\"Klubov\\xFD Pravidla (RMX)\",slug:\"klubovy-pravidla-rmx-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[\"\"],duration:\"3:47\",trackNumber:2,producers:[],producersNames:[],description:\"Klubov\\xFD Pravidla (RMX) \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/klubovy-pravidla-rmx-orion\",children:\"Klubov\\xFD Pravidla (RMX)\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" (2007).\"]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/klubovy-pravidla-rmx-orion.mdx",
   "_raw": {

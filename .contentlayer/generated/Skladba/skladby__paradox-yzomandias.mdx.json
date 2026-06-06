@@ -8,16 +8,19 @@
   "album": "Ze Dna",
   "albumSlug": "ze-dna",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:33",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Paradox — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},d=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==t&&o(e,r,{get:()=>n[r],enumerable:!(s=l(n,r))||s.enumerable});return e};var g=(e,n,t)=>(t=e!=null?p(h(e)):{},d(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var u=_((M,m)=>{m.exports=_jsx_runtime});var y={};b(y,{default:()=>c,frontmatter:()=>z});var a=g(u()),z={title:\"Paradox\",slug:\"paradox-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[],duration:\"2:33\",trackNumber:7,producers:[],producersNames:[],description:\"Paradox \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(n.p,{children:(0,a.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,a.jsx)(n,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Paradox](/skladby/paradox-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Ze Dna](/alba/ze-dna) (2020).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var z=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},d=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of x(a))!h.call(e,o)&&o!==n&&t(e,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return e};var g=(e,a,n)=>(n=e!=null?l(f(e)):{},d(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>d(t({},\"__esModule\",{value:!0}),e);var c=z((k,i)=>{i.exports=_jsx_runtime});var j={};b(j,{default:()=>u,frontmatter:()=>_});var r=g(c()),_={title:\"Paradox\",slug:\"paradox-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[],featuresNames:[],album:\"Ze Dna\",albumSlug:\"ze-dna\",year:2020,genre:[\"\"],duration:\"2:33\",trackNumber:7,producers:[],producersNames:[],description:\"Paradox \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/paradox-yzomandias\",children:\"Paradox\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/ze-dna\",children:\"Ze Dna\"}),\" (2020).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/paradox-yzomandias.mdx",
   "_raw": {

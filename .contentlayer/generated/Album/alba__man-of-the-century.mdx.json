@@ -6,7 +6,7 @@
   "label": "JOG",
   "year": 2023,
   "genre": [],
-  "description": "Man of the Century — singl od Maniak (2023).",
+  "description": "Maniak v roce 2023 vydal EP. Obsahuje celkem tři skladby. Deska vyšla pod labelem JOG.",
   "image": "https://cdn-images.dzcdn.net/images/cover/f3eb0775ae96f3015d0bcf7884dd7ce2/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -15,9 +15,11 @@
     "Closer & Closer"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},i=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var M=(e,n,r)=>(r=e!=null?u(f(e)):{},i(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var l=x((k,c)=>{c.exports=_jsx_runtime});var y={};b(y,{default:()=>d,frontmatter:()=>j});var t=M(l()),j={title:\"Man of the Century\",slug:\"man-of-the-century\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"JOG\",year:2023,genre:[],description:\"Man of the Century \\u2014 singl od Maniak (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/f3eb0775ae96f3015d0bcf7884dd7ce2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Problem\",\"Girls like you\",\"Closer & Closer\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(y);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Maniak](/raperi/maniak) v roce 2023 vydal EP.\n\nAlbum obsahuje celkem tři skladby.\n\nDeska vyšla pod labelem JOG.\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var r in e)l(a,r,{get:e[r],enumerable:!0})},o=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of u(e))!k.call(a,t)&&t!==r&&l(a,t,{get:()=>e[t],enumerable:!(s=h(e,t))||s.enumerable});return a};var x=(a,e,r)=>(r=a!=null?p(b(a)):{},o(e||!a||!a.__esModule?l(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>o(l({},\"__esModule\",{value:!0}),a);var c=y((_,i)=>{i.exports=_jsx_runtime});var v={};f(v,{default:()=>m,frontmatter:()=>j});var n=x(c()),j={title:\"Man of the Century\",slug:\"man-of-the-century\",rapper:\"Maniak\",rapperSlug:\"maniak\",label:\"JOG\",year:2023,releaseType:\"ep\",genre:[],description:\"Maniak v roce 2023 vydal EP. Obsahuje celkem t\\u0159i skladby. Deska vy\\u0161la pod labelem JOG.\",image:\"https://cdn-images.dzcdn.net/images/cover/f3eb0775ae96f3015d0bcf7884dd7ce2/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Problem\",\"Girls like you\",\"Closer & Closer\"],publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" v roce 2023 vydal EP.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem t\\u0159i skladby.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem JOG.\"})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return g(v);})();\n;return Component;"
   },
   "_id": "alba/man-of-the-century.mdx",
   "_raw": {

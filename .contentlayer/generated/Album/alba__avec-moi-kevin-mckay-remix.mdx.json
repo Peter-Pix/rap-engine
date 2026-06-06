@@ -6,7 +6,7 @@
   "label": "Hungarian Hot Wax",
   "year": 2023,
   "genre": [],
-  "description": "Avec Moi (Kevin McKay Remix) — singl od James Cole (2023).",
+  "description": "James Cole v roce 2023 vydal EP. Obsahuje celkem dvě skladby. Deska vyšla pod labelem Hungarian Hot Wax.",
   "image": "https://cdn-images.dzcdn.net/images/cover/75590600594887454359bb3c18901ad3/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -14,9 +14,11 @@
     "Avec Moi (Kevin McKay Extended Remix)"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var x=Object.create;var c=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),h=(e,n)=>{for(var i in n)c(e,i,{get:n[i],enumerable:!0})},r=(e,n,i,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of u(n))!v.call(e,a)&&a!==i&&c(e,a,{get:()=>n[a],enumerable:!(o=p(n,a))||o.enumerable});return e};var K=(e,n,i)=>(i=e!=null?x(g(e)):{},r(n||!e||!e.__esModule?c(i,\"default\",{value:e,enumerable:!0}):i,e)),j=e=>r(c({},\"__esModule\",{value:!0}),e);var s=M((f,m)=>{m.exports=_jsx_runtime});var _={};h(_,{default:()=>d,frontmatter:()=>y});var t=K(s()),y={title:\"Avec Moi (Kevin McKay Remix)\",slug:\"avec-moi-kevin-mckay-remix\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Hungarian Hot Wax\",year:2023,genre:[],description:\"Avec Moi (Kevin McKay Remix) \\u2014 singl od James Cole (2023).\",image:\"https://cdn-images.dzcdn.net/images/cover/75590600594887454359bb3c18901ad3/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Avec Moi (Kevin McKay Remix)\",\"Avec Moi (Kevin McKay Extended Remix)\"],publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return j(_);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[James Cole](/raperi/james-cole) v roce 2023 vydal EP.\n\nAlbum obsahuje celkem dvě skladby.\n\nDeska vyšla pod labelem Hungarian Hot Wax.\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var r in e)c(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of u(e))!h.call(a,t)&&t!==r&&c(a,t,{get:()=>e[t],enumerable:!(o=x(e,t))||o.enumerable});return a};var g=(a,e,r)=>(r=a!=null?p(v(a)):{},i(e||!a||!a.__esModule?c(r,\"default\",{value:a,enumerable:!0}):r,a)),j=a=>i(c({},\"__esModule\",{value:!0}),a);var s=y((f,l)=>{l.exports=_jsx_runtime});var M={};b(M,{default:()=>d,frontmatter:()=>k});var n=g(s()),k={title:\"Avec Moi (Kevin McKay Remix)\",slug:\"avec-moi-kevin-mckay-remix\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Hungarian Hot Wax\",year:2023,releaseType:\"ep\",genre:[],description:\"James Cole v roce 2023 vydal EP. Obsahuje celkem dv\\u011B skladby. Deska vy\\u0161la pod labelem Hungarian Hot Wax.\",image:\"https://cdn-images.dzcdn.net/images/cover/75590600594887454359bb3c18901ad3/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Avec Moi (Kevin McKay Remix)\",\"Avec Moi (Kevin McKay Extended Remix)\"],publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" v roce 2023 vydal EP.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem dv\\u011B skladby.\"}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Hungarian Hot Wax.\"})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(m,{...a})}):m(a)}return j(M);})();\n;return Component;"
   },
   "_id": "alba/avec-moi-kevin-mckay-remix.mdx",
   "_raw": {

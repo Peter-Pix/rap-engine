@@ -8,16 +8,19 @@
   "album": "Teritorium III. (Deluxe Version)",
   "albumSlug": "teritorium-iii",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:27",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Santa Lucia — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(i=p(t,o))||i.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(a({},\"__esModule\",{value:!0}),e);var c=_((L,u)=>{u.exports=_jsx_runtime});var D={};b(D,{default:()=>l,frontmatter:()=>S});var r=g(c()),S={title:\"Santa Lucia\",slug:\"santa-lucia-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium III. (Deluxe Version)\",albumSlug:\"teritorium-iii\",year:2022,genre:[],duration:\"2:27\",trackNumber:14,producers:[],producersNames:[],description:\"Santa Lucia \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Santa Lucia](/skladby/santa-lucia-orion)** od [Orion](/raperi/orion) z alba [Teritorium III.](/alba/teritorium-iii) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var a in r)i(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of f(r))!x.call(e,n)&&n!==a&&i(e,n,{get:()=>r[n],enumerable:!(o=p(r,n))||o.enumerable});return e};var I=(e,r,a)=>(a=e!=null?m(h(e)):{},s(r||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var c=b((k,u)=>{u.exports=_jsx_runtime});var S={};g(S,{default:()=>d,frontmatter:()=>j});var t=I(c()),j={title:\"Santa Lucia\",slug:\"santa-lucia-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium III. (Deluxe Version)\",albumSlug:\"teritorium-iii\",year:2022,genre:[\"\"],duration:\"2:27\",trackNumber:14,producers:[],producersNames:[],description:\"Santa Lucia \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/santa-lucia-orion\",children:\"Santa Lucia\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/teritorium-iii\",children:\"Teritorium III.\"}),\" (2022).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(S);})();\n;return Component;"
   },
   "_id": "skladby/santa-lucia-orion.mdx",
   "_raw": {

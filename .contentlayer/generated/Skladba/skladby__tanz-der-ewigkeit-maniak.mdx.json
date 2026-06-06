@@ -8,16 +8,19 @@
   "album": "Tanz der Ewigkeit",
   "albumSlug": "tanz-der-ewigkeit",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:57",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Tanz der Ewigkeit — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of g(t))!x.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(k(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var u=h((M,d)=>{d.exports=_jsx_runtime});var j={};f(j,{default:()=>c,frontmatter:()=>w});var n=_(u()),w={title:\"Tanz der Ewigkeit\",slug:\"tanz-der-ewigkeit-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Tanz der Ewigkeit\",albumSlug:\"tanz-der-ewigkeit\",year:2022,genre:[],duration:\"7:57\",trackNumber:1,producers:[],producersNames:[],description:\"Tanz der Ewigkeit \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Tanz der Ewigkeit](/skladby/tanz-der-ewigkeit-maniak)** od [Maniak](/raperi/maniak) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),h=(a,e)=>{for(var r in e)i(a,r,{get:e[r],enumerable:!0})},o=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(a,t)&&t!==r&&i(a,t,{get:()=>e[t],enumerable:!(s=l(e,t))||s.enumerable});return a};var w=(a,e,r)=>(r=a!=null?m(g(a)):{},o(e||!a||!a.__esModule?i(r,\"default\",{value:a,enumerable:!0}):r,a)),z=a=>o(i({},\"__esModule\",{value:!0}),a);var u=x((j,d)=>{d.exports=_jsx_runtime});var M={};h(M,{default:()=>k,frontmatter:()=>b});var n=w(u()),b={title:\"Tanz der Ewigkeit\",slug:\"tanz-der-ewigkeit-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Tanz der Ewigkeit\",albumSlug:\"tanz-der-ewigkeit\",year:2022,genre:[\"\"],duration:\"7:57\",trackNumber:1,producers:[],producersNames:[],description:\"Tanz der Ewigkeit \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/tanz-der-ewigkeit-maniak\",children:\"Tanz der Ewigkeit\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2022).\"]})}function k(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(c,{...a})}):c(a)}return z(M);})();\n;return Component;"
   },
   "_id": "skladby/tanz-der-ewigkeit-maniak.mdx",
   "_raw": {

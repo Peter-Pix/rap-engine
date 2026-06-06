@@ -14,16 +14,19 @@
   "album": "Nadzemí",
   "albumSlug": "nadzemi",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:53",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Nekonečnej Apetit — skladba od Mike Trafik.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of k(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(i=d(t,a))||i.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(f(e)):{},s(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var c=h((A,m)=>{m.exports=_jsx_runtime});var N={};j(N,{default:()=>l,frontmatter:()=>g});var n=_(c()),g={title:\"Nekone\\u010Dnej Apetit\",slug:\"nekonecnej-apetit-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"james-cole\",\"la4\"],featuresNames:[\"James Cole\",\"LA4\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[],duration:\"2:53\",trackNumber:2,producers:[],producersNames:[],description:\"Nekone\\u010Dnej Apetit \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Nekonečnej Apetit](/skladby/nekonecnej-apetit-mike-trafik)** od [Mike Trafik](/raperi/mike-trafik) z alba [Nadzemí](/alba/nadzemi) (2012).\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)i(t,a,{get:e[a],enumerable:!0})},s=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of u(e))!j.call(t,n)&&n!==a&&i(t,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return t};var b=(t,e,a)=>(a=t!=null?l(f(t)):{},s(e||!t||!t.__esModule?i(a,\"default\",{value:t,enumerable:!0}):a,t)),N=t=>s(i({},\"__esModule\",{value:!0}),t);var k=h((z,c)=>{c.exports=_jsx_runtime});var M={};x(M,{default:()=>d,frontmatter:()=>g});var r=b(k()),g={title:\"Nekone\\u010Dnej Apetit\",slug:\"nekonecnej-apetit-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"james-cole\",\"la4\"],featuresNames:[\"James Cole\",\"LA4\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[\"\"],duration:\"2:53\",trackNumber:2,producers:[],producersNames:[],description:\"Nekone\\u010Dnej Apetit \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function m(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nekonecnej-apetit-mike-trafik\",children:\"Nekone\\u010Dnej Apetit\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/mike-trafik\",children:\"Mike Trafik\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/nadzemi\",children:\"Nadzem\\xED\"}),\" (2012).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(m,{...t})}):m(t)}return N(M);})();\n;return Component;"
   },
   "_id": "skladby/nekonecnej-apetit-mike-trafik.mdx",
   "_raw": {

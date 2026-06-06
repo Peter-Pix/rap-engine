@@ -14,16 +14,19 @@
   "album": "Off Season",
   "albumSlug": "off-season",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:27",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Off Season — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),A=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},l=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of p(n))!b.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=i(n,r))||s.enumerable});return e};var _=(e,n,a)=>(a=e!=null?d(h(e)):{},l(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>l(o({},\"__esModule\",{value:!0}),e);var c=x((O,u)=>{u.exports=_jsx_runtime});var j={};A(j,{default:()=>m,frontmatter:()=>S});var t=_(c()),S={title:\"Off Season\",slug:\"off-season-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"labello\",\"tk27\"],featuresNames:[\"Labello\",\"TK27\"],album:\"Off Season\",albumSlug:\"off-season\",year:2018,genre:[],duration:\"3:27\",trackNumber:1,producers:[],producersNames:[],description:\"Off Season \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function f(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(f,{...e})}):f(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Off Season](/skladby/off-season-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Off Season](/alba/off-season) (2018).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var m=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)s(e,r,{get:a[r],enumerable:!0})},f=(e,a,r,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!A.call(e,o)&&o!==r&&s(e,o,{get:()=>a[o],enumerable:!(t=i(a,o))||t.enumerable});return e};var O=(e,a,r)=>(r=e!=null?d(b(e)):{},f(a||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>f(s({},\"__esModule\",{value:!0}),e);var c=m((_,l)=>{l.exports=_jsx_runtime});var H={};x(H,{default:()=>h,frontmatter:()=>S});var n=O(c()),S={title:\"Off Season\",slug:\"off-season-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"labello\",\"tk27\"],featuresNames:[\"Labello\",\"TK27\"],album:\"Off Season\",albumSlug:\"off-season\",year:2018,genre:[\"\"],duration:\"3:27\",trackNumber:1,producers:[],producersNames:[],description:\"Off Season \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/off-season-ca-hanova-bulhar\",children:\"Off Season\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/off-season\",children:\"Off Season\"}),\" (2018).\"]})}function h(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(H);})();\n;return Component;"
   },
   "_id": "skladby/off-season-ca-hanova-bulhar.mdx",
   "_raw": {

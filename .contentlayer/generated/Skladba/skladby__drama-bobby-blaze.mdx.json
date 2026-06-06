@@ -12,16 +12,19 @@
   "album": "Drama (feat. AWB)",
   "albumSlug": "drama-feat-awb",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:49",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Drama — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},m=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of p(a))!f.call(e,n)&&n!==r&&o(e,n,{get:()=>a[n],enumerable:!(s=i(a,n))||s.enumerable});return e};var g=(e,a,r)=>(r=e!=null?d(x(e)):{},m(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>m(o({},\"__esModule\",{value:!0}),e);var u=h((w,b)=>{b.exports=_jsx_runtime});var B={};_(B,{default:()=>c,frontmatter:()=>j});var t=g(u()),j={title:\"Drama\",slug:\"drama-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"awb\"],featuresNames:[\"Awb\"],album:\"Drama (feat. AWB)\",albumSlug:\"drama-feat-awb\",year:2024,genre:[],duration:\"2:49\",trackNumber:1,producers:[],producersNames:[],description:\"Drama \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function l(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(a.p,{children:(0,t.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return y(B);})();\n;return Component;"
+    "raw": "\n**[Drama](/skladby/drama-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var r in a)n(e,r,{get:a[r],enumerable:!0})},s=(e,a,r,b)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!y.call(e,o)&&o!==r&&n(e,o,{get:()=>a[o],enumerable:!(b=i(a,o))||b.enumerable});return e};var g=(e,a,r)=>(r=e!=null?c(f(e)):{},s(a||!e||!e.__esModule?n(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>s(n({},\"__esModule\",{value:!0}),e);var d=x((j,l)=>{l.exports=_jsx_runtime});var D={};h(D,{default:()=>u,frontmatter:()=>B});var t=g(d()),B={title:\"Drama\",slug:\"drama-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"awb\"],featuresNames:[\"Awb\"],album:\"Drama (feat. AWB)\",albumSlug:\"drama-feat-awb\",year:2024,genre:[\"\"],duration:\"2:49\",trackNumber:1,producers:[],producersNames:[],description:\"Drama \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/drama-bobby-blaze\",children:\"Drama\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function u(e={}){let{wrapper:a}=e.components||{};return a?(0,t.jsx)(a,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return z(D);})();\n;return Component;"
   },
   "_id": "skladby/drama-bobby-blaze.mdx",
   "_raw": {

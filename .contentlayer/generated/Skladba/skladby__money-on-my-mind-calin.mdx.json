@@ -8,16 +8,19 @@
   "album": "Bieber Fever",
   "albumSlug": "bieber-fever",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:43",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Money On My Mind — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var y=(e,n,t)=>(t=e!=null?l(b(e)):{},i(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var m=M((C,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>d,frontmatter:()=>g});var r=y(m()),g={title:\"Money On My Mind\",slug:\"money-on-my-mind-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[],duration:\"2:43\",trackNumber:6,producers:[],producersNames:[],description:\"Money On My Mind \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Money On My Mind](/skladby/money-on-my-mind-calin)** od [Calin](/raperi/calin) z alba [Bieber Fever](/alba/bieber-fever) (2024).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var M=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),h=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},s=(n,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of b(e))!f.call(n,t)&&t!==a&&o(n,t,{get:()=>e[t],enumerable:!(i=p(e,t))||i.enumerable});return n};var x=(n,e,a)=>(a=n!=null?m(y(n)):{},s(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),g=n=>s(o({},\"__esModule\",{value:!0}),n);var l=M((N,c)=>{c.exports=_jsx_runtime});var j={};h(j,{default:()=>u,frontmatter:()=>_});var r=x(l()),_={title:\"Money On My Mind\",slug:\"money-on-my-mind-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Bieber Fever\",albumSlug:\"bieber-fever\",year:2024,genre:[\"\"],duration:\"2:43\",trackNumber:6,producers:[],producersNames:[],description:\"Money On My Mind \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/money-on-my-mind-calin\",children:\"Money On My Mind\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/bieber-fever\",children:\"Bieber Fever\"}),\" (2024).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(d,{...n})}):d(n)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/money-on-my-mind-calin.mdx",
   "_raw": {

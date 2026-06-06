@@ -8,16 +8,19 @@
   "album": "1000",
   "albumSlug": "1000",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:15",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Ferragamo — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},u=(e,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of p(r))!h.call(e,n)&&n!==o&&a(e,n,{get:()=>r[n],enumerable:!(s=l(r,n))||s.enumerable});return e};var b=(e,r,o)=>(o=e!=null?i(g(e)):{},u(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var m=f((S,x)=>{x.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>F});var t=b(m()),F={title:\"Ferragamo\",slug:\"ferragamo-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"2:15\",trackNumber:3,producers:[],producersNames:[],description:\"Ferragamo \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Ferragamo](/skladby/ferragamo-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [1000](/alba/1000) (2019).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var a in r)n(e,a,{get:r[a],enumerable:!0})},s=(e,r,a,x)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of i(r))!h.call(e,t)&&t!==a&&n(e,t,{get:()=>r[t],enumerable:!(x=m(r,t))||x.enumerable});return e};var _=(e,r,a)=>(a=e!=null?d(p(e)):{},s(r||!e||!e.__esModule?n(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(n({},\"__esModule\",{value:!0}),e);var c=f((H,u)=>{u.exports=_jsx_runtime});var y={};b(y,{default:()=>l,frontmatter:()=>k});var o=_(c()),k={title:\"Ferragamo\",slug:\"ferragamo-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[\"\"],duration:\"2:15\",trackNumber:3,producers:[],producersNames:[],description:\"Ferragamo \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function g(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/ferragamo-hugo-toxxx\",children:\"Ferragamo\"})}),\" od \",(0,o.jsx)(r.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(r.a,{href:\"/alba/1000\",children:\"1000\"}),\" (2019).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(g,{...e})}):g(e)}return j(y);})();\n;return Component;"
   },
   "_id": "skladby/ferragamo-hugo-toxxx.mdx",
   "_raw": {

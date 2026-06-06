@@ -12,16 +12,19 @@
   "album": "Medusa II",
   "albumSlug": "medusa-ii",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:01",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Déšť — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},o=(e,r,a,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of g(r))!h.call(e,n)&&n!==a&&s(e,n,{get:()=>r[n],enumerable:!(u=p(r,n))||u.enumerable});return e};var _=(e,r,a)=>(a=e!=null?l(x(e)):{},o(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var i=b((C,c)=>{c.exports=_jsx_runtime});var D={};f(D,{default:()=>m,frontmatter:()=>S});var t=_(i()),S={title:\"D\\xE9\\u0161\\u0165\",slug:\"dest-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pil-c\"],featuresNames:[\"Pil C\"],album:\"Medusa II\",albumSlug:\"medusa-ii\",year:2024,genre:[],duration:\"3:01\",trackNumber:6,producers:[],producersNames:[],description:\"D\\xE9\\u0161\\u0165 \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return j(D);})();\n;return Component;"
+    "raw": "\n**[Déšť](/skladby/dest-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Medusa II](/alba/medusa-ii) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},u=(r,e,t,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of m(e))!f.call(r,s)&&s!==t&&n(r,s,{get:()=>e[s],enumerable:!(d=g(e,s))||d.enumerable});return r};var _=(r,e,t)=>(t=r!=null?p(b(r)):{},u(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>u(n({},\"__esModule\",{value:!0}),r);var c=h((I,i)=>{i.exports=_jsx_runtime});var M={};x(M,{default:()=>l,frontmatter:()=>D});var a=_(c()),D={title:\"D\\xE9\\u0161\\u0165\",slug:\"dest-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"pil-c\"],featuresNames:[\"Pil C\"],album:\"Medusa II\",albumSlug:\"medusa-ii\",year:2024,genre:[\"\"],duration:\"3:01\",trackNumber:6,producers:[],producersNames:[],description:\"D\\xE9\\u0161\\u0165 \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function o(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/dest-sergei-barracuda\",children:\"D\\xE9\\u0161\\u0165\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/medusa-ii\",children:\"Medusa II\"}),\" (2024).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(o,{...r})}):o(r)}return j(M);})();\n;return Component;"
   },
   "_id": "skladby/dest-sergei-barracuda.mdx",
   "_raw": {

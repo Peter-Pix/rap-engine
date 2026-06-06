@@ -12,16 +12,19 @@
   "album": "ONE MORE TIME (feat. Ghostie)",
   "albumSlug": "one-more-time-feat-ghostie",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:03",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "ONE MORE TIME — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),E=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?l(M(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>i(o({},\"__esModule\",{value:!0}),e);var u=f((O,m)=>{m.exports=_jsx_runtime});var k={};E(k,{default:()=>d,frontmatter:()=>b});var n=g(u()),b={title:\"ONE MORE TIME\",slug:\"one-more-time-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"ghostie\"],featuresNames:[\"Ghostie\"],album:\"ONE MORE TIME (feat. Ghostie)\",albumSlug:\"one-more-time-feat-ghostie\",year:2025,genre:[],duration:\"3:03\",trackNumber:1,producers:[],producersNames:[],description:\"ONE MORE TIME \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[ONE MORE TIME](/skladby/one-more-time-maniak)** od [Maniak](/raperi/maniak) (2025).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var M=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,E=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),k=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of M(e))!E.call(t,n)&&n!==r&&o(t,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return t};var g=(t,e,r)=>(r=t!=null?l(h(t)):{},i(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),x=t=>i(o({},\"__esModule\",{value:!0}),t);var u=f((_,m)=>{m.exports=_jsx_runtime});var N={};k(N,{default:()=>d,frontmatter:()=>O});var a=g(u()),O={title:\"ONE MORE TIME\",slug:\"one-more-time-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"ghostie\"],featuresNames:[\"Ghostie\"],album:\"ONE MORE TIME (feat. Ghostie)\",albumSlug:\"one-more-time-feat-ghostie\",year:2025,genre:[\"\"],duration:\"3:03\",trackNumber:1,producers:[],producersNames:[],description:\"ONE MORE TIME \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/one-more-time-maniak\",children:\"ONE MORE TIME\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2025).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(c,{...t})}):c(t)}return x(N);})();\n;return Component;"
   },
   "_id": "skladby/one-more-time-maniak.mdx",
   "_raw": {

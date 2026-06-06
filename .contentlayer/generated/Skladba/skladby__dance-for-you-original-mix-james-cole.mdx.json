@@ -8,16 +8,19 @@
   "album": "Dance for You",
   "albumSlug": "dance-for-you",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "6:51",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Dance for You (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),j=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},c=(e,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of x(r))!g.call(e,t)&&t!==o&&a(e,t,{get:()=>r[t],enumerable:!(s=p(r,t))||s.enumerable});return e};var _=(e,r,o)=>(o=e!=null?d(f(e)):{},c(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),b=e=>c(a({},\"__esModule\",{value:!0}),e);var i=h((C,u)=>{u.exports=_jsx_runtime});var M={};j(M,{default:()=>m,frontmatter:()=>D});var n=_(i()),D={title:\"Dance for You (Original Mix)\",slug:\"dance-for-you-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Dance for You\",albumSlug:\"dance-for-you\",year:2019,genre:[],duration:\"6:51\",trackNumber:1,producers:[],producersNames:[],description:\"Dance for You (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Dance for You (Original Mix)](/skladby/dance-for-you-original-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Dance for You](/alba/dance-for-you) (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},c=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!g.call(r,n)&&n!==a&&t(r,n,{get:()=>e[n],enumerable:!(s=f(e,n))||s.enumerable});return r};var b=(r,e,a)=>(a=r!=null?m(x(r)):{},c(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),y=r=>c(t({},\"__esModule\",{value:!0}),r);var l=h((C,i)=>{i.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>D});var o=b(l()),D={title:\"Dance for You (Original Mix)\",slug:\"dance-for-you-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Dance for You\",albumSlug:\"dance-for-you\",year:2019,genre:[\"\"],duration:\"6:51\",trackNumber:1,producers:[],producersNames:[],description:\"Dance for You (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/dance-for-you-original-mix-james-cole\",children:\"Dance for You (Original Mix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/dance-for-you\",children:\"Dance for You\"}),\" (2019).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(u,{...r})}):u(r)}return y(M);})();\n;return Component;"
   },
   "_id": "skladby/dance-for-you-original-mix-james-cole.mdx",
   "_raw": {

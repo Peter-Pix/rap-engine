@@ -12,16 +12,19 @@
   "album": "Monology",
   "albumSlug": "monology",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:56",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Trip — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=m(n,a))||u.enumerable});return e};var b=(e,n,t)=>(t=e!=null?c(h(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),y=e=>s(o({},\"__esModule\",{value:!0}),e);var l=f((N,i)=>{i.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>j});var r=b(l()),j={title:\"Trip\",slug:\"trip-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Monology\",albumSlug:\"monology\",year:2020,genre:[],duration:\"3:56\",trackNumber:2,producers:[],producersNames:[],description:\"Trip \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return y(M);})();\n;return Component;"
+    "raw": "\n**[Trip](/skladby/trip-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Monology](/alba/monology) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),y=(a,r)=>{for(var n in r)t(a,n,{get:r[n],enumerable:!0})},i=(a,r,n,l)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of m(r))!f.call(a,o)&&o!==n&&t(a,o,{get:()=>r[o],enumerable:!(l=g(r,o))||l.enumerable});return a};var b=(a,r,n)=>(n=a!=null?c(h(a)):{},i(r||!a||!a.__esModule?t(n,\"default\",{value:a,enumerable:!0}):n,a)),_=a=>i(t({},\"__esModule\",{value:!0}),a);var s=x((G,u)=>{u.exports=_jsx_runtime});var M={};y(M,{default:()=>p,frontmatter:()=>j});var e=b(s()),j={title:\"Trip\",slug:\"trip-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Monology\",albumSlug:\"monology\",year:2020,genre:[\"\"],duration:\"3:56\",trackNumber:2,producers:[],producersNames:[],description:\"Trip \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/trip-paulie-garand\",children:\"Trip\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/monology\",children:\"Monology\"}),\" (2020).\"]})}function p(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(d,{...a})}):d(a)}return _(M);})();\n;return Component;"
   },
   "_id": "skladby/trip-paulie-garand.mdx",
   "_raw": {

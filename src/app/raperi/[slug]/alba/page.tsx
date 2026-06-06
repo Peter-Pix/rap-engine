@@ -21,7 +21,7 @@ export async function generateMetadata({
   const albums = albumsByRapper(slug)
   return {
     title: `${rapper.title} alba — Diskografie`,
-    description: `Kompletní diskografie rappera ${rapper.title} — ${albums.length} alb, EP a mixtape. Recenze, hodnocení.`,
+    description: `Kompletní diskografie rappera ${rapper.title} — ${albums.length} alb a EP. Recenze, hodnocení.`,
     alternates: { canonical: `${BASE}/raperi/${slug}/alba` },
   }
 }

@@ -12,16 +12,19 @@
   "album": "Definice Rapu",
   "albumSlug": "definice-rapu",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:36",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "DEFINICE RAPU — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var D=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of f(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?m(x(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var u=D((v,i)=>{i.exports=_jsx_runtime});var N={};_(N,{default:()=>d,frontmatter:()=>j});var t=b(u()),j={title:\"DEFINICE RAPU\",slug:\"definice-rapu-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dominik-rey\"],featuresNames:[\"Dominik Rey\"],album:\"Definice Rapu\",albumSlug:\"definice-rapu\",year:2024,genre:[],duration:\"3:36\",trackNumber:2,producers:[],producersNames:[],description:\"DEFINICE RAPU \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[DEFINICE RAPU](/skladby/definice-rapu-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [Definice Rapu](/alba/definice-rapu) (2024).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var D=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},c=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!h.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=f(e,t))||s.enumerable});return r};var g=(r,e,n)=>(n=r!=null?l(D(r)):{},c(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>c(o({},\"__esModule\",{value:!0}),r);var p=x((R,i)=>{i.exports=_jsx_runtime});var I={};b(I,{default:()=>u,frontmatter:()=>E});var a=g(p()),E={title:\"DEFINICE RAPU\",slug:\"definice-rapu-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dominik-rey\"],featuresNames:[\"Dominik Rey\"],album:\"Definice Rapu\",albumSlug:\"definice-rapu\",year:2024,genre:[\"\"],duration:\"3:36\",trackNumber:2,producers:[],producersNames:[],description:\"DEFINICE RAPU \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/definice-rapu-lvcas-dope\",children:\"DEFINICE RAPU\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/definice-rapu\",children:\"Definice Rapu\"}),\" (2024).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return v(I);})();\n;return Component;"
   },
   "_id": "skladby/definice-rapu-lvcas-dope.mdx",
   "_raw": {

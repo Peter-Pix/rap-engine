@@ -8,16 +8,19 @@
   "album": "2051",
   "albumSlug": "2051",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:31",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Nevíš Co Sem Dělal Dřív — skladba od Smack.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var S=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(h(e)):{},m(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(s({},\"__esModule\",{value:!0}),e);var i=S((j,c)=>{c.exports=_jsx_runtime});var v={};_(v,{default:()=>u,frontmatter:()=>k});var r=b(i()),k={title:\"Nevi\\u0301s\\u030C Co Sem De\\u030Clal Dr\\u030Ci\\u0301v\",slug:\"nevis-co-sem-delal-driv-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[],duration:\"3:31\",trackNumber:8,producers:[],producersNames:[],description:\"Nevi\\u0301s\\u030C Co Sem De\\u030Clal Dr\\u030Ci\\u0301v \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(v);})();\n;return Component;"
+    "raw": "\n**[Nevíš Co Sem Dělal Dřív](/skladby/nevis-co-sem-delal-driv-smack)** od [Smack One](/raperi/smack) z alba [2051](/alba/2051) (2012).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var v=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var s in e)t(r,s,{get:e[s],enumerable:!0})},c=(r,e,s,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!k.call(r,n)&&n!==s&&t(r,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return r};var b=(r,e,s)=>(s=r!=null?u(h(r)):{},c(e||!r||!r.__esModule?t(s,\"default\",{value:r,enumerable:!0}):s,r)),D=r=>c(t({},\"__esModule\",{value:!0}),r);var i=v((_,l)=>{l.exports=_jsx_runtime});var g={};x(g,{default:()=>d,frontmatter:()=>S});var a=b(i()),S={title:\"Nevi\\u0301s\\u030C Co Sem De\\u030Clal Dr\\u030Ci\\u0301v\",slug:\"nevis-co-sem-delal-driv-smack\",rapper:\"Smack\",rapperSlug:\"smack\",features:[],featuresNames:[],album:\"2051\",albumSlug:\"2051\",year:2012,genre:[\"\"],duration:\"3:31\",trackNumber:8,producers:[],producersNames:[],description:\"Nevi\\u0301s\\u030C Co Sem De\\u030Clal Dr\\u030Ci\\u0301v \\u2014 skladba od Smack.\",publishedAt:\"2026-05-31\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/nevis-co-sem-delal-driv-smack\",children:\"Nevi\\u0301s\\u030C Co Sem De\\u030Clal Dr\\u030Ci\\u0301v\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/smack\",children:\"Smack One\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/2051\",children:\"2051\"}),\" (2012).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(m,{...r})}):m(r)}return D(g);})();\n;return Component;"
   },
   "_id": "skladby/nevis-co-sem-delal-driv-smack.mdx",
   "_raw": {

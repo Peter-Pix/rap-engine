@@ -1,0 +1,29 @@
+{
+  "title": "Time",
+  "slug": "time",
+  "rapper": "Decky",
+  "rapperSlug": "decky",
+  "label": "Decky",
+  "year": 2022,
+  "description": "Time — singl od Decky (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/e5187116819e15d65b7f70a2901b982e/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Time](/skladby/time)** od [Decky](/raperi/decky) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)i(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!y.call(t,s)&&s!==n&&i(t,s,{get:()=>e[s],enumerable:!(a=g(e,s))||a.enumerable});return t};var k=(t,e,n)=>(n=t!=null?m(u(t)):{},c(e||!t||!t.__esModule?i(n,\"default\",{value:t,enumerable:!0}):n,t)),D=t=>c(i({},\"__esModule\",{value:!0}),t);var l=f((T,o)=>{o.exports=_jsx_runtime});var _={};h(_,{default:()=>p,frontmatter:()=>j});var r=k(l()),j={title:\"Time\",slug:\"time\",rapper:\"Decky\",rapperSlug:\"decky\",label:\"Decky\",year:2022,description:\"Time \\u2014 singl od Decky (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/e5187116819e15d65b7f70a2901b982e/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/time\",children:\"Time\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/decky\",children:\"Decky\"}),\" (2022).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return D(_);})();\n;return Component;"
+  },
+  "_id": "skladby/time.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/time.mdx",
+    "sourceFileName": "time.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/time"
+  },
+  "type": "Skladba",
+  "url": "/skladby/time",
+  "canonicalUrl": "https://4rap.cz/skladby/time"
+}

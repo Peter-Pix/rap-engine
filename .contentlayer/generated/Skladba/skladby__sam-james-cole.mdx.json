@@ -16,16 +16,19 @@
   "album": "DONE",
   "albumSlug": "done",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:52",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "SÁM — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(f(e)):{},m(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>m(o({},\"__esModule\",{value:!0}),e);var d=j((N,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>l,frontmatter:()=>M});var r=b(d()),M={title:\"S\\xC1M\",slug:\"sam-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"zef\",\"radimo\"],featuresNames:[\"Idea\",\"Zef\",\"Radimo\"],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[],duration:\"3:52\",trackNumber:11,producers:[],producersNames:[],description:\"S\\xC1M \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[SÁM](/skladby/sam-james-cole)** od [James Cole](/raperi/james-cole) z alba [DONE](/alba/done) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var o in e)t(a,o,{get:e[o],enumerable:!0})},l=(a,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!j.call(a,s)&&s!==o&&t(a,s,{get:()=>e[s],enumerable:!(n=p(e,s))||n.enumerable});return a};var g=(a,e,o)=>(o=a!=null?u(h(a)):{},l(e||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),M=a=>l(t({},\"__esModule\",{value:!0}),a);var d=x((S,c)=>{c.exports=_jsx_runtime});var C={};b(C,{default:()=>i,frontmatter:()=>_});var r=g(d()),_={title:\"S\\xC1M\",slug:\"sam-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"idea\",\"zef\",\"radimo\"],featuresNames:[\"Idea\",\"Zef\",\"Radimo\"],album:\"DONE\",albumSlug:\"done\",year:2025,genre:[\"\"],duration:\"3:52\",trackNumber:11,producers:[],producersNames:[],description:\"S\\xC1M \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/sam-james-cole\",children:\"S\\xC1M\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/done\",children:\"DONE\"}),\" (2025).\"]})}function i(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(m,{...a})}):m(a)}return M(C);})();\n;return Component;"
   },
   "_id": "skladby/sam-james-cole.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Noční vidění",
   "albumSlug": "nocni-videni",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:50",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Imrvere Liquere — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var t in r)i(e,t,{get:r[t],enumerable:!0})},a=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!f.call(e,o)&&o!==t&&i(e,o,{get:()=>r[o],enumerable:!(s=p(r,o))||s.enumerable});return e};var g=(e,r,t)=>(t=e!=null?l(h(e)):{},a(r||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>a(i({},\"__esModule\",{value:!0}),e);var m=_((q,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>d,frontmatter:()=>v});var n=g(m()),v={title:\"Imrvere Liquere\",slug:\"imrvere-liquere-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"ektor\"],featuresNames:[\"Ektor\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[],duration:\"3:50\",trackNumber:9,producers:[],producersNames:[],description:\"Imrvere Liquere \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Imrvere Liquere](/skladby/imrvere-liquere-orion)** od [Orion](/raperi/orion) z alba [Noční vidění](/alba/nocni-videni) (2014).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},s=(r,e,o,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of f(e))!v.call(r,i)&&i!==o&&t(r,i,{get:()=>e[i],enumerable:!(a=p(e,i))||a.enumerable});return r};var g=(r,e,o)=>(o=r!=null?m(h(r)):{},s(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),_=r=>s(t({},\"__esModule\",{value:!0}),r);var c=x((N,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>l,frontmatter:()=>j});var n=g(c()),j={title:\"Imrvere Liquere\",slug:\"imrvere-liquere-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"ektor\"],featuresNames:[\"Ektor\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[\"\"],duration:\"3:50\",trackNumber:9,producers:[],producersNames:[],description:\"Imrvere Liquere \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/imrvere-liquere-orion\",children:\"Imrvere Liquere\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/nocni-videni\",children:\"No\\u010Dn\\xED vid\\u011Bn\\xED\"}),\" (2014).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/imrvere-liquere-orion.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Tetris",
   "albumSlug": "tetris",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Zmiz — skladba od Ektor.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var x=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!g.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?x(h(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var c=f((M,u)=>{u.exports=_jsx_runtime});var z={};_(z,{default:()=>d,frontmatter:()=>k});var r=b(c()),k={title:\"Zmiz\",slug:\"zmiz-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\",\"hugo-toxxx\"],featuresNames:[\"DJ Wich\",\"Hugo Toxxx\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[],duration:\"3:08\",trackNumber:9,producers:[],producersNames:[],description:\"Zmiz \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(z);})();\n;return Component;"
+    "raw": "\n**[Zmiz](/skladby/zmiz-ektor)** od [Ektor](/raperi/ektor) z alba [Tetris](/alba/tetris) (2012).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var o in r)a(e,o,{get:r[o],enumerable:!0})},i=(e,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!f.call(e,n)&&n!==o&&a(e,n,{get:()=>r[n],enumerable:!(s=p(r,n))||s.enumerable});return e};var b=(e,r,o)=>(o=e!=null?m(h(e)):{},i(r||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),z=e=>i(a({},\"__esModule\",{value:!0}),e);var u=k((D,c)=>{c.exports=_jsx_runtime});var _={};g(_,{default:()=>l,frontmatter:()=>j});var t=b(u()),j={title:\"Zmiz\",slug:\"zmiz-ektor\",rapper:\"Ektor\",rapperSlug:\"ektor\",features:[\"dj-wich\",\"hugo-toxxx\"],featuresNames:[\"DJ Wich\",\"Hugo Toxxx\"],album:\"Tetris\",albumSlug:\"tetris\",year:2012,genre:[\"\"],duration:\"3:08\",trackNumber:9,producers:[],producersNames:[],description:\"Zmiz \\u2014 skladba od Ektor.\",publishedAt:\"2026-05-31\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/zmiz-ektor\",children:\"Zmiz\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/ektor\",children:\"Ektor\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/tetris\",children:\"Tetris\"}),\" (2012).\"]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/zmiz-ektor.mdx",
   "_raw": {

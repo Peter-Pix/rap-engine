@@ -12,16 +12,19 @@
   "album": "TopProdukt",
   "albumSlug": "topprodukt",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:38",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Uhni Mi z Cesty — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var b=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?b(h(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>u(a({},\"__esModule\",{value:!0}),e);var m=y((k,i)=>{i.exports=_jsx_runtime});var _={};g(_,{default:()=>l,frontmatter:()=>M});var n=f(m()),M={title:\"Uhni Mi z Cesty\",slug:\"uhni-mi-z-cesty-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"mega-m\"],featuresNames:[\"Mega M\"],album:\"TopProdukt\",albumSlug:\"topprodukt\",year:2024,genre:[],duration:\"3:38\",trackNumber:8,producers:[],producersNames:[],description:\"Uhni Mi z Cesty \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return z(_);})();\n;return Component;"
+    "raw": "\n**[Uhni Mi z Cesty](/skladby/uhni-mi-z-cesty-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [TopProdukt](/alba/topprodukt) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var z=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var o in e)n(t,o,{get:e[o],enumerable:!0})},b=(t,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!y.call(t,a)&&a!==o&&n(t,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return t};var g=(t,e,o)=>(o=t!=null?d(h(t)):{},b(e||!t||!t.__esModule?n(o,\"default\",{value:t,enumerable:!0}):o,t)),x=t=>b(n({},\"__esModule\",{value:!0}),t);var l=z((_,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>c,frontmatter:()=>M});var r=g(l()),M={title:\"Uhni Mi z Cesty\",slug:\"uhni-mi-z-cesty-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[\"mega-m\"],featuresNames:[\"Mega M\"],album:\"TopProdukt\",albumSlug:\"topprodukt\",year:2024,genre:[\"\"],duration:\"3:38\",trackNumber:8,producers:[],producersNames:[],description:\"Uhni Mi z Cesty \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/uhni-mi-z-cesty-bobby-blaze\",children:\"Uhni Mi z Cesty\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/topprodukt\",children:\"TopProdukt\"}),\" (2024).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return x(k);})();\n;return Component;"
   },
   "_id": "skladby/uhni-mi-z-cesty-bobby-blaze.mdx",
   "_raw": {

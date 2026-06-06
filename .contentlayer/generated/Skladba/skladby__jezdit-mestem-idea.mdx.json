@@ -14,16 +14,19 @@
   "album": "Idea x TrashBoySony EP",
   "albumSlug": "idea-x-trashboysony-ep",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:35",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Jezdit městem — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!y.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=l(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(x(e)):{},d(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>d(s({},\"__esModule\",{value:!0}),e);var i=b((N,m)=>{m.exports=_jsx_runtime});var S={};f(S,{default:()=>c,frontmatter:()=>j});var r=_(i()),j={title:\"Jezdit m\\u011Bstem\",slug:\"jezdit-mestem-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"trashboysony\",\"darewin\"],featuresNames:[\"TrashBoySony\",\"DAREWIN\"],album:\"Idea x TrashBoySony EP\",albumSlug:\"idea-x-trashboysony-ep\",year:2022,genre:[],duration:\"3:35\",trackNumber:1,producers:[],producersNames:[],description:\"Jezdit m\\u011Bstem \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Jezdit městem](/skladby/jezdit-mestem-idea)** od [Idea](/raperi/idea) z alba [Idea x TrashBoySony EP](/alba/idea-x-trashboysony-ep) (2022).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var t in e)n(a,t,{get:e[t],enumerable:!0})},d=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!x.call(a,s)&&s!==t&&n(a,s,{get:()=>e[s],enumerable:!(o=p(e,s))||o.enumerable});return a};var g=(a,e,t)=>(t=a!=null?l(y(a)):{},d(e||!a||!a.__esModule?n(t,\"default\",{value:a,enumerable:!0}):t,a)),j=a=>d(n({},\"__esModule\",{value:!0}),a);var m=b((S,i)=>{i.exports=_jsx_runtime});var I={};f(I,{default:()=>u,frontmatter:()=>z});var r=g(m()),z={title:\"Jezdit m\\u011Bstem\",slug:\"jezdit-mestem-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"trashboysony\",\"darewin\"],featuresNames:[\"TrashBoySony\",\"DAREWIN\"],album:\"Idea x TrashBoySony EP\",albumSlug:\"idea-x-trashboysony-ep\",year:2022,genre:[\"\"],duration:\"3:35\",trackNumber:1,producers:[],producersNames:[],description:\"Jezdit m\\u011Bstem \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/jezdit-mestem-idea\",children:\"Jezdit m\\u011Bstem\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/idea-x-trashboysony-ep\",children:\"Idea x TrashBoySony EP\"}),\" (2022).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(c,{...a})}):c(a)}return j(I);})();\n;return Component;"
   },
   "_id": "skladby/jezdit-mestem-idea.mdx",
   "_raw": {

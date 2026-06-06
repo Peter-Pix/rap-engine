@@ -8,16 +8,19 @@
   "album": "Hood Celebrity 3",
   "albumSlug": "hood-celebrity-3",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:52",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Místní odchovanec — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,c)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(c=h(t,o))||c.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(b(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var d=A((H,u)=>{u.exports=_jsx_runtime});var v={};f(v,{default:()=>l,frontmatter:()=>j});var n=_(d()),j={title:\"M\\xEDstn\\xED odchovanec\",slug:\"mistni-odchovanec-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 3\",albumSlug:\"hood-celebrity-3\",year:2019,genre:[],duration:\"2:52\",trackNumber:1,producers:[],producersNames:[],description:\"M\\xEDstn\\xED odchovanec \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return g(v);})();\n;return Component;"
+    "raw": "\n**[Místní odchovanec](/skladby/mistni-odchovanec-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [Hood Celebrity 3](/alba/hood-celebrity-3) (2019).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),v=(a,e)=>{for(var o in e)t(a,o,{get:e[o],enumerable:!0})},s=(a,e,o,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!A.call(a,n)&&n!==o&&t(a,n,{get:()=>e[n],enumerable:!(c=b(e,n))||c.enumerable});return a};var x=(a,e,o)=>(o=a!=null?u(m(a)):{},s(e||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),H=a=>s(t({},\"__esModule\",{value:!0}),a);var l=f((M,d)=>{d.exports=_jsx_runtime});var y={};v(y,{default:()=>i,frontmatter:()=>g});var r=x(l()),g={title:\"M\\xEDstn\\xED odchovanec\",slug:\"mistni-odchovanec-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"Hood Celebrity 3\",albumSlug:\"hood-celebrity-3\",year:2019,genre:[\"\"],duration:\"2:52\",trackNumber:1,producers:[],producersNames:[],description:\"M\\xEDstn\\xED odchovanec \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function h(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/mistni-odchovanec-ca-hanova-bulhar\",children:\"M\\xEDstn\\xED odchovanec\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/hood-celebrity-3\",children:\"Hood Celebrity 3\"}),\" (2019).\"]})}function i(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(h,{...a})}):h(a)}return H(y);})();\n;return Component;"
   },
   "_id": "skladby/mistni-odchovanec-ca-hanova-bulhar.mdx",
   "_raw": {

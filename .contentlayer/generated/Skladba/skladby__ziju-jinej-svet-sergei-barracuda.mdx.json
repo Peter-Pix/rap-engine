@@ -8,16 +8,19 @@
   "album": "713",
   "albumSlug": "713",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:15",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Žiju Jinej Svět — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of j(r))!x.call(e,a)&&a!==n&&s(e,a,{get:()=>r[a],enumerable:!(u=p(r,a))||u.enumerable});return e};var f=(e,r,n)=>(n=e!=null?l(g(e)):{},i(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),S=e=>i(s({},\"__esModule\",{value:!0}),e);var c=h((N,o)=>{o.exports=_jsx_runtime});var v={};b(v,{default:()=>m,frontmatter:()=>_});var t=f(c()),_={title:\"\\u017Diju Jinej Sv\\u011Bt\",slug:\"ziju-jinej-svet-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"713\",albumSlug:\"713\",year:2017,genre:[],duration:\"1:15\",trackNumber:3,producers:[],producersNames:[],description:\"\\u017Diju Jinej Sv\\u011Bt \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return S(v);})();\n;return Component;"
+    "raw": "\n**[Žiju Jinej Svět](/skladby/ziju-jinej-svet-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [713](/alba/713) (2017).\n",
+    "code": "var Component=(()=>{var j=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},u=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!m.call(r,n)&&n!==t&&i(r,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return r};var x=(r,e,t)=>(t=r!=null?j(b(r)):{},u(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),S=r=>u(i({},\"__esModule\",{value:!0}),r);var o=f((y,c)=>{c.exports=_jsx_runtime});var v={};h(v,{default:()=>l,frontmatter:()=>_});var a=x(o()),_={title:\"\\u017Diju Jinej Sv\\u011Bt\",slug:\"ziju-jinej-svet-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[],featuresNames:[],album:\"713\",albumSlug:\"713\",year:2017,genre:[\"\"],duration:\"1:15\",trackNumber:3,producers:[],producersNames:[],description:\"\\u017Diju Jinej Sv\\u011Bt \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/ziju-jinej-svet-sergei-barracuda\",children:\"\\u017Diju Jinej Sv\\u011Bt\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/713\",children:\"713\"}),\" (2017).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return S(v);})();\n;return Component;"
   },
   "_id": "skladby/ziju-jinej-svet-sergei-barracuda.mdx",
   "_raw": {

@@ -14,16 +14,19 @@
   "album": "Nadzemí",
   "albumSlug": "nadzemi",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:21",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Platim Předem — skladba od Mike Trafik.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var m=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)m(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of f(t))!x.call(e,n)&&n!==a&&m(e,n,{get:()=>t[n],enumerable:!(i=p(t,n))||i.enumerable});return e};var b=(e,t,a)=>(a=e!=null?c(k(e)):{},o(t||!e||!e.__esModule?m(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>o(m({},\"__esModule\",{value:!0}),e);var l=h((P,s)=>{s.exports=_jsx_runtime});var M={};_(M,{default:()=>u,frontmatter:()=>j});var r=b(l()),j={title:\"Platim P\\u0159edem\",slug:\"platim-predem-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"james-cole\",\"la4\"],featuresNames:[\"James Cole\",\"LA4\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[],duration:\"3:21\",trackNumber:8,producers:[],producersNames:[],description:\"Platim P\\u0159edem \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Platim Předem](/skladby/platim-predem-mike-trafik)** od [Mike Trafik](/raperi/mike-trafik) z alba [Nadzemí](/alba/nadzemi) (2012).\n",
+    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of f(e))!h.call(r,i)&&i!==t&&n(r,i,{get:()=>e[i],enumerable:!(m=u(e,i))||m.enumerable});return r};var g=(r,e,t)=>(t=r!=null?p(k(r)):{},s(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),j=r=>s(n({},\"__esModule\",{value:!0}),r);var d=x((z,o)=>{o.exports=_jsx_runtime});var P={};b(P,{default:()=>c,frontmatter:()=>M});var a=g(d()),M={title:\"Platim P\\u0159edem\",slug:\"platim-predem-mike-trafik\",rapper:\"Mike Trafik\",rapperSlug:\"mike-trafik\",features:[\"james-cole\",\"la4\"],featuresNames:[\"James Cole\",\"LA4\"],album:\"Nadzem\\xED\",albumSlug:\"nadzemi\",year:2012,genre:[\"\"],duration:\"3:21\",trackNumber:8,producers:[],producersNames:[],description:\"Platim P\\u0159edem \\u2014 skladba od Mike Trafik.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/platim-predem-mike-trafik\",children:\"Platim P\\u0159edem\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/mike-trafik\",children:\"Mike Trafik\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/nadzemi\",children:\"Nadzem\\xED\"}),\" (2012).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return j(P);})();\n;return Component;"
   },
   "_id": "skladby/platim-predem-mike-trafik.mdx",
   "_raw": {

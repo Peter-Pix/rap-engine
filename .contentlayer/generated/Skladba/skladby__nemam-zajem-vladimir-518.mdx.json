@@ -12,16 +12,19 @@
   "album": "Idiot",
   "albumSlug": "idiot",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:18",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Nemam zajem — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var m=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)m(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!g.call(e,a)&&a!==n&&m(e,a,{get:()=>t[a],enumerable:!(o=x(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?c(h(e)):{},i(t||!e||!e.__esModule?m(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>i(m({},\"__esModule\",{value:!0}),e);var u=j((S,s)=>{s.exports=_jsx_runtime});var z={};f(z,{default:()=>l,frontmatter:()=>N});var r=_(u()),N={title:\"Nemam zajem\",slug:\"nemam-zajem-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"4:18\",trackNumber:12,producers:[],producersNames:[],description:\"Nemam zajem \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(z);})();\n;return Component;"
+    "raw": "\n**[Nemam zajem](/skladby/nemam-zajem-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Idiot](/alba/idiot) (2013).\n",
+    "code": "var Component=(()=>{var c=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},o=(r,e,t,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of x(e))!f.call(r,i)&&i!==t&&n(r,i,{get:()=>e[i],enumerable:!(m=p(e,i))||m.enumerable});return r};var b=(r,e,t)=>(t=r!=null?c(h(r)):{},o(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),z=r=>o(n({},\"__esModule\",{value:!0}),r);var s=j((k,d)=>{d.exports=_jsx_runtime});var _={};g(_,{default:()=>u,frontmatter:()=>N});var a=b(s()),N={title:\"Nemam zajem\",slug:\"nemam-zajem-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[\"hugo-toxxx\"],featuresNames:[\"Hugo Toxxx\"],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[\"\"],duration:\"4:18\",trackNumber:12,producers:[],producersNames:[],description:\"Nemam zajem \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/nemam-zajem-vladimir-518\",children:\"Nemam zajem\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/idiot\",children:\"Idiot\"}),\" (2013).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/nemam-zajem-vladimir-518.mdx",
   "_raw": {

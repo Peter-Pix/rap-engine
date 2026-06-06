@@ -14,16 +14,19 @@
   "album": "Pár listov z roku 2009",
   "albumSlug": "par-listov-z-roku-2009",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:08",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "List #1 — skladba od René Gát.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(g(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(s({},\"__esModule\",{value:!0}),e);var l=b((M,i)=>{i.exports=_jsx_runtime});var G={};f(G,{default:()=>d,frontmatter:()=>k});var r=_(l()),k={title:\"List #1\",slug:\"list-1-rene-gat\",rapper:\"Ren\\xE9 G\\xE1t\",rapperSlug:\"rene-gat\",features:[\"bene\",\"paulie-garand\"],featuresNames:[\"Ben\\xE9\",\"Paulie Garand\"],album:\"P\\xE1r listov z roku 2009\",albumSlug:\"par-listov-z-roku-2009\",year:2021,genre:[],duration:\"3:08\",trackNumber:1,producers:[],producersNames:[],description:\"List #1 \\u2014 skladba od Ren\\xE9 G\\xE1t.\",publishedAt:\"2026-05-31\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return j(G);})();\n;return Component;"
+    "raw": "\n**[List #1](/skladby/list-1-rene-gat)** z alba [Pár listov z roku 2009](/alba/par-listov-z-roku-2009) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of g(e))!f.call(r,a)&&a!==t&&s(r,a,{get:()=>e[a],enumerable:!(o=m(e,a))||o.enumerable});return r};var k=(r,e,t)=>(t=r!=null?p(b(r)):{},i(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>i(s({},\"__esModule\",{value:!0}),r);var u=x((L,l)=>{l.exports=_jsx_runtime});var z={};h(z,{default:()=>d,frontmatter:()=>j});var n=k(u()),j={title:\"List #1\",slug:\"list-1-rene-gat\",rapper:\"Ren\\xE9 G\\xE1t\",rapperSlug:\"rene-gat\",features:[\"bene\",\"paulie-garand\"],featuresNames:[\"Ben\\xE9\",\"Paulie Garand\"],album:\"P\\xE1r listov z roku 2009\",albumSlug:\"par-listov-z-roku-2009\",year:2021,genre:[\"\"],duration:\"3:08\",trackNumber:1,producers:[],producersNames:[],description:\"List #1 \\u2014 skladba od Ren\\xE9 G\\xE1t.\",publishedAt:\"2026-05-31\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/list-1-rene-gat\",children:\"List #1\"})}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/par-listov-z-roku-2009\",children:\"P\\xE1r listov z roku 2009\"}),\" (2021).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return _(z);})();\n;return Component;"
   },
   "_id": "skladby/list-1-rene-gat.mdx",
   "_raw": {

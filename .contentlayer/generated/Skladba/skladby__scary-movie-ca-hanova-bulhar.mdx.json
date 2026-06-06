@@ -8,16 +8,19 @@
   "album": "FLEX SYMBOL",
   "albumSlug": "flex-symbol",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:14",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Scary Movie — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var A=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},c=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!b.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(s=p(r,a))||s.enumerable});return e};var _=(e,r,n)=>(n=e!=null?d(x(e)):{},c(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var l=A((j,u)=>{u.exports=_jsx_runtime});var M={};f(M,{default:()=>i,frontmatter:()=>y});var t=_(l()),y={title:\"Scary Movie\",slug:\"scary-movie-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"FLEX SYMBOL\",albumSlug:\"flex-symbol\",year:2023,genre:[],duration:\"3:14\",trackNumber:7,producers:[],producersNames:[],description:\"Scary Movie \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function m(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Scary Movie](/skladby/scary-movie-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [FLEX SYMBOL](/alba/flex-symbol) (2023).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var n in a)t(r,n,{get:a[n],enumerable:!0})},c=(r,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!A.call(r,o)&&o!==n&&t(r,o,{get:()=>a[o],enumerable:!(s=m(a,o))||s.enumerable});return r};var y=(r,a,n)=>(n=r!=null?d(b(r)):{},c(a||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>c(t({},\"__esModule\",{value:!0}),r);var u=f((S,l)=>{l.exports=_jsx_runtime});var M={};x(M,{default:()=>h,frontmatter:()=>L});var e=y(u()),L={title:\"Scary Movie\",slug:\"scary-movie-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[],featuresNames:[],album:\"FLEX SYMBOL\",albumSlug:\"flex-symbol\",year:2023,genre:[\"\"],duration:\"3:14\",trackNumber:7,producers:[],producersNames:[],description:\"Scary Movie \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/scary-movie-ca-hanova-bulhar\",children:\"Scary Movie\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/flex-symbol\",children:\"FLEX SYMBOL\"}),\" (2023).\"]})}function h(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(i,{...r})}):i(r)}return v(M);})();\n;return Component;"
   },
   "_id": "skladby/scary-movie-ca-hanova-bulhar.mdx",
   "_raw": {

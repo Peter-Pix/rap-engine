@@ -1,0 +1,53 @@
+{
+  "title": "Fight",
+  "slug": "fight",
+  "rapper": "Fight",
+  "rapperSlug": "fight",
+  "label": "Epic Records",
+  "year": 1993,
+  "genre": [
+    "heavy-metal",
+    "groove-metal",
+    "thrash-metal"
+  ],
+  "description": " v roce 1993 vydal své None. Album. Obsahuje celkem 12 skladeb. Deska vyšla pod labelem Epic Records.",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Fight_War_of_Words_album_cover.jpg/220px-Fight_War_of_Words_album_cover.jpg",
+  "featured": false,
+  "tracklist": [
+    "Into the Pit",
+    "Nailed to the Gun",
+    "Life in Black",
+    "Immortal Sin",
+    "War of Words",
+    "Laid to Rest",
+    "For All Eternity",
+    "Little Crazy",
+    "Contortion",
+    "Kill It",
+    "Vicious",
+    "Reality - A New Beginning"
+  ],
+  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "updatedAt": "2026-05-31T00:00:00.000Z",
+  "releaseType": "album",
+  "explicit": false,
+  "subgenres": [
+    "traditional-metal",
+    "power-metal"
+  ],
+  "body": {
+    "raw": "\n## O albu\n\n[](/raperi/None) v roce 1993 vydal své None. album.\n\nAlbum obsahuje celkem 12 skladeb.\n\nDeska vyšla pod labelem Epic Records.\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var r in e)l(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!b.call(t,o)&&o!==r&&l(t,o,{get:()=>e[o],enumerable:!(n=h(e,o))||n.enumerable});return t};var v=(t,e,r)=>(r=t!=null?p(g(t)):{},i(e||!t||!t.__esModule?l(r,\"default\",{value:t,enumerable:!0}):r,t)),y=t=>i(l({},\"__esModule\",{value:!0}),t);var c=_((F,s)=>{s.exports=_jsx_runtime});var x={};f(x,{default:()=>m,frontmatter:()=>k});var a=v(c()),k={title:\"Fight\",slug:\"fight\",rapper:\"Fight\",rapperSlug:\"fight\",label:\"Epic Records\",year:1993,releaseType:\"album\",genre:[\"heavy-metal\",\"groove-metal\",\"thrash-metal\"],subgenres:[\"traditional-metal\",\"power-metal\"],description:\" v roce 1993 vydal sv\\xE9 None. Album. Obsahuje celkem 12 skladeb. Deska vy\\u0161la pod labelem Epic Records.\",image:\"https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Fight_War_of_Words_album_cover.jpg/220px-Fight_War_of_Words_album_cover.jpg\",tracklist:[\"Into the Pit\",\"Nailed to the Gun\",\"Life in Black\",\"Immortal Sin\",\"War of Words\",\"Laid to Rest\",\"For All Eternity\",\"Little Crazy\",\"Contortion\",\"Kill It\",\"Vicious\",\"Reality - A New Beginning\"],publishedAt:\"2026-05-31\",updatedAt:\"2026-05-31\"};function d(t){let e={a:\"a\",h2:\"h2\",p:\"p\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.a,{href:\"/raperi/None\"}),\" v roce 1993 vydal sv\\xE9 None. album.\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Album obsahuje celkem 12 skladeb.\"}),`\n`,(0,a.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Epic Records.\"})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(d,{...t})}):d(t)}return y(x);})();\n;return Component;"
+  },
+  "_id": "alba/fight.mdx",
+  "_raw": {
+    "sourceFilePath": "alba/fight.mdx",
+    "sourceFileName": "fight.mdx",
+    "sourceFileDir": "alba",
+    "contentType": "mdx",
+    "flattenedPath": "alba/fight"
+  },
+  "type": "Album",
+  "url": "/alba/fight",
+  "canonicalUrl": "https://4rap.cz/alba/fight"
+}

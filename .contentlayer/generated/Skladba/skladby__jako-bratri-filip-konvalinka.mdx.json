@@ -12,16 +12,19 @@
   "album": "2 MOUCHY 1 RANOU",
   "albumSlug": "2-mouchy-1-ranou",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:53",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Jako bratři — skladba od Filip Konvalinka.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},s=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of k(t))!h.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(i=d(t,r))||i.enumerable});return e};var j=(e,t,a)=>(a=e!=null?m(f(e)):{},s(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var u=x((M,l)=>{l.exports=_jsx_runtime});var F={};b(F,{default:()=>p,frontmatter:()=>g});var n=j(u()),g={title:\"Jako brat\\u0159i\",slug:\"jako-bratri-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[],duration:\"3:53\",trackNumber:5,producers:[],producersNames:[],description:\"Jako brat\\u0159i \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return _(F);})();\n;return Component;"
+    "raw": "\n**[Jako bratři](/skladby/jako-bratri-filip-konvalinka)** z alba [2 MOUCHY 1 RANOU](/alba/2-mouchy-1-ranou) (2026).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var t in a)o(r,t,{get:a[t],enumerable:!0})},l=(r,a,t,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let e of m(a))!f.call(r,e)&&e!==t&&o(r,e,{get:()=>a[e],enumerable:!(i=k(a,e))||i.enumerable});return r};var j=(r,a,t)=>(t=r!=null?d(b(r)):{},l(a||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),g=r=>l(o({},\"__esModule\",{value:!0}),r);var u=h((M,s)=>{s.exports=_jsx_runtime});var v={};x(v,{default:()=>p,frontmatter:()=>_});var n=j(u()),_={title:\"Jako brat\\u0159i\",slug:\"jako-bratri-filip-konvalinka\",rapper:\"Filip Konvalinka\",rapperSlug:\"filip-konvalinka\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"2 MOUCHY 1 RANOU\",albumSlug:\"2-mouchy-1-ranou\",year:2026,genre:[\"\"],duration:\"3:53\",trackNumber:5,producers:[],producersNames:[],description:\"Jako brat\\u0159i \\u2014 skladba od Filip Konvalinka.\",publishedAt:\"2026-06-04\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/jako-bratri-filip-konvalinka\",children:\"Jako brat\\u0159i\"})}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/2-mouchy-1-ranou\",children:\"2 MOUCHY 1 RANOU\"}),\" (2026).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,n.jsx)(a,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return g(v);})();\n;return Component;"
   },
   "_id": "skladby/jako-bratri-filip-konvalinka.mdx",
   "_raw": {

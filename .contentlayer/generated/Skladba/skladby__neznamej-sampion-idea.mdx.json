@@ -14,16 +14,19 @@
   "album": "Space Lopata",
   "albumSlug": "space-lopata",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Neznámej šampion — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),z=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},m=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=l(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?d(f(e)):{},m(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>m(o({},\"__esModule\",{value:!0}),e);var i=j((S,c)=>{c.exports=_jsx_runtime});var N={};z(N,{default:()=>u,frontmatter:()=>g});var t=_(i()),g={title:\"Nezn\\xE1mej \\u0161ampion\",slug:\"neznamej-sampion-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\",\"jozef-reznik\"],featuresNames:[\"Str\\xFDc Nory\",\"Jozef Reznik\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Nezn\\xE1mej \\u0161ampion \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return b(N);})();\n;return Component;"
+    "raw": "\n**[Neznámej šampion](/skladby/neznamej-sampion-idea)** od [Idea](/raperi/idea) z alba [Space Lopata](/alba/space-lopata) (2023).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var z=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},p=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!h.call(a,t)&&t!==r&&o(a,t,{get:()=>e[t],enumerable:!(s=u(e,t))||s.enumerable});return a};var b=(a,e,r)=>(r=a!=null?l(j(a)):{},p(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>p(o({},\"__esModule\",{value:!0}),a);var c=z((k,i)=>{i.exports=_jsx_runtime});var y={};x(y,{default:()=>m,frontmatter:()=>N});var n=b(c()),N={title:\"Nezn\\xE1mej \\u0161ampion\",slug:\"neznamej-sampion-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\",\"jozef-reznik\"],featuresNames:[\"Str\\xFDc Nory\",\"Jozef Reznik\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[\"\"],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Nezn\\xE1mej \\u0161ampion \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/neznamej-sampion-idea\",children:\"Nezn\\xE1mej \\u0161ampion\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/space-lopata\",children:\"Space Lopata\"}),\" (2023).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return g(y);})();\n;return Component;"
   },
   "_id": "skladby/neznamej-sampion-idea.mdx",
   "_raw": {

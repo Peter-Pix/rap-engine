@@ -12,16 +12,19 @@
   "album": "Majitel",
   "albumSlug": "majitel",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:36",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Skladba evokuje pocit potřeby uvolnit se a tančit.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of b(t))!x.call(e,n)&&n!==r&&a(e,n,{get:()=>t[n],enumerable:!(s=p(t,n))||s.enumerable});return e};var y=(e,t,r)=>(r=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var c=j((S,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>d,frontmatter:()=>g});var o=y(c()),g={title:\"Move your body\",slug:\"move-your-body-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"resetedh\"],featuresNames:[\"ResetedH\"],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[],duration:\"2:36\",trackNumber:10,producers:[],producersNames:[],description:\"Skladba evokuje pocit pot\\u0159eby uvolnit se a tan\\u010Dit.\",publishedAt:\"2026-05-31\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Move your body](/skladby/move-your-body-robin-zoot)** od [Robin Zoot](/raperi/robin-zoot) (2026).\n",
+    "code": "var Component=(()=>{var b=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports),x=(e,o)=>{for(var t in o)a(e,t,{get:o[t],enumerable:!0})},i=(e,o,t,s)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let n of m(o))!f.call(e,n)&&n!==t&&a(e,n,{get:()=>o[n],enumerable:!(s=p(o,n))||s.enumerable});return e};var j=(e,o,t)=>(t=e!=null?b(y(e)):{},i(o||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var d=h((k,u)=>{u.exports=_jsx_runtime});var M={};x(M,{default:()=>l,frontmatter:()=>v});var r=j(d()),v={title:\"Move your body\",slug:\"move-your-body-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"resetedh\"],featuresNames:[\"ResetedH\"],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[\"\"],duration:\"2:36\",trackNumber:10,producers:[],producersNames:[],description:\"Skladba evokuje pocit pot\\u0159eby uvolnit se a tan\\u010Dit.\",publishedAt:\"2026-05-31\"};function c(e){let o={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(o.p,{children:[(0,r.jsx)(o.strong,{children:(0,r.jsx)(o.a,{href:\"/skladby/move-your-body-robin-zoot\",children:\"Move your body\"})}),\" od \",(0,r.jsx)(o.a,{href:\"/raperi/robin-zoot\",children:\"Robin Zoot\"}),\" (2026).\"]})}function l(e={}){let{wrapper:o}=e.components||{};return o?(0,r.jsx)(o,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/move-your-body-robin-zoot.mdx",
   "_raw": {

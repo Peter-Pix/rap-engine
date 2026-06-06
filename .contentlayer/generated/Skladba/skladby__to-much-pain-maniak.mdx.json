@@ -12,16 +12,19 @@
   "album": "To Much Pain (feat. Nomad)",
   "albumSlug": "to-much-pain-feat-nomad",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:19",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "To Much Pain — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var M=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(m=l(n,r))||m.enumerable});return e};var b=(e,n,a)=>(a=e!=null?p(x(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var s=M((P,i)=>{i.exports=_jsx_runtime});var j={};_(j,{default:()=>d,frontmatter:()=>k});var t=b(s()),k={title:\"To Much Pain\",slug:\"to-much-pain-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"nomad\"],featuresNames:[\"Nomad\"],album:\"To Much Pain (feat. Nomad)\",albumSlug:\"to-much-pain-feat-nomad\",year:2023,genre:[],duration:\"2:19\",trackNumber:1,producers:[],producersNames:[],description:\"To Much Pain \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[To Much Pain](/skladby/to-much-pain-maniak)** od [Maniak](/raperi/maniak) (2023).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var M=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),x=(n,a)=>{for(var e in a)o(n,e,{get:a[e],enumerable:!0})},s=(n,a,e,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of l(a))!k.call(n,r)&&r!==e&&o(n,r,{get:()=>a[r],enumerable:!(i=h(a,r))||i.enumerable});return n};var g=(n,a,e)=>(e=n!=null?p(f(n)):{},s(a||!n||!n.__esModule?o(e,\"default\",{value:n,enumerable:!0}):e,n)),b=n=>s(o({},\"__esModule\",{value:!0}),n);var c=M((P,u)=>{u.exports=_jsx_runtime});var j={};x(j,{default:()=>d,frontmatter:()=>_});var t=g(c()),_={title:\"To Much Pain\",slug:\"to-much-pain-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"nomad\"],featuresNames:[\"Nomad\"],album:\"To Much Pain (feat. Nomad)\",albumSlug:\"to-much-pain-feat-nomad\",year:2023,genre:[\"\"],duration:\"2:19\",trackNumber:1,producers:[],producersNames:[],description:\"To Much Pain \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/to-much-pain-maniak\",children:\"To Much Pain\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2023).\"]})}function d(n={}){let{wrapper:a}=n.components||{};return a?(0,t.jsx)(a,{...n,children:(0,t.jsx)(m,{...n})}):m(n)}return b(j);})();\n;return Component;"
   },
   "_id": "skladby/to-much-pain-maniak.mdx",
   "_raw": {

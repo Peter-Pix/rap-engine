@@ -12,16 +12,19 @@
   "album": "Aura",
   "albumSlug": "aura",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:41",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Minulost — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?d(f(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var c=g((N,i)=>{i.exports=_jsx_runtime});var D={};j(D,{default:()=>m,frontmatter:()=>M});var r=_(c()),M={title:\"Minulost\",slug:\"minulost-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[],duration:\"3:41\",trackNumber:2,producers:[],producersNames:[],description:\"Minulost \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return b(D);})();\n;return Component;"
+    "raw": "\n**[Minulost](/skladby/minulost-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Aura](/alba/aura) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var a in t)s(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of m(t))!g.call(e,n)&&n!==a&&s(e,n,{get:()=>t[n],enumerable:!(o=f(t,n))||o.enumerable});return e};var b=(e,t,a)=>(a=e!=null?p(h(e)):{},u(t||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),M=e=>u(s({},\"__esModule\",{value:!0}),e);var l=j((y,i)=>{i.exports=_jsx_runtime});var D={};x(D,{default:()=>c,frontmatter:()=>_});var r=b(l()),_={title:\"Minulost\",slug:\"minulost-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"Aura\",albumSlug:\"aura\",year:2022,genre:[\"\"],duration:\"3:41\",trackNumber:2,producers:[],producersNames:[],description:\"Minulost \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/minulost-dj-fatte\",children:\"Minulost\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/aura\",children:\"Aura\"}),\" (2022).\"]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return M(D);})();\n;return Component;"
   },
   "_id": "skladby/minulost-dj-fatte.mdx",
   "_raw": {

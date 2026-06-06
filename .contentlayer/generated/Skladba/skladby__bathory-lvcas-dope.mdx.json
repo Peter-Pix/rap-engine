@@ -14,16 +14,19 @@
   "album": "JUSTiCE44 (Mixtape1)",
   "albumSlug": "justice44-mixtape1",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:20",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Bathory — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},c=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!j.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=l(t,n))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?m(x(e)):{},c(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var p=b((S,u)=>{u.exports=_jsx_runtime});var y={};f(y,{default:()=>i,frontmatter:()=>v});var r=_(p()),v={title:\"Bathory\",slug:\"bathory-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"ledovy-don\",\"samuraj-pitr\"],featuresNames:[\"Ledov\\xFD Don\",\"Samuraj P\\xEDtr\"],album:\"JUSTiCE44 (Mixtape1)\",albumSlug:\"justice44-mixtape1\",year:2017,genre:[],duration:\"3:20\",trackNumber:7,producers:[],producersNames:[],description:\"Bathory \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return g(y);})();\n;return Component;"
+    "raw": "\n**[Bathory](/skladby/bathory-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [JUSTiCE44 (Mixtape1)](/alba/justice44-mixtape1) (2017).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var t in e)s(a,t,{get:e[t],enumerable:!0})},c=(a,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!b.call(a,o)&&o!==t&&s(a,o,{get:()=>e[o],enumerable:!(n=m(e,o))||n.enumerable});return a};var v=(a,e,t)=>(t=a!=null?u(x(a)):{},c(e||!a||!a.__esModule?s(t,\"default\",{value:a,enumerable:!0}):t,a)),y=a=>c(s({},\"__esModule\",{value:!0}),a);var i=f((L,p)=>{p.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>g});var r=v(i()),g={title:\"Bathory\",slug:\"bathory-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"ledovy-don\",\"samuraj-pitr\"],featuresNames:[\"Ledov\\xFD Don\",\"Samuraj P\\xEDtr\"],album:\"JUSTiCE44 (Mixtape1)\",albumSlug:\"justice44-mixtape1\",year:2017,genre:[\"\"],duration:\"3:20\",trackNumber:7,producers:[],producersNames:[],description:\"Bathory \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/bathory-lvcas-dope\",children:\"Bathory\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/justice44-mixtape1\",children:\"JUSTiCE44 (Mixtape1)\"}),\" (2017).\"]})}function l(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(d,{...a})}):d(a)}return y(D);})();\n;return Component;"
   },
   "_id": "skladby/bathory-lvcas-dope.mdx",
   "_raw": {

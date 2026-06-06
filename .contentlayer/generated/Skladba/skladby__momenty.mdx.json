@@ -1,0 +1,29 @@
+{
+  "title": "Momenty",
+  "slug": "momenty",
+  "rapper": "Bobby Blaze",
+  "rapperSlug": "bobby-blaze",
+  "label": "Lavutaris Records",
+  "year": 2024,
+  "description": "Momenty — singl od Bobby Blaze (2024).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3b9842e4bb1e935f6246f65836027a54/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Momenty](/skladby/momenty)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},l=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of y(e))!u.call(t,r)&&r!==n&&a(t,r,{get:()=>e[r],enumerable:!(s=d(e,r))||s.enumerable});return t};var h=(t,e,n)=>(n=t!=null?p(g(t)):{},l(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>l(a({},\"__esModule\",{value:!0}),t);var b=x((_,i)=>{i.exports=_jsx_runtime});var B={};f(B,{default:()=>m,frontmatter:()=>z});var o=h(b()),z={title:\"Momenty\",slug:\"momenty\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",label:\"Lavutaris Records\",year:2024,description:\"Momenty \\u2014 singl od Bobby Blaze (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/3b9842e4bb1e935f6246f65836027a54/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/momenty\",children:\"Momenty\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(c,{...t})}):c(t)}return j(B);})();\n;return Component;"
+  },
+  "_id": "skladby/momenty.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/momenty.mdx",
+    "sourceFileName": "momenty.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/momenty"
+  },
+  "type": "Skladba",
+  "url": "/skladby/momenty",
+  "canonicalUrl": "https://4rap.cz/skladby/momenty"
+}

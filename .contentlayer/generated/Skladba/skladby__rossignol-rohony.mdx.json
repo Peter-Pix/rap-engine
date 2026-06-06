@@ -14,16 +14,19 @@
   "album": "Rossignol",
   "albumSlug": "rossignol",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:57",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Rossignol — skladba od Rohony.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var x=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),_=(o,e)=>{for(var t in e)s(o,t,{get:e[t],enumerable:!0})},u=(o,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!g.call(o,r)&&r!==t&&s(o,r,{get:()=>e[r],enumerable:!(a=d(e,r))||a.enumerable});return o};var b=(o,e,t)=>(t=o!=null?x(h(o)):{},u(e||!o||!o.__esModule?s(t,\"default\",{value:o,enumerable:!0}):t,o)),y=o=>u(s({},\"__esModule\",{value:!0}),o);var l=f((D,i)=>{i.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>j});var n=b(l()),j={title:\"Rossignol\",slug:\"rossignol-rohony\",rapper:\"Rohony\",rapperSlug:\"rohony\",features:[\"hugo-toxxx\",\"mdmx\"],featuresNames:[\"Hugo Toxxx\",\"MDMX\"],album:\"Rossignol\",albumSlug:\"rossignol\",year:2022,genre:[],duration:\"2:57\",trackNumber:1,producers:[],producersNames:[],description:\"Rossignol \\u2014 skladba od Rohony.\",publishedAt:\"2026-06-04\"};function m(o){let e={em:\"em\",h2:\"h2\",p:\"p\",...o.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(o={}){let{wrapper:e}=o.components||{};return e?(0,n.jsx)(e,{...o,children:(0,n.jsx)(m,{...o})}):m(o)}return y(M);})();\n;return Component;"
+    "raw": "\n**[Rossignol](/skladby/rossignol-rohony)** (2022).\n",
+    "code": "var Component=(()=>{var x=Object.create;var t=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(o,n)=>()=>(n||o((n={exports:{}}).exports,n),n.exports),y=(o,n)=>{for(var r in n)t(o,r,{get:n[r],enumerable:!0})},l=(o,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let e of m(n))!h.call(o,e)&&e!==r&&t(o,e,{get:()=>n[e],enumerable:!(a=d(n,e))||a.enumerable});return o};var b=(o,n,r)=>(r=o!=null?x(p(o)):{},l(n||!o||!o.__esModule?t(r,\"default\",{value:o,enumerable:!0}):r,o)),R=o=>l(t({},\"__esModule\",{value:!0}),o);var i=f((k,u)=>{u.exports=_jsx_runtime});var j={};y(j,{default:()=>g,frontmatter:()=>_});var s=b(i()),_={title:\"Rossignol\",slug:\"rossignol-rohony\",rapper:\"Rohony\",rapperSlug:\"rohony\",features:[\"hugo-toxxx\",\"mdmx\"],featuresNames:[\"Hugo Toxxx\",\"MDMX\"],album:\"Rossignol\",albumSlug:\"rossignol\",year:2022,genre:[\"\"],duration:\"2:57\",trackNumber:1,producers:[],producersNames:[],description:\"Rossignol \\u2014 skladba od Rohony.\",publishedAt:\"2026-06-04\"};function c(o){let n={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,s.jsxs)(n.p,{children:[(0,s.jsx)(n.strong,{children:(0,s.jsx)(n.a,{href:\"/skladby/rossignol-rohony\",children:\"Rossignol\"})}),\" (2022).\"]})}function g(o={}){let{wrapper:n}=o.components||{};return n?(0,s.jsx)(n,{...o,children:(0,s.jsx)(c,{...o})}):c(o)}return R(j);})();\n;return Component;"
   },
   "_id": "skladby/rossignol-rohony.mdx",
   "_raw": {

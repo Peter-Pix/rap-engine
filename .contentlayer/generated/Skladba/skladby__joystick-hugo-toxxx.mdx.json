@@ -12,16 +12,19 @@
   "album": "C.W.A",
   "albumSlug": "c-w-a",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:56",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Joystick — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},c=(t,e,o,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!g.call(t,n)&&n!==o&&s(t,n,{get:()=>e[n],enumerable:!(a=l(e,n))||a.enumerable});return t};var b=(t,e,o)=>(o=t!=null?d(h(t)):{},c(e||!t||!t.__esModule?s(o,\"default\",{value:t,enumerable:!0}):o,t)),j=t=>c(s({},\"__esModule\",{value:!0}),t);var x=f((D,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>m,frontmatter:()=>k});var r=b(x()),k={title:\"Joystick\",slug:\"joystick-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"d-ritch\"],featuresNames:[\"D Ritch\"],album:\"C.W.A\",albumSlug:\"c-w-a\",year:2025,genre:[],duration:\"1:56\",trackNumber:10,producers:[],producersNames:[],description:\"Joystick \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(i,{...t})}):i(t)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Joystick](/skladby/joystick-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [C.W.A](/alba/c-w-a) (2025).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(o,t)=>()=>(t||o((t={exports:{}}).exports,t),t.exports),b=(o,t)=>{for(var r in t)n(o,r,{get:t[r],enumerable:!0})},x=(o,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!m.call(o,a)&&a!==r&&n(o,a,{get:()=>t[a],enumerable:!(s=h(t,a))||s.enumerable});return o};var k=(o,t,r)=>(r=o!=null?l(g(o)):{},x(t||!o||!o.__esModule?n(r,\"default\",{value:o,enumerable:!0}):r,o)),y=o=>x(n({},\"__esModule\",{value:!0}),o);var u=f((w,c)=>{c.exports=_jsx_runtime});var _={};b(_,{default:()=>d,frontmatter:()=>j});var e=k(u()),j={title:\"Joystick\",slug:\"joystick-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"d-ritch\"],featuresNames:[\"D Ritch\"],album:\"C.W.A\",albumSlug:\"c-w-a\",year:2025,genre:[\"\"],duration:\"1:56\",trackNumber:10,producers:[],producersNames:[],description:\"Joystick \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function i(o){let t={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,e.jsxs)(t.p,{children:[(0,e.jsx)(t.strong,{children:(0,e.jsx)(t.a,{href:\"/skladby/joystick-hugo-toxxx\",children:\"Joystick\"})}),\" od \",(0,e.jsx)(t.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,e.jsx)(t.a,{href:\"/alba/c-w-a\",children:\"C.W.A\"}),\" (2025).\"]})}function d(o={}){let{wrapper:t}=o.components||{};return t?(0,e.jsx)(t,{...o,children:(0,e.jsx)(i,{...o})}):i(o)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/joystick-hugo-toxxx.mdx",
   "_raw": {

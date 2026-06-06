@@ -8,16 +8,19 @@
   "album": "POPSTAR*",
   "albumSlug": "popstar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:23",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Hannah Montana VIP — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},c=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!f.call(n,r)&&r!==a&&o(n,r,{get:()=>e[r],enumerable:!(s=d(e,r))||s.enumerable});return n};var g=(n,e,a)=>(a=n!=null?l(x(n)):{},c(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),j=n=>c(o({},\"__esModule\",{value:!0}),n);var i=_((I,u)=>{u.exports=_jsx_runtime});var N={};b(N,{default:()=>p,frontmatter:()=>M});var t=g(i()),M={title:\"Hannah Montana VIP\",slug:\"hannah-montana-vip-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR*\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"2:23\",trackNumber:14,producers:[],producersNames:[],description:\"Hannah Montana VIP \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(m,{...n})}):m(n)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Hannah Montana VIP](/skladby/hannah-montana-vip-calin)** od [Calin](/raperi/calin) z alba [POPSTAR](/alba/popstar) (2022).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),g=(n,a)=>{for(var e in a)o(n,e,{get:a[e],enumerable:!0})},c=(n,a,e,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!x.call(n,t)&&t!==e&&o(n,t,{get:()=>a[t],enumerable:!(s=h(a,t))||s.enumerable});return n};var P=(n,a,e)=>(e=n!=null?d(f(n)):{},c(a||!n||!n.__esModule?o(e,\"default\",{value:n,enumerable:!0}):e,n)),M=n=>c(o({},\"__esModule\",{value:!0}),n);var l=b((I,i)=>{i.exports=_jsx_runtime});var j={};g(j,{default:()=>u,frontmatter:()=>_});var r=P(l()),_={title:\"Hannah Montana VIP\",slug:\"hannah-montana-vip-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"POPSTAR*\",albumSlug:\"popstar\",year:2022,genre:[\"\"],duration:\"2:23\",trackNumber:14,producers:[],producersNames:[],description:\"Hannah Montana VIP \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function p(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/hannah-montana-vip-calin\",children:\"Hannah Montana VIP\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/popstar\",children:\"POPSTAR\"}),\" (2022).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,r.jsx)(a,{...n,children:(0,r.jsx)(p,{...n})}):p(n)}return M(j);})();\n;return Component;"
   },
   "_id": "skladby/hannah-montana-vip-calin.mdx",
   "_raw": {

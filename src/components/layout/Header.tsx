@@ -7,6 +7,7 @@ import { SearchBar } from '@/components/search/SearchBar'
 const NAV = [
   { label: 'Rappeři', href: '/raperi' },
   { label: 'Alba', href: '/alba' },
+  { label: 'Skladby', href: '/skladby' },
   { label: 'Labely', href: '/labely' },
   { label: 'Žánry', href: '/zanry' },
   { label: 'Články', href: '/clanky' },

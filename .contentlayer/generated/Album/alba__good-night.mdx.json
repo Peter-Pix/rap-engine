@@ -6,7 +6,7 @@
   "label": "Bamboleo",
   "year": 2024,
   "genre": [],
-  "description": "Good Night — EP od James Cole (2024).",
+  "description": "James Cole v roce 2024 vydal EP. Obsahuje celkem čtyři skladby. Deska vyšla pod labelem Bamboleo.",
   "image": "https://cdn-images.dzcdn.net/images/cover/b3a000a72dbae876dcd97955d6a16e36/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -16,9 +16,11 @@
     "Shake Your Body"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)r(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of p(t))!x.call(e,a)&&a!==n&&r(e,a,{get:()=>t[a],enumerable:!(i=g(t,a))||i.enumerable});return e};var _=(e,t,n)=>(n=e!=null?h(u(e)):{},d(t||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),f=e=>d(r({},\"__esModule\",{value:!0}),e);var c=b((G,s)=>{s.exports=_jsx_runtime});var y={};j(y,{default:()=>l,frontmatter:()=>C});var o=_(c()),C={title:\"Good Night\",slug:\"good-night\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Bamboleo\",year:2024,genre:[],description:\"Good Night \\u2014 EP od James Cole (2024).\",image:\"https://cdn-images.dzcdn.net/images/cover/b3a000a72dbae876dcd97955d6a16e36/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Good Night\",\"Good Night (BizZa Remix)\",\"Honey Come Back\",\"Shake Your Body\"],publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(t.h2,{children:\"O albu\"}),`\n`,(0,o.jsx)(t.p,{children:(0,o.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return f(y);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[James Cole](/raperi/james-cole) v roce 2024 vydal EP.\n\nAlbum obsahuje celkem čtyři skladby.\n\nDeska vyšla pod labelem Bamboleo.\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var t in e)l(a,t,{get:e[t],enumerable:!0})},s=(a,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!g.call(a,n)&&n!==t&&l(a,n,{get:()=>e[n],enumerable:!(r=h(e,n))||r.enumerable});return a};var j=(a,e,t)=>(t=a!=null?p(u(a)):{},s(e||!a||!a.__esModule?l(t,\"default\",{value:a,enumerable:!0}):t,a)),k=a=>s(l({},\"__esModule\",{value:!0}),a);var d=y((B,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>v});var o=j(d()),v={title:\"Good Night\",slug:\"good-night\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Bamboleo\",year:2024,releaseType:\"ep\",genre:[],description:\"James Cole v roce 2024 vydal EP. Obsahuje celkem \\u010Dty\\u0159i skladby. Deska vy\\u0161la pod labelem Bamboleo.\",image:\"https://cdn-images.dzcdn.net/images/cover/b3a000a72dbae876dcd97955d6a16e36/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Good Night\",\"Good Night (BizZa Remix)\",\"Honey Come Back\",\"Shake Your Body\"],publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" v roce 2024 vydal EP.\"]}),`\n`,(0,o.jsx)(e.p,{children:\"Album obsahuje celkem \\u010Dty\\u0159i skladby.\"}),`\n`,(0,o.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Bamboleo.\"})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(i,{...a})}):i(a)}return k(_);})();\n;return Component;"
   },
   "_id": "alba/good-night.mdx",
   "_raw": {

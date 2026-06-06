@@ -16,16 +16,19 @@
   "album": "POPSTAR",
   "albumSlug": "popstar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:06",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Asgard — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=p(t,o))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?m(g(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(a({},\"__esModule\",{value:!0}),e);var u=b((A,i)=>{i.exports=_jsx_runtime});var N={};f(N,{default:()=>l,frontmatter:()=>C});var r=j(u()),C={title:\"Asgard\",slug:\"asgard-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"ben-cristovao\",\"kojo\",\"stein27\"],featuresNames:[\"Ben Cristovao\",\"Kojo\",\"Stein27\"],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[],duration:\"3:06\",trackNumber:10,producers:[],producersNames:[],description:\"Asgard \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(N);})();\n;return Component;"
+    "raw": "\n**[Asgard](/skladby/asgard-calin)** od [Calin](/raperi/calin) z alba [POPSTAR](/alba/popstar) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),x=(a,r)=>{for(var n in r)s(a,n,{get:r[n],enumerable:!0})},i=(a,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of m(r))!h.call(a,t)&&t!==n&&s(a,t,{get:()=>r[t],enumerable:!(o=g(r,t))||o.enumerable});return a};var j=(a,r,n)=>(n=a!=null?u(f(a)):{},i(r||!a||!a.__esModule?s(n,\"default\",{value:a,enumerable:!0}):n,a)),A=a=>i(s({},\"__esModule\",{value:!0}),a);var l=b((S,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>p,frontmatter:()=>C});var e=j(l()),C={title:\"Asgard\",slug:\"asgard-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"ben-cristovao\",\"kojo\",\"stein27\"],featuresNames:[\"Ben Cristovao\",\"Kojo\",\"Stein27\"],album:\"POPSTAR\",albumSlug:\"popstar\",year:2022,genre:[\"\"],duration:\"3:06\",trackNumber:10,producers:[],producersNames:[],description:\"Asgard \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/asgard-calin\",children:\"Asgard\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/popstar\",children:\"POPSTAR\"}),\" (2022).\"]})}function p(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(d,{...a})}):d(a)}return A(_);})();\n;return Component;"
   },
   "_id": "skladby/asgard-calin.mdx",
   "_raw": {

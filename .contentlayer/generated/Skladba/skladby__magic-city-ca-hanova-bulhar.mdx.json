@@ -12,16 +12,19 @@
   "album": "DRIPOLAR",
   "albumSlug": "dripolar",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:26",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "MAGIC CITY — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,A=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!A.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var C=(e,t,n)=>(n=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var l=f((M,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>_});var r=C(l()),_={title:\"MAGIC CITY\",slug:\"magic-city-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"flex53\"],featuresNames:[\"flex53\"],album:\"DRIPOLAR\",albumSlug:\"dripolar\",year:2022,genre:[],duration:\"3:26\",trackNumber:5,producers:[],producersNames:[],description:\"MAGIC CITY \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[MAGIC CITY](/skladby/magic-city-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [DRIPOLAR](/alba/dripolar) (2022).\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var A=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),x=(r,a)=>{for(var t in a)o(r,t,{get:a[t],enumerable:!0})},s=(r,a,t,c)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of p(a))!b.call(r,n)&&n!==t&&o(r,n,{get:()=>a[n],enumerable:!(c=A(a,n))||c.enumerable});return r};var C=(r,a,t)=>(t=r!=null?h(m(r)):{},s(a||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),g=r=>s(o({},\"__esModule\",{value:!0}),r);var u=f((L,l)=>{l.exports=_jsx_runtime});var R={};x(R,{default:()=>d,frontmatter:()=>I});var e=C(u()),I={title:\"MAGIC CITY\",slug:\"magic-city-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"flex53\"],featuresNames:[\"flex53\"],album:\"DRIPOLAR\",albumSlug:\"dripolar\",year:2022,genre:[\"\"],duration:\"3:26\",trackNumber:5,producers:[],producersNames:[],description:\"MAGIC CITY \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function i(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/magic-city-ca-hanova-bulhar\",children:\"MAGIC CITY\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/dripolar\",children:\"DRIPOLAR\"}),\" (2022).\"]})}function d(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(i,{...r})}):i(r)}return g(R);})();\n;return Component;"
   },
   "_id": "skladby/magic-city-ca-hanova-bulhar.mdx",
   "_raw": {

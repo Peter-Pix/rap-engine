@@ -14,16 +14,19 @@
   "album": "Dres",
   "albumSlug": "dres",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:17",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Dres — skladba od Forest Blunt.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!h.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(u=x(t,s))||u.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(f(e)):{},a(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>a(o({},\"__esModule\",{value:!0}),e);var c=b((N,l)=>{l.exports=_jsx_runtime});var F={};g(F,{default:()=>i,frontmatter:()=>D});var r=_(c()),D={title:\"Dres\",slug:\"dres-forest-blunt\",rapper:\"Forest Blunt\",rapperSlug:\"forest-blunt\",features:[\"hugo-toxxx\",\"fill\"],featuresNames:[\"Hugo Toxxx\",\"Fill\"],album:\"Dres\",albumSlug:\"dres\",year:2025,genre:[],duration:\"3:17\",trackNumber:1,producers:[],producersNames:[],description:\"Dres \\u2014 skladba od Forest Blunt.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return j(F);})();\n;return Component;"
+    "raw": "\n**[Dres](/skladby/dres-forest-blunt)** od [Forest Blunt](/raperi/forest-blunt) (2025).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),h=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},a=(r,e,t,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!b.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(u=x(e,n))||u.enumerable});return r};var D=(r,e,t)=>(t=r!=null?p(m(r)):{},a(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>a(o({},\"__esModule\",{value:!0}),r);var d=g((y,l)=>{l.exports=_jsx_runtime});var F={};h(F,{default:()=>i,frontmatter:()=>j});var s=D(d()),j={title:\"Dres\",slug:\"dres-forest-blunt\",rapper:\"Forest Blunt\",rapperSlug:\"forest-blunt\",features:[\"hugo-toxxx\",\"fill\"],featuresNames:[\"Hugo Toxxx\",\"Fill\"],album:\"Dres\",albumSlug:\"dres\",year:2025,genre:[\"\"],duration:\"3:17\",trackNumber:1,producers:[],producersNames:[],description:\"Dres \\u2014 skladba od Forest Blunt.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,s.jsxs)(e.p,{children:[(0,s.jsx)(e.strong,{children:(0,s.jsx)(e.a,{href:\"/skladby/dres-forest-blunt\",children:\"Dres\"})}),\" od \",(0,s.jsx)(e.a,{href:\"/raperi/forest-blunt\",children:\"Forest Blunt\"}),\" (2025).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,s.jsx)(e,{...r,children:(0,s.jsx)(c,{...r})}):c(r)}return _(F);})();\n;return Component;"
   },
   "_id": "skladby/dres-forest-blunt.mdx",
   "_raw": {

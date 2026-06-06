@@ -8,16 +8,19 @@
   "album": "Což takhle dát si Tesař",
   "albumSlug": "coz-takhle-dat-si-tesar",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:44",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Rubikonage — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?m(x(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>u(o({},\"__esModule\",{value:!0}),e);var c=f((C,i)=>{i.exports=_jsx_runtime});var D={};g(D,{default:()=>l,frontmatter:()=>_});var n=j(c()),_={title:\"Rubikonage\",slug:\"rubikonage-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[],duration:\"1:44\",trackNumber:11,producers:[],producersNames:[],description:\"Rubikonage \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return k(D);})();\n;return Component;"
+    "raw": "\n**[Rubikonage](/skladby/rubikonage-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Což takhle dát si Tesař](/alba/coz-takhle-dat-si-tesar) (2011).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),m=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},d=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!g.call(t,n)&&n!==r&&o(t,n,{get:()=>e[n],enumerable:!(s=f(e,n))||s.enumerable});return t};var j=(t,e,r)=>(r=t!=null?p(b(t)):{},d(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),x=t=>d(o({},\"__esModule\",{value:!0}),t);var u=k((y,i)=>{i.exports=_jsx_runtime});var D={};m(D,{default:()=>c,frontmatter:()=>_});var a=j(u()),_={title:\"Rubikonage\",slug:\"rubikonage-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[\"\"],duration:\"1:44\",trackNumber:11,producers:[],producersNames:[],description:\"Rubikonage \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/rubikonage-dj-fatte\",children:\"Rubikonage\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/coz-takhle-dat-si-tesar\",children:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\"}),\" (2011).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(l,{...t})}):l(t)}return x(D);})();\n;return Component;"
   },
   "_id": "skladby/rubikonage-dj-fatte.mdx",
   "_raw": {

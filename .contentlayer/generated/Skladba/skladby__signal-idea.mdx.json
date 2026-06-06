@@ -8,16 +8,19 @@
   "album": "Tempo",
   "albumSlug": "tempo",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Signal — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,r)=>(r=e!=null?l(g(e)):{},i(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var d=f((k,u)=>{u.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>S});var n=b(d()),S={title:\"Signal\",slug:\"signal-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[],duration:\"3:33\",trackNumber:2,producers:[],producersNames:[],description:\"Signal \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Signal](/skladby/signal-idea)** od [Idea](/raperi/idea) z alba [Tempo](/alba/tempo) (2019).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},i=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!h.call(a,t)&&t!==n&&o(a,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return a};var _=(a,e,n)=>(n=a!=null?u(f(a)):{},i(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),j=a=>i(o({},\"__esModule\",{value:!0}),a);var l=x((I,d)=>{d.exports=_jsx_runtime});var k={};b(k,{default:()=>p,frontmatter:()=>S});var r=_(l()),S={title:\"Signal\",slug:\"signal-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo\",albumSlug:\"tempo\",year:2019,genre:[\"\"],duration:\"3:33\",trackNumber:2,producers:[],producersNames:[],description:\"Signal \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/signal-idea\",children:\"Signal\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/tempo\",children:\"Tempo\"}),\" (2019).\"]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(c,{...a})}):c(a)}return j(k);})();\n;return Component;"
   },
   "_id": "skladby/signal-idea.mdx",
   "_raw": {

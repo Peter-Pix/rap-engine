@@ -8,16 +8,19 @@
   "album": "The Prodigal Son",
   "albumSlug": "the-prodigal-son",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:40",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Answer 2 The Pain — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!x.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=m(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?d(h(e)):{},l(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),y=e=>l(o({},\"__esModule\",{value:!0}),e);var u=g((B,i)=>{i.exports=_jsx_runtime});var w={};f(w,{default:()=>c,frontmatter:()=>j});var t=_(u()),j={title:\"Answer 2 The Pain\",slug:\"answer-2-the-pain-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"3:40\",trackNumber:4,producers:[],producersNames:[],description:\"Answer 2 The Pain \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(b,{...e})}):b(e)}return y(w);})();\n;return Component;"
+    "raw": "\n**[Answer 2 The Pain](/skladby/answer-2-the-pain-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Prodigal Son](/alba/the-prodigal-son) (2021).\n",
+    "code": "var Component=(()=>{var h=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},b=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!g.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return r};var x=(r,e,n)=>(n=r!=null?h(m(r)):{},b(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),z=r=>b(t({},\"__esModule\",{value:!0}),r);var i=f((j,l)=>{l.exports=_jsx_runtime});var B={};y(B,{default:()=>c,frontmatter:()=>w});var a=x(i()),w={title:\"Answer 2 The Pain\",slug:\"answer-2-the-pain-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[\"\"],duration:\"3:40\",trackNumber:4,producers:[],producersNames:[],description:\"Answer 2 The Pain \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/answer-2-the-pain-bobby-blaze\",children:\"Answer 2 The Pain\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/the-prodigal-son\",children:\"The Prodigal Son\"}),\" (2021).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return z(B);})();\n;return Component;"
   },
   "_id": "skladby/answer-2-the-pain-bobby-blaze.mdx",
   "_raw": {

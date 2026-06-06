@@ -8,16 +8,19 @@
   "album": "Moby Dick",
   "albumSlug": "moby-dick",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:21",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Prázdniny v Kurvolandu — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!b.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var y=(e,n,t)=>(t=e!=null?i(h(e)):{},u(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var d=f((C,c)=>{c.exports=_jsx_runtime});var v={};j(v,{default:()=>m,frontmatter:()=>g});var r=y(d()),g={title:\"Pr\\xE1zdniny v Kurvolandu\",slug:\"prazdniny-v-kurvolandu-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[],duration:\"3:21\",trackNumber:10,producers:[],producersNames:[],description:\"Pr\\xE1zdniny v Kurvolandu \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(v);})();\n;return Component;"
+    "raw": "\n**[Prázdniny v Kurvolandu](/skladby/prazdniny-v-kurvolandu-james-cole)** od [James Cole](/raperi/james-cole) z alba [Moby Dick](/alba/moby-dick) (2013).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var a in e)t(r,a,{get:e[a],enumerable:!0})},l=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of b(e))!f.call(r,o)&&o!==a&&t(r,o,{get:()=>e[o],enumerable:!(s=p(e,o))||s.enumerable});return r};var j=(r,e,a)=>(a=r!=null?m(y(r)):{},l(e||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),k=r=>l(t({},\"__esModule\",{value:!0}),r);var u=h((_,d)=>{d.exports=_jsx_runtime});var g={};v(g,{default:()=>i,frontmatter:()=>x});var n=j(u()),x={title:\"Pr\\xE1zdniny v Kurvolandu\",slug:\"prazdniny-v-kurvolandu-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Moby Dick\",albumSlug:\"moby-dick\",year:2013,genre:[\"\"],duration:\"3:21\",trackNumber:10,producers:[],producersNames:[],description:\"Pr\\xE1zdniny v Kurvolandu \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/prazdniny-v-kurvolandu-james-cole\",children:\"Pr\\xE1zdniny v Kurvolandu\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/moby-dick\",children:\"Moby Dick\"}),\" (2013).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(c,{...r})}):c(r)}return k(g);})();\n;return Component;"
   },
   "_id": "skladby/prazdniny-v-kurvolandu-james-cole.mdx",
   "_raw": {

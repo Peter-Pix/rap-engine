@@ -12,16 +12,19 @@
   "album": "Nirvana",
   "albumSlug": "nirvana",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:04",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Neony — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of x(n))!g.call(e,t)&&t!==a&&o(e,t,{get:()=>n[t],enumerable:!(i=p(n,t))||i.enumerable});return e};var b=(e,n,a)=>(a=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),N=e=>s(o({},\"__esModule\",{value:!0}),e);var d=f((S,u)=>{u.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>j});var r=b(d()),j={title:\"Neony\",slug:\"neony-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"miris\"],featuresNames:[\"Miri\\u015F\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[],duration:\"4:04\",trackNumber:4,producers:[],producersNames:[],description:\"Neony \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function l(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return N(y);})();\n;return Component;"
+    "raw": "\n**[Neony](/skladby/neony-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Nirvana](/alba/nirvana) (2017).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)i(e,n,{get:a[n],enumerable:!0})},s=(e,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of g(a))!h.call(e,t)&&t!==n&&i(e,t,{get:()=>a[t],enumerable:!(o=m(a,t))||o.enumerable});return e};var y=(e,a,n)=>(n=e!=null?p(f(e)):{},s(a||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),N=e=>s(i({},\"__esModule\",{value:!0}),e);var l=x((M,u)=>{u.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>_});var r=y(l()),_={title:\"Neony\",slug:\"neony-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"miris\"],featuresNames:[\"Miri\\u015F\"],album:\"Nirvana\",albumSlug:\"nirvana\",year:2017,genre:[\"\"],duration:\"4:04\",trackNumber:4,producers:[],producersNames:[],description:\"Neony \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/neony-paulie-garand\",children:\"Neony\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/nirvana\",children:\"Nirvana\"}),\" (2017).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return N(j);})();\n;return Component;"
   },
   "_id": "skladby/neony-paulie-garand.mdx",
   "_raw": {

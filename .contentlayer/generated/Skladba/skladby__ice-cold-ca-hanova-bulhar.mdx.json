@@ -12,16 +12,19 @@
   "album": "THUG LOVE SOFIA",
   "albumSlug": "thug-love-sofia",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:23",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Ice Cold — skladba od CA$HANOVA BULHAR.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var A=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!x.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(l=p(t,a))||l.enumerable});return e};var g=(e,t,n)=>(n=e!=null?m(b(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var u=A((L,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>i,frontmatter:()=>C});var r=g(u()),C={title:\"Ice Cold\",slug:\"ice-cold-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"labello\"],featuresNames:[\"Labello\"],album:\"THUG LOVE SOFIA\",albumSlug:\"thug-love-sofia\",year:2020,genre:[],duration:\"3:23\",trackNumber:4,producers:[],producersNames:[],description:\"Ice Cold \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Ice Cold](/skladby/ice-cold-ca-hanova-bulhar)** od [CA$HANOVA BULHAR](/raperi/ca-hanova-bulhar) z alba [THUG LOVE SOFIA](/alba/thug-love-sofia) (2020).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var A=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var m=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var o in e)n(a,o,{get:e[o],enumerable:!0})},c=(a,e,o,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of A(e))!f.call(a,t)&&t!==o&&n(a,t,{get:()=>e[t],enumerable:!(l=p(e,t))||l.enumerable});return a};var x=(a,e,o)=>(o=a!=null?i(b(a)):{},c(e||!a||!a.__esModule?n(o,\"default\",{value:a,enumerable:!0}):o,a)),C=a=>c(n({},\"__esModule\",{value:!0}),a);var u=m((v,s)=>{s.exports=_jsx_runtime});var L={};g(L,{default:()=>h,frontmatter:()=>H});var r=x(u()),H={title:\"Ice Cold\",slug:\"ice-cold-ca-hanova-bulhar\",rapper:\"CA$HANOVA BULHAR\",rapperSlug:\"ca-hanova-bulhar\",features:[\"labello\"],featuresNames:[\"Labello\"],album:\"THUG LOVE SOFIA\",albumSlug:\"thug-love-sofia\",year:2020,genre:[\"\"],duration:\"3:23\",trackNumber:4,producers:[],producersNames:[],description:\"Ice Cold \\u2014 skladba od CA$HANOVA BULHAR.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/ice-cold-ca-hanova-bulhar\",children:\"Ice Cold\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/ca-hanova-bulhar\",children:\"CA$HANOVA BULHAR\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/thug-love-sofia\",children:\"THUG LOVE SOFIA\"}),\" (2020).\"]})}function h(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(d,{...a})}):d(a)}return C(L);})();\n;return Component;"
   },
   "_id": "skladby/ice-cold-ca-hanova-bulhar.mdx",
   "_raw": {

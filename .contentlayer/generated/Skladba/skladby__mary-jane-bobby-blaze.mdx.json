@@ -8,16 +8,19 @@
   "album": "Mary Jane",
   "albumSlug": "mary-jane",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:33",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Mary Jane — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},u=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of p(r))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(s=i(r,a))||s.enumerable});return e};var j=(e,r,t)=>(t=e!=null?d(y(e)):{},u(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var m=h((B,l)=>{l.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>g});var n=j(m()),g={title:\"Mary Jane\",slug:\"mary-jane-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Mary Jane\",albumSlug:\"mary-jane\",year:2024,genre:[],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Mary Jane \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(b,{...e})}):b(e)}return _(M);})();\n;return Component;"
+    "raw": "\n**[Mary Jane](/skladby/mary-jane-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),h=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},s=(a,e,r,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!f.call(a,t)&&t!==r&&o(a,t,{get:()=>e[t],enumerable:!(b=i(e,t))||b.enumerable});return a};var j=(a,e,r)=>(r=a!=null?d(p(a)):{},s(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>s(o({},\"__esModule\",{value:!0}),a);var u=x((_,l)=>{l.exports=_jsx_runtime});var M={};h(M,{default:()=>y,frontmatter:()=>z});var n=j(u()),z={title:\"Mary Jane\",slug:\"mary-jane-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Mary Jane\",albumSlug:\"mary-jane\",year:2024,genre:[\"\"],duration:\"3:33\",trackNumber:1,producers:[],producersNames:[],description:\"Mary Jane \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/mary-jane-bobby-blaze\",children:\"Mary Jane\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function y(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(c,{...a})}):c(a)}return g(M);})();\n;return Component;"
   },
   "_id": "skladby/mary-jane-bobby-blaze.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "1000",
   "albumSlug": "1000",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:59",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Házej prachy — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of i(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=h(t,o))||s.enumerable});return e};var y=(e,t,n)=>(n=e!=null?d(l(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var c=j((M,x)=>{x.exports=_jsx_runtime});var z={};f(z,{default:()=>p,frontmatter:()=>b});var r=y(c()),b={title:\"H\\xE1zej prachy\",slug:\"hazej-prachy-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"z-money\"],featuresNames:[\"Z Money\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[],duration:\"2:59\",trackNumber:4,producers:[],producersNames:[],description:\"H\\xE1zej prachy \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(z);})();\n;return Component;"
+    "raw": "\n**[Házej prachy](/skladby/hazej-prachy-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [1000](/alba/1000) (2019).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var t in e)n(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of i(e))!m.call(r,a)&&a!==t&&n(r,a,{get:()=>e[a],enumerable:!(x=d(e,a))||x.enumerable});return r};var y=(r,e,t)=>(t=r!=null?l(g(r)):{},s(e||!r||!r.__esModule?n(t,\"default\",{value:r,enumerable:!0}):t,r)),b=r=>s(n({},\"__esModule\",{value:!0}),r);var c=f((M,u)=>{u.exports=_jsx_runtime});var H={};j(H,{default:()=>p,frontmatter:()=>z});var o=y(c()),z={title:\"H\\xE1zej prachy\",slug:\"hazej-prachy-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"z-money\"],featuresNames:[\"Z Money\"],album:\"1000\",albumSlug:\"1000\",year:2019,genre:[\"\"],duration:\"2:59\",trackNumber:4,producers:[],producersNames:[],description:\"H\\xE1zej prachy \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function h(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/hazej-prachy-hugo-toxxx\",children:\"H\\xE1zej prachy\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/1000\",children:\"1000\"}),\" (2019).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(h,{...r})}):h(r)}return b(H);})();\n;return Component;"
   },
   "_id": "skladby/hazej-prachy-hugo-toxxx.mdx",
   "_raw": {

@@ -22,16 +22,19 @@
   "album": "KRTEK MONEY LIFE",
   "albumSlug": "krtek-money-life",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:34",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "SEDM (Remix) — skladba od Milion Plus.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),M=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of x(n))!f.call(e,r)&&r!==t&&i(e,r,{get:()=>n[r],enumerable:!(a=p(n,r))||a.enumerable});return e};var _=(e,n,t)=>(t=e!=null?c(k(e)):{},s(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>s(i({},\"__esModule\",{value:!0}),e);var l=h((j,m)=>{m.exports=_jsx_runtime});var y={};M(y,{default:()=>d,frontmatter:()=>g});var o=_(l()),g={title:\"SEDM (Remix)\",slug:\"sedm-remix-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"dokkeytino\",\"nik-tendo\",\"yzomandias\",\"konex\",\"kamil-hoffmann\",\"karlo\"],featuresNames:[\"Dokkeytino\",\"Nik Tendo\",\"Yzomandias\",\"Konex\",\"Kamil Hoffmann\",\"Karlo\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[],duration:\"3:34\",trackNumber:7,producers:[],producersNames:[],description:\"SEDM (Remix) \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return b(y);})();\n;return Component;"
+    "raw": "\n**[SEDM (Remix)](/skladby/sedm-remix-milion-plus)** od [Milion Plus](/raperi/milion-plus) z alba [KRTEK MONEY LIFE](/alba/krtek-money-life) (2018).\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),M=(n,e)=>{for(var r in e)a(n,r,{get:e[r],enumerable:!0})},l=(n,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of f(e))!x.call(n,i)&&i!==r&&a(n,i,{get:()=>e[i],enumerable:!(t=p(e,i))||t.enumerable});return n};var E=(n,e,r)=>(r=n!=null?c(k(n)):{},l(e||!n||!n.__esModule?a(r,\"default\",{value:n,enumerable:!0}):r,n)),b=n=>l(a({},\"__esModule\",{value:!0}),n);var m=h((D,s)=>{s.exports=_jsx_runtime});var g={};M(g,{default:()=>d,frontmatter:()=>y});var o=E(m()),y={title:\"SEDM (Remix)\",slug:\"sedm-remix-milion-plus\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",features:[\"dokkeytino\",\"nik-tendo\",\"yzomandias\",\"konex\",\"kamil-hoffmann\",\"karlo\"],featuresNames:[\"Dokkeytino\",\"Nik Tendo\",\"Yzomandias\",\"Konex\",\"Kamil Hoffmann\",\"Karlo\"],album:\"KRTEK MONEY LIFE\",albumSlug:\"krtek-money-life\",year:2018,genre:[\"\"],duration:\"3:34\",trackNumber:7,producers:[],producersNames:[],description:\"SEDM (Remix) \\u2014 skladba od Milion Plus.\",publishedAt:\"2026-05-31\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/sedm-remix-milion-plus\",children:\"SEDM (Remix)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/krtek-money-life\",children:\"KRTEK MONEY LIFE\"}),\" (2018).\"]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(u,{...n})}):u(n)}return b(g);})();\n;return Component;"
   },
   "_id": "skladby/sedm-remix-milion-plus.mdx",
   "_raw": {

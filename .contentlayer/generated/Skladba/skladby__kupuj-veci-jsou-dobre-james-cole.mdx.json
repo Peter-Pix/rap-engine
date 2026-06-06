@@ -8,16 +8,19 @@
   "album": "Kapitán Láska (Deluxe Edition)",
   "albumSlug": "kapitan-laska",
   "year": 2009,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:23",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Kupuj věci, jsou dobré — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of j(t))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(x(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var i=h((v,c)=>{c.exports=_jsx_runtime});var C={};f(C,{default:()=>m,frontmatter:()=>k});var r=_(i()),k={title:\"Kupuj v\\u011Bci, jsou dobr\\xE9\",slug:\"kupuj-veci-jsou-dobre-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[],duration:\"4:23\",trackNumber:11,producers:[],producersNames:[],description:\"Kupuj v\\u011Bci, jsou dobr\\xE9 \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(C);})();\n;return Component;"
+    "raw": "\n**[Kupuj věci, jsou dobré](/skladby/kupuj-veci-jsou-dobre-james-cole)** od [James Cole](/raperi/james-cole) z alba [Kapitán Láska (Deluxe Edition)](/alba/kapitan-laska) (2009).\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var o in e)t(a,o,{get:e[o],enumerable:!0})},u=(a,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of m(e))!k.call(a,s)&&s!==o&&t(a,s,{get:()=>e[s],enumerable:!(n=j(e,s))||n.enumerable});return a};var h=(a,e,o)=>(o=a!=null?p(b(a)):{},u(e||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),g=a=>u(t({},\"__esModule\",{value:!0}),a);var l=x((K,i)=>{i.exports=_jsx_runtime});var v={};f(v,{default:()=>d,frontmatter:()=>_});var r=h(l()),_={title:\"Kupuj v\\u011Bci, jsou dobr\\xE9\",slug:\"kupuj-veci-jsou-dobre-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\",albumSlug:\"kapitan-laska\",year:2009,genre:[\"\"],duration:\"4:23\",trackNumber:11,producers:[],producersNames:[],description:\"Kupuj v\\u011Bci, jsou dobr\\xE9 \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function c(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/kupuj-veci-jsou-dobre-james-cole\",children:\"Kupuj v\\u011Bci, jsou dobr\\xE9\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/kapitan-laska\",children:\"Kapit\\xE1n L\\xE1ska (Deluxe Edition)\"}),\" (2009).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(c,{...a})}):c(a)}return g(v);})();\n;return Component;"
   },
   "_id": "skladby/kupuj-veci-jsou-dobre-james-cole.mdx",
   "_raw": {

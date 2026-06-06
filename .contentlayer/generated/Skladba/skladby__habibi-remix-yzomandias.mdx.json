@@ -12,16 +12,19 @@
   "album": "Habibi (Remix)",
   "albumSlug": "habibi-remix",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:55",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Habibi (Remix) — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var b=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)i(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!h.call(e,a)&&a!==r&&i(e,a,{get:()=>n[a],enumerable:!(o=l(n,a))||o.enumerable});return e};var g=(e,n,r)=>(r=e!=null?b(x(e)):{},s(n||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(i({},\"__esModule\",{value:!0}),e);var d=f((N,m)=>{m.exports=_jsx_runtime});var y={};_(y,{default:()=>c,frontmatter:()=>k});var t=g(d()),k={title:\"Habibi (Remix)\",slug:\"habibi-remix-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Habibi (Remix)\",albumSlug:\"habibi-remix\",year:2019,genre:[],duration:\"1:55\",trackNumber:1,producers:[],producersNames:[],description:\"Habibi (Remix) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Habibi (Remix)](/skladby/habibi-remix-yzomandias)** od [Yzomandias](/raperi/yzomandias) (2019).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var i in e)t(a,i,{get:e[i],enumerable:!0})},s=(a,e,i,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of l(e))!h.call(a,n)&&n!==i&&t(a,n,{get:()=>e[n],enumerable:!(o=x(e,n))||o.enumerable});return a};var y=(a,e,i)=>(i=a!=null?c(p(a)):{},s(e||!a||!a.__esModule?t(i,\"default\",{value:a,enumerable:!0}):i,a)),z=a=>s(t({},\"__esModule\",{value:!0}),a);var d=f((H,m)=>{m.exports=_jsx_runtime});var j={};g(j,{default:()=>u,frontmatter:()=>_});var r=y(d()),_={title:\"Habibi (Remix)\",slug:\"habibi-remix-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Habibi (Remix)\",albumSlug:\"habibi-remix\",year:2019,genre:[\"\"],duration:\"1:55\",trackNumber:1,producers:[],producersNames:[],description:\"Habibi (Remix) \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function b(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/habibi-remix-yzomandias\",children:\"Habibi (Remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" (2019).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(b,{...a})}):b(a)}return z(j);})();\n;return Component;"
   },
   "_id": "skladby/habibi-remix-yzomandias.mdx",
   "_raw": {

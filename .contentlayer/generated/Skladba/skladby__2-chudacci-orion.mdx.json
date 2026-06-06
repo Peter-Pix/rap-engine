@@ -14,16 +14,19 @@
   "album": "MAMUTI L.P.",
   "albumSlug": "mamuti-l-p",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "2 CHUDÁČCI — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var _=(e,t,n)=>(n=e!=null?l(x(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var u=f((F,c)=>{c.exports=_jsx_runtime});var M={};j(M,{default:()=>d,frontmatter:()=>C});var r=_(u()),C={title:\"2 CHUD\\xC1\\u010CCI\",slug:\"2-chudacci-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"fejbs\"],featuresNames:[\"\\u010Cis T\",\"Fejbs\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[],duration:\"3:16\",trackNumber:2,producers:[],producersNames:[],description:\"2 CHUD\\xC1\\u010CCI \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[2 CHUDÁČCI](/skladby/2-chudacci-orion)** od [Orion](/raperi/orion) z alba [MAMUTI L.P.](/alba/mamuti-l-p) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),C=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},i=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of h(r))!b.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(s=m(r,o))||s.enumerable});return e};var g=(e,r,t)=>(t=e!=null?p(f(e)):{},i(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>i(a({},\"__esModule\",{value:!0}),e);var u=x((I,c)=>{c.exports=_jsx_runtime});var _={};C(_,{default:()=>d,frontmatter:()=>M});var n=g(u()),M={title:\"2 CHUD\\xC1\\u010CCI\",slug:\"2-chudacci-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"cis-t\",\"fejbs\"],featuresNames:[\"\\u010Cis T\",\"Fejbs\"],album:\"MAMUTI L.P.\",albumSlug:\"mamuti-l-p\",year:2024,genre:[\"\"],duration:\"3:16\",trackNumber:2,producers:[],producersNames:[],description:\"2 CHUD\\xC1\\u010CCI \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/2-chudacci-orion\",children:\"2 CHUD\\xC1\\u010CCI\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/mamuti-l-p\",children:\"MAMUTI L.P.\"}),\" (2024).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/2-chudacci-orion.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Soundtrack (Instrumentals)",
   "albumSlug": "soundtrack-instrumentals",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:20",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Milujem túto dobu (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var r in e)u(t,r,{get:e[r],enumerable:!0})},s=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of j(e))!b.call(t,a)&&a!==r&&u(t,a,{get:()=>e[a],enumerable:!(o=p(e,a))||o.enumerable});return t};var _=(t,e,r)=>(r=t!=null?i(x(t)):{},s(e||!t||!t.__esModule?u(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>s(u({},\"__esModule\",{value:!0}),t);var l=f((F,m)=>{m.exports=_jsx_runtime});var k={};h(k,{default:()=>c,frontmatter:()=>M});var n=_(l()),M={title:\"Milujem t\\xFAto dobu (Instrumental)\",slug:\"milujem-tuto-dobu-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[],duration:\"3:20\",trackNumber:11,producers:[],producersNames:[],description:\"Milujem t\\xFAto dobu (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Milujem túto dobu (Instrumental)](/skladby/milujem-tuto-dobu-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack (Instrumentals)](/alba/soundtrack-instrumentals) (2021).\n",
+    "code": "var Component=(()=>{var c=Object.create;var u=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},o=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!b.call(e,a)&&a!==r&&u(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?c(j(e)):{},o(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),k=e=>o(u({},\"__esModule\",{value:!0}),e);var d=h((I,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>i,frontmatter:()=>M});var n=g(d()),M={title:\"Milujem t\\xFAto dobu (Instrumental)\",slug:\"milujem-tuto-dobu-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[\"\"],duration:\"3:20\",trackNumber:11,producers:[],producersNames:[],description:\"Milujem t\\xFAto dobu (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(t.p,{children:[(0,n.jsx)(t.strong,{children:(0,n.jsx)(t.a,{href:\"/skladby/milujem-tuto-dobu-instrumental-dj-fatte\",children:\"Milujem t\\xFAto dobu (Instrumental)\"})}),\" od \",(0,n.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,n.jsx)(t.a,{href:\"/alba/soundtrack-instrumentals\",children:\"Soundtrack (Instrumentals)\"}),\" (2021).\"]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return k(_);})();\n;return Component;"
   },
   "_id": "skladby/milujem-tuto-dobu-instrumental-dj-fatte.mdx",
   "_raw": {

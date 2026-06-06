@@ -14,16 +14,19 @@
   "album": "Dropbox",
   "albumSlug": "dropbox",
   "year": 2018,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:16",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Kým Dýcham — skladba od Prezident Lourajder.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of h(r))!j.call(e,a)&&a!==n&&o(e,a,{get:()=>r[a],enumerable:!(d=l(r,a))||d.enumerable});return e};var _=(e,r,n)=>(n=e!=null?p(x(e)):{},s(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>s(o({},\"__esModule\",{value:!0}),e);var u=b((z,m)=>{m.exports=_jsx_runtime});var D={};f(D,{default:()=>c,frontmatter:()=>y});var t=_(u()),y={title:\"K\\xFDm D\\xFDcham\",slug:\"kym-dycham-prezident-lourajder\",rapper:\"Prezident Lourajder\",rapperSlug:\"prezident-lourajder\",features:[\"idea\",\"martin-matys\"],featuresNames:[\"Idea\",\"Martin Matys\"],album:\"Dropbox\",albumSlug:\"dropbox\",year:2018,genre:[],duration:\"5:16\",trackNumber:3,producers:[],producersNames:[],description:\"K\\xFDm D\\xFDcham \\u2014 skladba od Prezident Lourajder.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return g(D);})();\n;return Component;"
+    "raw": "\n**[Kým Dýcham](/skladby/kym-dycham-prezident-lourajder)** od [Prezident Lourajder](/raperi/prezident-lourajder) z alba [Dropbox](/alba/dropbox) (2018).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,d)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of h(r))!b.call(e,n)&&n!==t&&o(e,n,{get:()=>r[n],enumerable:!(d=l(r,n))||d.enumerable});return e};var y=(e,r,t)=>(t=e!=null?p(x(e)):{},s(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),z=e=>s(o({},\"__esModule\",{value:!0}),e);var u=j((k,i)=>{i.exports=_jsx_runtime});var D={};f(D,{default:()=>m,frontmatter:()=>g});var a=y(u()),g={title:\"K\\xFDm D\\xFDcham\",slug:\"kym-dycham-prezident-lourajder\",rapper:\"Prezident Lourajder\",rapperSlug:\"prezident-lourajder\",features:[\"idea\",\"martin-matys\"],featuresNames:[\"Idea\",\"Martin Matys\"],album:\"Dropbox\",albumSlug:\"dropbox\",year:2018,genre:[\"\"],duration:\"5:16\",trackNumber:3,producers:[],producersNames:[],description:\"K\\xFDm D\\xFDcham \\u2014 skladba od Prezident Lourajder.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/kym-dycham-prezident-lourajder\",children:\"K\\xFDm D\\xFDcham\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/prezident-lourajder\",children:\"Prezident Lourajder\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/dropbox\",children:\"Dropbox\"}),\" (2018).\"]})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return z(D);})();\n;return Component;"
   },
   "_id": "skladby/kym-dycham-prezident-lourajder.mdx",
   "_raw": {

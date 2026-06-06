@@ -8,16 +8,19 @@
   "album": "It's Ak!",
   "albumSlug": "it-s-ak",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:35",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Me & You — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!k.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(h(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var m=f((N,i)=>{i.exports=_jsx_runtime});var j={};M(j,{default:()=>d,frontmatter:()=>g});var n=_(m()),g={title:\"Me & You\",slug:\"me-you-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"It's Ak!\",albumSlug:\"it-s-ak\",year:2024,genre:[],duration:\"3:35\",trackNumber:4,producers:[],producersNames:[],description:\"Me & You \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Me & You](/skladby/me-you-maniak)** od [Maniak](/raperi/maniak) z alba [It's Ak!](/alba/it-s-ak) (2024).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),M=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},i=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of k(e))!h.call(a,t)&&t!==n&&o(a,t,{get:()=>e[t],enumerable:!(s=p(e,t))||s.enumerable});return a};var b=(a,e,n)=>(n=a!=null?d(f(a)):{},i(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),g=a=>i(o({},\"__esModule\",{value:!0}),a);var c=x((A,u)=>{u.exports=_jsx_runtime});var j={};M(j,{default:()=>m,frontmatter:()=>_});var r=b(c()),_={title:\"Me & You\",slug:\"me-you-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"It's Ak!\",albumSlug:\"it-s-ak\",year:2024,genre:[\"\"],duration:\"3:35\",trackNumber:4,producers:[],producersNames:[],description:\"Me & You \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/me-you-maniak\",children:\"Me & You\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/it-s-ak\",children:\"It's Ak!\"}),\" (2024).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(l,{...a})}):l(a)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/me-you-maniak.mdx",
   "_raw": {

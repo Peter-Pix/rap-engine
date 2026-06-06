@@ -8,16 +8,19 @@
   "album": "Black Chinese II",
   "albumSlug": "black-chinese-ii",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:24",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Le foot c'est le pied — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==r&&s(e,o,{get:()=>t[o],enumerable:!(a=m(t,o))||a.enumerable});return e};var g=(e,t,r)=>(r=e!=null?p(f(e)):{},c(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var l=b((k,i)=>{i.exports=_jsx_runtime});var L={};_(L,{default:()=>d,frontmatter:()=>C});var n=g(l()),C={title:\"Le foot c'est le pied\",slug:\"le-foot-c-est-le-pied-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Black Chinese II\",albumSlug:\"black-chinese-ii\",year:2011,genre:[],duration:\"3:24\",trackNumber:2,producers:[],producersNames:[],description:\"Le foot c'est le pied \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(L);})();\n;return Component;"
+    "raw": "\n**[Le foot c'est le pied](/skladby/le-foot-c-est-le-pied-calin)** od [Calin](/raperi/calin) z alba [Black Chinese II](/alba/black-chinese-ii) (2011).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},c=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!b.call(t,a)&&a!==r&&o(t,a,{get:()=>e[a],enumerable:!(s=f(e,a))||s.enumerable});return t};var k=(t,e,r)=>(r=t!=null?u(m(t)):{},c(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),C=t=>c(o({},\"__esModule\",{value:!0}),t);var l=x((j,i)=>{i.exports=_jsx_runtime});var L={};g(L,{default:()=>p,frontmatter:()=>I});var n=k(l()),I={title:\"Le foot c'est le pied\",slug:\"le-foot-c-est-le-pied-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Black Chinese II\",albumSlug:\"black-chinese-ii\",year:2011,genre:[\"\"],duration:\"3:24\",trackNumber:2,producers:[],producersNames:[],description:\"Le foot c'est le pied \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/le-foot-c-est-le-pied-calin\",children:\"Le foot c'est le pied\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/black-chinese-ii\",children:\"Black Chinese II\"}),\" (2011).\"]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return C(L);})();\n;return Component;"
   },
   "_id": "skladby/le-foot-c-est-le-pied-calin.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "J. Eden Dva",
   "albumSlug": "j-eden-dva",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:47",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Sold Out — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},d=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!f.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return e};var g=(e,n,r)=>(r=e!=null?l(h(e)):{},d(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>d(a({},\"__esModule\",{value:!0}),e);var i=_((z,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>c,frontmatter:()=>S});var t=g(i()),S={title:\"Sold Out\",slug:\"sold-out-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[],duration:\"1:47\",trackNumber:13,producers:[],producersNames:[],description:\"Sold Out \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Sold Out](/skladby/sold-out-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN DVA](/alba/j-eden-dva) (2019).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),z=(a,e)=>{for(var o in e)t(a,o,{get:e[o],enumerable:!0})},s=(a,e,o,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!x.call(a,r)&&r!==o&&t(a,r,{get:()=>e[r],enumerable:!(d=p(e,r))||d.enumerable});return a};var g=(a,e,o)=>(o=a!=null?m(h(a)):{},s(e||!a||!a.__esModule?t(o,\"default\",{value:a,enumerable:!0}):o,a)),j=a=>s(t({},\"__esModule\",{value:!0}),a);var u=b((D,i)=>{i.exports=_jsx_runtime});var _={};z(_,{default:()=>c,frontmatter:()=>y});var n=g(u()),y={title:\"Sold Out\",slug:\"sold-out-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"J. Eden Dva\",albumSlug:\"j-eden-dva\",year:2019,genre:[\"\"],duration:\"1:47\",trackNumber:13,producers:[],producersNames:[],description:\"Sold Out \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/sold-out-yzomandias\",children:\"Sold Out\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/j-eden-dva\",children:\"J. EDEN DVA\"}),\" (2019).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(l,{...a})}):l(a)}return j(_);})();\n;return Component;"
   },
   "_id": "skladby/sold-out-yzomandias.mdx",
   "_raw": {

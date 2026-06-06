@@ -28,6 +28,23 @@ export type Album = {
   rating?: number | undefined
   publishedAt: IsoDateTimeString
   updatedAt?: IsoDateTimeString | undefined
+  deezerAlbumId?: number | undefined
+  upc?: string | undefined
+  origin?: string | undefined
+  releaseType?: string | undefined
+  features?: string[] | undefined
+  featuresNames?: string[] | undefined
+  producers?: string[] | undefined
+  producersNames?: string[] | undefined
+  duration?: number | undefined
+  explicit: boolean
+  releaseDate?: IsoDateTimeString | undefined
+  nbTracks?: number | undefined
+  subgenres?: string[] | undefined
+  labelName?: string | undefined
+  cover?: string | undefined
+  aliases?: string[] | undefined
+  activeSince?: string | undefined
   /** MDX file body */
   body: MDX
   url: string
@@ -49,6 +66,7 @@ export type Clanek = {
   publishedAt: IsoDateTimeString
   updatedAt?: IsoDateTimeString | undefined
   tags?: string[] | undefined
+  deezerTrackId?: number | undefined
   /** MDX file body */
   body: MDX
   url: string
@@ -69,6 +87,11 @@ export type Label = {
   image?: string | undefined
   artists?: string[] | undefined
   publishedAt: IsoDateTimeString
+  website?: string | undefined
+  city?: string | undefined
+  country?: string | undefined
+  founder?: string | undefined
+  genre?: string[] | undefined
   /** MDX file body */
   body: MDX
   url: string
@@ -84,8 +107,10 @@ export type Rapper = {
   slug: string
   realName?: string | undefined
   born?: string | undefined
+  birthPlace?: string | undefined
   active?: string | undefined
   label?: string | undefined
+  labelSlug?: string | undefined
   genre?: string[] | undefined
   description: string
   image?: string | undefined
@@ -94,6 +119,19 @@ export type Rapper = {
   updatedAt?: IsoDateTimeString | undefined
   relatedRappers?: string[] | undefined
   relatedAlbums?: string[] | undefined
+  deezerId?: number | undefined
+  socials?: any | undefined
+  aliases?: string[] | undefined
+  origin?: string | undefined
+  hometown?: string | undefined
+  labels?: string[] | undefined
+  subgenres?: string[] | undefined
+  subgenre?: string[] | undefined
+  status?: string | undefined
+  associatedActs?: string[] | undefined
+  activeSince?: string | undefined
+  createdAt?: IsoDateTimeString | undefined
+  seo?: any | undefined
   /** MDX file body */
   body: MDX
   url: string
@@ -109,6 +147,8 @@ export type Skladba = {
   slug: string
   rapper: string
   rapperSlug: string
+  label?: string | undefined
+  labelSlug?: string | undefined
   features?: string[] | undefined
   featuresNames?: string[] | undefined
   album?: string | undefined
@@ -123,6 +163,10 @@ export type Skladba = {
   image?: string | undefined
   publishedAt: IsoDateTimeString
   updatedAt?: IsoDateTimeString | undefined
+  deezerTrackId?: number | undefined
+  releaseType?: string | undefined
+  explicit: boolean
+  releaseDate?: IsoDateTimeString | undefined
   /** MDX file body */
   body: MDX
   url: string
@@ -140,6 +184,10 @@ export type Zanr = {
   description: string
   image?: string | undefined
   publishedAt: IsoDateTimeString
+  aliases?: string[] | undefined
+  relatedGenres?: string[] | undefined
+  caseSensitive: boolean
+  color?: string | undefined
   /** MDX file body */
   body: MDX
   url: string

@@ -8,16 +8,19 @@
   "album": "Teritorium I",
   "albumSlug": "teritorium-i",
   "year": 2003,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:12",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Další Novej Den — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},s=(e,r,t,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of x(r))!j.call(e,o)&&o!==t&&a(e,o,{get:()=>r[o],enumerable:!(i=p(r,o))||i.enumerable});return e};var b=(e,r,t)=>(t=e!=null?d(h(e)):{},s(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var m=f((M,u)=>{u.exports=_jsx_runtime});var N={};_(N,{default:()=>l,frontmatter:()=>D});var n=b(m()),D={title:\"Dal\\u0161\\xED Novej Den\",slug:\"dalsi-novej-den-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium I\",albumSlug:\"teritorium-i\",year:2003,genre:[],duration:\"2:12\",trackNumber:2,producers:[],producersNames:[],description:\"Dal\\u0161\\xED Novej Den \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[Další Novej Den](/skladby/dalsi-novej-den-orion)** od [Orion](/raperi/orion) z alba [Teritorium I](/alba/teritorium-i) (2003).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var o in e)a(r,o,{get:e[o],enumerable:!0})},s=(r,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!j.call(r,t)&&t!==o&&a(r,t,{get:()=>e[t],enumerable:!(i=p(e,t))||i.enumerable});return r};var D=(r,e,o)=>(o=r!=null?m(h(r)):{},s(e||!r||!r.__esModule?a(o,\"default\",{value:r,enumerable:!0}):o,r)),g=r=>s(a({},\"__esModule\",{value:!0}),r);var u=x((k,l)=>{l.exports=_jsx_runtime});var _={};b(_,{default:()=>c,frontmatter:()=>N});var n=D(u()),N={title:\"Dal\\u0161\\xED Novej Den\",slug:\"dalsi-novej-den-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"Teritorium I\",albumSlug:\"teritorium-i\",year:2003,genre:[\"\"],duration:\"2:12\",trackNumber:2,producers:[],producersNames:[],description:\"Dal\\u0161\\xED Novej Den \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/dalsi-novej-den-orion\",children:\"Dal\\u0161\\xED Novej Den\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/teritorium-i\",children:\"Teritorium I\"}),\" (2003).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/dalsi-novej-den-orion.mdx",
   "_raw": {

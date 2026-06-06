@@ -12,16 +12,19 @@
   "album": "Řev",
   "albumSlug": "rev",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:45",
   "trackNumber": 9,
   "producers": [],
   "producersNames": [],
   "description": "Dělat to líp — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=m(t,a))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?p(f(e)):{},l(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>l(o({},\"__esModule\",{value:!0}),e);var c=g((N,u)=>{u.exports=_jsx_runtime});var F={};j(F,{default:()=>i,frontmatter:()=>D});var r=_(c()),D={title:\"D\\u011Blat to l\\xEDp\",slug:\"delat-to-lip-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"\\u0158ev\",albumSlug:\"rev\",year:2024,genre:[],duration:\"3:45\",trackNumber:9,producers:[],producersNames:[],description:\"D\\u011Blat to l\\xEDp \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return b(F);})();\n;return Component;"
+    "raw": "\n**[Dělat to líp](/skladby/delat-to-lip-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Řev](/alba/rev) (2024).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},s=(t,e,a,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!g.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(l=f(e,n))||l.enumerable});return t};var b=(t,e,a)=>(a=t!=null?u(h(t)):{},s(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),D=t=>s(o({},\"__esModule\",{value:!0}),t);var i=j((y,d)=>{d.exports=_jsx_runtime});var v={};x(v,{default:()=>c,frontmatter:()=>_});var r=b(i()),_={title:\"D\\u011Blat to l\\xEDp\",slug:\"delat-to-lip-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"regie-257\"],featuresNames:[\"Regie 257\"],album:\"\\u0158ev\",albumSlug:\"rev\",year:2024,genre:[\"\"],duration:\"3:45\",trackNumber:9,producers:[],producersNames:[],description:\"D\\u011Blat to l\\xEDp \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function p(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/delat-to-lip-dj-fatte\",children:\"D\\u011Blat to l\\xEDp\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/rev\",children:\"\\u0158ev\"}),\" (2024).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return D(v);})();\n;return Component;"
   },
   "_id": "skladby/delat-to-lip-dj-fatte.mdx",
   "_raw": {

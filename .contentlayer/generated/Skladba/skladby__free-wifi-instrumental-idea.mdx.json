@@ -8,16 +8,19 @@
   "album": "Tempo (Instrumental)",
   "albumSlug": "tempo-instrumental",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:07",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Free Wifi (Instrumental) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(o=p(t,a))||o.enumerable});return e};var g=(e,t,r)=>(r=e!=null?c(x(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(s({},\"__esModule\",{value:!0}),e);var m=_((N,u)=>{u.exports=_jsx_runtime});var F={};b(F,{default:()=>d,frontmatter:()=>I});var n=g(m()),I={title:\"Free Wifi (Instrumental)\",slug:\"free-wifi-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[],duration:\"3:07\",trackNumber:10,producers:[],producersNames:[],description:\"Free Wifi (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return j(F);})();\n;return Component;"
+    "raw": "\n**[Free Wifi (Instrumental)](/skladby/free-wifi-instrumental-idea)** od [Idea](/raperi/idea) z alba [Tempo (Instrumental)](/alba/tempo-instrumental) (2020).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),I=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!x.call(r,a)&&a!==n&&s(r,a,{get:()=>e[a],enumerable:!(i=p(e,a))||i.enumerable});return r};var g=(r,e,n)=>(n=r!=null?c(h(r)):{},o(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),_=r=>o(s({},\"__esModule\",{value:!0}),r);var l=b((y,u)=>{u.exports=_jsx_runtime});var k={};I(k,{default:()=>d,frontmatter:()=>j});var t=g(l()),j={title:\"Free Wifi (Instrumental)\",slug:\"free-wifi-instrumental-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Tempo (Instrumental)\",albumSlug:\"tempo-instrumental\",year:2020,genre:[\"\"],duration:\"3:07\",trackNumber:10,producers:[],producersNames:[],description:\"Free Wifi (Instrumental) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function m(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/free-wifi-instrumental-idea\",children:\"Free Wifi (Instrumental)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/tempo-instrumental\",children:\"Tempo (Instrumental)\"}),\" (2020).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(m,{...r})}):m(r)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/free-wifi-instrumental-idea.mdx",
   "_raw": {

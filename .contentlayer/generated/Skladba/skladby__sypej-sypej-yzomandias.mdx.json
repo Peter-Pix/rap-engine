@@ -12,16 +12,19 @@
   "album": "J. EDEN E-GEN (mixed by NobodyListen)",
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:04",
   "trackNumber": 21,
   "producers": [],
   "producersNames": [],
   "description": "SYPEJ SYPEJ — skladba od Yzomandias.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},d=(e,n,o,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of b(n))!y.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(a=p(n,r))||a.enumerable});return e};var E=(e,n,o)=>(o=e!=null?l(x(e)):{},d(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),f=e=>d(s({},\"__esModule\",{value:!0}),e);var m=h((_,i)=>{i.exports=_jsx_runtime});var N={};j(N,{default:()=>c,frontmatter:()=>g});var t=E(m()),g={title:\"SYPEJ SYPEJ\",slug:\"sypej-sypej-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[],duration:\"2:04\",trackNumber:21,producers:[],producersNames:[],description:\"SYPEJ SYPEJ \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return f(N);})();\n;return Component;"
+    "raw": "\n**[SYPEJ SYPEJ](/skladby/sypej-sypej-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
+    "code": "var Component=(()=>{var c=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,E=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var o in e)r(n,o,{get:e[o],enumerable:!0})},d=(n,e,o,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of u(e))!E.call(n,s)&&s!==o&&r(n,s,{get:()=>e[s],enumerable:!(t=p(e,s))||t.enumerable});return n};var f=(n,e,o)=>(o=n!=null?c(b(n)):{},d(e||!n||!n.__esModule?r(o,\"default\",{value:n,enumerable:!0}):o,n)),h=n=>d(r({},\"__esModule\",{value:!0}),n);var m=x((z,i)=>{i.exports=_jsx_runtime});var g={};j(g,{default:()=>y,frontmatter:()=>N});var a=f(m()),N={title:\"SYPEJ SYPEJ\",slug:\"sypej-sypej-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\"],featuresNames:[\"Nobodylisten\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"2:04\",trackNumber:21,producers:[],producersNames:[],description:\"SYPEJ SYPEJ \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/sypej-sypej-yzomandias\",children:\"SYPEJ SYPEJ\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function y(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(l,{...n})}):l(n)}return h(g);})();\n;return Component;"
   },
   "_id": "skladby/sypej-sypej-yzomandias.mdx",
   "_raw": {

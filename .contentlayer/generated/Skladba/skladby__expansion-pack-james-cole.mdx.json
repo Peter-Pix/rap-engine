@@ -8,16 +8,19 @@
   "album": "ALIEN: Expansion Pack",
   "albumSlug": "alien-expansion-pack",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:24",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "EXPANSION PACK — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,N=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!N.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=d(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?i(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var l=f((k,m)=>{m.exports=_jsx_runtime});var A={};j(A,{default:()=>u,frontmatter:()=>g});var t=_(l()),g={title:\"EXPANSION PACK\",slug:\"expansion-pack-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN: Expansion Pack\",albumSlug:\"alien-expansion-pack\",year:2022,genre:[],duration:\"2:24\",trackNumber:2,producers:[],producersNames:[],description:\"EXPANSION PACK \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return b(A);})();\n;return Component;"
+    "raw": "\n**[EXPANSION PACK](/skladby/expansion-pack-james-cole)** od [James Cole](/raperi/james-cole) z alba [ALIEN: Expansion Pack](/alba/alien-expansion-pack) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},c=(a,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of x(e))!f.call(a,s)&&s!==r&&o(a,s,{get:()=>e[s],enumerable:!(t=d(e,s))||t.enumerable});return a};var k=(a,e,r)=>(r=a!=null?u(N(a)):{},c(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),A=a=>c(o({},\"__esModule\",{value:!0}),a);var p=h((g,l)=>{l.exports=_jsx_runtime});var C={};j(C,{default:()=>m,frontmatter:()=>b});var n=k(p()),b={title:\"EXPANSION PACK\",slug:\"expansion-pack-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN: Expansion Pack\",albumSlug:\"alien-expansion-pack\",year:2022,genre:[\"\"],duration:\"2:24\",trackNumber:2,producers:[],producersNames:[],description:\"EXPANSION PACK \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/expansion-pack-james-cole\",children:\"EXPANSION PACK\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/alien-expansion-pack\",children:\"ALIEN: Expansion Pack\"}),\" (2022).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(i,{...a})}):i(a)}return A(C);})();\n;return Component;"
   },
   "_id": "skladby/expansion-pack-james-cole.mdx",
   "_raw": {

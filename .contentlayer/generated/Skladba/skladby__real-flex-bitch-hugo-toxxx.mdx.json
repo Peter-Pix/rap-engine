@@ -12,16 +12,19 @@
   "album": "Real Flex Bitch",
   "albumSlug": "real-flex-bitch",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:04",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Real Flex Bitch — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,x)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(x=h(t,o))||x.enumerable});return e};var F=(e,t,n)=>(n=e!=null?m(p(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(a({},\"__esModule\",{value:!0}),e);var u=f((B,s)=>{s.exports=_jsx_runtime});var k={};b(k,{default:()=>i,frontmatter:()=>j});var r=F(u()),j={title:\"Real Flex Bitch\",slug:\"real-flex-bitch-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"frayer-flexking\"],featuresNames:[\"Frayer Flexking\"],album:\"Real Flex Bitch\",albumSlug:\"real-flex-bitch\",year:2020,genre:[],duration:\"3:04\",trackNumber:1,producers:[],producersNames:[],description:\"Real Flex Bitch \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Real Flex Bitch](/skladby/real-flex-bitch-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) (2020).\n",
+    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var m=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),b=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let x of g(e))!f.call(r,x)&&x!==t&&a(r,x,{get:()=>e[x],enumerable:!(n=d(e,x))||n.enumerable});return r};var F=(r,e,t)=>(t=r!=null?h(p(r)):{},l(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>l(a({},\"__esModule\",{value:!0}),r);var u=m((B,s)=>{s.exports=_jsx_runtime});var k={};b(k,{default:()=>i,frontmatter:()=>j});var o=F(u()),j={title:\"Real Flex Bitch\",slug:\"real-flex-bitch-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"frayer-flexking\"],featuresNames:[\"Frayer Flexking\"],album:\"Real Flex Bitch\",albumSlug:\"real-flex-bitch\",year:2020,genre:[\"\"],duration:\"3:04\",trackNumber:1,producers:[],producersNames:[],description:\"Real Flex Bitch \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/real-flex-bitch-hugo-toxxx\",children:\"Real Flex Bitch\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" (2020).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(c,{...r})}):c(r)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/real-flex-bitch-hugo-toxxx.mdx",
   "_raw": {

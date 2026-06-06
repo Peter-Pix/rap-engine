@@ -8,16 +8,19 @@
   "album": "Mozoly",
   "albumSlug": "mozoly",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:18",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Je na čase — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),_=(e,a)=>{for(var r in a)o(e,r,{get:a[r],enumerable:!0})},u=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of x(a))!g.call(e,t)&&t!==r&&o(e,t,{get:()=>a[t],enumerable:!(s=p(a,t))||s.enumerable});return e};var b=(e,a,r)=>(r=e!=null?m(h(e)):{},u(a||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var c=f((S,l)=>{l.exports=_jsx_runtime});var M={};_(M,{default:()=>i,frontmatter:()=>y});var n=b(c()),y={title:\"Je na \\u010Dase\",slug:\"je-na-case-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[],duration:\"3:18\",trackNumber:8,producers:[],producersNames:[],description:\"Je na \\u010Dase \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(a.p,{children:(0,n.jsx)(a.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(d,{...e})}):d(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Je na čase](/skladby/je-na-case-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Mozoly](/alba/mozoly) (2006).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var n in a)o(e,n,{get:a[n],enumerable:!0})},l=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of g(a))!h.call(e,t)&&t!==n&&o(e,t,{get:()=>a[t],enumerable:!(s=m(a,t))||s.enumerable});return e};var j=(e,a,n)=>(n=e!=null?p(f(e)):{},l(a||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>l(o({},\"__esModule\",{value:!0}),e);var d=x((k,u)=>{u.exports=_jsx_runtime});var z={};b(z,{default:()=>c,frontmatter:()=>_});var r=j(d()),_={title:\"Je na \\u010Dase\",slug:\"je-na-case-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[],featuresNames:[],album:\"Mozoly\",albumSlug:\"mozoly\",year:2006,genre:[\"\"],duration:\"3:18\",trackNumber:8,producers:[],producersNames:[],description:\"Je na \\u010Dase \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/je-na-case-paulie-garand\",children:\"Je na \\u010Dase\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/mozoly\",children:\"Mozoly\"}),\" (2006).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return y(z);})();\n;return Component;"
   },
   "_id": "skladby/je-na-case-paulie-garand.mdx",
   "_raw": {

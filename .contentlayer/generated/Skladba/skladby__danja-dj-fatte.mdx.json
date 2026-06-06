@@ -8,16 +8,19 @@
   "album": "Což takhle dát si Tesař",
   "albumSlug": "coz-takhle-dat-si-tesar",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:52",
   "trackNumber": 20,
   "producers": [],
   "producersNames": [],
   "description": "Daňja — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},d=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!x.call(e,n)&&n!==r&&s(e,n,{get:()=>t[n],enumerable:!(o=p(t,n))||o.enumerable});return e};var b=(e,t,r)=>(r=e!=null?m(j(e)):{},d(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>d(s({},\"__esModule\",{value:!0}),e);var c=f((C,u)=>{u.exports=_jsx_runtime});var k={};_(k,{default:()=>l,frontmatter:()=>D});var a=b(c()),D={title:\"Da\\u0148ja\",slug:\"danja-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[],duration:\"2:52\",trackNumber:20,producers:[],producersNames:[],description:\"Da\\u0148ja \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return g(k);})();\n;return Component;"
+    "raw": "\n**[Daňja](/skladby/danja-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Což takhle dát si Tesař](/alba/coz-takhle-dat-si-tesar) (2011).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var x=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),b=(a,t)=>{for(var r in t)s(a,r,{get:t[r],enumerable:!0})},d=(a,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!m.call(a,n)&&n!==r&&s(a,n,{get:()=>t[n],enumerable:!(o=f(t,n))||o.enumerable});return a};var D=(a,t,r)=>(r=a!=null?p(j(a)):{},d(t||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>d(s({},\"__esModule\",{value:!0}),a);var c=x((y,l)=>{l.exports=_jsx_runtime});var _={};b(_,{default:()=>u,frontmatter:()=>k});var e=D(c()),k={title:\"Da\\u0148ja\",slug:\"danja-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\",albumSlug:\"coz-takhle-dat-si-tesar\",year:2011,genre:[\"\"],duration:\"2:52\",trackNumber:20,producers:[],producersNames:[],description:\"Da\\u0148ja \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function i(a){let t={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(t.p,{children:[(0,e.jsx)(t.strong,{children:(0,e.jsx)(t.a,{href:\"/skladby/danja-dj-fatte\",children:\"Da\\u0148ja\"})}),\" od \",(0,e.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,e.jsx)(t.a,{href:\"/alba/coz-takhle-dat-si-tesar\",children:\"Co\\u017E takhle d\\xE1t si Tesa\\u0159\"}),\" (2011).\"]})}function u(a={}){let{wrapper:t}=a.components||{};return t?(0,e.jsx)(t,{...a,children:(0,e.jsx)(i,{...a})}):i(a)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/danja-dj-fatte.mdx",
   "_raw": {

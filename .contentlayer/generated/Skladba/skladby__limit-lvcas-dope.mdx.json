@@ -12,16 +12,19 @@
   "album": "Definice Rapu",
   "albumSlug": "definice-rapu",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:10",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "LIMIT — skladba od Lvcas Dope.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var g=(e,t,r)=>(r=e!=null?d(f(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),D=e=>i(a({},\"__esModule\",{value:!0}),e);var u=_((k,c)=>{c.exports=_jsx_runtime});var L={};b(L,{default:()=>m,frontmatter:()=>j});var n=g(u()),j={title:\"LIMIT\",slug:\"limit-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dominik-rey\"],featuresNames:[\"Dominik Rey\"],album:\"Definice Rapu\",albumSlug:\"definice-rapu\",year:2024,genre:[],duration:\"3:10\",trackNumber:3,producers:[],producersNames:[],description:\"LIMIT \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(p,{...e})}):p(e)}return D(L);})();\n;return Component;"
+    "raw": "\n**[LIMIT](/skladby/limit-lvcas-dope)** od [Lvcas Dope](/raperi/lvcas-dope) z alba [Definice Rapu](/alba/definice-rapu) (2024).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),D=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},i=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!x.call(r,t)&&t!==n&&o(r,t,{get:()=>e[t],enumerable:!(s=m(e,t))||s.enumerable});return r};var g=(r,e,n)=>(n=r!=null?u(h(r)):{},i(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>i(o({},\"__esModule\",{value:!0}),r);var p=b((_,c)=>{c.exports=_jsx_runtime});var I={};D(I,{default:()=>l,frontmatter:()=>L});var a=g(p()),L={title:\"LIMIT\",slug:\"limit-lvcas-dope\",rapper:\"Lvcas Dope\",rapperSlug:\"lvcas-dope\",features:[\"dominik-rey\"],featuresNames:[\"Dominik Rey\"],album:\"Definice Rapu\",albumSlug:\"definice-rapu\",year:2024,genre:[\"\"],duration:\"3:10\",trackNumber:3,producers:[],producersNames:[],description:\"LIMIT \\u2014 skladba od Lvcas Dope.\",publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/limit-lvcas-dope\",children:\"LIMIT\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/lvcas-dope\",children:\"Lvcas Dope\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/definice-rapu\",children:\"Definice Rapu\"}),\" (2024).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return v(I);})();\n;return Component;"
   },
   "_id": "skladby/limit-lvcas-dope.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Teritorium III.",
   "albumSlug": "teritorium-iii",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:05",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Prostřenej stůl — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},a=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!j.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(i=p(t,o))||i.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(h(e)):{},a(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>a(s({},\"__esModule\",{value:!0}),e);var m=f((M,u)=>{u.exports=_jsx_runtime});var N={};_(N,{default:()=>l,frontmatter:()=>k});var r=b(m()),k={title:\"Prost\\u0159enej st\\u016Fl\",slug:\"prostrenej-stul-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[],duration:\"3:05\",trackNumber:3,producers:[],producersNames:[],description:\"Prost\\u0159enej st\\u016Fl \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return g(N);})();\n;return Component;"
+    "raw": "\n**[Prostřenej stůl](/skladby/prostrenej-stul-orion)** od [Orion](/raperi/orion) z alba [Teritorium III.](/alba/teritorium-iii) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)i(e,n,{get:r[n],enumerable:!0})},a=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of f(r))!j.call(e,o)&&o!==n&&i(e,o,{get:()=>r[o],enumerable:!(s=m(r,o))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?p(h(e)):{},a(r||!e||!e.__esModule?i(n,\"default\",{value:e,enumerable:!0}):n,e)),I=e=>a(i({},\"__esModule\",{value:!0}),e);var l=x((y,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>d,frontmatter:()=>_});var t=g(l()),_={title:\"Prost\\u0159enej st\\u016Fl\",slug:\"prostrenej-stul-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Teritorium III.\",albumSlug:\"teritorium-iii\",year:2021,genre:[\"\"],duration:\"3:05\",trackNumber:3,producers:[],producersNames:[],description:\"Prost\\u0159enej st\\u016Fl \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(r.p,{children:[(0,t.jsx)(r.strong,{children:(0,t.jsx)(r.a,{href:\"/skladby/prostrenej-stul-orion\",children:\"Prost\\u0159enej st\\u016Fl\"})}),\" od \",(0,t.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,t.jsx)(r.a,{href:\"/alba/teritorium-iii\",children:\"Teritorium III.\"}),\" (2021).\"]})}function d(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return I(k);})();\n;return Component;"
   },
   "_id": "skladby/prostrenej-stul-orion.mdx",
   "_raw": {

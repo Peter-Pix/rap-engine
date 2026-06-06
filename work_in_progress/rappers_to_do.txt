@@ -1,0 +1,198 @@
+# RAPPERS — TODO LIST
+
+Generated: 5 June 2026
+Total rapper profiles in dataset: 227
+Audit scope: all profiles
+
+## PRIORITY TIERS
+
+### 🔴 TIER 1 — BIG NAMES S TOP DESCRIPTION (15 artistů)
+
+Tihle rappeři mají kvalitní Bio v těle MDX, ale frontmatter `description:` je prázdný / triviální ("je český rapper"). To je kritický SEO problém — `description` tvoří meta description i og:description.
+
+| Slug | Majoritní hity/status | Problém |
+|---|---|---|
+| ben-cristovao | Finalista SuperStar, Eurovize, O2 arena | 2 znaky |
+| yzomandias | Milion+, nejvlivnější trap | 2 znaky |
+| nik-tendo | Milion+, 100M+ streamy | 2 znaky |
+| viktor-sheen | Komerčně #1, O2 arena | 2 znaky |
+| rytmus | Legenda, Kontrafakt, Bengoro | 2 znaky |
+| separ | DMS, OG, Flowdemort | 2 znaky |
+| pil-c | Comebackgang, CBG | 2 znaky |
+| smack | Grime, Anděl, Archetyp 51 | 2 znaky |
+| ego | Kontrafakt, legenda | 2 znaky |
+| ektor | Logo, legenda | 2 znaky |
+| majk-spirit | DMS, legenda | 2 znaky |
+| lvcas-dope | 44, Milion+ | 2 znaky |
+| michajlov | Legenda | 2 znaky |
+| refew | Legend | 2 znaky |
+| dms | Legenda (celá skupina) | _Stub — doplnit._ |
+
+**Jak opravit:** Pro každý z 15 případů přepsat `description:` na 150-160 znaků, která:
+1. Obsahuje jméno a klíčový fakt (label, hit, ocenění)
+2. Obsahuje 1-2 primární klíčová slova (žánr, scéna)
+3. Končí call-to-action nebo tečkou
+4. NENÍ "je český rapper" / "je známý"
+
+**Příklady kvalitního description:**
+
+> Pil C (Lukáš Kajanovič) je slovenský rapper a zakladatel labelu Comebackgang (CBG). Průkopník melancholického trapu s hity jako 2086 a S láskou, Lukáš. Jeden z nejvlivnějších hlasů česko-slovenské scény.
+
+> Viktor Sheen (Viktor Dundič) je komerčně nejúspěšnější český rapper, který s albem Černobílej svět a společným projektem Roadtrip s Calinem dobyl O2 arenu a definoval zvuk mladé generace.
+
+> Nik Tendo (Dominik Citta) je klíčový člen labelu Milion+ Entertainment. Autor hitů jako Až na měsíc, Fatamorgana nebo Kruhy & Vlny. Jeden z nejstreamovanějších českých rapperů s charakteristickým melodickým projevem.
+
+### 🟡 TIER 2 — STUBS (104 profilů)
+
+Tohle je obrovský backlog — 104 souborů s obsahem "## Bio\n\n_Stub — doplnit._" a miniaturním 2řádkovým description.
+
+**Kategorie stubů:**
+
+#### A) Důležití umělci, známá jména (vysoká priorita)
+
+| Slug | Role |
+|---|---|
+| calin | Viktorův parťák, Roadtrip, O2 arena |
+| hugo-toxxx | Supercrooo, legenda, Hypno 808 |
+| maniak | Legenda, Kontrafakt |
+| rest | Legenda |
+| orion | Legenda |
+| paulie-garand | Molo, lyrický rap |
+| marpo | Legenda |
+| indy | Supercrooo, legenda |
+| lipo | Legenda |
+| kato | Legenda |
+| idea | Legenda |
+| james-cole | Legenda, PSH |
+| sergei-barracuda | Championship Music |
+| kenny-rough | Producent, Erupce s Pauliem |
+| vladimir-518 | PSH, legenda |
+
+#### B) Méně známí umělci (nižší priorita)
+
+Zbylých ~89 stubů tvoří okrajové postavy scény, producenti, DJs, staří interpreti (např. ca-hanova-bulhar, chachi, clemens-jon, elektrickmann, vypsana-fixa, zabson atd.)
+
+**Jak opravit stubs (obecně):**
+
+Každý profil by měl mít:
+
+```
+---
+title: "Jméno"
+slug: "jmeno"
+realName: "Celé Jméno"
+born: "1985"                  # rok nebo null
+birthPlace: "Město, Země"     # optional
+active: "2005–současnost"
+label: "Název Labelu"
+genre: ["primární-žánr", "sekundární-žánr"]
+description: "Jméno je [role] propojený s [skupina/label], známý pro [klíčový fakt]. [Druhá věta s kontextem/scénou]."
+featured: false
+publishedAt: "2026-05-31"
+updatedAt: "2026-06-05"
+relatedRappers: ["rapper1", "rapper2"]
+relatedAlbums: ["album1", "album2"]
+---
+
+## Bio
+
+Základní info: kdo to je, odkud, s kým dělal.
+
+## Styl
+Jaký má zvuk, žánr, produkce.
+
+## Kariéra
+Milníky — kdy začal, zlomové momenty, důležitá alba/singl.
+
+## Spolupráce
+S kým spolupracoval a jaká byla povaha spolupráce.
+
+## Diskografie (volitelné)
+Pokud má smysl vyjmenovat alba v textu.
+```
+
+**Minimální akceptovatelný profil (když není čas na plnou verzi):**
+
+```
+---
+title: "Jméno"
+slug: "jmeno"
+genre: ["primární-žánr"]
+description: "Jméno je [role], působící na [scéna]. Známý pro spolupráci s [umělec] na [projekt]."
+publishedAt: "2026-05-31"
+relatedRappers: ["umělec"]
+---
+
+## Bio
+
+Jméno je [role] z [místo]. Na scéně od [rok]. Spolupracoval s [umělci], podílel se na [projekt/alba]. Jeho styl je charakteristický [popis].
+```
+
+### 🟠 TIER 3 — MISSING DATES (20 profilů)
+
+Profily s kompletním BIO, ale chybí `publishedAt:`. Contentlayer tyhle profily sice zpracuje (není required pole), ale metadata chybí časové informace.
+
+**Seznam:**
+58g, alla-xul-elu, astral-one, astralkid22, big-boy-kea, big-narstie, blako, d-kop, d-ritch, dano-kapitan, david-beng-rostas, dejv, dj-kadr, dj-opia, dj-wich, jickson, karlo, labello, sofian-medjmedj, tk27
+
+**Jak opravit:** Ke každému přidat `publishedAt: "2026-05-31"` (nebo reálné datum, pokud je známo). Plus `updatedAt:` pokud je profil aktuální. Tohle je 5minutová práce přes sed.
+
+### 🔵 TIER 4 — TINY DESCRIPTION (82 profilů)
+
+Většina z nich (67) už má content v těle MDX (nejsou to stubs). Jen description v metadatech je 2 znaky.
+
+**Jak opravit:** Pro každý profil napsat 1-2 věty do frontmatteru. Vyžaduje znát kontext — buď ručně, nebo přes AI asistenty.
+
+### 📋 PŘÍKLAD — OD STUBU KE KVALITNÍMU PROFILU
+
+**Before (kenny-rough.mdx, stub):**
+```yaml
+---
+title: "Kenny Rough"
+slug: "kenny-rough"
+description: "Kenny Rough — interpret české/slovenské rapové scény."
+publishedAt: "2026-06-04"
+---
+## Bio
+
+_Stub — doplnit._
+```
+
+**After (minimální verze):**
+```yaml
+---
+title: "Kenny Rough"
+slug: "kenny-rough"
+realName: "Kenny Rough"            # nebo skutečné jméno
+active: "2015–současnost"
+genre: ["czech-rap", "underground-rap", "hardcore-rap"]
+description: "Kenny Rough je pražský producent a rapper, známý spoluprací s Paulie Garandem na singlu Erupce (2024) a minimalistickou, agresivní produkcí."
+featured: false
+publishedAt: "2026-06-04"
+updatedAt: "2026-06-05"
+relatedRappers: ["paulie-garand"]
+relatedAlbums: ["erupce"]
+---
+
+## Bio
+
+Kenny Rough je producent a rapper z Prahy, který se pohybuje na české undergroundové scéně od poloviny 2010s. Proslul minimalistickými, ale účinnými beaty, které kombinují tvrdý hardcore rap s industriálními prvky. Ve spolupráci s Paulie Garandem vydal v roce 2024 singl Erupce, který rezonoval celou scénou. Mezi jeho další spolupracovníky patří Řezník, Pil C a další představitelé tvrdšího českého rapu.
+```
+
+---
+
+## SUMMARY
+
+| Priorita | Počet | Typ |
+|---|---|---|
+| 🔴 Tier 1 | 15 | Big names — fix description |
+| 🟡 Tier 2A | 15 | Důležití umělci — stubs → full profile |
+| 🟡 Tier 2B | 89 | Okrajoví umělci — stubs → aspoň minimální profil |
+| 🟠 Tier 3 | 20 | Missing publishedAt — 5min fix |
+| 🔵 Tier 4 | 82 | Tiny description — napsat 1-2 věty |
+
+**Doporučený postup:**
+1. Sedem `sed -i ''` na Tier 3 (20× přidat datum) — 5 min
+2. NLP/AI asistence na Tier 1 (15× generovat description) — 30 min
+3. Ručně Tier 2A (15 důležitých jmen) — 3-5 hodin
+4. Ručně Tier 2B + Tier 4 — dlouhodobý backlog, ~50+ hodin

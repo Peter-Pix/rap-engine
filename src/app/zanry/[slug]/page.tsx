@@ -5,6 +5,7 @@ import { MDXRenderer } from '@/components/entity/MDXRenderer'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { DetailHero, DetailLayout, SidebarCard, InfoDl } from '@/components/shared/DetailHero'
 import { EntityCard, EntityChip } from '@/components/shared/EntityCard'
+import { rappersByZanr as getRappersByZanr, albumsByZanr as getAlbumsByZanr } from '@/lib/aggregations'
 import type { Metadata } from 'next'
 
 export async function generateStaticParams() {
@@ -27,10 +28,9 @@ export default async function ZanrPage({ params }: { params: Promise<{ slug: str
   const zanr = allZanrs.find((z) => z.slug === slug)
   if (!zanr) notFound()
 
-  const rappers = allRappers.filter((r) => r.genre?.includes(zanr.slug))
-  const albums = allAlbums
-    .filter((a) => a.genre?.includes(zanr.slug))
-    .sort((a, b) => b.year - a.year)
+  // Použijeme aggregations lib s normalizeGenreSlug (case-insensitive match)
+  const rappers = getRappersByZanr(slug)
+  const albums = getAlbumsByZanr(slug)
 
   return (
     <>

@@ -12,16 +12,19 @@
   "album": "Je to fajn (feat. Fejbs)",
   "albumSlug": "je-to-fajn-feat-fejbs",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:45",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Je to fajn — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of l(t))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=i(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(p(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var f=x((M,c)=>{c.exports=_jsx_runtime});var J={};h(J,{default:()=>d,frontmatter:()=>F});var n=_(f()),F={title:\"Je to fajn\",slug:\"je-to-fajn-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"fejbs\"],featuresNames:[\"Fejbs\"],album:\"Je to fajn (feat. Fejbs)\",albumSlug:\"je-to-fajn-feat-fejbs\",year:2020,genre:[],duration:\"4:45\",trackNumber:1,producers:[],producersNames:[],description:\"Je to fajn \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function j(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(j,{...e})}):j(e)}return g(J);})();\n;return Component;"
+    "raw": "\n**[Je to fajn](/skladby/je-to-fajn-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) (2020).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},f=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!b.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=l(e,n))||s.enumerable});return t};var g=(t,e,a)=>(a=t!=null?i(m(t)):{},f(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),J=t=>f(o({},\"__esModule\",{value:!0}),t);var d=x((k,j)=>{j.exports=_jsx_runtime});var D={};h(D,{default:()=>c,frontmatter:()=>_});var r=g(d()),_={title:\"Je to fajn\",slug:\"je-to-fajn-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"fejbs\"],featuresNames:[\"Fejbs\"],album:\"Je to fajn (feat. Fejbs)\",albumSlug:\"je-to-fajn-feat-fejbs\",year:2020,genre:[\"\"],duration:\"4:45\",trackNumber:1,producers:[],producersNames:[],description:\"Je to fajn \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/je-to-fajn-dj-fatte\",children:\"Je to fajn\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" (2020).\"]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return J(D);})();\n;return Component;"
   },
   "_id": "skladby/je-to-fajn-dj-fatte.mdx",
   "_raw": {

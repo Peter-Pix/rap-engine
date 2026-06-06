@@ -16,16 +16,19 @@
   "album": "Live @ O2 arena Praha",
   "albumSlug": "live-o2-arena-praha",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:21",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Asgard (feat. STEIN27, Ben Cristovao & KOJO) (Live 2023) — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!v.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?m(f(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>i(o({},\"__esModule\",{value:!0}),e);var u=x((L,c)=>{c.exports=_jsx_runtime});var N={};g(N,{default:()=>d,frontmatter:()=>C});var r=b(u()),C={title:\"Asgard (feat. STEIN27, Ben Cristovao & KOJO) (Live 2023)\",slug:\"asgard-feat-stein27-ben-cristovao-kojo-live-2023-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"ben-cristovao\",\"kojo\",\"stein27\"],featuresNames:[\"Ben Cristovao\",\"Kojo\",\"Stein27\"],album:\"Live @ O2 arena Praha\",albumSlug:\"live-o2-arena-praha\",year:2024,genre:[],duration:\"3:21\",trackNumber:13,producers:[],producersNames:[],description:\"Asgard (feat. STEIN27, Ben Cristovao & KOJO) (Live 2023) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Asgard (feat. STEIN27, Ben Cristovao & KOJO) (Live 2023)](/skladby/asgard-feat-stein27-ben-cristovao-kojo-live-2023-calin)** od [Calin](/raperi/calin) z alba [Live @ O2 arena Praha](/alba/live-o2-arena-praha) (2024).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var v=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var m=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},i=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!g.call(a,t)&&t!==n&&o(a,t,{get:()=>e[t],enumerable:!(s=v(e,t))||s.enumerable});return a};var j=(a,e,n)=>(n=a!=null?p(h(a)):{},i(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),x=a=>i(o({},\"__esModule\",{value:!0}),a);var c=m((O,l)=>{l.exports=_jsx_runtime});var L={};b(L,{default:()=>u,frontmatter:()=>C});var r=j(c()),C={title:\"Asgard (feat. STEIN27, Ben Cristovao & KOJO) (Live 2023)\",slug:\"asgard-feat-stein27-ben-cristovao-kojo-live-2023-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[\"ben-cristovao\",\"kojo\",\"stein27\"],featuresNames:[\"Ben Cristovao\",\"Kojo\",\"Stein27\"],album:\"Live @ O2 arena Praha\",albumSlug:\"live-o2-arena-praha\",year:2024,genre:[\"\"],duration:\"3:21\",trackNumber:13,producers:[],producersNames:[],description:\"Asgard (feat. STEIN27, Ben Cristovao & KOJO) (Live 2023) \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/asgard-feat-stein27-ben-cristovao-kojo-live-2023-calin\",children:\"Asgard (feat. STEIN27, Ben Cristovao & KOJO) (Live 2023)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/live-o2-arena-praha\",children:\"Live @ O2 arena Praha\"}),\" (2024).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(d,{...a})}):d(a)}return x(L);})();\n;return Component;"
   },
   "_id": "skladby/asgard-feat-stein27-ben-cristovao-kojo-live-2023-calin.mdx",
   "_raw": {

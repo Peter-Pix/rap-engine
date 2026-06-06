@@ -8,16 +8,19 @@
   "album": "Nech Rusa flexit EP",
   "albumSlug": "nech-rusa-flexit-ep",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:51",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Všichni tančí jak Pop Smoke — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!x.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(i=d(n,r))||i.enumerable});return e};var _=(e,n,a)=>(a=e!=null?l(k(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>s(o({},\"__esModule\",{value:!0}),e);var m=f((N,c)=>{c.exports=_jsx_runtime});var M={};j(M,{default:()=>p,frontmatter:()=>g});var t=_(m()),g={title:\"V\\u0161ichni tan\\u010D\\xED jak Pop Smoke\",slug:\"vsichni-tanci-jak-pop-smoke-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Nech Rusa flexit EP\",albumSlug:\"nech-rusa-flexit-ep\",year:2020,genre:[],duration:\"2:51\",trackNumber:6,producers:[],producersNames:[],description:\"V\\u0161ichni tan\\u010D\\xED jak Pop Smoke \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Všichni tančí jak Pop Smoke](/skladby/vsichni-tanci-jak-pop-smoke-maniak)** od [Maniak](/raperi/maniak) z alba [Nech Rusa flexit EP](/alba/nech-rusa-flexit-ep) (2020).\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),j=(e,a)=>{for(var t in a)i(e,t,{get:a[t],enumerable:!0})},s=(e,a,t,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!f.call(e,r)&&r!==t&&i(e,r,{get:()=>a[r],enumerable:!(o=k(a,r))||o.enumerable});return e};var b=(e,a,t)=>(t=e!=null?m(d(e)):{},s(a||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>s(i({},\"__esModule\",{value:!0}),e);var p=x((P,c)=>{c.exports=_jsx_runtime});var _={};j(_,{default:()=>l,frontmatter:()=>M});var n=b(p()),M={title:\"V\\u0161ichni tan\\u010D\\xED jak Pop Smoke\",slug:\"vsichni-tanci-jak-pop-smoke-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Nech Rusa flexit EP\",albumSlug:\"nech-rusa-flexit-ep\",year:2020,genre:[\"\"],duration:\"2:51\",trackNumber:6,producers:[],producersNames:[],description:\"V\\u0161ichni tan\\u010D\\xED jak Pop Smoke \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/vsichni-tanci-jak-pop-smoke-maniak\",children:\"V\\u0161ichni tan\\u010D\\xED jak Pop Smoke\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/nech-rusa-flexit-ep\",children:\"Nech Rusa flexit EP\"}),\" (2020).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/vsichni-tanci-jak-pop-smoke-maniak.mdx",
   "_raw": {

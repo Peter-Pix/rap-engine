@@ -8,16 +8,19 @@
   "album": "Fatte No More",
   "albumSlug": "fatte-no-more",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Cluck! — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?i(x(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var l=j((D,c)=>{c.exports=_jsx_runtime});var F={};_(F,{default:()=>d,frontmatter:()=>k});var r=b(l()),k={title:\"Cluck!\",slug:\"cluck-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[],duration:\"3:16\",trackNumber:15,producers:[],producersNames:[],description:\"Cluck! \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(F);})();\n;return Component;"
+    "raw": "\n**[Cluck!](/skladby/cluck-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fatte No More](/alba/fatte-no-more) (2012).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},c=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!j.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return t};var k=(t,e,a)=>(a=t!=null?i(h(t)):{},c(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>c(o({},\"__esModule\",{value:!0}),t);var l=x((F,u)=>{u.exports=_jsx_runtime});var C={};b(C,{default:()=>f,frontmatter:()=>_});var r=k(l()),_={title:\"Cluck!\",slug:\"cluck-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[\"\"],duration:\"3:16\",trackNumber:15,producers:[],producersNames:[],description:\"Cluck! \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function d(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/cluck-dj-fatte\",children:\"Cluck!\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/fatte-no-more\",children:\"Fatte No More\"}),\" (2012).\"]})}function f(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(d,{...t})}):d(t)}return g(C);})();\n;return Component;"
   },
   "_id": "skladby/cluck-dj-fatte.mdx",
   "_raw": {

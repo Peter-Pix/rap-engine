@@ -6,7 +6,7 @@
   "label": "Alliwant Music",
   "year": 2019,
   "genre": [],
-  "description": "Young Guns 03. — EP od Ario (2019).",
+  "description": "Ario v roce 2019 vydal EP. Obsahuje celkem čtyři skladby. Deska vyšla pod labelem Alliwant Music.",
   "image": "https://cdn-images.dzcdn.net/images/cover/fb03cc94b245c18f0488414ad5a0d6cd/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -16,9 +16,11 @@
     "All My Friends"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),_=(n,e)=>{for(var r in e)s(n,r,{get:e[r],enumerable:!0})},c=(n,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!x.call(n,o)&&o!==r&&s(n,o,{get:()=>e[o],enumerable:!(a=p(e,o))||a.enumerable});return n};var b=(n,e,r)=>(r=n!=null?m(h(n)):{},c(e||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),j=n=>c(s({},\"__esModule\",{value:!0}),n);var l=f((I,i)=>{i.exports=_jsx_runtime});var M={};_(M,{default:()=>d,frontmatter:()=>A});var t=b(l()),A={title:\"Young Guns 03.\",slug:\"young-guns-03\",rapper:\"Ario\",rapperSlug:\"ario\",label:\"Alliwant Music\",year:2019,genre:[],description:\"Young Guns 03. \\u2014 EP od Ario (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/fb03cc94b245c18f0488414ad5a0d6cd/1000x1000-000000-80-0-0.jpg\",tracklist:[\"We Gonna Rock\",\"UUU, WIII\",\"I Have No Time\",\"All My Friends\"],publishedAt:\"2026-06-04\"};function u(n){let e={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(u,{...n})}):u(n)}return j(M);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[Ario](/raperi/ario) v roce 2019 vydal EP.\n\nAlbum obsahuje celkem čtyři skladby.\n\nDeska vyšla pod labelem Alliwant Music.\n",
+    "code": "var Component=(()=>{var u=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var r in e)l(n,r,{get:e[r],enumerable:!0})},o=(n,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!b.call(n,t)&&t!==r&&l(n,t,{get:()=>e[t],enumerable:!(i=m(e,t))||i.enumerable});return n};var A=(n,e,r)=>(r=n!=null?u(y(n)):{},o(e||!n||!n.__esModule?l(r,\"default\",{value:n,enumerable:!0}):r,n)),f=n=>o(l({},\"__esModule\",{value:!0}),n);var c=g((M,s)=>{s.exports=_jsx_runtime});var k={};x(k,{default:()=>p,frontmatter:()=>j});var a=A(c()),j={title:\"Young Guns 03.\",slug:\"young-guns-03\",rapper:\"Ario\",rapperSlug:\"ario\",label:\"Alliwant Music\",year:2019,releaseType:\"ep\",genre:[],description:\"Ario v roce 2019 vydal EP. Obsahuje celkem \\u010Dty\\u0159i skladby. Deska vy\\u0161la pod labelem Alliwant Music.\",image:\"https://cdn-images.dzcdn.net/images/cover/fb03cc94b245c18f0488414ad5a0d6cd/1000x1000-000000-80-0-0.jpg\",tracklist:[\"We Gonna Rock\",\"UUU, WIII\",\"I Have No Time\",\"All My Friends\"],publishedAt:\"2026-06-04\"};function d(n){let e={a:\"a\",h2:\"h2\",p:\"p\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.a,{href:\"/raperi/ario\",children:\"Ario\"}),\" v roce 2019 vydal EP.\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Album obsahuje celkem \\u010Dty\\u0159i skladby.\"}),`\n`,(0,a.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Alliwant Music.\"})]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(d,{...n})}):d(n)}return f(k);})();\n;return Component;"
   },
   "_id": "alba/young-guns-03.mdx",
   "_raw": {

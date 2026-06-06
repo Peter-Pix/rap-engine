@@ -16,16 +16,19 @@
   "album": "Teritorium Remixy",
   "albumSlug": "teritorium-remixy",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "5:37",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Odkud Jsme, Kam Jdem, Kam Směřujem — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},s=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let m of x(r))!h.call(e,m)&&m!==n&&o(e,m,{get:()=>r[m],enumerable:!(a=l(r,m))||a.enumerable});return e};var k=(e,r,n)=>(n=e!=null?c(j(e)):{},s(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var u=f((K,i)=>{i.exports=_jsx_runtime});var y={};g(y,{default:()=>p,frontmatter:()=>b});var t=k(u()),b={title:\"Odkud Jsme, Kam Jdem, Kam Sm\\u011B\\u0159ujem\",slug:\"odkud-jsme-kam-jdem-kam-smerujem-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"slipo\",\"dena\",\"gipsy\"],featuresNames:[\"Slipo\",\"Dena\",\"Gipsy\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[],duration:\"5:37\",trackNumber:15,producers:[],producersNames:[],description:\"Odkud Jsme, Kam Jdem, Kam Sm\\u011B\\u0159ujem \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function d(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[Odkud Jsme, Kam Jdem, Kam Směřujem](/skladby/odkud-jsme-kam-jdem-kam-smerujem-orion)** od [Orion](/raperi/orion) (2007).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var m in e)t(r,m,{get:e[m],enumerable:!0})},s=(r,e,m,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of j(e))!x.call(r,n)&&n!==m&&t(r,n,{get:()=>e[n],enumerable:!(a=l(e,n))||a.enumerable});return r};var h=(r,e,m)=>(m=r!=null?c(k(r)):{},s(e||!r||!r.__esModule?t(m,\"default\",{value:r,enumerable:!0}):m,r)),y=r=>s(t({},\"__esModule\",{value:!0}),r);var i=f((O,d)=>{d.exports=_jsx_runtime});var J={};g(J,{default:()=>p,frontmatter:()=>b});var o=h(i()),b={title:\"Odkud Jsme, Kam Jdem, Kam Sm\\u011B\\u0159ujem\",slug:\"odkud-jsme-kam-jdem-kam-smerujem-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"slipo\",\"dena\",\"gipsy\"],featuresNames:[\"Slipo\",\"Dena\",\"Gipsy\"],album:\"Teritorium Remixy\",albumSlug:\"teritorium-remixy\",year:2007,genre:[\"\"],duration:\"5:37\",trackNumber:15,producers:[],producersNames:[],description:\"Odkud Jsme, Kam Jdem, Kam Sm\\u011B\\u0159ujem \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/odkud-jsme-kam-jdem-kam-smerujem-orion\",children:\"Odkud Jsme, Kam Jdem, Kam Sm\\u011B\\u0159ujem\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" (2007).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(u,{...r})}):u(r)}return y(J);})();\n;return Component;"
   },
   "_id": "skladby/odkud-jsme-kam-jdem-kam-smerujem-orion.mdx",
   "_raw": {

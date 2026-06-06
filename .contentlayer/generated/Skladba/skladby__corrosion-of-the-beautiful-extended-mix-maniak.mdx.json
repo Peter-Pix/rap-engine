@@ -8,16 +8,19 @@
   "album": "Corrosion Of The Beautiful (Extended Mix)",
   "albumSlug": "corrosion-of-the-beautiful",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:56",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Corrosion Of The Beautiful (Extended Mix) — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),M=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!h.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(i=x(t,o))||i.enumerable});return e};var _=(e,t,r)=>(r=e!=null?m(p(e)):{},u(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>u(a({},\"__esModule\",{value:!0}),e);var d=b((B,s)=>{s.exports=_jsx_runtime});var j={};M(j,{default:()=>l,frontmatter:()=>k});var n=_(d()),k={title:\"Corrosion Of The Beautiful (Extended Mix)\",slug:\"corrosion-of-the-beautiful-extended-mix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Corrosion Of The Beautiful (Extended Mix)\",albumSlug:\"corrosion-of-the-beautiful\",year:2025,genre:[],duration:\"2:56\",trackNumber:1,producers:[],producersNames:[],description:\"Corrosion Of The Beautiful (Extended Mix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Corrosion Of The Beautiful (Extended Mix)](/skladby/corrosion-of-the-beautiful-extended-mix-maniak)** od [Maniak](/raperi/maniak) (2025).\n",
+    "code": "var Component=(()=>{var c=Object.create;var a=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),M=(r,e)=>{for(var n in e)a(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!p.call(r,o)&&o!==n&&a(r,o,{get:()=>e[o],enumerable:!(i=x(e,o))||i.enumerable});return r};var b=(r,e,n)=>(n=r!=null?c(h(r)):{},s(e||!r||!r.__esModule?a(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>s(a({},\"__esModule\",{value:!0}),r);var d=k((B,u)=>{u.exports=_jsx_runtime});var _={};M(_,{default:()=>l,frontmatter:()=>C});var t=b(d()),C={title:\"Corrosion Of The Beautiful (Extended Mix)\",slug:\"corrosion-of-the-beautiful-extended-mix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"Corrosion Of The Beautiful (Extended Mix)\",albumSlug:\"corrosion-of-the-beautiful\",year:2025,genre:[\"\"],duration:\"2:56\",trackNumber:1,producers:[],producersNames:[],description:\"Corrosion Of The Beautiful (Extended Mix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function f(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/corrosion-of-the-beautiful-extended-mix-maniak\",children:\"Corrosion Of The Beautiful (Extended Mix)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2025).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(f,{...r})}):f(r)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/corrosion-of-the-beautiful-extended-mix-maniak.mdx",
   "_raw": {

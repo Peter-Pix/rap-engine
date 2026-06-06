@@ -8,16 +8,19 @@
   "album": "The Text",
   "albumSlug": "the-text",
   "year": 2006,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:58",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Ghetto Scholar — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of i(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?m(p(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>l(a({},\"__esModule\",{value:!0}),e);var u=f((B,c)=>{c.exports=_jsx_runtime});var S={};g(S,{default:()=>h,frontmatter:()=>j});var r=_(u()),j={title:\"Ghetto Scholar\",slug:\"ghetto-scholar-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[],duration:\"3:58\",trackNumber:10,producers:[],producersNames:[],description:\"Ghetto Scholar \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return y(S);})();\n;return Component;"
+    "raw": "\n**[Ghetto Scholar](/skladby/ghetto-scholar-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Text](/alba/the-text) (2006).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var a in e)n(t,a,{get:e[a],enumerable:!0})},l=(t,e,a,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!m.call(t,o)&&o!==a&&n(t,o,{get:()=>e[o],enumerable:!(b=i(e,o))||b.enumerable});return t};var g=(t,e,a)=>(a=t!=null?d(x(t)):{},l(e||!t||!t.__esModule?n(a,\"default\",{value:t,enumerable:!0}):a,t)),z=t=>l(n({},\"__esModule\",{value:!0}),t);var c=f((S,s)=>{s.exports=_jsx_runtime});var _={};y(_,{default:()=>u,frontmatter:()=>B});var r=g(c()),B={title:\"Ghetto Scholar\",slug:\"ghetto-scholar-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Text\",albumSlug:\"the-text\",year:2006,genre:[\"\"],duration:\"3:58\",trackNumber:10,producers:[],producersNames:[],description:\"Ghetto Scholar \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function h(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/ghetto-scholar-bobby-blaze\",children:\"Ghetto Scholar\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/the-text\",children:\"The Text\"}),\" (2006).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(h,{...t})}):h(t)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/ghetto-scholar-bobby-blaze.mdx",
   "_raw": {

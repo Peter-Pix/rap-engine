@@ -8,16 +8,19 @@
   "album": "G.O.A.T.",
   "albumSlug": "g-o-a-t",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:43",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Nezachrání tě nic — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},c=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=p(t,a))||s.enumerable});return e};var _=(e,t,r)=>(r=e!=null?d(x(e)):{},c(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var u=g((M,m)=>{m.exports=_jsx_runtime});var C={};j(C,{default:()=>l,frontmatter:()=>N});var n=_(u()),N={title:\"Nezachr\\xE1n\\xED t\\u011B nic\",slug:\"nezachrani-te-nic-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[],duration:\"3:43\",trackNumber:8,producers:[],producersNames:[],description:\"Nezachr\\xE1n\\xED t\\u011B nic \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return b(C);})();\n;return Component;"
+    "raw": "\n**[Nezachrání tě nic](/skladby/nezachrani-te-nic-james-cole)** od [James Cole](/raperi/james-cole) z alba [G.O.A.T.](/alba/g-o-a-t) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},c=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!g.call(a,t)&&t!==n&&o(a,t,{get:()=>e[t],enumerable:!(s=h(e,t))||s.enumerable});return a};var b=(a,e,n)=>(n=a!=null?d(f(a)):{},c(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),z=a=>c(o({},\"__esModule\",{value:!0}),a);var i=j((k,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>u,frontmatter:()=>N});var r=b(i()),N={title:\"Nezachr\\xE1n\\xED t\\u011B nic\",slug:\"nezachrani-te-nic-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"G.O.A.T.\",albumSlug:\"g-o-a-t\",year:2020,genre:[\"\"],duration:\"3:43\",trackNumber:8,producers:[],producersNames:[],description:\"Nezachr\\xE1n\\xED t\\u011B nic \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/nezachrani-te-nic-james-cole\",children:\"Nezachr\\xE1n\\xED t\\u011B nic\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/g-o-a-t\",children:\"G.O.A.T.\"}),\" (2020).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(m,{...a})}):m(a)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/nezachrani-te-nic-james-cole.mdx",
   "_raw": {

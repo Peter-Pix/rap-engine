@@ -8,16 +8,19 @@
   "album": "Fatte No More",
   "albumSlug": "fatte-no-more",
   "year": 2012,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:27",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Professor Shit — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of f(t))!x.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=l(t,o))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(h(e)):{},u(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(s({},\"__esModule\",{value:!0}),e);var i=j((M,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>d,frontmatter:()=>F});var r=b(i()),F={title:\"Professor Shit\",slug:\"professor-shit-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[],duration:\"4:27\",trackNumber:1,producers:[],producersNames:[],description:\"Professor Shit \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Professor Shit](/skladby/professor-shit-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Fatte No More](/alba/fatte-no-more) (2012).\n",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},d=(t,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!j.call(t,a)&&a!==o&&s(t,a,{get:()=>e[a],enumerable:!(n=p(e,a))||n.enumerable});return t};var g=(t,e,o)=>(o=t!=null?l(m(t)):{},d(e||!t||!t.__esModule?s(o,\"default\",{value:t,enumerable:!0}):o,t)),_=t=>d(s({},\"__esModule\",{value:!0}),t);var i=x((N,f)=>{f.exports=_jsx_runtime});var F={};b(F,{default:()=>u,frontmatter:()=>D});var r=g(i()),D={title:\"Professor Shit\",slug:\"professor-shit-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Fatte No More\",albumSlug:\"fatte-no-more\",year:2012,genre:[\"\"],duration:\"4:27\",trackNumber:1,producers:[],producersNames:[],description:\"Professor Shit \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function c(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/professor-shit-dj-fatte\",children:\"Professor Shit\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/fatte-no-more\",children:\"Fatte No More\"}),\" (2012).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(c,{...t})}):c(t)}return _(F);})();\n;return Component;"
   },
   "_id": "skladby/professor-shit-dj-fatte.mdx",
   "_raw": {

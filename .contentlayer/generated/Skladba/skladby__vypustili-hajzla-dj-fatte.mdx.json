@@ -12,16 +12,19 @@
   "album": "Koupili jsme Boha, aby za nás makal",
   "albumSlug": "koupili-jsme-boha-aby-za-nas-makal",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:59",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Vypustili hajzla — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!x.call(e,r)&&r!==n&&s(e,r,{get:()=>t[r],enumerable:!(o=d(t,r))||o.enumerable});return e};var g=(e,t,n)=>(n=e!=null?c(j(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>i(s({},\"__esModule\",{value:!0}),e);var u=b((D,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>m,frontmatter:()=>k});var a=g(u()),k={title:\"Vypustili hajzla\",slug:\"vypustili-hajzla-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[],duration:\"2:59\",trackNumber:1,producers:[],producersNames:[],description:\"Vypustili hajzla \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function p(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(t.p,{children:(0,a.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(p,{...e})}):p(e)}return y(_);})();\n;return Component;"
+    "raw": "\n**[Vypustili hajzla](/skladby/vypustili-hajzla-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Koupili jsme Boha, aby za nás makal](/alba/koupili-jsme-boha-aby-za-nas-makal) (2026).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),y=(t,a)=>{for(var r in a)n(t,r,{get:a[r],enumerable:!0})},o=(t,a,r,l)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let s of h(a))!b.call(t,s)&&s!==r&&n(t,s,{get:()=>a[s],enumerable:!(l=c(a,s))||l.enumerable});return t};var k=(t,a,r)=>(r=t!=null?m(j(t)):{},o(a||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),z=t=>o(n({},\"__esModule\",{value:!0}),t);var u=f((D,i)=>{i.exports=_jsx_runtime});var x={};y(x,{default:()=>d,frontmatter:()=>g});var e=k(u()),g={title:\"Vypustili hajzla\",slug:\"vypustili-hajzla-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[\"yoga-spank\"],featuresNames:[\"Yoga Spank\"],album:\"Koupili jsme Boha, aby za n\\xE1s makal\",albumSlug:\"koupili-jsme-boha-aby-za-nas-makal\",year:2026,genre:[\"\"],duration:\"2:59\",trackNumber:1,producers:[],producersNames:[],description:\"Vypustili hajzla \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function p(t){let a={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/vypustili-hajzla-dj-fatte\",children:\"Vypustili hajzla\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/koupili-jsme-boha-aby-za-nas-makal\",children:\"Koupili jsme Boha, aby za n\\xE1s makal\"}),\" (2026).\"]})}function d(t={}){let{wrapper:a}=t.components||{};return a?(0,e.jsx)(a,{...t,children:(0,e.jsx)(p,{...t})}):p(t)}return z(x);})();\n;return Component;"
   },
   "_id": "skladby/vypustili-hajzla-dj-fatte.mdx",
   "_raw": {

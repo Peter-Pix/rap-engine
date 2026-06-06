@@ -12,16 +12,19 @@
   "album": "karanténa",
   "albumSlug": "karantena",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:22",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "A.C.A.B. — skladba od Konex.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!k.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=p(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?l(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var m=b((C,u)=>{u.exports=_jsx_runtime});var A={};f(A,{default:()=>i,frontmatter:()=>j});var t=_(m()),j={title:\"A.C.A.B.\",slug:\"a-c-a-b-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[],duration:\"4:22\",trackNumber:1,producers:[],producersNames:[],description:\"A.C.A.B. \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(A);})();\n;return Component;"
+    "raw": "\n**[A.C.A.B.](/skladby/a-c-a-b-konex)** (2020).\n",
+    "code": "var Component=(()=>{var x=Object.create;var o=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of m(n))!b.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=i(n,a))||s.enumerable});return e};var A=(e,n,r)=>(r=e!=null?x(k(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),h=e=>c(o({},\"__esModule\",{value:!0}),e);var d=f((C,u)=>{u.exports=_jsx_runtime});var j={};g(j,{default:()=>p,frontmatter:()=>_});var t=A(d()),_={title:\"A.C.A.B.\",slug:\"a-c-a-b-konex\",rapper:\"Konex\",rapperSlug:\"konex\",features:[\"decky\"],featuresNames:[\"Decky\"],album:\"karant\\xE9na\",albumSlug:\"karantena\",year:2020,genre:[\"\"],duration:\"4:22\",trackNumber:1,producers:[],producersNames:[],description:\"A.C.A.B. \\u2014 skladba od Konex.\",publishedAt:\"2026-06-04\"};function l(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:(0,t.jsx)(n.a,{href:\"/skladby/a-c-a-b-konex\",children:\"A.C.A.B.\"})}),\" (2020).\"]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return h(j);})();\n;return Component;"
   },
   "_id": "skladby/a-c-a-b-konex.mdx",
   "_raw": {

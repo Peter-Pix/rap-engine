@@ -6,7 +6,7 @@
   "label": "Deeperfect",
   "year": 2019,
   "genre": [],
-  "description": "Dance for You — singl od James Cole (2019).",
+  "description": "James Cole v roce 2019 vydal EP. Obsahuje celkem tři skladby. Deska vyšla pod labelem Deeperfect.",
   "image": "https://cdn-images.dzcdn.net/images/cover/77f9c44e00b1690293d66ac04452e183/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -15,9 +15,11 @@
     "Piano Groove (Original Mix)"
   ],
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "ep",
+  "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var t in n)a(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!g.call(e,o)&&o!==t&&a(e,o,{get:()=>n[o],enumerable:!(c=p(n,o))||c.enumerable});return e};var D=(e,n,t)=>(t=e!=null?d(f(e)):{},i(n||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>i(a({},\"__esModule\",{value:!0}),e);var l=h((Y,s)=>{s.exports=_jsx_runtime});var M={};j(M,{default:()=>u,frontmatter:()=>b});var r=D(l()),b={title:\"Dance for You\",slug:\"dance-for-you\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Deeperfect\",year:2019,genre:[],description:\"Dance for You \\u2014 singl od James Cole (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/77f9c44e00b1690293d66ac04452e183/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Dance for You (Original Mix)\",\"Dance for You (The Willers Brothers Remix)\",\"Piano Groove (Original Mix)\"],publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"O albu\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(M);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[James Cole](/raperi/james-cole) v roce 2019 vydal EP.\n\nAlbum obsahuje celkem tři skladby.\n\nDeska vyšla pod labelem Deeperfect.\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),g=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},c=(a,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!x.call(a,t)&&t!==n&&o(a,t,{get:()=>e[t],enumerable:!(l=u(e,t))||l.enumerable});return a};var j=(a,e,n)=>(n=a!=null?d(f(a)):{},c(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),y=a=>c(o({},\"__esModule\",{value:!0}),a);var i=b((_,s)=>{s.exports=_jsx_runtime});var v={};g(v,{default:()=>m,frontmatter:()=>D});var r=j(i()),D={title:\"Dance for You\",slug:\"dance-for-you\",rapper:\"James Cole\",rapperSlug:\"james-cole\",label:\"Deeperfect\",year:2019,releaseType:\"ep\",genre:[],description:\"James Cole v roce 2019 vydal EP. Obsahuje celkem t\\u0159i skladby. Deska vy\\u0161la pod labelem Deeperfect.\",image:\"https://cdn-images.dzcdn.net/images/cover/77f9c44e00b1690293d66ac04452e183/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Dance for You (Original Mix)\",\"Dance for You (The Willers Brothers Remix)\",\"Piano Groove (Original Mix)\"],publishedAt:\"2026-06-04\"};function p(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" v roce 2019 vydal EP.\"]}),`\n`,(0,r.jsx)(e.p,{children:\"Album obsahuje celkem t\\u0159i skladby.\"}),`\n`,(0,r.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Deeperfect.\"})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(p,{...a})}):p(a)}return y(v);})();\n;return Component;"
   },
   "_id": "alba/dance-for-you.mdx",
   "_raw": {

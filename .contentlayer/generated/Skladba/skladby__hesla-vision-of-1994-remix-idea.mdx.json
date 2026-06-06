@@ -16,16 +16,19 @@
   "album": "O beatech a remixech",
   "albumSlug": "o-beatech-a-remixech",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:47",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Hesla (Vision of 1994 Remix) — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),g=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},s=(e,n,a,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of p(n))!f.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(i=h(n,r))||i.enumerable});return e};var _=(e,n,a)=>(a=e!=null?l(x(e)):{},s(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var m=b((S,c)=>{c.exports=_jsx_runtime});var k={};g(k,{default:()=>d,frontmatter:()=>M});var t=_(m()),M={title:\"Hesla (Vision of 1994 Remix)\",slug:\"hesla-vision-of-1994-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"jana-kirschner\",\"magenta\",\"vision-of-1994\"],featuresNames:[\"Jana Kirschner\",\"Magenta\",\"Vision of 1994\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[],duration:\"3:47\",trackNumber:4,producers:[],producersNames:[],description:\"Hesla (Vision of 1994 Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return j(k);})();\n;return Component;"
+    "raw": "\n**[Hesla (Vision of 1994 Remix)](/skladby/hesla-vision-of-1994-remix-idea)** od [Idea](/raperi/idea) (2021).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var g=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},t=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!p.call(a,i)&&i!==r&&o(a,i,{get:()=>e[i],enumerable:!(s=f(e,i))||s.enumerable});return a};var j=(a,e,r)=>(r=a!=null?u(x(a)):{},t(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),_=a=>t(o({},\"__esModule\",{value:!0}),a);var d=g((v,c)=>{c.exports=_jsx_runtime});var M={};b(M,{default:()=>m,frontmatter:()=>k});var n=j(d()),k={title:\"Hesla (Vision of 1994 Remix)\",slug:\"hesla-vision-of-1994-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"jana-kirschner\",\"magenta\",\"vision-of-1994\"],featuresNames:[\"Jana Kirschner\",\"Magenta\",\"Vision of 1994\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[\"\"],duration:\"3:47\",trackNumber:4,producers:[],producersNames:[],description:\"Hesla (Vision of 1994 Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/hesla-vision-of-1994-remix-idea\",children:\"Hesla (Vision of 1994 Remix)\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" (2021).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(l,{...a})}):l(a)}return _(M);})();\n;return Component;"
   },
   "_id": "skladby/hesla-vision-of-1994-remix-idea.mdx",
   "_raw": {

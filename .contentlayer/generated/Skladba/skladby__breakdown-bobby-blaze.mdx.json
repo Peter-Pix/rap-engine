@@ -8,16 +8,19 @@
   "album": "Highs & Lows",
   "albumSlug": "highs-lows",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:45",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Breakdown — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},l=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!x.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?i(h(e)):{},l(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),w=e=>l(a({},\"__esModule\",{value:!0}),e);var b=g((k,u)=>{u.exports=_jsx_runtime});var B={};f(B,{default:()=>d,frontmatter:()=>y});var r=_(b()),y={title:\"Breakdown\",slug:\"breakdown-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Highs & Lows\",albumSlug:\"highs-lows\",year:2025,genre:[],duration:\"1:45\",trackNumber:1,producers:[],producersNames:[],description:\"Breakdown \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return w(B);})();\n;return Component;"
+    "raw": "\n**[Breakdown](/skladby/breakdown-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Highs & Lows](/alba/highs-lows) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),w=(r,e)=>{for(var o in e)t(r,o,{get:e[o],enumerable:!0})},b=(r,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!g.call(r,n)&&n!==o&&t(r,n,{get:()=>e[n],enumerable:!(s=h(e,n))||s.enumerable});return r};var y=(r,e,o)=>(o=r!=null?u(m(r)):{},b(e||!r||!r.__esModule?t(o,\"default\",{value:r,enumerable:!0}):o,r)),x=r=>b(t({},\"__esModule\",{value:!0}),r);var d=f((_,l)=>{l.exports=_jsx_runtime});var k={};w(k,{default:()=>c,frontmatter:()=>B});var a=y(d()),B={title:\"Breakdown\",slug:\"breakdown-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Highs & Lows\",albumSlug:\"highs-lows\",year:2025,genre:[\"\"],duration:\"1:45\",trackNumber:1,producers:[],producersNames:[],description:\"Breakdown \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/breakdown-bobby-blaze\",children:\"Breakdown\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/highs-lows\",children:\"Highs & Lows\"}),\" (2025).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return x(k);})();\n;return Component;"
   },
   "_id": "skladby/breakdown-bobby-blaze.mdx",
   "_raw": {

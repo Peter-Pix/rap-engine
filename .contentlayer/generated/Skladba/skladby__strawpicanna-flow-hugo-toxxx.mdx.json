@@ -12,16 +12,19 @@
   "album": "Mumie (Deluxe)",
   "albumSlug": "mumie",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:16",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Strawpicanna Flow — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),w=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!g.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(u=p(t,o))||u.enumerable});return e};var _=(e,t,r)=>(r=e!=null?l(h(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>s(a({},\"__esModule\",{value:!0}),e);var i=f((M,x)=>{x.exports=_jsx_runtime});var S={};w(S,{default:()=>c,frontmatter:()=>j});var n=_(i()),j={title:\"Strawpicanna Flow\",slug:\"strawpicanna-flow-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"hirmix\"],featuresNames:[\"Hirmix\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[],duration:\"3:16\",trackNumber:3,producers:[],producersNames:[],description:\"Strawpicanna Flow \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return b(S);})();\n;return Component;"
+    "raw": "\n**[Strawpicanna Flow](/skladby/strawpicanna-flow-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [Mumie (Deluxe)](/alba/mumie) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),w=(r,e)=>{for(var o in e)n(r,o,{get:e[o],enumerable:!0})},u=(r,e,o,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of d(e))!g.call(r,t)&&t!==o&&n(r,t,{get:()=>e[t],enumerable:!(x=p(e,t))||x.enumerable});return r};var b=(r,e,o)=>(o=r!=null?m(h(r)):{},u(e||!r||!r.__esModule?n(o,\"default\",{value:r,enumerable:!0}):o,r)),_=r=>u(n({},\"__esModule\",{value:!0}),r);var s=f((D,i)=>{i.exports=_jsx_runtime});var M={};w(M,{default:()=>c,frontmatter:()=>j});var a=b(s()),j={title:\"Strawpicanna Flow\",slug:\"strawpicanna-flow-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"hirmix\"],featuresNames:[\"Hirmix\"],album:\"Mumie (Deluxe)\",albumSlug:\"mumie\",year:2022,genre:[\"\"],duration:\"3:16\",trackNumber:3,producers:[],producersNames:[],description:\"Strawpicanna Flow \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/strawpicanna-flow-hugo-toxxx\",children:\"Strawpicanna Flow\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/mumie\",children:\"Mumie (Deluxe)\"}),\" (2022).\"]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return _(M);})();\n;return Component;"
   },
   "_id": "skladby/strawpicanna-flow-hugo-toxxx.mdx",
   "_raw": {

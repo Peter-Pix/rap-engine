@@ -8,16 +8,19 @@
   "album": "Noční vidění",
   "albumSlug": "nocni-videni",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:19",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Vesmírnej Odpad — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!j.call(e,o)&&o!==t&&s(e,o,{get:()=>n[o],enumerable:!(a=l(n,o))||a.enumerable});return e};var b=(e,n,t)=>(t=e!=null?p(h(e)):{},i(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var m=f((M,d)=>{d.exports=_jsx_runtime});var O={};_(O,{default:()=>c,frontmatter:()=>N});var r=b(m()),N={title:\"Vesm\\xEDrnej Odpad\",slug:\"vesmirnej-odpad-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[],duration:\"4:19\",trackNumber:11,producers:[],producersNames:[],description:\"Vesm\\xEDrnej Odpad \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return g(O);})();\n;return Component;"
+    "raw": "\n**[Vesmírnej Odpad](/skladby/vesmirnej-odpad-orion)** od [Orion](/raperi/orion) z alba [Noční vidění](/alba/nocni-videni) (2014).\n",
+    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var o in e)t(n,o,{get:e[o],enumerable:!0})},s=(n,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!j.call(n,a)&&a!==o&&t(n,a,{get:()=>e[a],enumerable:!(i=m(e,a))||i.enumerable});return n};var g=(n,e,o)=>(o=n!=null?l(h(n)):{},s(e||!n||!n.__esModule?t(o,\"default\",{value:n,enumerable:!0}):o,n)),v=n=>s(t({},\"__esModule\",{value:!0}),n);var c=x((k,d)=>{d.exports=_jsx_runtime});var _={};b(_,{default:()=>u,frontmatter:()=>O});var r=g(c()),O={title:\"Vesm\\xEDrnej Odpad\",slug:\"vesmirnej-odpad-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[],featuresNames:[],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[\"\"],duration:\"4:19\",trackNumber:11,producers:[],producersNames:[],description:\"Vesm\\xEDrnej Odpad \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function p(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/vesmirnej-odpad-orion\",children:\"Vesm\\xEDrnej Odpad\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/nocni-videni\",children:\"No\\u010Dn\\xED vid\\u011Bn\\xED\"}),\" (2014).\"]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(p,{...n})}):p(n)}return v(_);})();\n;return Component;"
   },
   "_id": "skladby/vesmirnej-odpad-orion.mdx",
   "_raw": {

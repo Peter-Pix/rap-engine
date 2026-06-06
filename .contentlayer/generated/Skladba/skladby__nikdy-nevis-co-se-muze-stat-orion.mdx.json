@@ -12,16 +12,19 @@
   "album": "Orikoule",
   "albumSlug": "orikoule",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:50",
   "trackNumber": 13,
   "producers": [],
   "producersNames": [],
   "description": "Nikdy Nevíš Co Se Může Stát — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),N=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var S=(e,t,n)=>(n=e!=null?d(h(e)):{},i(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>i(s({},\"__esModule\",{value:!0}),e);var c=k((y,u)=>{u.exports=_jsx_runtime});var g={};N(g,{default:()=>l,frontmatter:()=>b});var r=S(c()),b={title:\"Nikdy Nev\\xED\\u0161 Co Se M\\u016F\\u017Ee St\\xE1t\",slug:\"nikdy-nevis-co-se-muze-stat-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"4:50\",trackNumber:13,producers:[],producersNames:[],description:\"Nikdy Nev\\xED\\u0161 Co Se M\\u016F\\u017Ee St\\xE1t \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(g);})();\n;return Component;"
+    "raw": "\n**[Nikdy Nevíš Co Se Může Stát](/skladby/nikdy-nevis-co-se-muze-stat-orion)** od [Orion](/raperi/orion) z alba [Orikoule](/alba/orikoule) (2008).\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),N=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},i=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of k(e))!h.call(r,n)&&n!==t&&a(r,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return r};var b=(r,e,t)=>(t=r!=null?m(f(r)):{},i(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),y=r=>i(a({},\"__esModule\",{value:!0}),r);var l=x((C,u)=>{u.exports=_jsx_runtime});var g={};N(g,{default:()=>d,frontmatter:()=>S});var o=b(l()),S={title:\"Nikdy Nev\\xED\\u0161 Co Se M\\u016F\\u017Ee St\\xE1t\",slug:\"nikdy-nevis-co-se-muze-stat-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[\"\"],duration:\"4:50\",trackNumber:13,producers:[],producersNames:[],description:\"Nikdy Nev\\xED\\u0161 Co Se M\\u016F\\u017Ee St\\xE1t \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/nikdy-nevis-co-se-muze-stat-orion\",children:\"Nikdy Nev\\xED\\u0161 Co Se M\\u016F\\u017Ee St\\xE1t\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/orikoule\",children:\"Orikoule\"}),\" (2008).\"]})}function d(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(c,{...r})}):c(r)}return y(g);})();\n;return Component;"
   },
   "_id": "skladby/nikdy-nevis-co-se-muze-stat-orion.mdx",
   "_raw": {

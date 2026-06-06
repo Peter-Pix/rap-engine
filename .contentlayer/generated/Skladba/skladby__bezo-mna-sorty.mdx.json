@@ -14,16 +14,19 @@
   "album": "Bezo mňa",
   "albumSlug": "bezo-mna",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:30",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Bezo mňa — skladba od Šorty.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!b.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?p(h(e)):{},m(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>m(a({},\"__esModule\",{value:!0}),e);var c=f((D,i)=>{i.exports=_jsx_runtime});var z={};_(z,{default:()=>u,frontmatter:()=>j});var r=g(c()),j={title:\"Bezo m\\u0148a\",slug:\"bezo-mna-sorty\",rapper:\"\\u0160orty\",rapperSlug:\"sorty\",features:[\"lvcas-dope\",\"fillipian\"],featuresNames:[\"Lvcas Dope\",\"Fillipian\"],album:\"Bezo m\\u0148a\",albumSlug:\"bezo-mna\",year:2022,genre:[],duration:\"3:30\",trackNumber:1,producers:[],producersNames:[],description:\"Bezo m\\u0148a \\u2014 skladba od \\u0160orty.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return y(z);})();\n;return Component;"
+    "raw": "\n**[Bezo mňa](/skladby/bezo-mna-sorty)** (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var y=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var t in r)a(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of b(r))!x.call(e,n)&&n!==t&&a(e,n,{get:()=>r[n],enumerable:!(s=d(r,n))||s.enumerable});return e};var z=(e,r,t)=>(t=e!=null?p(f(e)):{},c(r||!e||!e.__esModule?a(t,\"default\",{value:e,enumerable:!0}):t,e)),h=e=>c(a({},\"__esModule\",{value:!0}),e);var l=y((k,i)=>{i.exports=_jsx_runtime});var j={};g(j,{default:()=>u,frontmatter:()=>_});var o=z(l()),_={title:\"Bezo m\\u0148a\",slug:\"bezo-mna-sorty\",rapper:\"\\u0160orty\",rapperSlug:\"sorty\",features:[\"lvcas-dope\",\"fillipian\"],featuresNames:[\"Lvcas Dope\",\"Fillipian\"],album:\"Bezo m\\u0148a\",albumSlug:\"bezo-mna\",year:2022,genre:[\"\"],duration:\"3:30\",trackNumber:1,producers:[],producersNames:[],description:\"Bezo m\\u0148a \\u2014 skladba od \\u0160orty.\",publishedAt:\"2026-05-31\"};function m(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,o.jsxs)(r.p,{children:[(0,o.jsx)(r.strong,{children:(0,o.jsx)(r.a,{href:\"/skladby/bezo-mna-sorty\",children:\"Bezo m\\u0148a\"})}),\" (2022).\"]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(m,{...e})}):m(e)}return h(j);})();\n;return Component;"
   },
   "_id": "skladby/bezo-mna-sorty.mdx",
   "_raw": {

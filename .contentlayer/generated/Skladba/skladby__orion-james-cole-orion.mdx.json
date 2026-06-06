@@ -12,16 +12,19 @@
   "album": "Orikoule",
   "albumSlug": "orikoule",
   "year": 2008,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:54",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Orion & James Cole — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),_=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},i=(e,r,n,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of x(r))!f.call(e,t)&&t!==n&&s(e,t,{get:()=>r[t],enumerable:!(a=p(r,t))||a.enumerable});return e};var b=(e,r,n)=>(n=e!=null?d(h(e)):{},i(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var m=j((J,l)=>{l.exports=_jsx_runtime});var O={};_(O,{default:()=>c,frontmatter:()=>C});var o=b(m()),C={title:\"Orion & James Cole\",slug:\"orion-james-cole-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[],duration:\"2:54\",trackNumber:1,producers:[],producersNames:[],description:\"Orion & James Cole \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(r.p,{children:(0,o.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,o.jsx)(r,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return g(O);})();\n;return Component;"
+    "raw": "\n**[Orion & James Cole](/skladby/orion-james-cole-orion)** od [Orion](/raperi/orion) z alba [Orikoule](/alba/orikoule) (2008).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},i=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of f(e))!x.call(r,a)&&a!==n&&t(r,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return r};var O=(r,e,n)=>(n=r!=null?d(h(r)):{},i(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>i(t({},\"__esModule\",{value:!0}),r);var u=b((J,l)=>{l.exports=_jsx_runtime});var C={};j(C,{default:()=>m,frontmatter:()=>k});var o=O(u()),k={title:\"Orion & James Cole\",slug:\"orion-james-cole-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"Orikoule\",albumSlug:\"orikoule\",year:2008,genre:[\"\"],duration:\"2:54\",trackNumber:1,producers:[],producersNames:[],description:\"Orion & James Cole \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/orion-james-cole-orion\",children:\"Orion & James Cole\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/orikoule\",children:\"Orikoule\"}),\" (2008).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,o.jsx)(e,{...r,children:(0,o.jsx)(c,{...r})}):c(r)}return g(C);})();\n;return Component;"
   },
   "_id": "skladby/orion-james-cole-orion.mdx",
   "_raw": {

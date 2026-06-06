@@ -8,16 +8,19 @@
   "album": "StreamTape: Vítěznej oblouk",
   "albumSlug": "streamtape-viteznej-oblouk",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:36",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Vítěznej oblouk — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},u=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of b(t))!j.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=d(t,a))||s.enumerable});return e};var f=(e,t,r)=>(r=e!=null?p(k(e)):{},u(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>u(o({},\"__esModule\",{value:!0}),e);var m=x((S,i)=>{i.exports=_jsx_runtime});var z={};h(z,{default:()=>c,frontmatter:()=>g});var n=f(m()),g={title:\"V\\xEDt\\u011Bznej oblouk\",slug:\"viteznej-oblouk-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"StreamTape: V\\xEDt\\u011Bznej oblouk\",albumSlug:\"streamtape-viteznej-oblouk\",year:2026,genre:[],duration:\"2:36\",trackNumber:3,producers:[],producersNames:[],description:\"V\\xEDt\\u011Bznej oblouk \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(z);})();\n;return Component;"
+    "raw": "\n**[Vítěznej oblouk](/skladby/viteznej-oblouk-maniak)** od [Maniak](/raperi/maniak) z alba [StreamTape: Vítěznej oblouk](/alba/streamtape-viteznej-oblouk) (2026).\n",
+    "code": "var Component=(()=>{var k=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),h=(a,e)=>{for(var n in e)o(a,n,{get:e[n],enumerable:!0})},u=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of b(e))!j.call(a,r)&&r!==n&&o(a,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return a};var z=(a,e,n)=>(n=a!=null?k(d(a)):{},u(e||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),x=a=>u(o({},\"__esModule\",{value:!0}),a);var l=f((V,i)=>{i.exports=_jsx_runtime});var M={};h(M,{default:()=>c,frontmatter:()=>g});var t=z(l()),g={title:\"V\\xEDt\\u011Bznej oblouk\",slug:\"viteznej-oblouk-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[],featuresNames:[],album:\"StreamTape: V\\xEDt\\u011Bznej oblouk\",albumSlug:\"streamtape-viteznej-oblouk\",year:2026,genre:[\"\"],duration:\"2:36\",trackNumber:3,producers:[],producersNames:[],description:\"V\\xEDt\\u011Bznej oblouk \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/viteznej-oblouk-maniak\",children:\"V\\xEDt\\u011Bznej oblouk\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/streamtape-viteznej-oblouk\",children:\"StreamTape: V\\xEDt\\u011Bznej oblouk\"}),\" (2026).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(m,{...a})}):m(a)}return x(M);})();\n;return Component;"
   },
   "_id": "skladby/viteznej-oblouk-maniak.mdx",
   "_raw": {

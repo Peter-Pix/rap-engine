@@ -8,16 +8,19 @@
   "album": "Svědomí",
   "albumSlug": "svedomi",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:28",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Pár slov — skladba od CÂLIN.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!f.call(e,o)&&o!==n&&s(e,o,{get:()=>t[o],enumerable:!(a=p(t,o))||a.enumerable});return e};var g=(e,t,n)=>(n=e!=null?d(h(e)):{},c(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>c(s({},\"__esModule\",{value:!0}),e);var u=_((S,l)=>{l.exports=_jsx_runtime});var N={};b(N,{default:()=>i,frontmatter:()=>v});var r=g(u()),v={title:\"P\\xE1r slov\",slug:\"par-slov-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Sv\\u011Bdom\\xED\",albumSlug:\"svedomi\",year:2020,genre:[],duration:\"3:28\",trackNumber:4,producers:[],producersNames:[],description:\"P\\xE1r slov \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Pár slov](/skladby/par-slov-calin)** od [Calin](/raperi/calin) z alba [Svědomí](/alba/svedomi) (2020).\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var n in r)o(e,n,{get:r[n],enumerable:!0})},l=(e,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of f(r))!v.call(e,t)&&t!==n&&o(e,t,{get:()=>r[t],enumerable:!(s=m(r,t))||s.enumerable});return e};var g=(e,r,n)=>(n=e!=null?p(h(e)):{},l(r||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var i=x((S,c)=>{c.exports=_jsx_runtime});var C={};b(C,{default:()=>u,frontmatter:()=>j});var a=g(i()),j={title:\"P\\xE1r slov\",slug:\"par-slov-calin\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",features:[],featuresNames:[],album:\"Sv\\u011Bdom\\xED\",albumSlug:\"svedomi\",year:2020,genre:[\"\"],duration:\"3:28\",trackNumber:4,producers:[],producersNames:[],description:\"P\\xE1r slov \\u2014 skladba od C\\xC2LIN.\",publishedAt:\"2026-06-04\"};function d(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,a.jsxs)(r.p,{children:[(0,a.jsx)(r.strong,{children:(0,a.jsx)(r.a,{href:\"/skladby/par-slov-calin\",children:\"P\\xE1r slov\"})}),\" od \",(0,a.jsx)(r.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" z alba \",(0,a.jsx)(r.a,{href:\"/alba/svedomi\",children:\"Sv\\u011Bdom\\xED\"}),\" (2020).\"]})}function u(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(d,{...e})}):d(e)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/par-slov-calin.mdx",
   "_raw": {

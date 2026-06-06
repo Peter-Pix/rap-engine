@@ -8,16 +8,19 @@
   "album": "Slova",
   "albumSlug": "slova",
   "year": 2007,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:32",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
   "description": "Kdo nemá co by daroval — skladba od Bpm.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},m=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!h.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var g=(e,t,n)=>(n=e!=null?p(x(e)):{},m(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>m(a({},\"__esModule\",{value:!0}),e);var d=f((k,c)=>{c.exports=_jsx_runtime});var y={};_(y,{default:()=>u,frontmatter:()=>v});var r=g(d()),v={title:\"Kdo nem\\xE1 co by daroval\",slug:\"kdo-nema-co-by-daroval-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[],duration:\"3:32\",trackNumber:5,producers:[],producersNames:[],description:\"Kdo nem\\xE1 co by daroval \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return j(y);})();\n;return Component;"
+    "raw": "\n**[Kdo nemá co by daroval](/skladby/kdo-nema-co-by-daroval-bpm)** z alba [Slova](/alba/slova) (2007).\n",
+    "code": "var Component=(()=>{var u=Object.create;var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),h=(e,a)=>{for(var o in a)t(e,o,{get:a[o],enumerable:!0})},l=(e,a,o,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of i(a))!v.call(e,n)&&n!==o&&t(e,n,{get:()=>a[n],enumerable:!(s=b(a,n))||s.enumerable});return e};var y=(e,a,o)=>(o=e!=null?u(f(e)):{},l(a||!e||!e.__esModule?t(o,\"default\",{value:e,enumerable:!0}):o,e)),g=e=>l(t({},\"__esModule\",{value:!0}),e);var c=x((S,d)=>{d.exports=_jsx_runtime});var j={};h(j,{default:()=>p,frontmatter:()=>_});var r=y(c()),_={title:\"Kdo nem\\xE1 co by daroval\",slug:\"kdo-nema-co-by-daroval-bpm\",rapper:\"Bpm\",rapperSlug:\"bpm\",features:[],featuresNames:[],album:\"Slova\",albumSlug:\"slova\",year:2007,genre:[\"\"],duration:\"3:32\",trackNumber:5,producers:[],producersNames:[],description:\"Kdo nem\\xE1 co by daroval \\u2014 skladba od Bpm.\",publishedAt:\"2026-05-31\"};function m(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/kdo-nema-co-by-daroval-bpm\",children:\"Kdo nem\\xE1 co by daroval\"})}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/slova\",children:\"Slova\"}),\" (2007).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/kdo-nema-co-by-daroval-bpm.mdx",
   "_raw": {

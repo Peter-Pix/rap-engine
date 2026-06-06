@@ -8,16 +8,19 @@
   "album": "Bandana",
   "albumSlug": "bandana",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:06",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Ha! — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},d=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of h(t))!b.call(e,r)&&r!==a&&o(e,r,{get:()=>t[r],enumerable:!(s=p(t,r))||s.enumerable});return e};var g=(e,t,a)=>(a=e!=null?l(x(e)):{},d(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>d(o({},\"__esModule\",{value:!0}),e);var c=f((k,u)=>{u.exports=_jsx_runtime});var N={};_(N,{default:()=>m,frontmatter:()=>M});var n=g(c()),M={title:\"Ha!\",slug:\"ha-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Bandana\",albumSlug:\"bandana\",year:2021,genre:[],duration:\"2:06\",trackNumber:3,producers:[],producersNames:[],description:\"Ha! \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return j(N);})();\n;return Component;"
+    "raw": "\n**[Ha!](/skladby/ha-idea)** od [Idea](/raperi/idea) z alba [Bandana](/alba/bandana) (2021).\n",
+    "code": "var Component=(()=>{var p=Object.create;var d=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),g=(e,a)=>{for(var n in a)d(e,n,{get:a[n],enumerable:!0})},o=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!f.call(e,t)&&t!==n&&d(e,t,{get:()=>a[t],enumerable:!(s=h(a,t))||s.enumerable});return e};var _=(e,a,n)=>(n=e!=null?p(b(e)):{},o(a||!e||!e.__esModule?d(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>o(d({},\"__esModule\",{value:!0}),e);var c=x((I,i)=>{i.exports=_jsx_runtime});var y={};g(y,{default:()=>l,frontmatter:()=>k});var r=_(c()),k={title:\"Ha!\",slug:\"ha-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[],featuresNames:[],album:\"Bandana\",albumSlug:\"bandana\",year:2021,genre:[\"\"],duration:\"2:06\",trackNumber:3,producers:[],producersNames:[],description:\"Ha! \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/ha-idea\",children:\"Ha!\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/bandana\",children:\"Bandana\"}),\" (2021).\"]})}function l(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(y);})();\n;return Component;"
   },
   "_id": "skladby/ha-idea.mdx",
   "_raw": {

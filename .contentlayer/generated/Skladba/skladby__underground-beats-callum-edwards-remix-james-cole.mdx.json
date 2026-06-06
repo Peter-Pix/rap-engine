@@ -12,16 +12,19 @@
   "album": "Walking On EP",
   "albumSlug": "walking-on-ep",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:02",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Underground Beats (Callum Edwards Remix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),f=(e,r)=>{for(var a in r)s(e,a,{get:r[a],enumerable:!0})},d=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of x(r))!h.call(e,t)&&t!==a&&s(e,t,{get:()=>r[t],enumerable:!(o=p(r,t))||o.enumerable});return e};var j=(e,r,a)=>(a=e!=null?i(g(e)):{},d(r||!e||!e.__esModule?s(a,\"default\",{value:e,enumerable:!0}):a,e)),w=e=>d(s({},\"__esModule\",{value:!0}),e);var m=b((E,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>C});var n=j(m()),C={title:\"Underground Beats (Callum Edwards Remix)\",slug:\"underground-beats-callum-edwards-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"callum-edwards\"],featuresNames:[\"Callum Edwards\"],album:\"Walking On EP\",albumSlug:\"walking-on-ep\",year:2024,genre:[],duration:\"7:02\",trackNumber:3,producers:[],producersNames:[],description:\"Underground Beats (Callum Edwards Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return w(_);})();\n;return Component;"
+    "raw": "\n**[Underground Beats (Callum Edwards Remix)](/skladby/underground-beats-callum-edwards-remix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Walking On EP](/alba/walking-on-ep) (2024).\n",
+    "code": "var Component=(()=>{var i=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),h=(a,e)=>{for(var n in e)l(a,n,{get:e[n],enumerable:!0})},t=(a,e,n,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of g(e))!b.call(a,s)&&s!==n&&l(a,s,{get:()=>e[s],enumerable:!(d=p(e,s))||d.enumerable});return a};var w=(a,e,n)=>(n=a!=null?i(x(a)):{},t(e||!a||!a.__esModule?l(n,\"default\",{value:a,enumerable:!0}):n,a)),j=a=>t(l({},\"__esModule\",{value:!0}),a);var u=f((_,o)=>{o.exports=_jsx_runtime});var k={};h(k,{default:()=>c,frontmatter:()=>C});var r=w(u()),C={title:\"Underground Beats (Callum Edwards Remix)\",slug:\"underground-beats-callum-edwards-remix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[\"callum-edwards\"],featuresNames:[\"Callum Edwards\"],album:\"Walking On EP\",albumSlug:\"walking-on-ep\",year:2024,genre:[\"\"],duration:\"7:02\",trackNumber:3,producers:[],producersNames:[],description:\"Underground Beats (Callum Edwards Remix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/underground-beats-callum-edwards-remix-james-cole\",children:\"Underground Beats (Callum Edwards Remix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/walking-on-ep\",children:\"Walking On EP\"}),\" (2024).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(m,{...a})}):m(a)}return j(k);})();\n;return Component;"
   },
   "_id": "skladby/underground-beats-callum-edwards-remix-james-cole.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "C.W.A",
   "albumSlug": "c-w-a",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:41",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Domotola — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),_=(t,e)=>{for(var r in e)a(t,r,{get:e[r],enumerable:!0})},u=(t,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!g.call(t,n)&&n!==r&&a(t,n,{get:()=>e[n],enumerable:!(s=i(e,n))||s.enumerable});return t};var b=(t,e,r)=>(r=t!=null?d(h(t)):{},u(e||!t||!t.__esModule?a(r,\"default\",{value:t,enumerable:!0}):r,t)),j=t=>u(a({},\"__esModule\",{value:!0}),t);var c=f((N,x)=>{x.exports=_jsx_runtime});var C={};_(C,{default:()=>l,frontmatter:()=>D});var o=b(c()),D={title:\"Domotola\",slug:\"domotola-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"d-ritch\"],featuresNames:[\"D Ritch\"],album:\"C.W.A\",albumSlug:\"c-w-a\",year:2025,genre:[],duration:\"2:41\",trackNumber:7,producers:[],producersNames:[],description:\"Domotola \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(e.p,{children:(0,o.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(m,{...t})}):m(t)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Domotola](/skladby/domotola-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [C.W.A](/alba/c-w-a) (2025).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(t,o)=>()=>(o||t((o={exports:{}}).exports,o),o.exports),b=(t,o)=>{for(var r in o)n(t,r,{get:o[r],enumerable:!0})},s=(t,o,r,x)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let a of h(o))!g.call(t,a)&&a!==r&&n(t,a,{get:()=>o[a],enumerable:!(x=m(o,a))||x.enumerable});return t};var D=(t,o,r)=>(r=t!=null?i(p(t)):{},s(o||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),_=t=>s(n({},\"__esModule\",{value:!0}),t);var c=f((w,u)=>{u.exports=_jsx_runtime});var C={};b(C,{default:()=>d,frontmatter:()=>j});var e=D(c()),j={title:\"Domotola\",slug:\"domotola-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[\"d-ritch\"],featuresNames:[\"D Ritch\"],album:\"C.W.A\",albumSlug:\"c-w-a\",year:2025,genre:[\"\"],duration:\"2:41\",trackNumber:7,producers:[],producersNames:[],description:\"Domotola \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function l(t){let o={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,e.jsxs)(o.p,{children:[(0,e.jsx)(o.strong,{children:(0,e.jsx)(o.a,{href:\"/skladby/domotola-hugo-toxxx\",children:\"Domotola\"})}),\" od \",(0,e.jsx)(o.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,e.jsx)(o.a,{href:\"/alba/c-w-a\",children:\"C.W.A\"}),\" (2025).\"]})}function d(t={}){let{wrapper:o}=t.components||{};return o?(0,e.jsx)(o,{...t,children:(0,e.jsx)(l,{...t})}):l(t)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/domotola-hugo-toxxx.mdx",
   "_raw": {

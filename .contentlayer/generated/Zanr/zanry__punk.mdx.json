@@ -1,0 +1,23 @@
+{
+  "title": "Punk",
+  "slug": "punk",
+  "description": "Punk není rap, ale jeho energie, rychlost a anti-establishment postoj zásadně ovlivnily hip hop od jeho počátků.",
+  "image": "/images/zanry/punk.jpg",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "caseSensitive": false,
+  "body": {
+    "raw": "\n**Punk** a hip hop mají víc společného, než se zdá. Oba žánry vznikly jako hlas frustrované mládeže, oba staví na DIY étosu a oba odmítají autority. Od Beastie Boys po Death Grips — hranice mezi punkem a rapem je tenčí, než si myslíš.\n\n## Charakteristika\n\n- rychlé tempo\n- agresivní energie\n- DIY přístup\n- anti-establishment\n\n## Česká scéna\n\nV Česku stojí na pomezí punku a rapu **DEJV**, který propojuje energii obou žánrů.\n## Interpreti na 4rap.cz\n\n- [DEJV](/raperi/dejv)\n\n\n## Související žánry\n\n\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var y=(r,n)=>()=>(n||r((n={exports:{}}).exports,n),n.exports),g=(r,n)=>{for(var t in n)a(r,t,{get:n[t],enumerable:!0})},s=(r,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of m(n))!k.call(r,i)&&i!==t&&a(r,i,{get:()=>n[i],enumerable:!(o=u(n,i))||o.enumerable});return r};var v=(r,n,t)=>(t=r!=null?d(j(r)):{},s(n||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),x=r=>s(a({},\"__esModule\",{value:!0}),r);var h=y((D,l)=>{l.exports=_jsx_runtime});var b={};g(b,{default:()=>c,frontmatter:()=>f});var e=v(h()),f={title:\"Punk\",slug:\"punk\",description:\"Punk nen\\xED rap, ale jeho energie, rychlost a anti-establishment postoj z\\xE1sadn\\u011B ovlivnily hip hop od jeho po\\u010D\\xE1tk\\u016F.\",image:\"/images/zanry/punk.jpg\",publishedAt:\"2026-06-06\"};function p(r){let n={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...r.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:\"Punk\"}),\" a hip hop maj\\xED v\\xEDc spole\\u010Dn\\xE9ho, ne\\u017E se zd\\xE1. Oba \\u017E\\xE1nry vznikly jako hlas frustrovan\\xE9 ml\\xE1de\\u017Ee, oba stav\\xED na DIY \\xE9tosu a oba odm\\xEDtaj\\xED autority. Od Beastie Boys po Death Grips \\u2014 hranice mezi punkem a rapem je ten\\u010D\\xED, ne\\u017E si mysl\\xED\\u0161.\"]}),`\n`,(0,e.jsx)(n.h2,{children:\"Charakteristika\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"rychl\\xE9 tempo\"}),`\n`,(0,e.jsx)(n.li,{children:\"agresivn\\xED energie\"}),`\n`,(0,e.jsx)(n.li,{children:\"DIY p\\u0159\\xEDstup\"}),`\n`,(0,e.jsx)(n.li,{children:\"anti-establishment\"}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"\\u010Cesk\\xE1 sc\\xE9na\"}),`\n`,(0,e.jsxs)(n.p,{children:[\"V \\u010Cesku stoj\\xED na pomez\\xED punku a rapu \",(0,e.jsx)(n.strong,{children:(0,e.jsx)(n.a,{href:\"/raperi/dejv\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"dejv\",children:\"DEJV\"})}),\", kter\\xFD propojuje energii obou \\u017E\\xE1nr\\u016F.\"]}),`\n`,(0,e.jsx)(n.h2,{children:\"Interpreti na 4rap.cz\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.a,{href:\"/raperi/dejv\",children:\"DEJV\"})}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"Souvisej\\xEDc\\xED \\u017E\\xE1nry\"})]})}function c(r={}){let{wrapper:n}=r.components||{};return n?(0,e.jsx)(n,{...r,children:(0,e.jsx)(p,{...r})}):p(r)}return x(b);})();\n;return Component;"
+  },
+  "_id": "zanry/punk.mdx",
+  "_raw": {
+    "sourceFilePath": "zanry/punk.mdx",
+    "sourceFileName": "punk.mdx",
+    "sourceFileDir": "zanry",
+    "contentType": "mdx",
+    "flattenedPath": "zanry/punk"
+  },
+  "type": "Zanr",
+  "url": "/zanry/punk",
+  "canonicalUrl": "https://4rap.cz/zanry/punk"
+}

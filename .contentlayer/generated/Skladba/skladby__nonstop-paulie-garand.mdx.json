@@ -12,16 +12,19 @@
   "album": "Harant",
   "albumSlug": "harant",
   "year": 2010,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:18",
   "trackNumber": 3,
   "producers": [],
   "producersNames": [],
   "description": "Nonstop — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var a in n)o(e,a,{get:n[a],enumerable:!0})},u=(e,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!g.call(e,r)&&r!==a&&o(e,r,{get:()=>n[r],enumerable:!(s=m(n,r))||s.enumerable});return e};var b=(e,n,a)=>(a=e!=null?c(x(e)):{},u(n||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),j=e=>u(o({},\"__esModule\",{value:!0}),e);var i=f((k,d)=>{d.exports=_jsx_runtime});var M={};_(M,{default:()=>l,frontmatter:()=>N});var t=b(i()),N={title:\"Nonstop\",slug:\"nonstop-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"idea\"],featuresNames:[\"Idea\"],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[],duration:\"4:18\",trackNumber:3,producers:[],producersNames:[],description:\"Nonstop \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function p(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(p,{...e})}):p(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Nonstop](/skladby/nonstop-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Harant](/alba/harant) (2010).\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var n in a)o(r,n,{get:a[n],enumerable:!0})},d=(r,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of m(a))!f.call(r,t)&&t!==n&&o(r,t,{get:()=>a[t],enumerable:!(s=h(a,t))||s.enumerable});return r};var N=(r,a,n)=>(n=r!=null?c(g(r)):{},d(a||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),_=r=>d(o({},\"__esModule\",{value:!0}),r);var l=x((G,u)=>{u.exports=_jsx_runtime});var k={};b(k,{default:()=>p,frontmatter:()=>j});var e=N(l()),j={title:\"Nonstop\",slug:\"nonstop-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"idea\"],featuresNames:[\"Idea\"],album:\"Harant\",albumSlug:\"harant\",year:2010,genre:[\"\"],duration:\"4:18\",trackNumber:3,producers:[],producersNames:[],description:\"Nonstop \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function i(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/nonstop-paulie-garand\",children:\"Nonstop\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/harant\",children:\"Harant\"}),\" (2010).\"]})}function p(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(i,{...r})}):i(r)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/nonstop-paulie-garand.mdx",
   "_raw": {

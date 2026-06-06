@@ -8,16 +8,19 @@
   "album": "Let Me Tell You",
   "albumSlug": "let-me-tell-you",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:18",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Let Me Tell You (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var M=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let l of x(t))!h.call(e,l)&&l!==n&&o(e,l,{get:()=>t[l],enumerable:!(a=p(t,l))||a.enumerable});return e};var j=(e,t,n)=>(n=e!=null?d(g(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var i=M((L,u)=>{u.exports=_jsx_runtime});var y={};f(y,{default:()=>c,frontmatter:()=>b});var r=j(i()),b={title:\"Let Me Tell You (Original Mix)\",slug:\"let-me-tell-you-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Let Me Tell You\",albumSlug:\"let-me-tell-you\",year:2020,genre:[],duration:\"7:18\",trackNumber:1,producers:[],producersNames:[],description:\"Let Me Tell You (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[Let Me Tell You (Original Mix)](/skladby/let-me-tell-you-original-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [Let Me Tell You](/alba/let-me-tell-you) (2020).\n",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(l,e)=>()=>(e||l((e={exports:{}}).exports,e),e.exports),h=(l,e)=>{for(var r in e)a(l,r,{get:e[r],enumerable:!0})},s=(l,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!M.call(l,o)&&o!==r&&a(l,o,{get:()=>e[o],enumerable:!(n=p(e,o))||n.enumerable});return l};var j=(l,e,r)=>(r=l!=null?d(g(l)):{},s(e||!l||!l.__esModule?a(r,\"default\",{value:l,enumerable:!0}):r,l)),b=l=>s(a({},\"__esModule\",{value:!0}),l);var u=f((C,i)=>{i.exports=_jsx_runtime});var L={};h(L,{default:()=>c,frontmatter:()=>y});var t=j(u()),y={title:\"Let Me Tell You (Original Mix)\",slug:\"let-me-tell-you-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"Let Me Tell You\",albumSlug:\"let-me-tell-you\",year:2020,genre:[\"\"],duration:\"7:18\",trackNumber:1,producers:[],producersNames:[],description:\"Let Me Tell You (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(l){let e={a:\"a\",p:\"p\",strong:\"strong\",...l.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/let-me-tell-you-original-mix-james-cole\",children:\"Let Me Tell You (Original Mix)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/let-me-tell-you\",children:\"Let Me Tell You\"}),\" (2020).\"]})}function c(l={}){let{wrapper:e}=l.components||{};return e?(0,t.jsx)(e,{...l,children:(0,t.jsx)(m,{...l})}):m(l)}return b(L);})();\n;return Component;"
   },
   "_id": "skladby/let-me-tell-you-original-mix-james-cole.mdx",
   "_raw": {

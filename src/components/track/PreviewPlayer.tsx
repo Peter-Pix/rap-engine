@@ -20,6 +20,14 @@ export function PreviewPlayer({ deezerId, previewUrl, duration }: Props) {
     const audio = audioRef.current
     if (audio && !audio.paused) { audio.pause(); setState('idle'); return }
 
+    // BUG-03 fix: release previous Audio before creating new one
+    if (audio) {
+      audio.pause()
+      audio.removeAttribute('src')
+      audio.load()
+      audioRef.current = null
+    }
+
     setState('loading')
     let src = previewUrl || null
     if (deezerId) {
@@ -30,12 +38,11 @@ export function PreviewPlayer({ deezerId, previewUrl, duration }: Props) {
     }
     if (!src) { setState('error'); return }
 
-    if (audioRef.current) audioRef.current.pause()
     const a = new Audio(src)
     audioRef.current = a
-    a.onended = () => setState('idle')
-    a.onerror = () => setState('error')
-    try { await a.play(); setState('playing') } catch { setState('error') }
+    a.onended = () => { setState('idle'); audioRef.current = null }
+    a.onerror = () => { setState('error'); audioRef.current = null }
+    try { await a.play(); setState('playing') } catch { setState('error'); audioRef.current = null }
   }
 
   return (

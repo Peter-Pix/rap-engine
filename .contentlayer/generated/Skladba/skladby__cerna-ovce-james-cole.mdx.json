@@ -8,16 +8,19 @@
   "album": "ALIEN: Expansion Pack",
   "albumSlug": "alien-expansion-pack",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:05",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "ČERNÁ OVCE — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=d(n,a))||s.enumerable});return e};var b=(e,n,r)=>(r=e!=null?p(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var l=j((k,m)=>{m.exports=_jsx_runtime});var E={};_(E,{default:()=>i,frontmatter:()=>C});var t=b(l()),C={title:\"\\u010CERN\\xC1 OVCE\",slug:\"cerna-ovce-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN: Expansion Pack\",albumSlug:\"alien-expansion-pack\",year:2022,genre:[],duration:\"2:05\",trackNumber:6,producers:[],producersNames:[],description:\"\\u010CERN\\xC1 OVCE \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return g(E);})();\n;return Component;"
+    "raw": "\n**[ČERNÁ OVCE](/skladby/cerna-ovce-james-cole)** od [James Cole](/raperi/james-cole) z alba [ALIEN: Expansion Pack](/alba/alien-expansion-pack) (2022).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var E=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)s(a,r,{get:e[r],enumerable:!0})},c=(a,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of x(e))!h.call(a,o)&&o!==r&&s(a,o,{get:()=>e[o],enumerable:!(t=d(e,o))||t.enumerable});return a};var b=(a,e,r)=>(r=a!=null?u(f(a)):{},c(e||!a||!a.__esModule?s(r,\"default\",{value:a,enumerable:!0}):r,a)),C=a=>c(s({},\"__esModule\",{value:!0}),a);var i=E((_,l)=>{l.exports=_jsx_runtime});var g={};j(g,{default:()=>m,frontmatter:()=>N});var n=b(i()),N={title:\"\\u010CERN\\xC1 OVCE\",slug:\"cerna-ovce-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN: Expansion Pack\",albumSlug:\"alien-expansion-pack\",year:2022,genre:[\"\"],duration:\"2:05\",trackNumber:6,producers:[],producersNames:[],description:\"\\u010CERN\\xC1 OVCE \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/cerna-ovce-james-cole\",children:\"\\u010CERN\\xC1 OVCE\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/alien-expansion-pack\",children:\"ALIEN: Expansion Pack\"}),\" (2022).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(p,{...a})}):p(a)}return C(g);})();\n;return Component;"
   },
   "_id": "skladby/cerna-ovce-james-cole.mdx",
   "_raw": {

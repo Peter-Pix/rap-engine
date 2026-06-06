@@ -8,16 +8,19 @@
   "album": "Soundtrack (Instrumentals)",
   "albumSlug": "soundtrack-instrumentals",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:32",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Soundtrack (Instrumental) — skladba od DJ Fatte.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),k=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},o=(t,e,r,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of x(e))!h.call(t,a)&&a!==r&&s(t,a,{get:()=>e[a],enumerable:!(u=p(e,a))||u.enumerable});return t};var _=(t,e,r)=>(r=t!=null?i(f(t)):{},o(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),b=t=>o(s({},\"__esModule\",{value:!0}),t);var d=j((F,c)=>{c.exports=_jsx_runtime});var S={};k(S,{default:()=>l,frontmatter:()=>g});var n=_(d()),g={title:\"Soundtrack (Instrumental)\",slug:\"soundtrack-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[],duration:\"3:32\",trackNumber:1,producers:[],producersNames:[],description:\"Soundtrack (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function m(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return b(S);})();\n;return Component;"
+    "raw": "\n**[Soundtrack (Instrumental)](/skladby/soundtrack-instrumental-dj-fatte)** od [DJ Fatte](/raperi/dj-fatte) z alba [Soundtrack (Instrumentals)](/alba/soundtrack-instrumentals) (2021).\n",
+    "code": "var Component=(()=>{var i=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),x=(n,t)=>{for(var e in t)s(n,e,{get:t[e],enumerable:!0})},o=(n,t,e,u)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!h.call(n,a)&&a!==e&&s(n,a,{get:()=>t[a],enumerable:!(u=p(t,a))||u.enumerable});return n};var b=(n,t,e)=>(e=n!=null?i(k(n)):{},o(t||!n||!n.__esModule?s(e,\"default\",{value:n,enumerable:!0}):e,n)),g=n=>o(s({},\"__esModule\",{value:!0}),n);var c=j((I,d)=>{d.exports=_jsx_runtime});var _={};x(_,{default:()=>m,frontmatter:()=>S});var r=b(c()),S={title:\"Soundtrack (Instrumental)\",slug:\"soundtrack-instrumental-dj-fatte\",rapper:\"DJ Fatte\",rapperSlug:\"dj-fatte\",features:[],featuresNames:[],album:\"Soundtrack (Instrumentals)\",albumSlug:\"soundtrack-instrumentals\",year:2021,genre:[\"\"],duration:\"3:32\",trackNumber:1,producers:[],producersNames:[],description:\"Soundtrack (Instrumental) \\u2014 skladba od DJ Fatte.\",publishedAt:\"2026-06-04\"};function l(n){let t={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(t.p,{children:[(0,r.jsx)(t.strong,{children:(0,r.jsx)(t.a,{href:\"/skladby/soundtrack-instrumental-dj-fatte\",children:\"Soundtrack (Instrumental)\"})}),\" od \",(0,r.jsx)(t.a,{href:\"/raperi/dj-fatte\",children:\"DJ Fatte\"}),\" z alba \",(0,r.jsx)(t.a,{href:\"/alba/soundtrack-instrumentals\",children:\"Soundtrack (Instrumentals)\"}),\" (2021).\"]})}function m(n={}){let{wrapper:t}=n.components||{};return t?(0,r.jsx)(t,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/soundtrack-instrumental-dj-fatte.mdx",
   "_raw": {

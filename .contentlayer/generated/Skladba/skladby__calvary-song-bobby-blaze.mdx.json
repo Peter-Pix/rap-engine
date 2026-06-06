@@ -8,16 +8,19 @@
   "album": "Crimson Stain",
   "albumSlug": "crimson-stain",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:47",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Calvary Song — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var b=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!g.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=d(n,a))||s.enumerable});return e};var f=(e,n,r)=>(r=e!=null?b(x(e)):{},l(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>l(o({},\"__esModule\",{value:!0}),e);var u=h((z,c)=>{c.exports=_jsx_runtime});var j={};y(j,{default:()=>m,frontmatter:()=>S});var t=f(u()),S={title:\"Calvary Song\",slug:\"calvary-song-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Crimson Stain\",albumSlug:\"crimson-stain\",year:2025,genre:[],duration:\"3:47\",trackNumber:7,producers:[],producersNames:[],description:\"Calvary Song \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function i(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(i,{...e})}):i(e)}return _(j);})();\n;return Component;"
+    "raw": "\n**[Calvary Song](/skladby/calvary-song-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Crimson Stain](/alba/crimson-stain) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),h=(r,a)=>{for(var n in a)t(r,n,{get:a[n],enumerable:!0})},b=(r,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of p(a))!g.call(r,o)&&o!==n&&t(r,o,{get:()=>a[o],enumerable:!(s=m(a,o))||s.enumerable});return r};var x=(r,a,n)=>(n=r!=null?d(y(r)):{},b(a||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),z=r=>b(t({},\"__esModule\",{value:!0}),r);var i=f((_,l)=>{l.exports=_jsx_runtime});var S={};h(S,{default:()=>u,frontmatter:()=>C});var e=x(i()),C={title:\"Calvary Song\",slug:\"calvary-song-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Crimson Stain\",albumSlug:\"crimson-stain\",year:2025,genre:[\"\"],duration:\"3:47\",trackNumber:7,producers:[],producersNames:[],description:\"Calvary Song \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/calvary-song-bobby-blaze\",children:\"Calvary Song\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/crimson-stain\",children:\"Crimson Stain\"}),\" (2025).\"]})}function u(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return z(S);})();\n;return Component;"
   },
   "_id": "skladby/calvary-song-bobby-blaze.mdx",
   "_raw": {

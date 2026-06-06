@@ -12,16 +12,19 @@
   "album": "Antarktida",
   "albumSlug": "antarktida",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:30",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Antarktida (Instrumental) — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var a in e)s(r,a,{get:e[a],enumerable:!0})},i=(r,e,a,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!b.call(r,n)&&n!==a&&s(r,n,{get:()=>e[n],enumerable:!(u=p(e,n))||u.enumerable});return r};var k=(r,e,a)=>(a=r!=null?l(g(r)):{},i(e||!r||!r.__esModule?s(a,\"default\",{value:r,enumerable:!0}):a,r)),_=r=>i(s({},\"__esModule\",{value:!0}),r);var d=h((B,c)=>{c.exports=_jsx_runtime});var S={};f(S,{default:()=>m,frontmatter:()=>j});var t=k(d()),j={title:\"Antarktida (Instrumental)\",slug:\"antarktida-instrumental-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"luca-brassi10x\"],featuresNames:[\"Luca Brassi10x\"],album:\"Antarktida\",albumSlug:\"antarktida\",year:2025,genre:[],duration:\"3:30\",trackNumber:2,producers:[],producersNames:[],description:\"Antarktida (Instrumental) \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function o(r){let e={em:\"em\",h2:\"h2\",p:\"p\",...r.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(o,{...r})}):o(r)}return _(S);})();\n;return Component;"
+    "raw": "\n**[Antarktida (Instrumental)](/skladby/antarktida-instrumental-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Antarktida](/alba/antarktida) (2025).\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),f=(r,a)=>{for(var e in a)s(r,e,{get:a[e],enumerable:!0})},d=(r,a,e,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of g(a))!k.call(r,n)&&n!==e&&s(r,n,{get:()=>a[n],enumerable:!(i=p(a,n))||i.enumerable});return r};var h=(r,a,e)=>(e=r!=null?m(b(r)):{},d(a||!r||!r.__esModule?s(e,\"default\",{value:r,enumerable:!0}):e,r)),A=r=>d(s({},\"__esModule\",{value:!0}),r);var c=x((B,u)=>{u.exports=_jsx_runtime});var j={};f(j,{default:()=>l,frontmatter:()=>_});var t=h(c()),_={title:\"Antarktida (Instrumental)\",slug:\"antarktida-instrumental-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"luca-brassi10x\"],featuresNames:[\"Luca Brassi10x\"],album:\"Antarktida\",albumSlug:\"antarktida\",year:2025,genre:[\"\"],duration:\"3:30\",trackNumber:2,producers:[],producersNames:[],description:\"Antarktida (Instrumental) \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function o(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(a.p,{children:[(0,t.jsx)(a.strong,{children:(0,t.jsx)(a.a,{href:\"/skladby/antarktida-instrumental-sergei-barracuda\",children:\"Antarktida (Instrumental)\"})}),\" od \",(0,t.jsx)(a.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,t.jsx)(a.a,{href:\"/alba/antarktida\",children:\"Antarktida\"}),\" (2025).\"]})}function l(r={}){let{wrapper:a}=r.components||{};return a?(0,t.jsx)(a,{...r,children:(0,t.jsx)(o,{...r})}):o(r)}return A(j);})();\n;return Component;"
   },
   "_id": "skladby/antarktida-instrumental-sergei-barracuda.mdx",
   "_raw": {

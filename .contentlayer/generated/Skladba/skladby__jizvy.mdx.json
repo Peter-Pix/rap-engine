@@ -1,0 +1,29 @@
+{
+  "title": "Jizvy",
+  "slug": "jizvy",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "WM Czech Republic",
+  "year": 2019,
+  "description": "Jizvy — singl od CÂLIN (2019).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/3c5fe60359bd14a5aafa04c39a6d92f0/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Jizvy](/skladby/jizvy)** od [Calin](/raperi/calin) (2019).\n",
+    "code": "var Component=(()=>{var f=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var m=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),y=(n,e)=>{for(var t in e)i(n,t,{get:e[t],enumerable:!0})},c=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of u(e))!h.call(n,a)&&a!==t&&i(n,a,{get:()=>e[a],enumerable:!(s=g(e,a))||s.enumerable});return n};var j=(n,e,t)=>(t=n!=null?f(x(n)):{},c(e||!n||!n.__esModule?i(t,\"default\",{value:n,enumerable:!0}):t,n)),z=n=>c(i({},\"__esModule\",{value:!0}),n);var l=m((b,o)=>{o.exports=_jsx_runtime});var C={};y(C,{default:()=>d,frontmatter:()=>v});var r=j(l()),v={title:\"Jizvy\",slug:\"jizvy\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"WM Czech Republic\",year:2019,description:\"Jizvy \\u2014 singl od C\\xC2LIN (2019).\",image:\"https://cdn-images.dzcdn.net/images/cover/3c5fe60359bd14a5aafa04c39a6d92f0/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/jizvy\",children:\"Jizvy\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2019).\"]})}function d(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(p,{...n})}):p(n)}return z(C);})();\n;return Component;"
+  },
+  "_id": "skladby/jizvy.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/jizvy.mdx",
+    "sourceFileName": "jizvy.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/jizvy"
+  },
+  "type": "Skladba",
+  "url": "/skladby/jizvy",
+  "canonicalUrl": "https://4rap.cz/skladby/jizvy"
+}

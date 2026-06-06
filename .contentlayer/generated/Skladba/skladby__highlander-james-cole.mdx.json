@@ -8,16 +8,19 @@
   "album": "ALIEN: Expansion Pack",
   "albumSlug": "alien-expansion-pack",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:46",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "HIGHLANDER — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of x(n))!f.call(e,a)&&a!==r&&o(e,a,{get:()=>n[a],enumerable:!(s=d(n,a))||s.enumerable});return e};var _=(e,n,r)=>(r=e!=null?p(h(e)):{},c(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),b=e=>c(o({},\"__esModule\",{value:!0}),e);var m=g((C,l)=>{l.exports=_jsx_runtime});var k={};j(k,{default:()=>i,frontmatter:()=>N});var t=_(m()),N={title:\"HIGHLANDER\",slug:\"highlander-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN: Expansion Pack\",albumSlug:\"alien-expansion-pack\",year:2022,genre:[],duration:\"1:46\",trackNumber:1,producers:[],producersNames:[],description:\"HIGHLANDER \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return b(k);})();\n;return Component;"
+    "raw": "\n**[HIGHLANDER](/skladby/highlander-james-cole)** od [James Cole](/raperi/james-cole) z alba [ALIEN: Expansion Pack](/alba/alien-expansion-pack) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},l=(a,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!f.call(a,s)&&s!==r&&o(a,s,{get:()=>e[s],enumerable:!(t=u(e,s))||t.enumerable});return a};var b=(a,e,r)=>(r=a!=null?m(x(a)):{},l(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),N=a=>l(o({},\"__esModule\",{value:!0}),a);var i=g((H,c)=>{c.exports=_jsx_runtime});var E={};j(E,{default:()=>d,frontmatter:()=>k});var n=b(i()),k={title:\"HIGHLANDER\",slug:\"highlander-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"ALIEN: Expansion Pack\",albumSlug:\"alien-expansion-pack\",year:2022,genre:[\"\"],duration:\"1:46\",trackNumber:1,producers:[],producersNames:[],description:\"HIGHLANDER \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/highlander-james-cole\",children:\"HIGHLANDER\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/alien-expansion-pack\",children:\"ALIEN: Expansion Pack\"}),\" (2022).\"]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(p,{...a})}):p(a)}return N(E);})();\n;return Component;"
   },
   "_id": "skladby/highlander-james-cole.mdx",
   "_raw": {

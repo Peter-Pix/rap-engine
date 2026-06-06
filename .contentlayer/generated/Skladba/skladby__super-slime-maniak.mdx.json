@@ -12,16 +12,19 @@
   "album": "ManTime",
   "albumSlug": "mantime",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "1:50",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
   "description": "Super Slime — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,S=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)s(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!S.call(e,a)&&a!==r&&s(e,a,{get:()=>t[a],enumerable:!(m=d(t,a))||m.enumerable});return e};var b=(e,t,r)=>(r=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(s({},\"__esModule\",{value:!0}),e);var u=f((N,o)=>{o.exports=_jsx_runtime});var M={};_(M,{default:()=>c,frontmatter:()=>k});var n=b(u()),k={title:\"Super Slime\",slug:\"super-slime-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"slimeshotz\"],featuresNames:[\"Slimeshotz\"],album:\"ManTime\",albumSlug:\"mantime\",year:2025,genre:[],duration:\"1:50\",trackNumber:6,producers:[],producersNames:[],description:\"Super Slime \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return g(M);})();\n;return Component;"
+    "raw": "\n**[Super Slime](/skladby/super-slime-maniak)** od [Maniak](/raperi/maniak) z alba [ManTime](/alba/mantime) (2025).\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),S=(a,e)=>{for(var n in e)i(a,n,{get:e[n],enumerable:!0})},m=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!k.call(a,t)&&t!==n&&i(a,t,{get:()=>e[t],enumerable:!(s=d(e,t))||s.enumerable});return a};var b=(a,e,n)=>(n=a!=null?c(f(a)):{},m(e||!a||!a.__esModule?i(n,\"default\",{value:a,enumerable:!0}):n,a)),M=a=>m(i({},\"__esModule\",{value:!0}),a);var l=x((y,o)=>{o.exports=_jsx_runtime});var _={};S(_,{default:()=>p,frontmatter:()=>g});var r=b(l()),g={title:\"Super Slime\",slug:\"super-slime-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"slimeshotz\"],featuresNames:[\"Slimeshotz\"],album:\"ManTime\",albumSlug:\"mantime\",year:2025,genre:[\"\"],duration:\"1:50\",trackNumber:6,producers:[],producersNames:[],description:\"Super Slime \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/super-slime-maniak\",children:\"Super Slime\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/mantime\",children:\"ManTime\"}),\" (2025).\"]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,r.jsx)(e,{...a,children:(0,r.jsx)(u,{...a})}):u(a)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/super-slime-maniak.mdx",
   "_raw": {

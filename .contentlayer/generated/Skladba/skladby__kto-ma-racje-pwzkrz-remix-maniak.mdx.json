@@ -12,16 +12,19 @@
   "album": "Kto ma racje (PWZKRZ Remix)",
   "albumSlug": "kto-ma-racje-pwzkrz-remix",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:50",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Kto ma racje (PWZKRZ Remix) — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var m=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var h=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),K=(e,r)=>{for(var a in r)m(e,a,{get:r[a],enumerable:!0})},i=(e,r,a,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of x(r))!j.call(e,n)&&n!==a&&m(e,n,{get:()=>r[n],enumerable:!(o=l(r,n))||o.enumerable});return e};var Z=(e,r,a)=>(a=e!=null?d(k(e)):{},i(r||!e||!e.__esModule?m(a,\"default\",{value:e,enumerable:!0}):a,e)),f=e=>i(m({},\"__esModule\",{value:!0}),e);var c=h((g,s)=>{s.exports=_jsx_runtime});var _={};K(_,{default:()=>p,frontmatter:()=>R});var t=Z(c()),R={title:\"Kto ma racje (PWZKRZ Remix)\",slug:\"kto-ma-racje-pwzkrz-remix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"pwzkrz\"],featuresNames:[\"PWZKRZ\"],album:\"Kto ma racje (PWZKRZ Remix)\",albumSlug:\"kto-ma-racje-pwzkrz-remix\",year:2020,genre:[],duration:\"2:50\",trackNumber:1,producers:[],producersNames:[],description:\"Kto ma racje (PWZKRZ Remix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function u(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(r.p,{children:(0,t.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return f(_);})();\n;return Component;"
+    "raw": "\n**[Kto ma racje (PWZKRZ Remix)](/skladby/kto-ma-racje-pwzkrz-remix-maniak)** od [Maniak](/raperi/maniak) (2020).\n",
+    "code": "var Component=(()=>{var k=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var Z=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},i=(a,e,r,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!j.call(a,n)&&n!==r&&o(a,n,{get:()=>e[n],enumerable:!(m=d(e,n))||m.enumerable});return a};var K=(a,e,r)=>(r=a!=null?k(l(a)):{},i(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),R=a=>i(o({},\"__esModule\",{value:!0}),a);var c=Z((b,s)=>{s.exports=_jsx_runtime});var z={};f(z,{default:()=>u,frontmatter:()=>h});var t=K(c()),h={title:\"Kto ma racje (PWZKRZ Remix)\",slug:\"kto-ma-racje-pwzkrz-remix-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"pwzkrz\"],featuresNames:[\"PWZKRZ\"],album:\"Kto ma racje (PWZKRZ Remix)\",albumSlug:\"kto-ma-racje-pwzkrz-remix\",year:2020,genre:[\"\"],duration:\"2:50\",trackNumber:1,producers:[],producersNames:[],description:\"Kto ma racje (PWZKRZ Remix) \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function p(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/kto-ma-racje-pwzkrz-remix-maniak\",children:\"Kto ma racje (PWZKRZ Remix)\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" (2020).\"]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(p,{...a})}):p(a)}return R(z);})();\n;return Component;"
   },
   "_id": "skladby/kto-ma-racje-pwzkrz-remix-maniak.mdx",
   "_raw": {

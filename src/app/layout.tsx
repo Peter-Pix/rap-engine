@@ -4,9 +4,6 @@ import './globals.css'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { getWebSiteSchema } from '@/lib/schema'
-import { MagazineHeader } from '@/components/magazine/MagazineHeader'
-import { allClaneks } from 'contentlayer/generated'
-import { countRecent } from '@/lib/magazine'
 
 const GA_ID = 'G-9SBN9C5869'
 

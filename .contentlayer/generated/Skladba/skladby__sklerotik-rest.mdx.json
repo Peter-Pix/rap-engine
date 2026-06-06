@@ -12,16 +12,19 @@
   "album": "Střepy",
   "albumSlug": "strepy",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:15",
   "trackNumber": 11,
   "producers": [],
   "producersNames": [],
   "description": "Sklerotik — skladba od Rest.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&o(e,s,{get:()=>t[s],enumerable:!(a=d(t,s))||a.enumerable});return e};var b=(e,t,n)=>(n=e!=null?p(h(e)):{},u(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),g=e=>u(o({},\"__esModule\",{value:!0}),e);var i=k((D,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>m,frontmatter:()=>j});var r=b(i()),j={title:\"Sklerotik\",slug:\"sklerotik-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[],duration:\"3:15\",trackNumber:11,producers:[],producersNames:[],description:\"Sklerotik \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Sklerotik](/skladby/sklerotik-rest)** od [Rest](/raperi/rest) z alba [Střepy](/alba/strepy) (2013).\n",
+    "code": "var Component=(()=>{var d=Object.create;var n=Object.defineProperty;var k=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var s in e)n(t,s,{get:e[s],enumerable:!0})},l=(t,e,s,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!h.call(t,a)&&a!==s&&n(t,a,{get:()=>e[a],enumerable:!(o=k(e,a))||o.enumerable});return t};var g=(t,e,s)=>(s=t!=null?d(f(t)):{},l(e||!t||!t.__esModule?n(s,\"default\",{value:t,enumerable:!0}):s,t)),y=t=>l(n({},\"__esModule\",{value:!0}),t);var c=x((D,i)=>{i.exports=_jsx_runtime});var j={};b(j,{default:()=>u,frontmatter:()=>S});var r=g(c()),S={title:\"Sklerotik\",slug:\"sklerotik-rest\",rapper:\"Rest\",rapperSlug:\"rest\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"St\\u0159epy\",albumSlug:\"strepy\",year:2013,genre:[\"\"],duration:\"3:15\",trackNumber:11,producers:[],producersNames:[],description:\"Sklerotik \\u2014 skladba od Rest.\",publishedAt:\"2026-06-04\"};function p(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/sklerotik-rest\",children:\"Sklerotik\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/rest\",children:\"Rest\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/strepy\",children:\"St\\u0159epy\"}),\" (2013).\"]})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return y(j);})();\n;return Component;"
   },
   "_id": "skladby/sklerotik-rest.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "ČERNÁ VRÁNA",
   "albumSlug": "cerna-vrana",
   "year": 2025,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:35",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
   "description": "Bobby Blaze (Nikdo (prod. Laddy Sound) — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var i=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var h=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),B=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},b=(e,n,r,d)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of m(n))!x.call(e,t)&&t!==r&&a(e,t,{get:()=>n[t],enumerable:!(d=p(n,t))||d.enumerable});return e};var f=(e,n,r)=>(r=e!=null?i(y(e)):{},b(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>b(a({},\"__esModule\",{value:!0}),e);var l=h((j,s)=>{s.exports=_jsx_runtime});var _={};B(_,{default:()=>c,frontmatter:()=>N});var o=f(l()),N={title:\"Bobby Blaze (Nikdo (prod. Laddy Sound)\",slug:\"bobby-blaze-nikdo-prod-laddy-sound-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"\\u010CERN\\xC1 VR\\xC1NA\",albumSlug:\"cerna-vrana\",year:2025,genre:[],duration:\"2:35\",trackNumber:2,producers:[],producersNames:[],description:\"Bobby Blaze (Nikdo (prod. Laddy Sound) \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,o.jsx)(n.p,{children:(0,o.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(u,{...e})}):u(e)}return z(_);})();\n;return Component;"
+    "raw": "\n**[Bobby Blaze (Nikdo (prod. Laddy Sound)](/skladby/bobby-blaze-nikdo-prod-laddy-sound-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [ČERNÁ VRÁNA](/alba/cerna-vrana) (2025).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var B=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var r in e)n(a,r,{get:e[r],enumerable:!0})},t=(a,e,r,d)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let b of y(e))!m.call(a,b)&&b!==r&&n(a,b,{get:()=>e[b],enumerable:!(d=p(e,b))||d.enumerable});return a};var h=(a,e,r)=>(r=a!=null?i(z(a)):{},t(e||!a||!a.__esModule?n(r,\"default\",{value:a,enumerable:!0}):r,a)),N=a=>t(n({},\"__esModule\",{value:!0}),a);var s=B((_,l)=>{l.exports=_jsx_runtime});var k={};f(k,{default:()=>c,frontmatter:()=>x});var o=h(s()),x={title:\"Bobby Blaze (Nikdo (prod. Laddy Sound)\",slug:\"bobby-blaze-nikdo-prod-laddy-sound-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"\\u010CERN\\xC1 VR\\xC1NA\",albumSlug:\"cerna-vrana\",year:2025,genre:[\"\"],duration:\"2:35\",trackNumber:2,producers:[],producersNames:[],description:\"Bobby Blaze (Nikdo (prod. Laddy Sound) \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/bobby-blaze-nikdo-prod-laddy-sound-bobby-blaze\",children:\"Bobby Blaze (Nikdo (prod. Laddy Sound)\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/cerna-vrana\",children:\"\\u010CERN\\xC1 VR\\xC1NA\"}),\" (2025).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(u,{...a})}):u(a)}return N(k);})();\n;return Component;"
   },
   "_id": "skladby/bobby-blaze-nikdo-prod-laddy-sound-bobby-blaze.mdx",
   "_raw": {

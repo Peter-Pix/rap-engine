@@ -8,16 +8,19 @@
   "album": "The Prodigal Son",
   "albumSlug": "the-prodigal-son",
   "year": 2021,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:00",
   "trackNumber": 14,
   "producers": [],
   "producersNames": [],
   "description": "Thoughts — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of m(t))!g.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var _=(e,t,n)=>(n=e!=null?h(p(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),y=e=>u(a({},\"__esModule\",{value:!0}),e);var b=x((S,l)=>{l.exports=_jsx_runtime});var z={};f(z,{default:()=>d,frontmatter:()=>j});var r=_(b()),j={title:\"Thoughts\",slug:\"thoughts-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[],duration:\"7:00\",trackNumber:14,producers:[],producersNames:[],description:\"Thoughts \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return y(z);})();\n;return Component;"
+    "raw": "\n**[Thoughts](/skladby/thoughts-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [The Prodigal Son](/alba/the-prodigal-son) (2021).\n",
+    "code": "var Component=(()=>{var i=Object.create;var n=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),y=(o,e)=>{for(var t in e)n(o,t,{get:e[t],enumerable:!0})},b=(o,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!m.call(o,a)&&a!==t&&n(o,a,{get:()=>e[a],enumerable:!(s=c(e,a))||s.enumerable});return o};var x=(o,e,t)=>(t=o!=null?i(g(o)):{},b(e||!o||!o.__esModule?n(t,\"default\",{value:o,enumerable:!0}):t,o)),z=o=>b(n({},\"__esModule\",{value:!0}),o);var h=f((T,l)=>{l.exports=_jsx_runtime});var _={};y(_,{default:()=>d,frontmatter:()=>B});var r=x(h()),B={title:\"Thoughts\",slug:\"thoughts-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"The Prodigal Son\",albumSlug:\"the-prodigal-son\",year:2021,genre:[\"\"],duration:\"7:00\",trackNumber:14,producers:[],producersNames:[],description:\"Thoughts \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/thoughts-bobby-blaze\",children:\"Thoughts\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/the-prodigal-son\",children:\"The Prodigal Son\"}),\" (2021).\"]})}function d(o={}){let{wrapper:e}=o.components||{};return e?(0,r.jsx)(e,{...o,children:(0,r.jsx)(u,{...o})}):u(o)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/thoughts-bobby-blaze.mdx",
   "_raw": {

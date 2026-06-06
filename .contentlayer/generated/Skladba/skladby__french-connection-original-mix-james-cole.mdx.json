@@ -8,16 +8,19 @@
   "album": "French Connection / Music Is the Future",
   "albumSlug": "french-connection-music-is-the-future",
   "year": 2017,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "7:14",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "French Connection (Original Mix) — skladba od James Cole.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var c=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)c(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!f.call(e,o)&&o!==r&&c(e,o,{get:()=>n[o],enumerable:!(i=d(n,o))||i.enumerable});return e};var C=(e,n,r)=>(r=e!=null?h(x(e)):{},s(n||!e||!e.__esModule?c(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>s(c({},\"__esModule\",{value:!0}),e);var u=g((N,a)=>{a.exports=_jsx_runtime});var F={};j(F,{default:()=>l,frontmatter:()=>b});var t=C(u()),b={title:\"French Connection (Original Mix)\",slug:\"french-connection-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"French Connection / Music Is the Future\",albumSlug:\"french-connection-music-is-the-future\",year:2017,genre:[],duration:\"7:14\",trackNumber:1,producers:[],producersNames:[],description:\"French Connection (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return _(F);})();\n;return Component;"
+    "raw": "\n**[French Connection (Original Mix)](/skladby/french-connection-original-mix-james-cole)** od [James Cole](/raperi/james-cole) z alba [French Connection / Music Is the Future](/alba/french-connection-music-is-the-future) (2017).\n",
+    "code": "var Component=(()=>{var m=Object.create;var c=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),C=(n,e)=>{for(var o in e)c(n,o,{get:e[o],enumerable:!0})},a=(n,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!x.call(n,t)&&t!==o&&c(n,t,{get:()=>e[t],enumerable:!(i=d(e,t))||i.enumerable});return n};var j=(n,e,o)=>(o=n!=null?m(p(n)):{},a(e||!n||!n.__esModule?c(o,\"default\",{value:n,enumerable:!0}):o,n)),b=n=>a(c({},\"__esModule\",{value:!0}),n);var u=g((k,s)=>{s.exports=_jsx_runtime});var F={};C(F,{default:()=>h,frontmatter:()=>M});var r=j(u()),M={title:\"French Connection (Original Mix)\",slug:\"french-connection-original-mix-james-cole\",rapper:\"James Cole\",rapperSlug:\"james-cole\",features:[],featuresNames:[],album:\"French Connection / Music Is the Future\",albumSlug:\"french-connection-music-is-the-future\",year:2017,genre:[\"\"],duration:\"7:14\",trackNumber:1,producers:[],producersNames:[],description:\"French Connection (Original Mix) \\u2014 skladba od James Cole.\",publishedAt:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/french-connection-original-mix-james-cole\",children:\"French Connection (Original Mix)\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/james-cole\",children:\"James Cole\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/french-connection-music-is-the-future\",children:\"French Connection / Music Is the Future\"}),\" (2017).\"]})}function h(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return b(F);})();\n;return Component;"
   },
   "_id": "skladby/french-connection-original-mix-james-cole.mdx",
   "_raw": {

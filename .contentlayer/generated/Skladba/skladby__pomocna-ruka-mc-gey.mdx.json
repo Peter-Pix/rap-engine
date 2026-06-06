@@ -16,16 +16,19 @@
   "album": "Imaginarium naprosto běžných podivností",
   "albumSlug": "imaginarium-naprosto-beznych-podivnosti",
   "year": 2011,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:20",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Pomocná ruka — skladba od MC Gey.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},m=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!x.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(s=l(t,o))||s.enumerable});return e};var y=(e,t,r)=>(r=e!=null?p(g(e)):{},m(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),_=e=>m(a({},\"__esModule\",{value:!0}),e);var c=b((C,u)=>{u.exports=_jsx_runtime});var k={};f(k,{default:()=>d,frontmatter:()=>j});var n=y(c()),j={title:\"Pomocn\\xE1 ruka\",slug:\"pomocna-ruka-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\",\"idea\",\"luzer\"],featuresNames:[\"DJ Fatte\",\"Idea\",\"LUZER\"],album:\"Imaginarium naprosto b\\u011B\\u017En\\xFDch podivnost\\xED\",albumSlug:\"imaginarium-naprosto-beznych-podivnosti\",year:2011,genre:[],duration:\"3:20\",trackNumber:4,producers:[],producersNames:[],description:\"Pomocn\\xE1 ruka \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(i,{...e})}):i(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Pomocná ruka](/skladby/pomocna-ruka-mc-gey)** od [MC Gey](/raperi/mc-gey) z alba [Imaginarium naprosto běžných podivností](/alba/imaginarium-naprosto-beznych-podivnosti) (2011).\n",
+    "code": "var Component=(()=>{var d=Object.create;var t=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},i=(r,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!b.call(r,o)&&o!==n&&t(r,o,{get:()=>e[o],enumerable:!(s=l(e,o))||s.enumerable});return r};var x=(r,e,n)=>(n=r!=null?d(h(r)):{},i(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),k=r=>i(t({},\"__esModule\",{value:!0}),r);var m=y((C,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>p,frontmatter:()=>j});var a=x(m()),j={title:\"Pomocn\\xE1 ruka\",slug:\"pomocna-ruka-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\",\"idea\",\"luzer\"],featuresNames:[\"DJ Fatte\",\"Idea\",\"LUZER\"],album:\"Imaginarium naprosto b\\u011B\\u017En\\xFDch podivnost\\xED\",albumSlug:\"imaginarium-naprosto-beznych-podivnosti\",year:2011,genre:[\"\"],duration:\"3:20\",trackNumber:4,producers:[],producersNames:[],description:\"Pomocn\\xE1 ruka \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/pomocna-ruka-mc-gey\",children:\"Pomocn\\xE1 ruka\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/mc-gey\",children:\"MC Gey\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/imaginarium-naprosto-beznych-podivnosti\",children:\"Imaginarium naprosto b\\u011B\\u017En\\xFDch podivnost\\xED\"}),\" (2011).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return k(M);})();\n;return Component;"
   },
   "_id": "skladby/pomocna-ruka-mc-gey.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Boomerang",
   "albumSlug": "boomerang",
   "year": 2015,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:59",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Šípy — skladba od Paulie Garand.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of g(n))!x.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(u=c(n,a))||u.enumerable});return e};var y=(e,n,t)=>(t=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var p=b((N,i)=>{i.exports=_jsx_runtime});var k={};f(k,{default:()=>l,frontmatter:()=>j});var r=y(p()),j={title:\"\\u0160\\xEDpy\",slug:\"sipy-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[],duration:\"3:59\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160\\xEDpy \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Šípy](/skladby/sipy-paulie-garand)** od [Paulie Garand](/raperi/paulie-garand) z alba [Boomerang](/alba/boomerang) (2015).\n",
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),y=(e,a)=>{for(var n in a)t(e,n,{get:a[n],enumerable:!0})},u=(e,a,n,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of m(a))!b.call(e,o)&&o!==n&&t(e,o,{get:()=>a[o],enumerable:!(s=g(a,o))||s.enumerable});return e};var x=(e,a,n)=>(n=e!=null?c(h(e)):{},u(a||!e||!e.__esModule?t(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(t({},\"__esModule\",{value:!0}),e);var l=f((M,i)=>{i.exports=_jsx_runtime});var k={};y(k,{default:()=>p,frontmatter:()=>j});var r=x(l()),j={title:\"\\u0160\\xEDpy\",slug:\"sipy-paulie-garand\",rapper:\"Paulie Garand\",rapperSlug:\"paulie-garand\",features:[\"kenny-rough\"],featuresNames:[\"Kenny Rough\"],album:\"Boomerang\",albumSlug:\"boomerang\",year:2015,genre:[\"\"],duration:\"3:59\",trackNumber:4,producers:[],producersNames:[],description:\"\\u0160\\xEDpy \\u2014 skladba od Paulie Garand.\",publishedAt:\"2026-05-31\"};function d(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/sipy-paulie-garand\",children:\"\\u0160\\xEDpy\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/paulie-garand\",children:\"Paulie Garand\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/boomerang\",children:\"Boomerang\"}),\" (2015).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(d,{...e})}):d(e)}return _(k);})();\n;return Component;"
   },
   "_id": "skladby/sipy-paulie-garand.mdx",
   "_raw": {

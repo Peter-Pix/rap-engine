@@ -12,16 +12,19 @@
   "album": "Opičí král vrací úder",
   "albumSlug": "opici-kral-vraci-uder",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:48",
   "trackNumber": 10,
   "producers": [],
   "producersNames": [],
   "description": "Sám doma — skladba od MC Gey.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(m=p(t,a))||m.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(h(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>s(o({},\"__esModule\",{value:!0}),e);var d=g((k,c)=>{c.exports=_jsx_runtime});var M={};_(M,{default:()=>i,frontmatter:()=>y});var r=b(d()),y={title:\"S\\xE1m doma\",slug:\"sam-doma-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\",albumSlug:\"opici-kral-vraci-uder\",year:2014,genre:[],duration:\"3:48\",trackNumber:10,producers:[],producersNames:[],description:\"S\\xE1m doma \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Sám doma](/skladby/sam-doma-mc-gey)** od [MC Gey](/raperi/mc-gey) z alba [Opičí král vrací úder](/alba/opici-kral-vraci-uder) (2014).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!h.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(c=p(e,n))||c.enumerable});return r};var b=(r,e,t)=>(t=r!=null?u(g(r)):{},s(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),k=r=>s(o({},\"__esModule\",{value:!0}),r);var m=y((C,d)=>{d.exports=_jsx_runtime});var M={};x(M,{default:()=>l,frontmatter:()=>j});var a=b(m()),j={title:\"S\\xE1m doma\",slug:\"sam-doma-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\",albumSlug:\"opici-kral-vraci-uder\",year:2014,genre:[\"\"],duration:\"3:48\",trackNumber:10,producers:[],producersNames:[],description:\"S\\xE1m doma \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function i(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/sam-doma-mc-gey\",children:\"S\\xE1m doma\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/mc-gey\",children:\"MC Gey\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/opici-kral-vraci-uder\",children:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\"}),\" (2014).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(i,{...r})}):i(r)}return k(M);})();\n;return Component;"
   },
   "_id": "skladby/sam-doma-mc-gey.mdx",
   "_raw": {

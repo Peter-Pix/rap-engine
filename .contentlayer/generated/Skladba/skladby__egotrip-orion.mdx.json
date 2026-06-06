@@ -12,16 +12,19 @@
   "album": "Noční vidění",
   "albumSlug": "nocni-videni",
   "year": 2014,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:15",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Egotrip — skladba od Orion.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},a=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!h.call(e,o)&&o!==t&&i(e,o,{get:()=>n[o],enumerable:!(s=l(n,o))||s.enumerable});return e};var b=(e,n,t)=>(t=e!=null?d(g(e)):{},a(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),j=e=>a(i({},\"__esModule\",{value:!0}),e);var u=f((S,c)=>{c.exports=_jsx_runtime});var C={};_(C,{default:()=>p,frontmatter:()=>N});var r=b(u()),N={title:\"Egotrip\",slug:\"egotrip-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[],duration:\"4:15\",trackNumber:12,producers:[],producersNames:[],description:\"Egotrip \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Egotrip](/skladby/egotrip-orion)** od [Orion](/raperi/orion) z alba [Noční vidění](/alba/nocni-videni) (2014).\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),b=(e,r)=>{for(var o in r)i(e,o,{get:r[o],enumerable:!0})},s=(e,r,o,a)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of g(r))!h.call(e,t)&&t!==o&&i(e,t,{get:()=>r[t],enumerable:!(a=m(r,t))||a.enumerable});return e};var j=(e,r,o)=>(o=e!=null?u(f(e)):{},s(r||!e||!e.__esModule?i(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>s(i({},\"__esModule\",{value:!0}),e);var d=x((y,c)=>{c.exports=_jsx_runtime});var v={};b(v,{default:()=>p,frontmatter:()=>N});var n=j(d()),N={title:\"Egotrip\",slug:\"egotrip-orion\",rapper:\"Orion\",rapperSlug:\"orion\",features:[\"james-cole\"],featuresNames:[\"James Cole\"],album:\"No\\u010Dn\\xED vid\\u011Bn\\xED\",albumSlug:\"nocni-videni\",year:2014,genre:[\"\"],duration:\"4:15\",trackNumber:12,producers:[],producersNames:[],description:\"Egotrip \\u2014 skladba od Orion.\",publishedAt:\"2026-06-04\"};function l(e){let r={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:(0,n.jsx)(r.a,{href:\"/skladby/egotrip-orion\",children:\"Egotrip\"})}),\" od \",(0,n.jsx)(r.a,{href:\"/raperi/orion\",children:\"Orion\"}),\" z alba \",(0,n.jsx)(r.a,{href:\"/alba/nocni-videni\",children:\"No\\u010Dn\\xED vid\\u011Bn\\xED\"}),\" (2014).\"]})}function p(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return _(v);})();\n;return Component;"
   },
   "_id": "skladby/egotrip-orion.mdx",
   "_raw": {

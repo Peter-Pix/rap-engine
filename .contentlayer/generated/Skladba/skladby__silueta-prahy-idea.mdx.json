@@ -14,16 +14,19 @@
   "album": "Space Lopata",
   "albumSlug": "space-lopata",
   "year": 2023,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:22",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Silueta Prahy — skladba od Idea.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),S=(e,t)=>{for(var a in t)o(e,a,{get:t[a],enumerable:!0})},u=(e,t,a,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of h(t))!y.call(e,n)&&n!==a&&o(e,n,{get:()=>t[n],enumerable:!(s=m(t,n))||s.enumerable});return e};var _=(e,t,a)=>(a=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?o(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>u(o({},\"__esModule\",{value:!0}),e);var d=f((k,c)=>{c.exports=_jsx_runtime});var j={};S(j,{default:()=>p,frontmatter:()=>g});var r=_(d()),g={title:\"Silueta Prahy\",slug:\"silueta-prahy-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\",\"dj-aka\"],featuresNames:[\"Str\\xFDc Nory\",\"DJ AKA\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[],duration:\"3:22\",trackNumber:7,producers:[],producersNames:[],description:\"Silueta Prahy \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function i(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(i,{...e})}):i(e)}return b(j);})();\n;return Component;"
+    "raw": "\n**[Silueta Prahy](/skladby/silueta-prahy-idea)** od [Idea](/raperi/idea) z alba [Space Lopata](/alba/space-lopata) (2023).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),b=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},c=(e,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let n of m(a))!f.call(e,n)&&n!==t&&o(e,n,{get:()=>a[n],enumerable:!(s=h(a,n))||s.enumerable});return e};var S=(e,a,t)=>(t=e!=null?u(y(e)):{},c(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>c(o({},\"__esModule\",{value:!0}),e);var i=x((N,d)=>{d.exports=_jsx_runtime});var _={};b(_,{default:()=>p,frontmatter:()=>j});var r=S(i()),j={title:\"Silueta Prahy\",slug:\"silueta-prahy-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"stryc-nory\",\"dj-aka\"],featuresNames:[\"Str\\xFDc Nory\",\"DJ AKA\"],album:\"Space Lopata\",albumSlug:\"space-lopata\",year:2023,genre:[\"\"],duration:\"3:22\",trackNumber:7,producers:[],producersNames:[],description:\"Silueta Prahy \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function l(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(a.p,{children:[(0,r.jsx)(a.strong,{children:(0,r.jsx)(a.a,{href:\"/skladby/silueta-prahy-idea\",children:\"Silueta Prahy\"})}),\" od \",(0,r.jsx)(a.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" z alba \",(0,r.jsx)(a.a,{href:\"/alba/space-lopata\",children:\"Space Lopata\"}),\" (2023).\"]})}function p(e={}){let{wrapper:a}=e.components||{};return a?(0,r.jsx)(a,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/silueta-prahy-idea.mdx",
   "_raw": {

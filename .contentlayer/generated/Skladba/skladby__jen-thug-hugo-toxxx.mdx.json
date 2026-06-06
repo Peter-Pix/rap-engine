@@ -8,16 +8,19 @@
   "album": "Bauch Money II",
   "albumSlug": "bauch-money-ii",
   "year": 2020,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "2:25",
   "trackNumber": 12,
   "producers": [],
   "producersNames": [],
   "description": "Jen Thug — skladba od Hugo Toxxx.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var h=Object.create;var u=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)u(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of l(t))!g.call(e,o)&&o!==r&&u(e,o,{get:()=>t[o],enumerable:!(a=d(t,o))||a.enumerable});return e};var _=(e,t,r)=>(r=e!=null?h(p(e)):{},s(t||!e||!e.__esModule?u(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>s(u({},\"__esModule\",{value:!0}),e);var c=b((N,x)=>{x.exports=_jsx_runtime});var M={};f(M,{default:()=>i,frontmatter:()=>y});var n=_(c()),y={title:\"Jen Thug\",slug:\"jen-thug-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[],duration:\"2:25\",trackNumber:12,producers:[],producersNames:[],description:\"Jen Thug \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return j(M);})();\n;return Component;"
+    "raw": "\n**[Jen Thug](/skladby/jen-thug-hugo-toxxx)** od [Hugo Toxxx](/raperi/hugo-toxxx) z alba [Bauch Money II](/alba/bauch-money-ii) (2020).\n",
+    "code": "var Component=(()=>{var g=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var b=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),f=(o,e)=>{for(var r in e)a(o,r,{get:e[r],enumerable:!0})},x=(o,e,r,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of d(e))!m.call(o,t)&&t!==r&&a(o,t,{get:()=>e[t],enumerable:!(u=l(e,t))||u.enumerable});return o};var j=(o,e,r)=>(r=o!=null?g(p(o)):{},x(e||!o||!o.__esModule?a(r,\"default\",{value:o,enumerable:!0}):r,o)),y=o=>x(a({},\"__esModule\",{value:!0}),o);var c=b((I,s)=>{s.exports=_jsx_runtime});var _={};f(_,{default:()=>i,frontmatter:()=>T});var n=j(c()),T={title:\"Jen Thug\",slug:\"jen-thug-hugo-toxxx\",rapper:\"Hugo Toxxx\",rapperSlug:\"hugo-toxxx\",features:[],featuresNames:[],album:\"Bauch Money II\",albumSlug:\"bauch-money-ii\",year:2020,genre:[\"\"],duration:\"2:25\",trackNumber:12,producers:[],producersNames:[],description:\"Jen Thug \\u2014 skladba od Hugo Toxxx.\",publishedAt:\"2026-06-04\"};function h(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/jen-thug-hugo-toxxx\",children:\"Jen Thug\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/hugo-toxxx\",children:\"Hugo Toxxx\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/bauch-money-ii\",children:\"Bauch Money II\"}),\" (2020).\"]})}function i(o={}){let{wrapper:e}=o.components||{};return e?(0,n.jsx)(e,{...o,children:(0,n.jsx)(h,{...o})}):h(o)}return y(_);})();\n;return Component;"
   },
   "_id": "skladby/jen-thug-hugo-toxxx.mdx",
   "_raw": {

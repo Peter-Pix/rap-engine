@@ -8,16 +8,19 @@
   "album": "Co Chtej",
   "albumSlug": "co-chtej",
   "year": 2024,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:06",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Co Chtej — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),C=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!j.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=i(t,o))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?d(h(e)):{},c(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>c(a({},\"__esModule\",{value:!0}),e);var l=x((B,u)=>{u.exports=_jsx_runtime});var y={};C(y,{default:()=>m,frontmatter:()=>g});var r=f(l()),g={title:\"Co Chtej\",slug:\"co-chtej-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Co Chtej\",albumSlug:\"co-chtej\",year:2024,genre:[],duration:\"4:06\",trackNumber:1,producers:[],producersNames:[],description:\"Co Chtej \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function b(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(b,{...e})}):b(e)}return _(y);})();\n;return Component;"
+    "raw": "\n**[Co Chtej](/skladby/co-chtej-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) (2024).\n",
+    "code": "var Component=(()=>{var h=Object.create;var n=Object.defineProperty;var i=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),C=(t,e)=>{for(var o in e)n(t,o,{get:e[o],enumerable:!0})},s=(t,e,o,b)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!m.call(t,a)&&a!==o&&n(t,a,{get:()=>e[a],enumerable:!(b=i(e,a))||b.enumerable});return t};var f=(t,e,o)=>(o=t!=null?h(j(t)):{},s(e||!t||!t.__esModule?n(o,\"default\",{value:t,enumerable:!0}):o,t)),x=t=>s(n({},\"__esModule\",{value:!0}),t);var l=y((_,c)=>{c.exports=_jsx_runtime});var z={};C(z,{default:()=>d,frontmatter:()=>g});var r=f(l()),g={title:\"Co Chtej\",slug:\"co-chtej-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Co Chtej\",albumSlug:\"co-chtej\",year:2024,genre:[\"\"],duration:\"4:06\",trackNumber:1,producers:[],producersNames:[],description:\"Co Chtej \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function u(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/co-chtej-bobby-blaze\",children:\"Co Chtej\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" (2024).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return x(z);})();\n;return Component;"
   },
   "_id": "skladby/co-chtej-bobby-blaze.mdx",
   "_raw": {

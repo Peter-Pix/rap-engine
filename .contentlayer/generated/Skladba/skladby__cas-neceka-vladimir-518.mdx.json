@@ -8,16 +8,19 @@
   "album": "Idiot",
   "albumSlug": "idiot",
   "year": 2013,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:46",
   "trackNumber": 15,
   "producers": [],
   "producersNames": [],
   "description": "Cas neceka — skladba od Vladimir 518.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var _=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)s(e,n,{get:t[n],enumerable:!0})},o=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of x(t))!f.call(e,a)&&a!==n&&s(e,a,{get:()=>t[a],enumerable:!(i=p(t,a))||i.enumerable});return e};var g=(e,t,n)=>(n=e!=null?l(h(e)):{},o(t||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>o(s({},\"__esModule\",{value:!0}),e);var d=_((N,c)=>{c.exports=_jsx_runtime});var C={};b(C,{default:()=>u,frontmatter:()=>k});var r=g(d()),k={title:\"Cas neceka\",slug:\"cas-neceka-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[],duration:\"3:46\",trackNumber:15,producers:[],producersNames:[],description:\"Cas neceka \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function m(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function u(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return j(C);})();\n;return Component;"
+    "raw": "\n**[Cas neceka](/skladby/cas-neceka-vladimir-518)** od [Vladimir 518](/raperi/vladimir-518) z alba [Idiot](/alba/idiot) (2013).\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var t in e)i(r,t,{get:e[t],enumerable:!0})},o=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!x.call(r,n)&&n!==t&&i(r,n,{get:()=>e[n],enumerable:!(s=p(e,n))||s.enumerable});return r};var g=(r,e,t)=>(t=r!=null?u(h(r)):{},o(e||!r||!r.__esModule?i(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>o(i({},\"__esModule\",{value:!0}),r);var c=b((y,d)=>{d.exports=_jsx_runtime});var C={};k(C,{default:()=>m,frontmatter:()=>j});var a=g(c()),j={title:\"Cas neceka\",slug:\"cas-neceka-vladimir-518\",rapper:\"Vladimir 518\",rapperSlug:\"vladimir-518\",features:[],featuresNames:[],album:\"Idiot\",albumSlug:\"idiot\",year:2013,genre:[\"\"],duration:\"3:46\",trackNumber:15,producers:[],producersNames:[],description:\"Cas neceka \\u2014 skladba od Vladimir 518.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/cas-neceka-vladimir-518\",children:\"Cas neceka\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/vladimir-518\",children:\"Vladimir 518\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/idiot\",children:\"Idiot\"}),\" (2013).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return _(C);})();\n;return Component;"
   },
   "_id": "skladby/cas-neceka-vladimir-518.mdx",
   "_raw": {

@@ -8,16 +8,19 @@
   "album": "Through These Eyes",
   "albumSlug": "through-these-eyes",
   "year": 2004,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "4:20",
   "trackNumber": 4,
   "producers": [],
   "producersNames": [],
   "description": "Ready 2 Go — skladba od Bobby Blaze.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of i(t))!y.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(s=h(t,o))||s.enumerable});return e};var f=(e,t,n)=>(n=e!=null?m(p(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(a({},\"__esModule\",{value:!0}),e);var b=x((M,l)=>{l.exports=_jsx_runtime});var z={};g(z,{default:()=>d,frontmatter:()=>j});var r=f(b()),j={title:\"Ready 2 Go\",slug:\"ready-2-go-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[],duration:\"4:20\",trackNumber:4,producers:[],producersNames:[],description:\"Ready 2 Go \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function c(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(t.p,{children:(0,r.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(c,{...e})}):c(e)}return _(z);})();\n;return Component;"
+    "raw": "\n**[Ready 2 Go](/skladby/ready-2-go-bobby-blaze)** od [Bobby Blaze](/raperi/bobby-blaze) z alba [Through These Eyes](/alba/through-these-eyes) (2004).\n",
+    "code": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var i=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var m=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var o in e)s(r,o,{get:e[o],enumerable:!0})},b=(r,e,o,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of i(e))!g.call(r,t)&&t!==o&&s(r,t,{get:()=>e[t],enumerable:!(n=y(e,t))||n.enumerable});return r};var x=(r,e,o)=>(o=r!=null?c(p(r)):{},b(e||!r||!r.__esModule?s(o,\"default\",{value:r,enumerable:!0}):o,r)),z=r=>b(s({},\"__esModule\",{value:!0}),r);var u=m((T,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>h,frontmatter:()=>B});var a=x(u()),B={title:\"Ready 2 Go\",slug:\"ready-2-go-bobby-blaze\",rapper:\"Bobby Blaze\",rapperSlug:\"bobby-blaze\",features:[],featuresNames:[],album:\"Through These Eyes\",albumSlug:\"through-these-eyes\",year:2004,genre:[\"\"],duration:\"4:20\",trackNumber:4,producers:[],producersNames:[],description:\"Ready 2 Go \\u2014 skladba od Bobby Blaze.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/ready-2-go-bobby-blaze\",children:\"Ready 2 Go\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/bobby-blaze\",children:\"Bobby Blaze\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/through-these-eyes\",children:\"Through These Eyes\"}),\" (2004).\"]})}function h(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return z(_);})();\n;return Component;"
   },
   "_id": "skladby/ready-2-go-bobby-blaze.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Černej kůň plus",
   "albumSlug": "cernej-kun-plus",
   "year": 2022,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:18",
   "trackNumber": 1,
   "producers": [],
   "producersNames": [],
   "description": "Černej kůň — skladba od Maniak.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},u=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of h(n))!k.call(e,a)&&a!==t&&s(e,a,{get:()=>n[a],enumerable:!(o=d(n,a))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?p(j(e)):{},u(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),b=e=>u(s({},\"__esModule\",{value:!0}),e);var i=x((N,c)=>{c.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>g});var r=_(i()),g={title:\"\\u010Cernej k\\u016F\\u0148\",slug:\"cernej-kun-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[],duration:\"3:18\",trackNumber:1,producers:[],producersNames:[],description:\"\\u010Cernej k\\u016F\\u0148 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"Kontext\"}),`\n`,(0,r.jsx)(n.p,{children:(0,r.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return b(M);})();\n;return Component;"
+    "raw": "\n**[Černej kůň](/skladby/cernej-kun-maniak)** od [Maniak](/raperi/maniak) z alba [Černej kůň plus](/alba/cernej-kun-plus) (2022).\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var a in e)s(n,a,{get:e[a],enumerable:!0})},o=(n,e,a,u)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!h.call(n,t)&&t!==a&&s(n,t,{get:()=>e[t],enumerable:!(u=d(e,t))||u.enumerable});return n};var b=(n,e,a)=>(a=n!=null?p(j(n)):{},o(e||!n||!n.__esModule?s(a,\"default\",{value:n,enumerable:!0}):a,n)),g=n=>o(s({},\"__esModule\",{value:!0}),n);var i=f((D,c)=>{c.exports=_jsx_runtime});var _={};x(_,{default:()=>k,frontmatter:()=>M});var r=b(i()),M={title:\"\\u010Cernej k\\u016F\\u0148\",slug:\"cernej-kun-maniak\",rapper:\"Maniak\",rapperSlug:\"maniak\",features:[\"dj-wich\"],featuresNames:[\"DJ Wich\"],album:\"\\u010Cernej k\\u016F\\u0148 plus\",albumSlug:\"cernej-kun-plus\",year:2022,genre:[\"\"],duration:\"3:18\",trackNumber:1,producers:[],producersNames:[],description:\"\\u010Cernej k\\u016F\\u0148 \\u2014 skladba od Maniak.\",publishedAt:\"2026-06-04\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/cernej-kun-maniak\",children:\"\\u010Cernej k\\u016F\\u0148\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/maniak\",children:\"Maniak\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/cernej-kun-plus\",children:\"\\u010Cernej k\\u016F\\u0148 plus\"}),\" (2022).\"]})}function k(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/cernej-kun-maniak.mdx",
   "_raw": {

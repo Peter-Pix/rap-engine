@@ -1,0 +1,29 @@
+{
+  "title": "Seat",
+  "slug": "seat",
+  "rapper": "CÂLIN",
+  "rapperSlug": "calin",
+  "label": "Calin",
+  "year": 2022,
+  "description": "Seat — singl od CÂLIN (2022).",
+  "image": "https://cdn-images.dzcdn.net/images/cover/8ee137c63142a1665889c08876850c59/1000x1000-000000-80-0-0.jpg",
+  "publishedAt": "2026-06-04T00:00:00.000Z",
+  "releaseType": "single",
+  "explicit": false,
+  "releaseDate": "2026-06-04T00:00:00.000Z",
+  "body": {
+    "raw": "\n**[Seat](/skladby/seat)** od [Calin](/raperi/calin) (2022).\n",
+    "code": "var Component=(()=>{var g=Object.create;var s=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)s(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!h.call(t,r)&&r!==n&&s(t,r,{get:()=>e[r],enumerable:!(i=x(e,r))||i.enumerable});return t};var C=(t,e,n)=>(n=t!=null?g(u(t)):{},c(e||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>c(s({},\"__esModule\",{value:!0}),t);var l=f((D,o)=>{o.exports=_jsx_runtime});var S={};j(S,{default:()=>d,frontmatter:()=>y});var a=C(l()),y={title:\"Seat\",slug:\"seat\",rapper:\"C\\xC2LIN\",rapperSlug:\"calin\",label:\"Calin\",year:2022,description:\"Seat \\u2014 singl od C\\xC2LIN (2022).\",image:\"https://cdn-images.dzcdn.net/images/cover/8ee137c63142a1665889c08876850c59/1000x1000-000000-80-0-0.jpg\",publishedAt:\"2026-06-04\",releaseType:\"single\",explicit:!1,releaseDate:\"2026-06-04\"};function p(t){let e={a:\"a\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/seat\",children:\"Seat\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" (2022).\"]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(p,{...t})}):p(t)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/seat.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/seat.mdx",
+    "sourceFileName": "seat.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/seat"
+  },
+  "type": "Skladba",
+  "url": "/skladby/seat",
+  "canonicalUrl": "https://4rap.cz/skladby/seat"
+}

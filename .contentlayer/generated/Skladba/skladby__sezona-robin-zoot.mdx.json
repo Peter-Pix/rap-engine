@@ -12,16 +12,19 @@
   "album": "Majitel",
   "albumSlug": "majitel",
   "year": 2026,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:10",
   "trackNumber": 8,
   "producers": [],
   "producersNames": [],
   "description": "Skladba evokuje melancholii a zamyšlení nad plynoucím časem a ztracenými příležitostmi.",
   "publishedAt": "2026-05-31T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!b.call(e,o)&&o!==r&&a(e,o,{get:()=>t[o],enumerable:!(i=d(t,o))||i.enumerable});return e};var _=(e,t,r)=>(r=e!=null?p(x(e)):{},s(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>s(a({},\"__esModule\",{value:!0}),e);var l=j((y,m)=>{m.exports=_jsx_runtime});var S={};f(S,{default:()=>c,frontmatter:()=>z});var n=_(l()),z={title:\"Sez\\xF3na\",slug:\"sezona-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[],duration:\"3:10\",trackNumber:8,producers:[],producersNames:[],description:\"Skladba evokuje melancholii a zamy\\u0161len\\xED nad plynouc\\xEDm \\u010Dasem a ztracen\\xFDmi p\\u0159\\xEDle\\u017Eitostmi.\",publishedAt:\"2026-05-31\"};function u(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Kontext\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(S);})();\n;return Component;"
+    "raw": "\n**[Sezóna](/skladby/sezona-robin-zoot)** od [Robin Zoot](/raperi/robin-zoot) (2026).\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,z=Object.prototype.hasOwnProperty;var f=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),x=(o,e)=>{for(var n in e)a(o,n,{get:e[n],enumerable:!0})},i=(o,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of b(e))!z.call(o,r)&&r!==n&&a(o,r,{get:()=>e[r],enumerable:!(s=d(e,r))||s.enumerable});return o};var j=(o,e,n)=>(n=o!=null?p(h(o)):{},i(e||!o||!o.__esModule?a(n,\"default\",{value:o,enumerable:!0}):n,o)),g=o=>i(a({},\"__esModule\",{value:!0}),o);var c=f((y,l)=>{l.exports=_jsx_runtime});var S={};x(S,{default:()=>m,frontmatter:()=>k});var t=j(c()),k={title:\"Sez\\xF3na\",slug:\"sezona-robin-zoot\",rapper:\"Robin Zoot\",rapperSlug:\"robin-zoot\",features:[\"viktor-sheen\"],featuresNames:[\"Viktor Sheen\"],album:\"Majitel\",albumSlug:\"majitel\",year:2026,genre:[\"\"],duration:\"3:10\",trackNumber:8,producers:[],producersNames:[],description:\"Skladba evokuje melancholii a zamy\\u0161len\\xED nad plynouc\\xEDm \\u010Dasem a ztracen\\xFDmi p\\u0159\\xEDle\\u017Eitostmi.\",publishedAt:\"2026-05-31\"};function u(o){let e={a:\"a\",p:\"p\",strong:\"strong\",...o.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/sezona-robin-zoot\",children:\"Sez\\xF3na\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/robin-zoot\",children:\"Robin Zoot\"}),\" (2026).\"]})}function m(o={}){let{wrapper:e}=o.components||{};return e?(0,t.jsx)(e,{...o,children:(0,t.jsx)(u,{...o})}):u(o)}return g(S);})();\n;return Component;"
   },
   "_id": "skladby/sezona-robin-zoot.mdx",
   "_raw": {

@@ -12,16 +12,19 @@
   "album": "Medusa",
   "albumSlug": "medusa",
   "year": 2019,
-  "genre": [],
+  "genre": [
+    ""
+  ],
   "duration": "3:23",
   "trackNumber": 7,
   "producers": [],
   "producersNames": [],
   "description": "Bílý Jako Sníh — skladba od Sergei Barracuda.",
   "publishedAt": "2026-06-04T00:00:00.000Z",
+  "explicit": false,
   "body": {
-    "raw": "\n## Kontext\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var b=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),S=(e,r)=>{for(var n in r)s(e,n,{get:r[n],enumerable:!0})},u=(e,r,n,o)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of h(r))!x.call(e,t)&&t!==n&&s(e,t,{get:()=>r[t],enumerable:!(o=p(r,t))||o.enumerable});return e};var f=(e,r,n)=>(n=e!=null?m(g(e)):{},u(r||!e||!e.__esModule?s(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>u(s({},\"__esModule\",{value:!0}),e);var d=b((B,c)=>{c.exports=_jsx_runtime});var k={};S(k,{default:()=>l,frontmatter:()=>j});var a=f(d()),j={title:\"B\\xEDl\\xFD Jako Sn\\xEDh\",slug:\"bily-jako-snih-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"sensey\"],featuresNames:[\"Sensey\"],album:\"Medusa\",albumSlug:\"medusa\",year:2019,genre:[],duration:\"3:23\",trackNumber:7,producers:[],producersNames:[],description:\"B\\xEDl\\xFD Jako Sn\\xEDh \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function i(e){let r={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(r.h2,{children:\"Kontext\"}),`\n`,(0,a.jsx)(r.p,{children:(0,a.jsx)(r.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:r}=e.components||{};return r?(0,a.jsx)(r,{...e,children:(0,a.jsx)(i,{...e})}):i(e)}return _(k);})();\n;return Component;"
+    "raw": "\n**[Bílý Jako Sníh](/skladby/bily-jako-snih-sergei-barracuda)** od [Sergei Barracuda](/raperi/sergei-barracuda) z alba [Medusa](/alba/medusa) (2019).\n",
+    "code": "var Component=(()=>{var h=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)t(r,n,{get:e[n],enumerable:!0})},u=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of b(e))!m.call(r,s)&&s!==n&&t(r,s,{get:()=>e[s],enumerable:!(o=p(e,s))||o.enumerable});return r};var S=(r,e,n)=>(n=r!=null?h(g(r)):{},u(e||!r||!r.__esModule?t(n,\"default\",{value:r,enumerable:!0}):n,r)),k=r=>u(t({},\"__esModule\",{value:!0}),r);var i=f((_,d)=>{d.exports=_jsx_runtime});var y={};x(y,{default:()=>l,frontmatter:()=>j});var a=S(i()),j={title:\"B\\xEDl\\xFD Jako Sn\\xEDh\",slug:\"bily-jako-snih-sergei-barracuda\",rapper:\"Sergei Barracuda\",rapperSlug:\"sergei-barracuda\",features:[\"sensey\"],featuresNames:[\"Sensey\"],album:\"Medusa\",albumSlug:\"medusa\",year:2019,genre:[\"\"],duration:\"3:23\",trackNumber:7,producers:[],producersNames:[],description:\"B\\xEDl\\xFD Jako Sn\\xEDh \\u2014 skladba od Sergei Barracuda.\",publishedAt:\"2026-06-04\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/bily-jako-snih-sergei-barracuda\",children:\"B\\xEDl\\xFD Jako Sn\\xEDh\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/sergei-barracuda\",children:\"Sergei Barracuda\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/medusa\",children:\"Medusa\"}),\" (2019).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return k(y);})();\n;return Component;"
   },
   "_id": "skladby/bily-jako-snih-sergei-barracuda.mdx",
   "_raw": {
