@@ -44,6 +44,10 @@ export type FilterFieldConfig =
   | { key: 'genres' | 'label' | 'rapper' | 'album' | 'category' | 'location' | 'releaseType'; label: string; type: 'multi' }
   | { key: 'year'; label: string; type: 'year' }
 
+const VALUE_LABELS: Record<string, Record<string, string>> = {
+  releaseType: { album: 'Alba', ep: 'EP', single: 'Single' },
+};
+
 export type SortKey = 'alpha' | 'date' | 'year' | 'featured'
 
 interface FilterableListingProps {
@@ -323,7 +327,7 @@ export function FilterableListing({
                                 </svg>
                               )}
                             </span>
-                            <span className="flex-1 truncate">{String(v)}</span>
+                            <span className="flex-1 truncate">{VALUE_LABELS[f.key]?.[String(v)] || String(v)}</span>
                           </button>
                         )
                       })}

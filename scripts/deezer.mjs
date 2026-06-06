@@ -313,7 +313,7 @@ async function saveAlbum(a) {
     `slug: ${JSON.stringify(slug)}`,
     `rapper: ${JSON.stringify(NAME.rapper[artistSlug] || a.artist?.name || artistSlug)}`,
     `rapperSlug: ${JSON.stringify(artistSlug)}`,
-    a.label && labelSlug ? `label: ${JSON.stringify(NAME.label[labelSlug] || a.label)}` : (a.label ? `label: ${JSON.stringify(a.label)}` : null),
+    labelSlug ? `label: ${JSON.stringify(NAME.label[labelSlug] || a.label)}` : null,
     labelSlug ? `labelSlug: ${JSON.stringify(labelSlug)}` : null,
     year ? `year: ${year}` : null,
     `releaseType: ${JSON.stringify(releaseType)}`,
@@ -474,7 +474,9 @@ function writeEntity({ label, slug, mdx, json }) {
 async function dz(p) {
   const r = await fetch(`https://api.deezer.com/${p}`);
   if (!r.ok) throw new Error(`Deezer HTTP ${r.status} (${p})`);
-  return r.json();
+  const body = await r.json();
+  if (body.error) throw new Error(`Deezer API error (${p}): ${body.error.message || body.error.type || 'unknown'} (code ${body.error.code})`);
+  return body;
 }
 async function dzPage(p, limit) {
   let url = `https://api.deezer.com/${p}?limit=100`;
@@ -500,9 +502,24 @@ function resolveByName(name) {
   const d = despace(name); if (ALIAS.has(d)) return ALIAS.get(d);
   return null;
 }
+// Distributoři — ignorovat při mapování labelů
+const DISTRIBUTOR_SKIP = new Set([
+  'virgin-music', 'virgin-music-label-and-artist-services',
+  'believe', 'believe-music', 'believe-digital',
+  'the-orchard', 'orchard-enterprises',
+  'tune-core', 'tunecore',
+  'distrokid', 'amuse', 'ditto-music',
+  'universal-music', 'universal-music-group',
+  'warner-music', 'warner-records', 'warner-music-group',
+  'sony-music', 'sony-music-entertainment',
+]);
+
 function resolveLabel(name) {
   if (!name) return null;
-  const s = slugify(name); if (LABEL_SLUGS.has(s)) return s;
+  const s = slugify(name);
+  // Skip distributors
+  if (DISTRIBUTOR_SKIP.has(s)) return null;
+  if (LABEL_SLUGS.has(s)) return s;
   // Try LABEL_MAP
   if (LABEL_MAP.has(s)) return LABEL_MAP.get(s);
   // Fuzzy match
@@ -603,14 +620,21 @@ function normalizeGenre(name) {
 
 function makeAlbumDesc(title, releaseType, rapperName, year, nbTracks) {
   const typeLabel = releaseType === "ep" ? "EP" : "album";
-  let desc = `${rapperName} v roce ${year} vydal${year ? "" : ""} ${typeLabel === "EP" ? "EP" : "album"} ${title}.`;
+  let desc = `${rapperName} v roce ${year} vydal ${typeLabel} ${title}.`;
   if (nbTracks) desc += ` Obsahuje celkem ${nbTracks} skladeb.`;
   return desc;
 }
+
 function makeAlbumBody(title, artistSlug, rapperName, year, releaseType, labelSlug, trackCount) {
-  const lines = [`[${rapperName}](/raperi/${artistSlug}) v roce ${year} vydal${releaseType === "ep" ? " EP" : releaseType === "single" ? " singl" : " album"} **${title}**.`];
-  if (trackCount) lines.push(`\nAlbum obsahuje celkem ${trackCount} skladeb.`);
+  const typeLabel = releaseType === "ep" ? "EP" : "album";
+  const lines = [`[${rapperName}](/raperi/${artistSlug}) v roce ${year} vydal ${typeLabel} **${title}**.`];
+  if (trackCount) lines.push(`\n${typeLabel === "EP" ? "EP" : "Album"} obsahuje celkem ${trackCount} skladeb.`);
   if (labelSlug) lines.push(`\nDeska vyšla pod labelem [${NAME.label[labelSlug] || labelSlug}](/labely/${labelSlug}).`);
+  
+  // Diskografie (jen pro alba)
+  if (releaseType === "album") {
+    lines.push(`\nVíce od [${rapperName}a](/raperi/${artistSlug}).`);
+  }
   return lines.filter(Boolean).join("\n\n");
 }
 function makeRapperDesc(name, genres) {

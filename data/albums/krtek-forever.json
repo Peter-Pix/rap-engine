@@ -3,35 +3,477 @@
   "kind": "album",
   "slug": "krtek-forever",
   "title": "Krtek Forever",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
-      "slug": "yzomandias"
+      "slug": "milion-plus"
     },
     "label": null,
+    "labelName": "Virgin Music Label And Artist Services Distributed Labels",
     "year": 2023,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Fuck Off",
+      "Bye Bye",
+      "Každej Něco Hledá",
+      "AY SEE AY BEE pt. 1",
+      "AY SEE AY BEE pt. 2",
+      "Life Of Diego",
+      "Nevyčíslitelný",
+      "How High 3",
+      "Loupež",
+      "Krtek Forever"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 448627875
+    "deezerAlbumId": 448627875,
+    "nbTracks": 10
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T10:56:08.204Z",
+    "raw": {
+      "id": 448627875,
+      "title": "Krtek Forever",
+      "upc": "602455935540",
+      "link": "https://www.deezer.com/album/448627875",
+      "share": "https://www.deezer.com/album/448627875?utm_source=deezer&utm_content=album-448627875&utm_term=0_1780743368&utm_medium=web",
+      "cover": "https://api.deezer.com/album/448627875/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Virgin Music Label And Artist Services Distributed Labels",
+      "nb_tracks": 10,
+      "duration": 2065,
+      "fans": 149,
+      "release_date": "2023-06-09",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/448627875/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 93257232,
+          "name": "Milion Plus",
+          "link": "https://www.deezer.com/artist/93257232",
+          "share": "https://www.deezer.com/artist/93257232?utm_source=deezer&utm_content=artist-93257232&utm_term=0_1780743368&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/93257232/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/e316ad49842aca0449c24f225e45df1a/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e316ad49842aca0449c24f225e45df1a/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/e316ad49842aca0449c24f225e45df1a/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e316ad49842aca0449c24f225e45df1a/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        },
+        {
+          "id": 10525251,
+          "name": "Yzomandias",
+          "link": "https://www.deezer.com/artist/10525251",
+          "share": "https://www.deezer.com/artist/10525251?utm_source=deezer&utm_content=artist-10525251&utm_term=0_1780743368&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/10525251/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/8b7c9c4b50fdbd2775f42b42869a0748/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/8b7c9c4b50fdbd2775f42b42869a0748/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/8b7c9c4b50fdbd2775f42b42869a0748/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/8b7c9c4b50fdbd2775f42b42869a0748/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/10525251/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        },
+        {
+          "id": 10104030,
+          "name": "Nik Tendo",
+          "link": "https://www.deezer.com/artist/10104030",
+          "share": "https://www.deezer.com/artist/10104030?utm_source=deezer&utm_content=artist-10104030&utm_term=0_1780743368&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/10104030/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/1dc0bad632e4254cfe95e7efa60f867c/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/1dc0bad632e4254cfe95e7efa60f867c/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/1dc0bad632e4254cfe95e7efa60f867c/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/1dc0bad632e4254cfe95e7efa60f867c/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/10104030/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 93257232,
+        "name": "Milion Plus",
+        "picture": "https://api.deezer.com/artist/93257232/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/e316ad49842aca0449c24f225e45df1a/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e316ad49842aca0449c24f225e45df1a/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/e316ad49842aca0449c24f225e45df1a/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e316ad49842aca0449c24f225e45df1a/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 2310222065,
+            "readable": true,
+            "title": "Fuck Off",
+            "title_short": "Fuck Off",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222065",
+            "duration": 186,
+            "rank": 31511,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/2/0/d42e4ce5c00965b1648b543263db777f.mp3?hdnea=exp=1780744268~acl=/api/1/1/d/4/2/0/d42e4ce5c00965b1648b543263db777f.mp3*~data=user_id=0,application_id=42~hmac=1fab1600a4b8741ae7a3984104e3323d40c7cc0bf35abea971653798f3bcc7d6",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222075,
+            "readable": true,
+            "title": "Bye Bye",
+            "title_short": "Bye Bye",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222075",
+            "duration": 172,
+            "rank": 41563,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/0/b/0/f0bd3250c4f8b397077cd70a7045b915.mp3?hdnea=exp=1780744268~acl=/api/1/1/f/0/b/0/f0bd3250c4f8b397077cd70a7045b915.mp3*~data=user_id=0,application_id=42~hmac=cc37e1bc8d635810447d2c3b4e5524e4822b735c72b55cd97c80e1135f2418a7",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222085,
+            "readable": true,
+            "title": "Každej Něco Hledá",
+            "title_short": "Každej Něco Hledá",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222085",
+            "duration": 242,
+            "rank": 22425,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/2/b/0/62b906b0a73d94dd01b30790951a7962.mp3?hdnea=exp=1780744268~acl=/api/1/1/6/2/b/0/62b906b0a73d94dd01b30790951a7962.mp3*~data=user_id=0,application_id=42~hmac=a0af1624da85765b1c1688294a73a8d31096abb50d8af0dd927ae60b30910e09",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222095,
+            "readable": true,
+            "title": "AY SEE AY BEE pt. 1",
+            "title_short": "AY SEE AY BEE pt. 1",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222095",
+            "duration": 120,
+            "rank": 12832,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/6/b/0/06b623cd5ff5b9990f8758a26a437f85.mp3?hdnea=exp=1780744268~acl=/api/1/1/0/6/b/0/06b623cd5ff5b9990f8758a26a437f85.mp3*~data=user_id=0,application_id=42~hmac=76fdb523bfe900be6f240c84b253967637b75bb85d6be832ccc2439921e01a52",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222105,
+            "readable": true,
+            "title": "AY SEE AY BEE pt. 2",
+            "title_short": "AY SEE AY BEE pt. 2",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222105",
+            "duration": 220,
+            "rank": 16917,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/a/0/0faad8ab09df63776f9f17788ee90af1.mp3?hdnea=exp=1780744268~acl=/api/1/1/0/f/a/0/0faad8ab09df63776f9f17788ee90af1.mp3*~data=user_id=0,application_id=42~hmac=47a84e22ca8dfc0c395d8ce8b2524292aed9c0f1465f47d5f60f84584e77a586",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222115,
+            "readable": true,
+            "title": "Life Of Diego",
+            "title_short": "Life Of Diego",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222115",
+            "duration": 134,
+            "rank": 131200,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/2/0/4c2f06b7fba2af2e8e7320c9e2920dac.mp3?hdnea=exp=1780744268~acl=/api/1/1/4/c/2/0/4c2f06b7fba2af2e8e7320c9e2920dac.mp3*~data=user_id=0,application_id=42~hmac=a533ebff15d238ff188361d34fdcec001fabbe078346faf8387cb0b6b080023d",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222125,
+            "readable": true,
+            "title": "Nevyčíslitelný",
+            "title_short": "Nevyčíslitelný",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222125",
+            "duration": 221,
+            "rank": 20603,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/0/0/4c0281028b9e85979ae5aa2eb2b0fe06.mp3?hdnea=exp=1780744268~acl=/api/1/1/4/c/0/0/4c0281028b9e85979ae5aa2eb2b0fe06.mp3*~data=user_id=0,application_id=42~hmac=1a73f4c1b80284d8510d4234a45b31efd1998820404c772ea0ff345281ba1499",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222135,
+            "readable": true,
+            "title": "How High 3",
+            "title_short": "How High 3",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222135",
+            "duration": 191,
+            "rank": 117912,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/e/5/0/5e56d22f08fb4120cd135635fe4c4d00.mp3?hdnea=exp=1780744268~acl=/api/1/1/5/e/5/0/5e56d22f08fb4120cd135635fe4c4d00.mp3*~data=user_id=0,application_id=42~hmac=af38c904b947ec5bc7b54cc9a8e547a44de611f5853322a691408d6e9bda6317",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222145,
+            "readable": true,
+            "title": "Loupež",
+            "title_short": "Loupež",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222145",
+            "duration": 225,
+            "rank": 38505,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/6/8/0/a6872fe9e7602889a598989fabfcca85.mp3?hdnea=exp=1780744268~acl=/api/1/1/a/6/8/0/a6872fe9e7602889a598989fabfcca85.mp3*~data=user_id=0,application_id=42~hmac=b7747e5808da54e0c55d479aa0ba7d7daaf4fcdb2e7a3e8ecda2f4a6bc95a309",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2310222155,
+            "readable": true,
+            "title": "Krtek Forever",
+            "title_short": "Krtek Forever",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2310222155",
+            "duration": 354,
+            "rank": 23186,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/5/0/ff50a63a567002a89e36df9e6881b5cb.mp3?hdnea=exp=1780744268~acl=/api/1/1/f/f/5/0/ff50a63a567002a89e36df9e6881b5cb.mp3*~data=user_id=0,application_id=42~hmac=9e06e84ef27162dee6d5e9dc2c1d48254423e4a9d01d9953930085041992fe0f",
+            "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+            "artist": {
+              "id": 93257232,
+              "name": "Milion Plus",
+              "tracklist": "https://api.deezer.com/artist/93257232/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 448627875,
+              "title": "Krtek Forever",
+              "cover": "https://api.deezer.com/album/448627875/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2de22394e8cb32d49a8606aa6277366c",
+              "tracklist": "https://api.deezer.com/album/448627875/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }
