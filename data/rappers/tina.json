@@ -8,7 +8,33 @@
   "updatedAt": "2026-06-06",
   "meta": {
     "realName": "",
-    "genres": []
+    "born": "",
+    "active": {},
+    "genres": [],
+    "primaryLabel": null,
+    "socials": {},
+    "deezerId": 117150562,
+    "image": "https://cdn-images.dzcdn.net/images/artist/5a9e61d97ec026e61afaad52e1ff8087/1000x1000-000000-80-0-0.jpg",
+    "nbFans": 480,
+    "nbAlbums": 28
   },
-  "_deezer": {}
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:36:36.724Z",
+    "raw": {
+      "id": 117150562,
+      "name": "Tina",
+      "link": "https://www.deezer.com/artist/117150562",
+      "share": "https://www.deezer.com/artist/117150562?utm_source=deezer&utm_content=artist-117150562&utm_term=0_1780745796&utm_medium=web",
+      "picture": "https://api.deezer.com/artist/117150562/image",
+      "picture_small": "https://cdn-images.dzcdn.net/images/artist/5a9e61d97ec026e61afaad52e1ff8087/56x56-000000-80-0-0.jpg",
+      "picture_medium": "https://cdn-images.dzcdn.net/images/artist/5a9e61d97ec026e61afaad52e1ff8087/250x250-000000-80-0-0.jpg",
+      "picture_big": "https://cdn-images.dzcdn.net/images/artist/5a9e61d97ec026e61afaad52e1ff8087/500x500-000000-80-0-0.jpg",
+      "picture_xl": "https://cdn-images.dzcdn.net/images/artist/5a9e61d97ec026e61afaad52e1ff8087/1000x1000-000000-80-0-0.jpg",
+      "nb_album": 28,
+      "nb_fan": 480,
+      "radio": true,
+      "tracklist": "https://api.deezer.com/artist/117150562/top?limit=50",
+      "type": "artist"
+    }
+  }
 }

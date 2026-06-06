@@ -1,0 +1,42 @@
+{
+  "title": "Fénix",
+  "slug": "fenix-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "kali",
+    "dame"
+  ],
+  "featuresNames": [
+    "Kali",
+    "Dame"
+  ],
+  "album": "Pancier",
+  "albumSlug": "pancier",
+  "year": 2017,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "4:02",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "Fénix — skladba od Separ z alba Pancier (2017).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Fénix](/skladby/fenix-separ)** od [Separ](/raperi/separ) z alba [Pancier](/alba/pancier) (2017).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of x(e))!h.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(i=m(e,t))||i.enumerable});return r};var _=(r,e,n)=>(n=r!=null?d(f(r)):{},o(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),j=r=>o(s({},\"__esModule\",{value:!0}),r);var c=b((D,p)=>{p.exports=_jsx_runtime});var k={};g(k,{default:()=>u,frontmatter:()=>S});var a=_(c()),S={title:\"F\\xE9nix\",slug:\"fenix-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"kali\",\"dame\"],featuresNames:[\"Kali\",\"Dame\"],album:\"Pancier\",albumSlug:\"pancier\",year:2017,genre:[\"hip-hop\"],duration:\"4:02\",trackNumber:8,producers:[],producersNames:[],description:\"F\\xE9nix \\u2014 skladba od Separ z alba Pancier (2017).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/fenix-separ\",children:\"F\\xE9nix\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/pancier\",children:\"Pancier\"}),\" (2017).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return j(k);})();\n;return Component;"
+  },
+  "_id": "skladby/fenix-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/fenix-separ.mdx",
+    "sourceFileName": "fenix-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/fenix-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/fenix-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/fenix-separ"
+}

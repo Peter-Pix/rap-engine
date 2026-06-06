@@ -3,35 +3,439 @@
   "kind": "album",
   "slug": "celebrate-life-feat-jeremy-carr",
   "title": "Celebrate Life (feat. Jeremy Carr)",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "kato"
     },
     "label": null,
+    "labelName": "Disco:wax",
     "year": 2012,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "electronic-rap"
+    ],
+    "tracklist": [
+      "Celebrate Life (feat. Jeremy Carr) (Sick Individuals Edit)",
+      "Celebrate Life (feat. Jeremy Carr) (Sick Individuals Remix)",
+      "Celebrate Life (feat. Jeremy Carr) (Stafford Brothers Remix)",
+      "Celebrate Life (feat. Jeremy Carr) (Stafford Brothers Instrumental)",
+      "Celebrate Life (feat. Jeremy Carr) (Ballroom Bangers Remix)",
+      "Celebrate Life (feat. Jeremy Carr) (Southside House Collective Edit)",
+      "Celebrate Life (feat. Jeremy Carr) (Southside House Collective Remix)",
+      "Celebrate Life (feat. Jeremy Carr) (Southside House Collective Instrumental)",
+      "Celebrate Life (feat. Jeremy Carr) (Original Mix)"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 3552851
+    "deezerAlbumId": 3552851,
+    "nbTracks": 9
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:12:29.776Z",
+    "raw": {
+      "id": 3552851,
+      "title": "Celebrate Life (feat. Jeremy Carr)",
+      "upc": "886443015098",
+      "link": "https://www.deezer.com/album/3552851",
+      "share": "https://www.deezer.com/album/3552851?utm_source=deezer&utm_content=album-3552851&utm_term=0_1780744349&utm_medium=web",
+      "cover": "https://api.deezer.com/album/3552851/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "e9e1536715159a8be3af10d65095e56b",
+      "genre_id": 106,
+      "genres": {
+        "data": [
+          {
+            "id": 106,
+            "name": "Electro",
+            "picture": "https://api.deezer.com/genre/106/image",
+            "type": "genre"
+          },
+          {
+            "id": 111,
+            "name": "Techno/House",
+            "picture": "https://api.deezer.com/genre/111/image",
+            "type": "genre"
+          },
+          {
+            "id": 113,
+            "name": "Taneční hudba",
+            "picture": "https://api.deezer.com/genre/113/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Disco:wax",
+      "nb_tracks": 9,
+      "duration": 3229,
+      "fans": 44,
+      "release_date": "2012-06-18",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/3552851/tracks",
+      "explicit_lyrics": false,
+      "explicit_content_lyrics": 0,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 293277,
+          "name": "Kato",
+          "link": "https://www.deezer.com/artist/293277",
+          "share": "https://www.deezer.com/artist/293277?utm_source=deezer&utm_content=artist-293277&utm_term=0_1780744349&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/293277/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/e0feb6797bfe5abe9eb3014e8e9a4032/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e0feb6797bfe5abe9eb3014e8e9a4032/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/e0feb6797bfe5abe9eb3014e8e9a4032/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e0feb6797bfe5abe9eb3014e8e9a4032/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        },
+        {
+          "id": 652305,
+          "name": "Jeremy Carr",
+          "link": "https://www.deezer.com/artist/652305",
+          "share": "https://www.deezer.com/artist/652305?utm_source=deezer&utm_content=artist-652305&utm_term=0_1780744349&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/652305/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/5a0151cea9c72c8b4bb6b84126a39035/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/5a0151cea9c72c8b4bb6b84126a39035/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/5a0151cea9c72c8b4bb6b84126a39035/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/5a0151cea9c72c8b4bb6b84126a39035/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/652305/top?limit=50",
+          "type": "artist",
+          "role": "Featured"
+        }
+      ],
+      "artist": {
+        "id": 293277,
+        "name": "Kato",
+        "picture": "https://api.deezer.com/artist/293277/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/e0feb6797bfe5abe9eb3014e8e9a4032/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e0feb6797bfe5abe9eb3014e8e9a4032/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/e0feb6797bfe5abe9eb3014e8e9a4032/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e0feb6797bfe5abe9eb3014e8e9a4032/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 36534371,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Sick Individuals Edit)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Sick Individuals Edit)",
+            "link": "https://www.deezer.com/track/36534371",
+            "duration": 331,
+            "rank": 51786,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/b/6/0/db6da05ff1a710fa34143ef5270b6c30.mp3?hdnea=exp=1780745249~acl=/api/1/1/d/b/6/0/db6da05ff1a710fa34143ef5270b6c30.mp3*~data=user_id=0,application_id=42~hmac=af3570f395da46da643494cddf74a31f6b6819402a3976812aa2f3925f0227be",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 36534381,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Sick Individuals Remix)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Sick Individuals Remix)",
+            "link": "https://www.deezer.com/track/36534381",
+            "duration": 454,
+            "rank": 52960,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/3/0/6d367e727772d95367786bd337a57477.mp3?hdnea=exp=1780745249~acl=/api/1/1/6/d/3/0/6d367e727772d95367786bd337a57477.mp3*~data=user_id=0,application_id=42~hmac=276605f2604d5b4eeb398c8d871a5def6a34b0c07d78e4a1af18df5a3238dccd",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 36534391,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Stafford Brothers Remix)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Stafford Brothers Remix)",
+            "link": "https://www.deezer.com/track/36534391",
+            "duration": 368,
+            "rank": 33233,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/0/0/b6024870473ddce518bf46054301fc30.mp3?hdnea=exp=1780745249~acl=/api/1/1/b/6/0/0/b6024870473ddce518bf46054301fc30.mp3*~data=user_id=0,application_id=42~hmac=594fb119add9bffef455f0b753816109e0722983bdf370a1d97bfb76d4941581",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 36534401,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Stafford Brothers Instrumental)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Stafford Brothers Instrumental)",
+            "link": "https://www.deezer.com/track/36534401",
+            "duration": 368,
+            "rank": 22204,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/7/b/0/07b02b728ddcf46fa294af5556d8bf32.mp3?hdnea=exp=1780745249~acl=/api/1/1/0/7/b/0/07b02b728ddcf46fa294af5556d8bf32.mp3*~data=user_id=0,application_id=42~hmac=0297088676a3aa4d1e0effd6ee3defa6424dc97faf6db328db8082f97a1f1ba0",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 36534411,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Ballroom Bangers Remix)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Ballroom Bangers Remix)",
+            "link": "https://www.deezer.com/track/36534411",
+            "duration": 466,
+            "rank": 26061,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/5/0/a1548f215fa43287664f32514b0f260e.mp3?hdnea=exp=1780745249~acl=/api/1/1/a/1/5/0/a1548f215fa43287664f32514b0f260e.mp3*~data=user_id=0,application_id=42~hmac=73a79e0ba60162042dbd4dcd6e75e5249316284067bb917be32e3e9ce1953935",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 36534421,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Southside House Collective Edit)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Southside House Collective Edit)",
+            "link": "https://www.deezer.com/track/36534421",
+            "duration": 222,
+            "rank": 10041,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/4/3/0/e43fc213afe69177280f8fedea1269fd.mp3?hdnea=exp=1780745249~acl=/api/1/1/e/4/3/0/e43fc213afe69177280f8fedea1269fd.mp3*~data=user_id=0,application_id=42~hmac=87ac13859adb48f09c7de79ca5335365e8e83061a1b5c0c74f6531f99d31a401",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 36534431,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Southside House Collective Remix)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Southside House Collective Remix)",
+            "link": "https://www.deezer.com/track/36534431",
+            "duration": 409,
+            "rank": 27047,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/a/0/b5ac8da77df8903607c7a6164b1e08b4.mp3?hdnea=exp=1780745249~acl=/api/1/1/b/5/a/0/b5ac8da77df8903607c7a6164b1e08b4.mp3*~data=user_id=0,application_id=42~hmac=df6299779e99273bdf5551ffcd3a0287460ef7f0111ed50ae961bcfb6829651e",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 36534441,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Southside House Collective Instrumental)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Southside House Collective Instrumental)",
+            "link": "https://www.deezer.com/track/36534441",
+            "duration": 409,
+            "rank": 8859,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/d/c/0/0dc48cf531164b57b93a973d982da1bb.mp3?hdnea=exp=1780745249~acl=/api/1/1/0/d/c/0/0dc48cf531164b57b93a973d982da1bb.mp3*~data=user_id=0,application_id=42~hmac=e11217dd85dc8fe37b3e3e6698cd3e1b79e61aa5357d78415814c3dee897a639",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 36534451,
+            "readable": true,
+            "title": "Celebrate Life (feat. Jeremy Carr) (Original Mix)",
+            "title_short": "Celebrate Life (feat. Jeremy Carr)",
+            "title_version": "(Original Mix)",
+            "link": "https://www.deezer.com/track/36534451",
+            "duration": 202,
+            "rank": 107090,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/3/c/0/83c8d65604a881836cbaec7398f853fd.mp3?hdnea=exp=1780745249~acl=/api/1/1/8/3/c/0/83c8d65604a881836cbaec7398f853fd.mp3*~data=user_id=0,application_id=42~hmac=bbb8c39f07588caa21859e2b6074c0ff027b9a4c22dd0a4b459f31e79f6458cf",
+            "md5_image": "e9e1536715159a8be3af10d65095e56b",
+            "artist": {
+              "id": 293277,
+              "name": "Kato",
+              "tracklist": "https://api.deezer.com/artist/293277/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 3552851,
+              "title": "Celebrate Life (feat. Jeremy Carr)",
+              "cover": "https://api.deezer.com/album/3552851/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/e9e1536715159a8be3af10d65095e56b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "e9e1536715159a8be3af10d65095e56b",
+              "tracklist": "https://api.deezer.com/album/3552851/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }

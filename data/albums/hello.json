@@ -1,0 +1,497 @@
+{
+  "id": "album_hello",
+  "kind": "album",
+  "slug": "hello",
+  "title": "HELLO",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "neries"
+    },
+    "label": null,
+    "labelName": "Nerieš",
+    "year": 2024,
+    "releaseType": "album",
+    "genres": [
+      "electronic-rap",
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Zase my",
+      "Hello",
+      "Len",
+      "Kufre",
+      "Blázon",
+      "Jeden z milióna",
+      "Mikina a šortky",
+      "P.P.L.",
+      "Nezabudni",
+      "S tebou",
+      "Koniec"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 568268581,
+    "nbTracks": 11
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:39:09.115Z",
+    "raw": {
+      "id": 568268581,
+      "title": "HELLO",
+      "upc": "7316477371646",
+      "link": "https://www.deezer.com/album/568268581",
+      "share": "https://www.deezer.com/album/568268581?utm_source=deezer&utm_content=album-568268581&utm_term=0_1780745949&utm_medium=web",
+      "cover": "https://api.deezer.com/album/568268581/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+      "genre_id": 106,
+      "genres": {
+        "data": [
+          {
+            "id": 106,
+            "name": "Electro",
+            "picture": "https://api.deezer.com/genre/106/image",
+            "type": "genre"
+          },
+          {
+            "id": 113,
+            "name": "Taneční hudba",
+            "picture": "https://api.deezer.com/genre/113/image",
+            "type": "genre"
+          },
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Nerieš",
+      "nb_tracks": 11,
+      "duration": 1835,
+      "fans": 83,
+      "release_date": "2024-04-12",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/568268581/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 4,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 6984161,
+          "name": "Nerieš",
+          "link": "https://www.deezer.com/artist/6984161",
+          "share": "https://www.deezer.com/artist/6984161?utm_source=deezer&utm_content=artist-6984161&utm_term=0_1780745949&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/6984161/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 6984161,
+        "name": "Nerieš",
+        "picture": "https://api.deezer.com/artist/6984161/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 2734124981,
+            "readable": true,
+            "title": "Zase my",
+            "title_short": "Zase my",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734124981",
+            "duration": 181,
+            "rank": 54660,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/4/0/d74384e910e10baf84296e96483d9513.mp3?hdnea=exp=1780746849~acl=/api/1/1/d/7/4/0/d74384e910e10baf84296e96483d9513.mp3*~data=user_id=0,application_id=42~hmac=9e63812c052437c28565ff97908f9d4e36a33ae142bb53634fdda236a5ed830e",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734124991,
+            "readable": true,
+            "title": "Hello",
+            "title_short": "Hello",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734124991",
+            "duration": 190,
+            "rank": 55252,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/3/0/a133a700d2e5b87049cdbfb1a52edaae.mp3?hdnea=exp=1780746849~acl=/api/1/1/a/1/3/0/a133a700d2e5b87049cdbfb1a52edaae.mp3*~data=user_id=0,application_id=42~hmac=ef40094652987ec99f3d14d3edcdb677db24f5f341d6bbab48cecb081d1c90a2",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125001,
+            "readable": true,
+            "title": "Len",
+            "title_short": "Len",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125001",
+            "duration": 198,
+            "rank": 15690,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/2/5/0/d254069529bdc349b53859096f076bde.mp3?hdnea=exp=1780746849~acl=/api/1/1/d/2/5/0/d254069529bdc349b53859096f076bde.mp3*~data=user_id=0,application_id=42~hmac=ec9162529e25cce9ce7cc9b0b12b840f502a9677a92ce6b137127b5a5892ca3a",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125011,
+            "readable": true,
+            "title": "Kufre",
+            "title_short": "Kufre",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125011",
+            "duration": 217,
+            "rank": 32049,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/e/3/0/9e39fb512ea2a9221eab518d44fe7ad7.mp3?hdnea=exp=1780746849~acl=/api/1/1/9/e/3/0/9e39fb512ea2a9221eab518d44fe7ad7.mp3*~data=user_id=0,application_id=42~hmac=83de748984de8553741eb6b143d047ba02322b925f9a642485780ec92948d177",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125021,
+            "readable": true,
+            "title": "Blázon",
+            "title_short": "Blázon",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125021",
+            "duration": 175,
+            "rank": 39640,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/1/0/1a14558cf82bedab6ee2d43c963baae0.mp3?hdnea=exp=1780746849~acl=/api/1/1/1/a/1/0/1a14558cf82bedab6ee2d43c963baae0.mp3*~data=user_id=0,application_id=42~hmac=f8f25c628a19a84ca3408da0a11aab8ef646ac198d6f5211cece1cbc666f44f2",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125031,
+            "readable": true,
+            "title": "Jeden z milióna",
+            "title_short": "Jeden z milióna",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125031",
+            "duration": 122,
+            "rank": 32861,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/e/4/0/1e48d9610cff851f1edad9d05114ae02.mp3?hdnea=exp=1780746849~acl=/api/1/1/1/e/4/0/1e48d9610cff851f1edad9d05114ae02.mp3*~data=user_id=0,application_id=42~hmac=17e3e6a1660942c2c08393c41bdb50abb42ed031f53881064228f33547e2bc43",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125041,
+            "readable": true,
+            "title": "Mikina a šortky",
+            "title_short": "Mikina a šortky",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125041",
+            "duration": 153,
+            "rank": 63354,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/d/0/88d83ab996b81d6a8546e3fb67585280.mp3?hdnea=exp=1780746849~acl=/api/1/1/8/8/d/0/88d83ab996b81d6a8546e3fb67585280.mp3*~data=user_id=0,application_id=42~hmac=1b897aa2f2349843ab4d6017dc9904b2f18c37c72523de69ccb59dd9bc8af88e",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125051,
+            "readable": true,
+            "title": "P.P.L.",
+            "title_short": "P.P.L.",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125051",
+            "duration": 163,
+            "rank": 23378,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/e/0/52ef77389bfef5703b2e509ea355153d.mp3?hdnea=exp=1780746849~acl=/api/1/1/5/2/e/0/52ef77389bfef5703b2e509ea355153d.mp3*~data=user_id=0,application_id=42~hmac=86e3437e4ee12d8f2910a8cef247d4e6fe883e4372f5b98c7e7f3524119e2df2",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125061,
+            "readable": true,
+            "title": "Nezabudni",
+            "title_short": "Nezabudni",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125061",
+            "duration": 152,
+            "rank": 31712,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/8/0/0c89fd7cb54629aa733fc5a25e4189ca.mp3?hdnea=exp=1780746849~acl=/api/1/1/0/c/8/0/0c89fd7cb54629aa733fc5a25e4189ca.mp3*~data=user_id=0,application_id=42~hmac=980666ea51bace74e04fa2df3bcf985fd4016ea207f544d0f4da7cdafc653a6a",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125071,
+            "readable": true,
+            "title": "S tebou",
+            "title_short": "S tebou",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125071",
+            "duration": 127,
+            "rank": 17758,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/d/0/3bda6ce6c508dadc7701b1ae19170e8e.mp3?hdnea=exp=1780746849~acl=/api/1/1/3/b/d/0/3bda6ce6c508dadc7701b1ae19170e8e.mp3*~data=user_id=0,application_id=42~hmac=93bf11a03eee259e2a572a1b3174dece0bb9e705a4c3a18240513f901a7c7c52",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2734125081,
+            "readable": true,
+            "title": "Koniec",
+            "title_short": "Koniec",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2734125081",
+            "duration": 157,
+            "rank": 25190,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/5/0/f157457dd0a2e15d854879727149a1f3.mp3?hdnea=exp=1780746849~acl=/api/1/1/f/1/5/0/f157457dd0a2e15d854879727149a1f3.mp3*~data=user_id=0,application_id=42~hmac=7479d7211e913dd79a8d1e6d8553e36f8786416939b35ae455108a2e4ad9500c",
+            "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 568268581,
+              "title": "HELLO",
+              "cover": "https://api.deezer.com/album/568268581/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/24f430e65ed7151ceafacfccad5da48c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "24f430e65ed7151ceafacfccad5da48c",
+              "tracklist": "https://api.deezer.com/album/568268581/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "id": "album_fts",
+  "kind": "album",
+  "slug": "fts",
+  "title": "FTS",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "michajlov"
+    },
+    "label": {
+      "kind": "label",
+      "slug": "1312-records"
+    },
+    "labelName": "1312 Records",
+    "year": 2025,
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Podle sebe",
+      "Rozdíl",
+      "Není málo",
+      "Lays",
+      "5. přes 9.",
+      "Každej den",
+      "Není závist",
+      "FTS",
+      "Pro holky",
+      "Zmizely pryč"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 811453031,
+    "nbTracks": 10
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:38:34.814Z",
+    "raw": {
+      "id": 811453031,
+      "title": "FTS",
+      "upc": "199538547955",
+      "link": "https://www.deezer.com/album/811453031",
+      "share": "https://www.deezer.com/album/811453031?utm_source=deezer&utm_content=album-811453031&utm_term=0_1780745914&utm_medium=web",
+      "cover": "https://api.deezer.com/album/811453031/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "1312 Records",
+      "nb_tracks": 10,
+      "duration": 1728,
+      "fans": 11,
+      "release_date": "2025-09-22",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/811453031/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 11658477,
+          "name": "Michajlov",
+          "link": "https://www.deezer.com/artist/11658477",
+          "share": "https://www.deezer.com/artist/11658477?utm_source=deezer&utm_content=artist-11658477&utm_term=0_1780745914&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/11658477/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 11658477,
+        "name": "Michajlov",
+        "picture": "https://api.deezer.com/artist/11658477/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 3527548521,
+            "readable": true,
+            "title": "Podle sebe",
+            "title_short": "Podle sebe",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548521",
+            "duration": 178,
+            "rank": 7908,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/4/0/3b4a3930b06f0bd7734402c60b01dc1a.mp3?hdnea=exp=1780746814~acl=/api/1/1/3/b/4/0/3b4a3930b06f0bd7734402c60b01dc1a.mp3*~data=user_id=0,application_id=42~hmac=18c41550515ed8720fc239566e167ee49766cc0a1d5b01e4ec1ad5e0baf39c8f",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548531,
+            "readable": true,
+            "title": "Rozdíl",
+            "title_short": "Rozdíl",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548531",
+            "duration": 164,
+            "rank": 17934,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/b/0/0/bb05afc0dd03be59fdc81aa9cd52e2b2.mp3?hdnea=exp=1780746814~acl=/api/1/1/b/b/0/0/bb05afc0dd03be59fdc81aa9cd52e2b2.mp3*~data=user_id=0,application_id=42~hmac=61e7f9aaa5d3b7ac8a69dadfa0bf641fccf4ef367a4716821b951308d8962b42",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548541,
+            "readable": true,
+            "title": "Není málo",
+            "title_short": "Není málo",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548541",
+            "duration": 153,
+            "rank": 8840,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/b/0/f6be19f029f99561970c16fac2646afe.mp3?hdnea=exp=1780746814~acl=/api/1/1/f/6/b/0/f6be19f029f99561970c16fac2646afe.mp3*~data=user_id=0,application_id=42~hmac=ed65a989a0623a3c449129787132014bbdf338cf601e2ec067568aa72ee0d159",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548551,
+            "readable": true,
+            "title": "Lays",
+            "title_short": "Lays",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548551",
+            "duration": 172,
+            "rank": 98082,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/f/0/29f6a6bfd1f6209f099c796bb5b026bf.mp3?hdnea=exp=1780746814~acl=/api/1/1/2/9/f/0/29f6a6bfd1f6209f099c796bb5b026bf.mp3*~data=user_id=0,application_id=42~hmac=62c559ca73cbff178eb6172a166974acd8ba884a16ed60581abf065f4b770256",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548561,
+            "readable": true,
+            "title": "5. přes 9.",
+            "title_short": "5. přes 9.",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548561",
+            "duration": 159,
+            "rank": 51297,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/0/3/0/f0343671cc010fff6f84254f8436288b.mp3?hdnea=exp=1780746814~acl=/api/1/1/f/0/3/0/f0343671cc010fff6f84254f8436288b.mp3*~data=user_id=0,application_id=42~hmac=32997f228c4ab49c0d2df67aecf4670ef7d4b23e44e8520feecd26aa54c72567",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548571,
+            "readable": true,
+            "title": "Každej den",
+            "title_short": "Každej den",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548571",
+            "duration": 179,
+            "rank": 83586,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/b/0/0/2b097ed213620f8758470e2d26fb93d2.mp3?hdnea=exp=1780746814~acl=/api/1/1/2/b/0/0/2b097ed213620f8758470e2d26fb93d2.mp3*~data=user_id=0,application_id=42~hmac=802f132aff02eeee99154e4adee04c4fa8aac77ccf37b434f8607af3ccd368c1",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548581,
+            "readable": true,
+            "title": "Není závist",
+            "title_short": "Není závist",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548581",
+            "duration": 177,
+            "rank": 21299,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/b/0/3eb300c874a6040f39584713ca8390c4.mp3?hdnea=exp=1780746814~acl=/api/1/1/3/e/b/0/3eb300c874a6040f39584713ca8390c4.mp3*~data=user_id=0,application_id=42~hmac=08b004b8a9321d8621b2e393d2871b5e84e13e993d4cda72ed0f1d438ce4ec51",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548591,
+            "readable": true,
+            "title": "FTS",
+            "title_short": "FTS",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548591",
+            "duration": 177,
+            "rank": 64967,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/3/0/2133af4ccc16dc73b5eaf08875eb051e.mp3?hdnea=exp=1780746814~acl=/api/1/1/2/1/3/0/2133af4ccc16dc73b5eaf08875eb051e.mp3*~data=user_id=0,application_id=42~hmac=404277eb52c3d37503fbb2c39a718bc66b261710f584248e4b40e5afb6739a78",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548601,
+            "readable": true,
+            "title": "Pro holky",
+            "title_short": "Pro holky",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548601",
+            "duration": 158,
+            "rank": 52403,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/e/d/0/3ed67d63ae8087b3d7c67999b93a9f9e.mp3?hdnea=exp=1780746814~acl=/api/1/1/3/e/d/0/3ed67d63ae8087b3d7c67999b93a9f9e.mp3*~data=user_id=0,application_id=42~hmac=8d8e3bb6079ee6846649201345198b0f47b175f6b7cf01f54453258431202b37",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3527548611,
+            "readable": true,
+            "title": "Zmizely pryč",
+            "title_short": "Zmizely pryč",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3527548611",
+            "duration": 211,
+            "rank": 13246,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/a/0/1faced86d3be1ea71398110e4383ceea.mp3?hdnea=exp=1780746814~acl=/api/1/1/1/f/a/0/1faced86d3be1ea71398110e4383ceea.mp3*~data=user_id=0,application_id=42~hmac=9ba03497c90ae445d1cb29c47fb9766ec1b5afe0383fc5420413241386c0c1ea",
+            "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 811453031,
+              "title": "FTS",
+              "cover": "https://api.deezer.com/album/811453031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/48bf14f41987d2e082ca0b12312c22fc/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "48bf14f41987d2e082ca0b12312c22fc",
+              "tracklist": "https://api.deezer.com/album/811453031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "The Fat Animals",
+  "slug": "the-fat-animals",
+  "realName": "The Fat Animals",
+  "genre": [],
+  "description": "The Fat Animals — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),j=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of u(t))!_.call(e,s)&&s!==r&&a(e,s,{get:()=>t[s],enumerable:!(o=d(t,s))||o.enumerable});return e};var F=(e,t,r)=>(r=e!=null?p(x(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(a({},\"__esModule\",{value:!0}),e);var c=f((b,m)=>{m.exports=_jsx_runtime});var M={};j(M,{default:()=>h,frontmatter:()=>A});var n=F(c()),A={title:\"The Fat Animals\",slug:\"the-fat-animals\",realName:\"The Fat Animals\",genre:[],description:\"The Fat Animals \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function l(e){let t={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(t.p,{children:(0,n.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(l,{...e})}):l(e)}return g(M);})();\n;return Component;"
+  },
+  "_id": "raperi/the-fat-animals.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/the-fat-animals.mdx",
+    "sourceFileName": "the-fat-animals.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/the-fat-animals"
+  },
+  "type": "Rapper",
+  "url": "/raperi/the-fat-animals",
+  "canonicalUrl": "https://4rap.cz/raperi/the-fat-animals"
+}

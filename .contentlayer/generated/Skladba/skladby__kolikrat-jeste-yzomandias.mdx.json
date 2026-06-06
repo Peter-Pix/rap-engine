@@ -15,18 +15,18 @@
   "albumSlug": "kruhy-vlny",
   "year": 2023,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "3:27",
   "trackNumber": 6,
   "producers": [],
   "producersNames": [],
-  "description": "Kolikrát Ještě? — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Kolikrát Ještě? — skladba od Yzomandias z alba Kruhy & Vlny (217 Twins Edition) (2023).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
     "raw": "\n**[Kolikrát Ještě?](/skladby/kolikrat-jeste-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var t in e)o(n,t,{get:e[t],enumerable:!0})},i=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of y(e))!k.call(n,a)&&a!==t&&o(n,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return n};var b=(n,e,t)=>(t=n!=null?m(h(n)):{},i(e||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),g=n=>i(o({},\"__esModule\",{value:!0}),n);var l=f((K,d)=>{d.exports=_jsx_runtime});var j={};x(j,{default:()=>c,frontmatter:()=>z});var r=b(l()),z={title:\"Kolikr\\xE1t Je\\u0161t\\u011B?\",slug:\"kolikrat-jeste-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"58g\"],featuresNames:[\"Nik Tendo\",\"58G\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"3:27\",trackNumber:6,producers:[],producersNames:[],description:\"Kolikr\\xE1t Je\\u0161t\\u011B? \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/skladby/kolikrat-jeste-yzomandias\",children:\"Kolikr\\xE1t Je\\u0161t\\u011B?\"})}),\" od \",(0,r.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(e.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(u,{...n})}):u(n)}return g(j);})();\n;return Component;"
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),b=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of p(n))!k.call(e,a)&&a!==t&&o(e,a,{get:()=>n[a],enumerable:!(i=h(n,a))||i.enumerable});return e};var x=(e,n,t)=>(t=e!=null?m(y(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),z=e=>s(o({},\"__esModule\",{value:!0}),e);var l=f((_,d)=>{d.exports=_jsx_runtime});var j={};b(j,{default:()=>c,frontmatter:()=>g});var r=x(l()),g={title:\"Kolikr\\xE1t Je\\u0161t\\u011B?\",slug:\"kolikrat-jeste-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"58g\"],featuresNames:[\"Nik Tendo\",\"58G\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"hip-hop\"],duration:\"3:27\",trackNumber:6,producers:[],producersNames:[],description:\"Kolikr\\xE1t Je\\u0161t\\u011B? \\u2014 skladba od Yzomandias z alba Kruhy & Vlny (217 Twins Edition) (2023).\",publishedAt:\"2026-06-06\"};function u(e){let n={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/skladby/kolikrat-jeste-yzomandias\",children:\"Kolikr\\xE1t Je\\u0161t\\u011B?\"})}),\" od \",(0,r.jsx)(n.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,r.jsx)(n.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(u,{...e})}):u(e)}return z(j);})();\n;return Component;"
   },
   "_id": "skladby/kolikrat-jeste-yzomandias.mdx",
   "_raw": {

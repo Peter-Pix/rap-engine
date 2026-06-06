@@ -9,22 +9,22 @@
   "featuresNames": [
     "Nik Tendo"
   ],
-  "album": "Kruhy & Vlny (217 Twins Edition)",
+  "album": "Kruhy & Vlny",
   "albumSlug": "kruhy-vlny",
-  "year": 2023,
+  "year": 2022,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "1:55",
-  "trackNumber": 19,
+  "trackNumber": 11,
   "producers": [],
   "producersNames": [],
-  "description": "Míša Boček Flexx — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Míša Boček Flexx — skladba od Yzomandias z alba Kruhy & Vlny (2022).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Míša Boček Flexx](/skladby/misa-bocek-flexx-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
-    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),k=(n,e)=>{for(var r in e)t(n,r,{get:e[r],enumerable:!0})},i=(n,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!h.call(n,o)&&o!==r&&t(n,o,{get:()=>e[o],enumerable:!(s=x(e,o))||s.enumerable});return n};var b=(n,e,r)=>(r=n!=null?m(y(n)):{},i(e||!n||!n.__esModule?t(r,\"default\",{value:n,enumerable:!0}):r,n)),z=n=>i(t({},\"__esModule\",{value:!0}),n);var l=f((j,d)=>{d.exports=_jsx_runtime});var M={};k(M,{default:()=>c,frontmatter:()=>g});var a=b(l()),g={title:\"M\\xED\\u0161a Bo\\u010Dek Flexx\",slug:\"misa-bocek-flexx-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"1:55\",trackNumber:19,producers:[],producersNames:[],description:\"M\\xED\\u0161a Bo\\u010Dek Flexx \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/misa-bocek-flexx-yzomandias\",children:\"M\\xED\\u0161a Bo\\u010Dek Flexx\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(u,{...n})}):u(n)}return z(M);})();\n;return Component;"
+    "raw": "\n**[Míša Boček Flexx](/skladby/misa-bocek-flexx-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny](/alba/kruhy-vlny) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),k=(a,e)=>{for(var r in e)t(a,r,{get:e[r],enumerable:!0})},l=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!y.call(a,o)&&o!==r&&t(a,o,{get:()=>e[o],enumerable:!(s=x(e,o))||s.enumerable});return a};var b=(a,e,r)=>(r=a!=null?m(p(a)):{},l(e||!a||!a.__esModule?t(r,\"default\",{value:a,enumerable:!0}):r,a)),z=a=>l(t({},\"__esModule\",{value:!0}),a);var d=f((j,i)=>{i.exports=_jsx_runtime});var M={};k(M,{default:()=>c,frontmatter:()=>g});var n=b(d()),g={title:\"M\\xED\\u0161a Bo\\u010Dek Flexx\",slug:\"misa-bocek-flexx-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny\",albumSlug:\"kruhy-vlny\",year:2022,genre:[\"hip-hop\"],duration:\"1:55\",trackNumber:11,producers:[],producersNames:[],description:\"M\\xED\\u0161a Bo\\u010Dek Flexx \\u2014 skladba od Yzomandias z alba Kruhy & Vlny (2022).\",publishedAt:\"2026-06-06\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/misa-bocek-flexx-yzomandias\",children:\"M\\xED\\u0161a Bo\\u010Dek Flexx\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny\"}),\" (2022).\"]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(u,{...a})}):u(a)}return z(M);})();\n;return Component;"
   },
   "_id": "skladby/misa-bocek-flexx-yzomandias.mdx",
   "_raw": {

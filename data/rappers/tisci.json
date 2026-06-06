@@ -8,7 +8,33 @@
   "updatedAt": "2026-06-06",
   "meta": {
     "realName": "",
-    "genres": []
+    "born": "",
+    "active": {},
+    "genres": [],
+    "primaryLabel": null,
+    "socials": {},
+    "deezerId": 14513665,
+    "image": "https://cdn-images.dzcdn.net/images/artist/4ea3ef95d0556ac5a0b7ea283281940c/1000x1000-000000-80-0-0.jpg",
+    "nbFans": 192,
+    "nbAlbums": 22
   },
-  "_deezer": {}
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:41:58.021Z",
+    "raw": {
+      "id": 14513665,
+      "name": "Tisci",
+      "link": "https://www.deezer.com/artist/14513665",
+      "share": "https://www.deezer.com/artist/14513665?utm_source=deezer&utm_content=artist-14513665&utm_term=0_1780746118&utm_medium=web",
+      "picture": "https://api.deezer.com/artist/14513665/image",
+      "picture_small": "https://cdn-images.dzcdn.net/images/artist/4ea3ef95d0556ac5a0b7ea283281940c/56x56-000000-80-0-0.jpg",
+      "picture_medium": "https://cdn-images.dzcdn.net/images/artist/4ea3ef95d0556ac5a0b7ea283281940c/250x250-000000-80-0-0.jpg",
+      "picture_big": "https://cdn-images.dzcdn.net/images/artist/4ea3ef95d0556ac5a0b7ea283281940c/500x500-000000-80-0-0.jpg",
+      "picture_xl": "https://cdn-images.dzcdn.net/images/artist/4ea3ef95d0556ac5a0b7ea283281940c/1000x1000-000000-80-0-0.jpg",
+      "nb_album": 22,
+      "nb_fan": 192,
+      "radio": true,
+      "tracklist": "https://api.deezer.com/artist/14513665/top?limit=50",
+      "type": "artist"
+    }
+  }
 }

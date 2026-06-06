@@ -9,22 +9,22 @@
   "featuresNames": [
     "Nik Tendo"
   ],
-  "album": "Kruhy & Vlny (217 Twins Edition)",
+  "album": "Kruhy & Vlny",
   "albumSlug": "kruhy-vlny",
-  "year": 2023,
+  "year": 2022,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "0:38",
-  "trackNumber": 10,
+  "trackNumber": 2,
   "producers": [],
   "producersNames": [],
-  "description": "Cykloskit feat. Šimon Havlík — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Cykloskit feat. Šimon Havlík — skladba od Yzomandias z alba Kruhy & Vlny (2022).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Cykloskit feat. Šimon Havlík](/skladby/cykloskit-feat-simon-havlik-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
-    "code": "var Component=(()=>{var k=Object.create;var r=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var p=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),x=(a,n)=>{for(var t in n)r(a,t,{get:n[t],enumerable:!0})},s=(a,n,t,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of y(n))!f.call(a,o)&&o!==t&&r(a,o,{get:()=>n[o],enumerable:!(i=c(n,o))||i.enumerable});return a};var b=(a,n,t)=>(t=a!=null?k(h(a)):{},s(n||!a||!a.__esModule?r(t,\"default\",{value:a,enumerable:!0}):t,a)),z=a=>s(r({},\"__esModule\",{value:!0}),a);var d=p((j,l)=>{l.exports=_jsx_runtime});var v={};x(v,{default:()=>u,frontmatter:()=>g});var e=b(d()),g={title:\"Cykloskit feat. \\u0160imon Havl\\xEDk\",slug:\"cykloskit-feat-simon-havlik-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"0:38\",trackNumber:10,producers:[],producersNames:[],description:\"Cykloskit feat. \\u0160imon Havl\\xEDk \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function m(a){let n={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:(0,e.jsx)(n.a,{href:\"/skladby/cykloskit-feat-simon-havlik-yzomandias\",children:\"Cykloskit feat. \\u0160imon Havl\\xEDk\"})}),\" od \",(0,e.jsx)(n.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(n.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function u(a={}){let{wrapper:n}=a.components||{};return n?(0,e.jsx)(n,{...a,children:(0,e.jsx)(m,{...a})}):m(a)}return z(v);})();\n;return Component;"
+    "raw": "\n**[Cykloskit feat. Šimon Havlík](/skladby/cykloskit-feat-simon-havlik-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny](/alba/kruhy-vlny) (2022).\n",
+    "code": "var Component=(()=>{var k=Object.create;var o=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var c=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),b=(n,a)=>{for(var r in a)o(n,r,{get:a[r],enumerable:!0})},i=(n,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let t of c(a))!p.call(n,t)&&t!==r&&o(n,t,{get:()=>a[t],enumerable:!(s=y(a,t))||s.enumerable});return n};var x=(n,a,r)=>(r=n!=null?k(h(n)):{},i(a||!n||!n.__esModule?o(r,\"default\",{value:n,enumerable:!0}):r,n)),z=n=>i(o({},\"__esModule\",{value:!0}),n);var d=f((j,l)=>{l.exports=_jsx_runtime});var v={};b(v,{default:()=>u,frontmatter:()=>g});var e=x(d()),g={title:\"Cykloskit feat. \\u0160imon Havl\\xEDk\",slug:\"cykloskit-feat-simon-havlik-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny\",albumSlug:\"kruhy-vlny\",year:2022,genre:[\"hip-hop\"],duration:\"0:38\",trackNumber:2,producers:[],producersNames:[],description:\"Cykloskit feat. \\u0160imon Havl\\xEDk \\u2014 skladba od Yzomandias z alba Kruhy & Vlny (2022).\",publishedAt:\"2026-06-06\"};function m(n){let a={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/cykloskit-feat-simon-havlik-yzomandias\",children:\"Cykloskit feat. \\u0160imon Havl\\xEDk\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny\"}),\" (2022).\"]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return z(v);})();\n;return Component;"
   },
   "_id": "skladby/cykloskit-feat-simon-havlik-yzomandias.mdx",
   "_raw": {

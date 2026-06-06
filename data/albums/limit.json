@@ -1,0 +1,592 @@
+{
+  "id": "album_limit",
+  "kind": "album",
+  "slug": "limit",
+  "title": "Limit",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "michajlov"
+    },
+    "label": {
+      "kind": "label",
+      "slug": "1312-records"
+    },
+    "labelName": "1312 Records",
+    "year": 2020,
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Já jsem rap",
+      "Nikomu nic",
+      "Minulej čas",
+      "Constantine",
+      "Bratan",
+      "Kordon",
+      "Nikdy nezapomeň",
+      "O čem mám psát",
+      "Podobný osudy",
+      "Průměr",
+      "Špatnej vzor",
+      "Úspěch se neodpouští",
+      "Všechno je jak má bejt",
+      "Limit"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 187860012,
+    "nbTracks": 14
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:38:56.158Z",
+    "raw": {
+      "id": 187860012,
+      "title": "Limit",
+      "upc": "8594056297610",
+      "link": "https://www.deezer.com/album/187860012",
+      "share": "https://www.deezer.com/album/187860012?utm_source=deezer&utm_content=album-187860012&utm_term=0_1780745936&utm_medium=web",
+      "cover": "https://api.deezer.com/album/187860012/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "f45101e8922be3066b8c3026959ab01d",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "1312 Records",
+      "nb_tracks": 14,
+      "duration": 2660,
+      "fans": 171,
+      "release_date": "2020-12-13",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/187860012/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 11658477,
+          "name": "Michajlov",
+          "link": "https://www.deezer.com/artist/11658477",
+          "share": "https://www.deezer.com/artist/11658477?utm_source=deezer&utm_content=artist-11658477&utm_term=0_1780745936&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/11658477/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 11658477,
+        "name": "Michajlov",
+        "picture": "https://api.deezer.com/artist/11658477/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/44698a3f81bf4dd708d989b325a3affe/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 1148968062,
+            "readable": true,
+            "title": "Já jsem rap",
+            "title_short": "Já jsem rap",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968062",
+            "duration": 175,
+            "rank": 17835,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/b/0/f5b49835bd14c073c72904b1fa04b915.mp3?hdnea=exp=1780746836~acl=/api/1/1/f/5/b/0/f5b49835bd14c073c72904b1fa04b915.mp3*~data=user_id=0,application_id=42~hmac=d14ec4026d49a75c97170e8ce4770a560793bd799ce56f00501209279e2ab80d",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968072,
+            "readable": true,
+            "title": "Nikomu nic",
+            "title_short": "Nikomu nic",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968072",
+            "duration": 162,
+            "rank": 2125,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/1/3/0/7138d4eba2763878a971fbc8cd4a4890.mp3?hdnea=exp=1780746836~acl=/api/1/1/7/1/3/0/7138d4eba2763878a971fbc8cd4a4890.mp3*~data=user_id=0,application_id=42~hmac=831a37a01b77beb81154b795c38a551278cefb6d3b6e56385ccbf6584ee45539",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968082,
+            "readable": true,
+            "title": "Minulej čas",
+            "title_short": "Minulej čas",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968082",
+            "duration": 168,
+            "rank": 31586,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/d/0/0/6d0afea92baa138ad4249dc5f17f34f0.mp3?hdnea=exp=1780746836~acl=/api/1/1/6/d/0/0/6d0afea92baa138ad4249dc5f17f34f0.mp3*~data=user_id=0,application_id=42~hmac=57945e3af79aa9d5be96b7006f0cc382d7b741532bc70d5f92a3ee8eef79d359",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968092,
+            "readable": true,
+            "title": "Constantine",
+            "title_short": "Constantine",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968092",
+            "duration": 169,
+            "rank": 16023,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/7/8/0/c78577e8a9708ece0b78fbeaa9af351b.mp3?hdnea=exp=1780746836~acl=/api/1/1/c/7/8/0/c78577e8a9708ece0b78fbeaa9af351b.mp3*~data=user_id=0,application_id=42~hmac=58ccf762e4abc93c8684da32a383300482134a17a649447511d89c7c4b3bceb2",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968102,
+            "readable": true,
+            "title": "Bratan",
+            "title_short": "Bratan",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968102",
+            "duration": 221,
+            "rank": 21515,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/f/0/39f4086a9b08b63f7ef610cb5b539fa6.mp3?hdnea=exp=1780746836~acl=/api/1/1/3/9/f/0/39f4086a9b08b63f7ef610cb5b539fa6.mp3*~data=user_id=0,application_id=42~hmac=551a5ea3158d4c83eefe117805b14ddc1d685dd871a5eeff6c9aec2072dde048",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968112,
+            "readable": true,
+            "title": "Kordon",
+            "title_short": "Kordon",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968112",
+            "duration": 246,
+            "rank": 13659,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/8/0/ae8b8f12994714ca5b8a1fa2189f7fef.mp3?hdnea=exp=1780746836~acl=/api/1/1/a/e/8/0/ae8b8f12994714ca5b8a1fa2189f7fef.mp3*~data=user_id=0,application_id=42~hmac=24d85197abf3bb629b73a7f1aaa0cc41df7f67b8de5801d69246bd44a007bc20",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968122,
+            "readable": true,
+            "title": "Nikdy nezapomeň",
+            "title_short": "Nikdy nezapomeň",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968122",
+            "duration": 176,
+            "rank": 13432,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/b/8/0/bb83ce5c845d34fe2e349381bb9a59cc.mp3?hdnea=exp=1780746836~acl=/api/1/1/b/b/8/0/bb83ce5c845d34fe2e349381bb9a59cc.mp3*~data=user_id=0,application_id=42~hmac=65b325d4c6ab3bc33bbace9188d4736cb66d7fa715647795a321061feecc3847",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968132,
+            "readable": true,
+            "title": "O čem mám psát",
+            "title_short": "O čem mám psát",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968132",
+            "duration": 210,
+            "rank": 911,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/d/5/0/1d51c12972d7de278f78317bd422569f.mp3?hdnea=exp=1780746836~acl=/api/1/1/1/d/5/0/1d51c12972d7de278f78317bd422569f.mp3*~data=user_id=0,application_id=42~hmac=35ef39319e783caf7e0d21360218766698fa1e4f5775d5511a498e970e32f4ec",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968142,
+            "readable": true,
+            "title": "Podobný osudy",
+            "title_short": "Podobný osudy",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968142",
+            "duration": 197,
+            "rank": 10079,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/c/0/28c9a8a076c037ab11f2edb366f8514c.mp3?hdnea=exp=1780746836~acl=/api/1/1/2/8/c/0/28c9a8a076c037ab11f2edb366f8514c.mp3*~data=user_id=0,application_id=42~hmac=971eb9b265ee82ee8b6e591dbfe7994c9a1cf7a67dea4219afc9433daf7319be",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968152,
+            "readable": true,
+            "title": "Průměr",
+            "title_short": "Průměr",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968152",
+            "duration": 220,
+            "rank": 37064,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/3/8/0/33842a5705e7abcba995368b35117ac6.mp3?hdnea=exp=1780746836~acl=/api/1/1/3/3/8/0/33842a5705e7abcba995368b35117ac6.mp3*~data=user_id=0,application_id=42~hmac=caa2b6001842b5a8077498be5fc17ae2407308766477c4baedc5ece881ac4a6f",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968162,
+            "readable": true,
+            "title": "Špatnej vzor",
+            "title_short": "Špatnej vzor",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968162",
+            "duration": 183,
+            "rank": 22449,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/7/0/5c743c2fe2d49a73ba4a41f41d8545bc.mp3?hdnea=exp=1780746836~acl=/api/1/1/5/c/7/0/5c743c2fe2d49a73ba4a41f41d8545bc.mp3*~data=user_id=0,application_id=42~hmac=e5aff5041bdf8df67938863b7c98fbbeb08c229f2e4008f13a14a32c7f041ef0",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968172,
+            "readable": true,
+            "title": "Úspěch se neodpouští",
+            "title_short": "Úspěch se neodpouští",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968172",
+            "duration": 206,
+            "rank": 2773,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/0/0/850bd0e70f5aaebc4755d3c13a1bbcaa.mp3?hdnea=exp=1780746836~acl=/api/1/1/8/5/0/0/850bd0e70f5aaebc4755d3c13a1bbcaa.mp3*~data=user_id=0,application_id=42~hmac=dbc6d7c4ee296001861160c37821e82be5102d67f4ffda82ef95994864c76602",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968182,
+            "readable": true,
+            "title": "Všechno je jak má bejt",
+            "title_short": "Všechno je jak má bejt",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968182",
+            "duration": 161,
+            "rank": 3869,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/3/3/0/b3317af290c39b35e950d083f9d5039e.mp3?hdnea=exp=1780746836~acl=/api/1/1/b/3/3/0/b3317af290c39b35e950d083f9d5039e.mp3*~data=user_id=0,application_id=42~hmac=2f3045e0a688249639ee62ee28d14458bf2bcb1f66b74c0c82901d24479dce32",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1148968192,
+            "readable": true,
+            "title": "Limit",
+            "title_short": "Limit",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1148968192",
+            "duration": 166,
+            "rank": 25083,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/2/5/0/02533cc9970415b467a4dbd3e6c42d8b.mp3?hdnea=exp=1780746836~acl=/api/1/1/0/2/5/0/02533cc9970415b467a4dbd3e6c42d8b.mp3*~data=user_id=0,application_id=42~hmac=73074d3354adb480ebc412dc51243b4b569adef6cd466f607450a122c0126c6e",
+            "md5_image": "f45101e8922be3066b8c3026959ab01d",
+            "artist": {
+              "id": 11658477,
+              "name": "Michajlov",
+              "tracklist": "https://api.deezer.com/artist/11658477/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 187860012,
+              "title": "Limit",
+              "cover": "https://api.deezer.com/album/187860012/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/f45101e8922be3066b8c3026959ab01d/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "f45101e8922be3066b8c3026959ab01d",
+              "tracklist": "https://api.deezer.com/album/187860012/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

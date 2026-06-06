@@ -1,0 +1,36 @@
+{
+  "title": "Intro",
+  "slug": "intro-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [],
+  "featuresNames": [],
+  "album": "NEVIEM",
+  "albumSlug": "neviem",
+  "year": 2025,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "1:50",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Intro — skladba od Separ z alba NEVIEM (2025).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Intro](/skladby/intro-separ)** od [Separ](/raperi/separ) z alba [NEVIEM](/alba/neviem) (2025).\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var a in e)o(r,a,{get:e[a],enumerable:!0})},p=(r,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!b.call(r,n)&&n!==a&&o(r,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return r};var E=(r,e,a)=>(a=r!=null?d(f(r)):{},p(e||!r||!r.__esModule?o(a,\"default\",{value:r,enumerable:!0}):a,r)),I=r=>p(o({},\"__esModule\",{value:!0}),r);var c=x((j,i)=>{i.exports=_jsx_runtime});var N={};g(N,{default:()=>u,frontmatter:()=>M});var t=E(c()),M={title:\"Intro\",slug:\"intro-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[],featuresNames:[],album:\"NEVIEM\",albumSlug:\"neviem\",year:2025,genre:[\"hip-hop\"],duration:\"1:50\",trackNumber:1,producers:[],producersNames:[],description:\"Intro \\u2014 skladba od Separ z alba NEVIEM (2025).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/skladby/intro-separ\",children:\"Intro\"})}),\" od \",(0,t.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,t.jsx)(e.a,{href:\"/alba/neviem\",children:\"NEVIEM\"}),\" (2025).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(l,{...r})}):l(r)}return I(N);})();\n;return Component;"
+  },
+  "_id": "skladby/intro-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/intro-separ.mdx",
+    "sourceFileName": "intro-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/intro-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/intro-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/intro-separ"
+}

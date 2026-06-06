@@ -1,0 +1,23 @@
+{
+  "title": "Dimzy",
+  "slug": "dimzy",
+  "genre": [],
+  "description": "Dimzy — interpret české/slovenské rapové scény.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "body": {
+    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!_.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(i=u(n,o))||i.enumerable});return e};var y=(e,n,r)=>(r=e!=null?p(x(e)):{},c(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>c(s({},\"__esModule\",{value:!0}),e);var a=f((b,m)=>{m.exports=_jsx_runtime});var z={};j(z,{default:()=>l,frontmatter:()=>D});var t=y(a()),D={title:\"Dimzy\",slug:\"dimzy\",genre:[],description:\"Dimzy \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function d(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return g(z);})();\n;return Component;"
+  },
+  "_id": "raperi/dimzy.mdx",
+  "_raw": {
+    "sourceFilePath": "raperi/dimzy.mdx",
+    "sourceFileName": "dimzy.mdx",
+    "sourceFileDir": "raperi",
+    "contentType": "mdx",
+    "flattenedPath": "raperi/dimzy"
+  },
+  "type": "Rapper",
+  "url": "/raperi/dimzy",
+  "canonicalUrl": "https://4rap.cz/raperi/dimzy"
+}

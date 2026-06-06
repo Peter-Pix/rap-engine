@@ -1,0 +1,36 @@
+{
+  "title": "Pancier",
+  "slug": "pancier-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [],
+  "featuresNames": [],
+  "album": "Pancier",
+  "albumSlug": "pancier",
+  "year": 2017,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "3:01",
+  "trackNumber": 1,
+  "producers": [],
+  "producersNames": [],
+  "description": "Pancier — skladba od Separ z alba Pancier (2017).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Pancier](/skladby/pancier-separ)** od [Separ](/raperi/separ) z alba [Pancier](/alba/pancier) (2017).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},p=(r,e,n,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!b.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(c=h(e,t))||c.enumerable});return r};var P=(r,e,n)=>(n=r!=null?d(f(r)):{},p(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),_=r=>p(s({},\"__esModule\",{value:!0}),r);var o=x((y,i)=>{i.exports=_jsx_runtime});var S={};g(S,{default:()=>u,frontmatter:()=>j});var a=P(o()),j={title:\"Pancier\",slug:\"pancier-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[],featuresNames:[],album:\"Pancier\",albumSlug:\"pancier\",year:2017,genre:[\"hip-hop\"],duration:\"3:01\",trackNumber:1,producers:[],producersNames:[],description:\"Pancier \\u2014 skladba od Separ z alba Pancier (2017).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/pancier-separ\",children:\"Pancier\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/pancier\",children:\"Pancier\"}),\" (2017).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return _(S);})();\n;return Component;"
+  },
+  "_id": "skladby/pancier-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/pancier-separ.mdx",
+    "sourceFileName": "pancier-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/pancier-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/pancier-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/pancier-separ"
+}

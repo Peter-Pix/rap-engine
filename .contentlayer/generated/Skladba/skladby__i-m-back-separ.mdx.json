@@ -1,0 +1,40 @@
+{
+  "title": "I'm back",
+  "slug": "i-m-back-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [
+    "sara-rikas"
+  ],
+  "featuresNames": [
+    "Sara Rikas"
+  ],
+  "album": "NEVIEM",
+  "albumSlug": "neviem",
+  "year": 2025,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "3:15",
+  "trackNumber": 8,
+  "producers": [],
+  "producersNames": [],
+  "description": "I'm back — skladba od Separ z alba NEVIEM (2025).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[I'm back](/skladby/i-m-back-separ)** od [Separ](/raperi/separ) z alba [NEVIEM](/alba/neviem) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of b(e))!f.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(o=d(e,n))||o.enumerable});return r};var g=(r,e,t)=>(t=r!=null?u(h(r)):{},c(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),E=r=>c(s({},\"__esModule\",{value:!0}),r);var i=k((S,p)=>{p.exports=_jsx_runtime});var M={};x(M,{default:()=>m,frontmatter:()=>I});var a=g(i()),I={title:\"I'm back\",slug:\"i-m-back-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[\"sara-rikas\"],featuresNames:[\"Sara Rikas\"],album:\"NEVIEM\",albumSlug:\"neviem\",year:2025,genre:[\"hip-hop\"],duration:\"3:15\",trackNumber:8,producers:[],producersNames:[],description:\"I'm back \\u2014 skladba od Separ z alba NEVIEM (2025).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/i-m-back-separ\",children:\"I'm back\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/neviem\",children:\"NEVIEM\"}),\" (2025).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return E(M);})();\n;return Component;"
+  },
+  "_id": "skladby/i-m-back-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/i-m-back-separ.mdx",
+    "sourceFileName": "i-m-back-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/i-m-back-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/i-m-back-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/i-m-back-separ"
+}

@@ -9,22 +9,22 @@
   "featuresNames": [
     "Nik Tendo"
   ],
-  "album": "Kruhy & Vlny (217 Twins Edition)",
+  "album": "Kruhy & Vlny",
   "albumSlug": "kruhy-vlny",
-  "year": 2023,
+  "year": 2022,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "3:24",
-  "trackNumber": 13,
+  "trackNumber": 5,
   "producers": [],
   "producersNames": [],
-  "description": "FREE KARLO — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "FREE KARLO — skladba od Yzomandias z alba Kruhy & Vlny (2022).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[FREE KARLO](/skladby/free-karlo-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
-    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(r,n)=>()=>(n||r((n={exports:{}}).exports,n),n.exports),x=(r,n)=>{for(var a in n)t(r,a,{get:n[a],enumerable:!0})},i=(r,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of y(n))!f.call(r,o)&&o!==a&&t(r,o,{get:()=>n[o],enumerable:!(s=p(n,o))||s.enumerable});return r};var b=(r,n,a)=>(a=r!=null?m(h(r)):{},i(n||!r||!r.__esModule?t(a,\"default\",{value:r,enumerable:!0}):a,r)),z=r=>i(t({},\"__esModule\",{value:!0}),r);var l=k((_,d)=>{d.exports=_jsx_runtime});var g={};x(g,{default:()=>c,frontmatter:()=>E});var e=b(l()),E={title:\"FREE KARLO\",slug:\"free-karlo-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"3:24\",trackNumber:13,producers:[],producersNames:[],description:\"FREE KARLO \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(r){let n={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:(0,e.jsx)(n.a,{href:\"/skladby/free-karlo-yzomandias\",children:\"FREE KARLO\"})}),\" od \",(0,e.jsx)(n.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(n.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function c(r={}){let{wrapper:n}=r.components||{};return n?(0,e.jsx)(n,{...r,children:(0,e.jsx)(u,{...r})}):u(r)}return z(g);})();\n;return Component;"
+    "raw": "\n**[FREE KARLO](/skladby/free-karlo-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny](/alba/kruhy-vlny) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var t=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),k=(a,r)=>{for(var n in r)t(a,n,{get:r[n],enumerable:!0})},d=(a,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of p(r))!f.call(a,o)&&o!==n&&t(a,o,{get:()=>r[o],enumerable:!(s=h(r,o))||s.enumerable});return a};var x=(a,r,n)=>(n=a!=null?m(y(a)):{},d(r||!a||!a.__esModule?t(n,\"default\",{value:a,enumerable:!0}):n,a)),z=a=>d(t({},\"__esModule\",{value:!0}),a);var l=b((R,i)=>{i.exports=_jsx_runtime});var E={};k(E,{default:()=>c,frontmatter:()=>g});var e=x(l()),g={title:\"FREE KARLO\",slug:\"free-karlo-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny\",albumSlug:\"kruhy-vlny\",year:2022,genre:[\"hip-hop\"],duration:\"3:24\",trackNumber:5,producers:[],producersNames:[],description:\"FREE KARLO \\u2014 skladba od Yzomandias z alba Kruhy & Vlny (2022).\",publishedAt:\"2026-06-06\"};function u(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/free-karlo-yzomandias\",children:\"FREE KARLO\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny\"}),\" (2022).\"]})}function c(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(u,{...a})}):u(a)}return z(E);})();\n;return Component;"
   },
   "_id": "skladby/free-karlo-yzomandias.mdx",
   "_raw": {

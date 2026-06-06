@@ -14,21 +14,21 @@
     "CA$HANOVA BULHAR"
   ],
   "album": "Prozyum (Director’s Cut)",
-  "albumSlug": "prozyum",
+  "albumSlug": "prozyum-director-s-cut",
   "year": 2021,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "4:10",
   "trackNumber": 2,
   "producers": [],
   "producersNames": [],
-  "description": "Rauš — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Rauš — skladba od Yzomandias z alba Prozyum (Director’s Cut) (2021).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Rauš](/skladby/raus-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2021).\n",
-    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(r,a)=>()=>(a||r((a={exports:{}}).exports,a),a.exports),b=(r,a)=>{for(var n in a)s(r,n,{get:a[n],enumerable:!0})},u=(r,a,n,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of h(a))!y.call(r,o)&&o!==n&&s(r,o,{get:()=>a[o],enumerable:!(t=p(a,o))||t.enumerable});return r};var x=(r,a,n)=>(n=r!=null?l(z(r)):{},u(a||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),g=r=>u(s({},\"__esModule\",{value:!0}),r);var d=f((A,i)=>{i.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>k});var e=x(d()),k={title:\"Rau\\u0161\",slug:\"raus-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"jickson\",\"ca-hanova-bulhar\"],featuresNames:[\"Nik Tendo\",\"Jickson\",\"CA$HANOVA BULHAR\"],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum\",year:2021,genre:[\"\"],duration:\"4:10\",trackNumber:2,producers:[],producersNames:[],description:\"Rau\\u0161 \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function c(r){let a={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,e.jsxs)(a.p,{children:[(0,e.jsx)(a.strong,{children:(0,e.jsx)(a.a,{href:\"/skladby/raus-yzomandias\",children:\"Rau\\u0161\"})}),\" od \",(0,e.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(a.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2021).\"]})}function m(r={}){let{wrapper:a}=r.components||{};return a?(0,e.jsx)(a,{...r,children:(0,e.jsx)(c,{...r})}):c(r)}return g(j);})();\n;return Component;"
+    "raw": "\n**[Rauš](/skladby/raus-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum (Director’s Cut)](/alba/prozyum-director-s-cut) (2021).\n",
+    "code": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var z=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var b=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),f=(a,r)=>{for(var o in r)n(a,o,{get:r[o],enumerable:!0})},u=(a,r,o,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of h(r))!y.call(a,t)&&t!==o&&n(a,t,{get:()=>r[t],enumerable:!(s=p(r,t))||s.enumerable});return a};var x=(a,r,o)=>(o=a!=null?l(z(a)):{},u(r||!a||!a.__esModule?n(o,\"default\",{value:a,enumerable:!0}):o,a)),g=a=>u(n({},\"__esModule\",{value:!0}),a);var c=b((_,i)=>{i.exports=_jsx_runtime});var j={};f(j,{default:()=>m,frontmatter:()=>k});var e=x(c()),k={title:\"Rau\\u0161\",slug:\"raus-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"jickson\",\"ca-hanova-bulhar\"],featuresNames:[\"Nik Tendo\",\"Jickson\",\"CA$HANOVA BULHAR\"],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum-director-s-cut\",year:2021,genre:[\"hip-hop\"],duration:\"4:10\",trackNumber:2,producers:[],producersNames:[],description:\"Rau\\u0161 \\u2014 skladba od Yzomandias z alba Prozyum (Director\\u2019s Cut) (2021).\",publishedAt:\"2026-06-06\"};function d(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/raus-yzomandias\",children:\"Rau\\u0161\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/prozyum-director-s-cut\",children:\"Prozyum (Director\\u2019s Cut)\"}),\" (2021).\"]})}function m(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(d,{...a})}):d(a)}return g(j);})();\n;return Component;"
   },
   "_id": "skladby/raus-yzomandias.mdx",
   "_raw": {

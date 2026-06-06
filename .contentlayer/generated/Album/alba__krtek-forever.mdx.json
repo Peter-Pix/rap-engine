@@ -3,10 +3,11 @@
   "slug": "krtek-forever",
   "rapper": "Milion Plus",
   "rapperSlug": "milion-plus",
-  "label": "Virgin Music Label And Artist Services Distributed Labels",
   "year": 2023,
-  "genre": [],
-  "description": "Milion Plus v roce 2023 vydal své debutové album. Obsahuje celkem 10 skladeb. Deska vyšla pod labelem Virgin Music Label And Artist Services Distributed Labels.",
+  "genre": [
+    "hip-hop"
+  ],
+  "description": "Milion Plus v roce 2023 vydal album Krtek Forever. Obsahuje celkem 10 skladeb.",
   "image": "https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg",
   "featured": false,
   "tracklist": [
@@ -21,12 +22,12 @@
     "Loupež",
     "Krtek Forever"
   ],
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "releaseType": "album",
   "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n[Milion Plus](/raperi/milion-plus) v roce 2023 vydal své debutové album.\n\nAlbum obsahuje celkem 10 skladeb.\n\nDeska vyšla pod labelem Virgin Music Label And Artist Services Distributed Labels.\n",
-    "code": "var Component=(()=>{var b=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var i in e)s(r,i,{get:e[i],enumerable:!0})},a=(r,e,i,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of m(e))!h.call(r,l)&&l!==i&&s(r,l,{get:()=>e[l],enumerable:!(n=p(e,l))||n.enumerable});return r};var A=(r,e,i)=>(i=r!=null?b(v(r)):{},a(e||!r||!r.__esModule?s(i,\"default\",{value:r,enumerable:!0}):i,r)),f=r=>a(s({},\"__esModule\",{value:!0}),r);var c=g((L,o)=>{o.exports=_jsx_runtime});var y={};k(y,{default:()=>u,frontmatter:()=>x});var t=A(c()),x={title:\"Krtek Forever\",slug:\"krtek-forever\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",label:\"Virgin Music Label And Artist Services Distributed Labels\",year:2023,releaseType:\"album\",genre:[],description:\"Milion Plus v roce 2023 vydal sv\\xE9 debutov\\xE9 album. Obsahuje celkem 10 skladeb. Deska vy\\u0161la pod labelem Virgin Music Label And Artist Services Distributed Labels.\",image:\"https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Fuck Off\",\"Bye Bye\",\"Ka\\u017Edej N\\u011Bco Hled\\xE1\",\"AY SEE AY BEE pt. 1\",\"AY SEE AY BEE pt. 2\",\"Life Of Diego\",\"Nevy\\u010D\\xEDsliteln\\xFD\",\"How High 3\",\"Loupe\\u017E\",\"Krtek Forever\"],publishedAt:\"2026-05-31\"};function d(r){let e={a:\"a\",h2:\"h2\",p:\"p\",...r.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" v roce 2023 vydal sv\\xE9 debutov\\xE9 album.\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Album obsahuje celkem 10 skladeb.\"}),`\n`,(0,t.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Virgin Music Label And Artist Services Distributed Labels.\"})]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return f(y);})();\n;return Component;"
+    "raw": "\n[Milion Plus](/raperi/milion-plus) v roce 2023 vydal album **Krtek Forever**.\n\n\nAlbum obsahuje celkem 10 skladeb.\n\n\nVíce od [Milion Plusa](/raperi/milion-plus).",
+    "code": "var Component=(()=>{var d=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var k=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var t in e)l(r,t,{get:e[t],enumerable:!0})},a=(r,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!f.call(r,o)&&o!==t&&l(r,o,{get:()=>e[o],enumerable:!(i=m(e,o))||i.enumerable});return r};var b=(r,e,t)=>(t=r!=null?d(g(r)):{},a(e||!r||!r.__esModule?l(t,\"default\",{value:r,enumerable:!0}):t,r)),x=r=>a(l({},\"__esModule\",{value:!0}),r);var c=k((F,s)=>{s.exports=_jsx_runtime});var y={};v(y,{default:()=>u,frontmatter:()=>j});var n=b(c()),j={title:\"Krtek Forever\",slug:\"krtek-forever\",rapper:\"Milion Plus\",rapperSlug:\"milion-plus\",year:2023,releaseType:\"album\",genre:[\"hip-hop\"],description:\"Milion Plus v roce 2023 vydal album Krtek Forever. Obsahuje celkem 10 skladeb.\",image:\"https://cdn-images.dzcdn.net/images/cover/2de22394e8cb32d49a8606aa6277366c/1000x1000-000000-80-0-0.jpg\",tracklist:[\"Fuck Off\",\"Bye Bye\",\"Ka\\u017Edej N\\u011Bco Hled\\xE1\",\"AY SEE AY BEE pt. 1\",\"AY SEE AY BEE pt. 2\",\"Life Of Diego\",\"Nevy\\u010D\\xEDsliteln\\xFD\",\"How High 3\",\"Loupe\\u017E\",\"Krtek Forever\"],publishedAt:\"2026-06-06\"};function p(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plus\"}),\" v roce 2023 vydal album \",(0,n.jsx)(e.strong,{children:\"Krtek Forever\"}),\".\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem 10 skladeb.\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"V\\xEDce od \",(0,n.jsx)(e.a,{href:\"/raperi/milion-plus\",children:\"Milion Plusa\"}),\".\"]})]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(p,{...r})}):p(r)}return x(y);})();\n;return Component;"
   },
   "_id": "alba/krtek-forever.mdx",
   "_raw": {

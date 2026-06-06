@@ -1,0 +1,36 @@
+{
+  "title": "Hej",
+  "slug": "hej-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [],
+  "featuresNames": [],
+  "album": "FLOWDEMORT",
+  "albumSlug": "flowdemort",
+  "year": 2023,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "2:55",
+  "trackNumber": 4,
+  "producers": [],
+  "producersNames": [],
+  "description": "Hej — skladba od Separ z alba FLOWDEMORT (2023).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Hej](/skladby/hej-separ)** od [Separ](/raperi/separ) z alba [FLOWDEMORT](/alba/flowdemort) (2023).\n",
+    "code": "var Component=(()=>{var i=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},p=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of m(e))!j.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=h(e,n))||s.enumerable});return r};var g=(r,e,t)=>(t=r!=null?i(f(r)):{},p(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),M=r=>p(o({},\"__esModule\",{value:!0}),r);var c=b((S,l)=>{l.exports=_jsx_runtime});var _={};x(_,{default:()=>u,frontmatter:()=>O});var a=g(c()),O={title:\"Hej\",slug:\"hej-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[],featuresNames:[],album:\"FLOWDEMORT\",albumSlug:\"flowdemort\",year:2023,genre:[\"hip-hop\"],duration:\"2:55\",trackNumber:4,producers:[],producersNames:[],description:\"Hej \\u2014 skladba od Separ z alba FLOWDEMORT (2023).\",publishedAt:\"2026-06-06\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/hej-separ\",children:\"Hej\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/flowdemort\",children:\"FLOWDEMORT\"}),\" (2023).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return M(_);})();\n;return Component;"
+  },
+  "_id": "skladby/hej-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/hej-separ.mdx",
+    "sourceFileName": "hej-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/hej-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/hej-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/hej-separ"
+}

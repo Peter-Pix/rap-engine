@@ -9,22 +9,22 @@
   "featuresNames": [
     "Nik Tendo"
   ],
-  "album": "Kruhy & Vlny (217 Twins Edition)",
+  "album": "Kruhy & Vlny",
   "albumSlug": "kruhy-vlny",
-  "year": 2023,
+  "year": 2022,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "4:06",
-  "trackNumber": 17,
+  "trackNumber": 9,
   "producers": [],
   "producersNames": [],
-  "description": "Pedal To The Metal — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Pedal To The Metal — skladba od Yzomandias z alba Kruhy & Vlny (2022).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Pedal To The Metal](/skladby/pedal-to-the-metal-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny (217 Twins Edition)](/alba/kruhy-vlny) (2023).\n",
-    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),T=(a,e)=>{for(var t in e)o(a,t,{get:e[t],enumerable:!0})},d=(a,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!f.call(a,r)&&r!==t&&o(a,r,{get:()=>e[r],enumerable:!(s=h(e,r))||s.enumerable});return a};var b=(a,e,t)=>(t=a!=null?c(y(a)):{},d(e||!a||!a.__esModule?o(t,\"default\",{value:a,enumerable:!0}):t,a)),z=a=>d(o({},\"__esModule\",{value:!0}),a);var i=x((_,l)=>{l.exports=_jsx_runtime});var k={};T(k,{default:()=>m,frontmatter:()=>g});var n=b(i()),g={title:\"Pedal To The Metal\",slug:\"pedal-to-the-metal-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny (217 Twins Edition)\",albumSlug:\"kruhy-vlny\",year:2023,genre:[\"\"],duration:\"4:06\",trackNumber:17,producers:[],producersNames:[],description:\"Pedal To The Metal \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/pedal-to-the-metal-yzomandias\",children:\"Pedal To The Metal\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny (217 Twins Edition)\"}),\" (2023).\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(u,{...a})}):u(a)}return z(k);})();\n;return Component;"
+    "raw": "\n**[Pedal To The Metal](/skladby/pedal-to-the-metal-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Kruhy & Vlny](/alba/kruhy-vlny) (2022).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},s=(a,e,r,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(a,t)&&t!==r&&o(a,t,{get:()=>e[t],enumerable:!(l=c(e,t))||l.enumerable});return a};var z=(a,e,r)=>(r=a!=null?m(y(a)):{},s(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>s(o({},\"__esModule\",{value:!0}),a);var i=b((_,d)=>{d.exports=_jsx_runtime});var T={};x(T,{default:()=>h,frontmatter:()=>k});var n=z(i()),k={title:\"Pedal To The Metal\",slug:\"pedal-to-the-metal-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\"],featuresNames:[\"Nik Tendo\"],album:\"Kruhy & Vlny\",albumSlug:\"kruhy-vlny\",year:2022,genre:[\"hip-hop\"],duration:\"4:06\",trackNumber:9,producers:[],producersNames:[],description:\"Pedal To The Metal \\u2014 skladba od Yzomandias z alba Kruhy & Vlny (2022).\",publishedAt:\"2026-06-06\"};function u(a){let e={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/pedal-to-the-metal-yzomandias\",children:\"Pedal To The Metal\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/kruhy-vlny\",children:\"Kruhy & Vlny\"}),\" (2022).\"]})}function h(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(u,{...a})}):u(a)}return g(T);})();\n;return Component;"
   },
   "_id": "skladby/pedal-to-the-metal-yzomandias.mdx",
   "_raw": {

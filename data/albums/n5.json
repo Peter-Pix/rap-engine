@@ -1,0 +1,414 @@
+{
+  "id": "album_n5",
+  "kind": "album",
+  "slug": "n5",
+  "title": "n5",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "katarzia"
+    },
+    "label": null,
+    "labelName": "Slnko Records",
+    "year": 2021,
+    "releaseType": "album",
+    "genres": [
+      "czech-pop"
+    ],
+    "tracklist": [
+      "svetlo",
+      "smd",
+      "blízkosť",
+      "pre seba",
+      "smútok",
+      "pravdu",
+      "myslíš",
+      "telo",
+      "ticho"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 281019831,
+    "nbTracks": 9
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:39:48.488Z",
+    "raw": {
+      "id": 281019831,
+      "title": "n5",
+      "upc": "8588008957080",
+      "link": "https://www.deezer.com/album/281019831",
+      "share": "https://www.deezer.com/album/281019831?utm_source=deezer&utm_content=album-281019831&utm_term=0_1780745988&utm_medium=web",
+      "cover": "https://api.deezer.com/album/281019831/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+      "genre_id": 132,
+      "genres": {
+        "data": [
+          {
+            "id": 132,
+            "name": "Pop",
+            "picture": "https://api.deezer.com/genre/132/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Slnko Records",
+      "nb_tracks": 9,
+      "duration": 1815,
+      "fans": 59,
+      "release_date": "2021-12-17",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/281019831/tracks",
+      "explicit_lyrics": false,
+      "explicit_content_lyrics": 0,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 5637168,
+          "name": "Katarzia",
+          "link": "https://www.deezer.com/artist/5637168",
+          "share": "https://www.deezer.com/artist/5637168?utm_source=deezer&utm_content=artist-5637168&utm_term=0_1780745988&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/5637168/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/e5cb14ef5380c4591277d0ad6b2f73db/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e5cb14ef5380c4591277d0ad6b2f73db/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/e5cb14ef5380c4591277d0ad6b2f73db/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e5cb14ef5380c4591277d0ad6b2f73db/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 5637168,
+        "name": "Katarzia",
+        "picture": "https://api.deezer.com/artist/5637168/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/e5cb14ef5380c4591277d0ad6b2f73db/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e5cb14ef5380c4591277d0ad6b2f73db/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/e5cb14ef5380c4591277d0ad6b2f73db/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e5cb14ef5380c4591277d0ad6b2f73db/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 1593691751,
+            "readable": true,
+            "title": "svetlo",
+            "title_short": "svetlo",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691751",
+            "duration": 179,
+            "rank": 22026,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/c/0/0/9c0dd121f12a95f0ffa3e54d8cec0091.mp3?hdnea=exp=1780746888~acl=/api/1/1/9/c/0/0/9c0dd121f12a95f0ffa3e54d8cec0091.mp3*~data=user_id=0,application_id=42~hmac=c213f47854a3eff59f12d0332652e93b3f681173aef2d64f1f63d83e2e31d068",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1593691761,
+            "readable": true,
+            "title": "smd",
+            "title_short": "smd",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691761",
+            "duration": 181,
+            "rank": 59249,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/8/0/6f8cc41851a0d1e5caaf973a20c663d3.mp3?hdnea=exp=1780746888~acl=/api/1/1/6/f/8/0/6f8cc41851a0d1e5caaf973a20c663d3.mp3*~data=user_id=0,application_id=42~hmac=9f5c25fe683460ac4375621733fd23740247e45ae864f6bd3a58fafedda2c549",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1593691771,
+            "readable": true,
+            "title": "blízkosť",
+            "title_short": "blízkosť",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691771",
+            "duration": 204,
+            "rank": 25059,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/0/e/0/60e6bb81b1e340e0081bb24328619b6e.mp3?hdnea=exp=1780746888~acl=/api/1/1/6/0/e/0/60e6bb81b1e340e0081bb24328619b6e.mp3*~data=user_id=0,application_id=42~hmac=361c06b687cacc751db2bbfc15927aca826196a14215e69fb0b4e1d1cb2bd19a",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1593691781,
+            "readable": true,
+            "title": "pre seba",
+            "title_short": "pre seba",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691781",
+            "duration": 172,
+            "rank": 33414,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/b/8/0/7b8f3d3c0a479c9ebbcc35ce396d5306.mp3?hdnea=exp=1780746888~acl=/api/1/1/7/b/8/0/7b8f3d3c0a479c9ebbcc35ce396d5306.mp3*~data=user_id=0,application_id=42~hmac=1fc99d036509b21f8ae8a54ae9891a5578c1f90e69a77f332a17991586c70623",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1593691791,
+            "readable": true,
+            "title": "smútok",
+            "title_short": "smútok",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691791",
+            "duration": 254,
+            "rank": 209,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/e/d/0/1ed9bd7b8b97a9e1242d5e46d16e6ecc.mp3?hdnea=exp=1780746888~acl=/api/1/1/1/e/d/0/1ed9bd7b8b97a9e1242d5e46d16e6ecc.mp3*~data=user_id=0,application_id=42~hmac=e761b7b9de2ce2dbc34cc513515ad6263749b02b68ff5e0408473dc1ba77a502",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1593691801,
+            "readable": true,
+            "title": "pravdu",
+            "title_short": "pravdu",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691801",
+            "duration": 259,
+            "rank": 7741,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/4/b/0/44b9856350d53de113f2b43856d793df.mp3?hdnea=exp=1780746888~acl=/api/1/1/4/4/b/0/44b9856350d53de113f2b43856d793df.mp3*~data=user_id=0,application_id=42~hmac=9faddb6c0ff4dab054dcd4befcdc0080685ec1aeb4d9a0532b7d42faa6a5c830",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1593691811,
+            "readable": true,
+            "title": "myslíš",
+            "title_short": "myslíš",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691811",
+            "duration": 149,
+            "rank": 22176,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/6/0/856478b950fe3f867634457f8e6197c0.mp3?hdnea=exp=1780746888~acl=/api/1/1/8/5/6/0/856478b950fe3f867634457f8e6197c0.mp3*~data=user_id=0,application_id=42~hmac=11eeab00c43779c4551d60964e9bbbea9dd6d630d3ac1753ba865c4eb07de7c9",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1593691821,
+            "readable": true,
+            "title": "telo",
+            "title_short": "telo",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691821",
+            "duration": 241,
+            "rank": 1802,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/6/3/0/463011244e54826b5b771c1fedc26a11.mp3?hdnea=exp=1780746888~acl=/api/1/1/4/6/3/0/463011244e54826b5b771c1fedc26a11.mp3*~data=user_id=0,application_id=42~hmac=965fe4eb512a837dcc36d2fc4b59c477b158e7a5491f5d4cd5549cff2f0bfa20",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1593691831,
+            "readable": true,
+            "title": "ticho",
+            "title_short": "ticho",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1593691831",
+            "duration": 176,
+            "rank": 2760,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/2/0/9d2ac18bdbcd3dc01fc2865985f5e9a5.mp3?hdnea=exp=1780746888~acl=/api/1/1/9/d/2/0/9d2ac18bdbcd3dc01fc2865985f5e9a5.mp3*~data=user_id=0,application_id=42~hmac=626d6e338e520560137ca6dbf9d975fb1bbbf777ab59ed753e48b1dcf342cd17",
+            "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+            "artist": {
+              "id": 5637168,
+              "name": "Katarzia",
+              "tracklist": "https://api.deezer.com/artist/5637168/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 281019831,
+              "title": "n5",
+              "cover": "https://api.deezer.com/album/281019831/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/2203dcd815012a8d4c450839822cd9c6/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "2203dcd815012a8d4c450839822cd9c6",
+              "tracklist": "https://api.deezer.com/album/281019831/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

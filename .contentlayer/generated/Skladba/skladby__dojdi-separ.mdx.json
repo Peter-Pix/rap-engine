@@ -1,0 +1,36 @@
+{
+  "title": "Dojdi",
+  "slug": "dojdi-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [],
+  "featuresNames": [],
+  "album": "NEVIEM",
+  "albumSlug": "neviem",
+  "year": 2025,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "1:56",
+  "trackNumber": 17,
+  "producers": [],
+  "producersNames": [],
+  "description": "Dojdi — skladba od Separ z alba NEVIEM (2025).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Dojdi](/skladby/dojdi-separ)** od [Separ](/raperi/separ) z alba [NEVIEM](/alba/neviem) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},d=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!j.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(s=m(e,n))||s.enumerable});return r};var g=(r,e,t)=>(t=r!=null?u(f(r)):{},d(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),E=r=>d(o({},\"__esModule\",{value:!0}),r);var p=b((D,i)=>{i.exports=_jsx_runtime});var N={};x(N,{default:()=>l,frontmatter:()=>M});var a=g(p()),M={title:\"Dojdi\",slug:\"dojdi-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[],featuresNames:[],album:\"NEVIEM\",albumSlug:\"neviem\",year:2025,genre:[\"hip-hop\"],duration:\"1:56\",trackNumber:17,producers:[],producersNames:[],description:\"Dojdi \\u2014 skladba od Separ z alba NEVIEM (2025).\",publishedAt:\"2026-06-06\"};function c(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/dojdi-separ\",children:\"Dojdi\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/neviem\",children:\"NEVIEM\"}),\" (2025).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(c,{...r})}):c(r)}return E(N);})();\n;return Component;"
+  },
+  "_id": "skladby/dojdi-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/dojdi-separ.mdx",
+    "sourceFileName": "dojdi-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/dojdi-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/dojdi-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/dojdi-separ"
+}

@@ -1,0 +1,484 @@
+{
+  "id": "album_ok",
+  "kind": "album",
+  "slug": "ok",
+  "title": "OK",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "neries"
+    },
+    "label": null,
+    "labelName": "Nerieš",
+    "year": 2020,
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Sloboda",
+      "OK",
+      "Viac",
+      "Ruka Na Volante",
+      "Nejsom Tvoj Hrdina",
+      "Život",
+      "Dopis",
+      "Jak Sa Máš",
+      "Snívam",
+      "Odpúšťam",
+      "Čo Bude"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 235401282,
+    "nbTracks": 11
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:39:18.653Z",
+    "raw": {
+      "id": 235401282,
+      "title": "OK",
+      "upc": "859737634398",
+      "link": "https://www.deezer.com/album/235401282",
+      "share": "https://www.deezer.com/album/235401282?utm_source=deezer&utm_content=album-235401282&utm_term=0_1780745958&utm_medium=web",
+      "cover": "https://api.deezer.com/album/235401282/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Nerieš",
+      "nb_tracks": 11,
+      "duration": 2150,
+      "fans": 235,
+      "release_date": "2020-03-05",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/235401282/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 4,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 6984161,
+          "name": "Nerieš",
+          "link": "https://www.deezer.com/artist/6984161",
+          "share": "https://www.deezer.com/artist/6984161?utm_source=deezer&utm_content=artist-6984161&utm_term=0_1780745958&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/6984161/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 6984161,
+        "name": "Nerieš",
+        "picture": "https://api.deezer.com/artist/6984161/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9a5469950307178b1fa594f0d5d28759/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 1395991892,
+            "readable": true,
+            "title": "Sloboda",
+            "title_short": "Sloboda",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991892",
+            "duration": 156,
+            "rank": 53692,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/7/4/0/774e524f5bc1c2a9cb036ed6ed918109.mp3?hdnea=exp=1780746858~acl=/api/1/1/7/7/4/0/774e524f5bc1c2a9cb036ed6ed918109.mp3*~data=user_id=0,application_id=42~hmac=ab4f1636d048062b200024b2d6b647e0f3adc781d6079c245c2a5682fba1c054",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991902,
+            "readable": true,
+            "title": "OK",
+            "title_short": "OK",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991902",
+            "duration": 170,
+            "rank": 33476,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/0/0/2101cc1a4406861e0d924b7c61934eda.mp3?hdnea=exp=1780746858~acl=/api/1/1/2/1/0/0/2101cc1a4406861e0d924b7c61934eda.mp3*~data=user_id=0,application_id=42~hmac=73cf2243246d2b9e04226193c38643164223abbff8606ce8b2629eb7c94c60ac",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991912,
+            "readable": true,
+            "title": "Viac",
+            "title_short": "Viac",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991912",
+            "duration": 212,
+            "rank": 139673,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/7/0/b57dc3fd3ca202785cbec78d1dc7e296.mp3?hdnea=exp=1780746858~acl=/api/1/1/b/5/7/0/b57dc3fd3ca202785cbec78d1dc7e296.mp3*~data=user_id=0,application_id=42~hmac=551ce86876f2c8e4f080fce66fcc2826551fcb8d2fe018b9781380aa34ddbe4f",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991922,
+            "readable": true,
+            "title": "Ruka Na Volante",
+            "title_short": "Ruka Na Volante",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991922",
+            "duration": 172,
+            "rank": 130956,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/2/0/0f216f81c5ecf17d835c680a2af0531f.mp3?hdnea=exp=1780746858~acl=/api/1/1/0/f/2/0/0f216f81c5ecf17d835c680a2af0531f.mp3*~data=user_id=0,application_id=42~hmac=c3abcbc429a084628c0c4f3cd0b39207d257454f1b61edb516886b43f0fdfe80",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991932,
+            "readable": true,
+            "title": "Nejsom Tvoj Hrdina",
+            "title_short": "Nejsom Tvoj Hrdina",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991932",
+            "duration": 209,
+            "rank": 32815,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/5/3/0/9532e3299deadc6cde3ac1c1ec580a51.mp3?hdnea=exp=1780746858~acl=/api/1/1/9/5/3/0/9532e3299deadc6cde3ac1c1ec580a51.mp3*~data=user_id=0,application_id=42~hmac=05050067cb7a9ea35fc65005a5d244c156afc3077093f280e4899fcfb865258d",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991942,
+            "readable": true,
+            "title": "Život",
+            "title_short": "Život",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991942",
+            "duration": 167,
+            "rank": 18529,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/2/a/0/42ab9295414564aa5f173616a9b066c3.mp3?hdnea=exp=1780746858~acl=/api/1/1/4/2/a/0/42ab9295414564aa5f173616a9b066c3.mp3*~data=user_id=0,application_id=42~hmac=308e2790ab4cd107a6d03b591693b44decee97aafc014aec8e96d4d987f74b47",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991952,
+            "readable": true,
+            "title": "Dopis",
+            "title_short": "Dopis",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991952",
+            "duration": 307,
+            "rank": 89924,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/7/0/ef7ba7d02299837c7dce51fbc5aeeb12.mp3?hdnea=exp=1780746858~acl=/api/1/1/e/f/7/0/ef7ba7d02299837c7dce51fbc5aeeb12.mp3*~data=user_id=0,application_id=42~hmac=fa28b37f6dc8123ea58d42deee4617affe7eb26d54ec914aacc31782a8f66c3c",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991962,
+            "readable": true,
+            "title": "Jak Sa Máš",
+            "title_short": "Jak Sa Máš",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991962",
+            "duration": 189,
+            "rank": 21500,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/c/3/0/bc3e0d421bc096fdfd7cedad1c243d67.mp3?hdnea=exp=1780746858~acl=/api/1/1/b/c/3/0/bc3e0d421bc096fdfd7cedad1c243d67.mp3*~data=user_id=0,application_id=42~hmac=c78c5ea0bcac3357ab577ee9e4c941ea4798decca10309a94889174fbad13219",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991972,
+            "readable": true,
+            "title": "Snívam",
+            "title_short": "Snívam",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991972",
+            "duration": 166,
+            "rank": 8779,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/6/0/7868bdf3f16304ae1aa0a7d73599ca26.mp3?hdnea=exp=1780746858~acl=/api/1/1/7/8/6/0/7868bdf3f16304ae1aa0a7d73599ca26.mp3*~data=user_id=0,application_id=42~hmac=4c1281703c336d360d0ea36d6083bdec4261d0abb7d704318575a910e80a2019",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991982,
+            "readable": true,
+            "title": "Odpúšťam",
+            "title_short": "Odpúšťam",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991982",
+            "duration": 159,
+            "rank": 33195,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/4/0/9f4690c01e9fc29345d9bf769e2f4cd2.mp3?hdnea=exp=1780746858~acl=/api/1/1/9/f/4/0/9f4690c01e9fc29345d9bf769e2f4cd2.mp3*~data=user_id=0,application_id=42~hmac=c2c60ac1db6ef13b0ceb978cc5e9be341591d63f66d6bfd3eb7d3ca89f4b19bd",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 1395991992,
+            "readable": true,
+            "title": "Čo Bude",
+            "title_short": "Čo Bude",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/1395991992",
+            "duration": 243,
+            "rank": 54410,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/4/2/0/242e4798fa1dfb8b4bb145d6c10e205b.mp3?hdnea=exp=1780746858~acl=/api/1/1/2/4/2/0/242e4798fa1dfb8b4bb145d6c10e205b.mp3*~data=user_id=0,application_id=42~hmac=3840578f3214e74266cac72bd755fb6f913eefbceb1ba6de2f25e7308d81a0fd",
+            "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+            "artist": {
+              "id": 6984161,
+              "name": "Nerieš",
+              "tracklist": "https://api.deezer.com/artist/6984161/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 235401282,
+              "title": "OK",
+              "cover": "https://api.deezer.com/album/235401282/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/889eb94bcd3bfae739bebb7612e1ccda/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "889eb94bcd3bfae739bebb7612e1ccda",
+              "tracklist": "https://api.deezer.com/album/235401282/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

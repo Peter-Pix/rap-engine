@@ -1,0 +1,36 @@
+{
+  "title": "Neviem",
+  "slug": "neviem-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [],
+  "featuresNames": [],
+  "album": "NEVIEM",
+  "albumSlug": "neviem",
+  "year": 2025,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "2:42",
+  "trackNumber": 10,
+  "producers": [],
+  "producersNames": [],
+  "description": "Neviem — skladba od Separ z alba NEVIEM (2025).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Neviem](/skladby/neviem-separ)** od [Separ](/raperi/separ) z alba [NEVIEM](/alba/neviem) (2025).\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),N=(r,e)=>{for(var n in e)s(r,n,{get:e[n],enumerable:!0})},i=(r,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!b.call(r,t)&&t!==n&&s(r,t,{get:()=>e[t],enumerable:!(o=d(e,t))||o.enumerable});return r};var g=(r,e,n)=>(n=r!=null?u(f(r)):{},i(e||!r||!r.__esModule?s(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>i(s({},\"__esModule\",{value:!0}),r);var c=x((j,p)=>{p.exports=_jsx_runtime});var M={};N(M,{default:()=>m,frontmatter:()=>E});var a=g(c()),E={title:\"Neviem\",slug:\"neviem-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[],featuresNames:[],album:\"NEVIEM\",albumSlug:\"neviem\",year:2025,genre:[\"hip-hop\"],duration:\"2:42\",trackNumber:10,producers:[],producersNames:[],description:\"Neviem \\u2014 skladba od Separ z alba NEVIEM (2025).\",publishedAt:\"2026-06-06\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/neviem-separ\",children:\"Neviem\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/neviem\",children:\"NEVIEM\"}),\" (2025).\"]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return v(M);})();\n;return Component;"
+  },
+  "_id": "skladby/neviem-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/neviem-separ.mdx",
+    "sourceFileName": "neviem-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/neviem-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/neviem-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/neviem-separ"
+}

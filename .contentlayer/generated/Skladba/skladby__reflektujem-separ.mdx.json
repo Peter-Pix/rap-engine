@@ -1,0 +1,36 @@
+{
+  "title": "Reflektujem",
+  "slug": "reflektujem-separ",
+  "rapper": "Separ",
+  "rapperSlug": "separ",
+  "features": [],
+  "featuresNames": [],
+  "album": "Pancier",
+  "albumSlug": "pancier",
+  "year": 2017,
+  "genre": [
+    "hip-hop"
+  ],
+  "duration": "2:55",
+  "trackNumber": 9,
+  "producers": [],
+  "producersNames": [],
+  "description": "Reflektujem — skladba od Separ z alba Pancier (2017).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "explicit": false,
+  "body": {
+    "raw": "\n**[Reflektujem](/skladby/reflektujem-separ)** od [Separ](/raperi/separ) z alba [Pancier](/alba/pancier) (2017).\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var b=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},p=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!j.call(r,n)&&n!==t&&s(r,n,{get:()=>e[n],enumerable:!(o=m(e,n))||o.enumerable});return r};var k=(r,e,t)=>(t=r!=null?d(h(r)):{},p(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),g=r=>p(s({},\"__esModule\",{value:!0}),r);var l=b((M,c)=>{c.exports=_jsx_runtime});var S={};x(S,{default:()=>i,frontmatter:()=>_});var a=k(l()),_={title:\"Reflektujem\",slug:\"reflektujem-separ\",rapper:\"Separ\",rapperSlug:\"separ\",features:[],featuresNames:[],album:\"Pancier\",albumSlug:\"pancier\",year:2017,genre:[\"hip-hop\"],duration:\"2:55\",trackNumber:9,producers:[],producersNames:[],description:\"Reflektujem \\u2014 skladba od Separ z alba Pancier (2017).\",publishedAt:\"2026-06-06\"};function u(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/reflektujem-separ\",children:\"Reflektujem\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/separ\",children:\"Separ\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/pancier\",children:\"Pancier\"}),\" (2017).\"]})}function i(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(u,{...r})}):u(r)}return g(S);})();\n;return Component;"
+  },
+  "_id": "skladby/reflektujem-separ.mdx",
+  "_raw": {
+    "sourceFilePath": "skladby/reflektujem-separ.mdx",
+    "sourceFileName": "reflektujem-separ.mdx",
+    "sourceFileDir": "skladby",
+    "contentType": "mdx",
+    "flattenedPath": "skladby/reflektujem-separ"
+  },
+  "type": "Skladba",
+  "url": "/skladby/reflektujem-separ",
+  "canonicalUrl": "https://4rap.cz/skladby/reflektujem-separ"
+}

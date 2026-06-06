@@ -8,7 +8,33 @@
   "updatedAt": "2026-06-06",
   "meta": {
     "realName": "",
-    "genres": []
+    "born": "",
+    "active": {},
+    "genres": [],
+    "primaryLabel": null,
+    "socials": {},
+    "deezerId": 244022,
+    "image": "https://cdn-images.dzcdn.net/images/artist/928decf27809e65b4cbbba6b1ce1dfed/1000x1000-000000-80-0-0.jpg",
+    "nbFans": 7004,
+    "nbAlbums": 40
   },
-  "_deezer": {}
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:38:08.966Z",
+    "raw": {
+      "id": 244022,
+      "name": "Grimaso",
+      "link": "https://www.deezer.com/artist/244022",
+      "share": "https://www.deezer.com/artist/244022?utm_source=deezer&utm_content=artist-244022&utm_term=0_1780745889&utm_medium=web",
+      "picture": "https://api.deezer.com/artist/244022/image",
+      "picture_small": "https://cdn-images.dzcdn.net/images/artist/928decf27809e65b4cbbba6b1ce1dfed/56x56-000000-80-0-0.jpg",
+      "picture_medium": "https://cdn-images.dzcdn.net/images/artist/928decf27809e65b4cbbba6b1ce1dfed/250x250-000000-80-0-0.jpg",
+      "picture_big": "https://cdn-images.dzcdn.net/images/artist/928decf27809e65b4cbbba6b1ce1dfed/500x500-000000-80-0-0.jpg",
+      "picture_xl": "https://cdn-images.dzcdn.net/images/artist/928decf27809e65b4cbbba6b1ce1dfed/1000x1000-000000-80-0-0.jpg",
+      "nb_album": 40,
+      "nb_fan": 7004,
+      "radio": true,
+      "tracklist": "https://api.deezer.com/artist/244022/top?limit=50",
+      "type": "artist"
+    }
+  }
 }

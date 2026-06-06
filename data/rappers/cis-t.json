@@ -8,7 +8,33 @@
   "updatedAt": "2026-06-06",
   "meta": {
     "realName": "",
-    "genres": []
+    "born": "",
+    "active": {},
+    "genres": [],
+    "primaryLabel": null,
+    "socials": {},
+    "deezerId": 13798039,
+    "image": "https://cdn-images.dzcdn.net/images/artist/fe69a0c4881eca4fe71dc887119eb4c1/1000x1000-000000-80-0-0.jpg",
+    "nbFans": 1272,
+    "nbAlbums": 22
   },
-  "_deezer": {}
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:49:21.159Z",
+    "raw": {
+      "id": 13798039,
+      "name": "Čis T",
+      "link": "https://www.deezer.com/artist/13798039",
+      "share": "https://www.deezer.com/artist/13798039?utm_source=deezer&utm_content=artist-13798039&utm_term=0_1780746561&utm_medium=web",
+      "picture": "https://api.deezer.com/artist/13798039/image",
+      "picture_small": "https://cdn-images.dzcdn.net/images/artist/fe69a0c4881eca4fe71dc887119eb4c1/56x56-000000-80-0-0.jpg",
+      "picture_medium": "https://cdn-images.dzcdn.net/images/artist/fe69a0c4881eca4fe71dc887119eb4c1/250x250-000000-80-0-0.jpg",
+      "picture_big": "https://cdn-images.dzcdn.net/images/artist/fe69a0c4881eca4fe71dc887119eb4c1/500x500-000000-80-0-0.jpg",
+      "picture_xl": "https://cdn-images.dzcdn.net/images/artist/fe69a0c4881eca4fe71dc887119eb4c1/1000x1000-000000-80-0-0.jpg",
+      "nb_album": 22,
+      "nb_fan": 1272,
+      "radio": true,
+      "tracklist": "https://api.deezer.com/artist/13798039/top?limit=50",
+      "type": "artist"
+    }
+  }
 }

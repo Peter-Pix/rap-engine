@@ -11,22 +11,22 @@
     "Nik Tendo",
     "Smack One"
   ],
-  "album": "Prozyum",
-  "albumSlug": "prozyum",
-  "year": 2020,
+  "album": "Prozyum (Director’s Cut)",
+  "albumSlug": "prozyum-director-s-cut",
+  "year": 2021,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "3:01",
-  "trackNumber": 2,
+  "trackNumber": 9,
   "producers": [],
   "producersNames": [],
-  "description": "Amnezia — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "Amnezia — skladba od Yzomandias z alba Prozyum (Director’s Cut) (2021).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
-    "raw": "\n**[Amnezia](/skladby/amnezia-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum](/alba/prozyum) (2020).\n",
-    "code": "var Component=(()=>{var l=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var h=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),x=(e,a)=>{for(var r in a)t(e,r,{get:a[r],enumerable:!0})},i=(e,a,r,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of z(a))!f.call(e,o)&&o!==r&&t(e,o,{get:()=>a[o],enumerable:!(s=p(a,o))||s.enumerable});return e};var b=(e,a,r)=>(r=e!=null?l(y(e)):{},i(a||!e||!e.__esModule?t(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>i(t({},\"__esModule\",{value:!0}),e);var d=h((A,m)=>{m.exports=_jsx_runtime});var _={};x(_,{default:()=>c,frontmatter:()=>k});var n=b(d()),k={title:\"Amnezia\",slug:\"amnezia-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"smack\"],featuresNames:[\"Nik Tendo\",\"Smack One\"],album:\"Prozyum\",albumSlug:\"prozyum\",year:2020,genre:[\"\"],duration:\"3:01\",trackNumber:2,producers:[],producersNames:[],description:\"Amnezia \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function u(e){let a={a:\"a\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(a.p,{children:[(0,n.jsx)(a.strong,{children:(0,n.jsx)(a.a,{href:\"/skladby/amnezia-yzomandias\",children:\"Amnezia\"})}),\" od \",(0,n.jsx)(a.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,n.jsx)(a.a,{href:\"/alba/prozyum\",children:\"Prozyum\"}),\" (2020).\"]})}function c(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return g(_);})();\n;return Component;"
+    "raw": "\n**[Amnezia](/skladby/amnezia-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [Prozyum (Director’s Cut)](/alba/prozyum-director-s-cut) (2021).\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var z=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),b=(a,r)=>{for(var n in r)o(a,n,{get:r[n],enumerable:!0})},i=(a,r,n,s)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let t of z(r))!y.call(a,t)&&t!==n&&o(a,t,{get:()=>r[t],enumerable:!(s=p(r,t))||s.enumerable});return a};var x=(a,r,n)=>(n=a!=null?l(h(a)):{},i(r||!a||!a.__esModule?o(n,\"default\",{value:a,enumerable:!0}):n,a)),g=a=>i(o({},\"__esModule\",{value:!0}),a);var u=f((C,m)=>{m.exports=_jsx_runtime});var _={};b(_,{default:()=>d,frontmatter:()=>k});var e=x(u()),k={title:\"Amnezia\",slug:\"amnezia-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nik-tendo\",\"smack\"],featuresNames:[\"Nik Tendo\",\"Smack One\"],album:\"Prozyum (Director\\u2019s Cut)\",albumSlug:\"prozyum-director-s-cut\",year:2021,genre:[\"hip-hop\"],duration:\"3:01\",trackNumber:9,producers:[],producersNames:[],description:\"Amnezia \\u2014 skladba od Yzomandias z alba Prozyum (Director\\u2019s Cut) (2021).\",publishedAt:\"2026-06-06\"};function c(a){let r={a:\"a\",p:\"p\",strong:\"strong\",...a.components};return(0,e.jsxs)(r.p,{children:[(0,e.jsx)(r.strong,{children:(0,e.jsx)(r.a,{href:\"/skladby/amnezia-yzomandias\",children:\"Amnezia\"})}),\" od \",(0,e.jsx)(r.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,e.jsx)(r.a,{href:\"/alba/prozyum-director-s-cut\",children:\"Prozyum (Director\\u2019s Cut)\"}),\" (2021).\"]})}function d(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,{...a,children:(0,e.jsx)(c,{...a})}):c(a)}return g(_);})();\n;return Component;"
   },
   "_id": "skladby/amnezia-yzomandias.mdx",
   "_raw": {

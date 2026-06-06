@@ -15,18 +15,18 @@
   "albumSlug": "j-eden-e-gen-mixed-by-nobodylisten",
   "year": 2022,
   "genre": [
-    ""
+    "hip-hop"
   ],
   "duration": "2:00",
   "trackNumber": 5,
   "producers": [],
   "producersNames": [],
-  "description": "FVCK FORBES — skladba od Yzomandias.",
-  "publishedAt": "2026-05-31T00:00:00.000Z",
+  "description": "FVCK FORBES — skladba od Yzomandias z alba J. EDEN E-GEN (mixed by NobodyListen) (2022).",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "explicit": false,
   "body": {
     "raw": "\n**[FVCK FORBES](/skladby/fvck-forbes-yzomandias)** od [Yzomandias](/raperi/yzomandias) z alba [J. EDEN E-GEN (mixed by NobodyListen)](/alba/j-eden-e-gen-mixed-by-nobodylisten) (2022).\n",
-    "code": "var Component=(()=>{var b=Object.create;var t=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),E=(n,e)=>{for(var a in e)t(n,a,{get:e[a],enumerable:!0})},d=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of y(e))!f.call(n,r)&&r!==a&&t(n,r,{get:()=>e[r],enumerable:!(s=u(e,r))||s.enumerable});return n};var N=(n,e,a)=>(a=n!=null?b(p(n)):{},d(e||!n||!n.__esModule?t(a,\"default\",{value:n,enumerable:!0}):a,n)),h=n=>d(t({},\"__esModule\",{value:!0}),n);var m=x((k,i)=>{i.exports=_jsx_runtime});var z={};E(z,{default:()=>c,frontmatter:()=>g});var o=N(m()),g={title:\"FVCK FORBES\",slug:\"fvck-forbes-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"nik-tendo\"],featuresNames:[\"Nobodylisten\",\"Nik Tendo\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"\"],duration:\"2:00\",trackNumber:5,producers:[],producersNames:[],description:\"FVCK FORBES \\u2014 skladba od Yzomandias.\",publishedAt:\"2026-05-31\"};function l(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/fvck-forbes-yzomandias\",children:\"FVCK FORBES\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function c(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(l,{...n})}):l(n)}return h(z);})();\n;return Component;"
+    "code": "var Component=(()=>{var c=Object.create;var t=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,E=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var a in e)t(n,a,{get:e[a],enumerable:!0})},d=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of y(e))!E.call(n,r)&&r!==a&&t(n,r,{get:()=>e[r],enumerable:!(s=u(e,r))||s.enumerable});return n};var N=(n,e,a)=>(a=n!=null?c(p(n)):{},d(e||!n||!n.__esModule?t(a,\"default\",{value:n,enumerable:!0}):a,n)),h=n=>d(t({},\"__esModule\",{value:!0}),n);var m=f((k,i)=>{i.exports=_jsx_runtime});var z={};x(z,{default:()=>l,frontmatter:()=>g});var o=N(m()),g={title:\"FVCK FORBES\",slug:\"fvck-forbes-yzomandias\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",features:[\"nobodylisten\",\"nik-tendo\"],featuresNames:[\"Nobodylisten\",\"Nik Tendo\"],album:\"J. EDEN E-GEN (mixed by NobodyListen)\",albumSlug:\"j-eden-e-gen-mixed-by-nobodylisten\",year:2022,genre:[\"hip-hop\"],duration:\"2:00\",trackNumber:5,producers:[],producersNames:[],description:\"FVCK FORBES \\u2014 skladba od Yzomandias z alba J. EDEN E-GEN (mixed by NobodyListen) (2022).\",publishedAt:\"2026-06-06\"};function b(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/skladby/fvck-forbes-yzomandias\",children:\"FVCK FORBES\"})}),\" od \",(0,o.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" z alba \",(0,o.jsx)(e.a,{href:\"/alba/j-eden-e-gen-mixed-by-nobodylisten\",children:\"J. EDEN E-GEN (mixed by NobodyListen)\"}),\" (2022).\"]})}function l(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(b,{...n})}):b(n)}return h(z);})();\n;return Component;"
   },
   "_id": "skladby/fvck-forbes-yzomandias.mdx",
   "_raw": {

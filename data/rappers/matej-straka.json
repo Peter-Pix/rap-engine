@@ -8,7 +8,33 @@
   "updatedAt": "2026-06-06",
   "meta": {
     "realName": "",
-    "genres": []
+    "born": "",
+    "active": {},
+    "genres": [],
+    "primaryLabel": null,
+    "socials": {},
+    "deezerId": 9963194,
+    "image": "https://cdn-images.dzcdn.net/images/artist/93b1c46672abb63d96d423b24154a688/1000x1000-000000-80-0-0.jpg",
+    "nbFans": 100,
+    "nbAlbums": 15
   },
-  "_deezer": {}
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:53:12.776Z",
+    "raw": {
+      "id": 9963194,
+      "name": "Matej Straka",
+      "link": "https://www.deezer.com/artist/9963194",
+      "share": "https://www.deezer.com/artist/9963194?utm_source=deezer&utm_content=artist-9963194&utm_term=0_1780746792&utm_medium=web",
+      "picture": "https://api.deezer.com/artist/9963194/image",
+      "picture_small": "https://cdn-images.dzcdn.net/images/artist/93b1c46672abb63d96d423b24154a688/56x56-000000-80-0-0.jpg",
+      "picture_medium": "https://cdn-images.dzcdn.net/images/artist/93b1c46672abb63d96d423b24154a688/250x250-000000-80-0-0.jpg",
+      "picture_big": "https://cdn-images.dzcdn.net/images/artist/93b1c46672abb63d96d423b24154a688/500x500-000000-80-0-0.jpg",
+      "picture_xl": "https://cdn-images.dzcdn.net/images/artist/93b1c46672abb63d96d423b24154a688/1000x1000-000000-80-0-0.jpg",
+      "nb_album": 15,
+      "nb_fan": 100,
+      "radio": true,
+      "tracklist": "https://api.deezer.com/artist/9963194/top?limit=50",
+      "type": "artist"
+    }
+  }
 }

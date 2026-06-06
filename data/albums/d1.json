@@ -1,0 +1,561 @@
+{
+  "id": "album_d1",
+  "kind": "album",
+  "slug": "d1",
+  "title": "D1",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "dara-rolins"
+    },
+    "label": null,
+    "labelName": "Sony BMG",
+    "year": 2006,
+    "releaseType": "album",
+    "genres": [
+      "czech-pop",
+      "rnb"
+    ],
+    "tracklist": [
+      "Nádych Výdych",
+      "Túžim",
+      "Chuť Si Ťa Nájde",
+      "Party DJ",
+      "Znamenie",
+      "Dotkni Se Slávy",
+      "Ide O Život (DFL Remix)",
+      "Pár Chvíľ",
+      "Owner Of A Lonely Heart",
+      "Slowly",
+      "Mon Amour",
+      "I (Who Have Nothing)",
+      "If"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 976755291,
+    "nbTracks": 13
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:52:57.348Z",
+    "raw": {
+      "id": 976755291,
+      "title": "D1",
+      "upc": "7316482458462",
+      "link": "https://www.deezer.com/album/976755291",
+      "share": "https://www.deezer.com/album/976755291?utm_source=deezer&utm_content=album-976755291&utm_term=0_1780746777&utm_medium=web",
+      "cover": "https://api.deezer.com/album/976755291/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "de662336626351ecaac3ef1efedf92d7",
+      "genre_id": 132,
+      "genres": {
+        "data": [
+          {
+            "id": 132,
+            "name": "Pop",
+            "picture": "https://api.deezer.com/genre/132/image",
+            "type": "genre"
+          },
+          {
+            "id": 165,
+            "name": "R&B",
+            "picture": "https://api.deezer.com/genre/165/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Sony BMG",
+      "nb_tracks": 13,
+      "duration": 2852,
+      "fans": 2,
+      "release_date": "2006-06-08",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/976755291/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 4,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 329936,
+          "name": "Dara Rolins",
+          "link": "https://www.deezer.com/artist/329936",
+          "share": "https://www.deezer.com/artist/329936?utm_source=deezer&utm_content=artist-329936&utm_term=0_1780746777&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/329936/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/ca4002433468c8b2088412c81a1c1bf0/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/ca4002433468c8b2088412c81a1c1bf0/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/ca4002433468c8b2088412c81a1c1bf0/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/ca4002433468c8b2088412c81a1c1bf0/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 329936,
+        "name": "Dara Rolins",
+        "picture": "https://api.deezer.com/artist/329936/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/ca4002433468c8b2088412c81a1c1bf0/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/ca4002433468c8b2088412c81a1c1bf0/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/ca4002433468c8b2088412c81a1c1bf0/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/ca4002433468c8b2088412c81a1c1bf0/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 4004571751,
+            "readable": true,
+            "title": "Nádych Výdych",
+            "title_short": "Nádych Výdych",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571751",
+            "duration": 217,
+            "rank": 31743,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/d/0/03d37b45f57f2eba88ae9eba9f493f56.mp3?hdnea=exp=1780747677~acl=/api/1/1/0/3/d/0/03d37b45f57f2eba88ae9eba9f493f56.mp3*~data=user_id=0,application_id=42~hmac=a3acc07d78db0774ba3d96836c101ef838b1925f72d7c0e7b27aca86ee2c0368",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571761,
+            "readable": true,
+            "title": "Túžim",
+            "title_short": "Túžim",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571761",
+            "duration": 220,
+            "rank": 47604,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/1/8/0/318dc91acc94f63ba9d3ac5f43eb6f02.mp3?hdnea=exp=1780747677~acl=/api/1/1/3/1/8/0/318dc91acc94f63ba9d3ac5f43eb6f02.mp3*~data=user_id=0,application_id=42~hmac=a0414c9dfb60255ded9451b4a3f66f499de058ff0ed6641bbf78659ee516d3a2",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571771,
+            "readable": true,
+            "title": "Chuť Si Ťa Nájde",
+            "title_short": "Chuť Si Ťa Nájde",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571771",
+            "duration": 234,
+            "rank": 32877,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/c/0/29ce0d7482acd1e2c3774d6ccef6e115.mp3?hdnea=exp=1780747677~acl=/api/1/1/2/9/c/0/29ce0d7482acd1e2c3774d6ccef6e115.mp3*~data=user_id=0,application_id=42~hmac=0eae1cd002ede27f1de8642065fb24856911fad892237b489643f04adde1619d",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571781,
+            "readable": true,
+            "title": "Party DJ",
+            "title_short": "Party DJ",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571781",
+            "duration": 250,
+            "rank": 149079,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/1/0/3b13bc2abf7dbaace2d4b3f64a4368a8.mp3?hdnea=exp=1780747677~acl=/api/1/1/3/b/1/0/3b13bc2abf7dbaace2d4b3f64a4368a8.mp3*~data=user_id=0,application_id=42~hmac=64337b992c80e09172797a01b23868bf9f7af7a3af7426c0e9479c8bd76dba63",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571791,
+            "readable": true,
+            "title": "Znamenie",
+            "title_short": "Znamenie",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571791",
+            "duration": 227,
+            "rank": 38557,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/3/d/0/63dc345dd5e62ca150872b1d3660d806.mp3?hdnea=exp=1780747677~acl=/api/1/1/6/3/d/0/63dc345dd5e62ca150872b1d3660d806.mp3*~data=user_id=0,application_id=42~hmac=7cd6f55187e3a6df305b1ec5a9ff00e2f4ea262cf0f5972ace4ce97357d5fa1e",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571801,
+            "readable": true,
+            "title": "Dotkni Se Slávy",
+            "title_short": "Dotkni Se Slávy",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571801",
+            "duration": 191,
+            "rank": 41484,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/5/a/0/e5aa0221d3a5a17309e4f8f3b04c3503.mp3?hdnea=exp=1780747677~acl=/api/1/1/e/5/a/0/e5aa0221d3a5a17309e4f8f3b04c3503.mp3*~data=user_id=0,application_id=42~hmac=06a3c07930958706fa777c1779215eb5a20ceb96ad63c1feed62edf2986d6e1a",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571811,
+            "readable": true,
+            "title": "Ide O Život (DFL Remix)",
+            "title_short": "Ide O Život",
+            "title_version": "(DFL Remix)",
+            "link": "https://www.deezer.com/track/4004571811",
+            "duration": 225,
+            "rank": 20973,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/7/0/4c7788621a569494b0d9634d77d39c61.mp3?hdnea=exp=1780747677~acl=/api/1/1/4/c/7/0/4c7788621a569494b0d9634d77d39c61.mp3*~data=user_id=0,application_id=42~hmac=221c5d9f0c7dd99dac872b5b94eb655d7853aeec54c32ea54f4080c32004cf0d",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571821,
+            "readable": true,
+            "title": "Pár Chvíľ",
+            "title_short": "Pár Chvíľ",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571821",
+            "duration": 258,
+            "rank": 35729,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/8/a/0/78a94a3fb8a7319631c5f712d121ce9b.mp3?hdnea=exp=1780747677~acl=/api/1/1/7/8/a/0/78a94a3fb8a7319631c5f712d121ce9b.mp3*~data=user_id=0,application_id=42~hmac=c9c430dfa520aa1fffba1bb8bf8b33306939a6b3371f92cea2c5d13ca7cc9a25",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571831,
+            "readable": true,
+            "title": "Owner Of A Lonely Heart",
+            "title_short": "Owner Of A Lonely Heart",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571831",
+            "duration": 208,
+            "rank": 21311,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/f/0/cbfc6b34996d45001f342cfde7adac9a.mp3?hdnea=exp=1780747677~acl=/api/1/1/c/b/f/0/cbfc6b34996d45001f342cfde7adac9a.mp3*~data=user_id=0,application_id=42~hmac=14b5d28043ce63dd68158e26ab22c58cece674f3a8c288c9efa79d70a3ed6d4f",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571841,
+            "readable": true,
+            "title": "Slowly",
+            "title_short": "Slowly",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571841",
+            "duration": 190,
+            "rank": 57113,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/7/0/ca7de8bf66c92eafccfbe9ce90eb0472.mp3?hdnea=exp=1780747677~acl=/api/1/1/c/a/7/0/ca7de8bf66c92eafccfbe9ce90eb0472.mp3*~data=user_id=0,application_id=42~hmac=ae905806c09155eeff47de112f26ebea8d727655752dfea3124baa548d45d125",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571851,
+            "readable": true,
+            "title": "Mon Amour",
+            "title_short": "Mon Amour",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571851",
+            "duration": 203,
+            "rank": 14369,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/d/0/70d5c33c601ee4017cf9cd8e791a2118.mp3?hdnea=exp=1780747677~acl=/api/1/1/7/0/d/0/70d5c33c601ee4017cf9cd8e791a2118.mp3*~data=user_id=0,application_id=42~hmac=875df62f647225ff8cab77b5b7ca17a4d3d61804ffbc256d14461732e9af6805",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571861,
+            "readable": true,
+            "title": "I (Who Have Nothing)",
+            "title_short": "I (Who Have Nothing)",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571861",
+            "duration": 169,
+            "rank": 37319,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/5/0/82590f190386fcb60804dd0d4b19cab2.mp3?hdnea=exp=1780747677~acl=/api/1/1/8/2/5/0/82590f190386fcb60804dd0d4b19cab2.mp3*~data=user_id=0,application_id=42~hmac=bd2269567ad813ee5df21593ab6ba3a0b500c1a48822ef7e28853361154dc074",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 4004571871,
+            "readable": true,
+            "title": "If",
+            "title_short": "If",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/4004571871",
+            "duration": 260,
+            "rank": 41483,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/4/0/804238b8f66de0fda7a2430974a96b58.mp3?hdnea=exp=1780747677~acl=/api/1/1/8/0/4/0/804238b8f66de0fda7a2430974a96b58.mp3*~data=user_id=0,application_id=42~hmac=adcb5bfaf2f5d23c416b71cdcb1e4e68116383eac1a37049235f45978922b90b",
+            "md5_image": "de662336626351ecaac3ef1efedf92d7",
+            "artist": {
+              "id": 329936,
+              "name": "Dara Rolins",
+              "tracklist": "https://api.deezer.com/artist/329936/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 976755291,
+              "title": "D1",
+              "cover": "https://api.deezer.com/album/976755291/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/de662336626351ecaac3ef1efedf92d7/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "de662336626351ecaac3ef1efedf92d7",
+              "tracklist": "https://api.deezer.com/album/976755291/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}

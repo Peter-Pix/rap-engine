@@ -1,0 +1,519 @@
+{
+  "id": "album_masterpiece",
+  "kind": "album",
+  "slug": "masterpiece",
+  "title": "Masterpiece",
+  "status": "stub",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
+  "meta": {
+    "artist": {
+      "kind": "rapper",
+      "slug": "sima"
+    },
+    "label": null,
+    "labelName": "WM Czech Republic",
+    "year": 2022,
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Silnejšia",
+      "Noa Čo, Ha!",
+      "Si Sexy",
+      "V Oblakoch",
+      "Čo Je?!",
+      "Ružová",
+      "Sám",
+      "Víkend",
+      "Posledný Krát",
+      "Slzy",
+      "Perly",
+      "Riť"
+    ],
+    "rating": null,
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+    "deezerAlbumId": 442369507,
+    "nbTracks": 12
+  },
+  "_deezer": {
+    "fetchedAt": "2026-06-06T11:41:31.415Z",
+    "raw": {
+      "id": 442369507,
+      "title": "Masterpiece",
+      "upc": "5054197691430",
+      "link": "https://www.deezer.com/album/442369507",
+      "share": "https://www.deezer.com/album/442369507?utm_source=deezer&utm_content=album-442369507&utm_term=0_1780746090&utm_medium=web",
+      "cover": "https://api.deezer.com/album/442369507/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "WM Czech Republic",
+      "nb_tracks": 12,
+      "duration": 2023,
+      "fans": 61,
+      "release_date": "2022-12-09",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/442369507/tracks",
+      "explicit_lyrics": false,
+      "explicit_content_lyrics": 0,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 13757391,
+          "name": "SIMA",
+          "link": "https://www.deezer.com/artist/13757391",
+          "share": "https://www.deezer.com/artist/13757391?utm_source=deezer&utm_content=artist-13757391&utm_term=0_1780746090&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/13757391/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/e29394646dd33af5e1b08543365eb36c/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e29394646dd33af5e1b08543365eb36c/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/e29394646dd33af5e1b08543365eb36c/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e29394646dd33af5e1b08543365eb36c/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 13757391,
+        "name": "SIMA",
+        "picture": "https://api.deezer.com/artist/13757391/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/e29394646dd33af5e1b08543365eb36c/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e29394646dd33af5e1b08543365eb36c/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/e29394646dd33af5e1b08543365eb36c/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e29394646dd33af5e1b08543365eb36c/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 2287164407,
+            "readable": true,
+            "title": "Silnejšia",
+            "title_short": "Silnejšia",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164407",
+            "duration": 155,
+            "rank": 158793,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/4/0/88454224642c4c6bdfdb1d86f5622c6c.mp3?hdnea=exp=1780746990~acl=/api/1/1/8/8/4/0/88454224642c4c6bdfdb1d86f5622c6c.mp3*~data=user_id=0,application_id=42~hmac=e8f57a6e63db1ea98f7a1223f45ed864ec700de4060428e8873034ed9472f43a",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164417,
+            "readable": true,
+            "title": "Noa Čo, Ha!",
+            "title_short": "Noa Čo, Ha!",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164417",
+            "duration": 201,
+            "rank": 31905,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/0/9/0/b096c7fce933d96db90aacfc379824c0.mp3?hdnea=exp=1780746990~acl=/api/1/1/b/0/9/0/b096c7fce933d96db90aacfc379824c0.mp3*~data=user_id=0,application_id=42~hmac=71605c22bb75533ea20587a317932d16ef19a6854ca47636a4d397c2956d3dab",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164427,
+            "readable": true,
+            "title": "Si Sexy",
+            "title_short": "Si Sexy",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164427",
+            "duration": 163,
+            "rank": 108444,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/f/1/0/2f1eb9bcd7d46e8027c25d57b13f9653.mp3?hdnea=exp=1780746990~acl=/api/1/1/2/f/1/0/2f1eb9bcd7d46e8027c25d57b13f9653.mp3*~data=user_id=0,application_id=42~hmac=7e384e67aab357278111ea533b3f653415b6aa840db69bb86b69428456b24684",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164437,
+            "readable": true,
+            "title": "V Oblakoch",
+            "title_short": "V Oblakoch",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164437",
+            "duration": 176,
+            "rank": 171158,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/9/0/199652919a0040e9792fe7f49605b8ba.mp3?hdnea=exp=1780746990~acl=/api/1/1/1/9/9/0/199652919a0040e9792fe7f49605b8ba.mp3*~data=user_id=0,application_id=42~hmac=fff792b7c6c042a0c86e52e37066674b4bccbfcf5264163647cbd9cf006f50a7",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164447,
+            "readable": true,
+            "title": "Čo Je?!",
+            "title_short": "Čo Je?!",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164447",
+            "duration": 169,
+            "rank": 86598,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/e/0/3be9f8f510a4a663a56f44a3584ac13a.mp3?hdnea=exp=1780746990~acl=/api/1/1/3/b/e/0/3be9f8f510a4a663a56f44a3584ac13a.mp3*~data=user_id=0,application_id=42~hmac=497981d19ac61cb8ef5674420475d4401a27e486a111b92a4080fb6ecfe6551d",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164457,
+            "readable": true,
+            "title": "Ružová",
+            "title_short": "Ružová",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164457",
+            "duration": 148,
+            "rank": 37704,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/7/0/747bc64b5939596f36a51945ddf86443.mp3?hdnea=exp=1780746990~acl=/api/1/1/7/4/7/0/747bc64b5939596f36a51945ddf86443.mp3*~data=user_id=0,application_id=42~hmac=a54338294e21f470f498c47393bb249d5991047e962e4af3d362d28de84d0fa6",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164467,
+            "readable": true,
+            "title": "Sám",
+            "title_short": "Sám",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164467",
+            "duration": 190,
+            "rank": 41860,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/1/0/73118f4239ead80c9f966ea6073dcd4d.mp3?hdnea=exp=1780746990~acl=/api/1/1/7/3/1/0/73118f4239ead80c9f966ea6073dcd4d.mp3*~data=user_id=0,application_id=42~hmac=2506ad02a7c6b0bd92960b7f436d449c6935afe54658736f72f00f9c60e82143",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164477,
+            "readable": true,
+            "title": "Víkend",
+            "title_short": "Víkend",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164477",
+            "duration": 187,
+            "rank": 122472,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/1/0/8410b14bac33228e462c1647deefd356.mp3?hdnea=exp=1780746990~acl=/api/1/1/8/4/1/0/8410b14bac33228e462c1647deefd356.mp3*~data=user_id=0,application_id=42~hmac=1e6afc6d2315a88b1176ff4666baab151a6d6cc7092b6de0a5ae376f72a96cd4",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164487,
+            "readable": true,
+            "title": "Posledný Krát",
+            "title_short": "Posledný Krát",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164487",
+            "duration": 170,
+            "rank": 31328,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/f/0/00f36f255176d7d8f1f5c81801dd6749.mp3?hdnea=exp=1780746990~acl=/api/1/1/0/0/f/0/00f36f255176d7d8f1f5c81801dd6749.mp3*~data=user_id=0,application_id=42~hmac=192ffe7943ce0fbbc9561769ce3c809e33c4abcf388e765b44158bd220546c7e",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164497,
+            "readable": true,
+            "title": "Slzy",
+            "title_short": "Slzy",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164497",
+            "duration": 164,
+            "rank": 18714,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/a/0/eaa217bb8d1bf2e4c8609b7ea1b8b96c.mp3?hdnea=exp=1780746990~acl=/api/1/1/e/a/a/0/eaa217bb8d1bf2e4c8609b7ea1b8b96c.mp3*~data=user_id=0,application_id=42~hmac=8f06b663f81e75dd8a6dd514ab0b5c5eb33a0e9e20f773375d470dcdfb736bd2",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164507,
+            "readable": true,
+            "title": "Perly",
+            "title_short": "Perly",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164507",
+            "duration": 121,
+            "rank": 88432,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/d/0/38dbebf7300106a4a5edf4dd87c9025f.mp3?hdnea=exp=1780746990~acl=/api/1/1/3/8/d/0/38dbebf7300106a4a5edf4dd87c9025f.mp3*~data=user_id=0,application_id=42~hmac=9bc7e4ebc5a771f3931fa7685b99b8acd6588e266dea0ca5449e24bb36b6a309",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2287164517,
+            "readable": true,
+            "title": "Riť",
+            "title_short": "Riť",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2287164517",
+            "duration": 179,
+            "rank": 71049,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/d/0/34d7b5fc744a9f182bdfbad55eff9f12.mp3?hdnea=exp=1780746990~acl=/api/1/1/3/4/d/0/34d7b5fc744a9f182bdfbad55eff9f12.mp3*~data=user_id=0,application_id=42~hmac=1dd2e5436171586f8103bd55e505c19ee20eb5c869ff10d95621e13ae2905ad8",
+            "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+            "artist": {
+              "id": 13757391,
+              "name": "SIMA",
+              "tracklist": "https://api.deezer.com/artist/13757391/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 442369507,
+              "title": "Masterpiece",
+              "cover": "https://api.deezer.com/album/442369507/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4929a2582d24af88f94a0d6c1b57c3c0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4929a2582d24af88f94a0d6c1b57c3c0",
+              "tracklist": "https://api.deezer.com/album/442369507/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
+  }
+}
