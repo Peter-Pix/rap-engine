@@ -3,35 +3,482 @@
   "kind": "album",
   "slug": "darkside-fanatic",
   "title": "DARKSIDE FANATIC",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "redzed"
     },
     "label": null,
+    "labelName": "TILL THE GRAVE RECORDS s.r.o.",
     "year": 2026,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "ULTIMATE GRAVE",
+      "RISE FROM THE RAIN",
+      "WEREWOLF",
+      "ANGELS ON EARTH",
+      "FANATIC",
+      "CLOSE MY EYES",
+      "DRACULA'S NEST",
+      "DEMONIC EUPHORIA",
+      "CRADLE OF FILTH",
+      "GHOSTS AND FAIRY TALES",
+      "BOOK OF SHADOWS"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 925251811
+    "deezerAlbumId": 925251811,
+    "nbTracks": 11
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T14:00:12.214Z",
+    "raw": {
+      "id": 925251811,
+      "title": "DARKSIDE FANATIC",
+      "upc": "3618028284233",
+      "link": "https://www.deezer.com/album/925251811",
+      "share": "https://www.deezer.com/album/925251811?utm_source=deezer&utm_content=album-925251811&utm_term=0_1780754412&utm_medium=web",
+      "cover": "https://api.deezer.com/album/925251811/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "3510be094e96a593c3502810323111a0",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "TILL THE GRAVE RECORDS s.r.o.",
+      "nb_tracks": 11,
+      "duration": 1664,
+      "fans": 57,
+      "release_date": "2026-03-26",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/925251811/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 52676722,
+          "name": "Redzed",
+          "link": "https://www.deezer.com/artist/52676722",
+          "share": "https://www.deezer.com/artist/52676722?utm_source=deezer&utm_content=artist-52676722&utm_term=0_1780754412&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/52676722/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/454117e99605e763b345d92e3b475cf5/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/454117e99605e763b345d92e3b475cf5/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/454117e99605e763b345d92e3b475cf5/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/454117e99605e763b345d92e3b475cf5/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 52676722,
+        "name": "Redzed",
+        "picture": "https://api.deezer.com/artist/52676722/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/454117e99605e763b345d92e3b475cf5/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/454117e99605e763b345d92e3b475cf5/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/454117e99605e763b345d92e3b475cf5/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/454117e99605e763b345d92e3b475cf5/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 3861451971,
+            "readable": true,
+            "title": "ULTIMATE GRAVE",
+            "title_short": "ULTIMATE GRAVE",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861451971",
+            "duration": 154,
+            "rank": 247936,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/4/0/1a4d575aefb5fb62e1e897139834d740.mp3?hdnea=exp=1780755312~acl=/api/1/1/1/a/4/0/1a4d575aefb5fb62e1e897139834d740.mp3*~data=user_id=0,application_id=42~hmac=c5b7b9ba7088c9e6f954fd8cd662bbde2468588d20b12b526a772d5ee12f2c56",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861451981,
+            "readable": true,
+            "title": "RISE FROM THE RAIN",
+            "title_short": "RISE FROM THE RAIN",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861451981",
+            "duration": 146,
+            "rank": 193688,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/0/0/050a9ec5a099f34eb367db50bce675c8.mp3?hdnea=exp=1780755312~acl=/api/1/1/0/5/0/0/050a9ec5a099f34eb367db50bce675c8.mp3*~data=user_id=0,application_id=42~hmac=ebdaec6dc3a961a7f187561ca5bfea167ac6424cf9b66126b41e7fa8301f4245",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861451991,
+            "readable": true,
+            "title": "WEREWOLF",
+            "title_short": "WEREWOLF",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861451991",
+            "duration": 175,
+            "rank": 198702,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/4/0/ae48c4ad3394ca15601e25f38897bc72.mp3?hdnea=exp=1780755312~acl=/api/1/1/a/e/4/0/ae48c4ad3394ca15601e25f38897bc72.mp3*~data=user_id=0,application_id=42~hmac=10cb0b5687d79dfec1e9ff3e5c45a662706a0fe294056bc8f970a5ed67bea7d7",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861452001,
+            "readable": true,
+            "title": "ANGELS ON EARTH",
+            "title_short": "ANGELS ON EARTH",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861452001",
+            "duration": 187,
+            "rank": 230738,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/d/0/3ddfb16cbf535768e81552f36b70def9.mp3?hdnea=exp=1780755312~acl=/api/1/1/3/d/d/0/3ddfb16cbf535768e81552f36b70def9.mp3*~data=user_id=0,application_id=42~hmac=b0e0a9b6ec909ebc25536f88102293d42fb9de3cdd230a53421b1cd113f7221f",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861452011,
+            "readable": true,
+            "title": "FANATIC",
+            "title_short": "FANATIC",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861452011",
+            "duration": 117,
+            "rank": 352989,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/2/0/fe2643fee17a9cb2c57f7f7fb1fa370c.mp3?hdnea=exp=1780755312~acl=/api/1/1/f/e/2/0/fe2643fee17a9cb2c57f7f7fb1fa370c.mp3*~data=user_id=0,application_id=42~hmac=ed96dc26c71e9b646d7a75d25fba3137163077a90c41505719c1821dac74440e",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861452021,
+            "readable": true,
+            "title": "CLOSE MY EYES",
+            "title_short": "CLOSE MY EYES",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861452021",
+            "duration": 169,
+            "rank": 144607,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/0/8/0/c08e2f43e09473faa42fc583dc20a2ca.mp3?hdnea=exp=1780755312~acl=/api/1/1/c/0/8/0/c08e2f43e09473faa42fc583dc20a2ca.mp3*~data=user_id=0,application_id=42~hmac=8279153909f03add73c1b222076963aa8f68eed6a1b636e87a7ecacdb448ca8f",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861452031,
+            "readable": true,
+            "title": "DRACULA'S NEST",
+            "title_short": "DRACULA'S NEST",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861452031",
+            "duration": 141,
+            "rank": 173193,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/1/2/0/0120dfba572ac8a7e599a697b99be523.mp3?hdnea=exp=1780755312~acl=/api/1/1/0/1/2/0/0120dfba572ac8a7e599a697b99be523.mp3*~data=user_id=0,application_id=42~hmac=ef9f589fd4c9d403f82d5a917e6ef550e6fd771570b05707c8399bc8dbffa649",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861452041,
+            "readable": true,
+            "title": "DEMONIC EUPHORIA",
+            "title_short": "DEMONIC EUPHORIA",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861452041",
+            "duration": 94,
+            "rank": 156421,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/c/d/0/ccd43a3c3a28fbae450edf944a3099f7.mp3?hdnea=exp=1780755312~acl=/api/1/1/c/c/d/0/ccd43a3c3a28fbae450edf944a3099f7.mp3*~data=user_id=0,application_id=42~hmac=c484175405c83849a9d6197e725269b7bcd5eeb9acfed6262ff61c7db167fa7e",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861452051,
+            "readable": true,
+            "title": "CRADLE OF FILTH",
+            "title_short": "CRADLE OF FILTH",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861452051",
+            "duration": 141,
+            "rank": 183033,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/c/0/99c34c29225591d1436465190abfd5e7.mp3?hdnea=exp=1780755312~acl=/api/1/1/9/9/c/0/99c34c29225591d1436465190abfd5e7.mp3*~data=user_id=0,application_id=42~hmac=6a5de56e8abfafbe55549aedb55c868bc418c361ef4240e15900ce4a613e4072",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861452061,
+            "readable": true,
+            "title": "GHOSTS AND FAIRY TALES",
+            "title_short": "GHOSTS AND FAIRY TALES",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861452061",
+            "duration": 200,
+            "rank": 154768,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/5/9/0/f59e6b96d5d902234fa1ef47ffadc654.mp3?hdnea=exp=1780755312~acl=/api/1/1/f/5/9/0/f59e6b96d5d902234fa1ef47ffadc654.mp3*~data=user_id=0,application_id=42~hmac=1d22a0d083ee8e4915bdfae820d03d0fbfcaa2661d7c2b6e1a4e4d0cf326d8c2",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3861452071,
+            "readable": true,
+            "title": "BOOK OF SHADOWS",
+            "title_short": "BOOK OF SHADOWS",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3861452071",
+            "duration": 140,
+            "rank": 121337,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/a/7/0/0a73c34e603d55f3e51f9b222883d0fd.mp3?hdnea=exp=1780755312~acl=/api/1/1/0/a/7/0/0a73c34e603d55f3e51f9b222883d0fd.mp3*~data=user_id=0,application_id=42~hmac=5df7858553db421d330c708dff3fb939c24221f9b6eaf7b711d4ad8ace36fbce",
+            "md5_image": "3510be094e96a593c3502810323111a0",
+            "artist": {
+              "id": 52676722,
+              "name": "Redzed",
+              "tracklist": "https://api.deezer.com/artist/52676722/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 925251811,
+              "title": "DARKSIDE FANATIC",
+              "cover": "https://api.deezer.com/album/925251811/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/3510be094e96a593c3502810323111a0/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "3510be094e96a593c3502810323111a0",
+              "tracklist": "https://api.deezer.com/album/925251811/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }

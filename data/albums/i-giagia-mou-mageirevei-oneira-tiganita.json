@@ -3,35 +3,552 @@
   "kind": "album",
   "slug": "i-giagia-mou-mageirevei-oneira-tiganita",
   "title": "I Giagia Mou Mageirevei Oneira Tiganita",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "arleta"
     },
     "label": null,
+    "labelName": "Sony Music Entertainment Greece",
     "year": 2020,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "czech-pop"
+    ],
+    "tracklist": [
+      "Ta Sandalia Ton Aggelon",
+      "Ti Den Katalavaineis",
+      "Oneira Tiganita",
+      "Petaloudes Pou Tha Ftasoun Sto Feggari",
+      "To Karteri",
+      "Zacharieres",
+      "I Apofasi",
+      "Oi Filoi Mas",
+      "To Kelari",
+      "Maxilari",
+      "Blouza Me Mia Staba",
+      "Nekri Fysi",
+      "Den Einai Ena Tragoudi Christougennon"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 889619792
+    "deezerAlbumId": 889619792,
+    "nbTracks": 13
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T13:58:02.737Z",
+    "raw": {
+      "id": 889619792,
+      "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+      "upc": "5206999024071",
+      "link": "https://www.deezer.com/album/889619792",
+      "share": "https://www.deezer.com/album/889619792?utm_source=deezer&utm_content=album-889619792&utm_term=0_1780754282&utm_medium=web",
+      "cover": "https://api.deezer.com/album/889619792/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+      "genre_id": 132,
+      "genres": {
+        "data": [
+          {
+            "id": 132,
+            "name": "Pop",
+            "picture": "https://api.deezer.com/genre/132/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Sony Music Entertainment Greece",
+      "nb_tracks": 13,
+      "duration": 2675,
+      "fans": 2,
+      "release_date": "2020-07-30",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/889619792/tracks",
+      "explicit_lyrics": false,
+      "explicit_content_lyrics": 0,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 69865,
+          "name": "Arleta",
+          "link": "https://www.deezer.com/artist/69865",
+          "share": "https://www.deezer.com/artist/69865?utm_source=deezer&utm_content=artist-69865&utm_term=0_1780754282&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/69865/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/563680ebf1c3347169b94aef7fe0b6a1/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/563680ebf1c3347169b94aef7fe0b6a1/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/563680ebf1c3347169b94aef7fe0b6a1/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/563680ebf1c3347169b94aef7fe0b6a1/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 69865,
+        "name": "Arleta",
+        "picture": "https://api.deezer.com/artist/69865/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/563680ebf1c3347169b94aef7fe0b6a1/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/563680ebf1c3347169b94aef7fe0b6a1/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/563680ebf1c3347169b94aef7fe0b6a1/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/563680ebf1c3347169b94aef7fe0b6a1/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 3752778392,
+            "readable": true,
+            "title": "Ta Sandalia Ton Aggelon",
+            "title_short": "Ta Sandalia Ton Aggelon",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778392",
+            "duration": 221,
+            "rank": 25417,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/a/0/faa97c2372f34e269d893e13ced3766e.mp3?hdnea=exp=1780755182~acl=/api/1/1/f/a/a/0/faa97c2372f34e269d893e13ced3766e.mp3*~data=user_id=0,application_id=42~hmac=aa12098be47bf8e6ad87b24f669c9ec558af1f9311cc823349063fd325067ae7",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778402,
+            "readable": true,
+            "title": "Ti Den Katalavaineis",
+            "title_short": "Ti Den Katalavaineis",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778402",
+            "duration": 179,
+            "rank": 1801,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/a/0/23ae599d7dbd32e49b201205bff9c695.mp3?hdnea=exp=1780755182~acl=/api/1/1/2/3/a/0/23ae599d7dbd32e49b201205bff9c695.mp3*~data=user_id=0,application_id=42~hmac=095e572f877ee0d336f9ae5f991f336df5e2c52f98e631003ba4afeacc896054",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778412,
+            "readable": true,
+            "title": "Oneira Tiganita",
+            "title_short": "Oneira Tiganita",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778412",
+            "duration": 203,
+            "rank": 10006,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/8/0/a38d413f3bd0f56f45cb6ca251b272e4.mp3?hdnea=exp=1780755182~acl=/api/1/1/a/3/8/0/a38d413f3bd0f56f45cb6ca251b272e4.mp3*~data=user_id=0,application_id=42~hmac=73b3365b2fcbebc3396fa349a76e86dce57541e59179828b7684333523cd85e1",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778422,
+            "readable": true,
+            "title": "Petaloudes Pou Tha Ftasoun Sto Feggari",
+            "title_short": "Petaloudes Pou Tha Ftasoun Sto Feggari",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778422",
+            "duration": 181,
+            "rank": 4344,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/6/0/0/c6017547d3da4244c0590a4ab1ed2964.mp3?hdnea=exp=1780755182~acl=/api/1/1/c/6/0/0/c6017547d3da4244c0590a4ab1ed2964.mp3*~data=user_id=0,application_id=42~hmac=bdb967cd20bfc9f143b5a421045fa007b6ceed779820dfb2789a807b522fdf2b",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778432,
+            "readable": true,
+            "title": "To Karteri",
+            "title_short": "To Karteri",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778432",
+            "duration": 182,
+            "rank": 11394,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/e/0/efe51f0c20bbfa76d173a8b989a62b7a.mp3?hdnea=exp=1780755182~acl=/api/1/1/e/f/e/0/efe51f0c20bbfa76d173a8b989a62b7a.mp3*~data=user_id=0,application_id=42~hmac=f45dd3a74ab486069761a9f89137832be9dd1354f909cfb89bb455774e1dbdf9",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778442,
+            "readable": true,
+            "title": "Zacharieres",
+            "title_short": "Zacharieres",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778442",
+            "duration": 231,
+            "rank": 1801,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/3/0/c831028625eb5cb7e9011f44364367f2.mp3?hdnea=exp=1780755182~acl=/api/1/1/c/8/3/0/c831028625eb5cb7e9011f44364367f2.mp3*~data=user_id=0,application_id=42~hmac=a38ab4102648edc9901ad42e4908a4b48cd1847033e8eb05aa03384729d656f5",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778462,
+            "readable": true,
+            "title": "I Apofasi",
+            "title_short": "I Apofasi",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778462",
+            "duration": 210,
+            "rank": 25955,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/0/0/87013beedfc46f3ad754746f8646a7b2.mp3?hdnea=exp=1780755182~acl=/api/1/1/8/7/0/0/87013beedfc46f3ad754746f8646a7b2.mp3*~data=user_id=0,application_id=42~hmac=018c3b175d3a647eaafb75337d2cbfb08946107a8314f89f065e6a9f517e7278",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778482,
+            "readable": true,
+            "title": "Oi Filoi Mas",
+            "title_short": "Oi Filoi Mas",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778482",
+            "duration": 188,
+            "rank": 2488,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/4/a/0/44ab58db637e57f5562eef059ca0947c.mp3?hdnea=exp=1780755182~acl=/api/1/1/4/4/a/0/44ab58db637e57f5562eef059ca0947c.mp3*~data=user_id=0,application_id=42~hmac=81d919583f174ee35cf0dd2951d22bd785f6c3bf38c6291db6dd1ca3dba86a4e",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778492,
+            "readable": true,
+            "title": "To Kelari",
+            "title_short": "To Kelari",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778492",
+            "duration": 212,
+            "rank": 25956,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/d/c/0/5dc92848f6e59fd716f5ce2c3c014a28.mp3?hdnea=exp=1780755182~acl=/api/1/1/5/d/c/0/5dc92848f6e59fd716f5ce2c3c014a28.mp3*~data=user_id=0,application_id=42~hmac=857f4c0ac3e24de8fd0ff0727b4295db3d421346908c12f5535cca9cc335f05d",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778512,
+            "readable": true,
+            "title": "Maxilari",
+            "title_short": "Maxilari",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778512",
+            "duration": 261,
+            "rank": 18240,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/1/6/0/31617314f5aa63cc19753b3dd9e283b4.mp3?hdnea=exp=1780755182~acl=/api/1/1/3/1/6/0/31617314f5aa63cc19753b3dd9e283b4.mp3*~data=user_id=0,application_id=42~hmac=ece259c57f0d2012feaf08ffcc173c8068d4b1718b9c3f0c8ea0d615ea3b37a3",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778532,
+            "readable": true,
+            "title": "Blouza Me Mia Staba",
+            "title_short": "Blouza Me Mia Staba",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778532",
+            "duration": 198,
+            "rank": 27425,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/2/0/8f20f8a70153962eb6a9c6a8acceb20a.mp3?hdnea=exp=1780755182~acl=/api/1/1/8/f/2/0/8f20f8a70153962eb6a9c6a8acceb20a.mp3*~data=user_id=0,application_id=42~hmac=6016a510d1567e9700ece5924c1761003d7bb4973f8efa8929a85217d98792d1",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778542,
+            "readable": true,
+            "title": "Nekri Fysi",
+            "title_short": "Nekri Fysi",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778542",
+            "duration": 170,
+            "rank": 15716,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/1/b/0/31b3af42c9f38b5d8e1db15e3ae7446a.mp3?hdnea=exp=1780755182~acl=/api/1/1/3/1/b/0/31b3af42c9f38b5d8e1db15e3ae7446a.mp3*~data=user_id=0,application_id=42~hmac=3b3bd5a4a6a017a64f351b280bc768b2506b031e428a328db2768b12e80574c0",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3752778562,
+            "readable": true,
+            "title": "Den Einai Ena Tragoudi Christougennon",
+            "title_short": "Den Einai Ena Tragoudi Christougennon",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3752778562",
+            "duration": 239,
+            "rank": 13686,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/1/0/f616930cd534c8538b014913428b17a6.mp3?hdnea=exp=1780755182~acl=/api/1/1/f/6/1/0/f616930cd534c8538b014913428b17a6.mp3*~data=user_id=0,application_id=42~hmac=316737f290a7fe1bfec4643bb5e6f8a618d35c6c4088334c6003474294000764",
+            "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+            "artist": {
+              "id": 69865,
+              "name": "Arleta",
+              "tracklist": "https://api.deezer.com/artist/69865/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 889619792,
+              "title": "I Giagia Mou Mageirevei Oneira Tiganita",
+              "cover": "https://api.deezer.com/album/889619792/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/8353d3eb0424c8aa3de15b2b4cd75e76/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "8353d3eb0424c8aa3de15b2b4cd75e76",
+              "tracklist": "https://api.deezer.com/album/889619792/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }

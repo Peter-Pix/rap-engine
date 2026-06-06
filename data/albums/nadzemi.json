@@ -3,35 +3,410 @@
   "kind": "album",
   "slug": "nadzemi",
   "title": "Nadzemí",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
-      "slug": "la4"
+      "slug": "mike-trafik"
     },
-    "label": null,
+    "label": {
+      "kind": "label",
+      "slug": "biggboss"
+    },
+    "labelName": "Bigg Boss",
     "year": 2012,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Nadzemí",
+      "Nekonečnej Apetit",
+      "SFT",
+      "Sítě",
+      "Parazit",
+      "Trochu Jsem Si Ulít",
+      "Proč Je To Kak",
+      "Platim Předem"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 552207272
+    "deezerAlbumId": 552207272,
+    "nbTracks": 8
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T13:56:03.257Z",
+    "raw": {
+      "id": 552207272,
+      "title": "Nadzemí",
+      "upc": "886296323876",
+      "link": "https://www.deezer.com/album/552207272",
+      "share": "https://www.deezer.com/album/552207272?utm_source=deezer&utm_content=album-552207272&utm_term=0_1780754163&utm_medium=web",
+      "cover": "https://api.deezer.com/album/552207272/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Bigg Boss",
+      "nb_tracks": 8,
+      "duration": 1716,
+      "fans": 4,
+      "release_date": "2012-01-01",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/552207272/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 5536601,
+          "name": "Mike Trafik",
+          "link": "https://www.deezer.com/artist/5536601",
+          "share": "https://www.deezer.com/artist/5536601?utm_source=deezer&utm_content=artist-5536601&utm_term=0_1780754163&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/5536601/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/e72ea421151b7d7fedf9bd602e2fb0e8/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e72ea421151b7d7fedf9bd602e2fb0e8/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/e72ea421151b7d7fedf9bd602e2fb0e8/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e72ea421151b7d7fedf9bd602e2fb0e8/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        },
+        {
+          "id": 1404553,
+          "name": "LA4",
+          "link": "https://www.deezer.com/artist/1404553",
+          "share": "https://www.deezer.com/artist/1404553?utm_source=deezer&utm_content=artist-1404553&utm_term=0_1780754163&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/1404553/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/1404553/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        },
+        {
+          "id": 377020,
+          "name": "James Cole",
+          "link": "https://www.deezer.com/artist/377020",
+          "share": "https://www.deezer.com/artist/377020?utm_source=deezer&utm_content=artist-377020&utm_term=0_1780754163&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/377020/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/1d7ca526b6b1b5ba61000820ac4aa24d/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/377020/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 5536601,
+        "name": "Mike Trafik",
+        "picture": "https://api.deezer.com/artist/5536601/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/e72ea421151b7d7fedf9bd602e2fb0e8/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e72ea421151b7d7fedf9bd602e2fb0e8/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/e72ea421151b7d7fedf9bd602e2fb0e8/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e72ea421151b7d7fedf9bd602e2fb0e8/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 2676871482,
+            "readable": true,
+            "title": "Nadzemí",
+            "title_short": "Nadzemí",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2676871482",
+            "duration": 240,
+            "rank": 22326,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/d/b/0/cdbf7f4c641470971c15775ba881ab31.mp3?hdnea=exp=1780755063~acl=/api/1/1/c/d/b/0/cdbf7f4c641470971c15775ba881ab31.mp3*~data=user_id=0,application_id=42~hmac=424683df8e913af10f2ddb8a35ffbbd233f719148f33e26b76ef2fec2f0c28f0",
+            "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+            "artist": {
+              "id": 5536601,
+              "name": "Mike Trafik",
+              "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 552207272,
+              "title": "Nadzemí",
+              "cover": "https://api.deezer.com/album/552207272/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+              "tracklist": "https://api.deezer.com/album/552207272/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2676871492,
+            "readable": true,
+            "title": "Nekonečnej Apetit",
+            "title_short": "Nekonečnej Apetit",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2676871492",
+            "duration": 173,
+            "rank": 25472,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/7/6/0/576323df975a02d1755601d616c3e03e.mp3?hdnea=exp=1780755063~acl=/api/1/1/5/7/6/0/576323df975a02d1755601d616c3e03e.mp3*~data=user_id=0,application_id=42~hmac=d8cc7c8f1598a285011627e292f301d8010f7d091b1f7c250d24388da9745869",
+            "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+            "artist": {
+              "id": 5536601,
+              "name": "Mike Trafik",
+              "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 552207272,
+              "title": "Nadzemí",
+              "cover": "https://api.deezer.com/album/552207272/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+              "tracklist": "https://api.deezer.com/album/552207272/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2676871502,
+            "readable": true,
+            "title": "SFT",
+            "title_short": "SFT",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2676871502",
+            "duration": 242,
+            "rank": 3096,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/0/0/a70c5ab45393f1a4c69bcc9657a8feb1.mp3?hdnea=exp=1780755063~acl=/api/1/1/a/7/0/0/a70c5ab45393f1a4c69bcc9657a8feb1.mp3*~data=user_id=0,application_id=42~hmac=540c43b6b354d4d5d9d8d3f20660903ef236e5c298b73447f2e450b2de70acd7",
+            "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+            "artist": {
+              "id": 5536601,
+              "name": "Mike Trafik",
+              "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 552207272,
+              "title": "Nadzemí",
+              "cover": "https://api.deezer.com/album/552207272/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+              "tracklist": "https://api.deezer.com/album/552207272/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2676871512,
+            "readable": true,
+            "title": "Sítě",
+            "title_short": "Sítě",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2676871512",
+            "duration": 167,
+            "rank": 26116,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/f/0/baff6b4868e4aede2cafe0c7b27537af.mp3?hdnea=exp=1780755063~acl=/api/1/1/b/a/f/0/baff6b4868e4aede2cafe0c7b27537af.mp3*~data=user_id=0,application_id=42~hmac=b15cfeac123b409984a66cc17cd51849bfcde5cf7288b9f328c125aa5e42510c",
+            "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+            "artist": {
+              "id": 5536601,
+              "name": "Mike Trafik",
+              "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 552207272,
+              "title": "Nadzemí",
+              "cover": "https://api.deezer.com/album/552207272/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+              "tracklist": "https://api.deezer.com/album/552207272/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2676871522,
+            "readable": true,
+            "title": "Parazit",
+            "title_short": "Parazit",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2676871522",
+            "duration": 202,
+            "rank": 29977,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/0/4/0/e0414d21beb5b7430359e5a7229c38df.mp3?hdnea=exp=1780755063~acl=/api/1/1/e/0/4/0/e0414d21beb5b7430359e5a7229c38df.mp3*~data=user_id=0,application_id=42~hmac=6303f4061f2bc682c14ed9192ed3cc7eb1b24feec075100b603c5b613a9fe89f",
+            "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+            "artist": {
+              "id": 5536601,
+              "name": "Mike Trafik",
+              "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 552207272,
+              "title": "Nadzemí",
+              "cover": "https://api.deezer.com/album/552207272/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+              "tracklist": "https://api.deezer.com/album/552207272/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2676871532,
+            "readable": true,
+            "title": "Trochu Jsem Si Ulít",
+            "title_short": "Trochu Jsem Si Ulít",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2676871532",
+            "duration": 287,
+            "rank": 5466,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/9/e/0/b9ec6291f98ed2e876aeb6b6dcc5f50b.mp3?hdnea=exp=1780755063~acl=/api/1/1/b/9/e/0/b9ec6291f98ed2e876aeb6b6dcc5f50b.mp3*~data=user_id=0,application_id=42~hmac=550b989b94a153f3690b53b683c911b27d7d1ddb0fb7347e9d0774a1bcfa9c14",
+            "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+            "artist": {
+              "id": 5536601,
+              "name": "Mike Trafik",
+              "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 552207272,
+              "title": "Nadzemí",
+              "cover": "https://api.deezer.com/album/552207272/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+              "tracklist": "https://api.deezer.com/album/552207272/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2676871542,
+            "readable": true,
+            "title": "Proč Je To Kak",
+            "title_short": "Proč Je To Kak",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2676871542",
+            "duration": 204,
+            "rank": 39151,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/8/0/ef8cbb4b2bd31fa73aa603e141dc3aad.mp3?hdnea=exp=1780755063~acl=/api/1/1/e/f/8/0/ef8cbb4b2bd31fa73aa603e141dc3aad.mp3*~data=user_id=0,application_id=42~hmac=2c59ce0b24442f8866439574204c0c969b3e82757eb75760df35f22e12ac73e4",
+            "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+            "artist": {
+              "id": 5536601,
+              "name": "Mike Trafik",
+              "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 552207272,
+              "title": "Nadzemí",
+              "cover": "https://api.deezer.com/album/552207272/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+              "tracklist": "https://api.deezer.com/album/552207272/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2676871552,
+            "readable": true,
+            "title": "Platim Předem",
+            "title_short": "Platim Předem",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2676871552",
+            "duration": 201,
+            "rank": 60146,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/3/1/0/83159f57dd855308567937adbe148aab.mp3?hdnea=exp=1780755063~acl=/api/1/1/8/3/1/0/83159f57dd855308567937adbe148aab.mp3*~data=user_id=0,application_id=42~hmac=945c269a91cbe84341f1363c6a531e506e0471af19d6d68d50740aa43e908b53",
+            "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+            "artist": {
+              "id": 5536601,
+              "name": "Mike Trafik",
+              "tracklist": "https://api.deezer.com/artist/5536601/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 552207272,
+              "title": "Nadzemí",
+              "cover": "https://api.deezer.com/album/552207272/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4bcb337c1f33f06b89fd4c97304925cf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4bcb337c1f33f06b89fd4c97304925cf",
+              "tracklist": "https://api.deezer.com/album/552207272/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }

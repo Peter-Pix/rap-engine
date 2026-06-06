@@ -3,35 +3,482 @@
   "kind": "album",
   "slug": "cowboys-dreamers",
   "title": "Cowboys & Dreamers",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "marpo"
     },
     "label": null,
+    "labelName": "Universal Music s.r.o.",
     "year": 2024,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "czech-pop"
+    ],
+    "tracklist": [
+      "Pořád",
+      "Welcome to Nashville",
+      "Cowboys & Dreamers",
+      "Ďábel na rameni",
+      "Férovej Chlap",
+      "Bolest a Radost",
+      "Las Vegas",
+      "Chtěli Jsme",
+      "White Trash",
+      "Dveře",
+      "Vítězství"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 617575251
+    "deezerAlbumId": 617575251,
+    "nbTracks": 11
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T13:58:23.919Z",
+    "raw": {
+      "id": 617575251,
+      "title": "Cowboys & Dreamers",
+      "upc": "602468011156",
+      "link": "https://www.deezer.com/album/617575251",
+      "share": "https://www.deezer.com/album/617575251?utm_source=deezer&utm_content=album-617575251&utm_term=0_1780754303&utm_medium=web",
+      "cover": "https://api.deezer.com/album/617575251/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+      "genre_id": 132,
+      "genres": {
+        "data": [
+          {
+            "id": 132,
+            "name": "Pop",
+            "picture": "https://api.deezer.com/genre/132/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Universal Music s.r.o.",
+      "nb_tracks": 11,
+      "duration": 1914,
+      "fans": 21,
+      "release_date": "2024-07-26",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/617575251/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 4,
+      "explicit_content_cover": 0,
+      "contributors": [
+        {
+          "id": 384235,
+          "name": "Marpo",
+          "link": "https://www.deezer.com/artist/384235",
+          "share": "https://www.deezer.com/artist/384235?utm_source=deezer&utm_content=artist-384235&utm_term=0_1780754303&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/384235/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 384235,
+        "name": "Marpo",
+        "picture": "https://api.deezer.com/artist/384235/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 2896914441,
+            "readable": true,
+            "title": "Pořád",
+            "title_short": "Pořád",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914441",
+            "duration": 98,
+            "rank": 15627,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/e/c/0/eecacec47e368f2f2ad1eabca764758c.mp3?hdnea=exp=1780755203~acl=/api/1/1/e/e/c/0/eecacec47e368f2f2ad1eabca764758c.mp3*~data=user_id=0,application_id=42~hmac=8a381b8289de3338d4e556473768d5eaec1fd498e5279e39f6edefa85b851f34",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914451,
+            "readable": true,
+            "title": "Welcome to Nashville",
+            "title_short": "Welcome to Nashville",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914451",
+            "duration": 195,
+            "rank": 18486,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/0/4/0/6049ecd1dffa88f97eac20b3baff2b04.mp3?hdnea=exp=1780755203~acl=/api/1/1/6/0/4/0/6049ecd1dffa88f97eac20b3baff2b04.mp3*~data=user_id=0,application_id=42~hmac=ea4707ef807364bdd665421833fa44591dd0d4faa02388e0c5cbf892af67e62d",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914461,
+            "readable": true,
+            "title": "Cowboys & Dreamers",
+            "title_short": "Cowboys & Dreamers",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914461",
+            "duration": 158,
+            "rank": 26217,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/7/0/fc7ce821b1a6e499d97de9287cace23b.mp3?hdnea=exp=1780755203~acl=/api/1/1/f/c/7/0/fc7ce821b1a6e499d97de9287cace23b.mp3*~data=user_id=0,application_id=42~hmac=a14819f758c4fc9faabc5767c6003e42634bb5bd31235ccf1c7c2122f10f69b8",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914471,
+            "readable": true,
+            "title": "Ďábel na rameni",
+            "title_short": "Ďábel na rameni",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914471",
+            "duration": 169,
+            "rank": 18338,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/6/3/0/86309206d035ed70f89797511a28c4ee.mp3?hdnea=exp=1780755203~acl=/api/1/1/8/6/3/0/86309206d035ed70f89797511a28c4ee.mp3*~data=user_id=0,application_id=42~hmac=ea605515b2f7839ddfdf18f2df854c39bf18019c3942021181a965fa4373a8f6",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914481,
+            "readable": true,
+            "title": "Férovej Chlap",
+            "title_short": "Férovej Chlap",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914481",
+            "duration": 190,
+            "rank": 25313,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/e/0/3bec9e867762f65bfdaa9f3fa87b8357.mp3?hdnea=exp=1780755203~acl=/api/1/1/3/b/e/0/3bec9e867762f65bfdaa9f3fa87b8357.mp3*~data=user_id=0,application_id=42~hmac=416b25e7bac0cc41912111c6af889a55b9980ceea8c87705af84a49a59c2b3df",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914491,
+            "readable": true,
+            "title": "Bolest a Radost",
+            "title_short": "Bolest a Radost",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914491",
+            "duration": 166,
+            "rank": 37367,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/3/2/0/532c6036157f74edc6010e5ee4c5d5a2.mp3?hdnea=exp=1780755203~acl=/api/1/1/5/3/2/0/532c6036157f74edc6010e5ee4c5d5a2.mp3*~data=user_id=0,application_id=42~hmac=692adf676ed1b04d09c4e6433384e459d4dc578229cda71c9fb02227f9741453",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914501,
+            "readable": true,
+            "title": "Las Vegas",
+            "title_short": "Las Vegas",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914501",
+            "duration": 203,
+            "rank": 21525,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/7/0/a2785c62c52dce9540cc5b0186ce621a.mp3?hdnea=exp=1780755203~acl=/api/1/1/a/2/7/0/a2785c62c52dce9540cc5b0186ce621a.mp3*~data=user_id=0,application_id=42~hmac=94847d21a9b35b63d4ebba6493095919d4e8e005d77e714066fdff707259e8c3",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914511,
+            "readable": true,
+            "title": "Chtěli Jsme",
+            "title_short": "Chtěli Jsme",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914511",
+            "duration": 213,
+            "rank": 60648,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/0/c/0/50c32ef534774353d229d5f966f9a8b5.mp3?hdnea=exp=1780755203~acl=/api/1/1/5/0/c/0/50c32ef534774353d229d5f966f9a8b5.mp3*~data=user_id=0,application_id=42~hmac=caab6f362b0a09374a37eeb85fb472059d54718926bff1118d52949af2f40f6a",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914521,
+            "readable": true,
+            "title": "White Trash",
+            "title_short": "White Trash",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914521",
+            "duration": 150,
+            "rank": 20908,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/0/3/0/403ab20962c5f8f6ebe358f578ab0479.mp3?hdnea=exp=1780755203~acl=/api/1/1/4/0/3/0/403ab20962c5f8f6ebe358f578ab0479.mp3*~data=user_id=0,application_id=42~hmac=b1fe8e9a6ae07fcdccdde4bb33d24227467399094e048729ec213bb6ae28f69e",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914531,
+            "readable": true,
+            "title": "Dveře",
+            "title_short": "Dveře",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914531",
+            "duration": 168,
+            "rank": 21346,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/0/c/0/c0c31764495957a0f9a0f015c4871b7d.mp3?hdnea=exp=1780755203~acl=/api/1/1/c/0/c/0/c0c31764495957a0f9a0f015c4871b7d.mp3*~data=user_id=0,application_id=42~hmac=f616ea0d1183ef78afce833d3314457488533a0d81d33d6e4b2e5951c5a335bc",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2896914541,
+            "readable": true,
+            "title": "Vítězství",
+            "title_short": "Vítězství",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2896914541",
+            "duration": 204,
+            "rank": 25109,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/6/6/0/466b8be5546d1468c36c4f8ea9f07859.mp3?hdnea=exp=1780755203~acl=/api/1/1/4/6/6/0/466b8be5546d1468c36c4f8ea9f07859.mp3*~data=user_id=0,application_id=42~hmac=8adf47519323766feffc33e32af588c08017f2437e99d5831f80175bc79815f7",
+            "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 617575251,
+              "title": "Cowboys & Dreamers",
+              "cover": "https://api.deezer.com/album/617575251/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/4d2e210ce7f64381e348e32adede0ae4/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "4d2e210ce7f64381e348e32adede0ae4",
+              "tracklist": "https://api.deezer.com/album/617575251/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }

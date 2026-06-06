@@ -3,35 +3,415 @@
   "kind": "album",
   "slug": "music-therapy",
   "title": "MUSIC THERAPY",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "vladkysyn"
     },
-    "label": null,
+    "label": {
+      "kind": "label",
+      "slug": "415-02-records"
+    },
+    "labelName": "415 02 Record's",
     "year": 2024,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Otázky (feat. Pain)",
+      "Bůuh (feat. Magenta)",
+      "Bruda",
+      "Hoe do klipu (feat. Makin Hollov)",
+      "První lavice (feat. Fleixxer P & Mr BE)",
+      "Udělat líp (feat. Katannah)",
+      "Neke (feat. Makin Hollov)",
+      "LyrickoEpická",
+      "Snad už víš (feat. Magenta)"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 640736431
+    "deezerAlbumId": 640736431,
+    "nbTracks": 9
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T14:02:45.520Z",
+    "raw": {
+      "id": 640736431,
+      "title": "MUSIC THERAPY",
+      "upc": "198889004193",
+      "link": "https://www.deezer.com/album/640736431",
+      "share": "https://www.deezer.com/album/640736431?utm_source=deezer&utm_content=album-640736431&utm_term=0_1780754565&utm_medium=web",
+      "cover": "https://api.deezer.com/album/640736431/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "415 02 Record's",
+      "nb_tracks": 9,
+      "duration": 1188,
+      "fans": 1,
+      "release_date": "2024-09-09",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/640736431/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 133905292,
+          "name": "VlaďkySyn",
+          "link": "https://www.deezer.com/artist/133905292",
+          "share": "https://www.deezer.com/artist/133905292?utm_source=deezer&utm_content=artist-133905292&utm_term=0_1780754565&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/133905292/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 133905292,
+        "name": "VlaďkySyn",
+        "picture": "https://api.deezer.com/artist/133905292/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 2986001381,
+            "readable": true,
+            "title": "Otázky (feat. Pain)",
+            "title_short": "Otázky (feat. Pain)",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001381",
+            "duration": 156,
+            "rank": 31367,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/6/c/0/06c733c916237c2bb0cd1278d261966b.mp3?hdnea=exp=1780755465~acl=/api/1/1/0/6/c/0/06c733c916237c2bb0cd1278d261966b.mp3*~data=user_id=0,application_id=42~hmac=c022d355632b474d8421e9dea138377f570a843b4ebd79fedc8a90fcfe518b9f",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2986001391,
+            "readable": true,
+            "title": "Bůuh (feat. Magenta)",
+            "title_short": "Bůuh (feat. Magenta)",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001391",
+            "duration": 169,
+            "rank": 55348,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/0/b/0/40b7f2575b1e3bc0c3e99374993aa2e9.mp3?hdnea=exp=1780755465~acl=/api/1/1/4/0/b/0/40b7f2575b1e3bc0c3e99374993aa2e9.mp3*~data=user_id=0,application_id=42~hmac=97f2b30899563097377da0e12fb4e51ff5a351630aec813e37f1d3ec8f6bde95",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2986001401,
+            "readable": true,
+            "title": "Bruda",
+            "title_short": "Bruda",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001401",
+            "duration": 167,
+            "rank": 25917,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/e/0/a7e466e2aef763736595d57abb61dd07.mp3?hdnea=exp=1780755465~acl=/api/1/1/a/7/e/0/a7e466e2aef763736595d57abb61dd07.mp3*~data=user_id=0,application_id=42~hmac=c02fe3e56802e5964388fec8c40be2e8b2d61b420ab6101523d5398c707773e7",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2986001411,
+            "readable": true,
+            "title": "Hoe do klipu (feat. Makin Hollov)",
+            "title_short": "Hoe do klipu (feat. Makin Hollov)",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001411",
+            "duration": 118,
+            "rank": 1189,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/9/0/cb9ef351293fcbdbd10417802e94cb7c.mp3?hdnea=exp=1780755465~acl=/api/1/1/c/b/9/0/cb9ef351293fcbdbd10417802e94cb7c.mp3*~data=user_id=0,application_id=42~hmac=f52fe6564ba492457b3e77d1b2ce772a18c1e6acaa1b5cb82921db7bf94853df",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2986001421,
+            "readable": true,
+            "title": "První lavice (feat. Fleixxer P & Mr BE)",
+            "title_short": "První lavice (feat. Fleixxer P & Mr BE)",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001421",
+            "duration": 109,
+            "rank": 21746,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/2/1/0/d21525e2d061d8594e9feba26af416c9.mp3?hdnea=exp=1780755465~acl=/api/1/1/d/2/1/0/d21525e2d061d8594e9feba26af416c9.mp3*~data=user_id=0,application_id=42~hmac=8061c3bee110b3c6f6e5b93c1e9599ad51e5b725467f5c0e668b4577fce3bbf0",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2986001431,
+            "readable": true,
+            "title": "Udělat líp (feat. Katannah)",
+            "title_short": "Udělat líp (feat. Katannah)",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001431",
+            "duration": 114,
+            "rank": 25532,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/e/a/0/dea191f309de5d31319e0a8cc4d7073b.mp3?hdnea=exp=1780755465~acl=/api/1/1/d/e/a/0/dea191f309de5d31319e0a8cc4d7073b.mp3*~data=user_id=0,application_id=42~hmac=a2a78c4a2e92cb42a74dc8912cb4d33c2023c795f9ece2670874e83b8407d9b4",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2986001441,
+            "readable": true,
+            "title": "Neke (feat. Makin Hollov)",
+            "title_short": "Neke (feat. Makin Hollov)",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001441",
+            "duration": 131,
+            "rank": 870,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/6/7/0/867b3c319161ab48d33a6a09179fc1f4.mp3?hdnea=exp=1780755465~acl=/api/1/1/8/6/7/0/867b3c319161ab48d33a6a09179fc1f4.mp3*~data=user_id=0,application_id=42~hmac=3109ec9ae2c94e75f3c3c6444f71e85e12de4ccacab160e28664f89d226821e9",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2986001451,
+            "readable": true,
+            "title": "LyrickoEpická",
+            "title_short": "LyrickoEpická",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001451",
+            "duration": 67,
+            "rank": 138,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/d/0/8cd3c4436bd9ad847f09db037bc53512.mp3?hdnea=exp=1780755465~acl=/api/1/1/8/c/d/0/8cd3c4436bd9ad847f09db037bc53512.mp3*~data=user_id=0,application_id=42~hmac=471e3302a7d6bda26c256f553acdc4a2bf000e06ccc692c624e0b8d168b82167",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 2986001461,
+            "readable": true,
+            "title": "Snad už víš (feat. Magenta)",
+            "title_short": "Snad už víš (feat. Magenta)",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/2986001461",
+            "duration": 157,
+            "rank": 25769,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/a/0/a8a29f926e05e8bae206d25e504c347a.mp3?hdnea=exp=1780755465~acl=/api/1/1/a/8/a/0/a8a29f926e05e8bae206d25e504c347a.mp3*~data=user_id=0,application_id=42~hmac=a90bcd7c724828b7e9ccfe0273a88534e6b05166f9a267ef116ef799c6e9d9c9",
+            "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 640736431,
+              "title": "MUSIC THERAPY",
+              "cover": "https://api.deezer.com/album/640736431/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/90a21616d96a752ccb33a0beb14350e5/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "90a21616d96a752ccb33a0beb14350e5",
+              "tracklist": "https://api.deezer.com/album/640736431/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }

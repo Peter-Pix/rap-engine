@@ -3,35 +3,415 @@
   "kind": "album",
   "slug": "stejny-misto-novy-boty",
   "title": "Stejný místo, Nový boty",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "vladkysyn"
     },
-    "label": null,
+    "label": {
+      "kind": "label",
+      "slug": "415-02-records"
+    },
+    "labelName": "415 02 Record's",
     "year": 2025,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "Stejný místo, Nový boty",
+      "Nestačí málo",
+      "HeadsInTheClouds",
+      "Za tmy",
+      "A když",
+      "Nezvedám",
+      "Do konce",
+      "Zvláštní",
+      "Takhle to mám radši"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 792934031
+    "deezerAlbumId": 792934031,
+    "nbTracks": 9
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T14:02:08.531Z",
+    "raw": {
+      "id": 792934031,
+      "title": "Stejný místo, Nový boty",
+      "upc": "199510978340",
+      "link": "https://www.deezer.com/album/792934031",
+      "share": "https://www.deezer.com/album/792934031?utm_source=deezer&utm_content=album-792934031&utm_term=0_1780754528&utm_medium=web",
+      "cover": "https://api.deezer.com/album/792934031/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "deb9dabd366ca061824cf14fe977560b",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "415 02 Record's",
+      "nb_tracks": 9,
+      "duration": 1268,
+      "fans": 6,
+      "release_date": "2025-07-25",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/792934031/tracks",
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "contributors": [
+        {
+          "id": 133905292,
+          "name": "VlaďkySyn",
+          "link": "https://www.deezer.com/artist/133905292",
+          "share": "https://www.deezer.com/artist/133905292?utm_source=deezer&utm_content=artist-133905292&utm_term=0_1780754528&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/133905292/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 133905292,
+        "name": "VlaďkySyn",
+        "picture": "https://api.deezer.com/artist/133905292/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e88402dd2de47144393b506bc65578de/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 3474423661,
+            "readable": true,
+            "title": "Stejný místo, Nový boty",
+            "title_short": "Stejný místo, Nový boty",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423661",
+            "duration": 81,
+            "rank": 26521,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/3/a/0/63ae2d5edc83dbe8507062d39765c57c.mp3?hdnea=exp=1780755428~acl=/api/1/1/6/3/a/0/63ae2d5edc83dbe8507062d39765c57c.mp3*~data=user_id=0,application_id=42~hmac=b0405de783d0928938242304e0f644be61f798af5ba1eab452aa09dccde46133",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3474423671,
+            "readable": true,
+            "title": "Nestačí málo",
+            "title_short": "Nestačí málo",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423671",
+            "duration": 183,
+            "rank": 45533,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/e/c/0/becac9d884c5bdaf470ca7eeac5f2398.mp3?hdnea=exp=1780755428~acl=/api/1/1/b/e/c/0/becac9d884c5bdaf470ca7eeac5f2398.mp3*~data=user_id=0,application_id=42~hmac=9ea7f66ae2e4ba8a090f0d018dd4fe4bfc90b65df78231c73b9643d3f5f4b6c3",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3474423681,
+            "readable": true,
+            "title": "HeadsInTheClouds",
+            "title_short": "HeadsInTheClouds",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423681",
+            "duration": 121,
+            "rank": 7935,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/8/0/90857799bdb2debc2041a4cfef7d3ab9.mp3?hdnea=exp=1780755428~acl=/api/1/1/9/0/8/0/90857799bdb2debc2041a4cfef7d3ab9.mp3*~data=user_id=0,application_id=42~hmac=7b70835b79e2b0be4d40fd7d281990aa6dca01701e1d76901cfffcb6f6aae22a",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3474423691,
+            "readable": true,
+            "title": "Za tmy",
+            "title_short": "Za tmy",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423691",
+            "duration": 163,
+            "rank": 22183,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/a/5/0/6a56ef3b5ce92c63f8441b4106e81b2f.mp3?hdnea=exp=1780755428~acl=/api/1/1/6/a/5/0/6a56ef3b5ce92c63f8441b4106e81b2f.mp3*~data=user_id=0,application_id=42~hmac=3c52f9e231ecce61e86b5b8283b6c05c7323b2779ac65dfaef6aaee05b6d8669",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3474423701,
+            "readable": true,
+            "title": "A když",
+            "title_short": "A když",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423701",
+            "duration": 129,
+            "rank": 4089,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/e/0/1ae8ee85f5854432c89c97b3229a9447.mp3?hdnea=exp=1780755428~acl=/api/1/1/1/a/e/0/1ae8ee85f5854432c89c97b3229a9447.mp3*~data=user_id=0,application_id=42~hmac=b5ed2426367270b393ae82f30d226698395000ca67187e4ca5b6929e62047c7f",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3474423711,
+            "readable": true,
+            "title": "Nezvedám",
+            "title_short": "Nezvedám",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423711",
+            "duration": 114,
+            "rank": 11448,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/f/0/39ffaeab1a8e7e6788611fb9fe4d2a37.mp3?hdnea=exp=1780755428~acl=/api/1/1/3/9/f/0/39ffaeab1a8e7e6788611fb9fe4d2a37.mp3*~data=user_id=0,application_id=42~hmac=2882ad692ea9914ab0378560c5a84ae25e1d89ead82e2fd7a5d97517e5d0bc8a",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3474423721,
+            "readable": true,
+            "title": "Do konce",
+            "title_short": "Do konce",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423721",
+            "duration": 114,
+            "rank": 2220,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/1/0/f6196fef5e3fd6b03d6557731ff8f049.mp3?hdnea=exp=1780755428~acl=/api/1/1/f/6/1/0/f6196fef5e3fd6b03d6557731ff8f049.mp3*~data=user_id=0,application_id=42~hmac=1629ff079dc4bebea076b5cfdf11fa0ec2a6da0914bca591c35d05d7e4e4b1ef",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3474423731,
+            "readable": true,
+            "title": "Zvláštní",
+            "title_short": "Zvláštní",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423731",
+            "duration": 198,
+            "rank": 8817,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/a/0/82ae1caa0c66078b44885defef6d4199.mp3?hdnea=exp=1780755428~acl=/api/1/1/8/2/a/0/82ae1caa0c66078b44885defef6d4199.mp3*~data=user_id=0,application_id=42~hmac=d88ca7ba59e6a285f3fb037cbc4650cc5509a9ff3cdf825094761b523d32b932",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3474423741,
+            "readable": true,
+            "title": "Takhle to mám radši",
+            "title_short": "Takhle to mám radši",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3474423741",
+            "duration": 165,
+            "rank": 20984,
+            "explicit_lyrics": true,
+            "explicit_content_lyrics": 1,
+            "explicit_content_cover": 2,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/d/0/ffd971574c0a3a6b415b621263c77404.mp3?hdnea=exp=1780755428~acl=/api/1/1/f/f/d/0/ffd971574c0a3a6b415b621263c77404.mp3*~data=user_id=0,application_id=42~hmac=a8318bae2766d17af4dc8b41e4578d8b6444d217328f2de0170e49512b085839",
+            "md5_image": "deb9dabd366ca061824cf14fe977560b",
+            "artist": {
+              "id": 133905292,
+              "name": "VlaďkySyn",
+              "tracklist": "https://api.deezer.com/artist/133905292/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 792934031,
+              "title": "Stejný místo, Nový boty",
+              "cover": "https://api.deezer.com/album/792934031/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/deb9dabd366ca061824cf14fe977560b/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "deb9dabd366ca061824cf14fe977560b",
+              "tracklist": "https://api.deezer.com/album/792934031/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }

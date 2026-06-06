@@ -3,35 +3,447 @@
   "kind": "album",
   "slug": "vamp-love-story",
   "title": "Vamp love story",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "vercetti-cg"
     },
     "label": null,
+    "labelName": "Virgin Music Label And Artist Services (S&D)",
     "year": 2025,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "hip-hop"
+    ],
+    "tracklist": [
+      "ghost",
+      "vamplove",
+      "alone",
+      "trapito",
+      "iluzie",
+      "wasted",
+      "venku svítá",
+      "euforie",
+      "dirty cup",
+      "fukk rattz"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 706682091
+    "deezerAlbumId": 706682091,
+    "nbTracks": 10
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T14:01:48.893Z",
+    "raw": {
+      "id": 706682091,
+      "title": "Vamp love story",
+      "upc": "602475904472",
+      "link": "https://www.deezer.com/album/706682091",
+      "share": "https://www.deezer.com/album/706682091?utm_source=deezer&utm_content=album-706682091&utm_term=0_1780754509&utm_medium=web",
+      "cover": "https://api.deezer.com/album/706682091/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+      "genre_id": 116,
+      "genres": {
+        "data": [
+          {
+            "id": 116,
+            "name": "Rap/Hip Hop",
+            "picture": "https://api.deezer.com/genre/116/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Virgin Music Label And Artist Services (S&D)",
+      "nb_tracks": 10,
+      "duration": 1614,
+      "fans": 4,
+      "release_date": "2025-02-09",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/706682091/tracks",
+      "explicit_lyrics": false,
+      "explicit_content_lyrics": 0,
+      "explicit_content_cover": 0,
+      "contributors": [
+        {
+          "id": 86746672,
+          "name": "Vercetti CG",
+          "link": "https://www.deezer.com/artist/86746672",
+          "share": "https://www.deezer.com/artist/86746672?utm_source=deezer&utm_content=artist-86746672&utm_term=0_1780754509&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/86746672/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/7cd2bec50cd94c5c22a4ab56ae53d9f0/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/7cd2bec50cd94c5c22a4ab56ae53d9f0/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/7cd2bec50cd94c5c22a4ab56ae53d9f0/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/7cd2bec50cd94c5c22a4ab56ae53d9f0/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 86746672,
+        "name": "Vercetti CG",
+        "picture": "https://api.deezer.com/artist/86746672/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/7cd2bec50cd94c5c22a4ab56ae53d9f0/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/7cd2bec50cd94c5c22a4ab56ae53d9f0/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/7cd2bec50cd94c5c22a4ab56ae53d9f0/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/7cd2bec50cd94c5c22a4ab56ae53d9f0/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 3213642101,
+            "readable": true,
+            "title": "ghost",
+            "title_short": "ghost",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642101",
+            "duration": 209,
+            "rank": 38064,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/4/0/a347fc039e6770ffd5d3e253c98471ec.mp3?hdnea=exp=1780755409~acl=/api/1/1/a/3/4/0/a347fc039e6770ffd5d3e253c98471ec.mp3*~data=user_id=0,application_id=42~hmac=de7b43b5a7cb237a07e4385768c3aea08651f7f7eea76591f2be883791531ef7",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642111,
+            "readable": true,
+            "title": "vamplove",
+            "title_short": "vamplove",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642111",
+            "duration": 179,
+            "rank": 39540,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/0/0/5c0fa1ce7e9664a2cf8ef50af943ae9a.mp3?hdnea=exp=1780755409~acl=/api/1/1/5/c/0/0/5c0fa1ce7e9664a2cf8ef50af943ae9a.mp3*~data=user_id=0,application_id=42~hmac=51d91f16e4bcb69dc9e42d7cd33b2f14d829cf66beb54db8bc055a989ab83ad4",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642121,
+            "readable": true,
+            "title": "alone",
+            "title_short": "alone",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642121",
+            "duration": 156,
+            "rank": 39774,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/a/a/0/6aa7f521559a34d6acb6ebc0c74d2478.mp3?hdnea=exp=1780755409~acl=/api/1/1/6/a/a/0/6aa7f521559a34d6acb6ebc0c74d2478.mp3*~data=user_id=0,application_id=42~hmac=50748420d51378380b7c98012c8842f408cc971923f5c4cee611bd6a7749c7bb",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642131,
+            "readable": true,
+            "title": "trapito",
+            "title_short": "trapito",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642131",
+            "duration": 137,
+            "rank": 31012,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/6/0/f667d920fbae82350a9be22307932f49.mp3?hdnea=exp=1780755409~acl=/api/1/1/f/6/6/0/f667d920fbae82350a9be22307932f49.mp3*~data=user_id=0,application_id=42~hmac=ee64e455a790971b4908e71b10ed102e78a0840e36e733addfee2d7b2a4cf5bd",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642141,
+            "readable": true,
+            "title": "iluzie",
+            "title_short": "iluzie",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642141",
+            "duration": 157,
+            "rank": 40273,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/b/0/5cb6282c9506f4a21c9764bb3fd2ba06.mp3?hdnea=exp=1780755409~acl=/api/1/1/5/c/b/0/5cb6282c9506f4a21c9764bb3fd2ba06.mp3*~data=user_id=0,application_id=42~hmac=da8eb4591cc11dd6952dc68d342dc09dae57c0bacbc89b7e081d7273abb0b023",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642151,
+            "readable": true,
+            "title": "wasted",
+            "title_short": "wasted",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642151",
+            "duration": 186,
+            "rank": 39774,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/5/0/055e0f2142540c05556b8b7e4bb4f874.mp3?hdnea=exp=1780755409~acl=/api/1/1/0/5/5/0/055e0f2142540c05556b8b7e4bb4f874.mp3*~data=user_id=0,application_id=42~hmac=fee11e0c3f8510746899032c87db5b75930421001105c93332ef52f7db3a815b",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642161,
+            "readable": true,
+            "title": "venku svítá",
+            "title_short": "venku svítá",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642161",
+            "duration": 138,
+            "rank": 38484,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/a/0/fcaaee3411977e8ea166c552618d4fcd.mp3?hdnea=exp=1780755409~acl=/api/1/1/f/c/a/0/fcaaee3411977e8ea166c552618d4fcd.mp3*~data=user_id=0,application_id=42~hmac=e0f2f43c44f05f7109f5be995e1a2f78fb42f58e42d78d3985a6b860a4cd1351",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642171,
+            "readable": true,
+            "title": "euforie",
+            "title_short": "euforie",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642171",
+            "duration": 156,
+            "rank": 41316,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/6/0/176b97511d7fe8edadd826a9dc551a3d.mp3?hdnea=exp=1780755409~acl=/api/1/1/1/7/6/0/176b97511d7fe8edadd826a9dc551a3d.mp3*~data=user_id=0,application_id=42~hmac=b28e91c36af436ecf761080e902b6e1fda3c068f47230ee615d8e624e765c507",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642181,
+            "readable": true,
+            "title": "dirty cup",
+            "title_short": "dirty cup",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642181",
+            "duration": 164,
+            "rank": 41406,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/0/7/0/f07018187467f5a4b59ee908a65db0d8.mp3?hdnea=exp=1780755409~acl=/api/1/1/f/0/7/0/f07018187467f5a4b59ee908a65db0d8.mp3*~data=user_id=0,application_id=42~hmac=6196ef0e01d0cd1471bd80a9b729d99644f39a2a29b5faded0b984078eedda28",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3213642191,
+            "readable": true,
+            "title": "fukk rattz",
+            "title_short": "fukk rattz",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3213642191",
+            "duration": 132,
+            "rank": 40651,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/3/a/0/a3a55b64ab1b4cd2c6378c9836fe7325.mp3?hdnea=exp=1780755409~acl=/api/1/1/a/3/a/0/a3a55b64ab1b4cd2c6378c9836fe7325.mp3*~data=user_id=0,application_id=42~hmac=5f077cfe4e88a6eba2d1065412e9c4f05ba64719fb3d5f194ae70ce9c2b3c9a0",
+            "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+            "artist": {
+              "id": 86746672,
+              "name": "Vercetti CG",
+              "tracklist": "https://api.deezer.com/artist/86746672/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 706682091,
+              "title": "Vamp love story",
+              "cover": "https://api.deezer.com/album/706682091/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/831242db033d65b75ca08a8b4e994eaf/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "831242db033d65b75ca08a8b4e994eaf",
+              "tracklist": "https://api.deezer.com/album/706682091/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }

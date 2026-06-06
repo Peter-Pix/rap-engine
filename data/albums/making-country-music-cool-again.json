@@ -3,35 +3,552 @@
   "kind": "album",
   "slug": "making-country-music-cool-again",
   "title": "Making Country Music Cool Again",
-  "aliases": [],
-  "summary": "",
   "status": "stub",
-  "createdAt": "2026-05-31",
-  "updatedAt": "2026-05-31",
+  "createdAt": "2026-06-06",
+  "updatedAt": "2026-06-06",
   "meta": {
     "artist": {
       "kind": "rapper",
       "slug": "marpo"
     },
     "label": null,
+    "labelName": "Universal Music s.r.o.",
     "year": 2025,
-    "genres": [],
-    "features": [],
+    "releaseType": "album",
+    "genres": [
+      "czech-pop"
+    ],
+    "tracklist": [
+      "T.C.B",
+      "Mí boys",
+      "Jaký si to uděláš",
+      "Memphis",
+      "Hodiny",
+      "Poprvý",
+      "Sama doma",
+      "Desetkrát",
+      "Táta 2.0",
+      "Svět není fér",
+      "Hladový & Neklidný",
+      "Jak ten čas letí",
+      "Víkend na baru"
+    ],
+    "rating": null,
     "cover": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
-    "deezerAlbumId": 831610991
+    "deezerAlbumId": 831610991,
+    "nbTracks": 13
   },
-  "significance": {
-    "why": "",
-    "whatChanged": "",
-    "context": "",
-    "distinguishing": "",
-    "oneLiner": ""
-  },
-  "timeline": [],
-  "quotes": [],
-  "faq": [],
-  "hasLongform": false,
-  "seo": {
-    "noindex": true
+  "_deezer": {
+    "fetchedAt": "2026-06-06T13:58:33.211Z",
+    "raw": {
+      "id": 831610991,
+      "title": "Making Country Music Cool Again",
+      "upc": "602488054416",
+      "link": "https://www.deezer.com/album/831610991",
+      "share": "https://www.deezer.com/album/831610991?utm_source=deezer&utm_content=album-831610991&utm_term=0_1780754313&utm_medium=web",
+      "cover": "https://api.deezer.com/album/831610991/image",
+      "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+      "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+      "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+      "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+      "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+      "genre_id": 132,
+      "genres": {
+        "data": [
+          {
+            "id": 132,
+            "name": "Pop",
+            "picture": "https://api.deezer.com/genre/132/image",
+            "type": "genre"
+          }
+        ]
+      },
+      "label": "Universal Music s.r.o.",
+      "nb_tracks": 13,
+      "duration": 2341,
+      "fans": 11,
+      "release_date": "2025-10-10",
+      "record_type": "album",
+      "available": true,
+      "tracklist": "https://api.deezer.com/album/831610991/tracks",
+      "explicit_lyrics": false,
+      "explicit_content_lyrics": 0,
+      "explicit_content_cover": 0,
+      "contributors": [
+        {
+          "id": 384235,
+          "name": "Marpo",
+          "link": "https://www.deezer.com/artist/384235",
+          "share": "https://www.deezer.com/artist/384235?utm_source=deezer&utm_content=artist-384235&utm_term=0_1780754313&utm_medium=web",
+          "picture": "https://api.deezer.com/artist/384235/image",
+          "picture_small": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/56x56-000000-80-0-0.jpg",
+          "picture_medium": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/250x250-000000-80-0-0.jpg",
+          "picture_big": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/500x500-000000-80-0-0.jpg",
+          "picture_xl": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/1000x1000-000000-80-0-0.jpg",
+          "radio": true,
+          "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+          "type": "artist",
+          "role": "Main"
+        }
+      ],
+      "artist": {
+        "id": 384235,
+        "name": "Marpo",
+        "picture": "https://api.deezer.com/artist/384235/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/20027f714821ecb9d0afab20e50e97a3/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+        "type": "artist"
+      },
+      "type": "album",
+      "tracks": {
+        "data": [
+          {
+            "id": 3584516191,
+            "readable": true,
+            "title": "T.C.B",
+            "title_short": "T.C.B",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516191",
+            "duration": 158,
+            "rank": 34819,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/7/2/0/8722fd820e5c80c99bd5314e7fa04bfc.mp3?hdnea=exp=1780755213~acl=/api/1/1/8/7/2/0/8722fd820e5c80c99bd5314e7fa04bfc.mp3*~data=user_id=0,application_id=42~hmac=77165de78edff9cd61c963008d3846a8f7959eb020b0482c1a967d03d5badb57",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516201,
+            "readable": true,
+            "title": "Mí boys",
+            "title_short": "Mí boys",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516201",
+            "duration": 137,
+            "rank": 41496,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/4/0/cb4ddfdb8cbe31d854ab52f9e647c582.mp3?hdnea=exp=1780755213~acl=/api/1/1/c/b/4/0/cb4ddfdb8cbe31d854ab52f9e647c582.mp3*~data=user_id=0,application_id=42~hmac=f5b89a7f715899a3c57d13ae020be75fe38d65acf74e6b852b0aaf354198ca32",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516211,
+            "readable": true,
+            "title": "Jaký si to uděláš",
+            "title_short": "Jaký si to uděláš",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516211",
+            "duration": 156,
+            "rank": 30999,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/5/0/175b9080838bae6632178c7dc552c48f.mp3?hdnea=exp=1780755213~acl=/api/1/1/1/7/5/0/175b9080838bae6632178c7dc552c48f.mp3*~data=user_id=0,application_id=42~hmac=04f81fa3d348e8d2b346baf12f981f211efff7a23f4a9857a2cc9cc99e48057d",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516221,
+            "readable": true,
+            "title": "Memphis",
+            "title_short": "Memphis",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516221",
+            "duration": 203,
+            "rank": 31600,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/d/0/b8d0b411e9f804d38dcf1b55fe707e58.mp3?hdnea=exp=1780755213~acl=/api/1/1/b/8/d/0/b8d0b411e9f804d38dcf1b55fe707e58.mp3*~data=user_id=0,application_id=42~hmac=1e06fbf763f99a56916c03b09821b9c8f0b1d5c4d1fc22a0c3545624f477bc02",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516231,
+            "readable": true,
+            "title": "Hodiny",
+            "title_short": "Hodiny",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516231",
+            "duration": 222,
+            "rank": 31144,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/6/f/0/96fa379cd0a97683a6ad6fd9449af863.mp3?hdnea=exp=1780755213~acl=/api/1/1/9/6/f/0/96fa379cd0a97683a6ad6fd9449af863.mp3*~data=user_id=0,application_id=42~hmac=67c404962ab2dcd71e93853353edd7740cc5e04b6799094b1548402e0570c726",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516241,
+            "readable": true,
+            "title": "Poprvý",
+            "title_short": "Poprvý",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516241",
+            "duration": 155,
+            "rank": 34817,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/5/7/0/9574008112ba0a8341a2dce7533cd9f8.mp3?hdnea=exp=1780755213~acl=/api/1/1/9/5/7/0/9574008112ba0a8341a2dce7533cd9f8.mp3*~data=user_id=0,application_id=42~hmac=00c4f30d1c276314f0359b3d14d64b2d4d74a92f228636902591f29d848bae85",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516251,
+            "readable": true,
+            "title": "Sama doma",
+            "title_short": "Sama doma",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516251",
+            "duration": 160,
+            "rank": 41565,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/9/c/0/c9c1decb17a349b54970a54ad6c883e2.mp3?hdnea=exp=1780755213~acl=/api/1/1/c/9/c/0/c9c1decb17a349b54970a54ad6c883e2.mp3*~data=user_id=0,application_id=42~hmac=1fc5062c0868424e4e40d2739c44625bdf71d4e6b0b3d01ddf953fd99d680595",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516261,
+            "readable": true,
+            "title": "Desetkrát",
+            "title_short": "Desetkrát",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516261",
+            "duration": 148,
+            "rank": 7322,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/5/0/985f556d839bf4e55f7070a4844eb1b5.mp3?hdnea=exp=1780755213~acl=/api/1/1/9/8/5/0/985f556d839bf4e55f7070a4844eb1b5.mp3*~data=user_id=0,application_id=42~hmac=ec19cd14725f5054f5a4bdf096302ff09b1788833a916f5a85789ef3480835d8",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516271,
+            "readable": true,
+            "title": "Táta 2.0",
+            "title_short": "Táta 2.0",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516271",
+            "duration": 192,
+            "rank": 22435,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/b/0/d7b25413309f4155a4ec8459a79eab55.mp3?hdnea=exp=1780755213~acl=/api/1/1/d/7/b/0/d7b25413309f4155a4ec8459a79eab55.mp3*~data=user_id=0,application_id=42~hmac=790a2c547c20d93032ef5b707dd1a1de413b515d9e0fd34bffcaaf1a5fc469f4",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516281,
+            "readable": true,
+            "title": "Svět není fér",
+            "title_short": "Svět není fér",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516281",
+            "duration": 179,
+            "rank": 119207,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/e/6/0/1e65a929d0600e9985d6f756f216c1eb.mp3?hdnea=exp=1780755213~acl=/api/1/1/1/e/6/0/1e65a929d0600e9985d6f756f216c1eb.mp3*~data=user_id=0,application_id=42~hmac=b705e5e0ee648164306011ef4c71181c90db294b40c374bab001d90bf2012967",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516291,
+            "readable": true,
+            "title": "Hladový & Neklidný",
+            "title_short": "Hladový & Neklidný",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516291",
+            "duration": 197,
+            "rank": 34817,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/3/7/0/637143cf5baf417250335ba6efe26672.mp3?hdnea=exp=1780755213~acl=/api/1/1/6/3/7/0/637143cf5baf417250335ba6efe26672.mp3*~data=user_id=0,application_id=42~hmac=fb2de7e9aa9b05f8d080ee3784a9b01b538683125bdcb529b938a70d5b107b12",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516301,
+            "readable": true,
+            "title": "Jak ten čas letí",
+            "title_short": "Jak ten čas letí",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516301",
+            "duration": 238,
+            "rank": 37902,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/1/0/801c295d45589994ba3c2c75e2884303.mp3?hdnea=exp=1780755213~acl=/api/1/1/8/0/1/0/801c295d45589994ba3c2c75e2884303.mp3*~data=user_id=0,application_id=42~hmac=72a462648898f3aa52a9699b9f87b79c4e1490202662b298545c86237ed68f63",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          },
+          {
+            "id": 3584516311,
+            "readable": true,
+            "title": "Víkend na baru",
+            "title_short": "Víkend na baru",
+            "title_version": "",
+            "link": "https://www.deezer.com/track/3584516311",
+            "duration": 196,
+            "rank": 25295,
+            "explicit_lyrics": false,
+            "explicit_content_lyrics": 0,
+            "explicit_content_cover": 0,
+            "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/5/0/ef5fb14d44b7472b16678cc984ac072a.mp3?hdnea=exp=1780755213~acl=/api/1/1/e/f/5/0/ef5fb14d44b7472b16678cc984ac072a.mp3*~data=user_id=0,application_id=42~hmac=c7f2a42c3da20936f917044be5aa7f7bc33bf59f471715e17022fb375e9618c1",
+            "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+            "artist": {
+              "id": 384235,
+              "name": "Marpo",
+              "tracklist": "https://api.deezer.com/artist/384235/top?limit=50",
+              "type": "artist"
+            },
+            "album": {
+              "id": 831610991,
+              "title": "Making Country Music Cool Again",
+              "cover": "https://api.deezer.com/album/831610991/image",
+              "cover_small": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/56x56-000000-80-0-0.jpg",
+              "cover_medium": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/250x250-000000-80-0-0.jpg",
+              "cover_big": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/500x500-000000-80-0-0.jpg",
+              "cover_xl": "https://cdn-images.dzcdn.net/images/cover/dfe2eb2731fd5627a63622d8cd46604c/1000x1000-000000-80-0-0.jpg",
+              "md5_image": "dfe2eb2731fd5627a63622d8cd46604c",
+              "tracklist": "https://api.deezer.com/album/831610991/tracks",
+              "type": "album"
+            },
+            "type": "track"
+          }
+        ]
+      }
+    }
   }
 }
