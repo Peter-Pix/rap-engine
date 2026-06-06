@@ -2233,7 +2233,6 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   },
   {
     "name": "Decky",
-    "slug": "decky",
     "type": "rapper",
     "aliases": [
       "Neznámé (možná Děcký, Decky Ortega)",
@@ -2512,7 +2511,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
-    "name": "Labello – pražský rapper s břitvou v ruce a rtěnkou na rtech",
+    "name": "Labello",
     "slug": "labello",
     "type": "rapper",
     "aliases": [
