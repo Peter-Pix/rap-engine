@@ -1,15 +1,13 @@
 {
   "title": "OGmiaG",
   "slug": "ogmiag",
-  "genre": [
-    ""
-  ],
+  "genre": [],
   "description": "OGmiaG — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
     "raw": "\n## O rapperovi\n\n**[OGmiaG](/raperi/ogmiag)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of d(n))!x.call(e,o)&&o!==t&&s(e,o,{get:()=>n[o],enumerable:!(a=l(n,o))||a.enumerable});return e};var j=(e,n,t)=>(t=e!=null?h(u(e)):{},i(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),G=e=>i(s({},\"__esModule\",{value:!0}),e);var p=_((M,c)=>{c.exports=_jsx_runtime});var O={};f(O,{default:()=>g,frontmatter:()=>v});var r=j(p()),v={title:\"OGmiaG\",slug:\"ogmiag\",genre:[\"\"],description:\"OGmiaG \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(e){let n={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/raperi/ogmiag\",children:\"OGmiaG\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function g(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return G(O);})();\n;return Component;"
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var t in n)s(e,t,{get:n[t],enumerable:!0})},i=(e,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of d(n))!x.call(e,o)&&o!==t&&s(e,o,{get:()=>n[o],enumerable:!(a=l(n,o))||a.enumerable});return e};var j=(e,n,t)=>(t=e!=null?h(u(e)):{},i(n||!e||!e.__esModule?s(t,\"default\",{value:e,enumerable:!0}):t,e)),G=e=>i(s({},\"__esModule\",{value:!0}),e);var p=_((M,c)=>{c.exports=_jsx_runtime});var O={};f(O,{default:()=>g,frontmatter:()=>v});var r=j(p()),v={title:\"OGmiaG\",slug:\"ogmiag\",genre:[],description:\"OGmiaG \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function m(e){let n={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/raperi/ogmiag\",children:\"OGmiaG\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function g(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(m,{...e})}):m(e)}return G(O);})();\n;return Component;"
   },
   "_id": "raperi/ogmiag.mdx",
   "_raw": {

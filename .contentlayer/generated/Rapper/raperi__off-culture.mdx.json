@@ -1,15 +1,13 @@
 {
   "title": "OFF CULTURE",
   "slug": "off-culture",
-  "genre": [
-    ""
-  ],
+  "genre": [],
   "description": "OFF CULTURE — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
     "raw": "\n## O rapperovi\n\n**[OFF CULTURE](/raperi/off-culture)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var F=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),g=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},a=(n,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!x.call(n,o)&&o!==t&&s(n,o,{get:()=>e[o],enumerable:!(c=d(e,o))||c.enumerable});return n};var _=(n,e,t)=>(t=n!=null?h(m(n)):{},a(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),j=n=>a(s({},\"__esModule\",{value:!0}),n);var p=F((L,i)=>{i.exports=_jsx_runtime});var C={};g(C,{default:()=>u,frontmatter:()=>U});var r=_(p()),U={title:\"OFF CULTURE\",slug:\"off-culture\",genre:[\"\"],description:\"OFF CULTURE \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(n){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/raperi/off-culture\",children:\"OFF CULTURE\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return j(C);})();\n;return Component;"
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var F=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),g=(n,e)=>{for(var t in e)s(n,t,{get:e[t],enumerable:!0})},a=(n,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!x.call(n,o)&&o!==t&&s(n,o,{get:()=>e[o],enumerable:!(c=d(e,o))||c.enumerable});return n};var _=(n,e,t)=>(t=n!=null?h(m(n)):{},a(e||!n||!n.__esModule?s(t,\"default\",{value:n,enumerable:!0}):t,n)),j=n=>a(s({},\"__esModule\",{value:!0}),n);var p=F((L,i)=>{i.exports=_jsx_runtime});var C={};g(C,{default:()=>u,frontmatter:()=>U});var r=_(p()),U={title:\"OFF CULTURE\",slug:\"off-culture\",genre:[],description:\"OFF CULTURE \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(n){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...n.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(e.p,{children:[(0,r.jsx)(e.strong,{children:(0,r.jsx)(e.a,{href:\"/raperi/off-culture\",children:\"OFF CULTURE\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,r.jsx)(e,{...n,children:(0,r.jsx)(l,{...n})}):l(n)}return j(C);})();\n;return Component;"
   },
   "_id": "raperi/off-culture.mdx",
   "_raw": {

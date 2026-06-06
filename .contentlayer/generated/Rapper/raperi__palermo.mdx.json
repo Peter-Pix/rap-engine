@@ -1,15 +1,13 @@
 {
   "title": "Palermo",
   "slug": "palermo",
-  "genre": [
-    ""
-  ],
+  "genre": [],
   "description": "Palermo — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
     "raw": "\n## O rapperovi\n\n**[Palermo](/raperi/palermo)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!g.call(r,o)&&o!==t&&s(r,o,{get:()=>e[o],enumerable:!(a=d(e,o))||a.enumerable});return r};var j=(r,e,t)=>(t=r!=null?h(x(r)):{},c(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),v=r=>c(s({},\"__esModule\",{value:!0}),r);var i=_((b,p)=>{p.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>k});var n=j(i()),k={title:\"Palermo\",slug:\"palermo\",genre:[\"\"],description:\"Palermo \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/raperi/palermo\",children:\"Palermo\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(l,{...r})}):l(r)}return v(M);})();\n;return Component;"
+    "code": "var Component=(()=>{var h=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)s(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!g.call(r,o)&&o!==t&&s(r,o,{get:()=>e[o],enumerable:!(a=d(e,o))||a.enumerable});return r};var j=(r,e,t)=>(t=r!=null?h(x(r)):{},c(e||!r||!r.__esModule?s(t,\"default\",{value:r,enumerable:!0}):t,r)),v=r=>c(s({},\"__esModule\",{value:!0}),r);var i=_((b,p)=>{p.exports=_jsx_runtime});var M={};f(M,{default:()=>m,frontmatter:()=>k});var n=j(i()),k={title:\"Palermo\",slug:\"palermo\",genre:[],description:\"Palermo \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function l(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/raperi/palermo\",children:\"Palermo\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(l,{...r})}):l(r)}return v(M);})();\n;return Component;"
   },
   "_id": "raperi/palermo.mdx",
   "_raw": {

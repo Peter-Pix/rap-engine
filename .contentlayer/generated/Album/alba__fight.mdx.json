@@ -5,7 +5,12 @@
   "rapperSlug": "fight",
   "label": "Epic Records",
   "year": 1993,
-  "description": "Debutové album heavymetalové kapely Fight, kterou v roce 1993 založil Rob Halford po odchodu z Judas Priest. Album *War of Words* (původně vydáno pod názvem *Fight*) kombinuje syrový metalový sound s prvky groove a thrashu, odrážející Halfordovu touhu po novém hudebním směru. Drsná, ale precizní produkce nese rukopis producenta Attie Bauwa a samotného Halforda.",
+  "genre": [
+    "heavy-metal",
+    "groove-metal",
+    "thrash-metal"
+  ],
+  "description": " v roce 1993 vydal své None. Album. Obsahuje celkem 12 skladeb. Deska vyšla pod labelem Epic Records.",
   "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Fight_War_of_Words_album_cover.jpg/220px-Fight_War_of_Words_album_cover.jpg",
   "featured": false,
   "tracklist": [
@@ -24,14 +29,15 @@
   ],
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "updatedAt": "2026-05-31T00:00:00.000Z",
+  "releaseType": "album",
   "explicit": false,
   "subgenres": [
     "traditional-metal",
     "power-metal"
   ],
   "body": {
-    "raw": "\n## O albu\n\n**[Fight](/alba/fight)** je debutové album rappera [Fight](/raperi/fight), vydané v roce 1993.\n\nAlbum obsahuje celkem 12 skladeb.\n",
-    "code": "var Component=(()=>{var p=Object.create;var n=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),v=(t,e)=>{for(var r in e)n(t,r,{get:e[r],enumerable:!0})},l=(t,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of m(e))!b.call(t,a)&&a!==r&&n(t,a,{get:()=>e[a],enumerable:!(i=c(e,a))||i.enumerable});return t};var _=(t,e,r)=>(r=t!=null?p(g(t)):{},l(e||!t||!t.__esModule?n(r,\"default\",{value:t,enumerable:!0}):r,t)),k=t=>l(n({},\"__esModule\",{value:!0}),t);var d=f((x,s)=>{s.exports=_jsx_runtime});var y={};v(y,{default:()=>h,frontmatter:()=>j});var o=_(d()),j={title:\"Fight\",slug:\"fight\",rapper:\"Fight\",rapperSlug:\"fight\",label:\"Epic Records\",year:1993,description:\"Debutov\\xE9 album heavymetalov\\xE9 kapely Fight, kterou v roce 1993 zalo\\u017Eil Rob Halford po odchodu z Judas Priest. Album *War of Words* (p\\u016Fvodn\\u011B vyd\\xE1no pod n\\xE1zvem *Fight*) kombinuje syrov\\xFD metalov\\xFD sound s prvky groove a thrashu, odr\\xE1\\u017Eej\\xEDc\\xED Halfordovu touhu po nov\\xE9m hudebn\\xEDm sm\\u011Bru. Drsn\\xE1, ale precizn\\xED produkce nese rukopis producenta Attie Bauwa a samotn\\xE9ho Halforda.\",image:\"https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Fight_War_of_Words_album_cover.jpg/220px-Fight_War_of_Words_album_cover.jpg\",tracklist:[\"Into the Pit\",\"Nailed to the Gun\",\"Life in Black\",\"Immortal Sin\",\"War of Words\",\"Laid to Rest\",\"For All Eternity\",\"Little Crazy\",\"Contortion\",\"Kill It\",\"Vicious\",\"Reality - A New Beginning\"],publishedAt:\"2026-05-31\",updatedAt:\"2026-05-31\",subgenres:[\"traditional-metal\",\"power-metal\"]};function u(t){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...t.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,o.jsxs)(e.p,{children:[(0,o.jsx)(e.strong,{children:(0,o.jsx)(e.a,{href:\"/alba/fight\",children:\"Fight\"})}),\" je debutov\\xE9 album rappera \",(0,o.jsx)(e.a,{href:\"/raperi/fight\",children:\"Fight\"}),\", vydan\\xE9 v roce 1993.\"]}),`\n`,(0,o.jsx)(e.p,{children:\"Album obsahuje celkem 12 skladeb.\"})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(u,{...t})}):u(t)}return k(y);})();\n;return Component;"
+    "raw": "\n## O albu\n\n[](/raperi/None) v roce 1993 vydal své None. album.\n\nAlbum obsahuje celkem 12 skladeb.\n\nDeska vyšla pod labelem Epic Records.\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var r in e)l(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of u(e))!b.call(t,o)&&o!==r&&l(t,o,{get:()=>e[o],enumerable:!(n=h(e,o))||n.enumerable});return t};var v=(t,e,r)=>(r=t!=null?p(g(t)):{},i(e||!t||!t.__esModule?l(r,\"default\",{value:t,enumerable:!0}):r,t)),y=t=>i(l({},\"__esModule\",{value:!0}),t);var c=_((F,s)=>{s.exports=_jsx_runtime});var x={};f(x,{default:()=>m,frontmatter:()=>k});var a=v(c()),k={title:\"Fight\",slug:\"fight\",rapper:\"Fight\",rapperSlug:\"fight\",label:\"Epic Records\",year:1993,releaseType:\"album\",genre:[\"heavy-metal\",\"groove-metal\",\"thrash-metal\"],subgenres:[\"traditional-metal\",\"power-metal\"],description:\" v roce 1993 vydal sv\\xE9 None. Album. Obsahuje celkem 12 skladeb. Deska vy\\u0161la pod labelem Epic Records.\",image:\"https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Fight_War_of_Words_album_cover.jpg/220px-Fight_War_of_Words_album_cover.jpg\",tracklist:[\"Into the Pit\",\"Nailed to the Gun\",\"Life in Black\",\"Immortal Sin\",\"War of Words\",\"Laid to Rest\",\"For All Eternity\",\"Little Crazy\",\"Contortion\",\"Kill It\",\"Vicious\",\"Reality - A New Beginning\"],publishedAt:\"2026-05-31\",updatedAt:\"2026-05-31\"};function d(t){let e={a:\"a\",h2:\"h2\",p:\"p\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.a,{href:\"/raperi/None\"}),\" v roce 1993 vydal sv\\xE9 None. album.\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Album obsahuje celkem 12 skladeb.\"}),`\n`,(0,a.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem Epic Records.\"})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(d,{...t})}):d(t)}return y(x);})();\n;return Component;"
   },
   "_id": "alba/fight.mdx",
   "_raw": {

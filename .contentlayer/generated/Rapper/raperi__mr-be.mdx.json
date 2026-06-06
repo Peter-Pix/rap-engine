@@ -1,15 +1,13 @@
 {
   "title": "Mr Be",
   "slug": "mr-be",
-  "genre": [
-    ""
-  ],
+  "genre": [],
   "description": "Mr Be — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
     "raw": "\n## O rapperovi\n\n**[Mr Be](/raperi/mr-be)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of u(e))!g.call(r,s)&&s!==t&&o(r,s,{get:()=>e[s],enumerable:!(a=d(e,s))||a.enumerable});return r};var j=(r,e,t)=>(t=r!=null?m(x(r)):{},c(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),M=r=>c(o({},\"__esModule\",{value:!0}),r);var p=_((B,i)=>{i.exports=_jsx_runtime});var v={};f(v,{default:()=>l,frontmatter:()=>b});var n=j(p()),b={title:\"Mr Be\",slug:\"mr-be\",genre:[\"\"],description:\"Mr Be \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function h(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/raperi/mr-be\",children:\"Mr Be\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(h,{...r})}):h(r)}return M(v);})();\n;return Component;"
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},c=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of u(e))!g.call(r,s)&&s!==t&&o(r,s,{get:()=>e[s],enumerable:!(a=d(e,s))||a.enumerable});return r};var j=(r,e,t)=>(t=r!=null?m(x(r)):{},c(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),M=r=>c(o({},\"__esModule\",{value:!0}),r);var p=_((B,i)=>{i.exports=_jsx_runtime});var v={};f(v,{default:()=>l,frontmatter:()=>b});var n=j(p()),b={title:\"Mr Be\",slug:\"mr-be\",genre:[],description:\"Mr Be \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function h(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/raperi/mr-be\",children:\"Mr Be\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(h,{...r})}):h(r)}return M(v);})();\n;return Component;"
   },
   "_id": "raperi/mr-be.mdx",
   "_raw": {

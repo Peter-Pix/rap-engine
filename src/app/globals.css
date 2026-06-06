@@ -162,15 +162,7 @@ h1, h2 {
 
 /* ─── MOBILE SAFE TOUCH TARGETS ──────────────────────────────── */
 @media (max-width: 767px) {
-  header button,
-  header a,
-  [role="dialog"] button,
-  [role="dialog"] a {
-    min-height: 44px;
-  }
-  [role="dialog"] nav a {
-    min-height: 48px;
-  }
+
 }
 
 /* ─── SAFE-AREA PADDING ──────────────────────────────────────── */

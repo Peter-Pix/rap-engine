@@ -1,15 +1,13 @@
 {
   "title": "Ricky Sixx",
   "slug": "ricky-sixx",
-  "genre": [
-    ""
-  ],
+  "genre": [],
   "description": "Ricky Sixx — interpret české/slovenské rapové scény.",
   "featured": false,
   "publishedAt": "2026-05-31T00:00:00.000Z",
   "body": {
     "raw": "\n## O rapperovi\n\n**[Ricky Sixx](/raperi/ricky-sixx)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of m(n))!k.call(e,s)&&s!==t&&i(e,s,{get:()=>n[s],enumerable:!(o=d(n,s))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?l(u(e)):{},c(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),f=e=>c(i({},\"__esModule\",{value:!0}),e);var x=g((R,a)=>{a.exports=_jsx_runtime});var v={};y(v,{default:()=>h,frontmatter:()=>j});var r=_(x()),j={title:\"Ricky Sixx\",slug:\"ricky-sixx\",genre:[\"\"],description:\"Ricky Sixx \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function p(e){let n={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/raperi/ricky-sixx\",children:\"Ricky Sixx\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function h(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return f(v);})();\n;return Component;"
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var g=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),y=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},c=(e,n,t,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let s of m(n))!k.call(e,s)&&s!==t&&i(e,s,{get:()=>n[s],enumerable:!(o=d(n,s))||o.enumerable});return e};var _=(e,n,t)=>(t=e!=null?l(u(e)):{},c(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),f=e=>c(i({},\"__esModule\",{value:!0}),e);var x=g((R,a)=>{a.exports=_jsx_runtime});var v={};y(v,{default:()=>h,frontmatter:()=>j});var r=_(x()),j={title:\"Ricky Sixx\",slug:\"ricky-sixx\",genre:[],description:\"Ricky Sixx \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-05-31\"};function p(e){let n={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.h2,{children:\"O rapperovi\"}),`\n`,(0,r.jsxs)(n.p,{children:[(0,r.jsx)(n.strong,{children:(0,r.jsx)(n.a,{href:\"/raperi/ricky-sixx\",children:\"Ricky Sixx\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function h(e={}){let{wrapper:n}=e.components||{};return n?(0,r.jsx)(n,{...e,children:(0,r.jsx)(p,{...e})}):p(e)}return f(v);})();\n;return Component;"
   },
   "_id": "raperi/ricky-sixx.mdx",
   "_raw": {
