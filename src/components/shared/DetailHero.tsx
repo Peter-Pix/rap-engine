@@ -54,10 +54,10 @@ export function DetailHero({
 }: DetailHeroProps) {
   return (
     <header className={['mb-8 sm:mb-12', className].join(' ')}>
-      {/* Breadcrumbs */}
+      {/* Breadcrumbs — scrollable na mobilu, nezlomí se */}
       {breadcrumbs && breadcrumbs.length > 0 && (
-        <nav aria-label="Drobečková navigace" className="mb-4 sm:mb-6">
-          <ol className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-[11px] sm:text-xs font-mono uppercase tracking-widest text-zinc-500 leading-tight overflow-x-auto">
+        <nav aria-label="Drobečková navigace" className="mb-4 sm:mb-6 overflow-x-auto">
+          <ol className="flex items-center gap-x-1.5 text-[11px] sm:text-xs font-mono uppercase tracking-widest text-zinc-500 leading-tight whitespace-nowrap">
             {breadcrumbs.map((b, i) => {
               const isLast = i === breadcrumbs.length - 1
               return (
@@ -80,9 +80,9 @@ export function DetailHero({
       {/* Header row: type pill + chips + meta */}
       <div className="flex flex-wrap items-center gap-2 mb-4 sm:mb-6">
         <EntityChip type={type} label={typeLabel ?? type.toUpperCase()} />
-        <div className="flex flex-wrap items-center gap-2">{chips}</div>
+        <div className="flex flex-wrap items-center gap-2 max-w-full overflow-hidden">{chips}</div>
         {meta && (
-          <div className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 ml-auto">
+          <div className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 ml-auto shrink-0">
             {meta}
           </div>
         )}

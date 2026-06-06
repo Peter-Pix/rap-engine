@@ -69,12 +69,18 @@ export function rappersByLabel(labelSlug: string) {
 
 export function albumsByLabel(labelSlug: string) {
   return allAlbums
-    .filter((a) => a.labelSlug === labelSlug)
+    .filter((a) => a.labelSlug === labelSlug && a.releaseType !== 'single')
     .sort((a, b) => b.year - a.year)
 }
 
 // ─── RAPPER AGREGACE ──────────────────────────────────────
 export function albumsByRapper(rapperSlug: string) {
+  return allAlbums
+    .filter((a) => a.rapperSlug === rapperSlug && a.releaseType !== 'single')
+    .sort((a, b) => b.year - a.year)
+}
+
+export function allReleasesByRapper(rapperSlug: string) {
   return allAlbums
     .filter((a) => a.rapperSlug === rapperSlug)
     .sort((a, b) => b.year - a.year)

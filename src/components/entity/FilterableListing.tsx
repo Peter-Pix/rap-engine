@@ -35,12 +35,13 @@ export interface FilterItem {
   albumSlug?: string
   category?: string
   location?: string
+  releaseType?: string
   // Pro sorting
   publishedAt?: string
 }
 
 export type FilterFieldConfig =
-  | { key: 'genres' | 'label' | 'rapper' | 'album' | 'category' | 'location'; label: string; type: 'multi' }
+  | { key: 'genres' | 'label' | 'rapper' | 'album' | 'category' | 'location' | 'releaseType'; label: string; type: 'multi' }
   | { key: 'year'; label: string; type: 'year' }
 
 export type SortKey = 'alpha' | 'date' | 'year' | 'featured'

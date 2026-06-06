@@ -5,6 +5,7 @@ import { buildRapperMetadata } from '@/lib/metadata'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { DetailHero, DetailLayout, SidebarCard, InfoDl } from '@/components/shared/DetailHero'
 import { EntityCard, EntityChip } from '@/components/shared/EntityCard'
+import { albumsByRapper, allReleasesByRapper } from '@/lib/aggregations'
 import type { Metadata } from 'next'
 
 export async function generateStaticParams() {
@@ -23,7 +24,8 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
   const rapper = allRappers.find((r) => r.slug === slug)
   if (!rapper) notFound()
 
-  const albums = allAlbums.filter((a) => a.rapperSlug === rapper.slug)
+  const albums = albumsByRapper(rapper.slug)
+  const allReleases = allReleasesByRapper(rapper.slug)
   const genres = rapper.genre || []
 
   // Spolupráce: skladby kde je rapper uveden jako feature (features obsahuje jméno rappera)
@@ -102,9 +104,9 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                 />
               </SidebarCard>
 
-              {/* Diskografie */}
+              {/* Diskografie — jen alba + EP */}
               {albums.length > 0 && (
-                <SidebarCard title={`Diskografie · ${albums.length}`}>
+                <SidebarCard title={`Diskografie · ${albums.length} alb a EP`}>
                   <ul className="space-y-2.5">
                     {albums
                       .slice()
@@ -125,13 +127,13 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                           </a>
                         </li>
                       ))}
-                    {albums.length > 8 && (
+                    {allReleases.length > 8 && (
                       <li className="pt-2 border-t border-white/5">
                         <a
                           href={`/raperi/${rapper.slug}/alba`}
                           className="text-xs font-mono uppercase tracking-widest text-sky-400 hover:text-sky-300 transition-colors"
                         >
-                          Všechna alba →
+                          Všechny releases ({allReleases.length}) →
                         </a>
                       </li>
                     )}
@@ -146,12 +148,12 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
             <MDXRenderer code={rapper.body.code} />
           </article>
 
-          {/* Albums grid pod článkem */}
+          {/* Albums grid pod článkem — jen alba + EP */}
           {albums.length > 0 && (
             <section className="mt-12 sm:mt-16">
               <div className="flex items-baseline justify-between mb-6">
                 <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white uppercase">
-                  Alba
+                  Alba a EP
                 </h2>
                 <span className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">
                   {albums.length} releases
@@ -168,6 +170,7 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                     meta={String(a.year)}
                     tags={a.genre || []}
                     featured={a.featured}
+                    typeLabel={a.releaseType === 'ep' ? 'EP' : 'ALBUM'}
                   />
                 ))}
               </div>

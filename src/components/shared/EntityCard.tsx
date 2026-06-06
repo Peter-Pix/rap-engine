@@ -137,13 +137,13 @@ export function EntityCard({
         </p>
       )}
 
-      {/* Tags — prvních 3 + indikátor zbytku */}
+      {/* Tags — prvních 3 + indikátor zbytku, na mobilu nepraskají */}
       {tags && tags.length > 0 && (
-        <div className="flex flex-wrap gap-1.5 mb-4">
+        <div className="flex flex-wrap gap-1.5 mb-4 overflow-hidden">
           {tags.slice(0, 3).map((t) => (
             <span
               key={t}
-              className="inline-flex items-center px-2 py-0.5 text-[10px] font-mono uppercase tracking-wider text-zinc-500 bg-white/[0.03] rounded ring-1 ring-white/5"
+              className="inline-flex items-center px-2 py-0.5 text-[10px] font-mono uppercase tracking-wider text-zinc-500 bg-white/[0.03] rounded ring-1 ring-white/5 truncate max-w-[120px]"
             >
               {t}
             </span>
