@@ -50,7 +50,7 @@ export function buildRapperMetadata(rapper: {
   const labelStr = rapper.label ? ` | ${rapper.label}` : ''
   return buildMetadata({
     title: `${rapper.title}${labelStr} — Profil rappera`,
-    description: rapper.description.slice(0, 155),
+    description: (rapper.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/raperi/${rapper.slug}`,
     ogImage: rapper.image, type: 'article',
     publishedAt: rapper.publishedAt, updatedAt: rapper.updatedAt,
@@ -63,7 +63,7 @@ export function buildAlbumMetadata(album: {
 }): Metadata {
   return buildMetadata({
     title: `${album.title} — ${album.rapper} (${album.year})`,
-    description: album.description.slice(0, 155),
+    description: (album.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/alba/${album.slug}`,
     ogImage: album.image, type: 'article', publishedAt: album.publishedAt,
   })
@@ -74,7 +74,7 @@ export function buildLabelMetadata(label: {
 }): Metadata {
   return buildMetadata({
     title: `${label.title} — Label české rapové scény`,
-    description: label.description.slice(0, 155),
+    description: (label.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/labely/${label.slug}`,
     ogImage: label.image, type: 'website', publishedAt: label.publishedAt,
   })
@@ -85,7 +85,7 @@ export function buildZanrMetadata(zanr: {
 }): Metadata {
   return buildMetadata({
     title: `${zanr.title} — Žánr české rapové scény`,
-    description: zanr.description.slice(0, 155),
+    description: (zanr.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/zanry/${zanr.slug}`,
     ogImage: zanr.image, type: 'website', publishedAt: zanr.publishedAt,
   })
@@ -104,7 +104,7 @@ export function buildSkladbaMetadata(track: {
   const albumStr = track.album ? ` z alba ${track.album}` : ''
   return buildMetadata({
     title: `${track.title} — ${track.rapper}${albumStr}${yearStr}`,
-    description: track.description.slice(0, 155),
+    description: (track.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/skladby/${track.slug}`,
     ogImage: track.image,
     type: 'article',
