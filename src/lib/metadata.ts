@@ -44,8 +44,8 @@ function buildMetadata(page: {
 }
 
 export function buildRapperMetadata(rapper: {
-  title: string; description: string; slug: string
-  label?: string; image?: string; publishedAt: string; updatedAt?: string
+  title: string; description?: string; slug: string
+  label?: string; image?: string; publishedAt?: string; updatedAt?: string
 }): Metadata {
   const labelStr = rapper.label ? ` | ${rapper.label}` : ''
   return buildMetadata({
@@ -58,8 +58,8 @@ export function buildRapperMetadata(rapper: {
 }
 
 export function buildAlbumMetadata(album: {
-  title: string; rapper: string; description: string; slug: string
-  year: number; image?: string; publishedAt: string
+  title: string; rapper: string; description?: string; slug: string
+  year: number; image?: string; publishedAt?: string
 }): Metadata {
   return buildMetadata({
     title: `${album.title} — ${album.rapper} (${album.year})`,
@@ -70,7 +70,7 @@ export function buildAlbumMetadata(album: {
 }
 
 export function buildLabelMetadata(label: {
-  title: string; description: string; slug: string; image?: string; publishedAt: string
+  title: string; description?: string; slug: string; image?: string; publishedAt?: string
 }): Metadata {
   return buildMetadata({
     title: `${label.title} — Label české rapové scény`,
@@ -81,7 +81,7 @@ export function buildLabelMetadata(label: {
 }
 
 export function buildZanrMetadata(zanr: {
-  title: string; description: string; slug: string; image?: string; publishedAt: string
+  title: string; description?: string; slug: string; image?: string; publishedAt?: string
 }): Metadata {
   return buildMetadata({
     title: `${zanr.title} — Žánr české rapové scény`,
@@ -94,11 +94,11 @@ export function buildSkladbaMetadata(track: {
   title: string
   rapper: string
   album?: string
-  description: string
+  description?: string
   slug: string
   year?: number
   image?: string
-  publishedAt: string
+  publishedAt?: string
 }): Metadata {
   const yearStr = track.year ? ` (${track.year})` : ''
   const albumStr = track.album ? ` z alba ${track.album}` : ''
