@@ -19,7 +19,7 @@ export function GET() {
       title: r.title,
       slug: r.slug,
       url: r.url,
-      description: r.description,
+      description: r.description || '',
       context: [r.realName, r.label, ...(r.genre || [])].filter(Boolean).join(' '),
       featured: r.featured,
     })),
