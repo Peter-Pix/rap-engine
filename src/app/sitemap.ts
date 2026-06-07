@@ -16,42 +16,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const rapperPages: MetadataRoute.Sitemap = allRappers.map((r) => ({
     url: r.canonicalUrl,
-    lastModified: new Date(r.updatedAt || r.publishedAt),
+    lastModified: new Date(r.updatedAt || r.publishedAt || Date.now()),
     changeFrequency: 'monthly',
     priority: r.featured ? 0.9 : 0.8,
   }))
 
   const albumPages: MetadataRoute.Sitemap = allAlbums.map((a) => ({
     url: a.canonicalUrl,
-    lastModified: new Date(a.updatedAt || a.publishedAt),
+    lastModified: new Date(a.updatedAt || a.publishedAt || Date.now()),
     changeFrequency: 'monthly',
     priority: 0.7,
   }))
 
   const labelPages: MetadataRoute.Sitemap = allLabels.map((l) => ({
     url: l.canonicalUrl,
-    lastModified: new Date(l.publishedAt),
+    lastModified: new Date(l.publishedAt || Date.now()),
     changeFrequency: 'monthly',
     priority: 0.7,
   }))
 
   const zanrPages: MetadataRoute.Sitemap = allZanrs.map((z) => ({
     url: z.canonicalUrl,
-    lastModified: new Date(z.publishedAt),
+    lastModified: new Date(z.publishedAt || Date.now()),
     changeFrequency: 'monthly',
     priority: 0.7,
   }))
 
   const skladbaPages: MetadataRoute.Sitemap = allSkladbas.map((s) => ({
     url: s.canonicalUrl,
-    lastModified: new Date(s.updatedAt || s.publishedAt),
+    lastModified: new Date(s.updatedAt || s.publishedAt || Date.now()),
     changeFrequency: 'monthly',
     priority: 0.7,
   }))
 
   const clanekPages: MetadataRoute.Sitemap = allClaneks.map((c) => ({
     url: c.canonicalUrl,
-    lastModified: new Date(c.updatedAt || c.publishedAt),
+    lastModified: new Date(c.updatedAt || c.publishedAt || Date.now()),
     changeFrequency: 'weekly',
     priority: 0.8,
   }))
