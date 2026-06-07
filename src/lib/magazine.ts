@@ -29,7 +29,7 @@ export function toListItem(c: Clanek): ArticleListItem {
     slug: c.slug,
     url: c.url,
     description: c.description,
-    category: c.category,
+    category: c.category ?? 'novinky',
     publishedAt: c.publishedAt,
     tags: c.tags ?? [],
     readingTime: (c as any).readingTime,
