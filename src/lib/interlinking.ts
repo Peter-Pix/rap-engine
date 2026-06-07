@@ -4,8 +4,8 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-06-06T15:07:48.688Z
-// Celkem entit: 676 (415 album, 35 label, 134 rapper, 92 zanr)
+// Vygenerováno: 2026-06-07T00:19:33.131Z
+// Celkem entit: 717 (454 album, 35 label, 136 rapper, 92 zanr)
 // ═══════════════════════════════════════════════════════════════
 
 import type { InterlinkEntity } from './remark-interlinking'
@@ -69,6 +69,21 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "4 (Deluxe)",
     "slug": "4",
+    "type": "album"
+  },
+  {
+    "name": "58 tape vol. 1",
+    "slug": "58-tape-vol-1",
+    "type": "album"
+  },
+  {
+    "name": "58 tape vol. 2",
+    "slug": "58-tape-vol-2",
+    "type": "album"
+  },
+  {
+    "name": "7",
+    "slug": "7",
     "type": "album"
   },
   {
@@ -257,7 +272,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "BERSERK",
+    "name": "Berserk",
     "slug": "berserk",
     "type": "album"
   },
@@ -299,6 +314,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Brooklyn International",
     "slug": "brooklyn-international",
+    "type": "album"
+  },
+  {
+    "name": "Budapešť",
+    "slug": "budapest",
     "type": "album"
   },
   {
@@ -372,6 +392,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "City Park",
+    "slug": "city-park",
+    "type": "album"
+  },
+  {
     "name": "CityLights",
     "slug": "citylights",
     "type": "album"
@@ -424,6 +449,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Černej kůň plus",
     "slug": "cernej-kun-plus",
+    "type": "album"
+  },
+  {
+    "name": "Černobílej svět",
+    "slug": "cernobilej-svet",
     "type": "album"
   },
   {
@@ -497,6 +527,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Detektor III",
+    "slug": "detektor-iii",
+    "type": "album"
+  },
+  {
     "name": "Diamant",
     "slug": "diamant",
     "type": "album"
@@ -522,7 +557,22 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "Dobrá Duše, Srdce ze Zlata",
+    "name": "DJ Wich",
+    "slug": "dj-wich",
+    "type": "album"
+  },
+  {
+    "name": "DJ Wich v Kontře",
+    "slug": "dj-wich-v-kontra",
+    "type": "album"
+  },
+  {
+    "name": "Dlouhej příběh, krátkej svět",
+    "slug": "dlouhej-pribeh-kratkej-svet",
+    "type": "album"
+  },
+  {
+    "name": "Dobrá duše, srdce ze zlata",
     "slug": "dobra-duse-srdce-ze-zlata",
     "type": "album"
   },
@@ -572,6 +622,16 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "E.T.",
+    "slug": "e-t",
+    "type": "album"
+  },
+  {
+    "name": "Ego 3",
+    "slug": "ego-3",
+    "type": "album"
+  },
+  {
     "name": "Ep Co Sa Vola Ep",
     "slug": "ep-co-sa-vola-ep",
     "type": "album"
@@ -617,6 +677,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Fatamorgana",
+    "slug": "fatamorgana",
+    "type": "album"
+  },
+  {
     "name": "Fatte No More",
     "slug": "fatte-no-more",
     "type": "album"
@@ -652,6 +717,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Figury",
+    "slug": "figury",
+    "type": "album"
+  },
+  {
     "name": "Finding Myself",
     "slug": "finding-myself",
     "type": "album"
@@ -667,7 +737,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "FLOWDEMORT",
+    "name": "Flowdemort",
     "slug": "flowdemort",
     "type": "album"
   },
@@ -712,12 +782,17 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "GoldCigo",
+    "slug": "goldcigo",
+    "type": "album"
+  },
+  {
     "name": "Golden Hour",
     "slug": "golden-hour",
     "type": "album"
   },
   {
-    "name": "GoldKid",
+    "name": "Goldkid",
     "slug": "goldkid",
     "type": "album"
   },
@@ -912,22 +987,22 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "J. EDEN",
-    "slug": "j-eden",
-    "type": "album"
-  },
-  {
-    "name": "J. Eden Dva",
-    "slug": "j-eden-dva",
-    "type": "album"
-  },
-  {
     "name": "J. EDEN E-G3N (#freekarlo edition)",
     "slug": "j-eden-e-g3n",
     "type": "album"
   },
   {
-    "name": "J. EDEN E-GEN (mixed by NobodyListen)",
+    "name": "J.Eden",
+    "slug": "j-eden",
+    "type": "album"
+  },
+  {
+    "name": "J.Eden Dva",
+    "slug": "j-eden-dva",
+    "type": "album"
+  },
+  {
+    "name": "J.Eden E-Gen",
     "slug": "j-eden-e-gen-mixed-by-nobodylisten",
     "type": "album"
   },
@@ -1023,12 +1098,12 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   },
   {
     "name": "Kruhy & Vlny",
-    "slug": "kruhy-a-vlny",
+    "slug": "kruhy-vlny",
     "type": "album"
   },
   {
-    "name": "Kruhy & Vlny",
-    "slug": "kruhy-vlny",
+    "name": "Kruhy a vlny",
+    "slug": "kruhy-a-vlny",
     "type": "album"
   },
   {
@@ -1044,6 +1119,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Láska Je Cool",
     "slug": "laska-je-cool",
+    "type": "album"
+  },
+  {
+    "name": "Legální drogy",
+    "slug": "legalni-drogy",
     "type": "album"
   },
   {
@@ -1099,6 +1179,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Malý Pepek Mixtape Vol. 1",
     "slug": "maly-pepek-mixtape-vol-1",
+    "type": "album"
+  },
+  {
+    "name": "Mám to",
+    "slug": "mam-to",
     "type": "album"
   },
   {
@@ -1247,6 +1332,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Nas – Illmatic",
+    "slug": "illmatic",
+    "type": "album"
+  },
+  {
     "name": "Naspäť domov",
     "slug": "naspat-domov",
     "type": "album"
@@ -1272,13 +1362,18 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "NEVIEM",
+    "name": "Neviem",
     "slug": "neviem",
     "type": "album"
   },
   {
     "name": "NIBIRU",
     "slug": "nibiru",
+    "type": "album"
+  },
+  {
+    "name": "Nie som tu náhodou",
+    "slug": "nie-som-tu-nahodou",
     "type": "album"
   },
   {
@@ -1324,6 +1419,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Nonstop",
     "slug": "nonstop",
+    "type": "album"
+  },
+  {
+    "name": "Nový človek",
+    "slug": "novy-clovek",
     "type": "album"
   },
   {
@@ -1377,7 +1477,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "Original",
+    "name": "Originál",
     "slug": "original",
     "type": "album"
   },
@@ -1394,6 +1494,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "P's A Love",
     "slug": "ps-a-love",
+    "type": "album"
+  },
+  {
+    "name": "Painkillers",
+    "slug": "painkillers",
     "type": "album"
   },
   {
@@ -1422,7 +1527,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "Pod Vlivem",
+    "name": "Pod vlivem",
     "slug": "pod-vlivem",
     "type": "album"
   },
@@ -1462,6 +1567,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Precedens",
+    "slug": "precedens",
+    "type": "album"
+  },
+  {
     "name": "Premiéra",
     "slug": "premiera",
     "type": "album"
@@ -1487,12 +1597,12 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "Prozyum (Director’s Cut)",
+    "name": "Prozyum (Director's Cut)",
     "slug": "prozyum-director-s-cut",
     "type": "album"
   },
   {
-    "name": "PŘÍBĚHY",
+    "name": "Příběhy",
     "slug": "pribehy",
     "type": "album"
   },
@@ -1547,8 +1657,18 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Reprezentuju",
+    "slug": "reprezentuju",
+    "type": "album"
+  },
+  {
     "name": "Rest in Euphoria",
     "slug": "rest-in-euphoria",
+    "type": "album"
+  },
+  {
+    "name": "Restart",
+    "slug": "restart",
     "type": "album"
   },
   {
@@ -1574,6 +1694,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Rodinnej Typ",
     "slug": "rodinnej-typ",
+    "type": "album"
+  },
+  {
+    "name": "Rok psa",
+    "slug": "rok-psa",
     "type": "album"
   },
   {
@@ -1609,6 +1734,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Sequel of Momo",
     "slug": "sequel-of-momo",
+    "type": "album"
+  },
+  {
+    "name": "Série remixů",
+    "slug": "dj-wich-remixy",
     "type": "album"
   },
   {
@@ -1687,7 +1817,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "Starship: Oblivion",
+    "name": "Starship Oblivion",
     "slug": "starship-oblivion",
     "type": "album"
   },
@@ -1759,6 +1889,16 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Svědomí",
     "slug": "svedomi",
+    "type": "album"
+  },
+  {
+    "name": "Svět baví",
+    "slug": "svet-bavi",
+    "type": "album"
+  },
+  {
+    "name": "Svět je náš",
+    "slug": "svet-je-nas",
     "type": "album"
   },
   {
@@ -1917,8 +2057,28 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
+    "name": "Třetí oko",
+    "slug": "treti-oko",
+    "type": "album"
+  },
+  {
+    "name": "Tvoj tatko",
+    "slug": "tvoj-tatko",
+    "type": "album"
+  },
+  {
     "name": "Ultra! Ultra!",
     "slug": "ultra-ultra",
+    "type": "album"
+  },
+  {
+    "name": "Umění žít",
+    "slug": "umeni-zit",
+    "type": "album"
+  },
+  {
+    "name": "Umenie žiť",
+    "slug": "umenie-zit",
     "type": "album"
   },
   {
@@ -1954,6 +2114,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Vamp love story",
     "slug": "vamp-love-story",
+    "type": "album"
+  },
+  {
+    "name": "Velký hry",
+    "slug": "velke-hry",
     "type": "album"
   },
   {
@@ -2042,8 +2207,23 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "Yzomandias (Remaster)",
+    "name": "Ypsilon Black",
+    "slug": "ypsilon-black",
+    "type": "album"
+  },
+  {
+    "name": "Ypsilon White",
+    "slug": "ypsilon-white",
+    "type": "album"
+  },
+  {
+    "name": "Yzomandias",
     "slug": "yzomandias",
+    "type": "album"
+  },
+  {
+    "name": "Yzomandias II: Zpátky na svojí planetu",
+    "slug": "zpatky-na-svoji-planetu",
     "type": "album"
   },
   {
@@ -2052,13 +2232,23 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "Ze Dna",
+    "name": "Za 5 Dvanáct",
+    "slug": "za-5-dvanact",
+    "type": "album"
+  },
+  {
+    "name": "Ze dna",
     "slug": "ze-dna",
     "type": "album"
   },
   {
-    "name": "Zhora Vypadá Všechno Líp",
+    "name": "Zhora vypadá všechno líp",
     "slug": "zhora-vypada-vsechno-lip",
+    "type": "album"
+  },
+  {
+    "name": "Zkušenosti",
+    "slug": "zkusenosti",
     "type": "album"
   },
   {
@@ -2072,8 +2262,13 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "album"
   },
   {
-    "name": "ZPÁTKY NA SVOJÍ PLANETU",
-    "slug": "zpatky-na-svoji-planetu",
+    "name": "Zůstat silnej",
+    "slug": "zustat-silnej",
+    "type": "album"
+  },
+  {
+    "name": "Žijeme len raz",
+    "slug": "zijeme-len-raz",
     "type": "album"
   },
   {
@@ -2264,11 +2459,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "58G",
     "slug": "58g",
-    "type": "rapper",
-    "aliases": [
-      "Karel Kučera",
-      "TK27"
-    ]
+    "type": "rapper"
   },
   {
     "name": "7krát3",
@@ -2470,6 +2661,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     ]
   },
   {
+    "name": "Doktor601",
+    "slug": "doktor601",
+    "type": "rapper"
+  },
+  {
     "name": "Dollar Prync",
     "slug": "dollar-prync",
     "type": "rapper"
@@ -2579,6 +2775,14 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Hugo Toxxx",
     "slug": "hugo-toxxx",
+    "type": "rapper",
+    "aliases": [
+      "Jan Daněk"
+    ]
+  },
+  {
+    "name": "Humla",
+    "slug": "humla",
     "type": "rapper"
   },
   {
@@ -2822,7 +3026,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "mc-gey",
     "type": "rapper",
     "aliases": [
-      "Jakub Rafael"
+      "Štěpán Gajdoš"
     ]
   },
   {
@@ -2871,7 +3075,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Nik Tendo",
     "slug": "nik-tendo",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Dominik Citta"
+    ]
   },
   {
     "name": "OGmiaG",
@@ -2989,7 +3196,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Rytmus",
     "slug": "rytmus",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Patrik Vrbovský"
+    ]
   },
   {
     "name": "Řezník",
@@ -3034,7 +3244,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Separ",
     "slug": "separ",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Michael Kmeť"
+    ]
   },
   {
     "name": "Sergei Barracuda",
@@ -3113,7 +3326,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "tk27",
     "type": "rapper",
     "aliases": [
-      "Kučera (křestní jméno nezveřejněno)"
+      "Tomáš Kučera"
     ]
   },
   {
@@ -3135,7 +3348,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Vladimir 518",
     "slug": "vladimir-518",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Vladimír Brož"
+    ]
   },
   {
     "name": "VlaďkySyn",
@@ -3155,7 +3371,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Yzomandias",
     "slug": "yzomandias",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Jakub Vlček"
+    ]
   },
   {
     "name": "Zayo",
