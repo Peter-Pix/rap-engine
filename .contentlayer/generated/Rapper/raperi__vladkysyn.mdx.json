@@ -1,30 +1,17 @@
 {
-  "title": "Vlaďkysyn",
+  "title": "VlaďkySyn",
   "slug": "vladkysyn",
-  "active": "2023–současnost",
-  "label": "415 02 Records",
   "genre": [
-    "melodic-rap",
     "trap",
-    "emo-rap"
+    "cloud-rap"
   ],
-  "description": "Teplický rapper a finalista soutěže The Mag Wrap 2025, známý svou melodickou flow, upřímnými texty a úzkou spoluprací s producentem Magentou a rapperkou Katannah.",
-  "image": "/images/raperi/vladkysyn.jpg",
-  "featured": true,
-  "publishedAt": "2026-05-24T00:00:00.000Z",
-  "updatedAt": "2026-05-24T00:00:00.000Z",
-  "relatedRappers": [
-    "katannah",
-    "g1nter",
-    "deetray"
-  ],
-  "relatedAlbums": [
-    "stejny-misto-novy-boty",
-    "till-i-die-ep"
-  ],
+  "description": "VlaďkySyn — rapper české/slovenské rapové scény. Autor alb Stejný místo, Nový boty, TILL I DIE a MUSIC THERAPY.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "entityType": "rapper",
   "body": {
-    "raw": "\n## O rapperovi\n\n**[Vlaďkysyn](/raperi/vladkysyn)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},p=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of y(e))!g.call(t,r)&&r!==n&&o(t,r,{get:()=>e[r],enumerable:!(s=m(e,r))||s.enumerable});return t};var f=(t,e,n)=>(n=t!=null?u(h(t)):{},p(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>p(o({},\"__esModule\",{value:!0}),t);var l=k((M,i)=>{i.exports=_jsx_runtime});var _={};x(_,{default:()=>d,frontmatter:()=>v});var a=f(l()),v={title:\"Vla\\u010Fkysyn\",slug:\"vladkysyn\",active:\"2023\\u2013sou\\u010Dasnost\",label:\"415 02 Records\",genre:[\"melodic-rap\",\"trap\",\"emo-rap\"],description:\"Teplick\\xFD rapper a finalista sout\\u011B\\u017Ee The Mag Wrap 2025, zn\\xE1m\\xFD svou melodickou flow, up\\u0159\\xEDmn\\xFDmi texty a \\xFAzkou spoluprac\\xED s producentem Magentou a rapperkou Katannah.\",image:\"/images/raperi/vladkysyn.jpg\",featured:!0,publishedAt:\"2026-05-24\",updatedAt:\"2026-05-24\",relatedRappers:[\"katannah\",\"g1nter\",\"deetray\"],relatedAlbums:[\"stejny-misto-novy-boty\",\"till-i-die-ep\"]};function c(t){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/raperi/vladkysyn\",children:\"Vla\\u010Fkysyn\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(c,{...t})}):c(t)}return j(_);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[VlaďkySyn](/raperi/vladkysyn)** je český rapper, který se pohybuje v trapové a cloud-rapové sféře. Je známý svou melodičtější tvorbou a účastí v rap battle formátu WRAP.\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var k=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var r in t)o(e,r,{get:t[r],enumerable:!0})},p=(e,t,r,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!v.call(e,a)&&a!==r&&o(e,a,{get:()=>t[a],enumerable:!(s=u(t,a))||s.enumerable});return e};var j=(e,t,r)=>(r=e!=null?d(m(e)):{},p(t||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),x=e=>p(o({},\"__esModule\",{value:!0}),e);var i=k((S,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>c,frontmatter:()=>g});var n=j(i()),g={title:\"Vla\\u010FkySyn\",slug:\"vladkysyn\",genre:[\"trap\",\"cloud-rap\"],entityType:\"rapper\",description:\"Vla\\u010FkySyn \\u2014 rapper \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny. Autor alb Stejn\\xFD m\\xEDsto, Nov\\xFD boty, TILL I DIE a MUSIC THERAPY.\",publishedAt:\"2026-06-06\"};function y(e){let t={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(t.p,{children:[(0,n.jsx)(t.strong,{children:(0,n.jsx)(t.a,{href:\"/raperi/vladkysyn\",children:\"Vla\\u010FkySyn\"})}),\" je \\u010Desk\\xFD rapper, kter\\xFD se pohybuje v trapov\\xE9 a cloud-rapov\\xE9 sf\\xE9\\u0159e. Je zn\\xE1m\\xFD svou melodi\\u010Dt\\u011Bj\\u0161\\xED tvorbou a \\xFA\\u010Dast\\xED v \",(0,n.jsx)(t.a,{href:\"/zanry/rap\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"rap\",children:\"rap\"}),\" battle form\\xE1tu WRAP.\"]})]})}function c(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(y,{...e})}):y(e)}return x(_);})();\n;return Component;"
   },
   "_id": "raperi/vladkysyn.mdx",
   "_raw": {

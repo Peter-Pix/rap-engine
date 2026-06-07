@@ -1,12 +1,14 @@
 {
-  "title": "Ze Dna",
+  "title": "Ze dna",
   "slug": "ze-dna",
   "rapper": "Yzomandias",
   "rapperSlug": "yzomandias",
-  "label": " Milion+ Entertainment",
-  "labelSlug": "milion-plus",
   "year": 2016,
-  "description": "Yzomandias v roce 2016 vydal své čtvrté album. Obsahuje celkem 12 skladeb. Deska vyšla pod labelem Milion+.",
+  "genre": [
+    "trap"
+  ],
+  "description": "Yzomandias v roce 2016 vydal album Ze dna. Obsahuje celkem 12 skladeb.",
+  "image": "",
   "featured": false,
   "tracklist": [
     "Nejsem",
@@ -22,12 +24,12 @@
     "UPS",
     "Ze Dna"
   ],
-  "publishedAt": "2026-05-19T00:00:00.000Z",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "releaseType": "album",
   "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n[Yzomandias](/raperi/yzomandias) v roce 2016 vydal své čtvrté album.\n\nAlbum obsahuje celkem 12 skladeb.\n\nDeska vyšla pod labelem [Milion+](/labely/milion-plus).\n\nV diskografii [Yzomandias](/raperi/yzomandias) jde o čtvrté album — po něm následovalo ještě 18 dalších alb.\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var l in e)o(a,l,{get:e[l],enumerable:!0})},t=(a,e,l,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!v.call(a,r)&&r!==l&&o(a,r,{get:()=>e[r],enumerable:!(i=u(e,r))||i.enumerable});return a};var x=(a,e,l)=>(l=a!=null?p(b(a)):{},t(e||!a||!a.__esModule?o(l,\"default\",{value:a,enumerable:!0}):l,a)),f=a=>t(o({},\"__esModule\",{value:!0}),a);var d=y((_,s)=>{s.exports=_jsx_runtime});var z={};j(z,{default:()=>c,frontmatter:()=>k});var n=x(d()),k={title:\"Ze Dna\",slug:\"ze-dna\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\" Milion+ Entertainment\",labelSlug:\"milion-plus\",year:2016,releaseType:\"album\",description:\"Yzomandias v roce 2016 vydal sv\\xE9 \\u010Dtvrt\\xE9 album. Obsahuje celkem 12 skladeb. Deska vy\\u0161la pod labelem Milion+.\",tracklist:[\"Nejsem\",\"Spearow\",\"Komplex\",\"Ledovej\",\"Od Kol\\xE9bky Do Hrobu\",\"NahoruDolu\",\"Paradox\",\"Kalibos\",\"Jeden\",\"Surimi\",\"UPS\",\"Ze Dna\"],publishedAt:\"2026-05-19\"};function m(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" v roce 2016 vydal sv\\xE9 \\u010Dtvrt\\xE9 album.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Album obsahuje celkem 12 skladeb.\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Deska vy\\u0161la pod labelem \",(0,n.jsx)(e.a,{href:\"/labely/milion-plus\",children:\"Milion+\"}),\".\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"V diskografii \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" jde o \\u010Dtvrt\\xE9 album \\u2014 po n\\u011Bm n\\xE1sledovalo je\\u0161t\\u011B 18 dal\\u0161\\xEDch alb.\"]})]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(m,{...a})}):m(a)}return f(z);})();\n;return Component;"
+    "raw": "\nDruhý album Yzomandiase a první, který rezonovalo širšímu publiku. *Ze dna* je syrový, upřímný a místy až depresivní — Yzo v něm reflektuje svoje začátky, problémy a cestu nahoru. Deska obsahuje hity jako *Ze dna*, *217* (s Nik Tendem) a *Alenku*.\n\nTracklist: Nejsem, Spearow, Komplex, Ledovej, Od Kolébky Do Hrobu, NahoruDolu, Paradox, Kalibos, Jeden, Surimi, UPS, Ze Dna\n\nVíce od [Yzomandias](/raperi/yzomandias).\n",
+    "code": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var k=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},l=(a,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of h(e))!b.call(a,t)&&t!==r&&o(a,t,{get:()=>e[t],enumerable:!(i=p(e,t))||i.enumerable});return a};var x=(a,e,r)=>(r=a!=null?c(y(a)):{},l(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),v=a=>l(o({},\"__esModule\",{value:!0}),a);var s=k((g,d)=>{d.exports=_jsx_runtime});var D={};j(D,{default:()=>u,frontmatter:()=>z});var n=x(s()),z={title:\"Ze dna\",slug:\"ze-dna\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",year:2016,releaseType:\"album\",genre:[\"trap\"],description:\"Yzomandias v roce 2016 vydal album Ze dna. Obsahuje celkem 12 skladeb.\",image:\"\",tracklist:[\"Nejsem\",\"Spearow\",\"Komplex\",\"Ledovej\",\"Od Kol\\xE9bky Do Hrobu\",\"NahoruDolu\",\"Paradox\",\"Kalibos\",\"Jeden\",\"Surimi\",\"UPS\",\"Ze Dna\"],publishedAt:\"2026-06-06\"};function m(a){let e={a:\"a\",em:\"em\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[\"Druh\\xFD album Yzomandiase a prvn\\xED, kter\\xFD rezonovalo \\u0161ir\\u0161\\xEDmu publiku. \",(0,n.jsx)(e.em,{children:\"Ze dna\"}),\" je syrov\\xFD, up\\u0159\\xEDmn\\xFD a m\\xEDsty a\\u017E depresivn\\xED \\u2014 Yzo v n\\u011Bm reflektuje svoje za\\u010D\\xE1tky, probl\\xE9my a cestu nahoru. Deska obsahuje hity jako \",(0,n.jsx)(e.em,{children:\"Ze dna\"}),\", \",(0,n.jsxs)(e.em,{children:[\"21\",(0,n.jsx)(e.a,{href:\"/alba/7\",className:\"entity-link entity-link--album\",\"data-entity-type\":\"album\",\"data-entity-slug\":\"7\",children:\"7\"})]}),\" (s Nik Tendem) a \",(0,n.jsx)(e.em,{children:\"Alenku\"}),\".\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"Tracklist: Nejsem, Spearow, Komplex, Ledovej, Od Kol\\xE9bky Do Hrobu, NahoruDolu, Paradox, Kalibos, \",(0,n.jsx)(e.a,{href:\"/alba/jeden\",className:\"entity-link entity-link--album\",\"data-entity-type\":\"album\",\"data-entity-slug\":\"jeden\",children:\"Jeden\"}),\", Surimi, UPS, Ze Dna\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"V\\xEDce od \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\".\"]})]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(m,{...a})}):m(a)}return v(D);})();\n;return Component;"
   },
   "_id": "alba/ze-dna.mdx",
   "_raw": {

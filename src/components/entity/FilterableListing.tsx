@@ -154,7 +154,7 @@ export function FilterableListing({
     const q = query.trim().toLowerCase()
     if (q.length >= 1) {
       const normalize = (s: string) =>
-        s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       const nq = normalize(q)
       result = result.filter(
         (i) =>

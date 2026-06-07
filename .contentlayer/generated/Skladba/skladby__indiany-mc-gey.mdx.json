@@ -13,7 +13,9 @@
   "albumSlug": "opici-kral-vraci-uder",
   "year": 2014,
   "genre": [
-    ""
+    "lyrical-rap",
+    "conceptual-rap",
+    "czech-rap"
   ],
   "duration": "3:16",
   "trackNumber": 11,
@@ -24,7 +26,7 @@
   "explicit": false,
   "body": {
     "raw": "\n**[Indiány](/skladby/indiany-mc-gey)** od [MC Gey](/raperi/mc-gey) z alba [Opičí král vrací úder](/alba/opici-kral-vraci-uder) (2014).\n",
-    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var a in e)i(r,a,{get:e[a],enumerable:!0})},o=(r,e,a,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of y(e))!g.call(r,t)&&t!==a&&i(r,t,{get:()=>e[t],enumerable:!(c=m(e,t))||c.enumerable});return r};var b=(r,e,a)=>(a=r!=null?p(f(r)):{},o(e||!r||!r.__esModule?i(a,\"default\",{value:r,enumerable:!0}):a,r)),k=r=>o(i({},\"__esModule\",{value:!0}),r);var s=h((C,d)=>{d.exports=_jsx_runtime});var M={};x(M,{default:()=>u,frontmatter:()=>j});var n=b(s()),j={title:\"Indi\\xE1ny\",slug:\"indiany-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\",albumSlug:\"opici-kral-vraci-uder\",year:2014,genre:[\"\"],duration:\"3:16\",trackNumber:11,producers:[],producersNames:[],description:\"Indi\\xE1ny \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/skladby/indiany-mc-gey\",children:\"Indi\\xE1ny\"})}),\" od \",(0,n.jsx)(e.a,{href:\"/raperi/mc-gey\",children:\"MC Gey\"}),\" z alba \",(0,n.jsx)(e.a,{href:\"/alba/opici-kral-vraci-uder\",children:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\"}),\" (2014).\"]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(l,{...r})}):l(r)}return k(M);})();\n;return Component;"
+    "code": "var Component=(()=>{var u=Object.create;var c=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),x=(r,e)=>{for(var n in e)c(r,n,{get:e[n],enumerable:!0})},o=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of y(e))!g.call(r,t)&&t!==n&&c(r,t,{get:()=>e[t],enumerable:!(i=m(e,t))||i.enumerable});return r};var b=(r,e,n)=>(n=r!=null?u(f(r)):{},o(e||!r||!r.__esModule?c(n,\"default\",{value:r,enumerable:!0}):n,r)),k=r=>o(c({},\"__esModule\",{value:!0}),r);var s=h((C,d)=>{d.exports=_jsx_runtime});var M={};x(M,{default:()=>p,frontmatter:()=>j});var a=b(s()),j={title:\"Indi\\xE1ny\",slug:\"indiany-mc-gey\",rapper:\"MC Gey\",rapperSlug:\"mc-gey\",features:[\"dj-fatte\"],featuresNames:[\"DJ Fatte\"],album:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\",albumSlug:\"opici-kral-vraci-uder\",year:2014,genre:[\"lyrical-rap\",\"conceptual-rap\",\"czech-rap\"],duration:\"3:16\",trackNumber:11,producers:[],producersNames:[],description:\"Indi\\xE1ny \\u2014 skladba od MC Gey.\",publishedAt:\"2026-06-04\"};function l(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/indiany-mc-gey\",children:\"Indi\\xE1ny\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/mc-gey\",children:\"MC Gey\"}),\" z alba \",(0,a.jsx)(e.a,{href:\"/alba/opici-kral-vraci-uder\",children:\"Opi\\u010D\\xED kr\\xE1l vrac\\xED \\xFAder\"}),\" (2014).\"]})}function p(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(l,{...r})}):l(r)}return k(M);})();\n;return Component;"
   },
   "_id": "skladby/indiany-mc-gey.mdx",
   "_raw": {

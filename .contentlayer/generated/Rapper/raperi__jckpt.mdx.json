@@ -1,13 +1,11 @@
 {
   "title": "Jckpt",
   "slug": "jckpt",
-  "genre": [],
-  "description": "Jckpt — interpret české/slovenské rapové scény.",
+  "description": "Jckpt — rapper z Praha. Autor alb 111, Noční Podnik.",
   "featured": false,
-  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!_.call(t,o)&&o!==r&&s(t,o,{get:()=>e[o],enumerable:!(c=u(e,o))||c.enumerable});return t};var k=(t,e,r)=>(r=t!=null?d(x(t)):{},i(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>i(s({},\"__esModule\",{value:!0}),t);var m=j((y,p)=>{p.exports=_jsx_runtime});var b={};f(b,{default:()=>l,frontmatter:()=>M});var n=k(m()),M={title:\"Jckpt\",slug:\"jckpt\",genre:[],description:\"Jckpt \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function a(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(a,{...t})}):a(t)}return g(b);})();\n;return Component;"
+    "raw": "",
+    "code": "var Component=(()=>{var x=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var j=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),k=(t,n)=>{for(var r in n)a(t,r,{get:n[r],enumerable:!0})},i=(t,n,r,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of f(n))!_.call(t,o)&&o!==r&&a(t,o,{get:()=>n[o],enumerable:!(c=d(n,o))||c.enumerable});return t};var g=(t,n,r)=>(r=t!=null?x(l(t)):{},i(n||!t||!t.__esModule?a(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>i(a({},\"__esModule\",{value:!0}),t);var s=j((F,p)=>{p.exports=_jsx_runtime});var C={};k(C,{default:()=>m,frontmatter:()=>h});var e=g(s()),h={title:\"Jckpt\",slug:\"jckpt\",description:\"Jckpt \\u2014 rapper z Praha. Autor alb 111, No\\u010Dn\\xED Podnik.\"};function u(t){return(0,e.jsx)(e.Fragment,{})}function m(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(u,{...t})}):u(t)}return M(C);})();\n;return Component;"
   },
   "_id": "raperi/jckpt.mdx",
   "_raw": {

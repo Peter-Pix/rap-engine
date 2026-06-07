@@ -69,6 +69,11 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
           description={rapper.description}
           chips={
             <>
+              {rapper.entityType && rapper.entityType !== 'rapper' && (
+                <span className="inline-flex items-center gap-1 rounded-full bg-zinc-800 px-2 py-0.5 text-[10px] font-mono uppercase tracking-widest text-[--re-accent] border border-zinc-700">
+                  {rapper.entityType}
+                </span>
+              )}
               {genres.map((g) => (
                 <EntityChip key={g} type="zanr" label={g} href={`/zanry/${g}`} />
               ))}
@@ -153,7 +158,7 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
             <section className="mt-12 sm:mt-16">
               <div className="flex items-baseline justify-between mb-6">
                 <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white uppercase">
-                  Alba a EP
+                  Alba <span className="text-[--re-accent]">&</span> EP
                 </h2>
                 <span className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">
                   {albums.length} releases

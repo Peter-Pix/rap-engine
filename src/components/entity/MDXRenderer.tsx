@@ -13,6 +13,10 @@ import { ENTITY_REGISTRY } from '@/lib/interlinking'
 const mdxComponents = {
   a: (props: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
     const href = props.href || ''
+    // Entity links už mají vlastní <a> z remark-interlinking pluginu — nezabaluj do Link
+    if ('data-entity-type' in props) {
+      return <a {...props} />
+    }
     if (href.startsWith('/')) {
       return <Link href={href} {...props} />
     }

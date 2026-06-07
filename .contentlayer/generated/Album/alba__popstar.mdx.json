@@ -3,14 +3,11 @@
   "slug": "popstar",
   "rapper": "Calin",
   "rapperSlug": "calin",
-  "label": "MIKYMUSIC",
-  "labelSlug": "mikymusic",
-  "year": 2023,
+  "year": 2020,
   "genre": [
-    "melodic-rap",
     "pop-rap"
   ],
-  "description": "Calin v roce 2023 vydal své osmé album. Kombinuje melodic rap a pop rap, obsahuje celkem 6 skladeb, což je o 4 skladby méně, než je u Calin zvykem. Deska vyšla pod labelem MIKYMUSIC.",
+  "description": "Calin v roce 2020 vydal album POPSTAR. Obsahuje 6 skladeb.",
   "image": "/images/alba/popstar.jpg",
   "featured": false,
   "tracklist": [
@@ -21,14 +18,12 @@
     "Pretty Boy",
     "Nad Vodou"
   ],
-  "rating": 8.9,
-  "publishedAt": "2026-05-21T00:00:00.000Z",
-  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "releaseType": "album",
   "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n[Calin](/raperi/calin) v roce 2023 vydal své osmé album.\n\nKombinuje [melodic rap](/zanry/melodic-rap) a [pop rap](/zanry/pop-rap).\n\nAlbum obsahuje celkem 6 skladeb, což je o 4 skladby méně, než je u [Calin](/raperi/calin) zvykem.\n\nDeska vyšla pod labelem MIKYMUSIC.\n\nV diskografii [Calin](/raperi/calin) jde o osmé album — po něm následovalo ještě 3 dalších alb.\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),k=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},p=(a,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of u(e))!j.call(a,l)&&l!==r&&o(a,l,{get:()=>e[l],enumerable:!(i=h(e,l))||i.enumerable});return a};var f=(a,e,r)=>(r=a!=null?m(b(a)):{},p(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),g=a=>p(o({},\"__esModule\",{value:!0}),a);var c=y((x,t)=>{t.exports=_jsx_runtime});var C={};k(C,{default:()=>d,frontmatter:()=>v});var n=f(c()),v={title:\"POPSTAR\",slug:\"popstar\",rapper:\"Calin\",rapperSlug:\"calin\",label:\"MIKYMUSIC\",labelSlug:\"mikymusic\",year:2023,releaseType:\"album\",genre:[\"melodic-rap\",\"pop-rap\"],description:\"Calin v roce 2023 vydal sv\\xE9 osm\\xE9 album. Kombinuje melodic rap a pop rap, obsahuje celkem 6 skladeb, co\\u017E je o 4 skladby m\\xE9n\\u011B, ne\\u017E je u Calin zvykem. Deska vy\\u0161la pod labelem MIKYMUSIC.\",image:\"/images/alba/popstar.jpg\",tracklist:[\"POPSTAR\",\"Hannah Montana\",\"Saf\\xEDr\",\"R\\u016F\\u017Ee\",\"Pretty Boy\",\"Nad Vodou\"],rating:8.9,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function s(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" v roce 2023 vydal sv\\xE9 osm\\xE9 album.\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"Kombinuje \",(0,n.jsx)(e.a,{href:\"/zanry/melodic-rap\",children:\"melodic rap\"}),\" a \",(0,n.jsx)(e.a,{href:\"/zanry/pop-rap\",children:\"pop rap\"}),\".\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"Album obsahuje celkem 6 skladeb, co\\u017E je o 4 skladby m\\xE9n\\u011B, ne\\u017E je u \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" zvykem.\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Deska vy\\u0161la pod labelem MIKYMUSIC.\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"V diskografii \",(0,n.jsx)(e.a,{href:\"/raperi/calin\",children:\"Calin\"}),\" jde o osm\\xE9 album \\u2014 po n\\u011Bm n\\xE1sledovalo je\\u0161t\\u011B 3 dal\\u0161\\xEDch alb.\"]})]})}function d(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(s,{...a})}):s(a)}return g(C);})();\n;return Component;"
+    "raw": "\nDebutový album Calina, který ho katapultovalo do mainstreamu. *POPSTAR* je deska, která definovala novej zvuk českého pop-rapu — trapový beaty, RnB melodie a hitový refrény. Hity *POPSTAR* a *Holka z Prahy*.\n\nTracklist: POPSTAR, Hannah Montana, Safír, Růže, Pretty Boy, Nad Vodou\n\nVíce od [Calina](/raperi/calin).\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,P=Object.prototype.hasOwnProperty;var k=(e,a)=>()=>(a||e((a={exports:{}}).exports,a),a.exports),f=(e,a)=>{for(var t in a)o(e,t,{get:a[t],enumerable:!0})},l=(e,a,t,i)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!P.call(e,r)&&r!==t&&o(e,r,{get:()=>a[r],enumerable:!(i=u(a,r))||i.enumerable});return e};var b=(e,a,t)=>(t=e!=null?m(y(e)):{},l(a||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),g=e=>l(o({},\"__esModule\",{value:!0}),e);var s=k((R,p)=>{p.exports=_jsx_runtime});var v={};f(v,{default:()=>d,frontmatter:()=>j});var n=b(s()),j={title:\"POPSTAR\",slug:\"popstar\",rapper:\"Calin\",rapperSlug:\"calin\",year:2020,releaseType:\"album\",genre:[\"pop-rap\"],description:\"Calin v roce 2020 vydal album POPSTAR. Obsahuje 6 skladeb.\",image:\"/images/alba/popstar.jpg\",tracklist:[\"POPSTAR\",\"Hannah Montana\",\"Saf\\xEDr\",\"R\\u016F\\u017Ee\",\"Pretty Boy\",\"Nad Vodou\"],publishedAt:\"2026-06-06\"};function c(e){let a={a:\"a\",em:\"em\",p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(a.p,{children:[\"Debutov\\xFD album Calina, kter\\xFD ho katapultovalo do mainstreamu. \",(0,n.jsx)(a.em,{children:\"POPSTAR\"}),\" je deska, kter\\xE1 definovala novej zvuk \\u010Desk\\xE9ho \",(0,n.jsx)(a.a,{href:\"/zanry/pop\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"pop\",children:\"pop\"}),\"-rapu \\u2014 trapov\\xFD beaty, RnB melodie a hitov\\xFD refr\\xE9ny. Hity \",(0,n.jsx)(a.em,{children:\"POPSTAR\"}),\" a \",(0,n.jsx)(a.em,{children:\"Holka z Prahy\"}),\".\"]}),`\n`,(0,n.jsx)(a.p,{children:\"Tracklist: POPSTAR, Hannah Montana, Saf\\xEDr, R\\u016F\\u017Ee, Pretty Boy, Nad Vodou\"}),`\n`,(0,n.jsxs)(a.p,{children:[\"V\\xEDce od \",(0,n.jsx)(a.a,{href:\"/raperi/calin\",children:\"Calina\"}),\".\"]})]})}function d(e={}){let{wrapper:a}=e.components||{};return a?(0,n.jsx)(a,{...e,children:(0,n.jsx)(c,{...e})}):c(e)}return g(v);})();\n;return Component;"
   },
   "_id": "alba/popstar.mdx",
   "_raw": {

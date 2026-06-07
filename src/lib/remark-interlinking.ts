@@ -69,12 +69,27 @@ export function remarkInterlinking(options: InterlinkOptions) {
     const currentSlug = current?.slug || ''
     const currentDir = current?.type || ''
 
+    // První průchod: označ všechny text nody uvnitř odkazů
+    // (uživatelský markdown [text](url) — nesmíme dovnitř přidávat další <a>)
+    const textInsideLink = new WeakSet<Text>()
+    visit(tree, 'link', (linkNode) => {
+      visit(linkNode, 'text', (tn: Text) => {
+        textInsideLink.add(tn)
+      })
+    })
+
     visit(tree, 'text', (node: Text, index, parent) => {
       if (!parent || index === undefined) return
+      if (textInsideLink.has(node)) return
       if (SKIP_PARENT_TYPES.has(parent.type)) return
 
       const text = node.value
       if (!text || text.length < 3) return
+
+      // Normalizace: pomlčka → mezera (slug "conscious-rap" odpovídá jménu "Conscious Rap")
+      // Oba znaky maj 1:1 délku — pozice v původním i normalizovaném textu seděj
+      const normalizedText = text.replace(/-/g, ' ')
+      const needsDenormalize = normalizedText !== text
 
       type Match = {
         start: number
@@ -102,18 +117,20 @@ export function remarkInterlinking(options: InterlinkOptions) {
         const names = [entity.name, ...(entity.aliases || [])]
         for (const name of names) {
           const flags = entity.caseSensitive === false ? 'gi' : 'g'
-          // Word boundary: nepřilepit se k písmenu/diakritice před/za
+          const haystack = needsDenormalize ? normalizedText : text
           const regex = new RegExp(
             `(?<![A-Za-z\\u00C0-\\u024F])${escapeRegex(name)}(?![A-Za-z\\u00C0-\\u024F])`,
             flags,
           )
           let m: RegExpExecArray | null
-          while ((m = regex.exec(text)) !== null) {
+          while ((m = regex.exec(haystack)) !== null) {
+            // Vrať původní text (s pomlčkama) jako matched string
+            const matched = text.slice(m.index, m.index + m[0].length)
             matches.push({
               start: m.index,
               end: m.index + m[0].length,
               entity,
-              matched: m[0],
+              matched,
             })
           }
         }

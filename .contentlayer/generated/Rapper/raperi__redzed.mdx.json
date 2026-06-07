@@ -1,33 +1,18 @@
 {
   "title": "Redzed",
   "slug": "redzed",
-  "realName": "Zdeněk Veselý",
-  "born": "1998",
-  "active": "2016–současnost",
-  "label": "ZNK",
   "genre": [
     "trap-metal",
-    "horrorcore",
-    "rap-metal",
-    "nu-metal"
+    "phonk",
+    "rage-rap"
   ],
-  "description": "Český rapper a producent proslulý unikátním spojením agresivního rapu s nu-metalem, heavy metalem a anglickými texty.",
-  "image": "/images/raperi/redzed.jpg",
-  "featured": true,
-  "publishedAt": "2026-05-24T00:00:00.000Z",
-  "updatedAt": "2026-05-24T00:00:00.000Z",
-  "relatedRappers": [
-    "reznik",
-    "rnz"
-  ],
-  "relatedAlbums": [
-    "bohemian-psycho",
-    "noise-at-a-funeral",
-    "tales-of-a-necromancer"
-  ],
+  "description": "Redzed — rapper české/slovenské rapové scény. Autor alb Tales Of A Necromancer, DARKSIDE FANATIC a NOISE AT A FUNERAL.",
+  "featured": false,
+  "publishedAt": "2026-06-06T00:00:00.000Z",
+  "entityType": "rapper",
   "body": {
-    "raw": "\n## O rapperovi\n\n**[Redzed](/raperi/redzed)** je rapper působící na české rapové scéně.\n",
-    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),j=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},p=(r,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!x.call(r,a)&&a!==t&&o(r,a,{get:()=>e[a],enumerable:!(s=u(e,a))||s.enumerable});return r};var z=(r,e,t)=>(t=r!=null?m(g(r)):{},p(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),_=r=>p(o({},\"__esModule\",{value:!0}),r);var i=f((y,d)=>{d.exports=_jsx_runtime});var k={};j(k,{default:()=>c,frontmatter:()=>b});var n=z(i()),b={title:\"Redzed\",slug:\"redzed\",realName:\"Zden\\u011Bk Vesel\\xFD\",born:\"1998\",active:\"2016\\u2013sou\\u010Dasnost\",label:\"ZNK\",genre:[\"trap-metal\",\"horrorcore\",\"rap-metal\",\"nu-metal\"],description:\"\\u010Cesk\\xFD rapper a producent proslul\\xFD unik\\xE1tn\\xEDm spojen\\xEDm agresivn\\xEDho rapu s nu-metalem, heavy metalem a anglick\\xFDmi texty.\",image:\"/images/raperi/redzed.jpg\",featured:!0,publishedAt:\"2026-05-24\",updatedAt:\"2026-05-24\",relatedRappers:[\"reznik\",\"rnz\"],relatedAlbums:[\"bohemian-psycho\",\"noise-at-a-funeral\",\"tales-of-a-necromancer\"]};function l(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:(0,n.jsx)(e.a,{href:\"/raperi/redzed\",children:\"Redzed\"})}),\" je rapper p\\u016Fsob\\xEDc\\xED na \\u010Desk\\xE9 rapov\\xE9 sc\\xE9n\\u011B.\"]})]})}function c(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(l,{...r})}):l(r)}return _(k);})();\n;return Component;"
+    "raw": "\n## O rapperovi\n\n**[Redzed](/raperi/redzed)** je český rapper, který kombinuje trap s metalovými a phonkovými prvky. Je známý svou energickou tvorbou s prvky horrorcore estetiky a temnými beaty.\n",
+    "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var y=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var z=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),g=(r,e)=>{for(var n in e)o(r,n,{get:e[n],enumerable:!0})},s=(r,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of y(e))!k.call(r,a)&&a!==n&&o(r,a,{get:()=>e[a],enumerable:!(i=m(e,a))||i.enumerable});return r};var f=(r,e,n)=>(n=r!=null?h(u(r)):{},s(e||!r||!r.__esModule?o(n,\"default\",{value:r,enumerable:!0}):n,r)),v=r=>s(o({},\"__esModule\",{value:!0}),r);var c=z((_,p)=>{p.exports=_jsx_runtime});var A={};g(A,{default:()=>l,frontmatter:()=>x});var t=f(c()),x={title:\"Redzed\",slug:\"redzed\",genre:[\"trap-metal\",\"phonk\",\"rage-rap\"],entityType:\"rapper\",description:\"Redzed \\u2014 rapper \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny. Autor alb Tales Of A Necromancer, DARKSIDE FANATIC a NOISE AT A FUNERAL.\",publishedAt:\"2026-06-06\"};function d(r){let e={a:\"a\",h2:\"h2\",p:\"p\",strong:\"strong\",...r.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{children:\"O rapperovi\"}),`\n`,(0,t.jsxs)(e.p,{children:[(0,t.jsx)(e.strong,{children:(0,t.jsx)(e.a,{href:\"/raperi/redzed\",children:\"Redzed\"})}),\" je \\u010Desk\\xFD rapper, kter\\xFD kombinuje \",(0,t.jsx)(e.a,{href:\"/zanry/trap\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"trap\",children:\"trap\"}),\" s metalov\\xFDmi a phonkov\\xFDmi prvky. Je zn\\xE1m\\xFD svou energickou tvorbou s prvky \",(0,t.jsx)(e.a,{href:\"/zanry/horrorcore\",className:\"entity-link entity-link--zanr\",\"data-entity-type\":\"zanr\",\"data-entity-slug\":\"horrorcore\",children:\"horrorcore\"}),\" estetiky a temn\\xFDmi beaty.\"]})]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,t.jsx)(e,{...r,children:(0,t.jsx)(d,{...r})}):d(r)}return v(A);})();\n;return Component;"
   },
   "_id": "raperi/redzed.mdx",
   "_raw": {

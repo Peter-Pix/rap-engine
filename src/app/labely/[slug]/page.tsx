@@ -24,9 +24,33 @@ export default async function LabelPage({ params }: { params: Promise<{ slug: st
   const label = allLabels.find((l) => l.slug === slug)
   if (!label) notFound()
 
-  // Roster: rappeři kteří mají r.label === label.title
+  // Roster: rappeři které maj label.title v r.label (singulár) nebo r.labels (plurál)
+  // — normalizujeme "Milion+ Entertainment" → "Milion+" apod.
+  const labelTitle = label.title // např. "Milion+"
   const roster = allRappers
-    .filter((r) => r.label === label.title)
+    .filter((r) => {
+      // Singulární pole
+      if (r.label) {
+        if (r.label === labelTitle) return true
+        // "Milion+ Entertainment" obsahuje "Milion+"
+        if (r.label.split(/\s+/).includes(labelTitle)) return true
+        const slugToTitle = r.label.toLowerCase().replace(/-/g, ' ')
+        const targetLower = labelTitle.toLowerCase()
+        if (slugToTitle === targetLower || slugToTitle.includes(targetLower)) return true
+      }
+      // Plurální pole
+      if (Array.isArray(r.labels)) {
+        return r.labels.some((l: string) => {
+          if (l === labelTitle) return true
+          // Normalizace pro porovnání: "milion-plus" vs "Milion+"
+          const norm = (s: string) => s.toLowerCase().replace(/[-+]/g, ' ').replace(/\s+/g, ' ').trim()
+          const lNorm = norm(l)
+          const tNorm = norm(labelTitle)
+          return lNorm === tNorm || lNorm.includes(tNorm) || tNorm.includes(lNorm)
+        })
+      }
+      return false
+    })
     .sort((a, b) => a.title.localeCompare(b.title, 'cs'))
 
   // Releases: alba s labelSlug

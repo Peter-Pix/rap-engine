@@ -1,16 +1,13 @@
 {
-  "title": "Zhora Vypadá Všechno Líp",
+  "title": "Zhora vypadá všechno líp",
   "slug": "zhora-vypada-vsechno-lip",
   "rapper": "Yzomandias",
   "rapperSlug": "yzomandias",
-  "label": "Milion+ Entertainment",
-  "labelSlug": "milion-plus",
-  "year": 2020,
+  "year": 2017,
   "genre": [
-    "trap",
-    "melodic-trap"
+    "trap"
   ],
-  "description": "Yzomandias v roce 2020 vydal své jedenácté album. Kombinuje trap a melodic trap, obsahuje celkem 8 skladeb, což je o 3 skladby méně, než je u Yzomandias zvykem. Deska vyšla pod labelem Milion+.",
+  "description": "Yzomandias v roce 2017 vydal album Zhora vypadá všechno líp. Obsahuje celkem 8 skladeb.",
   "image": "/images/alba/zhora-vypada-vsechno-lip.jpg",
   "featured": false,
   "tracklist": [
@@ -23,14 +20,12 @@
     "Moonwalker",
     "Vypadá Všechno Líp"
   ],
-  "rating": 8.9,
-  "publishedAt": "2026-05-21T00:00:00.000Z",
-  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "publishedAt": "2026-06-06T00:00:00.000Z",
   "releaseType": "album",
   "explicit": false,
   "body": {
-    "raw": "\n## O albu\n\n[Yzomandias](/raperi/yzomandias) v roce 2020 vydal své jedenácté album.\n\nKombinuje [trap](/zanry/trap) a [melodic trap](/zanry/melodic-trap).\n\nAlbum obsahuje celkem 8 skladeb, což je o 3 skladby méně, než je u [Yzomandias](/raperi/yzomandias) zvykem.\n\nDeska vyšla pod labelem [Milion+](/labely/milion-plus).\n\nV diskografii [Yzomandias](/raperi/yzomandias) jde o jedenácté album — po něm následovalo ještě 11 dalších alb.\n",
-    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var j=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),z=(a,e)=>{for(var r in e)o(a,r,{get:e[r],enumerable:!0})},t=(a,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of u(e))!b.call(a,l)&&l!==r&&o(a,l,{get:()=>e[l],enumerable:!(i=h(e,l))||i.enumerable});return a};var v=(a,e,r)=>(r=a!=null?p(y(a)):{},t(e||!a||!a.__esModule?o(r,\"default\",{value:a,enumerable:!0}):r,a)),f=a=>t(o({},\"__esModule\",{value:!0}),a);var s=j((M,d)=>{d.exports=_jsx_runtime});var g={};z(g,{default:()=>c,frontmatter:()=>k});var n=v(s()),k={title:\"Zhora Vypad\\xE1 V\\u0161echno L\\xEDp\",slug:\"zhora-vypada-vsechno-lip\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",label:\"Milion+ Entertainment\",labelSlug:\"milion-plus\",year:2020,releaseType:\"album\",genre:[\"trap\",\"melodic-trap\"],description:\"Yzomandias v roce 2020 vydal sv\\xE9 jeden\\xE1ct\\xE9 album. Kombinuje trap a melodic trap, obsahuje celkem 8 skladeb, co\\u017E je o 3 skladby m\\xE9n\\u011B, ne\\u017E je u Yzomandias zvykem. Deska vy\\u0161la pod labelem Milion+.\",image:\"/images/alba/zhora-vypada-vsechno-lip.jpg\",tracklist:[\"Intro\",\"Zhora\",\"Ferrari\",\"M\\u011Bsto\",\"Lifestyle\",\"Cashflow\",\"Moonwalker\",\"Vypad\\xE1 V\\u0161echno L\\xEDp\"],rating:8.9,publishedAt:\"2026-05-21\",updatedAt:\"2026-05-21\"};function m(a){let e={a:\"a\",h2:\"h2\",p:\"p\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"O albu\"}),`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" v roce 2020 vydal sv\\xE9 jeden\\xE1ct\\xE9 album.\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"Kombinuje \",(0,n.jsx)(e.a,{href:\"/zanry/trap\",children:\"trap\"}),\" a \",(0,n.jsx)(e.a,{href:\"/zanry/melodic-trap\",children:\"melodic trap\"}),\".\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"Album obsahuje celkem 8 skladeb, co\\u017E je o 3 skladby m\\xE9n\\u011B, ne\\u017E je u \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" zvykem.\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"Deska vy\\u0161la pod labelem \",(0,n.jsx)(e.a,{href:\"/labely/milion-plus\",children:\"Milion+\"}),\".\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"V diskografii \",(0,n.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\" jde o jeden\\xE1ct\\xE9 album \\u2014 po n\\u011Bm n\\xE1sledovalo je\\u0161t\\u011B 11 dal\\u0161\\xEDch alb.\"]})]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(m,{...a})}):m(a)}return f(g);})();\n;return Component;"
+    "raw": "\nTřetí album Yzomandiase, který už bylo platinový. Titulní track *Zhora vypadá všechno líp* se stal hymnou a deska potvrdila, že Yzo není jednohubka. Hostují na ní Nik Tendo, Lvcas Dope a Decky. Album obsahuje i kultovní *217*.\n\nTracklist: Intro, Zhora, Ferrari, Město, Lifestyle, Cashflow, Moonwalker, Vypadá Všechno Líp\n\nVíce od [Yzomandias](/raperi/yzomandias).\n",
+    "code": "var Component=(()=>{var y=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var v=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var n in e)i(a,n,{get:e[n],enumerable:!0})},o=(a,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!k.call(a,r)&&r!==n&&i(a,r,{get:()=>e[r],enumerable:!(l=h(e,r))||l.enumerable});return a};var f=(a,e,n)=>(n=a!=null?y(u(a)):{},o(e||!a||!a.__esModule?i(n,\"default\",{value:a,enumerable:!0}):n,a)),g=a=>o(i({},\"__esModule\",{value:!0}),a);var p=v((M,s)=>{s.exports=_jsx_runtime});var x={};b(x,{default:()=>c,frontmatter:()=>j});var t=f(p()),j={title:\"Zhora vypad\\xE1 v\\u0161echno l\\xEDp\",slug:\"zhora-vypada-vsechno-lip\",rapper:\"Yzomandias\",rapperSlug:\"yzomandias\",year:2017,releaseType:\"album\",genre:[\"trap\"],description:\"Yzomandias v roce 2017 vydal album Zhora vypad\\xE1 v\\u0161echno l\\xEDp. Obsahuje celkem 8 skladeb.\",image:\"/images/alba/zhora-vypada-vsechno-lip.jpg\",tracklist:[\"Intro\",\"Zhora\",\"Ferrari\",\"M\\u011Bsto\",\"Lifestyle\",\"Cashflow\",\"Moonwalker\",\"Vypad\\xE1 V\\u0161echno L\\xEDp\"],publishedAt:\"2026-06-06\"};function d(a){let e={a:\"a\",em:\"em\",p:\"p\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.p,{children:[\"T\\u0159et\\xED album Yzomandiase, kter\\xFD u\\u017E bylo platinov\\xFD. Tituln\\xED track \",(0,t.jsx)(e.em,{children:\"Zhora vypad\\xE1 v\\u0161echno l\\xEDp\"}),\" se stal hymnou a deska potvrdila, \\u017Ee Yzo nen\\xED jednohubka. Hostuj\\xED na n\\xED \",(0,t.jsx)(e.a,{href:\"/raperi/nik-tendo\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"nik-tendo\",children:\"Nik Tendo\"}),\", \",(0,t.jsx)(e.a,{href:\"/raperi/lvcas-dope\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"lvcas-dope\",children:\"Lvcas Dope\"}),\" a \",(0,t.jsx)(e.a,{href:\"/raperi/decky\",className:\"entity-link entity-link--rapper\",\"data-entity-type\":\"rapper\",\"data-entity-slug\":\"decky\",children:\"Decky\"}),\". Album obsahuje i kultovn\\xED \",(0,t.jsxs)(e.em,{children:[\"21\",(0,t.jsx)(e.a,{href:\"/alba/7\",className:\"entity-link entity-link--album\",\"data-entity-type\":\"album\",\"data-entity-slug\":\"7\",children:\"7\"})]}),\".\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Tracklist: Intro, Zhora, Ferrari, M\\u011Bsto, Lifestyle, Cashflow, Moonwalker, Vypad\\xE1 V\\u0161echno L\\xEDp\"}),`\n`,(0,t.jsxs)(e.p,{children:[\"V\\xEDce od \",(0,t.jsx)(e.a,{href:\"/raperi/yzomandias\",children:\"Yzomandias\"}),\".\"]})]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(d,{...a})}):d(a)}return g(x);})();\n;return Component;"
   },
   "_id": "alba/zhora-vypada-vsechno-lip.mdx",
   "_raw": {

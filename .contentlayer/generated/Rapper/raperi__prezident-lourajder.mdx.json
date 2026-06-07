@@ -1,13 +1,11 @@
 {
   "title": "Prezident Lourajder",
   "slug": "prezident-lourajder",
-  "genre": [],
-  "description": "Prezident Lourajder — interpret české/slovenské rapové scény.",
+  "description": "Prezident Lourajder — rapper z Praha. Autor alb INTERREGNUM: Opus Magnum 2, Domáce Práce, Opus Magnum a 5 dalších.",
   "featured": false,
-  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var r in n)s(e,r,{get:n[r],enumerable:!0})},c=(e,n,r,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of h(n))!j.call(e,o)&&o!==r&&s(e,o,{get:()=>n[o],enumerable:!(i=p(n,o))||i.enumerable});return e};var g=(e,n,r)=>(r=e!=null?m(x(e)):{},c(n||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e)),z=e=>c(s({},\"__esModule\",{value:!0}),e);var a=_((k,d)=>{d.exports=_jsx_runtime});var M={};f(M,{default:()=>l,frontmatter:()=>L});var t=g(a()),L={title:\"Prezident Lourajder\",slug:\"prezident-lourajder\",genre:[],description:\"Prezident Lourajder \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function u(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function l(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(u,{...e})}):u(e)}return z(M);})();\n;return Component;"
+    "raw": "",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var f=(e,r)=>()=>(r||e((r={exports:{}}).exports,r),r.exports),g=(e,r)=>{for(var t in r)o(e,t,{get:r[t],enumerable:!0})},c=(e,r,t,u)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of x(r))!M.call(e,a)&&a!==t&&o(e,a,{get:()=>r[a],enumerable:!(u=l(r,a))||u.enumerable});return e};var _=(e,r,t)=>(t=e!=null?p(j(e)):{},c(r||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),z=e=>c(o({},\"__esModule\",{value:!0}),e);var i=f((L,d)=>{d.exports=_jsx_runtime});var h={};g(h,{default:()=>m,frontmatter:()=>P});var n=_(i()),P={title:\"Prezident Lourajder\",slug:\"prezident-lourajder\",description:\"Prezident Lourajder \\u2014 rapper z Praha. Autor alb INTERREGNUM: Opus Magnum 2, Dom\\xE1ce Pr\\xE1ce, Opus Magnum a 5 dal\\u0161\\xEDch.\"};function s(e){return(0,n.jsx)(n.Fragment,{})}function m(e={}){let{wrapper:r}=e.components||{};return r?(0,n.jsx)(r,{...e,children:(0,n.jsx)(s,{...e})}):s(e)}return z(h);})();\n;return Component;"
   },
   "_id": "raperi/prezident-lourajder.mdx",
   "_raw": {

@@ -15,7 +15,9 @@
   "albumSlug": "o-beatech-a-remixech",
   "year": 2021,
   "genre": [
-    ""
+    "lyrical-rap",
+    "conceptual-rap",
+    "czech-rap"
   ],
   "duration": "5:16",
   "trackNumber": 9,
@@ -26,7 +28,7 @@
   "explicit": false,
   "body": {
     "raw": "\n**[5. element (MC Gey Remix)](/skladby/5-element-mc-gey-remix-idea)** od [Idea](/raperi/idea) (2021).\n",
-    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!y.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(m=x(e,n))||m.enumerable});return r};var b=(r,e,t)=>(t=r!=null?u(h(r)):{},s(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),M=r=>s(o({},\"__esModule\",{value:!0}),r);var c=g((G,i)=>{i.exports=_jsx_runtime});var _={};f(_,{default:()=>l,frontmatter:()=>C});var a=b(c()),C={title:\"5. element (MC Gey Remix)\",slug:\"5-element-mc-gey-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"mc-gey\",\"modre-hory\"],featuresNames:[\"MC Gey\",\"Modre Hory\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[\"\"],duration:\"5:16\",trackNumber:9,producers:[],producersNames:[],description:\"5. element (MC Gey Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/5-element-mc-gey-remix-idea\",children:\"5. element (MC Gey Remix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" (2021).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return M(_);})();\n;return Component;"
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var g=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),f=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},m=(r,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!y.call(r,n)&&n!==t&&o(r,n,{get:()=>e[n],enumerable:!(c=p(e,n))||c.enumerable});return r};var b=(r,e,t)=>(t=r!=null?u(h(r)):{},m(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),M=r=>m(o({},\"__esModule\",{value:!0}),r);var s=g((G,i)=>{i.exports=_jsx_runtime});var _={};f(_,{default:()=>l,frontmatter:()=>C});var a=b(s()),C={title:\"5. element (MC Gey Remix)\",slug:\"5-element-mc-gey-remix-idea\",rapper:\"Idea\",rapperSlug:\"idea\",features:[\"mc-gey\",\"modre-hory\"],featuresNames:[\"MC Gey\",\"Modre Hory\"],album:\"O beatech a remixech\",albumSlug:\"o-beatech-a-remixech\",year:2021,genre:[\"lyrical-rap\",\"conceptual-rap\",\"czech-rap\"],duration:\"5:16\",trackNumber:9,producers:[],producersNames:[],description:\"5. element (MC Gey Remix) \\u2014 skladba od Idea.\",publishedAt:\"2026-06-04\"};function d(r){let e={a:\"a\",p:\"p\",strong:\"strong\",...r.components};return(0,a.jsxs)(e.p,{children:[(0,a.jsx)(e.strong,{children:(0,a.jsx)(e.a,{href:\"/skladby/5-element-mc-gey-remix-idea\",children:\"5. element (MC Gey Remix)\"})}),\" od \",(0,a.jsx)(e.a,{href:\"/raperi/idea\",children:\"Idea\"}),\" (2021).\"]})}function l(r={}){let{wrapper:e}=r.components||{};return e?(0,a.jsx)(e,{...r,children:(0,a.jsx)(d,{...r})}):d(r)}return M(_);})();\n;return Component;"
   },
   "_id": "skladby/5-element-mc-gey-remix-idea.mdx",
   "_raw": {

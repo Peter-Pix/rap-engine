@@ -1,13 +1,11 @@
 {
   "title": "Tina",
   "slug": "tina",
-  "genre": [],
-  "description": "Tina — interpret české/slovenské rapové scény.",
+  "description": "Tina — rapper z Bratislava. Autor alba Unplugged | 2004-2014.",
   "featured": false,
-  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),j=(n,t)=>{for(var r in t)s(n,r,{get:t[r],enumerable:!0})},c=(n,t,r,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of h(t))!_.call(n,o)&&o!==r&&s(n,o,{get:()=>t[o],enumerable:!(i=u(t,o))||i.enumerable});return n};var g=(n,t,r)=>(r=n!=null?d(x(n)):{},c(t||!n||!n.__esModule?s(r,\"default\",{value:n,enumerable:!0}):r,n)),M=n=>c(s({},\"__esModule\",{value:!0}),n);var m=f((y,a)=>{a.exports=_jsx_runtime});var k={};j(k,{default:()=>p,frontmatter:()=>b});var e=g(m()),b={title:\"Tina\",slug:\"tina\",genre:[],description:\"Tina \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function l(n){let t={em:\"em\",h2:\"h2\",p:\"p\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(t.h2,{children:\"Bio\"}),`\n`,(0,e.jsx)(t.p,{children:(0,e.jsx)(t.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,{...n,children:(0,e.jsx)(l,{...n})}):l(n)}return M(k);})();\n;return Component;"
+    "raw": "",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var _=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),j=(t,n)=>{for(var e in n)o(t,e,{get:n[e],enumerable:!0})},s=(t,n,e,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let a of d(n))!g.call(t,a)&&a!==e&&o(t,a,{get:()=>n[a],enumerable:!(i=x(n,a))||i.enumerable});return t};var M=(t,n,e)=>(e=t!=null?p(f(t)):{},s(n||!t||!t.__esModule?o(e,\"default\",{value:t,enumerable:!0}):e,t)),C=t=>s(o({},\"__esModule\",{value:!0}),t);var c=_((X,u)=>{u.exports=_jsx_runtime});var F={};j(F,{default:()=>m,frontmatter:()=>D});var r=M(c()),D={title:\"Tina\",slug:\"tina\",description:\"Tina \\u2014 rapper z Bratislava. Autor alba Unplugged | 2004-2014.\"};function l(t){return(0,r.jsx)(r.Fragment,{})}function m(t={}){let{wrapper:n}=t.components||{};return n?(0,r.jsx)(n,{...t,children:(0,r.jsx)(l,{...t})}):l(t)}return C(F);})();\n;return Component;"
   },
   "_id": "raperi/tina.mdx",
   "_raw": {

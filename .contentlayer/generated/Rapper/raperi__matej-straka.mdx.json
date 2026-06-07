@@ -1,13 +1,11 @@
 {
   "title": "Matej Straka",
   "slug": "matej-straka",
-  "genre": [],
-  "description": "Matej Straka — interpret české/slovenské rapové scény.",
+  "description": "Matej Straka — rapper české/slovenské rapové scény. Hostoval na skladbách s Dame, Irit, Majk Spirit, MOMO.",
   "featured": false,
-  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var _=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},c=(t,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!j.call(t,o)&&o!==r&&s(t,o,{get:()=>e[o],enumerable:!(a=u(e,o))||a.enumerable});return t};var k=(t,e,r)=>(r=t!=null?d(x(t)):{},c(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>c(s({},\"__esModule\",{value:!0}),t);var m=_((v,i)=>{i.exports=_jsx_runtime});var S={};f(S,{default:()=>p,frontmatter:()=>g});var n=k(m()),g={title:\"Matej Straka\",slug:\"matej-straka\",genre:[],description:\"Matej Straka \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return M(S);})();\n;return Component;"
+    "raw": "",
+    "code": "var Component=(()=>{var M=Object.create;var o=Object.defineProperty;var j=Object.getOwnPropertyDescriptor;var k=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var d=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},i=(t,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of k(e))!x.call(t,n)&&n!==a&&o(t,n,{get:()=>e[n],enumerable:!(s=j(e,n))||s.enumerable});return t};var _=(t,e,a)=>(a=t!=null?M(l(t)):{},i(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),g=t=>i(o({},\"__esModule\",{value:!0}),t);var m=d((h,c)=>{c.exports=_jsx_runtime});var D={};f(D,{default:()=>u,frontmatter:()=>v});var r=_(m()),v={title:\"Matej Straka\",slug:\"matej-straka\",description:\"Matej Straka \\u2014 rapper \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny. Hostoval na skladb\\xE1ch s Dame, Irit, Majk Spirit, MOMO.\"};function p(t){return(0,r.jsx)(r.Fragment,{})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return g(D);})();\n;return Component;"
   },
   "_id": "raperi/matej-straka.mdx",
   "_raw": {

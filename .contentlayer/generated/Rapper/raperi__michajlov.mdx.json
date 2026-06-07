@@ -1,13 +1,11 @@
 {
   "title": "Michajlov",
   "slug": "michajlov",
-  "genre": [],
-  "description": "Michajlov — interpret české/slovenské rapové scény.",
+  "description": "Michajlov — rapper z Praha. Autor alb FTS, LA HAINE, ROOTS a 2 dalších.",
   "featured": false,
-  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var o in n)s(e,o,{get:n[o],enumerable:!0})},i=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of u(n))!j.call(e,r)&&r!==o&&s(e,r,{get:()=>n[r],enumerable:!(c=d(n,r))||c.enumerable});return e};var v=(e,n,o)=>(o=e!=null?p(x(e)):{},i(n||!e||!e.__esModule?s(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>i(s({},\"__esModule\",{value:!0}),e);var l=_((y,a)=>{a.exports=_jsx_runtime});var b={};f(b,{default:()=>h,frontmatter:()=>g});var t=v(l()),g={title:\"Michajlov\",slug:\"michajlov\",genre:[],description:\"Michajlov \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function m(e){let n={em:\"em\",h2:\"h2\",p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{children:\"Bio\"}),`\n`,(0,t.jsx)(n.p,{children:(0,t.jsx)(n.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function h(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return M(b);})();\n;return Component;"
+    "raw": "",
+    "code": "var Component=(()=>{var x=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var f=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),M=(t,r)=>{for(var e in r)o(t,e,{get:r[e],enumerable:!0})},i=(t,r,e,c)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let a of j(r))!d.call(t,a)&&a!==e&&o(t,a,{get:()=>r[a],enumerable:!(c=h(r,a))||c.enumerable});return t};var _=(t,r,e)=>(e=t!=null?x(p(t)):{},i(r||!t||!t.__esModule?o(e,\"default\",{value:t,enumerable:!0}):e,t)),g=t=>i(o({},\"__esModule\",{value:!0}),t);var s=f((C,l)=>{l.exports=_jsx_runtime});var A={};M(A,{default:()=>m,frontmatter:()=>v});var n=_(s()),v={title:\"Michajlov\",slug:\"michajlov\",description:\"Michajlov \\u2014 rapper z Praha. Autor alb FTS, LA HAINE, ROOTS a 2 dal\\u0161\\xEDch.\"};function u(t){return(0,n.jsx)(n.Fragment,{})}function m(t={}){let{wrapper:r}=t.components||{};return r?(0,n.jsx)(r,{...t,children:(0,n.jsx)(u,{...t})}):u(t)}return g(A);})();\n;return Component;"
   },
   "_id": "raperi/michajlov.mdx",
   "_raw": {

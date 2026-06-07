@@ -1,13 +1,11 @@
 {
   "title": "Čis T",
   "slug": "cis-t",
-  "genre": [],
-  "description": "Čis T — interpret české/slovenské rapové scény.",
+  "description": "Čis T — rapper z Praha. Autor alb Sin Límite vol. 2, Yak Orol.",
   "featured": false,
-  "publishedAt": "2026-06-06T00:00:00.000Z",
   "body": {
-    "raw": "\n## Bio\n\n_Stub — doplnit._\n",
-    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},c=(t,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of h(e))!_.call(t,s)&&s!==r&&o(t,s,{get:()=>e[s],enumerable:!(i=u(e,s))||i.enumerable});return t};var g=(t,e,r)=>(r=t!=null?d(x(t)):{},c(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),M=t=>c(o({},\"__esModule\",{value:!0}),t);var a=f((y,m)=>{m.exports=_jsx_runtime});var k={};j(k,{default:()=>p,frontmatter:()=>b});var n=g(a()),b={title:\"\\u010Cis T\",slug:\"cis-t\",genre:[],description:\"\\u010Cis T \\u2014 interpret \\u010Desk\\xE9/slovensk\\xE9 rapov\\xE9 sc\\xE9ny.\",publishedAt:\"2026-06-06\"};function l(t){let e={em:\"em\",h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Bio\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.em,{children:\"Stub \\u2014 doplnit.\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return M(k);})();\n;return Component;"
+    "raw": "",
+    "code": "var Component=(()=>{var x=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var g=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),j=(t,r)=>{for(var e in r)a(t,e,{get:r[e],enumerable:!0})},s=(t,r,e,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let o of f(r))!d.call(t,o)&&o!==e&&a(t,o,{get:()=>r[o],enumerable:!(i=p(r,o))||i.enumerable});return t};var M=(t,r,e)=>(e=t!=null?x(_(t)):{},s(r||!t||!t.__esModule?a(e,\"default\",{value:t,enumerable:!0}):e,t)),h=t=>s(a({},\"__esModule\",{value:!0}),t);var u=g((L,c)=>{c.exports=_jsx_runtime});var D={};j(D,{default:()=>l,frontmatter:()=>C});var n=M(u()),C={title:\"\\u010Cis T\",slug:\"cis-t\",description:\"\\u010Cis T \\u2014 rapper z Praha. Autor alb Sin L\\xEDmite vol. 2, Yak Orol.\"};function m(t){return(0,n.jsx)(n.Fragment,{})}function l(t={}){let{wrapper:r}=t.components||{};return r?(0,n.jsx)(r,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return h(D);})();\n;return Component;"
   },
   "_id": "raperi/cis-t.mdx",
   "_raw": {

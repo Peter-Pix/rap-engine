@@ -112,10 +112,11 @@ export type Rapper = {
   label?: string | undefined
   labelSlug?: string | undefined
   genre?: string[] | undefined
-  description: string
+  description?: string | undefined
+  summary?: string | undefined
   image?: string | undefined
   featured: boolean
-  publishedAt: IsoDateTimeString
+  publishedAt?: IsoDateTimeString | undefined
   updatedAt?: IsoDateTimeString | undefined
   relatedRappers?: string[] | undefined
   relatedAlbums?: string[] | undefined
@@ -130,6 +131,10 @@ export type Rapper = {
   status?: string | undefined
   associatedActs?: string[] | undefined
   activeSince?: string | undefined
+  entityType?: string | undefined
+  members?: string[] | undefined
+  founded?: string | undefined
+  memberOf?: string | undefined
   createdAt?: IsoDateTimeString | undefined
   seo?: any | undefined
   /** MDX file body */
