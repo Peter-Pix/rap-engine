@@ -50,7 +50,7 @@ export default async function Page({
       items={rappers.map((r) => ({
         slug: r.slug,
         title: r.title,
-        description: r.description,
+        description: r.description ?? '',
         url: r.url,
         canonicalUrl: r.canonicalUrl,
         meta: r.label,
