@@ -137,14 +137,18 @@ function trackFm(j, slug) {
   };
 }
 function labelFm(j, slug) {
+  const title = j.title || j.name || slug;
   return {
     _h: "O labelu",
-    title: j.title || j.name || slug,
+    title,
     slug,
     founded: clean(j.meta?.founded),
     location: clean(j.meta?.city || j.meta?.location),
-    description: desc(j, `${j.title || slug} — label české/slovenské rapové scény.`),
+    description: desc(j, `${title} — label české/slovenské rapové scény.`),
+    members: j.meta?.members?.map((m) => m.slug || m) || undefined,
+    entityType: j.entityType || undefined,
     publishedAt: j.createdAt || TODAY,
+    updatedAt: j.updatedAt || undefined,
   };
 }
 function genreFm(j, slug) {

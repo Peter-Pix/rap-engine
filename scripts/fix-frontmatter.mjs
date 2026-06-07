@@ -15,7 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const CONTENT = path.join(ROOT, "content");
 const DRY = process.argv.includes("--dry-run");
-const QUOTE_FIELDS = ["founded", "year"]; // holá čísla, která Contentlayer čeká jako string
+const QUOTE_FIELDS = ["founded"]; // ONLY fields that need string values — year is number in contentlayer schema
 
 let changed = 0;
 walk(CONTENT);

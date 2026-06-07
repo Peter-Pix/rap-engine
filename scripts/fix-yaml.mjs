@@ -104,28 +104,20 @@ for (const file of files) {
     }
   }
 
-  // ── Fix 4: Wrong document type (single/lp → Album/Skladba) ──
-  if (file.startsWith('content/alba/')) {
+  // ── Fix 4: REMOVE reserved `type:` field (breaks contentlayer2) ──
+  // contentlayer2 uses `type` as document type name — having `type: "album"` in
+  // frontmatter makes it look for a document type called "album", which doesn't exist.
+  // The document type is determined by filePathPattern, not by frontmatter `type:`.
+  if (file.startsWith('content/')) {
     const parts = file.split('/')
     const filename = parts[parts.length - 1]
     
-    // Check if type field uses wrong value
-    const typeMatch = text.match(/^type:\s*"?([^"\n]+)"?/m)
+    // Remove any `type:` field — it's reserved and breaks contentlayer2
+    const typeMatch = text.match(/^type:\s*.+$/m)
     if (typeMatch) {
-      const typeVal = typeMatch[1].replace(/"/g, '')
-      if (typeVal === 'single') {
-        // Check if this should be Skladba (track) or Album
-        // If it's a single track, use Skladba
-        text = text.replace(/^type:\s*"?single"?/m, 'type: "Skladba"')
-        issues.push(`  ✓ Fixed type: single → Skladba (${filename})`)
-      } else if (typeVal === 'lp' || typeVal === 'album') {
-        text = text.replace(/^type:\s*"?lp"?/m, 'type: "Album"')
-        issues.push(`  ✓ Fixed type: lp → Album (${filename})`)
-      }
+      text = text.replace(/^type:\s*.+\n/m, '')
+      issues.push(`  ✓ Removed reserved type: field from ${filename}`)
     }
-    
-    // Also check if file is missing type field entirely but should have it from Contentlayer schema
-    // This is for fix: some files have type but with wrong caps
   }
 
   // ── Fix: Check content/zanry files with wrong date format ──

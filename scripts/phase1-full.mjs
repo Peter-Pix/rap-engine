@@ -17,14 +17,19 @@ function getMdxFiles(dir) {
   return files
 }
 
+// ⚠️ SCHEMAS must match contentlayer.config.ts field definitions!
+// Last synced: 2026-06-07
 const SCHEMAS = {
-  raperi: new Set(['title','slug','realName','born','birthPlace','active','label','genre','description','image','featured','publishedAt','updatedAt','relatedRappers','relatedAlbums','deezerId','socials','aliases','origin','hometown','labels','subgenres','status','associatedActs','activeSince','seo']),
-  alba: new Set(['title','slug','rapper','rapperSlug','label','labelSlug','year','genre','description','image','featured','tracklist','rating','publishedAt','updatedAt','deezerAlbumId','upc','origin','releaseType','features','featuresNames','producers','producersNames','duration','explicit','releaseDate','nbTracks','subgenres','labelName','cover','activeSince']),
-  labely: new Set(['title','slug','founded','location','description','image','artists','publishedAt','website','city','country','founder','genre']),
+  raperi: new Set(['title','slug','realName','born','birthPlace','active','label','genre','description','image','featured','publishedAt','updatedAt','relatedRappers','relatedAlbums','deezerId','socials','aliases','origin','hometown','labels','subgenres','status','associatedActs','activeSince','seo','entityType','crew','spotify','city','summary','birthDate','memberOf']),
+  alba: new Set(['title','slug','rapper','rapperSlug','label','labelSlug','year','genre','description','image','featured','tracklist','rating','publishedAt','updatedAt','deezerAlbumId','upc','origin','releaseType','features','featuresNames','producers','producersNames','duration','explicit','releaseDate','nbTracks','subgenres','labelName','cover','aliases','activeSince','artist','summary']),
+  labely: new Set(['title','slug','founded','location','description','image','artists','publishedAt','website','city','country','founder','genre','members','entityType','updatedAt','summary']),
   zanry: new Set(['title','slug','description','image','featured','publishedAt','updatedAt','color','aliases','relatedGenres']),
 }
 
-const STRIP = new Set(['id', 'kind', 'meta', 'seo', 'summary', 'hasLongform', 'type', 'birthDate', 'yearsActive', 'subgenre'])
+// ⚠️ DO NOT strip fields that contentlayer schema accepts as optional
+// `type` is a reserved contentlayer2 keyword — must be removed everywhere
+// `summary`, `hasLongform`, `birthDate` are now valid contentlayer fields
+const STRIP = new Set(['id', 'kind', 'seo', 'type'])
 
 function getEntityType(filepath) {
   for (const p of filepath.split('/')) {

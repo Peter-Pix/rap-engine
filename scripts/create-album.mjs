@@ -85,7 +85,7 @@ async function main() {
   };
 
   const description = `${a.title} — ${a.record_type === "single" ? "singl" : a.record_type === "ep" ? "EP" : "album"} od ${artistName}${year ? ` (${year})` : ""}.`;
-  const mdx = buildAlbumMdx({ title: a.title, slug, rapperSlug: artistSlug, year, genres, description, today, cover: albumJson.meta.cover });
+  const mdx = buildAlbumMdx({ title: a.title, slug, rapperSlug: artistSlug, rapperName: artistName, year, genres, description, today, cover: albumJson.meta.cover, recordType: a.record_type });
 
   if (FLAGS.dryRun) {
     console.log("--dry-run, album JSON meta:\n" + JSON.stringify(albumJson.meta, null, 2));
@@ -127,9 +127,11 @@ function buildAlbumMdx(d) {
   const fm = [
     `title: ${JSON.stringify(d.title)}`,
     `slug: ${JSON.stringify(d.slug)}`,
+    `rapper: ${JSON.stringify(d.rapperName || d.rapperSlug)}`,
     `rapperSlug: ${JSON.stringify(d.rapperSlug)}`,
     ...(d.year ? [`year: ${d.year}`] : []),                         // ČÍSLO, ne string
     `genre: [${d.genres.map((g) => JSON.stringify(g)).join(", ")}]`,
+    ...(d.recordType ? [`releaseType: ${JSON.stringify(d.recordType)}`] : []),
     ...(d.cover ? [`image: ${JSON.stringify(d.cover)}`] : []),
     `description: ${JSON.stringify(d.description)}`,
     `publishedAt: ${JSON.stringify(d.today)}`,
