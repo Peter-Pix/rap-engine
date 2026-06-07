@@ -118,8 +118,12 @@ export function remarkInterlinking(options: InterlinkOptions) {
         for (const name of names) {
           const flags = entity.caseSensitive === false ? 'gi' : 'g'
           const haystack = needsDenormalize ? normalizedText : text
+          // Numerické názvy (např. album "7") — nesmí se linkovat uvnitř čísel jako "2017"
+          const isNumericOnly = /^\d+$/.test(name)
+          const startBoundary = isNumericOnly ? '(?<!\\d)' : '(?<![A-Za-z\\u00C0-\\u024F])'
+          const endBoundary = isNumericOnly ? '(?![\\d.])' : '(?![A-Za-z\\u00C0-\\u024F])'
           const regex = new RegExp(
-            `(?<![A-Za-z\\u00C0-\\u024F])${escapeRegex(name)}(?![A-Za-z\\u00C0-\\u024F])`,
+            `${startBoundary}${escapeRegex(name)}${endBoundary}`,
             flags,
           )
           let m: RegExpExecArray | null

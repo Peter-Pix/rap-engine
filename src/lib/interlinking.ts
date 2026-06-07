@@ -4,7 +4,7 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-06-07T15:49:11.480Z
+// Vygenerováno: 2026-06-07T17:13:29.527Z
 // Celkem entit: 717 (454 album, 35 label, 136 rapper, 92 zanr)
 // ═══════════════════════════════════════════════════════════════
 
@@ -2615,8 +2615,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "rapper",
     "aliases": [
       "Jakub Decky",
-      "Děcký",
-      "Decky Ortega"
+      "Decky Beats"
     ]
   },
   {
@@ -3190,7 +3189,8 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "robin-zoot",
     "type": "rapper",
     "aliases": [
-      "Robert Pouzar"
+      "Robert Pouzar",
+      "Zooty"
     ]
   },
   {
