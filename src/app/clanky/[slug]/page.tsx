@@ -77,7 +77,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         {/* Article header */}
         <header className="mb-10">
           <div className="flex flex-wrap items-center gap-3 mb-6">
-            <CategoryBadge category={article.category} />
+            {article.category && (
+              <CategoryBadge category={article.category} />
+            )}
             <time
               dateTime={article.publishedAt}
               className="text-[10px] font-mono uppercase tracking-widest text-zinc-500"
