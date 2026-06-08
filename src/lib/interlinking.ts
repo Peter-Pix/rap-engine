@@ -4,8 +4,8 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-06-07T22:30:58.411Z
-// Celkem entit: 717 (454 album, 35 label, 136 rapper, 92 zanr)
+// Vygenerováno: 2026-06-07T23:28:08.565Z
+// Celkem entit: 716 (454 album, 35 label, 135 rapper, 92 zanr)
 // ═══════════════════════════════════════════════════════════════
 
 import type { InterlinkEntity } from './remark-interlinking'
@@ -2542,11 +2542,6 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "aliases": [
       "Călin Panfili"
     ]
-  },
-  {
-    "name": "Čis T",
-    "slug": "cis-t",
-    "type": "rapper"
   },
   {
     "name": "Čistychov",
