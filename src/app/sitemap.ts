@@ -1,4 +1,4 @@
-import { allRappers, allAlbums, allLabels, allZanrs, allClaneks, allSkladbas } from 'contentlayer/generated'
+import { allRappers, allAlbums, allLabels, allZanrs, allClaneks } from 'contentlayer/generated'
 import type { MetadataRoute } from 'next'
 
 const BASE_URL = 'https://4rap.cz'
@@ -38,13 +38,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const zanrPages: MetadataRoute.Sitemap = allZanrs.map((z) => ({
     url: z.canonicalUrl,
     lastModified: new Date(z.publishedAt || Date.now()),
-    changeFrequency: 'monthly',
-    priority: 0.7,
-  }))
-
-  const skladbaPages: MetadataRoute.Sitemap = allSkladbas.map((s) => ({
-    url: s.canonicalUrl,
-    lastModified: new Date(s.updatedAt || s.publishedAt || Date.now()),
     changeFrequency: 'monthly',
     priority: 0.7,
   }))
@@ -115,5 +108,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ])
 
-  return [...staticPages, ...rapperPages, ...albumPages, ...labelPages, ...zanrPages, ...clanekPages, ...skladbaPages, ...zanrAggregations, ...labelAggregations, ...rapperAggregations]
+  return [...staticPages, ...rapperPages, ...albumPages, ...labelPages, ...zanrPages, ...clanekPages, ...zanrAggregations, ...labelAggregations, ...rapperAggregations]
 }
