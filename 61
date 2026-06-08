@@ -1,0 +1,8 @@
+TypeError: t.features.join is not a function
+    at enhanceRapper (file:///Users/petrpiskacek/.openclaw/workspace/Project_1/rap-engine-second-trial/scripts/auto-enhance.mjs:187:65)
+    at runCycle (file:///Users/petrpiskacek/.openclaw/workspace/Project_1/rap-engine-second-trial/scripts/auto-enhance.mjs:289:18)
+    at main (file:///Users/petrpiskacek/.openclaw/workspace/Project_1/rap-engine-second-trial/scripts/auto-enhance.mjs:324:21)
+    at file:///Users/petrpiskacek/.openclaw/workspace/Project_1/rap-engine-second-trial/scripts/auto-enhance.mjs:334:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:642:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
