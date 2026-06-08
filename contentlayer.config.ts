@@ -124,6 +124,8 @@ export const Label = defineDocumentType(() => ({
     city:        { type: 'string',   required: false },
     country:     { type: 'string',   required: false },
     founder:     { type: 'string',   required: false },
+    founders:    { type: 'list',     of: { type: 'string' }, required: false },
+    status:      { type: 'string',   required: false },
     genre:       { type: 'list',     of: { type: 'string' }, required: false },
     entityType:  { type: 'string',   required: false },
   },
