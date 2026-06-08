@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${skladba.title} — skladba na 4rap.cz`,
     description: skladba.description,
     alternates: { canonical: skladba.canonicalUrl },
+    robots: { index: false },
   }
 }
 
