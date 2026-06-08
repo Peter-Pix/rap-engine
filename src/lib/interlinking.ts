@@ -4,7 +4,7 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-06-08T00:14:19.193Z
+// Vygenerováno: 2026-06-08T15:32:58.784Z
 // Celkem entit: 716 (454 album, 35 label, 135 rapper, 92 zanr)
 // ═══════════════════════════════════════════════════════════════
 
@@ -2490,7 +2490,8 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "annet-x",
     "type": "rapper",
     "aliases": [
-      "Aneta Charitonova"
+      "Anna Vodičková",
+      "Annet"
     ]
   },
   {
@@ -2634,7 +2635,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "DJ AKA",
     "slug": "dj-aka",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Adam Kavalír",
+      "AKA"
+    ]
   },
   {
     "name": "DJ Fatte",
@@ -3058,7 +3063,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Mike Trafik",
     "slug": "mike-trafik",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Michal Hájek",
+      "DJ Mike Trafik"
+    ]
   },
   {
     "name": "Miky Mora",
