@@ -112,7 +112,7 @@ export const Label = defineDocumentType(() => ({
   fields: {
     title:       { type: 'string',   required: true },
     slug:        { type: 'string',   required: true },
-    founded:     { type: 'string',   required: false },
+    founded:     { type: 'number',   required: false },
     location:    { type: 'string',   required: false },
     description: { type: 'string',   required: true },
     image:       { type: 'string',   required: false },

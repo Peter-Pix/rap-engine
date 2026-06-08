@@ -4,7 +4,7 @@
 // NEUPRAVUJ ručně — změny se přepíší při příštím buildu.
 // Přidej rapper/album/label/zanr do content/ → automaticky se zalinkuje.
 //
-// Vygenerováno: 2026-06-07T23:28:08.565Z
+// Vygenerováno: 2026-06-08T00:14:19.193Z
 // Celkem entit: 716 (454 album, 35 label, 135 rapper, 92 zanr)
 // ═══════════════════════════════════════════════════════════════
 
@@ -2312,7 +2312,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "label"
   },
   {
-    "name": "BiggBoss",
+    "name": "Bigg Boss",
     "slug": "biggboss",
     "type": "label"
   },
@@ -2452,7 +2452,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "label"
   },
   {
-    "name": "ZNK (Zevlounská Neporažená Komise)",
+    "name": "ZNK",
     "slug": "znk",
     "type": "label"
   },
@@ -2514,7 +2514,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Ben Cristovao",
     "slug": "ben-cristovao",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Ben da Silva Cristóvão",
+      "Benny Cristo"
+    ]
   },
   {
     "name": "Blako",
@@ -2569,7 +2573,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Dame",
     "slug": "dame",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Radek Prchal"
+    ]
   },
   {
     "name": "Daniel Vardan",
@@ -2587,7 +2594,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Dara Rolins",
     "slug": "dara-rolins",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Dara"
+    ]
   },
   {
     "name": "DAREWIN",
@@ -2644,7 +2654,11 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "DJ Wich",
     "slug": "dj-wich",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Tomáš Karel",
+      "Wich"
+    ]
   },
   {
     "name": "Dokkeytino",
@@ -2815,7 +2829,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "james-cole",
     "type": "rapper",
     "aliases": [
-      "Daniel Ďurech"
+      "Pavel Vrba"
     ]
   },
   {
@@ -3007,7 +3021,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "marpo",
     "type": "rapper",
     "aliases": [
-      "Otakar Petřina"
+      "Martin Pavlík"
     ]
   },
   {
@@ -3084,7 +3098,7 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "slug": "orion",
     "type": "rapper",
     "aliases": [
-      "Michal Opletal"
+      "Petr Martínek"
     ]
   },
   {
@@ -3273,9 +3287,13 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
     "type": "rapper"
   },
   {
-    "name": "SMACK",
+    "name": "Smack One",
     "slug": "smack",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Jakub Janeček",
+      "Smack"
+    ]
   },
   {
     "name": "Sofian Medjmedj",
@@ -3309,7 +3327,10 @@ export const ENTITY_REGISTRY: InterlinkEntity[] = [
   {
     "name": "Tina",
     "slug": "tina",
-    "type": "rapper"
+    "type": "rapper",
+    "aliases": [
+      "Martina Csillaghová"
+    ]
   },
   {
     "name": "Tisci",
