@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   keywords: ['česká rapová scéna', 'czech rap', 'rapper', 'hip hop', 'drill', 'trap', 'Milion+'],
   authors: [{ name: '4rap.cz', url: 'https://4rap.cz' }],
   creator: '4rap.cz',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
+  manifest: '/manifest.webmanifest',
   openGraph: {
     type: 'website',
     locale: 'cs_CZ',
