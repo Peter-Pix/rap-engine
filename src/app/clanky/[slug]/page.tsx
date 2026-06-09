@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const article = allClaneks.find((c) => c.slug === slug)
   if (!article) return {}
-  const ogImage = article.image || 'https://4rap.cz/og-default.jpg'
+  const ogImage = article.image || `https://4rap.cz/og?title=${encodeURIComponent(article.title)}&type=clanek&label=${encodeURIComponent(article.category || '')}`
   return {
     title: article.title,
     description: article.description,

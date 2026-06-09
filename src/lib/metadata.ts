@@ -3,17 +3,22 @@ import type { Metadata } from 'next'
 const BASE_URL = 'https://4rap.cz'
 const SITE_NAME = '4rap.cz'
 
-// Root layout má template '%s | 4rap.cz', takže title nesmí mít sufix
+function ogUrl(params: Record<string, string>) {
+  const q = new URLSearchParams(params)
+  return `${BASE_URL}/og?${q.toString()}`
+}
+
 function buildMetadata(page: {
   title: string
   description: string
   canonicalUrl: string
   ogImage?: string
+  ogParams?: Record<string, string>
   publishedAt?: string
   updatedAt?: string
   type?: 'website' | 'article'
 }): Metadata {
-  const ogImage = page.ogImage || `${BASE_URL}/og-default.jpg`
+  const ogImg = page.ogImage || ogUrl(page.ogParams || { title: page.title })
   return {
     title: page.title,
     description: page.description,
@@ -25,7 +30,7 @@ function buildMetadata(page: {
       siteName: SITE_NAME,
       locale: 'cs_CZ',
       type: page.type || 'website',
-      images: [{ url: ogImage, width: 1200, height: 630, alt: page.title }],
+      images: [{ url: ogImg, width: 1200, height: 630, alt: page.title }],
       ...(page.publishedAt && { publishedTime: page.publishedAt }),
       ...(page.updatedAt && { modifiedTime: page.updatedAt }),
     },
@@ -33,7 +38,7 @@ function buildMetadata(page: {
       card: 'summary_large_image',
       title: page.title,
       description: page.description,
-      images: [ogImage],
+      images: [ogImg],
     },
     robots: {
       index: true,
@@ -52,7 +57,9 @@ export function buildRapperMetadata(rapper: {
     title: `${rapper.title}${labelStr} — Profil rappera`,
     description: (rapper.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/raperi/${rapper.slug}`,
-    ogImage: rapper.image, type: 'article',
+    ogImage: rapper.image,
+    ogParams: { title: rapper.title, type: 'rapper', label: rapper.label || '' },
+    type: 'article',
     publishedAt: rapper.publishedAt, updatedAt: rapper.updatedAt,
   })
 }
@@ -65,7 +72,9 @@ export function buildAlbumMetadata(album: {
     title: `${album.title} — ${album.rapper} (${album.year})`,
     description: (album.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/alba/${album.slug}`,
-    ogImage: album.image, type: 'article', publishedAt: album.publishedAt,
+    ogImage: album.image,
+    ogParams: { title: album.title, type: 'album', label: album.rapper, year: String(album.year) },
+    type: 'article', publishedAt: album.publishedAt,
   })
 }
 
@@ -76,7 +85,9 @@ export function buildLabelMetadata(label: {
     title: `${label.title} — Label české rapové scény`,
     description: (label.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/labely/${label.slug}`,
-    ogImage: label.image, type: 'website', publishedAt: label.publishedAt,
+    ogImage: label.image,
+    ogParams: { title: label.title, type: 'label' },
+    type: 'website', publishedAt: label.publishedAt,
   })
 }
 
@@ -87,7 +98,9 @@ export function buildZanrMetadata(zanr: {
     title: `${zanr.title} — Žánr české rapové scény`,
     description: (zanr.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/zanry/${zanr.slug}`,
-    ogImage: zanr.image, type: 'website', publishedAt: zanr.publishedAt,
+    ogImage: zanr.image,
+    ogParams: { title: zanr.title, type: 'zanr' },
+    type: 'website', publishedAt: zanr.publishedAt,
   })
 }
 export function buildSkladbaMetadata(track: {
@@ -107,6 +120,7 @@ export function buildSkladbaMetadata(track: {
     description: (track.description ?? '').slice(0, 155),
     canonicalUrl: `${BASE_URL}/skladby/${track.slug}`,
     ogImage: track.image,
+    ogParams: { title: track.title, type: 'skladba', label: track.rapper, year: yearStr.replace(/[()]/g, '') },
     type: 'article',
     publishedAt: track.publishedAt,
   })
