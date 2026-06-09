@@ -23,6 +23,7 @@ export async function generateMetadata({
     title: `${rapper.title} skladby — Texty a tracky`,
     description: `${tracks.length} skladeb od ${rapper.title} včetně feat. spoluprací. Texty, kontext, analýza.`,
     alternates: { canonical: `${BASE}/raperi/${slug}/skladby` },
+    robots: { index: false },
   }
 }
 

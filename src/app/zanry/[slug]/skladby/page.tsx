@@ -23,6 +23,7 @@ export async function generateMetadata({
     title: `${zanr.title} skladby — Texty a kontext`,
     description: `${tracks.length} skladeb z žánru ${zanr.title}. Texty, kontext, analýza tracků české a slovenské scény.`,
     alternates: { canonical: `${BASE}/zanry/${slug}/skladby` },
+    robots: { index: false },
   }
 }
 

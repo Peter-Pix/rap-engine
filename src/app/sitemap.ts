@@ -54,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // PROGRAMMATIC SEO — agregační stránky
   // ═══════════════════════════════════════════════════════
   
-  // /zanry/[slug]/raperi, /alba, /skladby
+  // /zanry/[slug]/raperi, /alba (skladby vynechány — noindex, thin content)
   const zanrAggregations: MetadataRoute.Sitemap = allZanrs.flatMap((z) => [
     {
       url: `${BASE_URL}/zanry/${z.slug}/raperi`,
@@ -64,12 +64,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${BASE_URL}/zanry/${z.slug}/alba`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/zanry/${z.slug}/skladby`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.7,
@@ -92,16 +86,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ])
 
-  // /raperi/[slug]/alba, /skladby
+  // /raperi/[slug]/alba (skladby vynechány — noindex, thin content)
   const rapperAggregations: MetadataRoute.Sitemap = allRappers.flatMap((r) => [
     {
       url: `${BASE_URL}/raperi/${r.slug}/alba`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.75,
-    },
-    {
-      url: `${BASE_URL}/raperi/${r.slug}/skladby`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.75,
