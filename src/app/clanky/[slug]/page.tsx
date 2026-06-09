@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const article = allClaneks.find((c) => c.slug === slug)
   if (!article) return {}
+  const ogImage = article.image || 'https://4rap.cz/og-default.jpg'
   return {
     title: article.title,
     description: article.description,
@@ -25,10 +26,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: 'article',
       title: article.title,
       description: article.description,
+      url: article.canonicalUrl,
+      siteName: '4rap.cz',
+      locale: 'cs_CZ',
       publishedTime: article.publishedAt,
+      ...(article.updatedAt && { modifiedTime: article.updatedAt }),
       authors: article.author ? [article.author] : undefined,
       tags: article.tags,
-      url: article.canonicalUrl,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title,
+      description: article.description,
+      images: [ogImage],
     },
   }
 }
