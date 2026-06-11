@@ -43,26 +43,53 @@ export function skladbyByZanr(zanrSlug: string) {
     .sort((a, b) => (b.year || 0) - (a.year || 0))
 }
 
+// ─── LABEL NORMALIZATION (matches page.tsx logic) ─────────
+function norm(s: string): string {
+  return s.toLowerCase().replace(/[-+]/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+function rapperMatchesLabel(r: typeof allRappers[number], labelTitle: string): boolean {
+  // Singulární pole: r.label
+  if (r.label) {
+    if (r.label === labelTitle) return true
+    // "Milion+ Entertainment" obsahuje "Milion+"
+    if (r.label.split(/\s+/).includes(labelTitle)) return true
+    const slugToTitle = r.label.toLowerCase().replace(/-/g, ' ')
+    const targetLower = labelTitle.toLowerCase()
+    if (slugToTitle === targetLower || slugToTitle.includes(targetLower)) return true
+  }
+
+  // Plurální pole: r.labels[]
+  if (Array.isArray(r.labels)) {
+    const tNorm = norm(labelTitle)
+    return r.labels.some((l: string) => {
+      if (l === labelTitle) return true
+      const lNorm = norm(l)
+      return lNorm === tNorm || lNorm.includes(tNorm) || tNorm.includes(lNorm)
+    })
+  }
+
+  return false
+}
+
 // ─── LABELOVÉ AGREGACE ────────────────────────────────────
 export function rappersByLabel(labelSlug: string) {
   const label = allLabels.find((l) => l.slug === labelSlug)
   if (!label) return []
-  
+
   // 1) Via label.artists array
   const viaArtistsList = allRappers.filter((r) =>
     label.artists?.includes(r.slug)
   )
-  
-  // 2) Via rapper.label field (display name match — fallback)
-  const labelDisplayNames = [label.title]
-  const viaLabelField = allRappers.filter(
+
+  // 2) Via rapper.label or rapper.labels fields (display name match — fallback)
+  const viaFields = allRappers.filter(
     (r) =>
-      r.label &&
-      labelDisplayNames.some((name) => r.label!.toLowerCase().includes(name.toLowerCase())) &&
+      rapperMatchesLabel(r, label.title) &&
       !viaArtistsList.find((x) => x.slug === r.slug)
   )
-  
-  return [...viaArtistsList, ...viaLabelField].sort((a, b) =>
+
+  return [...viaArtistsList, ...viaFields].sort((a, b) =>
     a.title.localeCompare(b.title, 'cs')
   )
 }

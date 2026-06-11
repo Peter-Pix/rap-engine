@@ -46,6 +46,7 @@ export const Rapper = defineDocumentType(() => ({
     members:      { type: 'list',     of: { type: 'string' }, required: false },
     founded:      { type: 'string',   required: false },
     memberOf:     { type: 'string',   required: false },
+    deathDate:    { type: 'string',   required: false },
     createdAt:    { type: 'date',     required: false },
     seo:          { type: 'json',     required: false },
     crew:         { type: 'string',   required: false },

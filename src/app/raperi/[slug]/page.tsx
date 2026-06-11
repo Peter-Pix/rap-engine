@@ -1,4 +1,4 @@
-import { allRappers, allAlbums, allSkladbas } from 'contentlayer/generated'
+import { allRappers, allAlbums, allSkladbas, allLabels } from 'contentlayer/generated'
 import { notFound } from 'next/navigation'
 import { MDXRenderer } from '@/components/entity/MDXRenderer'
 import { buildRapperMetadata } from '@/lib/metadata'
@@ -17,6 +17,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const rapper = allRappers.find((r) => r.slug === slug)
   if (!rapper) return {}
   return buildRapperMetadata(rapper)
+}
+
+function getLabelSlug(labelTitle: string): string {
+  const label = allLabels.find((l) => l.title === labelTitle)
+  return label?.slug ?? labelTitle.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
 }
 
 export default async function RapperPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -78,7 +83,7 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                 <EntityChip key={g} type="zanr" label={g} href={`/zanry/${g}`} />
               ))}
               {rapper.label && (
-                <EntityChip type="label" label={rapper.label} href={`/labely/${rapper.label}`} />
+                <EntityChip type="label" label={rapper.label} href={`/labely/${getLabelSlug(rapper.label)}`} />
               )}
             </>
           }
@@ -93,7 +98,7 @@ export default async function RapperPage({ params }: { params: Promise<{ slug: s
                   items={[
                     { label: 'Skutečné jméno', value: rapper.realName },
                     { label: 'Label', value: rapper.label && (
-                      <a href={`/labely/${rapper.label}`} className="text-violet-300 hover:text-violet-200 transition-colors">
+                      <a href={`/labely/${getLabelSlug(rapper.label)}`} className="text-violet-300 hover:text-violet-200 transition-colors">
                         {rapper.label}
                       </a>
                     )},

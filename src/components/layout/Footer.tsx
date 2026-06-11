@@ -25,7 +25,7 @@ export function Footer() {
           </div>
           <div>
             <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-zinc-400 mb-3">Engine</h3>
-            <p className="text-xs text-zinc-600 leading-relaxed">Každý odkaz je generovaný automaticky. Každé metadata jsou dynamická. Každá URL je indexovatelná.</p>
+            <p className="text-xs text-zinc-600 leading-relaxed">Spojujeme českou rapovou scénu do jedné strukturované databáze.</p>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-white/[0.05] flex items-center justify-between">

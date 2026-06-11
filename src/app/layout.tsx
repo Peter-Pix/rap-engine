@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: '%s | 4rap.cz',
   },
   description: 'Největší databáze a magazín české rapové scény. Rappeři, alba, labely, žánry — vše propojeno v jednom místě.',
-  keywords: ['česká rapová scéna', 'czech rap', 'rapper', 'hip hop', 'drill', 'trap', 'Milion+'],
+  keywords: ['česká rapová scéna', 'czech rap', 'rapper', 'hip hop', 'drill', 'trap'],
   authors: [{ name: '4rap.cz', url: 'https://4rap.cz' }],
   creator: '4rap.cz',
   icons: {
