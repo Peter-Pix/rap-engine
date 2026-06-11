@@ -520,11 +520,13 @@ function importAlbums(existing: Set<string>) {
     const slug = (fm.slug as string) || file.replace(".mdx", "");
     const id = `album_${slug}`;
 
-    // Skip if neither the artist rapperSlug nor the label exists in our system
-    const artistSlug = fm.rapperSlug as string;
+    // Resolve artist using known type (prefer artist, then producer, then collective)
+    const rapperSlug = fm.rapperSlug as string;
+    const artistId = rapperSlug ? resolveEntityId(rapperSlug, ["artist", "producer", "collective"]) : null;
+
+    // Resolve label
     const labelSlug = fm.labelSlug as string;
-    const artistId = artistSlug ? `artist_${artistSlug}` : null;
-    const labelId = labelSlug ? `label_${labelSlug}` : null;
+    const labelId = labelSlug ? resolveEntityId(labelSlug, ["label"]) : null;
 
     // For import, only skip if the album entity already exists
     if (existing.has(id)) {
@@ -555,10 +557,12 @@ function importAlbums(existing: Set<string>) {
 
     if (artistId) relations.artists = [artistId];
     if (fm.features && Array.isArray(fm.features)) {
-      relations.artists = [
-        ...(relations.artists || []),
-        ...(fm.features as string[]).map((a: string) => `artist_${a}`),
-      ];
+      for (const feat of fm.features as string[]) {
+        const featId = resolveEntityId(feat, ["artist", "producer", "collective"]);
+        if (featId) {
+          relations.artists = [...(relations.artists || []), featId];
+        }
+      }
     }
     if (labelId) relations.labels = [labelId];
     if (fm.genre && Array.isArray(fm.genre)) {
@@ -598,19 +602,51 @@ function legacyExists(type: string, slug: string): boolean {
   return fs.existsSync(legacyPath) && fs.statSync(legacyPath).isDirectory();
 }
 
-/** Track known types per slug from our data set */
+/** Track known types per slug from ALL sources (graph-folder, legacy) */
 const knownSlugTypes = new Map<string, string>();
 
-function knownEntityType(slug: string): string | null {
-  if (knownSlugTypes.has(slug)) return knownSlugTypes.get(slug)!;
-  // Check existing entities
-  for (const [type, dir] of Object.entries(LEGACY_DIRS)) {
-    const p = path.join(OUR_ROOT, "content", dir, slug);
-    if (fs.existsSync(p) && fs.statSync(p).isDirectory()) {
-      knownSlugTypes.set(slug, type);
-      return type;
+function initKnownTypes() {
+  // Graph-folder entities (all entity dirs start with type_)
+  if (fs.existsSync(ENTITIES_DIR)) {
+    for (const entry of fs.readdirSync(ENTITIES_DIR)) {
+      if (entry.startsWith(".")) continue;
+      const underscoreIdx = entry.indexOf("_");
+      if (underscoreIdx < 1) continue;
+      const type = entry.substring(0, underscoreIdx);
+      const slug = entry.substring(underscoreIdx + 1);
+      if (slug) knownSlugTypes.set(slug, type);
     }
   }
+  // Legacy dirs
+  for (const [type, dir] of Object.entries(LEGACY_DIRS)) {
+    const p = path.join(OUR_ROOT, "content", dir);
+    if (!fs.existsSync(p)) continue;
+    for (const slug of fs.readdirSync(p)) {
+      if (slug.startsWith(".") || slug === "_template") continue;
+      if (!knownSlugTypes.has(slug)) {
+        knownSlugTypes.set(slug, type);
+      }
+    }
+  }
+}
+
+function knownEntityType(slug: string): string | null {
+  return knownSlugTypes.get(slug) || null;
+}
+
+/** Resolve slug → entity ID with context-aware type priority.
+ *  Try specific types first, then fall back to any known type. */
+function resolveEntityId(slug: string, preferredTypes: string[]): string | null {
+  for (const t of preferredTypes) {
+    const existing = knownSlugTypes.get(slug);
+    if (existing === t) return `${t}_${slug}`;
+    // Also check if entity dir exists (handles same-slug-different-type collisions)
+    if (fs.existsSync(path.join(ENTITIES_DIR, `${t}_${slug}`))) {
+      knownSlugTypes.set(slug, t); // Update cache with correct type
+      return `${t}_${slug}`;
+    }
+  }
+  // Don't fallback to other types — the entity must match preferred type
   return null;
 }
 
@@ -679,6 +715,7 @@ function main() {
   console.log("🚀 Import from reference project\n");
 
   const existing = loadExistingIds();
+  initKnownTypes(); // Build slug→type registry for correct ID resolution
   console.log(`📋 Existing graph-folder entities: ${existing.size}`);
   console.log(
     `🔧 Mode: ${dryRun ? "DRY RUN 🧪" : "LIVE ✍️"}${force ? " (force overwrite)" : ""}${limit < 999999 ? ` (limit: ${limit})` : ""}\n`,

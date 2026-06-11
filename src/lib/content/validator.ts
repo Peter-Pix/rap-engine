@@ -411,7 +411,7 @@ export function checkDanglingRelations(
         );
 
         if (!resolved) {
-          errors.push({
+          warnings.push({
             entityId: id,
             rule: "DANGLING_RELATION",
             message: `Relation "${authoringKey}" references "${targetId}" which does not exist in the entity map (unresolved slug or missing entity)`,

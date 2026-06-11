@@ -81,8 +81,8 @@ export const RELATION_REGISTRY: readonly RelationRegistryEntry[] = [
   {
     authoringKey: "artists",
     edgeType: "RELATED_ARTIST",
-    expectsType: ["artist"],
-    description: "Source entity is related to this artist",
+    expectsType: ["artist", "producer", "collective"],
+    description: "Source entity is related to this artist, producer, or collective",
   },
   {
     authoringKey: "albums",
