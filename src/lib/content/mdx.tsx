@@ -33,7 +33,7 @@ function parseInline(text: string): React.ReactNode[] {
       parts.push(
         React.createElement(
           "a",
-          { key: `l-${match.index}`, href: match[3], className: "text-blue-600 hover:underline" },
+          { key: `l-${match.index}`, href: match[3], className: "text-[#60a5fa] hover:text-[#93c5fd] hover:underline" },
           match[2],
         ),
       );
