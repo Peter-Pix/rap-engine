@@ -98,11 +98,15 @@ function parseFrontmatter(
       const key = kv[1];
       const val = kv[2].trim();
 
-      if (val === "true" || val === "false") {
-        fm[key] = val === "true";
-      } else if (val === "" || val === "[]") {
+      if (val === "[") {
+        // Multi-line YAML array — keep currentList alive
         fm[key] = [];
-      } else if (val.startsWith("[") && val.endsWith("]")) {
+        currentKey = key;
+        currentList = [];
+        continue;
+      }
+
+      if (val === "true" || val === "false") {
         const inner = val.slice(1, -1);
         fm[key] = inner
           ? inner.split(",").map((s) => s.trim().replace(/^["']|["']$/g, ""))
@@ -120,6 +124,17 @@ function parseFrontmatter(
       if (currentList === null) currentList = [];
       const item = line.trim().slice(2).trim().replace(/^["']|["']$/g, "");
       currentList.push(item);
+    } else if (currentKey && currentList !== null) {
+      // Multi-line YAML array items (space-indented, comma-separated)
+      const trimmed = line.trim();
+      if (trimmed === "]") continue;
+      // Line like: "item", or "item"
+      const items = trimmed
+        .replace(/,+$/, "")
+        .split(",")
+        .map((s: string) => s.trim().replace(/^["']|["']$/g, ""))
+        .filter(Boolean);
+      currentList.push(...items);
     }
   }
   flushList();
