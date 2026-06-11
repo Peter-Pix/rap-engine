@@ -1,10 +1,16 @@
 {
-  "styles": [],
-  "themes": [],
-  "moods": [],
-  "scene": [],
+  "styles": ["aggressive", "street"],
+  "themes": ["battle", "street-life"],
+  "moods": ["raw", "dark"],
+  "scene": ["underground"],
   "locations": [],
-  "related": [],
+  "related": [
+    "smack",
+    "drill",
+    "drum-and-bass",
+    "street-rap",
+    "experimental-rap"
+  ],
   "influencedBy": [],
   "partOf": []
 }
