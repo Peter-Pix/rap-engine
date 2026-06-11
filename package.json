@@ -1,0 +1,26 @@
+{
+  "name": "rap-knowledge-graph",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run cache:build && next build",
+    "start": "next start",
+    "cache:build": "npx tsx scripts/build-content-cache.ts",
+    "cache:validate": "npx tsx scripts/validate-content.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "minisearch": "^7.2.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "zod": "^4.4.3"
+  }
+}
