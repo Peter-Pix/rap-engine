@@ -1,36 +1,17 @@
 import { Metadata } from "next";
 import { readEntities, readEntityById } from "@/lib/content/cache-reader";
-import MapContent from "./MapContent";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Mapa české rapové scény",
-  description: "Interaktivní mapa lokací české a slovenské rapové scény — města, regiony a kluby.",
+  description: "Přehled míst, která tvarují českou a slovenskou rapovou scénu.",
 };
-
-export default function MapPage() {
-  const locations = getLocationsWithCoords();
-  return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8">
-      <div className="mb-8">
-        <h1 className="text-3xl sm:text-4xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-3">
-          Rapová <span className="text-[#e4ff1a]">mapa</span>
-        </h1>
-        <p className="text-zinc-400 text-sm max-w-2xl">
-          Interaktivní přehled míst, která tvarují českou rapovou scénu. Klikni na marker pro více info.
-        </p>
-      </div>
-      <MapContent locations={locations} />
-    </div>
-  );
-}
 
 interface MapLocation {
   id: string;
   slug: string;
   title: string;
   description: string;
-  lat: number;
-  lng: number;
   artistCount: number;
 }
 
@@ -70,11 +51,50 @@ function getLocationsWithCoords(): MapLocation[] {
       slug: ent.slug,
       title: ent.title,
       description: ent.description ?? "",
-      lat: coords[0],
-      lng: coords[1],
       artistCount,
     });
   }
 
   return results.sort((a, b) => b.artistCount - a.artistCount);
+}
+
+export default function MapPage() {
+  const locations = getLocationsWithCoords();
+
+  return (
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8">
+      <div className="mb-8">
+        <h1 className="text-3xl sm:text-4xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-3">
+          Rapová <span className="text-[#e4ff1a]">mapa</span>
+        </h1>
+        <p className="text-zinc-400 text-sm max-w-2xl">
+          Přehled míst, která tvarují českou a slovenskou rapovou scénu.
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {locations.map((loc) => (
+          <Link
+            key={loc.id}
+            href={`/lokality/${loc.slug}`}
+            className="block group"
+          >
+            <div className="glass glass-hover rounded-xl p-5 transition-all duration-200 group-hover:translate-y-[-1px] h-full flex flex-col">
+              <div className="flex items-center justify-between mb-2">
+                <h2 className="font-bold text-zinc-100 group-hover:text-white transition-colors">
+                  {loc.title}
+                </h2>
+                <span className="text-[10px] font-mono text-zinc-600 bg-white/[0.04] px-1.5 py-0.5 rounded">
+                  {loc.artistCount}×
+                </span>
+              </div>
+              <p className="text-sm text-zinc-500 line-clamp-2 flex-1">
+                {loc.description}
+              </p>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
 }
