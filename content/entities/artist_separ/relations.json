@@ -7,37 +7,53 @@
     "album_og",
     "album_flowdemort",
     "album_dovidenia",
-    "album_neviem",
-    "album_pirat",
-    "album_pancier",
-    "album_flowdemort",
-    "album_neviem",
-    "album_buldozer",
-    "album_pirat",
-    "album_pancier",
-    "album_og",
-    "album_flowdemort",
     "album_neviem"
   ],
-  "artists": [],
+  "artists": [
+    "artist_dame",
+    "artist_smart",
+    "artist_strapo",
+    "artist_snoop-dogg",
+    "artist_viktor-sheen",
+    "artist_yzomandias",
+    "artist_rytmus",
+    "artist_ego"
+  ],
   "genres": [
-    "drill",
-    "trap"
+    "genre_hip-hop",
+    "genre_rap",
+    "genre_trap",
+    "genre_drill"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
-  "moods": [
-    "raw"
+  "labels": [
+    "label_dms-records",
+    "label_gramo-rokkaz"
   ],
-  "partOf": [],
-  "related": [],
+  "locations": [
+    "location_bratislava"
+  ],
+  "moods": [
+    "mood_dark",
+    "mood_raw",
+    "mood_confident"
+  ],
+  "partOf": [
+    "collective_dms"
+  ],
+  "related": [
+    "collective_dms",
+    "label_dms-records",
+    "label_gramo-rokkaz"
+  ],
   "scenes": [
-    "mainstream"
+    "scene_slovenska-rapova-scena",
+    "scene_mainstream"
   ],
   "styles": [
-    "aggressive",
-    "street"
+    "style_aggressive",
+    "style_street",
+    "style_melodic"
   ],
   "themes": [
     "street-life"
