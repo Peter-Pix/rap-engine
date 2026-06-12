@@ -1,25 +1,50 @@
 {
-  "albums": [],
+  "albums": [
+    "album_slova",
+    "album_horizonty",
+    "album_molo",
+    "album_nirvana",
+    "album_dank",
+    "album_mezi-prsty",
+    "album_amonit",
+    "album_molo-ii"
+  ],
   "artists": [],
   "genres": [
-    "boom-bap"
+    "genre_boom-bap",
+    "genre_rap",
+    "genre_hip-hop"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
+  "labels": [
+    "label_ty-nikdy"
+  ],
+  "locations": [
+    "location_liberec"
+  ],
   "moods": [
-    "lofi"
+    "mood_emotional",
+    "mood_dark",
+    "mood_abstract"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_mc-gey",
+    "artist_rest",
+    "artist_hugo-toxxx",
+    "artist_dj-wich"
+  ],
   "scenes": [
-    "independent"
+    "scene_independent"
   ],
   "styles": [
-    "conscious"
+    "style_conscious"
   ],
   "themes": [
-    "life"
+    "theme_life",
+    "theme_relationships",
+    "theme_art",
+    "theme_flex"
   ],
   "tracks": []
 }
