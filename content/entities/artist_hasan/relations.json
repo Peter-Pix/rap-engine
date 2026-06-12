@@ -1,26 +1,52 @@
 {
-  "albums": [],
+  "albums": [
+    "album_ocean",
+    "album_hasan-2019",
+    "album_prototyp",
+    "album_space-blues-music",
+    "album_burnout"
+  ],
   "artists": [],
   "genres": [
-    "trap"
+    "genre_trap",
+    "genre_rap",
+    "genre_cloud-rap"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
+  "labels": [
+    "label_milion-plus"
+  ],
+  "locations": [
+    "location_tabor"
+  ],
   "moods": [
-    "dark"
+    "mood_emotional",
+    "mood_dark",
+    "mood_abstract"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_yzomandias",
+    "artist_nik-tendo",
+    "artist_blako",
+    "artist_calin",
+    "artist_ptk",
+    "artist_viktor-sheen",
+    "artist_saul",
+    "artist_kyle-junior",
+    "artist_wen"
+  ],
   "scenes": [
-    "mainstream"
+    "scene_mainstream"
   ],
   "styles": [
-    "melodic",
-    "street"
+    "style_melodic",
+    "style_experimental"
   ],
   "themes": [
-    "flex"
+    "theme_life",
+    "theme_relationships",
+    "theme_flex"
   ],
   "tracks": []
 }

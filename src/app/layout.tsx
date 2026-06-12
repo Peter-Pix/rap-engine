@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { GoogleAnalytics, PageViewTracker, EngagementTracker } from "@/components/analytics";
 
 export const metadata: Metadata = {
   title: {
@@ -47,6 +48,9 @@ export default function RootLayout({
   return (
     <html lang="cs">
       <body className="bg-zinc-950 text-zinc-100 antialiased">
+        <GoogleAnalytics />
+        <PageViewTracker />
+        <EngagementTracker />
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />

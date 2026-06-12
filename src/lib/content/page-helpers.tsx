@@ -1,4 +1,4 @@
-import React from "react";
+import { SimilarArtistsSection, RelatedEntitiesSection } from "@/components/analytics";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { resolveFromSlug, getRouteParamsForType } from "@/lib/content/route-resolver";
@@ -206,71 +206,31 @@ export function EntityPage({
 
       {/* ── Similar Artists (only for artist entities) ────────────── */}
       {similar.length > 0 && (
-        <section className="mb-10 pb-10 border-b border-white/[0.06]">
-          <h2 className="text-sm font-mono font-bold uppercase tracking-widest text-white mb-6">
-            Podobní interpreti
-          </h2>
-          <div className="flex flex-wrap gap-1.5">
-            {similar.map((s) => {
-              const route = `${TYPE_ROUTE_MAP[s.type as EntityType] ?? `/${s.type}`}/${s.slug}`;
-              return (
-                <a
-                  key={s.id}
-                  href={route}
-                  className="inline-flex items-center gap-2 px-3 py-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-[#e4ff1a]/[0.3] rounded-lg text-sm transition-all"
-                >
-                  <span className="font-medium text-white">{s.title}</span>
-                  <span className="text-[10px] font-mono text-white/50">
-                    {Math.round(s.score * 100)}%
-                  </span>
-                </a>
-              );
-            })}
-          </div>
-        </section>
+        <SimilarArtistsSection
+          artists={similar.map((s) => ({
+            id: s.id,
+            type: s.type,
+            slug: s.slug,
+            title: s.title,
+            score: s.score,
+          }))}
+          fromArtist={entity.title}
+        />
       )}
 
       {/* ── Related Entities ──────────────────────────────────────── */}
       {related.length > 0 && (
-        <section className="mb-10 pb-10 border-b border-white/[0.06]">
-          <h2 className="text-sm font-mono font-bold uppercase tracking-widest text-white mb-6">
-            Související
-          </h2>
-          <div className="flex flex-wrap gap-1.5">
-            {related.map((r) => {
-              const route = `${TYPE_ROUTE_MAP[r.type as EntityType] ?? `/${r.type}`}/${r.slug}`;
-              return (
-                <a
-                  key={r.id}
-                  href={route}
-                  className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-white/[0.12] rounded-lg text-sm transition-all"
-                >
-                  <span className="font-medium text-white">{r.title}</span>
-                  <span className="text-[10px] font-mono text-white/50">
-                    {getEntityLabel(r.type)}
-                  </span>
-                </a>
-              );
-            })}
-          </div>
-          {related.some((r) => r.degree === 2) && (
-            <details className="mt-3 text-xs text-white/50 cursor-pointer hover:text-white/80 transition-colors">
-              <summary className="font-mono uppercase tracking-wider">
-                Zobrazit cesty propojení ({related.filter((r) => r.paths.length > 0).length})
-              </summary>
-              <ul className="mt-2 space-y-1">
-                {related
-                  .filter((r) => r.paths.length > 0)
-                  .map((r) => (
-                    <li key={r.id} className="text-white/50">
-                      <span className="text-white/80">{r.title}</span>: {r.paths.slice(0, 3).join(", ")}
-                      {r.paths.length > 3 && ` (+${r.paths.length - 3} další)`}
-                    </li>
-                  ))}
-              </ul>
-            </details>
-          )}
-        </section>
+        <RelatedEntitiesSection
+          entities={related.map((r) => ({
+            id: r.id,
+            type: r.type,
+            slug: r.slug,
+            title: r.title,
+            degree: r.degree,
+            paths: r.paths,
+          }))}
+          fromEntity={entity.title}
+        />
       )}
 
       {/* ── Backlinks ───────────────────────────────────────────────── */}

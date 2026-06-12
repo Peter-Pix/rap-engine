@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import MiniSearch from "minisearch";
 import { ENTITY_TYPE_LABELS, ENTITY_TYPE_COLORS } from "@/lib/search";
+import { trackSearch, trackSearchResultClick } from "@/lib/analytics";
 import type { SearchDocument } from "@/lib/search";
 import type { EntityType } from "@/lib/content/constants";
 
@@ -127,10 +128,13 @@ export function SearchBar() {
     } else if (e.key === "Enter") {
       e.preventDefault();
       if (activeIdx >= 0 && results[activeIdx]) {
-        router.push(results[activeIdx].url);
+        const r = results[activeIdx];
+        trackSearchResultClick(query.trim(), r.title, r.type, activeIdx);
+        router.push(r.url);
         setIsOpen(false);
         setQuery("");
       } else if (query.trim()) {
+        trackSearch(query.trim(), results.length);
         router.push(`/hledej?q=${encodeURIComponent(query.trim())}`);
         setIsOpen(false);
       }
@@ -207,6 +211,7 @@ export function SearchBar() {
                       <Link
                         href={r.url}
                         onClick={() => {
+                          trackSearchResultClick(query.trim(), r.title, r.type, idx);
                           setIsOpen(false);
                           setQuery("");
                         }}
@@ -239,6 +244,7 @@ export function SearchBar() {
               <Link
                 href={`/hledej?q=${encodeURIComponent(query.trim())}`}
                 onClick={() => {
+                  trackSearch(query.trim(), results.length);
                   setIsOpen(false);
                   setQuery("");
                 }}

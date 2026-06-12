@@ -1,6 +1,14 @@
+"use client";
+
+import { useEffect } from "react";
 import Link from "next/link";
+import { trackNotFound } from "@/lib/analytics";
 
 export default function NotFound() {
+  useEffect(() => {
+    trackNotFound(window.location.pathname, document.referrer);
+  }, []);
+
   return (
     <main className="min-h-screen bg-zinc-950 flex flex-col items-center justify-center px-4">
       <div className="glass rounded-2xl p-10 md:p-14 max-w-lg w-full text-center">

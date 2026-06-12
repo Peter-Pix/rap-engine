@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { ENTITY_TYPE_LABELS, ENTITY_TYPE_COLORS } from "@/lib/search";
+import { trackEntityCardClick } from "@/lib/analytics";
 import type { EntityType } from "@/lib/content/constants";
 
 interface EntityCardProps {
@@ -23,7 +26,11 @@ export function EntityCard({
   const typeLabel = ENTITY_TYPE_LABELS[type] ?? type.toUpperCase();
 
   return (
-    <Link href={href} className="block group">
+    <Link
+      href={href}
+      className="block group"
+      onClick={() => trackEntityCardClick(title, type)}
+    >
       <article className="relative h-full glass glass-hover rounded-xl p-5 transition-all duration-200 group-hover:translate-y-[-1px]">
         <div className="flex items-center gap-2 mb-3">
           <span
