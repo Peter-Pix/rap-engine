@@ -135,7 +135,7 @@ export function SearchBar() {
         setQuery("");
       } else if (query.trim()) {
         trackSearch(query.trim(), results.length);
-        router.push(`/hledej?q=${encodeURIComponent(query.trim())}`);
+        router.push(`/hledat?q=${encodeURIComponent(query.trim())}`);
         setIsOpen(false);
       }
     }
@@ -242,7 +242,7 @@ export function SearchBar() {
                 })}
               </ul>
               <Link
-                href={`/hledej?q=${encodeURIComponent(query.trim())}`}
+                href={`/hledat?q=${encodeURIComponent(query.trim())}`}
                 onClick={() => {
                   trackSearch(query.trim(), results.length);
                   setIsOpen(false);

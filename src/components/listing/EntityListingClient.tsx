@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Input } from "@/components/ui/Input";
+import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 
 interface Entity {
   id: string;
@@ -134,42 +135,9 @@ export default function EntityListingClient({
   const clearFilters = () =>
     setActiveFilters({ genres: [], labels: [], locations: [], scenes: [], styles: [], moods: [] });
 
-  const routePrefix = entities.length > 0
-    ? `/${entities[0].type === "artist" ? "raperi" : entities[0].type + "s"}`
-    : "";
-
   const getRoute = (e: Entity) => {
-    const prefix =
-      e.type === "artist"
-        ? "raperi"
-        : e.type === "album"
-        ? "alba"
-        : e.type === "track"
-        ? "skladby"
-        : e.type === "genre"
-        ? "zanry"
-        : e.type === "style"
-        ? "styly"
-        : e.type === "theme"
-        ? "temata"
-        : e.type === "mood"
-        ? "nalady"
-        : e.type === "scene"
-        ? "sceny"
-        : e.type === "label"
-        ? "labely"
-        : e.type === "location"
-        ? "lokality"
-        : e.type === "article"
-        ? "clanky"
-        : e.type === "collective"
-        ? "kolektivy"
-        : e.type === "producer"
-        ? "producenti"
-        : e.type === "event"
-        ? "akce"
-        : e.type;
-    return `/${prefix}/${e.slug}`;
+    const prefix = TYPE_ROUTE_MAP[e.type as EntityType] ?? `/${e.type}`;
+    return `${prefix}/${e.slug}`;
   };
 
   return (
@@ -283,7 +251,10 @@ export default function EntityListingClient({
                 </p>
                 {entity.outbound?.HAS_GENRE && (
                   <div className="mt-3 flex flex-wrap gap-1">
-                    {entity.outbound.HAS_GENRE.slice(0, 3).map((genreId) => (
+                    {/* Dedupe by ID — outbound arrays in cache can technically
+                        contain duplicates (e.g. legacy slugs mixed with
+                        canonical IDs resolving to the same target). */}
+                    {Array.from(new Set(entity.outbound.HAS_GENRE)).slice(0, 3).map((genreId) => (
                       <span
                         key={genreId}
                         className="text-[9px] font-mono text-zinc-600 bg-white/[0.04] px-1.5 py-0.5 rounded-sm"

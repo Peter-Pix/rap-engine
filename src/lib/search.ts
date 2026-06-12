@@ -2,7 +2,7 @@
 // RAPENGINE — Search helpers
 //
 // Shared types and helpers for the MiniSearch-powered full‑text
-// search UI (header dropdown + /hledej page).
+// search UI (header dropdown + /hledat page).
 // ═══════════════════════════════════════════════════════════════
 
 import type { EntityType } from "@/lib/content/constants";

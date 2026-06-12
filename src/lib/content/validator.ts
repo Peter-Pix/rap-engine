@@ -106,6 +106,39 @@ export function validateGraphFolderFiles(): {
         message: `Required file "meta.json" is missing`,
         path: meta,
       });
+    } else {
+      // ── Validate meta.json against BaseMetaSchema ────────────────
+      // Catches zombie entities where the filesystem has a folder but
+      // the meta.json is structurally invalid (e.g. bad `type` value
+      // that Zod's enum would reject). Without this check, the entity
+      // is silently dropped by loadEntity() and never appears in
+      // any error report.
+      let rawMeta: unknown;
+      try {
+        rawMeta = JSON.parse(fs.readFileSync(meta, "utf-8"));
+      } catch (e) {
+        errors.push({
+          entityId: id,
+          rule: "INVALID_META_JSON",
+          message: `meta.json contains invalid JSON: ${(e as Error).message}`,
+          path: meta,
+        });
+      }
+      if (rawMeta !== undefined) {
+        const result = BaseMetaSchema.safeParse(rawMeta);
+        if (!result.success) {
+          const zodError = result.error as ZodError;
+          for (const issue of zodError.issues) {
+            const field = issue.path.join(".");
+            errors.push({
+              entityId: id,
+              rule: "INVALID_META",
+              message: `meta.json: ${field ? `"${field}": ` : ""}${issue.message}`,
+              path: meta,
+            });
+          }
+        }
+      }
     }
 
     // relations.json
