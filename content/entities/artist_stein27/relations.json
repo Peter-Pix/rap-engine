@@ -1,25 +1,39 @@
 {
-  "albums": [],
+  "albums": [
+    "album_teorie-padu",
+    "album_navrat-na-planetu-zemi",
+    "album_president-of-sexico"
+  ],
   "artists": [],
   "genres": [
-    "trap"
+    "genre_trap",
+    "genre_rap"
   ],
   "influencedBy": [],
   "labels": [],
-  "locations": [],
+  "locations": [
+    "location_brno"
+  ],
   "moods": [
-    "emotional"
+    "mood_emotional",
+    "mood_dark",
+    "mood_club"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_calin",
+    "artist_sofian-medjmedj",
+    "artist_kojo"
+  ],
   "scenes": [
-    "mainstream"
+    "scene_mainstream"
   ],
   "styles": [
-    "melodic"
+    "style_melodic"
   ],
   "themes": [
-    "love"
+    "theme_life",
+    "theme_relationships"
   ],
   "tracks": []
 }
