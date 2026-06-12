@@ -32,3 +32,29 @@ code, pre, .font-mono { font-family: var(--font-mono) !important; }
 .entity-link--label:hover { color: #c4b5fd; }
 .entity-link--zanr { color: #34d399; }
 .entity-link--zanr:hover { color: #6ee7b7; }
+
+/* ── Prose overrides: white-based text, no blue/gray tint ────────── */
+.prose {
+  --tw-prose-body: rgba(255,255,255,0.85);
+  --tw-prose-headings: #fff;
+  --tw-prose-links: #e4ff1a;
+  --tw-prose-bold: #fff;
+  --tw-prose-code: #fff;
+  --tw-prose-quotes: rgba(255,255,255,0.8);
+  --tw-prose-quote-borders: rgba(255,255,255,0.2);
+  --tw-prose-hr: rgba(255,255,255,0.1);
+  --tw-prose-th-borders: rgba(255,255,255,0.15);
+  --tw-prose-td-borders: rgba(255,255,255,0.08);
+}
+.prose-invert {
+  --tw-prose-body: rgba(255,255,255,0.85);
+  --tw-prose-headings: #fff;
+  --tw-prose-links: #e4ff1a;
+  --tw-prose-bold: #fff;
+  --tw-prose-code: #fff;
+  --tw-prose-quotes: rgba(255,255,255,0.8);
+  --tw-prose-quote-borders: rgba(255,255,255,0.2);
+  --tw-prose-hr: rgba(255,255,255,0.1);
+  --tw-prose-th-borders: rgba(255,255,255,0.15);
+  --tw-prose-td-borders: rgba(255,255,255,0.08);
+}

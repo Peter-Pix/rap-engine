@@ -150,13 +150,13 @@ export function EntityPage({
           {entity.title}
         </h1>
         {entity.description && (
-          <p className="mt-3 text-base sm:text-lg text-zinc-400 max-w-2xl">
+          <p className="mt-3 text-base sm:text-lg text-white/80 max-w-2xl leading-relaxed">
             {entity.description}
           </p>
         )}
         {entity.publishedAt && (
           <time
-            className="mt-3 block text-xs font-mono uppercase tracking-widest text-zinc-600"
+            className="mt-3 block text-xs font-mono uppercase tracking-widest text-white/50"
             dateTime={entity.publishedAt}
           >
             Publikováno {entity.publishedAt}
@@ -181,7 +181,7 @@ export function EntityPage({
           <div className="space-y-5">
             {relations.map(({ key, label, targets }) => (
               <div key={key}>
-                <h3 className="text-xs font-mono uppercase tracking-wider text-zinc-500 mb-2">
+                <h3 className="text-xs font-mono uppercase tracking-wider text-white/60 mb-2">
                   {label}
                 </h3>
                 <div className="flex flex-wrap gap-1.5">
@@ -191,8 +191,8 @@ export function EntityPage({
                       href={t.route}
                       className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-white/[0.12] rounded-lg text-sm transition-all"
                     >
-                      <span className="font-medium text-zinc-200">{t.title}</span>
-                      <span className="text-[10px] font-mono text-zinc-600">
+                      <span className="font-medium text-white">{t.title}</span>
+                      <span className="text-[10px] font-mono text-white/50">
                         {getEntityLabel(t.type)}
                       </span>
                     </a>
@@ -219,8 +219,8 @@ export function EntityPage({
                   href={route}
                   className="inline-flex items-center gap-2 px-3 py-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-[#e4ff1a]/[0.3] rounded-lg text-sm transition-all"
                 >
-                  <span className="font-medium text-zinc-200">{s.title}</span>
-                  <span className="text-[10px] font-mono text-zinc-500">
+                  <span className="font-medium text-white">{s.title}</span>
+                  <span className="text-[10px] font-mono text-white/50">
                     {Math.round(s.score * 100)}%
                   </span>
                 </a>
@@ -245,8 +245,8 @@ export function EntityPage({
                   href={route}
                   className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-white/[0.12] rounded-lg text-sm transition-all"
                 >
-                  <span className="font-medium text-zinc-200">{r.title}</span>
-                  <span className="text-[10px] font-mono text-zinc-600">
+                  <span className="font-medium text-white">{r.title}</span>
+                  <span className="text-[10px] font-mono text-white/50">
                     {getEntityLabel(r.type)}
                   </span>
                 </a>
@@ -254,7 +254,7 @@ export function EntityPage({
             })}
           </div>
           {related.some((r) => r.degree === 2) && (
-            <details className="mt-3 text-xs text-zinc-600 cursor-pointer hover:text-zinc-400 transition-colors">
+            <details className="mt-3 text-xs text-white/50 cursor-pointer hover:text-white/80 transition-colors">
               <summary className="font-mono uppercase tracking-wider">
                 Zobrazit cesty propojení ({related.filter((r) => r.paths.length > 0).length})
               </summary>
@@ -262,8 +262,8 @@ export function EntityPage({
                 {related
                   .filter((r) => r.paths.length > 0)
                   .map((r) => (
-                    <li key={r.id} className="text-zinc-500">
-                      <span className="text-zinc-300">{r.title}</span>: {r.paths.slice(0, 3).join(", ")}
+                    <li key={r.id} className="text-white/50">
+                      <span className="text-white/80">{r.title}</span>: {r.paths.slice(0, 3).join(", ")}
                       {r.paths.length > 3 && ` (+${r.paths.length - 3} další)`}
                     </li>
                   ))}
@@ -286,8 +286,8 @@ export function EntityPage({
                 href={be.route}
                 className="glass glass-hover rounded-lg p-4 transition-all duration-200"
               >
-                <div className="font-medium text-sm text-zinc-200">{be.title}</div>
-                <div className="text-[10px] font-mono uppercase tracking-widest text-zinc-600 mt-1">
+                <div className="font-medium text-sm text-white">{be.title}</div>
+                <div className="text-[10px] font-mono uppercase tracking-widest text-white/50 mt-1">
                   {getEntityLabel(be.type)}
                 </div>
               </a>

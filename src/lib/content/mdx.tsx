@@ -109,7 +109,7 @@ export function renderMdx(content: string): React.ReactNode {
       const level = h[1].length;
       blocks.push(
         React.createElement(`h${level}` as keyof React.JSX.IntrinsicElements, {
-          key: i,
+          key: blocks.length,
           className: headingClass(level),
         }, ...parseInline(h[2])),
       );
@@ -119,7 +119,7 @@ export function renderMdx(content: string): React.ReactNode {
 
     // HR
     if (/^(-{3,}|\*{3,}|_{3,})$/.test(t)) {
-      blocks.push(React.createElement("hr", { key: i, className: "my-6 border-gray-200" }));
+      blocks.push(React.createElement("hr", { key: blocks.length, className: "my-6 border-gray-200" }));
       i++;
       continue;
     }
@@ -134,7 +134,7 @@ export function renderMdx(content: string): React.ReactNode {
       blocks.push(
         React.createElement(
           "blockquote",
-          { key: i, className: "border-l-4 border-gray-300 pl-4 italic text-gray-600" },
+          { key: blocks.length, className: "border-l-4 border-gray-300 pl-4 italic text-gray-600" },
           React.createElement("p", null, ...parseInline(qLines.join(" "))),
         ),
       );
@@ -154,7 +154,7 @@ export function renderMdx(content: string): React.ReactNode {
         i++;
       }
       blocks.push(
-        React.createElement("ul", { key: i, className: "my-3 space-y-1" }, ...items),
+        React.createElement("ul", { key: blocks.length, className: "my-3 space-y-1" }, ...items),
       );
       continue;
     }
@@ -172,7 +172,7 @@ export function renderMdx(content: string): React.ReactNode {
         i++;
       }
       blocks.push(
-        React.createElement("ol", { key: i, className: "my-3 space-y-1" }, ...items),
+        React.createElement("ol", { key: blocks.length, className: "my-3 space-y-1" }, ...items),
       );
       continue;
     }
@@ -191,7 +191,7 @@ export function renderMdx(content: string): React.ReactNode {
       blocks.push(
         React.createElement(
           "p",
-          { key: i, className: "my-2 leading-relaxed" },
+          { key: blocks.length, className: "my-2 leading-relaxed" },
           ...parseInline(pLines.join(" ")),
         ),
       );
