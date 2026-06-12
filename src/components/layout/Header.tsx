@@ -10,6 +10,7 @@ const NAV = [
   { label: "Skladby", href: "/skladby" },
   { label: "Labely", href: "/labely" },
   { label: "Žánry", href: "/zanry" },
+  { label: "Mapa", href: "/mapa" },
   { label: "Články", href: "/clanky" },
 ];
 

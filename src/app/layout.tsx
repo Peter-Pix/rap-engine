@@ -47,6 +47,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="cs">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hm947rz7w4pKUGU1Ck1GkD2KcgH9b2Y="
+          crossOrigin=""
+        />
+      </head>
       <body className="bg-zinc-950 text-zinc-100 antialiased">
         <GoogleAnalytics />
         <PageViewTracker />
