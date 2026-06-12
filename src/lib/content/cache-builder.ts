@@ -196,8 +196,17 @@ export function buildCache(entities: Map<string, UnifiedEntity>): void {
     allEdges.push(...edges);
 
     // Group outbound edges by type for the node view
+    // Use a Set per relation to deduplicate — raw relations.json can mix
+    // bare slugs ("boom-bap") and canonical IDs ("genre_boom-bap") for the
+    // same target. resolveTargetId() resolves both to the same ID, which
+    // would otherwise produce duplicate entries in the outbound array and
+    // trigger React "duplicate key" warnings at render time.
     const outbound: Record<string, string[]> = {};
+    const outboundSeen: Record<string, Set<string>> = {};
     for (const edge of edges) {
+      const seen = outboundSeen[edge.relation] ?? (outboundSeen[edge.relation] = new Set());
+      if (seen.has(edge.to)) continue;
+      seen.add(edge.to);
       const list = outbound[edge.relation] ?? (outbound[edge.relation] = []);
       list.push(edge.to);
     }
