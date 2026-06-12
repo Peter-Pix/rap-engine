@@ -1,25 +1,48 @@
 {
-  "albums": [],
+  "albums": [
+    "album_panoptikum",
+    "album_gyzmo",
+    "album_panorama"
+  ],
   "artists": [],
   "genres": [
-    "boom-bap"
+    "genre_boom-bap",
+    "genre_rap"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
-  "moods": [
-    "raw"
+  "labels": [
+    "label_biggboss"
   ],
-  "partOf": [],
-  "related": [],
+  "locations": [
+    "location_praha"
+  ],
+  "moods": [
+    "mood_raw",
+    "mood_dark",
+    "mood_abstract"
+  ],
+  "partOf": [
+    "artist_indy"
+  ],
+  "related": [
+    "artist_indy",
+    "artist_dj-wich",
+    "artist_orion",
+    "artist_james-cole",
+    "artist_kato"
+  ],
   "scenes": [
-    "mainstream"
+    "scene_underground",
+    "scene_mainstream"
   ],
   "styles": [
-    "street"
+    "style_street",
+    "style_experimental"
   ],
   "themes": [
-    "street-life"
+    "theme_street-life",
+    "theme_life",
+    "theme_art"
   ],
   "tracks": []
 }

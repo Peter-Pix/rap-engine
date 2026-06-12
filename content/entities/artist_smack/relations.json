@@ -1,28 +1,46 @@
 {
-  "albums": [],
+  "albums": [
+    "album_ps-a-love",
+    "album_sick",
+    "album_chimera-pt-3-snake",
+    "album_end-2-end",
+    "album_hudba-pro-zmrdy-2"
+  ],
   "artists": [],
   "genres": [
-    "drill",
-    "grime"
+    "genre_grime"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
-  "moods": [
-    "raw"
+  "labels": [
+    "label_archetyp-51"
   ],
-  "partOf": [],
-  "related": [
+  "locations": [
+    "location_praha"
+  ],
+  "moods": [
+    "mood_raw",
+    "mood_dark",
+    "mood_abstract"
+  ],
+  "partOf": [
     "collective_iscream"
   ],
+  "related": [
+    "artist_hugo-toxxx",
+    "artist_vladimir-518"
+  ],
   "scenes": [
-    "underground"
+    "scene_underground"
   ],
   "styles": [
-    "aggressive"
+    "style_hardcore",
+    "style_aggressive",
+    "style_conscious"
   ],
   "themes": [
-    "battle"
+    "theme_society",
+    "theme_street-life",
+    "theme_satire"
   ],
   "tracks": []
 }

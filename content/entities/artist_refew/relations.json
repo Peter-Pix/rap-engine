@@ -1,26 +1,45 @@
 {
-  "albums": [],
+  "albums": [
+    "album_o-tri-bloky-dal",
+    "album_pet-ruzi",
+    "album_mindset"
+  ],
   "artists": [],
   "genres": [
-    "trap"
+    "genre_trap",
+    "genre_rap"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
+  "labels": [
+    "label_blakkwood-records"
+  ],
+  "locations": [
+    "location_praha"
+  ],
   "moods": [
-    "raw"
+    "mood_raw",
+    "mood_emotional",
+    "mood_dark"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_renne-dang",
+    "artist_koukr",
+    "artist_viktor-sheen",
+    "artist_vladimir-518"
+  ],
   "scenes": [
-    "independent"
+    "scene_underground",
+    "scene_independent"
   ],
   "styles": [
-    "conscious",
-    "street"
+    "style_street",
+    "style_conscious"
   ],
   "themes": [
-    "street-life"
+    "theme_street-life",
+    "theme_life",
+    "theme_society"
   ],
   "tracks": []
 }

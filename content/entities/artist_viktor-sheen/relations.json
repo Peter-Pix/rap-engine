@@ -1,26 +1,48 @@
 {
-  "albums": [],
+  "albums": [
+    "album_cernobilej-svet",
+    "album_barvy",
+    "album_pribehy-a-sny",
+    "album_planeta-opice"
+  ],
   "artists": [],
   "genres": [
-    "trap"
+    "genre_trap"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
+  "labels": [
+    "label_milion-plus",
+    "label_blakkwood-records"
+  ],
+  "locations": [
+    "location_kladno"
+  ],
   "moods": [
-    "lofi"
+    "mood_emotional",
+    "mood_dark",
+    "mood_lofi",
+    "mood_raw"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_calin",
+    "artist_renne-dang",
+    "artist_yzomandias",
+    "artist_robin-zoot"
+  ],
   "scenes": [
-    "mainstream"
+    "scene_mainstream"
   ],
   "styles": [
-    "introspective",
-    "melodic"
+    "style_introspective",
+    "style_melodic"
   ],
   "themes": [
-    "relationships"
+    "theme_life",
+    "theme_relationships",
+    "theme_society",
+    "theme_flex",
+    "theme_lifestyle"
   ],
   "tracks": []
 }

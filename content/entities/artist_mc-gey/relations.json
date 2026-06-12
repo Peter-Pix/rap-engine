@@ -1,26 +1,46 @@
 {
-  "albums": [],
+  "albums": [
+    "album_turbulence-negativnich-dobrot",
+    "album_imaginarium-naprosto-beznych-podivnosti",
+    "album_rap-life",
+    "album_o-tatinkovi-ktery-usnul"
+  ],
   "artists": [],
   "genres": [
-    "boom-bap"
+    "genre_boom-bap",
+    "genre_rap"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
+  "labels": [
+    "label_ty-nikdy"
+  ],
+  "locations": [
+    "location_pardubice"
+  ],
   "moods": [
-    "abstract"
+    "mood_abstract",
+    "mood_raw",
+    "mood_emotional",
+    "mood_dark"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_paulie-garand",
+    "artist_hugo-toxxx",
+    "artist_maniak"
+  ],
   "scenes": [
-    "underground"
+    "scene_underground"
   ],
   "styles": [
-    "conscious",
-    "experimental"
+    "style_conscious",
+    "style_experimental"
   ],
   "themes": [
-    "satire"
+    "theme_satire",
+    "theme_life",
+    "theme_society",
+    "theme_flex"
   ],
   "tracks": []
 }

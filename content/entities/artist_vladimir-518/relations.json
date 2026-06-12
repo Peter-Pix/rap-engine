@@ -1,25 +1,46 @@
 {
-  "albums": [],
+  "albums": [
+    "album_gorila-vs-architekt"
+  ],
   "artists": [],
   "genres": [
-    "boom-bap"
+    "genre_boom-bap",
+    "genre_rap"
   ],
   "influencedBy": [],
-  "labels": [],
-  "locations": [],
-  "moods": [
-    "abstract"
+  "labels": [
+    "label_biggboss"
   ],
-  "partOf": [],
-  "related": [],
+  "locations": [
+    "location_praha",
+    "location_hostivice"
+  ],
+  "moods": [
+    "mood_abstract",
+    "mood_dark"
+  ],
+  "partOf": [
+    "artist_psh"
+  ],
+  "related": [
+    "artist_hugo-toxxx",
+    "artist_la4",
+    "artist_orion",
+    "artist_james-cole",
+    "artist_kato"
+  ],
   "scenes": [
-    "mainstream"
+    "scene_underground",
+    "scene_mainstream"
   ],
   "styles": [
-    "experimental"
+    "style_experimental",
+    "style_conscious"
   ],
   "themes": [
-    "art"
+    "theme_art",
+    "theme_society",
+    "theme_life"
   ],
   "tracks": []
 }
