@@ -1,26 +1,47 @@
 {
-  "albums": [],
+  "albums": [
+    "album_kriminal-mood",
+    "album_kila-zdarma-mixtape",
+    "album_devil-son",
+    "album_secret-eyes",
+    "album_global"
+  ],
   "artists": [],
   "genres": [
-    "drill",
-    "trap"
+    "genre_trap",
+    "genre_street-rap",
+    "genre_rap"
   ],
   "influencedBy": [],
   "labels": [],
-  "locations": [],
+  "locations": [
+    "location_ostrava"
+  ],
   "moods": [
-    "dark"
+    "mood_dark",
+    "mood_raw"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_sergei-barracuda",
+    "artist_yzomandias",
+    "artist_nik-tendo",
+    "artist_robin-zoot",
+    "artist_dollar-prync",
+    "artist_calin"
+  ],
   "scenes": [
-    "mainstream"
+    "scene_mainstream"
   ],
   "styles": [
-    "street"
+    "style_street",
+    "style_hardcore"
   ],
   "themes": [
-    "street-life"
+    "theme_street-life",
+    "theme_life",
+    "theme_flex",
+    "theme_success"
   ],
   "tracks": []
 }
