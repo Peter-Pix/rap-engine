@@ -2,24 +2,41 @@
   "albums": [],
   "artists": [],
   "genres": [
-    "trap"
+    "genre_trap",
+    "genre_street-rap",
+    "genre_rap"
   ],
   "influencedBy": [],
   "labels": [],
-  "locations": [],
+  "locations": [
+    "location_ostrava"
+  ],
   "moods": [
-    "abstract"
+    "mood_club",
+    "mood_dark",
+    "mood_raw"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_sergei-barracuda",
+    "artist_michajlov",
+    "artist_hard-rico",
+    "artist_robin-zoot",
+    "artist_yzomandias"
+  ],
   "scenes": [
-    "underground"
+    "scene_mainstream",
+    "scene_underground"
   ],
   "styles": [
-    "experimental"
+    "style_street",
+    "style_hardcore"
   ],
   "themes": [
-    "art"
+    "theme_flex",
+    "theme_success",
+    "theme_life",
+    "theme_lifestyle"
   ],
   "tracks": []
 }
