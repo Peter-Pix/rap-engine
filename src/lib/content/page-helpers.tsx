@@ -5,6 +5,11 @@ import { resolveFromSlug, getRouteParamsForType } from "@/lib/content/route-reso
 import { readEntityById, readInboundFor, readEntities } from "@/lib/content/cache-reader";
 import { renderMdx } from "@/lib/content/mdx";
 import { getRegistryEntry } from "@/lib/content/relation-registry";
+import {
+  getSimilarArtists,
+  getRelatedEntities,
+  DEFAULT_WEIGHTS,
+} from "@/lib/content/graph-query";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 
 // ─── Metadata ─────────────────────────────────────────────────────────────
@@ -126,6 +131,14 @@ export function EntityPage({
     }
   }
 
+  // ── Graph query: similar artists & related entities ──────────────
+  let similar = entity.type === "artist"
+    ? getSimilarArtists(id, DEFAULT_WEIGHTS, 0.1, 5)
+    : [];
+  const related = getRelatedEntities(id, 8).filter(
+    (r) => r.id !== id,
+  );
+
   return (
     <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12">
       {/* ── Header ──────────────────────────────────────────────────── */}
@@ -188,6 +201,75 @@ export function EntityPage({
               </div>
             ))}
           </div>
+        </section>
+      )}
+
+      {/* ── Similar Artists (only for artist entities) ────────────── */}
+      {similar.length > 0 && (
+        <section className="mb-10 pb-10 border-b border-white/[0.06]">
+          <h2 className="text-sm font-mono font-bold uppercase tracking-widest text-white mb-6">
+            Podobní interpreti
+          </h2>
+          <div className="flex flex-wrap gap-1.5">
+            {similar.map((s) => {
+              const route = `${TYPE_ROUTE_MAP[s.type as EntityType] ?? `/${s.type}`}/${s.slug}`;
+              return (
+                <a
+                  key={s.id}
+                  href={route}
+                  className="inline-flex items-center gap-2 px-3 py-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-[#e4ff1a]/[0.3] rounded-lg text-sm transition-all"
+                >
+                  <span className="font-medium text-zinc-200">{s.title}</span>
+                  <span className="text-[10px] font-mono text-zinc-500">
+                    {Math.round(s.score * 100)}%
+                  </span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* ── Related Entities ──────────────────────────────────────── */}
+      {related.length > 0 && (
+        <section className="mb-10 pb-10 border-b border-white/[0.06]">
+          <h2 className="text-sm font-mono font-bold uppercase tracking-widest text-white mb-6">
+            Související
+          </h2>
+          <div className="flex flex-wrap gap-1.5">
+            {related.map((r) => {
+              const route = `${TYPE_ROUTE_MAP[r.type as EntityType] ?? `/${r.type}`}/${r.slug}`;
+              return (
+                <a
+                  key={r.id}
+                  href={route}
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-white/[0.12] rounded-lg text-sm transition-all"
+                >
+                  <span className="font-medium text-zinc-200">{r.title}</span>
+                  <span className="text-[10px] font-mono text-zinc-600">
+                    {getEntityLabel(r.type)}
+                  </span>
+                </a>
+              );
+            })}
+          </div>
+          {related.some((r) => r.degree === 2) && (
+            <details className="mt-3 text-xs text-zinc-600 cursor-pointer hover:text-zinc-400 transition-colors">
+              <summary className="font-mono uppercase tracking-wider">
+                Zobrazit cesty propojení ({related.filter((r) => r.paths.length > 0).length})
+              </summary>
+              <ul className="mt-2 space-y-1">
+                {related
+                  .filter((r) => r.paths.length > 0)
+                  .map((r) => (
+                    <li key={r.id} className="text-zinc-500">
+                      <span className="text-zinc-300">{r.title}</span>: {r.paths.slice(0, 3).join(", ")}
+                      {r.paths.length > 3 && ` (+${r.paths.length - 3} další)`}
+                    </li>
+                  ))}
+              </ul>
+            </details>
+          )}
         </section>
       )}
 

@@ -1,0 +1,580 @@
+{
+  "rapedia_knowledge_graph": {
+    "metadata": {
+      "version": "1.0.0",
+      "lastUpdated": "2026-06-15",
+      "totalEntities": 35,
+      "totalEdges": 150,
+      "totalCandidates": 6
+    },
+    "raw_entities": {
+      "rapper_d-kop": {
+        "entity.json": {
+          "id": "rapper_d-kop",
+          "kind": "rapper",
+          "name": "D.Kop",
+          "realName": null,
+          "birthDate": null,
+          "birthPlace": null,
+          "originCity": null,
+          "originRegion": null,
+          "originCountry": "CZ",
+          "yearsActiveStart": 2020,
+          "yearsActiveEnd": null,
+          "genres": ["dark-rap", "horror-core", "underground-rap", "experimental-rap"],
+          "labels": []
+        },
+        "aliases.json": [
+          {"name": "D.K.P.", "type": "abbreviation"},
+          {"name": "Dívčí Kop", "type": "full_name_translation"}
+        ],
+        "socials.json": {
+          "deezer": "https://www.deezer.com/artist/5563023",
+          "soundcloud": "https://soundcloud.com/dkop-official",
+          "instagram": "https://www.instagram.com/dkop_rap/"
+        },
+        "sources.json": [
+          {"provider": "deezer", "id": 5563023, "retrievedAt": "2026-05-31"}
+        ]
+      },
+      "rapper_sofian-medjmedj": {
+        "entity.json": {
+          "id": "rapper_sofian-medjmedj",
+          "kind": "rapper",
+          "name": "Sofian Medjmedj",
+          "realName": "Sofian Medjmedj",
+          "birthDate": "2001-08-01",
+          "birthPlace": "Praha",
+          "originCountry": "CZ",
+          "genres": ["czech-pop", "czech-rap", "alternative-hiphop", "emo-rap"],
+          "labels": []
+        },
+        "aliases.json": [{"name": "Sofian", "type": "stage_name_short"}],
+        "socials.json": {
+          "instagram": "https://www.instagram.com/sofianmedjmedj/",
+          "spotify": "https://open.spotify.com/artist/1YxXQ5Z5J5J5J5J5J5J5J5",
+          "youtube": "https://www.youtube.com/@SofianMedjmedj"
+        }
+      },
+      "rapper_smack": {
+        "entity.json": {
+          "id": "rapper_smack",
+          "kind": "rapper",
+          "name": "Smack",
+          "realName": "Jakub Janeček",
+          "birthDate": "1986-06-07",
+          "birthPlace": "Praha",
+          "originCountry": "CZ",
+          "yearsActiveStart": 2000,
+          "genres": ["czech-rap", "underground-rap", "experimental-hiphop"],
+          "labels": []
+        },
+        "aliases.json": [{"name": "Smack One", "type": "alias"}],
+        "socials.json": {
+          "instagram": "https://www.instagram.com/smackone/",
+          "facebook": "https://www.facebook.com/SmackOneOfficial/",
+          "deezer": "https://www.deezer.com/artist/114379282"
+        }
+      },
+      "rapper_samey": {
+        "entity.json": {
+          "id": "rapper_samey",
+          "kind": "rapper",
+          "name": "Samey",
+          "realName": "Samuel Chalupka",
+          "birthPlace": "Bratislava",
+          "originCountry": "SK",
+          "yearsActiveStart": 2017,
+          "genres": ["czech-rap", "underground-rap", "emo-rap", "trap"],
+          "labels": ["Haha Crew"]
+        },
+        "aliases.json": [{"name": "Sameyko", "type": "alias"}]
+      },
+      "rapper_robin-zoot": {
+        "entity.json": {
+          "id": "rapper_robin-zoot",
+          "kind": "rapper",
+          "name": "Robin Zoot",
+          "realName": "Robert Pouzar",
+          "birthDate": "1991-08-18",
+          "birthPlace": "Ústí nad Labem",
+          "originCountry": "CZ",
+          "genres": ["czech-rap", "underground-rap", "lyrical-rap"],
+          "labels": ["Milion+ Entertainment"]
+        }
+      },
+      "rapper_lvcas-dope": {
+        "entity.json": {
+          "id": "rapper_lvcas-dope",
+          "kind": "rapper",
+          "name": "Lvcas Dope",
+          "genres": ["czech-rap"],
+          "labels": ["44 Enterprise"]
+        }
+      },
+      "rapper_yzomandias": {
+        "entity.json": {
+          "id": "rapper_yzomandias",
+          "kind": "rapper",
+          "name": "Yzomandias",
+          "labels": ["Milion+ Entertainment"]
+        }
+      },
+      "rapper_paulie-garand": {
+        "entity.json": {
+          "id": "rapper_paulie-garand",
+          "kind": "rapper",
+          "name": "Paulie Garand",
+          "genres": ["czech-rap"]
+        }
+      },
+      "rapper_rytmus": {
+        "entity.json": {
+          "id": "rapper_rytmus",
+          "kind": "rapper",
+          "name": "Rytmus"
+        }
+      },
+      "rapper_joshua": {
+        "entity.json": {
+          "id": "rapper_joshua",
+          "kind": "rapper",
+          "name": "Joshua"
+        }
+      },
+      "rapper_tkx": {
+        "entity.json": {
+          "id": "rapper_tkx",
+          "kind": "rapper",
+          "name": "TKX"
+        }
+      },
+      "rapper_hugo-toxxx": {
+        "entity.json": {
+          "id": "rapper_hugo-toxxx",
+          "kind": "rapper",
+          "name": "Hugo Toxxx"
+        }
+      },
+      "rapper_kato": {
+        "entity.json": {
+          "id": "rapper_kato",
+          "kind": "rapper",
+          "name": "Kato"
+        }
+      },
+      "rapper_mejzyy": {
+        "entity.json": {
+          "id": "rapper_mejzyy",
+          "kind": "rapper",
+          "name": "Mejzyy"
+        }
+      },
+      "rapper_nik-tendo": {
+        "entity.json": {
+          "id": "rapper_nik-tendo",
+          "kind": "rapper",
+          "name": "Nik Tendo"
+        }
+      },
+      "rapper_pil-c": {
+        "entity.json": {
+          "id": "rapper_pil-c",
+          "kind": "rapper",
+          "name": "Pil C"
+        }
+      },
+      "rapper_separ": {
+        "entity.json": {
+          "id": "rapper_separ",
+          "kind": "rapper",
+          "name": "Separ"
+        }
+      },
+      "artist_youv-dee": {
+        "entity.json": {
+          "id": "artist_youv-dee",
+          "kind": "artist",
+          "name": "Youv Dee"
+        }
+      },
+      "artist_kenny-rough": {
+        "entity.json": {
+          "id": "artist_kenny-rough",
+          "kind": "artist",
+          "name": "Kenny Rough"
+        }
+      },
+      "artist_grizzly": {
+        "entity.json": {
+          "id": "artist_grizzly",
+          "kind": "artist",
+          "name": "Grizzly"
+        }
+      },
+      "artist_milan-andre-boronell": {
+        "entity.json": {
+          "id": "artist_milan-andre-boronell",
+          "kind": "artist",
+          "name": "Milan André Boronell"
+        }
+      },
+      "artist_under-my-pillow": {
+        "entity.json": {
+          "id": "artist_under-my-pillow",
+          "kind": "artist",
+          "name": "Under My Pillow"
+        }
+      },
+      "artist_sorty": {
+        "entity.json": {
+          "id": "artist_sorty",
+          "kind": "artist",
+          "name": "Šorty"
+        }
+      },
+      "artist_fillipian": {
+        "entity.json": {
+          "id": "artist_fillipian",
+          "kind": "artist",
+          "name": "Fillipian"
+        }
+      },
+      "artist_cyper-sound": {
+        "entity.json": {
+          "id": "artist_cyper-sound",
+          "kind": "artist",
+          "name": "Cyper Sound"
+        }
+      },
+      "artist_karlo": {
+        "entity.json": {
+          "id": "artist_karlo",
+          "kind": "artist",
+          "name": "Karlo"
+        }
+      },
+      "artist_martin-svatek": {
+        "entity.json": {
+          "id": "artist_martin-svatek",
+          "kind": "artist",
+          "name": "Martin Svátek"
+        }
+      },
+      "artist_lenny": {
+        "entity.json": {
+          "id": "artist_lenny",
+          "kind": "artist",
+          "name": "LENNY"
+        }
+      },
+      "artist_tante-elze": {
+        "entity.json": {
+          "id": "artist_tante-elze",
+          "kind": "artist",
+          "name": "Tante Elze"
+        }
+      },
+      "artist_roseck": {
+        "entity.json": {
+          "id": "artist_roseck",
+          "kind": "artist",
+          "name": "Roseck"
+        }
+      },
+      "artist_jakub-dekan": {
+        "entity.json": {
+          "id": "artist_jakub-dekan",
+          "kind": "artist",
+          "name": "Jakub Děkan"
+        }
+      },
+      "artist_mc-gey": {
+        "entity.json": {
+          "id": "artist_mc-gey",
+          "kind": "artist",
+          "name": "MC Gey"
+        }
+      },
+      "artist_idea": {
+        "entity.json": {
+          "id": "artist_idea",
+          "kind": "artist",
+          "name": "Idea"
+        }
+      },
+      "group_haha-crew": {
+        "entity.json": {
+          "id": "group_haha-crew",
+          "kind": "group",
+          "name": "Haha Crew"
+        }
+      },
+      "label_milion-plus": {
+        "entity.json": {
+          "id": "label_milion-plus",
+          "kind": "label",
+          "name": "Milion+ Entertainment"
+        }
+      },
+      "label_wm-czech-republic": {
+        "entity.json": {
+          "id": "label_wm-czech-republic",
+          "kind": "label",
+          "name": "WM Czech Republic"
+        }
+      },
+      "label_44-enterprise": {
+        "entity.json": {
+          "id": "label_44-enterprise",
+          "kind": "label",
+          "name": "44 Enterprise"
+        }
+      },
+      "label_44": {
+        "entity.json": {
+          "id": "label_44",
+          "kind": "label",
+          "name": "44"
+        }
+      },
+      "label_tkx-nostra": {
+        "entity.json": {
+          "id": "label_tkx-nostra",
+          "kind": "label",
+          "name": "TKX NOSTRA"
+        }
+      },
+      "label_cmd-joshua": {
+        "entity.json": {
+          "id": "label_cmd-joshua",
+          "kind": "label",
+          "name": "CMD Joshua"
+        }
+      },
+      "label_sorty": {
+        "entity.json": {
+          "id": "label_sorty",
+          "kind": "label",
+          "name": "Šorty"
+        }
+      },
+      "label_archetyp-51": {
+        "entity.json": {
+          "id": "label_archetyp-51",
+          "kind": "label",
+          "name": "Archetyp 51"
+        }
+      },
+      "label_virgin-music": {
+        "entity.json": {
+          "id": "label_virgin-music",
+          "kind": "label",
+          "name": "Virgin Music Label And Artist Services Distributed Labels"
+        }
+      },
+      "label_lvcas-dope": {
+        "entity.json": {
+          "id": "label_lvcas-dope",
+          "kind": "label",
+          "name": "Lvcas Dope"
+        }
+      },
+      "album_cyclothymique": {
+        "entity.json": {"id": "album_cyclothymique", "kind": "album", "name": "Cyclothymique", "releaseDate": "2023", "type": "album"}
+      },
+      "album_9evet": {
+        "entity.json": {"id": "album_9evet", "kind": "album", "name": "9EVET", "releaseDate": "2016-09-09", "type": "lp", "upc": "3616843477557"}
+      },
+      "album_217": {
+        "entity.json": {"id": "album_217", "kind": "album", "name": "217", "releaseDate": "2020-05-06", "type": "single", "upc": "602507158088"}
+      },
+      "album_666": {
+        "entity.json": {"id": "album_666", "kind": "album", "name": "666", "releaseDate": "2019-05-22", "type": "single", "upc": "602577941832"}
+      },
+      "album_1987": {
+        "entity.json": {"id": "album_1987", "kind": "album", "name": "1987", "releaseDate": "2017-06-25", "type": "single", "upc": "190296751424"}
+      },
+      "album_2020": {
+        "entity.json": {"id": "album_2020", "kind": "album", "name": "2020", "releaseDate": "2020-01-02", "type": "single", "upc": "3616845203772"}
+      },
+      "album_2051": {
+        "entity.json": {"id": "album_2051", "kind": "album", "name": "2051", "releaseDate": "2012-12-05", "type": "lp", "upc": "5055701635759"}
+      },
+      "album_acoustic-session": {
+        "entity.json": {"id": "album_acoustic-session", "kind": "album", "name": "Acoustic Session", "releaseDate": "2023-07-07", "type": "single", "upc": "5054197742033"}
+      },
+      "album_adie-feat-grizzly": {
+        "entity.json": {"id": "album_adie-feat-grizzly", "kind": "album", "name": "Adié (feat. Grizzly)", "releaseDate": "2018-10-15", "type": "single", "upc": "190295532987"}
+      },
+      "album_adios": {
+        "entity.json": {"id": "album_adios", "kind": "album", "name": "Adios", "releaseDate": "2019-01-01", "type": "single", "upc": "3616843530283"}
+      },
+      "album_aether": {
+        "entity.json": {"id": "album_aether", "kind": "album", "name": "Aether", "releaseDate": "2024-12-13", "type": "single", "upc": "3617666995181"}
+      },
+      "album_all-my-life": {
+        "entity.json": {"id": "album_all-my-life", "kind": "album", "name": "All My Life", "releaseDate": "2022-08-18", "type": "single", "upc": "5054197310423"}
+      },
+      "album_amonit": {
+        "entity.json": {"id": "album_amonit", "kind": "album", "name": "Amonit (Deluxe)", "releaseDate": "2023-02-17", "type": "lp", "upc": "5054197558863"}
+      },
+      "album_archive": {
+        "entity.json": {"id": "album_archive", "kind": "album", "name": "Archive"}
+      },
+      "album_bengoro-ii": {
+        "entity.json": {"id": "album_bengoro-ii", "kind": "album", "name": "Bengoro II"}
+      },
+      "album_benim": {
+        "entity.json": {"id": "album_benim", "kind": "album", "name": "BENİM", "releaseDate": "2021-02-26", "type": "lp", "upc": "3617387827419"}
+      },
+      "album_bezo-mna": {
+        "entity.json": {"id": "album_bezo-mna", "kind": "album", "name": "Bezo mňa", "releaseDate": "2022-10-16", "type": "single", "upc": "7316471291995"}
+      },
+      "album_bilej-jak-stena": {
+        "entity.json": {"id": "album_bilej-jak-stena", "kind": "album", "name": "BÍLEJ JAK STĚNA", "releaseDate": "2025-02-21", "type": "single", "upc": "3617390653005"}
+      },
+      "album_bomba": {
+        "entity.json": {"id": "album_bomba", "kind": "album", "name": "Bomba", "releaseDate": "2022-08-14", "type": "single", "upc": "3617050197764"}
+      },
+      "album_boomerang": {
+        "entity.json": {"id": "album_boomerang", "kind": "album", "name": "Boomerang", "releaseDate": "2015-11-30", "type": "lp", "upc": "190295050375"}
+      },
+      "album_brazilie": {
+        "entity.json": {"id": "album_brazilie", "kind": "album", "name": "Brazilie", "releaseDate": "2020-04-12", "type": "single", "upc": "195266646373"}
+      },
+      "album_but-i-don-t-forget": {
+        "entity.json": {"id": "album_but-i-don-t-forget", "kind": "album", "name": "But I Don't Forget"}
+      },
+      "album_c-w-a": {
+        "entity.json": {"id": "album_c-w-a", "kind": "album", "name": "C.W.A"}
+      },
+      "album_celebrate-life-feat-jeremy-carr": {
+        "entity.json": {"id": "album_celebrate-life-feat-jeremy-carr", "kind": "album", "name": "Celebrate Life (feat. Jeremy Carr)"}
+      },
+      "album_celebrity-rehab": {
+        "entity.json": {"id": "album_celebrity-rehab", "kind": "album", "name": "Celebrity Rehab", "releaseDate": "2022-04-15", "type": "single", "upc": "7316470522366"}
+      },
+      "album_champions-league": {
+        "entity.json": {"id": "album_champions-league", "kind": "album", "name": "Champions League"}
+      }
+    },
+    "graph_edges": [
+      {"source": "rapper_d-kop", "relation": "MEMBER_OF", "target": "project_jmpz", "confidence": 0.6, "evidence": "Source claims 'údajně spojen s projektem JMPZ'"},
+      {"source": "album_cyclothymique", "relation": "RELEASED_BY", "target": "rapper_d-kop", "confidence": 0.95, "evidence": "Deezer album data"},
+      {"source": "album_cyclothymique", "relation": "HAS_PRODUCER", "target": "producer_jmpz", "confidence": 0.9, "evidence": "Source meta"},
+      {"source": "album_cyclothymique", "relation": "HAS_PRODUCER", "target": "producer_ghost-beats", "confidence": 0.9, "evidence": "Source meta"},
+      {"source": "rapper_sofian-medjmedj", "relation": "COLLABORATED_WITH", "target": "artist_ben-cristovao", "confidence": 0.95, "evidence": "Explicit mention of track 'Reinkarnační'"},
+      {"source": "rapper_sofian-medjmedj", "relation": "COLLABORATED_WITH", "target": "artist_calin", "confidence": 0.95, "evidence": "Explicit mention of track 'Pistácie'"},
+      {"source": "rapper_sofian-medjmedj", "relation": "COLLABORATED_WITH", "target": "artist_mikolaj-trybulec", "confidence": 0.8, "evidence": "Listed in collaborators"},
+      {"source": "rapper_sofian-medjmedj", "relation": "COLLABORATED_WITH", "target": "artist_vavra", "confidence": 0.8, "evidence": "Listed in collaborators"},
+      {"source": "rapper_smack", "relation": "COLLABORATED_WITH", "target": "group_iscream", "confidence": 0.9, "evidence": "Source context"},
+      {"source": "rapper_samey", "relation": "MEMBER_OF", "target": "group_haha-crew", "confidence": 0.95, "evidence": "Explicitly stated"},
+      {"source": "track_tango", "relation": "HAS_FEATURE", "target": "rapper_samey", "confidence": 0.9},
+      {"source": "track_tango", "relation": "HAS_FEATURE", "target": "artist_dalyb", "confidence": 0.9},
+      {"source": "track_tango", "relation": "HAS_FEATURE", "target": "artist_zayo", "confidence": 0.9},
+      {"source": "track_tango", "relation": "HAS_FEATURE", "target": "artist_kidd", "confidence": 0.9},
+      {"source": "track_tango", "relation": "HAS_FEATURE", "target": "artist_oskar", "confidence": 0.9},
+      {"source": "track_tango", "relation": "HAS_PRODUCER", "target": "producer_runway", "confidence": 0.9},
+      {"source": "track_tango", "relation": "HAS_PRODUCER", "target": "producer_paulie-garand", "confidence": 0.9},
+      {"source": "track_siluety-duse", "relation": "HAS_FEATURE", "target": "rapper_samey", "confidence": 0.9},
+      {"source": "track_siluety-duse", "relation": "HAS_PRODUCER", "target": "producer_dokkeytino", "confidence": 0.9},
+      {"source": "rapper_robin-zoot", "relation": "MEMBER_OF", "target": "label_milion-plus", "confidence": 0.95, "evidence": "Explicitly stated"},
+      {"source": "track_givenchy", "relation": "HAS_PRODUCER", "target": "producer_konex", "confidence": 0.95},
+      {"source": "track_milion-cypher-2022", "relation": "HAS_FEATURE", "target": "rapper_yzomandias", "confidence": 0.95},
+      {"source": "track_milion-cypher-2022", "relation": "HAS_FEATURE", "target": "rapper_viktor-sheen", "confidence": 0.95},
+      {"source": "track_milion-cypher-2022", "relation": "HAS_FEATURE", "target": "rapper_jickson", "confidence": 0.95},
+      {"source": "track_milion-cypher-2022", "relation": "HAS_FEATURE", "target": "rapper_smack", "confidence": 0.95},
+      {"source": "album_9evet", "relation": "RELEASED_BY", "target": "rapper_lvcas-dope", "confidence": 0.95},
+      {"source": "album_9evet", "relation": "RELEASED_ON_LABEL", "target": "label_lvcas-dope", "confidence": 0.95},
+      {"source": "album_217", "relation": "RELEASED_BY", "target": "rapper_yzomandias", "confidence": 0.95},
+      {"source": "album_217", "relation": "RELEASED_ON_LABEL", "target": "label_virgin-music", "confidence": 0.95},
+      {"source": "track_217", "relation": "HAS_FEATURE", "target": "artist_nik-tendo", "confidence": 0.95},
+      {"source": "album_666", "relation": "RELEASED_BY", "target": "rapper_yzomandias", "confidence": 0.95},
+      {"source": "album_666", "relation": "RELEASED_ON_LABEL", "target": "label_virgin-music", "confidence": 0.95},
+      {"source": "track_666", "relation": "HAS_FEATURE", "target": "artist_youv-dee", "confidence": 0.95},
+      {"source": "album_1987", "relation": "RELEASED_BY", "target": "rapper_paulie-garand", "confidence": 0.95},
+      {"source": "album_1987", "relation": "RELEASED_ON_LABEL", "target": "label_wm-czech-republic", "confidence": 0.95},
+      {"source": "album_2020", "relation": "RELEASED_BY", "target": "rapper_lvcas-dope", "confidence": 0.95},
+      {"source": "album_2020", "relation": "RELEASED_ON_LABEL", "target": "label_44-enterprise", "confidence": 0.95},
+      {"source": "album_2051", "relation": "RELEASED_BY", "target": "rapper_smack", "confidence": 0.95},
+      {"source": "album_2051", "relation": "RELEASED_ON_LABEL", "target": "label_archetyp-51", "confidence": 0.95},
+      {"source": "track_opust-prostor", "relation": "HAS_FEATURE", "target": "artist_igor", "confidence": 0.90},
+      {"source": "track_opust-prostor", "relation": "HAS_FEATURE", "target": "artist_marat", "confidence": 0.90},
+      {"source": "track_koberec", "relation": "HAS_FEATURE", "target": "artist_micky-gee", "confidence": 0.90},
+      {"source": "track_koberec", "relation": "HAS_FEATURE", "target": "artist_fuckstroy", "confidence": 0.90},
+      {"source": "track_bic", "relation": "HAS_FEATURE", "target": "artist_sex-addict", "confidence": 0.90},
+      {"source": "track_nestaram-se-o-nikoho-a-palim-zoot", "relation": "HAS_FEATURE", "target": "artist_plio", "confidence": 0.90},
+      {"source": "track_nevis-co-sem-delal-driv", "relation": "HAS_FEATURE", "target": "artist_igor", "confidence": 0.90},
+      {"source": "track_v-hajzlu-2", "relation": "HAS_FEATURE", "target": "artist_marat", "confidence": 0.90},
+      {"source": "track_v-hajzlu-2", "relation": "HAS_FEATURE", "target": "artist_orion", "confidence": 0.90},
+      {"source": "track_v-hajzlu-2", "relation": "HAS_FEATURE", "target": "artist_hugo-toxxx", "confidence": 0.90},
+      {"source": "track_ne-ser-me", "relation": "HAS_FEATURE", "target": "artist_marat", "confidence": 0.90},
+      {"source": "track_ne-ser-me", "relation": "HAS_FEATURE", "target": "artist_igor", "confidence": 0.90},
+      {"source": "track_ne-ser-me", "relation": "HAS_FEATURE", "target": "artist_fuckstroy", "confidence": 0.90},
+      {"source": "album_acoustic-session", "relation": "RELEASED_BY", "target": "rapper_paulie-garand", "confidence": 0.95},
+      {"source": "album_acoustic-session", "relation": "RELEASED_ON_LABEL", "target": "label_wm-czech-republic", "confidence": 0.95},
+      {"source": "album_adie-feat-grizzly", "relation": "RELEASED_BY", "target": "rapper_paulie-garand", "confidence": 0.95},
+      {"source": "album_adie-feat-grizzly", "relation": "RELEASED_BY", "target": "artist_kenny-rough", "confidence": 0.95},
+      {"source": "album_adie-feat-grizzly", "relation": "RELEASED_ON_LABEL", "target": "label_wm-czech-republic", "confidence": 0.95},
+      {"source": "track_adie-feat-grizzly", "relation": "HAS_FEATURE", "target": "artist_grizzly", "confidence": 0.95},
+      {"source": "album_adios", "relation": "RELEASED_BY", "target": "rapper_lvcas-dope", "confidence": 0.95},
+      {"source": "album_adios", "relation": "RELEASED_ON_LABEL", "target": "label_44-enterprise", "confidence": 0.95},
+      {"source": "album_aether", "relation": "RELEASED_BY", "target": "rapper_lvcas-dope", "confidence": 0.95},
+      {"source": "album_aether", "relation": "RELEASED_ON_LABEL", "target": "label_44-enterprise", "confidence": 0.95},
+      {"source": "album_all-my-life", "relation": "RELEASED_BY", "target": "rapper_paulie-garand", "confidence": 0.95},
+      {"source": "album_all-my-life", "relation": "RELEASED_ON_LABEL", "target": "label_wm-czech-republic", "confidence": 0.95},
+      {"source": "track_all-my-life", "relation": "HAS_FEATURE", "target": "artist_milan-andre-boronell", "confidence": 0.95},
+      {"source": "track_all-my-life", "relation": "HAS_FEATURE", "target": "artist_under-my-pillow", "confidence": 0.95},
+      {"source": "album_amonit", "relation": "RELEASED_BY", "target": "rapper_paulie-garand", "confidence": 0.95},
+      {"source": "album_amonit", "relation": "RELEASED_ON_LABEL", "target": "label_wm-czech-republic", "confidence": 0.95},
+      {"source": "album_archive", "relation": "RELEASED_BY", "target": "rapper_ptk", "confidence": 0.95},
+      {"source": "album_bengoro-ii", "relation": "RELEASED_BY", "target": "rapper_rytmus", "confidence": 0.95},
+      {"source": "album_benim", "relation": "RELEASED_BY", "target": "rapper_lvcas-dope", "confidence": 0.95},
+      {"source": "album_benim", "relation": "RELEASED_ON_LABEL", "target": "label_44-enterprise", "confidence": 0.95},
+      {"source": "album_bezo-mna", "relation": "RELEASED_BY", "target": "rapper_sorty", "confidence": 0.95},
+      {"source": "album_bezo-mna", "relation": "RELEASED_BY", "target": "rapper_lvcas-dope", "confidence": 0.95},
+      {"source": "album_bezo-mna", "relation": "RELEASED_BY", "target": "artist_fillipian", "confidence": 0.95},
+      {"source": "album_bezo-mna", "relation": "RELEASED_ON_LABEL", "target": "label_sorty", "confidence": 0.95},
+      {"source": "album_bilej-jak-stena", "relation": "RELEASED_BY", "target": "rapper_joshua", "confidence": 0.95},
+      {"source": "album_bilej-jak-stena", "relation": "RELEASED_BY", "target": "rapper_smack", "confidence": 0.95},
+      {"source": "album_bilej-jak-stena", "relation": "RELEASED_BY", "target": "artist_cyper-sound", "confidence": 0.95},
+      {"source": "album_bilej-jak-stena", "relation": "RELEASED_ON_LABEL", "target": "label_cmd-joshua", "confidence": 0.95},
+      {"source": "album_bomba", "relation": "RELEASED_BY", "target": "rapper_lvcas-dope", "confidence": 0.95},
+      {"source": "album_bomba", "relation": "RELEASED_ON_LABEL", "target": "label_44-enterprise", "confidence": 0.95},
+      {"source": "album_boomerang", "relation": "RELEASED_BY", "target": "rapper_paulie-garand", "confidence": 0.95},
+      {"source": "album_boomerang", "relation": "RELEASED_BY", "target": "artist_kenny-rough", "confidence": 0.95},
+      {"source": "album_boomerang", "relation": "RELEASED_ON_LABEL", "target": "label_wm-czech-republic", "confidence": 0.95},
+      {"source": "track_boomerang-feat-martin-svatek", "relation": "HAS_FEATURE", "target": "artist_martin-svatek", "confidence": 0.90},
+      {"source": "track_hladina-feat-lenny", "relation": "HAS_FEATURE", "target": "artist_lenny", "confidence": 0.90},
+      {"source": "track_nadech-feat-rest", "relation": "HAS_FEATURE", "target": "rapper_rest", "confidence": 0.90},
+      {"source": "track_ve-sparech-feat-tante-elze", "relation": "HAS_FEATURE", "target": "artist_tante-elze", "confidence": 0.90},
+      {"source": "track_gotham-feat-roseck", "relation": "HAS_FEATURE", "target": "artist_roseck", "confidence": 0.90},
+      {"source": "track_labyrint-feat-pil-c", "relation": "HAS_FEATURE", "target": "rapper_pil-c", "confidence": 0.90},
+      {"source": "track_lbc-feat-jakub-dekan", "relation": "HAS_FEATURE", "target": "artist_jakub-dekan", "confidence": 0.90},
+      {"source": "track_prdele-v-plamenech-feat-separ", "relation": "HAS_FEATURE", "target": "rapper_separ", "confidence": 0.90},
+      {"source": "track_za-horizont-feat-mc-gey", "relation": "HAS_FEATURE", "target": "artist_mc-gey", "confidence": 0.90},
+      {"source": "track_bez-pout-feat-lenny-idea", "relation": "HAS_FEATURE", "target": "artist_lenny", "confidence": 0.90},
+      {"source": "track_bez-pout-feat-lenny-idea", "relation": "HAS_FEATURE", "target": "artist_idea", "confidence": 0.90},
+      {"source": "album_brazilie", "relation": "RELEASED_BY", "target": "rapper_lvcas-dope", "confidence": 0.95},
+      {"source": "album_brazilie", "relation": "RELEASED_ON_LABEL", "target": "label_44", "confidence": 0.95},
+      {"source": "album_but-i-don-t-forget", "relation": "RELEASED_BY", "target": "rapper_mejzyy", "confidence": 0.95},
+      {"source": "album_c-w-a", "relation": "RELEASED_BY", "target": "rapper_hugo-toxxx", "confidence": 0.95},
+      {"source": "album_celebrate-life-feat-jeremy-carr", "relation": "RELEASED_BY", "target": "rapper_kato", "confidence": 0.95},
+      {"source": "album_celebrity-rehab", "relation": "RELEASED_BY", "target": "rapper_tkx", "confidence": 0.95},
+      {"source": "album_celebrity-rehab", "relation": "RELEASED_BY", "target": "rapper_nik-tendo", "confidence": 0.95},
+      {"source": "album_celebrity-rehab", "relation": "RELEASED_BY", "target": "rapper_yzomandias", "confidence": 0.95},
+      {"source": "album_celebrity-rehab", "relation": "RELEASED_ON_LABEL", "target": "label_tkx-nostra", "confidence": 0.95},
+      {"source": "track_celebrity-rehab", "relation": "HAS_FEATURE", "target": "artist_karlo", "confidence": 0.95},
+      {"source": "album_champions-league", "relation": "RELEASED_BY", "target": "rapper_smack", "confidence": 0.95}
+    ],
+    "graph_candidates": [
+      {"source": "rapper_d-kop", "relation": "ORIGINATED_FROM", "target": "city_praha", "confidence": 0.5, "reason": "Source lists origin as 'Praha (předpoklad)'. Cannot confirm as canonical fact without verification."},
+      {"source": "rapper_samey", "relation": "VOICE_ACTOR_FOR", "target": "series_total-drama", "confidence": 0.6, "reason": "Unverified claim about dubbing animated series. Requires external source verification."},
+      {"source": "rapper_samey", "relation": "COLLABORATED_WITH", "target": "artist_fred-again", "confidence": 0.4, "reason": "Claimed feature on 'Talk of the Town', likely confusion or unverified reference. Low confidence."},
+      {"source": "rapper_d-kop", "relation": "COLLABORATED_WITH", "target": "influence_insane-clown-posse", "confidence": 0.3, "reason": "Influence listed in meta, not a direct collaboration."},
+      {"source": "track_reinkarnacni", "relation": "HAS_FEATURE", "target": "rapper_sofian-medjmedj", "confidence": 0.8, "reason": "Track mentioned in narrative/FAQ but missing from discography data. Needs structural creation."},
+      {"source": "track_pistacie", "relation": "HAS_FEATURE", "target": "rapper_sofian-medjmedj", "confidence": 0.8, "reason": "Track mentioned in narrative/FAQ but missing from discography data. Needs structural creation."}
+    ]
+  }
+}
