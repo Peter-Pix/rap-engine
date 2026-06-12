@@ -1,25 +1,44 @@
 {
-  "albums": [],
+  "albums": [
+    "album_roaming",
+    "album_bloom",
+    "album_ve-spatny-cas-na-spravnym-miste"
+  ],
   "artists": [],
   "genres": [
-    "trap"
+    "genre_trap",
+    "genre_rap"
   ],
   "influencedBy": [],
   "labels": [],
-  "locations": [],
+  "locations": [
+    "location_praha"
+  ],
   "moods": [
-    "dark"
+    "mood_dark",
+    "mood_raw"
   ],
   "partOf": [],
-  "related": [],
+  "related": [
+    "artist_hasan",
+    "artist_yzomandias",
+    "artist_hugo-toxxx",
+    "artist_pain",
+    "artist_sensey",
+    "artist_nik-tendo",
+    "artist_calin",
+    "artist_vercetti-cg"
+  ],
   "scenes": [
-    "underground"
+    "scene_underground"
   ],
   "styles": [
-    "street"
+    "style_street",
+    "style_hardcore"
   ],
   "themes": [
-    "street-life"
+    "theme_street-life",
+    "theme_life"
   ],
   "tracks": []
 }
