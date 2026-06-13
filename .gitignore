@@ -4,3 +4,7 @@ node_modules/
 .DS_Store
 *.log
 .env.local
+
+# Auto-generated Next.js / TypeScript files
+next-env.d.ts
+tsconfig.tsbuildinfo
