@@ -1,21 +1,20 @@
 # Artist entity — detailní rozpisek skupin
 
 > Generováno 13. 6. 2026 15:15
-> 232 artist entit celkem → 38 🟢 RICH : 80 🟠 MINIMAL : 61 🟡 WEAK : 53 ⬜ EMPTY
+> 231 artist entit celkem (1 smazáno — adam-misik není CZ/SK rap) → 38 🟢 RICH : 80 🟠 MINIMAL : 61 🟡 WEAK : 53 ⬜ EMPTY
 
 ---
 
-## ⬜ EMPTY — 53 entit
+## ⬜ EMPTY — 52 entit (1 smazáno: adam-misik není CZ/SK rap)
 
 ### ⭐ Významná jména
 
 | # | Slug | Lines | Sec | RealName | Occupation |
 |---|---|---|---|---|---|
-| 1 | `adam-misik` | 8 | 0 | — | — |
-| 2 | `ewa-farna` | 8 | 0 | — | — |
-| 3 | `marko-damian` | 8 | 0 | — | — |
-| 4 | `pam-rabbit` | 8 | 0 | — | — |
-| 5 | `saul` | 8 | 0 | — | — |
+| 1 | `ewa-farna` | 8 | 0 | — | — |
+| 2 | `marko-damian` | 8 | 0 | — | — |
+| 3 | `pam-rabbit` | 8 | 0 | — | — |
+| 4 | `saul` | 8 | 0 | — | — |
 
 ### Ostatní
 
@@ -301,7 +300,7 @@
 | 🟠 MINIMAL | 80 | Mají obsah z auto-importu, ale chybí struktura |
 | 🟡 WEAK | 61 | Pouze pár vět, 0 sekcí |
 | ⬜ EMPTY | 53 | Jen frontmatter, žádný text |
-| **Celkem** | **232** | |
+| **Celkem** | **231** (1 smazáno) | |
 
 ### ⭐ Významná jména, která aktuálně nemají rich page
 
