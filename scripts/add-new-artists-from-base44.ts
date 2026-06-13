@@ -6,15 +6,15 @@
  * 1. Vezme data z Base44 API
  * 2. Najde ty, co neexistují lokálně (podle artist_name → slug)
  * 3. Vytvoří entity stub (entity.mdx + meta.json + relations.json)
- * 4. Přidá entry do images.ts (pokud existuje fotka)
- * 5. Stáhne profilovou fotku (pokud chybí)
- * 6. Git commitne jako jeden commit
+ *    - Správné edge types: RELATED_ARTIST, HAS_ALBUM, SIGNED_TO, ORIGINATES_FROM, HAS_STYLE
+ *    - Skipuje targety, co v databázi neexistují (validuje přes content-cache)
+ * 4. Stáhne profilovou fotku, přidá do images.ts
+ * 5. Git commitne jako jeden commit
  *
  * Bezpečnost:
  * - Nikdy nepřepisuje existující entity (přeskočí)
- * - Každá akce zapsána v logu
- * - Když selže cokoliv uprostřed, stashne a vrátí
- * - Nepřidává duplikáty
+ * - Když target neexistuje, vynechá se
+ * - Idempotentní — běh 2x neudělá nic navíc
  *
  * Usage: npx tsx scripts/add-new-artists-from-base44.ts
  */
@@ -27,6 +27,7 @@ const REPO = path.resolve(__dirname, "..");
 const LOG_FILE = path.join(REPO, "logs", "add-new-artists.log");
 const IMAGE_DIR = path.join(REPO, "public", "images", "artists");
 const IMAGES_TS = path.join(REPO, "src", "lib", "content", "images.ts");
+const CACHE_ENTITIES = path.join(REPO, ".content-cache", "entities.json");
 
 const BASE44_URL = "https://44rap.base44.app";
 const BASE44_KEY = "b9d03638f3df4fe49ee5e75ab26d0803";
@@ -61,7 +62,13 @@ function slugify(name: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
-function getLocalSlugs(): Set<string> {
+function loadCacheIds(): Set<string> {
+  if (!fs.existsSync(CACHE_ENTITIES)) return new Set();
+  const e = JSON.parse(fs.readFileSync(CACHE_ENTITIES, "utf-8"));
+  return new Set(Object.keys(e));
+}
+
+function getLocalArtistSlugs(): Set<string> {
   const entitiesDir = path.join(REPO, "content", "entities");
   const slugs = new Set<string>();
   if (!fs.existsSync(entitiesDir)) return slugs;
@@ -86,7 +93,6 @@ interface Base44Rapper {
   active_since?: string;
   label?: string;
   profile_image_url?: string;
-  photo_filename?: string;
   status?: string;
   short_intro?: string;
   one_liner?: string;
@@ -94,7 +100,6 @@ interface Base44Rapper {
   what_makes_unique?: string;
   influence?: string;
   generation_context?: string;
-  superpower?: string;
   controversy?: string;
   themes?: string[];
   style_tags?: string[];
@@ -119,12 +124,9 @@ async function fetchAllRappers(): Promise<Base44Rapper[]> {
 
 // ─── Create entity files ──────────────────────────────────────────────────
 
-function createEntity(rapper: Base44Rapper, slug: string) {
+function createEntity(rapper: Base44Rapper, slug: string, validIds: Set<string>) {
   const dir = path.join(REPO, "content", "entities", `artist_${slug}`);
-  if (fs.existsSync(dir)) {
-    log(`  ⚠️  artist_${slug}/ already exists, skipping`);
-    return false;
-  }
+  if (fs.existsSync(dir)) return false;
 
   fs.mkdirSync(dir, { recursive: true });
 
@@ -144,8 +146,7 @@ function createEntity(rapper: Base44Rapper, slug: string) {
   if (rapper.real_name) frontmatter.push(`realName: ${rapper.real_name}`);
   if (rapper.city) frontmatter.push(`origin: ${rapper.city}${isS ? ", Slovensko" : isC ? ", Česko" : ""}`);
   if (rapper.birth_date) frontmatter.push(`birthDate: ${rapper.birth_date}`);
-  const occupation = country === "SK" ? "rapper, textař" : "rapper, textař";
-  frontmatter.push(`occupation: [${occupation}]`);
+  frontmatter.push(`occupation: [rapper, textař]`);
   frontmatter.push("status: draft");
   frontmatter.push("---");
   frontmatter.push("");
@@ -161,9 +162,7 @@ function createEntity(rapper: Base44Rapper, slug: string) {
     "",
     "## Kdo je",
     "",
-    rapper.what_makes_unique
-      ? rapper.what_makes_unique
-      : `*Profil ${title} se připravuje.*`,
+    rapper.what_makes_unique || `*Profil ${title} se připravuje.*`,
     "",
     "***",
     "",
@@ -185,57 +184,34 @@ function createEntity(rapper: Base44Rapper, slug: string) {
   }
 
   if (rapper.fun_facts?.length) {
-    mdxBody.push(
-      "", "***", "", "## Fun facts",
-      "",
-      ...rapper.fun_facts.map(f => `- ${f}`)
-    );
+    mdxBody.push("", "***", "", "## Fun facts", "", ...rapper.fun_facts.map(f => `- ${f}`));
   }
 
-  // Albums
   if (rapper.key_albums?.length) {
     mdxBody.push(
-      "", "***", "", "## Klíčová alba",
-      "",
-      ...rapper.key_albums.map(a => {
-        const year = a.year ? ` (${a.year})` : "";
-        return `- **${a.title}**${year} — ${a.description || ""}`;
-      })
+      "", "***", "", "## Klíčová alba", "",
+      ...rapper.key_albums.map(a => `- **${a.title}** (${a.year}) — ${a.description || ""}`)
     );
   }
 
-  // Key tracks
   if (rapper.key_tracks?.length) {
-    mdxBody.push(
-      "", "***", "", "## Klíčové tracky",
-      "",
-      ...rapper.key_tracks.map(t => `- ${t}`)
-    );
+    mdxBody.push("", "***", "", "## Klíčové tracky", "", ...rapper.key_tracks.map(t => `- ${t}`));
   }
 
-  // Style tags
   if (rapper.style_tags?.length) {
-    mdxBody.push(
-      "", "***", "", "## Styl",
-      "",
-      rapper.style_tags.join(", ")
-    );
+    mdxBody.push("", "***", "", "## Styl", "", rapper.style_tags.join(", "));
   }
 
-  // Similar artists
   if (rapper.similar_artists?.length) {
     mdxBody.push(
-      "", "***", "", "## Koho si pustit dál",
-      "",
+      "", "***", "", "## Koho si pustit dál", "",
       "Související: " + rapper.similar_artists.map(a => `**${a}**`).join(", ") + "."
     );
   }
 
-  // Sources / citations
   if (rapper.sources?.length) {
     mdxBody.push(
-      "", "***", "", "## Zdroje",
-      "",
+      "", "***", "", "## Zdroje", "",
       ...rapper.sources.map(s => `- [${new URL(s).hostname}](${s})`)
     );
   }
@@ -247,45 +223,56 @@ function createEntity(rapper: Base44Rapper, slug: string) {
 
   // ── meta.json ──
   const meta: Record<string, any> = {
-    id: `artist_${slug}`,
-    type: "artist",
-    slug,
-    title,
-    status: "draft",
+    id: `artist_${slug}`, type: "artist", slug, title, status: "draft",
   };
   if (rapper.real_name) meta.realName = rapper.real_name;
   if (rapper.city) meta.origin = `${rapper.city}${isS ? ", Slovensko" : isC ? ", Česko" : ""}`;
   if (rapper.birth_date) meta.birthDate = rapper.birth_date;
-  if (rapper.occupation) meta.occupation = [rapper.occupation];
   if (rapper.short_intro) meta.description = rapper.short_intro;
-  fs.writeFileSync(
-    path.join(dir, "meta.json"),
-    JSON.stringify(meta, null, 2) + "\n"
-  );
+  fs.writeFileSync(path.join(dir, "meta.json"), JSON.stringify(meta, null, 2) + "\n");
 
-  // ── relations.json ──
+  // ── relations.json — uses VALIDATED target IDs and CORRECT edge types ──
   const relations: Record<string, any> = { outbound: {} };
-  if (rapper.label) {
-    relations.outbound.SIGNED_TO = [`label_${slugify(rapper.label)}`];
-  }
-  if (rapper.similar_artists?.length) {
-    relations.outbound.SIMILAR_TO = rapper.similar_artists.map(a => `artist_${slugify(a)}`);
-  }
-  if (rapper.city) {
-    relations.outbound.ORIGINATES_FROM = [`location_${slugify(rapper.city)}`];
-  }
-  if (rapper.key_albums?.length) {
-    relations.outbound.RELEASED = rapper.key_albums.map(a => `album_${slugify(a.title)}`);
-  }
-  if (rapper.style_tags?.length) {
-    relations.outbound.HAS_GENRE = rapper.style_tags.map(t => `style_${slugify(t)}`);
-  }
-  fs.writeFileSync(
-    path.join(dir, "relations.json"),
-    JSON.stringify(relations, null, 2) + "\n"
-  );
 
-  log(`  ✓ created artist_${slug}/`);
+  // SIGNED_TO → label
+  if (rapper.label) {
+    const target = `label_${slugify(rapper.label)}`;
+    if (validIds.has(target)) relations.outbound.SIGNED_TO = [target];
+  }
+
+  // RELATED_ARTIST → similar_artists (místo SIMILAR_TO!)
+  if (rapper.similar_artists?.length) {
+    const targets = rapper.similar_artists
+      .map(a => `artist_${slugify(a)}`)
+      .filter(t => validIds.has(t));
+    if (targets.length) relations.outbound.RELATED_ARTIST = [...new Set(targets)];
+  }
+
+  // ORIGINATES_FROM → city
+  if (rapper.city) {
+    const target = `location_${slugify(rapper.city)}`;
+    if (validIds.has(target)) relations.outbound.ORIGINATES_FROM = [target];
+  }
+
+  // HAS_ALBUM → key_albums (místo RELEASED!)
+  if (rapper.key_albums?.length) {
+    const targets = rapper.key_albums
+      .map(a => `album_${slugify(a.title)}`)
+      .filter(t => validIds.has(t));
+    if (targets.length) relations.outbound.HAS_ALBUM = [...new Set(targets)];
+  }
+
+  // HAS_STYLE → style_tags (místo HAS_GENRE!)
+  if (rapper.style_tags?.length) {
+    const targets = rapper.style_tags
+      .map(t => `style_${slugify(t)}`)
+      .filter(t => validIds.has(t));
+    if (targets.length) relations.outbound.HAS_STYLE = [...new Set(targets)];
+  }
+
+  fs.writeFileSync(path.join(dir, "relations.json"), JSON.stringify(relations, null, 2) + "\n");
+
+  log(`  ✓ created artist_${slug}/ (${Object.keys(relations.outbound).length} relations)`);
   return true;
 }
 
@@ -300,9 +287,7 @@ async function downloadImage(url: string, dest: string): Promise<boolean> {
     if (buffer.length < 100) return false;
     fs.writeFileSync(dest, buffer);
     return true;
-  } catch {
-    return false;
-  }
+  } catch { return false; }
 }
 
 function addToImagesTs(slug: string, ext: string) {
@@ -326,8 +311,11 @@ async function main() {
   log("═══════════ ADD NEW ARTISTS FROM BASE44 ═══════════");
   fs.mkdirSync(IMAGE_DIR, { recursive: true });
 
-  const localSlugs = getLocalSlugs();
-  log(`Local artist slugs: ${localSlugs.size}`);
+  const validIds = loadCacheIds();
+  log(`Valid cache IDs: ${validIds.size}`);
+
+  const localArtistSlugs = getLocalArtistSlugs();
+  log(`Local artist slugs: ${localArtistSlugs.size}`);
 
   const rappers = await fetchAllRappers();
   if (rappers.length === 0) {
@@ -345,13 +333,12 @@ async function main() {
     if (!name) continue;
 
     const slug = slugify(name);
-    if (localSlugs.has(slug)) continue;
-    // Také zkontroluj alternativní varianty (jako pro "58G" existují entity 58G, 58g)
-    if (localSlugs.has(name.toLowerCase()) || localSlugs.has(name.toLowerCase().replace(/\s+/g, ''))) continue;
+    if (localArtistSlugs.has(slug)) continue;
+    if (localArtistSlugs.has(name.toLowerCase()) || localArtistSlugs.has(name.toLowerCase().replace(/\s+/g, ''))) continue;
 
     log(`🆕 New artist: ${name} (${rapper.country || "?"}) → ${slug}`);
 
-    const ok = createEntity(rapper, slug);
+    const ok = createEntity(rapper, slug, validIds);
     if (!ok) continue;
     created++;
     newEntities.push(slug);
@@ -367,6 +354,8 @@ async function main() {
         log(`  ✓ image: ${slug}${ext} (${(size / 1024).toFixed(0)}KB)`);
         addToImagesTs(slug, ext);
         downloaded++;
+      } else {
+        log(`  ⚠️ image download failed for ${slug}`);
       }
     }
   }
@@ -376,7 +365,6 @@ async function main() {
   log(`  - Downloaded images: ${downloaded}`);
 
   if (created > 0) {
-    const now = new Date();
     git("add", "content/entities/", "public/images/artists/", "src/lib/content/images.ts");
     git("commit", "-m", `feat: add new artists from Base44 (${newEntities.join(", ")})`);
     log(`  → committed`);
