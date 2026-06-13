@@ -31,20 +31,20 @@ Pro každého rappera v checklistu:
 | # | Slug | Profil | Raw KB | Ent B | RealName? | Stav |
 |---|------|--------|--------|-------|-----------|------|
 | 1 | `rytmus` | Rytmus.txt | 24.3 | **24276** | ✓ Patrik Vrbovský | ✅ |
-| 2 | `ego` | Ego.txt | 23.2 | 1137 | ✓ Michal Straka | ⬜ |
-| 3 | `separ` | Separ.txt | 23.2 | 1114 | ✓ Michael Kmeť | ⬜ |
-| 4 | `marpo` | Marpo.txt | 24.0 | 858 | ✓ Otakar Petřina | ⬜ |
-| 5 | `orion` | Orion.txt | 24.6 | 1336 | ✓ Michal Opletal | ⬜ |
-| 6 | `ben-cristovao` | Ben Cristovao.txt | 28.0 | 1590 | ✓ Ben da Silva Cristóvão | ⬜ |
-| 7 | `gleb` | Gleb.txt | 25.4 | 1478 | ✓ Gleb Veselov | ⬜ |
-| 8 | `ptk` | PTK.txt | 25.0 | 1611 | ✓ Patrik Aišman | ⬜ |
-| 9 | `pil-c` | Pil C.txt | 21.2 | 1200 | ✓ Lukáš Kajanovič | ⬜ |
-| 10 | `fobia-kid` | Fobia Kid.txt | 24.4 | 1449 | **✗ missing** | ⬜ |
-| 11 | `fvck-kvlt` | Fvck_kvlt.txt | 23.0 | 1428 | ✓ Denis Bango | ⬜ |
-| 12 | `hellwana` | Hellwana.txt | 26.1 | 1471 | ✓ Monika Evans | ⬜ |
-| 13 | `mike-trafik` | Mike Trafik.txt | 24.1 | 1458 | ✓ Michal Řepka | ⬜ |
-| 14 | `arleta` | Arleta.txt | 28.5 | 1664 | ✓ Arleta Berndorff | ⬜ |
-| 15 | `vercetti-cg` | Vercetti CG.txt | 19.4 | 1515 | ✓ Dominik Vyšata | ⬜ |
+| 2 | `ego` | Ego.txt | 23.2 | 1137 | ✓ Michal Straka | ✅ |
+| 3 | `separ` | Separ.txt | 23.2 | 1114 | ✓ Michael Kmeť | ✅ |
+| 4 | `marpo` | Marpo.txt | 24.0 | 858 | ✓ Otakar Petřina | ✅ |
+| 5 | `orion` | Orion.txt | 24.6 | 1336 | ✓ Michal Opletal | ✅ |
+| 6 | `ben-cristovao` | Ben Cristovao.txt | 28.0 | 1590 | ✓ Ben da Silva Cristóvão | ✅ |
+| 7 | `gleb` | Gleb.txt | 25.4 | 1478 | ✓ Gleb Veselov | ✅ |
+| 8 | `ptk` | PTK.txt | 25.0 | 1611 | ✓ Patrik Aišman | ✅ |
+| 9 | `pil-c` | Pil C.txt | 21.2 | 1200 | ✓ Lukáš Kajanovič | ✅ |
+| 10 | `fobia-kid` | Fobia Kid.txt | 24.4 | 1449 | **✗ missing** | ✅ |
+| 11 | `fvck-kvlt` | Fvck_kvlt.txt | 23.0 | 1428 | ✓ Denis Bango | ✅ |
+| 12 | `hellwana` | Hellwana.txt | 26.1 | 1471 | ✓ Monika Evans | ✅ |
+| 13 | `mike-trafik` | Mike Trafik.txt | 24.1 | 1458 | ✓ Michal Řepka | ✅ |
+| 14 | `arleta` | Arleta.txt | 28.5 | 1664 | ✓ Arleta Berndorff | ✅ |
+| 15 | `vercetti-cg` | Vercetti CG.txt | 19.4 | 1515 | ✓ Dominik Vyšata | ✅ |
 
 ## Priorita B — 9rappers/ (9 rapperů, profil nikdy neimportován)
 
@@ -81,10 +81,19 @@ Pro každého rappera v checklistu:
 
 | Kategorie | Celkem | Hotovo |
 |-----------|--------|--------|
-| Priorita A (15profilu) | 15 | 0 |
-| Priorita B (9rappers) | 9 | 0 |
-| Priorita B (10/) | 10 | 0 |
-| **Celkem** | **34** | **1** |
+| Priorita A (15profilu) | 15 | **15 ✅** |
+| Priorita B (9rappers) | 9 | **9 ✅** |
+| Priorita B (10/) | 10 | **10 ✅** |
+| **Celkem** | **34** | **34 ✅** |
+
+## Stav k 13. 6. 2026 (14:30)
+
+**HOTOVO ✅ — všech 34 entit má bohaté profily s plnými sekcemi.**
+
+Dnešní session (13. 6.):
+- **15profilu/ (15/15)** → dříve dnes, commity `a0e3f1e`–`0927eea`
+- **10/ (10/10)** → 13:55–14:10, commity v rozsahu `63ceb5d`–`ae75231`
+- **9rappers/ (9/9)** → 14:26–14:40, commit `03dc152`
 
 ## Poznámky k postupu
 
