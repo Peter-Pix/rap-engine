@@ -3,6 +3,7 @@ import { readEntities } from "@/lib/content/cache-reader";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 import { EntityCard } from "@/components/entity/EntityCard";
 import { ENTITY_TYPE_LABELS } from "@/lib/search";
+import { getArtistImage } from "@/lib/content/images";
 
 export default function HomePage() {
   const entities = readEntities();
@@ -64,6 +65,7 @@ export default function HomePage() {
                 title={e.title}
                 description={e.description}
                 href={`/raperi/${e.slug}`}
+                image={getArtistImage(e.slug)}
               />
             ))}
           </div>

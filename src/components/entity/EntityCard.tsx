@@ -12,6 +12,7 @@ interface EntityCardProps {
   type: EntityType;
   meta?: string;
   tags?: string[];
+  image?: string;
 }
 
 export function EntityCard({
@@ -21,6 +22,7 @@ export function EntityCard({
   type,
   meta,
   tags,
+  image,
 }: EntityCardProps) {
   const color = ENTITY_TYPE_COLORS[type] ?? "#e4ff1a";
   const typeLabel = ENTITY_TYPE_LABELS[type] ?? type.toUpperCase();
@@ -31,7 +33,22 @@ export function EntityCard({
       className="block group"
       onClick={() => trackEntityCardClick(title, type)}
     >
-      <article className="relative h-full glass glass-hover rounded-xl p-5 transition-all duration-200 group-hover:translate-y-[-1px]">
+      <article className="relative h-full glass glass-hover rounded-xl overflow-hidden transition-all duration-200 group-hover:translate-y-[-1px]">
+        {image && (
+          <div className="relative h-40 w-full overflow-hidden">
+            <img
+              src={image}
+              alt={title}
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              loading="lazy"
+              onError={(e) => {
+                (e.target as HTMLImageElement).style.display = 'none';
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+          </div>
+        )}
+        <div className="p-5">
         <div className="flex items-center gap-2 mb-3">
           <span
             className="text-[9px] font-mono font-bold tracking-widest uppercase px-1.5 py-0.5 rounded-sm"
@@ -86,6 +103,7 @@ export function EntityCard({
               d="M9 5l7 7-7 7"
             />
           </svg>
+        </div>
         </div>
       </article>
     </Link>

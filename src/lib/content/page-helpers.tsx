@@ -1,4 +1,5 @@
 import { SimilarArtistsSection, RelatedEntitiesSection } from "@/components/analytics";
+import { getArtistImage } from "@/lib/content/images";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { resolveFromSlug, getRouteParamsForType } from "@/lib/content/route-resolver";
@@ -146,9 +147,29 @@ export function EntityPage({
         <div className="text-xs font-mono font-bold uppercase tracking-widest text-[#e4ff1a] mb-2">
           {getEntityLabel(type)}
         </div>
-        <h1 className="text-4xl sm:text-5xl font-black tracking-tighter text-white uppercase leading-[0.92]">
-          {entity.title}
-        </h1>
+        
+        {entity.type === "artist" && getArtistImage(entity.slug) && (
+          <div className="mb-6 relative w-full h-64 sm:h-80 rounded-xl overflow-hidden">
+            <img
+              src={getArtistImage(entity.slug)!}
+              alt={entity.title}
+              className="h-full w-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+            <div className="absolute bottom-0 left-0 p-6 sm:p-8">
+              <h1 className="text-4xl sm:text-5xl font-black tracking-tighter text-white uppercase leading-[0.92]">
+                {entity.title}
+              </h1>
+            </div>
+          </div>
+        )}
+        
+        {!(entity.type === "artist" && getArtistImage(entity.slug)) && (
+          <h1 className="text-4xl sm:text-5xl font-black tracking-tighter text-white uppercase leading-[0.92]">
+            {entity.title}
+          </h1>
+        )}
+        
         {entity.description && (
           <p className="mt-3 text-base sm:text-lg text-white/80 max-w-2xl leading-relaxed">
             {entity.description}
