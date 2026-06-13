@@ -1,15 +1,42 @@
 {
   "albums": [],
-  "artists": [],
-  "genres": [],
+  "artists": [
+    "artist_viktor-sheen",
+    "artist_samey",
+    "artist_marko-damian",
+    "artist_gleb"
+  ],
+  "genres": [
+    "genre_czech-rap",
+    "genre_pop-rap",
+    "genre_rnb",
+    "genre_alternative"
+  ],
   "influencedBy": [],
   "labels": [],
-  "locations": [],
-  "moods": [],
+  "locations": [
+    "location_slovensko"
+  ],
+  "moods": [
+    "mood_melancholic",
+    "mood_emotional",
+    "mood_atmospheric",
+    "mood_night"
+  ],
   "partOf": [],
   "related": [],
-  "scenes": [],
-  "styles": [],
-  "themes": [],
+  "scenes": [
+    "scene_alternative"
+  ],
+  "styles": [
+    "style_melodic",
+    "style_atmospheric",
+    "style_rnb"
+  ],
+  "themes": [
+    "theme_self-reflection",
+    "theme_life",
+    "theme_relationships"
+  ],
   "tracks": []
 }
