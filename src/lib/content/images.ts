@@ -9,7 +9,7 @@ const ARTIST_IMAGES: Record<string, string> = {
   'majk-spirit': '/images/artists/majk-spirit.webp',
   'redzed': '/images/artists/redzed.webp',
   'g1nter': '/images/artists/g1nter.webp',
-    'dalyb': '/images/artists/dalyb.webp',
+      'dalyb': '/images/artists/dalyb.webp',
   'strapo': '/images/artists/strapo.webp',
   'nobodylisten': '/images/artists/nobodylisten.webp',
   'paulie-garand': '/images/artists/paulie-garand.webp',
@@ -31,10 +31,11 @@ const ARTIST_IMAGES: Record<string, string> = {
   'adiss': '/images/artists/adiss.webp',
   'nik-tendo': '/images/artists/nik-tendo.webp',
   'rytmus': '/images/artists/rytmus.webp',
-  'viktor-sheen': '/images/artists/viktor-sheen.webp',
-  'hugo-toxxx': '/images/artists/hugo-toxxx.webp',
-  'james-cole': '/images/artists/james-cole.webp',
-  'rest': '/images/artists/rest.webp',
+    'viktor-sheen': '/images/artists/viktor-sheen.webp',
+    'hugo-toxxx': '/images/artists/hugo-toxxx.webp',
+    'james-cole': '/images/artists/james-cole.webp',
+    'rest': '/images/artists/rest.webp',
+  'ektor': '/images/artists/ektor.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
