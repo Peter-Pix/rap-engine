@@ -300,6 +300,12 @@ async function generateArtistCard(slug: string): Promise<string> {
     mdx += `${meta.description}\n\n`;
   } else if (meta.origin) {
     mdx += `${title} je ${meta.occupation || "rapper"} z ${meta.origin}.\n\n`;
+  } else if (meta.realName) {
+    mdx += `${title} (vlastním jménem ${meta.realName}) je ${meta.occupation || "rapper"} na CZ/SK rapové scéně.\n\n`;
+  } else {
+    // Fallback description from meta
+    const fallbackDesc = meta.description || `${title} je rapper na CZ/SK rapové scéně.`;
+    mdx += `${fallbackDesc}\n\n`;
   }
 
   // Tags
@@ -365,11 +371,14 @@ async function generateLabelCard(slug: string): Promise<string> {
     mdx += `> ${facts.join(" · ")}\n\n`;
   }
 
-  // Original description
+  // Original description (if any) — skip if it's the placeholder
   if (meta.description && meta.description.length > 30 && !meta.description.includes("vydavatelství")) {
     mdx += `${meta.description}\n\n`;
   } else if (meta.location) {
     mdx += `${title} je ${meta.country === "SK" ? "slovenské" : "české"} hudební vydavatelství se sídlem v ${meta.location}.\n\n`;
+  } else {
+    const fallbackDesc = meta.description || `${title} je hudební label na CZ/SK rapové scéně.`;
+    mdx += `${fallbackDesc}\n\n`;
   }
 
   if (artists.length > 0) {
