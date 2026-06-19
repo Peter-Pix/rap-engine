@@ -11,6 +11,10 @@ import {
   DEFAULT_WEIGHTS,
 } from "@/lib/content/graph-query";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
+import { readFile } from "fs/promises";
+import { join } from "path";
+import { existsSync } from "fs";
+import { Tracklist } from "@/components/content/tracklist";
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -69,13 +73,13 @@ function getEntityLabel(type: string): string {
 
 // ─── Shared Page Component ────────────────────────────────────────────────
 
-export function EntityPage({
+export async function EntityPage({
   type,
   slug,
 }: {
   type: string;
   slug: string;
-}): React.ReactNode {
+}): Promise<React.ReactNode> {
   const id = resolveFromSlug(type, slug);
   if (!id) notFound();
 
@@ -103,6 +107,22 @@ export function EntityPage({
     ? Object.values(entity.outbound).reduce((sum, arr) => sum + arr.length, 0)
     : 0;
   const inboundIds = readInboundFor(id);
+
+  // ── Load tracklist for albums ──────────────────────────────────────
+  let tracklistData: any | null = null;
+  if (entity.type === "album") {
+    const tracksPath = join(
+      process.cwd(),
+      "content/entities",
+      entity.id,
+      "tracks.json"
+    );
+    if (existsSync(tracksPath)) {
+      try {
+        tracklistData = JSON.parse(await readFile(tracksPath, "utf-8"));
+      } catch {}
+    }
+  }
 
   // ── Profile & extra meta ─────────────────────────────────────────────
   const profile = entity.profile as Record<string, any> | undefined;
@@ -208,6 +228,11 @@ export function EntityPage({
             <div className="prose prose-invert max-w-none text-white/80">
               {renderMdx(entity.content)}
             </div>
+          )}
+
+          {/* Tracklist for albums (from Deezer) */}
+          {tracklistData && (
+            <Tracklist data={tracklistData} albumSlug={entity.slug} />
           )}
 
           {/* Profile editorial sections */}
