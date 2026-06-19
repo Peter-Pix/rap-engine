@@ -263,6 +263,105 @@ export function renderMdx(content: string): React.ReactNode {
       continue;
     }
 
+    // Markdown table — header row, separator, data rows
+    if (/^\|.*\|$/.test(t)) {
+      const tableRows: string[][] = [];
+      while (i < lines.length) {
+        const cur = lines[i].trim();
+        if (!/^\|.*\|$/.test(cur)) break;
+        // Split on unescaped pipes, trim cells, unescape \|
+        const cells = cur
+          .replace(/^\||\|$/g, "")
+          .split(/(?<!\\)\|/)
+          .map((c) => c.trim().replace(/\\\|/g, "|"));
+        tableRows.push(cells);
+        i++;
+      }
+      // Need at least 2 rows (header + separator)
+      if (tableRows.length >= 2 && /^[|\s\-:]+$/.test(tableRows[1].join("|"))) {
+        // Parse alignment from separator row: `:---:`, `:---`, `---:`, `---`
+        const aligns = tableRows[1].map((cell) => {
+          const c = cell.trim();
+          const left = c.startsWith(":");
+          const right = c.endsWith(":");
+          if (left && right) return "center";
+          if (right) return "right";
+          if (left) return "left";
+          return "";
+        });
+        const headerCells = tableRows[0];
+        const bodyRows = tableRows.slice(2);
+
+        const thead = React.createElement(
+          "thead",
+          { className: "border-b border-white/10" },
+          React.createElement(
+            "tr",
+            null,
+            ...headerCells.map((cell, idx) =>
+              React.createElement(
+                "th",
+                {
+                  key: `th-${idx}`,
+                  className: "px-3 py-2 text-left text-xs font-mono uppercase tracking-wider text-white/70",
+                  style: aligns[idx] ? { textAlign: aligns[idx] as React.CSSProperties["textAlign"] } : undefined,
+                },
+                ...parseInline(cell),
+              ),
+            ),
+          ),
+        );
+
+        const tbody = React.createElement(
+          "tbody",
+          null,
+          ...bodyRows.map((row, ri) =>
+            React.createElement(
+              "tr",
+              {
+                key: `tr-${ri}`,
+                className: "border-b border-white/[0.04] hover:bg-white/[0.02] transition-colors",
+              },
+              ...row.map((cell, ci) =>
+                React.createElement(
+                  "td",
+                  {
+                    key: `td-${ri}-${ci}`,
+                    className: "px-3 py-2 text-sm text-white/85 align-top",
+                    style: aligns[ci] ? { textAlign: aligns[ci] as React.CSSProperties["textAlign"] } : undefined,
+                  },
+                  ...parseInline(cell),
+                ),
+              ),
+            ),
+          ),
+        );
+
+        blocks.push(
+          React.createElement(
+            "div",
+            { key: blocks.length, className: "my-6 overflow-x-auto" },
+            React.createElement(
+              "table",
+              { className: "w-full border-collapse" },
+              thead,
+              tbody,
+            ),
+          ),
+        );
+      } else {
+        // Not a valid table — treat header row as paragraph
+        blocks.push(
+          React.createElement(
+            "p",
+            { key: blocks.length, className: "my-2 leading-relaxed font-mono text-xs" },
+            ...parseInline(tableRows.map((r) => r.join(" | ")).join("\n")),
+          ),
+        );
+      }
+      continue;
+    }
+
     // Paragraph — consume until blank line or next block-level token
     const pLines: string[] = [];
     while (
@@ -292,7 +391,9 @@ export function renderMdx(content: string): React.ReactNode {
 // ─── Helpers ──────────────────────────────────────────────────────────────
 
 function isBlockStart(line: string): boolean {
-  return /^(#{1,6}\s|[-*+]\s|\d+\.\s|>\s|-{3,}|\*{3,}|_{3,})/.test(line);
+  // Detect heading, list, blockquote, hr, OR a markdown table row
+  return /^(#{1,6}\s|[-*+]\s|\d+\.\s|>\s|-{3,}|\*{3,}|_{3,})/.test(line) ||
+    /^\|.*\|$/.test(line);
 }
 
 function headingClass(level: number): string {
