@@ -15,6 +15,7 @@ import { readFile } from "fs/promises";
 import { join } from "path";
 import { existsSync } from "fs";
 import { Tracklist } from "@/components/content/tracklist";
+import { UpcomingEventsForArtist } from "@/components/content/upcoming-events";
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -233,6 +234,11 @@ export async function EntityPage({
           {/* Tracklist for albums (from Deezer) */}
           {tracklistData && (
             <Tracklist data={tracklistData} albumSlug={entity.slug} />
+          )}
+
+          {/* Upcoming events for artists (from 44rap) */}
+          {entity.type === "artist" && (
+            <UpcomingEventsForArtist artistName={entity.title} />
           )}
 
           {/* Profile editorial sections */}
