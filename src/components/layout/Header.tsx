@@ -23,8 +23,8 @@ export function Header() {
         <div className="flex h-14 items-center gap-4 sm:gap-6">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group shrink-0">
-            <span className="font-mono text-xl font-black tracking-tighter text-[#c8962e] group-hover:text-[#e4ff1a] transition-colors">
-              4rap.
+            <span className="font-sans text-2xl font-black italic tracking-tight leading-none text-white">
+              4RAP<span className="text-[#c8962e]">.</span>
             </span>
             <span className="hidden lg:inline-block text-[10px] font-mono uppercase tracking-widest text-zinc-500 border border-zinc-700 px-1.5 py-0.5 rounded">
               Beta
