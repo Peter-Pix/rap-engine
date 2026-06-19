@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { readEntities } from "@/lib/content/cache-reader";
+import { readEntities, readInbound } from "@/lib/content/cache-reader";
 import EntityListingClient from "./EntityListingClient";
 
 interface PageProps {
@@ -84,15 +84,36 @@ function extractFilterOptions(entities: Record<string, any>, type: string) {
 export function createListingPage({ type, title, description }: PageProps) {
   return function ListingPage() {
     const entities = readEntities();
+    const inbound = readInbound() || {};
     const items = Object.values(entities || {}).filter((e) => e.type === type);
+
+    // Pro locations: spočti kolik artistů na ne ukazuje (inbound HAS_RAPPER-like)
+    // Přesněji — kolik artist_ entit má v extraMeta.origin / city titulek téhle lokality
+    const rapperCounts: Record<string, number> = {};
+    if (type === "location") {
+      for (const ent of Object.values(entities || {})) {
+        if (!ent.id.startsWith("artist_")) continue;
+        const em = ent.extraMeta as Record<string, string> | undefined;
+        const origin = em?.origin || em?.city;
+        if (!origin) continue;
+        rapperCounts[origin] = (rapperCounts[origin] || 0) + 1;
+      }
+    }
+
     const filters = extractFilterOptions(entities || {}, type);
     const desc = description || `${items.length} ${getCountLabel(items.length, type)}`;
+
+    // Rozšířit entity o rapperCount (jen pro locations)
+    const itemsWithCount = items.map((e) => ({
+      ...e,
+      rapperCount: type === "location" ? rapperCounts[e.title] ?? 0 : undefined,
+    }));
 
     return (
       <EntityListingClient
         title={title}
         description={desc}
-        entities={items}
+        entities={itemsWithCount}
         filters={filters}
       />
     );

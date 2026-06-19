@@ -12,6 +12,7 @@ interface Entity {
   title: string;
   description: string;
   outbound?: Record<string, string[]>;
+  rapperCount?: number;
 }
 
 interface FilterOption {
@@ -286,9 +287,16 @@ export default function EntityListingClient({
               className="block group"
             >
               <div className="glass glass-hover rounded-xl p-5 transition-all duration-200 group-hover:translate-y-[-1px] h-full flex flex-col">
-                <h2 className="font-bold text-zinc-100 group-hover:text-white transition-colors mb-2 leading-snug">
-                  {entity.title}
-                </h2>
+                <div className="flex items-start justify-between gap-2 mb-2">
+                  <h2 className="font-bold text-zinc-100 group-hover:text-white transition-colors leading-snug">
+                    {entity.title}
+                  </h2>
+                  {entity.rapperCount !== undefined && entity.rapperCount > 0 && (
+                    <span className="text-[10px] font-mono text-zinc-500 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded shrink-0">
+                      {entity.rapperCount}×
+                    </span>
+                  )}
+                </div>
                 <p className="text-sm text-zinc-500 line-clamp-2 flex-1">
                   {entity.description}
                 </p>
