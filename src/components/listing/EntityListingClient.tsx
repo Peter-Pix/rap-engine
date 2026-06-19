@@ -58,9 +58,37 @@ export default function EntityListingClient({
     moods: [],
   });
   const [showFilters, setShowFilters] = useState(false);
+  // Top 100 by default for artist/track listings
+  const type = entities[0]?.type;
+  const supportsTopLimit = type === "artist" || type === "track";
+  const [showAll, setShowAll] = useState(!supportsTopLimit);
+
+  // Memo: active filter count (used in filtered deps)
+  const activeCount = Object.values(activeFilters).flat().length;
+
+  // Compute edge counts (inbound + outbound) for ranking
+  const edgeCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const e of entities) {
+      const ob = e.outbound || {};
+      let count = 0;
+      for (const arr of Object.values(ob)) {
+        count += arr.length;
+      }
+      counts[e.id] = count;
+    }
+    return counts;
+  }, [entities]);
 
   const filtered = useMemo(() => {
     let results = [...entities];
+
+    // Top 100 by edge count (default for artist/track listings)
+    if (supportsTopLimit && !showAll && !search.trim() && activeCount === 0) {
+      results = [...results]
+        .sort((a, b) => (edgeCounts[b.id] || 0) - (edgeCounts[a.id] || 0))
+        .slice(0, 100);
+    }
 
     // Search
     if (search.trim()) {
@@ -119,7 +147,7 @@ export default function EntityListingClient({
 
     // Sort alphabetically
     return results.sort((a, b) => a.title.localeCompare(b.title));
-  }, [entities, search, activeFilters]);
+  }, [entities, search, activeFilters, showAll, supportsTopLimit, edgeCounts, activeCount]);
 
   const toggleFilter = (category: keyof FilterState, id: string) => {
     setActiveFilters((prev) => {
@@ -131,7 +159,6 @@ export default function EntityListingClient({
     });
   };
 
-  const activeCount = Object.values(activeFilters).flat().length;
   const clearFilters = () =>
     setActiveFilters({ genres: [], labels: [], locations: [], scenes: [], styles: [], moods: [] });
 
@@ -148,6 +175,11 @@ export default function EntityListingClient({
           {title}
         </h1>
         <p className="text-zinc-400 text-sm">{description}</p>
+        {supportsTopLimit && !showAll && (
+          <p className="mt-2 text-xs text-zinc-600">
+            Zobrazeno top 100 nejpropojenějších. Pro kompletní seznam klikni na „Všichni”.
+          </p>
+        )}
       </div>
 
       {/* Search + Filter toggle */}
@@ -227,10 +259,21 @@ export default function EntityListingClient({
       )}
 
       {/* Results count */}
-      <div className="mb-4 flex items-center justify-between">
+      <div className="mb-4 flex items-center justify-between gap-3">
         <p className="text-sm text-zinc-500">
           {filtered.length} {filtered.length === 1 ? "výsledek" : filtered.length < 5 ? "výsledky" : "výsledků"}
+          {supportsTopLimit && !showAll && activeCount === 0 && !search.trim() && filtered.length >= 100 && (
+            <span className="text-zinc-600"> · top 100</span>
+          )}
         </p>
+        {supportsTopLimit && (
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="text-xs font-mono uppercase tracking-wider px-3 py-1.5 border border-zinc-800 hover:border-[#c8962e] hover:text-[#c8962e] transition-colors"
+          >
+            {showAll ? `Top 100` : `Všichni (${entities.length})`}
+          </button>
+        )}
       </div>
 
       {/* Grid */}

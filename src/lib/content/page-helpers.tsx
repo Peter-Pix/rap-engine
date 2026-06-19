@@ -453,15 +453,37 @@ export async function EntityPage({
           )}
 
           {/* Key Albums */}
-          {profile?.keyAlbums && Array.isArray(profile.keyAlbums) && (profile.keyAlbums as string[]).length > 0 && (
+          {profile?.keyAlbums && Array.isArray(profile.keyAlbums) && (profile.keyAlbums as any[]).length > 0 && (
             <section>
               <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Klíčová alba
               </h2>
-              <ol className="space-y-2">
-                {(profile.keyAlbums as string[]).map((album: string, i: number) => (
-                  <li key={i} className="text-sm text-white/75">{album}</li>
-                ))}
+              <ol className="space-y-3">
+                {(profile.keyAlbums as any[]).map((album: any, i: number) => {
+                  // Support both string[] and {title, year, description}[]
+                  if (typeof album === "string") {
+                    return (
+                      <li key={i} className="text-sm text-white/75">
+                        {album}
+                      </li>
+                    );
+                  }
+                  return (
+                    <li key={i}>
+                      <div className="text-sm font-semibold text-white">
+                        {album.title}
+                        {album.year && (
+                          <span className="ml-2 text-xs text-white/40 font-mono">{album.year}</span>
+                        )}
+                      </div>
+                      {album.description && (
+                        <p className="text-xs text-white/55 mt-0.5 leading-relaxed">
+                          {album.description}
+                        </p>
+                      )}
+                    </li>
+                  );
+                })}
               </ol>
             </section>
           )}
