@@ -6,9 +6,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="font-mono text-lg font-black text-white">
-              4rap
-              <span className="text-[#e4ff1a]">.cz</span>
+            <Link href="/" className="font-sans text-lg font-black italic tracking-tight leading-none text-white">
+              4RAP<span className="text-[#c8962e]">.</span>
             </Link>
             <p className="mt-2 text-xs text-zinc-500 leading-relaxed">
               Největší propojená databáze
@@ -88,7 +87,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-white/[0.05] flex items-center justify-between">
-          <p className="text-xs text-zinc-600">© 2026 4rap.cz</p>
+          <p className="text-xs text-zinc-600">© 2026 4RAP.</p>
           <p className="text-xs font-mono text-zinc-700">RapEngine v1.0</p>
         </div>
       </div>
