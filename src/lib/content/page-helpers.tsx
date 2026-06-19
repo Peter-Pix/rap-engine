@@ -176,7 +176,11 @@ export async function EntityPage({
   const related = getRelatedEntities(id, 8).filter((r) => r.id !== id);
 
   const imageUrl =
-    entity.type === "artist" ? getArtistImage(entity.slug) : null;
+    entity.type === "artist"
+      ? getArtistImage(entity.slug)
+      : entity.type === "album" && entity.image
+        ? entity.image
+        : null;
 
   return (
     <main className="max-w-5xl mx-auto">
