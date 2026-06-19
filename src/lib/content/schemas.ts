@@ -141,6 +141,8 @@ export const ProfileSchema = z.object({
   superpower: z.string().optional(),
   /** Shrnující one-liner */
   oneLiner: z.string().optional(),
+  /** Krátkej originální tag (max 120 znaků, kurátorem schválený) — zobrazuje se pod jménem */
+  shortTag: z.string().max(120).optional(),
   /** Vliv na scénu */
   influence: z.string().optional(),
   /** Kontroverze a kritika */

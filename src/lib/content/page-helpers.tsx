@@ -196,6 +196,11 @@ export async function EntityPage({
             <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-white uppercase leading-[0.85] max-w-3xl">
               {entity.title}
             </h1>
+            {profile?.shortTag && (
+              <p className="mt-4 text-lg sm:text-xl text-white font-medium max-w-2xl leading-snug border-l-2 border-white/40 pl-4">
+                {profile.shortTag as string}
+              </p>
+            )}
           </div>
         </div>
       ) : (
@@ -203,6 +208,11 @@ export async function EntityPage({
           <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-white uppercase leading-[0.85]">
             {entity.title}
           </h1>
+          {profile?.shortTag && (
+            <p className="mt-5 text-lg sm:text-xl text-[#c8962e] font-medium max-w-2xl leading-snug border-l-2 border-[#c8962e]/40 pl-4">
+              {profile.shortTag as string}
+            </p>
+          )}
         </div>
       )}
 
