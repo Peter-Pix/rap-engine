@@ -37,9 +37,17 @@ export function generatePageMetadata(
   if (!id) return null;
   const entity = readEntityById(id);
   if (!entity) return null;
+
+  // Draft entities = noindex, follow (Google can still discover via links, but won't index)
+  const extraMeta = (entity as any).extraMeta || {};
+  const isDraft = extraMeta.status === "draft" ||
+                   extraMeta.isStub === true ||
+                   (entity as any).status === "draft";
+
   return {
     title: entity.title,
     description: entity.description || undefined,
+    robots: isDraft ? { index: false, follow: true } : undefined,
     openGraph: {
       title: entity.title,
       description: entity.description || undefined,
