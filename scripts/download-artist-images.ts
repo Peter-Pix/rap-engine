@@ -80,14 +80,6 @@ const PRIORITY_ARTISTS: Record<string, string> = {
   "sensey": "Sensey",
   "sofian-medjmedj": "Sofian Medjmedj",
   "stein27": "Stein27",
-  // Další významní
-  "kali": "Kali",
-  "majk-spirit": "Majk Spirit",
-  "rytmus": "Rytmus",
-  "paulie-garand": "Paulie Garand",
-  "rest": "Rest",
-  "samey": "Samey",
-  "lipo": "Lipo",
 };
 
 // Wikipedia search names — mapping slug → Wikipedia page title

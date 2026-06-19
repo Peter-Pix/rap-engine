@@ -13,7 +13,10 @@
   "labels": [
     "label_znk"
   ],
-  "locations": [],
+  "locations": [
+    "location_praha",
+    "location_cz"
+  ],
   "moods": [
     "mood_dark",
     "mood_raw"
@@ -22,18 +25,34 @@
   "related": [
     "artist_desade",
     "artist_strapo",
-    "artist_mc-gey"
+    "artist_mc-gey",
+    "artist_de-sade",
+    "artist_haades",
+    "artist_james-cole",
+    "artist_necro",
+    "artist_ill-bill",
+    "artist_brotha-lynch-hung"
   ],
   "scenes": [
     "scene_underground"
   ],
   "styles": [
     "style_hardcore",
-    "style_experimental"
+    "style_experimental",
+    "horrorcore",
+    "shock-rap",
+    "hardcore-rap",
+    "splatter-rap",
+    "comedy-horror"
   ],
   "themes": [
     "theme_satire",
-    "theme_society"
+    "theme_society",
+    "nihilismus",
+    "extrmn-nsil",
+    "sociln-patologie",
+    "ern-humor",
+    "kritika-spolenosti"
   ],
   "tracks": []
 }

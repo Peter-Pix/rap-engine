@@ -18,13 +18,31 @@ export const BaseMetaSchema = z.object({
   publishedAt: z.string().optional(),
   /** @example "2024-06-01" */
   updatedAt: z.string().optional(),
-});
+}).passthrough();
 
 export type BaseMeta = z.infer<typeof BaseMetaSchema>;
 
-// ─── Per-Type Meta (forward-compatible, currently same as base) ───────────
+// ─── Per-Type Meta ───────────────────────────────────────────────────────
 
-export const ArtistMetaSchema = BaseMetaSchema;
+/**
+ * Artist-specific meta — extends BaseMeta with identity fields.
+ * `.passthrough()` on the parent already preserves unknown keys;
+ * this explicit shape gives us typed access in the codebase.
+ */
+export const ArtistMetaSchema = BaseMetaSchema.extend({
+  realName: z.string().optional(),
+  origin: z.string().optional(),
+  birthDate: z.string().optional(),
+  birthPlace: z.string().optional(),
+  occupation: z.union([z.string(), z.array(z.string())]).optional(),
+  city: z.string().optional(),
+  activeSince: z.string().optional(),
+  label: z.string().optional(),
+  profileImageUrl: z.string().optional(),
+  status: z.string().optional(),
+});
+
+export type ArtistMeta = z.infer<typeof ArtistMetaSchema>;
 export const AlbumMetaSchema = BaseMetaSchema;
 export const TrackMetaSchema = BaseMetaSchema;
 export const GenreMetaSchema = BaseMetaSchema;
@@ -102,3 +120,63 @@ export const RelationsSchema = z.object({
 }).passthrough();
 
 export type Relations = z.infer<typeof RelationsSchema>;
+
+// ─── Profile (editorial content from Base44) ─────────────────────────────
+
+/**
+ * `profile.json` — optional editorial content for artist entities.
+ * Contains rich text fields and structured data imported from Base44.
+ *
+ * All fields are optional — an artist without `profile.json` works fine.
+ * Text fields are AI-generated drafts, not final copy.
+ */
+export const ProfileSchema = z.object({
+  /** Hook-level intro (1-2 věty) */
+  shortIntro: z.string().optional(),
+  /** Čím je výjimečný — delší text */
+  whatMakesUnique: z.string().optional(),
+  /** Kariérní příběh (ne chronologie) */
+  careerSummary: z.string().optional(),
+  /** Největší superschopnost */
+  superpower: z.string().optional(),
+  /** Shrnující one-liner */
+  oneLiner: z.string().optional(),
+  /** Vliv na scénu */
+  influence: z.string().optional(),
+  /** Kontroverze a kritika */
+  controversy: z.string().optional(),
+  /** Generační zařazení */
+  generationContext: z.string().optional(),
+  /** Stylové tagy */
+  styleTags: z.array(z.string()).optional(),
+  /** Hlavní témata tvorby */
+  themes: z.array(z.string()).optional(),
+  /** Nejdůležitější alba s komentářem */
+  keyAlbums: z.array(z.object({
+    title: z.string(),
+    year: z.string().optional(),
+    description: z.string().optional(),
+  })).optional(),
+  /** Nejlepší skladby pro začátek */
+  keyTracks: z.array(z.string()).optional(),
+  /** Podobní interpreti */
+  similarArtists: z.array(z.string()).optional(),
+  /** Zajímavosti */
+  funFacts: z.array(z.string()).optional(),
+  /** Zdroje informací (URL) */
+  sources: z.array(z.string()).optional(),
+  /** URL profilového obrázku */
+  profileImageUrl: z.string().optional(),
+  /** Zdroj nalezené profilové fotky */
+  photoSourceUrl: z.string().optional(),
+  /** Doporučený název exportované fotky */
+  photoFilename: z.string().optional(),
+  /** Jistota, že fotka patří danému rapperovi (0–100) */
+  photoConfidence: z.number().optional(),
+  /** Procenta jistoty jednotlivých faktů z AI výzkumu */
+  confidenceScores: z.record(z.string(), z.number()).optional(),
+  /** Datum scanu */
+  scanDate: z.string().optional(),
+}).passthrough();
+
+export type Profile = z.infer<typeof ProfileSchema>;

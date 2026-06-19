@@ -1,7 +1,7 @@
 import fs from "node:fs";
-import { metaPath, mdxPath, relationsPath, listEntityIds } from "./paths";
-import { RelationsSchema, validateMeta } from "./schemas";
-import type { BaseMeta } from "./schemas";
+import { metaPath, mdxPath, relationsPath, profilePath, listEntityIds } from "./paths";
+import { RelationsSchema, ProfileSchema, validateMeta } from "./schemas";
+import type { BaseMeta, Profile } from "./schemas";
 import type { Relations } from "./schemas";
 import type { Entity } from "./types";
 
@@ -98,7 +98,23 @@ export function loadEntity(entityId: string): Entity | null {
     mdx = fs.readFileSync(mdxFile, "utf-8");
   }
 
-  return { id: entityId, meta, mdx, relations };
+  // ── Parse profile.json (optional) ───────────────────────────────────
+  let profile: Profile | undefined;
+  const profFile = profilePath(entityId);
+  if (fs.existsSync(profFile)) {
+    let rawProfile: unknown;
+    try {
+      rawProfile = JSON.parse(fs.readFileSync(profFile, "utf-8"));
+    } catch (e) {
+      throw new EntityLoadError(
+        entityId,
+        `Invalid JSON in profile.json: ${(e as Error).message}`,
+      );
+    }
+    profile = ProfileSchema.parse(rawProfile);
+  }
+
+  return { id: entityId, meta, mdx, relations, profile };
 }
 
 // ─── Batch loader ─────────────────────────────────────────────────────────

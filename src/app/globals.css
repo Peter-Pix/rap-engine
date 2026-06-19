@@ -4,8 +4,8 @@
 :root {
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   --font-mono: 'SF Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace;
-  --re-accent:     #e4ff1a;
-  --re-accent-dim: #b8cc14;
+  --re-accent:     #c8962e;
+  --re-accent-dim: #a67c1e;
   --re-surface:    rgba(255,255,255,0.04);
   --re-border:     rgba(255,255,255,0.08);
   --re-glass:      rgba(255,255,255,0.06);
@@ -24,8 +24,8 @@ code, pre, .font-mono { font-family: var(--font-mono) !important; }
 .glass-hover:hover { background: rgba(255,255,255,0.09); border-color: rgba(255,255,255,0.14); }
 
 .entity-link { text-decoration: none; border-bottom: 1px dashed currentColor; transition: color 0.15s ease; }
-.entity-link--rapper { color: #e4ff1a; }
-.entity-link--rapper:hover { color: #fff; }
+.entity-link--rapper { color: #c8962e; }
+.entity-link--rapper:hover { color: #e4a843; }
 .entity-link--album { color: #60a5fa; }
 .entity-link--album:hover { color: #93c5fd; }
 .entity-link--label { color: #a78bfa; }
@@ -37,7 +37,7 @@ code, pre, .font-mono { font-family: var(--font-mono) !important; }
 .prose {
   --tw-prose-body: rgba(255,255,255,0.85);
   --tw-prose-headings: #fff;
-  --tw-prose-links: #e4ff1a;
+  --tw-prose-links: #c8962e;
   --tw-prose-bold: #fff;
   --tw-prose-code: #fff;
   --tw-prose-quotes: rgba(255,255,255,0.8);
@@ -49,7 +49,7 @@ code, pre, .font-mono { font-family: var(--font-mono) !important; }
 .prose-invert {
   --tw-prose-body: rgba(255,255,255,0.85);
   --tw-prose-headings: #fff;
-  --tw-prose-links: #e4ff1a;
+  --tw-prose-links: #c8962e;
   --tw-prose-bold: #fff;
   --tw-prose-code: #fff;
   --tw-prose-quotes: rgba(255,255,255,0.8);

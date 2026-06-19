@@ -24,6 +24,11 @@ export function relationsPath(entityId: string): string {
   return path.join(entityDir(entityId), "relations.json");
 }
 
+/** Absolute path to `content/entities/<id>/profile.json` */
+export function profilePath(entityId: string): string {
+  return path.join(entityDir(entityId), "profile.json");
+}
+
 /** Absolute path to `content/entities/<id>/media/` */
 export function mediaDir(entityId: string): string {
   return path.join(entityDir(entityId), "media");

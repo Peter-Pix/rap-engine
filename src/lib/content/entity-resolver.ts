@@ -48,6 +48,7 @@ function toUnified(
     content: entity.mdx,
     relations: entity.relations,
     sourceFormat: "graph-folder",
+    profile: entity.profile,
   };
 }
 
@@ -135,6 +136,7 @@ export function listAllEntities(): Map<string, UnifiedEntity> {
       content: entity.mdx,
       relations: entity.relations,
       sourceFormat: "graph-folder",
+      profile: entity.profile,
     });
   }
 

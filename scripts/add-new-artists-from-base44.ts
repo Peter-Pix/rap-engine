@@ -231,48 +231,48 @@ function createEntity(rapper: Base44Rapper, slug: string, validIds: Set<string>)
   if (rapper.short_intro) meta.description = rapper.short_intro;
   fs.writeFileSync(path.join(dir, "meta.json"), JSON.stringify(meta, null, 2) + "\n");
 
-  // ── relations.json — uses VALIDATED target IDs and CORRECT edge types ──
-  const relations: Record<string, any> = { outbound: {} };
+  // ── relations.json — FLAT schema, validní target IDs ──
+  const relations: Record<string, string[]> = {};
 
-  // SIGNED_TO → label
+  // labels: → SIGNED_TO
   if (rapper.label) {
     const target = `label_${slugify(rapper.label)}`;
-    if (validIds.has(target)) relations.outbound.SIGNED_TO = [target];
+    if (validIds.has(target)) relations.labels = [target];
   }
 
-  // RELATED_ARTIST → similar_artists (místo SIMILAR_TO!)
+  // related: → RELATED_ARTIST
   if (rapper.similar_artists?.length) {
     const targets = rapper.similar_artists
       .map(a => `artist_${slugify(a)}`)
       .filter(t => validIds.has(t));
-    if (targets.length) relations.outbound.RELATED_ARTIST = [...new Set(targets)];
+    if (targets.length) relations.related = [...new Set(targets)];
   }
 
-  // ORIGINATES_FROM → city
+  // locations: → ORIGINATES_FROM
   if (rapper.city) {
     const target = `location_${slugify(rapper.city)}`;
-    if (validIds.has(target)) relations.outbound.ORIGINATES_FROM = [target];
+    if (validIds.has(target)) relations.locations = [target];
   }
 
-  // HAS_ALBUM → key_albums (místo RELEASED!)
+  // albums: → HAS_ALBUM
   if (rapper.key_albums?.length) {
     const targets = rapper.key_albums
       .map(a => `album_${slugify(a.title)}`)
       .filter(t => validIds.has(t));
-    if (targets.length) relations.outbound.HAS_ALBUM = [...new Set(targets)];
+    if (targets.length) relations.albums = [...new Set(targets)];
   }
 
-  // HAS_STYLE → style_tags (místo HAS_GENRE!)
+  // styles: → HAS_STYLE
   if (rapper.style_tags?.length) {
     const targets = rapper.style_tags
       .map(t => `style_${slugify(t)}`)
       .filter(t => validIds.has(t));
-    if (targets.length) relations.outbound.HAS_STYLE = [...new Set(targets)];
+    if (targets.length) relations.styles = [...new Set(targets)];
   }
 
   fs.writeFileSync(path.join(dir, "relations.json"), JSON.stringify(relations, null, 2) + "\n");
 
-  log(`  ✓ created artist_${slug}/ (${Object.keys(relations.outbound).length} relations)`);
+  log(`  ✓ created artist_${slug}/ (${Object.keys(relations).length} relations: ${Object.keys(relations).join(", ")})`);
   return true;
 }
 

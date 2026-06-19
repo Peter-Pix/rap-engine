@@ -1,4 +1,3 @@
-import { SimilarArtistsSection, RelatedEntitiesSection } from "@/components/analytics";
 import { getArtistImage } from "@/lib/content/images";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -13,6 +12,16 @@ import {
 } from "@/lib/content/graph-query";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 
+// ─── Types ────────────────────────────────────────────────────────────────
+
+interface ResolvedTarget {
+  id: string;
+  type: string;
+  slug: string;
+  title: string;
+  route: string;
+}
+
 // ─── Metadata ─────────────────────────────────────────────────────────────
 
 export function generatePageMetadata(
@@ -21,10 +30,8 @@ export function generatePageMetadata(
 ): Metadata | null {
   const id = resolveFromSlug(type, slug);
   if (!id) return null;
-
   const entity = readEntityById(id);
   if (!entity) return null;
-
   return {
     title: entity.title,
     description: entity.description || undefined,
@@ -77,205 +84,408 @@ export function EntityPage({
 
   const allEntities = readEntities();
 
-  // Resolve inbound backlinks
-  const inboundIds = readInboundFor(id);
-  const inboundEntities = inboundIds
-    .map((iid) => {
-      const e = allEntities?.[iid];
-      if (!e) return null;
-      const route = `${TYPE_ROUTE_MAP[e.type as EntityType] ?? `/${e.type}`}/${e.slug}`;
-      return { id: e.id, type: e.type, slug: e.slug, title: e.title, route };
-    })
-    .filter(Boolean) as Array<{
-      id: string;
-      type: string;
-      slug: string;
-      title: string;
-      route: string;
-    }>;
+  // ── Build entity index ───────────────────────────────────────────────
+  const entityIndex: Record<string, ResolvedTarget> = {};
+  if (allEntities) {
+    for (const [eid, e] of Object.entries(allEntities)) {
+      entityIndex[eid] = {
+        id: eid,
+        type: e.type,
+        slug: e.slug,
+        title: e.title,
+        route: `${TYPE_ROUTE_MAP[e.type as EntityType] ?? `/${e.type}`}/${e.slug}`,
+      };
+    }
+  }
 
-  // Group outbound relations
+  // ── Stats ────────────────────────────────────────────────────────────
+  const totalEdges = entity.outbound
+    ? Object.values(entity.outbound).reduce((sum, arr) => sum + arr.length, 0)
+    : 0;
+  const inboundIds = readInboundFor(id);
+
+  // ── Profile & extra meta ─────────────────────────────────────────────
+  const profile = entity.profile as Record<string, any> | undefined;
+  const em = (entity.extraMeta ?? {}) as Record<string, string | undefined>;
+
+  // ── Relation groups ──────────────────────────────────────────────────
   const relations: Array<{
     key: string;
     label: string;
-    targets: Array<{
-      id: string;
-      type: string;
-      slug: string;
-      title: string;
-      route: string;
-    }>;
+    targets: ResolvedTarget[];
   }> = [];
-
   for (const [authoringKey, targetIds] of Object.entries(entity.outbound)) {
     if (!targetIds.length) continue;
     const entry = getRegistryEntry(authoringKey);
     const label = entry?.description ?? authoringKey;
-
     const targets = targetIds
-      .map((tid) => {
-        const e = allEntities?.[tid];
-        if (!e) return null;
-        const route = `${TYPE_ROUTE_MAP[e.type as EntityType] ?? `/${e.type}`}/${e.slug}`;
-        return { id: e.id, type: e.type, slug: e.slug, title: e.title, route };
-      })
-      .filter(Boolean) as Array<{
-        id: string;
-        type: string;
-        slug: string;
-        title: string;
-        route: string;
-      }>;
-
+      .map((tid) => entityIndex[tid])
+      .filter(Boolean) as ResolvedTarget[];
     if (targets.length > 0) {
       relations.push({ key: authoringKey, label, targets });
     }
   }
 
-  // ── Graph query: similar artists & related entities ──────────────
-  let similar = entity.type === "artist"
-    ? getSimilarArtists(id, DEFAULT_WEIGHTS, 0.1, 5)
-    : [];
-  const related = getRelatedEntities(id, 8).filter(
-    (r) => r.id !== id,
-  );
+  // ── Graph queries ────────────────────────────────────────────────────
+  const similar =
+    entity.type === "artist"
+      ? getSimilarArtists(id, DEFAULT_WEIGHTS, 0.1, 5)
+      : [];
+  const related = getRelatedEntities(id, 8).filter((r) => r.id !== id);
+
+  const imageUrl =
+    entity.type === "artist" ? getArtistImage(entity.slug) : null;
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12">
-      {/* ── Header ──────────────────────────────────────────────────── */}
-      <header className="mb-10">
-        <div className="text-xs font-mono font-bold uppercase tracking-widest text-[#e4ff1a] mb-2">
-          {getEntityLabel(type)}
-        </div>
-        
-        {entity.type === "artist" && getArtistImage(entity.slug) && (
-          <div className="mb-6 relative w-full h-64 sm:h-80 rounded-xl overflow-hidden">
-            <img
-              src={getArtistImage(entity.slug)!}
-              alt={entity.title}
-              className="h-full w-full object-cover object-top"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-            <div className="absolute bottom-0 left-0 p-6 sm:p-8">
-              <h1 className="text-4xl sm:text-5xl font-black tracking-tighter text-white uppercase leading-[0.92]">
-                {entity.title}
-              </h1>
-            </div>
+    <main className="max-w-5xl mx-auto">
+
+      {/* ═══════════════════════════════════════════════════════════════
+         HERO
+         ═══════════════════════════════════════════════════════════════ */}
+      {imageUrl ? (
+        <div className="relative w-full h-[400px] sm:h-[520px] overflow-hidden">
+          <img
+            src={imageUrl}
+            alt={entity.title}
+            className="h-full w-full object-cover object-top"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/30 to-transparent" />
+          <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-12">
+            <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-white uppercase leading-[0.85] max-w-3xl">
+              {entity.title}
+            </h1>
           </div>
-        )}
-        
-        {!(entity.type === "artist" && getArtistImage(entity.slug)) && (
-          <h1 className="text-4xl sm:text-5xl font-black tracking-tighter text-white uppercase leading-[0.92]">
+        </div>
+      ) : (
+        <div className="pt-24 sm:pt-32 pb-6 px-8 sm:px-12">
+          <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-white uppercase leading-[0.85]">
             {entity.title}
           </h1>
-        )}
-        
-        {entity.description && (
-          <p className="mt-3 text-base sm:text-lg text-white/80 max-w-2xl leading-relaxed">
-            {entity.description}
+        </div>
+      )}
+
+      {/* ═══════════════════════════════════════════════════════════════
+         META BAR — just text, no icons
+         ═══════════════════════════════════════════════════════════════ */}
+      {(em.realName || em.origin || em.label || em.activeSince) && (
+        <div className="px-8 sm:px-12 pt-6 pb-2">
+          <p className="text-sm text-white/50 font-mono tracking-wide">
+            {[em.realName, em.origin || em.city, em.label, em.activeSince ? `Od ${em.activeSince as string}` : null]
+              .filter(Boolean)
+              .join(" · ")}
           </p>
-        )}
-        {entity.publishedAt && (
-          <time
-            className="mt-3 block text-xs font-mono uppercase tracking-widest text-white/50"
-            dateTime={entity.publishedAt}
-          >
-            Publikováno {entity.publishedAt}
-            {entity.updatedAt && ` · Aktualizováno ${entity.updatedAt}`}
-          </time>
-        )}
-      </header>
-
-      {/* ── MDX Content ─────────────────────────────────────────────── */}
-      {"content" in entity && (entity as { content?: string }).content && (
-        <section className="mb-10 prose prose-invert max-w-none">
-          {renderMdx((entity as { content: string }).content)}
-        </section>
+        </div>
       )}
 
-      {/* ── Relations ───────────────────────────────────────────────── */}
-      {relations.length > 0 && (
-        <section className="mb-10 pb-10 border-b border-white/[0.06]">
-          <h2 className="text-sm font-mono font-bold uppercase tracking-widest text-white mb-6">
-            Vazby
-          </h2>
-          <div className="space-y-5">
-            {relations.map(({ key, label, targets }) => (
-              <div key={key}>
-                <h3 className="text-xs font-mono uppercase tracking-wider text-white/60 mb-2">
-                  {label}
-                </h3>
-                <div className="flex flex-wrap gap-1.5">
-                  {targets.map((t) => (
-                    <a
-                      key={t.id}
-                      href={t.route}
-                      className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-white/[0.12] rounded-lg text-sm transition-all"
-                    >
-                      <span className="font-medium text-white">{t.title}</span>
-                      <span className="text-[10px] font-mono text-white/50">
-                        {getEntityLabel(t.type)}
-                      </span>
+      {/* ═══════════════════════════════════════════════════════════════
+         PULL QUOTE + DESCRIPTION
+         ═══════════════════════════════════════════════════════════════ */}
+      {(entity.description || profile?.oneLiner) && (
+        <div className="px-8 sm:px-12 pt-8 pb-8">
+          {profile?.oneLiner && (
+            <p className="text-2xl sm:text-3xl font-light italic text-[#c8962e] leading-tight mb-6 max-w-2xl">
+              &ldquo;{profile.oneLiner as string}&rdquo;
+            </p>
+          )}
+          {entity.description && (
+            <p className="text-base sm:text-lg text-white/70 leading-relaxed max-w-3xl">
+              {entity.description}
+            </p>
+          )}
+        </div>
+      )}
+
+      {/* ═══════════════════════════════════════════════════════════════
+         TWO-COLUMN LAYOUT
+         ═══════════════════════════════════════════════════════════════ */}
+      <div className="px-8 sm:px-12 pb-16 grid grid-cols-1 lg:grid-cols-3 gap-x-16 gap-y-12">
+
+        {/* ── LEFT COLUMN: Editorial Content ──────────────────────────── */}
+        <div className="lg:col-span-2 space-y-12">
+
+          {/* MDX content first */}
+          {entity.content?.trim() && (
+            <div className="prose prose-invert max-w-none text-white/80">
+              {renderMdx(entity.content)}
+            </div>
+          )}
+
+          {/* Profile editorial sections */}
+          {profile && !entity.content?.trim() && (
+            <>
+              {profile.careerSummary && (
+                <section>
+                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                    Kariéra
+                  </h2>
+                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
+                    {profile.careerSummary as string}
+                  </p>
+                </section>
+              )}
+
+              {profile.whatMakesUnique && (
+                <section>
+                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                    V čem je jiný
+                  </h2>
+                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
+                    {profile.whatMakesUnique as string}
+                  </p>
+                </section>
+              )}
+
+              {profile.influence && (
+                <section>
+                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                    Vliv a dopad
+                  </h2>
+                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
+                    {profile.influence as string}
+                  </p>
+                </section>
+              )}
+
+              {profile.controversy && (
+                <section>
+                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                    Kontroverze
+                  </h2>
+                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
+                    {profile.controversy as string}
+                  </p>
+                </section>
+              )}
+
+              {profile.generationContext && (
+                <section>
+                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                    Generační kontext
+                  </h2>
+                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
+                    {profile.generationContext as string}
+                  </p>
+                </section>
+              )}
+
+              {profile.funFacts &&
+                Array.isArray(profile.funFacts) &&
+                (profile.funFacts as string[]).length > 0 && (
+                  <section>
+                    <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                      Fakta a zajímavosti
+                    </h2>
+                    <ol className="space-y-3">
+                      {(profile.funFacts as string[]).map((fact: string, i: number) => (
+                        <li key={i} className="flex gap-4 text-sm sm:text-base text-white/75 leading-relaxed">
+                          <span className="text-[#c8962e] font-mono text-xs mt-0.5 shrink-0">
+                            {String(i + 1).padStart(2, "0")}
+                          </span>
+                          <span>{fact}</span>
+                        </li>
+                      ))}
+                    </ol>
+                  </section>
+                )}
+            </>
+          )}
+
+          {/* ── Similar Artists ───────────────────────────────────────── */}
+          {similar.length > 0 && (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Podobní umělci
+              </h2>
+              <div className="flex flex-wrap gap-x-6 gap-y-1">
+                {similar.map((s) => {
+                  const target = entityIndex[s.id];
+                  if (!target) return null;
+                  return (
+                    <a key={s.id} href={target.route} className="text-sm text-white/60 hover:text-white transition-colors">
+                      {target.title}
                     </a>
-                  ))}
-                </div>
+                  );
+                })}
               </div>
-            ))}
-          </div>
-        </section>
-      )}
+            </section>
+          )}
 
-      {/* ── Similar Artists (only for artist entities) ────────────── */}
-      {similar.length > 0 && (
-        <SimilarArtistsSection
-          artists={similar.map((s) => ({
-            id: s.id,
-            type: s.type,
-            slug: s.slug,
-            title: s.title,
-            score: s.score,
-          }))}
-          fromArtist={entity.title}
-        />
-      )}
+          {/* ── Related Entities ──────────────────────────────────────── */}
+          {related.length > 0 && (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Související
+              </h2>
+              <div className="flex flex-wrap gap-x-5 gap-y-1">
+                {related.map((r) => {
+                  const target = entityIndex[r.id];
+                  if (!target) return null;
+                  return (
+                    <a key={r.id} href={target.route} className="text-sm text-white/60 hover:text-white transition-colors">
+                      {target.title}
+                      <span className="text-white/20 ml-1.5 text-xs">{getEntityLabel(target.type)}</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </section>
+          )}
 
-      {/* ── Related Entities ──────────────────────────────────────── */}
-      {related.length > 0 && (
-        <RelatedEntitiesSection
-          entities={related.map((r) => ({
-            id: r.id,
-            type: r.type,
-            slug: r.slug,
-            title: r.title,
-            degree: r.degree,
-            paths: r.paths,
-          }))}
-          fromEntity={entity.title}
-        />
-      )}
+          {/* ── Backlinks ─────────────────────────────────────────────── */}
+          {inboundIds.length > 0 && (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Odkazují sem ({inboundIds.length})
+              </h2>
+              <div className="flex flex-wrap gap-x-5 gap-y-1">
+                {inboundIds.map((bid) => {
+                  const target = entityIndex[bid];
+                  if (!target) return null;
+                  return (
+                    <a key={bid} href={target.route} className="text-sm text-white/60 hover:text-white transition-colors">
+                      {target.title}
+                      <span className="text-white/20 ml-1.5 text-xs">{getEntityLabel(target.type)}</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+        </div>
 
-      {/* ── Backlinks ───────────────────────────────────────────────── */}
-      {inboundEntities.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-sm font-mono font-bold uppercase tracking-widest text-white mb-6">
-            Odkazují sem ({inboundEntities.length})
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {inboundEntities.map((be) => (
-              <a
-                key={be.id}
-                href={be.route}
-                className="glass glass-hover rounded-lg p-4 transition-all duration-200"
-              >
-                <div className="font-medium text-sm text-white">{be.title}</div>
-                <div className="text-[10px] font-mono uppercase tracking-widest text-white/50 mt-1">
-                  {getEntityLabel(be.type)}
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
+        {/* ── RIGHT COLUMN: Sidebar ──────────────────────────────────── */}
+        <div className="space-y-10 lg:pt-1">
+
+          {/* Info */}
+          {em.realName || em.origin || em.label || em.activeSince || em.birthDate ? (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Info
+              </h2>
+              <dl className="space-y-2.5 text-sm">
+                {em.realName && (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-white/40">Jméno</dt>
+                    <dd className="text-white/75 text-right">{em.realName as string}</dd>
+                  </div>
+                )}
+                {em.origin && (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-white/40">Původ</dt>
+                    <dd className="text-white/75 text-right">{em.origin as string}</dd>
+                  </div>
+                )}
+                {em.label && (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-white/40">Label</dt>
+                    <dd className="text-white/75 text-right">{em.label as string}</dd>
+                  </div>
+                )}
+                {em.activeSince && (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-white/40">Aktivní</dt>
+                    <dd className="text-white/75 text-right">{em.activeSince as string}</dd>
+                  </div>
+                )}
+                {em.birthDate && (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-white/40">Narození</dt>
+                    <dd className="text-white/75 text-right">{em.birthDate as string}</dd>
+                  </div>
+                )}
+              </dl>
+            </section>
+          ) : null}
+
+          {/* Style tags */}
+          {profile?.styleTags && Array.isArray(profile.styleTags) && (profile.styleTags as string[]).length > 0 && (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Žánry
+              </h2>
+              <p className="text-sm text-white/75 leading-relaxed">
+                {(profile.styleTags as string[]).join(" · ")}
+              </p>
+            </section>
+          )}
+
+          {/* Themes */}
+          {profile?.themes && Array.isArray(profile.themes) && (profile.themes as string[]).length > 0 && (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Témata
+              </h2>
+              <p className="text-sm text-white/75 leading-relaxed">
+                {(profile.themes as string[]).join(" · ")}
+              </p>
+            </section>
+          )}
+
+          {/* Key Albums */}
+          {profile?.keyAlbums && Array.isArray(profile.keyAlbums) && (profile.keyAlbums as string[]).length > 0 && (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Klíčová alba
+              </h2>
+              <ol className="space-y-2">
+                {(profile.keyAlbums as string[]).map((album: string, i: number) => (
+                  <li key={i} className="text-sm text-white/75">{album}</li>
+                ))}
+              </ol>
+            </section>
+          )}
+
+          {/* Key Tracks */}
+          {profile?.keyTracks && Array.isArray(profile.keyTracks) && (profile.keyTracks as string[]).length > 0 && (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Klíčové tracky
+              </h2>
+              <ol className="space-y-1">
+                {(profile.keyTracks as string[]).map((track: string, i: number) => (
+                  <li key={i} className="text-sm text-white/75">{track}</li>
+                ))}
+              </ol>
+            </section>
+          )}
+
+          {/* Graph stats */}
+          <section>
+            <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+              V síti
+            </h2>
+            <p className="text-sm text-white/50">{totalEdges} vazeb · {inboundIds.length} odkazů</p>
+          </section>
+
+          {/* Relations */}
+          {relations.length > 0 && (
+            <section>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                Vazby
+              </h2>
+              <div className="space-y-3">
+                {relations.map(({ key, label, targets }) => (
+                  <div key={key}>
+                    <dt className="text-white/30 text-[10px] font-mono uppercase tracking-wide mb-1.5">
+                      {label}
+                    </dt>
+                    <dd className="flex flex-wrap gap-x-2">
+                      {targets.map((t, i) => (
+                        <span key={t.id}>
+                          <a href={t.route} className="text-sm text-white/60 hover:text-white transition-colors">
+                            {t.title}
+                          </a>
+                          {i < targets.length - 1 && <span className="text-white/20 ml-1">·</span>}
+                        </span>
+                      ))}
+                    </dd>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+        </div>
+      </div>
     </main>
   );
 }

@@ -1,4 +1,4 @@
-import { BaseMeta, Relations } from "./schemas";
+import { BaseMeta, Profile, Relations } from "./schemas";
 import type { EdgeType } from "./relation-registry";
 
 export type { EdgeType };
@@ -20,6 +20,8 @@ export interface Entity {
   mdx: string;
   /** Parsed `relations.json` */
   relations: Relations;
+  /** Optional parsed `profile.json` (editorial content from Base44) */
+  profile?: Profile;
 }
 
 // ─── Unified Entity (cross-format) ────────────────────────────────────────
@@ -41,6 +43,8 @@ export interface UnifiedEntity {
   relations: Relations;
   /** Which filesystem format was used to load this entity */
   sourceFormat: SourceFormat;
+  /** Optional editorial profile (from profile.json) */
+  profile?: Profile;
 }
 
 // ─── Entity Node (graph vertex) ───────────────────────────────────────────

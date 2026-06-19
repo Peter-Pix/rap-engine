@@ -27,6 +27,10 @@ export interface CacheEntity {
   content: string;
   /** Outbound target IDs, grouped by canonical edge type */
   outbound: Record<string, string[]>;
+  /** Optional editorial profile (from profile.json) */
+  profile?: Record<string, unknown>;
+  /** Extra meta fields (realName, origin, birthDate, label, etc.) */
+  extraMeta?: Record<string, unknown>;
 }
 
 /** Shape of `entities.json` — all entities keyed by ID */
@@ -132,7 +136,7 @@ function buildSearchContext(entity: UnifiedEntity): string {
 
   // Type-specific fields pulled from meta (passthrough extras)
   const fieldMap: Record<string, string[]> = {
-    artist: ["realName"],
+    artist: ["realName", "origin", "label"],
     album: ["year"],
     genre: ["origin"],
     label: ["founder", "founded"],
@@ -145,6 +149,17 @@ function buildSearchContext(entity: UnifiedEntity): string {
   for (const f of fields) {
     const v = fm[f];
     if (typeof v === "string" && v.length > 0) parts.push(v);
+  }
+
+  // Also include profile data for deeper searchability
+  if (entity.profile) {
+    const p = entity.profile;
+    if (p.styleTags?.length) parts.push(...p.styleTags);
+    if (p.themes?.length) parts.push(...p.themes);
+    if (p.shortIntro) parts.push(p.shortIntro);
+    if (p.careerSummary) parts.push(p.careerSummary);
+    if (p.similarArtists?.length) parts.push(...p.similarArtists);
+    if (p.funFacts?.length) parts.push(...p.funFacts);
   }
 
   return parts.join(" ");
@@ -211,6 +226,15 @@ export function buildCache(entities: Map<string, UnifiedEntity>): void {
       list.push(edge.to);
     }
 
+    // Extra meta fields for rich display (exclude base fields)
+    const fm = entity.meta as Record<string, unknown>;
+    const extraMeta: Record<string, unknown> = {};
+    for (const [key, value] of Object.entries(fm)) {
+      if (!['type', 'slug', 'title', 'description', 'publishedAt', 'updatedAt'].includes(key) && value !== undefined && value !== null) {
+        extraMeta[key] = value;
+      }
+    }
+
     // entities.json entry
     cacheEntities[id] = {
       id,
@@ -223,9 +247,9 @@ export function buildCache(entities: Map<string, UnifiedEntity>): void {
       sourceFormat: entity.sourceFormat,
       content: entity.content,
       outbound,
+      profile: entity.profile as Record<string, unknown> | undefined,
+      extraMeta,
     };
-
-    // routes.json entry
     const route = buildRoute(entity.meta.type, entity.meta.slug);
     routes[route] = id;
 
