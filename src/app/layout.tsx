@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   authors: [{ name: "4rap.cz", url: "https://4rap.cz" }],
   creator: "4rap.cz",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.png",
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
@@ -33,9 +33,18 @@ export const metadata: Metadata = {
     title: "4rap.cz — Magazín české rapové scény",
     description:
       "Recenze, profily, rozhovory a analýzy z české a slovenské rapové scény.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1024,
+        height: 1024,
+        alt: "4rap.cz — Česká rapová scéna",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    images: ["/og-image.png"],
   },
   robots: { index: true, follow: true },
 };
