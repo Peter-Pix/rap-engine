@@ -242,6 +242,7 @@ export function buildCache(entities: Map<string, UnifiedEntity>): void {
       slug: entity.meta.slug,
       title: entity.meta.title,
       description: entity.meta.description,
+      image: entity.meta.image,
       publishedAt: entity.meta.publishedAt,
       updatedAt: entity.meta.updatedAt,
       sourceFormat: entity.sourceFormat,

@@ -13,9 +13,10 @@ import {
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 import { readFile } from "fs/promises";
 import { join } from "path";
-import { existsSync } from "fs";
+import { existsSync, readFileSync } from "fs";
 import { Tracklist } from "@/components/content/tracklist";
 import { UpcomingEventsForArtist } from "@/components/content/upcoming-events";
+import { KeyTrackPlayer } from "@/components/content/key-track-player";
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -96,6 +97,18 @@ export async function EntityPage({
   if (!entity) notFound();
 
   const allEntities = readEntities();
+
+  // ── Build tracks cache for this artist (sync read from disk) ──
+  const allTracks: Record<string, any> = {};
+  for (const entId of Object.keys(allEntities || {})) {
+    if (!entId.startsWith("album_")) continue;
+    const tracksPath = join(process.cwd(), "content/entities", entId, "tracks.json");
+    if (existsSync(tracksPath)) {
+      try {
+        allTracks[entId] = JSON.parse(readFileSync(tracksPath, "utf-8"));
+      } catch {}
+    }
+  }
 
   // ── Build entity index ───────────────────────────────────────────────
   const entityIndex: Record<string, ResolvedTarget> = {};
@@ -460,55 +473,140 @@ export async function EntityPage({
             </section>
           )}
 
-          {/* Key Albums */}
-          {profile?.keyAlbums && Array.isArray(profile.keyAlbums) && (profile.keyAlbums as any[]).length > 0 && (
-            <section>
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                Klíčová alba
-              </h2>
-              <ol className="space-y-3">
-                {(profile.keyAlbums as any[]).map((album: any, i: number) => {
-                  // Support both string[] and {title, year, description}[]
-                  if (typeof album === "string") {
+          {/* Key Albums - cover grid with year */}
+          {profile?.keyAlbums && Array.isArray(profile.keyAlbums) && (profile.keyAlbums as any[]).length > 0 && (() => {
+            const albums = (profile.keyAlbums as any[]).map((album: any) => {
+              if (typeof album === "string") return { title: album };
+              return album;
+            });
+
+            // Find cover images for each album from allEntities
+            const albumCovers: Record<string, string> = {};
+            for (const album of albums) {
+              if (!album.title) continue;
+              const albumSlug = album.title
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/[^a-z0-9]+/g, "-")
+                .replace(/^-|-$/g, "");
+              const albumSlugNoDash = albumSlug.replace(/-/g, "");
+              for (const entId of Object.keys(allEntities || {})) {
+                if (entId.startsWith("album_") && entId.includes(albumSlugNoDash)) {
+                  const meta = allEntities?.[entId] as any;
+                  if (meta?.image) {
+                    albumCovers[album.title] = meta.image;
+                    break;
+                  }
+                }
+              }
+            }
+
+            return (
+              <section>
+                <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  Klíčová alba
+                </h2>
+                <div className="grid grid-cols-2 gap-3">
+                  {albums.slice(0, 4).map((album: any, i: number) => {
+                    const cover = albumCovers[album.title];
+                    const albumSlug = (album.title || "")
+                      .toLowerCase()
+                      .normalize("NFD")
+                      .replace(/[\u0300-\u036f]/g, "")
+                      .replace(/[^a-z0-9]+/g, "-")
+                      .replace(/^-|-$/g, "");
+
                     return (
-                      <li key={i} className="text-sm text-white/75">
-                        {album}
+                      <a
+                        key={i}
+                        href={`/alba/${albumSlug}`}
+                        className="group block"
+                      >
+                        <div className="aspect-square rounded-sm overflow-hidden bg-white/[0.04] mb-2 relative">
+                          {cover ? (
+                            <img
+                              src={cover}
+                              alt={album.title}
+                              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                            />
+                          ) : (
+                            <div className="w-full h-full flex items-center justify-center text-xs text-white/20 font-mono uppercase">
+                              {album.year || "—"}
+                            </div>
+                          )}
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </div>
+                        <div className="text-xs font-semibold text-white truncate">
+                          {album.title}
+                        </div>
+                        {album.year && (
+                          <div className="text-[10px] font-mono text-white/40 mt-0.5">
+                            {album.year}
+                          </div>
+                        )}
+                      </a>
+                    );
+                  })}
+                </div>
+              </section>
+            );
+          })()}
+
+          {/* Key Tracks - interactive list with preview */}
+          {profile?.keyTracks && Array.isArray(profile.keyTracks) && (profile.keyTracks as string[]).length > 0 && (() => {
+            // Find artist albums from relations (search allEntities)
+            const artistId = id; // current entity id
+            const relatedAlbums = (entity.outbound?.ALBUMS || []) as string[];
+            const artistAlbums = relatedAlbums.length > 0
+              ? relatedAlbums
+              : Object.keys(allEntities || {}).filter((eid) => {
+                  if (!eid.startsWith("album_")) return false;
+                  const meta = allEntities?.[eid] as any;
+                  return (meta?.outbound?.ARTISTS || []).includes(artistId);
+                });
+
+            // Build track → preview map synchronously from cache
+            const trackPreviewMap: Record<string, { preview?: string; isrc?: string }> = {};
+            for (const albumId of artistAlbums) {
+              // Use known tracks.json files (synchronously via import)
+              const tracksData = allTracks[albumId];
+              if (!tracksData) continue;
+              for (const t of (tracksData.tracks || [])) {
+                const title = t.title_original || t.title;
+                if (title) {
+                  trackPreviewMap[title.toLowerCase()] = {
+                    preview: t.preview_url,
+                    isrc: t.isrc,
+                  };
+                }
+              }
+            }
+
+            return (
+              <section>
+                <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  Klíčové tracky
+                </h2>
+                <ol className="space-y-1">
+                  {(profile.keyTracks as string[]).slice(0, 6).map((trackTitle: string, i: number) => {
+                    const track = trackPreviewMap[trackTitle.toLowerCase()];
+                    return (
+                      <li key={i} className="flex items-center gap-3 py-1.5 group">
+                        <span className="text-[11px] font-mono text-white/30 w-5 tabular-nums">
+                          {String(i + 1).padStart(2, "0")}
+                        </span>
+                        <span className="text-sm text-white/85 flex-1 truncate">
+                          {trackTitle}
+                        </span>
+                        {track?.preview && <KeyTrackPlayer title={trackTitle} previewUrl={track.preview} id={`${id}-${i}`} />}
                       </li>
                     );
-                  }
-                  return (
-                    <li key={i}>
-                      <div className="text-sm font-semibold text-white">
-                        {album.title}
-                        {album.year && (
-                          <span className="ml-2 text-xs text-white/40 font-mono">{album.year}</span>
-                        )}
-                      </div>
-                      {album.description && (
-                        <p className="text-xs text-white/55 mt-0.5 leading-relaxed">
-                          {album.description}
-                        </p>
-                      )}
-                    </li>
-                  );
-                })}
-              </ol>
-            </section>
-          )}
-
-          {/* Key Tracks */}
-          {profile?.keyTracks && Array.isArray(profile.keyTracks) && (profile.keyTracks as string[]).length > 0 && (
-            <section>
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                Klíčové tracky
-              </h2>
-              <ol className="space-y-1">
-                {(profile.keyTracks as string[]).map((track: string, i: number) => (
-                  <li key={i} className="text-sm text-white/75">{track}</li>
-                ))}
-              </ol>
-            </section>
-          )}
+                  })}
+                </ol>
+              </section>
+            );
+          })()}
 
           {/* Graph stats */}
           <section>
