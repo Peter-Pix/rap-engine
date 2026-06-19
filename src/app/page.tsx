@@ -117,44 +117,6 @@ export default function HomePage() {
     .filter((a) => a.profile && a.connectivity > 0)
     .slice(0, 3);
 
-  // Key tracks: first key track from each top-ranked artist with profile
-  const keyTracks: Array<{ artist: string; track: string; slug: string }> = [];
-  for (const a of ranked) {
-    const p = a.profile;
-    if (!p?.keyTracks || !Array.isArray(p.keyTracks) || p.keyTracks.length === 0)
-      continue;
-    keyTracks.push({
-      artist: a.title,
-      track: p.keyTracks[0] as string,
-      slug: a.slug,
-    });
-    if (keyTracks.length >= 6) break;
-  }
-
-  // Featured entities (mix of types with images)
-  const featured: Array<FlatEntity> = [];
-  const typePriority: EntityType[] = ["artist", "label", "location", "collective"];
-  for (const tpe of typePriority) {
-    const candidates = all.filter(
-      (e) => e.type === tpe && getArtistImage(e.slug),
-    );
-    // For artists, prefer ones with profile data
-    const sorted = candidates.sort(
-      (a, b) => (edgeCounts[b.id] ?? 0) - (edgeCounts[a.id] ?? 0),
-    );
-    if (sorted.length > 0) featured.push(sorted[0]);
-    if (featured.length >= 4) break;
-  }
-  // Fallback: fill with artist images
-  while (featured.length < 4 && ranked.length > featured.length) {
-    const next = ranked[featured.length];
-    if (!featured.find((f) => f.id === next.id) && getArtistImage(next.slug)) {
-      featured.push(next);
-    } else {
-      break;
-    }
-  }
-
   return (
     <main className="max-w-[1100px] mx-auto px-4 sm:px-8">
 
@@ -163,7 +125,7 @@ export default function HomePage() {
          ═══════════════════════════════════════════════════════════════ */}
       <section className="pt-[140px] pb-12 border-b border-white/[0.06] mb-16">
         <h1 className="text-[clamp(44px,9vw,80px)] font-black tracking-tighter text-white uppercase leading-[0.85] mb-6">
-          rap<span className="text-[#c8962e]">guru</span>
+          4rap<span className="text-[#c8962e]">.</span>
         </h1>
         <p className="text-base text-white/60 max-w-[560px] leading-relaxed">
           Sledujeme {artists.length} interpretů, {all.filter((e) => e.type === "album").length} alb
@@ -252,83 +214,6 @@ export default function HomePage() {
       )}
 
       {/* ═══════════════════════════════════════════════════════════════
-         KLÍČOVÝ TRACKY
-         ═══════════════════════════════════════════════════════════════ */}
-      {keyTracks.length > 0 && (
-        <section className="mb-16">
-          <div className="flex items-baseline justify-between mb-5">
-            <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">Klíčový tracky</h2>
-            <Link href="/tracky" className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors">
-              Všechny →
-            </Link>
-          </div>
-          <div className="max-w-[640px]">
-            {keyTracks.map((t) => (
-              <a
-                key={`${t.slug}-${t.track}`}
-                href={entityRoute("artist", t.slug)}
-                className="grid grid-cols-[140px_1fr] gap-3 py-1.5 transition-opacity hover:opacity-60 sm:grid-cols-[140px_1fr]"
-              >
-                <span className="text-sm text-white/50">{t.artist}</span>
-                <span className="text-sm text-white/80">{t.track}</span>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* ═══════════════════════════════════════════════════════════════
-         VÝBĚR  (featured grid)
-         ═══════════════════════════════════════════════════════════════ */}
-      {featured.length > 0 && (
-        <section className="mb-16">
-          <div className="flex items-baseline justify-between mb-5">
-            <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">Výběr</h2>
-            <Link href="/raperi" className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors">
-              Všechny profily →
-            </Link>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-[2px]">
-            {featured.map((e) => {
-              const img = getArtistImage(e.slug);
-              const label = {
-                artist: "Interpret",
-                label: "Label",
-                location: "Místo",
-                collective: "Skupina",
-                album: "Album",
-              }[e.type] ?? e.type;
-
-              return (
-                <a
-                  key={e.id}
-                  href={entityRoute(e.type, e.slug)}
-                  className="relative aspect-[3/4] overflow-hidden bg-white/[0.03] flex items-end"
-                >
-                  {img && (
-                    <img
-                      src={img}
-                      alt={e.title}
-                      className="absolute inset-0 w-full h-full object-cover"
-                    />
-                  )}
-                  <div className="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.75)] to-transparent" />
-                  <div className="relative z-10 p-4 w-full">
-                    <span className="block text-[9px] font-mono uppercase tracking-wider text-[#c8962e] mb-1">
-                      {label}
-                    </span>
-                    <span className="block text-base font-semibold text-white">
-                      {e.title}
-                    </span>
-                  </div>
-                </a>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {/* ═══════════════════════════════════════════════════════════════
          NADCHÁZEJÍCÍ AKCE (44rap)
          ═══════════════════════════════════════════════════════════════ */}
       <UpcomingEventsSection />
@@ -337,7 +222,7 @@ export default function HomePage() {
          FOOTER
          ═══════════════════════════════════════════════════════════════ */}
       <footer className="py-12 border-t border-white/[0.06] text-xs text-white/40">
-        rap<span className="text-[#c8962e]">guru</span> — mapa českýho a
+        4rap<span className="text-[#c8962e]">.</span> — mapa českýho a
         slovenskýho rapu
       </footer>
     </main>
