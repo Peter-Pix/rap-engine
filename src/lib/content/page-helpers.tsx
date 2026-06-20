@@ -17,6 +17,13 @@ import { existsSync, readFileSync } from "fs";
 import { Tracklist } from "@/components/content/tracklist";
 import { UpcomingEventsForArtist } from "@/components/content/upcoming-events";
 import { KeyTrackPlayer } from "@/components/content/key-track-player";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { buildJsonLd } from "@/lib/seo/schema-org";
+
+// ─── Constants ────────────────────────────────────────────────────────────
+
+/** Canonical site base URL — použito v JSON-LD @id a OG URL. */
+const BASE_URL = "https://4rap.cz";
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -45,15 +52,36 @@ export function generatePageMetadata(
                    extraMeta.isStub === true ||
                    (entity as any).status === "draft";
 
+  // OG image — pro artisty ber z getArtistImage (centrální map), pro alba z entity.image,
+  // jinak fallback na site OG. To je klíč k rich preview v Messengeru, Slacku, atd.
+  const ogImage =
+    entity.type === "artist"
+      ? getArtistImage(entity.slug) ?? undefined
+      : entity.type === "album" && entity.image
+        ? entity.image
+        : undefined;
+  const ogImageUrl = ogImage
+    ? ogImage.startsWith("http")
+      ? ogImage
+      : `${BASE_URL}${ogImage.startsWith("/") ? "" : "/"}${ogImage}`
+    : undefined;
+
   return {
     title: entity.title,
     description: entity.description || undefined,
     robots: isDraft ? { index: false, follow: true } : undefined,
+    alternates: {
+      canonical: `${BASE_URL}${TYPE_ROUTE_MAP[entity.type as EntityType] ?? `/${entity.type}`}/${entity.slug}`,
+    },
     openGraph: {
       title: entity.title,
       description: entity.description || undefined,
-      type: "article",
+      type: entity.type === "artist" || entity.type === "album" ? "music.song" : "article",
+      ...(ogImageUrl ? { images: [{ url: ogImageUrl, alt: entity.title }] } : {}),
     },
+    twitter: ogImageUrl
+      ? { card: "summary_large_image", images: [ogImageUrl] }
+      : undefined,
   };
 }
 
@@ -182,8 +210,29 @@ export async function EntityPage({
         ? entity.image
         : null;
 
+  // Schema.org JSON-LD — generuje se pro všechny indexovatelné entity (draft = null).
+  const jsonLd = buildJsonLd({
+    entity: {
+      id: entity.id,
+      type: entity.type as any,
+      slug: entity.slug,
+      title: entity.title,
+      description: entity.description,
+      image: entity.image ?? null,
+      publishedAt: entity.publishedAt,
+      outbound: entity.outbound as any,
+      profile: (entity.profile as Record<string, unknown>) ?? null,
+      extraMeta: (entity.extraMeta as Record<string, unknown>) ?? null,
+    },
+    inboundIds,
+    allEntities: allEntities as any,
+    baseUrl: BASE_URL,
+  });
+
   return (
-    <main className="max-w-5xl mx-auto">
+    <>
+      <JsonLd data={jsonLd} />
+      <main className="max-w-5xl mx-auto">
 
       {/* ═══════════════════════════════════════════════════════════════
          HERO
@@ -660,5 +709,6 @@ export async function EntityPage({
         </div>
       </div>
     </main>
+    </>
   );
 }
