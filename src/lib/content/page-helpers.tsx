@@ -53,18 +53,18 @@ export function generatePageMetadata(
                    (entity as any).status === "draft";
 
   // OG image — pro artisty ber z getArtistImage (centrální map), pro alba z entity.image,
-  // jinak fallback na site OG. To je klíč k rich preview v Messengeru, Slacku, atd.
+  // pro ostatní (location/scene/genre/style/article/event) fallback na site OG (/og-image.png).
+  // Klíč k rich preview v Messengeru, Slacku, Twitteru.
+  const FALLBACK_OG = "/og-image.png";
   const ogImage =
     entity.type === "artist"
-      ? getArtistImage(entity.slug) ?? undefined
+      ? getArtistImage(entity.slug) ?? FALLBACK_OG
       : entity.type === "album" && entity.image
         ? entity.image
-        : undefined;
-  const ogImageUrl = ogImage
-    ? ogImage.startsWith("http")
-      ? ogImage
-      : `${BASE_URL}${ogImage.startsWith("/") ? "" : "/"}${ogImage}`
-    : undefined;
+        : FALLBACK_OG;
+  const ogImageUrl = ogImage.startsWith("http")
+    ? ogImage
+    : `${BASE_URL}${ogImage.startsWith("/") ? "" : "/"}${ogImage}`;
 
   return {
     title: entity.title,

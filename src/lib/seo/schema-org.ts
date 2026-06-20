@@ -342,9 +342,22 @@ function buildProducer(input: BuildJsonLdInput): Record<string, unknown> {
 
 function buildLocation(input: BuildJsonLdInput): Record<string, unknown> {
   const { entity, allEntities, baseUrl } = input;
+  const extraMeta = (entity.extraMeta ?? {}) as Record<string, unknown>;
+  const region = typeof extraMeta.region === "string" ? extraMeta.region : null;
+
+  // Heuristika pro správný Schema.org @type:
+  //  1) title === region (např. "Česko" + region "Česko") → Country
+  //  2) jinak město → City
+  // (region je *země kde leží*, ne typ entity — Bratislava má region="Slovensko",
+  //  ale je to město, ne země.)
+  let schemaType = "City";
+  if (region && entity.title === region) {
+    schemaType = "Country";
+  }
+
   const out: Record<string, unknown> = {
     "@context": "https://schema.org",
-    "@type": "City",
+    "@type": schemaType,
     "@id": selfId(entity, baseUrl),
     name: entity.title,
     url: selfId(entity, baseUrl),
