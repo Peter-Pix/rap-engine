@@ -5,6 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { GoogleAnalytics, PageViewTracker, EngagementTracker } from "@/components/analytics";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL ?? "https://4rap.cz"),
   title: {
     default: "4rap.cz — Česká rapová scéna",
     template: "%s | 4rap.cz",
