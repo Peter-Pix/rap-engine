@@ -92,18 +92,29 @@ Pro každé: najdi v `location-data-packet.md` řádek a zkopíruj data.
 ## Jak to dělat v praxi
 
 1. **Vezmi master prompt** z `memory/location-mdx-prompt.md`
-2. **Vezmi city data** z tohoto souboru (nebo z `location-data-packet.md`)
-3. **Vlož do GPT** v tomto pořadí:
+2. **Otevři `memory/location-data-packet-44rap.md`** — tam najdeš **hotové texty** z 44rap API pro 35 měst a 103 rapperů
+3. **Vyhledej své město** v packetu (Ctrl+F na název)
+4. **Zkopíruj SAMPLE textů** z 44rap (Hugo Toxxx: Intro, Žánry, Témata, Unikátní, Vliv, atd.)
+5. **Vlož do GPT** v tomto pořadí:
    - Master prompt
    - Prázdný řádek
-   - City data blok
+   - 44rap data pro dané město (zkopírované z packetu)
    - Příkaz: "Vygeneruj MDX pro toto město podle master promptu. Tier 1."
-4. **Zkontroluj výstup** — hlavně že:
+6. **Zkontroluj výstup** — hlavně že:
    - Všechna jména jsou v datech
    - Žádné generické fráze
    - Má blockquote s třemi poli
    - Má H1 + perex + hlavní text + seznam
-5. **Ulož** do `content/entities/location_<slug>/entity.mdx` (přepiš celý soubor)
+7. **Ulož** do `content/entities/location_<slug>/entity.mdx` (přepiš celý soubor)
+
+## Dva packet varianty
+
+- **`memory/location-data-packet.md`** — stručný, z RKG cache (rapeři, alba, labely, žánry). 382 řádků.
+- **`memory/location-data-packet-44rap.md`** — **bohatý**, z 44rap API (short_intro, themes, what_makes_unique, career_summary, key_albums.description, sources, …). 182 kB. **Doporučený primární zdroj.**
+
+44rap má méně celkových měst (35 vs 49), ale **mnohem detailnější data per artist** (top 50 rapperů z 44rap mají všechna klíčová pole vyplněná). RKG cache má zase všechny 49 měst, ale chudší data per artist.
+
+**Doporučení:** Pokud město je v 44rap packetu, použij ten. Pokud ne, fallbackuj na RKG packet.
 
 ---
 
