@@ -11,13 +11,18 @@ import type { EntityType } from "@/lib/content/constants";
 
 const MAX_RESULTS = 8;
 
+export interface SearchBarProps {
+  /** Called whenever a search result is selected (Link click or Enter key). */
+  onResultClick?: () => void;
+}
+
 const stripDiacritics = (term: string): string =>
   term
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
 
-export function SearchBar() {
+export function SearchBar({ onResultClick }: SearchBarProps = {}) {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
@@ -133,10 +138,12 @@ export function SearchBar() {
         router.push(r.url);
         setIsOpen(false);
         setQuery("");
+        onResultClick?.();
       } else if (query.trim()) {
         trackSearch(query.trim(), results.length);
         router.push(`/hledat?q=${encodeURIComponent(query.trim())}`);
         setIsOpen(false);
+        onResultClick?.();
       }
     }
   };
@@ -214,6 +221,7 @@ export function SearchBar() {
                           trackSearchResultClick(query.trim(), r.title, r.type, idx);
                           setIsOpen(false);
                           setQuery("");
+                          onResultClick?.();
                         }}
                         onMouseEnter={() => setActiveIdx(idx)}
                         className={`flex items-start gap-3 px-3 py-2.5 transition-colors ${
@@ -247,6 +255,7 @@ export function SearchBar() {
                   trackSearch(query.trim(), results.length);
                   setIsOpen(false);
                   setQuery("");
+                  onResultClick?.();
                 }}
                 className="block border-t border-white/[0.06] px-3 py-2 text-xs font-mono text-zinc-500 hover:text-[#e4ff1a] hover:bg-white/[0.04] transition-colors"
               >
