@@ -11,6 +11,8 @@ interface Entity {
   slug: string;
   title: string;
   description: string;
+  image?: string | null;
+  year?: number;
   outbound?: Record<string, string[]>;
   inbound?: Record<string, string[]>;
   rapperCount?: number;
@@ -302,10 +304,20 @@ export default function EntityListingClient({
               className="block group"
             >
               <div className="glass glass-hover rounded-xl p-5 transition-all duration-200 group-hover:translate-y-[-1px] h-full flex flex-col">
-                {entity.hasImage && (
+                {entity.hasImage && entity.type === "artist" && (
                   <div className="relative w-12 h-12 rounded-full overflow-hidden mb-3 ring-2 ring-white/[0.06] group-hover:ring-[#c8962e]/30 transition-all shrink-0">
                     <img
                       src={`/images/artists/${entity.slug}.webp`}
+                      alt={entity.title}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+                {entity.hasImage && entity.type === "album" && (
+                  <div className="relative aspect-square w-full rounded-lg overflow-hidden mb-3 ring-1 ring-white/[0.06] group-hover:ring-[#c8962e]/30 transition-all">
+                    <img
+                      src={entity.image || `/images/albums/${entity.slug}.jpg`}
                       alt={entity.title}
                       className="w-full h-full object-cover"
                       loading="lazy"
@@ -316,11 +328,18 @@ export default function EntityListingClient({
                   <h2 className="font-bold text-zinc-100 group-hover:text-white transition-colors leading-snug">
                     {entity.title}
                   </h2>
-                  {entity.rapperCount !== undefined && entity.rapperCount > 0 && (
-                    <span className="text-[10px] font-mono text-zinc-500 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded shrink-0">
-                      {entity.rapperCount}×
-                    </span>
-                  )}
+                  <div className="flex items-center gap-1.5 shrink-0">
+                    {entity.year && (
+                      <span className="text-[10px] font-mono text-zinc-500 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded">
+                        {entity.year}
+                      </span>
+                    )}
+                    {entity.rapperCount !== undefined && entity.rapperCount > 0 && (
+                      <span className="text-[10px] font-mono text-zinc-500 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded">
+                        {entity.rapperCount}×
+                      </span>
+                    )}
+                  </div>
                 </div>
                 <p className="text-sm text-zinc-500 line-clamp-2 flex-1">
                   {entity.description}

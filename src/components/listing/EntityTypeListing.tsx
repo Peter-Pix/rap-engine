@@ -103,10 +103,13 @@ export function createListingPage({ type, title, description }: PageProps) {
     const filters = extractFilterOptions(entities || {}, type);
     const desc = description || `${items.length} ${getCountLabel(items.length, type)}`;
 
-    // Rozšířit entity o rapperCount (jen pro locations)
+    // Rozšířit entity o rapperCount (jen pro locations) a hasImage/year/image (pro albums)
     const itemsWithCount = items.map((e) => ({
       ...e,
       rapperCount: type === "location" ? rapperCounts[e.title] ?? 0 : undefined,
+      hasImage: type === "album" ? !!e.image : undefined,
+      year: type === "album" ? (e.extraMeta as Record<string, unknown> | undefined)?.year as number | undefined : undefined,
+      image: type === "album" ? e.image : undefined,
     }));
 
     return (

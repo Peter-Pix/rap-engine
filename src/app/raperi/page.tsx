@@ -13,7 +13,7 @@ export default function RaperiListingPage() {
   const artists = Object.values(entities || {}).filter((e) => e.type === "artist");
 
   // Add hasImage flag for sorting
-  const artistsWithImage = artists.map((e) => ({
+  const artistsWithImage: (typeof artists[number] & { hasImage: boolean })[] = artists.map((e) => ({
     ...e,
     hasImage: getArtistImage(e.slug) !== undefined,
   }));
