@@ -89,12 +89,12 @@ function buildTrendingAlbums(
     .filter((a) => Boolean(a.image) && Boolean(a.publishedAt))
     .map((a) => {
       const out = a.outbound ?? {};
-      // Album's artist is typically the inbound edge from artist (HAS_ALBUM),
-      // but we have album.outbound → not symmetric. Use graph to find artist.
+      // Try to resolve primary artist via cached HAS_ALBUM edge (artist → album).
+      // Fallback to first RELATED_ARTIST from album.outbound.
       const artistEdge = (graph ?? []).find(
         (e) => e.relation === "HAS_ALBUM" && e.to === a.id,
       );
-      const artistId = artistEdge?.from;
+      const artistId = artistEdge?.from ?? out.RELATED_ARTIST?.[0];
       return {
         id: a.id,
         slug: a.slug,
