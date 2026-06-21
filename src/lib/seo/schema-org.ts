@@ -50,6 +50,42 @@ export interface SchemaEntity {
   outbound?: Record<string, string[]>;
   profile?: Record<string, unknown> | null;
   extraMeta?: Record<string, unknown> | null;
+  /** Album tracks.json contents (only present for album entities). */
+  tracks?: AlbumTracksJson | null;
+}
+
+/** Subset of Deezer tracks.json (extended with Rap Monitor enrichment). */
+export interface AlbumTrackJson {
+  position?: number;
+  title?: string;
+  title_original?: string;
+  duration_sec?: number;
+  artists?: string[];
+  feat?: string[];
+  isrc?: string | null;
+  link?: string;
+  preview_url?: string;
+  spotify_url?: string | null;
+  youtube_url?: string | null;
+  apple_music_url?: string | null;
+  lyrics_text?: string | null;
+  lyrics_source?: string | null;
+  producer?: string | null;
+  beatmaker?: string | null;
+  tags_genre?: string[];
+  tags_style?: string[];
+  tags_mood?: string[];
+  ai_summary_short?: string | null;
+  ai_emotions?: string[];
+  release_date?: string;
+}
+
+export interface AlbumTracksJson {
+  tracks?: AlbumTrackJson[];
+  total_tracks?: number;
+  total_duration_sec?: number;
+  release_date?: string;
+  label?: string;
 }
 
 export interface BuildJsonLdInput {
@@ -247,7 +283,134 @@ function buildAlbum(input: BuildJsonLdInput): Record<string, unknown> {
   const sameAs = sameAsFromProfile(profile);
   if (sameAs.length) out.sameAs = sameAs;
 
+  // Track list (MusicRecording[]) — if tracks.json is available
+  const recordings = buildTrackRecordings(input);
+  if (recordings.length) out.track = recordings;
+
+  // albumReleaseType — "Single" (1-3 tracks) vs "Album" (4+)
+  if (recordings.length > 0 && recordings.length <= 3) {
+    out.albumReleaseType = "Single";
+  } else if (recordings.length >= 4) {
+    out.albumReleaseType = "Album";
+  }
+
+  // numTracks (convenience for crawlers)
+  if (recordings.length) out.numTracks = recordings.length;
+
   return out;
+}
+
+/**
+ * Build MusicRecording objects from entity.tracks (Deezer tracks.json
+ * enriched with Rap Monitor data). One MusicRecording per track.
+ *
+ * Generates:
+ *   - name, position, duration (ISO 8601), isrcCode
+ *   - byArtist (resolved from track.artists[] or album.RELATED_ARTIST)
+ *   - inAlbum (back-pointer to parent MusicAlbum)
+ *   - url (Spotify preferred, fallback Deezer)
+ *   - sameAs (Spotify + YouTube + Apple Music + Deezer)
+ *   - lyrics (CreativeWork with capped text + source)
+ *   - genre (from Rap Monitor tags_genre)
+ *   - contributor (producer, beatmaker)
+ */
+function buildTrackRecordings(input: BuildJsonLdInput): Record<string, unknown>[] {
+  const { entity, allEntities, baseUrl } = input;
+  const tracks = entity.tracks?.tracks;
+  if (!tracks || tracks.length === 0) return [];
+
+  const albumId = selfId(entity, baseUrl);
+  const recordings: Record<string, unknown>[] = [];
+
+  for (const track of tracks) {
+    if (!track.title) continue;
+
+    const rec: Record<string, unknown> = {
+      "@type": "MusicRecording",
+      name: track.title,
+      // Position-based ID: /alba/{slug}#track-{position}
+      "@id": `${albumId}#track-${track.position ?? recordings.length + 1}`,
+    };
+
+    // byArtist — resolve track.artists[] against allEntities, fallback to album artist
+    if (track.artists?.length && allEntities) {
+      const artistMatches: Array<{ "@type": "MusicGroup"; "@id": string; name?: string }> = [];
+      for (const name of track.artists) {
+        const found = Object.values(allEntities).find(
+          (e) => e.type === "artist" && e.title.toLowerCase() === name.toLowerCase(),
+        );
+        if (found) {
+          const url = entityUrl(found.id, allEntities, baseUrl);
+          if (url) artistMatches.push({ "@type": "MusicGroup", "@id": url, name: found.title });
+        }
+      }
+      if (artistMatches.length === 0) {
+        // Fallback: album's RELATED_ARTIST
+        for (const aid of entity.outbound?.RELATED_ARTIST ?? []) {
+          const u = entityUrl(aid, allEntities, baseUrl);
+          if (u) artistMatches.push({ "@type": "MusicGroup", "@id": u });
+        }
+      }
+      if (artistMatches.length) rec.byArtist = artistMatches;
+    }
+
+    // inAlbum (back-pointer to parent)
+    rec.inAlbum = { "@type": "MusicAlbum", "@id": albumId };
+
+    // duration — ISO 8601 (PT3M19S)
+    if (track.duration_sec) {
+      const m = Math.floor(track.duration_sec / 60);
+      const s = track.duration_sec % 60;
+      rec.duration = `PT${m}M${s}S`;
+    }
+
+    // position (1-based)
+    if (track.position) rec.position = track.position;
+
+    // ISRC
+    if (track.isrc) rec.isrcCode = track.isrc;
+
+    // url (Spotify preferred, else Deezer link)
+    const targetUrl = track.spotify_url ?? track.link;
+    if (targetUrl) rec.url = targetUrl;
+
+    // sameAs: all music service URLs
+    const sameAs: string[] = [];
+    if (track.spotify_url) sameAs.push(track.spotify_url);
+    if (track.youtube_url) sameAs.push(track.youtube_url);
+    if (track.apple_music_url) sameAs.push(track.apple_music_url);
+    if (track.link && !sameAs.includes(track.link)) sameAs.push(track.link);
+    if (sameAs.length) rec.sameAs = sameAs;
+
+    // lyrics — CreativeWork with capped text + source attribution
+    if (track.lyrics_text) {
+      rec.lyrics = {
+        "@type": "CreativeWork",
+        text: track.lyrics_text.slice(0, 5000),
+        ...(track.lyrics_source ? { sourceOrganization: track.lyrics_source } : {}),
+      };
+    }
+
+    // genre (from Rap Monitor AI tags)
+    if (track.tags_genre?.length) rec.genre = track.tags_genre;
+
+    // contributor (producer / beatmaker)
+    const contributors: Array<{ "@type": "Person"; name: string; role: string }> = [];
+    if (track.producer) contributors.push({ "@type": "Person", name: track.producer, role: "Producer" });
+    if (track.beatmaker && track.beatmaker !== track.producer) {
+      contributors.push({ "@type": "Person", name: track.beatmaker, role: "BeatMaker" });
+    }
+    if (contributors.length) rec.contributor = contributors;
+
+    // per-track release date (if different from album)
+    if (track.release_date && track.release_date !== entity.publishedAt) {
+      rec.datePublished = track.release_date;
+    }
+
+    recordings.push(rec);
+  }
+
+  return recordings;
 }
 
 function buildLabel(input: BuildJsonLdInput): Record<string, unknown> {

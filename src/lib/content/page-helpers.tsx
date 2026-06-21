@@ -223,6 +223,8 @@ export async function EntityPage({
       outbound: entity.outbound as any,
       profile: (entity.profile as Record<string, unknown>) ?? null,
       extraMeta: (entity.extraMeta as Record<string, unknown>) ?? null,
+      // Album tracks.json (only for album type, when loaded)
+      tracks: entity.type === "album" && tracklistData ? (tracklistData as any) : null,
     },
     inboundIds,
     allEntities: allEntities as any,
