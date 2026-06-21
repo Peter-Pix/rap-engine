@@ -11,7 +11,7 @@ import { DatabaseStats } from "@/components/homepage/DatabaseStats";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 const RAP44_API = "https://44rap.base44.app/api";
-const RAP44_KEY = "b9d036…0803";
+const RAP44_KEY = process.env.RAP_MONITOR_API_KEY || "";
 const BASE_URL = "https://4rap.cz";
 
 // ─── Types ────────────────────────────────────────────────────────────────
@@ -489,10 +489,14 @@ interface RapEvent {
 
 async function fetchUpcomingEvents(): Promise<RapEvent[]> {
   try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000);
     const res = await fetch(`${RAP44_API}/entities/RapEvent?limit=20`, {
       headers: { api_key: RAP44_KEY },
+      signal: controller.signal,
       next: { revalidate: 3600 },
     });
+    clearTimeout(timeout);
     if (!res.ok) return [];
     const events: RapEvent[] = await res.json();
     const now = new Date();
