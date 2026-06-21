@@ -153,11 +153,11 @@ export async function EntityPage({
   }
 
   // ── Stats ────────────────────────────────────────────────────────────
+  const inboundIds = readInboundFor(id);
   const totalEdges = entity.outbound
     ? Object.values(entity.outbound).reduce((sum, arr) => sum + arr.length, 0)
     : 0;
   const totalConnections = totalEdges + inboundIds.length;
-  const inboundIds = readInboundFor(id);
 
   // ── Load tracklist for albums ──────────────────────────────────────
   let tracklistData: any | null = null;
