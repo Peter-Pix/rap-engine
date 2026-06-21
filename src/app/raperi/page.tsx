@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { readEntities } from "@/lib/content/cache-reader";
 import EntityListingClient from "@/components/listing/EntityListingClient";
+import { getArtistImage } from "@/lib/content/images";
 
 export const metadata: Metadata = {
   title: "Rappeři",
@@ -10,14 +11,20 @@ export const metadata: Metadata = {
 export default function RaperiListingPage() {
   const entities = readEntities();
   const artists = Object.values(entities || {}).filter((e) => e.type === "artist");
-  
+
+  // Add hasImage flag for sorting
+  const artistsWithImage = artists.map((e) => ({
+    ...e,
+    hasImage: getArtistImage(e.slug) !== undefined,
+  }));
+
   const filters = extractFilterOptions(entities || {}, "artist");
 
   return (
     <EntityListingClient
       title="Rappeři"
       description={`${artists.length} interpretů napříč českou a slovenskou rapovou scénou`}
-      entities={artists}
+      entities={artistsWithImage}
       filters={filters}
     />
   );

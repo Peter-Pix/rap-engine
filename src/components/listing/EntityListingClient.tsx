@@ -12,7 +12,9 @@ interface Entity {
   title: string;
   description: string;
   outbound?: Record<string, string[]>;
+  inbound?: Record<string, string[]>;
   rapperCount?: number;
+  hasImage?: boolean;
 }
 
 interface FilterOption {
@@ -150,8 +152,17 @@ export default function EntityListingClient({
       });
     }
 
-    // Sort alphabetically
-    return results.sort((a, b) => a.title.localeCompare(b.title));
+    // Sort: artists with images first, then by edge count, then alphabetically
+    return results.sort((a, b) => {
+      // Artists with images first
+      if (a.hasImage && !b.hasImage) return -1;
+      if (!a.hasImage && b.hasImage) return 1;
+      // Then by edge count (descending)
+      const edgeDiff = (edgeCounts[b.id] || 0) - (edgeCounts[a.id] || 0);
+      if (edgeDiff !== 0) return edgeDiff;
+      // Then alphabetically
+      return a.title.localeCompare(b.title);
+    });
   }, [entities, search, activeFilters, showAll, supportsTopLimit, edgeCounts, activeCount]);
 
   const toggleFilter = (category: keyof FilterState, id: string) => {
@@ -291,6 +302,16 @@ export default function EntityListingClient({
               className="block group"
             >
               <div className="glass glass-hover rounded-xl p-5 transition-all duration-200 group-hover:translate-y-[-1px] h-full flex flex-col">
+                {entity.hasImage && (
+                  <div className="relative w-12 h-12 rounded-full overflow-hidden mb-3 ring-2 ring-white/[0.06] group-hover:ring-[#c8962e]/30 transition-all shrink-0">
+                    <img
+                      src={`/images/artists/${entity.slug}.webp`}
+                      alt={entity.title}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
                 <div className="flex items-start justify-between gap-2 mb-2">
                   <h2 className="font-bold text-zinc-100 group-hover:text-white transition-colors leading-snug">
                     {entity.title}
@@ -306,9 +327,6 @@ export default function EntityListingClient({
                 </p>
                 {entity.outbound?.HAS_GENRE && (
                   <div className="mt-3 flex flex-wrap gap-1">
-                    {/* Dedupe by ID — outbound arrays in cache can technically
-                        contain duplicates (e.g. legacy slugs mixed with
-                        canonical IDs resolving to the same target). */}
                     {Array.from(new Set(entity.outbound.HAS_GENRE)).slice(0, 3).map((genreId) => (
                       <span
                         key={genreId}
