@@ -24,7 +24,7 @@ import * as path from "node:path";
 
 const CACHE_DIR = path.join(process.cwd(), ".content-cache");
 const OUTPUT_FILE = path.join(CACHE_DIR, "graph-layout.json");
-const TOP_N = 12;          // how many top artists to include
+const TOP_N = 20;          // how many top artists to include
 const WIDTH = 600;
 const HEIGHT = 360;
 const ITERATIONS = 300;
