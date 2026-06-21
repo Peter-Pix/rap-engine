@@ -8,9 +8,11 @@ import { TrendingAlbums, type AlbumTile } from "@/components/homepage/TrendingAl
 import { DiscoverScene, type CityTile, type LabelTile } from "@/components/homepage/DiscoverScene";
 import { RecentFeed, type FeedItem } from "@/components/homepage/RecentFeed";
 import { DatabaseStats } from "@/components/homepage/DatabaseStats";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 const RAP44_API = "https://44rap.base44.app/api";
 const RAP44_KEY = "b9d036…0803";
+const BASE_URL = "https://4rap.cz";
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -208,6 +210,124 @@ function buildCounts(
   };
 }
 
+/**
+ * Schema.org JSON-LD for the homepage.
+ *
+ * Three top-level items as a @graph array:
+ *   1. WebSite — marks this as the canonical homepage, with SearchAction for /hledat
+ *   2. ItemList (Top Artists) — ordered list of trending artists as ListItem
+ *   3. ItemList (Top Albums) — ordered list of trending albums as ListItem
+ *
+ * Communicates to Google: "this is a database, not a blog",
+ * and gives structured navigation entry points for rich results.
+ */
+function buildHomeJsonLd(
+  artists: ArtistTile[],
+  albums: AlbumTile[],
+  counts: ReturnType<typeof buildCounts>,
+): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      // ── 1. WebSite ─────────────────────────────────────────────
+      {
+        "@type": "WebSite",
+        "@id": `${BASE_URL}/#website`,
+        url: BASE_URL,
+        name: "4rap.cz",
+        alternateName: "Mapa českého a slovenského rapu",
+        description:
+          "Databáze a knowledge graph české a slovenské rapové scény. " +
+          `${counts.artists} interpretů, ${counts.albums} alb, ${counts.edges} propojení.`,
+        inLanguage: "cs",
+        publisher: {
+          "@type": "Organization",
+          "@id": `${BASE_URL}/#org`,
+          name: "4rap.cz",
+          url: BASE_URL,
+        },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `${BASE_URL}/hledat?q={search_term_string}`,
+          },
+          "query-input": "required name=search_term_string",
+        },
+      },
+
+      // ── 2. ItemList: Top Artists ───────────────────────────────
+      {
+        "@type": "ItemList",
+        "@id": `${BASE_URL}/#top-artists`,
+        name: "Nejpropojenější interpreti českého a slovenského rapu",
+        description:
+          `Top ${artists.length} interpretů podle počtu vazeb v databázi.`,
+        numberOfItems: artists.length,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        itemListElement: artists.map((a, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          item: {
+            "@type": "MusicGroup",
+            "@id": `${BASE_URL}${TYPE_ROUTE_MAP.artist}/${a.slug}`,
+            name: a.title,
+            url: `${BASE_URL}${TYPE_ROUTE_MAP.artist}/${a.slug}`,
+          },
+        })),
+      },
+
+      // ── 3. ItemList: Top Albums ────────────────────────────────
+      {
+        "@type": "ItemList",
+        "@id": `${BASE_URL}/#top-albums`,
+        name: "Nejnovější alba českého a slovenského rapu",
+        description: `Top ${albums.length} alb podle data vydání.`,
+        numberOfItems: albums.length,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        itemListElement: albums.map((a, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          item: {
+            "@type": "MusicAlbum",
+            "@id": `${BASE_URL}${TYPE_ROUTE_MAP.album}/${a.slug}`,
+            name: a.title,
+            url: `${BASE_URL}${TYPE_ROUTE_MAP.album}/${a.slug}`,
+            ...(a.artistTitle ? { byArtist: { "@type": "MusicGroup", name: a.artistTitle } } : {}),
+            ...(a.publishedAt ? { datePublished: a.publishedAt } : {}),
+          },
+        })),
+      },
+
+      // ── 4. Dataset (knowledge graph framing) ────────────────────
+      {
+        "@type": "Dataset",
+        "@id": `${BASE_URL}/#dataset`,
+        name: "4rap.cz — Databáze české a slovenské rapové scény",
+        description:
+          `Strukturovaná databáze ${counts.artists} interpretů, ${counts.albums} alb, ` +
+          `${counts.locations} měst a ${counts.labels} labelů s ${counts.edges} explicitními vazbami.`,
+        keywords: [
+          "český rap",
+          "slovenský rap",
+          "hip hop",
+          "drill",
+          "trap",
+          "databáze",
+          "knowledge graph",
+        ],
+        creator: { "@id": `${BASE_URL}/#org` },
+        inLanguage: "cs",
+        spatialCoverage: [
+          { "@type": "Country", name: "Czechia" },
+          { "@type": "Country", name: "Slovakia" },
+        ],
+        measurementTechnique: "Manual curation with AI-assisted metadata enrichment",
+      },
+    ],
+  };
+}
+
 // ─── Homepage ─────────────────────────────────────────────────────────────
 
 export default function HomePage() {
@@ -240,8 +360,12 @@ export default function HomePage() {
     graph,
   );
 
+  const jsonLd = buildHomeJsonLd(trendingArtists, trendingAlbums, counts);
+
   return (
-    <main className="max-w-[1100px] mx-auto px-4 sm:px-8">
+    <>
+      <JsonLd data={jsonLd} />
+      <main className="max-w-[1100px] mx-auto px-4 sm:px-8">
 
       {/* ═══════════════════════════════════════════════════════════════
          HERO — databáze, ne magazín
@@ -342,6 +466,7 @@ export default function HomePage() {
         slovenskýho rapu
       </footer>
     </main>
+    </>
   );
 }
 
