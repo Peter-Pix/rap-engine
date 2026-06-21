@@ -8,8 +8,35 @@ import type {
 } from "./cache-builder";
 import { CACHE_DIR } from "./cache-builder";
 
-// ─── Low-level JSON readers ───────────────────────────────────────────────
+// ─── Public reader API ────────────────────────────────────────────────────
 
+// ─── Types (forward-declared for graph-layout reader) ─────────────────────
+
+interface GraphLayoutNode {
+  id: string;
+  slug: string;
+  title: string;
+  image?: string;
+  degree: number;
+  x: number;
+  y: number;
+}
+
+interface GraphLayoutEdge {
+  source: string;
+  target: string;
+}
+
+export interface GraphLayout {
+  width: number;
+  height: number;
+  nodes: GraphLayoutNode[];
+  edges: GraphLayoutEdge[];
+}
+
+/**
+ * Low-level JSON reader.
+ */
 function readJson<T>(filename: string): T | null {
   const filePath = path.join(CACHE_DIR, filename);
   if (!fs.existsSync(filePath)) return null;
@@ -95,6 +122,14 @@ export function readRoutes(): CacheRoutes | null {
  */
 export function readSearchIndex(): CacheSearchEntry[] | null {
   return readJson<CacheSearchEntry[]>("search-index.json");
+}
+
+/**
+ * Read `graph-layout.json` — pre-computed force-directed layout for the
+ * homepage network graph. Returns `null` if `build-graph-layout` hasn't run.
+ */
+export function readGraphLayout(): GraphLayout | null {
+  return readJson<GraphLayout>("graph-layout.json");
 }
 
 /**
