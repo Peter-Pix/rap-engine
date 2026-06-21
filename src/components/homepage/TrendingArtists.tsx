@@ -9,7 +9,6 @@ export interface ArtistTile {
   slug: string;
   title: string;
   image?: string;
-  albumCount?: number;
   originTitle?: string;
   labelTitle?: string;
   connectivity: number;
@@ -89,9 +88,6 @@ export function TrendingArtists({ artists }: TrendingArtistsProps) {
 
 function buildArtistCaption(a: ArtistTile): string {
   const parts: string[] = [];
-  if (a.albumCount && a.albumCount > 0) {
-    parts.push(`${a.albumCount} ${a.albumCount === 1 ? "album" : a.albumCount < 5 ? "alba" : "alb"}`);
-  }
   if (a.originTitle) parts.push(a.originTitle);
   if (a.labelTitle) parts.push(a.labelTitle);
   if (parts.length === 0) parts.push(`${a.connectivity} vazeb`);

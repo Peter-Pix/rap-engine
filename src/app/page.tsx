@@ -1,10 +1,16 @@
 import Link from "next/link";
-import { readEntities, readGraph } from "@/lib/content/cache-reader";
-import { getArtistImage } from "@/lib/content/images";
+import { readEntities, readGraph, readGraphLayout } from "@/lib/content/cache-reader";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
+import { SearchBar } from "@/components/search/SearchBar";
+import { NetworkGraph } from "@/components/homepage/NetworkGraph";
+import { TrendingArtists, type ArtistTile } from "@/components/homepage/TrendingArtists";
+import { TrendingAlbums, type AlbumTile } from "@/components/homepage/TrendingAlbums";
+import { DiscoverScene, type CityTile, type LabelTile } from "@/components/homepage/DiscoverScene";
+import { RecentFeed, type FeedItem } from "@/components/homepage/RecentFeed";
+import { DatabaseStats } from "@/components/homepage/DatabaseStats";
 
 const RAP44_API = "https://44rap.base44.app/api";
-const RAP44_KEY = "b9d03638f3df4fe49ee5e75ab26d0803";
+const RAP44_KEY = "b9d036…0803";
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -13,18 +19,24 @@ interface FlatEntity {
   type: string;
   slug: string;
   title: string;
-  description: string;
+  description?: string;
+  image?: string;
+  publishedAt?: string;
   profile?: Record<string, unknown>;
   outbound?: Record<string, string[]>;
 }
 
-// ─── Rankings ─────────────────────────────────────────────────────────────
+interface Edge {
+  from: string;
+  relation: string;
+  to: string;
+}
 
-/** Builds a map of entity ID → total edges (both directions) */
-function computeEdgeCounts(
-  graph: Array<{ from: string; to: string }>,
-): Record<string, number> {
+// ─── Aggregations ─────────────────────────────────────────────────────────
+
+function computeEdgeCounts(graph: Edge[] | null): Record<string, number> {
   const counts: Record<string, number> = {};
+  if (!graph) return counts;
   for (const e of graph) {
     counts[e.from] = (counts[e.from] ?? 0) + 1;
     counts[e.to] = (counts[e.to] ?? 0) + 1;
@@ -32,64 +44,168 @@ function computeEdgeCounts(
   return counts;
 }
 
-/** Build an index of all entities by ID for quick lookup */
-function buildEntityIndex(
+function titleById(
   entities: Record<string, FlatEntity>,
-): Record<string, FlatEntity> {
-  return entities;
+): (id: string) => string | undefined {
+  return (id: string) => entities[id]?.title;
 }
 
-// ─── Helpers ──────────────────────────────────────────────────────────────
+function buildTrendingArtists(
+  entities: Record<string, FlatEntity>,
+  graph: Edge[] | null,
+): ArtistTile[] {
+  const counts = computeEdgeCounts(graph);
+  const artists = Object.values(entities).filter((e) => e.type === "artist");
+  const t = titleById(entities);
 
-/** Resolve entity ID to a route */
-function entityRoute(type: string, slug: string): string {
-  return `${TYPE_ROUTE_MAP[type as EntityType] ?? `/${type}`}/${slug}`;
+  return artists
+    .map((a) => {
+      const out = a.outbound ?? {};
+      const originId = out.ORIGINATES_FROM?.[0];
+      const labelId = out.SIGNED_TO?.[0];
+
+      return {
+        id: a.id,
+        slug: a.slug,
+        title: a.title,
+        image: a.image,
+        originTitle: originId ? t(originId) : undefined,
+        labelTitle: labelId ? t(labelId) : undefined,
+        connectivity: counts[a.id] ?? 0,
+      };
+    })
+    .filter((a) => a.connectivity > 0)
+    .sort((a, b) => b.connectivity - a.connectivity);
 }
 
-/** Build a readable "Kdo s kým" description for an artist */
-function buildSceneDescription(
-  entity: FlatEntity,
-  index: Record<string, FlatEntity>,
-): string[] {
-  const lines: string[] = [];
-  const out = entity.outbound ?? {};
+function buildTrendingAlbums(
+  entities: Record<string, FlatEntity>,
+  graph: Edge[] | null,
+): AlbumTile[] {
+  const t = titleById(entities);
+  const albums = Object.values(entities).filter((e) => e.type === "album");
 
-  // Groups / collectives
-  const groups = (out.MEMBER_OF ?? []).map((id) => index[id]).filter(Boolean);
-  if (groups.length > 0) {
-    const names = groups.map((g) => g.title);
-    lines.push(
-      `Člen ${names.length > 1 ? "skupin" : "skupiny"} ${names.join(", ")}.`,
-    );
+  return albums
+    .filter((a) => Boolean(a.image) && Boolean(a.publishedAt))
+    .map((a) => {
+      const out = a.outbound ?? {};
+      // Album's artist is typically the inbound edge from artist (HAS_ALBUM),
+      // but we have album.outbound → not symmetric. Use graph to find artist.
+      const artistEdge = (graph ?? []).find(
+        (e) => e.relation === "HAS_ALBUM" && e.to === a.id,
+      );
+      const artistId = artistEdge?.from;
+      return {
+        id: a.id,
+        slug: a.slug,
+        title: a.title,
+        image: a.image,
+        publishedAt: a.publishedAt,
+        artistTitle: artistId ? t(artistId) : undefined,
+      };
+    })
+    .sort((a, b) => (b.publishedAt ?? "").localeCompare(a.publishedAt ?? ""));
+}
+
+function buildCitiesAndLabels(
+  entities: Record<string, FlatEntity>,
+  graph: Edge[] | null,
+): { cities: CityTile[]; labels: LabelTile[] } {
+  if (!graph) return { cities: [], labels: [] };
+
+  const artistByLocation: Record<string, number> = {};
+  const artistByLabel: Record<string, number> = {};
+
+  for (const e of graph) {
+    if (e.relation === "ORIGINATES_FROM") {
+      artistByLocation[e.to] = (artistByLocation[e.to] ?? 0) + 1;
+    }
+    if (e.relation === "SIGNED_TO") {
+      artistByLabel[e.to] = (artistByLabel[e.to] ?? 0) + 1;
+    }
   }
 
-  // Label
-  const labels = (out.SIGNED_TO ?? [])
-    .map((id) => index[id])
-    .filter(Boolean);
-  if (labels.length > 0) {
-    lines.push(`Label: ${labels.map((l) => l.title).join(", ")}.`);
+  const cities: CityTile[] = Object.entries(artistByLocation)
+    .map(([id, artistCount]) => {
+      const e = entities[id];
+      if (!e) return null;
+      // Filter out country entities (Česko / Slovensko) — those are not cities.
+      if (e.slug === "cesko" || e.slug === "slovensko") return null;
+      return { id, slug: e.slug, title: e.title, artistCount };
+    })
+    .filter((c): c is CityTile => c !== null)
+    .sort((a, b) => b.artistCount - a.artistCount);
+
+  const labels: LabelTile[] = Object.entries(artistByLabel)
+    .map(([id, artistCount]) => {
+      const e = entities[id];
+      if (!e) return null;
+      return { id, slug: e.slug, title: e.title, artistCount };
+    })
+    .filter((l): l is LabelTile => l !== null)
+    .sort((a, b) => b.artistCount - a.artistCount);
+
+  return { cities, labels };
+}
+
+function buildRecentFeed(entities: Record<string, FlatEntity>): FeedItem[] {
+  const t = titleById(entities);
+  const items: FeedItem[] = [];
+
+  for (const e of Object.values(entities)) {
+    if (e.type !== "artist" && e.type !== "album") continue;
+    if (!e.publishedAt) continue;
+
+    // For albums: try to resolve artist
+    let subtitle: string | undefined;
+    if (e.type === "album") {
+      const out = e.outbound ?? {};
+      const artistId = out.HAS_ARTIST?.[0];
+      if (artistId) subtitle = t(artistId);
+    }
+
+    items.push({
+      id: e.id,
+      type: e.type as EntityType,
+      slug: e.slug,
+      title: e.title,
+      publishedAt: e.publishedAt,
+      subtitle,
+    });
   }
 
-  // Related artists
-  const related = (out.RELATED_TO ?? [])
-    .map((id) => index[id])
-    .filter(Boolean);
-  if (related.length > 0) {
-    const names = related.slice(0, 4).map((r) => r.title);
-    if (related.length > 4) names.push(`a ${related.length - 4} dalšími`);
-    lines.push(`Tracky s ${names.join(", ")}.`);
-  }
+  return items.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+}
 
-  // Origin / location
-  const origins = (out.ORIGINATES_FROM ?? [])
-    .map((id) => index[id])
-    .filter(Boolean);
-  if (origins.length > 0) {
-    lines.push(`Místo: ${origins.map((o) => o.title).join(", ")}.`);
+function buildCounts(
+  entities: Record<string, FlatEntity>,
+  graph: Edge[] | null,
+): {
+  artists: number;
+  albums: number;
+  tracks: number;
+  locations: number;
+  labels: number;
+  genres: number;
+  edges: number;
+  entities: number;
+} {
+  let artists = 0, albums = 0, tracks = 0, locations = 0, labels = 0, genres = 0;
+  for (const e of Object.values(entities)) {
+    switch (e.type) {
+      case "artist": artists++; break;
+      case "album": albums++; break;
+      case "track": tracks++; break;
+      case "location": locations++; break;
+      case "label": labels++; break;
+      case "genre": genres++; break;
+    }
   }
-
-  return lines;
+  return {
+    artists, albums, tracks, locations, labels, genres,
+    edges: graph?.length ?? 0,
+    entities: Object.keys(entities).length,
+  };
 }
 
 // ─── Homepage ─────────────────────────────────────────────────────────────
@@ -97,121 +213,121 @@ function buildSceneDescription(
 export default function HomePage() {
   const entities = readEntities();
   const graph = readGraph();
+  const layout = readGraphLayout();
   if (!entities) return null;
 
-  const index = buildEntityIndex(entities as unknown as Record<string, FlatEntity>);
-  const all = Object.values(entities) as FlatEntity[];
-  const edgeCounts = graph ? computeEdgeCounts(graph) : {};
+  const trendingArtists = buildTrendingArtists(
+    entities as unknown as Record<string, FlatEntity>,
+    graph,
+  ).slice(0, 6);
 
-  // Artists ranked by graph connectivity
-  const artists = all.filter((e) => e.type === "artist");
-  const ranked = artists
-    .map((a) => ({
-      ...a,
-      connectivity: edgeCounts[a.id] ?? 0,
-    }))
-    .sort((a, b) => b.connectivity - a.connectivity);
+  const trendingAlbums = buildTrendingAlbums(
+    entities as unknown as Record<string, FlatEntity>,
+    graph,
+  ).slice(0, 6);
 
-  const top20Ranked = ranked.slice(0, 20);
-  const sceneCards = ranked
-    .filter((a) => a.profile && a.connectivity > 0)
-    .slice(0, 3);
+  const { cities, labels } = buildCitiesAndLabels(
+    entities as unknown as Record<string, FlatEntity>,
+    graph,
+  );
+
+  const recentFeed = buildRecentFeed(
+    entities as unknown as Record<string, FlatEntity>,
+  ).slice(0, 8);
+
+  const counts = buildCounts(
+    entities as unknown as Record<string, FlatEntity>,
+    graph,
+  );
 
   return (
     <main className="max-w-[1100px] mx-auto px-4 sm:px-8">
 
       {/* ═══════════════════════════════════════════════════════════════
-         HERO
+         HERO — databáze, ne magazín
          ═══════════════════════════════════════════════════════════════ */}
       <section className="pt-[140px] pb-12 border-b border-white/[0.06] mb-16">
         <h1 className="text-[clamp(44px,9vw,80px)] font-black tracking-tighter text-white uppercase leading-[0.85] mb-6">
           4rap<span className="text-[#c8962e]">.</span>
         </h1>
-        <p className="text-base text-white/60 max-w-[560px] leading-relaxed">
-          Sledujeme {artists.length} interpretů, {all.filter((e) => e.type === "album").length} alb
-          a tisíce propojení mezi nimi — kdo s kým dělá, kdo je odkud, kdo hraje stejnou ligu.
+        <p className="text-2xl sm:text-3xl font-bold text-white leading-tight max-w-[700px] mb-3">
+          Největší mapa českého a slovenského rapu
         </p>
+        <p className="text-base text-white/60 max-w-[600px] leading-relaxed mb-8">
+          Prozkoumej interprety, alba, labely, města a jejich vzájemné vazby.
+        </p>
+
+        {/* Search */}
+        <div className="max-w-md mb-8">
+          <SearchBar />
+        </div>
+
+        {/* Quick stats */}
+        <div className="flex flex-wrap items-baseline gap-x-5 gap-y-2">
+          <Link href="/raperi" className="text-sm font-bold text-white hover:text-[#c8962e] transition-colors">
+            {counts.artists} <span className="text-white/50 font-normal">interpretů</span>
+          </Link>
+          <span className="text-white/20">·</span>
+          <Link href="/alba" className="text-sm font-bold text-white hover:text-[#c8962e] transition-colors">
+            {counts.albums} <span className="text-white/50 font-normal">alb</span>
+          </Link>
+          <span className="text-white/20">·</span>
+          <Link href="/lokality" className="text-sm font-bold text-white hover:text-[#c8962e] transition-colors">
+            {counts.locations} <span className="text-white/50 font-normal">měst</span>
+          </Link>
+          <span className="text-white/20">·</span>
+          <span className="text-sm font-bold text-white">
+            {counts.edges.toLocaleString("cs-CZ")} <span className="text-white/50 font-normal">vazeb</span>
+          </span>
+        </div>
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════
-         KDO S KÝM  (3 scene cards)
+         TRENDUJÍCÍ INTERPRETI
          ═══════════════════════════════════════════════════════════════ */}
-      {sceneCards.length > 0 && (
+      <TrendingArtists artists={trendingArtists} />
+
+      {/* ═══════════════════════════════════════════════════════════════
+         TRENDUJÍCÍ ALBA
+         ═══════════════════════════════════════════════════════════════ */}
+      <TrendingAlbums albums={trendingAlbums} />
+
+      {/* ═══════════════════════════════════════════════════════════════
+         NEJPROPOJENĚJŠÍ INTERPRETI — síťový graf
+         ═══════════════════════════════════════════════════════════════ */}
+      {layout && (
         <section className="mb-16">
           <div className="flex items-baseline justify-between mb-5">
-            <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">Kdo s kým</h2>
-            <Link href="/scena" className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors">
+            <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">
+              Nejpropojenější interpreti
+            </h2>
+            <Link
+              href="/scena"
+              className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors"
+            >
               Celá síť →
             </Link>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-[2px]">
-            {sceneCards.map((artist) => {
-              const lines = buildSceneDescription(artist, index);
-              return (
-                <a
-                  key={artist.id}
-                  href={entityRoute("artist", artist.slug)}
-                  className="block bg-white/[0.03] p-7 sm:p-6 transition-colors hover:bg-white/[0.06]"
-                >
-                  <div className="text-lg font-bold text-white mb-3">
-                    {artist.title}
-                  </div>
-                  <div className="text-sm text-white/50 leading-relaxed space-y-1.5">
-                    {lines.map((line, i) => (
-                      <p key={i}>{line}</p>
-                    ))}
-                  </div>
-                </a>
-              );
-            })}
+          <div className="bg-white/[0.02] border border-white/[0.06] rounded-lg p-6 sm:p-8">
+            <NetworkGraph layout={layout} />
           </div>
         </section>
       )}
 
       {/* ═══════════════════════════════════════════════════════════════
-         NEJVÍC NAPOJENÍ  (TOP 20)
+         OBJEV SCÉNU
          ═══════════════════════════════════════════════════════════════ */}
-      {top20Ranked.length > 0 && (
-        <section className="mb-16">
-          <div className="flex items-baseline justify-between mb-5">
-            <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">Top 20 nejvíc napojených interpretů</h2>
-            <Link href="/raperi" className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors">
-              Všichni →
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8">
-            {top20Ranked.map((a, i) => {
-              const img = getArtistImage(a.slug);
-              return (
-                <a
-                  key={a.id}
-                  href={entityRoute("artist", a.slug)}
-                  className="group grid grid-cols-[28px_40px_1fr_auto] gap-3 items-center py-2 border-b border-white/[0.06] last:border-none transition-colors hover:bg-white/[0.04]"
-                >
-                  <span className={`text-xs font-mono text-right ${i < 3 ? "text-[#c8962e] font-bold" : "text-white/30"}`}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <div className="w-9 h-9 rounded-full overflow-hidden bg-white/[0.06] flex-shrink-0">
-                    {img ? (
-                      <img src={img} alt={a.title} className="w-full h-full object-cover" />
-                    ) : (
-                      <div className="w-full h-full flex items-center justify-center text-xs font-bold text-white/30">
-                        {a.title[0]}
-                      </div>
-                    )}
-                  </div>
-                  <span className="text-sm text-white/90 font-medium truncate">
-                    {a.title}
-                  </span>
-                  <span className="text-xs text-white/40 tabular-nums">
-                    {a.connectivity}
-                  </span>
-                </a>
-              );
-            })}
-          </div>
-        </section>
-      )}
+      <DiscoverScene cities={cities} labels={labels} />
+
+      {/* ═══════════════════════════════════════════════════════════════
+         POSLEDNÍ PŘIDANÉ PROFILY
+         ═══════════════════════════════════════════════════════════════ */}
+      <RecentFeed items={recentFeed} />
+
+      {/* ═══════════════════════════════════════════════════════════════
+         DATABASE STATS — "nejsi na blogu"
+         ═══════════════════════════════════════════════════════════════ */}
+      <DatabaseStats counts={counts} />
 
       {/* ═══════════════════════════════════════════════════════════════
          NADCHÁZEJÍCÍ AKCE (44rap)
@@ -250,7 +366,7 @@ async function fetchUpcomingEvents(): Promise<RapEvent[]> {
   try {
     const res = await fetch(`${RAP44_API}/entities/RapEvent?limit=20`, {
       headers: { api_key: RAP44_KEY },
-      next: { revalidate: 3600 }, // cache 1 hour
+      next: { revalidate: 3600 },
     });
     if (!res.ok) return [];
     const events: RapEvent[] = await res.json();
