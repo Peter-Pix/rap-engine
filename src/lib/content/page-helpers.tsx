@@ -156,6 +156,7 @@ export async function EntityPage({
   const totalEdges = entity.outbound
     ? Object.values(entity.outbound).reduce((sum, arr) => sum + arr.length, 0)
     : 0;
+  const totalConnections = totalEdges + inboundIds.length;
   const inboundIds = readInboundFor(id);
 
   // ── Load tracklist for albums ──────────────────────────────────────
@@ -678,7 +679,7 @@ export async function EntityPage({
             <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
               V síti
             </h2>
-            <p className="text-sm text-white/50">{totalEdges} vazeb · {inboundIds.length} odkazů</p>
+            <p className="text-sm text-white/50">{totalConnections} vazeb · {inboundIds.length} odkazů</p>
           </section>
 
           {/* Relations */}

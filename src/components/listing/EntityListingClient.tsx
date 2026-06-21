@@ -72,8 +72,12 @@ export default function EntityListingClient({
     const counts: Record<string, number> = {};
     for (const e of entities) {
       const ob = e.outbound || {};
+      const ib = e.inbound || {};
       let count = 0;
       for (const arr of Object.values(ob)) {
+        count += arr.length;
+      }
+      for (const arr of Object.values(ib)) {
         count += arr.length;
       }
       counts[e.id] = count;
