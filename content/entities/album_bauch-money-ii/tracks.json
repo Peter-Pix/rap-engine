@@ -226,7 +226,12 @@
       "isrc": "CZUM72000212",
       "link": "https://www.deezer.com/track/1165080482",
       "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/f/0/d9ffd039e7f9e59c8b535b55a55f2a4e.mp3?hdnea=exp=1781897597~acl=/api/1/1/d/9/f/0/d9ffd039e7f9e59c8b535b55a55f2a4e.mp3*~data=user_id=0,application_id=42~hmac=f36ae088514d46e500ca95bf1e8754ad40ecfe20256692010188026fcfcffcf3",
-      "explicit": true
+      "explicit": true,
+      "rap_monitor": {
+        "id": "6a3581bd05b2f84642e1a3e9",
+        "confidence": 90,
+        "matched_at": "2026-06-21T14:05:10.483Z"
+      }
     }
   ]
 }

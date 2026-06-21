@@ -8,6 +8,7 @@
     "start": "next start",
     "cache:build": "npx tsx scripts/build-content-cache.ts && npx tsx scripts/build-graph-layout.ts",
     "cache:graph-layout": "npx tsx scripts/build-graph-layout.ts",
+    "cache:track-import": "npx tsx scripts/import-rap-monitor-tracks.ts",
     "cache:validate": "npx tsx scripts/validate-content.ts"
   },
   "dependencies": {
