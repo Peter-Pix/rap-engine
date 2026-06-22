@@ -123,7 +123,11 @@ function buildCitiesAndLabels(
       artistByLocation[e.to] = (artistByLocation[e.to] ?? 0) + 1;
     }
     if (e.relation === "SIGNED_TO") {
-      artistByLabel[e.to] = (artistByLabel[e.to] ?? 0) + 1;
+      // Only count artist→label edges, not album→label
+      const fromEntity = entities[e.from];
+      if (fromEntity && fromEntity.type === "artist") {
+        artistByLabel[e.to] = (artistByLabel[e.to] ?? 0) + 1;
+      }
     }
   }
 
