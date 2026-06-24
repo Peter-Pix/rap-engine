@@ -126,18 +126,6 @@ export async function EntityPage({
 
   const allEntities = readEntities();
 
-  // ── Build tracks cache for this artist (sync read from disk) ──
-  const allTracks: Record<string, any> = {};
-  for (const entId of Object.keys(allEntities || {})) {
-    if (!entId.startsWith("album_")) continue;
-    const tracksPath = join(process.cwd(), "content/entities", entId, "tracks.json");
-    if (existsSync(tracksPath)) {
-      try {
-        allTracks[entId] = JSON.parse(readFileSync(tracksPath, "utf-8"));
-      } catch {}
-    }
-  }
-
   // ── Build entity index ───────────────────────────────────────────────
   const entityIndex: Record<string, ResolvedTarget> = {};
   if (allEntities) {
@@ -621,6 +609,18 @@ export async function EntityPage({
 
           {/* Key Tracks - interactive list with preview */}
           {profile?.keyTracks && Array.isArray(profile.keyTracks) && (profile.keyTracks as string[]).length > 0 && (() => {
+            // Build tracks cache for this artist (sync read from disk) — LAZY, only when keyTracks exist
+            const allTracks: Record<string, any> = {};
+            for (const entId of Object.keys(allEntities || {})) {
+              if (!entId.startsWith("album_")) continue;
+              const tracksPath = join(process.cwd(), "content/entities", entId, "tracks.json");
+              if (existsSync(tracksPath)) {
+                try {
+                  allTracks[entId] = JSON.parse(readFileSync(tracksPath, "utf-8"));
+                } catch {}
+              }
+            }
+
             // Find artist albums from relations (search allEntities)
             const artistId = id; // current entity id
             const relatedAlbums = (entity.outbound?.ALBUMS || []) as string[];
