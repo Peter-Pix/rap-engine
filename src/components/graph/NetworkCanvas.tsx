@@ -53,6 +53,27 @@ const TYPE_COLORS: Record<EntityType, string> = {
   event: "#ccc",
 };
 
+// ─── Camera / Viewport ──────────────────────────────────────────────────
+interface Camera {
+  x: number;
+  y: number;
+  zoom: number;
+}
+
+function worldToScreen(camera: Camera, wx: number, wy: number, cx: number, cy: number) {
+  return {
+    x: (wx - camera.x) * camera.zoom + cx,
+    y: (wy - camera.y) * camera.zoom + cy,
+  };
+}
+
+function screenToWorld(camera: Camera, sx: number, sy: number, cx: number, cy: number) {
+  return {
+    x: (sx - cx) / camera.zoom + camera.x,
+    y: (sy - cy) / camera.zoom + camera.y,
+  };
+}
+
 export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -61,9 +82,11 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const [dragging, setDragging] = useState<string | null>(null);
 
-  const simRef = useRef<
-    ReturnType<typeof forceSimulation<GraphNode>> | null
-  >(null);
+  const simRef = useRef<ReturnType<typeof forceSimulation<GraphNode>> | null>(null);
+  const cameraRef = useRef<Camera>({ x: 0, y: 0, zoom: 1 });
+  const isPanningRef = useRef(false);
+  const panStartRef = useRef<{ x: number; y: number } | null>(null);
+  const cameraStartRef = useRef<Camera | null>(null);
 
   const nodesRef = useRef<GraphNode[]>(nodes);
   const edgesRef = useRef<GraphEdge[]>(edges);
@@ -112,18 +135,24 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   );
 
   const findNodeAt = useCallback(
-    (x: number, y: number) => {
+    (sx: number, sy: number) => {
+      const canvas = canvasRef.current;
+      if (!canvas) return null;
+      const cx = canvas.clientWidth / 2;
+      const cy = canvas.clientHeight / 2;
+      const camera = cameraRef.current;
       return nodesRef.current.find((n) => {
         const r = getNodeRadius(n) + 2;
-        const dx = (n.x ?? 0) - x;
-        const dy = (n.y ?? 0) - y;
-        return dx * dx + dy * dy < r * r;
+        const pos = worldToScreen(camera, n.x ?? 0, n.y ?? 0, cx, cy);
+        const dx = pos.x - sx;
+        const dy = pos.y - sy;
+        return dx * dx + dy * dy < r * r * camera.zoom * camera.zoom;
       });
     },
     [getNodeRadius],
   );
 
-  // Init simulation
+  // ─── Init simulation ──────────────────────────────────────────────────────
   useEffect(() => {
     const canvas = canvasRef.current;
     const container = containerRef.current;
@@ -132,7 +161,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     const resize = () => {
       const dpr = window.devicePixelRatio || 1;
       const w = container.clientWidth;
-      const h = Math.max(container.clientHeight, 400);
+      const h = container.clientHeight;
       canvas.width = w * dpr;
       canvas.height = h * dpr;
       canvas.style.width = `${w}px`;
@@ -147,7 +176,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     const w = canvas.clientWidth;
     const h = canvas.clientHeight;
 
-    const simNodes = nodesRef.current.map((n) => ({ ...n, x: w / 2, y: h / 2 }));
+    const simNodes = nodesRef.current.map((n) => ({ ...n, x: 0, y: 0 }));
     const simLinks = edgesRef.current.map((e) => ({
       source: e.from,
       target: e.to,
@@ -164,22 +193,38 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       )
       .force("charge", forceManyBody().strength(-200))
       .force("collide", forceCollide().radius((d: any) => getNodeRadius(d) + 5))
-      .force("x", forceX(w / 2).strength(0.08))
-      .force("y", forceY(h / 2).strength(0.08))
+      .force("x", forceX(0).strength(0.08))
+      .force("y", forceY(0).strength(0.08))
       .alphaDecay(0.02)
       .on("tick", () => {
-        // Keep within bounds
-        simNodes.forEach((n) => {
-          const r = getNodeRadius(n);
-          n.x = Math.max(r, Math.min(w - r, n.x ?? 0));
-          n.y = Math.max(r, Math.min(h - r, n.y ?? 0));
-        });
         draw();
       });
 
     simRef.current = sim;
 
+    // Center camera on bbox center once layout settles
+    const initCamera = () => {
+      const xs = simNodes.map((n) => n.x ?? 0);
+      const ys = simNodes.map((n) => n.y ?? 0);
+      const minX = Math.min(...xs);
+      const maxX = Math.max(...xs);
+      const minY = Math.min(...ys);
+      const maxY = Math.max(...ys);
+      const centerX = (minX + maxX) / 2;
+      const centerY = (minY + maxY) / 2;
+      cameraRef.current = { x: centerX, y: centerY, zoom: 1 };
+    };
+    setTimeout(initCamera, 100);
+
     const draw = () => {
+      const canvas = canvasRef.current;
+      if (!canvas) return;
+      const w = canvas.clientWidth;
+      const h = canvas.clientHeight;
+      const cx = w / 2;
+      const cy = h / 2;
+      const camera = cameraRef.current;
+
       ctx.clearRect(0, 0, w, h);
 
       const hovered = hoveredRef.current;
@@ -201,13 +246,16 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         const b = simNodes.find((n) => n.id === e.to);
         if (!a || !b) return;
 
+        const posA = worldToScreen(camera, a.x ?? 0, a.y ?? 0, cx, cy);
+        const posB = worldToScreen(camera, b.x ?? 0, b.y ?? 0, cx, cy);
+
         const highlighted =
           hovered === e.from || hovered === e.to || selected === e.from || selected === e.to;
         const dimmed = isDimmed(e.from) || isDimmed(e.to);
 
         ctx.beginPath();
-        ctx.moveTo(a.x ?? 0, a.y ?? 0);
-        ctx.lineTo(b.x ?? 0, b.y ?? 0);
+        ctx.moveTo(posA.x, posA.y);
+        ctx.lineTo(posB.x, posB.y);
         ctx.strokeStyle = highlighted ? "rgba(200,150,46,0.5)" : "rgba(255,255,255,0.08)";
         ctx.lineWidth = highlighted ? 2 : 1;
         ctx.globalAlpha = dimmed ? 0.15 : 1;
@@ -223,19 +271,22 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         const highlighted = isHighlighted(n.id);
         const color = TYPE_COLORS[n.type as EntityType] ?? "#ccc";
 
+        const pos = worldToScreen(camera, n.x ?? 0, n.y ?? 0, cx, cy);
+        const screenR = r * camera.zoom;
+
         ctx.globalAlpha = dimmed ? 0.2 : 1;
 
         // Glow
         if (highlighted) {
           ctx.beginPath();
-          ctx.arc(n.x ?? 0, n.y ?? 0, r + 8, 0, Math.PI * 2);
+          ctx.arc(pos.x, pos.y, screenR + 8 * camera.zoom, 0, Math.PI * 2);
           ctx.fillStyle = color + "30";
           ctx.fill();
         }
 
         // Circle
         ctx.beginPath();
-        ctx.arc(n.x ?? 0, n.y ?? 0, r, 0, Math.PI * 2);
+        ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
         ctx.fillStyle = color;
         ctx.fill();
         ctx.strokeStyle = highlighted ? "#fff" : color + "80";
@@ -243,12 +294,12 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         ctx.stroke();
 
         // Label (for large, highlighted, or hovered nodes)
-        if (isHovered || highlighted || r > 20) {
+        if (isHovered || highlighted || screenR > 14) {
           ctx.fillStyle = "rgba(255,255,255,0.9)";
-          ctx.font = `${isHovered || highlighted ? 700 : 400} 12px system-ui, sans-serif`;
+          ctx.font = `${isHovered || highlighted ? 700 : 400} ${Math.max(9, 11 * camera.zoom)}px system-ui, sans-serif`;
           ctx.textAlign = "center";
           ctx.textBaseline = "middle";
-          ctx.fillText(n.title, n.x ?? 0, (n.y ?? 0) + r + 16);
+          ctx.fillText(n.title, pos.x, pos.y + screenR + 14);
         }
 
         ctx.globalAlpha = 1;
@@ -261,9 +312,42 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     };
   }, [getNodeRadius]);
 
+  // ─── Mouse handlers ─────────────────────────────────────────────────────
   const handleMouseMove = useCallback(
     (e: React.MouseEvent) => {
       const pos = getMousePos(e);
+
+      // Panning
+      if (isPanningRef.current && panStartRef.current && cameraStartRef.current) {
+        const dx = (pos.x - panStartRef.current.x) / cameraRef.current.zoom;
+        const dy = (pos.y - panStartRef.current.y) / cameraRef.current.zoom;
+        cameraRef.current = {
+          ...cameraStartRef.current,
+          x: cameraStartRef.current.x - dx,
+          y: cameraStartRef.current.y - dy,
+        };
+        return;
+      }
+
+      // Dragging node
+      if (draggingRef.current) {
+        const sim = simRef.current;
+        if (sim) {
+          const canvas = canvasRef.current;
+          if (!canvas) return;
+          const cx = canvas.clientWidth / 2;
+          const cy = canvas.clientHeight / 2;
+          const worldPos = screenToWorld(cameraRef.current, pos.x, pos.y, cx, cy);
+          const n = sim.nodes().find((n: any) => n.id === draggingRef.current);
+          if (n) {
+            (n as any).fx = worldPos.x;
+            (n as any).fy = worldPos.y;
+          }
+        }
+        return;
+      }
+
+      // Hover
       const node = findNodeAt(pos.x, pos.y);
       if (node) {
         setHovered(node.id);
@@ -271,17 +355,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       } else {
         setHovered(null);
         setHoveredPos(null);
-      }
-
-      if (draggingRef.current) {
-        const sim = simRef.current;
-        if (sim) {
-          const n = sim.nodes().find((n: any) => n.id === draggingRef.current);
-          if (n) {
-            (n as any).fx = pos.x;
-            (n as any).fy = pos.y;
-          }
-        }
       }
     },
     [getMousePos, findNodeAt],
@@ -291,16 +364,28 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     (e: React.MouseEvent) => {
       const pos = getMousePos(e);
       const node = findNodeAt(pos.x, pos.y);
+
       if (node) {
+        // Drag node
         setDragging(node.id);
         const sim = simRef.current;
         if (sim) {
           const n = sim.nodes().find((n: any) => n.id === node.id);
           if (n) {
-            (n as any).fx = pos.x;
-            (n as any).fy = pos.y;
+            const canvas = canvasRef.current;
+            if (!canvas) return;
+            const cx = canvas.clientWidth / 2;
+            const cy = canvas.clientHeight / 2;
+            const worldPos = screenToWorld(cameraRef.current, pos.x, pos.y, cx, cy);
+            (n as any).fx = worldPos.x;
+            (n as any).fy = worldPos.y;
           }
         }
+      } else {
+        // Start pan
+        isPanningRef.current = true;
+        panStartRef.current = { x: pos.x, y: pos.y };
+        cameraStartRef.current = { ...cameraRef.current };
       }
     },
     [getMousePos, findNodeAt],
@@ -318,6 +403,11 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       }
       setDragging(null);
     }
+    if (isPanningRef.current) {
+      isPanningRef.current = false;
+      panStartRef.current = null;
+      cameraStartRef.current = null;
+    }
   }, []);
 
   const handleMouseLeave = useCallback(() => {
@@ -334,10 +424,40 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       }
       setDragging(null);
     }
+    isPanningRef.current = false;
+    panStartRef.current = null;
+    cameraStartRef.current = null;
   }, []);
+
+  const handleWheel = useCallback(
+    (e: React.WheelEvent) => {
+      e.preventDefault();
+      const canvas = canvasRef.current;
+      if (!canvas) return;
+      const cx = canvas.clientWidth / 2;
+      const cy = canvas.clientHeight / 2;
+      const pos = getMousePos(e as any);
+
+      // Zoom towards mouse pointer
+      const worldBefore = screenToWorld(cameraRef.current, pos.x, pos.y, cx, cy);
+      const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1;
+      const newZoom = Math.max(0.1, Math.min(5, cameraRef.current.zoom * zoomFactor));
+      cameraRef.current = { ...cameraRef.current, zoom: newZoom };
+      const worldAfter = screenToWorld(cameraRef.current, pos.x, pos.y, cx, cy);
+
+      // Adjust pan to keep mouse at same world position
+      cameraRef.current = {
+        ...cameraRef.current,
+        x: cameraRef.current.x + (worldBefore.x - worldAfter.x),
+        y: cameraRef.current.y + (worldBefore.y - worldAfter.y),
+      };
+    },
+    [getMousePos],
+  );
 
   const handleClick = useCallback(
     (e: React.MouseEvent) => {
+      if (isPanningRef.current) return; // Don't select on pan end
       const pos = getMousePos(e);
       const node = findNodeAt(pos.x, pos.y);
       if (node) {
@@ -366,8 +486,40 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseLeave}
+        onWheel={handleWheel}
         onClick={handleClick}
       />
+
+      {/* Controls */}
+      <div className="absolute bottom-3 right-3 flex flex-col gap-1">
+        <button
+          onClick={() => {
+            cameraRef.current = { ...cameraRef.current, zoom: cameraRef.current.zoom * 1.3 };
+          }}
+          className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-lg"
+          title="Přiblížit"
+        >
+          +
+        </button>
+        <button
+          onClick={() => {
+            cameraRef.current = { ...cameraRef.current, zoom: cameraRef.current.zoom / 1.3 };
+          }}
+          className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-lg"
+          title="Oddálit"
+        >
+          −
+        </button>
+        <button
+          onClick={() => {
+            cameraRef.current = { x: 0, y: 0, zoom: 1 };
+          }}
+          className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-xs"
+          title="Reset pohledu"
+        >
+          ⌂
+        </button>
+      </div>
 
       {/* Legend */}
       <div className="absolute top-2 left-2 sm:top-4 sm:left-4 bg-zinc-900/80 backdrop-blur-sm rounded-lg p-2 sm:p-3 border border-white/[0.08] max-w-[140px] sm:max-w-none">
@@ -394,7 +546,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
           <br className="hidden sm:block" />
           <span className="sm:hidden"> · </span>Drag → posun
           <br className="hidden sm:block" />
-          <span className="sm:hidden"> · </span>Hover → zvýraznění
+          <span className="sm:hidden"> · </span>Scroll → zoom
         </p>
       </div>
 
@@ -453,7 +605,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         const relatedCount = edgesRef.current.filter(
           (e) => e.from === hovered || e.to === hovered
         ).length;
-        // Smart positioning: don't go off-screen
         const tooltipW = 200;
         const tooltipH = 60;
         const winW = window.innerWidth;
