@@ -7,11 +7,11 @@ import { GoogleAnalytics, PageViewTracker, EngagementTracker } from "@/component
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL ?? "https://4rap.cz"),
   title: {
-    default: "4rap.cz — Česká rapová scéna",
+    default: "4rap.cz — Mapa české rapové scény",
     template: "%s | 4rap.cz",
   },
   description:
-    "Největší databáze a magazín české rapové scény. Rappeři, alba, labely, žánry — vše propojeno v jednom místě.",
+    "Největší propojená databáze české a slovenské rapové scény. 1200+ entit — rapperi, alba, labely, lokality, producenti. Najdi koho hledáš, objev koho neznáš.",
   keywords: [
     "česká rapová scéna",
     "czech rap",
@@ -31,15 +31,15 @@ export const metadata: Metadata = {
     locale: "cs_CZ",
     url: "https://4rap.cz",
     siteName: "4rap.cz",
-    title: "4rap.cz — Magazín české rapové scény",
+    title: "4rap.cz — Mapa české rapové scény",
     description:
-      "Recenze, profily, rozhovory a analýzy z české a slovenské rapové scény.",
+      "Největší propojená databáze české a slovenské rapové scény. 1200+ entit — rapperi, alba, labely, lokality, producenti. Najdi koho hledáš, objev koho neznáš.",
     images: [
       {
         url: "/og-image.png",
         width: 1024,
         height: 1024,
-        alt: "4rap.cz — Česká rapová scéna",
+        alt: "4rap.cz — Mapa české rapové scény",
       },
     ],
   },
