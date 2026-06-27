@@ -99,7 +99,6 @@ function EmbedPlayer({
 export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProps) {
   const out = entity.outbound ?? {};
   const em = entity.profile ?? {};
-  const em = (entity.extraMeta ?? {}) as Record<string, string | undefined>;
 
   // Resolve relations
   const artists = resolveTargets(out.HAS_ARTIST, allEntities);
@@ -130,7 +129,7 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
       image: entity.image ?? null,
       publishedAt: entity.publishedAt,
       outbound: out as any,
-      profile,
+      profile: em as any,
       extraMeta: em as any,
     },
     inboundIds,
