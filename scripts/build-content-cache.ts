@@ -28,7 +28,16 @@ function main(): void {
   console.log("🔨 Building content cache (graph-folder + legacy)...\n");
 
   // 1. Load everything via unified resolver
-  const entities = listAllEntities();
+  const rawEntities = listAllEntities();
+  
+  // Filter out deprecated entities (status === "deprecated" or slug/id starts with "deprecated")
+  const entities = new Map(rawEntities);
+  for (const [id, ent] of rawEntities) {
+    if (ent.status === "deprecated" || id.startsWith("deprecated-")) {
+      entities.delete(id);
+    }
+  }
+  
   const count = entities.size;
 
   // 2. Validate before building (skip with SKIP_VALIDATION=1 - style→genre mismatches)
