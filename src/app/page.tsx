@@ -238,7 +238,7 @@ function buildHomeJsonLd(
         "@type": "WebSite",
         "@id": `${BASE_URL}/#website`,
         url: BASE_URL,
-        name: "4rap.cz",
+        name: "4rap.cz — Největší databáze českého rapu",
         alternateName: "Mapa českého a slovenského rapu",
         description:
           "Databáze a knowledge graph české a slovenské rapové scény. " +
@@ -375,12 +375,16 @@ export default function HomePage() {
          HERO — databáze, ne magazín
          ═══════════════════════════════════════════════════════════════ */}
       <section className="pt-[140px] pb-12 border-b border-white/[0.06] mb-16">
-        <h1 className="text-[clamp(44px,9vw,80px)] font-black tracking-tighter text-white uppercase leading-[0.85] mb-6">
+        {/* Brand logo — není H1, vizuální identita */}
+        <div className="text-[clamp(44px,9vw,80px)] font-black tracking-tighter text-white uppercase leading-[0.85] mb-2">
           4rap<span className="text-[#c8962e]">.</span>
+        </div>
+
+        {/* H1 — silný headline pro SEO, obsahuje klíčová slova */}
+        <h1 className="text-2xl sm:text-3xl lg:text-[clamp(32px,5vw,48px)] font-black tracking-tight text-white leading-[0.95] max-w-[800px] mb-3">
+          Největší databáze českého rapu, rapperů a alb
         </h1>
-        <p className="text-2xl sm:text-3xl font-bold text-white leading-tight max-w-[700px] mb-3">
-          Největší mapa českého a slovenského rapu
-        </p>
+
         <p className="text-base text-white/60 max-w-[600px] leading-relaxed mb-8">
           Prozkoumej interprety, alba, labely, města a jejich vzájemné vazby.
         </p>
