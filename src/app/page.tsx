@@ -434,7 +434,7 @@ export default function HomePage() {
               Nejpropojenější interpreti
             </h2>
             <Link
-              href="/scena"
+              href="/sceny"
               className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors"
             >
               Celá síť →

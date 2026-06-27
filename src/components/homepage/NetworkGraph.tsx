@@ -44,8 +44,8 @@ export function NetworkGraph({ layout }: NetworkGraphProps) {
 
   // Max degree for radius scaling (log scale: top artist doesn't dwarf smaller ones)
   const maxDegree = Math.max(...nodes.map((n) => n.degree), 1);
-  const minR = 22;
-  const maxR = 38;
+  const minR = 18;
+  const maxR = 30;
 
   return (
     <div className="relative w-full">
@@ -143,9 +143,9 @@ export function NetworkGraph({ layout }: NetworkGraphProps) {
                   {/* Label */}
                   <text
                     x={n.x}
-                    y={n.y + r + 14}
+                    y={n.y + r + 16}
                     textAnchor="middle"
-                    fontSize="11"
+                    fontSize="10"
                     fontWeight="600"
                     fill="rgba(255,255,255,0.85)"
                     className="pointer-events-none select-none"
@@ -155,9 +155,9 @@ export function NetworkGraph({ layout }: NetworkGraphProps) {
                   {/* Degree badge */}
                   <text
                     x={n.x}
-                    y={n.y + r + 26}
+                    y={n.y + r + 28}
                     textAnchor="middle"
-                    fontSize="9"
+                    fontSize="8"
                     fontFamily="monospace"
                     fill="rgba(255,255,255,0.4)"
                     className="pointer-events-none select-none"
