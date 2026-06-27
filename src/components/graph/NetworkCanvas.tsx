@@ -93,7 +93,9 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const getNodeRadius = useCallback((n: GraphNode) => {
     const maxD = Math.max(...nodesRef.current.map((n) => n.degree), 1);
     const t = Math.log(n.degree) / Math.log(maxD);
-    return 8 + t * 24; // 8–32px
+    const containerW = containerRef.current?.clientWidth ?? 800;
+    const maxR = containerW < 640 ? 18 : containerW < 1024 ? 24 : 32;
+    return Math.min(6 + t * maxR, maxR);
   }, []);
 
   const getMousePos = useCallback(
@@ -130,7 +132,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     const resize = () => {
       const dpr = window.devicePixelRatio || 1;
       const w = container.clientWidth;
-      const h = Math.max(window.innerHeight - 200, 500);
+      const h = Math.max(container.clientHeight, 400);
       canvas.width = w * dpr;
       canvas.height = h * dpr;
       canvas.style.width = `${w}px`;
@@ -356,25 +358,23 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     : [];
 
   return (
-    <div className="relative w-full h-screen">
-      <div ref={containerRef} className="absolute inset-0">
-        <canvas
-          ref={canvasRef}
-          className="w-full h-full cursor-crosshair"
-          onMouseMove={handleMouseMove}
-          onMouseDown={handleMouseDown}
-          onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseLeave}
-          onClick={handleClick}
-        />
-      </div>
+    <div className="relative w-full flex-1 min-h-0" ref={containerRef}>
+      <canvas
+        ref={canvasRef}
+        className="w-full h-full cursor-crosshair"
+        onMouseMove={handleMouseMove}
+        onMouseDown={handleMouseDown}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseLeave}
+        onClick={handleClick}
+      />
 
       {/* Legend */}
-      <div className="absolute top-4 left-4 bg-zinc-900/80 backdrop-blur-sm rounded-lg p-3 border border-white/[0.08]">
-        <h3 className="text-[10px] font-mono uppercase tracking-wider text-white/50 mb-2">
+      <div className="absolute top-2 left-2 sm:top-4 sm:left-4 bg-zinc-900/80 backdrop-blur-sm rounded-lg p-2 sm:p-3 border border-white/[0.08] max-w-[140px] sm:max-w-none">
+        <h3 className="text-[9px] sm:text-[10px] font-mono uppercase tracking-wider text-white/50 mb-1 sm:mb-2">
           Typ entity
         </h3>
-        <div className="space-y-1.5">
+        <div className="space-y-1 sm:space-y-1.5">
           {Object.entries(TYPE_COLORS)
             .filter(([type]) => ["artist", "album", "label", "location"].includes(type))
             .map(([type, color]) => (
@@ -389,18 +389,18 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
               </div>
             ))}
         </div>
-        <p className="text-[10px] text-white/30 mt-3 leading-relaxed">
-          Klikni na node → detaily
-          <br />
-          Drag → posun
-          <br />
-          Hover → zvýraznění
+        <p className="text-[9px] sm:text-[10px] text-white/30 mt-2 sm:mt-3 leading-relaxed">
+          Klikni → detaily
+          <br className="hidden sm:block" />
+          <span className="sm:hidden"> · </span>Drag → posun
+          <br className="hidden sm:block" />
+          <span className="sm:hidden"> · </span>Hover → zvýraznění
         </p>
       </div>
 
       {/* Selected panel */}
       {selectedNode && (
-        <div className="absolute top-4 right-4 w-64 bg-zinc-900/80 backdrop-blur-sm rounded-lg p-4 border border-white/[0.08]">
+        <div className="absolute bottom-2 left-2 right-2 sm:top-4 sm:right-4 sm:left-auto sm:bottom-auto sm:w-64 bg-zinc-900/80 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/[0.08] max-h-[40vh] sm:max-h-none overflow-y-auto">
           <div className="flex items-center gap-2 mb-3">
             <div
               className="w-3 h-3 rounded-full"
@@ -453,22 +453,33 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         const relatedCount = edgesRef.current.filter(
           (e) => e.from === hovered || e.to === hovered
         ).length;
+        // Smart positioning: don't go off-screen
+        const tooltipW = 200;
+        const tooltipH = 60;
+        const winW = window.innerWidth;
+        const winH = window.innerHeight;
+        let left = hoveredPos.x + 12;
+        let top = hoveredPos.y - tooltipH / 2;
+        if (left + tooltipW > winW) left = hoveredPos.x - tooltipW - 12;
+        if (top < 0) top = 8;
+        if (top + tooltipH > winH) top = winH - tooltipH - 8;
         return (
           <div
-            className="fixed pointer-events-none z-50 bg-zinc-900/95 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/[0.12] shadow-xl"
+            className="fixed pointer-events-none z-50 bg-zinc-900/95 backdrop-blur-sm rounded-lg px-2.5 py-1.5 sm:px-3 sm:py-2 border border-white/[0.12] shadow-xl"
             style={{
-              left: hoveredPos.x + 16,
-              top: hoveredPos.y - 10,
+              left: Math.max(8, left),
+              top: Math.max(8, top),
+              maxWidth: 'min(200px, 90vw)',
             }}
           >
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 sm:gap-2">
               <div
-                className="w-2.5 h-2.5 rounded-full"
+                className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full flex-shrink-0"
                 style={{ backgroundColor: TYPE_COLORS[node.type as EntityType] ?? "#ccc" }}
               />
-              <span className="text-sm font-bold text-white">{node.title}</span>
+              <span className="text-xs sm:text-sm font-bold text-white truncate">{node.title}</span>
             </div>
-            <p className="text-[10px] text-white/50 mt-1">
+            <p className="text-[9px] sm:text-[10px] text-white/50 mt-0.5 sm:mt-1">
               {node.type === "artist" ? "Interpret" : node.type === "album" ? "Album" : node.type === "label" ? "Label" : node.type === "location" ? "Město" : node.type} · {relatedCount} vazeb
             </p>
           </div>
