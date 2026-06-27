@@ -97,6 +97,38 @@ export const RELATION_REGISTRY: readonly RelationRegistryEntry[] = [
     description: "Source entity has/contains this track",
   },
 
+  // ── Track-specific relations ────────────────────────────────────────
+  {
+    authoringKey: "primaryArtist",
+    edgeType: "HAS_ARTIST",
+    expectsType: ["artist"],
+    description: "Track's primary performing artist",
+  },
+  {
+    authoringKey: "belongsToAlbum",
+    edgeType: "BELONGS_TO_ALBUM",
+    expectsType: ["album"],
+    description: "Track belongs to this album",
+  },
+  {
+    authoringKey: "producers",
+    edgeType: "PRODUCED_BY",
+    expectsType: ["artist", "producer"],
+    description: "Track was produced by this entity",
+  },
+  {
+    authoringKey: "featuring",
+    edgeType: "FEATURES",
+    expectsType: ["artist", "producer"],
+    description: "Track features this artist",
+  },
+  {
+    authoringKey: "labels",
+    edgeType: "RELEASED_BY",
+    expectsType: ["label"],
+    description: "Track released by this label",
+  },
+
   // ── Generic / cross-type ─────────────────────────────────────────────
   {
     authoringKey: "related",

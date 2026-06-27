@@ -300,6 +300,92 @@ function buildAlbum(input: BuildJsonLdInput): Record<string, unknown> {
   return out;
 }
 
+// ── Standalone Track builder ────────────────────────────────────────────
+
+function buildTrack(input: BuildJsonLdInput): Record<string, unknown> {
+  const { entity, allEntities, baseUrl } = input;
+  const profile = entity.profile ?? {};
+  const out: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "MusicRecording",
+    "@id": selfId(entity, baseUrl),
+    name: entity.title,
+    url: selfId(entity, baseUrl),
+    description: entity.description,
+  };
+
+  // image (track cover — typically album cover)
+  const abs = absImage(entity.image, baseUrl);
+  if (abs) out.image = abs;
+
+  // byArtist — HAS_ARTIST (primary artist)
+  const artistIds = entity.outbound?.HAS_ARTIST ?? [];
+  const byArtist = artistIds
+    .map((id) => entityUrl(id, allEntities, baseUrl))
+    .filter((u): u is string => !!u)
+    .map((u) => ({ "@type": "MusicGroup", "@id": u }));
+  if (byArtist.length) out.byArtist = byArtist;
+
+  // inAlbum — BELONGS_TO_ALBUM
+  const albumIds = entity.outbound?.BELONGS_TO_ALBUM ?? [];
+  const inAlbum = albumIds
+    .map((id) => entityUrl(id, allEntities, baseUrl))
+    .filter((u): u is string => !!u)
+    .map((u) => ({ "@type": "MusicAlbum", "@id": u }));
+  if (inAlbum.length) out.inAlbum = inAlbum;
+
+  // FEATURES (featuring artists)
+  const featIds = entity.outbound?.FEATURES ?? [];
+  const featured = featIds
+    .map((id) => entityUrl(id, allEntities, baseUrl))
+    .filter((u): u is string => !!u)
+    .map((u) => ({ "@type": "MusicGroup", "@id": u }));
+  if (featured.length) out.performer = featured;
+
+  // PRODUCED_BY (producers)
+  const prodIds = entity.outbound?.PRODUCED_BY ?? [];
+  const producers = prodIds
+    .map((id) => entityUrl(id, allEntities, baseUrl))
+    .filter((u): u is string => !!u)
+    .map((u) => ({ "@type": "Person", "@id": u }));
+  if (producers.length) out.producer = producers;
+
+  // RELEASED_BY (label)
+  const labelIds = entity.outbound?.RELEASED_BY ?? [];
+  const labels = labelIds
+    .map((id) => entityUrl(id, allEntities, baseUrl))
+    .filter((u): u is string => !!u);
+  if (labels.length) out.recordLabel = labels.map((u) => ({ "@id": u }));
+
+  // datePublished
+  if (entity.publishedAt) {
+    out.datePublished = String(entity.publishedAt);
+  }
+
+  // genre
+  const styleIds = entity.outbound?.HAS_STYLE ?? [];
+  const genres = styleIds
+    .map((id) => entityUrl(id, allEntities, baseUrl))
+    .filter((u): u is string => !!u);
+  if (genres.length) out.genre = genres;
+
+  // duration from profile.duration (seconds)
+  const durationSec = (profile as any).duration as number | undefined;
+  if (durationSec) {
+    const m = Math.floor(durationSec / 60);
+    const s = durationSec % 60;
+    out.duration = `PT${m}M${s}S`;
+  }
+
+  // sameAs (Spotify, YouTube, Apple Music)
+  const sources = (profile as any).sources as string[] | undefined;
+  if (sources?.length) {
+    out.sameAs = sources.filter((s) => s.startsWith("http")).slice(0, 5);
+  }
+
+  return out;
+}
+
 /**
  * Build MusicRecording objects from entity.tracks (Deezer tracks.json
  * enriched with Rap Monitor data). One MusicRecording per track.
@@ -634,9 +720,10 @@ export function buildJsonLd(input: BuildJsonLdInput): Record<string, unknown> | 
       return buildArticle(input);
     case "theme":
     case "mood":
-    case "track":
     case "event":
       return buildGenericThing(input);
+    case "track":
+      return buildTrack(input);
     default:
       return null;
   }
