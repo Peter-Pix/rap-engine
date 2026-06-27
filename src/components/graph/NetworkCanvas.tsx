@@ -318,6 +318,22 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     }
   }, []);
 
+  const handleMouseLeave = useCallback(() => {
+    setHovered(null);
+    setHoveredPos(null);
+    if (draggingRef.current) {
+      const sim = simRef.current;
+      if (sim) {
+        const n = sim.nodes().find((n: any) => n.id === draggingRef.current);
+        if (n) {
+          (n as any).fx = null;
+          (n as any).fy = null;
+        }
+      }
+      setDragging(null);
+    }
+  }, []);
+
   const handleClick = useCallback(
     (e: React.MouseEvent) => {
       const pos = getMousePos(e);
@@ -348,7 +364,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
           onMouseMove={handleMouseMove}
           onMouseDown={handleMouseDown}
           onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseUp}
+          onMouseLeave={handleMouseLeave}
           onClick={handleClick}
         />
       </div>
