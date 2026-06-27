@@ -57,6 +57,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [hovered, setHovered] = useState<string | null>(null);
+  const [hoveredPos, setHoveredPos] = useState<{ x: number; y: number } | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [dragging, setDragging] = useState<string | null>(null);
 
@@ -67,6 +68,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const nodesRef = useRef<GraphNode[]>(nodes);
   const edgesRef = useRef<GraphEdge[]>(edges);
   const hoveredRef = useRef<string | null>(hovered);
+  const hoveredPosRef = useRef<{ x: number; y: number } | null>(hoveredPos);
   const selectedRef = useRef<string | null>(selected);
   const draggingRef = useRef<string | null>(dragging);
 
@@ -78,6 +80,9 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   useEffect(() => {
     hoveredRef.current = hovered;
   }, [hovered]);
+  useEffect(() => {
+    hoveredPosRef.current = hoveredPos;
+  }, [hoveredPos]);
   useEffect(() => {
     selectedRef.current = selected;
   }, [selected]);
@@ -210,7 +215,8 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
 
       // Nodes
       simNodes.forEach((n) => {
-        const r = getNodeRadius(n);
+        const isHovered = hoveredRef.current === n.id;
+        const r = getNodeRadius(n) * (isHovered ? 1.3 : 1);
         const dimmed = isDimmed(n.id);
         const highlighted = isHighlighted(n.id);
         const color = TYPE_COLORS[n.type as EntityType] ?? "#ccc";
@@ -234,13 +240,13 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         ctx.lineWidth = highlighted ? 2 : 1;
         ctx.stroke();
 
-        // Label (only for large or highlighted nodes)
-        if (highlighted || r > 20) {
+        // Label (for large, highlighted, or hovered nodes)
+        if (isHovered || highlighted || r > 20) {
           ctx.fillStyle = "rgba(255,255,255,0.9)";
-          ctx.font = `${highlighted ? 600 : 400} 11px system-ui, sans-serif`;
+          ctx.font = `${isHovered || highlighted ? 700 : 400} 12px system-ui, sans-serif`;
           ctx.textAlign = "center";
           ctx.textBaseline = "middle";
-          ctx.fillText(n.title, n.x ?? 0, (n.y ?? 0) + r + 14);
+          ctx.fillText(n.title, n.x ?? 0, (n.y ?? 0) + r + 16);
         }
 
         ctx.globalAlpha = 1;
@@ -259,8 +265,10 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       const node = findNodeAt(pos.x, pos.y);
       if (node) {
         setHovered(node.id);
+        setHoveredPos({ x: e.clientX, y: e.clientY });
       } else {
         setHovered(null);
+        setHoveredPos(null);
       }
 
       if (draggingRef.current) {
@@ -421,6 +429,35 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
           </div>
         </div>
       )}
+
+      {/* Hover tooltip */}
+      {hovered && hoveredPos && (() => {
+        const node = nodesRef.current.find((n) => n.id === hovered);
+        if (!node) return null;
+        const relatedCount = edgesRef.current.filter(
+          (e) => e.from === hovered || e.to === hovered
+        ).length;
+        return (
+          <div
+            className="fixed pointer-events-none z-50 bg-zinc-900/95 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/[0.12] shadow-xl"
+            style={{
+              left: hoveredPos.x + 16,
+              top: hoveredPos.y - 10,
+            }}
+          >
+            <div className="flex items-center gap-2">
+              <div
+                className="w-2.5 h-2.5 rounded-full"
+                style={{ backgroundColor: TYPE_COLORS[node.type as EntityType] ?? "#ccc" }}
+              />
+              <span className="text-sm font-bold text-white">{node.title}</span>
+            </div>
+            <p className="text-[10px] text-white/50 mt-1">
+              {node.type === "artist" ? "Interpret" : node.type === "album" ? "Album" : node.type === "label" ? "Label" : node.type === "location" ? "Město" : node.type} · {relatedCount} vazeb
+            </p>
+          </div>
+        );
+      })()}
     </div>
   );
 }
