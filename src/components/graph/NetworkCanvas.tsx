@@ -88,6 +88,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const panStartRef = useRef<{ x: number; y: number } | null>(null);
   const cameraStartRef = useRef<Camera | null>(null);
   const draggingNodeRef = useRef<string | null>(null);
+  const simRef = useRef<ReturnType<typeof forceSimulation<GraphNode>> | null>(null);
 
   // Store latest nodes/edges for draw loop
   const simNodesRef = useRef<GraphNode[]>([]);
@@ -177,9 +178,10 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       .force("y", forceY(0).strength(0.08))
       .alphaDecay(0.02)
       .on("tick", () => {
-        // Keep sim running at low alpha for interactivity
-        if (sim.alpha() < 0.01) sim.alpha(0.01);
+        // Sim runs until alpha < 0.001, then stops for stable rendering
       });
+
+    simRef.current = sim;
 
     // Center camera on bbox once layout settles
     const timer = setTimeout(() => {
@@ -241,7 +243,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         ctx.beginPath();
         ctx.moveTo(posA.x, posA.y);
         ctx.lineTo(posB.x, posB.y);
-        ctx.strokeStyle = highlighted ? "rgba(200,150,46,0.5)" : "rgba(255,255,255,0.08)";
+        ctx.strokeStyle = highlighted ? "rgba(200,150,46,0.6)" : "rgba(255,255,255,0.2)";
         ctx.lineWidth = highlighted ? 2 : 1;
         ctx.globalAlpha = dimmed ? 0.15 : 1;
         ctx.stroke();
@@ -322,6 +324,10 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         if (n) {
           n.x = worldPos.x;
           n.y = worldPos.y;
+          n.vx = 0;
+          n.vy = 0;
+          // Re-heat simulation
+          simRef.current?.alpha(0.3).restart();
         }
         return;
       }
