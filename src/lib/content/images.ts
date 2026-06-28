@@ -75,6 +75,18 @@ const ARTIST_IMAGES: Record<string, string> = {
   'jay-diesel': '/images/artists/jay-diesel.webp',
   'sensey': '/images/artists/sensey.webp',
   'marpo': '/images/artists/marpo.webp',
+  'astral': '/images/artists/astral.webp',
+  'luca-brassi10x': '/images/artists/luca-brassi10x.webp',
+  'boy-wonder': '/images/artists/boy-wonder.webp',
+  'tenki': '/images/artists/tenki.webp',
+  'palermo': '/images/artists/palermo.webp',
+  'la4': '/images/artists/la4.webp',
+  'dara-rolins': '/images/artists/dara-rolins.webp',
+  'orion': '/images/artists/orion.webp',
+  'sharlota': '/images/artists/sharlota.webp',
+  'kato': '/images/artists/kato.webp',
+  'karlo': '/images/artists/karlo.webp',
+  'pain': '/images/artists/pain.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
