@@ -43,6 +43,7 @@ const ARTIST_IMAGES: Record<string, string> = {
   'dj-fatte': '/images/artists/dj-fatte.webp',
   'ego': '/images/artists/ego.webp',
   'mc-gey': '/images/artists/mc-gey.webp',
+  'sima': '/images/artists/sima.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
