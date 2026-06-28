@@ -105,6 +105,18 @@ const ARTIST_IMAGES: Record<string, string> = {
   'katannah': '/images/artists/katannah.webp',
   'kamil-hoffmann': '/images/artists/kamil-hoffmann.webp',
   'resetedh': '/images/artists/resetedh.webp',
+  'alan-murin': '/images/artists/alan-murin.webp',
+  'd-kop': '/images/artists/d-kop.webp',
+  'dj-aka': '/images/artists/dj-aka.webp',
+  'dorian': '/images/artists/dorian.webp',
+  'hard-rico': '/images/artists/hard-rico.webp',
+  'indy': '/images/artists/indy.webp',
+  'marko-damian': '/images/artists/marko-damian.webp',
+  'miky-mora': '/images/artists/miky-mora.webp',
+  'momo': '/images/artists/momo.webp',
+  'radimo': '/images/artists/radimo.webp',
+  'supa': '/images/artists/supa.webp',
+  'zayo': '/images/artists/zayo.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
