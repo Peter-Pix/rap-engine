@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, useReducer } from "react";
 import {
   forceSimulation,
   forceManyBody,
@@ -112,6 +112,8 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   useEffect(() => {
     draggingRef.current = dragging;
   }, [dragging]);
+
+  const [_, forceUpdate] = useReducer((x) => x + 1, 0);
 
   const getNodeRadius = useCallback((n: GraphNode) => {
     const maxD = Math.max(...nodesRef.current.map((n) => n.degree), 1);
@@ -326,6 +328,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
           x: cameraStartRef.current.x - dx,
           y: cameraStartRef.current.y - dy,
         };
+        forceUpdate();
         return;
       }
 
@@ -451,6 +454,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         x: cameraRef.current.x + (worldBefore.x - worldAfter.x),
         y: cameraRef.current.y + (worldBefore.y - worldAfter.y),
       };
+      forceUpdate();
     },
     [getMousePos],
   );
@@ -495,6 +499,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         <button
           onClick={() => {
             cameraRef.current = { ...cameraRef.current, zoom: cameraRef.current.zoom * 1.3 };
+            forceUpdate();
           }}
           className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-lg"
           title="Přiblížit"
@@ -504,6 +509,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         <button
           onClick={() => {
             cameraRef.current = { ...cameraRef.current, zoom: cameraRef.current.zoom / 1.3 };
+            forceUpdate();
           }}
           className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-lg"
           title="Oddálit"
@@ -513,6 +519,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         <button
           onClick={() => {
             cameraRef.current = { x: 0, y: 0, zoom: 1 };
+            forceUpdate();
           }}
           className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-xs"
           title="Reset pohledu"
