@@ -135,11 +135,14 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     return Math.min(6 + t * maxR, maxR);
   }, []);
 
-  // ─── Init simulation ────────────────────────────────────────────────────
+  // ─── Resize handling ────────────────────────────────────────────────────
   useEffect(() => {
     const canvas = canvasRef.current;
     const container = containerRef.current;
     if (!canvas || !container) return;
+
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
 
     const resize = () => {
       const dpr = window.devicePixelRatio || 1;
@@ -149,12 +152,23 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       canvas.height = h * dpr;
       canvas.style.width = `${w}px`;
       canvas.style.height = `${h}px`;
-      const ctx = canvas.getContext("2d");
-      if (ctx) ctx.scale(dpr, dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     };
-    resize();
-    window.addEventListener("resize", resize);
 
+    // Initial
+    resize();
+
+    // Use ResizeObserver for more reliable sizing
+    const ro = new ResizeObserver(resize);
+    ro.observe(container);
+
+    return () => {
+      ro.disconnect();
+    };
+  }, []);
+
+  // ─── Init simulation ────────────────────────────────────────────────────
+  useEffect(() => {
     const simNodes = nodes.map((n) => ({ ...n, x: 0, y: 0 }));
     simNodesRef.current = simNodes;
 
@@ -197,7 +211,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     return () => {
       sim.stop();
       clearTimeout(timer);
-      window.removeEventListener("resize", resize);
     };
   }, [nodes, edges, getNodeRadius]);
 
@@ -297,6 +310,87 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     rafId = requestAnimationFrame(draw);
     return () => cancelAnimationFrame(rafId);
   }, [camera, hovered, selected, getNodeRadius]);
+
+  // ─── Touch handlers for mobile ────────────────────────────────────────
+  const handleTouchStart = useCallback(
+    (e: React.TouchEvent) => {
+      if (e.touches.length === 1) {
+        const touch = e.touches[0];
+        const pos = getMousePos(touch.clientX, touch.clientY);
+        const node = findNodeAt(pos.x, pos.y);
+
+        if (node) {
+          draggingNodeRef.current = node.id;
+        } else {
+          isPanningRef.current = true;
+          panStartRef.current = { x: pos.x, y: pos.y };
+          cameraStartRef.current = { ...camera };
+        }
+      } else if (e.touches.length === 2) {
+        // Pinch zoom start
+        const t1 = e.touches[0];
+        const t2 = e.touches[1];
+        const dist = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
+        (panStartRef.current as any) = { dist, zoom: camera.zoom };
+      }
+    },
+    [camera, getMousePos, findNodeAt],
+  );
+
+  const handleTouchMove = useCallback(
+    (e: React.TouchEvent) => {
+      e.preventDefault();
+      if (e.touches.length === 1) {
+        const touch = e.touches[0];
+        const pos = getMousePos(touch.clientX, touch.clientY);
+
+        if (isPanningRef.current && panStartRef.current && cameraStartRef.current) {
+          const dx = (pos.x - panStartRef.current.x) / camera.zoom;
+          const dy = (pos.y - panStartRef.current.y) / camera.zoom;
+          setCamera({
+            x: cameraStartRef.current.x - dx,
+            y: cameraStartRef.current.y - dy,
+            zoom: cameraStartRef.current.zoom,
+          });
+        }
+
+        if (draggingNodeRef.current) {
+          const canvas = canvasRef.current;
+          if (!canvas) return;
+          const cx = canvas.clientWidth / 2;
+          const cy = canvas.clientHeight / 2;
+          const worldPos = screenToWorld(camera, pos.x, pos.y, cx, cy);
+          const n = simNodesRef.current.find((n) => n.id === draggingNodeRef.current);
+          if (n) {
+            n.x = worldPos.x;
+            n.y = worldPos.y;
+            n.vx = 0;
+            n.vy = 0;
+            simRef.current?.alpha(0.3).restart();
+          }
+        }
+      } else if (e.touches.length === 2) {
+        // Pinch zoom
+        const t1 = e.touches[0];
+        const t2 = e.touches[1];
+        const dist = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
+        const start = panStartRef.current as any;
+        if (start?.dist) {
+          const scale = dist / start.dist;
+          const newZoom = Math.max(0.1, Math.min(5, start.zoom * scale));
+          setCamera((c) => ({ ...c, zoom: newZoom }));
+        }
+      }
+    },
+    [camera, getMousePos],
+  );
+
+  const handleTouchEnd = useCallback(() => {
+    draggingNodeRef.current = null;
+    isPanningRef.current = false;
+    panStartRef.current = null;
+    cameraStartRef.current = null;
+  }, []);
 
   // ─── Event handlers ─────────────────────────────────────────────────────
   const handleMouseMove = useCallback(
@@ -430,13 +524,16 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     <div className="relative w-full flex-1 min-h-0" ref={containerRef}>
       <canvas
         ref={canvasRef}
-        className="w-full h-full cursor-crosshair"
+        className="w-full h-full cursor-crosshair touch-none"
         onMouseMove={handleMouseMove}
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseLeave}
         onWheel={handleWheel}
         onClick={handleClick}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
       />
 
       {/* Controls */}

@@ -109,15 +109,15 @@ export default function ScenyPage() {
   return (
     <>
       <main className="h-[100dvh] flex flex-col bg-zinc-950 overflow-hidden">
-        <div className="px-4 sm:px-8 py-3 sm:py-4 flex-shrink-0">
-          <h1 className="text-xl sm:text-2xl lg:text-3xl font-black tracking-tighter text-white uppercase leading-[0.92]">
+        <div className="px-3 sm:px-8 py-2 sm:py-4 flex-shrink-0">
+          <h1 className="text-lg sm:text-2xl lg:text-3xl font-black tracking-tighter text-white uppercase leading-[0.92]">
             Celá síť
           </h1>
-          <p className="text-xs sm:text-sm text-white/50 mt-1">
+          <p className="text-[10px] sm:text-sm text-white/50 mt-0.5 sm:mt-1">
             {stats.nodes} entit · {stats.edges} vazeb · {stats.artists} interpretů · {stats.albums} alb · {stats.labels} labelů · {stats.locations} měst
           </p>
         </div>
-        <div className="flex-1 min-h-0 px-4 sm:px-8 pb-3 sm:pb-4">
+        <div className="flex-1 min-h-0 px-0 sm:px-8 pb-0 sm:pb-4">
           <NetworkCanvas nodes={nodes} edges={edges} />
         </div>
       </main>
