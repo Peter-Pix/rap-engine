@@ -195,7 +195,7 @@ export default function EntityListingClient({
         <p className="text-zinc-400 text-sm">{description}</p>
         {supportsTopLimit && !showAll && (
           <p className="mt-2 text-xs text-zinc-600">
-            Zobrazeno top 100 nejpropojenějších. Pro kompletní seznam klikni na „Všichni”.
+            Zobrazeno top 100 nejpropojenějších. Pro kompletní seznam klikni na „Všechny”.
           </p>
         )}
       </div>
@@ -289,7 +289,7 @@ export default function EntityListingClient({
             onClick={() => setShowAll(!showAll)}
             className="text-xs font-mono uppercase tracking-wider px-3 py-1.5 border border-zinc-800 hover:border-[#c8962e] hover:text-[#c8962e] transition-colors"
           >
-            {showAll ? `Top 100` : `Všichni (${entities.length})`}
+            {showAll ? `Top 100` : `Všechny (${entities.length})`}
           </button>
         )}
       </div>
