@@ -99,6 +99,12 @@ const ARTIST_IMAGES: Record<string, string> = {
   'guapanova': '/images/artists/guapanova.webp',
   'daniel-vardan': '/images/artists/daniel-vardan.webp',
   'desade': '/images/artists/desade.webp',
+  'darewin': '/images/artists/darewin.webp',
+  'duan-vlk': '/images/artists/duan-vlk.webp',
+  'schyzo': '/images/artists/schyzo.webp',
+  'katannah': '/images/artists/katannah.webp',
+  'kamil-hoffmann': '/images/artists/kamil-hoffmann.webp',
+  'resetedh': '/images/artists/resetedh.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
