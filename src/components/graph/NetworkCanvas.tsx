@@ -11,6 +11,7 @@ import {
 } from "d3-force";
 import Link from "next/link";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
+import { getArtistImage } from "@/lib/content/images";
 
 interface GraphNode {
   id: string;
@@ -94,9 +95,38 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const simNodesRef = useRef<GraphNode[]>([]);
   const edgesRef = useRef(edges);
 
+  // Image cache
+  const imageCacheRef = useRef<Map<string, HTMLImageElement>>(new Map());
+  const [imagesLoaded, setImagesLoaded] = useState(0);
+
   useEffect(() => {
     edgesRef.current = edges;
   }, [edges]);
+
+  // Load artist images
+  useEffect(() => {
+    const cache = imageCacheRef.current;
+    let loaded = 0;
+    const artistNodes = nodes.filter((n) => n.type === "artist");
+
+    artistNodes.forEach((n) => {
+      const imgUrl = getArtistImage(n.slug) ?? n.image ?? null;
+      if (!imgUrl) return;
+      if (cache.has(n.id)) return;
+
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload = () => {
+        cache.set(n.id, img);
+        loaded++;
+        if (loaded >= artistNodes.length) setImagesLoaded((v) => v + 1);
+      };
+      img.onerror = () => {
+        loaded++;
+      };
+      img.src = imgUrl;
+    });
+  }, [nodes]);
 
   // ─── Get mouse position in canvas coords ────────────────────────────────
   const getMousePos = useCallback((clientX: number, clientY: number) => {
@@ -365,27 +395,68 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
 
         ctx.globalAlpha = dimmed ? 0.2 : 1;
 
-        if (highlighted) {
+        // Image or colored circle
+        const img = imageCacheRef.current.get(n.id);
+        if (img && screenR > 4) {
+          // Draw image clipped to circle
+          ctx.save();
           ctx.beginPath();
-          ctx.arc(pos.x, pos.y, screenR + 8 * camera.zoom, 0, Math.PI * 2);
-          ctx.fillStyle = color + "30";
+          ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
+          ctx.clip();
+          ctx.drawImage(img, pos.x - screenR, pos.y - screenR, screenR * 2, screenR * 2);
+          ctx.restore();
+
+          // Border
+          ctx.beginPath();
+          ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
+          ctx.strokeStyle = highlighted ? "#fff" : color + "80";
+          ctx.lineWidth = highlighted ? 2.5 : 1.5;
+          ctx.stroke();
+        } else {
+          // Fallback: colored circle
+          if (highlighted) {
+            ctx.beginPath();
+            ctx.arc(pos.x, pos.y, screenR + 8 * camera.zoom, 0, Math.PI * 2);
+            ctx.fillStyle = color + "30";
+            ctx.fill();
+          }
+
+          ctx.beginPath();
+          ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
+          ctx.fillStyle = color;
           ctx.fill();
+          ctx.strokeStyle = highlighted ? "#fff" : color + "80";
+          ctx.lineWidth = highlighted ? 2 : 1;
+          ctx.stroke();
+
+          // Initial letter for artists without image
+          if (n.type === "artist" && screenR > 8) {
+            ctx.fillStyle = "#fff";
+            ctx.font = `bold ${Math.max(8, screenR * 0.5)}px system-ui, sans-serif`;
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            ctx.fillText(n.title[0].toUpperCase(), pos.x, pos.y + 1);
+          }
         }
 
-        ctx.beginPath();
-        ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
-        ctx.fillStyle = color;
-        ctx.fill();
-        ctx.strokeStyle = highlighted ? "#fff" : color + "80";
-        ctx.lineWidth = highlighted ? 2 : 1;
-        ctx.stroke();
+        // Labels — show for hovered, selected, or large nodes
+        if (isHovered || highlighted || screenR > 12) {
+          const labelY = pos.y + screenR + 14;
+          const fontSize = Math.max(9, Math.min(12, 10 * camera.zoom));
 
-        if (isHovered || highlighted || screenR > 14) {
-          ctx.fillStyle = "rgba(255,255,255,0.9)";
-          ctx.font = `${isHovered || highlighted ? 700 : 400} ${Math.max(9, 11 * camera.zoom)}px system-ui, sans-serif`;
+          ctx.fillStyle = isHovered ? "rgba(255,255,255,0.95)" : "rgba(255,255,255,0.75)";
+          ctx.font = `${isHovered ? 700 : 500} ${fontSize}px system-ui, sans-serif`;
           ctx.textAlign = "center";
-          ctx.textBaseline = "middle";
-          ctx.fillText(n.title, pos.x, pos.y + screenR + 14);
+          ctx.textBaseline = "top";
+          ctx.fillText(n.title, pos.x, labelY);
+
+          // Type + degree for hovered
+          if (isHovered) {
+            ctx.fillStyle = "rgba(255,255,255,0.45)";
+            ctx.font = `${fontSize - 1}px monospace`;
+            const typeLabel = n.type === "artist" ? "Interpret" : n.type === "album" ? "Album" : n.type === "label" ? "Label" : n.type === "location" ? "Město" : n.type;
+            ctx.fillText(`${typeLabel} · ${n.degree} vazeb`, pos.x, labelY + fontSize + 2);
+          }
         }
 
         ctx.globalAlpha = 1;
@@ -396,7 +467,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
 
     rafId = requestAnimationFrame(draw);
     return () => cancelAnimationFrame(rafId);
-  }, [camera, hovered, selected, getNodeRadius]);
+  }, [camera, hovered, selected, getNodeRadius, imagesLoaded]);
 
   // ─── Event handlers ─────────────────────────────────────────────────────
   const handleMouseMove = useCallback(

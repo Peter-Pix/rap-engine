@@ -430,14 +430,22 @@ export default function HomePage() {
       {layout && (
         <section className="mb-16">
           <div className="flex items-baseline justify-between mb-5">
-            <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">
-              Nejpropojenější interpreti
-            </h2>
+            <div>
+              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35 mb-1">
+                Nejpropojenější interpreti
+              </h2>
+              <p className="text-xs text-white/40">
+                Klikni na jméno pro detail, drag pro posun, scroll pro zoom
+              </p>
+            </div>
             <Link
               href="/sceny"
-              className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors"
+              className="group flex items-center gap-2 text-[11px] font-mono uppercase tracking-[0.15em] text-[#c8962e] hover:text-white transition-colors"
             >
-              Celá síť →
+              <span className="hidden sm:inline">Celá síť</span>
+              <span className="w-6 h-6 rounded-full bg-[#c8962e]/20 group-hover:bg-[#c8962e] flex items-center justify-center transition-colors">
+                →
+              </span>
             </Link>
           </div>
           <div className="bg-white/[0.02] border border-white/[0.06] rounded-lg overflow-hidden">

@@ -110,15 +110,31 @@ export default function ScenyPage() {
     <>
       <main className="h-[100dvh] flex flex-col bg-zinc-950 overflow-hidden">
         <div className="px-3 sm:px-8 py-2 sm:py-4 flex-shrink-0">
-          <h1 className="text-lg sm:text-2xl lg:text-3xl font-black tracking-tighter text-white uppercase leading-[0.92]">
-            Celá síť
-          </h1>
-          <p className="text-[10px] sm:text-sm text-white/50 mt-0.5 sm:mt-1">
-            {stats.nodes} entit · {stats.edges} vazeb · {stats.artists} interpretů · {stats.albums} alb · {stats.labels} labelů · {stats.locations} měst
-          </p>
+          <div className="flex items-baseline justify-between">
+            <div>
+              <h1 className="text-lg sm:text-2xl lg:text-3xl font-black tracking-tighter text-white uppercase leading-[0.92]">
+                Celá síť
+              </h1>
+              <p className="text-[10px] sm:text-sm text-white/50 mt-0.5 sm:mt-1">
+                {stats.nodes} entit · {stats.edges} vazeb · {stats.artists} interpretů · {stats.albums} alb · {stats.labels} labelů · {stats.locations} měst
+              </p>
+            </div>
+            <div className="hidden sm:block text-right">
+              <p className="text-[10px] text-white/30 font-mono">
+                Klikni → detail · Drag → posun · Scroll → zoom
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="flex-1 min-h-0 px-0 sm:px-8 pb-0 sm:pb-4">
+        <div className="flex-1 min-h-0 px-0 sm:px-8 pb-0 sm:pb-4 relative">
           <NetworkCanvas nodes={nodes} edges={edges} />
+          
+          {/* Mobile hint */}
+          <div className="absolute bottom-3 left-3 sm:hidden bg-zinc-900/80 backdrop-blur-sm rounded-lg px-2.5 py-1.5 border border-white/[0.08]">
+            <p className="text-[9px] text-white/40 font-mono">
+              Tap → detail · Drag → posun · Pinch → zoom
+            </p>
+          </div>
         </div>
       </main>
     </>

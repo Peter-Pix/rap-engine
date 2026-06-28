@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
+import { getArtistImage } from "@/lib/content/images";
 
 interface MiniNode {
   id: string;
@@ -15,7 +16,7 @@ interface MiniNode {
 }
 
 interface MiniEdge {
-  source: string; // index into nodes[]
+  source: string;
   target: string;
 }
 
@@ -64,9 +65,38 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
   const [camera, setCamera] = useState<Camera>({ x: width / 2, y: height / 2, zoom: 1 });
   const [hovered, setHovered] = useState<string | null>(null);
 
+  // Image cache
+  const imageCacheRef = useRef<Map<string, HTMLImageElement>>(new Map());
+  const [imagesLoaded, setImagesLoaded] = useState(0);
+
   const isPanningRef = useRef(false);
   const panStartRef = useRef<{ x: number; y: number } | null>(null);
   const cameraStartRef = useRef<Camera | null>(null);
+
+  // Load images
+  useEffect(() => {
+    const cache = imageCacheRef.current;
+    let loaded = 0;
+    const total = nodes.length;
+
+    nodes.forEach((n) => {
+      const imgUrl = getArtistImage(n.slug) ?? n.image ?? null;
+      if (!imgUrl) return;
+      if (cache.has(n.id)) return;
+
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload = () => {
+        cache.set(n.id, img);
+        loaded++;
+        if (loaded >= total) setImagesLoaded((v) => v + 1);
+      };
+      img.onerror = () => {
+        loaded++;
+      };
+      img.src = imgUrl;
+    });
+  }, [nodes]);
 
   // Fit camera to bbox on mount
   useEffect(() => {
@@ -82,10 +112,10 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
     const cw = container?.clientWidth ?? width;
     const ch = container?.clientHeight ?? height;
 
-    const padding = 40;
+    const padding = 50;
     const scaleX = (cw - padding * 2) / bboxW;
     const scaleY = (ch - padding * 2) / bboxH;
-    const zoom = Math.min(scaleX, scaleY, 1.5); // cap zoom
+    const zoom = Math.min(scaleX, scaleY, 1.2);
 
     setCamera({
       x: (minX + maxX) / 2,
@@ -140,7 +170,7 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
       const maxDegree = Math.max(...nodes.map((n) => n.degree), 1);
       const getR = (n: MiniNode) => {
         const t = Math.log(n.degree) / Math.log(maxDegree);
-        return 4 + t * 10; // 4px to 14px
+        return 6 + t * 14; // 6px to 20px
       };
 
       // Edges
@@ -157,34 +187,72 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
         ctx.beginPath();
         ctx.moveTo(posA.x, posA.y);
         ctx.lineTo(posB.x, posB.y);
-        ctx.strokeStyle = highlighted ? "rgba(200,150,46,0.5)" : "rgba(255,255,255,0.12)";
-        ctx.lineWidth = highlighted ? 1.5 : 0.5;
+        ctx.strokeStyle = highlighted ? "rgba(200,150,46,0.6)" : "rgba(255,255,255,0.15)";
+        ctx.lineWidth = highlighted ? 1.5 : 0.8;
         ctx.stroke();
       });
 
       // Nodes
       nodes.forEach((n) => {
         const isHovered = hovered === n.id;
-        const r = getR(n) * (isHovered ? 1.4 : 1);
+        const baseR = getR(n);
+        const r = baseR * (isHovered ? 1.3 : 1);
         const pos = worldToScreen(camera, n.x, n.y, cx, cy);
         const screenR = r * camera.zoom;
 
-        ctx.beginPath();
-        ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
-        ctx.fillStyle = TYPE_COLORS.artist;
-        ctx.fill();
+        const img = imageCacheRef.current.get(n.id);
 
-        if (isHovered) {
-          ctx.strokeStyle = "#fff";
-          ctx.lineWidth = 2;
+        if (img && screenR > 4) {
+          // Draw image clipped to circle
+          ctx.save();
+          ctx.beginPath();
+          ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
+          ctx.clip();
+          ctx.drawImage(img, pos.x - screenR, pos.y - screenR, screenR * 2, screenR * 2);
+          ctx.restore();
+
+          // Border
+          ctx.beginPath();
+          ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
+          ctx.strokeStyle = isHovered ? "#fff" : TYPE_COLORS.artist + "80";
+          ctx.lineWidth = isHovered ? 2.5 : 1.5;
           ctx.stroke();
+        } else {
+          // Fallback: colored circle with initial
+          ctx.beginPath();
+          ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
+          ctx.fillStyle = TYPE_COLORS.artist;
+          ctx.fill();
 
-          // Tooltip
-          ctx.fillStyle = "rgba(255,255,255,0.9)";
-          ctx.font = "bold 11px system-ui, sans-serif";
-          ctx.textAlign = "center";
-          ctx.fillText(n.title, pos.x, pos.y - screenR - 8);
+          if (screenR > 6) {
+            ctx.fillStyle = "#fff";
+            ctx.font = `bold ${Math.max(8, screenR * 0.6)}px system-ui, sans-serif`;
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            ctx.fillText(n.title[0].toUpperCase(), pos.x, pos.y + 1);
+          }
+
+          ctx.beginPath();
+          ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
+          ctx.strokeStyle = isHovered ? "#fff" : TYPE_COLORS.artist + "60";
+          ctx.lineWidth = isHovered ? 2 : 1;
+          ctx.stroke();
         }
+
+        // Labels — always show on mini version
+        const labelY = pos.y + screenR + 12;
+        const fontSize = Math.max(8, Math.min(11, 9 * camera.zoom));
+
+        ctx.fillStyle = isHovered ? "rgba(255,255,255,0.95)" : "rgba(255,255,255,0.7)";
+        ctx.font = `${isHovered ? 700 : 500} ${fontSize}px system-ui, sans-serif`;
+        ctx.textAlign = "center";
+        ctx.textBaseline = "top";
+        ctx.fillText(n.title, pos.x, labelY);
+
+        // Degree badge
+        ctx.fillStyle = "rgba(255,255,255,0.35)";
+        ctx.font = `${fontSize - 1}px monospace`;
+        ctx.fillText(`${n.degree} vazeb`, pos.x, labelY + fontSize + 2);
       });
 
       rafId = requestAnimationFrame(draw);
@@ -192,7 +260,7 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
 
     rafId = requestAnimationFrame(draw);
     return () => cancelAnimationFrame(rafId);
-  }, [camera, hovered, nodes, edges]);
+  }, [camera, hovered, nodes, edges, imagesLoaded]);
 
   // Mouse handlers
   const getMousePos = useCallback((clientX: number, clientY: number) => {
@@ -215,7 +283,7 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
 
       return nodes.find((n) => {
         const t = Math.log(n.degree) / Math.log(maxDegree);
-        const r = (4 + t * 10) * camera.zoom;
+        const r = (6 + t * 14) * camera.zoom;
         const pos = worldToScreen(camera, n.x, n.y, cx, cy);
         const dx = pos.x - sx;
         const dy = pos.y - sy;
@@ -275,17 +343,11 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
   const handleWheel = useCallback(
     (e: React.WheelEvent) => {
       e.preventDefault();
-      const canvas = canvasRef.current;
-      if (!canvas) return;
-      const cx = canvas.clientWidth / 2;
-      const cy = canvas.clientHeight / 2;
-      const pos = getMousePos(e.clientX, e.clientY);
-
       const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1;
       const newZoom = Math.max(0.3, Math.min(3, camera.zoom * zoomFactor));
       setCamera((c) => ({ ...c, zoom: newZoom }));
     },
-    [camera, getMousePos],
+    [camera],
   );
 
   const handleClick = useCallback(
@@ -301,7 +363,7 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
   );
 
   return (
-    <div className="relative w-full h-[250px] sm:h-[320px] md:h-[400px]" ref={containerRef}>
+    <div className="relative w-full h-[280px] sm:h-[340px] md:h-[420px]" ref={containerRef}>
       <canvas
         ref={canvasRef}
         className="w-full h-full cursor-pointer touch-none"
