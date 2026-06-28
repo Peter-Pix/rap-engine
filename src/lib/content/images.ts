@@ -47,6 +47,19 @@ const ARTIST_IMAGES: Record<string, string> = {
   'grey256': '/images/artists/grey256.webp',
   'sergei-barracuda': '/images/artists/sergei-barracuda.webp',
   'lvcas-dope': '/images/artists/lvcas-dope.webp',
+  '7krat3': '/images/artists/7krat3.webp',
+  'astralkid22': '/images/artists/astralkid22.webp',
+  'ca-hanova-bulhar': '/images/artists/ca-hanova-bulhar.webp',
+  'fosco-alma': '/images/artists/fosco-alma.webp',
+  'kali': '/images/artists/kali.webp',
+  'mike-trafik': '/images/artists/mike-trafik.webp',
+  'psh': '/images/artists/psh.webp',
+  'refew': '/images/artists/refew.webp',
+  'reznik': '/images/artists/reznik.webp',
+  'smack': '/images/artists/smack.webp',
+  'smack-one': '/images/artists/smack-one.webp',
+  'sorty': '/images/artists/sorty.webp',
+  'vladimir-518': '/images/artists/vladimir-518.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
