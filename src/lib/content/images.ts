@@ -68,6 +68,13 @@ const ARTIST_IMAGES: Record<string, string> = {
   'lipo': '/images/artists/lipo.webp',
   'arleta': '/images/artists/arleta.webp',
   'labello': '/images/artists/labello.webp',
+  'vercetti-cg': '/images/artists/vercetti-cg.webp',
+  'renne-dang': '/images/artists/renne-dang.webp',
+  'ptk': '/images/artists/ptk.webp',
+  'bobby-blaze': '/images/artists/bobby-blaze.webp',
+  'jay-diesel': '/images/artists/jay-diesel.webp',
+  'sensey': '/images/artists/sensey.webp',
+  'marpo': '/images/artists/marpo.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
