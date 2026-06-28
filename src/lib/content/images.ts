@@ -46,6 +46,7 @@ const ARTIST_IMAGES: Record<string, string> = {
   'sima': '/images/artists/sima.webp',
   'grey256': '/images/artists/grey256.webp',
   'sergei-barracuda': '/images/artists/sergei-barracuda.webp',
+  'lvcas-dope': '/images/artists/lvcas-dope.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
