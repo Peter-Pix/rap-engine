@@ -87,6 +87,18 @@ const ARTIST_IMAGES: Record<string, string> = {
   'kato': '/images/artists/kato.webp',
   'karlo': '/images/artists/karlo.webp',
   'pain': '/images/artists/pain.webp',
+  'koky': '/images/artists/koky.webp',
+  'idea': '/images/artists/idea.webp',
+  'konex': '/images/artists/konex.webp',
+  'prezident-lourajder': '/images/artists/prezident-lourajder.webp',
+  'shimmi': '/images/artists/shimmi.webp',
+  'jickson': '/images/artists/jickson.webp',
+  'kojo': '/images/artists/kojo.webp',
+  'annet-x': '/images/artists/annet-x.webp',
+  'hellwana': '/images/artists/hellwana.webp',
+  'guapanova': '/images/artists/guapanova.webp',
+  'daniel-vardan': '/images/artists/daniel-vardan.webp',
+  'desade': '/images/artists/desade.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
