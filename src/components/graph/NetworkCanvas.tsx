@@ -167,6 +167,94 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     };
   }, []);
 
+  // ─── Native touch events (non-passive) ─────────────────────────────────
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length === 1) {
+        const touch = e.touches[0];
+        const pos = getMousePos(touch.clientX, touch.clientY);
+        const node = findNodeAt(pos.x, pos.y);
+
+        if (node) {
+          draggingNodeRef.current = node.id;
+        } else {
+          isPanningRef.current = true;
+          panStartRef.current = { x: pos.x, y: pos.y };
+          cameraStartRef.current = { ...camera };
+        }
+      } else if (e.touches.length === 2) {
+        const t1 = e.touches[0];
+        const t2 = e.touches[1];
+        const dist = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
+        (panStartRef.current as any) = { dist, zoom: camera.zoom };
+      }
+    };
+
+    const onTouchMove = (e: TouchEvent) => {
+      e.preventDefault();
+      if (e.touches.length === 1) {
+        const touch = e.touches[0];
+        const pos = getMousePos(touch.clientX, touch.clientY);
+
+        if (isPanningRef.current && panStartRef.current && cameraStartRef.current) {
+          const dx = (pos.x - panStartRef.current.x) / camera.zoom;
+          const dy = (pos.y - panStartRef.current.y) / camera.zoom;
+          setCamera({
+            x: cameraStartRef.current.x - dx,
+            y: cameraStartRef.current.y - dy,
+            zoom: cameraStartRef.current.zoom,
+          });
+        }
+
+        if (draggingNodeRef.current) {
+          const c = canvasRef.current;
+          if (!c) return;
+          const cx = c.clientWidth / 2;
+          const cy = c.clientHeight / 2;
+          const worldPos = screenToWorld(camera, pos.x, pos.y, cx, cy);
+          const n = simNodesRef.current.find((n) => n.id === draggingNodeRef.current);
+          if (n) {
+            n.x = worldPos.x;
+            n.y = worldPos.y;
+            n.vx = 0;
+            n.vy = 0;
+            simRef.current?.alpha(0.3).restart();
+          }
+        }
+      } else if (e.touches.length === 2) {
+        const t1 = e.touches[0];
+        const t2 = e.touches[1];
+        const dist = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
+        const start = panStartRef.current as any;
+        if (start?.dist) {
+          const scale = dist / start.dist;
+          const newZoom = Math.max(0.1, Math.min(5, start.zoom * scale));
+          setCamera((c) => ({ ...c, zoom: newZoom }));
+        }
+      }
+    };
+
+    const onTouchEnd = () => {
+      draggingNodeRef.current = null;
+      isPanningRef.current = false;
+      panStartRef.current = null;
+      cameraStartRef.current = null;
+    };
+
+    canvas.addEventListener("touchstart", onTouchStart, { passive: true });
+    canvas.addEventListener("touchmove", onTouchMove, { passive: false });
+    canvas.addEventListener("touchend", onTouchEnd, { passive: true });
+
+    return () => {
+      canvas.removeEventListener("touchstart", onTouchStart);
+      canvas.removeEventListener("touchmove", onTouchMove);
+      canvas.removeEventListener("touchend", onTouchEnd);
+    };
+  }, [camera, getMousePos, findNodeAt]);
+
   // ─── Init simulation ────────────────────────────────────────────────────
   useEffect(() => {
     const simNodes = nodes.map((n) => ({ ...n, x: 0, y: 0 }));
@@ -311,87 +399,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     return () => cancelAnimationFrame(rafId);
   }, [camera, hovered, selected, getNodeRadius]);
 
-  // ─── Touch handlers for mobile ────────────────────────────────────────
-  const handleTouchStart = useCallback(
-    (e: React.TouchEvent) => {
-      if (e.touches.length === 1) {
-        const touch = e.touches[0];
-        const pos = getMousePos(touch.clientX, touch.clientY);
-        const node = findNodeAt(pos.x, pos.y);
-
-        if (node) {
-          draggingNodeRef.current = node.id;
-        } else {
-          isPanningRef.current = true;
-          panStartRef.current = { x: pos.x, y: pos.y };
-          cameraStartRef.current = { ...camera };
-        }
-      } else if (e.touches.length === 2) {
-        // Pinch zoom start
-        const t1 = e.touches[0];
-        const t2 = e.touches[1];
-        const dist = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
-        (panStartRef.current as any) = { dist, zoom: camera.zoom };
-      }
-    },
-    [camera, getMousePos, findNodeAt],
-  );
-
-  const handleTouchMove = useCallback(
-    (e: React.TouchEvent) => {
-      e.preventDefault();
-      if (e.touches.length === 1) {
-        const touch = e.touches[0];
-        const pos = getMousePos(touch.clientX, touch.clientY);
-
-        if (isPanningRef.current && panStartRef.current && cameraStartRef.current) {
-          const dx = (pos.x - panStartRef.current.x) / camera.zoom;
-          const dy = (pos.y - panStartRef.current.y) / camera.zoom;
-          setCamera({
-            x: cameraStartRef.current.x - dx,
-            y: cameraStartRef.current.y - dy,
-            zoom: cameraStartRef.current.zoom,
-          });
-        }
-
-        if (draggingNodeRef.current) {
-          const canvas = canvasRef.current;
-          if (!canvas) return;
-          const cx = canvas.clientWidth / 2;
-          const cy = canvas.clientHeight / 2;
-          const worldPos = screenToWorld(camera, pos.x, pos.y, cx, cy);
-          const n = simNodesRef.current.find((n) => n.id === draggingNodeRef.current);
-          if (n) {
-            n.x = worldPos.x;
-            n.y = worldPos.y;
-            n.vx = 0;
-            n.vy = 0;
-            simRef.current?.alpha(0.3).restart();
-          }
-        }
-      } else if (e.touches.length === 2) {
-        // Pinch zoom
-        const t1 = e.touches[0];
-        const t2 = e.touches[1];
-        const dist = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
-        const start = panStartRef.current as any;
-        if (start?.dist) {
-          const scale = dist / start.dist;
-          const newZoom = Math.max(0.1, Math.min(5, start.zoom * scale));
-          setCamera((c) => ({ ...c, zoom: newZoom }));
-        }
-      }
-    },
-    [camera, getMousePos],
-  );
-
-  const handleTouchEnd = useCallback(() => {
-    draggingNodeRef.current = null;
-    isPanningRef.current = false;
-    panStartRef.current = null;
-    cameraStartRef.current = null;
-  }, []);
-
   // ─── Event handlers ─────────────────────────────────────────────────────
   const handleMouseMove = useCallback(
     (e: React.MouseEvent) => {
@@ -531,9 +538,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         onMouseLeave={handleMouseLeave}
         onWheel={handleWheel}
         onClick={handleClick}
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
       />
 
       {/* Controls */}
