@@ -45,6 +45,8 @@ declare module "d3-force" {
     force(name: string, force: any): Simulation<NodeDatum, LinkDatum>;
     alphaDecay(): number;
     alphaDecay(decay: number): Simulation<NodeDatum, LinkDatum>;
+    alphaMin(): number;
+    alphaMin(min: number): Simulation<NodeDatum, LinkDatum>;
     alpha(): number;
     alpha(value: number): Simulation<NodeDatum, LinkDatum>;
   }

@@ -169,16 +169,18 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         "link",
         forceLink(simLinks)
           .id((d: any) => d.id)
-          .distance(80)
-          .strength(0.6),
+          .distance(120)
+          .strength(0.4),
       )
-      .force("charge", forceManyBody().strength(-200))
+      .force("charge", forceManyBody().strength(-400))
       .force("collide", forceCollide().radius((d: any) => getNodeRadius(d) + 5))
       .force("x", forceX(0).strength(0.08))
       .force("y", forceY(0).strength(0.08))
-      .alphaDecay(0.02)
+      .alphaDecay(0.01)
+      .alphaMin(0.001)
+      .alpha(1)
       .on("tick", () => {
-        // Sim runs until alpha < 0.001, then stops for stable rendering
+        // Sim runs until alpha < alphaMin, then stops for stable rendering
       });
 
     simRef.current = sim;
