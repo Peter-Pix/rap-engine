@@ -60,6 +60,8 @@ const ARTIST_IMAGES: Record<string, string> = {
   'smack-one': '/images/artists/smack-one.webp',
   'sorty': '/images/artists/sorty.webp',
   'vladimir-518': '/images/artists/vladimir-518.webp',
+  'sofian-medjmedj': '/images/artists/sofian-medjmedj.webp',
+  'cistychov': '/images/artists/cistychov.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
