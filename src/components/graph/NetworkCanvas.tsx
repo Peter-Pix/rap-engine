@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback, useReducer } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import {
   forceSimulation,
   forceManyBody,
@@ -77,73 +77,45 @@ function screenToWorld(camera: Camera, sx: number, sy: number, cx: number, cy: n
 export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  const [camera, setCamera] = useState<Camera>({ x: 0, y: 0, zoom: 1 });
   const [hovered, setHovered] = useState<string | null>(null);
   const [hoveredPos, setHoveredPos] = useState<{ x: number; y: number } | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
-  const [dragging, setDragging] = useState<string | null>(null);
 
-  const simRef = useRef<ReturnType<typeof forceSimulation<GraphNode>> | null>(null);
-  const cameraRef = useRef<Camera>({ x: 0, y: 0, zoom: 1 });
+  // Mutable refs for drag/pan (don't trigger re-renders)
   const isPanningRef = useRef(false);
   const panStartRef = useRef<{ x: number; y: number } | null>(null);
   const cameraStartRef = useRef<Camera | null>(null);
+  const draggingNodeRef = useRef<string | null>(null);
 
-  const nodesRef = useRef<GraphNode[]>(nodes);
-  const edgesRef = useRef<GraphEdge[]>(edges);
-  const hoveredRef = useRef<string | null>(hovered);
-  const hoveredPosRef = useRef<{ x: number; y: number } | null>(hoveredPos);
-  const selectedRef = useRef<string | null>(selected);
-  const draggingRef = useRef<string | null>(dragging);
+  // Store latest nodes/edges for draw loop
+  const simNodesRef = useRef<GraphNode[]>([]);
+  const edgesRef = useRef(edges);
 
   useEffect(() => {
-    nodesRef.current = nodes;
     edgesRef.current = edges;
-  }, [nodes, edges]);
+  }, [edges]);
 
-  useEffect(() => {
-    hoveredRef.current = hovered;
-  }, [hovered]);
-  useEffect(() => {
-    hoveredPosRef.current = hoveredPos;
-  }, [hoveredPos]);
-  useEffect(() => {
-    selectedRef.current = selected;
-  }, [selected]);
-  useEffect(() => {
-    draggingRef.current = dragging;
-  }, [dragging]);
-
-  const [_, forceUpdate] = useReducer((x) => x + 1, 0);
-
-  const getNodeRadius = useCallback((n: GraphNode) => {
-    const maxD = Math.max(...nodesRef.current.map((n) => n.degree), 1);
-    const t = Math.log(n.degree) / Math.log(maxD);
-    const containerW = containerRef.current?.clientWidth ?? 800;
-    const maxR = containerW < 640 ? 18 : containerW < 1024 ? 24 : 32;
-    return Math.min(6 + t * maxR, maxR);
+  // ─── Get mouse position in canvas coords ────────────────────────────────
+  const getMousePos = useCallback((clientX: number, clientY: number) => {
+    const canvas = canvasRef.current;
+    if (!canvas) return { x: 0, y: 0 };
+    const rect = canvas.getBoundingClientRect();
+    return {
+      x: (clientX - rect.left) * (canvas.width / rect.width),
+      y: (clientY - rect.top) * (canvas.height / rect.height),
+    };
   }, []);
 
-  const getMousePos = useCallback(
-    (e: React.MouseEvent) => {
-      const canvas = canvasRef.current;
-      if (!canvas) return { x: 0, y: 0 };
-      const rect = canvas.getBoundingClientRect();
-      return {
-        x: (e.clientX - rect.left) * (canvas.width / rect.width),
-        y: (e.clientY - rect.top) * (canvas.height / rect.height),
-      };
-    },
-    [],
-  );
-
+  // ─── Find node at screen position ──────────────────────────────────────
   const findNodeAt = useCallback(
     (sx: number, sy: number) => {
       const canvas = canvasRef.current;
       if (!canvas) return null;
       const cx = canvas.clientWidth / 2;
       const cy = canvas.clientHeight / 2;
-      const camera = cameraRef.current;
-      return nodesRef.current.find((n) => {
+      return simNodesRef.current.find((n) => {
         const r = getNodeRadius(n) + 2;
         const pos = worldToScreen(camera, n.x ?? 0, n.y ?? 0, cx, cy);
         const dx = pos.x - sx;
@@ -151,10 +123,18 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         return dx * dx + dy * dy < r * r * camera.zoom * camera.zoom;
       });
     },
-    [getNodeRadius],
+    [camera],
   );
 
-  // ─── Init simulation ──────────────────────────────────────────────────────
+  const getNodeRadius = useCallback((n: GraphNode) => {
+    const maxD = Math.max(...simNodesRef.current.map((n) => n.degree), 1);
+    const t = Math.log(n.degree) / Math.log(maxD);
+    const containerW = containerRef.current?.clientWidth ?? 800;
+    const maxR = containerW < 640 ? 18 : containerW < 1024 ? 24 : 32;
+    return Math.min(6 + t * maxR, maxR);
+  }, []);
+
+  // ─── Init simulation ────────────────────────────────────────────────────
   useEffect(() => {
     const canvas = canvasRef.current;
     const container = containerRef.current;
@@ -174,12 +154,10 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     resize();
     window.addEventListener("resize", resize);
 
-    const ctx = canvas.getContext("2d")!;
-    const w = canvas.clientWidth;
-    const h = canvas.clientHeight;
+    const simNodes = nodes.map((n) => ({ ...n, x: 0, y: 0 }));
+    simNodesRef.current = simNodes;
 
-    const simNodes = nodesRef.current.map((n) => ({ ...n, x: 0, y: 0 }));
-    const simLinks = edgesRef.current.map((e) => ({
+    const simLinks = edges.map((e) => ({
       source: e.from,
       target: e.to,
       relation: e.relation,
@@ -199,38 +177,43 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       .force("y", forceY(0).strength(0.08))
       .alphaDecay(0.02)
       .on("tick", () => {
-        draw();
+        // Keep sim running at low alpha for interactivity
+        if (sim.alpha() < 0.01) sim.alpha(0.01);
       });
 
-    simRef.current = sim;
-
-    // Center camera on bbox center once layout settles
-    const initCamera = () => {
+    // Center camera on bbox once layout settles
+    const timer = setTimeout(() => {
       const xs = simNodes.map((n) => n.x ?? 0);
       const ys = simNodes.map((n) => n.y ?? 0);
-      const minX = Math.min(...xs);
-      const maxX = Math.max(...xs);
-      const minY = Math.min(...ys);
-      const maxY = Math.max(...ys);
-      const centerX = (minX + maxX) / 2;
-      const centerY = (minY + maxY) / 2;
-      cameraRef.current = { x: centerX, y: centerY, zoom: 1 };
+      const minX = Math.min(...xs), maxX = Math.max(...xs);
+      const minY = Math.min(...ys), maxY = Math.max(...ys);
+      setCamera({ x: (minX + maxX) / 2, y: (minY + maxY) / 2, zoom: 1 });
+    }, 500);
+
+    return () => {
+      sim.stop();
+      clearTimeout(timer);
+      window.removeEventListener("resize", resize);
     };
-    setTimeout(initCamera, 100);
+  }, [nodes, edges, getNodeRadius]);
+
+  // ─── Draw loop (separate from simulation) ─────────────────────────────
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    let rafId: number;
 
     const draw = () => {
-      const canvas = canvasRef.current;
-      if (!canvas) return;
       const w = canvas.clientWidth;
       const h = canvas.clientHeight;
       const cx = w / 2;
       const cy = h / 2;
-      const camera = cameraRef.current;
 
       ctx.clearRect(0, 0, w, h);
 
-      const hovered = hoveredRef.current;
-      const selected = selectedRef.current;
       const isHighlighted = (id: string) =>
         hovered === id || selected === id ||
         (hovered && edgesRef.current.some((e) =>
@@ -244,8 +227,8 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
 
       // Edges
       edgesRef.current.forEach((e) => {
-        const a = simNodes.find((n) => n.id === e.from);
-        const b = simNodes.find((n) => n.id === e.to);
+        const a = simNodesRef.current.find((n) => n.id === e.from);
+        const b = simNodesRef.current.find((n) => n.id === e.to);
         if (!a || !b) return;
 
         const posA = worldToScreen(camera, a.x ?? 0, a.y ?? 0, cx, cy);
@@ -266,8 +249,8 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       });
 
       // Nodes
-      simNodes.forEach((n) => {
-        const isHovered = hoveredRef.current === n.id;
+      simNodesRef.current.forEach((n) => {
+        const isHovered = hovered === n.id;
         const r = getNodeRadius(n) * (isHovered ? 1.3 : 1);
         const dimmed = isDimmed(n.id);
         const highlighted = isHighlighted(n.id);
@@ -278,7 +261,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
 
         ctx.globalAlpha = dimmed ? 0.2 : 1;
 
-        // Glow
         if (highlighted) {
           ctx.beginPath();
           ctx.arc(pos.x, pos.y, screenR + 8 * camera.zoom, 0, Math.PI * 2);
@@ -286,7 +268,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
           ctx.fill();
         }
 
-        // Circle
         ctx.beginPath();
         ctx.arc(pos.x, pos.y, screenR, 0, Math.PI * 2);
         ctx.fillStyle = color;
@@ -295,7 +276,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         ctx.lineWidth = highlighted ? 2 : 1;
         ctx.stroke();
 
-        // Label (for large, highlighted, or hovered nodes)
         if (isHovered || highlighted || screenR > 14) {
           ctx.fillStyle = "rgba(255,255,255,0.9)";
           ctx.font = `${isHovered || highlighted ? 700 : 400} ${Math.max(9, 11 * camera.zoom)}px system-ui, sans-serif`;
@@ -306,46 +286,42 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
 
         ctx.globalAlpha = 1;
       });
+
+      rafId = requestAnimationFrame(draw);
     };
 
-    return () => {
-      sim.stop();
-      window.removeEventListener("resize", resize);
-    };
-  }, [getNodeRadius]);
+    rafId = requestAnimationFrame(draw);
+    return () => cancelAnimationFrame(rafId);
+  }, [camera, hovered, selected, getNodeRadius]);
 
-  // ─── Mouse handlers ─────────────────────────────────────────────────────
+  // ─── Event handlers ─────────────────────────────────────────────────────
   const handleMouseMove = useCallback(
     (e: React.MouseEvent) => {
-      const pos = getMousePos(e);
+      const pos = getMousePos(e.clientX, e.clientY);
 
-      // Panning
+      // Pan
       if (isPanningRef.current && panStartRef.current && cameraStartRef.current) {
-        const dx = (pos.x - panStartRef.current.x) / cameraRef.current.zoom;
-        const dy = (pos.y - panStartRef.current.y) / cameraRef.current.zoom;
-        cameraRef.current = {
-          ...cameraStartRef.current,
+        const dx = (pos.x - panStartRef.current.x) / camera.zoom;
+        const dy = (pos.y - panStartRef.current.y) / camera.zoom;
+        setCamera({
           x: cameraStartRef.current.x - dx,
           y: cameraStartRef.current.y - dy,
-        };
-        forceUpdate();
+          zoom: cameraStartRef.current.zoom,
+        });
         return;
       }
 
-      // Dragging node
-      if (draggingRef.current) {
-        const sim = simRef.current;
-        if (sim) {
-          const canvas = canvasRef.current;
-          if (!canvas) return;
-          const cx = canvas.clientWidth / 2;
-          const cy = canvas.clientHeight / 2;
-          const worldPos = screenToWorld(cameraRef.current, pos.x, pos.y, cx, cy);
-          const n = sim.nodes().find((n: any) => n.id === draggingRef.current);
-          if (n) {
-            (n as any).fx = worldPos.x;
-            (n as any).fy = worldPos.y;
-          }
+      // Drag node
+      if (draggingNodeRef.current) {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const cx = canvas.clientWidth / 2;
+        const cy = canvas.clientHeight / 2;
+        const worldPos = screenToWorld(camera, pos.x, pos.y, cx, cy);
+        const n = simNodesRef.current.find((n) => n.id === draggingNodeRef.current);
+        if (n) {
+          n.x = worldPos.x;
+          n.y = worldPos.y;
         }
         return;
       }
@@ -360,73 +336,36 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
         setHoveredPos(null);
       }
     },
-    [getMousePos, findNodeAt],
+    [camera, getMousePos, findNodeAt],
   );
 
   const handleMouseDown = useCallback(
     (e: React.MouseEvent) => {
-      const pos = getMousePos(e);
+      const pos = getMousePos(e.clientX, e.clientY);
       const node = findNodeAt(pos.x, pos.y);
 
       if (node) {
-        // Drag node
-        setDragging(node.id);
-        const sim = simRef.current;
-        if (sim) {
-          const n = sim.nodes().find((n: any) => n.id === node.id);
-          if (n) {
-            const canvas = canvasRef.current;
-            if (!canvas) return;
-            const cx = canvas.clientWidth / 2;
-            const cy = canvas.clientHeight / 2;
-            const worldPos = screenToWorld(cameraRef.current, pos.x, pos.y, cx, cy);
-            (n as any).fx = worldPos.x;
-            (n as any).fy = worldPos.y;
-          }
-        }
+        draggingNodeRef.current = node.id;
       } else {
-        // Start pan
         isPanningRef.current = true;
         panStartRef.current = { x: pos.x, y: pos.y };
-        cameraStartRef.current = { ...cameraRef.current };
+        cameraStartRef.current = { ...camera };
       }
     },
-    [getMousePos, findNodeAt],
+    [camera, getMousePos, findNodeAt],
   );
 
   const handleMouseUp = useCallback(() => {
-    if (draggingRef.current) {
-      const sim = simRef.current;
-      if (sim) {
-        const n = sim.nodes().find((n: any) => n.id === draggingRef.current);
-        if (n) {
-          (n as any).fx = null;
-          (n as any).fy = null;
-        }
-      }
-      setDragging(null);
-    }
-    if (isPanningRef.current) {
-      isPanningRef.current = false;
-      panStartRef.current = null;
-      cameraStartRef.current = null;
-    }
+    draggingNodeRef.current = null;
+    isPanningRef.current = false;
+    panStartRef.current = null;
+    cameraStartRef.current = null;
   }, []);
 
   const handleMouseLeave = useCallback(() => {
     setHovered(null);
     setHoveredPos(null);
-    if (draggingRef.current) {
-      const sim = simRef.current;
-      if (sim) {
-        const n = sim.nodes().find((n: any) => n.id === draggingRef.current);
-        if (n) {
-          (n as any).fx = null;
-          (n as any).fy = null;
-        }
-      }
-      setDragging(null);
-    }
+    draggingNodeRef.current = null;
     isPanningRef.current = false;
     panStartRef.current = null;
     cameraStartRef.current = null;
@@ -439,30 +378,28 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       if (!canvas) return;
       const cx = canvas.clientWidth / 2;
       const cy = canvas.clientHeight / 2;
-      const pos = getMousePos(e as any);
+      const pos = getMousePos(e.clientX, e.clientY);
 
-      // Zoom towards mouse pointer
-      const worldBefore = screenToWorld(cameraRef.current, pos.x, pos.y, cx, cy);
+      const worldBefore = screenToWorld(camera, pos.x, pos.y, cx, cy);
       const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1;
-      const newZoom = Math.max(0.1, Math.min(5, cameraRef.current.zoom * zoomFactor));
-      cameraRef.current = { ...cameraRef.current, zoom: newZoom };
-      const worldAfter = screenToWorld(cameraRef.current, pos.x, pos.y, cx, cy);
+      const newZoom = Math.max(0.1, Math.min(5, camera.zoom * zoomFactor));
 
-      // Adjust pan to keep mouse at same world position
-      cameraRef.current = {
-        ...cameraRef.current,
-        x: cameraRef.current.x + (worldBefore.x - worldAfter.x),
-        y: cameraRef.current.y + (worldBefore.y - worldAfter.y),
-      };
-      forceUpdate();
+      const newCamera = { ...camera, zoom: newZoom };
+      const worldAfter = screenToWorld(newCamera, pos.x, pos.y, cx, cy);
+
+      setCamera({
+        ...newCamera,
+        x: newCamera.x + (worldBefore.x - worldAfter.x),
+        y: newCamera.y + (worldBefore.y - worldAfter.y),
+      });
     },
-    [getMousePos],
+    [camera, getMousePos],
   );
 
   const handleClick = useCallback(
     (e: React.MouseEvent) => {
-      if (isPanningRef.current) return; // Don't select on pan end
-      const pos = getMousePos(e);
+      if (isPanningRef.current) return;
+      const pos = getMousePos(e.clientX, e.clientY);
       const node = findNodeAt(pos.x, pos.y);
       if (node) {
         setSelected((prev) => (prev === node.id ? null : node.id));
@@ -474,7 +411,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   );
 
   const selectedNode = selected
-    ? nodesRef.current.find((n) => n.id === selected)
+    ? simNodesRef.current.find((n) => n.id === selected)
     : null;
 
   const selectedEdges = selected
@@ -497,30 +434,21 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       {/* Controls */}
       <div className="absolute bottom-3 right-3 flex flex-col gap-1">
         <button
-          onClick={() => {
-            cameraRef.current = { ...cameraRef.current, zoom: cameraRef.current.zoom * 1.3 };
-            forceUpdate();
-          }}
+          onClick={() => setCamera((c) => ({ ...c, zoom: Math.min(5, c.zoom * 1.3) }))}
           className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-lg"
           title="Přiblížit"
         >
           +
         </button>
         <button
-          onClick={() => {
-            cameraRef.current = { ...cameraRef.current, zoom: cameraRef.current.zoom / 1.3 };
-            forceUpdate();
-          }}
+          onClick={() => setCamera((c) => ({ ...c, zoom: Math.max(0.1, c.zoom / 1.3) }))}
           className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-lg"
           title="Oddálit"
         >
           −
         </button>
         <button
-          onClick={() => {
-            cameraRef.current = { x: 0, y: 0, zoom: 1 };
-            forceUpdate();
-          }}
+          onClick={() => setCamera({ x: 0, y: 0, zoom: 1 })}
           className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-xs"
           title="Reset pohledu"
         >
@@ -588,7 +516,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
             {selectedEdges.map((e) => {
               const isFrom = e.from === selectedNode.id;
               const otherId = isFrom ? e.to : e.from;
-              const other = nodesRef.current.find((n) => n.id === otherId);
+              const other = simNodesRef.current.find((n) => n.id === otherId);
               if (!other) return null;
               return (
                 <div key={e.from + e.to} className="flex items-center gap-1.5 text-[11px]">
@@ -607,7 +535,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
 
       {/* Hover tooltip */}
       {hovered && hoveredPos && (() => {
-        const node = nodesRef.current.find((n) => n.id === hovered);
+        const node = simNodesRef.current.find((n) => n.id === hovered);
         if (!node) return null;
         const relatedCount = edgesRef.current.filter(
           (e) => e.from === hovered || e.to === hovered

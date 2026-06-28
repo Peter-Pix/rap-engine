@@ -42,7 +42,10 @@ declare module "d3-force" {
     stop(): void;
     on(event: string, fn: () => void): Simulation<NodeDatum, LinkDatum>;
     force(name: string, force: any): Simulation<NodeDatum, LinkDatum>;
-    alphaDecay(decay?: number): Simulation<NodeDatum, LinkDatum>;
+    alphaDecay(): number;
+    alphaDecay(decay: number): Simulation<NodeDatum, LinkDatum>;
+    alpha(): number;
+    alpha(value: number): Simulation<NodeDatum, LinkDatum>;
   }
 
   export function forceSimulation<NodeDatum = SimulationNodeDatum>(nodes?: NodeDatum[]): Simulation<NodeDatum>;
