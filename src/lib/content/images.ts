@@ -45,6 +45,7 @@ const ARTIST_IMAGES: Record<string, string> = {
   'mc-gey': '/images/artists/mc-gey.webp',
   'sima': '/images/artists/sima.webp',
   'grey256': '/images/artists/grey256.webp',
+  'sergei-barracuda': '/images/artists/sergei-barracuda.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
