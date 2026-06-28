@@ -701,7 +701,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
               const other = simNodesRef.current.find((n) => n.id === otherId);
               if (!other) return null;
               return (
-                <div key={e.from + e.to} className="flex items-center gap-1.5 text-[11px]">
+                <div key={e.from + e.to + e.relation} className="flex items-center gap-1.5 text-[11px]">
                   <div
                     className="w-1.5 h-1.5 rounded-full"
                     style={{ backgroundColor: TYPE_COLORS[other.type as EntityType] ?? "#ccc" }}
