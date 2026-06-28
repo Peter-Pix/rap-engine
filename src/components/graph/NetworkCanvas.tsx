@@ -80,6 +80,8 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const [camera, setCamera] = useState<Camera>({ x: 0, y: 0, zoom: 1 });
+  const cameraRef = useRef(camera);
+  useEffect(() => { cameraRef.current = camera; }, [camera]);
   const [hovered, setHovered] = useState<string | null>(null);
   const [hoveredPos, setHoveredPos] = useState<{ x: number; y: number } | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
@@ -128,14 +130,14 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     });
   }, [nodes]);
 
-  // ─── Get mouse position in canvas coords ────────────────────────────────
+  // ─── Get mouse position in CSS coords (not DPR-scaled) ────────────────
   const getMousePos = useCallback((clientX: number, clientY: number) => {
     const canvas = canvasRef.current;
     if (!canvas) return { x: 0, y: 0 };
     const rect = canvas.getBoundingClientRect();
     return {
-      x: (clientX - rect.left) * (canvas.width / rect.width),
-      y: (clientY - rect.top) * (canvas.height / rect.height),
+      x: clientX - rect.left,
+      y: clientY - rect.top,
     };
   }, []);
 
@@ -146,15 +148,16 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       if (!canvas) return null;
       const cx = canvas.clientWidth / 2;
       const cy = canvas.clientHeight / 2;
+      const cam = cameraRef.current;
       return simNodesRef.current.find((n) => {
         const r = getNodeRadius(n) + 2;
-        const pos = worldToScreen(camera, n.x ?? 0, n.y ?? 0, cx, cy);
+        const pos = worldToScreen(cam, n.x ?? 0, n.y ?? 0, cx, cy);
         const dx = pos.x - sx;
         const dy = pos.y - sy;
-        return dx * dx + dy * dy < r * r * camera.zoom * camera.zoom;
+        return dx * dx + dy * dy < r * r * cam.zoom * cam.zoom;
       });
     },
-    [camera],
+    [],
   );
 
   const getNodeRadius = useCallback((n: GraphNode) => {
