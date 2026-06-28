@@ -2,7 +2,7 @@ import Link from "next/link";
 import { readEntities, readGraph, readGraphLayout } from "@/lib/content/cache-reader";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 import { SearchBar } from "@/components/search/SearchBar";
-import { NetworkGraph } from "@/components/homepage/NetworkGraph";
+import { NetworkCanvasMini } from "@/components/homepage/NetworkCanvasMini";
 import { TrendingArtists, type ArtistTile } from "@/components/homepage/TrendingArtists";
 import { TrendingAlbums, type AlbumTile } from "@/components/homepage/TrendingAlbums";
 import { DiscoverScene, type CityTile, type LabelTile } from "@/components/homepage/DiscoverScene";
@@ -425,7 +425,7 @@ export default function HomePage() {
       <TrendingAlbums albums={trendingAlbums} />
 
       {/* ═══════════════════════════════════════════════════════════════
-         NEJPROPOJENĚJŠÍ INTERPRETI — síťový graf
+         NEJPROPOJENĚJŠÍ INTERPRETI — síťový graf (mini canvas)
          ═══════════════════════════════════════════════════════════════ */}
       {layout && (
         <section className="mb-16">
@@ -440,8 +440,13 @@ export default function HomePage() {
               Celá síť →
             </Link>
           </div>
-          <div className="bg-white/[0.02] border border-white/[0.06] rounded-lg p-6 sm:p-8">
-            <NetworkGraph layout={layout} />
+          <div className="bg-white/[0.02] border border-white/[0.06] rounded-lg overflow-hidden">
+            <NetworkCanvasMini
+              nodes={layout.nodes}
+              edges={layout.edges}
+              width={layout.width}
+              height={layout.height}
+            />
           </div>
         </section>
       )}
