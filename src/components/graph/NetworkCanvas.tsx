@@ -194,7 +194,6 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     };
 
     const onTouchMove = (e: TouchEvent) => {
-      e.preventDefault();
       if (e.touches.length === 1) {
         const touch = e.touches[0];
         const pos = getMousePos(touch.clientX, touch.clientY);
@@ -245,7 +244,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     };
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
-    canvas.addEventListener("touchmove", onTouchMove, { passive: false });
+    canvas.addEventListener("touchmove", onTouchMove, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd, { passive: true });
 
     return () => {
