@@ -29,6 +29,7 @@ const ARTIST_IMAGES: Record<string, string> = {
   'stein27': '/images/artists/stein27.webp',
   'saul': '/images/artists/saul.webp',
     'adiss': '/images/artists/adiss.webp',
+  'aless': '/images/artists/aless.webp',
       'nik-tendo': '/images/artists/nik-tendo.webp',
       'rytmus': '/images/artists/rytmus.webp',
         'viktor-sheen': '/images/artists/viktor-sheen.webp',
