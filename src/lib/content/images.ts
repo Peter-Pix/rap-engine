@@ -62,6 +62,12 @@ const ARTIST_IMAGES: Record<string, string> = {
   'vladimir-518': '/images/artists/vladimir-518.webp',
   'sofian-medjmedj': '/images/artists/sofian-medjmedj.webp',
   'cistychov': '/images/artists/cistychov.webp',
+  'dokkeytino': '/images/artists/dokkeytino.webp',
+  'protiva': '/images/artists/protiva.webp',
+  'fvck-kvlt': '/images/artists/fvck-kvlt.webp',
+  'lipo': '/images/artists/lipo.webp',
+  'arleta': '/images/artists/arleta.webp',
+  'labello': '/images/artists/labello.webp',
 };
 
 export function getArtistImage(slug: string): string | undefined {
