@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, useCallback } from "react";
 import {
   forceSimulation,
   forceManyBody,
@@ -169,7 +169,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
   }, []);
 
   // ─── Resize handling ────────────────────────────────────────────────────
-  useEffect(() => {
+  useLayoutEffect(() => {
     const canvas = canvasRef.current;
     const container = containerRef.current;
     if (!canvas || !container) return;
@@ -191,12 +191,16 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     // Initial
     resize();
 
+    // Deferred resize — catch layout settling on mobile
+    const deferredTimer = setTimeout(resize, 100);
+
     // Use ResizeObserver for more reliable sizing
     const ro = new ResizeObserver(resize);
     ro.observe(container);
 
     return () => {
       ro.disconnect();
+      clearTimeout(deferredTimer);
     };
   }, []);
 
@@ -614,7 +618,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
       />
 
       {/* Controls */}
-      <div className="absolute bottom-3 right-3 flex flex-col gap-1">
+      <div className="absolute bottom-[max(0.75rem,env(safe-area-inset-bottom)+0.5rem)] right-3 flex flex-col gap-1">
         <button
           onClick={() => setCamera((c) => ({ ...c, zoom: Math.min(5, c.zoom * 1.3) }))}
           className="w-8 h-8 bg-zinc-900/80 backdrop-blur-sm rounded-lg border border-white/[0.08] text-white/70 hover:text-white flex items-center justify-center text-lg"

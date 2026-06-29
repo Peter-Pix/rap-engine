@@ -108,7 +108,7 @@ export default function ScenyPage() {
 
   return (
     <>
-      <main className="h-[100dvh] flex flex-col bg-zinc-950 overflow-hidden">
+      <main className="h-[100svh] flex flex-col bg-zinc-950 overflow-hidden">
         <div className="px-3 sm:px-8 py-2 sm:py-4 flex-shrink-0">
           <div className="flex items-baseline justify-between">
             <div>
@@ -126,11 +126,11 @@ export default function ScenyPage() {
             </div>
           </div>
         </div>
-        <div className="flex-1 min-h-0 px-0 sm:px-8 pb-0 sm:pb-4 relative flex flex-col">
+        <div className="flex-1 min-h-0 px-0 sm:px-8 pb-[env(safe-area-inset-bottom)] sm:pb-4 relative flex flex-col">
           <NetworkCanvas nodes={nodes} edges={edges} />
           
           {/* Mobile hint */}
-          <div className="absolute bottom-3 left-3 sm:hidden bg-zinc-900/80 backdrop-blur-sm rounded-lg px-2.5 py-1.5 border border-white/[0.08]">
+          <div className="absolute bottom-[max(0.75rem,env(safe-area-inset-bottom))] left-3 sm:hidden bg-zinc-900/80 backdrop-blur-sm rounded-lg px-2.5 py-1.5 border border-white/[0.08]">
             <p className="text-[9px] text-white/40 font-mono">
               Tap → detail · Drag → posun · Pinch → zoom
             </p>
