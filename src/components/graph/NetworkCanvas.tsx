@@ -601,7 +601,7 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     : [];
 
   return (
-    <div className="relative w-full flex-1 min-h-0" ref={containerRef}>
+    <div className="relative w-full h-full" ref={containerRef}>
       <canvas
         ref={canvasRef}
         className="w-full h-full cursor-crosshair touch-none"

@@ -126,7 +126,7 @@ export default function ScenyPage() {
             </div>
           </div>
         </div>
-        <div className="flex-1 min-h-0 px-0 sm:px-8 pb-0 sm:pb-4 relative">
+        <div className="flex-1 min-h-0 px-0 sm:px-8 pb-0 sm:pb-4 relative flex flex-col">
           <NetworkCanvas nodes={nodes} edges={edges} />
           
           {/* Mobile hint */}
