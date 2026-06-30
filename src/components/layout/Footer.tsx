@@ -69,10 +69,10 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/clanky"
+                  href="/sceny"
                   className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
                 >
-                  Články
+                  Celá síť
                 </Link>
               </li>
             </ul>

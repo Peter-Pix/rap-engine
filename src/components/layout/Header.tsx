@@ -11,7 +11,7 @@ const NAV = [
   { label: "Labely", href: "/labely" },
   { label: "Žánry", href: "/zanry" },
   { label: "Mapa", href: "/mapa" },
-  { label: "Články", href: "/clanky" },
+  { label: "Celá síť", href: "/sceny" },
 ];
 
 // ─── Icons ──────────────────────────────────────────────────────────────
