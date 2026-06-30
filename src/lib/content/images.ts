@@ -42,6 +42,7 @@ const ARTIST_IMAGES: Record<string, string> = {
       'ektor': '/images/artists/ektor.webp',
     'ben-cristovao': '/images/artists/ben-cristovao.webp',
     'dj-wich': '/images/artists/dj-wich.webp',
+  'dj-enemy': '/images/artists/dj-enemy.webp',
     'maniak': '/images/artists/maniak.webp',
     'michajlov': '/images/artists/michajlov.webp',
   'dj-fatte': '/images/artists/dj-fatte.webp',
