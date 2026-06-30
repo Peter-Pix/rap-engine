@@ -20,6 +20,7 @@ const ARTIST_IMAGES: Record<string, string> = {
   'radikal-chef': '/images/artists/radikal-chef.webp',
   'pil-c': '/images/artists/pil-c.webp',
   'fobia-kid': '/images/artists/fobia-kid.webp',
+  'forest-blunt': '/images/artists/forest-blunt.webp',
   'dame': '/images/artists/dame.webp',
   'gleb': '/images/artists/gleb.webp',
   'samey': '/images/artists/samey.webp',
