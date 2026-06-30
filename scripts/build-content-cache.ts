@@ -20,6 +20,7 @@
 
 import { listAllEntities } from "../src/lib/content/entity-resolver";
 import { buildCache } from "../src/lib/content/cache-builder";
+import { buildIndexationCache } from "../src/lib/content/cache-indexation";
 import { validateEntityMap } from "../src/lib/content/validator";
 import * as fs from "node:fs";
 import * as path from "node:path";
@@ -94,25 +95,31 @@ function main(): void {
   // 3. Build & write cache files
   buildCache(entities);
 
-  // 4. Summary
+  // 4. Build indexation state (SEO scoring + graph lastmod)
+  const cacheEntities = jsonSilent(".content-cache/entities.json") ?? {};
+  const cacheInbound = jsonSilent(".content-cache/inbound.json") ?? {};
+  buildIndexationCache(cacheEntities, cacheInbound);
+
+  // 5. Summary
   const edges = jsonSilent(".content-cache/graph.json") ?? [];
   const routes = jsonSilent(".content-cache/routes.json") ?? {};
   const inbound = jsonSilent(".content-cache/inbound.json") ?? {};
 
   console.log(`\n📦 Cache written to .content-cache/`);
-  console.log(`   entities.json     — ${count} entit${count === 1 ? "y" : "ies"}`);
+  console.log(`   entities.json          — ${count} entit${count === 1 ? "y" : "ies"}`);
   console.log(
-    `   graph.json        — ${Array.isArray(edges) ? edges.length : 0} edge${Array.isArray(edges) && edges.length === 1 ? "" : "s"}`,
+    `   graph.json             — ${Array.isArray(edges) ? edges.length : 0} edge${Array.isArray(edges) && edges.length === 1 ? "" : "s"}`,
   );
   console.log(
-    `   inbound.json      — ${Object.keys(inbound).length} nodes with backlinks`,
+    `   inbound.json           — ${Object.keys(inbound).length} nodes with backlinks`,
   );
   console.log(
-    `   routes.json       — ${Object.keys(routes).length} route${Object.keys(routes).length === 1 ? "" : "s"}`,
+    `   routes.json            — ${Object.keys(routes).length} route${Object.keys(routes).length === 1 ? "" : "s"}`,
   );
   console.log(
-    `   search-index.json — ${count} entr${count === 1 ? "y" : "ies"}`,
+    `   search-index.json      — ${count} entr${count === 1 ? "y" : "ies"}`,
   );
+  console.log(`   indexation-state.json  — SEO scores + indexation decisions`);
   console.log();
 
   console.log("🎉 Cache build complete.");
