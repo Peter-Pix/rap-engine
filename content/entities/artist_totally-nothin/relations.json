@@ -1,17 +1,25 @@
 {
-  "albums": [],
   "artists": [],
-  "genres": [],
-  "influencedBy": [],
-  "labels": [],
+  "genres": [
+    "genre_trap",
+    "genre_underground-rap"
+  ],
   "locations": [
     "location_tabor"
   ],
-  "moods": [],
-  "partOf": [],
-  "related": [],
-  "scenes": [],
-  "styles": [],
-  "themes": [],
-  "tracks": []
+  "moods": [
+    "mood_dark",
+    "mood_emotional",
+    "mood_abstract"
+  ],
+  "styles": [
+    "style_melodic",
+    "style_experimental",
+    "style_dnb"
+  ],
+  "related": [
+    "artist_sensey",
+    "artist_skelly",
+    "artist_vercetti-cg"
+  ]
 }
