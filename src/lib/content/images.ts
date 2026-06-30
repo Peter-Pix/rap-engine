@@ -7,6 +7,7 @@ const ARTIST_IMAGES: Record<string, string> = {
   'calin': '/images/artists/calin.webp',
   'robin-tent': '/images/artists/robin-tent.webp',
   'majk-spirit': '/images/artists/majk-spirit.webp',
+  'mejzyy': '/images/artists/mejzyy.webp',
   'redzed': '/images/artists/redzed.webp',
   'g1nter': '/images/artists/g1nter.webp',
           'dalyb': '/images/artists/dalyb.webp',
