@@ -15,6 +15,7 @@ const ARTIST_IMAGES: Record<string, string> = {
   'nobodylisten': '/images/artists/nobodylisten.webp',
   'paulie-garand': '/images/artists/paulie-garand.webp',
   'tafrob': '/images/artists/tafrob.webp',
+  'totally-nothin': '/images/artists/totally-nothin.webp',
   'separ': '/images/artists/separ.webp',
   'radikal-chef': '/images/artists/radikal-chef.webp',
   'pil-c': '/images/artists/pil-c.webp',
