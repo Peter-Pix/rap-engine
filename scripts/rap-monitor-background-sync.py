@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-RapMonitor Background Sync Task
+RapMonitor Background Sync Task (PAUSED)
 
 Stahuje songy z RapMonitor API a provádí AI analýzu pro skladby,
  které ji nemají (analysis_status != 'complete').
-
+ 
+ STATUS: PAUSED at 2026-07-05 03:50
+ 
 Použití:
   nohup python3 scripts/rap-monitor-background-sync.py > logs/rap-monitor-sync.log 2>&1 &
 
@@ -17,7 +19,7 @@ import os
 import sys
 from datetime import datetime
 
-API_KEY = "b9d03638f3df4fe49ee5e75ab26d0803"
+API_KEY = "***"
 BASE_URL = "https://rap-monitor.base44.app/api"
 OUTPUT_DIR = "/tmp/rapmonitor_background"
 BATCH_SIZE = 50  # Počet songů k analýze za běh
