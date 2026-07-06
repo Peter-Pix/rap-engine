@@ -1,7 +1,12 @@
 "use client";
 
 import { useMemo } from "react";
-import NetworkCanvas from "@/components/graph/NetworkCanvas";
+import dynamic from "next/dynamic";
+
+const NetworkCanvas = dynamic(
+  () => import("@/components/graph/NetworkCanvas"),
+  { ssr: false }
+);
 
 interface GraphNode {
   id: string;
