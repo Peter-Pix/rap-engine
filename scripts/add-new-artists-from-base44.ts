@@ -19,6 +19,7 @@
  * Usage: npx tsx scripts/add-new-artists-from-base44.ts
  */
 
+import { resolveLabel } from "../src/lib/content/label-resolver";
 import * as fs from "fs";
 import * as path from "path";
 import { execSync } from "child_process";

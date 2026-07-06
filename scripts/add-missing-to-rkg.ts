@@ -11,6 +11,7 @@
  * Usage: npx tsx scripts/add-missing-to-rkg.ts
  */
 
+import { resolveLabel } from "../src/lib/content/label-resolver";
 import { getRappers, Base44Rapper } from "../src/lib/api/44rap";
 import * as fs from "fs";
 import * as path from "path";
@@ -157,10 +158,9 @@ function enrichExisting(rapper: Base44Rapper, dir: string): void {
   }
 
   if (rapper.label) {
-    const ls = slugify(rapper.label);
-    const key = `label_${ls}`;
-    if (!relations.labels.includes(key)) {
-      relations.labels.push(key);
+    const labelId = resolveLabel(rapper.label);
+    if (labelId && !relations.labels.includes(labelId)) {
+      relations.labels.push(labelId);
       relChanged = true;
     }
   }
@@ -373,7 +373,8 @@ function createNewEntity(rapper: Base44Rapper): void {
   };
 
   if (rapper.label) {
-    relations.labels.push(`label_${slugify(rapper.label)}`);
+    const labelId = resolveLabel(rapper.label);
+    if (labelId) relations.labels.push(labelId);
   }
 
   if (rapper.similar_artists?.length) {

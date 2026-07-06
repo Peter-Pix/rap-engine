@@ -11,6 +11,7 @@
  */
 
 import { getRappers, Base44Rapper } from "../src/lib/api/44rap";
+import { resolveLabel } from "../src/lib/content/label-resolver";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -276,12 +277,11 @@ function updateRelationsSafe(dir: string, rapper: Base44Rapper): boolean {
     }
   }
 
-  // Label
+  // Label (canonical — prevents duplicate creation)
   if (rapper.label) {
-    const labelSlug = slugify(rapper.label);
-    const key = `label_${labelSlug}`;
-    if (!relations.labels.includes(key)) {
-      relations.labels.push(key);
+    const labelId = resolveLabel(rapper.label);
+    if (labelId && !relations.labels.includes(labelId)) {
+      relations.labels.push(labelId);
       changed = true;
     }
   }
