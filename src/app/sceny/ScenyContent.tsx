@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo } from "react";
-import { readEntities, readGraph } from "@/lib/content/cache-reader";
 import NetworkCanvas from "@/components/graph/NetworkCanvas";
 
 interface GraphNode {
@@ -9,7 +8,7 @@ interface GraphNode {
   type: string;
   slug: string;
   title: string;
-  image?: string | null;
+  image: string | null;
   degree: number;
 }
 
@@ -19,97 +18,25 @@ interface GraphEdge {
   relation: string;
 }
 
-export default function ScenyContent() {
-  const { nodes, edges, stats } = useMemo(() => {
-    const entities = readEntities();
-    const graph = readGraph();
+interface Stats {
+  nodes: number;
+  edges: number;
+  artists: number;
+  albums: number;
+  labels: number;
+  locations: number;
+}
 
-    if (!entities || !graph) {
-      return { nodes: [] as GraphNode[], edges: [] as GraphEdge[], stats: null };
-    }
+interface ScenyContentProps {
+  nodes: GraphNode[];
+  edges: GraphEdge[];
+  stats: Stats;
+}
 
-    // ── Filter: artists + top albums + top labels + top locations ──
-    const nodeIds = new Set<string>();
-
-    // All artists
-    const artistIds = Object.entries(entities)
-      .filter(([_, v]) => v.type === "artist")
-      .map(([k]) => k);
-    artistIds.forEach((id) => nodeIds.add(id));
-
-    // Top 50 albums by edge count
-    const albumIds = Object.entries(entities)
-      .filter(([_, v]) => v.type === "album")
-      .map(([k]) => ({
-        id: k,
-        edges: graph.filter((e) => e.from === k || e.to === k).length,
-      }))
-      .sort((a, b) => b.edges - a.edges)
-      .slice(0, 50)
-      .map((a) => a.id);
-    albumIds.forEach((id) => nodeIds.add(id));
-
-    // Top 20 labels
-    const labelIds = Object.entries(entities)
-      .filter(([_, v]) => v.type === "label")
-      .map(([k]) => ({
-        id: k,
-        edges: graph.filter((e) => e.from === k || e.to === k).length,
-      }))
-      .sort((a, b) => b.edges - a.edges)
-      .slice(0, 20)
-      .map((a) => a.id);
-    labelIds.forEach((id) => nodeIds.add(id));
-
-    // Top 20 locations
-    const locationIds = Object.entries(entities)
-      .filter(([_, v]) => v.type === "location")
-      .map(([k]) => ({
-        id: k,
-        edges: graph.filter((e) => e.from === k || e.to === k).length,
-      }))
-      .sort((a, b) => b.edges - a.edges)
-      .slice(0, 20)
-      .map((a) => a.id);
-    locationIds.forEach((id) => nodeIds.add(id));
-
-    // Build nodes
-    const nodes: GraphNode[] = Array.from(nodeIds).map((id) => {
-      const ent = entities[id];
-      return {
-        id,
-        type: ent.type,
-        slug: ent.slug,
-        title: ent.title,
-        image: ent.image ?? null,
-        degree: graph.filter((e) => e.from === id || e.to === id).length,
-      };
-    });
-
-    // Build edges (only between visible nodes)
-    const edges: GraphEdge[] = graph.filter(
-      (e) => nodeIds.has(e.from) && nodeIds.has(e.to),
-    );
-
-    const stats = {
-      nodes: nodes.length,
-      edges: edges.length,
-      artists: artistIds.length,
-      albums: albumIds.length,
-      labels: labelIds.length,
-      locations: locationIds.length,
-    };
-
-    return { nodes, edges, stats };
-  }, []); // Empty deps = compute once on mount
-
-  if (!stats) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <p className="text-white/50">Načítání grafu...</p>
-      </div>
-    );
-  }
+export default function ScenyContent({ nodes, edges, stats }: ScenyContentProps) {
+  // Memoize to prevent re-creating arrays when parent re-renders
+  const memoizedNodes = useMemo(() => nodes, [nodes]);
+  const memoizedEdges = useMemo(() => edges, [edges]);
 
   return (
     <>
@@ -132,7 +59,7 @@ export default function ScenyContent() {
           </div>
         </div>
         <div className="flex-1 min-h-0 px-0 sm:px-8 pb-[env(safe-area-inset-bottom)] sm:pb-4 relative flex flex-col">
-          <NetworkCanvas nodes={nodes} edges={edges} />
+          <NetworkCanvas nodes={memoizedNodes} edges={memoizedEdges} />
           
           {/* Mobile hint */}
           <div className="absolute bottom-[max(0.75rem,env(safe-area-inset-bottom))] left-3 sm:hidden bg-zinc-900/80 backdrop-blur-sm rounded-lg px-2.5 py-1.5 border border-white/[0.08]">
