@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import NetworkCanvasWrapper from "@/components/graph/NetworkCanvasWrapper";
+import NetworkCanvasClient from "@/components/graph/NetworkCanvasClient";
 
 interface GraphNode {
   id: string;
@@ -59,7 +59,7 @@ export default function ScenyContent({ nodes, edges, stats }: ScenyContentProps)
           </div>
         </div>
         <div className="flex-1 min-h-0 px-0 sm:px-8 pb-[env(safe-area-inset-bottom)] sm:pb-4 relative flex flex-col">
-          <NetworkCanvasWrapper nodes={memoizedNodes} edges={memoizedEdges} />
+          <NetworkCanvasClient nodes={memoizedNodes} edges={memoizedEdges} />
           
           {/* Mobile hint */}
           <div className="absolute bottom-[max(0.75rem,env(safe-area-inset-bottom))] left-3 sm:hidden bg-zinc-900/80 backdrop-blur-sm rounded-lg px-2.5 py-1.5 border border-white/[0.08]">
