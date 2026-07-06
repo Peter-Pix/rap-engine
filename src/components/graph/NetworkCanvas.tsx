@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, useCallback, memo } from "react";
 import {
   forceSimulation,
   forceManyBody,
@@ -75,7 +75,22 @@ function screenToWorld(camera: Camera, sx: number, sy: number, cx: number, cy: n
   };
 }
 
-export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
+function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
+  const [error, setError] = useState<string | null>(null);
+  
+  try {
+    return <NetworkCanvasInner nodes={nodes} edges={edges} />;
+  } catch (e) {
+    setError(e instanceof Error ? e.message : String(e));
+    return (
+      <div className="flex items-center justify-center h-full text-white/50">
+        Chyba při vykreslování grafu: {error}
+      </div>
+    );
+  }
+}
+
+function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -760,3 +775,8 @@ export function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
     </div>
   );
 }
+
+export default memo(NetworkCanvas, (prev, next) => {
+  // Deep compare nodes & edges by identity — prevents re-render when parent passes same refs
+  return prev.nodes === next.nodes && prev.edges === next.edges;
+});
