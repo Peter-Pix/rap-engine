@@ -108,7 +108,7 @@ export function createListingPage({ type, title, description }: PageProps) {
       ...e,
       rapperCount: type === "location" ? rapperCounts[e.title] ?? 0 : undefined,
       hasImage: type === "album" ? !!e.image : undefined,
-      year: type === "album" ? (e.extraMeta as Record<string, unknown> | undefined)?.year as number | undefined : undefined,
+      year: type === "album" ? (e.year as number | undefined) : undefined,
       image: type === "album" ? e.image : undefined,
     }));
 

@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Input } from "@/components/ui/Input";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
+import { calculateAge, formatAge, calculateAlbumYears, formatAlbumYears } from "@/lib/content/age-utils";
 
 interface Entity {
   id: string;
@@ -13,6 +14,7 @@ interface Entity {
   description: string;
   image?: string | null;
   year?: number;
+  birthDate?: string;
   outbound?: Record<string, string[]>;
   inbound?: Record<string, string[]>;
   rapperCount?: number;
@@ -329,11 +331,24 @@ export default function EntityListingClient({
                     {entity.title}
                   </h2>
                   <div className="flex items-center gap-1.5 shrink-0">
-                    {entity.year && (
-                      <span className="text-[10px] font-mono text-zinc-500 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded">
-                        {entity.year}
-                      </span>
-                    )}
+                    {entity.type === "artist" && entity.birthDate && (() => {
+                      const age = calculateAge(entity.birthDate);
+                      if (age !== null) return (
+                        <span className="text-[10px] font-mono text-zinc-400 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded" title={`${formatAge(age)}`}>
+                          {age} {age === 1 ? 'rok' : age <= 4 ? 'roky' : 'let'}
+                        </span>
+                      );
+                      return null;
+                    })()}
+                    {entity.type === "album" && entity.year && (() => {
+                      const albumYears = calculateAlbumYears(entity.year);
+                      if (albumYears !== null) return (
+                        <span className="text-[10px] font-mono text-zinc-400 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded" title={`${formatAlbumYears(albumYears)}`}>
+                          {entity.year}
+                        </span>
+                      );
+                      return null;
+                    })()}
                     {entity.rapperCount !== undefined && entity.rapperCount > 0 && (
                       <span className="text-[10px] font-mono text-zinc-500 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded">
                         {entity.rapperCount}×
