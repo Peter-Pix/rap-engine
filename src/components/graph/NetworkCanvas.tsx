@@ -381,15 +381,15 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
           .distance(90)
           .strength(0.6),
       )
-      .force("charge", forceManyBody().strength(-700))
+      .force("charge", forceManyBody().strength(-500))
       .force("collide", forceCollide().radius((d: any) => {
         // Use a stable estimate (no closure over latest refs)
         const maxD = maxDegreeRef.current || 1;
         const containerW = containerSizeRef.current.w;
         return nodeRadius(d, maxD, containerW) + 15;
       }))
-      .force("x", forceX(0).strength(0.005))
-      .force("y", forceY(0).strength(0.005))
+      .force("x", forceX(0).strength(0.08))
+      .force("y", forceY(0).strength(0.08))
       .alphaDecay(0.01)
       .alphaMin(0.001)
       .alpha(1);
@@ -399,7 +399,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
     // Fit camera to viewport once simulation has settled a bit.
     // Use a polling approach (a few times) because sim may not be stable after one tick.
     let pollTicks = 0;
-    const maxPolls = 30; // 30 × 250ms = 7.5s max wait
+    const maxPolls = 15; // 15 × 300ms = 4.5s max wait
     const fitInterval = setInterval(() => {
       pollTicks++;
       const cur = simNodesRef.current;
@@ -441,7 +441,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
       if ((typeof alpha === "number" && alpha < 0.05) || pollTicks >= maxPolls) {
         clearInterval(fitInterval);
       }
-    }, 250);
+    }, 300);
 
     return () => {
       sim.stop();
