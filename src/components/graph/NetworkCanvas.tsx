@@ -303,10 +303,9 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
           if (n) {
             n.fx = worldPos.x;
             n.fy = worldPos.y;
-            // Just nudge alpha, don't restart — restarting the whole sim
-            // makes the rest of the graph jiggle around the dragged node.
-            (simRef.current as any)?.alpha(0.05);
-            (simRef.current as any)?.alphaTarget(0);
+            // Sim is already stopped (pre-ticked in init effect). Pinning
+            // fx/fy is enough to move the node; touching alpha would
+            // re-energise the sim and make the rest of the graph jiggle.
           }
         }
       } else if (e.touches.length === 2) {
@@ -404,19 +403,29 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
       }))
       .force("x", forceX(0).strength(0.08))
       .force("y", forceY(0).strength(0.08))
-      .alphaDecay(0.01)
+      .alphaDecay(0.05) // fast decay — layout settles in ~60 ticks
       .alphaMin(0.001)
       .alpha(1) as any;
 
     simRef.current = sim;
 
-    // Fit camera to viewport once simulation has settled.
-    // One-shot — runs once after a few seconds. We deliberately do NOT poll,
-    // because polling re-centers the camera every interval, which causes
-    // visible "jumping" while the sim is still settling.
-    const fitTimeout = setTimeout(() => {
-      const cur = simNodesRef.current;
-      if (cur.length === 0) return;
+    // Pre-tick the simulation synchronously so the layout is fully settled
+    // before the first render. This eliminates the visible "settling" phase
+    // where nodes jump around for the first few seconds. We run enough ticks
+    // to bring alpha below alphaMin, then stop the sim entirely. The
+    // interaction handlers below only mutate fx/fy, they never restart the
+    // simulation, so the layout stays frozen.
+    for (let i = 0; i < 300; i++) {
+      sim.tick();
+    }
+    sim.alpha(0);
+    sim.stop();
+
+    // Fit camera to viewport once, using the settled layout. The sim is
+    // already stopped, so this is a true one-shot — no polling, no
+    // re-centring, no jumping.
+    const cur = simNodesRef.current;
+    if (cur.length > 0) {
       let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
       for (let i = 0; i < cur.length; i++) {
         const n = cur[i];
@@ -426,29 +435,30 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
         if (n.y < minY) minY = n.y;
         if (n.y > maxY) maxY = n.y;
       }
-      if (!isFinite(minX) || !isFinite(minY)) return;
-      const simW = Math.max(1, maxX - minX);
-      const simH = Math.max(1, maxY - minY);
-      const { w: cW, h: cH } = containerSizeRef.current;
-      if (cW === 0 || cH === 0) return;
-      const padding = 40;
-      const zoomX = (cW - padding) / simW;
-      const zoomY = (cH - padding) / simH;
-      // Don't allow zoom larger than 1.5 — keeps nodes from getting too big
-      // when the graph is small, and prevents the fit from overshooting.
-      const zoom = Math.max(0.3, Math.min(1.5, Math.min(zoomX, zoomY)));
-      const center = {
-        x: (minX + maxX) / 2,
-        y: (minY + maxY) / 2,
-        zoom,
-      };
-      cameraRef.current = center;
-      setCamera(center);
-    }, 4000);
+      if (isFinite(minX) && isFinite(minY)) {
+        const simW = Math.max(1, maxX - minX);
+        const simH = Math.max(1, maxY - minY);
+        const { w: cW, h: cH } = containerSizeRef.current;
+        if (cW > 0 && cH > 0) {
+          const padding = 40;
+          const zoomX = (cW - padding) / simW;
+          const zoomY = (cH - padding) / simH;
+          // Don't allow zoom larger than 1.5 — keeps nodes from getting too big
+          // when the graph is small, and prevents the fit from overshooting.
+          const zoom = Math.max(0.3, Math.min(1.5, Math.min(zoomX, zoomY)));
+          const center = {
+            x: (minX + maxX) / 2,
+            y: (minY + maxY) / 2,
+            zoom,
+          };
+          cameraRef.current = center;
+          setCamera(center);
+        }
+      }
+    }
 
     return () => {
       sim.stop();
-      clearTimeout(fitTimeout);
     };
   }, [nodes, edges]);
 
@@ -695,9 +705,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
         if (n) {
           n.fx = worldPos.x;
           n.fy = worldPos.y;
-          // Same as touch handler: pin the node, nudge alpha, don't restart
-          (simRef.current as any)?.alpha(0.05);
-          (simRef.current as any)?.alphaTarget(0);
+          // Sim is already stopped, fx/fy is enough — don't touch alpha.
         }
         return;
       }
