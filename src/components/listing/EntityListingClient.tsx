@@ -97,7 +97,12 @@ export default function EntityListingClient({
     // Top 100 by edge count (default for artist/track listings)
     if (supportsTopLimit && !showAll && !search.trim() && activeCount === 0) {
       results = [...results]
-        .sort((a, b) => (edgeCounts[b.id] || 0) - (edgeCounts[a.id] || 0))
+        .sort((a, b) => {
+          const diff = (edgeCounts[b.id] || 0) - (edgeCounts[a.id] || 0);
+          if (diff !== 0) return diff;
+          // stable fallback — prevent hydration mismatch
+          return a.id.localeCompare(b.id);
+        })
         .slice(0, 100);
     }
 
@@ -164,8 +169,10 @@ export default function EntityListingClient({
       // Then by edge count (descending)
       const edgeDiff = (edgeCounts[b.id] || 0) - (edgeCounts[a.id] || 0);
       if (edgeDiff !== 0) return edgeDiff;
-      // Then alphabetically
-      return a.title.localeCompare(b.title);
+      // Then alphabetically (with stable id fallback for hydration safety)
+      const titleDiff = a.title.localeCompare(b.title);
+      if (titleDiff !== 0) return titleDiff;
+      return a.id.localeCompare(b.id);
     });
   }, [entities, search, activeFilters, showAll, supportsTopLimit, edgeCounts, activeCount]);
 
