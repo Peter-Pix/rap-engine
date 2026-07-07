@@ -346,7 +346,14 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
       return;
     }
 
-    const simNodes = nodes.map((n) => ({ ...n, x: 0, y: 0 }));
+    // Start nodes spread out in a ring around (0,0) so the simulation has room
+    // to settle into a stable layout. Without this, all 341 nodes start at exactly
+    // (0,0) and the charge force can't push them apart before alpha decays.
+    const simNodes = nodes.map((n, i) => {
+      const angle = (i / nodes.length) * Math.PI * 2;
+      const radius = 150 + (i % 7) * 20; // ring with slight radial jitter
+      return { ...n, x: Math.cos(angle) * radius, y: Math.sin(angle) * radius };
+    });
     simNodesRef.current = simNodes;
 
     // Build O(1) id → node map
@@ -371,20 +378,20 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
         "link",
         forceLink(simLinks)
           .id((d: any) => d.id)
-          .distance(80)
-          .strength(0.5),
+          .distance(90)
+          .strength(0.6),
       )
-      .force("charge", forceManyBody().strength(-300))
+      .force("charge", forceManyBody().strength(-500))
       .force("collide", forceCollide().radius((d: any) => {
         // Use a stable estimate (no closure over latest refs)
         const maxD = maxDegreeRef.current || 1;
         const containerW = containerSizeRef.current.w;
-        return nodeRadius(d, maxD, containerW) + 4;
+        return nodeRadius(d, maxD, containerW) + 6;
       }))
-      .force("x", forceX(0).strength(0.05))
-      .force("y", forceY(0).strength(0.05))
-      .alphaDecay(0.02)
-      .alphaMin(0.005)
+      .force("x", forceX(0).strength(0.02))
+      .force("y", forceY(0).strength(0.02))
+      .alphaDecay(0.01)
+      .alphaMin(0.001)
       .alpha(1);
 
     simRef.current = sim;
@@ -392,7 +399,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
     // Fit camera to viewport once simulation has settled a bit.
     // Use a polling approach (a few times) because sim may not be stable after one tick.
     let pollTicks = 0;
-    const maxPolls = 12;
+    const maxPolls = 30; // 30 × 250ms = 7.5s max wait
     const fitInterval = setInterval(() => {
       pollTicks++;
       const cur = simNodesRef.current;
@@ -416,10 +423,12 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
       const simW = Math.max(1, maxX - minX);
       const simH = Math.max(1, maxY - minY);
       const { w: cW, h: cH } = containerSizeRef.current;
-      const padding = 80;
+      const padding = 60;
       const zoomX = (cW - padding) / simW;
       const zoomY = (cH - padding) / simH;
-      const zoom = Math.max(0.05, Math.min(2, Math.min(zoomX, zoomY)));
+      // Don't allow zoom larger than 1.2 — keeps nodes from getting too big
+      // when the graph is small, and prevents the fit from overshooting.
+      const zoom = Math.max(0.1, Math.min(1.2, Math.min(zoomX, zoomY)));
       const center = {
         x: (minX + maxX) / 2,
         y: (minY + maxY) / 2,
@@ -432,7 +441,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
       if ((typeof alpha === "number" && alpha < 0.05) || pollTicks >= maxPolls) {
         clearInterval(fitInterval);
       }
-    }, 200);
+    }, 250);
 
     return () => {
       sim.stop();
