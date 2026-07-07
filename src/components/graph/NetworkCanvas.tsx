@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useRef, useState, useCallback, memo } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState, useCallback, memo } from "react";
 import {
   forceSimulation,
   forceManyBody,
@@ -76,17 +76,44 @@ function screenToWorld(camera: Camera, sx: number, sy: number, cx: number, cy: n
 }
 
 function NetworkCanvas({ nodes, edges }: NetworkCanvasProps) {
-  const [error, setError] = useState<string | null>(null);
-  
-  try {
-    return <NetworkCanvasInner nodes={nodes} edges={edges} />;
-  } catch (e) {
-    setError(e instanceof Error ? e.message : String(e));
-    return (
-      <div className="flex items-center justify-center h-full text-white/50">
-        Chyba při vykreslování grafu: {error}
-      </div>
-    );
+  return (
+    <NetworkErrorBoundary>
+      <NetworkCanvasInner nodes={nodes} edges={edges} />
+    </NetworkErrorBoundary>
+  );
+}
+
+// React error boundary — catches render-time errors from the canvas/force-simulation
+// and shows a graceful fallback. The previous try/catch wrapper was a React anti-pattern:
+// it caught sync render errors but also called setState during render, plus it could not
+// catch async useEffect errors at all, which made the graph flash and disappear.
+class NetworkErrorBoundary extends React.Component<
+  { children: React.ReactNode },
+  { error: string | null }
+> {
+  state = { error: null as string | null };
+
+  static getDerivedStateFromError(error: unknown) {
+    return { error: error instanceof Error ? error.message : String(error) };
+  }
+
+  componentDidCatch(error: unknown, info: React.ErrorInfo) {
+    // eslint-disable-next-line no-console
+    console.error("[NetworkCanvas] render error:", error, info.componentStack);
+  }
+
+  render() {
+    if (this.state.error) {
+      return (
+        <div className="flex items-center justify-center h-full text-white/50 p-6 text-center">
+          <div>
+            <p className="text-sm mb-1">Chyba při vykreslování grafu</p>
+            <p className="text-xs text-white/40 font-mono">{this.state.error}</p>
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
   }
 }
 
