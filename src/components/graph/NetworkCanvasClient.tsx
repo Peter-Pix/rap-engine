@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
+import NetworkCanvas from "@/components/graph/NetworkCanvas";
 
 interface GraphNode {
   id: string;
@@ -29,12 +29,6 @@ function NetworkCanvasPlaceholder() {
     </div>
   );
 }
-
-// Lazy-loaded NetworkCanvas (only on client)
-const NetworkCanvas = dynamic(
-  () => import("@/components/graph/NetworkCanvas"),
-  { ssr: false }
-);
 
 export default function NetworkCanvasClient({
   nodes,
