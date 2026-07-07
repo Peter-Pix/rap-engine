@@ -24,6 +24,10 @@ interface GraphNode {
   y?: number;
   vx?: number;
   vy?: number;
+  // d3-force pinned position — used while dragging a node so the rest of
+  // the graph doesn't jiggle around the dragged one
+  fx?: number | null;
+  fy?: number | null;
 }
 
 interface GraphEdge {
@@ -297,11 +301,12 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
           const worldPos = screenToWorld(cam, pos.x, pos.y, cx, cy);
           const n = nodeIdMapRef.current.get(draggingNodeRef.current);
           if (n) {
-            n.x = worldPos.x;
-            n.y = worldPos.y;
-            n.vx = 0;
-            n.vy = 0;
-            simRef.current?.alpha(0.3).restart();
+            n.fx = worldPos.x;
+            n.fy = worldPos.y;
+            // Just nudge alpha, don't restart — restarting the whole sim
+            // makes the rest of the graph jiggle around the dragged node.
+            (simRef.current as any)?.alpha(0.05);
+            (simRef.current as any)?.alphaTarget(0);
           }
         }
       } else if (e.touches.length === 2) {
@@ -320,10 +325,19 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
     };
 
     const onTouchEnd = () => {
+      const draggedId = draggingNodeRef.current;
       draggingNodeRef.current = null;
       isPanningRef.current = false;
       panStartRef.current = null;
       cameraStartRef.current = null;
+      // Release the pinned node so the sim can move it again on next interaction
+      if (draggedId) {
+        const n = nodeIdMapRef.current.get(draggedId);
+        if (n) {
+          n.fx = null;
+          n.fy = null;
+        }
+      }
     };
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
@@ -392,21 +406,17 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
       .force("y", forceY(0).strength(0.08))
       .alphaDecay(0.01)
       .alphaMin(0.001)
-      .alpha(1);
+      .alpha(1) as any;
 
     simRef.current = sim;
 
-    // Fit camera to viewport once simulation has settled a bit.
-    // Use a polling approach (a few times) because sim may not be stable after one tick.
-    let pollTicks = 0;
-    const maxPolls = 15; // 15 × 300ms = 4.5s max wait
-    const fitInterval = setInterval(() => {
-      pollTicks++;
+    // Fit camera to viewport once simulation has settled.
+    // One-shot — runs once after a few seconds. We deliberately do NOT poll,
+    // because polling re-centers the camera every interval, which causes
+    // visible "jumping" while the sim is still settling.
+    const fitTimeout = setTimeout(() => {
       const cur = simNodesRef.current;
-      if (cur.length === 0) {
-        clearInterval(fitInterval);
-        return;
-      }
+      if (cur.length === 0) return;
       let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
       for (let i = 0; i < cur.length; i++) {
         const n = cur[i];
@@ -416,13 +426,11 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
         if (n.y < minY) minY = n.y;
         if (n.y > maxY) maxY = n.y;
       }
-      if (!isFinite(minX) || !isFinite(minY)) {
-        if (pollTicks >= maxPolls) clearInterval(fitInterval);
-        return;
-      }
+      if (!isFinite(minX) || !isFinite(minY)) return;
       const simW = Math.max(1, maxX - minX);
       const simH = Math.max(1, maxY - minY);
       const { w: cW, h: cH } = containerSizeRef.current;
+      if (cW === 0 || cH === 0) return;
       const padding = 40;
       const zoomX = (cW - padding) / simW;
       const zoomY = (cH - padding) / simH;
@@ -436,16 +444,11 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
       };
       cameraRef.current = center;
       setCamera(center);
-      // Stop once sim has cooled down (alpha is small) OR we hit max polls
-      const alpha = (simRef.current as any)?.alpha?.();
-      if ((typeof alpha === "number" && alpha < 0.05) || pollTicks >= maxPolls) {
-        clearInterval(fitInterval);
-      }
-    }, 300);
+    }, 4000);
 
     return () => {
       sim.stop();
-      clearInterval(fitInterval);
+      clearTimeout(fitTimeout);
     };
   }, [nodes, edges]);
 
@@ -690,11 +693,11 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
         const worldPos = screenToWorld(cam, pos.x, pos.y, cx, cy);
         const n = nodeIdMapRef.current.get(draggingNodeRef.current);
         if (n) {
-          n.x = worldPos.x;
-          n.y = worldPos.y;
-          n.vx = 0;
-          n.vy = 0;
-          simRef.current?.alpha(0.3).restart();
+          n.fx = worldPos.x;
+          n.fy = worldPos.y;
+          // Same as touch handler: pin the node, nudge alpha, don't restart
+          (simRef.current as any)?.alpha(0.05);
+          (simRef.current as any)?.alphaTarget(0);
         }
         return;
       }
@@ -728,19 +731,35 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
   );
 
   const handleMouseUp = useCallback(() => {
+    const draggedId = draggingNodeRef.current;
     draggingNodeRef.current = null;
     isPanningRef.current = false;
     panStartRef.current = null;
     cameraStartRef.current = null;
+    if (draggedId) {
+      const n = nodeIdMapRef.current.get(draggedId);
+      if (n) {
+        n.fx = null;
+        n.fy = null;
+      }
+    }
   }, []);
 
   const handleMouseLeave = useCallback(() => {
     setHovered(null);
     setHoveredPos(null);
+    const draggedId = draggingNodeRef.current;
     draggingNodeRef.current = null;
     isPanningRef.current = false;
     panStartRef.current = null;
     cameraStartRef.current = null;
+    if (draggedId) {
+      const n = nodeIdMapRef.current.get(draggedId);
+      if (n) {
+        n.fx = null;
+        n.fy = null;
+      }
+    }
   }, []);
 
   const handleWheel = useCallback(
