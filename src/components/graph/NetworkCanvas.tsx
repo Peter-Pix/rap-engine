@@ -381,15 +381,15 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
           .distance(90)
           .strength(0.6),
       )
-      .force("charge", forceManyBody().strength(-500))
+      .force("charge", forceManyBody().strength(-700))
       .force("collide", forceCollide().radius((d: any) => {
         // Use a stable estimate (no closure over latest refs)
         const maxD = maxDegreeRef.current || 1;
         const containerW = containerSizeRef.current.w;
-        return nodeRadius(d, maxD, containerW) + 6;
+        return nodeRadius(d, maxD, containerW) + 15;
       }))
-      .force("x", forceX(0).strength(0.02))
-      .force("y", forceY(0).strength(0.02))
+      .force("x", forceX(0).strength(0.005))
+      .force("y", forceY(0).strength(0.005))
       .alphaDecay(0.01)
       .alphaMin(0.001)
       .alpha(1);
@@ -423,12 +423,12 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
       const simW = Math.max(1, maxX - minX);
       const simH = Math.max(1, maxY - minY);
       const { w: cW, h: cH } = containerSizeRef.current;
-      const padding = 60;
+      const padding = 40;
       const zoomX = (cW - padding) / simW;
       const zoomY = (cH - padding) / simH;
-      // Don't allow zoom larger than 1.2 — keeps nodes from getting too big
+      // Don't allow zoom larger than 1.5 — keeps nodes from getting too big
       // when the graph is small, and prevents the fit from overshooting.
-      const zoom = Math.max(0.1, Math.min(1.2, Math.min(zoomX, zoomY)));
+      const zoom = Math.max(0.3, Math.min(1.5, Math.min(zoomX, zoomY)));
       const center = {
         x: (minX + maxX) / 2,
         y: (minY + maxY) / 2,
