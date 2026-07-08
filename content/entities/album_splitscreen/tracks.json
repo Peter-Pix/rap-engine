@@ -1,36 +1,30 @@
 {
   "source": "deezer",
-  "source_id": 563370972,
-  "fetched_at": "2026-06-19T19:20:35.413Z",
-  "release_date": "2024-03-29",
-  "label": "LoveTap Records, LLC, under exclusive license to Capitol Records",
-  "upc": "602465584165",
-  "total_tracks": 1,
-  "total_duration_sec": 303,
+  "source_id": 803485161,
+  "release_date": "2025-08-22",
+  "label": "Death Row",
+  "upc": "7316481137979",
+  "total_tracks": 7,
+  "total_duration_sec": 1131,
   "contributors": [
     {
-      "name": "Kings of Leon",
+      "name": "Sakito",
+      "role": "Main"
+    },
+    {
+      "name": "Vercetti CG",
       "role": "Main"
     }
   ],
-  "genres": [
-    "Rock"
-  ],
-  "cover_xl": "https://cdn-images.dzcdn.net/images/cover/99eae5f044d771fe0a29c863d0870337/1000x1000-000000-80-0-0.jpg",
+  "genres": ["Rap/Hip Hop"],
+  "cover_xl": "https://cdn-images.dzcdn.net/images/cover/ec8e31ca9d74f5467d0b0f76a868a7d9/1000x1000-80-0-0.jpg",
   "tracks": [
-    {
-      "position": 1,
-      "title": "Split Screen",
-      "title_original": "Split Screen",
-      "duration_sec": 303,
-      "artists": [
-        "Kings of Leon"
-      ],
-      "feat": [],
-      "isrc": "USUG12401165",
-      "link": "https://www.deezer.com/track/2716323082",
-      "preview_url": "https://cdnt-preview.dzcdn.net/api/1/1/d/d/c/0/ddc6b35198bd5695dfcb7ca1201b0468.mp3?hdnea=exp=1781897735~acl=/api/1/1/d/d/c/0/ddc6b35198bd5695dfcb7ca1201b0468.mp3*~data=user_id=0,application_id=42~hmac=7b458f5f69cc0a4d1c2c94aa19f76d331ffcb0bb77a86954f7abc14cd43927d8",
-      "explicit": false
-    }
+    {"position": 1, "title": "INTRO", "duration_sec": 92, "artists": ["Sakito"], "feat": []},
+    {"position": 2, "title": "BOHUMIL STEJSKAL", "duration_sec": 198, "artists": ["Sakito"], "feat": []},
+    {"position": 3, "title": "CYBERPUNK", "duration_sec": 181, "artists": ["Sakito"], "feat": []},
+    {"position": 4, "title": "ILEGALNI SIT", "duration_sec": 166, "artists": ["Sakito"], "feat": []},
+    {"position": 5, "title": "AEZAKMI", "duration_sec": 146, "artists": ["Sakito"], "feat": []},
+    {"position": 6, "title": "PROBIHAME BLOK", "duration_sec": 192, "artists": ["Sakito"], "feat": []},
+    {"position": 7, "title": "ZA HOROU", "duration_sec": 156, "artists": ["Sakito"], "feat": []}
   ]
 }
