@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { extractDeezerTrackId } from "@/lib/content/deezer-helpers";
 
 interface Track {
   position: number;
@@ -80,9 +81,23 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
 
   const playTrack = (idx: number) => {
     const track = data.tracks[idx];
+
+    // Prefer Deezer widget: open modal with embedded player.
+    const deezerId = extractDeezerTrackId(track.link);
+    if (deezerId) {
+      // Stop any in-page audio
+      audioRef.current?.pause();
+      setPlayingIdx(null);
+      setProgress(0);
+      // Open Deezer widget in new tab (user-friendly for CZ/SK users)
+      const widgetUrl = `https://widget.deezer.com/widget/dark/track/${deezerId}`;
+      window.open(widgetUrl, "_blank", "noopener,noreferrer");
+      return;
+    }
+
+    // Fallback: try inline audio (only works while preview_url is fresh)
     if (!track.preview_url) return;
     if (playingIdx === idx) {
-      // Toggle pause
       if (audioRef.current?.paused) audioRef.current?.play();
       else audioRef.current?.pause();
     } else {
@@ -104,7 +119,7 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
         </div>
       </div>
 
-      {/* Hidden audio element */}
+      {/* Hidden audio element (fallback only; usually unused) */}
       <audio
         ref={audioRef}
         src={currentTrack?.preview_url || undefined}
@@ -115,7 +130,9 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
       <ol className="divide-y divide-white/5 border-y border-white/5">
         {data.tracks.map((t, idx) => {
           const isPlaying = playingIdx === idx;
-          const hasPreview = !!t.preview_url;
+          const hasDeezer = !!extractDeezerTrackId(t.link);
+          const hasInlinePreview = !!t.preview_url;
+          const hasAny = hasDeezer || hasInlinePreview;
           return (
             <li
               key={idx}
@@ -125,14 +142,15 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
             >
               {/* Play button / position */}
               <button
-                onClick={() => hasPreview && playTrack(idx)}
-                disabled={!hasPreview}
+                onClick={() => hasAny && playTrack(idx)}
+                disabled={!hasAny}
                 className={`w-8 h-8 flex items-center justify-center rounded-full flex-shrink-0 transition-all ${
-                  hasPreview
+                  hasAny
                     ? "hover:bg-[#c8962e] hover:text-black cursor-pointer"
                     : "cursor-default"
                 }`}
-                aria-label={isPlaying ? "Pause" : "Play"}
+                aria-label={isPlaying ? "Pause" : `Přehrát ${t.title}`}
+                title={hasDeezer ? "Přehrát na Deezeru (nové okno)" : (hasInlinePreview ? "Přehrát 30s preview" : "Bez preview")}
               >
                 {isPlaying ? (
                   <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
@@ -144,12 +162,12 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
                     {t.position}
                   </span>
                 )}
-                {!isPlaying && hasPreview && (
+                {!isPlaying && hasAny && (
                   <svg className="w-3.5 h-3.5 hidden group-hover:block" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 )}
-                {!hasPreview && (
+                {!hasAny && (
                   <span className="text-[10px] text-white/20">—</span>
                 )}
               </button>
@@ -173,7 +191,7 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
                 )}
               </div>
 
-              {/* Progress bar (only on currently playing) */}
+              {/* Progress bar (only on currently playing inline preview) */}
               {isPlaying && (
                 <div className="w-24 h-0.5 bg-white/10 rounded-full overflow-hidden hidden sm:block">
                   <div

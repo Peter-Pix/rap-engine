@@ -4,6 +4,7 @@ import { buildJsonLd } from "@/lib/seo/schema-org";
 import { renderMdx } from "@/lib/content/mdx";
 import { TYPE_ROUTE_MAP } from "@/lib/content/constants";
 import type { EntityType } from "@/lib/content/constants";
+import { deezerTrackEmbed, deezerAlbumEmbed } from "@/lib/content/deezer-helpers";
 
 const BASE_URL = "https://4rap.cz";
 
@@ -54,9 +55,11 @@ function formatDuration(seconds?: number): string {
 function EmbedPlayer({
   spotifyUrl,
   youtubeUrl,
+  deezerUrl,
 }: {
   spotifyUrl?: string;
   youtubeUrl?: string;
+  deezerUrl?: string;
 }) {
   const spotifyEmbed = spotifyUrl
     ? spotifyUrl
@@ -64,8 +67,25 @@ function EmbedPlayer({
         .replace("open.spotify.com/album/", "open.spotify.com/embed/album/")
     : null;
 
+  const deezerTrack = deezerTrackEmbed(deezerUrl, { theme: "dark", height: 80 });
+  const deezerAlbum = deezerAlbumEmbed(deezerUrl, { theme: "dark", height: 240 });
+
   return (
     <div className="space-y-4">
+      {/* Primary: Deezer widget (legální, 30s preview, vždy fresh) */}
+      {deezerTrack && (
+        <iframe
+          src={deezerTrack.src}
+          width={deezerTrack.width}
+          height={deezerTrack.height}
+          style={{ borderRadius: "8px", border: 0 }}
+          allowTransparency
+          loading="lazy"
+          title="Deezer player"
+        />
+      )}
+
+      {/* Fallback 1: Spotify embed */}
       {spotifyEmbed && (
         <iframe
           src={spotifyEmbed}
@@ -78,6 +98,8 @@ function EmbedPlayer({
           title="Spotify player"
         />
       )}
+
+      {/* Fallback 2: YouTube embed */}
       {youtubeUrl && (
         <div className="aspect-video bg-black/40 rounded-lg overflow-hidden">
           <iframe
@@ -91,6 +113,21 @@ function EmbedPlayer({
             className="w-full h-full"
           />
         </div>
+      )}
+
+      {/* Open on Deezer (footer) */}
+      {deezerUrl && (
+        <a
+          href={deezerUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors"
+        >
+          <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.81 4.16a8.93 8.93 0 0 0-3.32-.69c-.86 0-1.61.31-2.13.86-.5.53-.78 1.27-.83 2.16v8.83a4.5 4.5 0 0 0-2.83-1c-2.3 0-4.5 1.7-4.5 4.5s2.2 4.5 4.5 4.5c1.7 0 3.13-.94 3.84-2.31.46-.86.66-1.79.66-2.81V8.99c0-1.18.5-1.7 1.5-1.7.42 0 .92.1 1.5.32l1.61-3.45zm-7.2 16.86c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z" />
+          </svg>
+          Otevřít na Deezeru
+        </a>
       )}
     </div>
   );
@@ -117,6 +154,7 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
   const sources = (em as any).sources as string[] | undefined;
   const spotifyUrl = sources?.find((s) => s.includes("spotify.com"));
   const youtubeUrl = sources?.find((s) => s.includes("youtube.com") || s.includes("youtu.be"));
+  const deezerUrl = sources?.find((s) => s.includes("deezer.com"));
 
   // JSON-LD
   const jsonLd = buildJsonLd({
@@ -314,12 +352,12 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
             )}
 
             {/* Music embeds */}
-            {(spotifyUrl || youtubeUrl) && (
+            {(spotifyUrl || youtubeUrl || deezerUrl) && (
               <section>
                 <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                   Přehrání
                 </h2>
-                <EmbedPlayer spotifyUrl={spotifyUrl} youtubeUrl={youtubeUrl} />
+                <EmbedPlayer spotifyUrl={spotifyUrl} youtubeUrl={youtubeUrl} deezerUrl={deezerUrl} />
               </section>
             )}
           </div>
