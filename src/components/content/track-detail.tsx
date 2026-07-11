@@ -5,6 +5,8 @@ import { renderMdx } from "@/lib/content/mdx";
 import { TYPE_ROUTE_MAP } from "@/lib/content/constants";
 import type { EntityType } from "@/lib/content/constants";
 import { deezerTrackEmbed, deezerAlbumEmbed } from "@/lib/content/deezer-helpers";
+import YoutubeEmbed from "@/components/media/YoutubeEmbed";
+import ShareVideoButton from "@/components/media/ShareVideoButton";
 
 const BASE_URL = "https://4rap.cz";
 
@@ -54,10 +56,21 @@ function formatDuration(seconds?: number): string {
 
 function EmbedPlayer({
   spotifyUrl,
+  youtube,
   youtubeUrl,
   deezerUrl,
 }: {
   spotifyUrl?: string;
+  youtube?: {
+    id: string;
+    title: string;
+    channel: string;
+    views: number;
+    uploadDate: string;
+    isOfficial: boolean;
+    isLyricVideo: boolean;
+    isLive: boolean;
+  } | null;
   youtubeUrl?: string;
   deezerUrl?: string;
 }) {
@@ -99,8 +112,31 @@ function EmbedPlayer({
         />
       )}
 
-      {/* Fallback 2: YouTube embed */}
-      {youtubeUrl && (
+      {/* Primary YouTube embed (structured metadata) */}
+      {youtube?.id && (
+        <div className="space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-white/40">
+              {youtube.isOfficial ? "Oficiální video" : "Video"}
+            </span>
+            <a
+              href={`https://www.youtube.com/watch?v=${youtube.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[10px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-[#c8962e] transition-colors inline-flex items-center gap-1"
+            >
+              <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+              {youtube.channel}
+            </a>
+          </div>
+          <YoutubeEmbed videoId={youtube.id} />
+        </div>
+      )}
+
+      {/* Fallback: YouTube embed from raw sources URL */}
+      {!youtube?.id && youtubeUrl && (
         <div className="aspect-video bg-black/40 rounded-lg overflow-hidden">
           <iframe
             src={youtubeUrl.replace("watch?v=", "embed/")}
@@ -151,9 +187,24 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
   const year = entity.publishedAt?.slice(0, 4);
   const duration = formatDuration((em as any).duration as number | undefined);
   const isExplicit = (em as any).explicit as boolean | undefined;
+  const youtube = (em as any).youtube as
+    | {
+        id: string;
+        title: string;
+        channel: string;
+        views: number;
+        uploadDate: string;
+        isOfficial: boolean;
+        isLyricVideo: boolean;
+        isLive: boolean;
+      }
+    | null
+    | undefined;
   const sources = (em as any).sources as string[] | undefined;
   const spotifyUrl = sources?.find((s) => s.includes("spotify.com"));
-  const youtubeUrl = sources?.find((s) => s.includes("youtube.com") || s.includes("youtu.be"));
+  const youtubeUrl = sources?.find(
+    (s) => s.includes("youtube.com") || s.includes("youtu.be"),
+  );
   const deezerUrl = sources?.find((s) => s.includes("deezer.com"));
 
   // JSON-LD
@@ -352,12 +403,20 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
             )}
 
             {/* Music embeds */}
-            {(spotifyUrl || youtubeUrl || deezerUrl) && (
+            {(spotifyUrl || youtube || youtubeUrl || deezerUrl) && (
               <section>
-                <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                  Přehrání
-                </h2>
-                <EmbedPlayer spotifyUrl={spotifyUrl} youtubeUrl={youtubeUrl} deezerUrl={deezerUrl} />
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40">
+                    Přehrání
+                  </h2>
+                  {youtube?.id && <ShareVideoButton />}
+                </div>
+                <EmbedPlayer
+                  spotifyUrl={spotifyUrl}
+                  youtube={youtube}
+                  youtubeUrl={youtubeUrl}
+                  deezerUrl={deezerUrl}
+                />
               </section>
             )}
           </div>

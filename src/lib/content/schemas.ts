@@ -44,7 +44,24 @@ export const ArtistMetaSchema = BaseMetaSchema.extend({
 
 export type ArtistMeta = z.infer<typeof ArtistMetaSchema>;
 export const AlbumMetaSchema = BaseMetaSchema;
-export const TrackMetaSchema = BaseMetaSchema;
+export const TrackMetaSchema = BaseMetaSchema.extend({
+  /** Structured YouTube embed metadata (if a canonical video was found). */
+  youtube: z
+    .object({
+      id: z.string(),
+      title: z.string(),
+      channel: z.string(),
+      views: z.number(),
+      uploadDate: z.string(),
+      isOfficial: z.boolean(),
+      isLyricVideo: z.boolean(),
+      isLive: z.boolean(),
+    })
+    .nullable()
+    .optional(),
+});
+
+export type TrackMeta = z.infer<typeof TrackMetaSchema>;
 export const GenreMetaSchema = BaseMetaSchema;
 export const StyleMetaSchema = BaseMetaSchema;
 export const ThemeMetaSchema = BaseMetaSchema;

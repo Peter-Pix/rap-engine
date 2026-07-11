@@ -383,6 +383,41 @@ function buildTrack(input: BuildJsonLdInput): Record<string, unknown> {
     out.sameAs = sources.filter((s) => s.startsWith("http")).slice(0, 5);
   }
 
+  // video — structured YouTube embed metadata (VideoObject)
+  const youtube = (entity.extraMeta as any)?.youtube as
+    | {
+        id: string;
+        title: string;
+        channel: string;
+        views: number;
+        uploadDate: string;
+        isOfficial: boolean;
+        isLyricVideo: boolean;
+        isLive: boolean;
+      }
+    | undefined
+    | null;
+  if (youtube?.id) {
+    out.video = {
+      "@type": "VideoObject",
+      name: youtube.title,
+      description: entity.description,
+      thumbnailUrl: `https://img.youtube.com/vi/${youtube.id}/maxresdefault.jpg`,
+      uploadDate: youtube.uploadDate,
+      embedUrl: `https://www.youtube.com/embed/${youtube.id}`,
+      contentUrl: `https://www.youtube.com/watch?v=${youtube.id}`,
+      author: {
+        "@type": "Organization",
+        name: youtube.channel,
+      },
+      interactionStatistic: {
+        "@type": "InteractionCounter",
+        interactionType: { "@type": "WatchAction" },
+        userInteractionCount: youtube.views,
+      },
+    };
+  }
+
   return out;
 }
 
