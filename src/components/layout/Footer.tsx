@@ -75,6 +75,14 @@ export function Footer() {
                   Celá síť
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/autori/petr-piskacek"
+                  className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
+                >
+                  Autoři
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
