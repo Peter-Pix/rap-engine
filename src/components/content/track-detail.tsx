@@ -280,7 +280,7 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
            META BAR
            ═══════════════════════════════════════════════════════════════ */}
         <div className="px-8 sm:px-12 pt-2 pb-6">
-          <p className="text-sm text-white/50 font-mono tracking-wide flex flex-wrap items-center gap-x-3 gap-y-1">
+          <div className="text-sm text-white/50 font-mono tracking-wide flex flex-wrap items-center gap-x-3 gap-y-1">
             {year && <span>{year}</span>}
             {duration && (
               <>
@@ -314,7 +314,7 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
                 </span>
               </>
             )}
-          </p>
+          </div>
         </div>
 
         {/* ═══════════════════════════════════════════════════════════════
