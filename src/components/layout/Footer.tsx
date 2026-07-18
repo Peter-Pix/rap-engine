@@ -93,6 +93,33 @@ export function Footer() {
               Spojujeme českou rapovou scénu do jedné strukturované databáze.
             </p>
           </div>
+          <div>
+            <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-zinc-400 mb-3">
+              Ekosystém
+            </h3>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="https://petrpiskacek.cloud"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
+                >
+                  AI Lab
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://karel.petrpiskacek.cloud"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
+                >
+                  Karel Robot
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="mt-8 pt-6 border-t border-white/[0.05] flex items-center justify-between">
           <p className="text-xs text-zinc-600">© 2026 4RAP.</p>
