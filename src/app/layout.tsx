@@ -61,6 +61,29 @@ export default function RootLayout({
         <GoogleAnalytics />
         <PageViewTracker />
         <EngagementTracker />
+        <div className="sticky top-0 z-50 bg-zinc-900/90 backdrop-blur-md border-b border-white/[0.06]">
+          <div className="mx-auto flex max-w-7xl items-center justify-center gap-2 px-4 py-1.5 text-xs">
+            <span className="text-zinc-500">🔬</span>
+            <span className="text-zinc-400">Součást AI ekosystému</span>
+            <a
+              href="https://petrpiskacek.cloud"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-300 hover:text-white transition-colors"
+            >
+              AI Lab
+            </a>
+            <span className="text-zinc-700">·</span>
+            <a
+              href="https://karel.petrpiskacek.cloud"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-300 hover:text-white transition-colors"
+            >
+              Karel Robot
+            </a>
+          </div>
+        </div>
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
