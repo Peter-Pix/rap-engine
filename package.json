@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3114",
     "build": "npm run cache:build && next build",
     "start": "next start",
     "cache:build": "npx tsx scripts/build-content-cache.ts && npx tsx scripts/build-graph-layout.ts",
