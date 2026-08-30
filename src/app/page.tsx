@@ -122,8 +122,9 @@ function buildCitiesAndLabels(
     if (e.relation === "ORIGINATES_FROM") {
       artistByLocation[e.to] = (artistByLocation[e.to] ?? 0) + 1;
     }
-    if (e.relation === "SIGNED_TO") {
-      // Only count artist→label edges, not album→label
+    if (e.relation === "SIGNED_TO" || e.relation === "RELEASED_BY") {
+      // Count artist→label edges (SIGNED_TO) and artist→label via RELEASED_BY.
+      // Only count when the source is an artist (not album→label).
       const fromEntity = entities[e.from];
       if (fromEntity && fromEntity.type === "artist") {
         artistByLabel[e.to] = (artistByLabel[e.to] ?? 0) + 1;
