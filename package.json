@@ -9,7 +9,9 @@
     "cache:build": "npx tsx scripts/build-content-cache.ts && npx tsx scripts/build-graph-layout.ts",
     "cache:graph-layout": "npx tsx scripts/build-graph-layout.ts",
     "cache:track-import": "npx tsx scripts/import-rap-monitor-tracks.ts",
-    "cache:validate": "npx tsx scripts/validate-content.ts"
+    "cache:validate": "npx tsx scripts/validate-content.ts",
+    "test": "node --test --import=tsx \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.0",
@@ -32,6 +34,8 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@types/d3-force": "^3.0.10"
+    "@types/d3-force": "^3.0.10",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.3"
   }
 }

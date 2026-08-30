@@ -60,7 +60,7 @@ for (const dir of dirs) {
     continue;
   }
 
-  let mdx = fs.readFileSync(mdxPath, "utf-8");
+  const mdx = fs.readFileSync(mdxPath, "utf-8");
 
   // Najdi frontmatter
   const fmMatch = mdx.match(/^---\n[\s\S]*?\n---\n?/);
@@ -119,7 +119,7 @@ for (const dir of dirs) {
   ].join("\n");
 
   // Vyčisti prázdné řádky
-  let cleanedBody = newBody.replace(/\n{3,}/g, "\n\n");
+  const cleanedBody = newBody.replace(/\n{3,}/g, "\n\n");
 
   const newMdx = fm + cleanedBody;
 

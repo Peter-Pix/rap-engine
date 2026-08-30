@@ -40,6 +40,8 @@ export default function NetworkCanvasClient({
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // Hydration guard: záměrné setState v effectu, aby se SSR a client render shodovaly.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 

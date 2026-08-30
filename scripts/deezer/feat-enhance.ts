@@ -151,7 +151,7 @@ async function main() {
   console.log("━━━ PHASE 2: Update artist relations ━━━\n");
   let artistUpdates = 0;
   let collabEdgesAdded = 0;
-  let trackEdgesAdded = 0;
+  const trackEdgesAdded = 0;
 
   for (const [mainSlug, collabs] of Object.entries(artistCollabEdges)) {
     const relPath = join(CONTENT_ROOT, `artist_${mainSlug}`, "relations.json");

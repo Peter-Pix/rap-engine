@@ -64,7 +64,7 @@ for (let i = 1; i < lines.length; i++) {
 console.log(`Parsed ${rows.length} Deezer rows`);
 
 let enriched = 0;
-let notFound: string[] = [];
+const notFound: string[] = [];
 let skipped = 0;
 
 for (const row of rows) {

@@ -162,7 +162,7 @@ function buildAlbumIndex(): AlbumRecord[] {
     // Read meta.json for primary artist
     const metaPath = path.join(entitiesDir, entry, "meta.json");
     let albumTitle = tracksJson.album || entry.replace(/^album_/, "");
-    let artistSlugs = new Set<string>();
+    const artistSlugs = new Set<string>();
     if (fs.existsSync(metaPath)) {
       try {
         const meta = JSON.parse(fs.readFileSync(metaPath, "utf-8"));
@@ -369,7 +369,7 @@ async function main() {
 
   for (const album of albums) {
     // Strategy A: match by album title (strongest)
-    let albumSongs: RapMonitorSong[] = [];
+    const albumSongs: RapMonitorSong[] = [];
     for (const s of songs) {
       if (s.album && titleMatch(s.album, album.albumTitle)) {
         albumSongs.push(s);

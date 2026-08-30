@@ -308,5 +308,5 @@ GET    /api/search-index               Fulltext MiniSearch dump (client-side)
 - ✅ Sitemap (indexation-state filtrovaný, `seoScore ≥ 70`), robots, OG image
 - ✅ REST API s bearer auth + proxy na 44rap a rap-monitor
 - ✅ Live na https://4rap.cz (Vercel)
-- ⚠️ Build cache timestamp starší než poslední commit — před deploy vždy `npm run cache:build`
+- ✅ Build cache aktuální (13. 8. 2026) — novější než poslední MDX edit (19. 7. 2026). Před deploy vždy ověřit `ls -la .content-cache/` vs poslední MDX změna.
 - 🔧 V plánu: redesign /mapa (interaktivnější), rozšíření API o `scenes` a `themes` filtry, sync s rap-monitor hourly cron (viz `scripts/hourly-sync.ts`)

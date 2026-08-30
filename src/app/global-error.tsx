@@ -9,6 +9,7 @@
  */
 
 import { useEffect } from "react";
+import Link from "next/link";
 
 export default function GlobalError({
   error,
@@ -57,12 +58,12 @@ export default function GlobalError({
               >
                 Zkusit znovu
               </button>
-              <a
+              <Link
                 href="/"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-white/[0.12] text-zinc-200 font-medium text-sm tracking-wide hover:bg-white/[0.06] transition-colors"
               >
                 Hlavní strana
-              </a>
+              </Link>
             </div>
 
             <p className="mt-8 text-xs text-zinc-600 font-mono">

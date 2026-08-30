@@ -214,7 +214,7 @@ async function main() {
   // ── Match & write ────────────────────────────────────────────────────
   let written = 0;
   let skipped = 0;
-  let unmatched: string[] = [];
+  const unmatched: string[] = [];
   const writtenEntities: string[] = [];
 
   for (const [slug, entryName] of localSlugs) {

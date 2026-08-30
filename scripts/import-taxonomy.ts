@@ -145,7 +145,7 @@ const artistDirs = new Set(
 );
 
 let updated = 0;
-let notFound: string[] = [];
+const notFound: string[] = [];
 let skipped = 0;
 
 for (const entry of allEntries) {

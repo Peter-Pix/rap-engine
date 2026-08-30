@@ -117,6 +117,8 @@ export function SearchBar({ onResultClick }: SearchBarProps = {}) {
   }, [index, query, docs]);
 
   useEffect(() => {
+    // Reset aktivního výsledku při změně query — záměrné setState v effectu.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setActiveIdx(-1);
   }, [query]);
 

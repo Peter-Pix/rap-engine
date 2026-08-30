@@ -14,6 +14,7 @@
 import { useEffect, useRef, useState } from "react";
 
 declare global {
+  // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace YT {
     class Player {
       constructor(
