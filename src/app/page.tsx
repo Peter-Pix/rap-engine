@@ -426,6 +426,31 @@ export default function HomePage() {
       <TrendingAlbums albums={trendingAlbums} />
 
       {/* ═══════════════════════════════════════════════════════════════
+         POROVNAT RAPPERY — discovery feature (Common Ground)
+         ═══════════════════════════════════════════════════════════════ */}
+      <section className="mb-12 sm:mb-16">
+        <Link
+          href="/porovnat"
+          className="group block rounded-2xl border border-white/[0.08] bg-gradient-to-br from-zinc-900/60 to-zinc-950 p-6 sm:p-8 hover:border-[#c8962e]/40 transition-colors"
+        >
+          <div className="flex items-center justify-between gap-4 flex-wrap">
+            <div className="min-w-0">
+              <h2 className="text-lg sm:text-xl font-black tracking-tight text-white mb-1.5">
+                Porovnat rappery
+              </h2>
+              <p className="text-sm text-white/50 max-w-lg">
+                Vyber dva interprety a zjisti, co mají společného — žánry,
+                styly, nálady, labely i města.
+              </p>
+            </div>
+            <span className="text-sm font-bold text-[#c8962e] whitespace-nowrap group-hover:translate-x-0.5 transition-transform">
+              Zkusit →
+            </span>
+          </div>
+        </Link>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════
          NEJPROPOJENĚJŠÍ INTERPRETI — síťový graf (mini canvas)
          ═══════════════════════════════════════════════════════════════ */}
       {layout && (

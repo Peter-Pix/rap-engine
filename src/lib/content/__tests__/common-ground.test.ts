@@ -1,0 +1,133 @@
+/**
+ * Tests for common-ground.ts — pure výpočet přímých shod.
+ */
+
+import { describe, it } from "node:test";
+import assert from "node:assert";
+import {
+  computeCommonGround,
+  commonGroundVerdict,
+  type CommonGroundEntity,
+} from "../common-ground";
+
+const ent = (
+  id: string,
+  over: Partial<CommonGroundEntity> = {},
+): CommonGroundEntity => ({
+  id,
+  type: id.split("_")[0],
+  slug: id.split("_").slice(1).join("-"),
+  title: id,
+  ...over,
+});
+
+// malý „svět" entit pro resolve
+const WORLD: Record<string, CommonGroundEntity> = {
+  artist_a: ent("artist_a", {
+    title: "A",
+    outbound: {
+      HAS_GENRE: ["genre_trap", "genre_street-rap"],
+      HAS_STYLE: ["style_melodic"],
+      ORIGINATES_FROM: ["location_praha", "location_cesko"],
+      RELEASED_BY: ["label_milion-plus"],
+    },
+  }),
+  artist_b: ent("artist_b", {
+    title: "B",
+    outbound: {
+      HAS_GENRE: ["genre_trap", "genre_hardcore-rap"],
+      HAS_STYLE: ["style_melodic", "style_hardcore"],
+      ORIGINATES_FROM: ["location_brno", "location_cesko"],
+      RELEASED_BY: ["label_detektor-records"],
+    },
+  }),
+  genre_trap: ent("genre_trap", { title: "Trap" }),
+  "genre_street-rap": ent("genre_street-rap", { title: "Street rap" }),
+  "genre_hardcore-rap": ent("genre_hardcore-rap", { title: "Hardcore rap" }),
+  style_melodic: ent("style_melodic", { title: "Melodický" }),
+  style_hardcore: ent("style_hardcore", { title: "Hardcore" }),
+  location_praha: ent("location_praha", { title: "Praha" }),
+  location_brno: ent("location_brno", { title: "Brno" }),
+  location_cesko: ent("location_cesko", { title: "Česko" }),
+  "label_milion-plus": ent("label_milion-plus", { title: "Milion+" }),
+  "label_detektor-records": ent("label_detektor-records", { title: "Detektor" }),
+};
+
+const resolve = (id: string) => WORLD[id];
+
+describe("computeCommonGround", () => {
+  it("najde přímé shody ve žánrech, stylech i lokalitách", () => {
+    const r = computeCommonGround(WORLD.artist_a, WORLD.artist_b, resolve);
+    const byKey = Object.fromEntries(r.groups.map((g) => [g.key, g.items]));
+
+    assert.deepStrictEqual(byKey.genres?.map((i) => i.title), ["Trap"]);
+    assert.deepStrictEqual(byKey.styles?.map((i) => i.title), ["Melodický"]);
+    assert.deepStrictEqual(byKey.locations?.map((i) => i.title), ["Česko"]);
+  });
+
+  it("řadí skupiny podle relevance (žánry před lokalitami)", () => {
+    const r = computeCommonGround(WORLD.artist_a, WORLD.artist_b, resolve);
+    const keys = r.groups.map((g) => g.key);
+    assert.ok(keys.indexOf("genres") < keys.indexOf("locations"));
+  });
+
+  it("staví správné URL pro shody", () => {
+    const r = computeCommonGround(WORLD.artist_a, WORLD.artist_b, resolve);
+    const trap = r.groups.find((g) => g.key === "genres")!.items[0];
+    assert.strictEqual(trap.url, "/zanry/trap");
+  });
+
+  it("sčítá totalShared napříč skupinami", () => {
+    const r = computeCommonGround(WORLD.artist_a, WORLD.artist_b, resolve);
+    // Trap + Melodický + Česko = 3
+    assert.strictEqual(r.totalShared, 3);
+    assert.strictEqual(r.isEmpty, false);
+  });
+
+  it("vrátí prázdný výsledek, když není shoda", () => {
+    const lonely = ent("artist_c", {
+      outbound: { HAS_GENRE: ["genre_unique"] },
+    });
+    const r = computeCommonGround(lonely, WORLD.artist_a, resolve);
+    assert.strictEqual(r.isEmpty, true);
+    assert.strictEqual(r.totalShared, 0);
+    assert.strictEqual(r.groups.length, 0);
+  });
+
+  it("přeskočí shodu, když resolve nezná entitu", () => {
+    const a = ent("artist_x", { outbound: { HAS_GENRE: ["genre_ghost"] } });
+    const b = ent("artist_y", { outbound: { HAS_GENRE: ["genre_ghost"] } });
+    const r = computeCommonGround(a, b, () => undefined);
+    assert.strictEqual(r.isEmpty, true);
+  });
+
+  it("zvládne entity bez outbound", () => {
+    const r = computeCommonGround(
+      ent("artist_a2"),
+      ent("artist_b2"),
+      resolve,
+    );
+    assert.strictEqual(r.isEmpty, true);
+  });
+
+  it("je symetrický (A×B == B×A)", () => {
+    const ab = computeCommonGround(WORLD.artist_a, WORLD.artist_b, resolve);
+    const ba = computeCommonGround(WORLD.artist_b, WORLD.artist_a, resolve);
+    assert.strictEqual(ab.totalShared, ba.totalShared);
+    assert.deepStrictEqual(
+      ab.groups.map((g) => g.key),
+      ba.groups.map((g) => g.key),
+    );
+  });
+});
+
+describe("commonGroundVerdict", () => {
+  it("vrací text pro nula shod", () => {
+    assert.match(commonGroundVerdict({ groups: [], totalShared: 0, isEmpty: true }), /Žádná/);
+  });
+
+  it("škádluje podle počtu shod", () => {
+    assert.match(commonGroundVerdict({ groups: [], totalShared: 1, isEmpty: false }), /Jedna/);
+    assert.match(commonGroundVerdict({ groups: [], totalShared: 10, isEmpty: false }), /dvojčata/);
+  });
+});

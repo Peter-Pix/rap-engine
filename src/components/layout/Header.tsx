@@ -12,6 +12,7 @@ const NAV = [
   { label: "Labely", href: "/labely" },
   { label: "Žánry", href: "/zanry" },
   { label: "Mapa", href: "/mapa" },
+  { label: "Porovnat", href: "/porovnat" },
   { label: "Celá síť", href: "/sceny" },
 ];
 
@@ -46,6 +47,7 @@ const NAV_GROUPS: { title: string; items: { label: string; href: string }[] }[] 
   {
     title: "Kontext",
     items: [
+      { label: "Porovnat rappery", href: "/porovnat" },
       { label: "Témata", href: "/temata" },
       { label: "Scény", href: "/sceny" },
       { label: "Akce", href: "/akce" },
