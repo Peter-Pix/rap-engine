@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className="mt-24 border-t border-white/[0.06] bg-zinc-950">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="font-sans text-lg font-black italic tracking-tight leading-none text-white">
               4RAP<span className="text-[#c8962e]">.</span>
@@ -92,33 +92,6 @@ export function Footer() {
             <p className="text-xs text-zinc-600 leading-relaxed">
               Spojujeme českou rapovou scénu do jedné strukturované databáze.
             </p>
-          </div>
-          <div>
-            <h3 className="text-xs font-mono font-semibold uppercase tracking-widest text-zinc-400 mb-3">
-              Ekosystém
-            </h3>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="https://petrpiskacek.cloud"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
-                >
-                  AI Lab
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://karel.petrpiskacek.cloud"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
-                >
-                  Karel Robot
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-white/[0.05] flex items-center justify-between">
