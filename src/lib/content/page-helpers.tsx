@@ -18,6 +18,7 @@ import { Tracklist } from "@/components/content/tracklist";
 import { UpcomingEventsForArtist } from "@/components/content/upcoming-events";
 import { KeyTrackPlayer } from "@/components/content/key-track-player";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { EntityJumpNav } from "@/components/entity/EntityJumpNav";
 import { buildJsonLd } from "@/lib/seo/schema-org";
 
 // ─── Constants ────────────────────────────────────────────────────────────
@@ -292,12 +293,19 @@ export async function EntityPage({
       )}
 
       {/* ═══════════════════════════════════════════════════════════════
+         JUMP NAV — rychlá orientace na dlouhé stránce (auto-detekce sekcí)
+         ═══════════════════════════════════════════════════════════════ */}
+      <div className="px-4 sm:px-12">
+        <EntityJumpNav />
+      </div>
+
+      {/* ═══════════════════════════════════════════════════════════════
          TWO-COLUMN LAYOUT
          ═══════════════════════════════════════════════════════════════ */}
-      <div className="px-8 sm:px-12 pb-16 grid grid-cols-1 lg:grid-cols-3 gap-x-16 gap-y-12">
+      <div className="px-8 sm:px-12 pb-16 pt-8 grid grid-cols-1 lg:grid-cols-3 gap-x-16 gap-y-12">
 
         {/* ── LEFT COLUMN: Editorial Content ──────────────────────────── */}
-        <div className="lg:col-span-2 space-y-12">
+        <div className="lg:col-span-2 space-y-12" data-jump-section data-jump-label="Profil">
 
           {/* MDX content first */}
           {entity.content?.trim() && (
@@ -398,7 +406,7 @@ export async function EntityPage({
 
           {/* ── Similar Artists ───────────────────────────────────────── */}
           {similar.length > 0 && (
-            <section>
+            <section data-jump-section data-jump-label="Podobní">
               <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Podobní umělci
               </h2>
@@ -418,7 +426,7 @@ export async function EntityPage({
 
           {/* ── Related Entities ──────────────────────────────────────── */}
           {related.length > 0 && (
-            <section>
+            <section data-jump-section data-jump-label="Související">
               <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Související
               </h2>
@@ -439,7 +447,7 @@ export async function EntityPage({
 
           {/* ── Backlinks ─────────────────────────────────────────────── */}
           {inboundIds.length > 0 && (
-            <section>
+            <section data-jump-section data-jump-label="Odkazují sem">
               <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Odkazují sem ({inboundIds.length})
               </h2>
@@ -464,7 +472,7 @@ export async function EntityPage({
 
           {/* Info */}
           {em.realName || em.origin || em.label || em.activeSince || em.birthDate ? (
-            <section>
+            <section data-jump-section data-jump-label="Info">
               <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Info
               </h2>
@@ -505,7 +513,7 @@ export async function EntityPage({
 
           {/* Style tags */}
           {profile?.styleTags && Array.isArray(profile.styleTags) && (profile.styleTags as string[]).length > 0 && (
-            <section>
+            <section data-jump-section data-jump-label="Žánry">
               <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Žánry
               </h2>
@@ -517,7 +525,7 @@ export async function EntityPage({
 
           {/* Themes */}
           {profile?.themes && Array.isArray(profile.themes) && (profile.themes as string[]).length > 0 && (
-            <section>
+            <section data-jump-section data-jump-label="Témata">
               <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Témata
               </h2>
