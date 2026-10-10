@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { SearchBar } from "@/components/search/SearchBar";
 
@@ -79,6 +79,8 @@ function IconClose({ className = "w-5 h-5" }: { className?: string }) {
 // ─── Fullscreen mobile search overlay ──────────────────────────────────
 
 function MobileSearchOverlay({ onClose }: { onClose: () => void }) {
+  const rootRef = useRef<HTMLDivElement>(null);
+
   // Lock body scroll while overlay is open
   useEffect(() => {
     const original = document.body.style.overflow;
@@ -97,8 +99,25 @@ function MobileSearchOverlay({ onClose }: { onClose: () => void }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
+  // Focus the input and scroll it into view once the overlay mounts.
+  // On mobile the on-screen keyboard shrinks the visual viewport, so the
+  // field must be scrolled into the visible area instead of being hidden
+  // behind the keyboard / sticky banner.
+  useEffect(() => {
+    const input = rootRef.current?.querySelector("input");
+    if (!input) return;
+    input.focus({ preventScroll: true });
+    const raf = requestAnimationFrame(() => {
+      input.scrollIntoView({ block: "center", behavior: "instant" as ScrollBehavior });
+    });
+    return () => cancelAnimationFrame(raf);
+  }, []);
+
   return (
-    <div className="fixed inset-0 z-50 md:hidden bg-zinc-950/98 backdrop-blur-xl flex flex-col">
+    <div
+      ref={rootRef}
+      className="fixed inset-0 z-[100] md:hidden bg-zinc-950/98 backdrop-blur-xl flex flex-col"
+    >
       <div className="flex items-center justify-between h-14 px-4 border-b border-white/[0.08] shrink-0">
         <span className="text-xs font-mono uppercase tracking-widest text-white/40">
           Hledat
@@ -241,11 +260,11 @@ export function Header() {
             type="button"
             aria-label="Zavřít menu"
             onClick={closeMenu}
-            className="fixed inset-0 top-14 z-30 bg-black/40 backdrop-blur-sm md:hidden"
+            className="fixed inset-0 top-14 z-[90] bg-black/40 backdrop-blur-sm md:hidden"
           />
           {/* Drawer */}
           <nav
-            className="absolute left-0 right-0 top-full z-40 md:hidden border-t border-white/[0.08] bg-zinc-950 shadow-2xl shadow-black/40"
+            className="absolute left-0 right-0 top-full z-[95] md:hidden border-t border-white/[0.08] bg-zinc-950 shadow-2xl shadow-black/40"
             aria-label="Hlavní menu"
           >
             <div className="mx-auto max-w-7xl px-4 sm:px-6 py-4 flex flex-col gap-1">
