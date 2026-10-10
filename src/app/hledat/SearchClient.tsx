@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Input } from "@/components/ui/Input";
 import Fuse from "fuse.js";
@@ -53,8 +54,22 @@ const TYPE_ROUTE: Record<string, string> = {
 };
 
 export default function SearchClient({ entries }: SearchClientProps) {
-  const [query, setQuery] = useState("");
+  // Inicializace z URL (`?q=…`) — SearchBar i přímé odkazy předávají dotaz
+  // přes query param. Bez tohoto by `/hledat?q=baron` zobrazilo prázdný stav.
+  const searchParams = useSearchParams();
+  const urlQuery = searchParams.get("q") ?? "";
+  const [query, setQuery] = useState(urlQuery);
   const [activeType, setActiveType] = useState<string | null>(null);
+  // Sledujeme poslední URL query, aby šlo při klientské navigaci
+  // (SearchBar → „Zobrazit všechny výsledky“ na téže stránce) derivovat
+  // nový stav během renderu místo setState v effectu.
+  const [syncedQuery, setSyncedQuery] = useState(urlQuery);
+
+  if (urlQuery !== syncedQuery) {
+    setSyncedQuery(urlQuery);
+    setQuery(urlQuery);
+    setActiveType(null);
+  }
 
   const fuse = useMemo(() => {
     if (entries.length === 0) return null;

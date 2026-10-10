@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Suspense } from "react";
 import { readSearchIndex } from "@/lib/content/cache-reader";
 import SearchClient from "./SearchClient";
 
@@ -19,7 +20,14 @@ export default function SearchPage() {
           Fulltextové vyhledávání napříč {entries.length} entitami — umělci, alba, žánry, lokality a další.
         </p>
       </div>
-      <SearchClient entries={entries} />
+      {/* useSearchParams v SearchClient vyžaduje Suspense boundary (Next 16) */}
+      <Suspense
+        fallback={
+          <div className="text-center py-20 text-zinc-500">Načítám vyhledávání…</div>
+        }
+      >
+        <SearchClient entries={entries} />
+      </Suspense>
     </div>
   );
 }
