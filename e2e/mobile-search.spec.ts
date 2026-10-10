@@ -74,8 +74,13 @@ test.describe("mobile search overlay", () => {
       return { overlayZ: z(overlay), bannerZ: z(banner) };
     });
 
-    expect(bannerZ, "banner nenalezen — zkontroluj layout.tsx").not.toBeNull();
     expect(overlayZ, "overlay nenalezen").not.toBeNull();
+    if (bannerZ === null) {
+      // Banner byl z 4rap.cz odstraněn (commit 78894158) — žádná kolize
+      // vrstvení tedy neexistuje. To je PASS, ne fail.
+      test.info().annotations.push({ type: "note", description: "banner odstraněn — žádná kolize" });
+      return;
+    }
     expect(overlayZ!, `overlay (z=${overlayZ}) musí být NAD bannerem (z=${bannerZ})`).toBeGreaterThan(bannerZ!);
   });
 
