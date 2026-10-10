@@ -17,3 +17,6 @@ tsconfig.tsbuildinfo
 /playwright-report/
 /playwright/.cache/
 /.vercel/output/
+
+# Datové snapshoty (generované fetch skripty)
+/.data/
