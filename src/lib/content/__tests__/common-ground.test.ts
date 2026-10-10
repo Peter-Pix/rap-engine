@@ -131,3 +131,85 @@ describe("commonGroundVerdict", () => {
     assert.match(commonGroundVerdict({ groups: [], totalShared: 10, isEmpty: false }), /dvojčata/);
   });
 });
+
+// ─── computeSharedTracks ────────────────────────────────────────────────────
+
+import { computeSharedTracks, trackRoleLabel } from "../common-ground";
+
+const track = (
+  id: string,
+  outbound: Record<string, string[]>,
+  title = id,
+): CommonGroundEntity => ({
+  id,
+  type: "track",
+  slug: id.replace(/^track_/, ""),
+  title,
+  outbound,
+});
+
+describe("computeSharedTracks", () => {
+  const resolve = (id: string) =>
+    ({
+      artist_a: { id: "artist_a", type: "artist", slug: "a", title: "A" },
+      artist_b: { id: "artist_b", type: "artist", slug: "b", title: "B" },
+    })[id];
+
+  it("najde skladbu, kde je A primární a B host", () => {
+    const tracks = [
+      track("track_1", { HAS_ARTIST: ["artist_a"], FEATURES: ["artist_b"] }, "Společná"),
+      track("track_2", { HAS_ARTIST: ["artist_a"] }, "Sólo A"),
+    ];
+    const r = computeSharedTracks("artist_a", "artist_b", tracks, resolve);
+    assert.strictEqual(r.length, 1);
+    assert.strictEqual(r[0].title, "Společná");
+    assert.strictEqual(r[0].roleA, "primary");
+    assert.strictEqual(r[0].roleB, "feature");
+  });
+
+  it("najde skladbu, kde jsou oba hosté", () => {
+    const tracks = [
+      track("track_1", { HAS_ARTIST: ["artist_x"], FEATURES: ["artist_a", "artist_b"] }),
+    ];
+    const r = computeSharedTracks("artist_a", "artist_b", tracks, resolve);
+    assert.strictEqual(r.length, 1);
+    assert.strictEqual(r[0].roleA, "feature");
+    assert.strictEqual(r[0].roleB, "feature");
+    assert.strictEqual(r[0].primaryTitle, undefined); // x není v resolve
+  });
+
+  it("nevrátí skladbu, kde je jen jeden", () => {
+    const tracks = [track("track_1", { HAS_ARTIST: ["artist_a"] })];
+    const r = computeSharedTracks("artist_a", "artist_b", tracks, resolve);
+    assert.strictEqual(r.length, 0);
+  });
+
+  it("řadí podle titulu a staví URL", () => {
+    const tracks = [
+      track("track_zzz", { HAS_ARTIST: ["artist_a"], FEATURES: ["artist_b"] }, "Zebra"),
+      track("track_aaa", { HAS_ARTIST: ["artist_a"], FEATURES: ["artist_b"] }, "Ahoj"),
+    ];
+    const r = computeSharedTracks("artist_a", "artist_b", tracks, resolve);
+    assert.deepStrictEqual(r.map((x) => x.title), ["Ahoj", "Zebra"]);
+    assert.strictEqual(r[0].url, "/skladby/aaa");
+  });
+
+  it("je symetrická", () => {
+    const tracks = [
+      track("track_1", { HAS_ARTIST: ["artist_a"], FEATURES: ["artist_b"] }),
+    ];
+    const ab = computeSharedTracks("artist_a", "artist_b", tracks, resolve);
+    const ba = computeSharedTracks("artist_b", "artist_a", tracks, resolve);
+    assert.strictEqual(ab.length, ba.length);
+    assert.strictEqual(ba[0].roleA, "feature");
+    assert.strictEqual(ba[0].roleB, "primary");
+  });
+});
+
+describe("trackRoleLabel", () => {
+  it("přeloží role do češtiny", () => {
+    assert.strictEqual(trackRoleLabel("primary"), "autor");
+    assert.strictEqual(trackRoleLabel("feature"), "host");
+    assert.strictEqual(trackRoleLabel("both"), "host i autor");
+  });
+});

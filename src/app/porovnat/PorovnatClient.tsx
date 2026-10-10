@@ -5,8 +5,11 @@ import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
 import {
   computeCommonGround,
+  computeSharedTracks,
   commonGroundVerdict,
+  trackRoleLabel,
   type CommonGroundEntity,
+  type SharedTrack,
 } from "@/lib/content/common-ground";
 
 // ─── Types ─────────────────────────────────────────────────────────────────
@@ -29,6 +32,7 @@ interface PorovnatClientProps {
   artists: ComparePickerItem[];
   outbound: Record<string, Record<string, string[]>>;
   lookup: Record<string, LookupEntry>;
+  tracks: CommonGroundEntity[];
 }
 
 // ─── Picker (autocomplete pro jednoho rappera) ──────────────────────────────
@@ -171,7 +175,7 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
 
 // ─── Main ───────────────────────────────────────────────────────────────────
 
-export default function PorovnatClient({ artists, outbound, lookup }: PorovnatClientProps) {
+export default function PorovnatClient({ artists, outbound, lookup, tracks }: PorovnatClientProps) {
   const params = useSearchParams();
   const router = useRouter();
 
@@ -223,6 +227,11 @@ export default function PorovnatClient({ artists, outbound, lookup }: PorovnatCl
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [aId, bId, resolve, outbound]);
 
+  const sharedTracks: SharedTrack[] = useMemo(() => {
+    if (!aId || !bId || aId === bId) return [];
+    return computeSharedTracks(aId, bId, tracks, resolve);
+  }, [aId, bId, tracks, resolve]);
+
   const aSel = aId ? artists.find((x) => x.id === aId) : null;
   const bSel = bId ? artists.find((x) => x.id === bId) : null;
 
@@ -259,12 +268,12 @@ export default function PorovnatClient({ artists, outbound, lookup }: PorovnatCl
           <div className="rounded-xl border border-white/[0.08] bg-zinc-900/40 p-5 flex items-center justify-between gap-4 flex-wrap">
             <div className="flex items-center gap-3">
               <span className="text-2xl font-black text-[#e4ff1a]">
-                {result.totalShared}
+                {result.totalShared + sharedTracks.length}
               </span>
               <span className="text-sm text-zinc-400">
-                {result.totalShared === 1
+                {result.totalShared + sharedTracks.length === 1
                   ? "společná vazba"
-                  : result.totalShared < 5
+                  : result.totalShared + sharedTracks.length < 5
                     ? "společné vazby"
                     : "společných vazeb"}
               </span>
@@ -274,8 +283,56 @@ export default function PorovnatClient({ artists, outbound, lookup }: PorovnatCl
             </div>
           </div>
 
+          {/* ⭐ SPOLEČNÉ SKLADBY — hlavní lákadlo, první nahoře */}
+          {sharedTracks.length > 0 && (
+            <section>
+              <div className="flex items-baseline gap-2 mb-3">
+                <h2 className="text-[11px] font-mono font-bold uppercase tracking-widest text-[#e4ff1a]">
+                  Společné skladby
+                </h2>
+                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-[#e4ff1a]/15 text-[#e4ff1a]">
+                  {sharedTracks.length}
+                </span>
+              </div>
+              <div className="space-y-2">
+                {sharedTracks.map((t) => (
+                  <Link
+                    key={t.id}
+                    href={t.url}
+                    className="group flex items-center justify-between gap-3 rounded-lg border border-white/[0.06] bg-zinc-900/40 px-4 py-3 hover:border-[#e4ff1a]/40 transition-colors"
+                  >
+                    <div className="min-w-0">
+                      <div className="text-sm font-medium text-white truncate">
+                        {t.title}
+                      </div>
+                      {t.primaryTitle && (
+                        <div className="text-xs text-zinc-500 truncate">
+                          {t.primaryTitle}
+                        </div>
+                      )}
+                    </div>
+                    <div className="flex items-center gap-2 shrink-0 text-[10px] font-mono uppercase tracking-wider">
+                      <span
+                        className="px-1.5 py-0.5 rounded"
+                        style={{ background: "#e4ff1a22", color: "#e4ff1a" }}
+                      >
+                        {aSel?.title}: {trackRoleLabel(t.roleA)}
+                      </span>
+                      <span
+                        className="px-1.5 py-0.5 rounded"
+                        style={{ background: "#c8962e22", color: "#c8962e" }}
+                      >
+                        {bSel?.title}: {trackRoleLabel(t.roleB)}
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
           {/* Skupiny shod */}
-          {result.isEmpty ? (
+          {result.isEmpty && sharedTracks.length === 0 ? (
             <div className="text-center py-16">
               <p className="text-zinc-400 text-lg mb-2">
                 {aSel?.title} a {bSel?.title} nemají žádnou přímou shodu.

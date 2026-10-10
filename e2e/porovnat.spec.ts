@@ -55,3 +55,33 @@ test.describe("Porovnat (Common Ground)", () => {
     ).toBeVisible();
   });
 });
+
+/**
+ * Fáze 0+2 — sekce „Společné skladby" (nová data z Deezer tracklistů).
+ * Ověřuje, že po rozšíření DB o feat entity umí Common Ground ukázat
+ * konkrétní společné tracky.
+ */
+test.describe("Porovnat — společné skladby", () => {
+  test("Viktor Sheen × Calin ukáže společné skladby", async ({ page }) => {
+    await goto(page, "/porovnat?a=artist_viktor-sheen&b=artist_calin");
+    await expect(
+      page.getByRole("heading", { name: /Společné skladby/ }),
+    ).toBeVisible();
+    // konkrétní známý track z Deezer tracklistu
+    await expect(page.getByText("Až na měsíc").first()).toBeVisible();
+  });
+
+  test("Yzomandias × Nik Tendo ukáže aspoň jednu společnou skladbu", async ({ page }) => {
+    await goto(page, "/porovnat?a=artist_yzomandias&b=artist_nik-tendo");
+    await expect(
+      page.getByRole("heading", { name: /Společné skladby/ }),
+    ).toBeVisible();
+  });
+
+  test("skladba odkazuje na detail /skladby/", async ({ page }) => {
+    await goto(page, "/porovnat?a=artist_viktor-sheen&b=artist_calin");
+    const trackLink = page.locator('a[href^="/skladby/"]').first();
+    await expect(trackLink).toBeVisible();
+    await expect(trackLink).toHaveAttribute("href", /^\/skladby\/.+/);
+  });
+});

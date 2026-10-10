@@ -8,6 +8,19 @@
 // shody. Nepřímé propojení (BFS přes RELATED_TO) je vědomě mimo v1.
 // ═══════════════════════════════════════════════════════════════
 
+/** Skladba pro sekci „Společné skladby". */
+export interface SharedTrack {
+  id: string;
+  title: string;
+  /** URL na detail skladby. */
+  url: string;
+  /** Kdo ji má jako primární (title), pokud známo. */
+  primaryTitle?: string;
+  /** Role: primary | feature | both */
+  roleA: "primary" | "feature" | "both";
+  roleB: "primary" | "feature" | "both";
+}
+
 /** Minimální tvar entity, který Common Ground potřebuje. */
 export interface CommonGroundEntity {
   id: string;
@@ -38,7 +51,7 @@ export interface CommonGroundItem {
 export interface CommonGroundResult {
   /** Skupiny s ≥1 shodou, seřazené podle relevantnosti. */
   groups: CommonGroundGroup[];
-  /** Celkový počet přímých shod (součet délek skupin). */
+  /** Celkový počet přímých shod (součet délek skupin + skladby). */
   totalShared: number;
   /** True, když entity nemají žádnou přímou shodu. */
   isEmpty: boolean;
@@ -142,6 +155,67 @@ export function computeCommonGround(
   const totalShared = groups.reduce((sum, g) => sum + g.items.length, 0);
 
   return { groups, totalShared, isEmpty: totalShared === 0 };
+}
+
+/**
+ * Vypočítá SPOLEČNÉ SKLADBY dvou umělců.
+ *
+ * Skladba se počítá, když je umělec její primární interpret (HAS_ARTIST)
+ * nebo host (FEATURES). Hledá průnik množin skladeb obou umělců.
+ *
+ * @param aId      ID umělce A
+ * @param bId      ID umělce B
+ * @param tracks   všechny entity typu `track` (s outbound)
+ * @param resolve  id → entita (pro titulek primárního interpreta)
+ */
+export function computeSharedTracks(
+  aId: string,
+  bId: string,
+  tracks: CommonGroundEntity[],
+  resolve: (id: string) => CommonGroundEntity | undefined,
+): SharedTrack[] {
+  const roleOf = (
+    t: CommonGroundEntity,
+    artistId: string,
+  ): "primary" | "feature" | "both" | null => {
+    const ob = t.outbound ?? {};
+    const isPrimary = (ob.HAS_ARTIST ?? []).includes(artistId);
+    const isFeature = (ob.FEATURES ?? []).includes(artistId);
+    if (isPrimary && isFeature) return "both";
+    if (isPrimary) return "primary";
+    if (isFeature) return "feature";
+    return null;
+  };
+
+  const shared: SharedTrack[] = [];
+  for (const t of tracks) {
+    const roleA = roleOf(t, aId);
+    if (!roleA) continue;
+    const roleB = roleOf(t, bId);
+    if (!roleB) continue;
+
+    const primaryId = (t.outbound?.HAS_ARTIST ?? [])[0];
+    const primary = primaryId ? resolve(primaryId) : undefined;
+
+    shared.push({
+      id: t.id,
+      title: t.title,
+      url: `/skladby/${t.slug}`,
+      primaryTitle: primary?.title,
+      roleA,
+      roleB,
+    });
+  }
+
+  shared.sort((x, y) => x.title.localeCompare(y.title, "cs"));
+  return shared;
+}
+
+/** Český popis role umělce na skladbě. */
+export function trackRoleLabel(role: SharedTrack["roleA"]): string {
+  if (role === "both") return "host i autor";
+  if (role === "primary") return "autor";
+  return "host";
 }
 
 /**

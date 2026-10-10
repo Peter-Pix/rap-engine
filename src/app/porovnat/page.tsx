@@ -38,6 +38,17 @@ export default function PorovnatPage() {
     lookup[e.id] = { id: e.id, type: e.type, slug: e.slug, title: e.title };
   }
 
+  // Všechny skladby (pro sekci „Společné skladby").
+  const tracks = Object.values(entities)
+    .filter((e) => e.type === "track")
+    .map((e) => ({
+      id: e.id,
+      type: e.type,
+      slug: e.slug,
+      title: e.title,
+      outbound: e.outbound ?? {},
+    }));
+
   // Outbound mapy pro rappery (jen potřebné relace).
   const RELEVANT = [
     "HAS_GENRE",
@@ -77,7 +88,7 @@ export default function PorovnatPage() {
           <div className="text-center py-20 text-zinc-500">Načítám…</div>
         }
       >
-        <PorovnatClient artists={artists} outbound={outbound} lookup={lookup} />
+        <PorovnatClient artists={artists} outbound={outbound} lookup={lookup} tracks={tracks} />
       </Suspense>
     </div>
   );
