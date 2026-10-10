@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { SearchBar } from "@/components/search/SearchBar";
 
+/** Desktop lišta — hlavní vstupy (drží se krátká). */
 const NAV = [
   { label: "Rappeři", href: "/raperi" },
   { label: "Alba", href: "/alba" },
@@ -12,6 +13,45 @@ const NAV = [
   { label: "Žánry", href: "/zanry" },
   { label: "Mapa", href: "/mapa" },
   { label: "Celá síť", href: "/sceny" },
+];
+
+/**
+ * Mobilní drawer — kategorizovaný.
+ *
+ * Předtím 14 plochých odkazů bez hierarchie = nepřehledné. Teď 3 logické
+ * skupiny (Hudba / Lidé / Kontext) + samostatná sekce Objevuj.
+ */
+const NAV_GROUPS: { title: string; items: { label: string; href: string }[] }[] = [
+  {
+    title: "Hudba",
+    items: [
+      { label: "Rappeři", href: "/raperi" },
+      { label: "Alba", href: "/alba" },
+      { label: "Skladby", href: "/skladby" },
+      { label: "Žánry", href: "/zanry" },
+      { label: "Styly", href: "/styly" },
+      { label: "Nálady", href: "/nalady" },
+    ],
+  },
+  {
+    title: "Lidé a scéna",
+    items: [
+      { label: "Autoři", href: "/autori" },
+      { label: "Producenti", href: "/producenti" },
+      { label: "Kolektivy", href: "/kolektivy" },
+      { label: "Labely", href: "/labely" },
+      { label: "Lokality", href: "/lokality" },
+    ],
+  },
+  {
+    title: "Kontext",
+    items: [
+      { label: "Témata", href: "/temata" },
+      { label: "Scény", href: "/sceny" },
+      { label: "Akce", href: "/akce" },
+      { label: "Články", href: "/clanky" },
+    ],
+  },
 ];
 
 // ─── Icons ──────────────────────────────────────────────────────────────
@@ -267,22 +307,31 @@ export function Header() {
             className="absolute left-0 right-0 top-full z-[95] md:hidden border-t border-white/[0.08] bg-zinc-950 shadow-2xl shadow-black/40"
             aria-label="Hlavní menu"
           >
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 py-4 flex flex-col gap-1">
-              {NAV.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  onClick={closeMenu}
-                  className="px-3 py-3 text-base font-medium text-zinc-300 hover:text-zinc-100 hover:bg-white/[0.06] rounded-md transition-all duration-150"
-                >
-                  {item.label}
-                </Link>
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 py-4 max-h-[calc(100vh-3.5rem)] overflow-y-auto">
+              {NAV_GROUPS.map((group) => (
+                <div key={group.title} className="mb-5 last:mb-0">
+                  <h3 className="px-3 mb-2 text-[11px] font-mono font-bold uppercase tracking-widest text-zinc-600">
+                    {group.title}
+                  </h3>
+                  <div className="flex flex-col gap-0.5">
+                    {group.items.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        onClick={closeMenu}
+                        className="px-3 py-2.5 text-base font-medium text-zinc-300 hover:text-zinc-100 hover:bg-white/[0.06] rounded-md transition-all duration-150"
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               ))}
               <div className="h-px bg-white/[0.06] my-2" />
               <Link
                 href="/"
                 onClick={closeMenu}
-                className="px-3 py-3 text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
+                className="px-3 py-3 mb-1 text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
               >
                 Hlavní strana
               </Link>

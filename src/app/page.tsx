@@ -375,23 +375,23 @@ export default function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════
          HERO — databáze, ne magazín
          ═══════════════════════════════════════════════════════════════ */}
-      <section className="pt-[140px] pb-12 border-b border-white/[0.06] mb-16">
+      <section className="pt-[96px] sm:pt-[140px] pb-8 sm:pb-12 border-b border-white/[0.06] mb-10 sm:mb-16">
         {/* Brand logo — není H1, vizuální identita */}
         <div className="text-[clamp(44px,9vw,80px)] font-black tracking-tighter text-white uppercase leading-[0.85] mb-2">
           4rap<span className="text-[#c8962e]">.</span>
         </div>
 
         {/* H1 — silný headline pro SEO, obsahuje klíčová slova */}
-        <h1 className="text-2xl sm:text-3xl lg:text-[clamp(32px,5vw,48px)] font-black tracking-tight text-white leading-[0.95] max-w-[800px] mb-3">
+        <h1 className="text-[26px] sm:text-3xl lg:text-[clamp(32px,5vw,48px)] font-black tracking-tight text-white leading-[0.95] max-w-[800px] mb-3">
           Největší databáze českého rapu, rapperů a alb
         </h1>
 
-        <p className="text-base text-white/60 max-w-[600px] leading-relaxed mb-8">
+        <p className="text-[15px] sm:text-base text-white/60 max-w-[600px] leading-relaxed mb-6 sm:mb-8">
           Prozkoumej interprety, alba, labely, města a jejich vzájemné vazby.
         </p>
 
         {/* Search */}
-        <div className="max-w-md mb-8">
+        <div className="max-w-md mb-6 sm:mb-8">
           <SearchBar />
         </div>
 
@@ -429,7 +429,7 @@ export default function HomePage() {
          NEJPROPOJENĚJŠÍ INTERPRETI — síťový graf (mini canvas)
          ═══════════════════════════════════════════════════════════════ */}
       {layout && (
-        <section className="mb-16">
+        <section className="mb-12 sm:mb-16">
           <div className="flex items-baseline justify-between mb-5">
             <div>
               <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35 mb-1">
@@ -536,7 +536,7 @@ async function UpcomingEventsSection() {
 
   if (events.length === 0) {
     return (
-      <section className="mb-16">
+      <section className="mb-12 sm:mb-16">
         <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35 mb-5">Nadcházející akce</h2>
         <div className="py-8 border-t border-white/[0.06]">
           <p className="text-sm text-white/40">Žádné nadcházející akce.</p>
@@ -546,7 +546,7 @@ async function UpcomingEventsSection() {
   }
 
   return (
-    <section className="mb-16">
+    <section className="mb-12 sm:mb-16">
       <div className="flex items-baseline justify-between mb-5">
         <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">Nadcházející akce</h2>
         <span className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40">zdroj: 44rap</span>

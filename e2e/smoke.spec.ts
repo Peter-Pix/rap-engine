@@ -88,3 +88,29 @@ test.describe("smoke — SEO", () => {
     expect(ogTitle, "chybí og:title na detailu entity").toBeTruthy();
   });
 });
+
+/**
+ * Mobilní drawer — kategorizovaná navigace (3 skupiny místo plochého seznamu).
+ * Cíl: na mobilu se menu nesmí rozbít a musí ukázat skupiny Hudba / Lidé / Kontext.
+ */
+test.describe("smoke — mobilní drawer", () => {
+  test.skip(({ viewport }) => (viewport?.width ?? 0) >= 768, "mobile only");
+
+  test("obsahuje 3 kategorizované skupiny", async ({ page }) => {
+    await page.route("**/_next/webpack-hmr**", (r) => r.abort());
+    await page.goto("/", { waitUntil: "domcontentloaded" });
+
+    // hamburger
+    await page.getByRole("button", { name: /menu|navigace/i }).first().click();
+    const nav = page.getByRole("navigation", { name: "Hlavní menu" });
+    await expect(nav).toBeVisible();
+
+    await expect(nav.getByRole("heading", { name: "Hudba" })).toBeVisible();
+    await expect(nav.getByRole("heading", { name: "Lidé a scéna" })).toBeVisible();
+    await expect(nav.getByRole("heading", { name: "Kontext" })).toBeVisible();
+
+    // nová routa, která v plochém menu chyběla
+    await expect(nav.getByRole("link", { name: "Producenti" })).toBeVisible();
+    await expect(nav.getByRole("link", { name: "Styly" })).toBeVisible();
+  });
+});
