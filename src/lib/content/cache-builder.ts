@@ -228,13 +228,21 @@ export function buildCache(entities: Map<string, UnifiedEntity>): void {
       list.push(edge.to);
     }
 
-    // Extra meta fields for rich display (exclude base fields)
+    // Extra meta fields for rich display (exclude base fields).
+    // POZOR: meta.json může obsahovat vlastní `extraMeta` klíč — ten se musí
+    // ROZBALIT (merge), ne zanořit, jinak vzniká extraMeta.extraMeta a
+    // flagy jako `noindex`/`isStub` se ztratí pro indexation engine.
     const fm = entity.meta as Record<string, unknown>;
     const extraMeta: Record<string, unknown> = {};
     for (const [key, value] of Object.entries(fm)) {
-      if (!['type', 'slug', 'title', 'description', 'publishedAt', 'updatedAt'].includes(key) && value !== undefined && value !== null) {
-        extraMeta[key] = value;
-      }
+      if (['type', 'slug', 'title', 'description', 'publishedAt', 'updatedAt', 'extraMeta'].includes(key)) continue;
+      if (value === undefined || value === null) continue;
+      extraMeta[key] = value;
+    }
+    // Rozbal vnořený extraMeta z meta.json (má přednost před top-level poli)
+    const nested = fm.extraMeta;
+    if (nested && typeof nested === "object" && !Array.isArray(nested)) {
+      Object.assign(extraMeta, nested as Record<string, unknown>);
     }
 
     // entities.json entry
