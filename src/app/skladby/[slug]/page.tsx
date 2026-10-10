@@ -14,9 +14,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const entity = readEntityById(id);
   if (!entity) return {};
 
+  // Generované skladby bez obsahu (import z tracklistů) = noindex, follow.
+  // Chrání před thin-content penalizací — tisíce holých stránek.
+  const extraMeta = (entity as { extraMeta?: Record<string, unknown> }).extraMeta ?? {};
+  const noindex =
+    extraMeta.noindex === true ||
+    extraMeta.isStub === true ||
+    extraMeta.status === "draft";
+
   return {
     title: `${entity.title} | 4rap.cz`,
     description: entity.description || `Skladba ${entity.title} na 4rap.cz`,
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
     alternates: {
       canonical: `https://4rap.cz${TYPE_ROUTE_MAP.track}/${entity.slug}`,
     },
