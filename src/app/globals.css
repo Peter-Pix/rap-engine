@@ -58,3 +58,20 @@ code, pre, .font-mono { font-family: var(--font-mono) !important; }
   --tw-prose-th-borders: rgba(255,255,255,0.15);
   --tw-prose-td-borders: rgba(255,255,255,0.08);
 }
+
+/* ── Mobile bottom-sheet (FilterSheet) ──────────────────────────────── */
+@keyframes sheetUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+@keyframes sheetFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [class*="animate-[sheetUp"], [class*="animate-[sheetFade"] {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}

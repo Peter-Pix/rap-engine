@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Input } from "@/components/ui/Input";
+import { FilterSheet } from "@/components/listing/FilterSheet";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 import { calculateAge, formatAge, calculateAlbumYears, formatAlbumYears } from "@/lib/content/age-utils";
 
@@ -65,6 +66,7 @@ export default function EntityListingClient({
     moods: [],
   });
   const [showFilters, setShowFilters] = useState(false);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
   // Top 100 by default for artist/track listings
   const type = entities[0]?.type;
   const supportsTopLimit = type === "artist" || type === "track";
@@ -194,6 +196,48 @@ export default function EntityListingClient({
     return `${prefix}/${e.slug}`;
   };
 
+  // Sdílené skupiny filtrů — používané desktop inline panelem i mobilním sheetem.
+  const filterGroups = (
+    <>
+      <FilterGroup
+        label="Žánry"
+        options={filters.genres}
+        active={activeFilters.genres}
+        onToggle={(id) => toggleFilter("genres", id)}
+      />
+      <FilterGroup
+        label="Styly"
+        options={filters.styles}
+        active={activeFilters.styles}
+        onToggle={(id) => toggleFilter("styles", id)}
+      />
+      <FilterGroup
+        label="Nálady"
+        options={filters.moods}
+        active={activeFilters.moods}
+        onToggle={(id) => toggleFilter("moods", id)}
+      />
+      <FilterGroup
+        label="Labely"
+        options={filters.labels}
+        active={activeFilters.labels}
+        onToggle={(id) => toggleFilter("labels", id)}
+      />
+      <FilterGroup
+        label="Lokality"
+        options={filters.locations}
+        active={activeFilters.locations}
+        onToggle={(id) => toggleFilter("locations", id)}
+      />
+      <FilterGroup
+        label="Scény"
+        options={filters.scenes}
+        active={activeFilters.scenes}
+        onToggle={(id) => toggleFilter("scenes", id)}
+      />
+    </>
+  );
+
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8">
       {/* Header */}
@@ -221,7 +265,14 @@ export default function EntityListingClient({
           />
         </div>
         <button
-          onClick={() => setShowFilters(!showFilters)}
+          onClick={() => {
+            // Mobil (<640px) → bottom-sheet; desktop → inline panel
+            if (window.matchMedia("(max-width: 639px)").matches) {
+              setIsSheetOpen(true);
+            } else {
+              setShowFilters(!showFilters);
+            }
+          }}
           className="px-4 py-2.5 rounded-lg bg-zinc-800 text-zinc-300 text-sm font-medium hover:bg-zinc-700 transition-colors flex items-center gap-2 shrink-0"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -243,45 +294,10 @@ export default function EntityListingClient({
         )}
       </div>
 
-      {/* Filters panel */}
+      {/* Filters panel — desktop inline (mobil má FilterSheet) */}
       {showFilters && (
-        <div className="mb-6 p-4 rounded-xl border border-white/[0.08] bg-zinc-900/50 space-y-4">
-          <FilterGroup
-            label="Žánry"
-            options={filters.genres}
-            active={activeFilters.genres}
-            onToggle={(id) => toggleFilter("genres", id)}
-          />
-          <FilterGroup
-            label="Styly"
-            options={filters.styles}
-            active={activeFilters.styles}
-            onToggle={(id) => toggleFilter("styles", id)}
-          />
-          <FilterGroup
-            label="Nálady"
-            options={filters.moods}
-            active={activeFilters.moods}
-            onToggle={(id) => toggleFilter("moods", id)}
-          />
-          <FilterGroup
-            label="Labely"
-            options={filters.labels}
-            active={activeFilters.labels}
-            onToggle={(id) => toggleFilter("labels", id)}
-          />
-          <FilterGroup
-            label="Lokality"
-            options={filters.locations}
-            active={activeFilters.locations}
-            onToggle={(id) => toggleFilter("locations", id)}
-          />
-          <FilterGroup
-            label="Scény"
-            options={filters.scenes}
-            active={activeFilters.scenes}
-            onToggle={(id) => toggleFilter("scenes", id)}
-          />
+        <div className="hidden sm:block mb-6 p-4 rounded-xl border border-white/[0.08] bg-zinc-900/50 space-y-4">
+{filterGroups}
         </div>
       )}
 
@@ -388,6 +404,17 @@ export default function EntityListingClient({
           <p className="text-zinc-600 text-sm">Zkus změnit hledání nebo filtry</p>
         </div>
       )}
+
+      {/* Mobilní filtrační sheet (iOS bottom-sheet) */}
+      <FilterSheet
+        open={isSheetOpen}
+        onClose={() => setIsSheetOpen(false)}
+        resultCount={filtered.length}
+        activeCount={activeCount}
+        onClear={clearFilters}
+      >
+        {filterGroups}
+      </FilterSheet>
     </div>
   );
 }
