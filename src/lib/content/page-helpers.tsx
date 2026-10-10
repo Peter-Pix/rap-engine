@@ -47,10 +47,13 @@ export function generatePageMetadata(
   const entity = readEntityById(id);
   if (!entity) return null;
 
-  // Draft entities = noindex, follow (Google can still discover via links, but won't index)
+  // Draft / stub / explicit-noindex entity = noindex, follow (Google can still
+  // discover via links, ale neindexuje). Používá se pro entity bez obsahu —
+  // např. tisíce skladeb importovaných z tracklistů, dokud nedostanou popis.
   const extraMeta = (entity as any).extraMeta || {};
   const isDraft = extraMeta.status === "draft" ||
                    extraMeta.isStub === true ||
+                   extraMeta.noindex === true ||
                    (entity as any).status === "draft";
 
   // OG image — pro artisty ber z getArtistImage (centrální map), pro alba z entity.image,
