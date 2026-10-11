@@ -21,6 +21,7 @@ const ROOT = path.resolve(__dirname, "..");
 const ENTITIES = path.join(ROOT, "content", "entities");
 const DRY_RUN = process.env.DRY_RUN !== "0";
 const ONLY_TYPE = process.env.TAX_TYPE; // volitelně filtr
+const FORCE = process.env.FORCE === "1"; // přegenerovat i entity s obsahem
 
 // ─── Typy hran pro každou taxonomii ────────────────────────────────────────
 const REL_FOR: Record<string, string> = {
@@ -33,10 +34,19 @@ const REL_FOR: Record<string, string> = {
 
 const LABEL_FOR: Record<string, string> = {
   theme: "téma",
-  mood: "náladu",
+  mood: "nálada",
   style: "styl",
   genre: "žánr",
-  scene: "scénu",
+  scene: "scéna",
+};
+
+/** Skloňování: "s tímto <tvarem>" (instrumentál). */
+const INSTR_FOR: Record<string, string> = {
+  theme: "tématem",
+  mood: "náladou",
+  style: "stylem",
+  genre: "žánrem",
+  scene: "scénou",
 };
 
 const ROUTE_FOR: Record<string, string> = {
@@ -154,7 +164,7 @@ function mdxFor(id: string, type: string, s: ReturnType<typeof statsFor>): strin
   // 2) Statistiky — reálná čísla
   parts.push(
     `## Zastoupení\n\n` +
-      `- **${s.trackCount} skladeb** s tímto ${label}\n` +
+      `- **${s.trackCount} skladeb** s tímto ${INSTR_FOR[type]}\n` +
       `- **${s.artistCount} interpretů**\n` +
       `- **${s.albumCount} alb**`,
   );
@@ -207,7 +217,7 @@ for (const type of types) {
   for (const e of Object.values(ents).filter((x: any) => x.type === type)) {
     // GATE 0: entita už má kvalitní obsah → nechat být (nepřepisovat!)
     const bodyLen = existingBodyLength(e.id);
-    if (bodyLen >= 200) {
+    if (bodyLen >= 200 && !FORCE) {
       results.push({ id: e.id, type, title: e.title, len: bodyLen, tracks: 0, skip: "už má obsah" });
       continue;
     }
@@ -229,10 +239,17 @@ for (const type of types) {
     // Update meta: description (lepší) + noindex pryč (má obsah)
     const metaPath = path.join(dir, "meta.json");
     const meta = JSON.parse(fs.readFileSync(metaPath, "utf8"));
-    meta.description = meta.description && !/stub|bude doplněn|^Téma |^Mood |^Styl |^Scéna |^Žánr /i.test(meta.description)
+    const descOk = meta.description && !/stub|bude doplněn|^Téma |^Mood |^Styl |^Scéna |^Žánr |— náladu|— téma v/i.test(meta.description);
+    meta.description = descOk
       ? meta.description
-      : `${e.title} — ${LABEL_FOR[type]} v českém a slovenském rapu. ${s.trackCount} skladeb od ${s.artistCount} interpretů.`;
+      : `${e.title} — ${LABEL_FOR[type]} v českém a slovenském rapu: ${s.trackCount} skladeb od ${s.artistCount} interpretů.`;
     if (meta.extraMeta?.noindex === true) delete meta.extraMeta.noindex;
+    // Stale stub flagy zablokují indexaci i u bohatého obsahu → smazat.
+    // Pozor: isStub/stubReason jsou na TOP-LEVEL meta.json (ne v extraMeta).
+    if (meta.extraMeta?.isStub === true) delete meta.extraMeta.isStub;
+    if (meta.extraMeta?.phase3GateFail) delete meta.extraMeta.phase3GateFail;
+    if (meta.isStub === true) delete meta.isStub;
+    if (meta.stubReason) delete meta.stubReason;
     fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + "\n");
   }
 }

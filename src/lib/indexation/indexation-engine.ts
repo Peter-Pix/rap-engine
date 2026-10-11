@@ -27,6 +27,7 @@ import { DEFAULT_CONFIG, validateConfig, getAuthoritativeThreshold } from "./con
 function resolveState(
   score: number,
   entity: CacheEntity,
+  contentLength = 0,
 ): IndexationState {
   const extraMeta = entity.extraMeta ?? {};
   const isStub = extraMeta.isStub === true;
@@ -39,6 +40,14 @@ function resolveState(
   if (isStub) return IndexationState.NOINDEX;
   // Private flag (future use)
   if (extraMeta.private === true) return IndexationState.PRIVATE;
+
+  // Hard gate: prázdný obsah NIKDY neindexovat — ani s dobrými vazbami.
+  // Zásada "žádné prázdné stránky": thin content (< 200 znaků těla) = NOINDEX.
+  // Netýká se article/event (ty mají vlastní obsah) ani entit s profilem.
+  if (contentLength > 0 && contentLength < 200) {
+    const exempt = entity.type === "article" || entity.type === "event";
+    if (!exempt) return IndexationState.NOINDEX;
+  }
 
   // Score-based gates with per-type authoritative threshold
   const authThreshold = getAuthoritativeThreshold(entity.type);
@@ -91,7 +100,7 @@ export function runIndexationEngine(
     const inboundIds = inbound[id] ?? [];
     const signals = extractSignals(entity, inboundIds);
     const seoScore = computeSeoScore(signals, fullConfig.weights);
-    const state = resolveState(seoScore, entity);
+    const state = resolveState(seoScore, entity, signals.contentLength);
     const graphUpdatedAt = computeGraphLastMod(entity, entities);
 
     scored.push({
