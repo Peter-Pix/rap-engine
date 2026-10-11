@@ -163,12 +163,17 @@ export async function ask(question: string, opts: AskOptions = {}): Promise<AskR
       "Zkus se zeptat jinak — například na konkrétní skladbu, interpreta nebo album.";
   }
 
-  const sources = focus.map((f) => ({
-    id: f.id,
-    title: entities[f.id]?.title ?? f.title,
-    type: entities[f.id]?.type ?? f.type,
-    url: entityUrl(entities[f.id]?.type ?? f.type, entities[f.id]?.slug ?? f.slug),
-  }));
+  // Deduplikace zdrojů podle URL (stejný název alba/artista se nesmí opakovat).
+  const seenUrls = new Set<string>();
+  const sources: AskResult["sources"] = [];
+  for (const f of focus) {
+    const e = entities[f.id];
+    if (!e) continue;
+    const url = entityUrl(e.type, e.slug);
+    if (seenUrls.has(url)) continue;
+    seenUrls.add(url);
+    sources.push({ id: e.id, title: e.title, type: e.type, url });
+  }
 
   return {
     answer: finalAnswer,

@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { SearchBar } from "@/components/search/SearchBar";
+import { AskPanel } from "@/components/ai/AskPanel";
 
 /** Desktop lišta — hlavní vstupy (drží se krátká). */
 const NAV = [
@@ -204,6 +205,19 @@ function MobileSearchOverlay({ onClose }: { onClose: () => void }) {
 // ─── Main Header ────────────────────────────────────────────────────────
 
 export function Header() {
+  const [isAskOpen, setAskOpen] = useState(false);
+
+  // ⌘⇧A / Ctrl+Shift+A → otevři AI panel
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === "a" || e.key === "A")) {
+        e.preventDefault();
+        setAskOpen((v) => !v);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
@@ -268,6 +282,17 @@ export function Header() {
           <div className="hidden md:block ml-auto">
             <div className="w-64 lg:w-80">
               <SearchBar />
+              <button
+                type="button"
+                onClick={() => setAskOpen(true)}
+                title="Zeptej se databáze (⌘⇧A)"
+                className="glass glass-hover flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium text-[var(--re-accent)] hover:text-[#e4a843] transition-colors shrink-0"
+              >
+                <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={1.8}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z" />
+                </svg>
+                Zeptej se
+              </button>
             </div>
           </div>
 
@@ -344,6 +369,9 @@ export function Header() {
 
       {/* Mobile search overlay */}
       {isSearchOpen && <MobileSearchOverlay onClose={closeSearch} />}
+
+      {/* AI panel (⌘⇧A) */}
+      <AskPanel open={isAskOpen} onClose={() => setAskOpen(false)} />
     </header>
   );
 }
