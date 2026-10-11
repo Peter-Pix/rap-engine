@@ -25,8 +25,25 @@ const ROOT = path.resolve(__dirname, "..");
 const ENTITIES = path.join(ROOT, "content", "entities");
 const DRY_RUN = process.env.DRY_RUN !== "0";
 
-/** Ruční whitelist — skupiny/přezdívky, kde se jména liší od jmen členů v DB. */
-const GROUP_ALIASES = new Set(["album_kf-ako-rolls", "album_bozk-na-rozlucku", "album_rap-n-roll", "album_umenie-zit"]);
+/**
+ * Ruční whitelist CZ/SK rap alb, kde jméno track artistu nesedí s DB
+ * (skupiny, labely, přezdívky) — ověřeno poslechem titulů 11. 10. 2026.
+ */
+const GROUP_ALIASES = new Set([
+  // Kontrafakt = Ego + Rytmus
+  "album_kf-ako-rolls", "album_bozk-na-rozlucku", "album_e-r-a", "album_real-newz",
+  // P T K = PTK
+  "album_27", "album_silent-kill", "album_trappin-lonely", "album_golden-hill",
+  "album_karakoram", "album_karakoram-dlc",
+  // MEIZMEN
+  "album_projekt-ruznejch-stavu", "album_strasnickej-2en", "album_strasnickej-sen", "album_vitr-dest-a-slunce",
+  // labely / přezdívky
+  "album_label-ty-nikdy", "album_krtek-money-life", "album_bandana", "album_navzdy",
+  "album_zkusenosti", "album_daleko-bliz", "album_mam-to", "album_posledni",
+  "album_teraz-uz-naozaj", "album_original", "album_diamant", "album_20-000-mil-pod-morom",
+  // ostatní ověřené
+  "album_rap-n-roll", "album_umenie-zit",
+]);
 
 const norm = (s: string) =>
   (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
