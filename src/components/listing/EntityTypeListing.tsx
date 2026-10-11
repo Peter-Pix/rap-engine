@@ -124,5 +124,5 @@ export function createListingPage({ type, title, description }: PageProps) {
 }
 
 export function createListingMetadata(title: string, description: string): Metadata {
-  return { title, description };
+  return { title, description, robots: { index: true, follow: true } };
 }

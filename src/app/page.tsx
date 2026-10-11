@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { readEntities, readGraph, readGraphLayout } from "@/lib/content/cache-reader";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
@@ -334,6 +335,10 @@ function buildHomeJsonLd(
 }
 
 // ─── Homepage ─────────────────────────────────────────────────────────────
+
+export const metadata: Metadata = {
+  robots: { index: true, follow: true },
+};
 
 export default function HomePage() {
   const entities = readEntities();
