@@ -48,7 +48,7 @@ export function DatabaseStats({ counts }: DatabaseStatsProps) {
 
   return (
     <section className="border-t border-white/[0.08] pt-10 pb-16 mb-12">
-      <p className="text-[10px] font-mono uppercase tracking-[0.3em] text-white/35 mb-6">
+      <p className="text-[11px] font-mono uppercase tracking-[0.3em] text-white/35 mb-6">
         Databáze obsahuje
       </p>
 

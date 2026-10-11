@@ -267,7 +267,7 @@ export function Header() {
             <span className="font-sans text-2xl font-black italic tracking-tight leading-none text-white">
               4RAP<span className="text-[#c8962e]">.</span>
             </span>
-            <span className="hidden lg:inline-block text-[10px] font-mono uppercase tracking-widest text-zinc-500 border border-zinc-700 px-1.5 py-0.5 rounded">
+            <span className="hidden lg:inline-block text-[11px] font-mono uppercase tracking-widest text-zinc-500 border border-zinc-700 px-1.5 py-0.5 rounded">
               Beta
             </span>
           </Link>
@@ -295,7 +295,7 @@ export function Header() {
               </svg>
               Zeptej se
               <span
-                className="text-[9px] font-semibold uppercase tracking-wider leading-none px-1.5 py-[3px] rounded-full border"
+                className="text-[11px] font-semibold uppercase tracking-wider leading-none px-1.5 py-[3px] rounded-full border"
                 style={{
                   background: "var(--badge-bg)",
                   borderColor: "var(--badge-border)",

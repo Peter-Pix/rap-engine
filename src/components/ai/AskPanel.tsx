@@ -248,7 +248,7 @@ export function AskPanel({ open, onClose }: AskPanelProps) {
         <div className="flex items-center gap-2.5 px-5 py-3.5 border-b border-[var(--re-border)]">
           <span className="text-[var(--re-accent)]"><IconSpark /></span>
           <span className="text-sm font-semibold text-white/90">Zeptej se databáze</span>
-          <span className="ml-1 text-[10px] uppercase tracking-wider text-white/35 border border-[var(--re-border)] rounded px-1.5 py-0.5">
+          <span className="ml-1 text-[11px] uppercase tracking-wider text-white/35 border border-[var(--re-border)] rounded px-1.5 py-0.5">
             AI
           </span>
           <button
@@ -324,7 +324,7 @@ export function AskPanel({ open, onClose }: AskPanelProps) {
                   {/* Citace */}
                   {!t.streaming && t.sources.length > 0 && (
                     <div className="mt-2.5 flex flex-wrap gap-1.5">
-                      <span className="text-[10px] uppercase tracking-wider text-white/30 self-center mr-0.5">
+                      <span className="text-[11px] uppercase tracking-wider text-white/30 self-center mr-0.5">
                         Zdroje
                       </span>
                       {t.sources.map((s) => (
@@ -348,7 +348,7 @@ export function AskPanel({ open, onClose }: AskPanelProps) {
                   )}
 
                   {!t.streaming && t.latencyMs != null && (
-                    <p className="mt-1.5 text-[10px] text-white/25">
+                    <p className="mt-1.5 text-[11px] text-white/25">
                       {(t.latencyMs / 1000).toFixed(1)} s · ověřeno z {t.sources.length || "0"} entit
                     </p>
                   )}
@@ -385,7 +385,7 @@ export function AskPanel({ open, onClose }: AskPanelProps) {
               <IconSend />
             </button>
           </div>
-          <p className="mt-2 text-[10px] text-white/25 text-center">
+          <p className="mt-2 text-[11px] text-white/25 text-center">
             Odpovědi vychází jen z ověřených dat 4rap.cz · <Link href="/zeptej-se" onClick={onClose} className="hover:text-white/50 underline decoration-dotted">celá stránka</Link>
           </p>
         </form>

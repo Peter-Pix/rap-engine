@@ -24,7 +24,7 @@ export function EntityCard({
   tags,
   image,
 }: EntityCardProps) {
-  const color = ENTITY_TYPE_COLORS[type] ?? "#e4ff1a";
+  const color = ENTITY_TYPE_COLORS[type] ?? "var(--re-content-accent)";
   const typeLabel = ENTITY_TYPE_LABELS[type] ?? type.toUpperCase();
 
   return (
@@ -51,7 +51,7 @@ export function EntityCard({
         <div className="p-5">
         <div className="flex items-center gap-2 mb-3">
           <span
-            className="text-[9px] font-mono font-bold tracking-widest uppercase px-1.5 py-0.5 rounded-sm"
+            className="text-[11px] font-mono font-bold tracking-widest uppercase px-1.5 py-0.5 rounded-sm"
             style={{ color, backgroundColor: `${color}15` }}
           >
             {typeLabel}
@@ -77,7 +77,7 @@ export function EntityCard({
               .map((tag, i) => (
                 <span
                   key={`${tag}-${i}`}
-                  className="text-[10px] font-mono text-zinc-600 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded-sm"
+                  className="text-[11px] font-mono text-zinc-600 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded-sm"
                 >
                   {tag}
                 </span>

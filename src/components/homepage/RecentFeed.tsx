@@ -54,7 +54,7 @@ export function RecentFeed({ items }: RecentFeedProps) {
   return (
     <section className="mb-16">
       <div className="flex items-baseline justify-between mb-5">
-        <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">
+        <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35">
           Poslední přidané profily
         </h2>
       </div>
@@ -68,7 +68,7 @@ export function RecentFeed({ items }: RecentFeedProps) {
               href={route}
               className="grid grid-cols-[88px_1fr_auto] sm:grid-cols-[100px_1fr_auto] gap-3 sm:gap-4 items-center py-3 px-3 -mx-3 border-b border-white/[0.06] transition-colors hover:bg-white/[0.04]"
             >
-              <span className="text-[9px] font-mono uppercase tracking-[0.2em] text-white/40">
+              <span className="text-[11px] font-mono uppercase tracking-[0.2em] text-white/40">
                 {label}
               </span>
               <div className="min-w-0">
@@ -79,7 +79,7 @@ export function RecentFeed({ items }: RecentFeedProps) {
                   <div className="text-xs text-white/50 truncate">{item.subtitle}</div>
                 )}
               </div>
-              <span className="text-[10px] font-mono text-white/35 tabular-nums">
+              <span className="text-[11px] font-mono text-white/35 tabular-nums">
                 {formatDate(item.publishedAt)}
               </span>
             </Link>

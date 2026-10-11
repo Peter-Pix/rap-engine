@@ -279,7 +279,7 @@ export default function EntityListingClient({
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
           </svg>
           Filtry {activeCount > 0 && (
-            <span className="bg-[#e4ff1a] text-zinc-900 text-xs font-bold rounded-full px-1.5 py-0.5">
+            <span className="bg-[var(--re-content-accent)] text-zinc-900 text-xs font-bold rounded-full px-1.5 py-0.5">
               {activeCount}
             </span>
           )}
@@ -357,7 +357,7 @@ export default function EntityListingClient({
                     {entity.type === "artist" && entity.birthDate && (() => {
                       const age = calculateAge(entity.birthDate);
                       if (age !== null) return (
-                        <span className="text-[10px] font-mono text-zinc-400 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded" title={`${formatAge(age)}`}>
+                        <span className="text-[11px] font-mono text-zinc-400 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded" title={`${formatAge(age)}`}>
                           {age} {age === 1 ? 'rok' : age <= 4 ? 'roky' : 'let'}
                         </span>
                       );
@@ -366,14 +366,14 @@ export default function EntityListingClient({
                     {entity.type === "album" && entity.year && (() => {
                       const albumYears = calculateAlbumYears(entity.year);
                       if (albumYears !== null) return (
-                        <span className="text-[10px] font-mono text-zinc-400 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded" title={`${formatAlbumYears(albumYears)}`}>
+                        <span className="text-[11px] font-mono text-zinc-400 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded" title={`${formatAlbumYears(albumYears)}`}>
                           {entity.year}
                         </span>
                       );
                       return null;
                     })()}
                     {entity.rapperCount !== undefined && entity.rapperCount > 0 && (
-                      <span className="text-[10px] font-mono text-zinc-500 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded">
+                      <span className="text-[11px] font-mono text-zinc-500 bg-white/[0.04] border border-white/[0.06] px-1.5 py-0.5 rounded">
                         {entity.rapperCount}×
                       </span>
                     )}
@@ -387,7 +387,7 @@ export default function EntityListingClient({
                     {Array.from(new Set(entity.outbound.HAS_GENRE)).slice(0, 3).map((genreId) => (
                       <span
                         key={genreId}
-                        className="text-[9px] font-mono text-zinc-600 bg-white/[0.04] px-1.5 py-0.5 rounded-sm"
+                        className="text-[11px] font-mono text-zinc-600 bg-white/[0.04] px-1.5 py-0.5 rounded-sm"
                       >
                         {genreId.replace("genre_", "")}
                       </span>
@@ -446,7 +446,7 @@ function FilterGroup({
               onClick={() => onToggle(opt.id)}
               className={`text-xs px-2.5 py-1 rounded-full transition-all ${
                 isActive
-                  ? "bg-[#e4ff1a] text-zinc-900 font-bold"
+                  ? "bg-[var(--re-content-accent)] text-zinc-900 font-bold"
                   : "bg-zinc-800 text-zinc-400 hover:bg-zinc-700 hover:text-zinc-300"
               }`}
             >

@@ -32,14 +32,14 @@ export function DiscoverScene({ cities, labels }: DiscoverSceneProps) {
   return (
     <section className="mb-16">
       <div className="flex items-baseline justify-between mb-5">
-        <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">
+        <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35">
           Objev scénu
         </h2>
       </div>
 
       {/* Cities */}
       <div className="mb-6">
-        <h3 className="text-[9px] font-mono uppercase tracking-[0.3em] text-white/25 mb-2">
+        <h3 className="text-[11px] font-mono uppercase tracking-[0.3em] text-white/25 mb-2">
           Města
         </h3>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-[2px]">
@@ -62,7 +62,7 @@ export function DiscoverScene({ cities, labels }: DiscoverSceneProps) {
 
       {/* Labels */}
       <div>
-        <h3 className="text-[9px] font-mono uppercase tracking-[0.3em] text-white/25 mb-2">
+        <h3 className="text-[11px] font-mono uppercase tracking-[0.3em] text-white/25 mb-2">
           Labely
         </h3>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-[2px]">

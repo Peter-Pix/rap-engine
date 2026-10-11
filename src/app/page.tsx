@@ -462,7 +462,7 @@ export default function HomePage() {
         <section className="mb-12 sm:mb-16">
           <div className="flex items-baseline justify-between mb-5">
             <div>
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35 mb-1">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35 mb-1">
                 Nejpropojenější interpreti
               </h2>
               <p className="text-xs text-white/40">
@@ -567,7 +567,7 @@ async function UpcomingEventsSection() {
   if (events.length === 0) {
     return (
       <section className="mb-12 sm:mb-16">
-        <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35 mb-5">Nadcházející akce</h2>
+        <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35 mb-5">Nadcházející akce</h2>
         <div className="py-8 border-t border-white/[0.06]">
           <p className="text-sm text-white/40">Žádné nadcházející akce.</p>
         </div>
@@ -578,7 +578,7 @@ async function UpcomingEventsSection() {
   return (
     <section className="mb-12 sm:mb-16">
       <div className="flex items-baseline justify-between mb-5">
-        <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">Nadcházející akce</h2>
+        <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35">Nadcházející akce</h2>
         <span className="text-[11px] font-mono uppercase tracking-[0.15em] text-white/40">zdroj: 44rap</span>
       </div>
       <div className="space-y-[2px]">
@@ -602,14 +602,14 @@ async function UpcomingEventsSection() {
             >
               <div className="flex flex-col items-center justify-center w-12 sm:w-16 py-1.5 bg-white/[0.04] group-hover:bg-[#c8962e]/10 transition-colors">
                 <span className="text-lg font-bold text-white leading-none">{day}</span>
-                <span className="text-[9px] font-mono uppercase text-white/50 tracking-wider">{month}</span>
+                <span className="text-[11px] font-mono uppercase text-white/50 tracking-wider">{month}</span>
               </div>
               <div className="min-w-0">
                 <div className="flex items-center gap-2 mb-0.5">
                   <span className={`w-1.5 h-1.5 rounded-full ${eventTypeColor}`} />
-                  <span className="text-[10px] font-mono uppercase tracking-wider text-white/40">{e.event_type}</span>
+                  <span className="text-[11px] font-mono uppercase tracking-wider text-white/40">{e.event_type}</span>
                   {e.rap_relevance_score && (
-                    <span className="text-[10px] font-mono text-[#c8962e]">★ {e.rap_relevance_score.toFixed(0)}</span>
+                    <span className="text-[11px] font-mono text-[#c8962e]">★ {e.rap_relevance_score.toFixed(0)}</span>
                   )}
                 </div>
                 <h3 className="text-sm font-semibold text-white truncate">{e.title}</h3>
@@ -618,7 +618,7 @@ async function UpcomingEventsSection() {
                   {e.headliners?.length ? ` · ${e.headliners.join(", ")}` : ""}
                 </p>
               </div>
-              <div className="text-[10px] font-mono uppercase tracking-wider text-white/40 group-hover:text-[#c8962e] transition-colors">
+              <div className="text-[11px] font-mono uppercase tracking-wider text-white/40 group-hover:text-[#c8962e] transition-colors">
                 {e.ticket_url ? "Vstupenky →" : ""}
               </div>
             </a>

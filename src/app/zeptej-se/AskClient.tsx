@@ -194,7 +194,7 @@ export function AskClient() {
             <div className="flex items-center gap-2 mb-1">
               <span aria-hidden className="text-sm">🧪</span>
               <span
-                className="text-[10px] font-semibold uppercase tracking-widest"
+                className="text-[11px] font-semibold uppercase tracking-widest"
                 style={{ color: "var(--badge-text)" }}
               >
                 Experimentální funkce
@@ -254,7 +254,7 @@ export function AskClient() {
                     )}
                     {!t.streaming && t.sources.length > 0 && (
                       <div className="mt-3 flex flex-wrap gap-2">
-                        <span className="text-[10px] uppercase tracking-wider text-white/30 self-center mr-1">Zdroje</span>
+                        <span className="text-[11px] uppercase tracking-wider text-white/30 self-center mr-1">Zdroje</span>
                         {t.sources.map((s) => (
                           <Link key={s.id} href={s.url} className="inline-flex items-center gap-1.5 glass glass-hover px-2.5 py-1.5 rounded-lg text-xs text-white/70 hover:text-white transition-colors">
                             <span className="w-1.5 h-1.5 rounded-full" style={{ background: ENTITY_TYPE_COLORS[s.type as EntityType] ?? "#888" }} />

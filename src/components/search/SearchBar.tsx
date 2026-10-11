@@ -188,7 +188,7 @@ export function SearchBar({ onResultClick }: SearchBarProps = {}) {
           autoComplete="off"
         />
 
-        <kbd className="hidden sm:flex absolute right-2 top-1/2 -translate-y-1/2 text-[10px] font-mono font-bold text-zinc-600 bg-zinc-800/60 border border-zinc-700 rounded px-1.5 py-0.5 items-center pointer-events-none">
+        <kbd className="hidden sm:flex absolute right-2 top-1/2 -translate-y-1/2 text-[11px] font-mono font-bold text-zinc-600 bg-zinc-800/60 border border-zinc-700 rounded px-1.5 py-0.5 items-center pointer-events-none">
           ⌘K
         </kbd>
       </div>
@@ -214,7 +214,7 @@ export function SearchBar({ onResultClick }: SearchBarProps = {}) {
               <ul className="max-h-96 overflow-y-auto">
                 {results.map((r, idx) => {
                   const isActive = idx === activeIdx;
-                  const color = ENTITY_TYPE_COLORS[r.type] ?? "#e4ff1a";
+                  const color = ENTITY_TYPE_COLORS[r.type] ?? "var(--re-content-accent)";
                   return (
                     <li key={r.id}>
                       <Link
@@ -233,7 +233,7 @@ export function SearchBar({ onResultClick }: SearchBarProps = {}) {
                         }`}
                       >
                         <span
-                          className="text-[9px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0"
+                          className="text-[11px] font-mono font-bold uppercase tracking-widest px-1.5 py-0.5 rounded-sm mt-0.5 shrink-0"
                           style={{ color, backgroundColor: `${color}15` }}
                         >
                           {ENTITY_TYPE_LABELS[r.type]}
@@ -259,7 +259,7 @@ export function SearchBar({ onResultClick }: SearchBarProps = {}) {
                   setQuery("");
                   onResultClick?.();
                 }}
-                className="block border-t border-white/[0.06] px-3 py-2 text-xs font-mono text-zinc-500 hover:text-[#e4ff1a] hover:bg-white/[0.04] transition-colors"
+                className="block border-t border-white/[0.06] px-3 py-2 text-xs font-mono text-zinc-500 hover:text-[var(--re-content-accent)] hover:bg-white/[0.04] transition-colors"
               >
                 Zobrazit všechny výsledky pro &ldquo;{query}&rdquo; →
               </Link>

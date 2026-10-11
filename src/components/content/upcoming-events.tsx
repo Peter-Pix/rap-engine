@@ -88,16 +88,16 @@ export async function UpcomingEventsForArtist({ artistName }: { artistName: stri
             >
               <div className="flex flex-col items-center justify-center w-12 py-1 bg-white/[0.04] group-hover:bg-[#c8962e]/10 transition-colors">
                 <span className="text-base font-bold text-white leading-none">{day}</span>
-                <span className="text-[9px] font-mono uppercase text-white/50 tracking-wider">{month}</span>
+                <span className="text-[11px] font-mono uppercase text-white/50 tracking-wider">{month}</span>
               </div>
               <div className="min-w-0">
                 <div className="flex items-center gap-2 mb-0.5">
                   <span className={`w-1.5 h-1.5 rounded-full ${eventTypeColor}`} />
-                  <span className="text-[10px] font-mono uppercase tracking-wider text-white/40">
+                  <span className="text-[11px] font-mono uppercase tracking-wider text-white/40">
                     {e.event_type}
                   </span>
                   {isHeadliner && (
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-[#c8962e] font-bold">
+                    <span className="text-[11px] font-mono uppercase tracking-wider text-[#c8962e] font-bold">
                       Headliner
                     </span>
                   )}
@@ -107,14 +107,14 @@ export async function UpcomingEventsForArtist({ artistName }: { artistName: stri
                   {e.venue}, {e.city}
                 </p>
               </div>
-              <div className="text-[10px] font-mono uppercase tracking-wider text-white/40 group-hover:text-[#c8962e] transition-colors">
+              <div className="text-[11px] font-mono uppercase tracking-wider text-white/40 group-hover:text-[#c8962e] transition-colors">
                 {e.ticket_url ? "Vstupenky →" : ""}
               </div>
             </a>
           );
         })}
       </div>
-      <p className="mt-4 text-[10px] font-mono text-white/30">zdroj: 44rap</p>
+      <p className="mt-4 text-[11px] font-mono text-white/30">zdroj: 44rap</p>
     </section>
   );
 }

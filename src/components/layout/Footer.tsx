@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className="mt-24 border-t border-white/[0.06] bg-zinc-950">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="font-sans text-lg font-black italic tracking-tight leading-none text-white">
               4RAP<span className="text-[#c8962e]">.</span>

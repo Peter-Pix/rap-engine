@@ -332,7 +332,7 @@ export async function EntityPage({
             <>
               {profile.careerSummary && (
                 <section>
-                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                     Kariéra
                   </h2>
                   <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
@@ -343,7 +343,7 @@ export async function EntityPage({
 
               {profile.whatMakesUnique && (
                 <section>
-                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                     V čem je jiný
                   </h2>
                   <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
@@ -354,7 +354,7 @@ export async function EntityPage({
 
               {profile.influence && (
                 <section>
-                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                     Vliv a dopad
                   </h2>
                   <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
@@ -365,7 +365,7 @@ export async function EntityPage({
 
               {profile.controversy && (
                 <section>
-                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                     Kontroverze
                   </h2>
                   <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
@@ -376,7 +376,7 @@ export async function EntityPage({
 
               {profile.generationContext && (
                 <section>
-                  <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                     Generační kontext
                   </h2>
                   <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
@@ -389,7 +389,7 @@ export async function EntityPage({
                 Array.isArray(profile.funFacts) &&
                 (profile.funFacts as string[]).length > 0 && (
                   <section>
-                    <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                    <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                       Fakta a zajímavosti
                     </h2>
                     <ol className="space-y-3">
@@ -410,7 +410,7 @@ export async function EntityPage({
           {/* ── Similar Artists ───────────────────────────────────────── */}
           {similar.length > 0 && (
             <section data-jump-section data-jump-label="Podobní">
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Podobní umělci
               </h2>
               <div className="flex flex-wrap gap-x-6 gap-y-1">
@@ -430,7 +430,7 @@ export async function EntityPage({
           {/* ── Related Entities ──────────────────────────────────────── */}
           {related.length > 0 && (
             <section data-jump-section data-jump-label="Související">
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Související
               </h2>
               <div className="flex flex-wrap gap-x-5 gap-y-1">
@@ -451,7 +451,7 @@ export async function EntityPage({
           {/* ── Backlinks ─────────────────────────────────────────────── */}
           {inboundIds.length > 0 && (
             <section data-jump-section data-jump-label="Odkazují sem">
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Odkazují sem ({inboundIds.length})
               </h2>
               <div className="flex flex-wrap gap-x-5 gap-y-1">
@@ -476,7 +476,7 @@ export async function EntityPage({
           {/* Info */}
           {em.realName || em.origin || em.label || em.activeSince || em.birthDate ? (
             <section data-jump-section data-jump-label="Info">
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Info
               </h2>
               <dl className="space-y-2.5 text-sm">
@@ -517,7 +517,7 @@ export async function EntityPage({
           {/* Style tags */}
           {profile?.styleTags && Array.isArray(profile.styleTags) && (profile.styleTags as string[]).length > 0 && (
             <section data-jump-section data-jump-label="Žánry">
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Žánry
               </h2>
               <p className="text-sm text-white/75 leading-relaxed">
@@ -529,7 +529,7 @@ export async function EntityPage({
           {/* Themes */}
           {profile?.themes && Array.isArray(profile.themes) && (profile.themes as string[]).length > 0 && (
             <section data-jump-section data-jump-label="Témata">
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Témata
               </h2>
               <p className="text-sm text-white/75 leading-relaxed">
@@ -569,7 +569,7 @@ export async function EntityPage({
 
             return (
               <section>
-                <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                   Klíčová alba
                 </h2>
                 <div className="grid grid-cols-2 gap-3">
@@ -606,7 +606,7 @@ export async function EntityPage({
                           {album.title}
                         </div>
                         {album.year && (
-                          <div className="text-[10px] font-mono text-white/40 mt-0.5">
+                          <div className="text-[11px] font-mono text-white/40 mt-0.5">
                             {album.year}
                           </div>
                         )}
@@ -658,7 +658,7 @@ export async function EntityPage({
 
             return (
               <section>
-                <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                   Klíčové tracky
                 </h2>
                 <ol className="space-y-1">
@@ -683,7 +683,7 @@ export async function EntityPage({
 
           {/* Graph stats */}
           <section>
-            <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+            <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
               V síti
             </h2>
             <p className="text-sm text-white/50">{totalConnections} vazeb · {inboundIds.length} odkazů</p>
@@ -692,13 +692,13 @@ export async function EntityPage({
           {/* Relations */}
           {relations.length > 0 && (
             <section>
-              <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
                 Vazby
               </h2>
               <div className="space-y-3">
                 {relations.map(({ key, label, targets }) => (
                   <div key={key}>
-                    <dt className="text-white/30 text-[10px] font-mono uppercase tracking-wide mb-1.5">
+                    <dt className="text-white/30 text-[11px] font-mono uppercase tracking-wide mb-1.5">
                       {label}
                     </dt>
                     <dd className="flex flex-wrap gap-x-2">

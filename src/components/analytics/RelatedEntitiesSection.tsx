@@ -52,7 +52,7 @@ export function RelatedEntitiesSection({
               }
             >
               <span className="font-medium text-white">{r.title}</span>
-              <span className="text-[10px] font-mono text-white/50">
+              <span className="text-[11px] font-mono text-white/50">
                 {getEntityLabel(r.type)}
               </span>
             </a>

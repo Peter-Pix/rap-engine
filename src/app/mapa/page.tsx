@@ -66,7 +66,7 @@ export default function MapPage() {
     <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8">
       <div className="mb-8">
         <h1 className="text-3xl sm:text-4xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-3">
-          Rapová <span className="text-[#e4ff1a]">mapa</span>
+          Rapová <span className="text-[var(--re-content-accent)]">mapa</span>
         </h1>
         <p className="text-zinc-400 text-sm max-w-2xl">
           Přehled míst, která tvarují českou a slovenskou rapovou scénu.
@@ -85,7 +85,7 @@ export default function MapPage() {
                 <h2 className="font-bold text-zinc-100 group-hover:text-white transition-colors">
                   {loc.title}
                 </h2>
-                <span className="text-[10px] font-mono text-zinc-600 bg-white/[0.04] px-1.5 py-0.5 rounded">
+                <span className="text-[11px] font-mono text-zinc-600 bg-white/[0.04] px-1.5 py-0.5 rounded">
                   {loc.artistCount}×
                 </span>
               </div>

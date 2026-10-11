@@ -103,7 +103,7 @@ function ConfidenceBadge({ score }: { score?: number }) {
   const color = score >= 90 ? "text-green-400" : score >= 70 ? "text-yellow-400" : "text-red-400";
   const label = score >= 90 ? "Vysoká" : score >= 70 ? "Střední" : "Nízká";
   return (
-    <span className={`inline-flex items-center gap-1 text-[10px] font-mono uppercase tracking-wider ${color}`}>
+    <span className={`inline-flex items-center gap-1 text-[11px] font-mono uppercase tracking-wider ${color}`}>
       <span className="inline-block w-1.5 h-1.5 rounded-full bg-current" />
       {label} ({Math.round(score)}%)
     </span>

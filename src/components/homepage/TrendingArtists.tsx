@@ -30,7 +30,7 @@ export function TrendingArtists({ artists }: TrendingArtistsProps) {
   return (
     <section className="mb-16">
       <div className="flex items-baseline justify-between mb-5">
-        <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">
+        <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35">
           Trendující interpreti
         </h2>
         <Link

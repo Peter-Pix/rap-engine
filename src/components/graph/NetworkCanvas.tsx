@@ -870,7 +870,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
 
       {/* Legend */}
       <div className="absolute top-2 left-2 sm:top-4 sm:left-4 bg-zinc-900/80 backdrop-blur-sm rounded-lg p-2 sm:p-3 border border-white/[0.08] max-w-[140px] sm:max-w-none">
-        <h3 className="text-[9px] sm:text-[10px] font-mono uppercase tracking-wider text-white/50 mb-1 sm:mb-2">
+        <h3 className="text-[11px] sm:text-[11px] font-mono uppercase tracking-wider text-white/50 mb-1 sm:mb-2">
           Typ entity
         </h3>
         <div className="space-y-1 sm:space-y-1.5">
@@ -888,7 +888,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
               </div>
             ))}
         </div>
-        <p className="text-[9px] sm:text-[10px] text-white/30 mt-2 sm:mt-3 leading-relaxed">
+        <p className="text-[11px] sm:text-[11px] text-white/30 mt-2 sm:mt-3 leading-relaxed">
           Klikni → detaily
           <br className="hidden sm:block" />
           <span className="sm:hidden"> · </span>Drag → posun
@@ -910,7 +910,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
             </h2>
           </div>
 
-          <p className="text-[10px] font-mono text-white/40 mb-3">
+          <p className="text-[11px] font-mono text-white/40 mb-3">
             {selectedNode.degree} vazeb · {selectedNode.type}
           </p>
 
@@ -922,7 +922,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
           </Link>
 
           <div className="space-y-1 max-h-48 overflow-y-auto">
-            <h3 className="text-[10px] font-mono uppercase tracking-wider text-white/40 mb-1">
+            <h3 className="text-[11px] font-mono uppercase tracking-wider text-white/40 mb-1">
               Propojení
             </h3>
             {selectedEdges.map((e) => {
@@ -937,7 +937,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
                     style={{ backgroundColor: TYPE_COLORS[other.type as EntityType] ?? "#ccc" }}
                   />
                   <span className="text-white/70">{other.title}</span>
-                  <span className="text-white/30 text-[9px]">({e.relation})</span>
+                  <span className="text-white/30 text-[11px]">({e.relation})</span>
                 </div>
               );
             })}
@@ -977,7 +977,7 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
               />
               <span className="text-xs sm:text-sm font-bold text-white truncate">{node.title}</span>
             </div>
-            <p className="text-[9px] sm:text-[10px] text-white/50 mt-0.5 sm:mt-1">
+            <p className="text-[11px] sm:text-[11px] text-white/50 mt-0.5 sm:mt-1">
               {node.type === "artist" ? "Interpret" : node.type === "album" ? "Album" : node.type === "label" ? "Label" : node.type === "location" ? "Město" : node.type} · {relatedCount} vazeb
             </p>
           </div>

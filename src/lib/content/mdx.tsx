@@ -197,7 +197,7 @@ export function renderMdx(content: string): React.ReactNode {
           note: "border-zinc-700 bg-zinc-900/40 text-zinc-300",
           warning: "border-yellow-600/50 bg-yellow-950/20 text-yellow-100",
           tip: "border-green-600/50 bg-green-950/20 text-green-100",
-          important: "border-[#e4ff1a]/50 bg-[#e4ff1a]/5 text-zinc-100",
+          important: "border-[var(--re-content-accent)]/50 bg-[var(--re-content-accent)]/5 text-zinc-100",
         };
         const labels: Record<string, string> = {
           note: "Poznámka",
@@ -211,7 +211,7 @@ export function renderMdx(content: string): React.ReactNode {
           React.createElement(
             "aside",
             { key: blocks.length, className: `my-6 border-l-4 rounded-r-md p-4 ${colors[variant] ?? colors.note}` },
-            React.createElement("div", { className: "text-[10px] font-mono uppercase tracking-widest text-zinc-500 mb-2" }, labels[variant] ?? variant),
+            React.createElement("div", { className: "text-[11px] font-mono uppercase tracking-widest text-zinc-500 mb-2" }, labels[variant] ?? variant),
             React.createElement("p", { className: "text-base leading-relaxed m-0 not-italic" }, ...parseInline(newQLines.join(" "))),
           ),
         );
@@ -220,7 +220,7 @@ export function renderMdx(content: string): React.ReactNode {
       blocks.push(
         React.createElement(
           "blockquote",
-          { key: blocks.length, className: "my-6 border-l-4 border-[#e4ff1a]/60 bg-[#e4ff1a]/5 pl-5 pr-4 py-3 italic text-zinc-200 text-lg leading-relaxed rounded-r-md" },
+          { key: blocks.length, className: "my-6 border-l-4 border-[var(--re-content-accent)]/60 bg-[var(--re-content-accent)]/5 pl-5 pr-4 py-3 italic text-zinc-200 text-lg leading-relaxed rounded-r-md" },
           React.createElement("p", { className: "m-0" }, ...parseInline(qLines.join(" "))),
         ),
       );
@@ -400,7 +400,7 @@ function headingClass(level: number): string {
   const map: Record<number, string> = {
     1: "text-3xl font-black tracking-tighter text-white mt-10 mb-5 leading-tight",
     2: "text-2xl font-bold tracking-tight text-white mt-10 mb-4 pb-2 border-b border-zinc-800 leading-tight",
-    3: "text-lg font-semibold text-[#e4ff1a] mt-7 mb-3 leading-snug flex items-center gap-2",
+    3: "text-lg font-semibold text-[var(--re-content-accent)] mt-7 mb-3 leading-snug flex items-center gap-2",
     4: "text-base font-semibold text-zinc-100 mt-5 mb-2 leading-snug",
     5: "text-sm font-mono uppercase tracking-widest text-zinc-400 mt-4 mb-2",
     6: "text-xs font-mono uppercase tracking-widest text-zinc-500 mt-3 mb-1",

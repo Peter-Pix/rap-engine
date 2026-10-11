@@ -15,6 +15,11 @@
   --badge-bg:      rgba(200,150,46,0.12);
   --badge-border:  rgba(200,150,46,0.38);
   --badge-text:    #e4b44a;
+
+  /* Obsahový akcent (mdX H3, citace, code) — žlutozelená.
+     Oficiálně pojmenovaná, ať není hardcoded v komponentách. */
+  --re-content-accent:       var(--re-content-accent);
+  --re-content-accent-dim:   #b8cc14;
 }
 
 * { font-family: var(--font-sans); }

@@ -29,8 +29,8 @@ export function NotFoundClient() {
 
         {/* Decorative blinker */}
         <div className="flex items-center justify-center gap-2 mb-10">
-          <span className="inline-block w-2 h-2 rounded-full bg-[#e4ff1a] animate-pulse" />
-          <span className="font-mono text-xs text-[#e4ff1a] tracking-widest uppercase">
+          <span className="inline-block w-2 h-2 rounded-full bg-[var(--re-content-accent)] animate-pulse" />
+          <span className="font-mono text-xs text-[var(--re-content-accent)] tracking-widest uppercase">
             Work in progress
           </span>
         </div>
@@ -38,7 +38,7 @@ export function NotFoundClient() {
         {/* CTA */}
         <Link
           href="/"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[#e4ff1a] text-zinc-950 font-semibold text-sm tracking-wide hover:bg-[#b8cc14] transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[var(--re-content-accent)] text-zinc-950 font-semibold text-sm tracking-wide hover:bg-[#b8cc14] transition-colors"
         >
           Zpět na hlavní stránku
           <svg

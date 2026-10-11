@@ -27,7 +27,7 @@ export function TrendingAlbums({ albums }: TrendingAlbumsProps) {
   return (
     <section className="mb-16">
       <div className="flex items-baseline justify-between mb-5">
-        <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/35">
+        <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35">
           Trendující alba
         </h2>
         <Link
@@ -58,7 +58,7 @@ export function TrendingAlbums({ albums }: TrendingAlbumsProps) {
               ) : (
                 <div className="w-full h-full flex flex-col items-center justify-center gap-1 bg-white/[0.03]">
                   <div className="text-3xl font-black text-white/15">♪</div>
-                  <div className="text-[10px] font-mono uppercase tracking-wider text-white/25">
+                  <div className="text-[11px] font-mono uppercase tracking-wider text-white/25">
                     bez coveru
                   </div>
                 </div>

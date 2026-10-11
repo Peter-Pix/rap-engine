@@ -76,7 +76,7 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
     return () => document.removeEventListener("mousedown", onClick);
   }, []);
 
-  const accentColor = accent === "a" ? "#e4ff1a" : "#c8962e";
+  const accentColor = accent === "a" ? "var(--re-content-accent)" : "#c8962e";
 
   if (selected) {
     return (
@@ -87,7 +87,7 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
           className="absolute left-0 top-1 bottom-1 w-[2px] rounded-full"
           style={{ background: `linear-gradient(180deg, ${accentColor}cc, ${accentColor}22)` }}
         />
-        <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-zinc-600 mb-2">
+        <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-zinc-600 mb-2">
           {label}
         </div>
         <div className="flex items-center gap-3">
@@ -133,7 +133,7 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
 
   return (
     <div ref={wrapRef} className="relative">
-      <div className="text-[10px] font-mono uppercase tracking-widest text-zinc-600 mb-2">
+      <div className="text-[11px] font-mono uppercase tracking-widest text-zinc-600 mb-2">
         {label}
       </div>
       <input
@@ -291,7 +291,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
               typografii, ne na rámečcích. */}
           <div className="pt-2">
             <div className="flex items-baseline gap-4">
-              <span className="text-5xl font-black tabular-nums text-[#e4ff1a] leading-none">
+              <span className="text-5xl font-black tabular-nums text-[var(--re-content-accent)] leading-none">
                 {result.totalShared + sharedTracks.length}
               </span>
               <div>
@@ -312,7 +312,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
           {sharedTracks.length > 0 && (
             <section>
               <div className="flex items-baseline gap-2.5 mb-1">
-                <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[#e4ff1a]">
+                <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[var(--re-content-accent)]">
                   Společné skladby
                 </h2>
                 <span className="text-[11px] font-mono text-zinc-600">
@@ -336,8 +336,8 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
                         </div>
                       )}
                     </div>
-                    <div className="flex items-center gap-3 shrink-0 text-[10px] font-mono uppercase tracking-wider">
-                      <span className="text-[#e4ff1a]/75">
+                    <div className="flex items-center gap-3 shrink-0 text-[11px] font-mono uppercase tracking-wider">
+                      <span className="text-[var(--re-content-accent)]/75">
                         {aSel?.title} · {trackRoleLabel(t.roleA)}
                       </span>
                       <span className="text-zinc-700">/</span>
@@ -356,7 +356,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
             indirectPath ? (
               <section>
                 <div className="flex items-baseline gap-2.5 mb-3">
-                  <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[#e4ff1a]">
+                  <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[var(--re-content-accent)]">
                     Nepřímé propojení
                   </h2>
                   <span className="text-[11px] font-mono text-zinc-600">
@@ -375,13 +375,13 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
                         <span className="text-zinc-700 text-sm font-mono">→</span>
                       )}
                       {hop.label && (
-                        <span className="text-[10px] text-zinc-600 font-mono uppercase tracking-widest">
+                        <span className="text-[11px] text-zinc-600 font-mono uppercase tracking-widest">
                           {hop.label}
                         </span>
                       )}
                       <Link
                         href={hop.viaUrl}
-                        className="text-[15px] text-zinc-300 underline decoration-zinc-700 decoration-dotted underline-offset-4 hover:text-[#e4ff1a] hover:decoration-[#e4ff1a]/50 transition-colors"
+                        className="text-[15px] text-zinc-300 underline decoration-zinc-700 decoration-dotted underline-offset-4 hover:text-[var(--re-content-accent)] hover:decoration-[var(--re-content-accent)]/50 transition-colors"
                       >
                         {hop.viaTitle}
                       </Link>
@@ -432,7 +432,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2 pt-2 text-[15px]">
             <Link
               href={`/raperi/${aSel?.slug}`}
-              className="text-zinc-500 hover:text-[#e4ff1a] transition-colors"
+              className="text-zinc-500 hover:text-[var(--re-content-accent)] transition-colors"
             >
               {aSel?.title} →
             </Link>

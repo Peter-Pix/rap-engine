@@ -110,10 +110,10 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
     <section className="mt-12">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/40">
+        <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40">
           Tracklist · {data.total_tracks} skladeb · {formatTotalDuration(data.total_duration_sec)}
         </h2>
-        <div className="flex items-center gap-3 text-[10px] font-mono uppercase tracking-[0.15em] text-white/30">
+        <div className="flex items-center gap-3 text-[11px] font-mono uppercase tracking-[0.15em] text-white/30">
           {data.release_date && <span>{data.release_date}</span>}
           {data.label && <span>· {data.label.split(" ").slice(0, 2).join(" ")}</span>}
         </div>
@@ -168,7 +168,7 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
                   </svg>
                 )}
                 {!hasAny && (
-                  <span className="text-[10px] text-white/20">—</span>
+                  <span className="text-[11px] text-white/20">—</span>
                 )}
               </button>
 
@@ -179,7 +179,7 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
                     {t.title}
                   </span>
                   {t.explicit && (
-                    <span className="text-[9px] font-mono px-1 py-0.5 bg-white/10 text-white/50 rounded-sm flex-shrink-0">
+                    <span className="text-[11px] font-mono px-1 py-0.5 bg-white/10 text-white/50 rounded-sm flex-shrink-0">
                       E
                     </span>
                   )}
@@ -226,7 +226,7 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
       </ol>
 
       {/* Footer */}
-      <div className="mt-4 flex items-center justify-between text-[10px] font-mono text-white/30">
+      <div className="mt-4 flex items-center justify-between text-[11px] font-mono text-white/30">
         <span>Data: Deezer</span>
         {data.upc && <span>UPC: {data.upc}</span>}
       </div>
