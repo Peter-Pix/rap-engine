@@ -1,6 +1,15 @@
 #!/bin/sh
 # Nainstaluje git hooky pro ochranu původního obsahu.
 # Spouští se automaticky přes `npm install` (prepare script).
+#
+# DŮLEŽITÉ: na CI (Vercel) běží `npm install` PŘED `git clone`, takže tu žádný
+# git repo není → `git rev-parse` failne a shodí CELÝ install (npm error 128).
+# Proto: bez git repa tiše skončit — hooky jsou jen lokální vývojářská pomůcka.
+if ! git rev-parse --git-dir >/dev/null 2>&1; then
+  echo "ℹ️  Nejsem v git repu (CI?) — přeskakuji instalaci hooků."
+  exit 0
+fi
+
 set -e
 
 HOOK_DIR="$(git rev-parse --git-dir)/hooks"
