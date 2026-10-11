@@ -279,7 +279,7 @@ export default function EntityListingClient({
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
           </svg>
           Filtry {activeCount > 0 && (
-            <span className="bg-[var(--re-content-accent)] text-zinc-900 text-xs font-bold rounded-full px-1.5 py-0.5">
+            <span className="bg-[var(--re-accent)] text-zinc-900 text-xs font-bold rounded-full px-1.5 py-0.5">
               {activeCount}
             </span>
           )}
@@ -446,7 +446,7 @@ function FilterGroup({
               onClick={() => onToggle(opt.id)}
               className={`text-xs px-2.5 py-1 rounded-full transition-all ${
                 isActive
-                  ? "bg-[var(--re-content-accent)] text-zinc-900 font-bold"
+                  ? "bg-[var(--re-accent)] text-zinc-900 font-bold"
                   : "bg-zinc-800 text-zinc-400 hover:bg-zinc-700 hover:text-zinc-300"
               }`}
             >

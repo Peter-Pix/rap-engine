@@ -54,7 +54,7 @@ export default function GlobalError({
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <button
                 onClick={reset}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[var(--re-content-accent)] text-zinc-950 font-semibold text-sm tracking-wide hover:bg-[#b8cc14] transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[var(--re-accent)] text-zinc-950 font-semibold text-sm tracking-wide hover:bg-[#b8cc14] transition-colors"
               >
                 Zkusit znovu
               </button>

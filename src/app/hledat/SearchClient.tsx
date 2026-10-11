@@ -153,7 +153,7 @@ export default function SearchClient({ entries }: SearchClientProps) {
             onClick={() => setActiveType(null)}
             className={`text-xs px-3 py-1.5 rounded-full transition-all ${
               activeType === null
-                ? "bg-[var(--re-content-accent)] text-zinc-900 font-bold"
+                ? "bg-[var(--re-accent)] text-zinc-900 font-bold"
                 : "bg-zinc-800 text-zinc-400 hover:bg-zinc-700"
             }`}
           >
@@ -168,7 +168,7 @@ export default function SearchClient({ entries }: SearchClientProps) {
                 onClick={() => setActiveType(activeType === t ? null : t)}
                 className={`text-xs px-3 py-1.5 rounded-full transition-all ${
                   activeType === t
-                    ? "bg-[var(--re-content-accent)] text-zinc-900 font-bold"
+                    ? "bg-[var(--re-accent)] text-zinc-900 font-bold"
                     : "bg-zinc-800 text-zinc-400 hover:bg-zinc-700"
                 }`}
               >
@@ -216,7 +216,7 @@ function ResultCard({ entry }: { entry: SearchEntry }) {
     <Link href={`/${routePrefix}/${entry.slug}`} className="block group">
       <div className="glass glass-hover rounded-xl p-5 transition-all duration-200 group-hover:translate-y-[-1px] h-full flex flex-col">
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-[11px] font-mono uppercase tracking-wider text-[var(--re-content-accent)] bg-[var(--re-content-accent)]/10 px-1.5 py-0.5 rounded-sm">
+          <span className="text-[11px] font-mono uppercase tracking-wider text-[var(--re-accent)] bg-[var(--re-accent)]/10 px-1.5 py-0.5 rounded-sm">
             {typeLabel}
           </span>
         </div>

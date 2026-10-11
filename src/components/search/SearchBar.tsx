@@ -214,7 +214,7 @@ export function SearchBar({ onResultClick }: SearchBarProps = {}) {
               <ul className="max-h-96 overflow-y-auto">
                 {results.map((r, idx) => {
                   const isActive = idx === activeIdx;
-                  const color = ENTITY_TYPE_COLORS[r.type] ?? "var(--re-content-accent)";
+                  const color = ENTITY_TYPE_COLORS[r.type] ?? "var(--re-accent)";
                   return (
                     <li key={r.id}>
                       <Link
@@ -259,7 +259,7 @@ export function SearchBar({ onResultClick }: SearchBarProps = {}) {
                   setQuery("");
                   onResultClick?.();
                 }}
-                className="block border-t border-white/[0.06] px-3 py-2 text-xs font-mono text-zinc-500 hover:text-[var(--re-content-accent)] hover:bg-white/[0.04] transition-colors"
+                className="block border-t border-white/[0.06] px-3 py-2 text-xs font-mono text-zinc-500 hover:text-[var(--re-accent)] hover:bg-white/[0.04] transition-colors"
               >
                 Zobrazit všechny výsledky pro &ldquo;{query}&rdquo; →
               </Link>
