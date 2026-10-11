@@ -1,12 +1,34 @@
 {
-  "primaryArtist": ["artist_robin-zoot"],
-  "belongsToAlbum": ["album_make-sudety-great-again"],
-  "producers": [],
+  "primaryArtist": [
+    "artist_robin-zoot"
+  ],
+  "belongsToAlbum": [
+    "album_make-sudety-great-again"
+  ],
+  "producers": [
+    "artist_decky"
+  ],
   "featuring": [],
-  "labels": ["label_universal-music"],
-  "genres": ["genre_trap", "genre_new-school"],
-  "styles": ["style_satirical", "style_catchy", "style_melodic"],
-  "themes": ["theme_regional", "theme_humor", "theme_lifestyle"],
-  "moods": ["mood_playful", "mood_energetic"],
+  "labels": [
+    "label_universal-music"
+  ],
+  "genres": [
+    "genre_trap",
+    "genre_new-school"
+  ],
+  "styles": [
+    "style_satirical",
+    "style_catchy",
+    "style_melodic"
+  ],
+  "themes": [
+    "theme_regional",
+    "theme_humor",
+    "theme_lifestyle"
+  ],
+  "moods": [
+    "mood_playful",
+    "mood_energetic"
+  ],
   "related": []
 }

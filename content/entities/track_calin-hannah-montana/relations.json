@@ -1,12 +1,33 @@
 {
-  "primaryArtist": ["artist_calin"],
-  "belongsToAlbum": ["album_popstar"],
-  "producers": ["artist_d-kop"],
+  "primaryArtist": [
+    "artist_calin"
+  ],
+  "belongsToAlbum": [
+    "album_popstar"
+  ],
+  "producers": [
+    "artist_d-kop",
+    "artist_calin"
+  ],
   "featuring": [],
-  "labels": ["label_wm-czech-republic"],
-  "genres": ["genre_pop-rap", "genre_trap"],
-  "styles": ["style_melodic", "style_catchy"],
-  "themes": ["theme_fame", "theme_duality", "theme_pressure"],
-  "moods": ["mood_energetic"],
+  "labels": [
+    "label_wm-czech-republic"
+  ],
+  "genres": [
+    "genre_pop-rap",
+    "genre_trap"
+  ],
+  "styles": [
+    "style_melodic",
+    "style_catchy"
+  ],
+  "themes": [
+    "theme_fame",
+    "theme_duality",
+    "theme_pressure"
+  ],
+  "moods": [
+    "mood_energetic"
+  ],
   "related": []
 }
