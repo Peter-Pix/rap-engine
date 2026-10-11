@@ -28,6 +28,7 @@ function resolveState(
   score: number,
   entity: CacheEntity,
   contentLength = 0,
+  inboundIds: string[] = [],
 ): IndexationState {
   const extraMeta = entity.extraMeta ?? {};
   const isStub = extraMeta.isStub === true;
@@ -40,6 +41,21 @@ function resolveState(
   if (isStub) return IndexationState.NOINDEX;
   // Private flag (future use)
   if (extraMeta.private === true) return IndexationState.PRIVATE;
+
+  // Hard gate: album bez skladeb = polotovar (jen metadata z Deezeru).
+  // Album je definováno svými skladbami — bez nich nemá co nabídnout.
+  // Pozor: vazby z metadat (HAS_GENRE/THEME/MOOD) mu dají vysoké skóre → past.
+  if (entity.type === "album") {
+    const forward = (entity.outbound?.HAS_TRACK as string[] | undefined)?.length ?? 0;
+    // Pozor: část alb má tracky jen přes inverzní hranu (track → BELONGS_TO_ALBUM),
+    // takže v outbound.HAS_TRACK není nic. Ber i backlinky začínající "track_".
+    const backlinks = inboundIds.filter((id) => id.startsWith("track_")).length;
+    // Bez tracků je album polotovar — ALE jen pokud nemá vlastní delší obsah
+    // (ručně psaný text o albu má svou hodnotu i bez propojených skladeb).
+    if (forward + backlinks === 0 && contentLength < 600) {
+      return IndexationState.NOINDEX;
+    }
+  }
 
   // Hard gate: prázdný obsah NIKDY neindexovat — ani s dobrými vazbami.
   // Zásada "žádné prázdné stránky": thin content (< 200 znaků těla) = NOINDEX.
@@ -100,7 +116,7 @@ export function runIndexationEngine(
     const inboundIds = inbound[id] ?? [];
     const signals = extractSignals(entity, inboundIds);
     const seoScore = computeSeoScore(signals, fullConfig.weights);
-    const state = resolveState(seoScore, entity, signals.contentLength);
+    const state = resolveState(seoScore, entity, signals.contentLength, inboundIds);
     const graphUpdatedAt = computeGraphLastMod(entity, entities);
 
     scored.push({
