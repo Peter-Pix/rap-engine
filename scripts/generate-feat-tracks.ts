@@ -117,7 +117,7 @@ const candidates: Candidate[] = [];
 const seenSlugs = new Set<string>();
 let skippedExisting = 0;
 let skippedNoPrimary = 0;
-let skippedDup = 0;
+const skippedDup = 0;
 
 for (const d of dirs) {
   if (!d.name.startsWith("album_")) continue;

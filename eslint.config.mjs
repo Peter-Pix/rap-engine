@@ -10,6 +10,7 @@ const eslintConfig = [
       ".next/**",
       "node_modules/**",
       "public/**",
+      ".vercel/**",      // lokální deploy/build state (vercel build output, launcher .cjs)
       ".backups/**",
       "lib/**",          // legacy JS utility (CommonJS require)
       "scripts/*.js",    // legacy JS scripts (CommonJS require)
