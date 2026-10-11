@@ -19,6 +19,12 @@ const nextConfig: NextConfig = {
   // Static export-friendly — no server runtime needed
   output: "standalone",
   staticPageGenerationTimeout: 180, // 3 min (default 60s) — heavy entity pages
+  experimental: {
+    // Omezení paralelních SSG workerů — 8GB MacBook Air padá na OOM,
+    // když 7 workerů naráz renderuje obří rapper stránky (Yzomandias 271 tracků).
+    // 2 workery = pomalejší build, ale bez swap death. (11. 10. 2026)
+    cpus: 2,
+  },
 };
 
 export default nextConfig;

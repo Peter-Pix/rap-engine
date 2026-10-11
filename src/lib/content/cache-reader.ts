@@ -47,6 +47,24 @@ function readJson<T>(filename: string): T | null {
   }
 }
 
+/**
+ * Module-level memoizace velkých cache souborů (entities.json ~14MB,
+ * inbound.json ~1MB). Během `next build` statického generování se čtou
+ * opakovaně pro každou stránku — bez cache se 14MB JSON parsuje stokrát.
+ *
+ * Soubory jsou během build fáze immutable (cache:build běží před next build),
+ * takže je memoizace bezpečná. Dev módu se to netýká (HMR má vlastní reload).
+ * (fix 11. 10. 2026 — build OOM/timeout na obřích artist stránkách)
+ */
+const memoized = new Map<string, unknown>();
+
+function readJsonMemo<T>(filename: string): T | null {
+  if (memoized.has(filename)) return memoized.get(filename) as T | null;
+  const value = readJson<T>(filename);
+  memoized.set(filename, value);
+  return value;
+}
+
 // ─── Public reader API ────────────────────────────────────────────────────
 
 /**
@@ -54,7 +72,7 @@ function readJson<T>(filename: string): T | null {
  * Returns `null` if the cache hasn't been built yet.
  */
 export function readEntities(): CacheEntities | null {
-  return readJson<CacheEntities>("entities.json");
+  return readJsonMemo<CacheEntities>("entities.json");
 }
 
 /**
@@ -99,7 +117,7 @@ export function readGraph() {
  * Read `inbound.json` — backlinks indexed by target entity ID.
  */
 export function readInbound(): CacheInbound | null {
-  return readJson<CacheInbound>("inbound.json");
+  return readJsonMemo<CacheInbound>("inbound.json");
 }
 
 /**

@@ -620,19 +620,11 @@ export async function EntityPage({
 
           {/* Key Tracks - interactive list with preview */}
           {profile?.keyTracks && Array.isArray(profile.keyTracks) && (profile.keyTracks as string[]).length > 0 && (() => {
-            // Build tracks cache for this artist (sync read from disk) — LAZY, only when keyTracks exist
-            const allTracks: Record<string, any> = {};
-            for (const entId of Object.keys(allEntities || {})) {
-              if (!entId.startsWith("album_")) continue;
-              const tracksPath = join(process.cwd(), "content/entities", entId, "tracks.json");
-              if (existsSync(tracksPath)) {
-                try {
-                  allTracks[entId] = JSON.parse(readFileSync(tracksPath, "utf-8"));
-                } catch {}
-              }
-            }
-
-            // Find artist albums from relations (search allEntities)
+            // Find artist albums from relations FIRST (před čtením z disku).
+            // Původní kód četl tracks.json pro VŠECH 604 alb synchronně
+            // (existsSync + readFileSync + JSON.parse) na každé artist stránce —
+            // to byl bottleneck obřích stránek (Yzomandias 271 tracků) a příčina
+            // build timeout/OOM. Teď čteme jen alba daného artisty. (11. 10. 2026)
             const artistId = id; // current entity id
             const relatedAlbums = (entity.outbound?.ALBUMS || []) as string[];
             const artistAlbums = relatedAlbums.length > 0
@@ -643,11 +635,15 @@ export async function EntityPage({
                   return (meta?.outbound?.ARTISTS || []).includes(artistId);
                 });
 
-            // Build track → preview map synchronously from cache
+            // Read tracks.json only for this artist's albums.
             const trackPreviewMap: Record<string, { preview?: string; isrc?: string }> = {};
             for (const albumId of artistAlbums) {
-              // Use known tracks.json files (synchronously via import)
-              const tracksData = allTracks[albumId];
+              const tracksPath = join(process.cwd(), "content/entities", albumId, "tracks.json");
+              if (!existsSync(tracksPath)) continue;
+              let tracksData: any = null;
+              try {
+                tracksData = JSON.parse(readFileSync(tracksPath, "utf-8"));
+              } catch {}
               if (!tracksData) continue;
               for (const t of (tracksData.tracks || [])) {
                 const title = t.title_original || t.title;
