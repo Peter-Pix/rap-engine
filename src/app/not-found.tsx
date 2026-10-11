@@ -3,8 +3,8 @@ import { NotFoundClient } from "@/components/misc/NotFoundClient";
 
 export const metadata: Metadata = {
   title: "404 — Nenalezeno",
-  // Root layout injects `index, follow` by default. We force override here.
-  robots: { index: false, follow: false },
+  // Next.js default for not-found pages is noindex,nofollow.
+  // Explicit robots here duplicates the default tag, so we omit it.
 };
 
 export default function NotFound() {
