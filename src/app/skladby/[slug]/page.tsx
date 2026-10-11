@@ -48,7 +48,7 @@ export default async function TrackPage({ params }: { params: Promise<{ slug: st
   const inboundIds = readInboundFor(id);
 
   // Build entity index for resolving relations
-  const entityIndex: Record<string, { id: string; type: string; slug: string; title: string }> = {};
+  const entityIndex: Record<string, { id: string; type: string; slug: string; title: string; image?: string | null }> = {};
   if (allEntities) {
     for (const [eid, e] of Object.entries(allEntities)) {
       entityIndex[eid] = {
@@ -56,6 +56,7 @@ export default async function TrackPage({ params }: { params: Promise<{ slug: st
         type: e.type,
         slug: e.slug,
         title: e.title,
+        image: e.image ?? null,
       };
     }
   }

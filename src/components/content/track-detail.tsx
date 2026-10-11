@@ -15,6 +15,7 @@ interface EntityRef {
   type: string;
   slug: string;
   title: string;
+  image?: string | null;
 }
 
 interface TrackDetailProps {
@@ -207,6 +208,9 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
   );
   const deezerUrl = sources?.find((s) => s.includes("deezer.com"));
 
+  // Obal: vlastní image tracku, jinak obal alba (fallback)
+  const coverUrl = entity.image ?? albums[0]?.image ?? null;
+
   // JSON-LD
   const jsonLd = buildJsonLd({
     entity: {
@@ -238,42 +242,58 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
         {/* ═══════════════════════════════════════════════════════════════
            HERO
            ═══════════════════════════════════════════════════════════════ */}
-        <div className="pt-24 sm:pt-32 pb-6 px-8 sm:px-12">
-          <h1 className="text-4xl sm:text-6xl font-black tracking-tighter text-white uppercase leading-[0.85]">
-            {entity.title}
-          </h1>
-
-          {/* Primary artist + album */}
-          <div className="mt-4 text-lg sm:text-xl text-white/70">
-            {artists.length > 0 && (
-              <span>
-                od{" "}
-                {artists.map((a, i) => (
-                  <span key={a.id}>
-                    <Link
-                      href={resolveUrl(a)}
-                      className="text-[#c8962e] hover:underline transition-colors"
-                    >
-                      {a.title}
-                    </Link>
-                    {i < artists.length - 1 ? ", " : ""}
-                  </span>
-                ))}
-              </span>
-            )}
-            {albums.length > 0 && (
-              <span>
-                {" "}
-                · album{" "}
-                <Link
-                  href={resolveUrl(albums[0])}
-                  className="text-white/50 hover:text-[#c8962e] hover:underline transition-colors"
-                >
-                  {albums[0].title}
-                </Link>
-              </span>
-            )}
+        {coverUrl ? (
+          <div className="relative w-full h-[300px] sm:h-[400px] overflow-hidden">
+            <img
+              src={coverUrl}
+              alt={`${entity.title} — obal alba`}
+              className="h-full w-full object-cover object-center"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/40 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-12">
+              <h1 className="text-4xl sm:text-6xl font-black tracking-tighter text-white uppercase leading-[0.85]">
+                {entity.title}
+              </h1>
+            </div>
           </div>
+        ) : (
+          <div className="pt-24 sm:pt-32 pb-6 px-8 sm:px-12">
+            <h1 className="text-4xl sm:text-6xl font-black tracking-tighter text-white uppercase leading-[0.85]">
+              {entity.title}
+            </h1>
+          </div>
+        )}
+
+        {/* Primary artist + album */}
+        <div className="px-8 sm:px-12 mt-4 text-lg sm:text-xl text-white/70">
+          {artists.length > 0 && (
+            <span>
+              od{" "}
+              {artists.map((a, i) => (
+                <span key={a.id}>
+                  <Link
+                    href={resolveUrl(a)}
+                    className="text-[#c8962e] hover:underline transition-colors"
+                  >
+                    {a.title}
+                  </Link>
+                  {i < artists.length - 1 ? ", " : ""}
+                </span>
+              ))}
+            </span>
+          )}
+          {albums.length > 0 && (
+            <span>
+              {" "}
+              · album{" "}
+              <Link
+                href={resolveUrl(albums[0])}
+                className="text-white/50 hover:text-[#c8962e] hover:underline transition-colors"
+              >
+                {albums[0].title}
+              </Link>
+            </span>
+          )}
         </div>
 
         {/* ═══════════════════════════════════════════════════════════════
