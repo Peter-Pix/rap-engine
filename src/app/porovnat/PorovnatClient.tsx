@@ -80,8 +80,14 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
 
   if (selected) {
     return (
-      <div className="rounded-xl border border-white/[0.08] bg-zinc-900/50 p-4">
-        <div className="text-[10px] font-mono uppercase tracking-widest text-zinc-600 mb-2">
+      <div className="relative pl-4 py-1">
+        {/* Tenká akcentní linka místo celého rámečku */}
+        <span
+          aria-hidden
+          className="absolute left-0 top-1 bottom-1 w-[2px] rounded-full"
+          style={{ background: `linear-gradient(180deg, ${accentColor}cc, ${accentColor}22)` }}
+        />
+        <div className="text-[10px] font-mono uppercase tracking-[0.2em] text-zinc-600 mb-2">
           {label}
         </div>
         <div className="flex items-center gap-3">
@@ -140,10 +146,10 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
         onFocus={() => setOpen(true)}
         placeholder="Hledej rappera…"
         aria-label={label}
-        className="w-full px-4 py-3 rounded-xl bg-zinc-900 border border-white/[0.08] text-white text-sm placeholder:text-zinc-600 focus:outline-none focus:border-white/20 transition-colors"
+        className="w-full px-0 py-2.5 bg-transparent border-0 border-b border-white/[0.1] text-white text-[15px] placeholder:text-zinc-600 focus:outline-none transition-colors"
       />
       {open && results.length > 0 && (
-        <ul className="absolute z-20 mt-1 w-full max-h-72 overflow-y-auto rounded-xl border border-white/[0.1] bg-zinc-900 shadow-2xl shadow-black/50">
+        <ul className="absolute z-20 mt-2 w-full max-h-72 overflow-y-auto rounded-2xl border border-white/[0.07] bg-zinc-950/95 backdrop-blur-xl shadow-2xl shadow-black/60">
           {results.map((a) => (
             <li key={a.id}>
               <button
@@ -279,66 +285,64 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
       )}
 
       {result && (
-        <div className="space-y-6">
-          {/* Hlavička s verdictem */}
-          <div className="rounded-xl border border-white/[0.08] bg-zinc-900/40 p-5 flex items-center justify-between gap-4 flex-wrap">
-            <div className="flex items-center gap-3">
-              <span className="text-2xl font-black text-[#e4ff1a]">
+        <div className="space-y-10">
+          {/* ── VERDIKT ──────────────────────────────────────────────────
+              Bez boxu. Velké číslo + věta. Prémiový produkt stojí na
+              typografii, ne na rámečcích. */}
+          <div className="pt-2">
+            <div className="flex items-baseline gap-4">
+              <span className="text-5xl font-black tabular-nums text-[#e4ff1a] leading-none">
                 {result.totalShared + sharedTracks.length}
               </span>
-              <span className="text-sm text-zinc-400">
-                {result.totalShared + sharedTracks.length === 1
-                  ? "společná vazba"
-                  : result.totalShared + sharedTracks.length < 5
-                    ? "společné vazby"
+              <div>
+                <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-zinc-500 mb-1">
+                  {result.totalShared + sharedTracks.length === 1
+                    ? "společná vazba"
                     : "společných vazeb"}
-              </span>
-            </div>
-            <div className="text-sm text-zinc-300 italic">
-              {commonGroundVerdict(result)}
+                </div>
+                <p className="text-lg text-zinc-200 leading-snug max-w-2xl">
+                  {commonGroundVerdict(result)}
+                </p>
+              </div>
             </div>
           </div>
 
-          {/* ⭐ SPOLEČNÉ SKLADBY — hlavní lákadlo, první nahoře */}
+          {/* ⭐ SPOLEČNÉ SKLADBY — seznam bez boxů.
+              Jedna hairline mezi řádky místo 4 borderů na kartu. */}
           {sharedTracks.length > 0 && (
             <section>
-              <div className="flex items-baseline gap-2 mb-3">
-                <h2 className="text-[11px] font-mono font-bold uppercase tracking-widest text-[#e4ff1a]">
+              <div className="flex items-baseline gap-2.5 mb-1">
+                <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[#e4ff1a]">
                   Společné skladby
                 </h2>
-                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-[#e4ff1a]/15 text-[#e4ff1a]">
-                  {sharedTracks.length}
+                <span className="text-[11px] font-mono text-zinc-600">
+                  {String(sharedTracks.length).padStart(2, "0")}
                 </span>
               </div>
-              <div className="space-y-2">
+              <div className="divide-y divide-white/[0.05] border-t border-white/[0.07]">
                 {sharedTracks.map((t) => (
                   <Link
                     key={t.id}
                     href={t.url}
-                    className="group flex items-center justify-between gap-3 rounded-lg border border-white/[0.06] bg-zinc-900/40 px-4 py-3 hover:border-[#e4ff1a]/40 transition-colors"
+                    className="group flex items-center justify-between gap-4 py-3 transition-colors hover:bg-white/[0.02]"
                   >
                     <div className="min-w-0">
-                      <div className="text-sm font-medium text-white truncate">
+                      <div className="text-[15px] font-medium text-zinc-100 truncate group-hover:text-white transition-colors">
                         {t.title}
                       </div>
                       {t.primaryTitle && (
-                        <div className="text-xs text-zinc-500 truncate">
+                        <div className="text-xs text-zinc-600 truncate mt-0.5">
                           {t.primaryTitle}
                         </div>
                       )}
                     </div>
-                    <div className="flex items-center gap-2 shrink-0 text-[10px] font-mono uppercase tracking-wider">
-                      <span
-                        className="px-1.5 py-0.5 rounded"
-                        style={{ background: "#e4ff1a22", color: "#e4ff1a" }}
-                      >
-                        {aSel?.title}: {trackRoleLabel(t.roleA)}
+                    <div className="flex items-center gap-3 shrink-0 text-[10px] font-mono uppercase tracking-wider">
+                      <span className="text-[#e4ff1a]/75">
+                        {aSel?.title} · {trackRoleLabel(t.roleA)}
                       </span>
-                      <span
-                        className="px-1.5 py-0.5 rounded"
-                        style={{ background: "#c8962e22", color: "#c8962e" }}
-                      >
-                        {bSel?.title}: {trackRoleLabel(t.roleB)}
+                      <span className="text-zinc-700">/</span>
+                      <span className="text-[#c8962e]/85">
+                        {bSel?.title} · {trackRoleLabel(t.roleB)}
                       </span>
                     </div>
                   </Link>
@@ -351,30 +355,33 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
           {result.isEmpty && sharedTracks.length === 0 ? (
             indirectPath ? (
               <section>
-                <div className="flex items-baseline gap-2 mb-3">
-                  <h2 className="text-[11px] font-mono font-bold uppercase tracking-widest text-[#e4ff1a]">
+                <div className="flex items-baseline gap-2.5 mb-3">
+                  <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[#e4ff1a]">
                     Nepřímé propojení
                   </h2>
-                  <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-[#e4ff1a]/15 text-[#e4ff1a]">
-                    {indirectPath.length} {indirectPath.length === 1 ? "krok" : indirectPath.length < 5 ? "kroky" : "kroků"}
+                  <span className="text-[11px] font-mono text-zinc-600">
+                    {String(indirectPath.length).padStart(2, "0")}{" "}
+                    {indirectPath.length === 1 ? "krok" : indirectPath.length < 5 ? "kroky" : "kroků"}
                   </span>
                 </div>
-                <p className="text-sm text-zinc-400 mb-3">
-                  {aSel?.title} a {bSel?.title} spolu nikdy nenahráli přímo, ale
-                  spojuje je cesta v síti spolupráce:
+                <p className="text-[15px] text-zinc-400 mb-5 max-w-2xl">
+                  {aSel?.title} a {bSel?.title} spolu nikdy nenahráli přímo.
+                  Spojuje je ale cesta v síti spolupráce:
                 </p>
-                <div className="flex flex-wrap items-center gap-2">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-3">
                   {indirectPath.hops.map((hop, i) => (
-                    <span key={`${hop.viaId}-${i}`} className="flex items-center gap-2">
+                    <span key={`${hop.viaId}-${i}`} className="flex items-center gap-3">
                       {i > 0 && (
-                        <span className="text-zinc-600 text-xs font-mono">→</span>
+                        <span className="text-zinc-700 text-sm font-mono">→</span>
                       )}
-                      <span className="text-xs text-zinc-500 font-mono">
-                        {hop.label}
-                      </span>
+                      {hop.label && (
+                        <span className="text-[10px] text-zinc-600 font-mono uppercase tracking-widest">
+                          {hop.label}
+                        </span>
+                      )}
                       <Link
                         href={hop.viaUrl}
-                        className="text-sm px-3 py-1.5 rounded-full bg-zinc-800 text-zinc-300 hover:bg-[#e4ff1a] hover:text-zinc-950 transition-all"
+                        className="text-[15px] text-zinc-300 underline decoration-zinc-700 decoration-dotted underline-offset-4 hover:text-[#e4ff1a] hover:decoration-[#e4ff1a]/50 transition-colors"
                       >
                         {hop.viaTitle}
                       </Link>
@@ -383,8 +390,8 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
                 </div>
               </section>
             ) : (
-              <div className="text-center py-16">
-                <p className="text-zinc-400 text-lg mb-2">
+              <div className="py-14 border-t border-white/[0.06]">
+                <p className="text-zinc-300 text-lg mb-1.5">
                   {aSel?.title} a {bSel?.title} nemají žádnou přímou shodu.
                 </p>
                 <p className="text-zinc-600 text-sm">
@@ -393,23 +400,24 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
               </div>
             )
           ) : (
-            <div className="space-y-5">
+            <div className="space-y-7">
               {result.groups.map((group) => (
                 <section key={group.key}>
-                  <div className="flex items-baseline gap-2 mb-3">
-                    <h2 className="text-[11px] font-mono font-bold uppercase tracking-widest text-zinc-500">
+                  <div className="flex items-baseline gap-2.5 mb-3">
+                    <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-zinc-500">
                       {group.label}
                     </h2>
-                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-zinc-800 text-zinc-400">
-                      {group.items.length}
+                    <span className="text-[11px] font-mono text-zinc-700">
+                      {String(group.items.length).padStart(2, "0")}
                     </span>
                   </div>
-                  <div className="flex flex-wrap gap-2">
+                  {/* Žádné pilulky. Prostý text s tečkovým podtržením. */}
+                  <div className="flex flex-wrap gap-x-5 gap-y-2.5">
                     {group.items.map((item) => (
                       <Link
                         key={item.id}
                         href={item.url}
-                        className="text-sm px-3 py-1.5 rounded-full bg-zinc-800 text-zinc-300 hover:bg-[#c8962e] hover:text-zinc-950 transition-all"
+                        className="text-[15px] text-zinc-400 underline decoration-zinc-700 decoration-dotted underline-offset-4 hover:text-[#c8962e] hover:decoration-[#c8962e]/50 transition-colors"
                       >
                         {item.title}
                       </Link>
@@ -420,17 +428,17 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
             </div>
           )}
 
-          {/* Odkazy na profily */}
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 pt-4 border-t border-white/[0.06] text-sm">
+          {/* Odkazy na profily — bez horní linky, jen vzduch */}
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2 pt-2 text-[15px]">
             <Link
               href={`/raperi/${aSel?.slug}`}
-              className="text-zinc-400 hover:text-[#e4ff1a] transition-colors"
+              className="text-zinc-500 hover:text-[#e4ff1a] transition-colors"
             >
               {aSel?.title} →
             </Link>
             <Link
               href={`/raperi/${bSel?.slug}`}
-              className="text-zinc-400 hover:text-[#c8962e] transition-colors"
+              className="text-zinc-500 hover:text-[#c8962e] transition-colors"
             >
               {bSel?.title} →
             </Link>
