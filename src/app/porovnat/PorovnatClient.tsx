@@ -6,10 +6,12 @@ import { useSearchParams, useRouter } from "next/navigation";
 import {
   computeCommonGround,
   computeSharedTracks,
+  computeIndirectPath,
   commonGroundVerdict,
   trackRoleLabel,
   type CommonGroundEntity,
   type SharedTrack,
+  type IndirectPath,
 } from "@/lib/content/common-ground";
 
 // ─── Types ─────────────────────────────────────────────────────────────────
@@ -31,6 +33,7 @@ interface LookupEntry {
 interface PorovnatClientProps {
   artists: ComparePickerItem[];
   outbound: Record<string, Record<string, string[]>>;
+  collabOutbound: Record<string, Record<string, string[]>>;
   lookup: Record<string, LookupEntry>;
   tracks: CommonGroundEntity[];
 }
@@ -175,7 +178,7 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
 
 // ─── Main ───────────────────────────────────────────────────────────────────
 
-export default function PorovnatClient({ artists, outbound, lookup, tracks }: PorovnatClientProps) {
+export default function PorovnatClient({ artists, outbound, collabOutbound, lookup, tracks }: PorovnatClientProps) {
   const params = useSearchParams();
   const router = useRouter();
 
@@ -224,13 +227,26 @@ export default function PorovnatClient({ artists, outbound, lookup, tracks }: Po
     const b = asCg(bId);
     if (!a || !b || aId === bId) return null;
     return computeCommonGround(a, b, resolve);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [aId, bId, resolve, outbound]);
 
   const sharedTracks: SharedTrack[] = useMemo(() => {
     if (!aId || !bId || aId === bId) return [];
     return computeSharedTracks(aId, bId, tracks, resolve);
   }, [aId, bId, tracks, resolve]);
+
+  // Nepřímé propojení (Fáze 5): BFS přes graf spolupráce. Počítá se jen
+  // když není přímá shoda — je to fallback pro dvojice, které „spojuje X".
+  const indirectPath: IndirectPath | null = useMemo(() => {
+    if (!aId || !bId || aId === bId) return null;
+    if (sharedTracks.length > 0) return null;
+    if (result && !result.isEmpty) return null;
+    // Sloučíme artist outbound + track outbound do jedné adjacency.
+    const full: Record<string, Record<string, string[]>> = {
+      ...collabOutbound,
+      ...outbound,
+    };
+    return computeIndirectPath(aId, bId, full, resolve);
+  }, [aId, bId, collabOutbound, outbound, sharedTracks, result, resolve]);
 
   const aSel = aId ? artists.find((x) => x.id === aId) : null;
   const bSel = bId ? artists.find((x) => x.id === bId) : null;
@@ -333,14 +349,49 @@ export default function PorovnatClient({ artists, outbound, lookup, tracks }: Po
 
           {/* Skupiny shod */}
           {result.isEmpty && sharedTracks.length === 0 ? (
-            <div className="text-center py-16">
-              <p className="text-zinc-400 text-lg mb-2">
-                {aSel?.title} a {bSel?.title} nemají žádnou přímou shodu.
-              </p>
-              <p className="text-zinc-600 text-sm">
-                Zkus jinou dvojici — scéna je velká.
-              </p>
-            </div>
+            indirectPath ? (
+              <section>
+                <div className="flex items-baseline gap-2 mb-3">
+                  <h2 className="text-[11px] font-mono font-bold uppercase tracking-widest text-[#e4ff1a]">
+                    Nepřímé propojení
+                  </h2>
+                  <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-[#e4ff1a]/15 text-[#e4ff1a]">
+                    {indirectPath.length} {indirectPath.length === 1 ? "krok" : indirectPath.length < 5 ? "kroky" : "kroků"}
+                  </span>
+                </div>
+                <p className="text-sm text-zinc-400 mb-3">
+                  {aSel?.title} a {bSel?.title} spolu nikdy nenahráli přímo, ale
+                  spojuje je cesta v síti spolupráce:
+                </p>
+                <div className="flex flex-wrap items-center gap-2">
+                  {indirectPath.hops.map((hop, i) => (
+                    <span key={`${hop.viaId}-${i}`} className="flex items-center gap-2">
+                      {i > 0 && (
+                        <span className="text-zinc-600 text-xs font-mono">→</span>
+                      )}
+                      <span className="text-xs text-zinc-500 font-mono">
+                        {hop.label}
+                      </span>
+                      <Link
+                        href={hop.viaUrl}
+                        className="text-sm px-3 py-1.5 rounded-full bg-zinc-800 text-zinc-300 hover:bg-[#e4ff1a] hover:text-zinc-950 transition-all"
+                      >
+                        {hop.viaTitle}
+                      </Link>
+                    </span>
+                  ))}
+                </div>
+              </section>
+            ) : (
+              <div className="text-center py-16">
+                <p className="text-zinc-400 text-lg mb-2">
+                  {aSel?.title} a {bSel?.title} nemají žádnou přímou shodu.
+                </p>
+                <p className="text-zinc-600 text-sm">
+                  Zkus jinou dvojici — scéna je velká.
+                </p>
+              </div>
+            )
           ) : (
             <div className="space-y-5">
               {result.groups.map((group) => (

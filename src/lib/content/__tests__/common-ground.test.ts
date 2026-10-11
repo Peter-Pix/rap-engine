@@ -213,3 +213,71 @@ describe("trackRoleLabel", () => {
     assert.strictEqual(trackRoleLabel("both"), "host i autor");
   });
 });
+
+// ─── computeIndirectPath (Fáze 5) ──────────────────────────────────────────
+
+import { computeIndirectPath } from "../common-ground";
+
+describe("computeIndirectPath", () => {
+  // Graf spolupráce: A spolupracoval s X, X spolupracoval s B.
+  const OUTBOUND: Record<string, Record<string, string[]>> = {
+    artist_a: { RELATED_TO: ["artist_x"] },
+    artist_x: { RELATED_TO: ["artist_a", "artist_b"] },
+    artist_b: { RELATED_TO: ["artist_x"] },
+    artist_a2: { RELATED_TO: ["artist_y"] },
+    artist_y: { RELATED_TO: ["artist_a2"] },
+    // přes skladbu: C a D hostují na stejném tracku
+    track_shared: {
+      HAS_ARTIST: ["artist_c"],
+      FEATURES: ["artist_d"],
+    },
+    artist_c: { RELATED_TO: [] },
+    artist_d: { RELATED_TO: [] },
+  };
+
+  const RESOLVE: Record<string, CommonGroundEntity> = {
+    artist_a: ent("artist_a", { title: "A" }),
+    artist_x: ent("artist_x", { title: "X" }),
+    artist_b: ent("artist_b", { title: "B" }),
+    artist_c: ent("artist_c", { title: "C" }),
+    artist_d: ent("artist_d", { title: "D" }),
+    artist_a2: ent("artist_a2", { title: "A2" }),
+    artist_y: ent("artist_y", { title: "Y" }),
+    track_shared: { id: "track_shared", type: "track", slug: "shared", title: "Shared" },
+  };
+  const resolve = (id: string) => RESOLVE[id];
+
+  it("najde nepřímou cestu přes společný kontakt", () => {
+    const r = computeIndirectPath("artist_a", "artist_b", OUTBOUND, resolve);
+    assert.ok(r);
+    assert.ok(r!.length >= 1);
+    // Cesta musí projít přes X (společný kontakt).
+    assert.ok(r!.hops.some((h) => h.viaId === "artist_x"));
+  });
+
+  it("vrátí null, když cesta neexistuje", () => {
+    const r = computeIndirectPath("artist_a2", "artist_b", OUTBOUND, resolve);
+    assert.strictEqual(r, null);
+  });
+
+  it("vrátí null pro stejné umělce", () => {
+    const r = computeIndirectPath("artist_a", "artist_a", OUTBOUND, resolve);
+    assert.strictEqual(r, null);
+  });
+
+  it("najde cestu přes sdílenou skladbu (track prostředník)", () => {
+    const r = computeIndirectPath("artist_c", "artist_d", OUTBOUND, resolve);
+    assert.ok(r);
+    // track_shared je prostředník.
+    assert.ok(r!.hops.some((h) => h.viaId === "track_shared"));
+  });
+
+  it("staví URL a titulek mezistanice", () => {
+    const r = computeIndirectPath("artist_a", "artist_b", OUTBOUND, resolve);
+    assert.ok(r);
+    const x = r!.hops.find((h) => h.viaId === "artist_x");
+    assert.ok(x);
+    assert.strictEqual(x!.viaTitle, "X");
+    assert.strictEqual(x!.viaUrl, "/raperi/x");
+  });
+});

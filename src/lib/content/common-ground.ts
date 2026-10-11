@@ -230,3 +230,228 @@ export function commonGroundVerdict(result: CommonGroundResult): string {
   if (t <= 6) return "Solidní překryv.";
   return "Skoro dvojčata.";
 }
+
+// ═══════════════════════════════════════════════════════════════════════════
+// FÁZE 5 — Nepřímé propojení (BFS „spojuje je X")
+//
+// Když dva rappeři nemají žádnou přímou shodu (žádná společná skladba,
+// žánr, label…), najde nejkratší cestu v grafu spolupráce. Např.:
+//   Yzomandias → hostoval u Viktora Sheena → Viktor Sheen feat. Calin
+//
+// Graf spolupráce je sestavený z relací:
+//   RELATED_TO / RELATED_ARTIST  (artist → artist, „spolupracoval s")
+//   HAS_ARTIST / FEATURES        (track → artist, přes sdílenou skladbu)
+// ═══════════════════════════════════════════════════════════════════════════
+
+/** Jeden krok nepřímé cesty: „A se propojí s B přes X". */
+export interface IndirectHop {
+  /** ID entity, přes kterou se propojili (společný kontakt / skladba). */
+  viaId: string;
+  /** Titulek té entity (pro zobrazení). */
+  viaTitle: string;
+  /** URL na detail entity. */
+  viaUrl: string;
+  /** Popis vztahu: „spolupracoval s" / „hostoval na" / „nahrál s". */
+  label: string;
+  /** Z kterého ID krok vychází. */
+  fromId: string;
+  /** Do kterého ID krok vede. */
+  toId: string;
+}
+
+/** Výsledek nepřímého propojení dvou umělců. */
+export interface IndirectPath {
+  /** Délka cesty v krocích (počet hopů). 1 = jeden společný kontakt. */
+  length: number;
+  /** Jednotlivé kroky cesty (seřazené od A k B). */
+  hops: IndirectHop[];
+}
+
+/**
+ * Relace, přes které se dá „propojit" dva umělce. Řazeno podle síly
+ * důkazu spolupráce: přímý vztah (RELATED_TO) je nejsilnější, pak
+ * sdílená skladba (FEATURES/HAS_ARTIST).
+ */
+const INDIRECT_RELATIONS: Record<string, string> = {
+  RELATED_TO: "spolupracoval s",
+  RELATED_ARTIST: "spolupracoval s",
+  FEATURES: "hostoval na",
+  HAS_ARTIST: "nahrál s",
+};
+
+/**
+ * Vypočítá nejkratší nepřímou cestu mezi dvěma umělci.
+ *
+ * Prohledává graf do šířky (BFS) z A i z B zároveň (bidirectional), aby
+ * byl rychlý i na velkém grafu. Hledá jen cesty, kde je každý krok
+ * „spolupráce" — buď přímá vazba artist→artist (RELATED_TO), nebo
+ * sdílená skladba (track, na kterém se oba podíleli).
+ *
+ * @param aId       ID umělce A
+ * @param bId       ID umělce B
+ * @param outbound  adjacency mapa: id → (relace → [id]). Obsahuje artisty
+ *                  i tracky, aby se daly procházet skladby.
+ * @param resolve   id → entita (pro titulek/URL mezistanic)
+ * @param maxDepth  maximální hloubka prohledávání (ochrana proti pomalým
+ *                  BFS na velkých grafech). Výchozí 4.
+ */
+export function computeIndirectPath(
+  aId: string,
+  bId: string,
+  outbound: Record<string, Record<string, string[]>>,
+  resolve: (id: string) => CommonGroundEntity | undefined,
+  maxDepth = 4,
+): IndirectPath | null {
+  if (aId === bId) return null;
+
+  // ── Sestav obousměrnou adjacency mapu ──────────────────────────────────
+  // `outbound` obsahuje hrany jen jedním směrem (artist→artist přes
+  // RELATED_TO, track→artist přes HAS_ARTIST/FEATURES). Aby šlo procházet
+  // i artist→track (přes sdílenou skladbu), postavíme inverzní index.
+  const fwd = new Map<string, Map<string, string[]>>();
+  const inv = new Map<string, Array<{ from: string; label: string }>>();
+
+  for (const [id, rels] of Object.entries(outbound)) {
+    let m = fwd.get(id);
+    if (!m) { m = new Map(); fwd.set(id, m); }
+    for (const [rel, ids] of Object.entries(rels)) {
+      const label = INDIRECT_RELATIONS[rel];
+      if (!label) continue;
+      m.set(rel, ids);
+      for (const to of ids) {
+        let arr = inv.get(to);
+        if (!arr) { arr = []; inv.set(to, arr); }
+        arr.push({ from: id, label });
+      }
+    }
+  }
+
+  // Sousedé uzlu = přímé outbound hrany + inverzní (kdo na mě ukazuje).
+  // U inverzních hran obracíme popis: „hostoval na" se stává „má hosta".
+  const INVERSE_LABEL: Record<string, string> = {
+    "spolupracoval s": "spolupracoval s",
+    "hostoval na": "hostil",
+    "nahrál s": "nahrál s",
+  };
+
+  const neighbors = (id: string): Array<{ to: string; label: string; viaId: string }> => {
+    const out: Array<{ to: string; label: string; viaId: string }> = [];
+    // přímé hrany
+    const f = fwd.get(id);
+    if (f) {
+      for (const [rel, ids] of f.entries()) {
+        const label = INDIRECT_RELATIONS[rel];
+        for (const to of ids) {
+          out.push({ to, label: label ?? "propojen s", viaId: to });
+        }
+      }
+    }
+    // inverzní hrany
+    const invs = inv.get(id);
+    if (invs) {
+      for (const { from, label } of invs) {
+        const l = INVERSE_LABEL[label] ?? "propojen s";
+        out.push({ to: from, label: l, viaId: from });
+      }
+    }
+    return out;
+  };
+
+  // Bidirectional BFS.
+  type Step = { node: string; prev: Step | null; label: string; viaId: string };
+
+  const queueA: Step[] = [{ node: aId, prev: null, label: "", viaId: "" }];
+  const queueB: Step[] = [{ node: bId, prev: null, label: "", viaId: "" }];
+  const visitedA = new Map<string, Step>([[aId, queueA[0]]]);
+  const visitedB = new Map<string, Step>([[bId, queueB[0]]]);
+
+  const expand = (queue: Step[], visited: Map<string, Step>) => {
+    const levelSize = queue.length;
+    for (let i = 0; i < levelSize; i++) {
+      const cur = queue.shift()!;
+      for (const nb of neighbors(cur.node)) {
+        if (visited.has(nb.to)) continue;
+        const step: Step = { node: nb.to, prev: cur, label: nb.label, viaId: nb.viaId };
+        visited.set(nb.to, step);
+        queue.push(step);
+      }
+    }
+  };
+
+  for (let depth = 0; depth < maxDepth; depth++) {
+    expand(queueA, visitedA);
+    expand(queueB, visitedB);
+
+    let meetNode: string | null = null;
+    for (const key of visitedA.keys()) {
+      if (visitedB.has(key)) { meetNode = key; break; }
+    }
+    if (meetNode) {
+      return reconstructPath(meetNode, visitedA.get(meetNode)!, visitedB.get(meetNode)!, resolve);
+    }
+  }
+
+  return null;
+}
+
+
+/** Sestaví seřazenou cestu z průsečíku bidirectional BFS. */
+interface PathStep {
+  node: string;
+  prev: PathStep | null;
+  label: string;
+  viaId: string;
+}
+
+function reconstructPath(
+  meetNode: string,
+  stepA: PathStep,
+  stepB: PathStep,
+  resolve: (id: string) => CommonGroundEntity | undefined,
+): IndirectPath | null {
+  // Cesta z A k meetu (bez A samotného), v přirozeném pořadí A→meet.
+  const aPath: Array<{ node: string; label: string }> = [];
+  let cur: PathStep | null = stepA;
+  while (cur && cur.prev) {
+    aPath.unshift({ node: cur.node, label: cur.label });
+    cur = cur.prev;
+  }
+  // Cesta z meetu k B (bez meetu), v pořadí meet→B.
+  const bPath: Array<{ node: string; label: string }> = [];
+  cur = stepB;
+  while (cur && cur.prev) {
+    bPath.push({ node: cur.node, label: cur.label });
+    cur = cur.prev;
+  }
+
+  const hops: IndirectHop[] = [];
+
+  const pushHop = (node: string, label: string) => {
+    const ent = resolve(node);
+    if (!ent) return;
+    hops.push({
+      viaId: ent.id,
+      viaTitle: ent.title,
+      viaUrl: urlFor(ent),
+      label: label || "propojen s",
+      fromId: "",
+      toId: node,
+    });
+  };
+
+  // A → meet (každý node kromě samotného A).
+  for (const s of aPath) pushHop(s.node, s.label);
+  // meet samotný (mezistanice).
+  pushHop(meetNode, "přes");
+  // meet → B (každý node kromě meetu).
+  for (const s of bPath) pushHop(s.node, s.label);
+
+  if (hops.length === 0) return null;
+  return { length: hops.length, hops };
+}
+
+/** URL prefix pro entitu (zrcadlí ROUTE_PREFIX). */
+function urlFor(entity: CommonGroundEntity): string {
+  const prefix = ROUTE_PREFIX[entity.type] ?? `/${entity.type}`;
+  return `${prefix}/${entity.slug}`;
+}
