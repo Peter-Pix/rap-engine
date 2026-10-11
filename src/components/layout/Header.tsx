@@ -55,6 +55,13 @@ const NAV_GROUPS: { title: string; items: { label: string; href: string }[] }[] 
       { label: "Články", href: "/clanky" },
     ],
   },
+  {
+    // Experimentální AI vrstva — vlastní skupina, ať je jasné, že je to "navíc".
+    title: "Experiment",
+    items: [
+      { label: "🧪 Zeptej se databáze", href: "/zeptej-se" },
+    ],
+  },
 ];
 
 // ─── Icons ──────────────────────────────────────────────────────────────
@@ -276,23 +283,34 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
+            {/* Experimentální AI vrstva — odlišená, ale nepřekáží.
+                Ikona zlatě, nálepka "experiment" přes odznak. */}
+            <Link
+              href="/zeptej-se"
+              title="Zeptej se databáze — experimentální funkce"
+              className="group relative ml-1 flex items-center gap-1.5 px-2.5 py-1.5 text-sm font-medium rounded-md transition-all duration-150 text-[var(--re-accent)]/85 hover:text-[var(--re-accent)] hover:bg-[var(--badge-bg)]"
+            >
+              <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={1.9} aria-hidden>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z" />
+              </svg>
+              Zeptej se
+              <span
+                className="text-[9px] font-semibold uppercase tracking-wider leading-none px-1.5 py-[3px] rounded-full border"
+                style={{
+                  background: "var(--badge-bg)",
+                  borderColor: "var(--badge-border)",
+                  color: "var(--badge-text)",
+                }}
+              >
+                Experiment
+              </span>
+            </Link>
           </nav>
 
           {/* Desktop search */}
           <div className="hidden md:block ml-auto">
             <div className="w-64 lg:w-80">
               <SearchBar />
-              <button
-                type="button"
-                onClick={() => setAskOpen(true)}
-                title="Zeptej se databáze (⌘⇧A)"
-                className="glass glass-hover flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium text-[var(--re-accent)] hover:text-[#e4a843] transition-colors shrink-0"
-              >
-                <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={1.8}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z" />
-                </svg>
-                Zeptej se
-              </button>
             </div>
           </div>
 

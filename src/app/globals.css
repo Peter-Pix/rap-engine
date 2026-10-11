@@ -9,6 +9,12 @@
   --re-surface:    rgba(255,255,255,0.04);
   --re-border:     rgba(255,255,255,0.08);
   --re-glass:      rgba(255,255,255,0.06);
+
+  /* Badge / nálepka — pro "experimentální" označení AI vrstvy.
+     Zlatý tint, aby to bylo vidět, ale nekřičelo. */
+  --badge-bg:      rgba(200,150,46,0.12);
+  --badge-border:  rgba(200,150,46,0.38);
+  --badge-text:    #e4b44a;
 }
 
 * { font-family: var(--font-sans); }

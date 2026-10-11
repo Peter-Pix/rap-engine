@@ -1,13 +1,6 @@
-import type { Metadata } from "next";
-import { AskClient } from "./AskClient";
+import { redirect } from "next/navigation";
 
-export const metadata: Metadata = {
-  title: "Zeptej se databáze",
-  description:
-    "Zeptej se naší databáze českého a slovenského rapu — rappery, skladby, alba, spolupráce. AI odpovídá jen z ověřených dat, bez halucinací.",
-  robots: { index: true, follow: true },
-};
-
-export default function AskPage() {
-  return <AskClient />;
+/** Legacy URL /ask → /zeptej-se (přejmenováno kvůli srozumitelnější adrese). */
+export default function AskRedirect() {
+  redirect("/zeptej-se");
 }

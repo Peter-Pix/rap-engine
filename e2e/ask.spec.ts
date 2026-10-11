@@ -50,14 +50,37 @@ test.describe("AI — AskPanel (⌘⇧A)", () => {
     await expect(dialog).toBeHidden({ timeout: 5000 });
   });
 
-  test("tlačítko 'Zeptej se' v headeru otevře panel", async ({ page }) => {
+  test("header má odkaz 'Zeptej se' s nálepkou Experiment → vede na /zeptej-se", async ({ page, isMobile }) => {
     await page.goto("/");
-    const btn = page.locator("button:has-text('Zeptej se')").first();
-    // Na mobilu je schované v draweru
-    if (await btn.isVisible().catch(() => false)) {
-      await btn.click();
-      const dialog = page.getByRole("dialog", { name: /Zeptej se databáze/i });
-      await expect(dialog).toBeVisible({ timeout: 5000 });
+
+    if (isMobile) {
+      // Na mobilu je odkaz schovaný v draweru — otevři hamburger.
+      await page.getByRole("button", { name: /menu|navigace/i }).first().click();
     }
+
+    // POZOR: desktop odkaz je na mobilu skrytý (hidden), takže `.first()` by
+    // chytil neviditelný element. Bereme viditelný odkaz.
+    const link = page.locator('a[href="/zeptej-se"]:visible').first();
+    await expect(link).toBeVisible({ timeout: 5000 });
+    await expect(link).toContainText(/Zeptej se/i);
+
+    // Nálepka Experiment je jen na desktopu (na mobilu je sekce "Experiment").
+    if (!isMobile) {
+      await expect(link).toContainText(/Experiment/i);
+    }
+
+    await link.click();
+    await expect(page).toHaveURL(/\/zeptej-se$/);
+  });
+
+  test("legacy /ask přesměruje na /zeptej-se", async ({ page }) => {
+    await page.goto("/ask");
+    await expect(page).toHaveURL(/\/zeptej-se$/);
+  });
+
+  test("stránka /zeptej-se nese nálepku 'Experimentální funkce'", async ({ page }) => {
+    await page.goto("/zeptej-se");
+    await expect(page.getByText(/Experimentální funkce/i)).toBeVisible({ timeout: 5000 });
+    await expect(page.getByText(/zkušebním provozu/i)).toBeVisible();
   });
 });

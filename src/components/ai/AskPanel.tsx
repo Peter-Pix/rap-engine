@@ -386,7 +386,7 @@ export function AskPanel({ open, onClose }: AskPanelProps) {
             </button>
           </div>
           <p className="mt-2 text-[10px] text-white/25 text-center">
-            Odpovědi vychází jen z ověřených dat 4rap.cz · <Link href="/ask" onClick={onClose} className="hover:text-white/50 underline decoration-dotted">celá stránka</Link>
+            Odpovědi vychází jen z ověřených dat 4rap.cz · <Link href="/zeptej-se" onClick={onClose} className="hover:text-white/50 underline decoration-dotted">celá stránka</Link>
           </p>
         </form>
       </div>
