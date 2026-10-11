@@ -34,7 +34,8 @@ function main(): void {
   // Filter out deprecated entities (status === "deprecated" or slug/id starts with "deprecated")
   const entities = new Map(rawEntities);
   for (const [id, ent] of rawEntities) {
-    if (ent.status === "deprecated" || id.startsWith("deprecated-")) {
+    const maybeStatus = (ent as unknown as { status?: string }).status;
+    if (maybeStatus === "deprecated" || id.startsWith("deprecated-")) {
       entities.delete(id);
     }
   }
@@ -96,13 +97,13 @@ function main(): void {
   buildCache(entities);
 
   // 4. Build indexation state (SEO scoring + graph lastmod)
-  const cacheEntities = jsonSilent(".content-cache/entities.json") ?? {};
-  const cacheInbound = jsonSilent(".content-cache/inbound.json") ?? {};
+  const cacheEntities = jsonSilent<Parameters<typeof buildIndexationCache>[0]>(".content-cache/entities.json") ?? {};
+  const cacheInbound = jsonSilent<Parameters<typeof buildIndexationCache>[1]>(".content-cache/inbound.json") ?? {};
   buildIndexationCache(cacheEntities, cacheInbound);
 
   // 5. Summary
-  const edges = jsonSilent(".content-cache/graph.json") ?? [];
-  const routes = jsonSilent(".content-cache/routes.json") ?? {};
+  const edges = jsonSilent<unknown[]>(".content-cache/graph.json") ?? [];
+  const routes = jsonSilent<Record<string, unknown>>(".content-cache/routes.json") ?? {};
   const inbound = jsonSilent(".content-cache/inbound.json") ?? {};
 
   console.log(`\n📦 Cache written to .content-cache/`);
@@ -127,11 +128,11 @@ function main(): void {
 
 // ─── Helper ───────────────────────────────────────────────────────────────
 
-function jsonSilent(filePath: string): unknown | null {
+function jsonSilent<T = unknown>(filePath: string): T | null {
   try {
     return JSON.parse(
       fs.readFileSync(path.join(process.cwd(), filePath), "utf-8"),
-    );
+    ) as T;
   } catch {
     return null;
   }

@@ -10,7 +10,7 @@
     "cache:graph-layout": "npx tsx scripts/build-graph-layout.ts",
     "cache:track-import": "npx tsx scripts/import-rap-monitor-tracks.ts",
     "cache:validate": "npx tsx scripts/validate-content.ts",
-    "test": "node --test --import=tsx \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
+    "test": "tsc -p tsconfig.scripts.json && node --test --import=tsx \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
     "lint": "eslint .",
     "test:e2e": "playwright test",
     "test:e2e:mobile": "playwright test --project=mobile",
@@ -18,7 +18,8 @@
     "test:e2e:ui": "playwright test --ui",
     "test:all": "npm test && npm run test:e2e",
     "prepare": "sh scripts/install-hooks.sh",
-    "content:check": "npx tsx scripts/check-content-regression.ts"
+    "content:check": "npx tsx scripts/check-content-regression.ts",
+    "typecheck:scripts": "tsc -p tsconfig.scripts.json"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.0",

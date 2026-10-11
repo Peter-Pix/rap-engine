@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "target": "es2022",
+    "types": ["node"],
+    "strict": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "scripts/lib/**/*.ts",
+    "scripts/enrich-*.ts",
+    "scripts/map-taxonomies.ts",
+    "scripts/build-content-cache.ts",
+    "scripts/validate-content.ts",
+    "scripts/check-content-regression.ts"
+  ],
+  "exclude": ["node_modules"]
+}
