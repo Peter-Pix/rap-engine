@@ -4,6 +4,7 @@ import { readEntities } from "@/lib/content/cache-reader";
 import PorovnatClient, { type ComparePickerItem } from "./PorovnatClient";
 
 export const metadata: Metadata = {
+  robots: { index: true, follow: true },
   title: "Porovnat rappery",
   description:
     "Vyber dva rappery a zjisti, co mají společného — žánry, styly, nálady, labely, města i scény.",

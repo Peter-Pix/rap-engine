@@ -3,6 +3,7 @@ import { readEntities, readEntityById } from "@/lib/content/cache-reader";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  robots: { index: true, follow: true },
   title: "Mapa české rapové scény",
   description: "Přehled míst, která tvarují českou a slovenskou rapovou scénu.",
 };
