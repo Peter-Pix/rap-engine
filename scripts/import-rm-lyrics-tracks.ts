@@ -29,6 +29,8 @@ const SNAPSHOT = path.join(ROOT, ".data", "phase3", "rm-songs.json");
 const DRY_RUN = process.env.DRY_RUN !== "0";
 const RM_ARTIST = process.env.RM_ARTIST || "Hugo Toxxx";
 const CONCURRENCY = Number(process.env.CONCURRENCY || 4);
+/** Volitelný whitelist: cesta k JSON [{artist,title}...] — importuje POUZE tyto (scope-guard). */
+const WHITELIST_FILE = process.env.WHITELIST_FILE || "";
 
 const norm = (s: string) =>
   (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
@@ -172,39 +174,51 @@ for (const d of fs.readdirSync(ENTITIES, { withFileTypes: true })) {
   }
 }
 
-const primaryId = artistByName.get(norm(RM_ARTIST));
-if (!primaryId) { console.error(`❌ Interpret "${RM_ARTIST}" není v RKG.`); process.exit(1); }
-const primarySlug = primaryId.replace(/^artist_/, "");
+// ── Whitelist (scope-guard) ────────────────────────────────────────────────
+let whitelist: Set<string> | null = null;
+if (WHITELIST_FILE) {
+  const wl: Array<{ artist: string; title: string }> = JSON.parse(fs.readFileSync(WHITELIST_FILE, "utf8"));
+  whitelist = new Set(wl.map((w) => `${norm(w.artist)}|${norm(cleanTitle(w.title))}`));
+}
 
 // ── Výběr kandidátů ────────────────────────────────────────────────────────
 const rm: any[] = JSON.parse(fs.readFileSync(SNAPSHOT, "utf8"));
 // pozn.: RM má pro skladbu víc záznamů; bereme nejdelší text
 const best = new Map<string, any>();
 for (const s of rm) {
-  if (String(s.artist_name || "").toLowerCase() !== RM_ARTIST.toLowerCase()) continue;
+  const artistName = String(s.artist_name || "");
   const t = cleanTitle(s.title || "");
   if (!t) continue;
   const hasAnalysis = (s.ai_analysis?.length ?? 0) > 50;
   if (hasAnalysis) continue; // pás A řeší jiný skript
   if ((s.lyrics_text?.length ?? 0) <= 100) continue;
-  const k = norm(t);
+  // bez whitelistu = jeden interpret dle RM_ARTIST; s whitelistem = přesně vyjmenované dvojice
+  if (whitelist) {
+    if (!whitelist.has(`${norm(artistName)}|${norm(t)}`)) continue;
+  } else if (artistName.toLowerCase() !== RM_ARTIST.toLowerCase()) continue;
+  const key = whitelist ? norm(artistName) : norm(RM_ARTIST);
+  const k = `${key}|${norm(t)}`;
   const cur = best.get(k);
   if (!cur || (s.lyrics_text?.length ?? 0) > (cur.lyrics_text?.length ?? 0)) best.set(k, s);
 }
 
+// ── Sestav kandidáty ────────────────────────────────────────────────────────
 const candidates: any[] = [];
 let skippedExist = 0;
 for (const [, s] of best) {
   const ct = cleanTitle(s.title || "");
   const ts = slugify(ct);
   if (!ts) continue;
-  const trackSlug = `${primarySlug}-${ts}`;
+  const artistId = artistByName.get(norm(String(s.artist_name || "")));
+  if (!artistId) continue;
+  const trackSlug = `${artistId.replace(/^artist_/, "")}-${ts}`;
   if (existingSlugs.has(trackSlug)) { skippedExist++; continue; }
   const album = s.album ? albumsByTitle.get(norm(s.album)) : undefined;
-  candidates.push({ id: `track_${trackSlug}`, slug: trackSlug, title: ct, rm: s, album, feats: titleFeats(s.title || "") });
+  candidates.push({ id: `track_${trackSlug}`, slug: trackSlug, title: ct, rm: s, album, artistId,
+    artist: String(s.artist_name || ""), feats: titleFeats(s.title || "") });
 }
 
-console.log(`Interpret: ${RM_ARTIST} (${primaryId})`);
+console.log(whitelist ? `Režim: whitelist (${whitelist.size} dvojic)` : `Interpret: ${RM_ARTIST}`);
 console.log(`Kandidátů k importu (RM text, bez analýzy): ${candidates.length}`);
 console.log(`Přeskočeno (existuje slug): ${skippedExist}\n`);
 for (const c of candidates) console.log(`  + ${c.id} | „${c.title}" | text ${c.rm.lyrics_text.length} zn. | album ${c.album?.id ?? "—"}`);
@@ -220,7 +234,7 @@ async function main() {
       const dir = path.join(ENTITIES, c.id);
       if (fs.existsSync(dir)) return;
       const { system, user } = buildPrompt({
-        title: c.title, artist: RM_ARTIST,
+        title: c.title, artist: c.artist,
         album: c.album ? c.rm.album : undefined,
         year: c.album?.year ? String(c.album.year) : undefined,
         lyrics: c.rm.lyrics_text,
@@ -251,7 +265,7 @@ async function main() {
       };
       fs.writeFileSync(path.join(dir, "meta.json"), JSON.stringify(meta, null, 2) + "\n");
       const relations = {
-        primaryArtist: [primaryId],
+        primaryArtist: [c.artistId],
         featuring: c.feats.map((f: string) => artistByName.get(norm(f))).filter(Boolean).sort(),
         belongsToAlbum: relAlbum ? [relAlbum] : [],
         producers: [], labels: albumRels?.labels ?? [], genres: albumRels?.genres ?? [],
