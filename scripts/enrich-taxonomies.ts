@@ -16,6 +16,7 @@
  */
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { mayOverwrite } from "./lib/content-guard.js";
 
 const ROOT = path.resolve(__dirname, "..");
 const ENTITIES = path.join(ROOT, "content", "entities");
@@ -212,15 +213,24 @@ function artistLineFor(trackId: string): string {
 // ─── Main ──────────────────────────────────────────────────────────────────
 const types = ONLY_TYPE ? [ONLY_TYPE] : Object.keys(REL_FOR);
 const results: { id: string; type: string; title: string; len: number; tracks: number; skip?: string }[] = [];
+let protectedCount = 0;
 
 for (const type of types) {
   for (const e of Object.values(ents).filter((x: any) => x.type === type)) {
-    // GATE 0: entita už má kvalitní obsah → nechat být (nepřepisovat!)
-    const bodyLen = existingBodyLength(e.id);
-    if (bodyLen >= 200 && !FORCE) {
-      results.push({ id: e.id, type, title: e.title, len: bodyLen, tracks: 0, skip: "už má obsah" });
+    // GATE 0: ochrana původního obsahu (content-guard).
+    // BOHATÝ obsah (>=600 B) se NIKDY nepřepíše — ani s FORCE.
+    // Střední obsah vyžaduje FORCE + I_KNOW_WHAT_I_DO=1.
+    const guard = mayOverwrite(ENTITIES, e.id, {
+      force: FORCE,
+      allowRich: process.env.ALLOW_RICH === "1",
+      confirmed: process.env.I_KNOW_WHAT_I_DO === "1",
+    });
+    if (!guard.allowed) {
+      results.push({ id: e.id, type, title: e.title, len: guard.currentLength, tracks: 0, skip: "chráníno" });
       continue;
     }
+    const bodyLen = guard.currentLength;
+    if (guard.currentLength > 0) protectedCount++;
 
     const s = statsFor(e.id, type);
     // GATE 1: bez dost dat = prázdná stránka → přeskočit
@@ -258,9 +268,9 @@ for (const type of types) {
 const ok = results.filter((r) => !r.skip);
 const skipped = results.filter((r) => r.skip);
 console.log(`Typy: ${types.join(", ")}`);
-const hasContent = skipped.filter(r=>r.skip==="už má obsah");
+const protectedN = skipped.filter(r=>r.skip==="chráníno");
 const tooFew = skipped.filter(r=>r.skip==="málo skladeb");
-console.log(`Celkem: ${results.length} | obohaceno: ${ok.length} | už má obsah: ${hasContent.length} | málo dat: ${tooFew.length}`);
+console.log(`Celkem: ${results.length} | obohaceno: ${ok.length} | ochráněno (má obsah): ${protectedN.length} | málo dat: ${tooFew.length}`);
 console.log(`Ø obsah: ${Math.round(ok.reduce((s, r) => s + r.len, 0) / (ok.length || 1))} znaků\n`);
 console.log("Vzorek (top 15 podle skladeb):");
 for (const r of ok.sort((a, b) => b.tracks - a.tracks).slice(0, 15)) {

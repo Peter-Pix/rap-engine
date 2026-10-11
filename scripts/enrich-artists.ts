@@ -17,6 +17,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { mayOverwrite } from "./lib/content-guard.js";
 
 const ROOT = process.cwd();
 const CACHE = path.join(ROOT, ".content-cache");
@@ -143,11 +144,17 @@ const artists = Object.values(ents).filter((e) => e.type === "artist");
 const results: { id: string; title: string; len: number; tracks: number; skip?: string }[] = [];
 
 for (const a of artists) {
-  const bodyLen = existingBodyLength(a.id);
-  if (bodyLen >= 600 && !FORCE) {
-    results.push({ id: a.id, title: a.title, len: bodyLen, tracks: 0, skip: "už má obsah" });
+  // Ochrana původního obsahu (content-guard) — bohatý obsah se NIKDY nepřepíše.
+  const guard = mayOverwrite(ENTITIES, a.id, {
+    force: FORCE,
+    allowRich: process.env.ALLOW_RICH === "1",
+    confirmed: process.env.I_KNOW_WHAT_I_DO === "1",
+  });
+  if (!guard.allowed) {
+    results.push({ id: a.id, title: a.title, len: guard.currentLength, tracks: 0, skip: "chráníno" });
     continue;
   }
+  const bodyLen = guard.currentLength;
   const s = artistStats(a.id);
   if (s.tracks.length < MIN_TRACKS) {
     results.push({ id: a.id, title: a.title, len: bodyLen, tracks: s.tracks.length, skip: "málo skladeb" });
@@ -177,11 +184,11 @@ for (const a of artists) {
 }
 
 const ok = results.filter((r) => !r.skip);
-const hasContent = results.filter((r) => r.skip === "už má obsah");
+const hasContent = results.filter((r) => r.skip === "chráníno");
 const tooFew = results.filter((r) => r.skip === "málo skladeb");
 const avg = ok.length ? Math.round(ok.reduce((a, r) => a + r.len, 0) / ok.length) : 0;
 
-console.log(`Interpreti: ${results.length} | obohaceno: ${ok.length} | už má obsah: ${hasContent.length} | málo skladeb: ${tooFew.length}`);
+console.log(`Interpreti: ${results.length} | obohaceno: ${ok.length} | ochráněno: ${hasContent.length} | málo skladeb: ${tooFew.length}`);
 console.log(`Ø obsah: ${avg} znaků (min ${MIN_TRACKS} skladeb)`);
 console.log("");
 for (const r of ok.sort((a, b) => b.tracks - a.tracks)) {
