@@ -3,4 +3,6 @@ import { createListingPage, createListingMetadata } from "@/components/listing/E
 
 export const metadata: Metadata = createListingMetadata("Akce", "Hip-hopové akce, koncerty a festivaly v Česku a na Slovensku.");
 
+export const revalidate = 3600;
+
 export default createListingPage({ type: "event", title: "Akce" });

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     extraMeta.status === "draft";
 
   return {
-    title: `${entity.title} | 4rap.cz`,
+    title: `${entity.title}`,
     description: entity.description || `Skladba ${entity.title} na 4rap.cz`,
     ...(noindex ? { robots: { index: false, follow: true } } : {}),
     alternates: {

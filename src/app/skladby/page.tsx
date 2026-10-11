@@ -3,4 +3,6 @@ import { createListingPage, createListingMetadata } from "@/components/listing/E
 
 export const metadata: Metadata = createListingMetadata("Skladby", "Kompletní seznam skladeb české a slovenské rapové scény.");
 
+export const revalidate = 3600;
+
 export default createListingPage({ type: "track", title: "Skladby" });

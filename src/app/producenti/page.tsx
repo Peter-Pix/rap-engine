@@ -3,4 +3,6 @@ import { createListingPage, createListingMetadata } from "@/components/listing/E
 
 export const metadata: Metadata = createListingMetadata("Producenti", "Čeští a slovenští hip-hopoví producenti.");
 
+export const revalidate = 3600;
+
 export default createListingPage({ type: "producer", title: "Producenti" });
