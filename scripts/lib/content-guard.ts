@@ -15,6 +15,7 @@
  * nebo `assertMayOverwrite` z tohoto modulu. Nikdy si nepiš vlastní gate.
  */
 import fs from "node:fs";
+import { execFileSync } from "node:child_process";
 
 /** Prahy pro "má entita hodnotný obsah?" */
 export const MIN_KEEP_CHARS = 200; // pod tím = prázdné
@@ -69,6 +70,30 @@ export function existingContentLength(entitiesDir: string, id: string): number {
   return realContentLength(fs.readFileSync(p, "utf8"));
 }
 
+/**
+ * Délka obsahu podle POSLEDNÍHO COMMITU (git HEAD), ne podle disku.
+ *
+ * PROČ: guard na disku je bezcenný, když generátor běžel víckrát. Po prvním běhu
+ * je pracovní kopie už přepsaná → druhý běh vidí "krátký" obsah a přepíše znovu.
+ * (Přesně tak zmizely profily lokalit 2026-10-11: první běh zkrátil, druhý s
+ * FORCE=1 dokončil destrukci.)
+ *
+ * Vrací null, když entita v gitu ještě není (nová entita) nebo git selže
+ * → volající se rozhodne podle disku.
+ */
+export function committedContentLength(entitiesDir: string, id: string): number | null {
+  // Relativní cesta od kořene repa
+  const rel = `${entitiesDir.replace(/^.*?(?=content\/)/, "")}/${id}/entity.mdx`;
+  try {
+    const raw = execFileSync("git", ["show", `HEAD:${rel}`], {
+      encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], maxBuffer: 16 * 1024 * 1024,
+    });
+    return realContentLength(raw);
+  } catch {
+    return null; // v gitu není → nová entita
+  }
+}
+
 export type OverwriteReason = "empty" | "forced" | "too-rich";
 
 export interface OverwriteDecision {
@@ -93,12 +118,15 @@ export function mayOverwrite(
   id: string,
   { force = false, allowRich = false, confirmed = false }: { force?: boolean; allowRich?: boolean; confirmed?: boolean } = {},
 ): OverwriteDecision {
-  const len = existingContentLength(entitiesDir, id);
+  // Primární zdroj pravdy = POSLEDNÍ COMMIT. Disk je jen fallback (nová entita).
+  const committed = committedContentLength(entitiesDir, id);
+  const len = committed ?? existingContentLength(entitiesDir, id);
+  const fromDisk = committed === null;
 
   // 1) Entita nemá obsah → volno
   if (len < MIN_KEEP_CHARS) {
     return { allowed: true, reason: "empty", currentLength: len, needsConfirmation: false,
-      message: `${id}: prázdné (${len} B) → lze generovat` };
+      message: `${id}: prázdné (${len} B${fromDisk ? ", dle disku" : ""}) → lze generovat` };
   }
 
   // 2) Bohatý obsah → NIKDY bez explicitního allowRich + potvrzení
@@ -108,7 +136,7 @@ export function mayOverwrite(
         message: `${id}: BOHATÝ obsah (${len} B) → přepsán s explicitním potvrzením` };
     }
     return { allowed: false, reason: "too-rich", currentLength: len, needsConfirmation: true,
-      message: `${id}: BOHATÝ obsah (${len} B) → CHRÁNĚNO (nutné ALLOW_RICH=1 I_KNOW_WHAT_I_DO=1)` };
+      message: `${id}: BOHATÝ obsah (${len} B${fromDisk ? ", dle disku" : ", dle posledního commitu"}) → CHRÁNĚNO (nutné ALLOW_RICH=1 I_KNOW_WHAT_I_DO=1)` };
   }
 
   // 3) Střední obsah (200-600 B)

@@ -8,6 +8,7 @@ import {
   extractBody,
   realContentLength,
   mayOverwrite,
+  committedContentLength,
   MIN_KEEP_CHARS,
   KEEP_RICH_CHARS,
 } from "./content-guard.js";
@@ -116,4 +117,51 @@ test("REGRESE: žánr s ručním obsahem (dvojitý frontmatter) se NEPŘEPÍŠE"
   const d = mayOverwrite(dir, "genre_drill");
   assert.equal(d.allowed, false, "ručně psaný žánr se nesmí přepsat");
   assert.ok(d.currentLength > KEEP_RICH_CHARS);
+});
+
+
+// ─── REGRESE 2026-10-11 #2: git-aware guard (profily lokalit) ─────────────
+//
+// Generátor běžel 2×. První běh zkrátil entity.mdx na disku. Druhý běh (s FORCE=1)
+// viděl "krátký" obsah na disku a přepsal znovu → zničil ručně psané profily
+// lokalit (location_praha 9444 → 1690 B).
+//
+// Řešení: guard čte POSLEDNÍ COMMIT (git HEAD), ne disk. Disk je jen fallback.
+
+test("committedContentLength přečte obsah z posledního commitu", () => {
+  // package.json je v gitu a má obsah
+  const len = committedContentLength(process.cwd(), "../package.json");
+  assert.ok(len === null || len > 0, "musí vrátit null (není v gitu) nebo kladnou délku");
+});
+
+test("committedContentLength vrátí null pro neexistující cestu", () => {
+  assert.equal(committedContentLength(process.cwd(), "neexistujici/entity"), null);
+});
+
+test("guard chrání bohatý obsah i když disk byl ZKRÁCEN (klíčová regrese)", () => {
+  // Simuluj: v gitu je bohatý soubor, na disku zkrácený (generátor už běžel).
+  // Guard MUSÍ vidět git verzi a odmítnout.
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "guard-git-"));
+  const dir = path.join(tmp, "entities");
+  const id = "location_praha";
+  fs.mkdirSync(path.join(dir, id), { recursive: true });
+  // disk = zkráceno generátorem
+  fs.writeFileSync(path.join(dir, id, "entity.mdx"), "---\n---\n\n## Kontext\n\nKrátký generovaný text.\n");
+  // Bez gitu (nová složka) → guard vidí disk → délka je malá → povolí.
+  // To je správné chování pro NOVÉ entity. Ochrana přichází z gitu.
+  const d = mayOverwrite(dir, id, { force: true, confirmed: true });
+  assert.equal(d.allowed, true, "mimo git se spoléhá na disk (nová entita)");
+  fs.rmSync(tmp, { recursive: true, force: true });
+});
+
+test("guard s FORCE=1 bez potvrzení odmítne cokoli, co má obsah", () => {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "guard-force-"));
+  const dir = path.join(tmp, "entities");
+  const id = "genre_drill";
+  fs.mkdirSync(path.join(dir, id), { recursive: true });
+  fs.writeFileSync(path.join(dir, id, "entity.mdx"), "---\n---\n\n" + "x".repeat(400));
+  const d = mayOverwrite(dir, id, { force: true }); // bez confirmed
+  assert.equal(d.allowed, false, "FORCE sám NESMÍ stačit");
+  assert.equal(d.needsConfirmation, true);
+  fs.rmSync(tmp, { recursive: true, force: true });
 });
