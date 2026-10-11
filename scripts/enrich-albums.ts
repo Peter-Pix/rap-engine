@@ -94,8 +94,8 @@ function albumStats(albumId: string): AlbumStats {
         artists.set(x.to, (artists.get(x.to) ?? 0) + 1);
       }
     }
-    // feat v názvu
-    if (/\(feat\.|feat\.|&|,/.test(te.title) && /\(feat\./i.test(te.title)) featTracks.push(t);
+    // host = track, jehož hlavní artist NENÍ hlavní artist alba (reálná hrana, ne regex)
+    // (dopočítá se později, až známe mainArtist)
     // témata/nálady z extraMeta
     const em = te.extraMeta ?? {};
     for (const th of (em.themes as string[]) ?? []) themes.set(th, (themes.get(th) ?? 0) + 1);
@@ -117,6 +117,17 @@ function albumStats(albumId: string): AlbumStats {
     }
   }
 
+  // hosté = tracky, jejichž hlavní artist != mainArtist alba (reálná hrana)
+  const guestTracks: string[] = [];
+  if (mainArtist) {
+    for (const t of trackIds) {
+      const primary = (outIdx.get(t) ?? []).find(
+        (x) => x.relation === "HAS_ARTIST" && ents[x.to]?.type === "artist",
+      )?.to;
+      if (primary && primary !== mainArtist) guestTracks.push(t);
+    }
+  }
+
   // Entity-level vazby (BEZPEČNÉ odkazy): album → HAS_THEME / HAS_MOOD
   const entThemes: string[] = [];
   const entMoods: string[] = [];
@@ -125,7 +136,7 @@ function albumStats(albumId: string): AlbumStats {
     if (ents[x.to]?.type === "mood") entMoods.push(x.to);
   }
 
-  return { tracks: trackIds, richTracks, artists, mainArtist, themes, moods, featTracks, year, entThemes, entMoods };
+  return { tracks: trackIds, richTracks, artists, mainArtist, themes, moods, featTracks: guestTracks, year, entThemes, entMoods };
 }
 
 function mdxFor(album: Ent, s: AlbumStats): string {
@@ -149,12 +160,16 @@ function mdxFor(album: Ent, s: AlbumStats): string {
     m += `**${album.title}** je album s **${s.tracks.length} skladbami**.\n\n`;
   }
 
-  // ── Tracklist
+  // ── Tracklist (hosté označeni — reálná vazba na jiného interpreta)
+  const guestSet = new Set(s.featTracks);
   m += `## Skladby na albu\n\n`;
   for (const t of s.tracks) {
     const te = ents[t];
-    const feat = /\(feat\./i.test(te.title);
-    m += `- [${te.title}](${routeOf(t)})${feat ? " *— host*" : ""}\n`;
+    const isGuest = guestSet.has(t);
+    const guestName = isGuest
+      ? (outIdx.get(t) ?? []).find((x) => x.relation === "HAS_ARTIST" && x.to !== s.mainArtist)?.to
+      : null;
+    m += `- [${te.title}](${routeOf(t)})${guestName ? ` — host [${titleOf(guestName)}](${routeOf(guestName)})` : ""}\n`;
   }
   m += `\n`;
 
