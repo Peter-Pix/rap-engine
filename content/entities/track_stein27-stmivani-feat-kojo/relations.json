@@ -8,20 +8,30 @@
   "producers": [
     "artist_enthic"
   ],
-  "featuring": [],
+  "featuring": [
+    "artist_kojo"
+  ],
   "labels": [],
-  "genres": [],
+  "genres": [
+    "genre_rap",
+    "genre_trap"
+  ],
   "styles": [
     "style_melodic"
   ],
   "themes": [
+    "theme_introspection",
+    "theme_life",
     "theme_relationships",
-    "theme_street-life",
-    "theme_self-reflection"
+    "theme_self-reflection",
+    "theme_street-life"
   ],
   "moods": [
+    "mood_dark",
+    "mood_emotional",
     "mood_melancholic",
-    "mood_emotional"
+    "mood_night",
+    "mood_thoughtful"
   ],
   "related": []
 }

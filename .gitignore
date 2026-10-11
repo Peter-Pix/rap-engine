@@ -25,3 +25,7 @@ tsconfig.tsbuildinfo
 # Vercel lokální deploy state (repo.json zůstává trackovaný)
 /.vercel/*
 !/.vercel/repo.json
+
+# Dočasné zálohy z merge operací (11. 10. 2026) — necommitovat
+content/.merge-backup-*/
+content/.dupmerge-backup-*/

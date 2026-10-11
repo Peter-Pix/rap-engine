@@ -9,11 +9,18 @@
   "producers": [],
   "labels": [],
   "genres": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_melodic"
+  ],
+  "themes": [
+    "theme_relationships",
+    "theme_self-reflection"
+  ],
   "moods": [
     "mood_aggressive",
-    "mood_confident"
+    "mood_confident",
+    "mood_emotional",
+    "mood_melancholic"
   ],
   "related": []
 }

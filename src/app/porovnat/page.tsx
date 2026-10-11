@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { Suspense } from "react";
 import { readEntities } from "@/lib/content/cache-reader";
+import { resolveArtistImage } from "@/lib/content/images";
 import PorovnatClient, { type ComparePickerItem } from "./PorovnatClient";
 
 export const metadata: Metadata = {
@@ -28,7 +29,7 @@ export default function PorovnatPage() {
       id: e.id,
       slug: e.slug,
       title: e.title,
-      image: e.image ?? null,
+      image: resolveArtistImage(e.slug, e.image) ?? null,
     }))
     .sort((a, b) => a.title.localeCompare(b.title, "cs"));
 

@@ -27,9 +27,6 @@ export function entityUrl(type: string, slug: string): string {
   }
 }
 
-/** Vztahy, které smysluplně odpovídají na dotazy o spolupráci. */
-const COLLAB_RELATIONS = new Set(["RELATED_ARTIST", "RELATED_TO", "FEATURES"]);
-
 export interface GraphIndex {
   out: Map<string, GraphEdge[]>;
   in: Map<string, GraphEdge[]>;
@@ -54,6 +51,51 @@ function titleOf(entities: CacheEntities, id: string): string {
 }
 
 /**
+ * Spočítá skutečné společné skladby mezi `artistId` a každým dalším umělcem.
+ *
+ * Spolupráce = skladba, kde je `artistId` primární interpret (HAS_ARTIST) nebo
+ * host (FEATURES) A ZÁROVEŇ je tam i druhý umělec v jedné z těchto rolí.
+ *
+ * Toto je jediná správná definice „spolupráce" — RELATED_TO se ignoruje,
+ * protože je to jen grafová blízkost (žánr, label, město…), ne feat.
+ */
+function computeCollabCounts(
+  artistId: string,
+  artistIds: Set<string>,
+  entities: CacheEntities,
+  gi: GraphIndex,
+): Map<string, number> {
+  const counts = new Map<string, number>();
+
+  // Skladby, kde je `artistId` v nějaké roli (primární i host).
+  const involved = new Set<string>();
+  for (const e of [...(gi.in.get(artistId) ?? []), ...(gi.out.get(artistId) ?? [])]) {
+    if (e.relation === "HAS_ARTIST" || e.relation === "FEATURES") {
+      const trackId = e.from === artistId ? e.to : e.from;
+      if (entities[trackId]?.type === "track") involved.add(trackId);
+    }
+  }
+  if (involved.size === 0) return counts;
+
+  for (const trackId of involved) {
+    const tr = entities[trackId];
+    if (!tr) continue;
+    const ob = tr.outbound ?? {};
+    const roles = new Set<string>([
+      ...((ob.HAS_ARTIST as string[] | undefined) ?? []),
+      ...((ob.FEATURES as string[] | undefined) ?? []),
+    ]);
+    for (const other of roles) {
+      if (other === artistId) continue;
+      if (!artistIds.has(other)) continue;
+      if (!entities[other] || entities[other].type !== "artist") continue;
+      counts.set(other, (counts.get(other) ?? 0) + 1);
+    }
+  }
+  return counts;
+}
+
+/**
  * Deterministicky spočítané hodnoty — LLM je jen zopakuje.
  * Tím se číselné dotazy ("kolik", "s kým nejčastěji") nehalucinují.
  */
@@ -75,25 +117,27 @@ export function computeFacts(
       `${f.title}: ${primaryTracks.length} vlastních skladeb, ${feats.length} hostování v cizích skladbách.`,
     );
 
-    // Kolaborace s počty
-    const counts = new Map<string, number>();
-    for (const e of gi.out.get(f.id) ?? []) {
-      if (COLLAB_RELATIONS.has(e.relation)) {
-        // pouze artisté (ne alba/lokality, které se pletou do RELATED_TO)
-        if (entities[e.to]?.type !== "artist") continue;
-        counts.set(e.to, (counts.get(e.to) ?? 0) + 1);
-      }
+    // ── Skutečné spolupráce: průnik skladeb (HAS_ARTIST / FEATURES) ──────
+    // POZOR: RELATED_TO je jen „podobný/spřízněný" hrana — NENÍ to feat.
+    // Počítat spolupráci z RELATED_TO vede k nesmyslům (6 „spolupracovníků",
+    // kteří spolu nikdy nic nenahráli). Skutečná spolupráce = sdílená skladba.
+    const artistIds = new Set<string>();
+    for (const id of Object.keys(entities)) {
+      if (entities[id]?.type === "artist" && id !== f.id) artistIds.add(id);
     }
-    if (counts.size) {
-      const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+    const collabs = computeCollabCounts(f.id, artistIds, entities, gi);
+    if (collabs.size) {
+      const sorted = [...collabs.entries()].sort((a, b) => b[1] - a[1]);
       const max = sorted[0][1];
       const top = sorted.filter(([, c]) => c === max).map(([id]) => titleOf(entities, id));
       lines.push(
-        `  Spolupracovníci (${counts.size}): ${sorted
-          .map(([id, c]) => `${titleOf(entities, id)}${c > 1 ? ` (${c}×)` : ""}`)
+        `  Spolupracovníci podle společných skladeb (${sorted.length}): ${sorted
+          .map(([id, c]) => `${titleOf(entities, id)} (${c} skl.)`)
           .join(", ")}.`,
       );
-      lines.push(`  Nejčastěji (${max}×): ${top.join(", ")}.`);
+      lines.push(`  Nejvíc společných skladeb (${max}): ${top.join(", ")}.`);
+    } else {
+      lines.push("  Žádné doložené společné skladby s jiným umělcem v datech.");
     }
   }
   return lines.join("\n");

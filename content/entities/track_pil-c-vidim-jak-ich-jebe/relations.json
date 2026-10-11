@@ -8,14 +8,23 @@
   "belongsToAlbum": [],
   "producers": [],
   "labels": [],
-  "genres": [],
-  "styles": [],
+  "genres": [
+    "genre_trap"
+  ],
+  "styles": [
+    "style_melodic"
+  ],
   "themes": [
+    "theme_flex",
     "theme_introspection",
-    "theme_money"
+    "theme_money",
+    "theme_society",
+    "theme_success"
   ],
   "moods": [
-    "mood_confident"
+    "mood_aggressive",
+    "mood_confident",
+    "mood_dark"
   ],
   "related": []
 }

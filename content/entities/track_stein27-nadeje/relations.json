@@ -9,16 +9,22 @@
   "producers": [],
   "labels": [],
   "genres": [
-    "genre_trap",
-    "genre_rap"
+    "genre_rap",
+    "genre_trap"
   ],
-  "styles": [],
+  "styles": [
+    "style_melodic"
+  ],
   "themes": [
-    "theme_relationships"
+    "theme_life",
+    "theme_relationships",
+    "theme_self-reflection"
   ],
   "moods": [
     "mood_dark",
-    "mood_melancholic"
+    "mood_emotional",
+    "mood_melancholic",
+    "mood_positive"
   ],
   "related": []
 }

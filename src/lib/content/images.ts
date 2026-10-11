@@ -132,5 +132,53 @@ export function hasArtistImage(slug: string): boolean {
   return slug in ARTIST_IMAGES;
 }
 
+/** Deezer placeholder — nikdy nezobrazovat (šedý obrázek). */
+function isPlaceholder(url: string): boolean {
+  return /\/placeholder\//.test(url) || /placeholder/i.test(url);
+}
+
+/**
+ * Sjednocený resolver obrázku umělce.
+ *
+ * Priority:
+ *  1. Kanonická mapa ARTIST_IMAGES (lokální /images/artists/*.webp)
+ *  2. Cache `image`, pokud je lokální a v kanonickém tvaru
+ *  3. Normalizace starých cest `/images/raperi/x.jpg` → `/images/artists/x.webp`
+ *  4. Deezer CDN (jen pokud není placeholder)
+ *
+ * Vrací `undefined`, když není co zobrazit → volající má fallback (iniciála).
+ * Tím se odstraní rozbité ikony obrázku.
+ */
+export function resolveArtistImage(
+  slug: string,
+  cacheImage?: string | null,
+): string | undefined {
+  // 1) Kanonická mapa — nejspolehlivější (soubory existují)
+  const canonical = ARTIST_IMAGES[slug];
+  if (canonical) return canonical;
+
+  const raw = (cacheImage ?? "").trim();
+  if (!raw) return undefined;
+
+  // 4) Placeholder nikdy
+  if (isPlaceholder(raw)) return undefined;
+
+  // 2) Lokální kanonická cesta
+  if (raw.startsWith("/images/artists/")) return raw;
+
+  // 3) Stará cesta /images/raperi/<slug>.<ext> → /images/artists/<slug>.webp
+  const legacy = raw.match(/^\/images\/raperi\/([^/]+)\.(?:jpg|jpeg|png|webp)$/i);
+  if (legacy) {
+    const mapped = ARTIST_IMAGES[legacy[1].toLowerCase()];
+    if (mapped) return mapped;
+    return `/images/artists/${legacy[1].toLowerCase()}.webp`;
+  }
+
+  // 4) Vzdálené (Deezer CDN) — nech, pokud to není placeholder
+  if (/^https?:\/\//.test(raw)) return raw;
+
+  return undefined;
+}
+
 // Future: sync from Base44 API automatically
 // export async function syncArtistImagesFromBase44() { ... }
