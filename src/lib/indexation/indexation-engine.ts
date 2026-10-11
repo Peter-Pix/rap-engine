@@ -57,6 +57,19 @@ function resolveState(
     }
   }
 
+  // Hard gate: generický popis („Umělec X", „Placeholder.", „stub") NIKDY
+  // neindexovat — nemá co nabídnout a škodí to (thin content).
+  if (entity.type === "artist") {
+    const d = (entity.description ?? "").trim();
+    const generic =
+      d.length < 40 ||
+      /^Umělec/i.test(d) ||
+      /^Umělec$/i.test(d) ||
+      /^Placeholder/i.test(d) ||
+      /stub|bude doplněn|bude doplněno/i.test(d);
+    if (generic && contentLength < 600) return IndexationState.NOINDEX;
+  }
+
   // Hard gate: prázdný obsah NIKDY neindexovat — ani s dobrými vazbami.
   // Zásada "žádné prázdné stránky": thin content (< 200 znaků těla) = NOINDEX.
   // Netýká se article/event (ty mají vlastní obsah) ani entit s profilem.
