@@ -15,7 +15,6 @@
  *   MAX_BATCHES=5 npx tsx scripts/phase3/run-c-queue.ts # max 5 dávek
  */
 import { execSync } from "node:child_process";
-import * as fs from "node:path";
 
 const MAX_BATCHES = Number(process.env.MAX_BATCHES || 999);
 const BATCH_SIZE = Number(process.env.BATCH_SIZE || 100);
@@ -30,6 +29,7 @@ function run(cmd: string): { code: number; out: string } {
   }
 }
 
+async function main() {
 let done = 0;
 for (let i = 1; i <= MAX_BATCHES; i++) {
   console.log(`\n████ Dávka ${i} ▒ select`);
@@ -52,3 +52,6 @@ for (let i = 1; i <= MAX_BATCHES; i++) {
 
 console.log(`\n████ RUNNER HOTOV — ${done} dávek (${done * BATCH_SIZE} skladeb)`);
 console.log(`Další krok: npm run cache:build && git add content/ && git commit`);
+}
+
+main().catch((e) => { console.error(e); process.exit(1); });

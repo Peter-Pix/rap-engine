@@ -98,27 +98,27 @@ export async function lrclibLyrics(
   artist: string,
   title: string,
   attempt = 1,
-): Promise<string | null> {
+): Promise<{ lyrics: string | null; status: number }> {
   const url = `https://lrclib.net/api/search?artist_name=${encodeURIComponent(artist)}&track_name=${encodeURIComponent(title)}`;
   try {
     const r = await fetch(url, {
       headers: { "User-Agent": "rap-knowledge-graph/1.0 (4rap.cz)" },
     });
     if (r.status === 503 || r.status === 429) {
-      if (attempt >= 2) return null;
+      if (attempt >= 2) return { lyrics: null, status: 503 };
       const retryAfter = Number(r.headers.get("retry-after")) || 5 * attempt;
       await sleep(retryAfter * 1000);
       return lrclibLyrics(artist, title, attempt + 1);
     }
-    if (!r.ok) return null;
+    if (!r.ok) return { lyrics: null, status: r.status };
     const j: any = await r.json();
-    if (!Array.isArray(j)) return null;
+    if (!Array.isArray(j)) return { lyrics: null, status: r.status };
     // preferuj přesnou shodu interpreta, jinak první s dost textem
     const good = j.filter((x) => typeof x.plainLyrics === "string" && x.plainLyrics.length > 100);
     const exact = good.find((x) => norm(x.artistName) === norm(artist));
-    return (exact ?? good[0])?.plainLyrics ?? null;
+    return { lyrics: (exact ?? good[0])?.plainLyrics ?? null, status: r.status };
   } catch {
-    return null;
+    return { lyrics: null, status: 0 };
   }
 }
 

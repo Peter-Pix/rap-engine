@@ -12,7 +12,7 @@
  *   PAS=a npx tsx scripts/phase3/select-batch.ts     # jen pás A
  */
 import {
-  DATA, ensureData, loadEntities, artistOf, fetchRmSongs, norm, writeJson, readJson,
+  DATA, ENTITIES, ensureData, loadEntities, artistOf, fetchRmSongs, norm, writeJson, readJson,
 } from "./lib";
 import * as fs from "node:fs";
 import * as path from "node:path";
@@ -27,8 +27,22 @@ async function main() {
   const tracks = Object.values(entities).filter((e: any) => e.type === "track");
 
   // skladby, které ještě potřebují obsah — včetně C-metadata (možný lyrics-upgrade)
+  // POZOR: cache může být zastaralá — phase3 stav se ověřuje na disku (meta.json).
   const pending = tracks.filter((t: any) => {
     const em = t.extraMeta ?? {};
+    const diskMetaPath = path.join(ENTITIES, t.id, "meta.json");
+    if (fs.existsSync(diskMetaPath)) {
+      try {
+        const dem = JSON.parse(fs.readFileSync(diskMetaPath, "utf8")).extraMeta ?? {};
+        if (dem.phase3Pas === "C") {
+          const att = dem.lyricsAttempts ?? 0;
+          if (att >= 2) return false;
+          if (dem.lyricsLastStatus === 200) return false; // genuine miss — netahat znovu
+          return true; // 503/0 (transient) → retry
+        }
+        if (dem.phase3Done) return false;
+      } catch { /* rozbité meta → nech projít cache filterem */ }
+    }
     if (em.phase3Pas === "C" && (em.lyricsAttempts ?? 0) < 2) return true; // lyrics-upgrade pokus
     if (em.phase3Done) return false;
     const content = t.content ?? "";

@@ -20,3 +20,7 @@ tsconfig.tsbuildinfo
 
 # Datové snapshoty (generované fetch skripty)
 /.data/
+
+# Vercel lokální deploy state (repo.json zůstává trackovaný)
+/.vercel/*
+!/.vercel/repo.json

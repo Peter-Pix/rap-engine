@@ -203,6 +203,7 @@ async function main() {
       const rm = b.rmId ? rmById.get(b.rmId) : null;
 
       let lyrics: string | null = null;
+      let lrcStatus = 0; // 200 = genuine miss, 503/0 = transient
       const lyricsFile = path.join(LYRICS_DIR, `${b.id}.txt`);
       if (fs.existsSync(lyricsFile)) {
         lyrics = fs.readFileSync(lyricsFile, "utf8");
@@ -214,7 +215,8 @@ async function main() {
         await LYRC_SEM.acquire();
         try {
           await sleep(150);
-          lyrics = await lrclibLyrics(artist, entity.title);
+          const lrc = await lrclibLyrics(artist, entity.title);
+          lyrics = lrc.lyrics; lrcStatus = lrc.status;
         } finally { LYRC_SEM.release(); }
         if (lyrics && !DRY_RUN) fs.writeFileSync(lyricsFile, lyrics);
       }
@@ -249,7 +251,7 @@ async function main() {
         : (needsAi ? "ai-fail" : "c-meta");
       return {
         id: b.id, pas: b.pas, artist, title: entity.title,
-        status,
+        status, lrcStatus,
         gateReasons: gate.reasons, aiError,
         analysis, lyricsFound: !!lyrics,
         meta, dir, albumId, albumMeta, album, featIds,
@@ -285,6 +287,7 @@ async function main() {
           if (albumImage && !meta.image) meta.image = albumImage;
           delete meta.extraMeta.noindex;
           delete meta.extraMeta.isStub;
+          delete meta.extraMeta.phase3GateFail; // stale flag z předchozího gate-fail pokusu
           meta.extraMeta.phase3Done = true;
           meta.extraMeta.phase3Pas = r.pas === "C" ? "B" : r.pas; // upgrade C→B
           if (r.pas === "C") meta.extraMeta.phase3Upgraded = true;
@@ -308,6 +311,7 @@ async function main() {
           meta.extraMeta.phase3Done = true;
           meta.extraMeta.phase3Pas = "C";
           meta.extraMeta.lyricsAttempts = (meta.extraMeta.lyricsAttempts ?? 0) + 1;
+          meta.extraMeta.lyricsLastStatus = r.lrcStatus ?? 0;
         }
         fs.writeFileSync(path.join(r.dir, "meta.json"), JSON.stringify(meta, null, 2) + "\n");
 
