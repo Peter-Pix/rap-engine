@@ -4,7 +4,7 @@ import { buildJsonLd } from "@/lib/seo/schema-org";
 import { renderMdx } from "@/lib/content/mdx";
 import { TYPE_ROUTE_MAP } from "@/lib/content/constants";
 import type { EntityType } from "@/lib/content/constants";
-import { deezerTrackEmbed, deezerAlbumEmbed } from "@/lib/content/deezer-helpers";
+import { deezerTrackEmbed } from "@/lib/content/deezer-helpers";
 import YoutubeEmbed from "@/components/media/YoutubeEmbed";
 import ShareVideoButton from "@/components/media/ShareVideoButton";
 
@@ -84,7 +84,6 @@ function EmbedPlayer({
     : null;
 
   const deezerTrack = deezerTrackEmbed(deezerUrl, { theme: "dark", height: 80 });
-  const deezerAlbum = deezerAlbumEmbed(deezerUrl, { theme: "dark", height: 240 });
 
   return (
     <div className="space-y-4">
