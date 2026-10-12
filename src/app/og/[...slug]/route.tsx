@@ -21,8 +21,7 @@ import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
  */
 
 export const runtime = "nodejs";
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+const OG_SIZE = { width: 1200, height: 630 };
 
 const LABELS: Record<string, string> = {
   artist: "Interpret",
@@ -217,6 +216,6 @@ export async function GET(
         />
       </div>
     ),
-    { ...size },
+    OG_SIZE,
   );
 }

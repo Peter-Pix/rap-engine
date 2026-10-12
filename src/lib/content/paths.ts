@@ -1,6 +1,6 @@
 import path from "node:path";
 import fs from "node:fs";
-import { CONTENT_ROOT } from "./constants";
+import { CONTENT_ROOT } from "./constants.server";
 
 // ─── Entity paths ─────────────────────────────────────────────────────────
 

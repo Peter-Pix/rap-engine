@@ -1,8 +1,3 @@
-import path from "node:path";
-
-/** Root directory where all entity folders live — flat, single-level */
-export const CONTENT_ROOT = path.join(process.cwd(), "content", "entities");
-
 /** All supported entity types as a const tuple */
 export const ENTITY_TYPES = [
   "artist",
@@ -30,6 +25,9 @@ export type EntityType = (typeof ENTITY_TYPES)[number];
  * Maps each entity type to its Czech URL prefix.
  * Used by the cache builder to generate `routes.json` and by the routing
  * layer to resolve `[type]/[slug]` → entity ID.
+ *
+ * ⚠️ CLIENT-SAFE FILE — must not import Node.js built-ins. Server-only
+ * constants live in `constants.server.ts`.
  */
 export const TYPE_ROUTE_MAP: Record<EntityType, string> = {
   artist: "/raperi",
