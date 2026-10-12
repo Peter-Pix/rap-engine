@@ -17,8 +17,11 @@
   ],
   "artists": [],
   "genres": [
-    "trap",
-    "pop-rap"
+    "genre_boom-bap",
+    "genre_electro",
+    "genre_rap",
+    "pop-rap",
+    "trap"
   ],
   "influencedBy": [],
   "labels": [
@@ -28,7 +31,28 @@
     "location_piestany",
     "location_slovensko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_calm",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_gritty",
+    "mood_lofi",
+    "mood_melancholic",
+    "mood_night",
+    "mood_playful",
+    "mood_positive",
+    "mood_proud",
+    "mood_romantic",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_ego",
@@ -44,7 +68,36 @@
     "artist_la4"
   ],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_club",
+    "style_experimental"
+  ],
+  "themes": [
+    "theme_art",
+    "theme_authenticity",
+    "theme_betrayal",
+    "theme_death",
+    "theme_drugs",
+    "theme_ego",
+    "theme_energy",
+    "theme_fame",
+    "theme_flex",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_legacy",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_loyalty",
+    "theme_luxury",
+    "theme_money",
+    "theme_nightlife",
+    "theme_power",
+    "theme_pressure",
+    "theme_price-of-fame",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_social-reality",
+    "theme_street-life"
+  ],
   "tracks": []
 }

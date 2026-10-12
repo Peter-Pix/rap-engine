@@ -22,6 +22,8 @@
   "artists": [],
   "genres": [
     "boom-bap",
+    "genre_boom-bap",
+    "genre_rap",
     "hip-hop"
   ],
   "influencedBy": [],
@@ -32,7 +34,12 @@
     "location_zlin",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_confident",
+    "mood_energetic",
+    "mood_positive",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_dj-wich",
@@ -50,6 +57,8 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [],
+  "themes": [
+    "theme_pressure"
+  ],
   "tracks": []
 }

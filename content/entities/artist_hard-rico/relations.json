@@ -8,9 +8,13 @@
   ],
   "artists": [],
   "genres": [
-    "trap",
     "drill",
-    "street-rap"
+    "genre_drill",
+    "genre_new-school",
+    "genre_street-rap",
+    "genre_trap",
+    "street-rap",
+    "trap"
   ],
   "influencedBy": [],
   "labels": [
@@ -20,11 +24,43 @@
     "location_ostrava",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_gritty",
+    "mood_melancholic",
+    "mood_proud",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_aggressive",
+    "style_dark"
+  ],
+  "themes": [
+    "theme_authenticity",
+    "theme_betrayal",
+    "theme_drugs",
+    "theme_ego",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_life",
+    "theme_loyalty",
+    "theme_luxury",
+    "theme_money",
+    "theme_power",
+    "theme_pressure",
+    "theme_self-reflection",
+    "theme_street-life",
+    "theme_success",
+    "theme_violence"
+  ],
   "tracks": []
 }

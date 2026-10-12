@@ -1,11 +1,18 @@
 {
   "albums": [],
   "artists": [],
-  "genres": [],
+  "genres": [
+    "genre_pop",
+    "genre_rap"
+  ],
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [],
+  "moods": [
+    "mood_emotional",
+    "mood_energetic",
+    "mood_positive"
+  ],
   "partOf": [],
   "related": [],
   "scenes": [],

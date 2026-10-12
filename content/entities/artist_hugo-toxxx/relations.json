@@ -12,12 +12,14 @@
   ],
   "artists": [],
   "genres": [
-    "rap",
     "alternative-rap",
-    "genre_trap",
-    "genre_rap",
     "genre_experimental-rap",
-    "genre_underground-rap"
+    "genre_hardcore-rap",
+    "genre_rap",
+    "genre_street-rap",
+    "genre_trap",
+    "genre_underground-rap",
+    "rap"
   ],
   "influencedBy": [],
   "labels": [
@@ -30,8 +32,20 @@
   ],
   "moods": [
     "mood_abstract",
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_melancholic",
+    "mood_night",
+    "mood_playful",
     "mood_raw",
-    "mood_dark"
+    "mood_thoughtful"
   ],
   "partOf": [
     "collective_supercrooo"
@@ -46,13 +60,34 @@
     "scene_underground"
   ],
   "styles": [
+    "experimental",
+    "style_aggressive",
     "style_experimental",
     "style_hardcore",
-    "experimental"
+    "style_introspective",
+    "style_raw"
   ],
   "themes": [
+    "theme_betrayal",
+    "theme_drugs",
+    "theme_ego",
+    "theme_fame",
+    "theme_flex",
+    "theme_hustle",
+    "theme_individualism",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_loyalty",
+    "theme_money",
+    "theme_power",
+    "theme_regional",
     "theme_satire",
-    "theme_society"
+    "theme_self-reflection",
+    "theme_social-reality",
+    "theme_society",
+    "theme_street-life",
+    "theme_success",
+    "theme_violence"
   ],
   "tracks": []
 }

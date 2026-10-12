@@ -2,7 +2,9 @@
   "albums": [],
   "artists": [],
   "genres": [
-    "boom-bap"
+    "boom-bap",
+    "genre_hip-hop",
+    "genre_rap"
   ],
   "influencedBy": [],
   "labels": [
@@ -12,7 +14,12 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_melancholic",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_orion",

@@ -1,15 +1,41 @@
 {
   "albums": [],
   "artists": [],
-  "genres": [],
+  "genres": [
+    "genre_boom-bap",
+    "genre_conscious-rap",
+    "genre_melodic-rap",
+    "genre_pop-rap"
+  ],
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_gritty",
+    "mood_melancholic",
+    "mood_romantic",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_conscious",
+    "style_introspective"
+  ],
+  "themes": [
+    "theme_introspection",
+    "theme_life",
+    "theme_self-reflection",
+    "theme_society",
+    "theme_street-life"
+  ],
   "tracks": []
 }

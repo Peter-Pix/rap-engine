@@ -8,10 +8,14 @@
   ],
   "artists": [],
   "genres": [
-    "street-rap",
     "boom-bap",
+    "genre_boom-bap",
+    "genre_conscious-rap",
+    "genre_old-school-rap",
+    "genre_rap",
+    "genre_street-rap",
     "genre_trap",
-    "genre_rap"
+    "street-rap"
   ],
   "influencedBy": [],
   "labels": [
@@ -23,9 +27,17 @@
     "location_cesko"
   ],
   "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_confident",
     "mood_dark",
-    "mood_raw",
-    "mood_emotional"
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_melancholic",
+    "mood_positive",
+    "mood_raw"
   ],
   "partOf": [],
   "related": [
@@ -43,9 +55,19 @@
     "scene_underground"
   ],
   "styles": [
-    "style_street",
-    "style_hardcore"
+    "style_conscious",
+    "style_hardcore",
+    "style_introspective",
+    "style_street"
   ],
-  "themes": [],
+  "themes": [
+    "theme_flex",
+    "theme_life",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_society",
+    "theme_street-life",
+    "theme_success"
+  ],
   "tracks": []
 }

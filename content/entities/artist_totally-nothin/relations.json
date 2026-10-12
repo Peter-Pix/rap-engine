@@ -1,17 +1,21 @@
 {
   "artists": [],
   "genres": [
+    "genre_drum-and-bass",
+    "genre_rap",
     "genre_trap",
-    "genre_underground-rap",
-    "genre_drum-and-bass"
+    "genre_underground-rap"
   ],
   "locations": [
     "location_tabor"
   ],
   "moods": [
+    "mood_abstract",
+    "mood_aggressive",
+    "mood_atmospheric",
     "mood_dark",
     "mood_emotional",
-    "mood_abstract"
+    "mood_energetic"
   ],
   "styles": [
     "style_melodic",
@@ -21,5 +25,10 @@
     "artist_sensey",
     "artist_skelly",
     "artist_vercetti-cg"
+  ],
+  "themes": [
+    "theme_introspection",
+    "theme_self-reflection",
+    "theme_success"
   ]
 }

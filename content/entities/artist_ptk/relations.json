@@ -14,10 +14,15 @@
   ],
   "artists": [],
   "genres": [
-    "trap",
-    "dark-trap",
     "cloud-rap",
-    "phonk"
+    "dark-trap",
+    "genre_cloud-rap",
+    "genre_dark-trap",
+    "genre_melodic-rap",
+    "genre_pop-rap",
+    "genre_trap",
+    "phonk",
+    "trap"
   ],
   "influencedBy": [],
   "labels": [
@@ -27,7 +32,11 @@
     "location_cheb",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_confident",
+    "mood_dark"
+  ],
   "partOf": [],
   "related": [],
   "scenes": [],

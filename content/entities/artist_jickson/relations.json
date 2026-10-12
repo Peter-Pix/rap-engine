@@ -1,15 +1,17 @@
 {
   "genres": [
-    "trap",
     "cloud-rap",
-    "street-rap",
+    "genre_cloud-rap",
     "genre_czech-rap",
     "genre_dark-rap",
-    "genre_underground-rap"
+    "genre_melodic-rap",
+    "genre_new-school",
+    "genre_trap",
+    "genre_underground-rap",
+    "street-rap",
+    "trap"
   ],
   "labels": [
-    "label_420xyzo",
-    "label_yzo-empire",
     "label_milion-plus"
   ],
   "locations": [
@@ -18,12 +20,22 @@
     "location_cesko"
   ],
   "styles": [
-    "style_hardcore",
+    "experimental",
+    "style_conscious",
     "style_experimental",
-    "experimental"
+    "style_hardcore",
+    "style_melodic"
   ],
   "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
     "mood_dark",
+    "mood_emotional",
+    "mood_melancholic",
+    "mood_positive",
     "mood_raw"
   ],
   "albums": [],
@@ -39,9 +51,15 @@
     "artist_ektor"
   ],
   "scenes": [],
-  "themes": [],
-  "tracks": [],
-  "labels": [
-    "label_milion-plus"
-  ]
+  "themes": [
+    "theme_flex",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_society",
+    "theme_street-life",
+    "theme_success"
+  ],
+  "tracks": []
 }

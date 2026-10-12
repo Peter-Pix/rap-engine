@@ -15,7 +15,11 @@
     "location_trnava",
     "location_slovensko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_defiant",
+    "mood_melancholic",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_rest",
@@ -27,6 +31,9 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [],
+  "themes": [
+    "theme_individualism",
+    "theme_self-reflection"
+  ],
   "tracks": []
 }

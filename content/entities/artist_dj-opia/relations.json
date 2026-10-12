@@ -2,8 +2,10 @@
   "albums": [],
   "artists": [],
   "genres": [
-    "turntablism",
-    "boom-bap"
+    "boom-bap",
+    "genre_boom-bap",
+    "genre_rap",
+    "turntablism"
   ],
   "influencedBy": [],
   "labels": [
@@ -13,7 +15,12 @@
     "location_brno",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_defiant",
+    "mood_energetic",
+    "mood_playful"
+  ],
   "partOf": [],
   "related": [
     "artist_dj-wich",
@@ -24,6 +31,10 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [],
+  "themes": [
+    "theme_authenticity",
+    "theme_ego",
+    "theme_social-reality"
+  ],
   "tracks": []
 }

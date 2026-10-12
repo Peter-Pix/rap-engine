@@ -6,9 +6,11 @@
   ],
   "artists": [],
   "genres": [
-    "street-rap",
+    "boom-bap",
+    "genre_rap",
+    "genre_trap",
     "melodic-rap",
-    "boom-bap"
+    "street-rap"
   ],
   "influencedBy": [],
   "labels": [
@@ -18,7 +20,16 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_chill",
+    "mood_club",
+    "mood_dark",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_melancholic",
+    "mood_romantic",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_rest",
@@ -29,6 +40,13 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [],
+  "themes": [
+    "theme_drugs",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_life",
+    "theme_nightlife",
+    "theme_relationships"
+  ],
   "tracks": []
 }

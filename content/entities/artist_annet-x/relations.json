@@ -6,12 +6,18 @@
     "artist_sharlota"
   ],
   "genres": [
-    "rap",
-    "pop",
-    "neo-soul",
+    "genre_cloud-rap",
+    "genre_conscious-rap",
     "genre_hip-hop",
+    "genre_melodic-rap",
+    "genre_new-school",
+    "genre_pop-rap",
     "genre_rap",
-    "genre_rnb"
+    "genre_rnb",
+    "genre_trap",
+    "neo-soul",
+    "pop",
+    "rap"
   ],
   "labels": [
     "label_blakkwood-records",
@@ -26,7 +32,16 @@
     "album_planeta-opice"
   ],
   "influencedBy": [],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
+    "mood_emotional",
+    "mood_melancholic",
+    "mood_positive"
+  ],
   "partOf": [],
   "related": [
     "artist_7krat3",
@@ -35,7 +50,19 @@
     "artist_radikal-chef"
   ],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_conscious",
+    "style_melodic"
+  ],
+  "themes": [
+    "theme_flex",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_success"
+  ],
   "tracks": []
 }

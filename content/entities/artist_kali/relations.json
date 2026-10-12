@@ -6,13 +6,15 @@
     "artist_separ"
   ],
   "genres": [
-    "pop-rap",
-    "melodic-rap",
-    "reggaeton",
     "dancehall",
+    "genre_boom-bap",
     "genre_czech-rap",
     "genre_pop-rap",
-    "genre_rnb"
+    "genre_rap",
+    "genre_rnb",
+    "melodic-rap",
+    "pop-rap",
+    "reggaeton"
   ],
   "labels": [
     "label_nezavisly",
@@ -26,8 +28,21 @@
     "style_melodic"
   ],
   "moods": [
+    "mood_aggressive",
+    "mood_calm",
+    "mood_chill",
     "mood_club",
-    "mood_emotional"
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_melancholic",
+    "mood_playful",
+    "mood_positive",
+    "mood_romantic",
+    "mood_thoughtful"
   ],
   "albums": [
     "album_banan",
@@ -46,6 +61,20 @@
     "artist_ego"
   ],
   "scenes": [],
-  "themes": [],
+  "themes": [
+    "theme_authenticity",
+    "theme_betrayal",
+    "theme_death",
+    "theme_ego",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_life",
+    "theme_loyalty",
+    "theme_price-of-fame",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_social-reality",
+    "theme_success"
+  ],
   "tracks": []
 }

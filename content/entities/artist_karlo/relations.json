@@ -4,9 +4,14 @@
   ],
   "artists": [],
   "genres": [
-    "trap",
     "cloud-rap",
-    "street-rap"
+    "genre_cloud-rap",
+    "genre_melodic-rap",
+    "genre_new-school",
+    "genre_pop-rap",
+    "genre_trap",
+    "street-rap",
+    "trap"
   ],
   "influencedBy": [],
   "labels": [],
@@ -14,7 +19,15 @@
     "location_lucenec",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
+    "mood_dark",
+    "mood_emotional",
+    "mood_melancholic"
+  ],
   "partOf": [],
   "related": [
     "artist_yzomandias",
@@ -26,8 +39,21 @@
   ],
   "scenes": [],
   "styles": [
-    "experimental"
+    "experimental",
+    "style_dark",
+    "style_melodic",
+    "style_street"
   ],
-  "themes": [],
+  "themes": [
+    "theme_death",
+    "theme_flex",
+    "theme_introspection",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_loyalty",
+    "theme_self-reflection",
+    "theme_street-life",
+    "theme_success"
+  ],
   "tracks": []
 }

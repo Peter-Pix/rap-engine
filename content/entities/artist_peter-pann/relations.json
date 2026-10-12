@@ -1,6 +1,8 @@
 {
   "genres": [
     "genre_czech-rap",
+    "genre_melodic-rap",
+    "genre_new-school",
     "genre_pop-rap",
     "genre_rnb"
   ],
@@ -11,11 +13,25 @@
     "style_melodic"
   ],
   "moods": [
+    "mood_calm",
+    "mood_chill",
     "mood_club",
-    "mood_emotional"
+    "mood_confident",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_melancholic",
+    "mood_romantic",
+    "mood_thoughtful"
   ],
   "albums": [
     "album_33",
     "album_progress"
+  ],
+  "themes": [
+    "theme_ego",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_relationships",
+    "theme_success"
   ]
 }

@@ -22,10 +22,13 @@
     "location_slovensko"
   ],
   "moods": [
-    "mood_melancholic",
-    "mood_emotional",
     "mood_atmospheric",
-    "mood_night"
+    "mood_emotional",
+    "mood_melancholic",
+    "mood_night",
+    "mood_proud",
+    "mood_romantic",
+    "mood_thoughtful"
   ],
   "partOf": [],
   "related": [
@@ -43,9 +46,10 @@
     "style_rnb"
   ],
   "themes": [
-    "theme_self-reflection",
+    "theme_introspection",
     "theme_life",
-    "theme_relationships"
+    "theme_relationships",
+    "theme_self-reflection"
   ],
   "tracks": []
 }

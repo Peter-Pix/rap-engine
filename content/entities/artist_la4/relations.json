@@ -8,6 +8,10 @@
   "artists": [],
   "genres": [
     "boom-bap",
+    "genre_boom-bap",
+    "genre_conscious-rap",
+    "genre_old-school-rap",
+    "genre_rap",
     "street-rap"
   ],
   "influencedBy": [],
@@ -18,7 +22,22 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_gritty",
+    "mood_melancholic",
+    "mood_playful",
+    "mood_positive",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_indy",
@@ -28,7 +47,24 @@
     "artist_paulie-garand"
   ],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_conscious",
+    "style_introspective",
+    "style_poetic"
+  ],
+  "themes": [
+    "theme_authenticity",
+    "theme_ego",
+    "theme_flex",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_life",
+    "theme_pressure",
+    "theme_self-reflection",
+    "theme_social-reality",
+    "theme_society",
+    "theme_street-life",
+    "theme_value"
+  ],
   "tracks": []
 }

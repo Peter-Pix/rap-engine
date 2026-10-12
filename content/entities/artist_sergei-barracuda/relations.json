@@ -14,10 +14,15 @@
   ],
   "artists": [],
   "genres": [
-    "trap",
     "gangsta-rap",
+    "genre_melodic-rap",
+    "genre_new-school",
+    "genre_pop-rap",
+    "genre_street-rap",
+    "genre_trap",
     "melodic-rap",
-    "street-rap"
+    "street-rap",
+    "trap"
   ],
   "influencedBy": [],
   "labels": [
@@ -27,7 +32,25 @@
     "location_ostrava",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_calm",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_gritty",
+    "mood_melancholic",
+    "mood_playful",
+    "mood_positive",
+    "mood_romantic",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_ektor",
@@ -38,7 +61,34 @@
     "artist_separ"
   ],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_aggressive",
+    "style_introspective",
+    "style_melodic",
+    "style_raw"
+  ],
+  "themes": [
+    "theme_authenticity",
+    "theme_betrayal",
+    "theme_drugs",
+    "theme_ego",
+    "theme_flex",
+    "theme_hustle",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_loyalty",
+    "theme_luxury",
+    "theme_money",
+    "theme_nightlife",
+    "theme_power",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_society",
+    "theme_street-life",
+    "theme_success",
+    "theme_violence"
+  ],
   "tracks": []
 }

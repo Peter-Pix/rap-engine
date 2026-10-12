@@ -1,12 +1,16 @@
 {
   "genres": [
-    "trap",
-    "melodic-trap",
     "cloud-rap",
     "dancehall",
+    "genre_cloud-rap",
     "genre_czech-rap",
     "genre_hardcore-rap",
-    "genre_trap"
+    "genre_melodic-rap",
+    "genre_new-school",
+    "genre_pop-rap",
+    "genre_trap",
+    "melodic-trap",
+    "trap"
   ],
   "labels": [
     "label_44-enterprise",
@@ -29,7 +33,20 @@
   ],
   "artists": [],
   "influencedBy": [],
-  "moods": [],
+  "moods": [
+    "mood_atmospheric",
+    "mood_calm",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
+    "mood_dark",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_melancholic",
+    "mood_playful",
+    "mood_positive",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_jickson",
@@ -40,7 +57,20 @@
     "artist_yzomandias"
   ],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_melodic"
+  ],
+  "themes": [
+    "theme_ego",
+    "theme_flex",
+    "theme_individualism",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_loyalty",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_street-life",
+    "theme_success"
+  ],
   "tracks": []
 }

@@ -6,17 +6,19 @@
     "artist_tina"
   ],
   "genres": [
-    "melodic-rap",
-    "pop-rap",
     "afrobeats",
     "alternative-hip-hop",
-    "pop",
-    "trap",
     "genre_czech-rap",
+    "genre_melodic-rap",
+    "genre_new-school",
     "genre_pop-rap",
     "genre_rnb",
     "genre_soul",
-    "genre_trap"
+    "genre_trap",
+    "melodic-rap",
+    "pop",
+    "pop-rap",
+    "trap"
   ],
   "locations": [
     "location_slovensko",
@@ -34,7 +36,14 @@
   "labels": [
     "label_overgroundart"
   ],
-  "moods": [],
+  "moods": [
+    "mood_atmospheric",
+    "mood_calm",
+    "mood_chill",
+    "mood_emotional",
+    "mood_melancholic",
+    "mood_romantic"
+  ],
   "partOf": [],
   "related": [
     "artist_refew",
@@ -54,6 +63,9 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [],
+  "themes": [
+    "theme_introspection",
+    "theme_relationships"
+  ],
   "tracks": []
 }

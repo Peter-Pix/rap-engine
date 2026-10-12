@@ -12,6 +12,10 @@
   "genres": [
     "bassline",
     "drill",
+    "genre_drill",
+    "genre_grime",
+    "genre_new-school",
+    "genre_trap",
     "grime",
     "rap",
     "uk-garage"
@@ -24,7 +28,21 @@
     "location_cesko",
     "location_praha"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_playful",
+    "mood_positive",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_gleb",
@@ -33,7 +51,26 @@
     "artist_tubs"
   ],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_introspective",
+    "style_melodic"
+  ],
+  "themes": [
+    "theme_death",
+    "theme_drugs",
+    "theme_ego",
+    "theme_flex",
+    "theme_individualism",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_money",
+    "theme_nightlife",
+    "theme_power",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_social-reality",
+    "theme_street-life",
+    "theme_success"
+  ],
   "tracks": []
 }

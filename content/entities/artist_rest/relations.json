@@ -7,7 +7,10 @@
     "album_veni-vidi-wich"
   ],
   "artists": [],
-  "genres": [],
+  "genres": [
+    "genre_boom-bap",
+    "genre_rap"
+  ],
   "influencedBy": [],
   "labels": [
     "label_ty-nikdy"
@@ -16,7 +19,21 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_atmospheric",
+    "mood_calm",
+    "mood_chill",
+    "mood_confident",
+    "mood_dark",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_melancholic",
+    "mood_playful",
+    "mood_positive",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_kato",
@@ -45,7 +62,19 @@
     "artist_jakub-dekan"
   ],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_conscious"
+  ],
+  "themes": [
+    "theme_humor",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_life",
+    "theme_pressure",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_social-reality",
+    "theme_success"
+  ],
   "tracks": []
 }

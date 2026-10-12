@@ -2,8 +2,12 @@
   "albums": [],
   "artists": [],
   "genres": [
-    "pop-rap",
-    "indie-rap"
+    "genre_conscious-rap",
+    "genre_melodic-rap",
+    "genre_new-school",
+    "genre_pop-rap",
+    "indie-rap",
+    "pop-rap"
   ],
   "influencedBy": [],
   "labels": [
@@ -13,7 +17,15 @@
     "location_hradec-kralove",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
+    "mood_emotional",
+    "mood_melancholic",
+    "mood_positive"
+  ],
   "partOf": [],
   "related": [
     "artist_lipo",
@@ -23,7 +35,17 @@
     "artist_adam-mik"
   ],
   "scenes": [],
-  "styles": [],
-  "themes": [],
+  "styles": [
+    "style_conscious",
+    "style_introspective"
+  ],
+  "themes": [
+    "theme_flex",
+    "theme_life",
+    "theme_lifestyle",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_society"
+  ],
   "tracks": []
 }

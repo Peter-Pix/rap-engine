@@ -9,7 +9,8 @@
     "genre_boom-bap",
     "genre_czech-rap",
     "genre_hip-hop",
-    "genre_old-school-rap"
+    "genre_old-school-rap",
+    "genre_rap"
   ],
   "labels": [
     "label_prago-union"
@@ -26,11 +27,25 @@
     "album_speakers-on"
   ],
   "influencedBy": [],
-  "moods": [],
+  "moods": [
+    "mood_atmospheric",
+    "mood_chill",
+    "mood_club",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_melancholic",
+    "mood_positive",
+    "mood_romantic"
+  ],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [],
+  "themes": [
+    "theme_individualism",
+    "theme_life",
+    "theme_nightlife",
+    "theme_relationships"
+  ],
   "tracks": []
 }

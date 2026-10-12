@@ -11,7 +11,13 @@
   "artists": [],
   "genres": [
     "cloud-rap",
-    "emo-rap"
+    "emo-rap",
+    "genre_cloud-rap",
+    "genre_melodic-rap",
+    "genre_new-school",
+    "genre_pop-rap",
+    "genre_rap",
+    "genre_trap"
   ],
   "influencedBy": [],
   "labels": [
@@ -21,7 +27,24 @@
     "location_tabor",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_atmospheric",
+    "mood_calm",
+    "mood_chill",
+    "mood_club",
+    "mood_confident",
+    "mood_dark",
+    "mood_defiant",
+    "mood_emotional",
+    "mood_energetic",
+    "mood_euphoric",
+    "mood_lofi",
+    "mood_melancholic",
+    "mood_night",
+    "mood_positive",
+    "mood_romantic",
+    "mood_thoughtful"
+  ],
   "partOf": [],
   "related": [
     "artist_nik-tendo",
@@ -33,8 +56,23 @@
   ],
   "scenes": [],
   "styles": [
-    "atmospheric"
+    "atmospheric",
+    "style_emotional",
+    "style_melodic"
   ],
-  "themes": [],
+  "themes": [
+    "theme_authenticity",
+    "theme_drugs",
+    "theme_ego",
+    "theme_individualism",
+    "theme_introspection",
+    "theme_life",
+    "theme_loyalty",
+    "theme_nightlife",
+    "theme_power",
+    "theme_relationships",
+    "theme_self-reflection",
+    "theme_success"
+  ],
   "tracks": []
 }

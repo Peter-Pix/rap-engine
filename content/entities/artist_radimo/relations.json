@@ -2,9 +2,12 @@
   "albums": [],
   "artists": [],
   "genres": [
-    "jazz-rap",
+    "boom-bap",
+    "genre_boom-bap",
+    "genre_melodic-rap",
+    "genre_rap",
     "hip-hop",
-    "boom-bap"
+    "jazz-rap"
   ],
   "influencedBy": [],
   "labels": [
@@ -14,7 +17,9 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [],
+  "moods": [
+    "mood_playful"
+  ],
   "partOf": [],
   "related": [
     "artist_inphy",
@@ -25,6 +30,8 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [],
+  "themes": [
+    "theme_satire"
+  ],
   "tracks": []
 }

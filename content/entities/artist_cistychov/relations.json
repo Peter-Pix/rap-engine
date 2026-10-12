@@ -11,13 +11,14 @@
     "artist_separ"
   ],
   "genres": [
-    "hardcore-rap",
-    "street-rap",
-    "reggaeton",
     "boom-bap",
     "genre_boom-bap",
     "genre_czech-rap",
-    "genre_hip-hop"
+    "genre_hip-hop",
+    "genre_slovak-rap",
+    "hardcore-rap",
+    "reggaeton",
+    "street-rap"
   ],
   "labels": [
     "label_nazov-stavby",
@@ -28,7 +29,11 @@
     "location_slovensko"
   ],
   "influencedBy": [],
-  "moods": [],
+  "moods": [
+    "mood_aggressive",
+    "mood_confident",
+    "mood_playful"
+  ],
   "partOf": [],
   "related": [
     "artist_slipo",
@@ -40,6 +45,8 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [],
+  "themes": [
+    "theme_betrayal"
+  ],
   "tracks": []
 }
