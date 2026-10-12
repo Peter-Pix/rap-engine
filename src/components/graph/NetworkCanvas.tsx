@@ -921,6 +921,13 @@ function NetworkCanvasInner({ nodes, edges }: NetworkCanvasProps) {
             Zobrazit detail →
           </Link>
 
+          <Link
+            href={`/cesta?from=${encodeURIComponent(selectedNode.id)}`}
+            className="block text-[11px] text-[#c8962e] hover:underline mb-4"
+          >
+            ⌁ Najdi cestu odsud →
+          </Link>
+
           <div className="space-y-1 max-h-48 overflow-y-auto">
             <h3 className="text-[11px] font-mono uppercase tracking-wider text-white/40 mb-1">
               Propojení
