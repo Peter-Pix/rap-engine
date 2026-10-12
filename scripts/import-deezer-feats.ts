@@ -118,7 +118,7 @@ if (DRY) {
 }
 
 // ── Zápis ──────────────────────────────────────────────────────────────────
-let written = 0, newLinks = 0, changedFiles = 0;
+let written = 0, newLinks = 0;
 for (const p of plan.values()) {
   const rp = path.join(ENTITIES, p.dir, "relations.json");
   if (!fs.existsSync(rp)) continue;

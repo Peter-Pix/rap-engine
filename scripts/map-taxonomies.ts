@@ -30,7 +30,7 @@ const entsJson = JSON.parse(fs.readFileSync(path.join(CACHE, "entities.json"), "
 const ents: Record<string, Ent> = entsJson.entities ?? entsJson;
 
 // ── Validace slovníku: každý cíl musí existovat ────────────────────────────
-let badTargets: string[] = [];
+const badTargets: string[] = [];
 for (const [srcLabel, map] of [["MOOD_MAP", MOOD_MAP], ["THEME_MAP", THEME_MAP]] as const) {
   for (const [key, target] of Object.entries(map)) {
     if (!ents[target]) badTargets.push(`${srcLabel}["${key}"] → ${target} (NEEXISTUJE)`);
