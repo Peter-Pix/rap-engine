@@ -14,7 +14,7 @@ export default function SearchPage() {
     <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8">
       <div className="mb-8">
         <h1 className="text-3xl sm:text-4xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-3">
-          <span className="text-[var(--re-content-accent)]">Hledat</span>
+          <span className="text-[var(--re-accent)]">Hledat</span>
         </h1>
         <p className="text-zinc-400 text-sm max-w-2xl">
           Fulltextové vyhledávání napříč {entries.length} entitami — umělci, alba, žánry, lokality a další.

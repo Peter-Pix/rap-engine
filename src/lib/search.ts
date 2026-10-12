@@ -39,7 +39,7 @@ export const ENTITY_TYPE_LABELS: Record<EntityType, string> = {
 };
 
 export const ENTITY_TYPE_COLORS: Record<EntityType, string> = {
-  artist: "#e4ff1a",
+  artist: "#c8962e",  // zlatá — sjednoceno s --re-accent
   album: "#60a5fa",
   track: "#f472b6",
   genre: "#34d399",

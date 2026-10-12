@@ -38,7 +38,7 @@ export function NotFoundClient() {
         {/* CTA */}
         <Link
           href="/"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[var(--re-accent)] text-zinc-950 font-semibold text-sm tracking-wide hover:bg-[#b8cc14] transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[var(--re-accent)] text-zinc-950 font-semibold text-sm tracking-wide hover:bg-[var(--re-accent-dim)] transition-colors"
         >
           Zpět na hlavní stránku
           <svg

@@ -124,6 +124,8 @@ function YoutubePlaceholder({ videoId }: { videoId: string }) {
       <img
         src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
         alt="YouTube thumbnail"
+        loading="lazy"
+        decoding="async"
         className="absolute inset-0 w-full h-full object-cover opacity-50"
         onError={(e) => {
           (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
@@ -145,6 +147,8 @@ function YoutubeFallback({ videoId }: { videoId: string }) {
       <img
         src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
         alt="YouTube thumbnail"
+        loading="lazy"
+        decoding="async"
         className="w-full h-full object-cover"
         onError={(e) => {
           (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;

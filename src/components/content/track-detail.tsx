@@ -247,6 +247,8 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
             <img
               src={coverUrl}
               alt={`${entity.title} — obal alba`}
+              fetchPriority="high"
+              decoding="async"
               className="h-full w-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/40 to-transparent" />

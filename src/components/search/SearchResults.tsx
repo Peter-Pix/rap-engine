@@ -154,7 +154,7 @@ export function SearchResults() {
             onClick={() => setTypeFilter(null)}
             className={`text-xs font-mono font-bold uppercase tracking-widest px-3 py-1.5 rounded-md transition-colors ${
               typeFilter === null
-                ? "bg-[var(--re-content-accent)] text-zinc-950"
+                ? "bg-[var(--re-accent)] text-zinc-950"
                 : "bg-white/[0.04] text-zinc-400 hover:bg-white/[0.08]"
             }`}
           >

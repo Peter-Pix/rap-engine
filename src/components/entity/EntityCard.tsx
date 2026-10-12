@@ -24,7 +24,7 @@ export function EntityCard({
   tags,
   image,
 }: EntityCardProps) {
-  const color = ENTITY_TYPE_COLORS[type] ?? "var(--re-content-accent)";
+  const color = ENTITY_TYPE_COLORS[type] ?? "var(--re-accent)";
   const typeLabel = ENTITY_TYPE_LABELS[type] ?? type.toUpperCase();
 
   return (

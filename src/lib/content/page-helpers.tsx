@@ -237,6 +237,8 @@ export async function EntityPage({
           <img
             src={imageUrl}
             alt={entity.title}
+            fetchPriority="high"
+            decoding="async"
             className="h-full w-full object-cover object-top"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/30 to-transparent" />
@@ -593,6 +595,8 @@ export async function EntityPage({
                             <img
                               src={cover}
                               alt={album.title}
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                             />
                           ) : (

@@ -76,7 +76,7 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
     return () => document.removeEventListener("mousedown", onClick);
   }, []);
 
-  const accentColor = accent === "a" ? "var(--re-content-accent)" : "#c8962e";
+  const accentColor = accent === "a" ? "var(--re-accent)" : "#c8962e";
 
   if (selected) {
     return (
@@ -96,6 +96,8 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
             <img
               src={selected.image}
               alt={selected.title}
+              loading="lazy"
+              decoding="async"
               className="w-12 h-12 rounded-full object-cover ring-2 shrink-0"
               style={{ boxShadow: `0 0 0 2px ${accentColor}` }}
             />
@@ -165,6 +167,8 @@ function ArtistPicker({ label, accent, artists, value, onChange }: PickerProps) 
                   <img
                     src={a.image}
                     alt=""
+                    loading="lazy"
+                    decoding="async"
                     className="w-8 h-8 rounded-full object-cover shrink-0"
                   />
                 ) : (
@@ -291,7 +295,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
               typografii, ne na rámečcích. */}
           <div className="pt-2">
             <div className="flex items-baseline gap-4">
-              <span className="text-5xl font-black tabular-nums text-[var(--re-content-accent)] leading-none">
+              <span className="text-5xl font-black tabular-nums text-[var(--re-accent)] leading-none">
                 {result.totalShared + sharedTracks.length}
               </span>
               <div>
@@ -312,7 +316,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
           {sharedTracks.length > 0 && (
             <section>
               <div className="flex items-baseline gap-2.5 mb-1">
-                <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[var(--re-content-accent)]">
+                <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[var(--re-accent)]">
                   Společné skladby
                 </h2>
                 <span className="text-[11px] font-mono text-zinc-600">
@@ -337,7 +341,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
                       )}
                     </div>
                     <div className="flex items-center gap-3 shrink-0 text-[11px] font-mono uppercase tracking-wider">
-                      <span className="text-[var(--re-content-accent)]/75">
+                      <span className="text-[var(--re-accent)]/75">
                         {aSel?.title} · {trackRoleLabel(t.roleA)}
                       </span>
                       <span className="text-zinc-700">/</span>
@@ -356,7 +360,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
             indirectPath ? (
               <section>
                 <div className="flex items-baseline gap-2.5 mb-3">
-                  <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[var(--re-content-accent)]">
+                  <h2 className="text-[11px] font-mono font-semibold uppercase tracking-[0.2em] text-[var(--re-accent)]">
                     Nepřímé propojení
                   </h2>
                   <span className="text-[11px] font-mono text-zinc-600">
@@ -381,7 +385,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
                       )}
                       <Link
                         href={hop.viaUrl}
-                        className="text-[15px] text-zinc-300 underline decoration-zinc-700 decoration-dotted underline-offset-4 hover:text-[var(--re-content-accent)] hover:decoration-[var(--re-content-accent)]/50 transition-colors"
+                        className="text-[15px] text-zinc-300 underline decoration-zinc-700 decoration-dotted underline-offset-4 hover:text-[var(--re-accent)] hover:decoration-[var(--re-accent)]/50 transition-colors"
                       >
                         {hop.viaTitle}
                       </Link>
@@ -432,7 +436,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2 pt-2 text-[15px]">
             <Link
               href={`/raperi/${aSel?.slug}`}
-              className="text-zinc-500 hover:text-[var(--re-content-accent)] transition-colors"
+              className="text-zinc-500 hover:text-[var(--re-accent)] transition-colors"
             >
               {aSel?.title} →
             </Link>

@@ -31,7 +31,7 @@ export function SimilarArtistsSection({ artists, fromArtist }: SimilarArtistsPro
             <a
               key={s.id}
               href={route}
-              className="inline-flex items-center gap-2 px-3 py-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-[var(--re-content-accent)]/[0.3] rounded-lg text-sm transition-all"
+              className="inline-flex items-center gap-2 px-3 py-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] hover:border-[var(--re-accent)]/[0.3] rounded-lg text-sm transition-all"
               onClick={() => trackSimilarArtistClick(fromArtist, s.title, s.score)}
             >
               <span className="font-medium text-white">{s.title}</span>

@@ -101,7 +101,7 @@ export default function PorovnatPage() {
     <div className="mx-auto max-w-5xl px-4 sm:px-6 py-8">
       <div className="mb-8">
         <h1 className="text-3xl sm:text-4xl font-black tracking-tighter text-white uppercase leading-[0.92] mb-3">
-          <span className="text-[var(--re-content-accent)]">Porovnat</span> rappery
+          <span className="text-[var(--re-accent)]">Porovnat</span> rappery
         </h1>
         <p className="text-zinc-400 text-sm max-w-2xl">
           Vyber dva interprety a zjisti, co mají společného — žánry, styly,
