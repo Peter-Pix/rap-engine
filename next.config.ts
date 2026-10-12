@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
   output: "standalone",
   staticPageGenerationTimeout: 180, // 3 min (default 60s) — heavy entity pages
   experimental: {
+    // Globální 404 — Next.js 16 nezachytí notFound() z dynamických rout do
+    // app/not-found.tsx (v SSR vrací prázdný shell). global-not-found se
+    // renderuje na úrovni routingu a vrací kompletní HTML. (12. 10. 2026)
+    globalNotFound: true,
     // Omezení paralelních SSG workerů — 8GB MacBook Air padá na OOM,
     // když 7 workerů naráz renderuje obří rapper stránky (Yzomandias 271 tracků).
     // 2 workery = pomalejší build, ale bez swap death. (11. 10. 2026)

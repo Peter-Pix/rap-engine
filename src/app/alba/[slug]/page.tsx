@@ -10,6 +10,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export function generateStaticParams() { return generatePageStaticParams(TYPE); }
 
+// Neexistující slug → 404 na úrovni routingu (spustí global-not-found
+// s plným SSR HTML, místo prázdného NEXT_HTTP_ERROR_FALLBACK shellu).
+export const dynamicParams = false;
+
 export default async function AlbumPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   return <EntityPage type={TYPE} slug={slug} />;

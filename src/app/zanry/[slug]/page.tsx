@@ -10,6 +10,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export function generateStaticParams() { return generatePageStaticParams(TYPE); }
 
+// Neexistující slug → 404 na routing úrovni (plné SSR).
+export const dynamicParams = false;
+
 export default async function GenrePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   return <EntityPage type={TYPE} slug={slug} />;

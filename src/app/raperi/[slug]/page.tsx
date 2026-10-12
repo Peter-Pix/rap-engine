@@ -16,6 +16,10 @@ export function generateStaticParams() {
   return generatePageStaticParams(TYPE);
 }
 
+// Neexistující slug → 404 na úrovni routingu (spustí global-not-found
+// s plným SSR HTML, místo prázdného NEXT_HTTP_ERROR_FALLBACK shellu).
+export const dynamicParams = false;
+
 export default async function ArtistPage({
   params,
 }: {

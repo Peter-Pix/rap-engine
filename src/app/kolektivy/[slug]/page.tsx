@@ -17,6 +17,9 @@ export function generateStaticParams() {
   return generatePageStaticParams(TYPE);
 }
 
+// Neexistující slug → 404 na routing úrovni (plné SSR).
+export const dynamicParams = false;
+
 export default async function Page({
   params,
 }: {

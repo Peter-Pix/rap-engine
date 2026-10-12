@@ -50,6 +50,10 @@ export function generateStaticParams() {
   return getRouteParamsForType(TYPE).map(({ slug }) => ({ slug }));
 }
 
+// Neexistující slug → 404 na úrovni routingu (spustí global-not-found
+// s plným SSR HTML, místo prázdného NEXT_HTTP_ERROR_FALLBACK shellu).
+export const dynamicParams = false;
+
 export default async function TrackPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const id = resolveFromSlug(TYPE, slug);
