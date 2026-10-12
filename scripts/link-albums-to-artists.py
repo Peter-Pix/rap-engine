@@ -1,104 +1,94 @@
 #!/usr/bin/env python3
-"""
-Link albums to artists based on description field matching.
-Scans all album meta.json descriptions for artist names and adds
-matching albums to the artist's relations.json.
-"""
+"""Link albums to artists — SAFE verze (2026-10-12).
 
-import json, os, re, sys
-from collections import defaultdict
+⚠️ HISTORIE: Předchozí verze párovála alba podle TEXTU V POPISU s `break`
+na prvním matchi → masivní kontaminace (album přiřazeno hostovi/producentovi
+zmíněnému v popisu). Audit 12.10.2026 našel 40+ zkomolených alb.
+
+✅ LOGIKA (bezpečná):
+  Autorita = TRACK-level primaryArtist. Album patří artistovi, který je
+  `primaryArtist` u VĚTŠINY tracků alba. Feat host (jen v `featuring`) NE.
+  Fallback: prefix track ID (`track_<slug>-...`) — majority prefix.
+  NIKDY nepárovat podle volného textu v description.
+
+Použití:
+  python3 scripts/link-albums-to-artists.py          # DRY RUN
+  DRY=0 python3 scripts/link-albums-to-artists.py     # zapíše
+"""
+import json, os
+from collections import Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ENTITIES = os.path.join(BASE, 'content', 'entities')
-CACHE = os.path.join(BASE, '.content-cache')
+ENT = os.path.join(BASE, "content", "entities")
+CACHE = os.path.join(BASE, ".content-cache")
+DRY = os.environ.get("DRY", "1") != "0"
 
-def load_json(path):
-    with open(path) as f:
-        return json.load(f)
 
-def save_json(path, data):
-    with open(path, 'w') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write('\n')
+def load(p):
+    try:
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
 
 def main():
-    data = load_json(os.path.join(CACHE, 'entities.json'))
-    
-    # Build artist name -> eid map
-    artist_map = {}
-    for eid, e in data.items():
-        if e.get('type') == 'artist':
-            title = e.get('title', '')
-            artist_map[title.lower()] = eid
-            # Also add slug-based lookup
-            slug = e.get('slug', '')
-            artist_map[slug.lower().replace('-', ' ')] = eid
-    
-    # For each album, find artist from description
-    album_to_artist = {}  # album_eid -> artist_eid
-    unmatched = []
-    
-    for eid, e in data.items():
-        if e.get('type') != 'album':
-            continue
-        meta_path = os.path.join(ENTITIES, eid, 'meta.json')
-        if not os.path.exists(meta_path):
-            continue
-        meta = load_json(meta_path)
-        desc = meta.get('description', '')
-        if not desc:
-            continue
-        
-        # Try to match artist name in description
-        matched = False
-        for artist_title, artist_eid in artist_map.items():
-            if artist_title in desc.lower():
-                album_to_artist[eid] = artist_eid
-                matched = True
-                break
-        
-        if not matched:
-            unmatched.append((eid, meta.get('title', '?')))
-    
-    print(f"Matched {len(album_to_artist)} albums to artists")
-    print(f"Unmatched: {len(unmatched)}")
-    
-    # Group albums by artist
-    artist_albums = defaultdict(list)
-    for album_eid, artist_eid in album_to_artist.items():
-        artist_albums[artist_eid].append(album_eid)
-    
-    # Update each artist's relations.json
-    updated = 0
-    for artist_eid, albums in sorted(artist_albums.items()):
-        rel_path = os.path.join(ENTITIES, artist_eid, 'relations.json')
-        if not os.path.exists(rel_path):
-            print(f"  SKIP {artist_eid}: no relations.json")
-            continue
-        
-        rels = load_json(rel_path)
-        existing = set(rels.get('albums', []))
-        new_albums = [a for a in albums if a not in existing]
-        
-        if not new_albums:
-            continue
-        
-        rels['albums'] = sorted(set(rels.get('albums', [])) | set(albums))
-        save_json(rel_path, rels)
-        updated += 1
-        
-        # Get artist name for display
-        artist_data = data.get(artist_eid, {})
-        artist_name = artist_data.get('title', artist_eid)
-        print(f"  {artist_name:30s} | +{len(new_albums):2d} albums (total {len(rels['albums'])})")
-    
-    print(f"\nUpdated {updated} artists")
-    
-    # Show unmatched albums
-    if unmatched:
-        print(f"\n=== Unmatched albums ({len(unmatched)}) ===")
-        for eid, title in sorted(unmatched, key=lambda x: x[1]):
-            print(f"  {title:50s} | {eid}")
+    data = load(os.path.join(CACHE, "entities.json")) or {}
+    artists = {k: v for k, v in data.items() if v.get("type") == "artist"}
+    slug2artist = {a.get("slug", ""): aid for aid, a in artists.items()}
 
-if __name__ == '__main__':
+    links = {}  # album_id -> set(artist_id)
+    unlinked = []
+    for eid, e in data.items():
+        if e.get("type") != "album":
+            continue
+        ap = os.path.join(ENT, eid)
+        rel = load(os.path.join(ap, "relations.json")) or {}
+        tracks = rel.get("tracks") or []
+        prim = Counter()
+        for t in tracks:
+            tr = load(os.path.join(ENT, t, "relations.json"))
+            if not tr:
+                continue
+            for a in tr.get("primaryArtist") or []:
+                if a in artists:
+                    prim[a] += 1
+        if prim:
+            # majority primaryArtist (track patří albu, album patří jim)
+            top = prim.most_common(1)[0][1]
+            links[eid] = {a for a, c in prim.items() if c == top}
+            continue
+        # fallback: prefix track ID
+        pref = Counter()
+        for t in tracks:
+            pref[t.replace("track_", "").split("-")[0]] += 1
+        hit = {slug2artist[p] for p in pref if p in slug2artist}
+        if hit:
+            links[eid] = hit
+        else:
+            unlinked.append((eid, e.get("title", "?")))
+
+    total_alb = sum(1 for x in data.values() if x.get("type") == "album")
+    print(f"Spárováno: {len(links)} / {total_alb} alb | bez vazby: {len(unlinked)}")
+
+    changed = 0
+    for album, aids in sorted(links.items()):
+        for aid in aids:
+            p = os.path.join(ENT, aid, "relations.json")
+            relp = load(p)
+            if not relp:
+                continue
+            cur = set(relp.get("albums") or [])
+            if album not in cur:
+                changed += 1
+                print(f"  {'[DRY] ' if DRY else ''}{artists[aid].get('title'):24} + {data.get(album,{}).get('title','?')}")
+                if not DRY:
+                    relp["albums"] = sorted(cur | {album})
+                    with open(p, "w", encoding="utf-8") as f:
+                        json.dump(relp, f, ensure_ascii=False, indent=2)
+                        f.write("\n")
+    print(f"\n{'DRY RUN' if DRY else 'Zapsáno'}: {changed} nových vazeb")
+
+
+if __name__ == "__main__":
     main()
