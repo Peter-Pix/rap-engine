@@ -444,6 +444,139 @@ export function getSimilarArtists(
   return results.slice(0, limit);
 }
 
+// ─── 4b. getSimilarTracks ─────────────────────────────────────────────────
+
+/**
+ * Váhy podobnosti pro skladby — jiné atributy než u interpreta.
+ * Tracky mají bohatší taxonomii (mood, theme, style, featy, album, label).
+ */
+export interface TrackSimilarityWeights {
+  genre: number;
+  mood: number;
+  theme: number;
+  style: number;
+  artist: number;
+  label: number;
+  /** Bonus za stejné album */
+  album: number;
+  /** Bonus za přímou vazbu (feat/producent) */
+  directConnection: number;
+}
+
+export const DEFAULT_TRACK_WEIGHTS: TrackSimilarityWeights = {
+  genre: 0.2,
+  mood: 0.15,
+  theme: 0.2,
+  style: 0.1,
+  artist: 0.2,
+  label: 0.05,
+  album: 0.05,
+  directConnection: 0.05,
+};
+
+/**
+ * Najdi podobné skladby k danému tracku.
+ *
+ * Skóre = vážený součet společných taxonomických atributů:
+ * - žánry (HAS_GENRE)
+ * - nálady (HAS_MOOD)
+ * - témata (HAS_THEME)
+ * - styly (HAS_STYLE)
+ * - interpreti (HAS_ARTIST) — silný signál, stejný rapper = příbuzné tracky
+ * - label (RELEASED_BY)
+ * - album (BELONGS_TO_ALBUM)
+ * plus bonus za přímou vazbu (feat, produkce).
+ *
+ * @param trackId  Zdrojová skladba
+ * @param weights  Volitelné váhy (default DEFAULT_TRACK_WEIGHTS)
+ * @param minScore Minimální skóre (default 0.05)
+ * @param limit    Max výsledků (default 6)
+ */
+export function getSimilarTracks(
+  trackId: string,
+  weights: TrackSimilarityWeights = DEFAULT_TRACK_WEIGHTS,
+  minScore = 0.05,
+  limit = 6,
+): SimilarityResult[] {
+  const source = readEntityById(trackId);
+  if (!source || source.type !== "track") return [];
+
+  const allTracks = readEntitiesByType("track").filter(
+    (t) => t.id !== trackId,
+  );
+  if (!allTracks.length) return [];
+
+  // Zdrojové množiny
+  const sGenres = new Set(source.outbound["HAS_GENRE"] ?? []);
+  const sMoods = new Set(source.outbound["HAS_MOOD"] ?? []);
+  const sThemes = new Set(source.outbound["HAS_THEME"] ?? []);
+  const sStyles = new Set(source.outbound["HAS_STYLE"] ?? []);
+  const sArtists = new Set(source.outbound["HAS_ARTIST"] ?? []);
+  const sLabels = new Set(source.outbound["RELEASED_BY"] ?? []);
+  const sAlbums = new Set(source.outbound["BELONGS_TO_ALBUM"] ?? []);
+
+  const sourceOutboundIds = new Set(Object.values(source.outbound).flat());
+  const targetIndex = buildTargetIndex();
+
+  const results: SimilarityResult[] = [];
+
+  for (const candidate of allTracks) {
+    const cGenres = new Set(candidate.outbound["HAS_GENRE"] ?? []);
+    const cMoods = new Set(candidate.outbound["HAS_MOOD"] ?? []);
+    const cThemes = new Set(candidate.outbound["HAS_THEME"] ?? []);
+    const cStyles = new Set(candidate.outbound["HAS_STYLE"] ?? []);
+    const cArtists = new Set(candidate.outbound["HAS_ARTIST"] ?? []);
+    const cLabels = new Set(candidate.outbound["RELEASED_BY"] ?? []);
+    const cAlbums = new Set(candidate.outbound["BELONGS_TO_ALBUM"] ?? []);
+
+    const sharedGenres = intersect(sGenres, cGenres);
+    const sharedMoods = intersect(sMoods, cMoods);
+    const sharedThemes = intersect(sThemes, cThemes);
+    const sharedStyles = intersect(sStyles, cStyles);
+    const sharedArtists = intersect(sArtists, cArtists);
+    const sharedLabels = intersect(sLabels, cLabels);
+    const sharedAlbums = intersect(sAlbums, cAlbums);
+
+    // Přímá vazba: source → candidate nebo candidate → source
+    const directOut = sourceOutboundIds.has(candidate.id) ? 1 : 0;
+    const candidateInbound = targetIndex.get(candidate.id) ?? [];
+    const directIn = candidateInbound.some((e) => e.from === trackId) ? 1 : 0;
+    const directConnections = directOut + directIn;
+
+    const score =
+      weights.genre * ratio(sharedGenres.length, sGenres.size) +
+      weights.mood * ratio(sharedMoods.length, sMoods.size) +
+      weights.theme * ratio(sharedThemes.length, sThemes.size) +
+      weights.style * ratio(sharedStyles.length, sStyles.size) +
+      weights.artist * ratio(sharedArtists.length, sArtists.size) +
+      weights.label * ratio(sharedLabels.length, sLabels.size) +
+      weights.album * ratio(sharedAlbums.length, sAlbums.size) +
+      weights.directConnection * Math.min(directConnections, 3);
+
+    if (score >= minScore) {
+      results.push({
+        id: candidate.id,
+        type: candidate.type,
+        slug: candidate.slug,
+        title: candidate.title,
+        score: Math.min(score, 1),
+        breakdown: {
+          sharedGenres,
+          sharedStyles,
+          sharedMoods,
+          sharedScenes: sharedThemes, // reuse pole: témata
+          sharedLabels,
+          sharedLocations: sharedArtists, // reuse pole: interpreti
+          directConnections,
+        },
+      });
+    }
+  }
+
+  results.sort((a, b) => b.score - a.score);
+  return results.slice(0, limit);
+}
+
 // ─── 5. getGenreNetwork ────────────────────────────────────────────────────
 
 /**
@@ -587,6 +720,8 @@ export function getEntityGraphSummary(
   let similar: SimilarityResult[] = [];
   if (entity.type === "artist") {
     similar = getSimilarArtists(entityId, DEFAULT_WEIGHTS, 0.05, 5);
+  } else if (entity.type === "track") {
+    similar = getSimilarTracks(entityId, DEFAULT_TRACK_WEIGHTS, 0.05, 6);
   }
 
   return {

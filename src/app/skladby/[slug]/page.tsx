@@ -4,6 +4,7 @@ import { resolveFromSlug, getRouteParamsForType } from "@/lib/content/route-reso
 import { readEntityById, readInboundFor, readEntities } from "@/lib/content/cache-reader";
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 import { TrackDetail } from "@/components/content/track-detail";
+import { getSimilarTracks } from "@/lib/content/graph-query";
 
 const TYPE = "track";
 
@@ -47,6 +48,32 @@ export default async function TrackPage({ params }: { params: Promise<{ slug: st
   const allEntities = readEntities();
   const inboundIds = readInboundFor(id);
 
+  // Podobné skladby — z grafu (žánry/nálady/témata/interpret/album/label).
+  // Track page tak přestává být slepá ulička.
+  const similarTracks = getSimilarTracks(id, undefined, 0.08, 6).map((r) => ({
+    id: r.id,
+    slug: r.slug,
+    title: r.title,
+    score: r.score,
+  }));
+
+  // Více od interpreta — další skladby hlavního interpreta (bez aktuální
+  // a bez těch, co už jsou v "Podobné skladby"). Dodává track page další výstup.
+  const primaryArtistId = (entity.outbound?.HAS_ARTIST ?? [])[0];
+  const similarIds = new Set(similarTracks.map((t) => t.id));
+  const moreFromArtist = primaryArtistId
+    ? Object.values(allEntities ?? {})
+        .filter(
+          (e) =>
+            e.type === "track" &&
+            e.id !== id &&
+            !similarIds.has(e.id) &&
+            (e.outbound?.HAS_ARTIST ?? []).includes(primaryArtistId),
+        )
+        .slice(0, 6)
+        .map((e) => ({ id: e.id, slug: e.slug, title: e.title }))
+    : [];
+
   // Build entity index for resolving relations
   const entityIndex: Record<string, { id: string; type: string; slug: string; title: string; image?: string | null }> = {};
   if (allEntities) {
@@ -76,6 +103,8 @@ export default async function TrackPage({ params }: { params: Promise<{ slug: st
       }}
       allEntities={entityIndex}
       inboundIds={inboundIds}
+      similarTracks={similarTracks}
+      moreFromArtist={moreFromArtist}
     />
   );
 }

@@ -33,6 +33,8 @@ interface TrackDetailProps {
   };
   allEntities: Record<string, EntityRef>;
   inboundIds: string[];
+  similarTracks?: { id: string; slug: string; title: string; score: number }[];
+  moreFromArtist?: { id: string; slug: string; title: string }[];
 }
 
 function resolveUrl(e: EntityRef): string {
@@ -170,7 +172,7 @@ function EmbedPlayer({
   );
 }
 
-export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProps) {
+export function TrackDetail({ entity, allEntities, inboundIds, similarTracks = [], moreFromArtist = [] }: TrackDetailProps) {
   const out = entity.outbound ?? {};
   const em = entity.profile ?? {};
 
@@ -439,6 +441,60 @@ export function TrackDetail({ entity, allEntities, inboundIds }: TrackDetailProp
                   youtubeUrl={youtubeUrl}
                   deezerUrl={deezerUrl}
                 />
+              </section>
+            )}
+
+            {/* Podobné skladby — chytá uživatele z Googlu a posílá ho dál sítí */}
+            {similarTracks.length > 0 && (
+              <section>
+                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  Podobné skladby
+                </h2>
+                <div className="border-t border-white/[0.06]">
+                  {similarTracks.map((t) => (
+                    <Link
+                      key={t.id}
+                      href={`${TYPE_ROUTE_MAP.track}/${t.slug}`}
+                      className="group flex items-center justify-between gap-4 py-3 border-b border-white/[0.06] last:border-none transition-colors hover:bg-white/[0.03] -mx-3 px-3"
+                    >
+                      <div className="min-w-0 flex items-center gap-3">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[var(--re-accent)]/50 shrink-0" />
+                        <span className="text-sm text-white/85 group-hover:text-[var(--re-accent)] transition-colors truncate">
+                          {t.title}
+                        </span>
+                      </div>
+                      <span className="text-[11px] font-mono text-white/25 shrink-0 tabular-nums">
+                        {Math.round(t.score * 100)}%
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Více od interpreta — další skladby hlavního rappera */}
+            {moreFromArtist.length > 0 && artists[0] && (
+              <section>
+                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  Více od {artists[0].title}
+                </h2>
+                <div className="flex flex-wrap gap-2">
+                  {moreFromArtist.map((t) => (
+                    <Link
+                      key={t.id}
+                      href={`${TYPE_ROUTE_MAP.track}/${t.slug}`}
+                      className="text-sm text-white/70 hover:text-[var(--re-accent)] border border-white/10 hover:border-[var(--re-accent)]/40 px-3 py-1.5 transition-colors"
+                    >
+                      {t.title}
+                    </Link>
+                  ))}
+                </div>
+                <Link
+                  href={`${TYPE_ROUTE_MAP.artist}/${artists[0].slug}`}
+                  className="inline-flex items-center gap-1.5 mt-4 text-[11px] font-mono uppercase tracking-[0.15em] text-[var(--re-accent)] hover:text-white transition-colors"
+                >
+                  Celý profil {artists[0].title} →
+                </Link>
               </section>
             )}
           </div>
