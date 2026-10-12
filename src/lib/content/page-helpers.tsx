@@ -106,6 +106,33 @@ function getEntityLabel(type: string): string {
 
 // ─── Shared Page Component ────────────────────────────────────────────────
 
+// ─── Track route index (memoizováno) ───────────────────────────────────────
+// Mapa Deezer track ID / ISRC → naše route. Staví se JEDNOU za proces
+// (build worker), ne per stránku. Bez memoizace je to O(n²) a shodí build.
+let _trackRouteIndex: { deezerIdToRoute: Record<string, string>; isrcToRoute: Record<string, string> } | null = null;
+
+function getTrackRouteIndex() {
+  if (_trackRouteIndex) return _trackRouteIndex;
+  const deezerIdToRoute: Record<string, string> = {};
+  const isrcToRoute: Record<string, string> = {};
+  const all = readEntities();
+  if (all) {
+    for (const e of Object.values(all)) {
+      if ((e as any).type !== "track") continue;
+      const route = `/skladby/${(e as any).slug}`;
+      const srcs = ((e as any).extraMeta?.sources ?? []) as string[];
+      for (const src of srcs) {
+        const m = String(src).match(/deezer\.com\/track\/(\d+)/);
+        if (m) deezerIdToRoute[m[1]] = route;
+      }
+      const isrc = (e as any).extraMeta?.isrc;
+      if (typeof isrc === "string" && isrc) isrcToRoute[isrc.toUpperCase()] = route;
+    }
+  }
+  _trackRouteIndex = { deezerIdToRoute, isrcToRoute };
+  return _trackRouteIndex;
+}
+
 export async function EntityPage({
   type,
   slug,
@@ -155,6 +182,22 @@ export async function EntityPage({
       try {
         tracklistData = JSON.parse(await readFile(tracksPath, "utf-8"));
       } catch {}
+    }
+  }
+
+  // ── Deezer track ID → naše track route (pro proklikání ze seznamu) ───
+  // Mapu (deezerId/isrc → route) stavíme JEDNOU a memoizujeme na module-level.
+  // POZOR: nestavět per stránku — iterace všech 5 778 entit pro každou ze 360
+  // album stránek = O(n²) → build padal na OOM/SIGKILL (12. 10. 2026).
+  const trackRoutes: Record<string, string> = {};
+  if (entity.type === "album" && tracklistData) {
+    const { deezerIdToRoute, isrcToRoute } = getTrackRouteIndex();
+    for (const t of (tracklistData.tracks ?? [])) {
+      const dzId = String(t.link ?? "").match(/track\/(\d+)/)?.[1];
+      let route: string | undefined;
+      if (dzId && deezerIdToRoute[dzId]) route = deezerIdToRoute[dzId];
+      else if (t.isrc && isrcToRoute[String(t.isrc).toUpperCase()]) route = isrcToRoute[String(t.isrc).toUpperCase()];
+      if (route) trackRoutes[String(t.position)] = route;
     }
   }
 
@@ -310,9 +353,9 @@ export async function EntityPage({
             </div>
           )}
 
-          {/* Tracklist for albums (from Deezer) */}
+          {/* Tracklist for albums (from Deezer) — jediný seznam skladeb */}
           {tracklistData && (
-            <Tracklist data={tracklistData} albumSlug={entity.slug} />
+            <Tracklist data={tracklistData} albumSlug={entity.slug} trackRoutes={trackRoutes} />
           )}
 
           {/* Upcoming events for artists (from 44rap) */}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { extractDeezerTrackId } from "@/lib/content/deezer-helpers";
 
 interface Track {
@@ -33,6 +33,8 @@ interface TracklistData {
 interface TracklistProps {
   data: TracklistData;
   albumSlug: string;
+  /** Mapa: pozice v tracklistu → naše track route (/skladby/<slug>). */
+  trackRoutes?: Record<string, string>;
 }
 
 function formatDuration(sec: number): string {
@@ -48,67 +50,82 @@ function formatTotalDuration(sec: number): string {
   return `${m} min`;
 }
 
-export function Tracklist({ data, albumSlug }: TracklistProps) {
+export function Tracklist({ data, albumSlug, trackRoutes = {} }: TracklistProps) {
   const [playingIdx, setPlayingIdx] = useState<number | null>(null);
+  const [loadingIdx, setLoadingIdx] = useState<number | null>(null);
   const [progress, setProgress] = useState(0);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-
-  const currentTrack = playingIdx !== null ? data.tracks[playingIdx] : null;
 
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
-
-    const onTimeUpdate = () => {
-      setProgress((audio.currentTime / audio.duration) * 100);
+    const onTime = () => {
+      if (audio.duration > 0) setProgress((audio.currentTime / audio.duration) * 100);
     };
-    const onEnded = () => {
+    const onEnd = () => {
       setPlayingIdx(null);
+      setLoadingIdx(null);
       setProgress(0);
-      // Auto-play next
-      if (playingIdx !== null && playingIdx < data.tracks.length - 1) {
-        setTimeout(() => setPlayingIdx(playingIdx + 1), 200);
-      }
     };
-
-    audio.addEventListener("timeupdate", onTimeUpdate);
-    audio.addEventListener("ended", onEnded);
+    const onPause = () => setPlayingIdx(null);
+    audio.addEventListener("timeupdate", onTime);
+    audio.addEventListener("ended", onEnd);
+    audio.addEventListener("pause", onPause);
     return () => {
-      audio.removeEventListener("timeupdate", onTimeUpdate);
-      audio.removeEventListener("ended", onEnded);
+      audio.removeEventListener("timeupdate", onTime);
+      audio.removeEventListener("ended", onEnd);
+      audio.removeEventListener("pause", onPause);
     };
-  }, [playingIdx, data.tracks.length]);
+  }, []);
 
-  const playTrack = (idx: number) => {
-    const track = data.tracks[idx];
-
-    // Prefer Deezer widget: open modal with embedded player.
-    const deezerId = extractDeezerTrackId(track.link);
-    if (deezerId) {
-      // Stop any in-page audio
-      audioRef.current?.pause();
-      setPlayingIdx(null);
-      setProgress(0);
-      // Open Deezer widget in new tab (user-friendly for CZ/SK users)
-      const widgetUrl = `https://widget.deezer.com/widget/dark/track/${deezerId}`;
-      window.open(widgetUrl, "_blank", "noopener,noreferrer");
-      return;
+  const stop = useCallback(() => {
+    const audio = audioRef.current;
+    if (audio) {
+      audio.pause();
+      audio.currentTime = 0;
     }
+    setPlayingIdx(null);
+    setLoadingIdx(null);
+    setProgress(0);
+  }, []);
 
-    // Fallback: try inline audio (only works while preview_url is fresh)
-    if (!track.preview_url) return;
-    if (playingIdx === idx) {
-      if (audioRef.current?.paused) audioRef.current?.play();
-      else audioRef.current?.pause();
-    } else {
+  const playTrack = useCallback(
+    (idx: number) => {
+      const audio = audioRef.current;
+      const track = data.tracks[idx];
+      if (!audio || !track) return;
+
+      if (playingIdx === idx) {
+        stop();
+        return;
+      }
+
+      const deezerId = extractDeezerTrackId(track.link);
+
+      document.querySelectorAll("audio").forEach((a) => {
+        if (a !== audio) a.pause();
+      });
+
+      setLoadingIdx(idx);
       setPlayingIdx(idx);
       setProgress(0);
-    }
-  };
+
+      audio.src = deezerId ? `/api/preview/${deezerId}` : track.preview_url || "";
+      audio
+        .play()
+        .then(() => setLoadingIdx(null))
+        .catch(() => {
+          setLoadingIdx(null);
+          setPlayingIdx(null);
+        });
+    },
+    [data.tracks, playingIdx, stop],
+  );
 
   return (
     <section className="mt-12">
-      {/* Header */}
+      <audio ref={audioRef} preload="none" />
+
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40">
           Tracklist · {data.total_tracks} skladeb · {formatTotalDuration(data.total_duration_sec)}
@@ -119,20 +136,13 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
         </div>
       </div>
 
-      {/* Hidden audio element (fallback only; usually unused) */}
-      <audio
-        ref={audioRef}
-        src={currentTrack?.preview_url || undefined}
-        preload="none"
-      />
-
-      {/* Track rows */}
       <ol className="divide-y divide-white/5 border-y border-white/5">
         {data.tracks.map((t, idx) => {
           const isPlaying = playingIdx === idx;
+          const isLoading = loadingIdx === idx;
           const hasDeezer = !!extractDeezerTrackId(t.link);
-          const hasInlinePreview = !!t.preview_url;
-          const hasAny = hasDeezer || hasInlinePreview;
+          const hasAny = hasDeezer || !!t.preview_url;
+          const route = trackRoutes[String(t.position)];
           return (
             <li
               key={idx}
@@ -140,44 +150,56 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
                 isPlaying ? "bg-[#c8962e]/10" : "hover:bg-white/5"
               }`}
             >
-              {/* Play button / position */}
               <button
                 onClick={() => hasAny && playTrack(idx)}
                 disabled={!hasAny}
                 className={`w-8 h-8 flex items-center justify-center rounded-full flex-shrink-0 transition-all ${
-                  hasAny
-                    ? "hover:bg-[#c8962e] hover:text-black cursor-pointer"
-                    : "cursor-default"
+                  hasAny ? "hover:bg-[#c8962e] hover:text-black cursor-pointer" : "cursor-default"
                 }`}
-                aria-label={isPlaying ? "Pause" : `Přehrát ${t.title}`}
-                title={hasDeezer ? "Přehrát na Deezeru (nové okno)" : (hasInlinePreview ? "Přehrát 30s preview" : "Bez preview")}
+                aria-label={isPlaying ? "Zastavit" : `Přehrát ${t.title}`}
+                title={hasAny ? (isPlaying ? "Zastavit" : "Přehrát 30s ukázku") : "Bez ukázky"}
               >
-                {isPlaying ? (
-                  <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+                {isLoading ? (
+                  <svg className="w-3.5 h-3.5 animate-spin text-[#c8962e]" viewBox="0 0 24 24" fill="none">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 0 1 8-8v4a4 4 0 0 0-4 4H4z" />
+                  </svg>
+                ) : isPlaying ? (
+                  <svg className="w-3.5 h-3.5 text-[#c8962e]" viewBox="0 0 24 24" fill="currentColor">
                     <rect x="6" y="4" width="4" height="16" />
                     <rect x="14" y="4" width="4" height="16" />
                   </svg>
                 ) : (
-                  <span className="text-[11px] font-mono text-white/40 group-hover:hidden">
-                    {t.position}
-                  </span>
-                )}
-                {!isPlaying && hasAny && (
-                  <svg className="w-3.5 h-3.5 hidden group-hover:block" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                )}
-                {!hasAny && (
-                  <span className="text-[11px] text-white/20">—</span>
+                  <>
+                    <span className="text-[11px] font-mono text-white/40 group-hover:hidden">
+                      {t.position}
+                    </span>
+                    {hasAny && (
+                      <svg className="w-3.5 h-3.5 hidden group-hover:block" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    )}
+                    {!hasAny && <span className="text-[11px] text-white/20">—</span>}
+                  </>
                 )}
               </button>
 
-              {/* Title + feat */}
               <div className="flex-1 min-w-0">
                 <div className="flex items-baseline gap-2">
-                  <span className={`text-sm font-medium truncate ${isPlaying ? "text-[#c8962e]" : "text-white/90"}`}>
-                    {t.title}
-                  </span>
+                  {route ? (
+                    <a
+                      href={route}
+                      className={`text-sm font-medium truncate transition-colors ${
+                        isPlaying ? "text-[#c8962e]" : "text-white/90 hover:text-[#c8962e]"
+                      }`}
+                    >
+                      {t.title}
+                    </a>
+                  ) : (
+                    <span className={`text-sm font-medium truncate ${isPlaying ? "text-[#c8962e]" : "text-white/90"}`}>
+                      {t.title}
+                    </span>
+                  )}
                   {t.explicit && (
                     <span className="text-[11px] font-mono px-1 py-0.5 bg-white/10 text-white/50 rounded-sm flex-shrink-0">
                       E
@@ -191,8 +213,7 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
                 )}
               </div>
 
-              {/* Progress bar (only on currently playing inline preview) */}
-              {isPlaying && (
+              {isPlaying && !isLoading && (
                 <div className="w-24 h-0.5 bg-white/10 rounded-full overflow-hidden hidden sm:block">
                   <div
                     className="h-full bg-[#c8962e] transition-all"
@@ -201,7 +222,6 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
                 </div>
               )}
 
-              {/* Deezer link */}
               {t.link && (
                 <a
                   href={t.link}
@@ -216,7 +236,6 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
                 </a>
               )}
 
-              {/* Duration */}
               <span className="text-[11px] font-mono text-white/40 tabular-nums w-10 text-right flex-shrink-0">
                 {formatDuration(t.duration_sec)}
               </span>
@@ -225,7 +244,6 @@ export function Tracklist({ data, albumSlug }: TracklistProps) {
         })}
       </ol>
 
-      {/* Footer */}
       <div className="mt-4 flex items-center justify-between text-[11px] font-mono text-white/30">
         <span>Data: Deezer</span>
         {data.upc && <span>UPC: {data.upc}</span>}
