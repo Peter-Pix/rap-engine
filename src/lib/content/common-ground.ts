@@ -221,14 +221,29 @@ export function trackRoleLabel(role: SharedTrack["roleA"]): string {
 /**
  * Krátké slovní hodnocení shody — pro „verdict" nad výsledky.
  * Deterministické (žádná náhoda), aby se dalo testovat.
+ *
+ * Vychází ze SKÓRE podobnosti (vážené) + počtu společných skladeb, ne
+ * z hrubého součtu vazeb. Proč: „oba dělají rap" dá velký hrubý součet,
+ * ale slabou shodu — fráze by neměla tvrdit „dvojčata", když se jen oba
+ * pohybují v rapu. Společná skladba je naopak silný signál.
  */
-export function commonGroundVerdict(result: CommonGroundResult): string {
-  const t = result.totalShared;
-  if (t === 0) return "Žádná přímá shoda — zkus jinou dvojici.";
-  if (t === 1) return "Jedna nit, ale je.";
-  if (t <= 3) return "Pár společných bodů.";
-  if (t <= 6) return "Solidní překryv.";
-  return "Skoro dvojčata.";
+export function commonGroundVerdict(
+  result: CommonGroundResult,
+  score: number,
+  sharedTracksCount: number,
+): string {
+  if (score === 0 && sharedTracksCount === 0) {
+    return "Žádná přímá shoda — každý jede úplně jinou cestu.";
+  }
+  // Společná skladba je silnější důkaz než jakýkoliv počet žánrových shod.
+  if (sharedTracksCount > 0 && score < 25) {
+    return "Nahráli spolu, ale žánrově se rozešli.";
+  }
+  if (score < 20) return "Spíš vzdálení — jen okrajové překryvy.";
+  if (score < 40) return "Pár společných vlivů, ale každý jde vlastní cestou.";
+  if (score < 60) return "Viditelný překryv — podobná témata i zvuk.";
+  if (score < 80) return "Silný překryv, ale pořád si drží vlastní styl.";
+  return "Velmi blízcí — stejné kruhy, podobný výraz.";
 }
 
 // ═══════════════════════════════════════════════════════════════════════════

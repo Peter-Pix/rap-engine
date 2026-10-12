@@ -313,7 +313,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
                     : "společných vazeb"}
                 </div>
                 <p className="text-lg text-zinc-200 leading-snug max-w-2xl">
-                  {commonGroundVerdict(result)}
+                  {commonGroundVerdict(result, similarity?.score ?? 0, sharedTracks.length)}
                 </p>
               </div>
             </div>

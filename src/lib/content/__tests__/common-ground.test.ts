@@ -122,13 +122,21 @@ describe("computeCommonGround", () => {
 });
 
 describe("commonGroundVerdict", () => {
+  const empty = { groups: [], totalShared: 0, isEmpty: true };
+
   it("vrací text pro nula shod", () => {
-    assert.match(commonGroundVerdict({ groups: [], totalShared: 0, isEmpty: true }), /Žádná/);
+    assert.match(commonGroundVerdict(empty, 0, 0), /Žádná/);
   });
 
-  it("škádluje podle počtu shod", () => {
-    assert.match(commonGroundVerdict({ groups: [], totalShared: 1, isEmpty: false }), /Jedna/);
-    assert.match(commonGroundVerdict({ groups: [], totalShared: 10, isEmpty: false }), /dvojčata/);
+  it("střízlivě popisuje podle skóre (ne hrubého součtu)", () => {
+    assert.match(commonGroundVerdict(empty, 5, 0), /vzdálení/);
+    assert.match(commonGroundVerdict(empty, 30, 0), /vlivů/);
+    assert.match(commonGroundVerdict(empty, 50, 0), /překryv/);
+    assert.match(commonGroundVerdict(empty, 90, 0), /blízcí/);
+  });
+
+  it("společná skladba je silnější důkaz", () => {
+    assert.match(commonGroundVerdict(empty, 10, 1), /Nahráli spolu/);
   });
 });
 
