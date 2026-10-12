@@ -7,6 +7,7 @@ import {
   computeCommonGround,
   computeSharedTracks,
   computeIndirectPath,
+  computeSimilarityScore,
   commonGroundVerdict,
   trackRoleLabel,
   type CommonGroundEntity,
@@ -239,6 +240,13 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
     return computeCommonGround(a, b, resolve);
   }, [aId, bId, resolve, outbound]);
 
+  const similarity = useMemo(() => {
+    const a = asCg(aId);
+    const b = asCg(bId);
+    if (!a || !b || aId === bId) return null;
+    return computeSimilarityScore(a, b);
+  }, [aId, bId, outbound]);
+
   const sharedTracks: SharedTrack[] = useMemo(() => {
     if (!aId || !bId || aId === bId) return [];
     return computeSharedTracks(aId, bId, tracks, resolve);
@@ -293,7 +301,7 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
           {/* ── VERDIKT ──────────────────────────────────────────────────
               Bez boxu. Velké číslo + věta. Prémiový produkt stojí na
               typografii, ne na rámečcích. */}
-          <div className="pt-2">
+          <div className="pt-2 space-y-4">
             <div className="flex items-baseline gap-4">
               <span className="text-5xl font-black tabular-nums text-[var(--re-accent)] leading-none">
                 {result.totalShared + sharedTracks.length}
@@ -309,6 +317,27 @@ export default function PorovnatClient({ artists, outbound, collabOutbound, look
                 </p>
               </div>
             </div>
+
+            {/* Skóre podobnosti — vážené z žánrů/nálad/témat/stylů/labelů/scén */}
+            {similarity && similarity.score > 0 && (
+              <div className="max-w-md">
+                <div className="flex items-baseline justify-between mb-1.5">
+                  <span className="text-[11px] font-mono uppercase tracking-[0.2em] text-zinc-500">
+                    Skóre podobnosti
+                  </span>
+                  <span className="text-2xl font-black tabular-nums text-white leading-none">
+                    {similarity.score}
+                    <span className="text-sm font-mono font-normal text-zinc-500 ml-1">%</span>
+                  </span>
+                </div>
+                <div className="h-1.5 rounded-full bg-white/[0.06] overflow-hidden">
+                  <div
+                    className="h-full rounded-full bg-[var(--re-accent)] transition-[width] duration-500"
+                    style={{ width: `${similarity.score}%` }}
+                  />
+                </div>
+              </div>
+            )}
           </div>
 
           {/* ⭐ SPOLEČNÉ SKLADBY — seznam bez boxů.

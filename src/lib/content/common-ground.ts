@@ -455,3 +455,75 @@ function urlFor(entity: CommonGroundEntity): string {
   const prefix = ROUTE_PREFIX[entity.type] ?? `/${entity.type}`;
   return `${prefix}/${entity.slug}`;
 }
+
+// ═══════════════════════════════════════════════════════════════════════════
+// Skóre podobnosti (0–100 %) — vážené z přímých shod.
+//
+// Doplňuje „společných vazeb: N" o číselné skóre, které zohledňuje, JAK
+// silná je shoda (společný žánr váží víc než společná lokalita).
+// ═══════════════════════════════════════════════════════════════════════════
+
+/** Váha jednotlivých relací pro skóre podobnosti. */
+const SIMILARITY_WEIGHTS: Record<string, number> = {
+  HAS_GENRE: 3.0,
+  HAS_STYLE: 2.5,
+  HAS_MOOD: 2.0,
+  HAS_THEME: 1.5,
+  RELEASED_BY: 2.0, // společný label
+  SIGNED_TO: 2.0,
+  BELONGS_TO_SCENE: 2.0,
+  ORIGINATES_FROM: 1.0, // společné město
+};
+
+export interface SimilarityScore {
+  /** 0–100, zaokrouhlené na celé číslo. */
+  score: number;
+  /** Vážený součet (před normalizací) — pro ladění. */
+  weighted: number;
+  /** Rozpad podle relace → počet sdílených položek. */
+  breakdown: Array<{ relation: string; count: number; weight: number }>;
+}
+
+/**
+ * Vypočítá skóre podobnosti dvou entit (typicky artistů).
+ *
+ * Vážený součet sdílených vazeb, normalizovaný na 0–100. Normalizace je
+ * relativní k „bohatšímu" umělci (kdo má víc vazeb), aby dvojice, kde oba
+ * mají 100 vazeb a sdílí 50, měla vyšší skóre než dvojice, kde jeden má
+ * jen 3 a sdílí 2.
+ *
+ * @param a       entita A (s outbound)
+ * @param b       entita B (s outbound)
+ */
+export function computeSimilarityScore(
+  a: CommonGroundEntity,
+  b: CommonGroundEntity,
+): SimilarityScore {
+  let weighted = 0;
+  let maxPossible = 0;
+  const breakdown: SimilarityScore["breakdown"] = [];
+
+  for (const [relation, weight] of Object.entries(SIMILARITY_WEIGHTS)) {
+    const aIds = new Set(a.outbound?.[relation] ?? []);
+    const bIds = new Set(b.outbound?.[relation] ?? []);
+    const shared = [...aIds].filter((id) => bIds.has(id));
+    const count = shared.length;
+    if (count === 0) continue;
+    weighted += count * weight;
+    breakdown.push({ relation, count, weight });
+  }
+
+  // Max možný vážený součet = váhy × (velikost menšího z obou setů).
+  // Tím je skóre symetrické a normalizované k reálnému překryvu.
+  for (const [relation, weight] of Object.entries(SIMILARITY_WEIGHTS)) {
+    const aSize = (a.outbound?.[relation] ?? []).length;
+    const bSize = (b.outbound?.[relation] ?? []).length;
+    maxPossible += Math.min(aSize, bSize) * weight;
+  }
+
+  const score = maxPossible > 0 ? Math.round((weighted / maxPossible) * 100) : 0;
+
+  breakdown.sort((x, y) => y.count * y.weight - x.count * x.weight);
+
+  return { score, weighted, breakdown };
+}
