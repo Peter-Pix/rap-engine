@@ -29,15 +29,6 @@ code, pre, .font-mono { font-family: var(--font-mono) !important; }
 .glass-hover { transition: background 0.2s ease, border-color 0.2s ease; }
 .glass-hover:hover { background: rgba(255,255,255,0.09); border-color: rgba(255,255,255,0.14); }
 
-.entity-link { text-decoration: none; border-bottom: 1px dashed currentColor; transition: color 0.15s ease; }
-.entity-link--rapper { color: #c8962e; }
-.entity-link--rapper:hover { color: #e4a843; }
-.entity-link--album { color: #60a5fa; }
-.entity-link--album:hover { color: #93c5fd; }
-.entity-link--label { color: #a78bfa; }
-.entity-link--label:hover { color: #c4b5fd; }
-.entity-link--zanr { color: #34d399; }
-.entity-link--zanr:hover { color: #6ee7b7; }
 
 /* ── Prose overrides: white-based text, no blue/gray tint ────────── */
 .prose {

@@ -23,12 +23,25 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     extraMeta.isStub === true ||
     extraMeta.status === "draft";
 
+  // Dynamický OG obrázek — album cover + název skladby (brandovaný, 1200×630).
+  const ogImage = `https://4rap.cz/og/track/${entity.slug}`;
+
   return {
     title: `${entity.title}`,
     description: entity.description || `Skladba ${entity.title} na 4rap.cz`,
     ...(noindex ? { robots: { index: false, follow: true } } : {}),
     alternates: {
       canonical: `https://4rap.cz${TYPE_ROUTE_MAP.track}/${entity.slug}`,
+    },
+    openGraph: {
+      title: entity.title,
+      description: entity.description || undefined,
+      type: "music.song",
+      images: [{ url: ogImage, width: 1200, height: 630, alt: entity.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [ogImage],
     },
   };
 }
