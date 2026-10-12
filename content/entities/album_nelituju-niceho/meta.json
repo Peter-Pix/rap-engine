@@ -6,10 +6,13 @@
   "description": "Album Maniaka z roku 2017.",
   "publishedAt": "2017-01-01",
   "year": 2017,
-  "sourceUrls": {
-    "discogs": "https://www.discogs.com/artist/3685887"
-  },
+  "sourceUrls": [
+    "https://www.discogs.com/release/9864834"
+  ],
   "importedFrom": "discogs",
   "noindex": true,
-  "isStub": true
+  "isStub": true,
+  "extraMeta": {
+    "discogsReleaseId": 9864834
+  }
 }

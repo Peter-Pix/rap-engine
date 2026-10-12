@@ -6,10 +6,13 @@
   "description": "Debutové album Maniaka (2013) — Bigg Boss.",
   "publishedAt": "2013-01-01",
   "year": 2013,
-  "sourceUrls": {
-    "discogs": "https://www.discogs.com/artist/3685887"
-  },
+  "sourceUrls": [
+    "https://www.discogs.com/release/6133820"
+  ],
   "importedFrom": "discogs",
   "noindex": true,
-  "isStub": true
+  "isStub": true,
+  "extraMeta": {
+    "discogsReleaseId": 6133820
+  }
 }
