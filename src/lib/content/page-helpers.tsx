@@ -631,7 +631,7 @@ export async function EntityPage({
                 });
 
             // Read tracks.json only for this artist's albums.
-            const trackPreviewMap: Record<string, { preview?: string; isrc?: string }> = {};
+            const trackPreviewMap: Record<string, { deezerId?: string; isrc?: string }> = {};
             for (const albumId of artistAlbums) {
               const tracksPath = join(process.cwd(), "content/entities", albumId, "tracks.json");
               if (!existsSync(tracksPath)) continue;
@@ -643,8 +643,11 @@ export async function EntityPage({
               for (const t of (tracksData.tracks || [])) {
                 const title = t.title_original || t.title;
                 if (title) {
+                  // Deezer track ID z linku — pro preview proxy (URL v datech
+                  // expiruje, proto přehráváme přes /api/preview/{id}).
+                  const dzId = String(t.link || "").match(/track\/(\d+)/)?.[1];
                   trackPreviewMap[title.toLowerCase()] = {
-                    preview: t.preview_url,
+                    deezerId: dzId,
                     isrc: t.isrc,
                   };
                 }
@@ -667,7 +670,7 @@ export async function EntityPage({
                         <span className="text-sm text-white/85 flex-1 truncate">
                           {trackTitle}
                         </span>
-                        {track?.preview && <KeyTrackPlayer title={trackTitle} previewUrl={track.preview} id={`${id}-${i}`} />}
+                        {track?.deezerId && <KeyTrackPlayer title={trackTitle} deezerId={track.deezerId} id={`${id}-${i}`} />}
                       </li>
                     );
                   })}

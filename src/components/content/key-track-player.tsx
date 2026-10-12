@@ -4,12 +4,14 @@ import { useState, useRef } from "react";
 
 interface KeyTrackPlayerProps {
   title: string;
-  previewUrl: string;
+  /** Deezer track ID — přehráváme přes /api/preview/{id} (URL v datech expiruje). */
+  deezerId: string;
   id: string;
 }
 
-export function KeyTrackPlayer({ title, previewUrl, id }: KeyTrackPlayerProps) {
+export function KeyTrackPlayer({ title, deezerId, id }: KeyTrackPlayerProps) {
   const [playing, setPlaying] = useState(false);
+  const [loading, setLoading] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const togglePlay = () => {
@@ -18,25 +20,27 @@ export function KeyTrackPlayer({ title, previewUrl, id }: KeyTrackPlayerProps) {
     if (playing) {
       audio.pause();
       setPlaying(false);
-    } else {
-      // Pause all other audio on page
-      document.querySelectorAll("audio").forEach((a) => {
-        if (a !== audio) {
-          a.pause();
-        }
-      });
-      audio.play().catch(() => {
-        setPlaying(false);
-      });
-      setPlaying(true);
+      return;
     }
+    // Pause all other audio on page
+    document.querySelectorAll("audio").forEach((a) => {
+      if (a !== audio) a.pause();
+    });
+
+    // Deezer preview URL expiruje → vždy taháme čerstvou přes proxy.
+    setLoading(true);
+    audio.src = `/api/preview/${deezerId}`;
+    audio
+      .play()
+      .then(() => setPlaying(true))
+      .catch(() => setPlaying(false))
+      .finally(() => setLoading(false));
   };
 
   return (
     <>
       <audio
         ref={audioRef}
-        src={previewUrl}
         preload="none"
         onEnded={() => setPlaying(false)}
         onPause={() => setPlaying(false)}
@@ -44,7 +48,8 @@ export function KeyTrackPlayer({ title, previewUrl, id }: KeyTrackPlayerProps) {
       />
       <button
         onClick={togglePlay}
-        className="w-6 h-6 flex items-center justify-center rounded-full bg-[#c8962e]/20 hover:bg-[#c8962e]/40 text-[#c8962e] transition-colors flex-shrink-0"
+        disabled={loading}
+        className="w-6 h-6 flex items-center justify-center rounded-full bg-[#c8962e]/20 hover:bg-[#c8962e]/40 text-[#c8962e] transition-colors flex-shrink-0 disabled:opacity-50"
         aria-label={playing ? "Zastavit" : `Přehrát ${title}`}
         title={playing ? "Zastavit" : `Přehrát ${title}`}
       >
