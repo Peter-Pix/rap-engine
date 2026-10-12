@@ -13,10 +13,9 @@ import {
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 import { readFile } from "fs/promises";
 import { join } from "path";
-import { existsSync, readFileSync } from "fs";
+import { existsSync } from "fs";
 import { Tracklist } from "@/components/content/tracklist";
 import { UpcomingEventsForArtist } from "@/components/content/upcoming-events";
-import { KeyTrackPlayer } from "@/components/content/key-track-player";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { EntityJumpNav } from "@/components/entity/EntityJumpNav";
 import { buildJsonLd } from "@/lib/seo/schema-org";
@@ -530,154 +529,6 @@ export async function EntityPage({
               </p>
             </section>
           )}
-
-          {/* Key Albums - cover grid with year */}
-          {profile?.keyAlbums && Array.isArray(profile.keyAlbums) && (profile.keyAlbums as any[]).length > 0 && (() => {
-            const albums = (profile.keyAlbums as any[]).map((album: any) => {
-              if (typeof album === "string") return { title: album };
-              return album;
-            });
-
-            // Find cover images for each album from allEntities
-            const albumCovers: Record<string, string> = {};
-            for (const album of albums) {
-              if (!album.title) continue;
-              const albumSlug = album.title
-                .toLowerCase()
-                .normalize("NFD")
-                .replace(/[\u0300-\u036f]/g, "")
-                .replace(/[^a-z0-9]+/g, "-")
-                .replace(/^-|-$/g, "");
-              const albumSlugNoDash = albumSlug.replace(/-/g, "");
-              for (const entId of Object.keys(allEntities || {})) {
-                if (entId.startsWith("album_") && entId.includes(albumSlugNoDash)) {
-                  const meta = allEntities?.[entId] as any;
-                  if (meta?.image) {
-                    albumCovers[album.title] = meta.image;
-                    break;
-                  }
-                }
-              }
-            }
-
-            return (
-              <section>
-                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                  Klíčová alba
-                </h2>
-                <div className="grid grid-cols-2 gap-3">
-                  {albums.slice(0, 4).map((album: any, i: number) => {
-                    const cover = albumCovers[album.title];
-                    const albumSlug = (album.title || "")
-                      .toLowerCase()
-                      .normalize("NFD")
-                      .replace(/[\u0300-\u036f]/g, "")
-                      .replace(/[^a-z0-9]+/g, "-")
-                      .replace(/^-|-$/g, "");
-
-                    return (
-                      <a
-                        key={i}
-                        href={`/alba/${albumSlug}`}
-                        className="group block"
-                      >
-                        <div className="aspect-square rounded-sm overflow-hidden bg-white/[0.04] mb-2 relative">
-                          {cover ? (
-                            <img
-                              src={cover}
-                              alt={album.title}
-                              loading="lazy"
-                              decoding="async"
-                              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                            />
-                          ) : (
-                            <div className="w-full h-full flex items-center justify-center text-xs text-white/20 font-mono uppercase">
-                              {album.year || "—"}
-                            </div>
-                          )}
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                        </div>
-                        <div className="text-xs font-semibold text-white truncate">
-                          {album.title}
-                        </div>
-                        {album.year && (
-                          <div className="text-[11px] font-mono text-white/40 mt-0.5">
-                            {album.year}
-                          </div>
-                        )}
-                      </a>
-                    );
-                  })}
-                </div>
-              </section>
-            );
-          })()}
-
-          {/* Key Tracks - interactive list with preview */}
-          {profile?.keyTracks && Array.isArray(profile.keyTracks) && (profile.keyTracks as string[]).length > 0 && (() => {
-            // Find artist albums from relations FIRST (před čtením z disku).
-            // Původní kód četl tracks.json pro VŠECH 604 alb synchronně
-            // (existsSync + readFileSync + JSON.parse) na každé artist stránce —
-            // to byl bottleneck obřích stránek (Yzomandias 271 tracků) a příčina
-            // build timeout/OOM. Teď čteme jen alba daného artisty. (11. 10. 2026)
-            const artistId = id; // current entity id
-            const relatedAlbums = (entity.outbound?.ALBUMS || []) as string[];
-            const artistAlbums = relatedAlbums.length > 0
-              ? relatedAlbums
-              : Object.keys(allEntities || {}).filter((eid) => {
-                  if (!eid.startsWith("album_")) return false;
-                  const meta = allEntities?.[eid] as any;
-                  return (meta?.outbound?.ARTISTS || []).includes(artistId);
-                });
-
-            // Read tracks.json only for this artist's albums.
-            const trackPreviewMap: Record<string, { deezerId?: string; isrc?: string }> = {};
-            for (const albumId of artistAlbums) {
-              const tracksPath = join(process.cwd(), "content/entities", albumId, "tracks.json");
-              if (!existsSync(tracksPath)) continue;
-              let tracksData: any = null;
-              try {
-                tracksData = JSON.parse(readFileSync(tracksPath, "utf-8"));
-              } catch {}
-              if (!tracksData) continue;
-              for (const t of (tracksData.tracks || [])) {
-                const title = t.title_original || t.title;
-                if (title) {
-                  // Deezer track ID z linku — pro preview proxy (URL v datech
-                  // expiruje, proto přehráváme přes /api/preview/{id}).
-                  const dzId = String(t.link || "").match(/track\/(\d+)/)?.[1];
-                  trackPreviewMap[title.toLowerCase()] = {
-                    deezerId: dzId,
-                    isrc: t.isrc,
-                  };
-                }
-              }
-            }
-
-            return (
-              <section>
-                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                  Klíčové tracky
-                </h2>
-                <ol className="space-y-1">
-                  {(profile.keyTracks as string[]).slice(0, 6).map((trackTitle: string, i: number) => {
-                    const track = trackPreviewMap[trackTitle.toLowerCase()];
-                    return (
-                      <li key={i} className="flex items-center gap-3 py-1.5 group">
-                        <span className="text-[11px] font-mono text-white/30 w-5 tabular-nums">
-                          {String(i + 1).padStart(2, "0")}
-                        </span>
-                        <span className="text-sm text-white/85 flex-1 truncate">
-                          {trackTitle}
-                        </span>
-                        {track?.deezerId && <KeyTrackPlayer title={trackTitle} deezerId={track.deezerId} id={`${id}-${i}`} />}
-                      </li>
-                    );
-                  })}
-                </ol>
-              </section>
-            );
-          })()}
 
           {/* Graph stats */}
           <section>
