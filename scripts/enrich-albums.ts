@@ -161,18 +161,17 @@ function mdxFor(album: Ent, s: AlbumStats): string {
     m += `**${album.title}** je album s **${s.tracks.length} skladbami**.\n\n`;
   }
 
-  // ── Tracklist (hosté označeni — reálná vazba na jiného interpreta)
-  const guestSet = new Set(s.featTracks);
-  m += `## Skladby na albu\n\n`;
-  for (const t of s.tracks) {
-    const te = ents[t];
-    const isGuest = guestSet.has(t);
-    const guestName = isGuest
-      ? (outIdx.get(t) ?? []).find((x) => x.relation === "HAS_ARTIST" && x.to !== s.mainArtist)?.to
-      : null;
-    m += `- [${te.title}](${routeOf(t)})${guestName ? ` — host [${titleOf(guestName)}](${routeOf(guestName)})` : ""}\n`;
+  // ── Seznam skladeb se NEgeneruje do MDX — vykresluje ho interaktivní
+  //    komponenta <Tracklist> (pořadí, délka, přehrávání, proklik).
+  //    MDX nese pouze editoriální text (kontext, témata, nálady).
+
+  // ── Hosté (feat) — editoriální hodnota místo seznamu skladeb
+  if (featArtists.length > 0) {
+    m += `## Hosté\n\n`;
+    m += `Na albu hostují: ${featArtists.slice(0, 12).map((a) => `[${titleOf(a)}](${routeOf(a)})`).join(", ")}`;
+    if (featArtists.length > 12) m += ` a další`;
+    m += `.\n\n`;
   }
-  m += `\n`;
 
   // ── Témata a nálady (JEN odkazovatelné entity z grafu!)
   // Volný text z RM (extraMeta.themes) se nepoužívá — nemá mapování na naše entity.
@@ -186,15 +185,8 @@ function mdxFor(album: Ent, s: AlbumStats): string {
     }
   }
 
-  // ── Ukázkové skladby s obsahem
-  const sample = s.richTracks.slice(0, 4);
-  if (sample.length > 0) {
-    m += `## Kde začít\n\n`;
-    for (const t of sample) {
-      m += `- [${titleOf(t)}](${routeOf(t)})\n`;
-    }
-    m += `\n`;
-  }
+  // ── "Kde začít" se rovněž negeneruje — seznam skladeb je jen jeden
+  //    (komponenta <Tracklist>), aby se tracky nezobrazovaly dvakrát.
 
   return m.trim();
 }
