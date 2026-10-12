@@ -364,7 +364,8 @@ export async function EntityPage({
       )}
 
       {/* ═══════════════════════════════════════════════════════════════
-         PULL QUOTE + DESCRIPTION
+         PULL QUOTE + DESCRIPTION (redakční souhrn — vizuálně oddělený
+         od strukturovaných faktů v Info kartě; není to ověřený fakt)
          ═══════════════════════════════════════════════════════════════ */}
       {(entity.description || profile?.oneLiner) && (
         <div className="px-8 sm:px-12 pt-8 pb-8">
@@ -374,10 +375,31 @@ export async function EntityPage({
             </p>
           )}
           {entity.description && (
-            <p className="text-base sm:text-lg text-white/70 leading-relaxed max-w-3xl">
-              {entity.description}
-            </p>
+            <div>
+              <p className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35 mb-2">
+                Souhrn
+              </p>
+              <p className="text-base sm:text-lg text-white/70 leading-relaxed max-w-3xl">
+                {entity.description}
+              </p>
+            </div>
           )}
+        </div>
+      )}
+
+      {/* ═══════════════════════════════════════════════════════════════
+         POZNÁMKA / KONTEXT — doplňující redakční text (není ověřený fakt)
+         ═══════════════════════════════════════════════════════════════ */}
+      {em.note && (
+        <div className="px-8 sm:px-12 pb-8">
+          <div className="border-l-2 border-[#c8962e]/40 pl-4 py-1">
+            <p className="text-[11px] font-mono uppercase tracking-[0.25em] text-[#c8962e]/70 mb-2">
+              Kontext
+            </p>
+            <p className="text-sm text-white/55 leading-relaxed max-w-3xl">
+              {em.note as string}
+            </p>
+          </div>
         </div>
       )}
 
