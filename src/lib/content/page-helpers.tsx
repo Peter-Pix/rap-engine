@@ -226,6 +226,21 @@ export async function EntityPage({
     }
   }
 
+  // ── Diskografie (chronologie alb) ─────────────────────────────────
+  // Seřadí alba interpreta podle roku sestupně. Data z cache (bez disk I/O).
+  const discography: Array<{ id: string; title: string; slug: string; year: number | null }> =
+    entity.type === "artist"
+      ? (entity.outbound?.HAS_ALBUM || [])
+          .map((aid) => {
+            const e = allEntities?.[aid] as any;
+            if (!e) return null;
+            const year = typeof e?.extraMeta?.year === "number" ? e.extraMeta.year : null;
+            return { id: aid, title: e.title, slug: e.slug, year };
+          })
+          .filter((x): x is { id: string; title: string; slug: string; year: number | null } => x !== null)
+          .sort((a, b) => (b.year ?? -Infinity) - (a.year ?? -Infinity))
+      : [];
+
   // ── Stats ────────────────────────────────────────────────────────────
   const inboundIds = readInboundFor(id);
   const totalEdges = entity.outbound
@@ -442,6 +457,33 @@ export async function EntityPage({
           {/* Tracklist for albums (from Deezer) — jediný seznam skladeb */}
           {tracklistData && (
             <Tracklist data={tracklistData} albumSlug={entity.slug} trackRoutes={trackRoutes} />
+          )}
+
+          {/* Diskografie — chronologie alb interpreta (rok sestupně) */}
+          {entity.type === "artist" && discography.length > 0 && (
+            <section data-jump-section data-jump-label="Diskografie">
+              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-5">
+                Diskografie
+              </h2>
+              <ol className="relative border-l border-white/10 ml-2">
+                {discography.map((al, i) => (
+                  <li key={al.id} className="relative pl-6 pb-5 last:pb-0">
+                    <span className="absolute left-[-5px] top-1.5 w-2 h-2 rounded-full bg-[#c8962e]/70" />
+                    <div className="flex items-baseline gap-3">
+                      <span className="text-[11px] font-mono text-white/35 tabular-nums w-12 flex-shrink-0">
+                        {al.year ?? "—"}
+                      </span>
+                      <a
+                        href={`/alba/${al.slug}`}
+                        className="text-sm text-white/75 hover:text-[#c8962e] transition-colors"
+                      >
+                        {al.title}
+                      </a>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </section>
           )}
 
           {/* Upcoming events for artists (from 44rap) */}
