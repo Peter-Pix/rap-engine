@@ -24,6 +24,11 @@ MERGES = [
     ("genre_newschool-rap", "genre_new-school"),
     ("genre_trueschool-rap", "genre_old-school-rap"),
     ("theme_introspection", "theme_self-reflection"),
+    # Sémanticky jednoznačné duplicity (stejný koncept, jiné slovo)
+    ("genre_alternative-hip-hop", "genre_alternative-rap"),
+    ("genre_experimental-hip-hop", "genre_experimental-rap"),
+    ("genre_underground-hip-hop", "genre_underground-rap"),
+    ("genre_alternative", "genre_alternative-rap"),  # stub
 ]
 
 os.makedirs(TRASH, exist_ok=True)
