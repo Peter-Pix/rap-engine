@@ -50,7 +50,52 @@ function formatTotalDuration(sec: number): string {
   return `${m} min`;
 }
 
+
+/** Normalizace tracklistu z různých zdrojů (Deezer / Discogs / Wikipedia).
+ *  Discogs: {title, position, duration:"3:45"}, bez feat/artists/duration_sec.
+ *  Deezer:  {title, duration_sec, artists, feat, preview_url, ...}. */
+function normalizeTracklist(data: any): TracklistData {
+  const raw: any[] = Array.isArray(data?.tracks) ? data.tracks : [];
+  const tracks: Track[] = raw.map((t, i) => {
+    // duration: "3:45" → 225 s | číslo = sekundy
+    let dur = 0;
+    if (typeof t?.duration_sec === "number") dur = t.duration_sec;
+    else if (typeof t?.duration === "number") dur = t.duration;
+    else if (typeof t?.duration === "string" && t.duration.includes(":")) {
+      const p = t.duration.split(":").map((x: string) => parseInt(x, 10) || 0);
+      dur = p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : (p[0] || 0) * 60 + (p[1] || 0);
+    }
+    return {
+      position: typeof t?.position === "number" ? t.position : (parseInt(t?.position, 10) || i + 1),
+      title: String(t?.title ?? "—"),
+      title_original: t?.title_original,
+      duration_sec: dur,
+      artists: Array.isArray(t?.artists) ? t.artists : [],
+      feat: Array.isArray(t?.feat) ? t.feat : [],
+      isrc: t?.isrc ?? null,
+      link: t?.link,
+      preview_url: t?.preview_url ?? null,
+      explicit: t?.explicit,
+    };
+  });
+  const totalDur = tracks.reduce((a, t) => a + (t.duration_sec || 0), 0);
+  return {
+    source: String(data?.source ?? "unknown"),
+    source_id: Number(data?.source_id ?? data?.sourceId ?? 0),
+    release_date: String(data?.release_date ?? ""),
+    label: data?.label ?? null,
+    upc: data?.upc ?? null,
+    total_tracks: typeof data?.total_tracks === "number" ? data.total_tracks : tracks.length,
+    total_duration_sec: typeof data?.total_duration_sec === "number" ? data.total_duration_sec : totalDur,
+    cover_xl: data?.cover_xl ?? null,
+    contributors: data?.contributors,
+    genres: data?.genres,
+    tracks,
+  };
+}
+
 export function Tracklist({ data, albumSlug, trackRoutes = {} }: TracklistProps) {
+  const d = normalizeTracklist(data);
   const [playingIdx, setPlayingIdx] = useState<number | null>(null);
   const [loadingIdx, setLoadingIdx] = useState<number | null>(null);
   const [progress, setProgress] = useState(0);
@@ -92,7 +137,7 @@ export function Tracklist({ data, albumSlug, trackRoutes = {} }: TracklistProps)
   const playTrack = useCallback(
     (idx: number) => {
       const audio = audioRef.current;
-      const track = data.tracks[idx];
+      const track = d.tracks[idx];
       if (!audio || !track) return;
 
       if (playingIdx === idx) {
@@ -119,7 +164,7 @@ export function Tracklist({ data, albumSlug, trackRoutes = {} }: TracklistProps)
           setPlayingIdx(null);
         });
     },
-    [data.tracks, playingIdx, stop],
+    [d.tracks, playingIdx, stop],
   );
 
   return (
@@ -128,16 +173,16 @@ export function Tracklist({ data, albumSlug, trackRoutes = {} }: TracklistProps)
 
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40">
-          Tracklist · {data.total_tracks} skladeb · {formatTotalDuration(data.total_duration_sec)}
+          Tracklist · {d.total_tracks} skladeb · {formatTotalDuration(d.total_duration_sec)}
         </h2>
         <div className="flex items-center gap-3 text-[11px] font-mono uppercase tracking-[0.15em] text-white/30">
-          {data.release_date && <span>{data.release_date}</span>}
-          {data.label && <span>· {data.label.split(" ").slice(0, 2).join(" ")}</span>}
+          {d.release_date && <span>{d.release_date}</span>}
+          {d.label && <span>· {d.label.split(" ").slice(0, 2).join(" ")}</span>}
         </div>
       </div>
 
       <ol className="divide-y divide-white/5 border-y border-white/5">
-        {data.tracks.map((t, idx) => {
+        {d.tracks.map((t, idx) => {
           const isPlaying = playingIdx === idx;
           const isLoading = loadingIdx === idx;
           const hasDeezer = !!extractDeezerTrackId(t.link);
@@ -246,7 +291,7 @@ export function Tracklist({ data, albumSlug, trackRoutes = {} }: TracklistProps)
 
       <div className="mt-4 flex items-center justify-between text-[11px] font-mono text-white/30">
         <span>Data: Deezer</span>
-        {data.upc && <span>UPC: {data.upc}</span>}
+        {d.upc && <span>UPC: {d.upc}</span>}
       </div>
     </section>
   );
