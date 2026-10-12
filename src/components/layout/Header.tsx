@@ -38,7 +38,6 @@ const NAV_GROUPS: { title: string; items: { label: string; href: string }[] }[] 
   {
     title: "Lidé a scéna",
     items: [
-      { label: "Autoři", href: "/autori" },
       { label: "Producenti", href: "/producenti" },
       { label: "Kolektivy", href: "/kolektivy" },
       { label: "Labely", href: "/labely" },
