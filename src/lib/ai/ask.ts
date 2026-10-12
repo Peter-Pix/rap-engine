@@ -17,7 +17,7 @@ import {
   buildResolverIndex, resolveEntities,
   type ResolverIndex,
 } from "./entity-resolver";
-import { buildGraphIndex, buildGrounding, entityUrl, type GraphIndex } from "./grounding";
+import { buildGraphIndex, buildGrounding, computeGlobalStats, entityUrl, type GraphIndex } from "./grounding";
 import { validateAnswer } from "./validate";
 import type { AskResult, GateResult, ResolvedEntity } from "./types";
 
@@ -119,9 +119,22 @@ export async function ask(question: string, opts: AskOptions = {}): Promise<AskR
   // 2) Grounding — whitelistovaný kontext
   const ctx = buildGrounding(entities, graph, focus, { maxNeighbors: 50, contentChars: 1400 });
 
+  // Globální agregace ("kdo má nejvíc tracků", "nejstarší album") — vždy
+  // dostupné, ať už dotaz míří na konkrétní entitu nebo ne.
+  const globalStats = computeGlobalStats(entities, graph);
+  // Rozšiř focus o entity zmíněné v globálních statistikách, aby validace
+  // neshodila odpovědi na agregované dotazy ("Yzomandias má nejvíc tracků").
+  for (const id of globalStats.mentionedIds) {
+    if (!focus.some((f) => f.id === id)) {
+      const e = entities[id];
+      if (e) focus.push({ id, type: e.type, slug: e.slug, title: e.title, score: 50, via: "partial" });
+    }
+  }
+
   // Pokud dotaz míří na entitu, kterou nemáme (žádný focus), a dotaz
   // obsahuje "kolik/o kom" → tvrdé odmítnutí bez LLM.
-  const userPrompt = buildUserPrompt(question, ctx.text, ctx.edges, ctx.computed);
+  const computedWithGlobal = [ctx.computed, globalStats.text].filter(Boolean).join("\n\n");
+  const userPrompt = buildUserPrompt(question, ctx.text, ctx.edges, computedWithGlobal);
   let answer = "";
   let attempts = 0;
   let attempt = 0;

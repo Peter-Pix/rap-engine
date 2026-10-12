@@ -211,3 +211,86 @@ export function buildGrounding(
     allowedUrls,
   };
 }
+
+// ═══════════════════════════════════════════════════════════════════════════
+// GLOBÁLNÍ STATISTIKY — pro agregované dotazy ("kdo má nejvíc tracků", ...)
+//
+// Deterministicky spočítané z grafu + entit. LLM je jen zopakuje, takže
+// agregované číselné dotazy nehalucinují. Vrací kompaktní text pro DATA sekci.
+// ═══════════════════════════════════════════════════════════════════════════
+
+function topN(
+  counts: Map<string, number>,
+  entities: CacheEntities,
+  n: number,
+): { text: string; ids: string[] } {
+  const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  if (!sorted.length) return { text: "žádná data", ids: [] };
+  const top = sorted.slice(0, n);
+  return {
+    text: top.map(([id, c]) => `${entities[id]?.title ?? id} (${c})`).join(", "),
+    ids: top.map(([id]) => id),
+  };
+}
+
+export interface GlobalStats {
+  text: string;
+  mentionedIds: string[];
+}
+
+export function computeGlobalStats(
+  entities: CacheEntities,
+  gi: GraphIndex,
+): GlobalStats {
+  const trackCountByArtist = new Map<string, number>();
+  const albumCountByArtist = new Map<string, number>();
+
+  // Počty: HAS_ARTIST (track→artist), HAS_ALBUM (artist→album)
+  for (const id of Object.keys(entities)) {
+    const type = entities[id]?.type;
+    if (type === "artist") {
+      // alba přes out HAS_ALBUM
+      const hasAlbum = (gi.out.get(id) ?? []).filter((e) => e.relation === "HAS_ALBUM");
+      albumCountByArtist.set(id, hasAlbum.length);
+      // tracky přes in HAS_ARTIST
+      const hasArtist = (gi.in.get(id) ?? []).filter((e) => e.relation === "HAS_ARTIST");
+      trackCountByArtist.set(id, hasArtist.length);
+    }
+  }
+
+  // Nejstarší / nejnovější album + track (podle publishedAt)
+  let oldestAlbum: { id: string; d: string } | null = null;
+  let newestAlbum: { id: string; d: string } | null = null;
+  let oldestTrack: { id: string; d: string } | null = null;
+  for (const id of Object.keys(entities)) {
+    const e = entities[id];
+    const d = e?.publishedAt;
+    if (!d) continue;
+    if (e.type === "album") {
+      if (!oldestAlbum || d < oldestAlbum.d) oldestAlbum = { id, d };
+      if (!newestAlbum || d > newestAlbum.d) newestAlbum = { id, d };
+    } else if (e.type === "track") {
+      if (!oldestTrack || d < oldestTrack.d) oldestTrack = { id, d };
+    }
+  }
+
+  const topTracks = topN(trackCountByArtist, entities, 10);
+  const topAlbums = topN(albumCountByArtist, entities, 10);
+
+  const lines: string[] = [];
+  lines.push(`Interpreti s nejvíce skladbami: ${topTracks.text}.`);
+  lines.push(`Interpreti s nejvíce alby: ${topAlbums.text}.`);
+  if (oldestAlbum) lines.push(`Nejstarší album v DB: ${entities[oldestAlbum.id]?.title} (${oldestAlbum.d}).`);
+  if (newestAlbum) lines.push(`Nejnovější album v DB: ${entities[newestAlbum.id]?.title} (${newestAlbum.d}).`);
+  if (oldestTrack) lines.push(`Nejstarší skladba v DB: ${entities[oldestTrack.id]?.title} (${oldestTrack.d}).`);
+
+  const mentionedIds = new Set<string>([
+    ...topTracks.ids,
+    ...topAlbums.ids,
+  ]);
+  if (oldestAlbum) mentionedIds.add(oldestAlbum.id);
+  if (newestAlbum) mentionedIds.add(newestAlbum.id);
+  if (oldestTrack) mentionedIds.add(oldestTrack.id);
+
+  return { text: lines.join("\n"), mentionedIds: [...mentionedIds] };
+}

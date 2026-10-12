@@ -28,12 +28,14 @@ interface Turn {
 }
 
 const SUGGESTIONS: { label: string; icon: string }[] = [
+  { label: "Kdo má nejvíc skladeb v databázi?", icon: "🏆" },
+  { label: "Kdo má nejvíc alb?", icon: "💿" },
+  { label: "Jaké je nejstarší album v databázi?", icon: "🕰️" },
+  { label: "Jaké je nejnovější album?", icon: "✨" },
+  { label: "Jaká je nejstarší skladba v databázi?", icon: "🎵" },
   { label: "S kým nejčastěji spolupracoval Yzomandias?", icon: "🤝" },
-  { label: "Kolik skladeb má Viktor Sheen?", icon: "🎵" },
   { label: "Jaké žánry dělá Calin?", icon: "🎚️" },
   { label: "Odkud je Paulie Garand?", icon: "📍" },
-  { label: "Kdo produkoval tracky 7krát3?", icon: "🎛️" },
-  { label: "Kolik má ADiss alb?", icon: "💿" },
 ];
 
 function IconSpark({ className = "w-4 h-4" }: { className?: string }) {
