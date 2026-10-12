@@ -591,6 +591,19 @@ export async function EntityPage({
             </section>
           )}
 
+          {/* ── Cesta v grafu (CTA) ─────────────────────────────────── */}
+          {entity.type === "artist" && (
+            <section>
+              <a
+                href={`/cesta?from=${encodeURIComponent(id)}`}
+                className="inline-flex items-center gap-2 text-sm text-[#c8962e] hover:text-[#d8a53a] transition-colors"
+              >
+                <span className="text-base leading-none">⌁</span>
+                Najdi cestu k jinému rapperovi →
+              </a>
+            </section>
+          )}
+
           {/* ── Related Entities ──────────────────────────────────────── */}
           {related.length > 0 && (
             <section data-jump-section data-jump-label="Související">

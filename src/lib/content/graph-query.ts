@@ -753,3 +753,151 @@ function ratio(shared: number, sourceTotal: number): number {
   if (sourceTotal === 0) return 0;
   return shared / sourceTotal;
 }
+
+// ─── Shortest path (BFS) ──────────────────────────────────────────────────
+
+/** Jeden krok cesty: uzel + jakým vztahem jsme se do něj dostali. */
+export interface PathStep {
+  id: string;
+  type: string;
+  slug: string;
+  title: string;
+  /** Český popisek vztahu z předchozího uzlu do tohoto (směr). */
+  relationLabel: string;
+  /** Surový edge type (např. FEATURES, PRODUCED_BY). */
+  relation: string;
+}
+
+export interface ShortestPathResult {
+  /** Nalezena cesta? */
+  found: boolean;
+  /** Vzdálenost v hranách (0 = stejný uzel). */
+  distance: number;
+  /** Uzly cesty (včetně start i cíl), délka = distance + 1. */
+  steps: PathStep[];
+  /** Kolik uzlů BFS prošel (pro debug / "žádná cesta" hlášku). */
+  explored: number;
+}
+
+/**
+ * Lidský český popisek hrany v daném směru (from → to).
+ * Zpětná hrana (to → from) se čte "opačně".
+ */
+function edgeLabelDirected(edgeType: string, forward: boolean): string {
+  const labels: Record<string, { fwd: string; rev: string }> = {
+    FEATURES: { fwd: "featuje", rev: "featuje ho" },
+    PRODUCED_BY: { fwd: "produkoval", rev: "produkoval ho" },
+    HAS_ARTIST: { fwd: "nazpíval", rev: "je na tracku" },
+    BELONGS_TO_ALBUM: { fwd: "je na albu", rev: "obsahuje" },
+    HAS_ALBUM: { fwd: "vydal album", rev: "album od" },
+    RELATED_ARTIST: { fwd: "spolupracuje s", rev: "spolupracuje s" },
+    RELATED_TO: { fwd: "souvisí s", rev: "souvisí s" },
+    RELEASED_BY: { fwd: "vydáno na", rev: "vydal" },
+    SIGNED_TO: { fwd: "podepsán na", rev: "label má" },
+    HAS_GENRE: { fwd: "dělá žánr", rev: "žánr od" },
+    HAS_STYLE: { fwd: "má styl", rev: "styl od" },
+    HAS_THEME: { fwd: "řeší téma", rev: "téma od" },
+    HAS_MOOD: { fwd: "má náladu", rev: "nálada od" },
+    ORIGINATES_FROM: { fwd: "pochází z", rev: "místo má" },
+    BELONGS_TO_SCENE: { fwd: "patří do scény", rev: "scéna má" },
+    PART_OF: { fwd: "je součástí", rev: "obsahuje" },
+    MEMBER_OF: { fwd: "je členem", rev: "má člena" },
+    INFLUENCED_BY: { fwd: "ovlivněn", rev: "ovlivnil" },
+  };
+  const l = labels[edgeType];
+  if (!l) return edgeLabel(edgeType);
+  return forward ? l.fwd : l.rev;
+}
+
+/**
+ * Najde nejkratší cestu mezi dvěma entitami v grafu (obousměrný BFS).
+ * Vrací cestu jako řetězec uzlů + popisky vztahů.
+ */
+export function findShortestPath(
+  fromId: string,
+  toId: string,
+): ShortestPathResult {
+  if (fromId === toId) {
+    const e = resolveDisplay(fromId);
+    return {
+      found: true,
+      distance: 0,
+      steps: e ? [{ ...e, relationLabel: "tentýž", relation: "SELF" }] : [],
+      explored: 0,
+    };
+  }
+
+  // Tři úrovně "smysluplnosti" hran — nejdřív konkrétní lidské vazby,
+  // teprve když žádná neexistuje, přidáme obecnější (žánr/místo/...).
+  // Cílem je vrátit NEJSMYSLUPLNĚJŠÍ cestu, ne jen nejkratší v hranách.
+  const levels: string[][] = [
+    // 1) konkrétní vazby mezi lidmi
+    ["FEATURES", "PRODUCED_BY", "RELATED_ARTIST", "MEMBER_OF"],
+    // 2) přes track / album / label / skupinu
+    ["HAS_ARTIST", "BELONGS_TO_ALBUM", "HAS_ALBUM", "HAS_TRACK", "RELEASED_BY", "PART_OF", "BELONGS_TO_SCENE"],
+    // 3) vše (žánr / styl / téma / nálada / místo)
+    ["HAS_GENRE", "HAS_STYLE", "HAS_THEME", "HAS_MOOD", "ORIGINATES_FROM", "RELATED_TO", "INFLUENCED_BY", "SIGNED_TO"],
+  ];
+
+  const src = buildSourceIndex();
+  const tgt = buildTargetIndex();
+
+  let explored = 0;
+
+  for (let li = 0; li < levels.length; li++) {
+    const allowed = new Set<string>(levels.slice(0, li + 1).flat());
+
+    const prev = new Map<string, { from: string; relation: string; forward: boolean }>();
+    const queue: string[] = [fromId];
+    const visited = new Set<string>([fromId]);
+
+    while (queue.length > 0) {
+      const cur = queue.shift()!;
+      explored++;
+      if (explored > 60000) break;
+
+      const out = src.get(cur) ?? [];
+      const inc = tgt.get(cur) ?? [];
+
+      const neighbors: Array<{ to: string; relation: string; forward: boolean }> = [
+        ...out.map((e) => ({ to: e.to, relation: e.relation, forward: true })),
+        ...inc.map((e) => ({ to: e.from, relation: e.relation, forward: false })),
+      ];
+
+      for (const nb of neighbors) {
+        if (!allowed.has(nb.relation)) continue;
+        if (visited.has(nb.to)) continue;
+        visited.add(nb.to);
+        prev.set(nb.to, { from: cur, relation: nb.relation, forward: nb.forward });
+
+        if (nb.to === toId) {
+          const path: Array<{ id: string; relation: string; forward: boolean }> = [];
+          let node = toId;
+          while (node !== fromId) {
+            const pr = prev.get(node);
+            if (!pr) break;
+            path.unshift({ id: node, relation: pr.relation, forward: pr.forward });
+            node = pr.from;
+          }
+          const steps: PathStep[] = [];
+          const s0 = resolveDisplay(fromId);
+          if (s0) steps.push({ ...s0, relationLabel: "", relation: "START" });
+          for (const st of path) {
+            const d = resolveDisplay(st.id);
+            if (d) {
+              steps.push({
+                ...d,
+                relationLabel: edgeLabelDirected(st.relation, st.forward),
+                relation: st.relation,
+              });
+            }
+          }
+          return { found: true, distance: path.length, steps, explored };
+        }
+        queue.push(nb.to);
+      }
+    }
+  }
+
+  return { found: false, distance: -1, steps: [], explored };
+}
