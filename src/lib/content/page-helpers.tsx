@@ -26,6 +26,56 @@ import { buildJsonLd } from "@/lib/seo/schema-org";
 /** Canonical site base URL — použito v JSON-LD @id a OG URL. */
 const BASE_URL = "https://4rap.cz";
 
+// ─── Helpers: formátování faktů a zdrojů ────────────────────────────────
+
+/** "1985-12-04" → "4. prosince 1985" (nebo původní string, když není ISO datum). */
+function formatDate(value: string | undefined): string | null {
+  if (!value) return null;
+  const m = String(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!m) return String(value);
+  const y = m[1], mo = m[2], d = m[3];
+  const months = [
+    "ledna", "února", "března", "dubna", "května", "června",
+    "července", "srpna", "září", "října", "listopadu", "prosince",
+  ];
+  const mi = parseInt(mo, 10) - 1;
+  if (mi < 0 || mi > 11) return `${d}.${mo}.${y}`;
+  return `${parseInt(d, 10)}. ${months[mi]} ${y}`;
+}
+
+/** Sjednotí zdroje ze 3 formátů (sourceUrls list / dict / extraMeta.sourceUrl)
+ *  na plochý seznam URL + lidský popisek typu zdroje. */
+function extractSources(extraMeta: Record<string, any> | undefined): { url: string; label: string }[] {
+  if (!extraMeta) return [];
+  const out: { url: string; label: string }[] = [];
+  const push = (u: unknown) => {
+    if (typeof u !== "string" || !u.startsWith("http")) return;
+    const url = u;
+    let label = "Zdroj";
+    if (url.includes("discogs.com")) label = "Discogs";
+    else if (url.includes("deezer.com")) label = "Deezer";
+    else if (url.includes("wikipedia.org")) label = "Wikipedia";
+    else if (url.includes("musicbrainz.org")) label = "MusicBrainz";
+    else if (url.includes("wikidata.org")) label = "Wikidata";
+    out.push({ url, label });
+  };
+  // top-level sourceUrls / sourceUrl / source
+  for (const key of ["sourceUrls", "sourceUrl", "sources", "source"]) {
+    const v = (extraMeta as any)[key];
+    if (Array.isArray(v)) v.forEach(push);
+    else if (v && typeof v === "object") Object.values(v).forEach(push);
+    else push(v);
+  }
+  // dedup podle URL
+  const seen = new Set<string>();
+  return out.filter((x) => {
+    if (seen.has(x.url)) return false;
+    seen.add(x.url);
+    return true;
+  });
+}
+
+
 // ─── Types ────────────────────────────────────────────────────────────────
 
 interface ResolvedTarget {
@@ -543,12 +593,56 @@ export async function EntityPage({
                 {em.birthDate && (
                   <div className="flex justify-between gap-4">
                     <dt className="text-white/40">Narození</dt>
-                    <dd className="text-white/75 text-right">{em.birthDate as string}</dd>
+                    <dd className="text-white/75 text-right">{formatDate(em.birthDate) as string}</dd>
+                  </div>
+                )}
+                {em.city && em.city !== em.origin && (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-white/40">Město</dt>
+                    <dd className="text-white/75 text-right">{em.city as string}</dd>
+                  </div>
+                )}
+                {em.occupation && (Array.isArray(em.occupation) ? (em.occupation as string[]).length > 0 : true) && (
+                  <div className="flex justify-between gap-4">
+                    <dt className="text-white/40">Role</dt>
+                    <dd className="text-white/75 text-right">
+                      {(Array.isArray(em.occupation) ? em.occupation : [em.occupation]).join(", ")}
+                    </dd>
                   </div>
                 )}
               </dl>
             </section>
           ) : null}
+
+          {/* Zdroje — ověřitelné odkazy (Wikipedia / Discogs / Deezer / MusicBrainz) */}
+          {(() => {
+            const srcs = extractSources(em);
+            if (srcs.length === 0) return null;
+            return (
+              <section data-jump-section data-jump-label="Zdroje">
+                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
+                  Zdroje
+                </h2>
+                <ul className="space-y-1.5 text-sm">
+                  {srcs.map((s, i) => (
+                    <li key={i}>
+                      <a
+                        href={s.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-white/60 hover:text-[#c8962e] transition-colors"
+                      >
+                        <span className="text-[10px] font-mono uppercase tracking-wider text-white/35 border border-white/10 rounded px-1 py-0.5">
+                          {s.label}
+                        </span>
+                        <span className="truncate max-w-[200px]">{s.url.replace(/^https?:\/\//, "").replace(/\/$/, "")}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            );
+          })()}
 
           {/* Style tags */}
           {profile?.styleTags && Array.isArray(profile.styleTags) && (profile.styleTags as string[]).length > 0 && (
