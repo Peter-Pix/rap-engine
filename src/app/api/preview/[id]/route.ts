@@ -3,10 +3,11 @@ import { NextResponse } from "next/server";
 /**
  * Deezer preview proxy — vrací ČERSTVOU 30s ukázku.
  *
- * Proč proxy: Deezer preview URL jsou podepsané (hdnea token) a po ~pár
- * dnech expirují → přímé <audio src> z databáze vrací 403. Tento endpoint
- * při každém požadavku dotáhne aktuální podepsanou URL z Deezer API
- * a přesměruje na ni (302). Klient tak vždy přehraje funkční ukázku.
+ * Proč proxy: Deezer preview URL jsou podepsané (hdnea token) a expirují
+ * za ~15–30 MINUT (ověřeno 12. 10. 2026 — token vypršel po 3 min!) →
+ * přímé <audio src> z databáze vrací 403. Tento endpoint při každém
+ * požadavku dotáhne čerstvou podepsanou URL z Deezer API a přesměruje
+ * (302). Klient tak vždy přehraje funkční ukázku.
  *
  * Bezpečnost: povolujeme jen číselné Deezer track ID → žádné SSRF.
  */
@@ -14,8 +15,8 @@ import { NextResponse } from "next/server";
 const DEEZER_API = "https://api.deezer.com/track/";
 
 export const runtime = "edge";
-// Cache 6 h — token vydrží déle, ale šetříme API volání.
-export const revalidate = 21600;
+// ŽÁDNÁ cache — token expiruje za ~15–30 min, takže redirect URL nesmí
+// být cachovaná (jinak by klient přehrál expirovaný 403).
 
 export async function GET(
   _req: Request,
@@ -30,7 +31,7 @@ export async function GET(
   try {
     const res = await fetch(`${DEEZER_API}${id}`, {
       headers: { "User-Agent": "4rap.cz/1.0" },
-      next: { revalidate: 21600 },
+      cache: "no-store",
     });
     if (!res.ok) {
       return NextResponse.json({ error: "deezer_error" }, { status: 502 });
@@ -42,7 +43,7 @@ export async function GET(
     // Přesměruj na čerstvou podepsanou URL (NEukládáme ji do cache klienta).
     return NextResponse.redirect(data.preview, {
       status: 302,
-      headers: { "Cache-Control": "public, max-age=21600" },
+      headers: { "Cache-Control": "no-store" },
     });
   } catch {
     return NextResponse.json({ error: "fetch_failed" }, { status: 502 });
