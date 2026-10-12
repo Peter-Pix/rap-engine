@@ -75,6 +75,20 @@ function extractSources(extraMeta: Record<string, any> | undefined): { url: stri
   });
 }
 
+/** Vizuální štítek stavu ověření entity. */
+function verificationBadge(verification: string | undefined): { label: string; cls: string } | null {
+  switch (verification) {
+    case "verified":
+      return { label: "Ověřeno", cls: "text-emerald-400/80 border-emerald-400/30" };
+    case "partial":
+      return { label: "Částečně ověřeno", cls: "text-amber-400/80 border-amber-400/30" };
+    case "unverified":
+      return { label: "Neověřeno", cls: "text-white/40 border-white/15" };
+    default:
+      return null;
+  }
+}
+
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -584,9 +598,19 @@ export async function EntityPage({
           {/* Info */}
           {em.realName || em.origin || em.label || em.activeSince || em.birthDate ? (
             <section data-jump-section data-jump-label="Info">
-              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                Info
-              </h2>
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40">
+                  Info
+                </h2>
+                {(() => {
+                  const b = verificationBadge(em.verification);
+                  return b ? (
+                    <span className={`text-[10px] font-mono uppercase tracking-wider border rounded px-1.5 py-0.5 ${b.cls}`}>
+                      {b.label}
+                    </span>
+                  ) : null;
+                })()}
+              </div>
               <dl className="space-y-2.5 text-sm">
                 {em.realName && (
                   <div className="flex justify-between gap-4">
@@ -642,9 +666,19 @@ export async function EntityPage({
             if (srcs.length === 0) return null;
             return (
               <section data-jump-section data-jump-label="Zdroje">
-                <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                  Zdroje
-                </h2>
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40">
+                    Zdroje
+                  </h2>
+                  {(() => {
+                    const b = verificationBadge(em.verification);
+                    return b ? (
+                      <span className={`text-[10px] font-mono uppercase tracking-wider border rounded px-1.5 py-0.5 ${b.cls}`}>
+                        {b.label}
+                      </span>
+                    ) : null;
+                  })()}
+                </div>
                 <ul className="space-y-1.5 text-sm">
                   {srcs.map((s, i) => (
                     <li key={i}>
