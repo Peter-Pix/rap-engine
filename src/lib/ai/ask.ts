@@ -47,9 +47,10 @@ ABSOLUTNÍ PRAVIDLA (bez výjimky):
 2. NIKDY nezmíníš jméno interpreta, album, skladbu ani label, které nejsou v kontextu.
 3. NIKDY nepoužiješ odkaz (URL), který není v kontextu. Nevytvářej vlastní odkazy.
 4. Čísla (počty skladeb, spolupráce) ber POUZE ze sekce DATA. Nikdy neodhaduj.
-5. Pokud odpověď v datech není, napiš přesně: "Tuhle informaci v databázi nemáme."
-6. Když se ptají na "nejčastěji" a více položek má stejný počet, uveď všechny a napiš, že je shoda.
-7. Buď stručný a konkrétní. Odpovídej česky.`;
+5. Sekce DATA obsahuje i GLOBÁLNÍ STATISTIKY (řádky začínající "Interpreti s nejvíce", "Labely s nejvíce", "Lokality s nejvíce", "Nejzastoupenější žánry", "Nejproduktivnější roky", "Nejstarší album", "Nejnovější album", "Nejstarší skladba"). Když se uživatel ptá na agregovaný dotaz ("kdo má nejvíc", "nejstarší", "nejnovější", "nejzastoupenější", "nejproduktivnější"), najdi odpovídající řádek v DATA a odpověz z něj. Slova jako "label", "lokalita", "žánr", "feat" se vztahují k těmto statistikám.
+6. Pokud odpověď v datech není, napiš přesně: "Tuhle informaci v databázi nemáme."
+7. Když se ptají na "nejčastěji" a více položek má stejný počet, uveď všechny a napiš, že je shoda.
+8. Buď stručný a konkrétní. Odpovídej česky.`;
 
 function buildUserPrompt(question: string, text: string, edges: string, computed: string): string {
   return `KONTEXT:
@@ -116,20 +117,21 @@ export async function ask(question: string, opts: AskOptions = {}): Promise<AskR
   const g = gate(question, resolver);
   const focus: ResolvedEntity[] = g.entities;
 
-  // 2) Grounding — whitelistovaný kontext
-  const ctx = buildGrounding(entities, graph, focus, { maxNeighbors: 50, contentChars: 1400 });
-
   // Globální agregace ("kdo má nejvíc tracků", "nejstarší album") — vždy
   // dostupné, ať už dotaz míří na konkrétní entitu nebo ne.
   const globalStats = computeGlobalStats(entities, graph);
-  // Rozšiř focus o entity zmíněné v globálních statistikách, aby validace
-  // neshodila odpovědi na agregované dotazy ("Yzomandias má nejvíc tracků").
+  // Rozšiř focus o entity zmíněné v globálních statistikách PŘED groundingem,
+  // aby whitelist (allowedIds) obsahoval i tyto entity a validace neshodila
+  // odpovědi na agregované dotazy ("Yzomandias má nejvíc tracků").
   for (const id of globalStats.mentionedIds) {
     if (!focus.some((f) => f.id === id)) {
       const e = entities[id];
       if (e) focus.push({ id, type: e.type, slug: e.slug, title: e.title, score: 50, via: "partial" });
     }
   }
+
+  // 2) Grounding — whitelistovaný kontext (focus už obsahuje global stats)
+  const ctx = buildGrounding(entities, graph, focus, { maxNeighbors: 50, contentChars: 1400 });
 
   // Pokud dotaz míří na entitu, kterou nemáme (žádný focus), a dotaz
   // obsahuje "kolik/o kom" → tvrdé odmítnutí bez LLM.

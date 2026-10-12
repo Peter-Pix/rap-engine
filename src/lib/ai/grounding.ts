@@ -219,6 +219,27 @@ export function buildGrounding(
 // agregované číselné dotazy nehalucinují. Vrací kompaktní text pro DATA sekci.
 // ═══════════════════════════════════════════════════════════════════════════
 
+function topNByRelation(
+  gi: GraphIndex,
+  relation: string,
+  entities: CacheEntities,
+  targetType: string,
+  n: number,
+  sourceType?: string,
+): { text: string; ids: string[] } {
+  const counts = new Map<string, number>();
+  for (const id of Object.keys(entities)) {
+    if (entities[id]?.type !== targetType) continue;
+    const c = (gi.in.get(id) ?? []).filter((e) => {
+      if (e.relation !== relation) return false;
+      if (sourceType && entities[e.from]?.type !== sourceType) return false;
+      return true;
+    }).length;
+    if (c > 0) counts.set(id, c);
+  }
+  return topN(counts, entities, n);
+}
+
 function topN(
   counts: Map<string, number>,
   entities: CacheEntities,
@@ -277,9 +298,33 @@ export function computeGlobalStats(
   const topTracks = topN(trackCountByArtist, entities, 10);
   const topAlbums = topN(albumCountByArtist, entities, 10);
 
+  // ── Další agregace ─────────────────────────────────────────────────────
+  const topFeats = topNByRelation(gi, "FEATURES", entities, "artist", 10);
+  const topProducers = topNByRelation(gi, "PRODUCED_BY", entities, "producer", 10, "track");
+  const topLabels = topNByRelation(gi, "RELEASED_BY", entities, "label", 10, "album");
+  const topLocations = topNByRelation(gi, "ORIGINATES_FROM", entities, "location", 10);
+  const topGenres = topNByRelation(gi, "HAS_GENRE", entities, "genre", 10);
+
+  // Nejproduktivnější rok (podle publishedAt tracků a alb)
+  const yearCounts = new Map<string, number>();
+  for (const id of Object.keys(entities)) {
+    const d = entities[id]?.publishedAt;
+    if (!d) continue;
+    const y = String(d).slice(0, 4);
+    if (!/^\d{4}$/.test(y)) continue;
+    yearCounts.set(y, (yearCounts.get(y) ?? 0) + 1);
+  }
+  const topYear = topN(yearCounts, entities, 3);
+
   const lines: string[] = [];
   lines.push(`Interpreti s nejvíce skladbami: ${topTracks.text}.`);
   lines.push(`Interpreti s nejvíce alby: ${topAlbums.text}.`);
+  lines.push(`Interpreti s nejvíce hostováními (featy): ${topFeats.text}.`);
+  lines.push(`Producenti s nejvíce skladbami: ${topProducers.text}.`);
+  lines.push(`Labely s nejvíce alby: ${topLabels.text}.`);
+  lines.push(`Lokality s nejvíce interprety: ${topLocations.text}.`);
+  lines.push(`Nejzastoupenější žánry: ${topGenres.text}.`);
+  lines.push(`Nejproduktivnější roky (nejvíce vydaných alb/skladeb): ${topYear.text}.`);
   if (oldestAlbum) lines.push(`Nejstarší album v DB: ${entities[oldestAlbum.id]?.title} (${oldestAlbum.d}).`);
   if (newestAlbum) lines.push(`Nejnovější album v DB: ${entities[newestAlbum.id]?.title} (${newestAlbum.d}).`);
   if (oldestTrack) lines.push(`Nejstarší skladba v DB: ${entities[oldestTrack.id]?.title} (${oldestTrack.d}).`);
@@ -287,6 +332,11 @@ export function computeGlobalStats(
   const mentionedIds = new Set<string>([
     ...topTracks.ids,
     ...topAlbums.ids,
+    ...topFeats.ids,
+    ...topProducers.ids,
+    ...topLabels.ids,
+    ...topLocations.ids,
+    ...topGenres.ids,
   ]);
   if (oldestAlbum) mentionedIds.add(oldestAlbum.id);
   if (newestAlbum) mentionedIds.add(newestAlbum.id);

@@ -30,12 +30,16 @@ interface Turn {
 const SUGGESTIONS: { label: string; icon: string }[] = [
   { label: "Kdo má nejvíc skladeb v databázi?", icon: "🏆" },
   { label: "Kdo má nejvíc alb?", icon: "💿" },
+  { label: "Kdo má nejvíc featů (hostování)?", icon: "🤝" },
+  { label: "Který label má nejvíc alb?", icon: "🏷️" },
+  { label: "Která lokalita má nejvíc interpretů?", icon: "📍" },
+  { label: "Jaký je nejzastoupenější žánr?", icon: "🎚️" },
   { label: "Jaké je nejstarší album v databázi?", icon: "🕰️" },
   { label: "Jaké je nejnovější album?", icon: "✨" },
   { label: "Jaká je nejstarší skladba v databázi?", icon: "🎵" },
-  { label: "S kým nejčastěji spolupracoval Yzomandias?", icon: "🤝" },
-  { label: "Jaké žánry dělá Calin?", icon: "🎚️" },
-  { label: "Odkud je Paulie Garand?", icon: "📍" },
+  { label: "Jaký byl nejproduktivnější rok?", icon: "📅" },
+  { label: "S kým nejčastěji spolupracoval Yzomandias?", icon: "💬" },
+  { label: "Odkud je Paulie Garand?", icon: "🗺️" },
 ];
 
 function IconSpark({ className = "w-4 h-4" }: { className?: string }) {
