@@ -55,9 +55,9 @@ function parseInline(text: string): React.ReactNode[] {
         );
       }
     } else if (match[4]) {
-      // Bold
+      // Bold — vnitřek může obsahovat linky/code, parsuj rekurzivně.
       parts.push(
-        React.createElement("strong", { key: `b-${match.index}` }, match[5]),
+        React.createElement("strong", { key: `b-${match.index}` }, ...parseInline(match[5])),
       );
     } else if (match[6] !== undefined) {
       // Italic — could be a citation wrapper `*([link](url) · ...)*` or
@@ -101,7 +101,7 @@ function parseInline(text: string): React.ReactNode[] {
         );
       } else {
         parts.push(
-          React.createElement("em", { key: `i-${match.index}` }, content),
+          React.createElement("em", { key: `i-${match.index}` }, ...parseInline(content)),
         );
       }
     } else if (match[8] !== undefined) {
