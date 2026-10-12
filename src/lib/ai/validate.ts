@@ -15,15 +15,23 @@ import { normalizeText } from "./entity-resolver";
 /** Slova, která jsou legitimní i bez entity (obecná čeština, hudební termíny). */
 // POZOR: porovnává se přes normalizeText() → položky musí být BEZ diakritiky.
 const ALLOWED_COMMON = new Set([
+  // žánry / hudební termíny
   "rap", "trap", "hip", "hop", "hip-hop", "rnb", "r b", "pop", "soul",
   "afrobeats", "drill", "grime", "cloud", "underground", "mainstream",
+  // entity typy
   "album", "skladba", "track", "singl", "ep", "mixtape", "label",
   "cesko", "slovensko", "praha", "bratislava", "brno", "ostrava",
   "producent", "beatmaker", "mixing", "mastering", "text", "beat",
   "rapper", "raper", "interpret", "umelec", "skupina", "kolektiv",
   "tema", "nalada", "zanr", "styl", "scena", "zpevak", "produkce",
+  "lokalita", "mesto", "region", "rok", "roky", "vydani", "host",
+  // obecná čeština / popisné štítky v odpovědích
   "ano", "ne", "podle", "databaze", "informace", "kontext", "zdroj",
-  "skladeb", "skladeb", "hostovani", "spoluprace", "nejcasteji",
+  "skladeb", "skladba", "skladby", "hostovani", "spoluprace", "nejcasteji",
+  "nejvic", "nejvice", "nejstarsi", "nejnovejsi", "nejzastoupenejsi",
+  "nejproduktivnejsi", "nejlepsi", "nejvetsi", "pocet", "kolik", "kdo",
+  "ktery", "ktera", "ktere", "jaky", "jaka", "jake", "alby", "alb",
+  "celkem", "dohromady", "shodne", "shoda", "nej", "vice", "mene",
 ]);
 
 /** Hudební / obecné termíny, které se nesmí hlásit jako halucinace. */
@@ -76,6 +84,8 @@ export function validateAnswer(
   for (const m of answer.matchAll(/\*\*([^*]{2,60})\*\*/g)) {
     const raw = m[1].replace(/[„""'']/g, "").trim();
     if (!raw || isCommonWord(raw)) continue;
+    // Bold končící dvojtečkou je popisek/štítek ("Nejvíc skladeb:"), ne entita.
+    if (/[:：]\s*$/.test(raw)) continue;
     // Vlastní jméno: začíná velkým písmenem nebo číslicí, max 5 slov
     const words = raw.split(/\s+/);
     if (words.length > 5) continue;

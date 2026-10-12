@@ -98,3 +98,37 @@ test("stále chytá vymyšlené jméno i s číslem okolo", () => {
   assert.equal(r.ok, false);
   assert.ok(r.violations.some((v) => v.includes("Zzqx Pufrt")));
 });
+
+test("REGrese: bold popisek s dvojtečkou (**Nejvíc skladeb:**) není entita", () => {
+  const ans = "**Nejvíc skladeb:** Yzomandias (265 skladeb).";
+  const r = validateAnswer(ans, ctx, entities);
+  assert.equal(r.ok, true, JSON.stringify(r.violations));
+});
+
+test("REGrese: agregovaný štítek '**Nejvíc album:**' projde", () => {
+  const ans = "**Nejvíc alb:** James Cole (38).";
+  const r = validateAnswer(ans, ctx, entities);
+  assert.equal(r.ok, true, JSON.stringify(r.violations));
+});
+
+test("REGrese: popisné slovo 'Nejvíc' v bold bez dvojtečky nehlásí", () => {
+  const ans = "**Nejvíc skladeb** má Yzomandias.";
+  const r = validateAnswer(ans, ctx, entities);
+  assert.equal(r.ok, true, JSON.stringify(r.violations));
+});
+
+test("REGrese: '**Nejstarší album**' / '**Nejproduktivnější rok**' projdou", () => {
+  const a1 = validateAnswer("**Nejstarší album** je Goodfellas.", ctx, entities);
+  const a2 = validateAnswer("**Nejproduktivnější rok** byl 2024.", ctx, entities);
+  assert.equal(a1.ok, true, JSON.stringify(a1.violations));
+  assert.equal(a2.ok, true, JSON.stringify(a2.violations));
+});
+
+test("štítek s dvojtečkou neztlumí kontrolu (vymyšlené jméno v bold se chytí)", () => {
+  // "**Interpret:**" je štítek → přeskočen. Ale "**Zzqx Pufrt**" je bold entita
+  // → musí se chytit jako vymyšlené jméno.
+  const ans = "**Interpret:** **Zzqx Pufrt**";
+  const r = validateAnswer(ans, ctx, entities);
+  assert.equal(r.ok, false);
+  assert.ok(r.violations.some((v) => v.includes("Zzqx Pufrt")));
+});
