@@ -226,10 +226,12 @@ function topNByRelation(
   targetType: string,
   n: number,
   sourceType?: string,
+  filter?: (id: string) => boolean,
 ): { text: string; ids: string[] } {
   const counts = new Map<string, number>();
   for (const id of Object.keys(entities)) {
     if (entities[id]?.type !== targetType) continue;
+    if (filter && !filter(id)) continue;
     const c = (gi.in.get(id) ?? []).filter((e) => {
       if (e.relation !== relation) return false;
       if (sourceType && entities[e.from]?.type !== sourceType) return false;
@@ -238,6 +240,16 @@ function topNByRelation(
     if (c > 0) counts.set(id, c);
   }
   return topN(counts, entities, n);
+}
+
+/**
+ * Lokalita je "stát" (Česko/Slovensko), když region === title.
+ * Takové entity vyřazujeme z agregací — scénu tvoří města, ne státy.
+ */
+function isCountryLocation(id: string, entities: CacheEntities): boolean {
+  const e = entities[id];
+  if (!e) return false;
+  return e.extraMeta?.region === e.title;
 }
 
 function topN(
@@ -302,7 +314,12 @@ export function computeGlobalStats(
   const topFeats = topNByRelation(gi, "FEATURES", entities, "artist", 10);
   const topProducers = topNByRelation(gi, "PRODUCED_BY", entities, "producer", 10, "track");
   const topLabels = topNByRelation(gi, "RELEASED_BY", entities, "label", 10, "album");
-  const topLocations = topNByRelation(gi, "ORIGINATES_FROM", entities, "location", 10);
+  // Lokality = jen města (státy Česko/Slovensko vyřazeny — "nejvíc umělců z Česka"
+  // je nesmysl, scéna se dělí na města).
+  const topLocations = topNByRelation(
+    gi, "ORIGINATES_FROM", entities, "location", 10, "artist",
+    (id) => !isCountryLocation(id, entities),
+  );
   const topGenres = topNByRelation(gi, "HAS_GENRE", entities, "genre", 10);
 
   // Nejproduktivnější rok (podle publishedAt tracků a alb)

@@ -89,6 +89,8 @@ function renderAnswer(text: string): React.ReactNode {
 }
 
 export function AskClient() {
+  // Indexy turnů, u kterých má uživatel rozbalené všechny zdroje.
+  const [expandedSources, setExpandedSources] = useState<Set<number>>(new Set());
   const [question, setQuestion] = useState("");
   const [turns, setTurns] = useState<Turn[]>([]);
   const [busy, setBusy] = useState(false);
@@ -258,18 +260,48 @@ export function AskClient() {
                     {!t.streaming && !t.verified && (
                       <p className="mt-2 text-xs text-amber-400/70">⚠️ Odpověď neprošla ověřením — ber ji s rezervou.</p>
                     )}
-                    {!t.streaming && t.sources.length > 0 && (
-                      <div className="mt-3 flex flex-wrap gap-2">
-                        <span className="text-[11px] uppercase tracking-wider text-white/30 self-center mr-1">Zdroje</span>
-                        {t.sources.map((s) => (
-                          <Link key={s.id} href={s.url} className="inline-flex items-center gap-1.5 glass glass-hover px-2.5 py-1.5 rounded-lg text-xs text-white/70 hover:text-white transition-colors">
-                            <span className="w-1.5 h-1.5 rounded-full" style={{ background: ENTITY_TYPE_COLORS[s.type as EntityType] ?? "#888" }} />
-                            {s.title}
-                            <span className="text-white/30">{ENTITY_TYPE_LABELS[s.type as EntityType] ?? s.type}</span>
-                          </Link>
-                        ))}
-                      </div>
-                    )}
+                    {!t.streaming && t.sources.length > 0 && (() => {
+                      const COLLAPSE_LIMIT = 4;
+                      const isExpanded = expandedSources.has(i);
+                      const visible = isExpanded || t.sources.length <= COLLAPSE_LIMIT
+                        ? t.sources
+                        : t.sources.slice(0, COLLAPSE_LIMIT);
+                      const hiddenCount = t.sources.length - visible.length;
+                      return (
+                        <div className="mt-3 flex flex-wrap items-center gap-2">
+                          <span className="text-[11px] uppercase tracking-wider text-white/30 self-center mr-1">Zdroje</span>
+                          {visible.map((s) => (
+                            <Link key={s.id} href={s.url} className="inline-flex items-center gap-1.5 glass glass-hover px-2.5 py-1.5 rounded-lg text-xs text-white/70 hover:text-white transition-colors">
+                              <span className="w-1.5 h-1.5 rounded-full" style={{ background: ENTITY_TYPE_COLORS[s.type as EntityType] ?? "#888" }} />
+                              {s.title}
+                              <span className="text-white/30">{ENTITY_TYPE_LABELS[s.type as EntityType] ?? s.type}</span>
+                            </Link>
+                          ))}
+                          {hiddenCount > 0 && (
+                            <button
+                              type="button"
+                              onClick={() => setExpandedSources((prev) => new Set(prev).add(i))}
+                              className="inline-flex items-center gap-1.5 glass glass-hover px-2.5 py-1.5 rounded-lg text-xs text-white/50 hover:text-white transition-colors"
+                            >
+                              +{hiddenCount} dalších
+                            </button>
+                          )}
+                          {isExpanded && t.sources.length > COLLAPSE_LIMIT && (
+                            <button
+                              type="button"
+                              onClick={() => setExpandedSources((prev) => {
+                                const next = new Set(prev);
+                                next.delete(i);
+                                return next;
+                              })}
+                              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs text-white/40 hover:text-white transition-colors"
+                            >
+                              Sbalit
+                            </button>
+                          )}
+                        </div>
+                      );
+                    })()}
                     {!t.streaming && t.latencyMs != null && (
                       <p className="mt-2 text-[11px] text-white/25">{(t.latencyMs / 1000).toFixed(1)} s · ověřeno z {t.sources.length || "0"} entit</p>
                     )}
