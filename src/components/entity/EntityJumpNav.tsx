@@ -74,13 +74,20 @@ export function EntityJumpNav() {
     window.scrollTo({ top, behavior: reduce ? "auto" : "smooth" });
   }, []);
 
-  // ── Aktivní chip posuň do view (horizontal scroller) ───────────────────
+  // ── Aktivní chip posuň do view (jen HORIZONTÁLNÍ scroller) ──────────────
+  // POZOR: `chip.scrollIntoView({ block: "nearest" })` na iOS Safari posune
+  // i VERTIKÁLNÍ scroll celé stránky → při scrollování dolů stránka "vyjede"
+  // nahoru. Proto scrolujeme pouze horizontálně přes `scrollLeft`, což
+  // vertikální scroll nemůže ovlivnit.
   useEffect(() => {
-    if (!activeId || !scrollerRef.current) return;
-    const chip = scrollerRef.current.querySelector<HTMLElement>(
-      `[data-chip="${activeId}"]`
-    );
-    chip?.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+    const scroller = scrollerRef.current;
+    if (!activeId || !scroller) return;
+    const chip = scroller.querySelector<HTMLElement>(`[data-chip="${activeId}"]`);
+    if (!chip) return;
+    const target =
+      chip.offsetLeft - (scroller.clientWidth - chip.offsetWidth) / 2;
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    scroller.scrollTo({ left: target, behavior: reduce ? "auto" : "smooth" });
   }, [activeId]);
 
   if (sections.length < 2) return null;
