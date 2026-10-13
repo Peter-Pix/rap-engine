@@ -71,7 +71,7 @@ export default function PetrPiskacekAuthorPage() {
               <p>
                 Rap u nás má víc souvislostí, než se na první pohled zdá. Kdo s kým nahrál,
                 kdo odkud je, jaký label stojí za kterým zvukem. Právě tyhle nitky mě baví
-                rozplétat — a 4RAP je místo, kde je vidět celý.
+                rozplétat — a 4RAP je místo, kde je to vidět celý.
               </p>
             </div>
           </section>
