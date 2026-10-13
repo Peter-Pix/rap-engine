@@ -617,7 +617,7 @@ export async function EntityPage({
                 )}
                 {em.city && em.city !== em.origin && (
                   <div className="flex justify-between gap-4">
-                    <dt className="text-white/40">Město</dt>
+                    <dt className="text-white/40">Scéna</dt>
                     <dd className="text-white/75 text-right">{em.city as string}</dd>
                   </div>
                 )}
