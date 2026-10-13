@@ -85,7 +85,11 @@ function normalizeTracklist(data: any): TracklistData {
     release_date: String(data?.release_date ?? ""),
     label: data?.label ?? null,
     upc: data?.upc ?? null,
-    total_tracks: typeof data?.total_tracks === "number" ? data.total_tracks : tracks.length,
+    // Discogs má u vinylu víc pozic než skladeb (heading řádky) → důvěřuj reálnému počtu
+    total_tracks:
+      typeof data?.total_tracks === "number" && data.total_tracks === tracks.length
+        ? data.total_tracks
+        : tracks.length,
     total_duration_sec: typeof data?.total_duration_sec === "number" ? data.total_duration_sec : totalDur,
     cover_xl: data?.cover_xl ?? null,
     contributors: data?.contributors,
@@ -173,7 +177,8 @@ export function Tracklist({ data, albumSlug, trackRoutes = {} }: TracklistProps)
 
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40">
-          Tracklist · {d.total_tracks} skladeb · {formatTotalDuration(d.total_duration_sec)}
+          Tracklist · {d.total_tracks} skladeb
+          {d.total_duration_sec > 0 && ` · ${formatTotalDuration(d.total_duration_sec)}`}
         </h2>
         <div className="flex items-center gap-3 text-[11px] font-mono uppercase tracking-[0.15em] text-white/30">
           {d.release_date && <span>{d.release_date}</span>}
@@ -282,7 +287,7 @@ export function Tracklist({ data, albumSlug, trackRoutes = {} }: TracklistProps)
               )}
 
               <span className="text-[11px] font-mono text-white/40 tabular-nums w-10 text-right flex-shrink-0">
-                {formatDuration(t.duration_sec)}
+                {t.duration_sec > 0 ? formatDuration(t.duration_sec) : ""}
               </span>
             </li>
           );
