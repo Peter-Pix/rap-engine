@@ -9,6 +9,9 @@
  */
 export const CITY_COORDS: Record<string, [number, number]> = {
   "location_bratislava": [17.1077, 48.1486],
+  "location_brandys-nad-labem": [14.6650, 50.1912],
+  "location_partizanske": [18.3718, 48.6265],
+  "location_trencin": [18.0387, 48.8923],
   "location_brno": [16.6068, 49.1951],
   "location_ceske-budejovice": [14.4743, 48.9745],
   "location_cheb": [12.3739, 50.0793],

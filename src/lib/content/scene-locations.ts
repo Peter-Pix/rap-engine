@@ -17,6 +17,8 @@ export const NON_SCENE_LOCATIONS = new Set<string>([
   "location_londyn",
   "location_manchester",
   "location_francie-jizni",
+  // Mimo CZ/SK scénu — rodiště ano, ale není to město scény
+  "location_kisinev", // Calin — narodil se v Moldavsku
 ]);
 
 /** Je daná lokalita městem CZ/SK rapové scény? */
