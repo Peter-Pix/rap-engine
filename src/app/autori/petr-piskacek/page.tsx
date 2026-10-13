@@ -76,32 +76,7 @@ export default function PetrPiskacekAuthorPage() {
             </div>
           </section>
 
-          {/* Databáze v číslech */}
-          <section className="mb-14">
-            <h2 className="text-[11px] font-mono font-semibold uppercase tracking-widest text-zinc-400 mb-4">
-              Databáze v číslech
-            </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-              {[
-                { n: "279", l: "Rapperů" },
-                { n: "4 509", l: "Skladeb" },
-                { n: "604", l: "Alb" },
-                { n: "37 498", l: "Vazeb" },
-              ].map((s) => (
-                <div
-                  key={s.l}
-                  className="bg-zinc-900/[0.5] rounded-lg p-4 border border-white/[0.06]"
-                >
-                  <p className="text-2xl font-black text-white">{s.n}</p>
-                  <p className="text-xs text-zinc-500 mt-1 uppercase tracking-wider">
-                    {s.l}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Kontakt / odkazy */}
+                    {/* Kontakt / odkazy */}
           <section>
             <h2 className="text-[11px] font-mono font-semibold uppercase tracking-widest text-zinc-400 mb-4">
               Kde mě najdeš
