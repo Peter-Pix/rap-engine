@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { readEntities, readEntityById } from "@/lib/content/cache-reader";
 import Link from "next/link";
+import { isSceneCity } from "@/lib/content/scene-locations";
 
 export const metadata: Metadata = {
   robots: { index: true, follow: true },
@@ -16,20 +17,55 @@ interface MapLocation {
   artistCount: number;
 }
 
+/**
+ * Souřadnice měst CZ/SK rapové scény.
+ *
+ * Země (Česko, Slovensko) a zahraniční města (Londýn, Manchester, Francie)
+ * jsou záměrně VYNECHÁNY — mapa zobrazuje města, odkud interpreti pocházejí,
+ * ne státy ani zahraniční působiště.
+ *
+ * Zdroj: geografické souřadnice měst (WGS84).
+ */
 const COORDS: Record<string, [number, number]> = {
+  // ── Česko ──
   "location_praha":               [50.0755, 14.4378],
   "location_brno":                [49.1951, 16.6068],
   "location_ostrava":             [49.8209, 18.2625],
+  "location_plzen":               [49.7384, 13.3736],
   "location_liberec":             [50.7663, 15.0543],
+  "location_olomouc":             [49.5938, 17.2509],
+  "location_ceske-budejovice":    [48.9745, 14.4743],
+  "location_hradec-kralove":      [50.2104, 15.8252],
   "location_pardubice":           [50.0343, 15.7812],
-  "location_karlovy-vary":        [50.2319, 12.8710],
+  "location_zlin":                [49.2263, 17.6666],
   "location_usti-nad-labem":      [50.6611, 14.0522],
+  "location_karlovy-vary":        [50.2319, 12.8710],
+  "location_jihlava":             [49.3961, 15.5912],
+  "location_cheb":                [50.0793, 12.3739],
+  "location_teplice":             [50.6404, 13.8248],
   "location_kladno":              [50.1473, 14.1025],
-  "location_hostivice":           [50.0796, 14.2585],
+  "location_kolin":               [50.0281, 15.2003],
   "location_tabor":               [49.4144, 14.6579],
   "location_ostrov":              [50.3054, 12.9390],
+  "location_hostivice":           [50.0796, 14.2585],
   "location_rychnov-nad-kneznou": [50.1629, 16.2747],
-  "location_dobrichovice":        [49.9273, 14.2720],
+  "location_chomutov":            [50.4605, 13.4177],
+  "location_slany":               [50.2306, 14.0867],
+  "location_starovice":           [48.9481, 16.7258],
+  "location_kromeriz":            [49.2980, 17.3930],
+  // ── Slovensko ──
+  "location_bratislava":         [48.1486, 17.1077],
+  "location_kosice":              [48.7164, 21.2611],
+  "location_nitra":               [48.3069, 18.0864],
+  "location_presov":              [48.9975, 21.2393],
+  "location_trnava":              [48.3774, 17.5872],
+  "location_piestany":            [48.5918, 17.8265],
+  "location_ruzomberok":          [49.0748, 19.3078],
+  "location_lucenec":             [48.3317, 19.6660],
+  "location_handlova":            [48.7277, 18.7596],
+  "location_namestovo":           [49.4067, 19.4809],
+  "location_nove-mesto-nad-vahom":[48.7559, 17.8320],
+  "location_zlate-moravce":       [48.3832, 18.3997],
 };
 
 function getLocationsWithCoords(): MapLocation[] {
@@ -39,6 +75,7 @@ function getLocationsWithCoords(): MapLocation[] {
   const results: MapLocation[] = [];
 
   for (const [id, coords] of Object.entries(COORDS)) {
+    if (!isSceneCity(id)) continue;
     const ent = readEntityById(id);
     if (!ent) continue;
 

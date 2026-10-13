@@ -4,6 +4,7 @@ import { readEntities, readGraph, readGraphLayout } from "@/lib/content/cache-re
 import { TYPE_ROUTE_MAP, type EntityType } from "@/lib/content/constants";
 import { SearchBar } from "@/components/search/SearchBar";
 import { NetworkCanvasMini } from "@/components/homepage/NetworkCanvasMini";
+import { isSceneCity } from "@/lib/content/scene-locations";
 import { TrendingArtists, type ArtistTile } from "@/components/homepage/TrendingArtists";
 import { TrendingAlbums, type AlbumTile } from "@/components/homepage/TrendingAlbums";
 import { DiscoverScene, type CityTile, type LabelTile } from "@/components/homepage/DiscoverScene";
@@ -137,8 +138,8 @@ function buildCitiesAndLabels(
     .map(([id, artistCount]) => {
       const e = entities[id];
       if (!e) return null;
-      // Filter out country entities (Česko / Slovensko) — those are not cities.
-      if (e.slug === "cesko" || e.slug === "slovensko") return null;
+      // Jen města scény — vyřaď země (Česko/Slovensko) a zahraniční města.
+      if (!isSceneCity(id)) return null;
       return { id, slug: e.slug, title: e.title, artistCount };
     })
     .filter((c): c is CityTile => c !== null)
@@ -204,7 +205,7 @@ function buildCounts(
       case "artist": artists++; break;
       case "album": albums++; break;
       case "track": tracks++; break;
-      case "location": locations++; break;
+      case "location": if (isSceneCity(e.id)) locations++; break;
       case "label": labels++; break;
       case "genre": genres++; break;
     }
