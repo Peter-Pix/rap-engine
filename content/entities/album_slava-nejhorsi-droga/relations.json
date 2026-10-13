@@ -12,10 +12,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_club"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,10 +21,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_grey256-backstage-ii",
     "track_grey256-jak-pes",
@@ -43,5 +37,15 @@
     "track_grey256-vibe",
     "track_grey256-vztek",
     "track_grey256-za-sebe"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_club"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_flex"
+    ]
+  }
 }

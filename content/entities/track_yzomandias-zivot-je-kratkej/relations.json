@@ -14,13 +14,17 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_legacy"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_legacy"
+    ]
+  }
 }

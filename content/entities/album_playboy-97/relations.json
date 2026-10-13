@@ -1,7 +1,39 @@
 {
-  "albums": [], "artists": ["artist_sensey", "artist_shimmi", "artist_blako"],
-  "genres": ["genre_trap", "genre_rap"], "influencedBy": [], "labels": ["label_universal-music"],
-  "locations": [], "moods": ["mood_club", "mood_dark"], "partOf": [], "related": [],
-  "scenes": ["scene_mainstream"], "styles": ["style_melodic"],
-  "themes": ["theme_flex", "theme_life", "theme_relationships"], "tracks": []
+  "albums": [],
+  "artists": [
+    "artist_sensey",
+    "artist_shimmi",
+    "artist_blako"
+  ],
+  "genres": [
+    "genre_trap",
+    "genre_rap"
+  ],
+  "influencedBy": [],
+  "labels": [
+    "label_universal-music"
+  ],
+  "locations": [],
+  "moods": [],
+  "partOf": [],
+  "related": [],
+  "scenes": [
+    "scene_mainstream"
+  ],
+  "styles": [
+    "style_melodic"
+  ],
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

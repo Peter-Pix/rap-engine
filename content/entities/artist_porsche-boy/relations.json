@@ -22,16 +22,7 @@
     "location_nitra",
     "location_cesko"
   ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_melancholic",
-    "mood_playful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
@@ -40,13 +31,26 @@
     "style_introspective",
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_relationships",
-    "theme_self-reflection",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_melancholic",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_relationships",
+      "theme_self-reflection",
+      "theme_success"
+    ]
+  }
 }

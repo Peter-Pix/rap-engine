@@ -14,11 +14,7 @@
   "locations": [
     "location_praha"
   ],
-  "moods": [
-    "mood_raw",
-    "mood_dark",
-    "mood_abstract"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -28,11 +24,7 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_life",
-    "theme_art"
-  ],
+  "themes": [],
   "tracks": [
     "track_la4-intro",
     "track_la4-panoptikum",
@@ -48,5 +40,17 @@
     "track_la4-vsechno-zly-je-k-necemu-dobry-feat-pio-squad",
     "track_la4-je-tu-backstage-feat-vec-remix",
     "track_la4-outro"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw",
+      "mood_dark",
+      "mood_abstract"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_life",
+      "theme_art"
+    ]
+  }
 }

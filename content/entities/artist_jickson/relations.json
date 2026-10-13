@@ -26,18 +26,7 @@
     "style_hardcore",
     "style_melodic"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_dark",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_positive",
-    "mood_raw"
-  ],
+  "moods": [],
   "albums": [],
   "artists": [],
   "influencedBy": [],
@@ -51,15 +40,30 @@
     "artist_ektor"
   ],
   "scenes": [],
-  "themes": [
-    "theme_flex",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_relationships",
-    "theme_self-reflection",
-    "theme_society",
-    "theme_street-life",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_dark",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_positive",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_relationships",
+      "theme_self-reflection",
+      "theme_society",
+      "theme_street-life",
+      "theme_success"
+    ]
+  }
 }

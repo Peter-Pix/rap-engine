@@ -35,18 +35,7 @@
     "style_introspective",
     "style_melodic"
   ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "albums": [
     "album_i",
     "album_ii"
@@ -57,15 +46,30 @@
     "artist_vladimir-518"
   ],
   "scenes": [],
-  "themes": [
-    "theme_energy",
-    "theme_flex",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_relationships",
-    "theme_self-reflection",
-    "theme_society",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_energy",
+      "theme_flex",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_relationships",
+      "theme_self-reflection",
+      "theme_society",
+      "theme_success"
+    ]
+  }
 }

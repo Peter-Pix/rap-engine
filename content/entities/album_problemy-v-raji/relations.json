@@ -12,10 +12,7 @@
     "label_blakkwood-records"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,10 +22,7 @@
     "style_experimental",
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_renne-dang-best-day-of-my-life",
     "track_renne-dang-budes-tam-se-mnou",
@@ -41,5 +35,15 @@
     "track_renne-dang-priste",
     "track_renne-dang-problemy-v-raji",
     "track_renne-dang-sos"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

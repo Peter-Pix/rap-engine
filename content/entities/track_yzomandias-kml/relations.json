@@ -14,15 +14,19 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_money",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_euphoric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_euphoric"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_money",
+      "theme_success"
+    ]
+  }
 }

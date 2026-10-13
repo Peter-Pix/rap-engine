@@ -14,15 +14,19 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_self-reflection",
-    "theme_flex"
-  ],
-  "moods": [
-    "mood_positive",
-    "mood_emotional",
-    "mood_chill"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_positive",
+      "mood_emotional",
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_self-reflection",
+      "theme_flex"
+    ]
+  }
 }

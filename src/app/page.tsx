@@ -9,7 +9,6 @@ import { TrendingArtists, type ArtistTile } from "@/components/homepage/Trending
 import { TrendingAlbums, type AlbumTile } from "@/components/homepage/TrendingAlbums";
 import { DiscoverScene, type CityTile, type LabelTile } from "@/components/homepage/DiscoverScene";
 import { RecentFeed, type FeedItem } from "@/components/homepage/RecentFeed";
-import { DatabaseStats } from "@/components/homepage/DatabaseStats";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 const RAP44_API = "https://44rap.base44.app/api";
@@ -389,11 +388,12 @@ export default function HomePage() {
 
         {/* H1 — silný headline pro SEO, obsahuje klíčová slova */}
         <h1 className="text-[26px] sm:text-3xl lg:text-[clamp(32px,5vw,48px)] font-black tracking-tight text-white leading-[0.95] max-w-[800px] mb-3">
-          Největší databáze českého rapu, rapperů a alb
+          Český rap. Celá scéna. Na jednom místě.
         </h1>
 
         <p className="text-[15px] sm:text-base text-white/60 max-w-[600px] leading-relaxed mb-6 sm:mb-8">
-          Prozkoumej interprety, alba, labely, města a jejich vzájemné vazby.
+          Od koho je ten beat, kdo s kým nahrál a odkud kdo je. Propletený příběh
+          scény, ve kterém se dá ztratit — nebo najít přesně to, co hledáš.
         </p>
 
         {/* Search */}
@@ -401,24 +401,7 @@ export default function HomePage() {
           <SearchBar />
         </div>
 
-        {/* Quick stats */}
-        <div className="flex flex-wrap items-baseline gap-x-5 gap-y-2">
-          <Link href="/raperi" className="text-sm font-bold text-white hover:text-[#c8962e] transition-colors">
-            {counts.artists} <span className="text-white/50 font-normal">interpretů</span>
-          </Link>
-          <span className="text-white/20">·</span>
-          <Link href="/alba" className="text-sm font-bold text-white hover:text-[#c8962e] transition-colors">
-            {counts.albums} <span className="text-white/50 font-normal">alb</span>
-          </Link>
-          <span className="text-white/20">·</span>
-          <Link href="/lokality" className="text-sm font-bold text-white hover:text-[#c8962e] transition-colors">
-            {counts.locations} <span className="text-white/50 font-normal">měst</span>
-          </Link>
-          <span className="text-white/20">·</span>
-          <span className="text-sm font-bold text-white">
-            {counts.edges.toLocaleString("cs-CZ")} <span className="text-white/50 font-normal">vazeb</span>
-          </span>
-        </div>
+
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════
@@ -488,7 +471,7 @@ export default function HomePage() {
               </h2>
               <p className="text-sm text-white/50 max-w-lg">
                 Vyber dva interprety a zjisti, co mají společného — žánry,
-                styly, nálady, labely i města.
+                styly, labely i města.
               </p>
             </div>
             <span className="text-sm font-bold text-[#c8962e] whitespace-nowrap group-hover:translate-x-0.5 transition-transform">
@@ -505,11 +488,11 @@ export default function HomePage() {
         <section className="mb-12 sm:mb-16">
           <div className="flex items-baseline justify-between mb-5">
             <div>
-              <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35 mb-1">
-                Nejpropojenější interpreti
+              <h2 className="text-lg sm:text-xl font-black tracking-tight text-white mb-1">
+                Kdo s kým nahrává
               </h2>
-              <p className="text-xs text-white/40">
-                Klikni na jméno pro detail, drag pro posun, scroll pro zoom
+              <p className="text-sm text-white/55">
+                Proklikej se od interpreta k hostům, producentům a společným trackům.
               </p>
             </div>
             <Link
@@ -542,11 +525,6 @@ export default function HomePage() {
          POSLEDNÍ PŘIDANÉ PROFILY
          ═══════════════════════════════════════════════════════════════ */}
       <RecentFeed items={recentFeed} />
-
-      {/* ═══════════════════════════════════════════════════════════════
-         DATABASE STATS — "nejsi na blogu"
-         ═══════════════════════════════════════════════════════════════ */}
-      <DatabaseStats counts={counts} />
 
       {/* ═══════════════════════════════════════════════════════════════
          NADCHÁZEJÍCÍ AKCE (44rap)

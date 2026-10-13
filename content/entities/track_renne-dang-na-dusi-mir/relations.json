@@ -16,13 +16,17 @@
     "genre_pop"
   ],
   "styles": [],
-  "themes": [
-    "theme_life"
-  ],
-  "moods": [
-    "mood_melancholic",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_melancholic",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_life"
+    ]
+  }
 }

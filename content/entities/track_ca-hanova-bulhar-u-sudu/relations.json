@@ -12,16 +12,20 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_nightlife",
-    "theme_pressure",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_nightlife",
+      "theme_pressure",
+      "theme_self-reflection"
+    ]
+  }
 }

@@ -32,20 +32,7 @@
     "location_kladno",
     "location_cesko"
   ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_calm",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_dark",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_melancholic",
-    "mood_positive",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_psycho-rhyme",
@@ -59,15 +46,32 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_individualism",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_relationships",
-    "theme_self-reflection",
-    "theme_street-life",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_calm",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_dark",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_melancholic",
+      "mood_positive",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_individualism",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_relationships",
+      "theme_self-reflection",
+      "theme_street-life",
+      "theme_success"
+    ]
+  }
 }

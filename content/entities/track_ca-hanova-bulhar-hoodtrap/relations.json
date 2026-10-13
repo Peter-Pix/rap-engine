@@ -12,17 +12,21 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_flex",
-    "theme_hustle",
-    "theme_nightlife",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_flex",
+      "theme_hustle",
+      "theme_nightlife",
+      "theme_self-reflection"
+    ]
+  }
 }

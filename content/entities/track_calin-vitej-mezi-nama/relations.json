@@ -14,18 +14,22 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_drugs",
-    "theme_life",
-    "theme_relationships",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_night",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_night",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_life",
+      "theme_relationships",
+      "theme_self-reflection"
+    ]
+  }
 }

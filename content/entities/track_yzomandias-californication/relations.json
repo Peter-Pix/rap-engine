@@ -12,17 +12,21 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_lifestyle",
-    "theme_money",
-    "theme_self-reflection",
-    "theme_social-reality"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_money",
+      "theme_self-reflection",
+      "theme_social-reality"
+    ]
+  }
 }

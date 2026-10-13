@@ -16,10 +16,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -29,10 +26,7 @@
     "style_conscious",
     "style_street"
   ],
-  "themes": [
-    "theme_life",
-    "theme_success"
-  ],
+  "themes": [],
   "tracks": [
     "track_koky-az-svetla-zhasnou",
     "track_koky-ball-till-i-fall",
@@ -48,5 +42,15 @@
     "track_koky-plnit-bag",
     "track_koky-ve-stinu",
     "track_koky-zatim-co-vy"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_success"
+    ]
+  }
 }

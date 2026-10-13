@@ -8,10 +8,7 @@
   "styles": [
     "style_experimental"
   ],
-  "moods": [
-    "mood_emotional",
-    "mood_abstract"
-  ],
+  "moods": [],
   "locations": [
     "location_praha"
   ],
@@ -21,5 +18,11 @@
     "album_strasnickej-2en",
     "album_strasnickej-sen",
     "album_vitr-dest-a-slunce"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_abstract"
+    ]
+  }
 }

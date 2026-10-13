@@ -10,14 +10,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_fame",
-    "theme_money"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_fame",
+      "theme_money"
+    ]
+  }
 }

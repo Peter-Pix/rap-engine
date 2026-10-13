@@ -16,15 +16,19 @@
     "genre_rnb"
   ],
   "styles": [],
-  "themes": [
-    "theme_relationships",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_relationships",
+      "theme_self-reflection"
+    ]
+  }
 }

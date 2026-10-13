@@ -22,15 +22,19 @@
   "styles": [
     "style_conscious"
   ],
-  "themes": [
-    "theme_life",
-    "theme_self-reflection",
-    "theme_society"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_emotional",
-    "mood_positive"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_emotional",
+      "mood_positive"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_self-reflection",
+      "theme_society"
+    ]
+  }
 }

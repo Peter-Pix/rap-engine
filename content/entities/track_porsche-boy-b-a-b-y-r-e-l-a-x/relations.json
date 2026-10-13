@@ -15,13 +15,17 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_self-reflection",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_atmospheric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_atmospheric"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_relationships"
+    ]
+  }
 }

@@ -13,14 +13,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_relationships",
-    "theme_satire"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_energetic",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_energetic",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_relationships",
+      "theme_satire"
+    ]
+  }
 }

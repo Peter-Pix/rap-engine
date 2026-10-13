@@ -21,21 +21,7 @@
     "location_namestovo",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_gleb",
@@ -47,18 +33,36 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_death",
-    "theme_drugs",
-    "theme_flex",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_money",
-    "theme_nightlife",
-    "theme_relationships",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_death",
+      "theme_drugs",
+      "theme_flex",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_money",
+      "theme_nightlife",
+      "theme_relationships",
+      "theme_success"
+    ]
+  }
 }

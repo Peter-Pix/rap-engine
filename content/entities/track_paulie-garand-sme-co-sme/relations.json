@@ -12,15 +12,19 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_authenticity",
-    "theme_self-reflection",
-    "theme_social-reality"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_self-reflection",
+      "theme_social-reality"
+    ]
+  }
 }

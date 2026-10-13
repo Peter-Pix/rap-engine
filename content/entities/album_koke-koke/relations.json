@@ -14,10 +14,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,11 +23,7 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_koky-hot-in-da-hood",
     "track_koky-money-toci-svet",
@@ -42,5 +35,16 @@
     "track_koky-kam",
     "track_koky-ogs",
     "track_koky-fff"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success",
+      "theme_life"
+    ]
+  }
 }

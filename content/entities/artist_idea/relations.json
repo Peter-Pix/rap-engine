@@ -35,21 +35,25 @@
   "locations": [
     "location_zlin"
   ],
-  "moods": [
-    "mood_euphoric",
-    "mood_night",
-    "mood_playful",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_humor",
-    "theme_nightlife"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_euphoric",
+      "mood_night",
+      "mood_playful",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_humor",
+      "theme_nightlife"
+    ]
+  }
 }

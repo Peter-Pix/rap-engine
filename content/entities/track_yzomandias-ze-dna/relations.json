@@ -14,16 +14,20 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_loyalty",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_dark",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_dark",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_loyalty",
+      "theme_success"
+    ]
+  }
 }

@@ -14,10 +14,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,10 +23,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_stein27-nadeje",
     "track_stein27-stmivani-feat-kojo",
@@ -42,5 +36,15 @@
     "track_stein27-polknes-patu",
     "track_stein27-posledni-tag",
     "track_stein27-suicide-squad"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

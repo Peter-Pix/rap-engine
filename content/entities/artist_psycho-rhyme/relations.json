@@ -11,15 +11,19 @@
     "style_hardcore",
     "style_experimental"
   ],
-  "moods": [
-    "mood_dark",
-    "mood_gritty",
-    "mood_playful",
-    "mood_raw",
-    "mood_thoughtful"
-  ],
-  "themes": [
-    "theme_drugs",
-    "theme_life"
-  ]
+  "moods": [],
+  "themes": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_gritty",
+      "mood_playful",
+      "mood_raw",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_life"
+    ]
+  }
 }

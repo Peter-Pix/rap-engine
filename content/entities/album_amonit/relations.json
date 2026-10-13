@@ -13,11 +13,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark",
-    "mood_abstract"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,11 +22,7 @@
   "styles": [
     "style_conscious"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships",
-    "theme_art"
-  ],
+  "themes": [],
   "tracks": [
     "track_paulie-garand-all-my-life",
     "track_paulie-garand-amonit",
@@ -54,5 +46,17 @@
     "track_paulie-garand-roma",
     "track_paulie-garand-super-8",
     "track_paulie-garand-una"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark",
+      "mood_abstract"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships",
+      "theme_art"
+    ]
+  }
 }

@@ -12,14 +12,18 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_lifestyle"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_club",
-    "mood_chill"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_club",
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_lifestyle"
+    ]
+  }
 }

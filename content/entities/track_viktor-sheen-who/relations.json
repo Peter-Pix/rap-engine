@@ -14,14 +14,18 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_life"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_dark"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_life"
+    ]
+  }
 }

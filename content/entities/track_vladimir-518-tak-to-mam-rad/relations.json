@@ -14,13 +14,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_nightlife"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_confident"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_nightlife"
+    ]
+  }
 }

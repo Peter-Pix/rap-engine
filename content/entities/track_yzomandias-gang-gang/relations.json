@@ -12,12 +12,16 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_loyalty"
-  ],
-  "moods": [
-    "mood_euphoric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_euphoric"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_loyalty"
+    ]
+  }
 }

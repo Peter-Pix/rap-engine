@@ -16,10 +16,7 @@
   "locations": [
     "location_praha"
   ],
-  "moods": [
-    "mood_abstract",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -29,9 +26,16 @@
     "style_experimental",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_satire",
-    "theme_society"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_abstract",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_satire",
+      "theme_society"
+    ]
+  }
 }

@@ -15,10 +15,13 @@
   "genres": [],
   "styles": [],
   "themes": [],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_defiant"
-  ],
-  "related": []
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_defiant"
+    ]
+  }
 }

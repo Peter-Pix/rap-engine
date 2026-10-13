@@ -12,15 +12,19 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_ego",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_energetic",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_energetic",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_ego",
+      "theme_self-reflection"
+    ]
+  }
 }

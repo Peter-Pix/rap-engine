@@ -19,21 +19,25 @@
   "locations": [
     "location_praha"
   ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_relationships",
-    "theme_self-reflection",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_relationships",
+      "theme_self-reflection",
+      "theme_success"
+    ]
+  }
 }

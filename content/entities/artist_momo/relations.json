@@ -12,20 +12,24 @@
     "album_sequel-of-momo",
     "album_street-hamlet"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_energetic",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "themes": [
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_pressure",
-    "theme_relationships",
-    "theme_social-reality"
-  ],
-  "related": []
+  "moods": [],
+  "themes": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_energetic",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_pressure",
+      "theme_relationships",
+      "theme_social-reality"
+    ]
+  }
 }

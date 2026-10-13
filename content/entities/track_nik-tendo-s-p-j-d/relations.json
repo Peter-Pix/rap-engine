@@ -17,12 +17,16 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_emotional",
-    "mood_chill"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_relationships"
+    ]
+  }
 }

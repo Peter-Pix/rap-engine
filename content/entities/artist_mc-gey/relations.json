@@ -36,22 +36,7 @@
     "location_pardubice",
     "location_cesko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_calm",
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_gritty",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_james-cole",
@@ -60,17 +45,36 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_authenticity",
-    "theme_death",
-    "theme_ego",
-    "theme_humor",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_relationships",
-    "theme_satire",
-    "theme_social-reality",
-    "theme_violence"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_calm",
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_gritty",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_death",
+      "theme_ego",
+      "theme_humor",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_relationships",
+      "theme_satire",
+      "theme_social-reality",
+      "theme_violence"
+    ]
+  }
 }

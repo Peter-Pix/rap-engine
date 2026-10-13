@@ -1,12 +1,37 @@
 {
-  "primaryArtist": ["artist_sergei-barracuda"],
-  "belongsToAlbum": ["album_poulicni-ekonomicka-3-laska-loyalita"],
-  "producers": ["artist_vae-cortez"],
+  "primaryArtist": [
+    "artist_sergei-barracuda"
+  ],
+  "belongsToAlbum": [
+    "album_poulicni-ekonomicka-3-laska-loyalita"
+  ],
+  "producers": [
+    "artist_vae-cortez"
+  ],
   "featuring": [],
-  "labels": ["label_skerocuda"],
-  "genres": ["genre_trap", "genre_street-rap"],
-  "styles": ["style_aggressive", "style_raw"],
-  "themes": ["theme_drugs", "theme_money", "theme_hustle"],
-  "moods": ["mood_aggressive", "mood_energetic"],
-  "related": []
+  "labels": [
+    "label_skerocuda"
+  ],
+  "genres": [
+    "genre_trap",
+    "genre_street-rap"
+  ],
+  "styles": [
+    "style_aggressive",
+    "style_raw"
+  ],
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_money",
+      "theme_hustle"
+    ]
+  }
 }

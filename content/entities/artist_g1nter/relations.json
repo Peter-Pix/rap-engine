@@ -23,12 +23,7 @@
     "style_melodic",
     "style_aggressive"
   ],
-  "moods": [
-    "mood_emotional",
-    "mood_abstract",
-    "mood_club",
-    "mood_raw"
-  ],
+  "moods": [],
   "albums": [],
   "influencedBy": [],
   "partOf": [],
@@ -40,5 +35,13 @@
   ],
   "scenes": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_abstract",
+      "mood_club",
+      "mood_raw"
+    ]
+  }
 }

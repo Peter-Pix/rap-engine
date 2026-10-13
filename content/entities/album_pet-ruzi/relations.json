@@ -14,10 +14,7 @@
   "locations": [
     "location_praha"
   ],
-  "moods": [
-    "mood_raw",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -27,10 +24,7 @@
     "style_street",
     "style_conscious"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_refew-24-karat",
     "track_refew-ja-vim-ze-me-mas-rada",
@@ -45,5 +39,15 @@
     "track_refew-volala-mama",
     "track_refew-z-nebe-do-pekla",
     "track_refew-zabava"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_life"
+    ]
+  }
 }

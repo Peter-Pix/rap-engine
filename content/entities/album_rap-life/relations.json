@@ -16,10 +16,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_raw",
-    "mood_abstract"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -29,11 +26,7 @@
     "style_conscious",
     "style_experimental"
   ],
-  "themes": [
-    "theme_satire",
-    "theme_life",
-    "theme_society"
-  ],
+  "themes": [],
   "tracks": [
     "track_mc-gey-epizoda-1",
     "track_mc-gey-g-funk",
@@ -47,5 +40,16 @@
     "track_mc-gey-tvoje-holka",
     "track_mc-gey-urazeni-lidi",
     "track_mc-gey-viktana"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw",
+      "mood_abstract"
+    ],
+    "themes": [
+      "theme_satire",
+      "theme_life",
+      "theme_society"
+    ]
+  }
 }

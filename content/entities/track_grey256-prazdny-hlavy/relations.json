@@ -13,12 +13,16 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_authenticity"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident"
+    ],
+    "themes": [
+      "theme_authenticity"
+    ]
+  }
 }

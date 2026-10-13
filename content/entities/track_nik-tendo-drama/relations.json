@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_money"
-  ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_confident",
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_confident",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_money"
+    ]
+  }
 }

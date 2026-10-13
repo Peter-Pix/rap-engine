@@ -10,15 +10,19 @@
     "genre_boom-bap"
   ],
   "styles": [],
-  "themes": [
-    "theme_lifestyle",
-    "theme_society",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_aggressive",
-    "mood_confident"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_aggressive",
+      "mood_confident"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_society",
+      "theme_self-reflection"
+    ]
+  }
 }

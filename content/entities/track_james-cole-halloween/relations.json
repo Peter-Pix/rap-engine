@@ -15,13 +15,17 @@
   "styles": [
     "style_conscious"
   ],
-  "themes": [
-    "theme_self-reflection",
-    "theme_society"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_aggressive"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_aggressive"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_society"
+    ]
+  }
 }

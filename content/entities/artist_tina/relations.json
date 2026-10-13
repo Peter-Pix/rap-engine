@@ -20,22 +20,26 @@
   "albums": [
     "album_unplugged-2004-2014"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_positive",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
-  "themes": [
-    "theme_betrayal",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_pressure",
-    "theme_relationships"
-  ],
-  "related": []
+  "moods": [],
+  "themes": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_positive",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_pressure",
+      "theme_relationships"
+    ]
+  }
 }

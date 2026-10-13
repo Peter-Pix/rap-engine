@@ -12,12 +12,16 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_money"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident"
+    ],
+    "themes": [
+      "theme_money"
+    ]
+  }
 }

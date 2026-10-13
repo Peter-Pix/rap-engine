@@ -18,13 +18,7 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_dark",
-    "mood_defiant",
-    "mood_energetic",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_byzo",
@@ -38,10 +32,20 @@
     "style_experimental",
     "hardcore"
   ],
-  "themes": [
-    "theme_lifestyle",
-    "theme_satire",
-    "theme_society"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_dark",
+      "mood_defiant",
+      "mood_energetic",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_satire",
+      "theme_society"
+    ]
+  }
 }

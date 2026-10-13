@@ -15,14 +15,18 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_lifestyle",
-    "theme_nightlife"
-  ],
-  "moods": [
-    "mood_club",
-    "mood_dark",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_nightlife"
+    ]
+  }
 }

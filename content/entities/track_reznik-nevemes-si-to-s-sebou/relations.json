@@ -15,16 +15,20 @@
     "genre_hardcore-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_death",
-    "theme_lifestyle",
-    "theme_money",
-    "theme_social-reality"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_defiant",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_defiant",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_death",
+      "theme_lifestyle",
+      "theme_money",
+      "theme_social-reality"
+    ]
+  }
 }

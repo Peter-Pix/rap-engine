@@ -14,15 +14,19 @@
     "style_introspective",
     "style_conscious"
   ],
-  "themes": [
-    "theme_life",
-    "theme_self-reflection",
-    "theme_street-life"
-  ],
-  "moods": [
-    "mood_positive",
-    "mood_emotional",
-    "mood_atmospheric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_positive",
+      "mood_emotional",
+      "mood_atmospheric"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_self-reflection",
+      "theme_street-life"
+    ]
+  }
 }

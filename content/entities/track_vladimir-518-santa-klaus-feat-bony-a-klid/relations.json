@@ -17,17 +17,21 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_flex",
-    "theme_society",
-    "theme_street-life",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_confident"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_confident"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_society",
+      "theme_street-life",
+      "theme_success"
+    ]
+  }
 }

@@ -17,13 +17,17 @@
   "styles": [
     "style_introspective"
   ],
-  "themes": [
-    "theme_lifestyle",
-    "theme_society"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_aggressive"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_aggressive"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_society"
+    ]
+  }
 }

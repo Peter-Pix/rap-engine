@@ -10,16 +10,20 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_money",
-    "theme_nightlife",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_money",
+      "theme_nightlife",
+      "theme_success"
+    ]
+  }
 }

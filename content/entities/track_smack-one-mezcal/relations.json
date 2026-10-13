@@ -14,13 +14,17 @@
     "genre_grime"
   ],
   "styles": [],
-  "themes": [
-    "theme_nightlife"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_nightlife"
+    ]
+  }
 }

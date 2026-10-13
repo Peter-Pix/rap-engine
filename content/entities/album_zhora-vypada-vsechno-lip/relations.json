@@ -11,11 +11,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,12 +21,7 @@
     "style_melodic",
     "style_street"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success",
-    "theme_life",
-    "theme_lifestyle"
-  ],
+  "themes": [],
   "tracks": [
     "track_yzomandias-217",
     "track_yzomandias-aloha",
@@ -45,5 +36,18 @@
     "track_yzomandias-lasku",
     "track_yzomandias-neco-se-bude-dit",
     "track_yzomandias-vrana-k-vrane"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success",
+      "theme_life",
+      "theme_lifestyle"
+    ]
+  }
 }

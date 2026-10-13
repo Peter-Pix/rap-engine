@@ -18,16 +18,20 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_relationships",
-    "theme_street-life",
-    "theme_lifestyle"
-  ],
-  "moods": [
-    "mood_melancholic",
-    "mood_chill",
-    "mood_club"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_melancholic",
+      "mood_chill",
+      "mood_club"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_relationships",
+      "theme_street-life",
+      "theme_lifestyle"
+    ]
+  }
 }

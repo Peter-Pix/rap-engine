@@ -15,12 +15,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_lofi",
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -30,12 +25,7 @@
     "style_introspective",
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships",
-    "theme_lifestyle",
-    "theme_success"
-  ],
+  "themes": [],
   "tracks": [
     "track_viktor-sheen-sklo-1",
     "track_viktor-sheen-pribehy-sny-2",
@@ -53,5 +43,19 @@
     "track_viktor-sheen-spaceship-14",
     "track_viktor-sheen-blessed-15",
     "track_viktor-sheen-no-hands-16"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_lofi",
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships",
+      "theme_lifestyle",
+      "theme_success"
+    ]
+  }
 }

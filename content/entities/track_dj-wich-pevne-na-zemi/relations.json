@@ -15,14 +15,18 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_self-reflection",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_euphoric",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_euphoric",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_success"
+    ]
+  }
 }

@@ -10,14 +10,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_euphoric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_euphoric"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_success"
+    ]
+  }
 }

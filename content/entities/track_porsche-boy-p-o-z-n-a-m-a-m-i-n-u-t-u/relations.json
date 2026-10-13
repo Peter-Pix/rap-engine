@@ -15,12 +15,16 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_chill"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_relationships"
+    ]
+  }
 }

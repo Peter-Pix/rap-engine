@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_energetic",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_energetic",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_ego"
+    ]
+  }
 }

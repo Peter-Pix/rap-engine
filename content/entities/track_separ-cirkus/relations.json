@@ -10,12 +10,16 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_relationships"
+    ]
+  }
 }

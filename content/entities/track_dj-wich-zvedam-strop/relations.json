@@ -12,13 +12,17 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_authenticity",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_energetic",
-    "mood_positive"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_energetic",
+      "mood_positive"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_self-reflection"
+    ]
+  }
 }

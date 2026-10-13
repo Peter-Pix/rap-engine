@@ -33,22 +33,7 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_gritty",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_orion"
@@ -59,18 +44,37 @@
     "style_introspective",
     "style_poetic"
   ],
-  "themes": [
-    "theme_authenticity",
-    "theme_ego",
-    "theme_flex",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_pressure",
-    "theme_social-reality",
-    "theme_society",
-    "theme_street-life",
-    "theme_value"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_gritty",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_ego",
+      "theme_flex",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_pressure",
+      "theme_social-reality",
+      "theme_society",
+      "theme_street-life",
+      "theme_value"
+    ]
+  }
 }

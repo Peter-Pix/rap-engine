@@ -10,16 +10,19 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_chill",
-    "mood_melancholic",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_melancholic",
+      "mood_positive",
+      "mood_thoughtful"
+    ]
+  }
 }

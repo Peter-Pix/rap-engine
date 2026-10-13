@@ -16,13 +16,17 @@
     "style_melodic",
     "style_catchy"
   ],
-  "themes": [
-    "theme_lifestyle",
-    "theme_flex"
-  ],
-  "moods": [
-    "mood_playful",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_playful",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_flex"
+    ]
+  }
 }

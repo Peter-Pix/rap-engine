@@ -10,17 +10,21 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_fame",
-    "theme_loyalty",
-    "theme_nightlife"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_playful",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_playful",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_fame",
+      "theme_loyalty",
+      "theme_nightlife"
+    ]
+  }
 }

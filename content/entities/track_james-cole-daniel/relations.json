@@ -13,15 +13,19 @@
     "genre_new-school"
   ],
   "styles": [],
-  "themes": [
-    "theme_relationships",
-    "theme_life",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_melancholic",
-    "mood_emotional"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_melancholic",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_relationships",
+      "theme_life",
+      "theme_self-reflection"
+    ]
+  }
 }

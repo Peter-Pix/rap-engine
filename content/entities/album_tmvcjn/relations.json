@@ -1,7 +1,36 @@
 {
-  "albums": [], "artists": ["artist_robin-zoot"],
-  "genres": ["genre_trap", "genre_rap"], "influencedBy": [], "labels": ["label_milion-plus"],
-  "locations": [], "moods": ["mood_club", "mood_dark"], "partOf": [], "related": [],
-  "scenes": ["scene_mainstream"], "styles": ["style_street"],
-  "themes": ["theme_flex", "theme_life"], "tracks": []
+  "albums": [],
+  "artists": [
+    "artist_robin-zoot"
+  ],
+  "genres": [
+    "genre_trap",
+    "genre_rap"
+  ],
+  "influencedBy": [],
+  "labels": [
+    "label_milion-plus"
+  ],
+  "locations": [],
+  "moods": [],
+  "partOf": [],
+  "related": [],
+  "scenes": [
+    "scene_mainstream"
+  ],
+  "styles": [
+    "style_street"
+  ],
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life"
+    ]
+  }
 }

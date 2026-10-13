@@ -12,12 +12,16 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_loyalty"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_dark"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_loyalty"
+    ]
+  }
 }

@@ -27,13 +27,7 @@
   "styles": [
     "style_experimental"
   ],
-  "moods": [
-    "mood_abstract",
-    "mood_confident",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_energetic"
-  ],
+  "moods": [],
   "influencedBy": [],
   "partOf": [],
   "related": [
@@ -47,9 +41,19 @@
     "artist_yzomandias"
   ],
   "scenes": [],
-  "themes": [
-    "theme_flex",
-    "theme_lifestyle"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_abstract",
+      "mood_confident",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_lifestyle"
+    ]
+  }
 }

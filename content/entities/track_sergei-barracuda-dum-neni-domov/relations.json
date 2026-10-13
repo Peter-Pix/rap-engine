@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_romantic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_romantic"
+    ],
+    "themes": [
+      "theme_relationships"
+    ]
+  }
 }

@@ -13,10 +13,7 @@
     "label_blakkwood-records"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,10 +22,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success"
-  ],
+  "themes": [],
   "tracks": [
     "track_renne-dang-ctnost",
     "track_renne-dang-dang",
@@ -46,5 +40,15 @@
     "track_renne-dang-vlastni-stin",
     "track_renne-dang-voda",
     "track_renne-dang-za-mnou-hori-svet"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success"
+    ]
+  }
 }

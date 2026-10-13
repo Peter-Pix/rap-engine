@@ -10,10 +10,7 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_club"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -22,10 +19,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_sofian-medjmedj-zpoved",
     "track_sofian-medjmedj-faded",
@@ -38,5 +32,15 @@
     "track_sofian-medjmedj-pod-tvou-kuzi",
     "track_sofian-medjmedj-posledni-cigaro",
     "track_sofian-medjmedj-pryc"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_club"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

@@ -14,14 +14,18 @@
     "genre_melodic-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_relationships",
-    "theme_lifestyle"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_club"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_club"
+    ],
+    "themes": [
+      "theme_relationships",
+      "theme_lifestyle"
+    ]
+  }
 }

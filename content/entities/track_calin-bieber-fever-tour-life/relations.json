@@ -10,15 +10,19 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_dark",
-    "mood_energetic",
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_dark",
+      "mood_energetic",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_relationships"
+    ]
+  }
 }

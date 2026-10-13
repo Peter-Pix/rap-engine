@@ -11,15 +11,19 @@
     "genre_old-school-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_flex",
-    "theme_lifestyle",
-    "theme_street-life"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_chill",
-    "mood_aggressive"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_chill",
+      "mood_aggressive"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_lifestyle",
+      "theme_street-life"
+    ]
+  }
 }

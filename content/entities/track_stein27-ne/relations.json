@@ -19,15 +19,19 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_relationships",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_relationships",
+      "theme_self-reflection"
+    ]
+  }
 }

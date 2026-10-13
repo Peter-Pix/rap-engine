@@ -11,14 +11,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_pressure"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_pressure"
+    ]
+  }
 }

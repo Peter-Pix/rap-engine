@@ -14,15 +14,19 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_death",
-    "theme_drugs"
-  ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_dark",
-    "mood_melancholic",
-    "mood_night"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_dark",
+      "mood_melancholic",
+      "mood_night"
+    ],
+    "themes": [
+      "theme_death",
+      "theme_drugs"
+    ]
+  }
 }

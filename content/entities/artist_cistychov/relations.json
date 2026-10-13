@@ -31,11 +31,7 @@
     "location_slovensko"
   ],
   "influencedBy": [],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_playful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_bacile",
@@ -46,8 +42,16 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_betrayal"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_betrayal"
+    ]
+  }
 }

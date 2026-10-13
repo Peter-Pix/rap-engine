@@ -12,12 +12,16 @@
   "styles": [
     "style_introspective"
   ],
-  "themes": [
-    "theme_street-life"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_club"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_club"
+    ],
+    "themes": [
+      "theme_street-life"
+    ]
+  }
 }

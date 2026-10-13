@@ -12,10 +12,7 @@
     "label_biggboss"
   ],
   "locations": [],
-  "moods": [
-    "mood_raw",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,10 +22,7 @@
     "style_street",
     "style_aggressive"
   ],
-  "themes": [
-    "theme_life",
-    "theme_street-life"
-  ],
+  "themes": [],
   "tracks": [
     "track_maniak-sputnik",
     "track_maniak-husky",
@@ -47,5 +41,15 @@
     "track_maniak-dspt",
     "track_maniak-slaba-sila",
     "track_maniak-leep"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_street-life"
+    ]
+  }
 }

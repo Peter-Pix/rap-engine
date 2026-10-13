@@ -13,10 +13,7 @@
   "locations": [
     "location_ostrava"
   ],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,14 +23,21 @@
     "style_street",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_street-life"
-  ],
+  "themes": [],
   "tracks": [
     "track_hard-rico-chabr",
     "track_hard-rico-furt",
     "track_hard-rico-kriminal-mood",
     "track_hard-rico-mala-zem",
     "track_hard-rico-mladej-zmrd-bohatej"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_street-life"
+    ]
+  }
 }

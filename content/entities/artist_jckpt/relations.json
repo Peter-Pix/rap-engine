@@ -10,21 +10,25 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_atmospheric",
-    "mood_dark",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_drugs",
-    "theme_relationships"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_dark",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_drugs",
+      "theme_relationships"
+    ]
+  }
 }

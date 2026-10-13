@@ -12,10 +12,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,10 +21,7 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_robin-zoot-intro",
     "track_robin-zoot-sphynx-feat-nik-tendo-jickson",
@@ -40,5 +34,15 @@
     "track_robin-zoot-jinej-vztah-feat-yzomandias",
     "track_robin-zoot-oversize",
     "track_robin-zoot-vsechno-jak-ma-bejt"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life"
+    ]
+  }
 }

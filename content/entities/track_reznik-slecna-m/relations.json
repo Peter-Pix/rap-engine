@@ -15,13 +15,17 @@
   "styles": [
     "style_introspective"
   ],
-  "themes": [
-    "theme_lifestyle",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_chill"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_relationships"
+    ]
+  }
 }

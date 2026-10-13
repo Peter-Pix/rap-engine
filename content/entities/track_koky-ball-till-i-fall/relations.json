@@ -16,16 +16,20 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_loyalty",
-    "theme_money",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_loyalty",
+      "theme_money",
+      "theme_success"
+    ]
+  }
 }

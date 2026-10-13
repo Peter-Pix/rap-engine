@@ -29,11 +29,7 @@
     "style_experimental",
     "style_melodic"
   ],
-  "moods": [
-    "mood_emotional",
-    "mood_abstract",
-    "mood_dark"
-  ],
+  "moods": [],
   "albums": [
     "album_ep01"
   ],
@@ -51,5 +47,12 @@
   ],
   "scenes": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_abstract",
+      "mood_dark"
+    ]
+  }
 }

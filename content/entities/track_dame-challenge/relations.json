@@ -10,15 +10,19 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_individualism"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_energetic",
-    "mood_euphoric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_energetic",
+      "mood_euphoric"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_individualism"
+    ]
+  }
 }

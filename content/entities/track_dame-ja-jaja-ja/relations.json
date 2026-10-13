@@ -10,13 +10,17 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_satire"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_defiant"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_defiant"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_satire"
+    ]
+  }
 }

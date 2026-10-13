@@ -21,13 +21,17 @@
     "style_conscious",
     "style_introspective"
   ],
-  "themes": [
-    "theme_society",
-    "theme_street-life"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_society",
+      "theme_street-life"
+    ]
+  }
 }

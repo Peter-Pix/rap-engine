@@ -13,10 +13,7 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,10 +22,7 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_life",
-    "theme_street-life"
-  ],
+  "themes": [],
   "tracks": [
     "track_blako-krazy",
     "track_hasan-bez-emoci-2",
@@ -39,5 +33,15 @@
     "track_hasan-petr-pavel",
     "track_hasan-plnej-pack",
     "track_hasan-slzy-stesti"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_street-life"
+    ]
+  }
 }

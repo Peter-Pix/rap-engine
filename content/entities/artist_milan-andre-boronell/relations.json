@@ -5,18 +5,22 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_calm",
-    "mood_melancholic",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_self-reflection"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_calm",
+      "mood_melancholic",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_self-reflection"
+    ]
+  }
 }

@@ -15,16 +15,20 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_relationships"
+    ]
+  }
 }

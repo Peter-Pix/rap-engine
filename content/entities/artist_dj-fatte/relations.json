@@ -43,12 +43,7 @@
     "location_zlin",
     "location_cesko"
   ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_dj-wich",
@@ -64,8 +59,17 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_pressure"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_pressure"
+    ]
+  }
 }

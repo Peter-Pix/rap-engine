@@ -24,27 +24,31 @@
   "styles": [
     "style_melodic"
   ],
-  "moods": [
-    "mood_club",
-    "mood_confident",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_positive",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "albums": [
     "album_laska-je-cool",
     "album_trueself"
   ],
-  "themes": [
-    "theme_authenticity",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_lifestyle",
-    "theme_loyalty",
-    "theme_relationships"
-  ]
+  "themes": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_confident",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_positive",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_lifestyle",
+      "theme_loyalty",
+      "theme_relationships"
+    ]
+  }
 }

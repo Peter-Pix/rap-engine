@@ -22,15 +22,18 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_atmospheric",
-    "mood_emotional",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_emotional",
+      "mood_thoughtful"
+    ]
+  }
 }

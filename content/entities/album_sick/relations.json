@@ -1,9 +1,36 @@
 {
-  "albums": [], "artists": ["artist_smack"], "genres": ["genre_grime"],
-  "influencedBy": [], "labels": ["label_archetyp-51"],
-  "locations": [], "moods": ["mood_raw", "mood_dark"],
-  "partOf": [], "related": [], "scenes": ["scene_underground"],
-  "styles": ["style_hardcore", "style_aggressive"],
-  "themes": ["theme_society", "theme_street-life"],
-  "tracks": []
+  "albums": [],
+  "artists": [
+    "artist_smack"
+  ],
+  "genres": [
+    "genre_grime"
+  ],
+  "influencedBy": [],
+  "labels": [
+    "label_archetyp-51"
+  ],
+  "locations": [],
+  "moods": [],
+  "partOf": [],
+  "related": [],
+  "scenes": [
+    "scene_underground"
+  ],
+  "styles": [
+    "style_hardcore",
+    "style_aggressive"
+  ],
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_society",
+      "theme_street-life"
+    ]
+  }
 }

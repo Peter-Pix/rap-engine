@@ -10,14 +10,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_relationships",
-    "theme_self-reflection",
-    "theme_violence"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_relationships",
+      "theme_self-reflection",
+      "theme_violence"
+    ]
+  }
 }

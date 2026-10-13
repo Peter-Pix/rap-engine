@@ -14,14 +14,18 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_emotional",
-    "mood_euphoric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_emotional",
+      "mood_euphoric"
+    ],
+    "themes": [
+      "theme_relationships"
+    ]
+  }
 }

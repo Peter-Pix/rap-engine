@@ -12,16 +12,20 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_power",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_power",
+      "theme_success"
+    ]
+  }
 }

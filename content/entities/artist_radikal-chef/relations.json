@@ -30,16 +30,20 @@
     "location_ruzomberok",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_club",
-    "mood_confident",
-    "mood_positive"
-  ],
+  "moods": [],
   "partOf": [],
   "scenes": [],
-  "themes": [
-    "theme_flex",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_confident",
+      "mood_positive"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success"
+    ]
+  }
 }

@@ -8,16 +8,20 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_melancholic"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_relationships"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_relationships"
+    ]
+  }
 }

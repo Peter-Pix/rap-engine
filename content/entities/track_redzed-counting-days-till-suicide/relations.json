@@ -12,15 +12,19 @@
     "genre_emo-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_life",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_aggressive",
-    "mood_melancholic",
-    "mood_emotional"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_aggressive",
+      "mood_melancholic",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_self-reflection"
+    ]
+  }
 }

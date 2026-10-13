@@ -10,14 +10,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_authenticity",
-    "theme_life",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_life",
+      "theme_self-reflection"
+    ]
+  }
 }

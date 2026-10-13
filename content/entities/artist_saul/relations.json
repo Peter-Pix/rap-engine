@@ -21,15 +21,7 @@
     "location_slovensko",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_night",
-    "mood_proud",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_viktor-sheen",
@@ -45,10 +37,22 @@
     "style_atmospheric",
     "style_rnb"
   ],
-  "themes": [
-    "theme_self-reflection",
-    "theme_life",
-    "theme_relationships"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_night",
+      "mood_proud",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

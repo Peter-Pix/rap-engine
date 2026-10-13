@@ -10,15 +10,19 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_authenticity",
-    "theme_humor"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_defiant",
-    "mood_energetic",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_defiant",
+      "mood_energetic",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_humor"
+    ]
+  }
 }

@@ -11,18 +11,22 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_night",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_nightlife",
-    "theme_self-reflection"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_night",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_nightlife",
+      "theme_self-reflection"
+    ]
+  }
 }

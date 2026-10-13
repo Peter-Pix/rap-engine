@@ -12,10 +12,7 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,11 +21,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_sofian-medjmedj-cekam-az-mi-odpovis",
     "track_sofian-medjmedj-deep-sam",
@@ -42,5 +35,16 @@
     "track_sofian-medjmedj-supersonic-speed",
     "track_sofian-medjmedj-wassup",
     "track_sofian-medjmedj-wasted"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships",
+      "theme_flex"
+    ]
+  }
 }

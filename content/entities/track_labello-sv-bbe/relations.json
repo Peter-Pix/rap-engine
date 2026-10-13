@@ -16,14 +16,18 @@
     "genre_pop-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_self-reflection",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_emotional"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_relationships"
+    ]
+  }
 }

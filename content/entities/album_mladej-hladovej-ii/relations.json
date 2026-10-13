@@ -14,10 +14,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,10 +23,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_grey256-babyface-ii",
     "track_grey256-cernej-whip",
@@ -43,5 +37,15 @@
     "track_grey256-prazdnej-ii",
     "track_grey256-prazdny-hlavy",
     "track_grey256-vocomide"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

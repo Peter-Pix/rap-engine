@@ -12,10 +12,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,10 +22,7 @@
     "style_melodic",
     "style_experimental"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_grey256-257",
     "track_grey256-cekame-na-start",
@@ -43,5 +37,15 @@
     "track_grey256-v-my-hlave",
     "track_grey256-vyjimecny",
     "track_grey256-wow"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

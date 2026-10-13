@@ -30,17 +30,7 @@
     "album_vic-nez-hudba"
   ],
   "influencedBy": [],
-  "moods": [
-    "mood_calm",
-    "mood_confident",
-    "mood_dark",
-    "mood_emotional",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_positive",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_idea",
@@ -50,12 +40,26 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_loyalty",
-    "theme_relationships"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_calm",
+      "mood_confident",
+      "mood_dark",
+      "mood_emotional",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_positive",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_loyalty",
+      "theme_relationships"
+    ]
+  }
 }

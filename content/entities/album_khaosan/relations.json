@@ -12,10 +12,7 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,11 +21,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_ben-cristovao-dlouha-noc",
     "track_ben-cristovao-fancy",
@@ -43,5 +36,16 @@
     "track_ben-cristovao-rolady-respekt",
     "track_ben-cristovao-vlci",
     "track_ben-cristovao-vodopady"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships",
+      "theme_flex"
+    ]
+  }
 }

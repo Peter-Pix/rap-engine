@@ -23,14 +23,18 @@
     "style_catchy",
     "style_melodic"
   ],
-  "themes": [
-    "theme_regional",
-    "theme_humor",
-    "theme_lifestyle"
-  ],
-  "moods": [
-    "mood_playful",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_playful",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_regional",
+      "theme_humor",
+      "theme_lifestyle"
+    ]
+  }
 }

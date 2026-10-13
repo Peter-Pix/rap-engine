@@ -9,14 +9,7 @@
   "locations": [
     "location_tabor"
   ],
-  "moods": [
-    "mood_abstract",
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_dark",
-    "mood_emotional",
-    "mood_energetic"
-  ],
+  "moods": [],
   "styles": [
     "style_melodic",
     "style_experimental"
@@ -26,8 +19,19 @@
     "artist_skelly",
     "artist_vercetti-cg"
   ],
-  "themes": [
-    "theme_self-reflection",
-    "theme_success"
-  ]
+  "themes": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_abstract",
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_dark",
+      "mood_emotional",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_success"
+    ]
+  }
 }

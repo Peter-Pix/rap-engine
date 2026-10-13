@@ -26,13 +26,7 @@
     "location_bratislava",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_club",
-    "mood_confident",
-    "mood_dark",
-    "mood_energetic",
-    "mood_euphoric"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_dollar-prync",
@@ -41,5 +35,14 @@
   "scenes": [],
   "styles": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_confident",
+      "mood_dark",
+      "mood_energetic",
+      "mood_euphoric"
+    ]
+  }
 }

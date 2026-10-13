@@ -12,10 +12,7 @@
     "label_detektor-records"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,11 +22,7 @@
     "style_melodic",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_ektor-king-kong-1",
     "track_ektor-kvuli-nim",
@@ -43,5 +36,16 @@
     "track_ektor-g",
     "track_ektor-vytah",
     "track_ektor-zaseklej-v-case"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success",
+      "theme_life"
+    ]
+  }
 }

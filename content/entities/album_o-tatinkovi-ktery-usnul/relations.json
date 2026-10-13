@@ -13,11 +13,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -27,11 +23,7 @@
     "style_conscious",
     "style_experimental"
   ],
-  "themes": [
-    "theme_life",
-    "theme_society",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_mc-gey-az-budete-spat",
     "track_mc-gey-budi-me-chcani-ale-zaspim-to",
@@ -46,5 +38,17 @@
     "track_mc-gey-sam-s-sebou",
     "track_mc-gey-tenhle-syntak-kdysi-koupil-tata",
     "track_mc-gey-v-zeli"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_society",
+      "theme_flex"
+    ]
+  }
 }

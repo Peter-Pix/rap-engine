@@ -10,15 +10,19 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_art",
-    "theme_life",
-    "theme_loyalty"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_proud",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_proud",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_art",
+      "theme_life",
+      "theme_loyalty"
+    ]
+  }
 }

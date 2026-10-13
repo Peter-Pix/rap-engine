@@ -11,10 +11,7 @@
     "label_archetyp-51"
   ],
   "locations": [],
-  "moods": [
-    "mood_raw",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,10 +21,7 @@
     "style_hardcore",
     "style_aggressive"
   ],
-  "themes": [
-    "theme_life",
-    "theme_society"
-  ],
+  "themes": [],
   "tracks": [
     "track_smack-one-clockwork",
     "track_smack-one-co-kdyz",
@@ -39,5 +33,15 @@
     "track_smack-one-oh-my-god",
     "track_smack-one-sexy-red",
     "track_smack-one-tak-jo"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_society"
+    ]
+  }
 }

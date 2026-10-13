@@ -18,14 +18,18 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_nightlife",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_night",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_night",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_nightlife",
+      "theme_self-reflection"
+    ]
+  }
 }

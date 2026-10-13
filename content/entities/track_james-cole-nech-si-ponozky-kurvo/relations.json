@@ -10,14 +10,18 @@
     "genre_new-school"
   ],
   "styles": [],
-  "themes": [
-    "theme_lifestyle",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_chill"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_relationships"
+    ]
+  }
 }

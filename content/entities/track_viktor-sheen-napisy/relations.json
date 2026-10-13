@@ -14,14 +14,18 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_nightlife",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_nightlife",
+      "theme_self-reflection"
+    ]
+  }
 }

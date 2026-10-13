@@ -33,21 +33,7 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_calm",
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_night",
-    "mood_playful",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
@@ -55,18 +41,36 @@
     "style_conscious",
     "style_introspective"
   ],
-  "themes": [
-    "theme_authenticity",
-    "theme_ego",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_loyalty",
-    "theme_pressure",
-    "theme_satire",
-    "theme_social-reality",
-    "theme_society",
-    "theme_street-life"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_calm",
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_night",
+      "mood_playful",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_ego",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_loyalty",
+      "theme_pressure",
+      "theme_satire",
+      "theme_social-reality",
+      "theme_society",
+      "theme_street-life"
+    ]
+  }
 }

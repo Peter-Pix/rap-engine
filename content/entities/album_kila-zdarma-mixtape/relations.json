@@ -11,10 +11,7 @@
   "locations": [
     "location_ostrava"
   ],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "scenes": [
     "scene_mainstream"
   ],
@@ -22,10 +19,7 @@
     "style_street",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_sergei-barracuda-moonlight",
     "track_sergei-barracuda-move",
@@ -40,5 +34,15 @@
     "track_sergei-barracuda-tvari-se-ze-sou-real",
     "track_sergei-barracuda-varna",
     "track_sergei-barracuda-z-ghetta"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_life"
+    ]
+  }
 }

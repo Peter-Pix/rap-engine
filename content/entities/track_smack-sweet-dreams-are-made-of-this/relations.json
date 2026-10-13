@@ -12,14 +12,18 @@
     "genre_new-school"
   ],
   "styles": [],
-  "themes": [
-    "theme_flex",
-    "theme_street-life"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_aggressive",
-    "mood_club"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_aggressive",
+      "mood_club"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_street-life"
+    ]
+  }
 }

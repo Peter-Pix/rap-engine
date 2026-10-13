@@ -14,17 +14,21 @@
   "locations": [
     "location_praha"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_success"
+    ]
+  }
 }

@@ -10,12 +10,16 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_money"
-  ],
-  "moods": [
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_money"
+    ]
+  }
 }

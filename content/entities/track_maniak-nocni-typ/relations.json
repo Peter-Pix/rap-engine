@@ -15,14 +15,18 @@
     "genre_hip-hop"
   ],
   "styles": [],
-  "themes": [
-    "theme_nightlife",
-    "theme_social-reality"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_dark",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_dark",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_nightlife",
+      "theme_social-reality"
+    ]
+  }
 }

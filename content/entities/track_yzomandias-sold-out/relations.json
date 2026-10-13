@@ -12,16 +12,20 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_luxury",
-    "theme_nightlife"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_energetic",
-    "mood_euphoric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_energetic",
+      "mood_euphoric"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_luxury",
+      "theme_nightlife"
+    ]
+  }
 }

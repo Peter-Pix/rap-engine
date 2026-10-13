@@ -17,11 +17,7 @@
   "locations": [
     "location_slovensko"
   ],
-  "moods": [
-    "mood_romantic",
-    "mood_emotional",
-    "mood_chill"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_calin"
@@ -31,9 +27,17 @@
     "style_melodic",
     "style_rnb"
   ],
-  "themes": [
-    "theme_relationships",
-    "theme_life"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_romantic",
+      "mood_emotional",
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_relationships",
+      "theme_life"
+    ]
+  }
 }

@@ -40,15 +40,18 @@
     "location_cheb",
     "location_cesko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_dark"
+    ]
+  }
 }

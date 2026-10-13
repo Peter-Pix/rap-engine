@@ -36,12 +36,7 @@
   "labels": [
     "label_dogma-family"
   ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_melancholic"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_astralkid22",
@@ -51,19 +46,28 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_authenticity",
-    "theme_drugs",
-    "theme_ego",
-    "theme_flex",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_loyalty",
-    "theme_luxury",
-    "theme_money",
-    "theme_nightlife",
-    "theme_regional",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_drugs",
+      "theme_ego",
+      "theme_flex",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_loyalty",
+      "theme_luxury",
+      "theme_money",
+      "theme_nightlife",
+      "theme_regional",
+      "theme_success"
+    ]
+  }
 }

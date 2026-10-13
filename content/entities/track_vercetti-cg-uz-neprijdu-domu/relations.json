@@ -12,14 +12,18 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_drugs",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_drugs",
+      "theme_self-reflection"
+    ]
+  }
 }

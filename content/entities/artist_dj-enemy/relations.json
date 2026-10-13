@@ -16,12 +16,15 @@
   "styles": [
     "style_underground"
   ],
-  "moods": [
-    "mood_dark"
-  ],
+  "moods": [],
   "related": [
     "artist_dj-wich",
     "artist_orion",
     "artist_rest"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark"
+    ]
+  }
 }

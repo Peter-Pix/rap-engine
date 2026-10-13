@@ -27,18 +27,7 @@
     "style_melodic",
     "hardcore"
   ],
-  "moods": [
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_dark",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_night",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "influencedBy": [],
   "locations": [
     "location_bratislava",
@@ -52,20 +41,35 @@
     "artist_zayo"
   ],
   "scenes": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_drugs",
-    "theme_flex",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_loyalty",
-    "theme_money",
-    "theme_nightlife",
-    "theme_regional",
-    "theme_relationships",
-    "theme_street-life",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_dark",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_night",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_drugs",
+      "theme_flex",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_loyalty",
+      "theme_money",
+      "theme_nightlife",
+      "theme_regional",
+      "theme_relationships",
+      "theme_street-life",
+      "theme_success"
+    ]
+  }
 }

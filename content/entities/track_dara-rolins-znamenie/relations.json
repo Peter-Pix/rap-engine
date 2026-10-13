@@ -10,12 +10,16 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_emotional"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_relationships"
+    ]
+  }
 }

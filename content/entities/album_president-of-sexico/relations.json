@@ -14,10 +14,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,11 +23,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_stein27-stfu",
     "track_stein27-do-nebe",
@@ -38,5 +31,16 @@
     "track_stein27-mosudo",
     "track_stein27-mraky",
     "track_stein27-pristav"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships",
+      "theme_flex"
+    ]
+  }
 }

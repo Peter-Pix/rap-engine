@@ -31,20 +31,7 @@
   "labels": [
     "label_universal-music"
   ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_calm",
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_ben-cristovao",
@@ -58,16 +45,33 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_betrayal",
-    "theme_drugs",
-    "theme_ego",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_loyalty",
-    "theme_nightlife",
-    "theme_relationships",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_calm",
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_drugs",
+      "theme_ego",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_loyalty",
+      "theme_nightlife",
+      "theme_relationships",
+      "theme_success"
+    ]
+  }
 }

@@ -13,14 +13,18 @@
     "genre_street-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_life"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_dark",
-    "mood_energetic",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_dark",
+      "mood_energetic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_life"
+    ]
+  }
 }

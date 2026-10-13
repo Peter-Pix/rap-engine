@@ -1,12 +1,39 @@
 {
-  "albums": [], "artists": ["artist_koky", "artist_hard-rico", "artist_ptk"],
-  "genres": ["genre_trap", "genre_rap"],
-  "influencedBy": [], "labels": ["label_milion-plus"],
+  "albums": [],
+  "artists": [
+    "artist_koky",
+    "artist_hard-rico",
+    "artist_ptk"
+  ],
+  "genres": [
+    "genre_trap",
+    "genre_rap"
+  ],
+  "influencedBy": [],
+  "labels": [
+    "label_milion-plus"
+  ],
   "locations": [],
-  "moods": ["mood_dark", "mood_raw"],
-  "partOf": [], "related": [],
-  "scenes": ["scene_mainstream"],
-  "styles": ["style_conscious", "style_street"],
-  "themes": ["theme_life", "theme_success"],
-  "tracks": []
+  "moods": [],
+  "partOf": [],
+  "related": [],
+  "scenes": [
+    "scene_mainstream"
+  ],
+  "styles": [
+    "style_conscious",
+    "style_street"
+  ],
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_success"
+    ]
+  }
 }

@@ -19,10 +19,7 @@
   "locations": [
     "location_liberec"
   ],
-  "moods": [
-    "mood_emotional",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -31,10 +28,7 @@
   "styles": [
     "style_conscious"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_paulie-garand-8",
     "track_paulie-garand-blizime-se-ohni",
@@ -49,5 +43,15 @@
     "track_paulie-garand-tulaci",
     "track_paulie-garand-zavod",
     "track_paulie-garand-zazrak"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

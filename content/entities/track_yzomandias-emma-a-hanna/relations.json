@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_power"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_defiant"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_defiant"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_power"
+    ]
+  }
 }

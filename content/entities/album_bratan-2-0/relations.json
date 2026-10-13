@@ -12,10 +12,7 @@
     "label_universal-music"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,10 +21,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_sensey-24-7-ready",
     "track_sensey-bby",
@@ -38,5 +32,15 @@
     "track_sensey-online",
     "track_sensey-rozcesti",
     "track_sensey-tightpac"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life"
+    ]
+  }
 }

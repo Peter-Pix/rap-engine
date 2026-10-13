@@ -12,13 +12,17 @@
     "genre_boom-bap"
   ],
   "styles": [],
-  "themes": [
-    "theme_society",
-    "theme_lifestyle"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_aggressive"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_aggressive"
+    ],
+    "themes": [
+      "theme_society",
+      "theme_lifestyle"
+    ]
+  }
 }

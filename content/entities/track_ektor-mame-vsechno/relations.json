@@ -12,16 +12,20 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_money",
-    "theme_self-reflection",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_money",
+      "theme_self-reflection",
+      "theme_success"
+    ]
+  }
 }

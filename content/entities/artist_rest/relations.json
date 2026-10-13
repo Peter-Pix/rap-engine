@@ -29,21 +29,7 @@
     "location_trencin",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_calm",
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_ben-cristovao",
@@ -69,15 +55,33 @@
   "styles": [
     "style_conscious"
   ],
-  "themes": [
-    "theme_humor",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_pressure",
-    "theme_relationships",
-    "theme_social-reality",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_calm",
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_humor",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_pressure",
+      "theme_relationships",
+      "theme_social-reality",
+      "theme_success"
+    ]
+  }
 }

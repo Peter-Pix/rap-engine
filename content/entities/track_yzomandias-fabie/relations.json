@@ -14,15 +14,19 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_money",
-    "theme_self-reflection",
-    "theme_social-reality"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_money",
+      "theme_self-reflection",
+      "theme_social-reality"
+    ]
+  }
 }

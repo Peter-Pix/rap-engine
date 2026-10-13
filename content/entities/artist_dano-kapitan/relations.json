@@ -4,18 +4,22 @@
     "genre_hip-hop",
     "genre_rap"
   ],
-  "moods": [
-    "mood_melancholic",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "themes": [
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_loyalty"
-  ],
+  "moods": [],
+  "themes": [],
   "related": [],
   "artists": [
     "artist_majk-spirit"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_melancholic",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_loyalty"
+    ]
+  }
 }

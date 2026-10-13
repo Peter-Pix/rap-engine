@@ -1,15 +1,19 @@
 {
   "albums": [],
-  "moods": [
-    "mood_energetic",
-    "mood_thoughtful"
-  ],
-  "themes": [
-    "theme_self-reflection"
-  ],
+  "moods": [],
+  "themes": [],
   "related": [],
   "artists": [
     "artist_dj-wich",
     "artist_rytmus"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_energetic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_self-reflection"
+    ]
+  }
 }

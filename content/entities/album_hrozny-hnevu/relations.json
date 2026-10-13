@@ -14,10 +14,7 @@
     "label_znk"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -27,10 +24,7 @@
     "style_hardcore",
     "style_experimental"
   ],
-  "themes": [
-    "theme_satire",
-    "theme_society"
-  ],
+  "themes": [],
   "tracks": [
     "track_reznik-bod-zlomu",
     "track_reznik-boli-to-byt-pijan",
@@ -46,5 +40,15 @@
     "track_reznik-transylvanie",
     "track_reznik-volebni-system",
     "track_reznik-zpicenec"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_satire",
+      "theme_society"
+    ]
+  }
 }

@@ -16,17 +16,21 @@
     "genre_pop-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_humor",
-    "theme_individualism",
-    "theme_money",
-    "theme_street-life"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_humor",
+      "theme_individualism",
+      "theme_money",
+      "theme_street-life"
+    ]
+  }
 }

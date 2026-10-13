@@ -16,10 +16,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -28,12 +25,19 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_life",
-    "theme_success",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_koky-sos"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_success",
+      "theme_flex"
+    ]
+  }
 }

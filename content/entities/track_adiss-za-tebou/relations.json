@@ -13,13 +13,17 @@
     "genre_rnb"
   ],
   "styles": [],
-  "themes": [
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_romantic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_romantic"
+    ],
+    "themes": [
+      "theme_relationships"
+    ]
+  }
 }

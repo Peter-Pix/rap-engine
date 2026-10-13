@@ -15,14 +15,18 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_death"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_defiant",
-    "mood_energetic",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_defiant",
+      "mood_energetic",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_death"
+    ]
+  }
 }

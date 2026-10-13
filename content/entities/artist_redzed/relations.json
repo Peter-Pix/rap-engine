@@ -15,19 +15,7 @@
     "style_aggressive",
     "style_hardcore"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_club",
-    "mood_confident",
-    "mood_dark",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_raw",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "albums": [
     "album_darkside-fanatic",
     "album_noise-at-a-funeral",
@@ -49,24 +37,40 @@
     "artist_bill-aber"
   ],
   "scenes": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_death",
-    "theme_drugs",
-    "theme_ego",
-    "theme_flex",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_money",
-    "theme_nightlife",
-    "theme_power",
-    "theme_pressure",
-    "theme_relationships",
-    "theme_social-reality",
-    "theme_street-life",
-    "theme_violence"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_club",
+      "mood_confident",
+      "mood_dark",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_raw",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_death",
+      "theme_drugs",
+      "theme_ego",
+      "theme_flex",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_money",
+      "theme_nightlife",
+      "theme_power",
+      "theme_pressure",
+      "theme_relationships",
+      "theme_social-reality",
+      "theme_street-life",
+      "theme_violence"
+    ]
+  }
 }

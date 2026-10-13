@@ -16,11 +16,7 @@
   "locations": [
     "location_ostrava"
   ],
-  "moods": [
-    "mood_dark",
-    "mood_raw",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -30,11 +26,19 @@
     "style_street",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_michajlov-san-andreas"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_life"
+    ]
+  }
 }

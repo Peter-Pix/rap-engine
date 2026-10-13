@@ -18,9 +18,7 @@
   "styles": [
     "style_street"
   ],
-  "moods": [
-    "mood_raw"
-  ],
+  "moods": [],
   "albums": [],
   "artists": [],
   "influencedBy": [],
@@ -36,5 +34,10 @@
   ],
   "scenes": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw"
+    ]
+  }
 }

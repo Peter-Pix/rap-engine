@@ -32,16 +32,7 @@
   ],
   "albums": [],
   "influencedBy": [],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_positive"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_7krat3",
@@ -54,14 +45,27 @@
     "style_conscious",
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_relationships",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_positive"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_relationships",
+      "theme_success"
+    ]
+  }
 }

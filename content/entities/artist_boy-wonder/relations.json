@@ -20,11 +20,7 @@
     "location_trnava",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_defiant",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_prezident-lourajder",
@@ -34,9 +30,17 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_self-reflection"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_defiant",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_self-reflection"
+    ]
+  }
 }

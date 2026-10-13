@@ -17,10 +17,7 @@
     "label_universal-music"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -29,10 +26,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_sensey-manager",
     "track_sensey-mury",
@@ -44,5 +38,15 @@
     "track_sensey-pamatuju",
     "track_sensey-ohen-9",
     "track_sensey-elon-musk-10"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

@@ -12,16 +12,20 @@
   "styles": [
     "style_introspective"
   ],
-  "themes": [
-    "theme_lifestyle",
-    "theme_nightlife",
-    "theme_street-life",
-    "theme_violence"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_chill",
-    "mood_dark"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_chill",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_lifestyle",
+      "theme_nightlife",
+      "theme_street-life",
+      "theme_violence"
+    ]
+  }
 }

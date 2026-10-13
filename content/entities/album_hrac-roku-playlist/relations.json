@@ -11,11 +11,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,11 +21,7 @@
     "style_melodic",
     "style_street"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_yzomandias-alimenty",
     "track_yzomandias-bad-byc",
@@ -44,5 +36,17 @@
     "track_yzomandias-slowmode",
     "track_yzomandias-usmev",
     "track_yzomandias-vypecenej-a-cerstvej"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success",
+      "theme_life"
+    ]
+  }
 }

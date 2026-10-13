@@ -12,12 +12,16 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_nightlife",
-    "theme_regional"
-  ],
-  "moods": [
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_nightlife",
+      "theme_regional"
+    ]
+  }
 }

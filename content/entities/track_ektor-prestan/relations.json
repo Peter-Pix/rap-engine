@@ -1,12 +1,37 @@
 {
-  "primaryArtist": ["artist_ektor"],
-  "belongsToAlbum": ["album_alfa"],
-  "producers": ["artist_dj-wich"],
+  "primaryArtist": [
+    "artist_ektor"
+  ],
+  "belongsToAlbum": [
+    "album_alfa"
+  ],
+  "producers": [
+    "artist_dj-wich"
+  ],
   "featuring": [],
-  "labels": ["label_golden-touch-records"],
-  "genres": ["genre_trap", "genre_new-school"],
-  "styles": ["style_aggressive", "style_confrontational"],
-  "themes": ["theme_beef", "theme_betrayal", "theme_success"],
-  "moods": ["mood_aggressive", "mood_energetic"],
-  "related": []
+  "labels": [
+    "label_golden-touch-records"
+  ],
+  "genres": [
+    "genre_trap",
+    "genre_new-school"
+  ],
+  "styles": [
+    "style_aggressive",
+    "style_confrontational"
+  ],
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_beef",
+      "theme_betrayal",
+      "theme_success"
+    ]
+  }
 }

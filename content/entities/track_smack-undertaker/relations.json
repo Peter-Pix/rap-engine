@@ -12,14 +12,18 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_death",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_dark",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_dark",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_death",
+      "theme_self-reflection"
+    ]
+  }
 }

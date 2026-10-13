@@ -42,14 +42,7 @@
   "labels": [
     "label_overgroundart"
   ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_calm",
-    "mood_chill",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_romantic"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_dalyb",
@@ -64,9 +57,20 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_self-reflection",
-    "theme_relationships"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_calm",
+      "mood_chill",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_romantic"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_relationships"
+    ]
+  }
 }

@@ -24,12 +24,7 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_james-cole",
@@ -39,5 +34,13 @@
   "scenes": [],
   "styles": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ]
+  }
 }

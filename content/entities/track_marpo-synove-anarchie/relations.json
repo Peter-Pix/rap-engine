@@ -12,14 +12,18 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_social-reality"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_defiant"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_defiant"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_social-reality"
+    ]
+  }
 }

@@ -12,16 +12,20 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_individualism",
-    "theme_social-reality"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_dark",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_dark",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_individualism",
+      "theme_social-reality"
+    ]
+  }
 }

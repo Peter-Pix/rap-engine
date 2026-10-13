@@ -10,12 +10,16 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric"
+    ],
+    "themes": [
+      "theme_drugs"
+    ]
+  }
 }

@@ -17,15 +17,7 @@
     "location_hradec-kralove",
     "location_cesko"
   ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_positive"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_lipo",
@@ -39,13 +31,25 @@
     "style_conscious",
     "style_introspective"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_relationships",
-    "theme_self-reflection",
-    "theme_society"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_positive"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_relationships",
+      "theme_self-reflection",
+      "theme_society"
+    ]
+  }
 }

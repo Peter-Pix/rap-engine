@@ -12,10 +12,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,10 +22,7 @@
     "style_conscious",
     "style_street"
   ],
-  "themes": [
-    "theme_life",
-    "theme_success"
-  ],
+  "themes": [],
   "tracks": [
     "track_koky-9-patro",
     "track_koky-diva",
@@ -37,5 +31,15 @@
     "track_koky-talk",
     "track_koky-vitej-u-me-doma",
     "track_koky-vsad-si"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_success"
+    ]
+  }
 }

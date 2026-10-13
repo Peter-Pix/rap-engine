@@ -10,17 +10,21 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_money",
-    "theme_satire",
-    "theme_social-reality"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_defiant",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_defiant",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_money",
+      "theme_satire",
+      "theme_social-reality"
+    ]
+  }
 }

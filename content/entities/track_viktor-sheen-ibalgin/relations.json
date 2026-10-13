@@ -10,14 +10,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_death",
-    "theme_drugs",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_emotional"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_death",
+      "theme_drugs",
+      "theme_relationships"
+    ]
+  }
 }

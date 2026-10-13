@@ -12,10 +12,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,11 +22,7 @@
     "style_street",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_life",
-    "theme_street-life",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_robin-zoot-addict",
     "track_robin-zoot-au-pair",
@@ -42,5 +35,16 @@
     "track_robin-zoot-velkej-vuz",
     "track_robin-zoot-wolfgang",
     "track_robin-zoot-zendaya"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_street-life",
+      "theme_flex"
+    ]
+  }
 }

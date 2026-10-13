@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_individualism",
-    "theme_luxury"
-  ],
-  "moods": [
-    "mood_confident"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_individualism",
+      "theme_luxury"
+    ]
+  }
 }

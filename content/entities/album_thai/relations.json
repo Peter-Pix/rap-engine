@@ -13,10 +13,7 @@
     "label_blakkwood-records"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,11 +22,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_flex",
-    "theme_success"
-  ],
+  "themes": [],
   "tracks": [
     "track_renne-dang-1995",
     "track_renne-dang-bida",
@@ -49,5 +42,16 @@
     "track_renne-dang-smich-a-plac",
     "track_renne-dang-spatny-dny",
     "track_renne-dang-tata"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_flex",
+      "theme_success"
+    ]
+  }
 }

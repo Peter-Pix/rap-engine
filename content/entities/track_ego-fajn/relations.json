@@ -10,13 +10,17 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_money"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_positive"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_positive"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_money"
+    ]
+  }
 }

@@ -17,10 +17,7 @@
   "locations": [
     "location_ostrava"
   ],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -30,11 +27,7 @@
     "style_street",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_flex",
-    "theme_success"
-  ],
+  "themes": [],
   "tracks": [
     "track_hard-rico-forever-rich",
     "track_hard-rico-go-hard",
@@ -48,5 +41,16 @@
     "track_hard-rico-ukazal-jsem-jim-cestu",
     "track_hard-rico-vitamin-l",
     "track_hard-rico-zmenil-se-mi-zivot"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_flex",
+      "theme_success"
+    ]
+  }
 }

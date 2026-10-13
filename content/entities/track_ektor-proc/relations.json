@@ -22,15 +22,19 @@
     "style_aggressive",
     "style_anthem"
   ],
-  "themes": [
-    "theme_ego",
-    "theme_individualism",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic",
-    "mood_defiant"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic",
+      "mood_defiant"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_individualism",
+      "theme_success"
+    ]
+  }
 }

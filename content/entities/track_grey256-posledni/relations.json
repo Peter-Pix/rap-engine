@@ -13,13 +13,17 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_nightlife",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_nightlife",
+      "theme_relationships"
+    ]
+  }
 }

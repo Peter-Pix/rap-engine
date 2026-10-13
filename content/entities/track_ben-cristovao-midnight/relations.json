@@ -14,15 +14,19 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_drugs",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_melancholic",
-    "mood_night",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_melancholic",
+      "mood_night",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_drugs",
+      "theme_self-reflection"
+    ]
+  }
 }

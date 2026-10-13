@@ -12,11 +12,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark",
-    "mood_abstract"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,10 +22,7 @@
     "style_melodic",
     "style_experimental"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_hasan-dnes",
     "track_hasan-interlude",
@@ -44,5 +37,16 @@
     "track_hasan-zitra",
     "track_hasan-zpatky-doma",
     "track_hasan-zpatky-doma-pt-2"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark",
+      "mood_abstract"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

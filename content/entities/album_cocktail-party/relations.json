@@ -12,10 +12,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,10 +21,7 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_robin-zoot-cocktail-party",
     "track_robin-zoot-flexim-jak-darko",
@@ -48,5 +42,15 @@
     "track_robin-zoot-polo-8",
     "track_robin-zoot-z-terasy-9",
     "track_robin-zoot-vafle-10"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life"
+    ]
+  }
 }

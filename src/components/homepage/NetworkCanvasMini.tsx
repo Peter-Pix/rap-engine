@@ -249,10 +249,6 @@ export function NetworkCanvasMini({ nodes, edges, width, height }: NetworkCanvas
         ctx.textBaseline = "top";
         ctx.fillText(n.title, pos.x, labelY);
 
-        // Degree badge
-        ctx.fillStyle = "rgba(255,255,255,0.35)";
-        ctx.font = `${fontSize - 1}px monospace`;
-        ctx.fillText(`${n.degree} vazeb`, pos.x, labelY + fontSize + 2);
       });
 
       rafId = requestAnimationFrame(draw);

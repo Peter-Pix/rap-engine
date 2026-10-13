@@ -62,8 +62,6 @@ const DISCOVER_GROUPS: NavGroup[] = [
     items: [
       { label: "Žánry", href: "/zanry" },
       { label: "Styly", href: "/styly" },
-      { label: "Nálady", href: "/nalady" },
-      { label: "Témata", href: "/temata" },
       { label: "Akce", href: "/akce" },
       { label: "Články", href: "/clanky" },
     ],

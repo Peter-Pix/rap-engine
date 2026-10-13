@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_luxury"
-  ],
-  "moods": [
-    "mood_energetic",
-    "mood_night"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_energetic",
+      "mood_night"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_luxury"
+    ]
+  }
 }

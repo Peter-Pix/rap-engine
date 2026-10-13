@@ -18,12 +18,7 @@
     "location_praha",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_euphoric",
-    "mood_proud"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_dalyb",
@@ -37,5 +32,13 @@
   "scenes": [],
   "styles": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_euphoric",
+      "mood_proud"
+    ]
+  }
 }

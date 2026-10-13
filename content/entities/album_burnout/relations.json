@@ -13,10 +13,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,15 +23,22 @@
     "style_melodic",
     "style_experimental"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_hasan-burnout",
     "track_hasan-ja-nejdu-domu",
     "track_hasan-jinak-celkem-fine",
     "track_hasan-posledni-spliff",
     "track_hasan-uh-huh"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

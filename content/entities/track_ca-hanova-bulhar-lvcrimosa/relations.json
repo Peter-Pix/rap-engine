@@ -15,14 +15,18 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_dark",
-    "mood_aggressive",
-    "mood_confident"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_aggressive",
+      "mood_confident"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success"
+    ]
+  }
 }

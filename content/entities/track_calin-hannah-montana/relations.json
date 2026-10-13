@@ -23,13 +23,17 @@
     "style_melodic",
     "style_catchy"
   ],
-  "themes": [
-    "theme_fame",
-    "theme_duality",
-    "theme_pressure"
-  ],
-  "moods": [
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_fame",
+      "theme_duality",
+      "theme_pressure"
+    ]
+  }
 }

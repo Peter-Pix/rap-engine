@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_loyalty",
-    "theme_nightlife"
-  ],
-  "moods": [
-    "mood_energetic",
-    "mood_gritty"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_energetic",
+      "mood_gritty"
+    ],
+    "themes": [
+      "theme_loyalty",
+      "theme_nightlife"
+    ]
+  }
 }

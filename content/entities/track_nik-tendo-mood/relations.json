@@ -14,14 +14,18 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_money"
-  ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_confident",
-    "mood_lofi"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_confident",
+      "mood_lofi"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_money"
+    ]
+  }
 }

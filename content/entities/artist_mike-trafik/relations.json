@@ -26,16 +26,7 @@
     "album_nadzemi"
   ],
   "influencedBy": [],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_confident",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_night",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_dj-wich",
@@ -45,9 +36,22 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_loyalty",
-    "theme_self-reflection"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_confident",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_night",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_loyalty",
+      "theme_self-reflection"
+    ]
+  }
 }

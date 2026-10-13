@@ -21,14 +21,18 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_relationships",
-    "theme_life",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_melancholic",
-    "mood_emotional"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_melancholic",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_relationships",
+      "theme_life",
+      "theme_self-reflection"
+    ]
+  }
 }

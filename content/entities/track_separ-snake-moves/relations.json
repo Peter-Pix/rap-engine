@@ -10,14 +10,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_ego",
-    "theme_loyalty"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_dark"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_ego",
+      "theme_loyalty"
+    ]
+  }
 }

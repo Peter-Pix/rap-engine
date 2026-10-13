@@ -10,16 +10,20 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_betrayal",
-    "theme_self-reflection",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_calm",
-    "mood_dark",
-    "mood_melancholic",
-    "mood_night"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_calm",
+      "mood_dark",
+      "mood_melancholic",
+      "mood_night"
+    ],
+    "themes": [
+      "theme_betrayal",
+      "theme_self-reflection",
+      "theme_relationships"
+    ]
+  }
 }

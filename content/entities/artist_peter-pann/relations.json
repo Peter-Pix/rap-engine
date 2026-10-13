@@ -12,33 +12,37 @@
   "styles": [
     "style_melodic"
   ],
-  "moods": [
-    "mood_calm",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_melancholic",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "albums": [
     "album_33",
     "album_progress"
   ],
-  "themes": [
-    "theme_ego",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_relationships",
-    "theme_success"
-  ],
+  "themes": [],
   "related": [],
   "artists": [
     "artist_adiss",
     "artist_dame",
     "artist_separ",
     "artist_sorty"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_calm",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_melancholic",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_relationships",
+      "theme_success"
+    ]
+  }
 }

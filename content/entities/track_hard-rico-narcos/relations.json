@@ -24,14 +24,18 @@
     "style_dark",
     "style_aggressive"
   ],
-  "themes": [
-    "theme_drugs",
-    "theme_money",
-    "theme_power"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_dark"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_money",
+      "theme_power"
+    ]
+  }
 }

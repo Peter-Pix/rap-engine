@@ -13,10 +13,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,10 +23,7 @@
     "style_melodic",
     "style_experimental"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_hasan-avocado",
     "track_hasan-ghost-rider",
@@ -43,5 +37,15 @@
     "track_hasan-pritomnost-budoucnost",
     "track_hasan-sam",
     "track_hasan-sunday"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

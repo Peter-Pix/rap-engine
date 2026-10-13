@@ -12,10 +12,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,10 +21,7 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_life",
-    "theme_street-life"
-  ],
+  "themes": [],
   "tracks": [
     "track_robin-zoot-bbc",
     "track_robin-zoot-bonbon",
@@ -42,5 +36,15 @@
     "track_robin-zoot-zadna-dieta",
     "track_robin-zoot-zooty-vs-tendo",
     "track_robin-zoot-zpatky-v-case"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_street-life"
+    ]
+  }
 }

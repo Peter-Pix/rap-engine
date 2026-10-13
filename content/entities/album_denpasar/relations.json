@@ -12,10 +12,7 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,11 +21,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_sofian-medjmedj-chrestys",
     "track_sofian-medjmedj-denpasar",
@@ -44,5 +37,16 @@
     "track_sofian-medjmedj-watanay",
     "track_sofian-medjmedj-zen",
     "track_sofian-medjmedj-ztracim-control"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships",
+      "theme_flex"
+    ]
+  }
 }

@@ -12,10 +12,7 @@
   "locations": [
     "location_ostrava"
   ],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,12 +22,7 @@
     "style_street",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_flex",
-    "theme_success",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_hard-rico-21-let-intro",
     "track_hard-rico-co-byste-delali",
@@ -45,5 +37,17 @@
     "track_hard-rico-sundejte-masky",
     "track_hard-rico-ulice-druha-mama",
     "track_hard-rico-ze-tmy"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_flex",
+      "theme_success",
+      "theme_life"
+    ]
+  }
 }

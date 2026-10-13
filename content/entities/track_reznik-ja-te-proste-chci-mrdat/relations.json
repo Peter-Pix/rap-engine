@@ -15,12 +15,16 @@
     "genre_hardcore-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_violence"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_defiant"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_defiant"
+    ],
+    "themes": [
+      "theme_violence"
+    ]
+  }
 }

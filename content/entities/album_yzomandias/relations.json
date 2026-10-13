@@ -11,10 +11,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_club"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,10 +21,7 @@
     "style_melodic",
     "style_street"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success"
-  ],
+  "themes": [],
   "tracks": [
     "track_yzomandias-krajni-vyznam",
     "track_yzomandias-jan-jakoby",
@@ -44,5 +38,15 @@
     "track_yzomandias-start",
     "track_yzomandias-tus-83455",
     "track_yzomandias-hlad-83465"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_club"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success"
+    ]
+  }
 }

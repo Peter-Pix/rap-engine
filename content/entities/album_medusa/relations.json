@@ -12,10 +12,7 @@
   "locations": [
     "location_ostrava"
   ],
-  "moods": [
-    "mood_raw",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,10 +23,7 @@
     "style_street",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_sergei-barracuda-rozumis-mi",
     "track_sergei-barracuda-had",
@@ -38,5 +32,15 @@
     "track_sergei-barracuda-vyplatil-sem-zdroj",
     "track_sergei-barracuda-slepy",
     "track_sergei-barracuda-bily-jako-snih-49742"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_life"
+    ]
+  }
 }

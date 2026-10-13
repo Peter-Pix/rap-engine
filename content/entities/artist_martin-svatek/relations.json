@@ -15,19 +15,7 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_aggressive",
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_gritty",
-    "mood_melancholic",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
@@ -35,11 +23,27 @@
     "style_conscious",
     "style_introspective"
   ],
-  "themes": [
-    "theme_self-reflection",
-    "theme_life",
-    "theme_society",
-    "theme_street-life"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_gritty",
+      "mood_melancholic",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_life",
+      "theme_society",
+      "theme_street-life"
+    ]
+  }
 }

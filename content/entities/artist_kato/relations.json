@@ -24,13 +24,7 @@
     "album_mimo-jine"
   ],
   "influencedBy": [],
-  "moods": [
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_energetic",
-    "mood_melancholic",
-    "mood_positive"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_rigor-mortiz",
@@ -38,10 +32,20 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_life",
-    "theme_relationships"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_energetic",
+      "mood_melancholic",
+      "mood_positive"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

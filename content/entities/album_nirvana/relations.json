@@ -12,10 +12,7 @@
     "label_ty-nikdy"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,11 +21,18 @@
   "styles": [
     "style_conscious"
   ],
-  "themes": [
-    "theme_life",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_paulie-garand-play"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_flex"
+    ]
+  }
 }

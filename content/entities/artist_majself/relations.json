@@ -16,17 +16,21 @@
     "location_bratislava",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_confident",
-    "mood_night",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_individualism"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_night",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_individualism"
+    ]
+  }
 }

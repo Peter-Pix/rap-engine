@@ -14,13 +14,17 @@
     "genre_melodic-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_flex"
-  ],
-  "moods": [
-    "mood_positive",
-    "mood_confident",
-    "mood_chill"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_positive",
+      "mood_confident",
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_flex"
+    ]
+  }
 }

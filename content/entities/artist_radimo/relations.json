@@ -17,9 +17,7 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [
-    "mood_playful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_inphy",
@@ -30,8 +28,14 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_satire"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_satire"
+    ]
+  }
 }

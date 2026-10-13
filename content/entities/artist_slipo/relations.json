@@ -17,18 +17,22 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_aggressive",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_self-reflection",
-    "theme_pressure"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_pressure"
+    ]
+  }
 }

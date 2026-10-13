@@ -15,14 +15,18 @@
     "genre_conscious-rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_self-reflection",
-    "theme_life"
-  ],
-  "moods": [
-    "mood_positive",
-    "mood_emotional",
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_positive",
+      "mood_emotional",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_self-reflection",
+      "theme_life"
+    ]
+  }
 }

@@ -10,14 +10,18 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_price-of-fame",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_price-of-fame",
+      "theme_self-reflection"
+    ]
+  }
 }

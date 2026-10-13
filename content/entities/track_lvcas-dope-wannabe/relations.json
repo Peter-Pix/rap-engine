@@ -17,15 +17,19 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success",
-    "theme_lifestyle"
-  ],
-  "moods": [
-    "mood_club",
-    "mood_confident",
-    "mood_chill"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_confident",
+      "mood_chill"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success",
+      "theme_lifestyle"
+    ]
+  }
 }

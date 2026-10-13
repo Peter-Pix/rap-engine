@@ -12,10 +12,7 @@
     "label_blakkwood-records"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,10 +22,7 @@
     "style_melodic",
     "style_street"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_renne-dang-chapes",
     "track_renne-dang-con-lai",
@@ -47,5 +41,15 @@
     "track_renne-dang-vase-deti",
     "track_renne-dang-votacet",
     "track_renne-dang-yin-yang"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

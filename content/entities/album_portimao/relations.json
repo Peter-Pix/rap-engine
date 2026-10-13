@@ -10,10 +10,7 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_emotional"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -22,10 +19,7 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_sofian-medjmedj-backstage",
     "track_sofian-medjmedj-fullest",
@@ -34,5 +28,15 @@
     "track_sofian-medjmedj-omw",
     "track_sofian-medjmedj-portimao",
     "track_sofian-medjmedj-sexy"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

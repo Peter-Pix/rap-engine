@@ -22,14 +22,18 @@
     "style_energetic",
     "style_catchy"
   ],
-  "themes": [
-    "theme_success",
-    "theme_energy",
-    "theme_lifestyle"
-  ],
-  "moods": [
-    "mood_energetic",
-    "mood_confident"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_energetic",
+      "mood_confident"
+    ],
+    "themes": [
+      "theme_success",
+      "theme_energy",
+      "theme_lifestyle"
+    ]
+  }
 }

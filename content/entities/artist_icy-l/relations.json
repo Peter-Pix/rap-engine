@@ -9,18 +9,22 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_atmospheric",
-    "mood_chill",
-    "mood_playful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_nightlife"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_chill",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_nightlife"
+    ]
+  }
 }

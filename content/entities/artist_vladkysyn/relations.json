@@ -8,10 +8,7 @@
   "styles": [
     "style_experimental"
   ],
-  "moods": [
-    "mood_emotional",
-    "mood_abstract"
-  ],
+  "moods": [],
   "albums": [
     "album_music-therapy",
     "album_stejny-misto-novy-boty",
@@ -22,5 +19,11 @@
   "artists": [
     "artist_katannah",
     "artist_makin-hollov"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_abstract"
+    ]
+  }
 }

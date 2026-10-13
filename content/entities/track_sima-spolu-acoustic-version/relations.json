@@ -10,13 +10,17 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_loyalty",
-    "theme_relationships"
-  ],
-  "moods": [
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_loyalty",
+      "theme_relationships"
+    ]
+  }
 }

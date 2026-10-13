@@ -12,10 +12,7 @@
     "label_milion-plus"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -24,10 +21,7 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_robin-zoot-bubliny",
     "track_robin-zoot-bubliny-nox-septima-remix",
@@ -41,5 +35,15 @@
     "track_robin-zoot-poznamenany",
     "track_robin-zoot-till-i-die",
     "track_robin-zoot-tututu"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_life"
+    ]
+  }
 }

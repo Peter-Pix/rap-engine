@@ -12,10 +12,7 @@
     "label_detektor-records"
   ],
   "locations": [],
-  "moods": [
-    "mood_club",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,11 +22,7 @@
     "style_melodic",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_ektor-21g",
     "track_ektor-365",
@@ -41,5 +34,16 @@
     "track_ektor-vis-co-tim-myslim",
     "track_ektor-vracim-zpatky",
     "track_ektor-xxl"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success",
+      "theme_life"
+    ]
+  }
 }

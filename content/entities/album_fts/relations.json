@@ -15,10 +15,7 @@
   "locations": [
     "location_ostrava"
   ],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -28,10 +25,7 @@
     "style_street",
     "style_hardcore"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_michajlov-podle-sebe",
     "track_michajlov-rozdil",
@@ -43,5 +37,15 @@
     "track_michajlov-fts",
     "track_michajlov-pro-holky",
     "track_michajlov-zmizely-pryc"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_life"
+    ]
+  }
 }

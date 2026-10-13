@@ -12,15 +12,19 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_life",
-    "theme_luxury",
-    "theme_violence"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_dark",
-    "mood_melancholic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_dark",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_luxury",
+      "theme_violence"
+    ]
+  }
 }

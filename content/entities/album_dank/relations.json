@@ -23,10 +23,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -35,10 +32,7 @@
   "styles": [
     "style_conscious"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_paulie-garand-past-pt-3",
     "track_paulie-garand-adie",
@@ -55,5 +49,15 @@
     "track_paulie-garand-periferie",
     "track_paulie-garand-srdce-z-ledu",
     "track_paulie-garand-sul-nad-zlato"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

@@ -17,14 +17,18 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_humor"
-  ],
-  "moods": [
-    "mood_playful",
-    "mood_positive",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_playful",
+      "mood_positive",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_humor"
+    ]
+  }
 }

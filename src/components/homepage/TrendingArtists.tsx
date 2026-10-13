@@ -92,6 +92,6 @@ function buildArtistCaption(a: ArtistTile): string {
   const parts: string[] = [];
   if (a.originTitle) parts.push(a.originTitle);
   if (a.labelTitle) parts.push(a.labelTitle);
-  if (parts.length === 0) parts.push(`${a.connectivity} vazeb`);
+  if (parts.length === 0) parts.push("Český rap");
   return parts.join(" · ");
 }

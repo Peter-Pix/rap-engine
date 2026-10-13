@@ -33,24 +33,7 @@
     "location_tabor",
     "location_cesko"
   ],
-  "moods": [
-    "mood_atmospheric",
-    "mood_calm",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_lofi",
-    "mood_melancholic",
-    "mood_night",
-    "mood_positive",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_karlo",
@@ -64,18 +47,39 @@
     "style_emotional",
     "style_melodic"
   ],
-  "themes": [
-    "theme_authenticity",
-    "theme_drugs",
-    "theme_ego",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_loyalty",
-    "theme_nightlife",
-    "theme_power",
-    "theme_relationships",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_calm",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_lofi",
+      "mood_melancholic",
+      "mood_night",
+      "mood_positive",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_drugs",
+      "theme_ego",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_loyalty",
+      "theme_nightlife",
+      "theme_power",
+      "theme_relationships",
+      "theme_success"
+    ]
+  }
 }

@@ -22,18 +22,22 @@
     "album_what-s-my-name",
     "album_znova-a-zas"
   ],
-  "moods": [
-    "mood_club",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_positive",
-    "mood_romantic"
-  ],
-  "themes": [
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_loyalty",
-    "theme_relationships"
-  ]
+  "moods": [],
+  "themes": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_club",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_positive",
+      "mood_romantic"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_loyalty",
+      "theme_relationships"
+    ]
+  }
 }

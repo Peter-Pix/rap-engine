@@ -10,13 +10,17 @@
   "labels": [],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_euphoric",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_euphoric",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_ego"
+    ]
+  }
 }

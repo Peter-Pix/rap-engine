@@ -12,15 +12,19 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_money"
-  ],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_money"
+    ]
+  }
 }

@@ -7,19 +7,23 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_atmospheric",
-    "mood_energetic",
-    "mood_melancholic"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_michajlov"
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_drugs"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_atmospheric",
+      "mood_energetic",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_drugs"
+    ]
+  }
 }

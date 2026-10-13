@@ -13,21 +13,25 @@
     "genre_boom-bap",
     "genre_rap"
   ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_thoughtful"
-  ],
-  "themes": [
-    "theme_death",
-    "theme_ego",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_loyalty",
-    "theme_money"
-  ],
-  "related": []
+  "moods": [],
+  "themes": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_death",
+      "theme_ego",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_loyalty",
+      "theme_money"
+    ]
+  }
 }

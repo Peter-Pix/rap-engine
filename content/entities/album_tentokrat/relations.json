@@ -10,10 +10,7 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_club"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -23,12 +20,19 @@
     "style_melodic",
     "style_experimental"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships",
-    "theme_flex"
-  ],
+  "themes": [],
   "tracks": [
     "track_raego-tentokrat"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_club"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships",
+      "theme_flex"
+    ]
+  }
 }

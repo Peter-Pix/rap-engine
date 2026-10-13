@@ -13,10 +13,13 @@
   "genres": [],
   "styles": [],
   "themes": [],
-  "moods": [
-    "mood_emotional",
-    "mood_melancholic",
-    "mood_night"
-  ],
-  "related": []
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_melancholic",
+      "mood_night"
+    ]
+  }
 }

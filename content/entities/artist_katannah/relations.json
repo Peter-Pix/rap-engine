@@ -24,12 +24,7 @@
   ],
   "albums": [],
   "influencedBy": [],
-  "moods": [
-    "mood_aggressive",
-    "mood_confident",
-    "mood_energetic",
-    "mood_proud"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_hasan",
@@ -41,9 +36,18 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_individualism"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_confident",
+      "mood_energetic",
+      "mood_proud"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_individualism"
+    ]
+  }
 }

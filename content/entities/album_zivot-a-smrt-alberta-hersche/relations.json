@@ -13,10 +13,7 @@
     "label_znk"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,10 +23,7 @@
     "style_hardcore",
     "style_experimental"
   ],
-  "themes": [
-    "theme_satire",
-    "theme_society"
-  ],
+  "themes": [],
   "tracks": [
     "track_reznik-darkness-calling",
     "track_reznik-general-pika",
@@ -49,5 +43,15 @@
     "track_reznik-ty-mas-to-zabijeni-v-sobe-outro",
     "track_reznik-vecerni-relace-intro",
     "track_reznik-zivot-a-smrt-alberta-hersche"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_satire",
+      "theme_society"
+    ]
+  }
 }

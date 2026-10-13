@@ -17,10 +17,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_abstract",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -30,10 +27,7 @@
     "style_experimental",
     "style_conscious"
   ],
-  "themes": [
-    "theme_satire",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_mc-gey-at-ziji-duchove",
     "track_mc-gey-blazinec",
@@ -51,5 +45,15 @@
     "track_mc-gey-tenhleten",
     "track_mc-gey-vitezslav-pohar",
     "track_mc-gey-zlodej"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_abstract",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_satire",
+      "theme_life"
+    ]
+  }
 }

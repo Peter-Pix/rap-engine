@@ -12,10 +12,7 @@
     "label_blakkwood-records"
   ],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_abstract"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -25,10 +22,7 @@
     "style_experimental",
     "style_melodic"
   ],
-  "themes": [
-    "theme_life",
-    "theme_relationships"
-  ],
+  "themes": [],
   "tracks": [
     "track_renne-dang-amen",
     "track_renne-dang-chybi-vzor",
@@ -43,5 +37,15 @@
     "track_renne-dang-system",
     "track_renne-dang-utecha-i-utek",
     "track_renne-dang-zaplata"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_abstract"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_relationships"
+    ]
+  }
 }

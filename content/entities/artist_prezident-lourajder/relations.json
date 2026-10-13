@@ -26,9 +26,7 @@
     "location_bratislava",
     "location_slovensko"
   ],
-  "moods": [
-    "mood_melancholic"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_bene",
@@ -39,9 +37,15 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_death",
-    "theme_self-reflection"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_death",
+      "theme_self-reflection"
+    ]
+  }
 }

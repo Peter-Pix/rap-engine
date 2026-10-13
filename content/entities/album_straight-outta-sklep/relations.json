@@ -14,10 +14,7 @@
     "label_znk"
   ],
   "locations": [],
-  "moods": [
-    "mood_dark",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -27,10 +24,7 @@
     "style_hardcore",
     "style_experimental"
   ],
-  "themes": [
-    "theme_satire",
-    "theme_society"
-  ],
+  "themes": [],
   "tracks": [
     "track_reznik-chorobny-vize",
     "track_reznik-creme-de-la-ptak",
@@ -46,5 +40,15 @@
     "track_reznik-van-helsing",
     "track_reznik-vrazda-byla-soucasti-planu",
     "track_reznik-znk-family"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_dark",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_satire",
+      "theme_society"
+    ]
+  }
 }

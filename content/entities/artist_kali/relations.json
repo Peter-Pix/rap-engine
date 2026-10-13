@@ -30,23 +30,7 @@
   "styles": [
     "style_melodic"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_calm",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_dark",
-    "mood_defiant",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_euphoric",
-    "mood_melancholic",
-    "mood_playful",
-    "mood_positive",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "albums": [
     "album_banan",
     "album_nikto",
@@ -64,19 +48,39 @@
     "artist_separ"
   ],
   "scenes": [],
-  "themes": [
-    "theme_authenticity",
-    "theme_betrayal",
-    "theme_death",
-    "theme_ego",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_loyalty",
-    "theme_price-of-fame",
-    "theme_relationships",
-    "theme_social-reality",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_calm",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_dark",
+      "mood_defiant",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_euphoric",
+      "mood_melancholic",
+      "mood_playful",
+      "mood_positive",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_authenticity",
+      "theme_betrayal",
+      "theme_death",
+      "theme_ego",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_loyalty",
+      "theme_price-of-fame",
+      "theme_relationships",
+      "theme_social-reality",
+      "theme_success"
+    ]
+  }
 }

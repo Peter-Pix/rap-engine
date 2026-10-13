@@ -14,16 +14,20 @@
   "styles": [
     "style_melodic"
   ],
-  "themes": [
-    "theme_flex",
-    "theme_success",
-    "theme_life",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_positive",
-    "mood_melancholic",
-    "mood_emotional"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_positive",
+      "mood_melancholic",
+      "mood_emotional"
+    ],
+    "themes": [
+      "theme_flex",
+      "theme_success",
+      "theme_life",
+      "theme_self-reflection"
+    ]
+  }
 }

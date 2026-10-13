@@ -10,15 +10,18 @@
   "influencedBy": [],
   "labels": [],
   "locations": [],
-  "moods": [
-    "mood_emotional",
-    "mood_energetic",
-    "mood_positive"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [],
   "styles": [],
   "themes": [],
-  "tracks": []
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_emotional",
+      "mood_energetic",
+      "mood_positive"
+    ]
+  }
 }

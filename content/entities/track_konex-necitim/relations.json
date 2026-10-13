@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_self-reflection"
+    ]
+  }
 }

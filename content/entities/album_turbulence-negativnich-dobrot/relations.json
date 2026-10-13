@@ -13,10 +13,7 @@
     "label_wm-czech-republic"
   ],
   "locations": [],
-  "moods": [
-    "mood_abstract",
-    "mood_raw"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -26,10 +23,7 @@
     "style_experimental",
     "style_conscious"
   ],
-  "themes": [
-    "theme_satire",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_mc-gey-intro-k-intru",
     "track_mc-gey-kamil-hrdina-freestyle-skit",
@@ -50,5 +44,15 @@
     "track_mc-gey-svacina",
     "track_mc-gey-turbulence-negativnich-dobrot",
     "track_mc-gey-ulicnik"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_abstract",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_satire",
+      "theme_life"
+    ]
+  }
 }

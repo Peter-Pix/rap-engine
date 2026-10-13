@@ -13,13 +13,17 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_life",
-    "theme_self-reflection"
-  ],
-  "moods": [
-    "mood_night",
-    "mood_thoughtful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_night",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_life",
+      "theme_self-reflection"
+    ]
+  }
 }

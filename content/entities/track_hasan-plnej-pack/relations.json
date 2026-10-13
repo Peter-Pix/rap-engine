@@ -13,14 +13,18 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_individualism",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_euphoric"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_euphoric"
+    ],
+    "themes": [
+      "theme_individualism",
+      "theme_success"
+    ]
+  }
 }

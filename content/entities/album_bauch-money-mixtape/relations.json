@@ -1,9 +1,37 @@
 {
-  "albums": [], "artists": ["artist_hugo-toxxx"], "genres": ["genre_trap", "genre_rap"],
-  "influencedBy": [], "labels": ["label_hypno-808"],
-  "locations": [], "moods": ["mood_abstract", "mood_raw"],
-  "partOf": [], "related": [], "scenes": ["scene_underground"],
-  "styles": ["style_experimental", "style_hardcore"],
-  "themes": ["theme_satire", "theme_society"],
-  "tracks": []
+  "albums": [],
+  "artists": [
+    "artist_hugo-toxxx"
+  ],
+  "genres": [
+    "genre_trap",
+    "genre_rap"
+  ],
+  "influencedBy": [],
+  "labels": [
+    "label_hypno-808"
+  ],
+  "locations": [],
+  "moods": [],
+  "partOf": [],
+  "related": [],
+  "scenes": [
+    "scene_underground"
+  ],
+  "styles": [
+    "style_experimental",
+    "style_hardcore"
+  ],
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_abstract",
+      "mood_raw"
+    ],
+    "themes": [
+      "theme_satire",
+      "theme_society"
+    ]
+  }
 }

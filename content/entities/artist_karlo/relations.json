@@ -25,15 +25,7 @@
     "location_lucenec",
     "location_cesko"
   ],
-  "moods": [
-    "mood_aggressive",
-    "mood_chill",
-    "mood_club",
-    "mood_confident",
-    "mood_dark",
-    "mood_emotional",
-    "mood_melancholic"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_konex",
@@ -48,15 +40,27 @@
     "style_melodic",
     "style_street"
   ],
-  "themes": [
-    "theme_death",
-    "theme_flex",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_lifestyle",
-    "theme_loyalty",
-    "theme_street-life",
-    "theme_success"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_aggressive",
+      "mood_chill",
+      "mood_club",
+      "mood_confident",
+      "mood_dark",
+      "mood_emotional",
+      "mood_melancholic"
+    ],
+    "themes": [
+      "theme_death",
+      "theme_flex",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_lifestyle",
+      "theme_loyalty",
+      "theme_street-life",
+      "theme_success"
+    ]
+  }
 }

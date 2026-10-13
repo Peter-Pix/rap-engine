@@ -15,13 +15,17 @@
     "genre_rap"
   ],
   "styles": [],
-  "themes": [
-    "theme_ego"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_melancholic",
-    "mood_playful"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_melancholic",
+      "mood_playful"
+    ],
+    "themes": [
+      "theme_ego"
+    ]
+  }
 }

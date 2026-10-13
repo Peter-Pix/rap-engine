@@ -14,10 +14,7 @@
   "locations": [
     "location_praha"
   ],
-  "moods": [
-    "mood_raw",
-    "mood_dark"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [],
   "scenes": [
@@ -27,10 +24,7 @@
   "styles": [
     "style_street"
   ],
-  "themes": [
-    "theme_street-life",
-    "theme_life"
-  ],
+  "themes": [],
   "tracks": [
     "track_dj-wich-intro",
     "track_dj-wich-denne-feat-separ-martin-svatek",
@@ -46,5 +40,15 @@
     "track_dj-wich-sok-nula-feat-efko",
     "track_dj-wich-posledni-pripad",
     "track_dj-wich-outro"
-  ]
+  ],
+  "aiEstimates": {
+    "moods": [
+      "mood_raw",
+      "mood_dark"
+    ],
+    "themes": [
+      "theme_street-life",
+      "theme_life"
+    ]
+  }
 }

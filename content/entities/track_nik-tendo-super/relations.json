@@ -14,16 +14,20 @@
     "genre_trap"
   ],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_ego",
-    "theme_lifestyle",
-    "theme_success"
-  ],
-  "moods": [
-    "mood_chill",
-    "mood_confident",
-    "mood_energetic"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_confident",
+      "mood_energetic"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_ego",
+      "theme_lifestyle",
+      "theme_success"
+    ]
+  }
 }

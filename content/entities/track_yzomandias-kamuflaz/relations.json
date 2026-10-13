@@ -12,13 +12,17 @@
   ],
   "genres": [],
   "styles": [],
-  "themes": [
-    "theme_ego",
-    "theme_lifestyle"
-  ],
-  "moods": [
-    "mood_confident",
-    "mood_defiant"
-  ],
-  "related": []
+  "themes": [],
+  "moods": [],
+  "related": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_confident",
+      "mood_defiant"
+    ],
+    "themes": [
+      "theme_ego",
+      "theme_lifestyle"
+    ]
+  }
 }

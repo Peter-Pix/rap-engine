@@ -24,16 +24,7 @@
     "location_praha",
     "location_cesko"
   ],
-  "moods": [
-    "mood_chill",
-    "mood_club",
-    "mood_dark",
-    "mood_emotional",
-    "mood_energetic",
-    "mood_melancholic",
-    "mood_romantic",
-    "mood_thoughtful"
-  ],
+  "moods": [],
   "partOf": [],
   "related": [
     "artist_fosco-alma",
@@ -43,13 +34,26 @@
   ],
   "scenes": [],
   "styles": [],
-  "themes": [
-    "theme_drugs",
-    "theme_individualism",
-    "theme_self-reflection",
-    "theme_life",
-    "theme_nightlife",
-    "theme_relationships"
-  ],
-  "tracks": []
+  "themes": [],
+  "tracks": [],
+  "aiEstimates": {
+    "moods": [
+      "mood_chill",
+      "mood_club",
+      "mood_dark",
+      "mood_emotional",
+      "mood_energetic",
+      "mood_melancholic",
+      "mood_romantic",
+      "mood_thoughtful"
+    ],
+    "themes": [
+      "theme_drugs",
+      "theme_individualism",
+      "theme_self-reflection",
+      "theme_life",
+      "theme_nightlife",
+      "theme_relationships"
+    ]
+  }
 }
