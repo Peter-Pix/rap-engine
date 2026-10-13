@@ -369,11 +369,6 @@ export async function EntityPage({
             <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-white uppercase leading-[0.85] max-w-3xl">
               {entity.title}
             </h1>
-            {profile?.shortTag && (
-              <p className="mt-4 text-lg sm:text-xl text-white font-medium max-w-2xl leading-snug border-l-2 border-white/40 pl-4">
-                {profile.shortTag as string}
-              </p>
-            )}
           </div>
         </div>
       ) : (
@@ -381,11 +376,6 @@ export async function EntityPage({
           <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-white uppercase leading-[0.85]">
             {entity.title}
           </h1>
-          {profile?.shortTag && (
-            <p className="mt-5 text-lg sm:text-xl text-[#c8962e] font-medium max-w-2xl leading-snug border-l-2 border-[#c8962e]/40 pl-4">
-              {profile.shortTag as string}
-            </p>
-          )}
         </div>
       )}
 
@@ -406,13 +396,8 @@ export async function EntityPage({
          PULL QUOTE + DESCRIPTION (redakční souhrn — vizuálně oddělený
          od strukturovaných faktů v Info kartě; není to ověřený fakt)
          ═══════════════════════════════════════════════════════════════ */}
-      {(entity.description || profile?.oneLiner) && (
+      {entity.description && (
         <div className="px-8 sm:px-12 pt-8 pb-8">
-          {profile?.oneLiner && (
-            <p className="text-2xl sm:text-3xl font-light italic text-[#c8962e] leading-tight mb-6 max-w-2xl">
-              &ldquo;{profile.oneLiner as string}&rdquo;
-            </p>
-          )}
           {entity.description && (
             <div>
               <p className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/35 mb-2">
@@ -501,86 +486,9 @@ export async function EntityPage({
             <UpcomingEventsForArtist artistName={entity.title} />
           )}
 
-          {/* Profile editorial sections */}
-          {profile && !entity.content?.trim() && (
-            <>
-              {profile.careerSummary && (
-                <section>
-                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                    Kariéra
-                  </h2>
-                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
-                    {profile.careerSummary as string}
-                  </p>
-                </section>
-              )}
-
-              {profile.whatMakesUnique && (
-                <section>
-                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                    V čem je jiný
-                  </h2>
-                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
-                    {profile.whatMakesUnique as string}
-                  </p>
-                </section>
-              )}
-
-              {profile.influence && (
-                <section>
-                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                    Vliv a dopad
-                  </h2>
-                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
-                    {profile.influence as string}
-                  </p>
-                </section>
-              )}
-
-              {profile.controversy && (
-                <section>
-                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                    Kontroverze
-                  </h2>
-                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
-                    {profile.controversy as string}
-                  </p>
-                </section>
-              )}
-
-              {profile.generationContext && (
-                <section>
-                  <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                    Generační kontext
-                  </h2>
-                  <p className="text-sm sm:text-base text-white/75 leading-[1.75]">
-                    {profile.generationContext as string}
-                  </p>
-                </section>
-              )}
-
-              {profile.funFacts &&
-                Array.isArray(profile.funFacts) &&
-                (profile.funFacts as string[]).length > 0 && (
-                  <section>
-                    <h2 className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/40 mb-4">
-                      Fakta a zajímavosti
-                    </h2>
-                    <ol className="space-y-3">
-                      {(profile.funFacts as string[]).map((fact: string, i: number) => (
-                        <li key={i} className="flex gap-4 text-sm sm:text-base text-white/75 leading-relaxed">
-                          <span className="text-[#c8962e] font-mono text-xs mt-0.5 shrink-0">
-                            {String(i + 1).padStart(2, "0")}
-                          </span>
-                          <span>{fact}</span>
-                        </li>
-                      ))}
-                    </ol>
-                  </section>
-                )}
-            </>
-          )}
-
+          {/* AI editorial bloky z profile.json jsou VYPNUTÉ —
+              byly to generované fráze bez zdrojů (superpower, controversy,
+              generationContext...). Fakta patří do MDX, ne do profile.json. */}
           {/* ── Similar Artists ───────────────────────────────────────── */}
           {similar.length > 0 && (
             <section data-jump-section data-jump-label="Podobní">
