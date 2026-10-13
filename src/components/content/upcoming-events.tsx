@@ -49,16 +49,9 @@ async function fetchArtistEvents(artistName: string): Promise<RapEvent[]> {
 export async function UpcomingEventsForArtist({ artistName }: { artistName: string }) {
   const events = await fetchArtistEvents(artistName);
 
-  if (events.length === 0) {
-    return (
-      <section className="mb-10 pb-10 border-b border-white/[0.06]">
-        <h2 className="text-sm font-mono font-bold uppercase tracking-widest text-white mb-6">
-          🎤 Nadcházející koncerty
-        </h2>
-        <p className="text-sm text-white/40">Žádné naplánované koncerty.</p>
-      </section>
-    );
-  }
+  // Bez dat sekci vůbec nevykreslujeme — prázdná sekce "Žádné naplánované
+  // koncerty" na každém profilu působí jako nedodělek, ne jako informace.
+  if (events.length === 0) return null;
 
   return (
     <section className="mb-10 pb-10 border-b border-white/[0.06]">
