@@ -149,7 +149,7 @@ export default function SceneMap({ cities }: SceneMapProps) {
                 {showLabels && (labeledIds.has(p.id) || isHovered) && (
                   <text
                     x={p.x + p.r + 5}
-                    y={p.y + 5}
+                    y={p.y + (p.id === "location_trnava" ? 26 : 5)}
                     fontSize={22}
                     fontWeight={600}
                     fontFamily="ui-monospace, monospace"
