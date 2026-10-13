@@ -12,6 +12,7 @@ export const CITY_COORDS: Record<string, [number, number]> = {
   "location_brno": [16.6068, 49.1951],
   "location_ceske-budejovice": [14.4743, 48.9745],
   "location_cheb": [12.3739, 50.0793],
+  "location_dobrichovice": [14.2720, 49.9273],
   "location_chomutov": [13.4177, 50.4605],
   "location_handlova": [18.7596, 48.7277],
   "location_hostivice": [14.2585, 50.0796],
