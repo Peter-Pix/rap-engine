@@ -18,6 +18,7 @@ import { Tracklist } from "@/components/content/tracklist";
 import { UpcomingEventsForArtist } from "@/components/content/upcoming-events";
 import { KeyTrackPlayer } from "@/components/content/key-track-player";
 import { JsonLd } from "@/components/seo/JsonLd";
+import FeedbackForm from "@/components/content/FeedbackForm";
 import { EntityJumpNav } from "@/components/entity/EntityJumpNav";
 import { buildJsonLd, buildBreadcrumbJsonLd } from "@/lib/seo/schema-org";
 
@@ -972,6 +973,15 @@ export async function EntityPage({
             </section>
           )}
         </div>
+      </div>
+
+      {/* Nahlášení chyby / doplnění — jediná cesta, jak z webu dostat zpětnou vazbu */}
+      <div className="mt-12 pt-8 border-t border-white/[0.06]">
+        <FeedbackForm
+          entityId={entity.id}
+          entityTitle={entity.title}
+          entityUrl={`${TYPE_ROUTE_MAP[entity.type as EntityType] ?? `/${entity.type}`}/${entity.slug}`}
+        />
       </div>
     </main>
     </>

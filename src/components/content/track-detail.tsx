@@ -6,6 +6,7 @@ import { TYPE_ROUTE_MAP } from "@/lib/content/constants";
 import type { EntityType } from "@/lib/content/constants";
 import { deezerTrackEmbed } from "@/lib/content/deezer-helpers";
 import YoutubeEmbed from "@/components/media/YoutubeEmbed";
+import FeedbackForm from "@/components/content/FeedbackForm";
 import ShareVideoButton from "@/components/media/ShareVideoButton";
 
 const BASE_URL = "https://4rap.cz";
@@ -626,6 +627,14 @@ export function TrackDetail({ entity, allEntities, inboundIds, similarTracks = [
               </section>
             )}
           </div>
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-white/[0.06]">
+          <FeedbackForm
+            entityId={entity.id}
+            entityTitle={entity.title}
+            entityUrl={`/skladby/${entity.slug}`}
+          />
         </div>
       </main>
     </>
