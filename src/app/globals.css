@@ -159,3 +159,24 @@ code, pre, .font-mono { font-family: var(--font-mono) !important; }
   }
   .ask-dot, .ask-shimmer { animation: none !important; }
 }
+
+/* ── Mapa scény: horizontální scroll (mapa má reálné proporce 2:1) ────── */
+.scene-map-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200, 150, 46, 0.45) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+.scene-map-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.scene-map-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 4px;
+}
+.scene-map-scroll::-webkit-scrollbar-thumb {
+  background: rgba(200, 150, 46, 0.45);
+  border-radius: 4px;
+}
+.scene-map-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 150, 46, 0.7);
+}

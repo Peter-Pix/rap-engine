@@ -38,6 +38,7 @@ function radiusFor(count: number): number {
 export default function SceneMap({ cities }: SceneMapProps) {
   const [hovered, setHovered] = useState<string | null>(null);
   const [showLabels, setShowLabels] = useState(true);
+  const [zoomed, setZoomed] = useState(false);
 
   // Projekce měst + seřazení (velké body první, malé navrch → malá města
   // nezmizí pod velkými).
@@ -72,20 +73,34 @@ export default function SceneMap({ cities }: SceneMapProps) {
         <p className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/55">
           {cities.length} měst · {cities.reduce((s, c) => s + c.artistCount, 0)} vazeb
         </p>
-        <button
-          type="button"
-          onClick={() => setShowLabels((v) => !v)}
-          className="text-[11px] font-mono uppercase tracking-wider border border-white/10 rounded px-2 py-1 text-white/65 hover:text-white/80 hover:border-white/25 transition-colors"
-        >
-          {showLabels ? "Skrýt názvy" : "Zobrazit názvy"}
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setShowLabels((v) => !v)}
+            className="text-[11px] font-mono uppercase tracking-wider border border-white/10 rounded px-2 py-1 text-white/65 hover:text-white/80 hover:border-white/25 transition-colors"
+          >
+            {showLabels ? "Skrýt názvy" : "Zobrazit názvy"}
+          </button>
+          <button
+            type="button"
+            onClick={() => setZoomed((v) => !v)}
+            className="text-[11px] font-mono uppercase tracking-wider border border-white/10 rounded px-2 py-1 text-white/65 hover:text-white/80 hover:border-white/25 transition-colors"
+          >
+            {zoomed ? "Zmenšit" : "Zvětšit"}
+          </button>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-6 items-start">
-      <div className="relative w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-6 items-start lg:items-stretch">
+      <div className="relative w-full overflow-x-auto rounded-xl border border-white/[0.07] bg-black/20 scene-map-scroll lg:sticky lg:top-4">
         <svg
           viewBox={`0 0 ${MAP_VIEWBOX.width} ${MAP_VIEWBOX.height}`}
-          className="w-full h-auto block"
+          preserveAspectRatio="xMidYMid meet"
+          className={
+            zoomed
+              ? "block h-auto w-full min-w-[1400px]"
+              : "block h-auto w-full min-w-[640px] sm:min-w-[760px]"
+          }
           role="img"
           aria-label="Mapa české a slovenské rapové scény"
         >
@@ -167,6 +182,13 @@ export default function SceneMap({ cities }: SceneMapProps) {
           })}
         </svg>
 
+        {/* Scroll hint — jen na obrazovkách, kde se mapa nevejde */}
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 flex justify-center pb-2 sm:hidden">
+          <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-white/75 bg-black/75 backdrop-blur rounded-full px-3 py-1">
+            ← posuň mapu →
+          </span>
+        </div>
+
         {/* Tooltip */}
         {hoveredCity && (
           <div className="pointer-events-none absolute left-3 top-3 glass rounded-lg px-3 py-2 text-sm">
@@ -207,7 +229,7 @@ export default function SceneMap({ cities }: SceneMapProps) {
           <p className="text-[11px] font-mono uppercase tracking-[0.25em] text-white/55 mb-3">
             Všechna města ({cities.length})
           </p>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1.5 lg:max-h-[300px] lg:overflow-y-auto lg:pr-1">
             {[...cities]
               .sort((a, b) => b.artistCount - a.artistCount)
               .map((c) => (
