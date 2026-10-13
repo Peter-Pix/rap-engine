@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { buildJsonLd } from "@/lib/seo/schema-org";
+import { buildJsonLd, buildBreadcrumbJsonLd } from "@/lib/seo/schema-org";
 import { renderMdx } from "@/lib/content/mdx";
 import { TYPE_ROUTE_MAP } from "@/lib/content/constants";
 import type { EntityType } from "@/lib/content/constants";
@@ -236,9 +236,18 @@ export function TrackDetail({ entity, allEntities, inboundIds, similarTracks = [
     baseUrl: BASE_URL,
   });
 
+  // BreadcrumbList — drobečková navigace pro Google.
+  const breadcrumbLd = buildBreadcrumbJsonLd(
+    "track",
+    entity.slug,
+    entity.title,
+    BASE_URL,
+  );
+
   return (
     <>
       {jsonLd && <JsonLd data={jsonLd} />}
+      {breadcrumbLd && <JsonLd data={breadcrumbLd} />}
       <main className="max-w-5xl mx-auto">
         {/* ═══════════════════════════════════════════════════════════════
            HERO

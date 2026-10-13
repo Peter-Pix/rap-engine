@@ -763,3 +763,70 @@ export function buildJsonLd(input: BuildJsonLdInput): Record<string, unknown> | 
       return null;
   }
 }
+
+// ─── Breadcrumbs ──────────────────────────────────────────────────────────
+
+/** Lidské popisky pro breadcrumb úrovně (odpovídají hlavnímu menu). */
+const BREADCRUMB_LABELS: Record<string, string> = {
+  artist: "Rappeři",
+  album: "Alba",
+  track: "Skladby",
+  label: "Labely",
+  collective: "Kolektivy",
+  producer: "Producenti",
+  location: "Lokality",
+  scene: "Scény",
+  genre: "Žánry",
+  style: "Styly",
+  mood: "Nálady",
+  theme: "Témata",
+  article: "Články",
+  event: "Akce",
+};
+
+/**
+ * BreadcrumbList JSON-LD — Home → <sekce> → <entita>.
+ *
+ * Pomáhá Googlu zobrazit drobečkovou navigaci ve výsledcích hledání
+ * (místo surové URL) a lépe chápat hierarchii webu.
+ *
+ * @param type  typ entity (artist, album, …)
+ * @param slug  slug entity
+ * @param title název entity
+ * @param baseUrl kořen webu (bez koncového lomítka)
+ */
+export function buildBreadcrumbJsonLd(
+  type: string,
+  slug: string,
+  title: string,
+  baseUrl: string,
+): Record<string, unknown> | null {
+  const sectionLabel = BREADCRUMB_LABELS[type];
+  const sectionPath = TYPE_ROUTE_MAP[type as EntityType];
+  if (!sectionLabel || !sectionPath) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Domů",
+        item: baseUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: sectionLabel,
+        item: `${baseUrl}${sectionPath}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: title,
+        item: `${baseUrl}${sectionPath}/${slug}`,
+      },
+    ],
+  };
+}

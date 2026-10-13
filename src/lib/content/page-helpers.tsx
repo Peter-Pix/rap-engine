@@ -19,7 +19,7 @@ import { UpcomingEventsForArtist } from "@/components/content/upcoming-events";
 import { KeyTrackPlayer } from "@/components/content/key-track-player";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { EntityJumpNav } from "@/components/entity/EntityJumpNav";
-import { buildJsonLd } from "@/lib/seo/schema-org";
+import { buildJsonLd, buildBreadcrumbJsonLd } from "@/lib/seo/schema-org";
 
 // ─── Constants ────────────────────────────────────────────────────────────
 
@@ -337,9 +337,18 @@ export async function EntityPage({
     baseUrl: BASE_URL,
   });
 
+  // BreadcrumbList — drobečková navigace pro Google (Home → sekce → entita).
+  const breadcrumbLd = buildBreadcrumbJsonLd(
+    entity.type,
+    entity.slug,
+    entity.title,
+    BASE_URL,
+  );
+
   return (
     <>
       <JsonLd data={jsonLd} />
+      {breadcrumbLd && <JsonLd data={breadcrumbLd} />}
       <main className="max-w-5xl mx-auto">
 
       {/* ═══════════════════════════════════════════════════════════════
