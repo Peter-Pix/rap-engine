@@ -78,6 +78,8 @@ export const STATIC_ROUTES: StaticRouteConfig[] = [
   { url: `${BASE_URL}/temata`, priority: 0.5, changeFrequency: "monthly" },
   { url: `${BASE_URL}/nalady`, priority: 0.5, changeFrequency: "monthly" },
   { url: `${BASE_URL}/sceny`, priority: 0.5, changeFrequency: "monthly" },
+  { url: `${BASE_URL}/cesta`, priority: 0.6, changeFrequency: "monthly" },
+  { url: `${BASE_URL}/porovnat`, priority: 0.5, changeFrequency: "monthly" },
   { url: `${BASE_URL}/lokality`, priority: 0.5, changeFrequency: "monthly" },
   { url: `${BASE_URL}/producenti`, priority: 0.5, changeFrequency: "monthly" },
   { url: `${BASE_URL}/clanky`, priority: 0.5, changeFrequency: "weekly" },

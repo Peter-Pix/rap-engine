@@ -69,6 +69,14 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
+                  href="/cesta"
+                  className="text-sm text-[var(--re-accent)]/90 hover:text-[var(--re-accent)] transition-colors"
+                >
+                  Cesta mezi rappery
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/sceny"
                   className="text-sm text-zinc-500 hover:text-zinc-200 transition-colors"
                 >

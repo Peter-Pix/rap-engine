@@ -431,6 +431,48 @@ export default function HomePage() {
       <TrendingAlbums albums={trendingAlbums} />
 
       {/* ═══════════════════════════════════════════════════════════════
+         CESTA MEZI RAPPERY — discovery feature (shortest path)
+         ═══════════════════════════════════════════════════════════════ */}
+      <section className="mb-12 sm:mb-16">
+        <Link
+          href="/cesta"
+          className="group block rounded-2xl border p-6 sm:p-8 transition-colors"
+          style={{
+            borderColor: "var(--badge-border)",
+            background:
+              "linear-gradient(135deg, rgba(200,150,46,0.07), rgba(0,0,0,0))",
+          }}
+        >
+          <div className="flex items-center justify-between gap-4 flex-wrap">
+            <div className="min-w-0">
+              <div className="flex items-center gap-2 mb-1.5">
+                <h2 className="text-lg sm:text-xl font-black tracking-tight text-white">
+                  Cesta mezi rappery
+                </h2>
+                <span
+                  className="text-[11px] font-semibold uppercase tracking-wider leading-none px-1.5 py-[3px] rounded-full border"
+                  style={{
+                    background: "var(--badge-bg)",
+                    borderColor: "var(--badge-border)",
+                    color: "var(--badge-text)",
+                  }}
+                >
+                  Nové
+                </span>
+              </div>
+              <p className="text-sm text-white/50 max-w-lg">
+                Vyber dva interprety a zjisti, jak jsou propojení — přes featy,
+                producenty, labely i scény. Nejkratší smysluplná cesta v grafu.
+              </p>
+            </div>
+            <span className="text-sm font-bold text-[#c8962e] whitespace-nowrap group-hover:translate-x-0.5 transition-transform">
+              Zkusit →
+            </span>
+          </div>
+        </Link>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════
          POROVNAT RAPPERY — discovery feature (Common Ground)
          ═══════════════════════════════════════════════════════════════ */}
       <section className="mb-12 sm:mb-16">
