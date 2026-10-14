@@ -1,5 +1,12 @@
 #!/usr/bin/env -S npx tsx
 /**
+ * ⚠️ DEPRECATED (14. 10. 2026) — NESPOUŠTĚT bez ověření dat.
+ *
+ * Pracuje s daty z Rap Monitoru = interní AI sběrná apka → AI-generated,
+ * vyžaduje ověření. Vygenerovaný AI obsah byl z DB odstraněn (Fáze 2.2).
+ * Viz scripts/phase3/README-DEPRECATED.md a PLAN-AI-SLOP-TRACKS.md.
+ */
+/**
  * Vybere dávku skladeb k obohacení a určí jejich pás (A/B/C).
  *
  * Pás A = RM má AI analýzu (+texty) — nejkvalitnější, MDX

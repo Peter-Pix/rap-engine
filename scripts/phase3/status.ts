@@ -1,4 +1,11 @@
 #!/usr/bin/env -S npx tsx
+/**
+ * ⚠️ DEPRECATED (14. 10. 2026) — NESPOUŠTĚT bez ověření dat.
+ *
+ * Pracuje s daty z Rap Monitoru = interní AI sběrná apka → AI-generated,
+ * vyžaduje ověření. Vygenerovaný AI obsah byl z DB odstraněn (Fáze 2.2).
+ * Viz scripts/phase3/README-DEPRECATED.md a PLAN-AI-SLOP-TRACKS.md.
+ */
 /** Rychlý stav fáze 3 — počty z disku (source of truth). */
 import * as fs from "node:fs";
 import * as path from "node:path";

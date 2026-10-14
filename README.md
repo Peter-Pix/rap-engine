@@ -291,6 +291,30 @@ GET    /api/search-index               Fulltext MiniSearch dump (client-side)
 - **Hledání problémů s FK** — `npm run cache:validate` vypíše dangling relations a duplikáty. Před commitem vždycky spustit.
 - **Dávkové importy** — v `scripts/` je ~90 skriptů pro různé zdroje (44rap, base44, rap-monitor, rap-zzz, ego, separ, …). Každý má vlastní komentář na začátku; cluster je `import-*` pro nové feedy, `add-*` / `fix-*` pro opravy, `batch-*` pro hromadné operace.
 
+
+## ⚠️ Kvalita dat — zdroje a AI
+
+**Rap Monitor (`rap-monitor.base44.app`) je INTERNÍ AI sběrná apka.** Jeho data
+(`phase3Pas`, `themes`, `moods`, texty, AI eseje) jsou **AI-generated a vyžadují
+ověření** — **nejsou autorita**.
+
+**Obsah v MDX = FAKTA, ne AI.** Povolené sekce u skladeb: O skladbě, Fakta,
+Kontext, Poslechnout a zdroje. Sekce jako „O čem je", „Produkce",
+„Interpretace", „Dopad" (AI eseje) byly 14. 10. 2026 odstraněny — **nevracet**.
+
+**Index gate stojí na faktech, ne na AI klasifikaci:**
+
+```
+index   ⟸ artist + délka + (žánr NEBO label NEBO feat NEBO producent) + MDX ≥400
+noindex ⟸ jinak
+```
+
+`phase3Pas` zůstává v `extraMeta` jen jako historická stopa, **nerozhoduje**.
+`scripts/phase3/` je **DEPRECATED** (viz `scripts/phase3/README-DEPRECATED.md`).
+
+**Pravidlo:** zdroj dat klasifikovat (ověřený vs AI) PŘED použitím.
+Vlastní AI apka ≠ autorita. Detail: `PLAN-AI-SLOP-TRACKS.md`.
+
 ## Repo konvence
 
 - **Branch:** `13-7-26-backup` (snapshot z 13. 7. 2026 — viz commit `d538fab4`)
