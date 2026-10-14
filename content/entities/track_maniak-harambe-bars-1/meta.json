@@ -12,7 +12,10 @@
     "sources": [
       "https://www.discogs.com/release/9438559"
     ],
-    "generatedFrom": "discogs-import"
+    "generatedFrom": "discogs-import",
+    "noindex": true,
+    "isStub": true,
+    "stubReason": "thin content < 400 znaků (MDX)"
   },
   "verification": "verified"
 }
