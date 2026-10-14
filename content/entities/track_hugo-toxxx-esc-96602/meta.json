@@ -13,7 +13,11 @@
     "sources": [
       "https://www.deezer.com/track/1601996602"
     ],
-    "generatedFrom": "hugo-mumie-fix"
+    "generatedFrom": "hugo-mumie-fix",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "verified"
 }

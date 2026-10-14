@@ -12,7 +12,11 @@
     "sources": [
       "https://www.discogs.com/release/13506793"
     ],
-    "generatedFrom": "discogs-import"
+    "generatedFrom": "discogs-import",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "verified"
 }

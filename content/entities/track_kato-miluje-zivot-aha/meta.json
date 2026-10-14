@@ -10,7 +10,11 @@
     "sources": [
       "https://www.deezer.com/track/790617192"
     ],
-    "generatedFrom": "prago-union-import"
+    "generatedFrom": "prago-union-import",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "verified"
 }

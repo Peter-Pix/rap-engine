@@ -9,7 +9,7 @@
     "generatedFrom": "rap-monitor",
     "phase3Done": true,
     "phase3Pas": "B",
-    "noindex": false,
+    "noindex": true,
     "themes": [
       "noční jízda městem",
       "Praha – Bertramka a Anděl",
@@ -23,7 +23,10 @@
       "sebevědomá",
       "noční"
     ],
-    "sourceLyrics": "rap-monitor"
+    "sourceLyrics": "rap-monitor",
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "unverified"
 }

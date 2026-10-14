@@ -13,7 +13,11 @@
     "sources": [
       "https://www.deezer.com/track/3674314432"
     ],
-    "generatedFrom": "batch-tracks-recovery"
+    "generatedFrom": "batch-tracks-recovery",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "verified"
 }

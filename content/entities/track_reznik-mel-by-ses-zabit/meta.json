@@ -26,7 +26,11 @@
     "sources": [
       "https://rap-monitor.base44.app"
     ],
-    "featVerifiedBy": "title"
+    "featVerifiedBy": "title",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "youtube": {
     "id": "FvW90aB7a1s",

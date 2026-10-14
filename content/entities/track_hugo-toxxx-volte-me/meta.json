@@ -9,7 +9,7 @@
     "generatedFrom": "rap-monitor",
     "phase3Done": true,
     "phase3Pas": "B",
-    "noindex": false,
+    "noindex": true,
     "themes": [
       "politická satira",
       "populismus",
@@ -24,7 +24,10 @@
       "ironická",
       "agresivní"
     ],
-    "sourceLyrics": "rap-monitor"
+    "sourceLyrics": "rap-monitor",
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "unverified"
 }

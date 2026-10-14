@@ -11,7 +11,11 @@
     "sources": [
       "https://open.spotify.com/track/6UoMv6QZ6B8B5IuG7hXn0t",
       "https://www.youtube.com/watch?v=KzVvYn8OqL0"
-    ]
+    ],
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "youtube": {
     "id": "KzVvYn8OqL0",

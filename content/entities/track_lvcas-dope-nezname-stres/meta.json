@@ -8,7 +8,11 @@
   "extraMeta": {
     "duration": null,
     "explicit": true,
-    "sources": []
+    "sources": [],
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "youtube": {
     "id": "hslqfVD1xFk",

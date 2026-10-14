@@ -9,7 +9,7 @@
     "generatedFrom": "rap-monitor",
     "phase3Done": true,
     "phase3Pas": "B",
-    "noindex": false,
+    "noindex": true,
     "themes": [
       "osobní restart",
       "nová identita",
@@ -23,7 +23,10 @@
       "agresivní",
       "energická"
     ],
-    "sourceLyrics": "rap-monitor"
+    "sourceLyrics": "rap-monitor",
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "unverified"
 }

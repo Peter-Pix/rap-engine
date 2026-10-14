@@ -13,7 +13,11 @@
     "sources": [
       "https://www.deezer.com/track/1229987482"
     ],
-    "generatedFrom": "batch-tracks-recovery"
+    "generatedFrom": "batch-tracks-recovery",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "verified",
   "image": "https://cdn-images.dzcdn.net/images/cover/3abe0058a863062822d4e28d62035aea/1000x1000-000000-80-0-0.jpg"

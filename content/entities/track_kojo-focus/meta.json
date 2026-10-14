@@ -25,7 +25,11 @@
     "sources": [
       "https://rap-monitor.base44.app"
     ],
-    "featVerifiedBy": "title"
+    "featVerifiedBy": "title",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "publishedAt": "2020-01-01",
   "verification": "verified"

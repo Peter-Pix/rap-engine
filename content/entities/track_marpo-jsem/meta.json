@@ -8,7 +8,7 @@
     "generatedFrom": "rap-monitor",
     "phase3Done": true,
     "phase3Pas": "B",
-    "noindex": false,
+    "noindex": true,
     "themes": [
       "identita",
       "vnitřní síla",
@@ -23,7 +23,10 @@
       "reflexivní",
       "hymnická"
     ],
-    "sourceLyrics": "rap-monitor"
+    "sourceLyrics": "rap-monitor",
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "publishedAt": "2020-01-01",
   "verification": "unverified"

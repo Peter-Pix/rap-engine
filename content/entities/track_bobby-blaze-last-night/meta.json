@@ -13,7 +13,11 @@
     "sources": [
       "https://www.deezer.com/track/2501795171"
     ],
-    "generatedFrom": "batch-tracks-recovery"
+    "generatedFrom": "batch-tracks-recovery",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "verified",
   "image": "https://cdn-images.dzcdn.net/images/cover/3ab5d1507711b598a8f54f3b42d32bc5/1000x1000-000000-80-0-0.jpg"

@@ -13,7 +13,11 @@
     "sources": [
       "https://www.deezer.com/track/2720376732"
     ],
-    "generatedFrom": "batch-tracks-recovery"
+    "generatedFrom": "batch-tracks-recovery",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "verified",
   "image": "https://cdn-images.dzcdn.net/images/cover/394ee4393c2ffa447155987e97c1d38c/1000x1000-000000-80-0-0.jpg"

@@ -27,25 +27,32 @@ describe("noindex gate", () => {
   const entities = loadEntities();
   const ids = Object.keys(entities);
 
-  it("importované tracklist skladby: C = noindex+isStub, A/B = bohatý obsah bez noindex", () => {
-    const imported = ids
-      .map((id) => entities[id])
-      .filter((e) => e.extraMeta?.generatedFrom === "deezer-tracklist");
-    assert.ok(imported.length > 0, "žádné importované skladby — spusť cache:build");
-    for (const e of imported) {
+  it("faktický gate: index ⟸ fakta (album+artist+délka+žánr/label) A obsah ≥400", () => {
+    // Gate NESMÍ stát na AI klasifikaci (phase3Pas z Rap Monitoru = AI odhad).
+    // Autorita = objektivní fakta + dostatečný obsah (no thin content).
+    for (const id of ids) {
+      const e = entities[id];
+      if (e.type !== "track") continue;
       const em = e.extraMeta ?? {};
+      const rel = e.outbound ?? {};
       const content = (e.content ?? "").length;
-      if (em.phase3Pas === "C") {
-        // holá metadata → thin content → musí zůstat stub
-        assert.strictEqual(em.noindex, true, `${e.id} (C) nemá noindex:true`);
-        assert.strictEqual(em.isStub, true, `${e.id} (C) nemá isStub:true`);
-      } else if (em.phase3Pas === "A" || em.phase3Pas === "B") {
-        // quality gate prošel → noindex/isStub sundán, ale obsah musí být bohatý
-        assert.notStrictEqual(em.noindex, true, `${e.id} (A/B) má stale noindex`);
-        assert.notStrictEqual(em.isStub, true, `${e.id} (A/B) má stale isStub`);
-        assert.ok(
-          content >= 400,
-          `${e.id} (A/B) sundaný noindex, ale obsah jen ${content} znaků — thin content indexovatelný!`,
+      const hasFacts =
+        (rel.HAS_ARTIST ?? []).length > 0 &&
+        Boolean(em.duration) &&
+        ((rel.HAS_GENRE ?? []).length > 0 ||
+          (rel.RELEASED_BY ?? []).length > 0 ||
+          (rel.FEATURES ?? []).length > 0 ||
+          (rel.PRODUCED_BY ?? []).length > 0);
+      const indexable = hasFacts && content >= 400;
+
+      if (indexable) {
+        assert.notStrictEqual(em.isStub, true, `${id} je indexovatelný (fakta+obsah), ale je stub`);
+        assert.notStrictEqual(em.noindex, true, `${id} je indexovatelný (fakta+obsah), ale má noindex`);
+      } else {
+        assert.strictEqual(
+          em.noindex === true || em.isStub === true,
+          true,
+          `${id} není indexovatelný (chybí fakta nebo obsah <400), ale nemá noindex`,
         );
       }
     }

@@ -13,7 +13,11 @@
     "sources": [
       "https://www.deezer.com/track/1094243342"
     ],
-    "generatedFrom": "batch-tracks-recovery"
+    "generatedFrom": "batch-tracks-recovery",
+    "noindex": true,
+    "isStub": true,
+    "gateBy": "facts",
+    "stubReason": "thin facts (bez alba/artistu/délky/žánru)"
   },
   "verification": "verified",
   "image": "https://cdn-images.dzcdn.net/images/cover/7efa5419dd22351c1301e2b7226182d7/1000x1000-000000-80-0-0.jpg"
